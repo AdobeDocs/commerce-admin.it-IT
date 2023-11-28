@@ -1,0 +1,109 @@
+---
+title: Creare e aggiornare gli eventi
+description: Scopri come creare un evento associato a una categoria dal catalogo.
+exl-id: 6c9f6a33-6785-4c3a-add6-dc2a6b16ed88
+feature: Marketing Tools, Promotions/Events
+source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 0%
+
+---
+
+# Creare e aggiornare gli eventi
+
+{{ee-feature}}
+
+Ogni evento è associato a una categoria del catalogo e a una determinata categoria può essere associato un solo evento alla volta. Per visualizzare un elenco dei prossimi eventi nel tuo store, devi anche impostare una [Carosello eventi catalogo](../content-design/widget-event-carousel.md) widget.
+
+![Elenco eventi](./assets/category-events.png){width="700" zoomable="yes"}
+
+## Creare un evento
+
+1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**.
+
+1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Add Catalog Event]**.
+
+1. Nell&#39;albero delle categorie scegliere la categoria che si desidera associare all&#39;evento.
+
+   Poiché ogni categoria può avere un solo evento alla volta, tutte le categorie che hanno già un evento vengono disabilitate.
+
+   ![Nuovo evento - Albero categoria](./assets/catalog-events-category-tree.png){width="500" zoomable="yes"}
+
+1. Definisci il **[!UICONTROL Catalog Event Information]**:
+
+   ![Informazioni sull’evento catalogo](./assets/catalog-event-information.png){width="700" zoomable="yes"}
+
+   - Per **[!UICONTROL Start Date]** dell’evento, utilizza il calendario (![Icona Calendario](../assets/icon-calendar.png)) per scegliere la data. Utilizza il **[!UICONTROL Hour]** e **[!UICONTROL Minute]** cursori per impostare l&#39;ora di inizio dell&#39;evento.
+
+   - Per **[!UICONTROL End Date]** dell’evento, utilizza il calendario (![Icona Calendario](../assets/icon-calendar.png)) per scegliere la data. Utilizza il **[!UICONTROL Hour]** e **[!UICONTROL Minute]** cursori per impostare l&#39;ora di fine dell&#39;evento.
+
+   - Per caricare un **[!UICONTROL Image]** per il widget evento, fai clic su **[!UICONTROL Choose File]** e selezionare il file di immagine dalla directory.
+
+   - In **[!UICONTROL Sort Order]** immettere un numero per indicare la sequenza in cui viene visualizzato l&#39;evento quando è elencato con altri eventi.
+
+   - Selezionare la casella di controllo di ogni tipo di pagina in cui si desidera visualizzare il ticker del conto alla rovescia.
+
+1. Al termine, fai clic su **[!UICONTROL Save]**.
+
+## Aggiornare gli eventi
+
+Gli eventi possono essere modificati dalla pagina Eventi o dalla categoria associata all’evento. Quando a una categoria è associato un evento, nell’angolo in alto a destra viene visualizzato il pulsante Modifica evento.
+
+### Metodo 1: modificare un evento dalla pagina Eventi
+
+1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**.
+
+1. Trovare l&#39;evento nell&#39;elenco e aprirlo in modalità di modifica.
+
+1. Apporta le modifiche necessarie all&#39;evento.
+
+1. Al termine, fai clic su **[!UICONTROL Save]**.
+
+### Metodo 2: modificare un evento da una categoria
+
+1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+
+1. Nell&#39;albero delle categorie a sinistra, selezionare la categoria associata all&#39;evento.
+
+1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Edit Even]t**.
+
+1. Apporta le modifiche necessarie all&#39;evento.
+
+1. Al termine, fai clic su **[!UICONTROL Save]**.
+
+## Eliminare un evento
+
+1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**.
+
+1. Trova l’evento nell’elenco e aprilo in modalità di modifica.
+
+1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Delete]**.
+
+1. Per confermare l’azione, fai clic su **[!UICONTROL OK]**.
+
+## Descrizioni dei campi
+
+| Campo | [Ambito](../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Category] | Globale | Durante la creazione di un evento, questo campo si collega alla struttura ad albero delle categorie. Durante la modifica di un evento, si collega alla pagina della categoria relativa all’evento. |
+| [!UICONTROL Start Date] | Globale | Data e ora di inizio dell’evento in `MMDDYYYY HH;MM` formato. Fai clic sull’icona del calendario per selezionare la data. |
+| [!DNL End Date] | Globale | Data e ora di fine dell’evento in `MMDDYYYY HH;MM` formato. Fai clic sull’icona del calendario per selezionare la data. |
+| [!UICONTROL Image] | Visualizzazione store | Carica un&#39;immagine che appare nel [Widget carosello eventi catalogo](../content-design/widget-event-carousel.md). |
+| [!UICONTROL Sort Order] | Globale | Determina la sequenza in cui l&#39;evento viene visualizzato quando è elencato con altri eventi. |
+| [!UICONTROL Display Countdown Ticker On] | Globale | Visualizza il ticker del conto alla rovescia nell&#39;intestazione di ogni pagina specificata. Opzioni: `Category Page` / `Product Page` |
+| [!UICONTROL Status] | Globale | Indica lo stato dell’evento in base all’intervallo di date di inizio e di fine. Stato è un valore di sola lettura. Valori: `Open` / `Closed` / `Upcoming` |
+
+{style="table-layout:auto"}
+
+## Barra dei pulsanti
+
+| Pulsante | Descrizione |
+|--- |--- |
+| **[!UICONTROL Back]** | Torna alla pagina Eventi senza salvare il nuovo evento o le modifiche apportate a un evento esistente. |
+| **[!UICONTROL Delete]** | Elimina l’evento. |
+| **[!UICONTROL Reset]** | Cancella la forma di eventuali modifiche non salvate e ripristina le informazioni originali dell&#39;evento. |
+| **[!UICONTROL Save and Continue Edit]** | Salva tutte le modifiche e mantiene la maschera aperta in modalità di modifica. |
+| **[!UICONTROL Save]** | Salva le modifiche, chiude il modulo e torna alla pagina Eventi. |
+
+{style="table-layout:auto"}

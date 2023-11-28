@@ -1,0 +1,623 @@
+---
+title: Media - Cursore
+description: Scopri il tipo di contenuto Cursore, utilizzato per aggiungere una presentazione di immagini al [!DNL Page Builder] fase.
+exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
+feature: Page Builder, Page Content
+source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+workflow-type: tm+mt
+source-wordcount: '3799'
+ht-degree: 0%
+
+---
+
+# Media - Cursore
+
+Utilizza il _Cursore_ tipo di contenuto per aggiungere una presentazione di immagini al [[!DNL Page Builder] fase](workspace.md#stage). Puoi caricare nuove immagini o scegliere quelle esistenti dalla galleria o dal catalogo dei prodotti. Un dispositivo di scorrimento può essere impostato per la riproduzione automatica o controllato manualmente con i pulsanti di navigazione. Per associare il cursore a una promozione specifica, vedere [Blocco dinamico](dynamic-block.md).
+
+![Cursore multimediale sulla vetrina](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
+
+{{$include /help/_includes/page-builder-save-timeout.md}}
+
+## Caselle degli strumenti
+
+Quando si utilizza il tipo di contenuto Dispositivo di scorrimento, è possibile aggiungere e modificare singole diapositive e il relativo contenitore che contiene una o più diapositive. Ogni diapositiva dispone di una casella degli strumenti che consente di progettare le diapositive sulla [!DNL Page Builder] fase.
+
+## Casella degli strumenti di una singola diapositiva
+
+![Casella degli strumenti di una singola diapositiva](./assets/pb-media-slider-toolbox-slide-row.png){width="500" zoomable="yes"}
+
+| Strumento | Icona | Descrizione |
+|--- |--- |--- |
+| Sposta | ![Icona Sposta](./assets/pb-icon-move.png){width="25"} | Sposta la diapositiva in un&#39;altra posizione sul dispositivo di scorrimento. |
+| (etichetta) | N. diapositiva | Identifica il numero della diapositiva corrente. |
+| Impostazioni | ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} | Apre il _[!UICONTROL Edit Slide]_pagina, in cui è possibile modificare le proprietà della diapositiva corrente. |
+| Duplica | ![Icona Duplica](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia della diapositiva corrente. |
+| Rimuovi | ![Icona Rimuovi](./assets/pb-icon-remove.png){width="25"} | Elimina la diapositiva corrente dal cursore. |
+
+{style="table-layout:auto"}
+
+## Casella degli strumenti cursore
+
+| Strumento | Icona | Descrizione |
+|--- |--- |--- |
+| Sposta | ![Icona Sposta](./assets/pb-icon-move.png){width="25"} | Sposta il dispositivo di scorrimento in un&#39;altra posizione sullo stage. |
+| (etichetta) | [!UICONTROL Slider] | Identifica il contenitore cursore. |
+| Impostazioni | ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} | Apre il _[!UICONTROL Edit Slider]_, in cui è possibile modificare le proprietà del video e del contenitore. |
+| Nascondi | ![Nascondi icona](./assets/pb-icon-hide.png){width="25"} | Nasconde il cursore corrente. |
+| Spettacolo | ![Mostra icona](./assets/pb-icon-show.png){width="25"} | Mostra il cursore nascosto. |
+| Duplica | ![Icona Duplica](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia del cursore. |
+| Rimuovi | ![Icona Rimuovi](./assets/pb-icon-remove.png){width="25"} | Elimina il cursore dall&#39;area di visualizzazione. |
+
+{style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
+## Aggiungere una singola diapositiva
+
+1. Aprire la pagina, il blocco o il blocco dinamico in cui si desidera posizionare il cursore ed espandere **[!UICONTROL Content]** sezione.
+
+1. In [!DNL Page Builder] pannello, espandere **[!UICONTROL Media]** e trascina un **[!UICONTROL Slider]** segnaposto per una riga, colonna o scheda sullo stage.
+
+   Nell&#39;esempio seguente, il colore di sfondo della riga è giallo (`#fffd16`).
+
+   ![Trascinamento del cursore sull&#39;area di visualizzazione](./assets/pb-media-slider-drag-row.png){width="600" zoomable="yes"}
+
+   Il contenitore del dispositivo di scorrimento viene visualizzato sullo stage con una singola diapositiva vuota.
+
+1. Fai clic nel contenitore cursore per visualizzare [editor di testo](../content-design/editor.md) e immettere il contenuto per la prima diapositiva.
+
+   È inoltre possibile includere contenuto banner più complesso utilizzando [Contenuto](#content) impostazioni.
+
+1. Fare clic sul punto di spostamento nella parte inferiore del dispositivo di scorrimento per visualizzare la casella degli strumenti per la singola diapositiva e scegliere _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+
+   I cursori dispongono di due caselle degli strumenti. Assicurarsi di utilizzare la casella degli strumenti della diapositiva nella parte inferiore.
+
+1. Completare le impostazioni, se necessario, in base alle sezioni seguenti:
+
+   - [[!UICONTROL Appearance]](#appearance)
+   - [[!UICONTROL Background]](#background)
+   - [[!UICONTROL Content]](#content)
+   - [[!UICONTROL Search Engine Optimization]](#seo)
+   - [[!UICONTROL Advanced]](#advanced)
+
+1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+
+## Aggiungi altre diapositive
+
+Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con una singola diapositiva e creare un cursore reattivo che presenta funzioni e collegamenti a prodotti specifici. Se non si dispone già di una singola diapositiva, seguire le istruzioni precedenti per aggiungere una singola diapositiva all&#39;area di visualizzazione.
+
+Per aggiungere diapositive, utilizzare uno dei metodi seguenti o una loro combinazione:
+
+### Metodo 1: duplicare una diapositiva esistente
+
+È possibile risparmiare tempo duplicando una diapositiva già configurata con le impostazioni necessarie.
+
+1. Fare clic sul punto di navigazione sotto la diapositiva per visualizzare la casella degli strumenti e scegliere _Duplica_ ( ![Icona Duplica](./assets/pb-icon-duplicate.png){width="20"} ).
+
+   ![Duplicazione di una diapositiva](./assets/pb-media-slider-duplicate-slide.png){width="500" zoomable="yes"}
+
+1. Fare clic sul punto di spostamento per la nuova diapositiva e per visualizzare la casella degli strumenti e scegliere _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+
+1. Modificare le impostazioni in base alle esigenze, secondo le sezioni riportate di seguito.
+
+   - [[!UICONTROL Appearance]](#appearance)
+   - [[!UICONTROL Background]](#background)
+   - [[!UICONTROL Content]](#content)
+   - [[!UICONTROL Advanced]](#advanced)
+
+1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+
+### Metodo 2: aggiungere una nuova diapositiva vuota
+
+1. Passa il cursore del mouse sul contenitore nella parte superiore per visualizzare la casella degli strumenti e scegli la _Aggiungi_ ( ![Icona Aggiungi](./assets/pb-icon-add.png){width="20"} ).
+
+   ![Aggiunta di una diapositiva vuota](./assets/pb-media-slider-toolbox-add.png){width="500" zoomable="yes"}
+
+   Una nuova diapositiva vuota con un punto di navigazione e una casella degli strumenti specifici viene aggiunta al dispositivo di scorrimento e visualizzata sullo stage.
+
+   ![Nuova diapositiva con casella degli strumenti](./assets/pb-media-slider-slide2-toolbox.png){width="500" zoomable="yes"}
+
+1. Fare clic sul punto di spostamento per la nuova diapositiva e per visualizzare la casella degli strumenti e scegliere _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+
+1. Modificare le impostazioni in base alle esigenze, secondo le sezioni riportate di seguito.
+
+   - [[!UICONTROL Appearance]](#appearance)
+   - [[!UICONTROL Background]](#background)
+   - [[!UICONTROL Content]](#content)
+   - [[!UICONTROL Advanced]](#advanced)
+
+1. Al termine, fai clic su **[!UICONTROL Save]** nell&#39;angolo superiore destro per chiudere _[!UICONTROL Edit Slide]_pagina.
+
+### Aggiungere un widget a una diapositiva
+
+Puoi aggiungere qualsiasi [tipo di widget](../content-design/widgets.md#widget-types) alla diapositiva in una [!DNL Page Builder] staging utilizzando i passaggi seguenti:
+
+1. [Creare il widget](../content-design/widget-create.md) che si desidera visualizzare in una diapositiva.
+
+1. Aprire la pagina, il blocco o il blocco dinamico in cui si desidera posizionare il cursore ed espandere **[!UICONTROL Content]** sezione.
+
+1. In [!DNL Page Builder] pannello, espandere **[!UICONTROL Media]** e trascina un **[!UICONTROL Slider]** segnaposto per una riga, colonna o scheda sullo stage.
+
+1. Fai clic nel contenitore cursore per visualizzare [editor di testo](../content-design/editor.md) e fare clic sul pulsante _Inserisci widget_ ( ![Icona Inserisci widget](./assets/editor-btn-insert-widget.png){width="20"} ).
+
+1. Seleziona la **[!UICONTROL Widget Type]** ti serve.
+
+1. Specifica le impostazioni, che sono diverse a seconda del tipo di widget
+
+   ![Esempio di inserimento di un widget sulla diapositiva](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
+
+1. Al termine, fai clic su **[!UICONTROL Insert Widget]** nell’angolo superiore destro.
+
+1. Modificare le altre impostazioni in base alle esigenze.
+
+1. Al termine, fai clic su **[!UICONTROL Save]** nell’angolo superiore destro.
+
+   ![Esempio di widget inserito nella diapositiva](./assets/inserting-widget-on-slide.png){width="600" zoomable="yes"}
+
+### Visualizza ogni diapositiva
+
+Per visualizzare tutte le diapositive sullo stage, fare clic sul punto successivo sotto la diapositiva visualizzata.
+
+![Cursore completato](./assets/pb-media-slider-slide2.png){width="500" zoomable="yes"}
+
+La diapositiva nell’esempio precedente presenta un’immagine di sfondo, un’immagine mobile trasparente e un’immagine in linea aggiunta dall’editor di testo. Questa tecnica funziona bene sui dispositivi mobili disattivando l’immagine di sfondo e visualizzando solo l’immagine in linea più piccola. La diapositiva prodotto in questo esempio presenta le seguenti impostazioni aggiuntive:
+
+| Opzione | Impostazione di esempio |
+|--- |--- |
+| [!UICONTROL Appearance] | `Collage Right` |
+| [!UICONTROL Background Color] | `#ffffff` (Bianco) |
+| [!UICONTROL Background Image] | L&#39;immagine in questa diapositiva è stata salvata dalla pagina del prodotto e caricata nella raccolta. |
+| [!UICONTROL Mobile Background Image] | L’immagine di sfondo mobile è un’immagine trasparente quadrata di 10 pixel. L’utilizzo di un’immagine vuota per dispositivi mobili sostituisce efficacemente l’immagine di sfondo standard con un’immagine invisibile. |
+| [!UICONTROL Background Size] | `Auto` |
+| [!UICONTROL Message Text] | `Minerva LumaTech&trade; V-Tee` (Allinea al centro) con immagine inserita ridimensionata al 40% (Allinea al centro) |
+| [!UICONTROL Link] | `Product` |
+| [!UICONTROL Show Button] | `Always` |
+| [!UICONTROL Button Text] | `Buy Now` |
+| [!UICONTROL Show Overlay] | `Never Show` |
+| [!UICONTROL Alignment] | `Center` (per allineare il pulsante) |
+| [!UICONTROL Border] | `Solid` |
+| [!UICONTROL Border Color] | `#000000` (Nero) |
+| [!UICONTROL Border Width] | `1 px` |
+
+{style="table-layout:auto"}
+
+## Modificare le impostazioni delle singole diapositive
+
+1. Modificare la visualizzazione del dispositivo di scorrimento sullo stage e visualizzare la diapositiva che si desidera modificare.
+
+1. Nella casella degli strumenti della singola diapositiva, scegliere _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ) e completare le impostazioni, come necessario, in base alle sezioni seguenti.
+
+1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+
+### [!UICONTROL Appearance]
+
+1. Scegliete uno dei seguenti tipi di posizionamento delle diapositive:
+
+   | Tipo | Descrizione |
+   | ---- | ----------- |
+   | `Poster` | Centra il contenuto della diapositiva nel contenitore cursore. La sovrapposizione, se utilizzata, estende l&#39;intera larghezza del dispositivo di scorrimento. |
+   | `Collage Left` | Inserisce il contenuto della diapositiva in un&#39;area definita sul lato sinistro del contenitore del dispositivo di scorrimento. La sovrapposizione, se utilizzata, copre solo l&#39;area definita. |
+   | `Collage Center` | Posiziona il contenuto della diapositiva in un&#39;area definita centrata sul contenitore del dispositivo di scorrimento. La sovrapposizione, se utilizzata, copre solo l&#39;area definita. |
+   | `Collage Right` | Inserisce il contenuto della diapositiva in un&#39;area definita sul lato destro del contenitore del dispositivo di scorrimento. La sovrapposizione, se utilizzata, copre solo l&#39;area definita. |
+
+   {style="table-layout:auto"}
+
+   ![Posizionamento diapositiva](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
+
+1. Inserisci il **[!UICONTROL Slide Name]**.
+
+   Quando si utilizza la modalità di modifica, il nome della diapositiva viene visualizzato come descrizione comando sopra il punto di navigazione. Il nome della diapositiva non è visibile dalla vetrina.
+
+   ![Nome della diapositiva nella navigazione](./assets/pb-media-slider-name-buy3-get1free.png){width="500" zoomable="yes"}
+
+1. Inserisci il **[!UICONTROL Minimum Height]** per la diapositiva.
+
+   L’altezza minima può essere un numero con qualsiasi unità CSS valida (ad esempio `100px`, `50%`, `50em`, `100vh`) o un calcolo (ad esempio `100vh - 237px`).
+
+   Ad esempio, puoi impostare l’altezza minima della diapositiva in modo da coprire l’intera altezza della pagina, quindi utilizzare immagini e video di sfondo per opzioni di progettazione interessanti.
+
+   >[!NOTE]
+   >
+   >Quando la diapositiva è impostata sull&#39;altezza completa della pagina (100 vh), il dispositivo di scorrimento che contiene la diapositiva estende anche l&#39;altezza completa della pagina per adattarla all&#39;altezza della diapositiva.
+
+## [!UICONTROL Background]
+
+Sono disponibili molte opzioni per definire la visualizzazione di sfondo di una diapositiva. Potete applicare un colore semplice o un&#39;immagine di sfondo e gestire effetti più sofisticati.
+
+### [!UICONTROL Background Color]
+
+Specificate il colore di sfondo scegliendo un campione, facendo clic sul selettore del colore o immettendo un nome di colore valido o un valore esadecimale equivalente. Questa impostazione determina il colore di sfondo della riga. Potete anche regolare l&#39;opacità del colore.
+
+![Nessun colore (predefinito)](./assets/pb-settings-background-color-no-color.png){width="200"}
+
+È possibile impostare il valore in uno dei tre modi seguenti:
+
+- Un nome di colore predefinito, ad esempio `White`
+- Valore esadecimale del colore, ad esempio `#ffffff`
+- Il valore rgba del colore, con percentuale di opacità, ad esempio `rgba(255, 255, 255, 0.75)`
+
+Se desiderate scegliere un colore, fate clic sul campione a sinistra della _Nessun colore_ casella.
+
+![Scelta di un campione di colore](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+
+Se fate clic sulla casella del colore per aprire nuovamente il selettore colore, la casella sotto il cursore mostra i valori correnti di rosso, verde, blu e alfa (rgba). L&#39;ultimo numero indica la percentuale di opacità corrente come valore decimale. È possibile utilizzare il dispositivo di scorrimento per regolare l&#39;opacità o immettere il valore decimale desiderato.
+
+![Impostazione dell&#39;opacità del colore di sfondo](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>[!DNL Page Builder] supporta anche un livello di trasparenza, oppure _canale alfa_, nelle immagini di sfondo che possono essere utilizzate per creare sfondi con vari gradi di opacità.
+
+### [!UICONTROL Background Type]
+
+Un tipo di sfondo può essere un&#39;immagine o un video. [!DNL Page Builder] impostazione predefinita `Image` e mostra varie impostazioni di immagine. Se si seleziona `Video`, [!DNL Page Builder] sostituisce le impostazioni immagine con le impostazioni video. Entrambe le impostazioni del tipo di sfondo sono descritte nelle sezioni seguenti.
+
+![Tipo di sfondo](./assets/pb-background-type.png){width="400"}
+
+### Impostazioni del tipo di immagine
+
+Se si imposta _[!UICONTROL Background Type]_a `Image`, utilizza le seguenti impostazioni per definire la visualizzazione dell&#39;immagine di sfondo.
+
+![Banner con immagine di sfondo](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
+
+- **[!UICONTROL Background Image]** - Se necessario, usate gli strumenti forniti per scegliere un&#39;immagine di sfondo da applicare al banner:
+
+  | Strumento | Descrizione |
+  | ---- | ----------- |
+  | [!UICONTROL Upload] | Carica un file di immagine dal computer locale alla raccolta e lo applica come immagine di sfondo del banner. |
+  | [!UICONTROL Select from Gallery] | Richiede di scegliere un&#39;immagine esistente dalla raccolta come immagine di sfondo per il banner. |
+  | ![Icona fotocamera](./assets/pb-icon-camera.png){width="25"} | Consente di trascinare l&#39;immagine nella sezione della fotocamera o di spostarsi sull&#39;immagine nel file system locale. |
+
+  {style="table-layout:auto"}
+
+- **[!UICONTROL Background Mobile Image]** - Se necessario, utilizzare gli stessi strumenti per scegliere un&#39;immagine di sfondo diversa da utilizzare per la visualizzazione su dispositivi mobili.
+
+- **[!UICONTROL Background Size]** - Scegli come ridimensionare l&#39;immagine di sfondo in relazione alla larghezza del banner:
+
+  | Opzione | Descrizione |
+  | ------ | ----------- |
+  | `Cover` | L&#39;immagine di sfondo copre l&#39;intera larghezza del banner. |
+  | `Contain` | L&#39;immagine di sfondo è limitata alla larghezza dell&#39;area dei contenuti. |
+  | `Auto` | Applica le dimensioni dal foglio di stile corrente. |
+
+  {style="table-layout:auto"}
+
+  ![Dimensione sfondo](./assets/pb-layout-row-settings-background-size-cover.png){width="400"}
+
+- **[!UICONTROL Background Position]** - Scegli come l&#39;immagine di sfondo viene ancorata in relazione al banner:
+
+  | Punto di ancoraggio | Posizione |
+  | ------------ | -------- |
+  | `Top` | Sinistra/Centro/Destra |
+  | `Center` | Sinistra/Centro/Destra |
+  | `Bottom` | Sinistra/Centro/Destra |
+
+  {style="table-layout:auto"}
+
+  Il punto di ancoraggio è simile a una spina che collega l&#39;immagine al banner nella posizione di sfondo specificata.
+
+- **[!UICONTROL Background Repeat]** - Se si desidera ripetere l&#39;immagine di sfondo per riempire lo spazio, modificare questa impostazione `Yes`.
+
+### Impostazioni del tipo di video
+
+Se si imposta _Tipo di sfondo_ a `Video`, utilizza le seguenti impostazioni per definire la visualizzazione dell&#39;immagine di sfondo.
+
+- **[!UICONTROL Video URL]** - Inserisci un URL video valido. Gli URL video validi possono essere collegamenti a:
+
+   - Video su YouTube: `https://youtu.be/CoDhMRUUjeI`
+   - Video su Vimeo: `https://vimeo.com/190156113`
+   - File video validi (`.mp4` consigliato): `https://myvideos.com/spiral.mp4`
+
+  ![URL video di sfondo](./assets/pb-video-url.png){width="500"}
+
+- **[!UICONTROL Overlay Color]** - Selezionate un colore per applicare una tinta trasparente al video.
+
+- **[!UICONTROL Infinite Loop]** - Imposta su `No` per fare in modo che il video venga riprodotto una volta e interrotto. Quando questa opzione è impostata su `Yes` (impostazione predefinita), il video viene ripetuto in un ciclo infinito.
+
+- **[!UICONTROL Lazy Load]** - Imposta su `No` per caricare il video con la pagina, anche quando non è visibile. Quando questa opzione è impostata su `Yes` (impostazione predefinita), il video viene caricato dall’origine solo se visibile sullo schermo.
+
+- **[!UICONTROL Play Only When Visible]** - Imposta su `No` per avviare la riproduzione del video subito dopo il suo caricamento, indipendentemente dal fatto che sia visibile o meno. Quando questa opzione è impostata su `Yes` (impostazione predefinita), la riproduzione del video inizia solo quando è visibile.
+
+- **[!UICONTROL Fallback Image]** : se necessario, specifica un’immagine da visualizzare sullo schermo prima che il video venga caricato e se per qualche motivo non viene caricato.
+
+## [!UICONTROL Content]
+
+È possibile modificare il contenuto della diapositiva direttamente sullo stage o quando si modificano le impostazioni. Le impostazioni forniscono funzioni di contenuto più complesse, ad esempio collegamenti e pulsanti delle diapositive, e sovrapposizioni. La posizione del contenuto riflette [Aspetto](#appearance) posizionamento.
+
+### Contenuto semplice sull’area di visualizzazione
+
+1. Fare clic sul segnaposto o sul testo esistente e immettere il nuovo testo che si desidera visualizzare nella diapositiva.
+
+   La barra degli strumenti dell&#39;editor viene visualizzata sopra la casella di testo.
+
+1. Utilizza la barra degli strumenti dell’editor per immettere e formattare il testo, nonché per inserire elementi quali collegamenti, immagini e widget.
+
+   ![Posiziona nell&#39;area intermedia con testo formattato](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
+
+### Contenuto complesso nelle impostazioni
+
+1. Fare clic sul punto di spostamento nella parte inferiore del dispositivo di scorrimento per visualizzare la casella degli strumenti per la singola diapositiva e scegliere _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+
+1. In _[!UICONTROL Content]_, immetti il **[!UICONTROL Message Text]**che si desidera visualizzare con la diapositiva.
+
+1. Scorri verso il basso fino a _[!UICONTROL Content]_e utilizza la sezione **[!UICONTROL Message Text]**per immettere e formattare il testo del banner.
+
+   È inoltre possibile inserire elementi quali collegamenti di testo, immagini e widget.
+
+1. Formatta il testo come necessario utilizzando la barra degli strumenti dell’editor.
+
+   La prima diapositiva di questo esempio ha un&#39;immagine di sfondo, ma non un testo del messaggio. Il `Buy 3 Get 1 Free` Il testo sopra il dispositivo di scorrimento si trova in un contenitore Testo (aggiunto in seguito).
+
+1. Se necessario, specifica un **[!UICONTROL Link]** per la diapositiva.
+
+   Il collegamento è la pagina di destinazione visualizzata quando il cliente fa clic sull&#39;area della diapositiva. Puoi utilizzare uno dei tre tipi di collegamento seguenti:
+
+   - **[!UICONTROL URL]** : collegamenti a un URL relativo o completo.
+
+   - **[!UICONTROL Product]** : identifica la pagina di destinazione in base al nome del prodotto o allo SKU. Cerca il prodotto per nome in base a un nome parziale o completo. Scegli il prodotto dall’elenco dei risultati della ricerca.
+
+     ![Scelta di un prodotto da collegare](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
+
+   - **[!UICONTROL Category]** - Identifica la pagina di destinazione come una categoria o sottocategoria specifica nella struttura delle categorie. Cerca la categoria in base a un nome parziale o completo. Scegliete la categoria dalla sezione espansa della struttura visualizzata.
+
+     ![Scelta di una categoria da collegare](./assets/pb-settings-link-category-womens-tees.png){width="600" zoomable="yes"}
+
+   - **[!UICONTROL Page]** : identifica la pagina di destinazione come pagina di contenuto specifica. Cerca la pagina in base a un nome parziale o completo. Scegliere la pagina dall&#39;elenco dei risultati di ricerca.
+
+     ![Scelta della pagina da collegare](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
+
+   <div class="bs-callout-info" markdown="1">
+   A partire dalla versione 2.4.1 di, [!DNL Page Builder] non supporta più il collegamento della diapositiva e dei collegamenti all’interno del testo nidificato a causa di problemi di visualizzazione nella vetrina. Se utilizzi un collegamento in _[!UICONTROL Message Text]_, non è possibile configurare _[!UICONTROL Link]_ opzione. Se si preferisce utilizzare un solo collegamento per l'intera diapositiva, è possibile rimuovere tutti i collegamenti dal testo.
+
+   ![Configurazione del collegamento bloccata](./assets/pb-nested-link-blocked.png){width="300"}
+   </div>
+
+   Per evitare che il visitatore si allontani dal tuo negozio, seleziona la **[!UICONTROL Open in new tab]** casella di controllo. Quando la casella di controllo è deselezionata, la destinazione collegata si apre nella stessa scheda del browser, in modo da allontanare il visitatore dal tuo archivio.
+
+1. Se necessario, aggiungi un pulsante per richiedere ai clienti di seguire il collegamento.
+
+   Diapositiva _Aspetto_ position posiziona un singolo collegamento o pulsante sotto il testo. Completa le proprietà del collegamento o del pulsante che desideri aggiungere.
+
+   ![Aspetto diapositiva - collage destro](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >È inoltre possibile utilizzare più pulsanti o collegamenti aggiungendo un [blocco](block.md) al banner. Per evitare conflitti, mantenere tutti i collegamenti o i pulsanti nel blocco separato e non aggiungere un collegamento o un pulsante direttamente al banner.
+
+   - Imposta **[!UICONTROL Show Button]** a uno dei seguenti elementi:
+
+     | Opzione | Descrizione |
+     | ------ | ----------- |
+     | `Always` | Sulla diapositiva viene sempre visualizzato un pulsante. |
+     | `On Hover` | Un pulsante appare sulla diapositiva solo al passaggio del mouse. |
+     | `Never Show` | Sulla diapositiva non viene mai visualizzato un pulsante. |
+
+     {style="table-layout:auto"}
+
+   - Inserisci il **[!UICONTROL Button Text]** per visualizzare sul pulsante.
+
+   - Imposta **[!UICONTROL Button Type]** a uno dei seguenti elementi:
+
+     | Opzione | Descrizione |
+     | ------ | ----------- |
+     | `Primary` | Applica lo stile del pulsante principale dal foglio di stile corrente. |
+     | `Secondary` | Applica lo stile del pulsante secondario dal foglio di stile corrente, se applicabile. |
+     | `Link` | Crea un collegamento ipertestuale anziché un pulsante. |
+
+     {style="table-layout:auto"}
+
+     Lo stile del pulsante del tema corrente determina il formato del pulsante. In genere, un pulsante principale ha un colore di sfondo più prominente rispetto a un pulsante secondario.
+
+1. Imposta **[!UICONTROL Show Overlay]** a uno dei seguenti elementi:
+
+   | Opzione | Descrizione |
+   | ------ | ----------- |
+   | `Always` | La sovrapposizione è sempre visibile. |
+   | `On Hover` | La sovrapposizione viene visualizzata solo al passaggio del mouse. |
+   | `Never Show` | La sovrapposizione non è visibile. |
+
+   {style="table-layout:auto"}
+
+   È possibile utilizzare una sovrapposizione per applicare un colore di sfondo all&#39;area di contenuto attiva definita dall&#39;impostazione Aspetto. L&#39;immagine di sfondo della diapositiva rimane visibile per l&#39;intera larghezza della diapositiva.
+
+   ![Impostazioni sovrapposizione diapositiva](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
+
+   Se scegli di mostrare una sovrapposizione, imposta **[!UICONTROL Overlay Color]**:
+
+   - Fai clic su _Nessun colore_ e scegliete un campione.
+   - In **[!UICONTROL Color]** immettere un nome di colore valido o un valore esadecimale.
+
+   ![Colore sovrapposizione diapositiva](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
+
+
+## [!UICONTROL Search Engine Optimization] {#seo}
+
+Il testo di queste impostazioni è visibile ai motori di ricerca e migliora l’indicizzazione della pagina.
+
+- Per **[!UICONTROL Alternative Text]**, immetti un _Alt_ descrizione testuale degli strumenti di accesso facilitato digitale da visualizzare.
+
+  L’utilizzo di testo alternativo è una best practice in materia di accessibilità ed è richiesto per legge in alcune lingue. In HTML, il `alt` è un sottoinsieme del `image` tag: `<image title="tooltip" alt="description" src="image.jpg">`.
+
+- Per **[!UICONTROL Title Attribute]**, immetti il testo da visualizzare come descrizione comando al passaggio del mouse.
+
+  Come best practice, scegli un titolo descrittivo ricco di parole chiave per migliorare il modo in cui l’immagine viene indicizzata dai motori di ricerca. In HTML, il `title` è un sottoinsieme del `image` tag: `<image title="tooltip" alt="description" src="image.jpg">`.
+
+## [!UICONTROL Advanced]
+
+1. Per controllare il posizionamento orizzontale del contenuto aggiunto alla diapositiva, scegliete **[!UICONTROL Alignment]**:
+
+   | Opzione | Descrizione |
+   | ------ | ----------- |
+   | `Default` | Applica l&#39;impostazione predefinita di allineamento specificata nel foglio di stile del tema corrente. |
+   | `Left` | Allinea il contenuto lungo il bordo sinistro della diapositiva, tenendo conto della spaziatura specificata. |
+   | `Center` | Allinea il contenuto al centro della diapositiva, tenendo conto della spaziatura specificata. |
+   | `Right` | Allinea il contenuto lungo il bordo destro della diapositiva, tenendo conto della spaziatura specificata. |
+
+   {style="table-layout:auto"}
+
+1. Imposta il **[!UICONTROL Border]** stile applicato a tutti e quattro i lati della diapositiva:
+
+   | Opzione | Descrizione |
+   | ------ | ----------- |
+   | `Default` | Applica lo stile di bordo predefinito specificato dal foglio di stile associato. |
+   | `None` | Non fornisce alcuna indicazione visibile dei bordi delle diapositive. |
+   | `Dotted` | Il bordo del contenitore viene visualizzato come una linea tratteggiata. |
+   | `Dashed` | Il bordo del contenitore viene visualizzato come una linea tratteggiata. |
+   | `Solid` | Il bordo del contenitore viene visualizzato come linea continua. |
+   | `Double` | Il bordo del contenitore viene visualizzato come una doppia riga. |
+   | `Groove` | Il bordo del contenitore viene visualizzato come una linea scanalata. |
+   | `Ridge` | Il bordo del contenitore viene visualizzato come una linea scanalata. |
+   | `Inset` | Il bordo del contenitore viene visualizzato come una linea interna. |
+   | `Outset` | Il bordo del contenitore viene visualizzato come una linea di contorno. |
+
+   {style="table-layout:auto"}
+
+1. Se si imposta uno stile di bordo diverso da `None`, completare le opzioni di visualizzazione del bordo:
+
+   ![Colore bordo](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+
+   | Opzione | Descrizione |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specificate il colore scegliendo un campione, facendo clic sul selettore del colore oppure immettendo un nome di colore valido o un valore esadecimale equivalente. |
+   | [!UICONTROL Border Width] | Immettere il numero di pixel per lo spessore della linea del bordo. |
+   | [!UICONTROL Border Radius] | Immettere il numero di pixel per definire la dimensione del raggio utilizzato per arrotondare ogni angolo del bordo. |
+
+   {style="table-layout:auto"}
+
+1. (Facoltativo) Specifica i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare alla diapositiva.
+
+   Separare più nomi di classe con uno spazio.
+
+1. Immetti i valori, in pixel, per il **[!UICONTROL Margins and Padding]** per specificare i margini esterni e la spaziatura interna della diapositiva.
+
+   Immettete ogni valore corrispondente nel diagramma diapositiva.
+
+   | Area contenitore | Descrizione |
+   | -------------- | ----------- |
+   | [!UICONTROL Margins] | Quantità di spazio vuoto applicata al bordo esterno di tutti i lati della diapositiva. |
+   | [!UICONTROL Padding] | Quantità di spazio vuoto applicata al bordo interno di tutti i lati della diapositiva. |
+
+   {style="table-layout:auto"}
+
+## Aggiungi un titolo cursore
+
+Se desideri un titolo sopra il cursore, aggiungi semplicemente un [Tipo di contenuto testo] sopra il cursore. Quindi, formattate il testo in base alle esigenze.
+
+1. In [!DNL Page Builder] pannello, espandere **[!UICONTROL Elements]** e trascina un **Testo** segnaposto per una riga, colonna o gruppo di schede sullo stage.
+
+   Durante il trascinamento, il punto di inserimento sopra il dispositivo di scorrimento viene contrassegnato da una linea guida rossa.
+
+   ![Trascinamento di un segnaposto di testo sopra un dispositivo di scorrimento](./assets/pb-media-slider-elements-text-drag.png){width="600" zoomable="yes"}
+
+1. Utilizza l’editor per formattare il testo in base alle esigenze.
+
+   ![Modifica del testo del titolo del cursore](./assets/pb-media-slider-elements-text-editor.png){width="500" zoomable="yes"}
+
+## Modificare le impostazioni del cursore
+
+1. Passa il cursore sul contenitore per visualizzare la casella degli strumenti principale e scegli _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+
+   ![Casella degli strumenti cursore](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
+
+1. Inserisci il **[!UICONTROL Minimum Height]** per la diapositiva.
+
+   L’altezza minima può essere un numero con qualsiasi unità CSS valida (ad esempio `100px`, `50%`, `50em`, `100vh`) o un calcolo (ad esempio `100vh - 237px`).
+
+   Ad esempio, puoi impostare l’altezza minima di un cursore per allungare l’intera altezza della pagina, fornendo opzioni interessanti per immagini e video di sfondo a pagina intera.
+
+   ![Altezza minima cursore](./assets/pb-media-slider-settings-minimum-height.png){width="400"}
+
+1. Se vuoi che il cursore inizi al caricamento della pagina, imposta **[!UICONTROL Autoplay]** a `Yes` e imposta **[!UICONTROL Autoplay Speed]** al numero di millisecondi nel ritardo tra le diapositive.
+
+   Per impostazione predefinita, la velocità è impostata su 4000 ms, ovvero quattro secondi. Se si imposta la riproduzione automatica su `No`, la prima diapositiva viene visualizzata per impostazione predefinita e il cliente deve fare clic sulla navigazione della diapositiva (punti o frecce) per visualizzare la diapositiva successiva in sequenza.
+
+   ![Impostazioni riproduzione automatica cursore](./assets/pb-media-slider-settings-autoplay.png){width="600" zoomable="yes"}
+
+1. Per smussare la transizione da una diapositiva all&#39;altra, impostare **[!UICONTROL Fade]** a `Yes`.
+
+   Con la dissolvenza, le diapositive sembrano rimanere al loro posto, ma il contenuto cambia uniformemente da una diapositiva all’altra. Senza dissolvenza, viene visualizzato il movimento orizzontale da una diapositiva all&#39;altra.
+
+   ![Impostazioni di dissolvenza scorrevole e ciclo infinito](./assets/pb-media-slider-settings-fade-infinite-loop.png){width="600" zoomable="yes"}
+
+1. Per fare in modo che la presentazione venga ripetuta indefinitamente mentre la pagina è aperta, impostare **[!UICONTROL Infinite Loop]** a `Yes`.
+
+1. Per scegliere il tipo di controlli di navigazione per il dispositivo di scorrimento, effettuare le seguenti operazioni:
+
+   - Da includere _Successivo_ e _Precedente_ frecce sul lato sinistro e destro di ciascuna diapositiva, impostare **[!UICONTROL Show Arrows]** a `Yes`.
+
+   - Per includere un set di punti di navigazione sotto il dispositivo di scorrimento, impostare **[!UICONTROL Show Dots]** a `Yes`.
+
+   ![Frecce e punti della presentazione](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
+
+1. Completa il [Avanzate](#slider-advanced) impostazioni del dispositivo di scorrimento in base alle esigenze.
+
+1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+
+### Avanzato - cursore {#slider-advanced}
+
+1. Per controllare il posizionamento delle diapositive all&#39;interno del contenitore del dispositivo di scorrimento padre, selezionate **[!UICONTROL Alignment]**:
+
+   | Opzione | Descrizione |
+   | ------ | ----------- |
+   | `Default` | Applica l&#39;impostazione predefinita di allineamento specificata nel foglio di stile del tema corrente. |
+   | `Left` | Allinea le diapositive lungo il bordo sinistro del contenitore del dispositivo di scorrimento, tenendo conto della spaziatura specificata. |
+   | `Center` | Allinea le diapositive al centro del contenitore del dispositivo di scorrimento, tenendo conto di qualsiasi spaziatura specificata. |
+   | `Right` | Allinea le diapositive lungo il bordo destro del contenitore del dispositivo di scorrimento, tenendo conto della spaziatura specificata. |
+
+   {style="table-layout:auto"}
+
+1. Imposta il **[!UICONTROL Border]** stile applicato a tutti e quattro i lati del contenitore cursore:
+
+   | Opzione | Descrizione |
+   | ------ | ----------- |
+   | `Default` | Applica lo stile di bordo predefinito specificato dal foglio di stile associato. |
+   | `None` | Non fornisce alcuna indicazione visibile dei bordi del contenitore. |
+   | `Dotted` | Il bordo del contenitore viene visualizzato come una linea tratteggiata. |
+   | `Dashed` | Il bordo del contenitore viene visualizzato come una linea tratteggiata. |
+   | `Solid` | Il bordo del contenitore viene visualizzato come linea continua. |
+   | `Double` | Il bordo del contenitore viene visualizzato come una doppia riga. |
+   | `Groove` | Il bordo del contenitore viene visualizzato come una linea scanalata. |
+   | `Ridge` | Il bordo del contenitore viene visualizzato come una linea scanalata. |
+   | `Inset` | Il bordo del contenitore viene visualizzato come una linea interna. |
+   | `Outset` | Il bordo del contenitore viene visualizzato come una linea di contorno. |
+
+   {style="table-layout:auto"}
+
+1. Se si imposta uno stile di bordo diverso da `None`, completare le opzioni di visualizzazione del bordo:
+
+   | Opzione | Descrizione |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specificate il colore scegliendo un campione, facendo clic sul selettore del colore oppure immettendo un nome di colore valido o un valore esadecimale equivalente. |
+   | [!UICONTROL Border Width] | Immettere il numero di pixel per lo spessore della linea del bordo. |
+   | [!UICONTROL Border Radius] | Immettere il numero di pixel per definire la dimensione del raggio utilizzato per arrotondare ogni angolo del bordo. |
+
+   {style="table-layout:auto"}
+
+1. (Facoltativo) Specifica i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente per applicare al contenitore cursore.
+
+   Separare più nomi di classe con uno spazio.
+
+1. Immetti i valori, in pixel, per il **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del contenitore cursore.
+
+   Immettere i valori corrispondenti nel diagramma.
+
+   | Area contenitore | Descrizione |
+   | -------------- | ----------- |
+   | [!UICONTROL Margins] | Quantità di spazio vuoto applicata al bordo esterno di tutti i lati del contenitore. |
+   | [!UICONTROL Padding] | Quantità di spazio vuoto applicata al bordo interno di tutti i lati del contenitore. |
+
+   {style="table-layout:auto"}
+
+## Testare il cursore
+
+1. Aprire la pagina in cui è stato incluso il dispositivo di scorrimento, impostare **[!UICONTROL Enable Page]** a `Yes`.
+
+1. Nell’angolo in alto a destra, fai clic su **[!UICONTROL Save]** freccia e scegli **[!UICONTROL Save & Close]**.
+
+1. Trova la pagina in _Pagine_ griglia e selezione **[!UICONTROL View]** nel _[!UICONTROL Action]_colonna.
+
+   ![Anteprima cursore - Vista standard](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
+
+   Quando visualizzi l’anteprima del cursore, ridimensiona la finestra in modo da visualizzarne l’aspetto su un dispositivo mobile.
+
+   ![Anteprima cursore - visualizzazione mobile](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}

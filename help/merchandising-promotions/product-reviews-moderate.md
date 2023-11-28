@@ -1,0 +1,88 @@
+---
+title: Modera recensioni prodotto
+description: Scopri come moderare le recensioni dei prodotti per garantire che quelle inviate siano appropriate per la visualizzazione pubblica del tuo store.
+exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
+feature: Merchandising, Products
+source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 0%
+
+---
+
+# Modera recensioni prodotto
+
+Per le revisioni dei prodotti Commerce, prima di poter essere visualizzata, è necessario approvare una revisione del prodotto inviata. In questo modo le recensioni sono appropriate per visualizzare pubblicamente il tuo negozio. Una revisione inviata si trova in una `Pending` finché non viene approvato o rifiutato.
+
+## Visualizzare le recensioni dei prodotti in Admin
+
+Per visualizzare tutte le recensioni per un prodotto specifico nell’Admin, effettua le seguenti operazioni:
+
+1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+
+1. Trova il prodotto da visualizzare e fai clic su **[!UICONTROL Edit]** nel _[!UICONTROL Action]_colonna.
+
+1. Nella pagina del prodotto, scorri verso il basso ed espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Product Reviews]** sezione.
+
+   In questa griglia, puoi anche modificare la revisione specifica facendo clic sul pulsante **[!UICONTROL Edit]** collegamento in _[!UICONTROL Action]_colonna.
+
+## Aggiorna stato per le recensioni
+
+1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**o **[!UICONTROL All Reviews]**.
+
+1. Nell’elenco, fai clic su una revisione in sospeso per visualizzare i dettagli e modificarli, se necessario.
+
+1. Modificare il **[!UICONTROL Status]** in base alla sua valutazione:
+
+   - Per approvare una revisione in sospeso, selezionare `Approved`.
+
+   - Per rifiutare una revisione, seleziona `Not Approved`. Le revisioni non approvate scompaiono dall’elenco di _[!UICONTROL Pending Reviews]_pagina.
+
+   >[!NOTE]
+   >
+   >Recensioni con `Pending` e `Not Approved` Gli stati non vengono visualizzati nella vetrina.
+
+1. Se applicabile, impostare **[!UICONTROL Visibility]** di una recensione di prodotto per apparire in diverse visualizzazioni dello store.
+
+1. Se necessario, modifica i valori per **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]**, e **[!UICONTROL Summary of Review]**.
+
+   Per modificare la visualizzazione del punto vendita in cui è disponibile una revisione, scegliere la visualizzazione del punto vendita necessaria nel _[!UICONTROL Visibility]_colonna.
+
+   ![Modifica pagina di revisione](./assets/edit-review-page.png){width="600" zoomable="yes"}
+
+1. Al termine, fai clic su **[!UICONTROL Save Review]**.
+
+## Aggiornamento batch
+
+Puoi aggiornare o eliminare più recensioni contemporaneamente:
+
+1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+
+1. Seleziona le recensioni da aggiornare.
+
+1. Utilizza il _[!UICONTROL Action]_nell’angolo in alto a sinistra per applicare un’azione.
+
+1. Clic **[!UICONTROL Submit]**
+
+## Eliminare una recensione di prodotto
+
+1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+
+1. Trova la recensione del prodotto da eliminare e aprila in modalità di modifica.
+
+1. Nella barra dei menu, fai clic su **[!UICONTROL Delete Review]** pulsante.
+
+1. Per confermare l’azione, fai clic su **[!UICONTROL OK]**.
+
+## Barra dei pulsanti
+
+| Pulsante | Descrizione |
+|----------|--------------|
+| **[!UICONTROL Back]** | Torna alla pagina Recensioni senza salvare le modifiche |
+| **[!UICONTROL Delete Review]** | Elimina la revisione |
+| **[!UICONTROL Reset]** | Ripristina i valori precedenti delle modifiche non salvate nel modulo di revisione |
+| **[!UICONTROL Previous]** | Apre la revisione precedente |
+| **[!UICONTROL Next]** | Apre la revisione successiva |
+| **[!UICONTROL Save and Previous]** | Salva le modifiche correnti e apre la revisione precedente. Questo pulsante viene visualizzato se sono presenti altre recensioni. |
+| **[!UICONTROL Save and Next]** | Salva le modifiche correnti e apre la visualizzazione successiva. Questo pulsante viene visualizzato se sono presenti altre recensioni. |
+| **[!UICONTROL Save Review]** | Salva le modifiche e chiude la pagina di modifica della revisione |

@@ -1,0 +1,98 @@
+---
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
+description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Checkout] pagina dell’amministratore di Commerce.
+exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
+feature: Configuration, Checkout
+source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL Sales] > [!UICONTROL Checkout]
+
+{{config}}
+
+## [!UICONTROL Checkout Options]
+
+>[!NOTE]
+>
+>[!BADGE 2.4.6-p1]{type=Informative tooltip="Aggiornamenti in 2.4.6-p1"}[!BADGE 2.4.7-beta1]{type=Informative tooltip="Aggiornamenti in 2.4.7-beta1"}[2.4.7-beta2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html) e [2.4.6-p3](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html) versioni che forniscono miglioramenti di sicurezza per le funzionalità descritte. Se utilizzi una di queste versioni di, consulta le note sulla versione.
+
+![Opzioni di pagamento](./assets/checkout-checkout-options.png)<!-- zoom -->
+
+<!--[Checkout Options](https://docs.magento.com/user-guide/sales/checkout-options.html) -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Enable Onepage Checkout] | Visualizzazione store | Determina se [Pagamento di una pagina](../../stores-purchase/checkout-process.md#checkout-options) è il formato di pagamento predefinito. Opzioni: `Yes` / `No` |
+| [!UICONTROL Allow Guest Checkout] | Visualizzazione store | Determina se gli ospiti possono passare attraverso [pagamento senza registrazione](../../stores-purchase/checkout-guest.md) per un account con il tuo negozio. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Terms and Conditions] | Visualizzazione store | Determina se i clienti devono accettare il [Termini e condizioni](../../stores-purchase/terms-and-conditions.md) della vendita prima di effettuare un acquisto. Opzioni: `Yes` / `No` |
+| [!UICONTROL Display Billing Address On] | Visualizzazione store | Determina la posizione dell&#39;indirizzo di fatturazione durante l&#39;estrazione. Opzioni: `Payment Method` / `Payment Page` |
+| [!UICONTROL Maximum Number of Items to Display in Order Summary] | Visualizzazione store | Determina il numero massimo di elementi che possono essere visualizzati nel _Riepilogo ordine_ durante il pagamento. Il valore predefinito è `10`. |
+| [!UICONTROL Enable Address Search] | Sito Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo per Adobe Commerce) Determina se i clienti possono utilizzare [ricerca indirizzo](../../stores-purchase/checkout-address-search.md) funzionalità per le fasi Spedizione, Revisione e Pagamenti. Se questa opzione è abilitata, utilizza Limite numero di indirizzi del cliente per impostare il numero di indirizzi salvati necessari per attivare questa funzionalità durante il pagamento. Opzioni: `Yes` / `No` |
+| Limite numero di indirizzi cliente | Sito Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo per Adobe Commerce) Quando la ricerca degli indirizzi è abilitata, determina il numero di indirizzi salvati necessari per attivare questa funzionalità durante il pagamento. Quando il numero di indirizzi salvati del cliente raggiunge o supera questo numero, viene eseguito il rendering solo dell’indirizzo predefinito sul _Spedizione_ e _Revisione e pagamenti_ passaggi. Il cliente può utilizzare una funzione di ricerca per modificare l’indirizzo selezionato. Il valore predefinito è `10`. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Shopping Cart]
+
+![Carrello](./assets/checkout-shopping-cart.png)<!-- zoom -->
+
+<!--[Shopping Cart](https://docs.magento.com/user-guide/sales/cart-configuration.html) -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Quote Lifetime (days)] | Sito Web | Determina la [durata di un prezzo quotato](../../stores-purchase/cart-configuration.md#quote-lifetime), in giorni. |
+| [!UICONTROL After Adding a Product Redirect to Shopping Cart] | Visualizzazione store | Determina se [viene visualizzata la pagina del carrello](../../stores-purchase/cart-configuration.md#redirect-to-cart) immediatamente dopo l’aggiunta di un prodotto al carrello. Opzioni: `Yes` / `No` |
+| [!UICONTROL Number of Items to Display Pager] | Visualizzazione store | Determina il numero di elementi nel carrello prima che venga attivato il cercapersone. Valore predefinito: `20` |
+| [!UICONTROL Show Cross-sell Items in the Shopping Cart] | Visualizzazione store | Indica se [articoli di cross-selling](../../catalog/related-products-up-sells-cross-sells.md#cross-sells) vengono visualizzati nel carrello, fornendo ai clienti ulteriori opzioni di vendita. Opzioni: `Yes` (impostazione predefinita) / `No` |
+| [!UICONTROL Grouped Product Image] | Visualizzazione store | Determina la [miniatura](../../stores-purchase/cart-configuration.md#cart-thumbnails) immagine visualizzata per un [prodotto raggruppato](../../catalog/product-create-grouped.md) nel carrello. Opzioni: `Product Thumbnail Itself` / `Parent Product Thumbnail` |
+| [!UICONTROL Configurable Product Image] | Visualizzazione store | Determina la [miniatura](../../stores-purchase/cart-configuration.md#cart-thumbnails) immagine visualizzata per un prodotto configurabile nel carrello. Opzioni: `Product Thumbnail Itself` / `Parent Product Thumbnail` |
+| [!UICONTROL Preview Quote Lifetime (minutes)] | Visualizzazione store | Determina la durata massima dell&#39;offerta in minuti quando viene visualizzata in anteprima dal carrello. |
+| [!UICONTROL Enable Clear Shopping Cart] | Sito Web | Determina se nel carrello viene visualizzata l’opzione per consentire agli utenti di cancellare il contenuto del carrello in una singola azione. Opzioni: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL My Cart Link]
+
+![Collegamento al carrello](./assets/checkout-my-cart-link.png)<!-- zoom -->
+
+<!-- [*My Cart Link*](https://docs.magento.com/user-guide/sales/mini-cart.html) -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Display Cart Summary] | Sito Web | Determina il valore visualizzato tra parentesi dopo il collegamento Carrello. Opzioni: `Display number of items in cart` / `Display item quantities` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## Mini carrello
+
+![Mini carrello](./assets/checkout-mini-cart.png)<!-- zoom -->
+
+<!-- [*Mini Cart*](https://docs.magento.com/user-guide/sales/mini-cart.html) -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Display Mini Cart] | Visualizzazione store | Determina se il mini carrello viene visualizzato nelle pagine del negozio quando si fa clic sull’icona del carrello nell’intestazione. La visualizzazione del mini carrello dipende dal tema. Opzioni: `Yes` / `No` |
+| [!UICONTROL Number of Items to Display Scrollbar] | Visualizzazione store | Determina il numero di elementi che possono essere visualizzati nel mini carrello prima che venga attivata la barra di scorrimento. Predefinito: `5` |
+| [!UICONTROL Maximum Number of Items to Display] | Visualizzazione store | Determina il numero massimo di elementi che possono essere visualizzati nel mini carrello. Predefinito: `10` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Payment Failed Emails]
+
+![E-mail per pagamento non riuscito](./assets/checkout-payment-failed-emails.png)<!-- zoom -->
+
+<!-- [*Payment Failed Emails*](https://docs.magento.com/user-guide/sales/checkout-payment-failed-emails.html) -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Payment Failed Email Receiver] | Visualizzazione store | Identifica il contatto del negozio che riceve le e-mail di pagamento non riuscito. Ricevitore predefinito: `General Contact` |
+| [!UICONTROL Payment Failed Email Sender] | Visualizzazione store | Identifica il contatto del negozio che viene visualizzato come mittente del messaggio di posta elettronica Pagamento non riuscito. Mittente predefinito: `General Contact` |
+| [!UICONTROL Payment Failed Template] | Visualizzazione store | Identifica il modello utilizzato per le e-mail di pagamento non riuscito. Modello predefinito: `Payment Failed` |
+| [!UICONTROL Send Payment Failed Copy To] | Visualizzazione store | Fornisce l&#39;indirizzo e-mail di chiunque riceva una copia di un messaggio e-mail di pagamento non riuscito. Separa più indirizzi con una virgola. |
+| [!UICONTROL Send Payment Failed Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Opzioni: <br />**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br />**`Separate Email`** - Invia la copia come e-mail separata. |
+
+{:style=&quot;table-layout:auto&quot;}

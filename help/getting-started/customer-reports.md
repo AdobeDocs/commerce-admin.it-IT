@@ -1,0 +1,181 @@
+---
+title: Rapporti sui clienti
+description: I rapporti dei clienti disponibili in Adobe Commerce e Magento Open Source forniscono informazioni approfondite sull’attività del cliente durante un determinato periodo di tempo o intervallo di date.
+exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
+feature: Customers, Reporting
+source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 1%
+
+---
+
+# Rapporti sui clienti
+
+I rapporti dei clienti forniscono informazioni approfondite sull’attività del cliente in un determinato periodo di tempo o intervallo di date.
+
+## [!UICONTROL Order Total Report]
+
+Il [!UICONTROL Order Total Report] mostra gli ordini dei clienti per un intervallo di tempo o un intervallo di date specificato. Il rapporto include il numero di ordini per cliente, l&#39;importo medio degli ordini e l&#39;importo totale.
+
+Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+
+![Rapporto Totale ordini](./assets/customers-order-total.png){width="600"}
+
+### Controlli di Workspace
+
+| Controllo | Descrizione |
+|--- |--- |
+| [!UICONTROL From / To] | Consente di definire una ricerca per gli ordini in base alla data di inizio e di fine. |
+| [!UICONTROL Show By] | Definisce la granularità della suddivisione del record dell’ordine. Opzioni: `Month` / `Day` / `Year` |
+| [!UICONTROL Refresh] | Aggiorna la griglia ai filtri specificati. |
+| [!UICONTROL Export] | Esporta i record selezionati come file CSV o XML di Excel. |
+| [!UICONTROL Scope] | Utilizzato per impostare il sito o il negozio per cui viene generato il rapporto. |
+
+{style="table-layout:auto"}
+
+### Descrizioni delle colonne
+
+| Colonna | Descrizione |
+|--- |--- |
+| [!UICONTROL Interval] | L&#39;intervallo totale dell&#39;ordine, per `Month` / `Day` / `Year`. |
+| [!UICONTROL Customer] | Il nome del cliente che ha effettuato l’ordine. |
+| [!UICONTROL Orders] | Numero di ordini per l&#39;intervallo specificato. |
+| [!UICONTROL Average] | Importo medio dell&#39;ordine. |
+| [!UICONTROL Total] | Somma di tutti gli ordini del periodo. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Order Count Report]
+
+Il [!UICONTROL Order Count Report] mostra il numero di ordini per cliente per un intervallo di tempo o un intervallo di date specificato. Il rapporto include il numero di ordini per cliente, l&#39;importo medio degli ordini e l&#39;importo totale.
+
+Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+
+![Rapporto Conteggio ordini](./assets/customer-order-count.png){width="600"}
+
+### Controlli di Workspace
+
+| Controllo | Descrizione |
+|--- |--- |
+| [!UICONTROL From / To] | Consente di definire una ricerca per gli ordini in base alla data di inizio e di fine. |
+| [!UICONTROL Show By] | Definisce la granularità della suddivisione del record dell’ordine. Opzioni: `Month` / `Day` / `Year` |
+| [!UICONTROL Refresh] | Aggiorna la griglia ai filtri specificati. |
+| [!UICONTROL Export] | Esporta i record selezionati come file CSV o XML di Excel. |
+| [!UICONTROL Scope] | Utilizzato per impostare il sito o il negozio per cui viene generato il rapporto. |
+
+{style="table-layout:auto"}
+
+### Descrizioni delle colonne
+
+| Colonna | Descrizione |
+|--- |--- |
+| [!UICONTROL Interval] | Intervallo di conteggio degli ordini, per `Month` / `Day` / `Year`. |
+| [!UICONTROL Customer] | Il cliente che ha effettuato l’ordine. |
+| [!UICONTROL Orders] | Numero di ordini per l&#39;intervallo specificato. |
+| [!UICONTROL Average] | Importo medio dell&#39;ordine. |
+| [!UICONTROL Total] | Somma di tutti gli ordini del periodo. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL New Accounts Report]
+
+Il [!UICONTROL New Accounts Report] mostra il numero di nuovi account cliente aperti durante un intervallo di tempo o un intervallo di date specificato.
+
+Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+
+![Rapporto Nuovi account](./assets/customers-new-accounts.png){width="600"}
+
+### Controlli di Workspace
+
+| Controllo | Descrizione |
+|--- |--- |
+| [!UICONTROL From / To] | Utilizzato per definire una ricerca per i nuovi account in base alla data di inizio e di fine. |
+| [!UICONTROL Show By] | Definisce la granularità della suddivisione del record dell’ordine. Opzioni: Mese / Giorno / Anno |
+| [!UICONTROL Refresh] | Aggiorna la griglia ai filtri specificati. |
+| [!UICONTROL Export] | Esporta i record selezionati come file CSV o XML di Excel. |
+| [!UICONTROL Scope] | Utilizzato per impostare il sito o il negozio per cui viene generato il rapporto. |
+
+{style="table-layout:auto"}
+
+### Descrizioni delle colonne
+
+| Colonna | Descrizione |
+|--- |--- |
+| [!UICONTROL Interval] | Intervallo di creazione nuovo account, per mese/giorno/anno. |
+| [!UICONTROL New Accounts] | Il numero di nuovi account creati in un determinato intervallo. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Customer Wish List Report]
+
+![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce)
+
+Il [!UICONTROL Customer Wish List Report] fornisce informazioni sulle liste dei desideri dei clienti.
+
+Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+
+![Rapporto Lista dei desideri](./assets/customer-wish-list.png){width="600"}
+
+### Controlli di Workspace
+
+| Controllo | Descrizione |
+|--- |--- |
+| [!UICONTROL Scope] | Utilizzato per impostare il sito o il negozio per cui viene generato il rapporto. |
+| [!UICONTROL Search] | Avvia una ricerca in base ai parametri specificati. |
+| [!UICONTROL Reset Filter] | Avvia il ripristino di tutti i parametri di ricerca. |
+| [!UICONTROL Per Page] | Imposta il numero di record visualizzati in una singola pagina. |
+| [!UICONTROL Export] | Esporta i record selezionati come file CSV o XML di Excel. |
+| [!UICONTROL From / To] | Utilizzato per definire una ricerca per gli elenchi di desideri in base alla data di inizio e di fine. |
+| [!UICONTROL Wishlist] | Avvia una ricerca nella lista dei desideri per nome. |
+| [!UICONTROL Status] | Stato della lista dei desideri. Opzioni: `Private` / `Public` |
+| [!UICONTROL Comment] | Avvia una ricerca per testo nei commenti della lista dei desideri. |
+
+{style="table-layout:auto"}
+
+### Descrizioni delle colonne
+
+| Colonna | Descrizione |
+|--- |--- |
+| [!UICONTROL Added] | Data di creazione della lista dei desideri. |
+| [!UICONTROL Customer] | Nome e cognome del cliente che ha creato la lista dei desideri. |
+| [!UICONTROL Wishlist] | Nome della lista dei desideri. |
+| [!UICONTROL Status] | Stato della lista dei desideri. Opzioni: `Private` / `Public` |
+| [!UICONTROL Product] | Nome del prodotto aggiunto alla lista dei desideri. |
+| [!UICONTROL SKU] | SKU del prodotto aggiunto alla lista dei desideri. |
+| [!UICONTROL Comment] | Testo del commento immesso al momento della creazione della lista dei desideri. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Customer Segment Report]
+
+![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce)
+
+Il [!UICONTROL Customer Segment Report] fornisce informazioni sul numero di clienti in ciascun segmento.
+
+Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+
+![Rapporto Segmenti](./assets/customers-segments.png){width="600"}
+
+### Controlli di Workspace
+
+| Controllo | Descrizione |
+|--- |--- |
+| [!UICONTROL Search] | Avvia una ricerca in base ai parametri specificati. |
+| [!UICONTROL Reset Filter] | Avvia il ripristino di tutti i parametri di ricerca. |
+| [!UICONTROL Action] | Avvia la visualizzazione dei segmenti per parametri. Opzioni: `Action` / `View Combined Report` |
+| [!UICONTROL Per Page] | Imposta il numero di record visualizzati in una singola pagina. |
+
+{style="table-layout:auto"}
+
+### Descrizioni delle colonne
+
+| Colonna | Descrizione |
+|--- |--- |
+| [!UICONTROL ID] | Un identificatore numerico univoco assegnato a ciascun segmento. |
+| [!UICONTROL Segment] | Nome del segmento. |
+| [!UICONTROL Status] | Stato del segmento. Opzioni: `Active` / `Inactive` |
+| [!UICONTROL Website] | Sito web a cui è assegnato il segmento. |
+| [!UICONTROL Customers] | Numero di clienti assegnati al segmento. |
+
+{style="table-layout:auto"}
