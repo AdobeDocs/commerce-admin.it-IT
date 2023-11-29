@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] pagina dell’amministratore di Commerce.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | Globale | Determina l&#39;ambito dei conti cliente nella gerarchia dell&#39;archivio. Opzioni: <br/>**`Global`**- Le informazioni sull’account del cliente vengono condivise con ogni sito web e archivio nell’installazione di Commerce.<br/>**`Per Website`** - Le informazioni sull&#39;account del cliente sono limitate al sito Web in cui è stato creato l&#39;account. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Online Minutes Interval] | Globale | Determina per quanto tempo l’attività online di un cliente è accessibile dall’amministratore. Lascia vuoto per impostare un intervallo predefinito di 15 minuti. |
 | [!UICONTROL Customer Data Lifetime] | Globale | Determina quanti minuti prima della scadenza dei dati non salvati immessi dal cliente. Per impostazione predefinita, i dati non salvati scadono dopo 60 minuti. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Welcome Email] | Visualizzazione store | Identifica il modello di e-mail utilizzato per il messaggio di benvenuto inviato dopo la conferma dell’account. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Globale | Determina se il campo utilizzato per immettere e memorizzare il numero di partita IVA è visibile dalla vetrina. Opzioni: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Password Length] | Globale | Determina il numero minimo di caratteri consentito in una password. Il numero deve essere maggiore di zero (`0`). |
 | [!UICONTROL Lockout Time (minutes)] | Globale | Determina il numero di minuti di blocco di un account cliente dopo troppi tentativi di accesso non riusciti. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Change Email Template] | Visualizzazione store | Identifica il modello e-mail predefinito utilizzato quando un cliente modifica il proprio indirizzo e-mail. |
 | [!UICONTROL Change Email and Password Template] | Visualizzazione store | Identifica il modello e-mail predefinito utilizzato quando un cliente modifica il proprio indirizzo e-mail e la propria password. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Sito Web | Determina se la società del cliente è inclusa nel modulo del nome e dell&#39;indirizzo. Opzioni: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Sito Web | Determina se il numero di fax del cliente è incluso nel modulo del nome e dell&#39;indirizzo. Opzioni: `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Opzioni Adobe Commerce
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Sito Web | Determina se la società del cliente è inclusa nel modulo del nome e dell&#39;indirizzo. Opzioni: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Sito Web | Determina se il numero di fax del cliente è incluso nel modulo del nome e dell&#39;indirizzo. Opzioni: `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 | [!UICONTROL Store Credit Update Email Sender] | Visualizzazione store | Determina l&#39;identità dell&#39;archivio visualizzato come mittente delle notifiche di aggiornamento del credito inviate ai clienti. |
 | [!UICONTROL Store Credit Update Email Template] | Visualizzazione store | Determina il modello e-mail utilizzato per gli aggiornamenti del credito. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Sito Web | Determina cosa accade dopo che i clienti accedono ai loro account. Per reindirizzare i clienti al dashboard dell’account, seleziona `Yes`. Opzioni: <br/>**`Yes`**- La dashboard dell’account viene visualizzata quando i clienti accedono ai propri account.<br/>**`No`** - I clienti possono continuare a fare acquisti dopo aver effettuato l’accesso al proprio account. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!UICONTROL HTML] | Visualizzazione store | Questo modello definisce l’ordine dei campi indirizzo che si trovano sotto _Indirizzi cliente_ nel pannello di amministrazione ([!UICONTROL Customers] > [!UICONTROL Manage Customers]). Questo problema riguarda anche le persone _Aggiungi nuovo indirizzo_ pagina quando un cliente crea un indirizzo di fatturazione o di spedizione nella pagina del proprio account. |
 | [!UICONTROL PDF] | Visualizzazione store | Il modello definisce la visualizzazione degli indirizzi di fatturazione e spedizione nelle fatture, spedizioni e note di credito stampate. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Customer Segment Functionality] | Globale | Determina se i segmenti dei clienti possono essere utilizzati per creare promozioni mirate. Opzioni: `Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | Globale | Determina se i segmenti dei clienti vengono convalidati in tempo reale. Opzioni: <br/>**[!UICONTROL Yes]**- I segmenti dei clienti vengono convalidati in tempo reale (valore predefinito).<br/>**[!UICONTROL No]** - I segmenti del cliente vengono convalidati da una singola query SQL combinata. Questo migliora le prestazioni della convalida dei segmenti se nel sistema sono presenti molti segmenti di clienti. Tuttavia, la convalida non funziona con un database suddiviso o quando non vi sono clienti registrati. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -224,4 +224,4 @@ ht-degree: 0%
 | [!UICONTROL Symbols Used in CAPTCHA] | Sito Web | Determina le lettere (a-z e A-Z) e i numeri (0-9) visualizzati nel CAPTCHA. Simboli difficili da distinguere da altri simboli, ad esempio `i`, `l`, o `1`, non sono inclusi nel set predefinito di simboli CAPTCHA. |
 | [!UICONTROL Case Sensitive] | Sito Web | Determina se i caratteri CAPTCHA fanno distinzione tra maiuscole e minuscole. Opzioni: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

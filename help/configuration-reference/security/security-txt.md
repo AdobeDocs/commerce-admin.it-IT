@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Security] &gt; [!UICONTROL Security.txt] pagina dell’amministratore di Commerce.
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni di configurazio
 |--- |--- |--- |
 | [!UICONTROL Enable] | Sito Web | Quando è attivata, `security.txt` il file viene salvato e contiene le informazioni necessarie ai ricercatori di sicurezza per segnalare potenziali vulnerabilità. Opzioni:<br />**`Yes`**- Crea il `security.txt` file in base alle informazioni immesse nel _Informazioni di contatto_ e _Altre informazioni_ sezioni.<br />**`No`** - (impostazione predefinita) Non crea il `security.txt` file. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Contact information]
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni di configurazio
 | [!UICONTROL Phone] | Sito Web | Numero di telefono che può essere utilizzato per segnalare problemi di sicurezza. |
 | [!UICONTROL Contact Page] | Sito Web | URL di una pagina del sito in cui sono elencati i contatti di protezione o _Contattaci_ pagina. Esempi: <br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Other information]
 
@@ -51,4 +51,4 @@ Per ulteriori informazioni sulla modifica di queste impostazioni di configurazio
 | [!UICONTROL Policy] | Sito Web | URL della pagina che descrive i criteri di sicurezza e le procedure di reporting sulle vulnerabilità. Esempio: `https://mystore.com/security-reporting.html` Predefinito: `https://mystore.com/security` |
 | [!UICONTROL Signature] | Sito Web | Collegamento al file della firma digitale. La firma digitale deve essere generata dalla riga di comando e viene salvata in `.well-known` sul server. Per ulteriori informazioni, consulta [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) su GitHub. Esempio: `https://mystore.com/.well-known/security.txt.sig` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

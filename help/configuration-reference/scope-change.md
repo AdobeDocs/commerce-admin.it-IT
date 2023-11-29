@@ -2,9 +2,9 @@
 title: Ambito di configurazione
 description: Scopri come impostare l’ambito per le impostazioni di configurazione in Commerce Admin.
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Il selettore della visualizzazione archivio nell’angolo in alto a sinistra di 
 | [!UICONTROL Default Store View] | Nome della visualizzazione predefinita associata all&#39;archivio padre. |
 | [!UICONTROL Stores Configuration] | Passa alla griglia Negozi ed è come scegliere [!UICONTROL Stores] > [!UICONTROL All Stores] dalla barra laterale Amministratore. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Caselle di controllo Usa valore di sistema selezionate](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ L&#39;etichetta della casella di controllo cambia in base all&#39;ambito corrent
 | [!UICONTROL Use Default] | Questa casella di controllo viene visualizzata quando l&#39;ambito di configurazione è impostato su Principale `Website`, e si riferisce all’archivio predefinito assegnato al sito web. |
 | [!UICONTROL Use Website] | Questa casella di controllo viene visualizzata quando l&#39;ambito di configurazione è impostato su una visualizzazione archivio specifica. Se questa opzione è selezionata, viene utilizzata l&#39;impostazione del sito Web padre associata alla visualizzazione Store. In questo caso, il livello di store viene ignorato perché si applica all&#39;archivio predefinito associato al sito Web. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Impostare l&#39;ambito
 
@@ -94,4 +94,4 @@ Prima di impostare una configurazione che si applica solo a una visualizzazione 
 | Lingue | Per supportare più lingue, tutto il contenuto, incluse le descrizioni dei prodotti, deve essere [tradotto](../stores-purchase/store-localize.md#localize-products) per ogni visualizzazione store. |
 | Visualizza valuta | Un altro [valuta di visualizzazione](../stores-purchase/currency-configuration.md) può essere utilizzato per ogni visualizzazione store, anche se le transazioni vengono elaborate a livello di sito Web utilizzando la valuta di base. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

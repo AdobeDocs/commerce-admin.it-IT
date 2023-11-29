@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Promotions] pagina dell’amministratore di Commerce.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Email Send Failure Threshold] | Globale | Il numero di volte in cui il promemoria tenta di inviare notifiche a un indirizzo e-mail specifico e ha esito negativo. Quando il valore è impostato su 0, non esiste una soglia e le notifiche continuano a essere inviate nonostante eventuali errori. |
 | [!UICONTROL Reminder Email Sender] | Visualizzazione store | L’identità dell’archivio visualizzata come mittente dell’e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 | [!UICONTROL Code Suffix] | Globale | Valore aggiunto alla fine di tutti i codici. Se non desideri utilizzare un suffisso, lascia vuoto il campo. |
 | [!UICONTROL Dash Every X Characters] | Globale | Intervallo di inserimento di un trattino (-) in tutti i codici coupon. Se non desideri utilizzare un trattino, lascia vuoto il campo. <br/>_**Nota:**_ I codici coupon che differiscono solo di un trattino sono considerati codici diversi. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

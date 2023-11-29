@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Quotes] pagina dell’amministratore di Commerce.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Amount Message] | Visualizzazione store | Il messaggio visualizzato nel carrello quando un cliente tenta di inviare una richiesta di preventivo, ma l’importo minimo richiesto non viene raggiunto. |
 | [!UICONTROL Default Expiration Period] | Sito Web | Determina la durata predefinita di un [preventivo](../../b2b/quote-price-negotiation.md) come periodo di tempo a partire dalla data di invio della richiesta di preventivo. Opzioni: `Days` / `Weeks` / `Months` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 | [!UICONTROL File formats for upload] | Globale | Determina i formati di file che possono essere allegati a un&#39;offerta. Valori predefiniti supportati: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, e `jpeg` |
 | [!UICONTROL Maximum file size] | Globale | Determina la dimensione massima di un file allegato a un&#39;offerta. Questa impostazione può essere ignorata dalla configurazione del server. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Invitations] pagina dell’amministratore di Commerce.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | Visualizzazione store | Determina se nel modulo di invito è presente un campo in cui l&#39;utente che invita può aggiungere un messaggio personalizzato inviato all&#39;utente invitato tramite e-mail. Ciò non pregiudica la possibilità dell&#39;amministratore di aggiungere un messaggio a un invito. Opzioni: `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | Visualizzazione store | Determina il numero massimo di inviti che l&#39;utente può inviare contemporaneamente. Un invito diverso viene inviato a ogni indirizzo e-mail incluso nel modulo dell&#39;utente che ha inviato l&#39;invito. In questo modo si proteggono le risorse del server impedendo l&#39;invio simultaneo di un numero elevato di inviti e diminuendo la probabilità che gli inviti vengano inviati come spam. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -44,4 +44,4 @@ ht-degree: 1%
 | [!UICONTROL Customer Invitation Email Sender] | Visualizzazione store | Determina il mittente dell&#39;e-mail che gli invitati ricevono quando viene inviato un messaggio e-mail di invito. Valore predefinito: `General Contact` |
 | [!UICONTROL Customer Invitation Email Template] | Visualizzazione store | Determina il modello dell&#39;e-mail che gli invitati ricevono quando viene inviato un messaggio e-mail di invito. Modello predefinito: `Customer Invitation` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

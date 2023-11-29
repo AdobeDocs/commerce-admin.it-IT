@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL General] &gt; [!UICONTROL General] pagina dell’amministratore di Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Consulta [Opzioni paese](../../getting-started/store-details.md#country-options)
 | [!UICONTROL European Union Countries] | Globale | Paesi che sono membri dell&#39;Unione Europea. |
 | [!UICONTROL Top Destinations] | Visualizzazione store | Paesi principali di destinazione delle vendite. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL State Options]
 
@@ -41,7 +41,7 @@ Consulta [Opzioni stato](../../getting-started/store-details.md#state-options) p
 | [!UICONTROL State is required for] | Globale | I paesi (in cui conduci attività commerciali) che richiedono l’inclusione di un’area geografica o di uno Stato nell’indirizzo postale. |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | Globale | Per i paesi in cui non è richiesto, determina se _Regione/Stato_ è incluso nell’indirizzo postale del cliente.<br /> <br />**`Yes`**- Include _Regione/Stato_ campo nell’indirizzo del cliente, anche se non richiesto dal paese.<br />**`No`** - Omette il campo Regione/Stato dall&#39;indirizzo del cliente se non richiesto dal paese. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
@@ -57,7 +57,7 @@ Consulta [Opzioni internazionali](../../getting-started/store-details.md#locale-
 | [!UICONTROL First Day of Week] | Visualizzazione store | Il giorno considerato come il primo giorno della settimana nel mercato servito dalla visualizzazione del negozio. |
 | [!UICONTROL Weekend Days] | Visualizzazione store | I giorni che cadono nel fine settimana nel mercato servito dalla vista del negozio. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Website Restrictions]
 
@@ -76,7 +76,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Limita
 | [!UICONTROL HTTP Response] | Sito Web | Determina la risposta HTTP inviata quando il sito Web viene chiuso e viene tentata una connessione da un bot, un crawler o un spider.<br /> <br />**`503 Service unavailable`**- La pagina non è disponibile, ma il spider non deve aggiornare l’indice.<br />**`200 OK`** - La pagina di destinazione è corretta e deve essere trattata dal ragno come l’unica pagina del sito. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Sito Web | Determina se i campi del _Login_ e _Password dimenticata_ i moduli vengono compilati automaticamente dalle voci precedenti. Opzioni: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
@@ -97,7 +97,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Inform
 | [!UICONTROL VAT Number] | Sito Web | Numero di imposta sul valore aggiunto dell’azienda proprietaria dell’installazione Commerce, se applicabile. |
 | [!UICONTROL Validate VAT Number] |  | Verifica il numero di identificazione IVA. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Single-Store Mode]
 
@@ -109,4 +109,4 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Modali
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Globale | Se l&#39;opzione è abilitata per le installazioni di un solo archivio, nasconde la casella Ambito configurazione e le relative etichette di campo Opzioni: `Yes` / `No` <br/>**_Nota:_**La modalità a archivio singolo viene ignorata per gli archivi con più visualizzazioni. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

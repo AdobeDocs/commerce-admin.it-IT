@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] pagina dell’amministratore di Commerce.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Notification Email Sender] | Visualizzazione store | Identifica il [contatto store](../../getting-started/store-details.md#store-email-addresses) visualizzato come mittente dell&#39;e-mail di notifica gift card. Valore predefinito: `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | Visualizzazione store | Determina la [modello](../../systems/email-templates.md) utilizzato per l&#39;e-mail di notifica gift card. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Message Maximum Length] | Visualizzazione store | Determina il numero massimo di caratteri consentiti in un messaggio gift card. Valore predefinito: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Globale | Determina se viene generato un conto gift card quando un cliente effettua un ordine o quando l&#39;ordine viene fatturato. Opzioni: `Ordered` / `Invoiced` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Email Sender] | Visualizzazione store | Identifica il [contatto store](../../getting-started/store-details.md#store-email-addresses) che viene visualizzato come mittente dell&#39;e-mail della gift card. Valore predefinito: `General Contact` |
 | [!UICONTROL Gift Card Template] | Visualizzazione store | Determina la [modello](../../systems/email-templates.md) che viene utilizzato per l’e-mail della gift card. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -75,4 +75,4 @@ ht-degree: 1%
 | [!UICONTROL Low Code Pool Threshold] | Globale | Determina il numero di record nel pool di codice che attivano un avviso per segnalare che il pool deve essere rifornito. |
 | [!UICONTROL Generate] | Globale | Fare clic per generare l&#39;elenco dei codici gift card. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

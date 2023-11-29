@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] pagina dell’amministratore di Commerce.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Globale | Determina se i punti premio vengono dedotti automaticamente dall&#39;importo di un rimborso. Opzioni: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Visualizzazione store | Specifica la pagina CMS che spiega il programma dei punti premio. Un collegamento alla pagina Premi predefinita viene visualizzato nelle posizioni del negozio in cui è possibile ottenere punti. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Review Submission] | Sito Web | Determina il numero di punti guadagnati da un cliente che sottomette una revisione approvata per la pubblicazione. |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | Sito Web | Limita il numero di recensioni che possono essere utilizzate per guadagnare punti per cliente. Lascia vuoto per non impostare alcun limite. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Warning Email] | Visualizzazione store | Determina il modello dell’e-mail che i clienti ricevono quando viene raggiunto il limite di avviso di scadenza per un batch di punti. Modello predefinito: `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | Globale | Specifica il numero di giorni prima della scadenza del punto per l&#39;invio della notifica. Lascia vuoto per non inviare notifiche di scadenza. La notifica non viene inviata se il numero di giorni immessi è maggiore della durata residua dei punti. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

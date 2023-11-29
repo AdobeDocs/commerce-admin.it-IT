@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] pagina dell’amministratore di Commerce.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '210'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Per informazioni su come collegare il tuo store ai servizi Adobe Commerce, consu
 | [!UICONTROL Sandbox public API key] | Globale | Chiave API che identifica l’autore e i relativi diritti, se presenti. |
 | [!UICONTROL Sandbox private API key] | Globale | Una chiave privata associata alla chiave API. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Production Keys]
 
@@ -36,7 +36,7 @@ Per informazioni su come collegare il tuo store ai servizi Adobe Commerce, consu
 | [!UICONTROL Production public API key] | Globale | Chiave API che identifica l’autore e i relativi diritti, se presenti. |
 | [!UICONTROL Production private API key] | Globale | Una chiave privata associata alla chiave API. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL SaaS Identifier]
 
@@ -47,7 +47,7 @@ Per informazioni su come collegare il tuo store ai servizi Adobe Commerce, consu
 | [!UICONTROL Project] | Globale | Nome del progetto SaaS che raggruppa tutti gli spazi di dati SaaS. A _Crea progetto_ Se non esiste alcun progetto SaaS, viene visualizzato un pulsante. |
 | [!UICONTROL Data Space] | Globale | Elenca gli spazi di dati SaaS nel progetto SaaS specificato. Il numero di spazi di dati SaaS dipende dal [Licenza Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce: uno spazio di dati di produzione; due spazi di dati di prova;<br />Magento Open Source: uno spazio dati di produzione; nessuno spazio dati di prova |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL IMS Organization]
 
@@ -57,4 +57,4 @@ Per informazioni su come collegare il tuo store ai servizi Adobe Commerce, consu
 |--- |--- |
 | [!UICONTROL Sign in using Adobe ID] | Il tuo Adobe ID è in genere l’indirizzo e-mail utilizzato per la prima volta quando hai iniziato a iscriverti o acquistato un’applicazione o un servizio di Adobe. Il tuo Adobe ID è la chiave di cui hai bisogno per accedere al tuo account di Adobe. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

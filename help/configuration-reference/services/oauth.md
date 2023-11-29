@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Services] &gt; [!UICONTROL OAuth] pagina dell’amministratore di Commerce.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 | [!UICONTROL Customer Token Lifetime (hours]) | Globale | Determina il periodo di tempo, in ore, prima della scadenza di un token API del cliente. Il token cliente non scade mai se il campo è vuoto. Valore predefinito: `1` |
 | [!UICONTROL Admin Token Lifetime (hours)] | Globale | Determina il periodo di tempo, in ore, prima della scadenza di un token API amministratore. Il token di amministrazione non scade mai se il campo è vuoto. Valore predefinito: `4` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 1%
 | [!UICONTROL Cleanup Probability] | Globale | Specifica il numero di richieste OAuth prima dell&#39;avvio della pulizia. Non inserire `0` per disattivare la pulizia. |
 | [!UICONTROL Enable WSDL Cache] | Globale | Determina la durata delle voci in minuti, prima che vengano pulite. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Consumer Settings]
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 | [!UICONTROL OAuth consumer credentials HTTP Post maxredirects] | Globale | Specifica il numero massimo di reindirizzamenti correlati a una pubblicazione di credenziali consumer. |
 | [!UICONTROL Expiration Period] | Globale | Determina quanti secondi prima della scadenza di una chiave/segreto inutilizzata dopo l’inizio dello scambio di token OAuth. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authentication Locks]
 
@@ -61,4 +61,4 @@ ht-degree: 1%
 | [!UICONTROL Maximum Login Failures to Lock Out Account] | Globale | Specifica il numero massimo di errori di autenticazione per bloccare l&#39;account. |
 | [!UICONTROL Lockout Time (seconds)] | Globale | Specifica il periodo di tempo in secondi dopo il quale l&#39;account viene sbloccato. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

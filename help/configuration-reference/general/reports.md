@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL General] &gt; [!UICONTROL Reports] pagina dell’amministratore di Commerce.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Year-to-Date Starts] | Globale | Specifica il mese e il giorno su cui si basano i calcoli del progressivo anno. |
 | [!UICONTROL Current Month Starts] | Globale | Specifica il giorno del mese utilizzato nei calcoli per contrassegnare l&#39;inizio del mese corrente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Options]
 
@@ -45,4 +45,4 @@ ht-degree: 1%
 | [!UICONTROL Enable "Product Added To Wishlist" Report] | Globale | Abilita o disabilita la raccolta di statistiche dei prodotti aggiunti alla lista dei desideri. |
 | [!UICONTROL Enable "Share WishList" Report] | Globale | Attiva o disattiva la raccolta di statistiche di elenchi di desideri condivisi. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

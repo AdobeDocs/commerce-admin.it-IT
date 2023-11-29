@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Security] &gt; [!UICONTROL 2FA] pagina dell’amministratore di Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Autent
 | [!UICONTROL Providers to use] | Globale | Indica i metodi di autenticazione a due fattori richiesti. Se si selezionano più provider, ogni utente dovrà configurare ogni metodo 2FA al successivo accesso. |
 | [!UICONTROL Configuration Email URL for Web API] | Globale | Per le implementazioni personalizzate, l’URL di un collegamento di configurazione e-mail alternativo inviato a _Amministratore_ utenti al primo accesso. Nel modello e-mail, utilizza il segnaposto `:tfat` per indicare dove viene iniettato il token. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google]
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Autent
 |--- |--- |--- |
 | [!UICONTROL OTP Window] | Globale | Durata in secondi di ciascuna password monouso (OTP) generata da Google Authenticator. Predefinito: `30` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Duo Security]
 
@@ -51,7 +51,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Autent
 | [!UICONTROL Secret Key] | Globale | La chiave segreta dal tuo [!DNL Duo Security] account. |
 | [!UICONTROL API Hostname] | Globale | Il nome host API dal tuo [!DNL Duo Security] account. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authy]
 
@@ -62,7 +62,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Autent
 | [!UICONTROL API Key] | Globale | La chiave API dal tuo [!DNL Authy] account. |
 | [!UICONTROL OneTouch Message] | Globale | Il messaggio visualizzato nel [!DNL Authy] autenticatore all’accesso. Predefinito: `Login request to your Magento Admin` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL U2F Key]
 
@@ -72,4 +72,4 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Autent
 |--- |--- |--- |
 | [!UICONTROL WebApi Challenge Domain] | Globale | Dominio utilizzato per emettere ed elaborare [!DNL WebAuthn] problemi relativi alle implementazioni WebAPI personalizzate. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

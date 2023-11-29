@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] pagina dell’amministratore di Commerce.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Google
 | [!UICONTROL Theme] | Globale | Determina lo stile della casella Google reCAPTCHA. Opzioni: `Light Theme` (impostazione predefinita) / `Dark Theme` |
 | [!UICONTROL Language Code] | Globale | A [codice a due caratteri](https://developers.google.com/recaptcha/docs/language) specifica la lingua utilizzata per il testo e i messaggi reCAPTCHA di Google. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -46,7 +46,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Google
 | [!UICONTROL Theme] | Globale | Determina lo stile della casella Google reCAPTCHA. Opzioni: `Light Theme` (impostazione predefinita) / `Dark Theme` |
 | [!UICONTROL Language Code] | Globale | A [codice a due caratteri](https://developers.google.com/recaptcha/docs/language) specifica la lingua utilizzata per il testo e i messaggi reCAPTCHA di Google. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -61,7 +61,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Google
 | [!UICONTROL Theme] | Globale | Determina lo stile della casella Google reCAPTCHA. Opzioni: `Light Theme` (impostazione predefinita) / `Dark Theme` |
 | [!UICONTROL Language Code] | Globale | A [codice a due caratteri](https://developers.google.com/recaptcha/docs/language) specifica la lingua utilizzata per il testo e i messaggi reCAPTCHA di Google. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -72,7 +72,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Google
 | [!UICONTROL reCAPTCHA Validation Failure Message] | Globale | Messaggio visualizzato nell’amministratore se la verifica non riesce. Testo predefinito: `reCAPTCHA verification failed.` |
 | [!UICONTROL reCAPTCHA Technical Failure Message] | Globale | Il messaggio visualizzato nell’amministratore se reCAPTCHA non restituisce un risultato di verifica. Testo predefinito: `Something went wrong with reCAPTCHA. Please contact the store owner.` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Panel]
 
@@ -91,4 +91,4 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Google
 | [!UICONTROL Enable for Login] | Globale | Determina il tipo di reCAPTCHA abilitato per [Accesso amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Opzioni:<br/>**`No`**- (impostazione predefinita) Non convalida l’accesso amministratore.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Richiede all&#39;utente di selezionare _Io non sono un robot_ casella di controllo.<br />**`Invisible reCAPTCHA v2`**: convalida il comportamento dell’utente in background senza richiedere interazioni in base al punteggio.<br/>**`Invisible reCAPTCHA v3`** - (Consigliato) Convalida il comportamento dell’utente in background in base al punteggio di interazione. |
 | [!UICONTROL Enable for Forgot Password] | Globale | Determina il tipo di reCAPTCHA abilitato per richiedere un [Reimpostazione password amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Opzioni:<br/>**`No`**- (impostazione predefinita) Non convalida la richiesta di reimpostazione della password.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Richiede all&#39;utente di selezionare _Io non sono un robot_ casella di controllo.<br />**`Invisible reCAPTCHA v2`**: convalida il comportamento dell’utente in background senza richiedere interazioni in base al punteggio.<br/>**`Invisible reCaptcha v3`** - (Consigliato) Convalida il comportamento dell’utente in background in base al punteggio di interazione. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

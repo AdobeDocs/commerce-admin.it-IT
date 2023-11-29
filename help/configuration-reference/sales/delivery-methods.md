@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] pagina dell’amministratore di Commerce.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3812'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Sito Web | Determina se la tariffa fissa viene visualizzata come opzione durante il pagamento se il metodo non è applicabile all&#39;acquisto. Opzioni: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione della tariffa fissa quando viene elencata con altri metodi di consegna durante il pagamento. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | Mostra metodo se non applicabile | Sito Web | Determina se la Spedizione gratuita viene visualizzata come opzione durante il pagamento se il metodo non è applicabile all&#39;acquisto. Opzioni: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione di Spedizione gratuita quando viene elencato con altri metodi di consegna durante il pagamento. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Sito Web | Determina se i tassi tabella vengono visualizzati come opzione durante il pagamento se il metodo non è applicabile all&#39;acquisto. Opzioni: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione dei tassi tabella quando vengono elencati con altri metodi di consegna durante il pagamento. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Search Radius] | Sito Web | Raggio, in km, da utilizzare per la ricerca delle posizioni di prelievo. |
 | [!UICONTROL Displayed Error Message] | Visualizzazione store | Messaggio visualizzato quando un cliente seleziona un prelievo in-store, ma il metodo di consegna non è disponibile. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Origin of the Shipment] | Sito Web | (Solo XML UPS) Il paese o l&#39;area geografica di origine della spedizione del prodotto. |
 | [!UICONTROL Password] | Visualizzazione store | Password dell&#39;account del corriere del gruppo di continuità. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Informazioni pacchetto UPS](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Sito Web | Specifica se le spese di imballaggio vengono applicate a ogni ordine o pacchetto all&#39;interno di un ordine. |
 | [!UICONTROL Handling Fee] | Sito Web | Imposta la gestione inclusa nel prezzo della tariffa di spedizione. La tariffa di imballaggio può essere impostata come importo fisso o percentuale. <br/><br/>**_Nota:_**Se si digita un importo percentuale, utilizzare il formato decimale `0.25` al 25%. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Metodi consentiti UPS](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Sito Web | Imposta l&#39;importo totale minimo che un ordine deve raggiungere per qualificarsi per la spedizione gratuita. |
 | [!UICONTROL Displayed Error Message] | Visualizzazione store | Messaggio di errore visualizzato quando il metodo di spedizione non è disponibile per alcun motivo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Paesi di pertinenza UPS e altre impostazioni](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Sito Web | Specifica se le trasmissioni di dati tra l&#39;archivio e UPS vengono registrate nel sistema per il debug. A meno che non vi sia un problema che deve essere tracciato e registrato, questa opzione deve essere impostata su `No`. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del gruppo di continuità quando viene elencato con altri metodi di consegna durante il pagamento. Invio `0` all&#39;inizio dell&#39;elenco. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Sito Web | Password dell&#39;account speditore USPS. |
 | [!UICONTROL Mode] | Sito Web | Determina la modalità di trasmissione dei dati inviati al sistema USPS. Le opzioni includono: <br/>**`Development`**- USPS non verifica se i dati ricevuti dal server Commerce vengono inviati tramite SSL.<br/>**`Live`** : USPS verifica che i dati ricevuti dal server Commerce vengano inviati tramite un livello di socket sicuro (SSL). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Impostazioni pacchetto USPS](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Machinable] | Sito Web | Specifica se il pacchetto può essere elaborato dalla macchina. Questa opzione influisce sul calcolo della tariffa di spedizione. |
 | [!UICONTROL Maximum Package Weight] | Sito Web | Imposta il peso massimo che un pacchetto può avere come specificato da USPS. Se i prodotti ordinati superano il peso massimo del pacchetto, questa opzione di spedizione non è disponibile. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Impostazioni commissioni di gestione USPS](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Sito Web | Specifica se le spese di imballaggio vengono applicate a ogni ordine o pacchetto all&#39;interno di un ordine. |
 | [!UICONTROL Handling Fee] | Sito Web | Imposta la gestione inclusa nel prezzo della tariffa di spedizione. La tariffa di imballaggio può essere impostata come importo fisso o percentuale. <br/><br/>**_Nota:_**Quando si digita un importo percentuale, utilizzare il formato decimale `0.25` al 25%. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Metodi consentiti USPS](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Sito Web | Imposta l&#39;importo minimo dell&#39;ordine che deve essere raggiunto per qualificarsi per la spedizione gratuita. |
 | [!UICONTROL Displayed Error Message] | Visualizzazione store | Messaggio di errore visualizzato quando USPS non è disponibile per alcun motivo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Paesi USPS applicabili](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Sito Web | Determina se il sistema gestisce un registro delle trasmissioni di dati tra l&#39;archivio e USPS per il debug. A meno che non vi sia un problema che deve essere tracciato e registrato, questa opzione deve essere impostata su `No`. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione di USPS quando viene elencato con altri metodi di consegna durante il pagamento. Invio `0` all&#39;inizio dell&#39;elenco. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 | [!UICONTROL Sandbox Mode] | Sito Web | Per eseguire transazioni FedEx in un ambiente di test, impostare la modalità sandbox su `Yes`. Opzioni: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | Sito Web | L’URL richiesto dipende dall’impostazione della modalità sandbox. Opzioni: <br/>**`Production`**: l’URL per accedere ai servizi web FedEx quando il negozio è attivo.<br/>**`Sandbox`** : l’URL per accedere all’ambiente di test per i servizi web FedEx. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Packaging FedEx](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 | [!UICONTROL Dropoff] | Sito Web | Dall&#39;elenco, selezionare il metodo di prelievo: <br/>**`Regular Pickup`**- (Impostazione predefinita) Se hai un volume elevato di spedizioni, organizzare prelievi regolari può essere conveniente.<br/>**`Request Courier`** - È necessario chiamare e richiedere un corriere FedEx per ritirare le spedizioni. <br/>**`Drop Box`**- È necessario consegnare le consegne presso il vostro locale FedEx casella di consegna.<br/>**`Business Service Center`** - Le spedizioni devono essere effettuate presso il centro di assistenza locale FedEx. <br/>**`Station`**- Le consegne devono essere effettuate presso la stazione FedEx locale. |
 | [!UICONTROL Maximum Package Weight] | Sito Web | Il valore predefinito per FedEx è 150 libbre. Rivolgersi al vettore di spedizione per conoscere il peso massimo supportato. Si consiglia di utilizzare il valore predefinito, a meno che non si disponga di accordi speciali con FedEx. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Tariffa di imballaggio FedEx](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -303,7 +303,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Sito Web | Determina la modalità di applicazione delle commissioni di gestione. Opzioni: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Sito Web | Specifica l&#39;importo addebitato come commissione di imballaggio, in base al metodo utilizzato per calcolare l&#39;importo. Se l&#39;addebito è basato su un addebito fisso, immettere l&#39;importo come decimale, ad esempio `4.90`. Se la commissione di gestione è basata su una percentuale dell&#39;ordine, immettere l&#39;importo come percentuale. Ad esempio, per addebitare il 6% dell&#39;ordine, immettere il valore come `.06`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Metodi di consegna FedEx](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -320,7 +320,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Sito Web | Specifica l&#39;importo minimo dell&#39;ordine necessario per la spedizione gratuita. |
 | [!UICONTROL Displayed Error Message] | Visualizzazione store | Messaggio visualizzato quando FedEx non è disponibile per qualsiasi motivo. Puoi utilizzare il messaggio predefinito o immetterne un altro. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Paesi applicabili FedEx](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -335,7 +335,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Sito Web | Determina quando FedEx viene visualizzato come metodo di spedizione durante il pagamento. Opzioni: <br/>**`Yes`**- L&#39;opzione di spedizione FedEx viene visualizzata nell&#39;elenco dei metodi di consegna, indipendentemente dal fatto che l&#39;ordine sia idoneo per utilizzarlo.<br/>**`No`** - L&#39;opzione di spedizione FedEx non viene visualizzata nell&#39;elenco dei metodi di consegna se non è applicabile all&#39;ordine (ad esempio, se il peso dell&#39;ordine supera l&#39;importo del peso massimo). |
 | [!UICONTROL Sort Order] | Sito Web | Un numero che determina l’ordine di visualizzazione di FedEx quando viene elencato con altri metodi di consegna durante il pagamento. Invio `0` all&#39;inizio dell&#39;elenco. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Sito Web | Password dell&#39;account spedizioniere DHL. |
 | [!UICONTROL Account Number] | Sito Web | Il numero del conto di spedizione DHL. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Impostazioni pacchetto DHL](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -369,7 +369,7 @@ ht-degree: 0%
 | [!UICONTROL Weight Unit] | Visualizzazione store | Determina l&#39;unità di misura per il peso utilizzata nei calcoli di spedizione. Opzioni: `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | Visualizzazione store | Determina la dimensione del pacchetto. Opzioni: <br/>**`Regular`**- I colli spediti sono conformi ai metodi di imballaggio standard DHL. In [!UICONTROL Allowed Methods] selezionare ogni metodo di imballaggio utilizzato per spedire i prodotti dal proprio negozio.<br/>**`Specific`** - Se i pacchetti spediti hanno dimensioni personalizzate, completare le operazioni seguenti: [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Metodi consentiti DHL](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping with Minimum Order Amount] | Sito Web | Impostate una delle seguenti opzioni: <br/>**`Enable`**- Consentire la spedizione gratuita di DHL per gli ordini che soddisfano l&#39;importo minimo.<br/>**`Disable`** - Per non offrire spedizione gratuita DHL con ordine minimo. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Sito Web | Se si abilita [!UICONTROL Free Shipping with Minimum Order], inserisci il valore dell’importo minimo dell’ordine nel campo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL Paesi applicabili](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -400,4 +400,4 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Sito Web | Crea un file di registro con informazioni sull&#39;errore. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione di DHL quando viene elencato con altri metodi di consegna durante il pagamento. Per posizionarlo in cima all&#39;elenco, immetti `0`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL New Relic Reporting]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL General] &gt; [!UICONTROL New Relic Reporting] pagina dell’amministratore di Commerce.
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '189'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 4%
 | [!UICONTROL New Relic Application Name] | Visualizzazione store | Nome assegnato al tuo [!DNL New Relic] integrazione. |
 | [!UICONTROL Send Adminhtml and Frontend as Separate Apps] | Visualizzazione store | Opzione per inviare i dati dei rapporti raccolti per la vetrina e per l’amministratore come app separate a New Relic. Questa opzione richiede un nome immesso per [!UICONTROL New Relic Application Name]. La funzione aggiunge il nome dell’applicazione con un carattere di sottolineatura ai dati dell’app raccolti. Ad esempio: `MyStore_Adminhtml`, `MyStore_frontend` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Cron]
 
@@ -44,4 +44,4 @@ ht-degree: 4%
 |--- |--- |--- |
 | [!UICONTROL Enable Cron] | Visualizzazione store | Determina se [!DNL New Relic] i rapporti possono essere eseguiti secondo programma con [Cron](../../systems/cron.md). Opzioni: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,10 +3,10 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] pagina dell’amministratore di Commerce.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '339'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Visualizzazione store | Determina la frequenza con cui le categorie della mappa del sito vengono aggiornate. Opzioni: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Visualizzazione store | Un valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti di sitemap di categoria in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Products Options]
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 | [!UICONTROL Priority] | Visualizzazione store | Un valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti di sitemap del prodotto in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
 | [!UICONTROL Add Images into Sitemap] | Visualizzazione store | Determina il livello di inclusione delle immagini nella sitemap. Opzioni: `None` / `Base Only` / `All` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Pages Options]
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Visualizzazione store | Determina la frequenza con cui vengono aggiornate le pagine CMS di sitemap. Opzioni: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Visualizzazione store | Un valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti della mappa del sito della pagina CMS in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Visualizzazione store | Determina la frequenza con cui vengono aggiornati gli URL dei negozi. Opzioni: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Visualizzazione store | Un valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti dell’URL del punto vendita in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Generation Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 | [!UICONTROL Error Email Sender] | Sito Web | Identifica il contatto dell&#39;archivio che viene visualizzato come mittente della notifica di errore. Opzioni: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Error Email Template] | Sito Web | Identifica il modello e-mail utilizzato per la notifica dell’errore. Modello predefinito: `Sitemap generate Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sitemap File Limits]
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 | [!UICONTROL Maximum No of URLs Per File] | Visualizzazione store | Determina il numero massimo di URL che possono essere inclusi in una singola sitemap. |
 | [!UICONTROL Maximum File Size] | Visualizzazione store | Determina la dimensione massima in byte della mappa del sito generata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Submission Settings]
 
@@ -103,4 +103,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | Visualizzazione store | Consente di inviare le direttive per il file robots.txt. Opzioni: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

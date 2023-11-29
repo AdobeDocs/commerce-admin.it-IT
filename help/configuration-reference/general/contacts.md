@@ -3,10 +3,10 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Contacts]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL General] &gt; [!UICONTROL Contacts] pagina dell’amministratore di Commerce.
 exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Contact Us] | Visualizzazione store | Abilita [_Contattaci_](../../getting-started/store-details.md#contact-us-form) e inserisce un collegamento nel piè di pagina. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options]
 
@@ -38,4 +38,4 @@ ht-degree: 1%
 | [!UICONTROL Email Sender] | Visualizzazione store | Identifica il contatto del punto vendita utilizzato per tutte le risposte alle richieste di informazioni e-mail da _Contattaci_ pagina. Mittente predefinito: `Custom Email 2` |
 | [!UICONTROL Email Template] | Visualizzazione store | Specifica il modello da utilizzare come base per tutte le risposte alle richieste e-mail provenienti da _Contattaci_ pagina. Modello predefinito: `Contact Form` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

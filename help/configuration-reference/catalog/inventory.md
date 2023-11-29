@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] pagina dell’amministratore di Commerce.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 80630957dbe25d21c45f64d8027a39b7b396619d
+source-git-commit: 768c9fdc37127b408230983e39e98b11149713a7
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Inventory Check On Cart Load] | Globale | Determina se viene eseguito un controllo dell&#39;inventario durante il caricamento di un prodotto nel carrello. La disattivazione di questo controllo dell’inventario può migliorare le prestazioni per i passaggi di pagamento, soprattutto quando nel carrello sono presenti molti articoli. Tuttavia, se salti la pre-convalida, i clienti potrebbero vedere _esaurito_ errori più avanti nel processo di pagamento. Opzioni: `Yes` / `No` |
 | [!UICONTROL Synchronize with Catalog] | Globale | Se impostato su `Yes`, i dati di inventario vengono regolati in base alle modifiche apportate al catalogo (ad esempio rimozioni di prodotti, modifiche SKU di prodotti e modifiche al tipo di prodotto) e mantiene la coerenza tra inventario e catalogo. Opzioni: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Stock Options]
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Increments] | Globale | Stabilisce il numero di prodotti che compongono un incremento di quantità. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | Globale | Determina se gli articoli inclusi nelle note di accredito vengono automaticamente restituiti al magazzino. Opzioni: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Bulk Operations]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL Run asynchronously] | Globale | Determina se eseguire operazioni in blocco in modo asincrono per azioni di massa sui prodotti, tra cui [in blocco](../../inventory-management/bulk-assignment.md) assegnare le origini, annullare l&#39;assegnazione delle origini e [trasferisci magazzino all&#39;origine](../../inventory-management/inventory-transfer.md). Raccoglie azioni in blocco fino al _[!UICONTROL Asynchronous batch size]_, quindi esegue tali azioni. Questa funzione è disabilitata per impostazione predefinita. Prima di abilitare questa funzione, è consigliabile rivedere le prestazioni con azioni in blocco. Opzioni:<br/>**`Yes`**- Esegue tutte le operazioni in blocco per [!DNL Inventory Management] in modo asincrono. Per attivare questa funzione, è necessario configurare un sistema di gestione delle code asincrone.<br/>**`No`**- Impostazione predefinita. Non esegue operazioni di massa in modo asincrono. |
 | [!UICONTROL Asynchronous batch size] | Globale | Imposta **[!UICONTROL Run asynchronously]** a `Yes` per immettere un valore per _[!UICONTROL Asynchronous batch size]_campo. <br/>La dimensione predefinita del batch è 100. Quando i processi in blocco raggiungono questo importo, vengono eseguiti. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Inventory Indexer Settings]
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Stock/Source reindex strategy] | Globale | Determina la strategia utilizzata per la reindicizzazione stock/sorgente. Opzioni: `Synchronous` / `Asynchronous` (è necessario configurare un gestore di code asincrone per la modalità asincrona) |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 > A causa delle dipendenze degli aggiornamenti di magazzino per le attività correlate all’ordine, l’indicizzatore magazzino viene attivato anche al salvataggio del prodotto, indipendentemente `Synchronous` o `Asynchronous` impostazione.
 
-
-{:style=&quot;table-layout:auto&quot;}
 
 ## [!UICONTROL Distance Provider for Distance Based SSA]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Provider] | Globale | Determina il provider da utilizzare per l&#39;algoritmo di selezione dell&#39;origine di priorità distanza. Questa funzione è attivata per impostazione predefinita. Opzioni: <br/>**`Google MAP`**: utilizza i servizi Google per calcolare la distanza e l’ora tra l’indirizzo della destinazione di spedizione e le posizioni di origine (indirizzo e coordinate GPS). Questa opzione richiede una chiave API Google e può comportare costi aggiuntivi tramite Google.<br/>**`Offline Calculation`** - Calcola la distanza utilizzando un database incorporato per determinare l&#39;origine più vicina all&#39;indirizzo di destinazione della spedizione. Per utilizzare questa opzione, potrebbe essere necessario richiedere l&#39;assistenza dello sviluppatore per scaricare inizialmente il contenuto della posizione del database per tutti i paesi di destinazione mediante una riga di comando. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Distance Provider]
 
@@ -111,4 +111,4 @@ ht-degree: 0%
 | [!UICONTROL Computation mode] | Globale | Determina le direzioni e i percorsi per calcolare la distanza dall&#39;indirizzo di spedizione e da tutte le origini assegnate al magazzino. Per impostazione predefinita, i calcoli utilizzano la modalità guida. Opzioni: <br/>**`Driving`**- Impostazione predefinita, richiede indicazioni stradali standard utilizzando la rete stradale.<br/>**`Walking`** - Richiede indicazioni stradali utilizzando sentieri pedonali e marciapiedi (se disponibili). <br/>**`Bicycling`**- Richiede indicazioni per il ciclismo utilizzando piste ciclabili e strade preferite (attualmente disponibili solo negli Stati Uniti e in alcune città canadesi). |
 | [!UICONTROL Value] | Globale | Indica cosa calcolare e restituire per la distanza e l&#39;ora per le ubicazioni di origine all&#39;indirizzo di destinazione di spedizione. L&#39;algoritmo di priorità distanza consiglia l&#39;origine con la distanza o il tempo più breve all&#39;indirizzo di destinazione della spedizione, che fornisce più velocemente e possibilmente più economico per evadere le spedizioni. Opzioni: <br/>**`Distance`**- Restituisce la distanza tra i punti in metriche (chilometri e metri) o imperiali (miglia e piedi).<br/>**`Time to Destination`** - Restituisce il tempo necessario per spostarsi dalle località di origine all&#39;indirizzo di spedizione in ore e minuti. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] pagina dell’amministratore di Commerce.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Sito Web | Identifica il paese in cui l&#39;esercente è registrato per esercitare l&#39;attività. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Soluzioni consigliate
 
@@ -86,7 +86,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite assegno o vaglia postale. <br/><br/>**_Nota:_**Un ordine è qualificato se il totale è compreso tra il totale minimo o massimo dell&#39;ordine oppure se corrisponde a tale totale. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite assegno o vaglia postale se elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -105,7 +105,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite bonifico bancario. <br/><br/>**_Nota:_**Un ordine è qualificato se il totale è compreso tra il totale minimo o massimo dell&#39;ordine oppure se corrisponde a tale totale. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite bonifico bancario se elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -126,7 +126,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere addebitato a un conto aziendale. <br/><br/>**_Nota:_**Un ordine è qualificato se il totale è compreso tra il totale minimo o massimo dell&#39;ordine oppure se corrisponde a tale totale. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento dell&#39;acconto se elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite bonifico bancario. <br/><br/>**_Nota:_**Un ordine è qualificato se il totale è compreso tra il totale minimo o massimo dell&#39;ordine oppure se corrisponde a tale totale. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite bonifico bancario se elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -166,7 +166,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici per i quali è possibile applicare il Checkout subtotale zero. |
 | [!UICONTROL Sort Order] | Sito Web | Un numero che determina l&#39;ordine in cui il titolo, ad esempio &quot;Nessuna informazione di pagamento è richiesta&quot;, viene visualizzato quando elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -185,7 +185,7 @@ Per un elenco completo delle singole opzioni di configurazione, consulta la sezi
 | [!UICONTROL Order] | Rappresenta un accordo con PayPal che consente all&#39;esercente di acquisire uno o più importi fino al totale dell&#39;ordine dal conto dell&#39;acquirente del cliente, entro un periodo di tempo definito (fino a 29 giorni). |
 | [!UICONTROL Sale] | L&#39;importo dell&#39;acquisto è autorizzato e immediatamente prelevato dal conto del cliente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -208,4 +208,4 @@ Per un elenco completo delle singole opzioni di configurazione, consulta la sezi
 | [!UICONTROL Maximum Order Total] | Sito Web | Importo massimo dell&#39;ordine che può essere pagato da OA. <br/><br/>**_Nota:_**Un ordine è qualificato se il totale è compreso tra il totale minimo o massimo dell&#39;ordine oppure se corrisponde a tale totale. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite OA quando viene elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

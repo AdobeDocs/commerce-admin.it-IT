@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] pagina dell’amministratore di Commerce.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Visualizzazione store | Consente ai clienti di ricevere i feed RSS dal punto vendita. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Wish List]
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Visualizzazione store | Quando questa opzione è attivata, nella parte superiore delle pagine della lista dei desideri viene visualizzato un collegamento al feed RSS. La pagina di condivisione della lista dei desideri include una casella di controllo che il cliente può selezionare per collegare il feed dalla lista dei desideri condivisi. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog]
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 | [!UICONTROL Coupons/Discounts] | Visualizzazione store | Quando questa opzione è abilitata, pubblica le notifiche di eventuali coupon o sconti. |
 | [!UICONTROL Top Level Category] | Visualizzazione store | Pubblica la notifica di qualsiasi modifica alla struttura di categorie di livello superiore del catalogo, che si riflette nel menu principale. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -63,4 +63,4 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Customer Order Status Notification] | Visualizzazione store | Consente ai clienti di tenere traccia dello stato dell&#39;ordine tramite il feed RSS. Quando è attivata, nell&#39;ordine viene visualizzato un collegamento del feed RSS |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

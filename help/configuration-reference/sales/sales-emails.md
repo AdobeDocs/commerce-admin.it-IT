@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] pagina dell’amministratore di Commerce.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 74cc15bd7e0873705b46175ae5f277b1753ec5b5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Asynchronous sending] | Globale | Determina se le e-mail di vendita vengono inviate in modo asincrono. È consigliabile abilitare l’invio asincrono. Opzioni: <br/>**`Disable`**- (Impostazione predefinita) Le e-mail di vendita vengono inviate quando attivate da un evento.<br/>**`Enable`** - (Consigliato) Le e-mail di vendita vengono inviate a intervalli regolari predeterminati. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To] | Visualizzazione store | Fornisce l&#39;indirizzo e-mail di chiunque riceva una copia di un ordine e-mail. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Order Email Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Comments]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To|Store View] | Fornisce l&#39;indirizzo e-mail di chiunque riceva una copia di un&#39;e-mail di commento dell&#39;ordine. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Order Email Copy Method] | Visualizzazione store | Indica il metodo utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice]
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Email Copy To] | Visualizzazione store | Fornisce l&#39;indirizzo di posta elettronica di chiunque debba ricevere una copia di un&#39;e-mail di fattura. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Invoice Email Copy Method] | Visualizzazione store | Indica il metodo utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice Comments]
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Comment Email Copy To] | Visualizzazione store | Fornisce l&#39;indirizzo di posta elettronica di chiunque possa ricevere una copia di un&#39;e-mail di commento della fattura. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Invoice Comments Email Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Email Copy To] | Visualizzazione store | Fornisce l&#39;indirizzo di posta elettronica di tutti coloro che devono ricevere una copia di un&#39;e-mail di spedizione. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Shipment Email Copy Method] | Visualizzazione store | Indica il metodo utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment Comments]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Comment Email Copy To] | Visualizzazione store | Fornisce l&#39;indirizzo di posta elettronica di chiunque possa ricevere una copia di un&#39;e-mail di commento della spedizione. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Shipment Comments Email Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Email Copy To] | Visualizzazione store | Fornisce l&#39;indirizzo e-mail di tutti coloro che devono ricevere una copia di un messaggio e-mail di nota di credito. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Credit Memo Email Copy Method] | Visualizzazione store | Indica il metodo utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo Comments]
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Comment Email Copy To] | Visualizzazione store | Specifica l&#39;indirizzo e-mail di chiunque debba ricevere una copia dell&#39;e-mail di commento della nota di credito. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Credit Memo Comments Email Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 | Invia Ordine Pronto Per Il Ritiro Della Copia E-Mail A | Visualizzazione store | Specifica l&#39;indirizzo di posta elettronica di chiunque debba ricevere una copia di un _Ordine pronto per il ritiro_ e-mail. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Order Ready For Pickup Email Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Opzioni: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Purchase Order Approval]
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 | [!UICONTROL Error creating Order from Purchase Order (to Buyer)] | Visualizzazione store | Notifica al creatore che si è verificato un errore durante la conversione di un ordine di acquisto in un ordine. |
 | [!UICONTROL Purchase Order required Approval (to Approver)] | Visualizzazione store | Invia un&#39;e-mail per notificare all&#39;approvatore che l&#39;ordine di acquisto richiede la sua approvazione. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Quote]
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 | [!UICONTROL Send Quote Email Copy To] | Visualizzazione store | Specifica l&#39;indirizzo di posta elettronica di ogni persona che deve ricevere una copia dell&#39;e-mail del preventivo. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Quote Email Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA]
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Email Copy To] | Visualizzazione store | Fornisce l&#39;indirizzo di posta elettronica di tutti coloro che devono ricevere una copia di un&#39;e-mail RMA. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send RMA  Email Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Authorization]
 
@@ -257,7 +257,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Authorization Email Copy To] | Visualizzazione store | Fornisce l&#39;indirizzo di posta elettronica di chiunque debba ricevere una copia di un messaggio e-mail di autorizzazione RMA. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send RMA Authorization Email Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Admin Comments]
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | Visualizzazione store | Fornisce l’indirizzo e-mail di chiunque desideri ricevere una copia della notifica. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Customer Comments]
 
@@ -293,4 +293,4 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | Visualizzazione store | Fornisce l’indirizzo e-mail di chiunque desideri ricevere una copia della notifica. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Le opzioni includono: <br/>**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br/>**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

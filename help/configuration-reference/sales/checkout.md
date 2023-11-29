@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Checkout] pagina dell’amministratore di Commerce.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Address Search] | Sito Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo per Adobe Commerce) Determina se i clienti possono utilizzare [ricerca indirizzo](../../stores-purchase/checkout-address-search.md) funzionalità per le fasi Spedizione, Revisione e Pagamenti. Se questa opzione è abilitata, utilizza Limite numero di indirizzi del cliente per impostare il numero di indirizzi salvati necessari per attivare questa funzionalità durante il pagamento. Opzioni: `Yes` / `No` |
 | Limite numero di indirizzi cliente | Sito Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo per Adobe Commerce) Quando la ricerca degli indirizzi è abilitata, determina il numero di indirizzi salvati necessari per attivare questa funzionalità durante il pagamento. Quando il numero di indirizzi salvati del cliente raggiunge o supera questo numero, viene eseguito il rendering solo dell’indirizzo predefinito sul _Spedizione_ e _Revisione e pagamenti_ passaggi. Il cliente può utilizzare una funzione di ricerca per modificare l’indirizzo selezionato. Il valore predefinito è `10`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Preview Quote Lifetime (minutes)] | Visualizzazione store | Determina la durata massima dell&#39;offerta in minuti quando viene visualizzata in anteprima dal carrello. |
 | [!UICONTROL Enable Clear Shopping Cart] | Sito Web | Determina se nel carrello viene visualizzata l’opzione per consentire agli utenti di cancellare il contenuto del carrello in una singola azione. Opzioni: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Cart Summary] | Sito Web | Determina il valore visualizzato tra parentesi dopo il collegamento Carrello. Opzioni: `Display number of items in cart` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mini carrello
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Number of Items to Display Scrollbar] | Visualizzazione store | Determina il numero di elementi che possono essere visualizzati nel mini carrello prima che venga attivata la barra di scorrimento. Predefinito: `5` |
 | [!UICONTROL Maximum Number of Items to Display] | Visualizzazione store | Determina il numero massimo di elementi che possono essere visualizzati nel mini carrello. Predefinito: `10` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -95,4 +95,4 @@ ht-degree: 0%
 | [!UICONTROL Send Payment Failed Copy To] | Visualizzazione store | Fornisce l&#39;indirizzo e-mail di chiunque riceva una copia di un messaggio e-mail di pagamento non riuscito. Separa più indirizzi con una virgola. |
 | [!UICONTROL Send Payment Failed Copy Method] | Visualizzazione store | Indica il metodo e-mail utilizzato per inviare la copia. Opzioni: <br />**`Bcc`**- Invia una copia di cortesia cieca includendo il destinatario nell&#39;intestazione della stessa e-mail inviata al cliente. Il destinatario Ccn non è visibile al cliente.<br />**`Separate Email`** - Invia la copia come e-mail separata. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
