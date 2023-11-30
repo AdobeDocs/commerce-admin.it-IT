@@ -3,7 +3,7 @@ title: '[!UICONTROL Reports] menu'
 description: Adobe Commerce e Magento Open Source forniscono un'ampia selezione di rapporti per tenerti informato sulle tue attività di marketing, sui prodotti di vendita e sull'attività dei clienti.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 35025c69bf9ba3902693cb9694bcf2b4e7882c7f
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -54,6 +54,6 @@ La selezione di [rapporti sui prodotti](product-reports.md) include Visualizzazi
 
 [Statistiche](sales-reports.md#refresh-statistics) è uno strumento che riduce l’impatto sulle prestazioni della generazione di rapporti tramite il calcolo e la memorizzazione di dati statistici. Anziché ricalcolare le statistiche ogni volta che viene generato un rapporto, le statistiche memorizzate vengono utilizzate fino all&#39;aggiornamento delle statistiche.
 
-### [!DNL Business Intelligence]
+### [!DNL Commerce Intelligence]
 
-Integrato [[!DNL Business Intelligence]](business-intelligence.md) fornisce le informazioni necessarie per prendere decisioni aziendali strategiche.
+Integrato [[!DNL Commerce Intelligence]](business-intelligence.md) fornisce le informazioni necessarie per prendere decisioni aziendali strategiche.
