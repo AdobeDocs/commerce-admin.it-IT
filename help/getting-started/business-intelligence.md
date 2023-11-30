@@ -3,9 +3,9 @@ title: '''[!DNL Commerce Intelligence] strumenti"'
 description: Scopri in che modo Adobe Commerce e gli esercenti di Magento Open Source possono utilizzare gli strumenti Commerce Intelligence per acquisire le informazioni utilizzate per prendere decisioni aziendali valide.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
+source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Per informazioni tecniche, vedere [[!DNL Advanced Reporting]][2]{:target=&quot;_
 
 >[!NOTE]
 >
->[!DNL Commerce Intelligence] gli account utilizzano il reporting integrato, anziché [!DNL Advanced Reporting] funzionalità.
+>Problemi di compatibilità con [!DNL Adobe Commerce Intelligence], Commerce non è al momento in grado di supportare la generazione di rapporti avanzati utilizzando AWS S3 Bucket come supporto per il file di dati di origine in [!DNL Commerce Intelligence].
 
 ![Dashboard report avanzati](./assets/reporting-advanced.png){width="700"}
 
