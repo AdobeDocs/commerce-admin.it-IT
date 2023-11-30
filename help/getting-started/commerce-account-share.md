@@ -3,9 +3,9 @@ title: Condividi un [!DNL Commerce] account
 description: Scopri come concedere un accesso limitato al tuo [!DNL Commerce] account per altro [!DNL Commerce] titolari del conto.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
+source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Il [!DNL Commerce] Il team di supporto non ha accesso all’account e non può i
 
 1. Sotto _[!UICONTROL Shared Information]_, eseguire le operazioni seguenti:
 
-   - Per identificare l&#39;account condiviso, immettere un **[!UICONTROL Share Name]**. Questo nome è un riferimento interno ed è visibile solo a te e alla persona con cui condividi l’account.
+   - Per identificare l&#39;account condiviso, immettere un **[!UICONTROL Share Name]**. Questo nome è un riferimento interno ed è visibile solo a te e alla persona con cui condividi l’account. (Non immettere un nome di condivisione che inizi con `CLOUD SHARED ACCESS FROM MAG XYX`.)
    - Se si desidera condividere le informazioni personali sul contatto con il nuovo utente, immettere: **[!UICONTROL Your Email]** e **[!UICONTROL Your Phone]**.
 
 1. Sotto _[!UICONTROL Grant Account Permissions]_, seleziona la casella di controllo di ciascun [!DNL Commerce] prodotto e servizio che desideri condividere.
@@ -95,6 +95,10 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Shared Access]**.
 
 1. Trova l’account da revocare in _[!UICONTROL Managing Users & Permissions]_e fai clic su **[!UICONTROL Delete]**.
+
+   >[!NOTE]
+   >
+   > Se  **[!UICONTROL Delete]** non viene visualizzato, verifica se **[!UICONTROL Share Name]** inizia con `Cloud Shared Access from MAG XYZ` - in genere, [questi account](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) non può essere eliminato.
 
 1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL Delete User]**.
 
