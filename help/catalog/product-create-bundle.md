@@ -3,9 +3,9 @@ title: Prodotto bundle
 description: Scopri come creare un pacchetto di prodotti che consenta agli acquirenti di creare un prodotto personalizzato nel tuo negozio.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Le opzioni vengono visualizzate quando il cliente fa clic su **[!UICONTROL Custo
 >[!NOTE]
 >
 >Il prezzo minimo annunciato (MAP) non è disponibile per i prodotti bundle che utilizzano prezzi dinamici.
+
+>[!NOTE]
+>
+>Il pacchetto principale viene sempre visualizzato automaticamente come prodotto di up-sell per tutti i suoi prodotti secondari.
 
 Se [Acquisto immediato](../stores-purchase/checkout-instant-purchase.md) è disponibile, il _Acquisto immediato_ sotto il _Aggiungi al carrello_ per ogni elemento nel bundle.
 
@@ -276,3 +280,5 @@ Lo stato delle scorte dei prodotti del bundle è **_non modificato automaticamen
 ![Casella di controllo](../assets/checkbox.png) La quantità può essere un valore predefinito o definito dall&#39;utente. Tuttavia, non assegnare il _[!UICONTROL User Defined]_proprietà per la casella di controllo o per la selezione multipla dei tipi di input.
 
 ![Casella di controllo](../assets/checkbox.png) Gli articoli in bundle possono essere spediti insieme o separatamente.
+
+![Casella di controllo](../assets/checkbox.png) Il pacchetto principale viene sempre visualizzato automaticamente come prodotto di up-sell per tutti i suoi prodotti secondari.

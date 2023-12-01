@@ -3,9 +3,9 @@ title: Impostazioni prodotto - [!UICONTROL Related Products, Up-Sells, and Cross
 description: Per un prodotto, il [!UICONTROL Related Products, Up-Sells, and Cross-Sells] Le impostazioni definiscono semplici blocchi promozionali sulla pagina del prodotto che evidenziano una selezione di prodotti aggiuntivi.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,10 @@ Per selezionare i prodotti di upselling:
    ![Prodotti up-selling](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
 1. Al termine, fai clic su **[!UICONTROL Add Selected Products]**.
+
+>[!NOTE]
+>
+>Il pacchetto principale viene sempre visualizzato automaticamente come prodotto di up-sell per tutti i suoi prodotti secondari.
 
 ## Effetti di cross-selling
 
