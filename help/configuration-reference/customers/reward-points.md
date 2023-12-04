@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] pagina dell’amministratore di Commerce.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 <!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
-|--- |--- |--- |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Reward Points Functionality] | Globale | Attiva o disattiva i punti premio. Opzioni: `Yes` / `No`. |
 | [!UICONTROL Enable Reward Points Functionality on Storefront] | Sito Web | Quando questa opzione è abilitata, i clienti possono guadagnare punti attraverso le loro attività e riscattarli al momento del pagamento. Se è disattivato, solo gli utenti Admin possono assegnare e riscattare punti per conto dei clienti. Opzioni: `Yes` / `No`. |
 | [!UICONTROL Customers May See Reward Points History] | Sito Web | Quando questa opzione è abilitata, i clienti possono visualizzare una cronologia dettagliata per ciascun accantonamento, rimborso e scadenza dei Punti premio nel dashboard dell’account. Opzioni: `Yes` / `No` |
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expire in (days)] | Sito Web | Indica la durata dei punti premio in giorni. Ogni batch di punti guadagnati durante attività separate ha una durata separata. Ogni batch nella cronologia Punti premio indica il numero di giorni rimanenti prima della scadenza dei punti. La cronologia può essere visualizzata dal dashboard dell’account del cliente, se abilitata, e dall’amministratore. Lascia vuoto per non scadere. |
 | [!UICONTROL Reward Points Expiry Calculation] | Sito Web | Determina il metodo utilizzato per determinare quando scadono i punti premio. Opzioni: <br/>**`Static`**- Determina la durata residua dei punti premio in base al numero di giorni impostati nella configurazione. Se il limite di scadenza nella configurazione cambia, la data di scadenza dei punti esistenti non cambia.<br/>**`Dynamic`** - Calcola il numero di giorni rimanenti ogni volta che il saldo del punto premio aumenta. Se il limite di scadenza nella configurazione cambia, i calcoli di scadenza per tutti i punti esistenti vengono aggiornati di conseguenza. |
 | [!UICONTROL Refund Reward Points Automatically] | Globale | Determina se i punti premio disponibili vengono rimborsati automaticamente. Opzioni: `Yes` / `No` |
-| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Globale | Determina se i punti premio vengono dedotti automaticamente dall&#39;importo di un rimborso. Opzioni: `Yes` / `No`. |
+| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Globale | Questo determina se i punti premio guadagnati con gli acquisti vengono annullati completamente o parzialmente con il rimborso dell&#39;ordine, quando questa funzione è abilitata. Solo i punti premio dell’ordine che li ha ottenuti sono interessati quando l’ordine viene rimborsato. Opzioni: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Visualizzazione store | Specifica la pagina CMS che spiega il programma dei punti premio. Un collegamento alla pagina Premi predefinita viene visualizzato nelle posizioni del negozio in cui è possibile ottenere punti. |
 
 {style="table-layout:auto"}
@@ -48,8 +48,8 @@ ht-degree: 0%
 <!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
-|--- |--- |--- |
-| [!UICONTROL Purchase] | Sito Web | Determina se nel carrello viene visualizzato un messaggio che indica i punti premio ottenuti per l&#39;acquisto e il saldo corrente dei punti premio del cliente. Opzioni: `Yes` / `No` |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Purchase] | Sito Web | Determina se i punti premio vengono guadagnati per gli acquisti in base al [Tassi di cambio premio](../../merchandising-promotions/reward-exchange-rates.md). Opzioni: `Yes` / `No` |
 | [!UICONTROL Registration] | Sito Web | Specifica il numero di punti guadagnati per l&#39;apertura di un conto cliente. |
 | [!UICONTROL Newsletter Signup] | Sito Web | Specifica il numero di punti guadagnati dai clienti registrati che si abbonano a una newsletter. I punti non sono disponibili per gli abbonamenti da parte degli ospiti. Se un cliente annulla l’abbonamento e successivamente si abbona di nuovo, i punti non vengono guadagnati per il secondo abbonamento. |
 | [!UICONTROL Converting Invitation to Customer] | Sito Web | Specifica il numero di punti guadagnati da un cliente che invia un invito quando il destinatario apre un conto cliente. |

@@ -3,9 +3,9 @@ title: Programmi di fidelizzazione e ricompensa
 description: Scopri il sistema di punti premio che puoi utilizzare per stimolare il coinvolgimento dei clienti e promuovere la loro fedeltà.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,11 @@ La configurazione Punti premio determina la modalità di presentazione dei punti
 
 1. Se si desidera rimborsare automaticamente i punti premio disponibili, impostare **[!UICONTROL Refund Reward Points Automatically]** a `Yes`.
 
-1. Se si desidera dedurre automaticamente i punti premio, impostare **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** a `Yes`.
+1. Per annullare i punti premio ottenuti con gli acquisti quando l&#39;ordine che ha ottenuto i punti viene rimborsato interamente o parzialmente, impostare **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** a `Yes`.
+
+   >[!NOTE]
+   >
+   >Sono interessati solo i punti guadagnati con l&#39;ordine che viene rimborsato.
 
 1. Imposta **[!UICONTROL Landing Page]** alla pagina di contenuto che illustra il programma punti premio.
 
