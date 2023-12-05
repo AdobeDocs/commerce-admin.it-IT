@@ -3,9 +3,9 @@ title: Prodotto bundle
 description: Scopri come creare un pacchetto di prodotti che consenta agli acquirenti di creare un prodotto personalizzato nel tuo negozio.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Il modulo viene aggiornato per riflettere la modifica.
    - Per fare in modo che il prezzo rifletta le opzioni scelte dal cliente, impostare **[!UICONTROL Dynamic Price]** a `Yes` e lasciare **[!UICONTROL Price]** vuoto.
 
    - Per addebitare un prezzo fisso per il bundle, imposta **[!UICONTROL Dynamic Price]** a `No` e immetti **[!UICONTROL Price]** che desideri caricare per il bundle.
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] e [!UICONTROL Customer Group Price] (Prezzo livello) vengono sempre impostati come percentuale di sconto per tutti i tipi di prodotto del bundle.
 
 1. Poiché il prodotto non è ancora pronto per la pubblicazione, imposta **[!UICONTROL Enable Product]** a `No`.
 
@@ -282,3 +286,5 @@ Lo stato delle scorte dei prodotti del bundle è **_non modificato automaticamen
 ![Casella di controllo](../assets/checkbox.png) Gli articoli in bundle possono essere spediti insieme o separatamente.
 
 ![Casella di controllo](../assets/checkbox.png) Il pacchetto principale viene sempre visualizzato automaticamente come prodotto di up-sell per tutti i suoi prodotti secondari.
+
+![Casella di controllo](../assets/checkbox.png) [!UICONTROL Special Price] e [!UICONTROL Customer Group Price] (Prezzo livello) vengono sempre impostati come percentuale di sconto per tutti i tipi di prodotto del bundle.
