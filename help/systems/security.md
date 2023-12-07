@@ -3,9 +3,9 @@ title: Sicurezza
 description: Scopri gli strumenti disponibili per proteggere archivi e dati e le linee guida per un piano d’azione sulla sicurezza se noti un compromesso.
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 feature: Security, Site Management
-source-git-commit: 671ec7015c37b24ca0acc615ae3715b8b870a453
+source-git-commit: fede05a413428520eec89d46f41a1cdd9c9c3a2e
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ Esistono diversi modi per proteggere il tuo archivio e mantenere la sicurezza de
 - Implementare [CAPTCHA](security-captcha.md) o [reCAPTCHA](security-google-recaptcha.md)
 - Configurare un [Security Scan](security-scan.md) per ciascun dominio nell’installazione di Adobe Commerce o di Magento Open Source.
 
-Visita il [Centro sicurezza](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} e iscriviti al registro degli avvisi di sicurezza per ottenere le ultime notizie su potenziali vulnerabilità. Per informazioni sulle procedure consigliate per la protezione, vedere [Proteggere il sito e l’infrastruttura di Commerce](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) nel _Playbook di implementazione_.
-
 >[!NOTE]
 >
 >Archivi che hanno abilitato [!DNL Adobe Identity Management Services] Per l’autenticazione IMS, Adobe Commerce nativo e Magento Open Source 2FA sono disabilitati. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza Commerce con le credenziali di Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Consulta [[!DNL Adobe Identity Management Service] Panoramica dell’integrazione di (IMS)](../getting-started/adobe-ims-integration-overview.md).
 
+Visita il [Centro sicurezza](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} per ottenere le ultime notizie su potenziali vulnerabilità, registrati per ricevere le notifiche di Adobe Security e accedi al Centro affidabilità di Adobe.
+
 ![Centro sicurezza](./assets/product-security-home.png){width="700" zoomable="yes"}
+
+Per informazioni sulle procedure consigliate per la protezione, vedere [Proteggere il sito e l’infrastruttura di Commerce](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) nel _Playbook di implementazione_.
 
 ## Piano d&#39;azione sulla sicurezza
 

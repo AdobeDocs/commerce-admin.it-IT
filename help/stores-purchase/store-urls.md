@@ -3,9 +3,9 @@ title: URL store
 description: Scopri gli URL del negozio e come configurare l’URL di base e i codici del negozio.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Se dopo aver seguito le istruzioni di configurazione, alcune pagine continuano a
 
 ## Utilizza un URL amministratore personalizzato
 
-As a [best practice per la sicurezza](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf), l’Adobe consiglia di utilizzare un URL amministratore univoco invece del predefinito _admin_ o un termine comune come _backend_. Anche se non protegge direttamente il sito da un determinato attore non valido, può ridurre l&#39;esposizione a script che tentano di ottenere l&#39;accesso non autorizzato.
+As a [best practice per la sicurezza](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), l’Adobe consiglia di utilizzare un URL amministratore univoco invece del predefinito _admin_ o un termine comune come _backend_. Anche se non protegge direttamente il sito da un determinato attore non valido, può ridurre l&#39;esposizione a script che tentano di ottenere l&#39;accesso non autorizzato.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Anche se è possibile modificare l’URL e il percorso dell’amministratore in 
 
 >[!NOTE]
 >
->Per precauzione, non provare a modificare l’URL amministratore personalmente, a meno che non si sappia come modificare i file di configurazione sul server.
+>Per precauzione, non provare a modificare l’URL amministratore personalmente, a meno che non si sappia come modificare i file di configurazione sul server. Per i progetti Adobe Commerce implementati nell’infrastruttura cloud, modifica l’URL amministratore seguendo la [istruzioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) nel *Guida di Adobe Commerce sull’infrastruttura cloud*.
 
 ### Metodo 1: Cambiare da Amministratore
 
