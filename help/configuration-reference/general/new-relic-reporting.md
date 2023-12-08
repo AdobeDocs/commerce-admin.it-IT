@@ -3,16 +3,21 @@ title: '[!UICONTROL General] &gt; [!UICONTROL New Relic Reporting]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL General] &gt; [!UICONTROL New Relic Reporting] pagina dell’amministratore di Commerce.
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 1aec5c618d1f3f7f083523956d2aee62b777faca
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 4%
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL General] > [!UICONTROL New Relic Reporting]
 
 {{config}}
+
+>[!NOTE]
+>Queste opzioni di configurazione non si applicano ad Adobe Commerce su infrastruttura cloud.
+>
+>Se siete nel piano Pro, New Relic è già [preconfigurato e abilitato per impostazione predefinita](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Se si utilizza il piano Starter, è necessario completare [Passaggi di configurazione di New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) che fanno parte del processo di configurazione.
 
 ## [!UICONTROL General]
 

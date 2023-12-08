@@ -1,12 +1,12 @@
 ---
-title: '[!DNL New Relic]'' reporting'''
-description: Scopri informazioni sui [!DNL New Relic] report disponibili per gli account per Adobe Systems Commerce su infrastruttura cloud, che include il software per il servizio Nuovo Relic APM.
+title: '''[!DNL New Relic] reporting"'
+description: Scopri di più su [!DNL New Relic] creazione di rapporti disponibili per gli account di Adobe Commerce sull’infrastruttura cloud, che include il software per il servizio New Relic APM.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: e9a7645aed0e3b48bf565b04cdb6a31ce5d39ca0
+source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ## Passaggio 1: registrarsi a [!DNL New Relic] account
 
-1. Vai al [[!DNL New Relic]][1] sito Web e registrati per un account.
+1. Vai a [[!DNL New Relic]][1] e registrarsi per un account.
 
-   Puoi anche iscriverti per una versione di prova gratuito account.
+   Puoi anche iscriverti a un account di prova gratuito.
 
 1. Segui le istruzioni sul sito. Quando richiesto, scegliere per primo il prodotto che si desidera installare.
 
@@ -28,8 +28,8 @@ ht-degree: 0%
    | Opzione | Descrizione |
    | ------ | ----------- |
    | ID account | Dal tuo [!DNL New Relic] account, l’ID account è il numero nell’URL dopo: `/accounts` |
-   | ID applicazione | Dal tuo [!DNL New Relic] dashboard account, fai clic su **[!UICONTROL New Relic APM]**. Nel menu, scegli **[!UICONTROL Applications]**. Quindi, scegli l’applicazione. L’ID applicazione è il numero nell’URL dopo: `/applications/` |
-   | Chiave API New Relic | Dal tuo [!DNL New Relic] dashboard account, fai clic su **[!UICONTROL Account Settings]**. Nel menu a sinistra in Integrazioni, scegli **[!UICONTROL Data Sharing]**. Puoi creare, rigenerare o eliminare la chiave API da questa pagina. |
+   | ID applicazione | Dal tuo [!DNL New Relic] dashboard account, fai clic su **[!UICONTROL New Relic APM]**. Nel menu, scegli **[!UICONTROL Applications]**. Quindi, scegli l’applicazione. L&#39;ID applicazione è il numero visualizzato nella URL dopo: `/applications/` |
+   | Chiave API Nuovo Relic | Dal tuo [!DNL New Relic] dashboard account, fai clic su **[!UICONTROL Account Settings]**. Nel menu a sinistra in Integrazioni, scegli **[!UICONTROL Data Sharing]**. Puoi creare, rigenerare o eliminare la chiave API da questa pagina. |
    | Chiave API approfondimenti | Dal tuo [!DNL New Relic] dashboard account, fai clic su **[!UICONTROL Insights]**. Nel menu a sinistra in Amministrazione, scegli **[!UICONTROL API Keys]**. Le chiavi API di Insights vengono visualizzate in questa pagina. Se necessario, fare clic sul segno più (**+**) accanto a Inserisci chiavi per generare una chiave. |
 
    {style="table-layout:auto"}
@@ -49,6 +49,11 @@ Da utilizzare [!DNL New Relic APM Pro] per raccogliere e trasmettere i dati, l&
    Per ulteriori informazioni, consulta [Configurare ed eseguire cron][5] nella documentazione per gli sviluppatori.
 
 ## Passaggio 3: configurare lo store
+
+>[!NOTE]
+>Queste opzioni di configurazione non si applicano ad Adobe Commerce su infrastruttura cloud.
+>
+>Se siete nel piano Pro, New Relic è già [preconfigurato e abilitato per impostazione predefinita](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Se si utilizza il piano Starter, è necessario completare [Passaggi di configurazione di New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) che fanno parte del processo di configurazione.
 
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -72,7 +77,7 @@ Da utilizzare [!DNL New Relic APM Pro] per raccogliere e trasmettere i dati, l&
 
 1. (Facoltativo) Per **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**, seleziona `Yes` per inviare i dati raccolti per la vetrina e per l&#39;amministratore come app separate a New Relic.
 
-   Questa opzione richiede l&#39;immissione di un nome per .**[!UICONTROL New Relic Application Name]**
+   Questa opzione richiede un nome immesso per **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
@@ -82,7 +87,7 @@ Da utilizzare [!DNL New Relic APM Pro] per raccogliere e trasmettere i dati, l&
 
 ## Passaggio 4: abilitare Cron per [!DNL New Relic] reportistica
 
-1. Espandi ![Espansione selettore](../assets/icon-display-expand.png) sezione **[!UICONTROL Cron]** .
+1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Cron]** sezione.
 
    ![Configurazione New Relic Cron](./assets/new-relic-reporting-cron.png){width="600"}
 
@@ -104,14 +109,14 @@ Restituisce il numero di utenti amministratori attivi.
     Transazione FROM
     WHERE appName=&#39;&lt;your_app_name>&#39; DA 15 minuti fa
 
-#### Utenti Admin attualmente attivi
+#### Utenti amministratori attualmente attivi
 
-Restituisce i nomi degli utenti Admin attivi.
+Restituisce i nomi degli utenti amministratori attivi.
 
     SELECT uniques(AdminName)
-    FROM Transazione
-    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 minuti fa
-&lt;/your_app_name>
+    Transazione FROM
+    WHERE appName=&#39;&lt;your_app_name>&#39; DA 15 minuti fa
+
 #### Attività amministratore recente
 
 Restituisce il numero di azioni Amministratore recenti.
@@ -145,11 +150,11 @@ Restituisce il numero di eventi applicazione per categoria durante il periodo di
 Restituisce il numero medio di eventi applicazione nel catalogo per categoria durante il periodo di tempo specificato.
 
     SELECT average(CatalogCategoryCount)
-    DA Cron
-    WHERE CatalogCategoryCount IS NOT NULL
-    AND ConteggioCategorieCatalogo > 0
-    AND nomeApplicazione = &#39;&lt;your_app_name>&#39; DA 2 minuti fa LIMITE 1
-
+    FROM cron
+    WHERE CatalogCategoryCount NON È NULL
+    E CatalogCategoryCount > 0
+    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minuti fa LIMITE 1
+&lt;/your_app_name>
 #### Prodotti attivi
 
 Restituisce il numero di eventi di applicazione per prodotto durante il periodo di tempo specificato.
@@ -283,10 +288,10 @@ Restituisce il numero di clienti attivi durante il periodo di tempo specificato.
 
 Restituisce i nomi dei clienti attivi durante il periodo di tempo specificato.
 
-    SELECT uniques(CustomerName)
-    FROM Transazione
-    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 minuti fa
-&lt;/your_app_name>
+    SELECT uniques(NomeCliente)
+    Transazione FROM
+    WHERE appName=&#39;&lt;your_app_name>&#39; DA 15 minuti fa
+
 #### Clienti principali
 
 Restituisce i clienti principali durante il periodo di tempo specificato.
@@ -297,7 +302,7 @@ Restituisce i clienti principali durante il periodo di tempo specificato.
 
 #### Attività amministratore recente
 
-Restituisce un numero definito di record di attività recenti, inclusi il nome del cliente e la durata del visita.
+Restituisce un numero definito di record di attività recenti, che includono il nome del cliente e la durata della visita.
 
     SELEZIONA CustomerName, duration, name
     FROM Transaction
@@ -312,18 +317,18 @@ Restituisce un numero definito di record di attività recenti, inclusi il nome d
 Restituisce il numero di ordini effettuati durante il periodo di tempo specificato.
 
     SELECT count(Order)
-    DA transazione DA 1 giorno fa
+    FROM Transazione DA 1 giorno fa
 
 #### Valore totale dell’ordine
 
 Restituisce il numero totale di righe ordinate durante il periodo di tempo specificato.
 
     SELECT sum(orderValue)
-    DA transazione DA 1 giorno fa
+    FROM Transazione DA 1 giorno fa
 
-#### Totale elementi riga ordinati
+#### Totale elementi ordinati
 
-Restituisce il numero totale di righe ordinate durante il periodo di tempo specificato.
+Restituisce il numero totale di elementi ordinati durante il periodo di tempo specificato.
 
     SELECT sum(lineItemCount)
     DA transazione DA 1 giorno fa
