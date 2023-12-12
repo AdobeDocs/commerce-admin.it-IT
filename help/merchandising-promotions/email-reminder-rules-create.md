@@ -3,16 +3,16 @@ title: Creare promemoria e-mail
 description: Scopri come impostare una regola di promemoria e-mail che utilizza una regola di prezzo del carrello esistente.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: b750accf7aab49357f04e16dc60791e704516141
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # Creare promemoria e-mail
 
-Prima di impostare una regola di promemoria e-mail, devi impostare una regola di prezzo del carrello per definire la promozione offerta. Le condizioni delle regole che attivano un promemoria e-mail possono essere basate sulle proprietà del carrello, sulla lista dei desideri o su entrambe.
+Prima di impostare una regola di promemoria e-mail, devi [imposta una regola prezzo carrello](price-rules-cart-create.md) per definire la promozione offerta. Le condizioni delle regole che attivano un promemoria e-mail possono essere basate sulle proprietà del carrello, sulla lista dei desideri o su entrambe.
 
 >[!NOTE]
 >
@@ -55,7 +55,9 @@ Prima di impostare una regola di promemoria e-mail, devi impostare una regola di
 
    >[!NOTE]
    >
-   >Se un cliente ha più di un carrello abbandonato, una lista dei desideri o una combinazione di entrambi, il promemoria e-mail viene attivato una sola volta per quel cliente. Per attivare nuovamente lo stesso promemoria e-mail, utilizza _[!UICONTROL Repeat Schedule]_per impostare il numero di giorni tra le e-mail.
+   >Se un cliente ha più di un carrello abbandonato, una lista dei desideri o una combinazione di entrambi, il promemoria e-mail viene attivato una sola volta per quel cliente. Per attivare nuovamente lo stesso promemoria e-mail, utilizza _[!UICONTROL Repeat Schedule]_per impostare il numero di giorni tra le e-mail. <br/>
+   >
+   >Lo stesso promemoria e-mail **_non riattivato_** per lo stesso cliente per **_nuovo_** carrelli abbandonati e liste dei desideri **_dopo_** il _[!UICONTROL Repeat Schedule]_il periodo è terminato.
 
    Completa la condizione per descrivere lo scenario che attiva il promemoria e-mail.
 
