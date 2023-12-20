@@ -3,9 +3,9 @@ title: Prodotto bundle
 description: Scopri come creare un pacchetto di prodotti che consenta agli acquirenti di creare un prodotto personalizzato nel tuo negozio.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
+source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 Un bundle è un _crea il tuo_, prodotto personalizzabile. Ogni elemento in un bundle può essere basato su uno dei seguenti tipi di prodotto:
 
 - [Prodotto semplice](product-create-simple.md)
-- [Prodotto virtuale](product-create-virtual.md)
-- [Prodotto scaricabile](product-create-downloadable.md)
 - [Prodotto virtuale](product-create-virtual.md)
 
 ![Prodotto bundle](./assets/product-bundle.png){width="700" zoomable="yes"}
