@@ -3,9 +3,9 @@ title: Prodotto raggruppato
 description: Scopri come creare un prodotto raggruppato costituito da semplici prodotti autonomi presentati come un gruppo.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Per aggiungere un attributo esistente al prodotto, utilizza [controlli filtro](.
 1. Accetta il valore predefinito **[!UICONTROL SKU]** in base al nome del prodotto o immettine un altro.
 
    Nota che **[!UICONTROL Quantity]** non è disponibile perché il valore è derivato dai singoli prodotti che compongono il gruppo.
+
+   Un prodotto raggruppato non ha un proprio prezzo nel catalogo. Il prezzo del prodotto raggruppato è derivato dal prezzo dei singoli prodotti inclusi nel gruppo.
 
 1. Poiché il prodotto non è ancora pronto per la pubblicazione, imposta **[!UICONTROL Enable Product]** a `No` ( ![Attiva/disattiva](../assets/toggle-no.png) ).
 
@@ -189,5 +191,7 @@ Se hai un’immagine diversa per ciascun prodotto del gruppo, puoi impostare la 
 - I prodotti secondari raggruppati possono essere prodotti semplici, scaricabili o virtuali **[!UICONTROL without custom options]**.
 
 - Ogni articolo acquistato viene visualizzato singolarmente nel carrello, anziché come parte del gruppo.
+
+- Un prodotto raggruppato non ha un proprio prezzo nel catalogo. Il prezzo del prodotto raggruppato è derivato dal prezzo dei singoli prodotti inclusi nel gruppo.
 
 - L’immagine miniatura nel carrello può essere impostata in modo da visualizzare l’immagine dal prodotto principale raggruppato o dal prodotto associato.

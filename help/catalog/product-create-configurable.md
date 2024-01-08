@@ -3,9 +3,9 @@ title: Prodotto configurabile
 description: Scopri come creare un prodotto configurabile che fornisca agli acquirenti varianti per la selezione.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,10 @@ Poiché l’immagine del prodotto principale è già caricata, puoi utilizzare q
 
 Utilizza uno dei seguenti metodi per configurare **[!UICONTROL prices]**:
 
+>[!NOTE]
+>
+>Un prodotto configurabile non ha un proprio prezzo nel catalogo. Il prezzo del prodotto configurabile è derivato dal relativo [!UICONTROL In Stock] prodotti secondari.
+
 **Metodo 1:** Applica lo stesso prezzo a tutti gli SKU
 
 1. Se il prezzo è lo stesso per tutte le varianti, seleziona **[!UICONTROL Apply single price to all SKUs]**.
@@ -373,6 +377,8 @@ Il _Stato Stock_ del prodotto configurabile è parzialmente controllata dallo st
 - [Stato Stock](../inventory-management/sources-stocks.md) per un prodotto configurabile è un’impostazione controllata semi-manualmente. È diverso dallo stato delle scorte del prodotto semplice, dove rappresenta direttamente la disponibilità del prodotto. Per un prodotto configurabile, lo stato delle scorte fa parte di un calcolo dello stato delle scorte basato su più criteri.
 
 - I prodotti secondari configurabili possono essere prodotti semplici o virtuali **senza opzioni personalizzate**. Per rendere virtuali prodotti secondari personalizzati, è necessario selezionare `Тhis item has no weight` per **[!UICONTROL Weight]** per ciascuno di essi.
+
+- Un prodotto configurabile non ha un proprio prezzo nel catalogo. Il prezzo del prodotto configurabile è derivato dal relativo [!UICONTROL In Stock] prodotti secondari.
 
 - Gli attributi utilizzati per le varianti di prodotto devono avere un ambito globale e il cliente deve scegliere un valore. Gli attributi della variante di prodotto devono essere inclusi nella serie di attributi utilizzata come modello per il prodotto configurabile.
 

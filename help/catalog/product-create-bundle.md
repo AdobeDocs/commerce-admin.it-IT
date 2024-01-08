@@ -3,9 +3,9 @@ title: Prodotto bundle
 description: Scopri come creare un pacchetto di prodotti che consenta agli acquirenti di creare un prodotto personalizzato nel tuo negozio.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 1. Per determinare il prezzo del bundle, effettuate una delle seguenti operazioni:
 
-   - Per fare in modo che il prezzo rifletta le opzioni scelte dal cliente, impostare **[!UICONTROL Dynamic Price]** a `Yes` e lasciare **[!UICONTROL Price]** vuoto.
+   - Per fare in modo che il prezzo rifletta le opzioni scelte dal cliente, impostare **[!UICONTROL Dynamic Price]** a `Yes` e lasciare **[!UICONTROL Price]** vuoto. In questo caso, un prodotto in bundle non ha un proprio prezzo dal catalogo e il prezzo del prodotto è derivato dal prezzo dei singoli prodotti inclusi nel bundle.
 
    - Per addebitare un prezzo fisso per il bundle, imposta **[!UICONTROL Dynamic Price]** a `No` e immetti **[!UICONTROL Price]** che desideri caricare per il bundle.
 

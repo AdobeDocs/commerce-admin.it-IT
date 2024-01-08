@@ -3,9 +3,9 @@ title: Prodotto gift card
 description: Scopri come creare un prodotto gift card che produce un codice univoco che deve essere riscattato da un cliente destinatario durante il pagamento.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ Le istruzioni seguenti illustrano il processo di creazione di una gift card util
    - Per definire l&#39;intervallo di valori minimo e massimo accettabili, immettere il valore **[!UICONTROL Open Amount From]** e **[!UICONTROL To]** valori.
 
    È possibile creare gift card con prezzo fisso, prezzo di importo aperto o entrambi.
+
+   >[!NOTE]
+   >
+   >Un prodotto gift card non ha un proprio prezzo nel catalogo. Il prezzo della gift card deriva dall&#39;importo della gift card selezionata durante l&#39;acquisto.
 
    ![Importi gift card](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ Compila le informazioni nelle sezioni seguenti secondo necessità:
 - La durata di una gift card può essere illimitata o impostata su un numero specificato di giorni.
 
 - Il valore di una gift card può essere impostato su un importo fisso o su un importo aperto con un valore minimo e massimo.
+
+- Un prodotto gift card non ha un proprio prezzo nel catalogo. Il prezzo della gift card deriva dall&#39;importo della gift card selezionata durante l&#39;acquisto.
 
 - È possibile creare un conto gift card per il cliente quando l&#39;ordine viene effettuato o al momento della fatturazione.
