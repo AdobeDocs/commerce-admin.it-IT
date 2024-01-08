@@ -3,9 +3,9 @@ title: Creare una regola di prezzo del carrello
 description: Scopri come creare una regola di prezzo del carrello basata sugli attributi del carrello o del prodotto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: bf52884cb0eccd4d9c7326a95f8600a3ed950918
+source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -240,13 +240,13 @@ Le azioni della regola prezzo del carrello descrivono il modo in cui i prezzi ve
    | `Percent of product price discount` | Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale dal prezzo originale. Lo sconto si applica a ogni articolo idoneo nel carrello. Ad esempio: Invio `10` in [!UICONTROL Discount Amount] per un prezzo aggiornato inferiore del 10% rispetto al prezzo originale. |
    | `Fixed amount discount` | Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo originale di ciascun articolo idoneo nel carrello. Ad esempio: Invio `10` in [!UICONTROL Discount Amount] per un prezzo aggiornato inferiore di $10 rispetto al prezzo originale. |
    | Sconto importo fisso per carrello intero | Sconta l&#39;intero carrello sottraendo un importo fisso dal totale del carrello. Ad esempio: immetti 10 in [!UICONTROL Discount Amount] per sottrarre $ 10 dal totale del carrello. Per impostazione predefinita, lo sconto si applica solo al subtotale del carrello. Per applicare lo sconto al subtotale e alla spedizione separatamente, utilizzare la _[!UICONTROL Apply to Shipping Amount]_opzione. |
-   | `Buy X get Y free` | Definisce una quantità che il cliente deve acquistare per ricevere gratuitamente una quantità. (Il [!UICONTROL Discount Amount] è Y.) |
+   | `Buy X get Y free` | Definisce una quantità X che il cliente deve acquistare per ricevere una quantità Y **dello stesso prodotto/variante** gratis. (Il [!UICONTROL Discount Amount] è Y.) Una quantità totale di X+Y dello stesso articolo deve essere presente nel carrello o aggiunta al carrello per applicare lo sconto. |
 
    {style="table-layout:auto"}
 
    - Inserisci il **[!UICONTROL Discount Amount]** come numero, senza simboli. Ad esempio, a seconda dell&#39;opzione di sconto selezionata, il numero 10 potrebbe indicare una percentuale, un importo fisso o una quantità di articoli.
 
-   - Per un _Acquista X ottieni Y gratis_ sconto, inserire la quantità nel campo **[!UICONTROL Discount Qty Step (Buy X)]** campo che il cliente deve acquistare per ricevere lo sconto.
+   - Per un _Acquista X ottieni Y gratis_ sconto, inserire la quantità nel campo **[!UICONTROL Discount Qty Step (Buy X)]** campo di un singolo prodotto/SKU/articolo riga che il cliente deve acquistare per ricevere lo sconto sulla quantità Y. Sia X che Y si riferiscono a quantità della stessa SKU, e quella quantità specifica (le varianti di un prodotto configurabile sono conteggiate separatamente) dell&#39;articolo deve essere aggiunta al carrello manualmente.
 
    - In **[!UICONTROL Maximum Qty Discount is Applied To]** inserire la quantità massima dello stesso prodotto che può beneficiare dello sconto nello stesso acquisto.
 
