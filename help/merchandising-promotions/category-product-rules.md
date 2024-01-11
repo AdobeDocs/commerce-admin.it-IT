@@ -3,9 +3,9 @@ title: Regole di categoria per merchandising
 description: Scopri come creare una regola per modificare dinamicamente le selezioni dei prodotti in base a un set di condizioni.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Le regole per prodotti di categoria possono accelerare il processo di assegnazio
 
    ![Ordinamento automatico](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   L’ordinamento si basa sulle condizioni correnti:
+   Le opzioni di ordinamento vengono definite a livello globale e applicate in base alle condizioni correnti. Non è possibile impostare un ordinamento diverso per il livello di visualizzazione del sito Web, dello store o dello store.
 
    | Opzione di ordinamento | Descrizione |
    |-----------| -----------|
