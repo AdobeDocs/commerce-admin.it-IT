@@ -4,9 +4,9 @@ description: Scopri in che modo i clienti associati a un account aziendale posso
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 21361104fa06425df0b44d5c7ae204ef4d9e21ac
+source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Se le virgolette sono abilitate in [Configurazione delle funzioni di vendita](co
 1. Il cliente accede al proprio account utente come acquirente con [autorizzazione](account-company-roles-permissions.md) per richiedere un preventivo.
 
 1. Aggiunge al carrello i prodotti che si desidera includere nell&#39;offerta.
+
+   >[!TIP]
+   > 
+   >Se disponi di un elenco di SKU di prodotto da ordinare, aggiungili al carrello più rapidamente utilizzando [Ordine rapido](quick-order.md).
 
 1. Seleziona **[!UICONTROL Request a Quote]**.
 
