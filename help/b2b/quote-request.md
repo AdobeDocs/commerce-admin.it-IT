@@ -4,9 +4,9 @@ description: Scopri in che modo i clienti associati a un account aziendale posso
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
+source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Se le virgolette sono abilitate in [Configurazione delle funzioni di vendita](co
 
 1. Il cliente accede al proprio account utente come acquirente con [autorizzazione](account-company-roles-permissions.md) per richiedere un preventivo.
 
-1. Aggiunge al carrello i prodotti che si desidera includere nell&#39;offerta.
+1. Aggiunge al carrello i prodotti da includere nell&#39;offerta.
 
    >[!TIP]
    > 
-   >Se disponi di un elenco di SKU di prodotto da ordinare, aggiungili al carrello più rapidamente utilizzando [Ordine rapido](quick-order.md).
+   >I clienti possono aggiungere più rapidamente un elenco di SKU di prodotto al carrello utilizzando [Ordine rapido](quick-order.md).
 
 1. Seleziona **[!UICONTROL Request a Quote]**.
 
    ![Richiesta di un preventivo dal carrello](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. In **[!UICONTROL Add your comment]** immette una breve nota che descrive la richiesta.
+1. In **[!UICONTROL Add your comment]** il cliente immette una breve nota per descrivere la richiesta.
 
 1. Immette un valore **[!UICONTROL Quote Name]**.
 
@@ -51,4 +51,4 @@ Se le virgolette sono abilitate in [Configurazione delle funzioni di vendita](co
    - Invia il preventivo al venditore selezionando **[!UICONTROL Request a Quote]**.
    - [!BADGE Funzionalità 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponibile solo per i partecipanti ai programmi beta"}**[!UICONTROL Save as Draft]**.
 
-     Se l&#39;acquirente salva il preventivo come bozza, il preventivo è disponibile nel [!UICONTROL My Quotes] in `Draft` stato. Non sarà visibile al venditore fino a quando il buyer non aprirà la bozza del preventivo e la invierà.
+     Se l&#39;acquirente salva il preventivo come bozza, il preventivo è disponibile in [!UICONTROL My Quotes] in `Draft` stato. Le proposte di preventivo non sono visibili al venditore finché l&#39;acquirente non le invia per la revisione.
