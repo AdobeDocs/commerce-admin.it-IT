@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: f7b8e47aa5a8113fac768b8086ace3bf673193c5
+source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Queste note sulla versione descrivono modifiche e correzioni di funzioni relativ
 
 _15 agosto 2023_
 
-![Correzione](../assets/new.svg) - Aggiornato il [Dashboard di Real-Time CDP Audiences](#real-time-cdp-audiences-dashboard) per semplificare il filtro.
+![Correzione](../assets/fix.svg) - Aggiornato il [Dashboard di Real-Time CDP Audiences](#real-time-cdp-audiences-dashboard) per semplificare il filtro.
 
 _27 giugno 2023_
 
@@ -50,7 +50,23 @@ _30 maggio 2023_
 
 +++
 
-### 2.0.0
+### 2.1.0.
+
+[!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
+
+_24 gennaio 2024_
+
+![Nuovo](../assets/new.svg) - Aggiornato il [Dashboard di Real-Time CDP Audiences](#real-time-cdp-audiences-dashboard) per includere i siti web che contengono i tipi di pubblico e specificare quali blocchi dinamici e regole di prezzo del carrello sono configurati per utilizzare tali tipi di pubblico.
+
+### 2.0.1.
+
+[!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
+
+_16 novembre 2023_
+
+![Correzione](../assets/fix.svg) - Maggiore stabilità.
+
+### 2,0,0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
 
@@ -59,7 +75,7 @@ _10 ottobre 2023_
 ![Nuovo](../assets/new.svg) - Aggiunta del supporto per OAuth 2.0 quando [configura](#configure-the-extension) l’estensione Audience Activation.
 ![Correzione](../assets/fix.svg) - Maggiore stabilità.
 
-### 1.2.0
+### 1.2.0.
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
 
@@ -67,7 +83,7 @@ _15 agosto 2023_
 
 ![Correzione](../assets/fix.svg) - È stata aggiornata la versione dei componenti dell’interfaccia utente.
 
-### 1.1.0
+### 1.1.0.
 
 _30 maggio 2023_
 
@@ -75,7 +91,7 @@ _30 maggio 2023_
 
 ![Nuovo](../assets/new.svg) - Aggiunta del supporto per [blocchi dinamici](#headless-support) in una vetrina headless.
 
-### 1.0.1
+### 1.0.1.
 
 _11 maggio 2023_
 
@@ -84,7 +100,7 @@ _11 maggio 2023_
 ![Correzione](../assets/fix.svg) - È stato risolto un problema a causa del quale una regola del prezzo di blocco dinamico o carrello non veniva applicata alla vetrina.
 ![Correzione](../assets/fix.svg) - È stato risolto un problema che causava un errore durante l’installazione non configurata dell’estensione Audience Activation quando un commerciante tentava di creare o aggiornare un blocco dinamico.
 
-### 1.0.0
+### 1,0,0
 
 _31 marzo 2023_
 
@@ -137,16 +153,20 @@ Dopo aver installato [!DNL Audience Activation] devi accedere al tuo amministrat
 
 1. Clic **Salva configurazione**.
 
-Attivando i tipi di pubblico nell’istanza di Adobe Commerce, puoi:
+## Dove utilizzare i tipi di pubblico di Real-Time CDP in Commerce
+
+Con il [!DNL Audience Activation] abilitata, puoi:
 
 - [Creare una regola di prezzo del carrello](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informato dal pubblico
 - [Creare un blocco dinamico](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informato dal pubblico
 
 ## Dashboard dei tipi di pubblico di Real-Time CDP
 
-Puoi visualizzare tutti i tipi di pubblico attivi disponibili per la personalizzazione nell’istanza di Adobe Commerce utilizzando **Pubblico Real-Time CDP** dashboard. Qualsiasi pubblico tu [attivato](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) nella destinazione di Adobe Commerce in Real-Time CDP vengono visualizzate in questa dashboard.
+Puoi visualizzare tutto [attivo](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) tipi di pubblico disponibili per la personalizzazione all’interno dell’istanza di Adobe Commerce utilizzando **Pubblico Real-Time CDP** dashboard.
 
 Per accedere al **Pubblico Real-Time CDP** dashboard, vai al _Amministratore_ barra laterale, quindi vai a **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Dashboard di Real-Time CDP Audiences](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 Il dashboard contiene i campi seguenti:
 
@@ -156,9 +176,12 @@ Il dashboard contiene i campi seguenti:
 | `Search` | Consente di cercare i tipi di pubblico attivi nell’istanza Commerce. |
 | `Name` | Nome assegnato al pubblico in Real-Time CDP. |
 | `Origin` | Indica da dove proviene il pubblico, ad esempio `Experience Platform`. |
+| `Websites` | Indica quali siti web sono configurati per utilizzare i tipi di pubblico. |
+| `Dynamic Blocks` | Indica quali blocchi dinamici sono configurati per utilizzare i tipi di pubblico. |
+| `Cart Price Rules` | Indica quali regole di prezzo del carrello sono configurate per utilizzare i tipi di pubblico. |
 | `Last updated` | Indica quando il pubblico è stato modificato in Real-Time CDP. |
 | `Sync now` | Recupera il pubblico nuovo o aggiornato da Real-Time CDP. |
-| `Customize table` | Consente di mostrare o nascondere `Origin` e `Last updated` colonne. |
+| `Customize table` | Consente di mostrare o nascondere `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, e `Last updated` colonne. |
 
 {style="table-layout:auto"}
 
