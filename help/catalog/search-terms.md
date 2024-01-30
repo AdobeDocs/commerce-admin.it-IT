@@ -3,9 +3,9 @@ title: Gestire i termini di ricerca
 description: Scopri come gestire i termini di ricerca per il tuo negozio per reindirizzare i clienti utilizzando termini errati o alternativi.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 6126943f20f33d52085018ca634159918833efc9
+source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,10 @@ Adobe Commerce supporta due diverse soluzioni per la gestione dei sinonimi:
 >[!NOTE]
 >
 >La funzione standard dei sinonimi di ricerca supporta `name` e `sku` attributi prodotto **_solo_**.
+
+>[!IMPORTANT]
+>
+>La funzione di ricerca dei sinonimi utilizza solo un metodo di ricerca di corrispondenza full-text.
 
 ![Esempio di vetrina - risultati di ricerca con sinonimi](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
