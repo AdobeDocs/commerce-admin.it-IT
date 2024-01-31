@@ -3,7 +3,7 @@ title: Gestione risorse di Media Gallery
 description: Scopri come gestire i file multimediali caricati e le risorse acquisite tramite un’integrazione Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -72,6 +72,8 @@ Le risorse possono essere utilizzate ampiamente in tutta l’amministrazione, ad
 1. Accedi alla nuova Media Gallery da un’area che ti consente di utilizzare le risorse multimediali.
 
 1. Seleziona la risorsa e fai clic su **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## Eliminare risorse
 
