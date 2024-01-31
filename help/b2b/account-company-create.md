@@ -4,9 +4,9 @@ description: Scopri come creare un account aziendale nell’amministratore di Ad
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Alla persona che imposta un account aziendale dalla vetrina viene assegnato un r
 
       - **[!UICONTROL Company Legal Name]**
       - **[!UICONTROL VAT/TAX ID]**
-      - **[!UICONTROL Re-seller ID]**
+      - **[!UICONTROL Reseller ID]**
 
    ![Informazioni sull&#39;azienda](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
@@ -74,7 +74,7 @@ Alla persona che imposta un account aziendale dalla vetrina viene assegnato un r
 
 1. Completa la convalida se reCAPTCHA è abilitato per questa funzione storefront.
 
-1. Una volta completate le informazioni, fai clic su **[!UICONTROL Submit]**.
+1. Una volta completate le informazioni, seleziona **[!UICONTROL Submit]**.
 
    Quando la richiesta di creazione di un account aziendale viene approvata dall’esercente, viene inviata una notifica e-mail all’amministratore della società.
 
@@ -86,7 +86,7 @@ Alla persona che imposta un account aziendale dalla vetrina viene assegnato un r
 
 Il processo di creazione di una società dall’amministratore è essenzialmente lo stesso della vetrina, ma con campi aggiuntivi.
 
-![Nuova società](./assets/company-update.png){width="700" zoomable="yes"}
+![Aggiungi una nuova società dall’Amministratore](./assets/company-add-new.png){width="700" zoomable="yes"}
 
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -173,24 +173,24 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
    - Per modificare il **[!UICONTROL Applicable Payment Methods]** disponibili per l&#39;azienda, cancella **[!UICONTROL Use config settings]** e scegliere una delle seguenti opzioni:
 
      | Opzione | Descrizione |
-     | ------ | ----------- |
+     |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Payment Methods` | (Impostazione predefinita) Abilita tutti [metodi di pagamento impostati come predefiniti](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods) per gli ordini B2B. |
      | `All Enabled Payment Methods` | Rende tutto [metodi di pagamento abilitati](../configuration-reference/sales/payment-methods.md) disponibile per gli account cliente associati all&#39;account società. |
-     | `Selected Payment Methods` | Consente di selezionare i metodi di pagamento disponibili per i conti cliente associati al conto società. Per selezionare più metodi di pagamento, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e fare clic su ciascuna opzione. |
+     | `Selected Payment Methods` | Consente di selezionare i metodi di pagamento disponibili per i conti cliente associati al conto società. Per selezionare più metodi di pagamento, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e selezionare ciascuna opzione. |
 
      {style="table-layout:auto"}
 
    - Per modificare il **[!UICONTROL Applicable Shipping Methods]** disponibili per l&#39;azienda, cancella **[!UICONTROL Use config settings]** e scegliere una delle seguenti opzioni:
 
      | Opzione | Descrizione |
-     | ------ | ----------- |
+     |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Shipping Methods` | (Impostazione predefinita) Abilita tutti [metodi di spedizione impostati come predefiniti](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) per gli ordini B2B. |
      | `All Enabled Shipping Methods` | Rende tutto [metodi di spedizione abilitati](../configuration-reference/sales/delivery-methods.md) disponibile per gli account cliente associati all&#39;account società. |
-     | `Selected Shipping Methods` | Consente di selezionare i metodi di spedizione disponibili per gli account cliente associati all&#39;account società. Per selezionare più metodi di spedizione, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e fare clic su ciascuna opzione. |
+     | `Selected Shipping Methods` | Consente di selezionare i metodi di spedizione disponibili per gli account cliente associati all&#39;account società. Per selezionare più metodi di spedizione, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e selezionare ciascuna opzione. |
 
      {style="table-layout:auto"}
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, seleziona **[!UICONTROL Save]**.
 
    Quando la richiesta di creazione di un account aziendale viene approvata dall’esercente, viene inviata una notifica e-mail all’indirizzo e-mail dell’amministratore della società.
 
@@ -199,7 +199,7 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 ## Barra dei pulsanti
 
 | Pulsante | Descrizione |
-|------- | ----------- |
+|---------------------------|------------------------------------------------------------------|
 | [!UICONTROL Back] | Torna alla pagina Società senza salvare le modifiche. |
 | [!UICONTROL Reset] | Ripristina i valori originali in tutti i campi con modifiche non salvate. |
 | [!UICONTROL Save] | Salva le modifiche all&#39;azienda e mantiene aperto il profilo. |
@@ -210,7 +210,7 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 ## Descrizioni dei campi
 
 | Campo | Descrizione |
-|--- |--- |
+|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | Il nome della società viene immesso al momento della creazione dell&#39;account della società e può essere una versione ridotta della ragione sociale completa. |
 | [!UICONTROL Status] | (Solo amministratore) indica lo stato corrente dell’account aziendale. Opzioni: <br/>**[!UICONTROL Active]**- L&#39;account aziendale è approvato dall&#39;amministratore del punto vendita. L’amministratore della società e i membri associati possono accedere all’account dalla vetrina e effettuare acquisti.<br/>**[!UICONTROL Pending Approval]** - Una richiesta di apertura di un account aziendale è stata inviata, ma non è ancora stata approvata dall&#39;amministratore dello store. <br/>**[!UICONTROL Rejected]**- È stata inviata una richiesta di apertura di un account aziendale, ma non è stata approvata dall&#39;amministratore del punto vendita. Le credenziali di accesso iniziali utilizzate per inviare la richiesta sono bloccate.<br/>** Bloccato **- I membri dell’azienda possono accedere al catalogo e accedervi, ma non possono effettuare acquisti. L’amministratore dello store potrebbe bloccare un account aziendale che non è in buono stato. Il blocco sull’account può essere rimosso dall’amministratore dello store in qualsiasi momento. |
 | [!UICONTROL Company Email] | L’indirizzo e-mail associato all’account aziendale. |
@@ -221,7 +221,7 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 ### [!UICONTROL Account Information]
 
 | Campo | Descrizione |
-|--- |--- |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | La ragione sociale completa della società. |
 | [!UICONTROL VAT / TAX ID] | Il [imposta sul valore aggiunto](../stores-purchase/vat.md) numero assegnato alla società da alcune giurisdizioni a scopo di dichiarazione fiscale. Per configurare l&#39;ID IVA/IVA cliente in modo che venga visualizzato nella vetrina, vedi [Crea nuove opzioni account](../configuration-reference/customers/customer-configuration.md). <br/> **_Nota:_** L&#39;amministratore della società e gli altri utenti della società non dispongono di un proprio numero di partita IVA/PARTITA IVA separato nel proprio account cliente. |
 | [!UICONTROL Reseller ID] | Numero di rivendita assegnato alla società a scopo di dichiarazione fiscale. |
@@ -232,14 +232,15 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 ### [!UICONTROL Company Hierarchy]
 
 | Campo | Descrizione |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID] | Il numero ID della società. |
 | [!UICONTROL Company Name] | Il nome completo della società. <br/>A `current company indicator` viene visualizzata nella riga società in fase di modifica. |
 | [!UICONTROL Company Email] | L’indirizzo e-mail associato all’account aziendale. |
 | [!UICONTROL Phone Number] | Il numero di telefono principale della società. |
+| [!UICONTROL Country] | Il paese in cui la società è registrata per condurre gli affari. |
 | [!UICONTROL State/Province] | Lo stato o la provincia in cui la società è registrata per condurre affari. |
 | [!UICONTROL City] | La città in cui la società è registrata per condurre gli affari. |
-| [!UICONTROL Customer Group] | (Solo amministratore) indica [gruppo di clienti](../customers/customer-groups.md) o [catalogo condiviso](catalog-shared.md) che è assegnato alla società. |
+| [!UICONTROL Group/Shared Catalog] | (Solo amministratore) indica [gruppo di clienti](../customers/customer-groups.md) o [catalogo condiviso](catalog-shared.md) che è assegnato alla società. |
 | [!UICONTROL Company Admin] | Nome completo dell&#39;amministratore della società. |
 | [!UICONTROL Action] | L’elenco delle azioni possibili per quella riga aziendale. |
 
@@ -248,7 +249,7 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 ### [!UICONTROL Legal Address]
 
 | Campo | Descrizione |
-|--- |--- |
+|------------------------------|-----------------------------------------------------------------------------|
 | [!UICONTROL Street Address] | Indirizzo in cui è registrata la società per la conduzione di affari. |
 | [!UICONTROL City] | La città in cui la società è registrata per condurre gli affari. |
 | [!UICONTROL Country] | Il paese in cui la società è registrata per condurre gli affari. |
@@ -261,7 +262,7 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 ### [!UICONTROL Company Admin]
 
 | Campo | Descrizione |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Determina il sito Web a cui appartiene l&#39;amministratore della società. |
 | [!UICONTROL Job Title] | Titolo dell&#39;amministratore della società che gestisce l&#39;account della società. |
 | [!UICONTROL Email] | L’indirizzo e-mail dell’amministratore della società può essere lo stesso dell’indirizzo e-mail della società. Se si immette un indirizzo e-mail diverso, viene creato un account individuale separato per l’amministratore della società, oltre all’account aziendale. |
@@ -278,7 +279,7 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 ### [!UICONTROL Company Credit]
 
 | Campo | Descrizione |
-|--- |--- |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | (Solo amministratori) Valuta accettata dal punto vendita per gli acquisti a credito della società. |
 | [!UICONTROL Credit Limit] | (Solo amministratori) Limite di credito esteso al conto aziendale. |
 | [!UICONTROL Allow to Exceed Credit Limit] | (Solo amministratori) indica se l’azienda dispone dell’autorizzazione per superare il limite di credito. Opzioni: `Yes` / `No` |
@@ -289,13 +290,13 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 ### [!UICONTROL Advanced Settings]
 
 | Campo | Descrizione |
-|--- |--- |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Customer Group] | (Solo amministratore) indica [gruppo di clienti](../customers/customer-groups.md) o [catalogo condiviso](catalog-shared.md) che è assegnato alla società. |
 | [!UICONTROL Allow Quotes] | (Solo amministratore) Determina se i membri della società possono preparare e inviare preventivi negoziabili per conto della società. |
 | [!UICONTROL Enable Purchase Orders] | (Solo amministratore) Determina se i membri della società possono inviare ordini come [ordini fornitore](account-dashboard-my-purchase-orders.md) per conto della società. |
 | Metodi di pagamento applicabili | (Solo amministratori) indica i metodi di pagamento disponibili per gli acquisti aziendali. Opzioni: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
-| [!UICONTROL Payment Methods] | (Solo amministratori) diventa attivo se sono attivati metodi di pagamento specifici. Per rendere disponibili più metodi di pagamento per l&#39;account aziendale, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e fare clic su ciascuna opzione. |
+| [!UICONTROL Payment Methods] | (Solo amministratori) diventa attivo se sono attivati metodi di pagamento specifici. Per rendere disponibili più metodi di pagamento per l&#39;account aziendale, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e selezionare ciascuna opzione. |
 | [!UICONTROL Applicable Shipping Methods] | (Solo amministratori) indica i metodi di spedizione disponibili per gli acquisti aziendali. Opzioni: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
-| [!UICONTROL Shipping Methods] | (Solo amministratori) diventa attivo se sono attivati metodi di spedizione specifici. Per rendere disponibili più metodi di pagamento per l&#39;account aziendale, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e fare clic su ciascuna opzione. |
+| [!UICONTROL Shipping Methods] | (Solo amministratori) diventa attivo se sono attivati metodi di spedizione specifici. Per rendere disponibili più metodi di pagamento per l&#39;account aziendale, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e selezionare ciascuna opzione. |
 
 {style="table-layout:auto"}

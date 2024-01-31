@@ -1,11 +1,11 @@
 ---
 title: Gestire gli account aziendali
-description: Scopri la pagina Società e gli strumenti disponibili nella griglia per gestire gli account aziendali per il tuo store di Adobe Commerce.
+description: Scopri come gestire gli account aziendali per il tuo store di Adobe Commerce utilizzando la pagina Società e gli strumenti disponibili nella griglia.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2493'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Il _[!UICONTROL Companies]_pagina elenca tutti gli account società correnti, in
 
 Il _[!UICONTROL Actions]_Il controllo sopra la griglia può essere utilizzato per applicare un&#39;azione a più record aziendali. Ad esempio, invece di approvare ogni singola richiesta aziendale, puoi selezionare più richieste e attivare gli account in un’unica azione. Le azioni disponibili dipendono dal [autorizzazioni](../systems/permissions.md) per il ruolo assegnato al tuo account utente amministratore.
 
-Utilizza il _[!UICONTROL Search]_funzione per trovare le aziende nel **Aziende**griglia per parola chiave. La società verrà individuata ricercando la parola chiave specificata nella **Nome dell’azienda**e **Elemento padre**colonne. Puoi filtrare per **Tipo di società**mostrare le società madri e le società collegate o mostrare solo le società figlie.
+Utilizza il _[!UICONTROL Search]_funzione per trovare le aziende nel **Aziende**griglia per parola chiave. La ricerca indicizza le parole chiave dalla **Nome dell’azienda**e **Elemento padre**colonne. Puoi filtrare per **Tipo di società**per mostrare solo singole società, solo società madri o solo società figlie.
 
 ![Griglia Aziende](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -41,7 +41,7 @@ Le azioni seguenti possono essere applicate a uno o più record.
 
 ### Attiva account società
 
-1. Imposta il **[!UICONTROL Actions]** controllo a `Set Active`.
+1. Dalla sezione **[!UICONTROL Actions]** control, select **[!UICONTROL Set Active]**.
 
 1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL OK]**.
 
@@ -49,16 +49,16 @@ Le azioni seguenti possono essere applicate a uno o più record.
 
 I clienti con account inattivi non possono effettuare l&#39;accesso o effettuare acquisti dai loro account. Esistono due metodi per impostare un account cliente come attivo o inattivo:
 
-Metodo 1: **Dalla griglia clienti**
+Metodo 1: **Dalla griglia Clienti**
 
 1. Il giorno _Amministratore_ barra laterale, vai a [!UICONTROL **Clienti**] > [!UICONTROL **Tutti i clienti**].
 
-1. Imposta il [!UICONTROL **Azioni**] controllo a uno dei seguenti elementi:
+1. Dalla sezione **[!UICONTROL Actions]** selezionare una delle opzioni seguenti:
 
-   - `Active`
-   - `Inactive`
+   - **[!UICONTROL Active]**
+   - **[!UICONTROL Inactive]**
 
-1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL OK]**.
+1. Quando richiesto, seleziona **[!UICONTROL OK]** per applicare la modifica.
 
 Metodo 2: **Dalla pagina di modifica dell’account**
 
@@ -66,7 +66,7 @@ Metodo 2: **Dalla pagina di modifica dell’account**
 
 1. Nella griglia individuare il record cliente da modificare.
 
-1. In _Azioni_ all’estrema destra, fai clic su [!UICONTROL **Modifica**].
+1. In _Azioni_ all’estrema destra, seleziona [!UICONTROL **Modifica**].
 
 1. Seleziona la [!UICONTROL **Informazioni account**] scheda.
 
@@ -78,7 +78,7 @@ Metodo 2: **Dalla pagina di modifica dell’account**
 
 Gli utenti associati a un account aziendale bloccato possono effettuare l&#39;accesso e accedere al catalogo, ma non possono effettuare acquisti. Un&#39;azienda con un account che non è in buono stato potrebbe essere temporaneamente bloccata fino a quando la questione non viene risolta.
 
-1. Imposta il **[!UICONTROL Actions]** controllo a `Block`.
+1. Dalla sezione **[!UICONTROL Actions]** control, select **[!UICONTROL Block]**.
 
 1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL OK]**.
 
@@ -86,7 +86,7 @@ Gli utenti associati a un account aziendale bloccato possono effettuare l&#39;ac
 
 Non è possibile ripristinare gli account società eliminati. Lo stato degli account utente associati all’azienda è impostato su `Inactive` e l’ID azienda viene rimosso dai profili degli account utente. Le informazioni sulle attività e sulle transazioni aziendali vengono conservate nel sistema.
 
-1. Imposta il **[!UICONTROL Actions]** controllo a `Delete`.
+1. Dalla sezione **[!UICONTROL Actions]** control, select **[!UICONTROL Delete]**.
 
 1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL OK]**.
 
@@ -94,7 +94,7 @@ Non è possibile ripristinare gli account società eliminati. Lo stato degli acc
 
 Il credito nei conti delle società selezionate viene convertito nel tasso corrente della valuta selezionata.
 
-1. Imposta il **[!UICONTROL Actions]** controllo a `Convert Currency`.
+1. Dalla sezione **[!UICONTROL Actions]** control, select **[!UICONTROL Convert Currency]**.
 
 1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL OK]**.
 
@@ -104,13 +104,13 @@ Il credito nei conti delle società selezionate viene convertito nel tasso corre
 
 1. Clic **[!UICONTROL Proceed]** per completare la conversione.
 
-### Modificare un account società
+## Modificare un account società
 
 Metodo 1: **Modifica rapida**
 
 1. Nella prima colonna selezionare la casella di controllo dell&#39;account società da modificare.
 
-1. Imposta il **[!UICONTROL Actions]** colonna a `Edit`.
+1. Dalla sezione **[!UICONTROL Actions]** control, select **[!UICONTROL Edit]**.
 
    Ogni valore che può essere aggiornato viene visualizzato in una casella di testo.
 
@@ -130,7 +130,7 @@ Metodo 2: **Modifica completa**
 
 1. Nella griglia individuare il record società da modificare.
 
-1. Clic **[!UICONTROL Edit]** nel _[!UICONTROL Action]_colonna.
+1. Seleziona **[!UICONTROL Edit]** dal _[!UICONTROL Action]_colonna.
 
 1. Apportare le modifiche necessarie alle informazioni aziendali.
 
@@ -191,7 +191,7 @@ Le sezioni seguenti forniscono un riferimento per le azioni disponibili, le opzi
 ### Opzioni di controllo delle azioni
 
 | Opzione | Descrizione |
-|--- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Imposta lo stato di tutti i record società selezionati su `Active`. Gli amministratori della società ricevono istruzioni per impostare le password in modo da poter accedere ai propri account e gestire le società dalla vetrina. |
 | [!UICONTROL Block] | Limita i conti aziendali che non sono in buono stato, mantenendo al contempo l’account. I membri della società possono effettuare l&#39;accesso e accedere al catalogo, ma non possono effettuare ordini per conto della società. |
 | [!UICONTROL Delete] | Elimina gli account società selezionati. Lo stato degli account utente associati a una società eliminata è impostato su `Inactive` e l’ID azienda viene rimosso dai profili degli account utente. Le informazioni sulle attività e sulle transazioni aziendali vengono conservate nel sistema. |
@@ -324,11 +324,11 @@ Le seguenti colonne sono disponibili modificando il [layout colonna](../getting-
 #### [!UICONTROL Company Credit]
 
 | Campo | Descrizione |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | Valuta accettata dal punto vendita per gli acquisti a credito della società. |
 | [!UICONTROL Credit Limit] | Limite di credito esteso al conto della società. |
 | [!UICONTROL Allow to Exceed Credit Limit] | Indica se l&#39;azienda dispone dell&#39;autorizzazione per superare il limite di credito. Opzioni: Sì / No |
-| [!UICONTROL Reason for Change] | Una nota che spiega perché la società è autorizzata o non autorizzata a superare il limite di credito. Questo campo è attivo solo se cambia l’autorizzazione per il superamento del limite di credito. |
+| [!UICONTROL Reason for Change] | Una nota che spiega le circostanze in cui l&#39;azienda può o non può superare il limite di credito. Questo campo è attivo solo se cambia l’autorizzazione per il superamento del limite di credito. |
 
 {style="table-layout:auto"}
 
