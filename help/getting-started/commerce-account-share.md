@@ -3,9 +3,9 @@ title: Condividi un [!DNL Commerce] account
 description: Scopri come concedere un accesso limitato al tuo [!DNL Commerce] account per altro [!DNL Commerce] titolari del conto.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
+source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,12 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 
    >[!NOTE]
    >
-   > Se  **[!UICONTROL Delete]** non viene visualizzato, verifica se **[!UICONTROL Share Name]** inizia con `Cloud Shared Access from MAG XYZ` - in genere, [questi account](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) non può essere eliminato.
+   > Se  **[!UICONTROL Delete]** non viene visualizzato, verifica se **[!UICONTROL Share Name]** inizia con `Cloud Shared Access from MAG XYZ` - [questi account](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) non può essere eliminato.
+   > 
+   > In tal caso, chiedere al proprietario dell&#39;account di modificare l&#39;account di Accesso condiviso e cancellare le autorizzazioni dell&#39;account. Dopo tale aggiornamento, l’accesso condiviso a una qualsiasi delle risorse non è disponibile per l’utente.
+   >
+   > Inoltre, assicurati che gli utenti vengano rimossi dal progetto in modo che non ricevano più le notifiche e-mail: [Gli ex membri del gruppo ricevono le e-mail di notifica cloud di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+
 
 1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL Delete User]**.
 
