@@ -4,9 +4,9 @@ description: Scopri come un venditore può creare un preventivo per un acquirent
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Dopo aver creato l&#39;offerta provvisoria, aggiungere elementi di prodotto, app
 
 1. Aggiungere elementi all&#39;offerta selezionando **[!UICONTROL Add Product By SKU]**. Inserire il numero SKU e la quantità, quindi selezionare **[!UICONTROL Add Product]**.
 
-![Venditore che aggiunge oggetti al preventivo provvisorio per l&#39;acquirente](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![Venditore che aggiunge oggetti al preventivo provvisorio per l&#39;acquirente](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Applica sconti riga ai prodotti in base alle esigenze.
 
@@ -67,7 +67,7 @@ Dopo aver creato l&#39;offerta provvisoria, aggiungere elementi di prodotto, app
 
    - Il giorno [!UICONTROL Discount Line item] , selezionare il **[!UICONTROL Discount Type]**.
 
-   ![Applica sconto riga a preventivo](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![Applica sconto riga a preventivo](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - In [!UICONTROL Discount] immettere il valore per il tipo di sconto. Ad esempio, se hai selezionato uno sconto percentuale, immetti 10 per applicare uno sconto del 10% alla voce.
 
@@ -85,7 +85,7 @@ Dopo aver creato l&#39;offerta provvisoria, aggiungere elementi di prodotto, app
 
 1. Aggiungi ulteriori informazioni per l&#39;acquirente.
 
-   In entrata [!UICONTROL Negotiation - Comments], aggiungere una nota e allegare i file di supporto necessari per l&#39;acquirente in [!UICONTROL Negotiation - Comments]
+   Il giorno **[!UICONTROL Negotiation - Comments]** , aggiungere una nota e allegare i file di supporto necessari per l&#39;acquirente.
 
    ![Il venditore aggiunge informazioni per l&#39;acquirente](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ Dopo aver creato l&#39;offerta provvisoria, aggiungere elementi di prodotto, app
 
    Salva il preventivo come bozza o invialo all&#39;acquirente.
 
-   - Se si salva il preventivo come bozza, lo stato viene aggiornato a `Draft` e viene visualizzato un messaggio di conferma:
-
-     ![Offerta bozza di conferma inviata all&#39;acquirente](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - Se si salva il preventivo come bozza, lo stato viene aggiornato a `Draft` e viene visualizzato un messaggio di conferma.
 
    - Se si invia il preventivo all&#39;acquirente, lo stato cambia in `Submitted`. L&#39;acquirente riceve una notifica e-mail per rivedere il preventivo. Il preventivo viene bloccato finché il buyer non lo restituisce per ulteriori negoziazioni. Il venditore può visualizzare il preventivo dalla griglia Preventivo o dalla griglia Cliente.
 
