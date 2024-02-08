@@ -4,9 +4,9 @@ description: Scopri come un venditore può creare un preventivo per un acquirent
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Dopo aver creato l&#39;offerta provvisoria, aggiungere elementi di prodotto, app
 
    Salva il preventivo come bozza o invialo all&#39;acquirente.
 
-   Se si invia il preventivo all&#39;acquirente, lo stato cambia in `Submitted`e il preventivo viene bloccato finché l&#39;acquirente non riceve il preventivo, lo stato viene aggiornato a bozza e viene visualizzato un messaggio di conferma:
+   - Se si salva il preventivo come bozza, lo stato viene aggiornato a `Draft` e viene visualizzato un messaggio di conferma:
 
-   ![Offerta bozza di conferma inviata all&#39;acquirente](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![Offerta bozza di conferma inviata all&#39;acquirente](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-L&#39;acquirente riceve una notifica e-mail per rivedere il preventivo. Il preventivo viene bloccato finché il buyer non lo restituisce per ulteriori negoziazioni. Il venditore può visualizzare il preventivo dalla griglia Preventivo o dalla griglia Cliente.
+   - Se si invia il preventivo all&#39;acquirente, lo stato cambia in `Submitted`. L&#39;acquirente riceve una notifica e-mail per rivedere il preventivo. Il preventivo viene bloccato finché il buyer non lo restituisce per ulteriori negoziazioni. Il venditore può visualizzare il preventivo dalla griglia Preventivo o dalla griglia Cliente.
 
 ## Visualizza e crea preventivi da griglia clienti
 
