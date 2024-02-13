@@ -3,9 +3,9 @@ title: URL di cataloghi e prodotti
 description: Scopri i tipi di formato URL per i prodotti del catalogo e come configurarli.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Il codice URL è la parte di un URL statico che descrive il prodotto o la catego
 
 >[!NOTE]
 >
->I caratteri speciali accentati vengono sostituiti automaticamente dalle loro versioni regolari non accentate nella chiave URL. Ad esempio: `ñ` viene sostituito automaticamente da `n`.
+>Per impostazione predefinita, i caratteri speciali accentati vengono sostituiti automaticamente dalle normali versioni non accentate nella chiave URL. Ad esempio: `ñ` viene sostituito automaticamente da `n`. Questo comportamento può essere disattivato impostando _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_opzione di configurazione per `No`. Consulta [Configurare gli URL del catalogo](#configure-catalog-urls).
 
 La chiave URL deve essere costituita da caratteri minuscoli con trattini non finali tra questi caratteri per separare le parole. I trattini non sono consentiti all’inizio o alla fine della chiave URL. Una chiave URL ben progettata e &quot;compatibile con i motori di ricerca&quot; potrebbe includere il nome del prodotto e le parole chiave per migliorarne l’indicizzazione da parte dei motori di ricerca. La chiave URL può essere configurata per creare un reindirizzamento automatico se cambia la chiave URL.
 
