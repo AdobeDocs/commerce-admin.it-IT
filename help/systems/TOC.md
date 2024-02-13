@@ -5,9 +5,9 @@ breadcrumb-title: Guida ai sistemi di amministrazione
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 55b0672984ce8cdb853daf024299919beaf7ce0b
+source-git-commit: 6bc66517b7075e3abe57eec2a229cfa14bbd0633
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 2%
       - [Importare prodotti scaricabili](data-transfer-downloadable-products.md)
       - [Importa dati prezzo livello](data-import-price-tier.md)
    - [Importazione ed esportazione pianificate](data-scheduled-import-export.md)
+   - [Dashboard di gestione dati](data-dashboard.md)
 - Registri delle azioni {#action-logs}
    - [Panoramica](action-log.md)
    - [Rapporto dei registri delle azioni](action-log-report.md)
