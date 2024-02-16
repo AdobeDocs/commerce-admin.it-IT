@@ -3,9 +3,9 @@ title: Creare una regola di prodotto correlata
 description: Scopri come creare una regola di prodotto correlata che può essere attivata per visualizzare prodotti correlati, up-sell e cross-selling.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 8f5a5fb6c277086e5f70221e4a6a5ae1b9e1abfe
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ Il processo di creazione di una regola prodotto correlata è simile all&#39;impo
    - Per **[!UICONTROL Result Limit]**, immettere il numero di record da visualizzare nell&#39;elenco dei risultati. Il numero massimo è 20.
 
    - Se la regola si applica a un [segmento cliente](../customers/customer-segments.md), impostato **[!UICONTROL Customer Segments]** a `Specified` e scegli il segmento cliente dall’elenco.
+
+   - (**Beta**) Se la regola si applica a un [Pubblico Real-Time CDP](../customers/audience-activation.md), impostato **[!UICONTROL Real-Time CDP Audience]** a `Specified` e scegli il pubblico Real-Time CDP dall’elenco. Questa funzione è in versione beta. Se desideri partecipare al programma beta, invia una richiesta a [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+     ![Regola prodotti correlati - Pubblico Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Products to Match]** e creare le condizioni come faresti per un [regola prezzo catalogo](price-rules-catalog.md).
 

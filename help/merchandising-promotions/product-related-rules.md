@@ -3,9 +3,9 @@ title: Regole prodotto correlate
 description: Scopri le regole di prodotto correlate e come vengono utilizzate per presentare in modo dinamico ai clienti prodotti correlati, up-sell e cross-selling.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 91e6c63f1f6f16b957366f9d5cc651f9eded31c8
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -132,3 +132,12 @@ Il comportamento delle regole di relazione del prodotto e la visualizzazione dei
 | [!UICONTROL Weighted Random] | I prodotti vengono randomizzati in modo che i prodotti appartenenti a una regola con priorità maggiore abbiano una probabilità di apparire più elevata rispetto a quelli appartenenti a una regola con priorità inferiore. I prodotti vengono quindi ridotti al limite massimo configurabile e raggruppati per priorità. Questa modalità offre la possibilità ai prodotti con priorità inferiore di apparire a volte anche se gli slot rimanenti potrebbero essere riempiti con prodotti della regola con priorità più elevata |
 
 {style="table-layout:auto"}
+
+## Utilizzare i tipi di pubblico di Real-Time CDP per informare le regole di prodotto correlate
+
+>[!NOTE]
+>
+>Questa funzione è in versione beta. Se desideri partecipare al programma beta, invia una richiesta a [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+
+Scopri come [attivare](../customers/audience-activation.md) I tipi di pubblico di Real-Time CDP nella tua istanza di Adobe Commerce per informare le relative regole di prodotto.
