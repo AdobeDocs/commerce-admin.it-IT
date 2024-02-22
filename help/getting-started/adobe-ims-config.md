@@ -3,10 +3,10 @@ title: Configurare l’integrazione dell’amministratore Commerce con ID
 description: Segui questa procedura opzionale per integrare gli accessi dell’account utente amministratore Adobe Commerce con Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 20b2560ce2b8071c740907292544519f8b1c3ddf
+source-git-commit: 0c79449ca05056d7a14242bbc859cb1bd4dc526e
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '755'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,8 @@ Per accedere, gli utenti Commerce Admin devono creare un account con un Adobe ID
 
 * Ottieni l’ID organizzazione Adobe da [Adobe Admin Console](https://adminconsole.adobe.com/)
 * Genera un nuovo progetto, chiavi API IMS e segreto dalla [Console Adobe Developer](https://developer.adobe.com/)
-* Abilita `AdminAdobeIms` modulo
-* Configurare gli utenti di Adobe Commerce in Adobe Admin Console.
+* Configurare gli utenti di Adobe Commerce in Adobe Admin Console
+* Abilita `AdminAdobeIms` modulo.
 
 Per il successo dell’integrazione è necessario che tutti gli utenti di Adobe Commerce dispongano di account utente amministratore con lo stesso nome e indirizzo e-mail principale. Se non esiste un account utente Amministratore corrispondente, un utente con le autorizzazioni necessarie (in genere assegnato al ruolo Amministratore) deve eseguire manualmente [creare l’account utente Admin](../systems/permissions-users-all.md#create-a-user) con lo stesso nome e indirizzo e-mail.
 
@@ -69,7 +69,29 @@ Per creare progetti per un’organizzazione, l’account amministratore di Adobe
 1. Clic **[!UICONTROL Save configured API]**.
 1. Copia il [!UICONTROL Client ID] e [!UICONTROL Client Secret] chiavi del progetto creato.
 
-### Passaggio 3: abilitare il modulo AdminAdobeIms
+### Passaggio 3: configurare gli utenti di Adobe Commerce in Adobe Admin Console
+
+Prima di abilitare l’integrazione, verifica che ogni account utente di Adobe Commerce Admin disponga di un account Adobe IMS corrispondente. Gli utenti di Adobe Commerce devono appartenere a una specifica organizzazione di Adobi per accedere utilizzando un Adobe ID.
+
+>[!TIP]
+>
+>Puoi creare più account utente caricando le informazioni utente da un file CSV. Consulta [Gestione di più utenti](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+
+1. In [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html), passa a **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+
+1. Clic **[!UICONTROL Add User]**.
+
+1. Inserisci l’indirizzo e-mail dell’utente.
+
+   Se applicabile, il tipo di ID consigliato viene popolato automaticamente. Puoi modificare questa impostazione in uno degli ID prodotto nell’elenco, che si basa sul piano di acquisto della tua organizzazione.
+
+   Puoi aggiungere fino a dieci utenti alla volta. Per aggiungerne altri, ripeti i passaggi precedenti dopo aver salvato le modifiche.
+
+1. Clic **[!UICONTROL Save]**.
+
+L’utente viene aggiunto e visualizzato nel [!UICONTROL Users] elenco.
+
+### Passaggio 4: abilitare il modulo AdminAdobeIms
 
 Il `AdminAdobeIms` Il modulo è responsabile dell’integrazione Adobe Commerce/Adobe IMS. Dopo aver configurato il nuovo progetto e copiato l’ID organizzazione, l’ID client e il segreto client, puoi abilitare `AdminAdobeIms` modulo.
 
@@ -83,21 +105,3 @@ Invio `bin/magento admin:adobe-ims:enable`. Viene chiesto di immettere i seguent
 Adobe Commerce visualizza un messaggio che indica se l’abilitazione è riuscita o meno.
 
 Dopo aver abilitato correttamente questa funzione, puoi effettuare la transizione da altri account utente di Adobe Commerce ad account Adobe IMS. Per accedere con Adobe Commerce, gli utenti devono appartenere all’organizzazione Adobe Adobe ID configurata.
-
-### Passaggio 4: configurare gli utenti di Adobe Commerce in Adobe Admin Console
-
-Dopo aver abilitato correttamente questa funzione, puoi effettuare la transizione da altri account utente di Adobe Commerce ad account Adobe IMS. Gli utenti di Adobe Commerce devono appartenere ad almeno un&#39;organizzazione di Adobi per accedere utilizzando un Adobe ID.
-
-1. In [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html), passa a **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
-
-1. Clic **[!UICONTROL Add User]**.
-
-1. Inserisci l’indirizzo e-mail dell’utente.
-
-   Se applicabile, il tipo di ID consigliato viene popolato automaticamente. Puoi modificare questa impostazione in uno degli ID prodotto nell’elenco, che si basa sul piano di acquisto della tua organizzazione.
-
-   Puoi aggiungere fino a dieci utenti alla volta. Per aggiungerne altri, ripeti i passaggi precedenti dopo aver salvato le modifiche.
-
-1. Clic **[!UICONTROL Save]**.
-
-L’utente viene aggiunto e visualizzato nel [!UICONTROL Users] elenco.
