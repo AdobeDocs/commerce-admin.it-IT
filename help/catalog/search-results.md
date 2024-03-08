@@ -3,9 +3,9 @@ title: Risultati di ricerca
 description: Scopri come configurare in che modo i prodotti corrispondono ai criteri di ricerca immessi nella casella Ricerca rapida o nel modulo Ricerca avanzata.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,10 @@ Nell&#39;esempio seguente viene utilizzata la mappatura delle parole chiave basa
 ## Ricerca ponderata
 
 Agli attributi dei prodotti abilitati per la ricerca nel catalogo può essere assegnato un valore più elevato nei risultati di ricerca. Gli attributi con un peso maggiore vengono restituiti prima degli attributi con un peso inferiore. Ad esempio, se nel sistema sono presenti due attributi, _colore_ con un peso di ricerca di 3 e _descrizione_ con un peso di ricerca pari a 1. Ricerca della parola _rosso_ restituisce un elenco di prodotti con un attributo di colore impostato su `red` nella parte superiore dei risultati di ricerca e restituisce prodotti con descrizioni che contengono la parola _rosso_ nella parte inferiore dei risultati della ricerca. In questo esempio, la proprietà `color` l&#39;attributo ha un peso definito maggiore del `description` attributo.
+
+>[!IMPORTANT]
+>
+>L’ordinamento in base alla rilevanza è influenzato da **_multiplo_** criteri e relazioni tra di essi **_contemporaneamente_**. [!UICONTROL Search Weight] è solo uno di tali criteri. Ciò significa che a volte gli attributi con un peso di ricerca inferiore possono avere ancora maggiore rilevanza degli attributi con un peso di ricerca maggiore. Altri criteri possono includere il numero di corrispondenze in un dato attributo, la posizione del termine di ricerca trovato e la struttura generale del testo prima e dopo un termine di ricerca.
 
 **_Per impostare le proprietà di ponderazione della ricerca di un attributo:_**
 
