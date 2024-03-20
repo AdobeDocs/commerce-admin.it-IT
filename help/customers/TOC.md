@@ -2,9 +2,9 @@
 user-guide-title: Guida alla gestione clienti
 breadcrumb-title: Gestione clienti
 feature: Customers
-source-git-commit: 093df1c806443dee29e604cc4229aaa9304dbec4
+source-git-commit: 142c01f1bc5b1292ee2001c5dd7235e5b592b7cb
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '122'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 2%
 + Strumenti di gestione clienti {#customers-menu}
    + [Elenco clienti](customers-all.md)
    + [Ora online](now-online.md)
+   + [Personalizzazione su larga scala](personalize-scale.md)
 + Account cliente {#customer-accounts}
    + [Ambito account](customer-account-scope.md)
    + Opzioni account {#configure}
