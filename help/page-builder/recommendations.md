@@ -3,20 +3,20 @@ title: Aggiungi contenuto - Product Recommendations
 description: Scopri il tipo di contenuto Recommendations del prodotto, utilizzato per aggiungere un elenco di consigli al [!DNL Page Builder] fase.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 13d00168e1253a7d2698b898caa30d9ca2ad3800
+source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Aggiungi contenuto - Product Recommendations
 
-Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un elemento attivo esistente [unità consigli](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) al [[!DNL Page Builder] fase](workspace.md#stage) per una pagina CMS, un blocco o un blocco dinamico.
+Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un elemento attivo esistente [unità consigli](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) al [[!DNL Page Builder] fase](workspace.md#stage) per una pagina CMS, un blocco o un blocco dinamico.
 
 >[!NOTE]
 >
->Il [!DNL Page Builder] _Recommendations del prodotto_ il tipo di contenuto è supportato in Adobe Commerce 2.4.4 e versioni successive e disponibile nella [Prodotto Recommendations metapackage versioni 3.0.x o successive](https://marketplace.magento.com/magento-product-recommendations.html). Da aggiungere [!DNL Page Builder] supporto per Product Recommendations, [vedere le informazioni di installazione](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **Tipo di contenuto non disponibile per il Magento Open Source.**
+>Il [!DNL Page Builder] _Recommendations del prodotto_ il tipo di contenuto è supportato in Adobe Commerce 2.4.4 e versioni successive e disponibile nella [Prodotto Recommendations metapackage versioni 3.0.x o successive](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Da aggiungere [!DNL Page Builder] supporto per Product Recommendations, [vedere le informazioni di installazione](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Tipo di contenuto non disponibile per il Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un e
 
 ## Aggiungi un&#39;unità di consigli esistente
 
-1. Assicurati di avere già [ha creato un’unità di consigli](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) per [!DNL Page Builder] tipo di pagina.
+1. Assicurati di avere già [ha creato un’unità di consigli](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) per [!DNL Page Builder] tipo di pagina.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un e
 1. Effettuare una delle seguenti operazioni:
 
    - Clic **[!UICONTROL Edit Product Recommendation]**.
-   - Passa il puntatore del mouse sul contenitore vuoto per visualizzare la casella degli strumenti e fai clic su _Impostazioni_ (![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+   - Passa il puntatore del mouse sul contenitore vuoto per visualizzare la casella degli strumenti e fai clic su _Impostazioni_ (![Icona Impostazioni](./assets/pb-icon-settings.png)).
 
    ![Modifica consiglio prodotto](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un e
 
 ## Modifica impostazioni unità di consigli
 
-1. Passa il puntatore del mouse sul contenitore unità consigli per visualizzare la casella degli strumenti e fai clic su _Impostazioni_ (![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Passa il puntatore del mouse sul contenitore unità consigli per visualizzare la casella degli strumenti e fai clic su _Impostazioni_ (![Icona Impostazioni](./assets/pb-icon-settings.png)).
 
    ![Casella degli strumenti Consigli](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un e
 
 ## Duplicare un’unità di consigli
 
-1. Passa il puntatore del mouse sul contenitore unità consigli per visualizzare la casella degli strumenti e fai clic su _Duplica_ ( ![Simbolo matematico](./assets/pb-icon-duplicate.png){width="20"} ) nella casella degli strumenti.
+1. Passa il puntatore del mouse sul contenitore unità consigli per visualizzare la casella degli strumenti e fai clic su _Duplica_ (![Icona Duplica](./assets/pb-icon-duplicate.png)) nella casella degli strumenti.
 
    Il duplicato viene visualizzato immediatamente sotto l&#39;originale.
 
-1. Per spostare l’unità di consigli duplicata in una nuova posizione, passa il cursore del mouse sul contenitore e fai clic su _Sposta_ ( ![Icona Sposta](./assets/pb-icon-move.png){width="20"} ) nella casella degli strumenti.
+1. Per spostare l’unità di consigli duplicata in una nuova posizione, passa il cursore del mouse sul contenitore e fai clic su _Sposta_ (![Icona Sposta](./assets/pb-icon-move.png)) nella casella degli strumenti.
 
 1. Seleziona e trascina l’unità di consigli fino a quando la linea guida rossa non viene visualizzata nella nuova posizione.
 
@@ -106,7 +106,7 @@ Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un e
 
 ## Rimuovere un’unità di consigli dalla fase
 
-1. Passa il puntatore del mouse sul contenitore unità consigli e fai clic su _Rimuovi_ ( ![Icona Rimuovi](./assets/pb-icon-remove.png){width="20"} ) nella casella degli strumenti.
+1. Passa il puntatore del mouse sul contenitore unità consigli e fai clic su _Rimuovi_ ( ![Icona Rimuovi](./assets/pb-icon-remove.png)) nella casella degli strumenti.
 
 1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL OK]**.
 
