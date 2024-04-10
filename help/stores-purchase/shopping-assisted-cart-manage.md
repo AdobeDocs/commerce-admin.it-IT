@@ -3,10 +3,10 @@ title: Gestire un carrello
 description: Scopri come assistere un cliente nel carrello direttamente dall’Amministratore.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 1%
+source-wordcount: '658'
+ht-degree: 0%
 
 ---
 
@@ -159,7 +159,7 @@ Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente
 
 1. Clic **[!UICONTROL Add selections to my cart]**.
 
-1. Applica un codice coupon, se disponibile:
+1. Applica uno o più codici coupon, se disponibili:
 
    - Per **[!UICONTROL Apply Coupon Code]**, immetti un codice coupon valido.
 

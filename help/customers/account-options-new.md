@@ -3,9 +3,9 @@ title: Nuove opzioni account cliente
 description: Scopri le opzioni di configurazione per i nuovi account cliente nel tuo store.
 exl-id: aa19f0e2-ffbe-433d-8bd5-c14700b67b37
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Nuove opzioni account cliente
 
 In _[!UICONTROL Create New Account Options]_nella sezione della configurazione, le opzioni account di base sono combinate con opzioni più avanzate che si riferiscono alla convalida dell’ID IVA e alle integrazioni personalizzate. Le istruzioni seguenti descrivono solo le opzioni utilizzate più di frequente. Per informazioni sulle assegnazioni automatiche dei gruppi di clienti, consulta [Convalida IVA](../stores-purchase/vat.md).
-
-{{beta-updates}}
 
 ![Crea nuove opzioni account](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
@@ -40,16 +38,22 @@ In _[!UICONTROL Create New Account Options]_nella sezione della configurazione, 
 
    - Imposta **[!UICONTROL Default Welcome Email]** nel modello utilizzato per l’e-mail di benvenuto inviata ai nuovi clienti.
 
+   - Per richiedere ai clienti di confermare la richiesta di apertura di un account con il tuo store, imposta **[!UICONTROL Require Emails Confirmation]** a `Yes`. Quindi, imposta **[!UICONTROL Confirmation Link Email]** al modello utilizzato per l’e-mail di conferma.
+
+     >[!NOTE]
+     >
+     >A partire dalla versione 2.4.7, i clienti devono reinserire l’e-mail e la password per accedere al proprio account dopo la conferma e-mail, indipendentemente dal browser.
+
+   - Imposta **[!UICONTROL Welcome Email]** al modello utilizzato per il messaggio di benvenuto inviato dopo la conferma dell’account.
+
    - Imposta **[!UICONTROL Default Welcome Email without Password]** al modello utilizzato al momento della creazione di un account cliente che non dispone ancora di una password. Ad esempio, a un account cliente creato dall’amministratore non è ancora stata assegnata una password.
 
    - Imposta **[!UICONTROL Email Sender]** al contatto del negozio che viene visualizzato come mittente dell&#39;e-mail di benvenuto.
 
    - Per richiedere ai clienti di confermare la richiesta di apertura di un account con il tuo store, imposta **[!UICONTROL Require Emails Confirmation]** a `Yes`. Quindi, imposta **[!UICONTROL Confirmation Link Email]** al modello utilizzato per l’e-mail di conferma.
 
-   - Imposta **[!UICONTROL Welcome Email]** al modello utilizzato per il messaggio di benvenuto inviato dopo la conferma dell’account.
+   ![Crea nuove opzioni conto con IVA abilitata](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-     ![Crea nuove opzioni conto con IVA abilitata](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
-
-     Per informazioni dettagliate su ciascuna delle opzioni disponibili in questo set di opzioni di configurazione, vedere _Crea nuove opzioni account_ [riferimento configurazione](../configuration-reference/customers/customer-configuration.md).
+   Per informazioni dettagliate su ciascuna delle opzioni disponibili in questo set di opzioni di configurazione, vedere _Crea nuove opzioni account_ [riferimento configurazione](../configuration-reference/customers/customer-configuration.md).
 
 1. Al termine, fai clic su **[!UICONTROL Save Config]**.

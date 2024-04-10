@@ -3,9 +3,9 @@ title: Aggiungere attributi a un prodotto
 description: Scopri come aggiungere attributi ai prodotti nel catalogo.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,17 @@ Anche se gli attributi sono gestiti principalmente da [Negozi](../stores-purchas
 
    - `Filterable (no results)` - La navigazione a livelli include filtri per tutti i valori di attributo disponibili e i relativi conteggi di prodotti, inclusi i prodotti con zero (0) corrispondenze di prodotto. Se il valore dell’attributo è un campione, viene visualizzato come filtro ma viene barrato.
 
-1. Per utilizzare in una navigazione a più livelli nelle pagine dei risultati di ricerca, impostare **[!UICONTROL Use in Search Results Navigation]** a `Yes` e inserisci un numero in **[!UICONTROL Position]** campo.
+   >[!NOTE]
+   >
+   >Quando _[!UICONTROL Use in Search]_è impostato su `No`, il_[!UICONTROL Use in Search Results Layered Navigation]_ non viene visualizzata e l&#39;attributo product non viene utilizzato nella ricerca con [!UICONTROL Use in Layered Navigation] valore di impostazione.
+
+1. Per utilizzare l&#39;attributo in una navigazione a più livelli nelle pagine dei risultati di ricerca, impostare **[!UICONTROL Use in Search Results Layered Navigation]** a `Yes` e inserisci un numero in **[!UICONTROL Position]** campo.
 
    Il numero di posizione indica la posizione relativa dell&#39;attributo all&#39;interno del blocco di navigazione a livelli.
+
+   >[!NOTE]
+   >
+   >Il _[!UICONTROL Position]_Il campo è disattivato per impostazione predefinita ed è necessario salvare l&#39;attributo prima di poter modificare questa impostazione.
 
 1. Per utilizzare l&#39;attributo nelle regole di prezzo, impostare **[!UICONTROL Use for Promo Rule Conditions]** a `Yes`.
 

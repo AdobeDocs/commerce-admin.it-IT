@@ -3,9 +3,9 @@ title: Gestione ordini vetrina
 description: Scopri come i clienti possono visualizzare e gestire la cronologia degli ordini nella vetrina Commerce.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -124,3 +124,51 @@ Il _[!UICONTROL Reorder]_il collegamento non viene visualizzato sul_[!UICONTROL 
 >[!TIP]
 >
 >Se il carrello non è vuoto e il cliente fa clic **[!UICONTROL Reorder]** (dal [!UICONTROL My Orders] o [!UICONTROL Order View] ), i prodotti esistenti rimangono nel carrello con i prodotti di riordino aggiunti.
+
+## Annulla ordini
+
+L’opzione Annulla è disponibile per i clienti quando [_Consenti annullamento_](cancel-allow.md) l&#39;opzione di configurazione è abilitata.
+
+Il cliente può avviare la funzionalità di annullamento per un ordine specifico da tre pagine:
+
+- Pagina I miei ordini
+- Pagina Vista ordine
+- Pagina Il mio account
+
+Il _[!UICONTROL Cancel Order]_viene visualizzato accanto al_[!UICONTROL Reorder]_ collegamento. Se non è possibile annullare l’ordine, il collegamento non viene visualizzato.
+
+![Collegamento Annulla nella pagina Il mio ordine](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+
+Per eseguire l’annullamento, il cliente:
+
+1. Clic **[!UICONTROL Cancel Order]**
+
+1. Fornisce un motivo di annullamento
+
+   ![Annulla motivi ordine](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+
+   Puoi personalizzare i motivi dell’annullamento in [_Consenti annullamento_](cancel-allow.md) pagina.
+
+1. Clic **[!UICONTROL Confirm]**
+
+   ![Annulla nella pagina Il mio ordine](./assets/cancel-order.png){width="700" zoomable="yes"}
+
+   Dopo l’annullamento, gli ordini in _[!UICONTROL Pending]_stato, modifica in_[!UICONTROL Canceled]_ stato, gli ordini che erano in _[!UICONTROL Processing]_stato, modifica in_[!UICONTROL Closed]_ e un rimborso.
+
+   Al termine dell’annullamento, viene inviata un’e-mail al cliente.
+
+   ![Annulla e-mail ordine](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+
+   Le informazioni sull&#39;annullamento vengono aggiunte alla cronologia degli ordini del cliente. Viene visualizzato nelle note dell&#39;ordine e nella scheda della cronologia dei commenti.
+
+   ![Annulla note ordine](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+
+   ![Annulla cronologia commenti](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+
+   Se per qualche motivo l’ordine è cambiato in uno stato che non può essere annullato e il cliente non ha aggiornato la pagina, viene comunque visualizzato il collegamento per annullare l’ordine. Tuttavia, quando tenta di annullare, viene visualizzato un messaggio di errore.
+
+   ![Messaggio di errore Annulla ordine](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+
+   Dopo aver aggiornato la pagina, puoi vedere che l’ordine era già stato completato ed è per questo che l’annullamento non ha funzionato.
+
+   ![Annulla ordine dopo l&#39;aggiornamento](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

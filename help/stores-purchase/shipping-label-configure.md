@@ -3,9 +3,9 @@ title: Configurare le etichette di spedizione
 description: Scopri come configurare l’archivio per la generazione delle etichette di spedizione.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -58,8 +58,6 @@ Il paese di fabbricazione è richiesto per tutti i prodotti spediti a livello in
 1. Clic **[!UICONTROL Save]**.
 
 ## Passaggio 2 Verifica le informazioni di archiviazione
-
-{{beta2-updates}}
 
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

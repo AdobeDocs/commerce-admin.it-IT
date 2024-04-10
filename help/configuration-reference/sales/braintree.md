@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Br
 description: Rivedi le impostazioni di configurazione per [!UICONTROL Braintree] sezione sul [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] pagina dell’amministratore di Commerce.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 5488a0a991f497059ea39fbbc8a08fd8f546e1ac
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2603'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 
 {{config}}
 
-{{beta2-updates}}
-
 ## [!UICONTROL Basic Braintree Settings]
 
 ![Impostazioni Braintree di base](./assets/payment-methods-braintree-basic-config.png)<!-- zoom -->
@@ -41,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Public Key] | Visualizzazione store | Questo è l&#39;identificatore pubblico specifico dell&#39;utente che limita l&#39;accesso ai dati crittografati. Ogni utente associato al gateway Braintree dispone di una propria chiave pubblica. Questo campo viene visualizzato quando _[!UICONTROL Environment]_è impostato su `Production`. |
 | [!UICONTROL Private Key] | Visualizzazione store | Si tratta dell&#39;identificatore privato specifico dell&#39;utente che limita l&#39;accesso ai dati crittografati. Ogni utente associato al gateway Braintree dispone di una propria chiave privata. Questo campo viene visualizzato quando _[!UICONTROL Environment]_è impostato su `Production`. |
 | [!UICONTROL Enable Card Payments] | Sito Web | Determina se il metodo di pagamento con carta di credito Braintree è disponibile per i clienti come metodo di pagamento. Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Vault for Card Payments] | Sito Web | Quando questa opzione è attivata, consente di memorizzare in modo sicuro le informazioni relative al pagamento del cliente, in modo che i clienti non debbano immettere nuovamente le informazioni sulla carta di credito per ogni acquisto. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Vault for Card Payments] | Sito Web | Quando questa opzione è abilitata, consente di memorizzare in modo sicuro le informazioni relative al pagamento del cliente, evitando così che i clienti debbano reinserire le informazioni sulla carta di credito per ogni acquisto. Opzioni: `Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Reverification] | Sito Web | Quando questa opzione è abilitata, la convalida viene eseguita per l’impostazione delle regole del CVV nell’account Braintree. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -54,6 +52,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Vault Title] | Sito Web | Titolo descrittivo per il riferimento che identifica l&#39;archivio in cui sono memorizzate le informazioni sulla scheda del cliente. |
 | [!UICONTROL Merchant Account ID] | Sito Web | ID dell&#39;account esercente da associare alle transazioni di Braintree da questo sito Web. Se non specificato, viene utilizzato l&#39;account commerciante predefinito del tuo account di Braintree. |
+| [!UICONTROL Enable Checkout Express Payments] | Sito Web | Fornisce un&#39;esperienza di pagamento più rapida con le opzioni di pagamento rapido all&#39;inizio del processo di pagamento, tra cui PayPal, PayLater, Apple Pay e Google Pay. Opzioni: `Yes` / `No` |
 | [!UICONTROL Skip Fraud Checks on Admin Orders] | Sito Web | Impedisce l&#39;invio della transazione per la valutazione come parte di [!DNL Advanced Fraud Tools] assegni, sugli ordini effettuati tramite l’amministratore solo quando è impostato su `Yes`.<br/>Opzioni: `Yes` / `No` |
 | [!UICONTROL Bypass Fraud Protection Threshold] | Sito Web | `Advanced Fraud Protection` i controlli vengono ignorati quando il valore di soglia viene raggiunto o superato. Se si lascia vuoto questo campo, questa opzione viene disabilitata. |
 | [!UICONTROL Debug] | Sito Web | Determina se le comunicazioni tra il sistema di Braintree e l&#39;archivio vengono registrate in un file di registro. Opzioni: `Yes` / `No` |
@@ -68,7 +67,7 @@ ht-degree: 0%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Enable Webhook] | Sito Web | Per abilitare la funzionalità webhook per la protezione dalle frodi, pagamenti ACH e metodi di pagamento locali. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Webhook] | Sito Web | Per abilitare la funzionalità webhook per la protezione dalle frodi, i pagamenti ACH, i metodi di pagamento locali e le controversie. Opzioni: `Yes` / `No` |
 | [!UICONTROL Fraud Protection URL] | Sito Web | Aggiungi questo URL nel tuo account di Braintree come [!UICONTROL Webhook Destination URL]. **Questo URL deve essere sicuro e accessibile al pubblico.** |
 | [!UICONTROL Fraud Protection Approve Order Status] | Sito Web | Quando la protezione contro le frodi viene approvata per Braintree, lo stato dell’ordine selezionato viene assegnato all’ordine Commerce. Questo stato viene utilizzato per aggiornare lo stato dell&#39;ordine in cui viene utilizzato il metodo di pagamento ACH e quando si passa a `SETTLED` nella Braintree. |
 | [!UICONTROL Fraud Protection Reject Order Status] | Sito Web | Quando la protezione contro le frodi viene rifiutata dalla Braintree, lo stato dell’ordine selezionato viene assegnato all’ordine Commerce. Questo stato viene utilizzato per aggiornare lo stato dell&#39;ordine in cui è utilizzato il metodo di pagamento ACH e quando `SETTLEMENT` è `DECLINED` nella Braintree. |
@@ -94,6 +93,7 @@ ht-degree: 0%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enabled ACH Direct Debit] | Sito Web | Determina se [!DNL ACH Direct Debit] è incluso come metodo di pagamento tramite Braintree. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Vault for ACH Direct Debit] | Sito Web | I clienti possono archiviare il metodo di pagamento con addebito diretto ACH a uso singolo per utilizzi futuri. Una volta archiviati i dettagli del pagamento, il cliente può utilizzare il metodo di pagamento con addebito diretto ACH senza reimmettere i dati o autenticare le informazioni di pagamento. Opzioni: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Sito Web | Determina l’ordine che [!DNL ACH Direct Debit] è elencato con altri metodi di pagamento durante il pagamento. |
 
 {style="table-layout:auto"}
@@ -105,6 +105,7 @@ ht-degree: 0%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enable ApplePay through Braintree] | Sito Web | Determina se Apple Pay è incluso come metodo di pagamento tramite Braintree. Opzioni: `Yes` / `No` <br/><br/> Il dominio deve essere [verificato prima in Braintree account](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3). |
+| [!UICONTROL Enable Vault for ApplePay] | Sito Web | I clienti possono archiviare/archiviare il metodo di pagamento Apple Pay per utilizzi futuri. Una volta archiviati i dettagli del pagamento, il cliente può utilizzare Apple Pay senza reinserire i dati o autenticare le informazioni di pagamento. Opzioni: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Sito Web | Determina l&#39;azione eseguita dalla Braintree durante l&#39;elaborazione di un pagamento. Opzioni: <br/>**`Authorize`**- I fondi sulla carta del cliente sono autorizzati, ma non trasferiti dal conto del cliente. Viene creato un ordine nell’amministratore del negozio. In seguito sarà possibile acquisire la vendita e creare una fattura.<br/>**`Intent Sale`** - I fondi sulla carta del cliente vengono autorizzati e acquisiti per Braintree e un ordine e una fattura vengono creati nell&#39;amministratore del negozio. **_Nota:_** Questo era `Authorize and Capture` nella versione 2.3.x e nelle versioni precedenti. |
 | [!UICONTROL Merchant Name] | Visualizzazione store | Etichetta visualizzata ai clienti nel popup ApplePay. |
 | [!UICONTROL Sort Order] | Sito Web | Determina l&#39;ordine in base al quale Apple Pay viene elencato con altri metodi di pagamento durante il pagamento. |
@@ -119,6 +120,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled Local Payment Methods] | Sito Web | Determina se il metodo di pagamento locale è incluso come metodo di pagamento tramite Braintree. Opzioni: `Yes` / `No` |
 | [!UICONTROL Title] | Sito Web | Etichetta visualizzata nella sezione relativa al metodo di pagamento del pagamento di pagamento. Valore predefinito: `Local Payments` |
+| [!UICONTROL Fallback Button Text] | Sito Web | Inserisci il testo da utilizzare per il pulsante visualizzato nella pagina della Braintree di fallback che riporta i clienti al sito web. Valore predefinito: `Complete Checkout` |
+| [!UICONTROL Redirect on Fail] | Sito Web | Specifica l&#39;URL a cui devono essere reindirizzati i clienti quando le transazioni del metodo di pagamento locale vengono annullate, non riuscite o rilevano errori. Deve essere la pagina di pagamento per l’estrazione (ad esempio, `https://www.domain.com/checkout#payment`). |
 | [!UICONTROL Allowed Payment Method] | Sito Web | Selezionare il metodo di pagamento locale da abilitare. Opzioni: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (non ancora supportato) |
 | [!UICONTROL Sort Order] | Sito Web | Determina l&#39;ordine in base al quale il metodo di pagamento locale viene elencato con altri metodi di pagamento durante l&#39;estrazione. |
 
@@ -135,6 +138,7 @@ ht-degree: 0%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enabled GooglePay through Braintree] | Sito Web | Determina se [!DNL Google Pay] il pagamento è incluso come metodo di pagamento tramite Braintree. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Vault for GooglePay] | Sito Web | I clienti possono archiviare/archiviare il metodo di pagamento Google Pay per utilizzi futuri. Una volta archiviati i dettagli del pagamento, il cliente può utilizzare Google Pay senza reinserire i dati o autenticare le informazioni di pagamento. Opzioni: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Sito Web | Determina l&#39;azione eseguita dalla Braintree durante l&#39;elaborazione di un pagamento. Opzioni: <br/>**`Authorize`**- I fondi sulla carta del cliente sono autorizzati, ma non trasferiti dal conto del cliente. Viene creato un ordine nell’amministratore del negozio. In seguito sarà possibile acquisire la vendita e creare una fattura.<br/>**`Intent Sale`** - I fondi sulla carta del cliente vengono autorizzati e acquisiti per Braintree e un ordine e una fattura vengono creati nell&#39;amministratore del negozio. **_Nota:_** Questo era `Authorize and Capture` nella versione 2.3.x e nelle versioni precedenti. |
 | [!UICONTROL Button Color] | Sito Web | Determina il colore della [!DNL Google Pay] pulsante. Opzioni: `White` / `Black` |
 | [!UICONTROL Merchant ID] | Visualizzazione store | L’ID fornito da Google deve essere inserito qui. |
@@ -150,6 +154,7 @@ ht-degree: 0%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | Sito Web | Determina se [!DNL Venmo] è incluso come metodo di pagamento tramite Braintree. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Vault for Venmo] | Sito Web | I clienti possono archiviare il metodo di pagamento Venmo per utilizzarlo in futuro. Una volta archiviati i dettagli del pagamento, il cliente può utilizzare il metodo di pagamento Venmo senza inserire nuovamente i dati o autenticare nuovamente le informazioni di pagamento. Opzioni: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Sito Web | Determina l&#39;azione eseguita dalla Braintree durante l&#39;elaborazione di un pagamento. Opzioni: <br/>**`Authorize`**- I fondi sulla carta del cliente sono autorizzati, ma non trasferiti dal conto del cliente. Viene creato un ordine nell’amministratore del negozio. In seguito sarà possibile acquisire la vendita e creare una fattura.<br/>**`Intent Sale`** - I fondi sulla carta del cliente vengono autorizzati e acquisiti per Braintree e un ordine e una fattura vengono creati nell&#39;amministratore del negozio. **_Nota:_** Questo era  _Autorizza e acquisisci_ nella versione 2.3.x e nelle versioni precedenti. |
 | [!UICONTROL Sort Order] | Sito Web | Determina l&#39;ordine in cui Venmo viene elencato con altri metodi di pagamento durante il pagamento. |
 
@@ -166,6 +171,7 @@ ht-degree: 0%
 | [!UICONTROL Enable PayPal PayLater through Braintree] | Sito Web | Determina se PayPal PayLater è incluso come metodo di pagamento tramite Braintree. Opzioni: `Yes` / `No`. Questo campo diventa visibile quando `Enable PayPal through Braintree` è impostato su `Yes` |
 | [!UICONTROL Title] | Visualizzazione store | L&#39;etichetta che identifica PayPal tramite Braintree ai clienti durante il pagamento. Valore predefinito: `PayPal` |
 | [!UICONTROL Vault Enabled] | Sito Web | Quando questa opzione è abilitata, fornisce un archivio sicuro per le informazioni di pagamento del cliente, in modo che i clienti non debbano inserire nuovamente le informazioni PayPal per ogni acquisto. Opzioni: `Yes` / `No` |
+| [!UICONTROL Send Cart Line Items for PayPal] | Sito Web | Invia gli articoli della linea (articoli dell&#39;ordine) a PayPal insieme a Biglietti regalo, Confezione regalo per gli articoli, Confezione regalo per l&#39;ordine, Credito del negozio, Spedizione e Imposta come articoli della linea. Opzioni: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine in cui PayPal tramite Braintree viene elencato con altri metodi di pagamento durante il pagamento. |
 | [!UICONTROL Override Merchant Name] | Visualizzazione store | Nome alternativo che può essere utilizzato per identificare l&#39;esercente per ogni visualizzazione dello store. |
 | [!UICONTROL Payment Action] | Sito Web | Determina l&#39;azione intrapresa da PayPal tramite Braintree quando viene elaborato un pagamento. Opzioni: <br/>**`Authorize`**- I fondi sulla carta del cliente sono autorizzati, ma non trasferiti dal conto del cliente. Viene creato un ordine nell’amministratore del negozio. In seguito sarà possibile acquisire la vendita e creare una fattura.<br/>**`Authorize and Capture`** - I fondi sulla carta del cliente vengono autorizzati e acquisiti da PayPal tramite Braintree e un ordine e una fattura vengono creati nell&#39;amministratore del negozio. |
@@ -176,6 +182,10 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | Sito Web | Determina se il pulsante PayPal viene visualizzato nel [mini carrello](../../stores-purchase/cart-configuration.md#mini-cart) e il [carrello](../../stores-purchase/cart.md) pagina. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>o **[!DNL PayPal Credit]** o **[!DNL PayPal PayLater]** possono essere abilitati. Entrambi i metodi non possono essere attivati contemporaneamente.
 
 ### [!UICONTROL Styling]
 
@@ -205,9 +215,13 @@ Le opzioni e le impostazioni di questa sezione variano a seconda del tipo di pul
 | [!UICONTROL Button Label] | Sito Web | Determina l&#39;etichetta del pulsante PayPal. Opzioni: `Paypal` / `Checkout` / `Buy Now` / `Pay` |
 | [!UICONTROL Color] | Sito Web | Determina il colore del pulsante PayPal. Opzioni: `Blue` / `Black` / `Gold` / `Silver` |
 | [!UICONTROL Shape] | Sito Web | Determina la forma del pulsante PayPal. Opzioni: `Pill` / `Rectangle` |
-| [!UICONTROL Size] | Sito Web | Determina la dimensione del pulsante PayPal. Opzioni: `Medium` / `Large` / `Responsive` |
+| [!UICONTROL Size(Deprecated)] | Sito Web | Determina la dimensione del pulsante PayPal. Opzioni: `Medium` / `Large` / `Responsive` |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>Il **[!DNL Size(Deprecated)]** Il campo di configurazione è obsoleto e non viene utilizzato per assegnare uno stile ai pulsanti PayPal.
 
 **[!UICONTROL PayLater Messaging]**
 

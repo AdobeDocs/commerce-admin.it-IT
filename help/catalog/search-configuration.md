@@ -3,9 +3,9 @@ title: Configura ricerca catalogo
 description: Scopri come configurare la ricerca nel catalogo per il tuo store.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Sono disponibili due varianti della configurazione di Ricerca nel catalogo. Il p
 >[!IMPORTANT]
 >
 >A causa della [!DNL Elasticsearch 7] Annuncio sulla fine del supporto di per agosto 2023, si consiglia a tutti i clienti di Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante l’aggiornamento del prodotto, consulta [Migrazione a OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) nel _Guida all’aggiornamento_.
-
-{{beta2-updates}}
 
 ### Passaggio 1: configurare le opzioni di ricerca generali
 

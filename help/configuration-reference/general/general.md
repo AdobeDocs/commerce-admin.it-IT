@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL General] &gt; [!UICONTROL General] pagina dell’amministratore di Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,6 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Modali
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | Globale | Se l&#39;opzione è abilitata per le installazioni di un solo archivio, nasconde la casella Ambito configurazione e le relative etichette di campo Opzioni: `Yes` / `No` <br/>**_Nota:_**La modalità a archivio singolo viene ignorata per gli archivi con più visualizzazioni. |
+| [!UICONTROL Enable Single-Store Mode] | Globale | Se l&#39;opzione è abilitata per le installazioni di un solo archivio, nasconde la casella Ambito configurazione e le relative etichette di campo Opzioni: `Yes` / `No` <br/>**_Nota:_**La modalità a archivio singolo viene ignorata per gli archivi con più visualizzazioni.<br/> L’abilitazione della modalità archivio singolo copierà tutti i dati specifici dell’archivio di prodotti e cataloghi dalla vista archivio predefinita a tutto l’ambito della vista archivio. Se l&#39;archivio dispone di una sola visualizzazione archivio, i dati di catalogo e di prodotto verranno copiati. Se l&#39;archivio dispone di una visualizzazione archivio disabilitata e di una visualizzazione archivio abilitata, non verranno copiati i dati di catalogo e di prodotto.<br/> L’abilitazione della modalità archivio singolo ignora le impostazioni di configurazione specifiche per la visualizzazione archivio per i dati specifici del contenuto. Al contrario, utilizza le impostazioni di configurazione definite nell’ambito a livello globale per garantire la coerenza tra l’interfaccia utente di amministrazione e la vetrina. |
 
 {style="table-layout:auto"}

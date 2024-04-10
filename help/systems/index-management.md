@@ -3,9 +3,9 @@ title: Gestione degli indici
 description: Scopri la gestione dell’indice, incluse le azioni che attivano la reindicizzazione e le best practice.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 55b0672984ce8cdb853daf024299919beaf7ce0b
+source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -64,12 +64,12 @@ La reindicizzazione e il caching hanno scopi diversi in Commerce. Gli indici ten
    **Colonne di gestione dell’indice**
 
    | Colonna | Descrizione |
-   | ------ | ----------- |
+   | ------ |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | [!UICONTROL Indexer] | Nome dell&#39;indicizzatore. |
    | [!UICONTROL Description] | Descrizione dell&#39;indicizzatore. |
    | [!UICONTROL Mode] | Indica la modalità di aggiornamento corrente per ogni indicizzatore. Opzioni: <br/>**[!UICONTROL Update on Save]**- L’indice viene impostato per essere aggiornato ogni volta che viene salvata una modifica all’entità. Tali entità includono prodotti, categorie e clienti. Al termine dell’azione di salvataggio, una serie di passaggi inizia a rilevare le modifiche e aggiornare l’indice. La pagina Gestione indice aggiorna e scarica il messaggio di reindicizzazione entro uno o due minuti.<br/>**[!UICONTROL Update on Schedule]** - L’indice è impostato per l’aggiornamento pianificato in base a una [lavoro cron](cron.md). Il processo cron include l&#39;intervallo di pianificazione per la reindicizzazione, la scrittura degli aggiornamenti all&#39;indice durante l&#39;esecuzione. |
    | [!UICONTROL Schedule Status] | Visualizza gli aggiornamenti dello stato della pianificazione. |
-   | [!UICONTROL Status] | Visualizza uno dei seguenti elementi: <br/>**[!UICONTROL Ready]**— L&#39;indice è aggiornato.<br/>**[!UICONTROL Scheduled]** - Reindicizzazione programmata. <br/>**[!UICONTROL Running]**- Reindicizzazione in corso.<br/>**[!UICONTROL Reindex Required]** - È stata apportata una modifica che richiede la reindicizzazione, ma gli indicizzatori non possono essere aggiornati automaticamente. Controlla se [cron](cron.md) è disponibile e configurato correttamente. |
+   | [!UICONTROL Status] | Visualizza uno dei seguenti elementi: <br/>**[!UICONTROL Ready]**— L&#39;indice è aggiornato.<br/>**[!UICONTROL Suspended]** - Reindicizzazione sospesa. <br/>**[!UICONTROL Processing]**- La reindicizzazione è attualmente in esecuzione.<br/>**[!UICONTROL Reindex Required]** - È stata apportata una modifica che richiede la reindicizzazione, ma gli indicizzatori non possono essere aggiornati automaticamente. Controlla se [cron](cron.md) è disponibile e configurato correttamente. |
    | [!UICONTROL Updated] | Indica la data e l’ora dell’ultimo aggiornamento di un indice. |
 
    {style="table-layout:auto"}

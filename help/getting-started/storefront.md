@@ -3,9 +3,9 @@ title: Che cos'è la vetrina?
 description: Scopri le pagine e gli elementi funzionali che il tuo negozio può fornire per supportare l’esperienza di acquisto dei tuoi clienti.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,7 @@ Il processo di pagamento è costituito da due passaggi:
 1. Informazioni spedizione
 
    La prima fase del processo di pagamento consiste nel completare le informazioni relative all&#39;indirizzo di spedizione e nel scegliere il metodo di spedizione. Se il cliente dispone di un account, l&#39;indirizzo di spedizione viene inserito automaticamente, ma può essere modificato se necessario.
+Se un cliente ospite immette un indirizzo e-mail riconosciuto come registrato in precedenza, viene visualizzato il prompt di accesso se [!UICONTROL Enable Guest Checkout Login] nella configurazione dell&#39;archivio è impostato su `Yes` (vedere [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) nel _Guida di riferimento alla configurazione_). Tuttavia, questa impostazione può esporre le informazioni del cliente a utenti non autenticati.
 
    ![Esempio di pagina di checkout della vetrina](./assets/storefront-checkout-shipping-full.png){width="700"}
 

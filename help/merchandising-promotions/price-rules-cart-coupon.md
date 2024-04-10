@@ -3,9 +3,9 @@ title: Codici coupon
 description: Scopri come utilizzare i codici coupon con le regole del prezzo del carrello per applicare uno sconto quando viene soddisfatta una serie di condizioni.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1839'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ I codici coupon vengono utilizzati con [regole prezzi carrello](price-rules-cart
 - Creare coupon in-store per gli utenti di dispositivi mobili
 
 I codici coupon possono essere inviati tramite e-mail o inclusi in newsletter, cataloghi e annunci pubblicitari. L&#39;elenco dei codici coupon può essere esportato e inviato a un servizio di stampa esterno. Puoi anche creare coupon in-store con un codice di risposta rapida che gli acquirenti possono scansionare con i loro smartphone. Il codice QR può essere collegato a una pagina del sito con ulteriori informazioni sulla promozione.
+
+A partire dalla versione 2.4.7 di Commerce, gli acquirenti possono applicare più coupon a un carrello. Gli esercenti possono anche applicare più coupon utilizzando l’assistenza per lo shopping.
 
 ## Configurare i codici coupon
 

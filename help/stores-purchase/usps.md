@@ -3,7 +3,7 @@ title: Servizio postale degli Stati Uniti (USPS)
 description: Scopri come impostare USPS come vettore di spedizione per il tuo negozio.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -21,8 +21,6 @@ Apri un [Strumenti Web USPS][1] account. Dopo aver completato il processo di reg
 Puoi anche aprire una [Strumenti Web USPS][1] account. Dopo aver completato il processo di registrazione, riceverai il tuo ID utente e un URL al server di test USPS. Per ulteriori informazioni sugli strumenti Web USPS, vedere [Documentazione tecnica][2].
 
 ## Passaggio 2: abilitare USPS per il tuo store
-
-{{beta2-updates}}
 
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

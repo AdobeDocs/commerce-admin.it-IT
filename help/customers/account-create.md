@@ -3,9 +3,9 @@ title: Creazione di un singolo account cliente
 description: I visitatori possono creare facilmente un account cliente individuale per gestire i loro acquisti.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ Le istruzioni seguenti rappresentano la configurazione predefinita dell’accoun
 
 In qualità di amministratore dello store, puoi anche impostare [nuove opzioni account](../customers/account-options-new.md) per inviare un’e-mail di conferma ai nuovi clienti registrati, in modo da garantire la validità degli account registrati.
 
-{{beta-updates}}
+>[!NOTE]
+>
+>A partire dalla versione 2.4.7, i clienti devono reinserire l’e-mail e la password per accedere al proprio account dopo la conferma e-mail, indipendentemente dal browser.
 
 ## Crea account dalla vetrina
 

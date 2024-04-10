@@ -3,9 +3,9 @@ title: Elenchi dei desideri
 description: Scopri le liste dei desideri e come aggiungerle all’esperienza di acquisto e promuovere più vendite.
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 feature: Customers, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 9fd909c5ae6d8641bf402456d94facda4a33722d
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Gli elenchi dei desideri possono essere aggiornati dal dashboard di [account cli
 
 ![Esempio di vetrina - Elenco desideri](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-Quando un prodotto con più opzioni viene aggiunto a una lista dei desideri, tutte le opzioni selezionate dal cliente vengono incluse nella descrizione della voce della lista dei desideri. Ad esempio, se il cliente aggiunge la stessa coppia di scarpe in tre colori diversi, ogni coppia viene visualizzata come una voce separata della lista dei desideri. Tuttavia, se il cliente aggiunge lo stesso prodotto alla lista dei desideri più volte, il prodotto viene visualizzato una sola volta, ma con una quantità aggiornata che riflette il numero di volte in cui il prodotto è stato aggiunto.
+Quando un prodotto con più opzioni viene aggiunto a una lista dei desideri, tutte le opzioni selezionate dal cliente vengono incluse nella descrizione della voce della lista dei desideri. Ad esempio, se il cliente aggiunge la stessa coppia di scarpe in tre colori diversi, ogni coppia viene visualizzata come una voce separata della lista dei desideri. Tuttavia, se il cliente aggiunge più volte lo stesso prodotto alla lista dei desideri, il prodotto viene visualizzato una sola volta, ma con la quantità selezionata dalla pagina del prodotto.
 
 ## Assistenza per l’elenco dei desideri nell’Amministratore
 

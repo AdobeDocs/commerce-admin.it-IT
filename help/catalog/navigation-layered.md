@@ -3,10 +3,10 @@ title: Navigazione a livelli
 description: Scopri come la navigazione a livelli consente agli acquirenti di trovare facilmente i prodotti in base alla categoria, alla fascia di prezzo o a qualsiasi altro attributo disponibile.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 
 ---
 
@@ -59,6 +59,10 @@ Le istruzioni seguenti mostrano come impostare una navigazione a livelli di base
    ![Proprietà vetrina](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Ripetere questi passaggi per ogni attributo che si desidera includere nella navigazione a livelli.
+
+>[!NOTE]
+>
+>Quando _[!UICONTROL Use in Search]_è impostato su `No`, il_[!UICONTROL Use in Search Results Layered Navigation]_ non viene visualizzata e l&#39;attributo product non viene utilizzato nella ricerca con [!UICONTROL Use in Layered Navigation] valore di impostazione.
 
 >[!NOTE]
 >
@@ -124,15 +128,15 @@ La suddivisione iterativa fornisce la migliore distribuzione dei prodotti tra le
 
 | Prezzo Incrementato di 10 | Prezzo Incrementato di 100 |
 |----------|--------|
-| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
-| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
-| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
-| $100.00 - $109.99 (1) | $700,00 e versioni successive (1) |
-| $120.00 - $129.99 (2) |   |
-| $150.00 - $159.99 (1) |   |
-| $180.00 - $189.99 (1) |   |
-| $420.00 - $429.99 (1) |   |
-| $440.00 - $449.99 (1) |   |
+| 20,00 - 29,99 $ (1) | 0,00 - 99,99 $ (4) |
+| $ 30,00 - $ 39,99 (2) | $100 - $199,99 (5) |
+| $ 70,00 - $ 79,99 (1) | $400,00 - $499,99 (2) |
+| $100,00 - $109,99 (1) | $700,00 e versioni successive (1) |
+| $120,00 - $129,99 (2) |   |
+| $150,00 - $159,99 (1) |   |
+| $180,00 - $189,99 (1) |   |
+| $420,00 - $429,99 (1) |   |
+| $440,00 - $449,99 (1) |   |
 | $710,00 e versioni successive (1) |   |
 
 {style="table-layout:auto"}

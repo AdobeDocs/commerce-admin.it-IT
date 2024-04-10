@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Scopri come impostare UPS come corriere per il tuo negozio.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Per offrire questo metodo di spedizione ai tuoi clienti, devi prima aprire un ac
 
 ## Passaggio 2: abilitare UPS per il tuo store
 
-{{beta2-updates}}
-
 1. Il giorno _Barra laterale di amministrazione_, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, sotto **[!UICONTROL Sales]**, scegli **[!UICONTROL Delivery Methods]**.
@@ -36,34 +34,33 @@ Per offrire questo metodo di spedizione ai tuoi clienti, devi prima aprire un ac
 
 1. Imposta **[!UICONTROL Enabled for Checkout]** a `Yes`.
 
-1. Per un account UPS XML (impostazione predefinita), impostare **[!UICONTROL UPS Type]** a `United Parcel Service XML` ed effettuare le seguenti operazioni:
+1. Per un account REST UPS (impostazione predefinita), effettuare le seguenti operazioni:
 
-   - Immettere le credenziali del gruppo di continuità: **[!UICONTROL User ID]**, **[!UICONTROL Access License Number]** (account UPS a 16 cifre) `Access Key`), e **[!UICONTROL Password]**
+   - Immettere le credenziali del gruppo di continuità: ID client gruppo di continuità come **[!UICONTROL User ID]**, segreto client UPS come **[!UICONTROL Password]**
 
    - Imposta **[!UICONTROL Mode]** a `Live` per inviare i dati al sistema di spedizione UPS tramite una connessione sicura. La modalità di sviluppo non invia dati tramite una connessione protetta.
 
-   - Verificare la **[!UICONTROL Gateway XML URL]** necessario per inviare richieste tramite file XML.
+   - Verificare la **[!UICONTROL Gateway URL]** necessario per inviare richieste. Utilizza un URL sandbox per la modalità di test e un URL di produzione per le richieste live.
+
+   - Verificare la **[!UICONTROL Tracking URL]** necessario per ottenere le informazioni di tracciamento. Utilizza un URL sandbox per la modalità di test e un URL di produzione per le richieste live.
 
    - Imposta **[!UICONTROL Origin of the Shipment]** alla regione di origine della spedizione.
 
    - Se si dispone di tariffe speciali con UPS, impostare **[!UICONTROL Enable Negotiated Rates]** a `Yes` e immettere le sei cifre **[!UICONTROL Shipper Number]** assegnati da UPS.
-
-1. Per un account UPS standard, impostare **[!UICONTROL UPS Type]** a `United Parcel Service` ed effettuare le seguenti operazioni:
-
-   >[!NOTE]
-   >
-   >Il tipo di servizio United Parcel Service standard è impostato come obsoleto. Per le nuove configurazioni, utilizza il valore predefinito  `United Parcel Service XML` tipo. Per generare è necessario anche il tipo XML [etichette di spedizione](shipping-labels.md).
 
    - Imposta **[!UICONTROL Live Account]** a uno dei seguenti elementi:
 
       - `Yes` - Esegue UPS in modalità di produzione e offre UPS come metodo di spedizione ai clienti.
       - `No` - Esegue il gruppo di continuità in modalità di test.
 
-   - In **[!UICONTROL Gateway URL]** , immettere l&#39;URL utilizzato per calcolare le tariffe di spedizione UPS.
+   >[!NOTE]
+   >
+   >Il tipo di servizio United Parcel Service standard è impostato come obsoleto. Per le nuove configurazioni, utilizza il valore predefinito `United Parcel Service REST` tipo. Per generare è necessario anche il tipo REST [etichette di spedizione](shipping-labels.md).<br/>
+   >Per la versione 2.4.7 di, **[!UICONTROL UPS Type]**  è stato rimosso perché `UPS` e `UPS XML` i tipi sono pianificati per l’obsolescenza e `UPS REST` è il valore predefinito. Le API di United Parcel Service (UPS) utilizzate dall’integrazione nativa di Adobe Commerce sono temporaneamente obsolete perché non supportano attualmente il modello di sicurezza OAuth 2.0.
 
-     >[!IMPORTANT]
-     >
-     >UPS sta interrompendo il supporto di HTTP, utilizzato nell’impostazione predefinita corrente (valore di sistema). Cancella **[!UICONTROL Use system value]** e modificare l’URL per utilizzare HTTPS. Esempio: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
+   >[!IMPORTANT]
+   >
+   >UPS sta interrompendo il supporto di HTTP, utilizzato nell’impostazione predefinita corrente (valore di sistema). Cancella **[!UICONTROL Use system value]** e modificare l’URL per utilizzare HTTPS. Esempio: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
 1. Per **[!UICONTROL Title]**, immettere il nome dell&#39;opzione di spedizione che si desidera venga visualizzata durante il pagamento.
 

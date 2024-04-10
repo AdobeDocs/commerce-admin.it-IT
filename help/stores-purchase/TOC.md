@@ -5,9 +5,9 @@ breadcrumb-title: Negozi ed esperienza di acquisto
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 3eb659825e6bc5db1828c2362ee68893b4d1405b
+source-git-commit: 3dad65e528716a459839ee7995b38850bf6feca8
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 3%
    + [Confronta prodotti](product-compare.md)
    + [Visualizzato o confrontato di recente](products-viewed-compared.md)
    + [Consenti riordini](reorders-allow.md)
+   + [Consenti annullamento ordine](cancel-allow.md)
 + Pagamenti {#payments}
    + [Panoramica](payments.md)
    + Soluzioni di pagamento PayPal {#paypal}
@@ -112,7 +113,7 @@ ht-degree: 3%
       + [Attributi restituiti](attributes-returns.md)
       + [Restituisce l’esperienza della vetrina](rma-customer-experience.md)
    + [Transazioni](transactions.md)
-+ Distribuzione {#delivery}
++ Consegna {#delivery}
    + [Panoramica](delivery.md)
    + [Impostazioni spedizione](shipping-settings.md)
    + Metodi di consegna di base {#basic-methods}

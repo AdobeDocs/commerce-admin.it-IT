@@ -3,9 +3,9 @@ title: Creare etichette e pacchetti di spedizione
 description: Scopri come imballare gli articoli in un ordine e creare etichette di spedizione.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -77,8 +77,6 @@ Il [!DNL United States Postal Service] navi sia a livello nazionale che internaz
 ### Configurazione FedEx
 
 FedEx viene spedito a livello nazionale e internazionale. I negozi situati al di fuori degli Stati Uniti possono creare etichette FedEx solo per le spedizioni internazionali.
-
-{{beta2-updates}}
 
 1. Continuando in **[!UICONTROL Delivery Methods]** , espandere ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL FedEx]** sezione.
 

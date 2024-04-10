@@ -4,9 +4,9 @@ description: Rivedi le impostazioni di configurazione su [!UICONTROL Advanced] &
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -178,8 +178,6 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Archiv
 
 ## [!UICONTROL Full Page Cache]
 
-{{beta2-patches-updates}}
-
 ![Configurazione avanzata - Cache a pagina intera](./assets/system-full-page-cache.png)<!-- zoom -->
 
 Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Memorizzazione in cache a pagina intera](../../systems/cache-management.md#full-page-caching) nel _Guida ai sistemi di amministrazione_.
@@ -190,11 +188,12 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Memori
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Globale | Determina l&#39;applicazione utilizzata per gestire la cache di pagina intera. Opzioni: <br/>**`Built-in Application`**- Non consigliato per l&#39;ambiente di produzione.<br/>**`Varnish Caching`** - Consigliato per l&#39;ambiente di produzione. |
 | [!UICONTROL TTL for public content] | Globale | Determina la durata della cache del contenuto pubblico in secondi. Valore predefinito: `120` |
+| [!UICONTROL Handles param size] | globale | Specifica il numero massimo di [maniglie di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare su [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) endpoint HTTP. La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Valore predefinito: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Globale | Specifica gli indirizzi IP che possono eliminare la configurazione Vernice per generare un file di configurazione. Separa più voci con una virgola. Valore predefinito: `localhost` |
 | [!UICONTROL Backend host] | Globale | Specifica l&#39;host backend che genera i file di configurazione. Valore predefinito: `localhost` |
 | [!UICONTROL Backend port] | Globale | Specifica la porta back-end utilizzata per generare i file di configurazione. Valore predefinito: `8080` |
-| [!UICONTROL Grace period] | Globale | Specifica il periodo di tolleranza in secondi per la generazione di un file di configurazione. Valore predefinito: `300` |
+| [!UICONTROL Grace period] | Globale | Determina per quanto tempo Vernice fornisce contenuti non aggiornati se il backend non risponde. Valore predefinito: `300` |
 | **[!UICONTROL Export Configuration]** |  |  |
 | [!UICONTROL Export VCL for Varnish 4] | Globale | Esporta `varnish.vcl` per la versione 4. |
 | [!UICONTROL Export VCL for Varnish 5] | Globale | Esporta `varnish.vcl` per la versione 5. |

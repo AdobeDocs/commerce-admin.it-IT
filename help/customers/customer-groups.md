@@ -3,9 +3,9 @@ title: Gruppi di clienti
 description: Utilizzare i gruppi di clienti per determinare quali sconti sono disponibili per i clienti assegnati a un gruppo e la classe fiscale associata al gruppo.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ I gruppi di clienti determinano gli sconti disponibili e la classe fiscale assoc
 1. Al termine, fai clic su **[!UICONTROL Apply Filters]**.
 
 ## Creare un gruppo di clienti
+
+>[!NOTE]
+>
+>Amministrare gli utenti che non hanno accesso a tutti i siti Web (a cui è assegnato un ruolo con &#39;Personalizzato&#39; [!UICONTROL Role Scope]) non può creare, modificare o eliminare gruppi di clienti.
 
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 

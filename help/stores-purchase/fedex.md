@@ -3,9 +3,9 @@ title: FedEx
 description: Scopri come impostare FedEx come vettore di spedizione per il tuo negozio.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ A [Account commerciante FedEx][1] e la registrazione per FedEx Web Services Prod
 
 ## Passaggio 2: abilitare FedEx per il tuo Negozio
 
-{{beta2-updates}}
-
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Delivery Methods]**.
@@ -45,9 +43,8 @@ A [Account commerciante FedEx][1] e la registrazione per FedEx Web Services Prod
 1. Immetti le seguenti informazioni dal tuo account FedEx:
 
    - **[!UICONTROL Account ID]**
-   - **[!UICONTROL Meter Number]**
-   - **[!UICONTROL Key]**
-   - **[!UICONTROL Password]**
+   - **[!UICONTROL Api Key]**
+   - **[!UICONTROL Secret Key]**
 
 1. Se hai impostato una sandbox FedEx e vuoi lavorare nell’ambiente di test, imposta **[!UICONTROL Sandbox Mode]** a `Yes`.
 
@@ -59,24 +56,22 @@ A [Account commerciante FedEx][1] e la registrazione per FedEx Web Services Prod
 
 ## Passaggio 3: Descrizione del pacchetto e spese di imballaggio
 
-1. Seleziona la **[!UICONTROL Packages Request Type]** all&#39;opzione che meglio descrive la preferenza quando si suddivide un ordine in più spedizioni:
+1. Imposta **[!UICONTROL Pickup Type]** al metodo di prelievo utilizzato per le spedizioni.
+
+   - `DropOff at Fedex Location` - (Impostazione predefinita) Indica che le spedizioni vengono effettuate presso la stazione FedEx locale.
+   - `Contact Fedex to Schedule` - Indica che hai contattato FedEx per richiedere un prelievo.
+   - `Use Scheduled Pickup` - Indica che la spedizione viene prelevata come parte di un prelievo programmato regolare.
+   - `On Call` - Indica che il ritiro è pianificato chiamando FedEx.
+   - `Package Return Program` - Indica che la spedizione viene prelevata dal programma di restituzione dei pacchetti terrestri FedEx.
+   - `Regular Stop` - Indica che la spedizione viene prelevata al normale programma di prelievo.
+   - `Tag` - Indica che il prelievo della spedizione è specifico per una richiesta di prelievo del tag di chiamata rapida o di chiamata a terra. Questo è applicabile solo per un&#39;etichetta di spedizione di ritorno.
+
+1. Per **[!UICONTROL Packages Request Type]**, selezionare il tipo di richiesta che meglio descrive la preferenza quando si suddivide un ordine in più spedizioni:
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. Seleziona il tipo di **[!UICONTROL Packaging]** in genere utilizzato per spedire prodotti dal tuo negozio.
-
-1. Imposta **[!UICONTROL Dropoff]** al metodo di prelievo utilizzato per la consegna.
-
-   - `Regular Pickup` - Se si dispone di un elevato volume di spedizioni, può essere conveniente prendere accordi con FedEx per i prelievi regolari.
-
-   - `Request Courier` - È necessario chiamare e richiedere un corriere FedEx per ritirare le spedizioni.
-
-   - `Drop Box` - Devi consegnare le consegne presso la tua vicina confezione FedEx.
-
-   - `Business Service Center` - Le spedizioni devono essere effettuate presso il centro di assistenza locale FedEx.
-
-   - `Station` - Le consegne devono essere effettuate presso la stazione FedEx locale.
+1. Per **[!UICONTROL Packaging]**, selezionare il tipo di imballaggio FedEx utilizzato in genere per spedire i prodotti dal negozio.
 
 1. Imposta **[!UICONTROL Weight Unit]** all&#39;unità di misura utilizzata nelle impostazioni internazionali.
 

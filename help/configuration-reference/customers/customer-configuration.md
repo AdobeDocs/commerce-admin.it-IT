@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] pagina dell’amministratore di Commerce.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Create New Account Options]
 
-{{beta-updates}}
-
 ![Crea nuove opzioni account](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
 ![Crea nuove opzioni conto (campi IVA)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
@@ -59,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | Visualizzazione store | Identifica il modello e-mail utilizzato per il predefinito _Benvenuti_ e-mail. |
 | [!UICONTROL Default Welcome Email Without Password] | Visualizzazione store | Modello e-mail di benvenuto alternativo utilizzato per i nuovi account cliente creati dall&#39;amministratore a cui non è ancora stata assegnata una password. |
 | [!UICONTROL Email Sender] | Visualizzazione store | Identifica il contatto del negozio che viene visualizzato come mittente dell&#39;e-mail di benvenuto. |
-| [!UICONTROL Require Emails Confirmation] | Sito Web | Determina se una richiesta di creazione di un account richiede la conferma del cliente. Opzioni: `Yes` / `No` |
+| [!UICONTROL Require Emails Confirmation] | Sito Web | Determina se una richiesta di creazione di un account richiede la conferma del cliente. Opzioni: `Yes` / `No`. <br/><br/> _**Nota:**_ A partire dalla versione 2.4.7, i clienti devono reinserire l’e-mail e la password per accedere al proprio account dopo la conferma e-mail, indipendentemente dal browser. |
 | [!UICONTROL Confirmation Link Email] | Visualizzazione store | Identifica il modello e-mail utilizzato per l’e-mail di conferma. Modello predefinito: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | Visualizzazione store | Identifica il modello di e-mail utilizzato per il messaggio di benvenuto inviato dopo la conferma dell’account. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Globale | Determina se il campo utilizzato per immettere e memorizzare il numero di partita IVA è visibile dalla vetrina. Opzioni: `Yes` / `No` |

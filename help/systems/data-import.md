@@ -3,9 +3,9 @@ title: Importare dati
 description: Scopri le linee guida per l’importazione dei dati e come utilizzare le operazioni di importazione dei dati.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Se un attributo specificato nel file di importazione esiste e il relativo valore
 
 - Impossibile importare un file se tutte le righe non sono valide.
 - Nel file di importazione viene specificato un nome di dati complesso o di dati di servizio non esistenti, ad esempio una colonna con `_<non-existing name>` intestazione.
+
+Il processo di importazione di Adobe Commerce potrebbe non riconoscere correttamente i file codificati in UTF-8 che utilizzano un Byte Order Mark (BOM). I file contenenti una distinta base possono causare problemi o errori durante il processo di importazione.
 
 ## Operazioni di importazione
 

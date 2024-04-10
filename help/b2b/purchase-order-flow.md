@@ -3,9 +3,9 @@ title: Ordini di acquisto per società
 description: Scopri i flussi di lavoro degli ordini di acquisto che consentono alle aziende di tenere traccia e controllare la spesa.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Gli ordini di acquisto (OA) sono un modo comune per le aziende di tenere traccia
 A seconda del ruolo e dell’ordine, gli utenti aziendali possono essere soggetti a diverse regole di approvazione. E a seconda che si utilizzino metodi di pagamento online o offline, il flusso è leggermente diverso. Gli amministratori aziendali possono creare gli ordini automaticamente, ignorando le regole di approvazione. Poiché la memorizzazione dei dettagli del pagamento online durante il processo di approvazione rappresenta un rischio per la sicurezza, questi dettagli vengono aggiunti dopo l&#39;approvazione e quindi l&#39;ordine di acquisto viene convertito in un ordine reale.
 
 ![Flusso degli ordini fornitore](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Non è possibile effettuare un ordine se uno o più prodotti nell&#39;ordine di acquisto sono attualmente disabilitati o esauriti.
 
 Il flusso di lavoro degli ordini di acquisto per un’azienda può variare in alcuni modi:
 

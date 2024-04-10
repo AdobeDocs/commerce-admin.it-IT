@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Sales] pagina dell’amministratore di Commerce.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 1%
 # [!UICONTROL Sales] > [!UICONTROL Sales]
 
 {{config}}
-
-{{beta-updates}}
 
 ## [!UICONTROL General]
 
@@ -157,6 +155,18 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![Impostazioni per più contatti](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Maximum number of coupons per order] | Sito Web | Determina il numero massimo di coupon consentiti per ordine |
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
@@ -184,6 +194,19 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Visualizzazione store | Abilita l&#39;acquisto immediato per la visualizzazione del punto vendita se per il metodo di pagamento, ad esempio Braintree, è abilitato l&#39;archivio. Opzioni: `Yes` / `No` |
 | [!UICONTROL Button Text] | Visualizzazione store | Specifica il testo visualizzato sul pulsante Acquisto immediato. Il testo predefinito è `Instant Purchase`. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Rate Limiting]
+
+![Limitazione di tariffa](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders] | Visualizzazione store | Determina se viene utilizzata la limitazione della tariffa per l&#39;inserimento di ordini dalla vista Store (l&#39;impostazione predefinita è `No`). Opzioni: `Yes` / `No`. |
+| [!UICONTROL Requests limit per authenticated customer] | Visualizzazione store | Il numero di richieste di acquisto che un cliente autenticato può effettuare durante il periodo. Il limite predefinito è `10`. |
+| [!UICONTROL Requests limit per guest] | Visualizzazione store | Il numero di richieste di acquisto che un cliente non autenticato può effettuare durante il periodo specificato. Il valore predefinito è `50`. |
+| [!UICONTROL Counter resets in a ...] | Visualizzazione store | Il periodo di tempo durante il quale un cliente autenticato/non autenticato può effettuare un certo numero di richieste di acquisto (l’impostazione predefinita è `Minute`). Opzioni: `Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 

@@ -3,28 +3,28 @@ title: Gestione della cache
 description: Scopri come utilizzare gli strumenti di gestione della cache, che offrono un modo semplice per migliorare le prestazioni del sito.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
 
 # Gestione della cache
 
-Adobe Commerce e Magento Open Source Cache Management System offrono un modo semplice per migliorare le prestazioni del sito. Ogni volta che una cache richiede un aggiornamento, nella parte superiore dell’area di lavoro viene visualizzato un avviso che ti guida attraverso il processo. Segui il collegamento a Gestione cache e aggiorna le cache non valide.
+Adobe Commerce e Magento Open Source Cache Management System offrono un modo semplice per migliorare le prestazioni del sito. Ogni volta che una cache richiede un aggiornamento, nella parte superiore dell’area di lavoro viene visualizzato un avviso con un collegamento al [!UICONTROL Cache Management] pagina in cui è possibile visualizzare e aggiornare le cache.
 
 ![Salva attributo prodotto - messaggio di aggiornamento cache](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
->[!NOTE]
->
->Quando vengono modificate le entità catalogo, questo può influenzare altre pagine e annullare la validità di più cache contemporaneamente. Quando si controlla la pagina di gestione della cache, è possibile che vengano visualizzati elementi non validi che richiedono l&#39;aggiornamento quando _**non modificato direttamente**_. Ad esempio, l’annullamento della validità si verifica quando si modifica un prodotto nel catalogo che viene assegnato a qualsiasi categoria o quando si modifica una regola di prodotto correlata.
+Il _[!UICONTROL Cache Management]_mostra lo stato di ciascuna cache principale e del relativo tag associato. I pulsanti grandi nell’angolo in alto a destra possono essere utilizzati per effettuare il flushing della cache o dell’archiviazione cache completa. Nella parte inferiore della pagina, pulsanti aggiuntivi consentono di svuotare la cache delle immagini del prodotto del catalogo e la cache JavaScript/CSS.
 
-Il _[!UICONTROL Cache Management]_mostra lo stato di ciascuna cache principale e del relativo tag associato. I pulsanti grandi nell’angolo in alto a destra possono essere utilizzati per effettuare il flushing della cache o dell’archiviazione cache completa. Nella parte inferiore della pagina sono disponibili pulsanti aggiuntivi per svuotare la cache delle immagini del prodotto del catalogo e la cache JavaScript/CSS.
+>[!IMPORTANT]
+>
+>Quando vengono modificate le entità catalogo, questo può influenzare altre pagine e annullare la validità di più cache contemporaneamente. Quando si controlla la pagina di gestione della cache, è possibile che vengano visualizzati elementi non validi che richiedono l&#39;aggiornamento quando _**non modificato direttamente**_. Ad esempio, l’annullamento della validità si verifica quando si modifica un prodotto del catalogo assegnato a una categoria o quando si modifica una regola di prodotto correlata.
 
 Dopo aver cancellato una cache, aggiorna sempre il browser per assicurarti di poter visualizzare i file più recenti. La cancellazione della cache di Commerce non comporta la cancellazione della cache del browser Web. Per visualizzare il contenuto aggiornato, potrebbe essere necessario cancellare la cache del browser.
 
-Per ulteriori informazioni tecniche, consulta [Panoramica sulla cache](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;} nella _Guida allo sviluppo di Commerce Frontend_.
+Ulteriori informazioni tecniche sul caching in Adobe Commerce sono disponibili nella [Panoramica sulla cache](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;} nella _Guida allo sviluppo di Commerce Frontend_.
 
 Accedere a _[!UICONTROL Cache Management]_eseguendo una delle operazioni seguenti:
 
@@ -102,12 +102,12 @@ Per informazioni sull’assegnazione di risorse per concedere l’accesso agli a
 
 ## Svuota utilizzando la riga di comando
 
-Commerce fornisce opzioni aggiuntive di svuotamento della cache utilizzando la riga di comando. Per il completamento di queste opzioni potrebbe essere necessario il supporto degli sviluppatori. Per informazioni dettagliate e opzioni di comando, vedere [Gestire la cache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-cache.html){:target=&quot;_blank&quot;} nella _Guida alla configurazione_.
+Gli amministratori di sistema e gli sviluppatori con accesso al server applicazioni Commerce possono anche gestire la configurazione della cache e della cache dalla riga di comando utilizzando Commerce CLI. Consulta [Gestire la cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) nel _Guida alla configurazione_.{:target=&quot;_blank&quot;}.
 
 ## Controlli
 
 | Controllo | Descrizione |
-|--- |--- |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Mass Actions] | Seleziona la casella di controllo di più cache. Opzioni: <br/>**[!UICONTROL Select All]**— seleziona la casella di controllo di tutte le cache.<br/>** Deseleziona tutto **— Deseleziona la casella di controllo di tutte le cache.<br/>**[!UICONTROL Select Visible]** — seleziona la casella di controllo di tutte le cache visibili. <br/>**[!UICONTROL Unselect Visible]**— deseleziona la casella di controllo di tutte le cache visibili. |
 | [!UICONTROL Actions] | Determina l&#39;azione da applicare a tutte le cache selezionate. Opzioni: <br/>**[!UICONTROL Enable]**— Attiva tutte le cache selezionate.<br/>**[!UICONTROL Disable]** — Disattiva tutte le cache selezionate. <br/>**[!UICONTROL Refresh]**— Aggiorna tutte le cache selezionate. |
 | [!UICONTROL Submit] | Applica l&#39;azione a tutte le cache selezionate. |
@@ -117,7 +117,7 @@ Commerce fornisce opzioni aggiuntive di svuotamento della cache utilizzando la r
 ### Pulsanti
 
 | Pulsante | Descrizione |
-|--- |--- |
+|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Flush Magento Cache] | Rimuove tutti gli elementi nella cache di Commerce predefinita (`var/cache`), in base ai tag Commerce associati. |
 | [!UICONTROL Flush Cache Storage] | Rimuove tutti gli elementi dalla cache, indipendentemente dal tag di Commerce. Se il sistema utilizza un percorso di cache alternativo, tutti i file memorizzati in cache utilizzati da altre applicazioni vengono rimossi durante il processo. |
 | [!UICONTROL Flush Catalog Images Cache] | Rimuove tutte le immagini di catalogo ridimensionate e filigranate automaticamente memorizzate in `media/catalog/product/cache`. Se le immagini caricate di recente non sono incluse nel catalogo, prova a scaricare il catalogo e ad aggiornare il browser. |
@@ -128,23 +128,42 @@ Commerce fornisce opzioni aggiuntive di svuotamento della cache utilizzando la r
 
 ### Cache
 
-| Cache | Descrizione | Tag associato |
-| ----- | ----------- | -------------- |
-| [!UICONTROL Configuration] | Varie configurazioni XML raccolte tra moduli e unite.<br>**[!UICONTROL System]**-  `config.xml`,`local.xml`<br>**[!UICONTROL Module]** -  `config.xml` | `CONFIG` |
-| [!UICONTROL Layouts] | Istruzioni per la creazione di layout. | `LAYOUT_GENERAL_CACHE_TAG` |
-| [!UICONTROL Blocks HTML output] | Pagina blocca HTML. | `BLOCK_HTML` |
-| [!UICONTROL Collections Data] | File di dati di raccolta. | `COLLECTION_DATA` |
-| [!UICONTROL Reflection Data] | Cancella i dati di riflessione dell’interfaccia API, in genere generati durante il runtime. | `REFLECTION` |
-| [!UICONTROL Database DDL operations] | Risultati di query DDL, ad esempio la descrizione di tabelle o indici. | `DB_DDL` |
-| [!UICONTROL Compiled Config] | Risultati della compilazione del codice. | `COMPILED_CONFIG` |
-| [!UICONTROL EAV types and attributes] | Cache della dichiarazione dei tipi di entità. | `EAV` |
-| [!UICONTROL Customer Notification] | Notifiche temporanee visualizzate nell’interfaccia utente. | `CUSTOMER_NOTIFICATION` |
-| [!UICONTROL Integrations Configuration] | File di configurazione dell’integrazione. | `INTEGRATION` |
-| [!UICONTROL Integrations API Configuration] | File di configurazione dell’API Integrazioni. | `INTEGRATION_API_CONFIG` |
-| [!UICONTROL Page Cache] | Memorizzazione in cache di pagine intere. | `FPC` |
-| [!UICONTROL Translations] | File di traduzione. | `TRANSLATE` |
-| [!UICONTROL Web Services Configuration] | Configurazioni REST e SOAP, file WSDL generato. | `WEBSERVICE` |
-| [!UICONTROL Target Rule] | Indice delle regole di destinazione | `TARGET_RULE` |
+Il [!UICONTROL Cache Management] Questa pagina elenca i tipi di cache che è possibile gestire dall’Amministratore con il relativo stato corrente. Questa sezione descrive i tipi di cache predefiniti supportati da Adobe Commerce. Il _Tag cache_ e _ID cache_ Le colonne descrivono i valori utilizzati nel codice dell’applicazione Commerce:
+
+- `cache_type_id` definisce l’identificatore univoco per un tipo di cache.
+
+- `%CACHE_TYPE_TAG%` definisce il tag univoco da utilizzare nell’ambito del tipo di cache.
+
+Sviluppatori e integratori di sistemi utilizzano questi valori per configurare e gestire la memorizzazione in cache durante la personalizzazione o l’integrazione con Adobe Commerce, ad esempio lo sviluppo di integrazioni tramite API GraphQL. Il `cache type id` viene utilizzato anche per la gestione della cache dalla riga di comando del server applicazioni utilizzando Commerce CLI, ad esempio ` bin/magento cache:status config` visualizza lo stato corrente della cache di configurazione.
+
+>[!NOTE]
+>
+>Sviluppatori e integratori di sistemi possono personalizzare ed estendere il sistema di gestione della cache di Commerce per supportare moduli e integrazioni personalizzati. Per ulteriori informazioni, consulta [Configurare il caching](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) nel _Guida alla configurazione di Adobe Commerce_.
+
+<!-- prettier-ignore -->
+
+#### Dettagli elenco cache
+
+| Cache | Descrizione | Tag cache | ID cache |
+|-------|------------|----------|----------|
+| [!UICONTROL Configuration] | Commerce raccoglie la configurazione XML da tutti i moduli, la unisce e salva il risultato unito nella cache.<br>**[!UICONTROL System]**-  `config.xml`,`local.xml`<br>**[!UICONTROL Module]** - `config.xml`<br><br>Questa cache contiene anche le impostazioni specifiche dell&#39;archivio memorizzate nel file system e nel database. Pulisci o svuota questo tipo di cache dopo aver modificato i file di configurazione. | `CONFIG` | `config` |
+| [!UICONTROL Layouts] | Layout di pagina compilati, ovvero i componenti di layout di tutti i componenti. Pulisci o svuota questo tipo di cache dopo aver modificato i file di layout. | `LAYOUT_GENERAL_CACHE_TAG` | `layout` |
+| [!UICONTROL Blocks HTML output] | Frammenti di pagina HTML per blocco. Pulite o svuotate questo tipo di cache dopo aver modificato il livello di vista. | `BLOCK_HTML` | `block_html` |
+| [!UICONTROL Collections Data] | File di dati di raccolta che memorizzano i risultati delle query di database. Se necessario, Commerce pulisce automaticamente questa cache, ma gli sviluppatori di terze parti possono inserire qualsiasi dato in qualsiasi segmento della cache. Pulisci o svuota questo tipo di cache se il modulo personalizzato utilizza una logica che genera voci di cache che Commerce non è in grado di pulire. | `COLLECTION_DATA` | `collections` |
+| [!UICONTROL Reflections] | Cancella i dati di riflessione dell’interfaccia API, in genere generati durante il runtime. | `REFLECTION` | `reflection` |
+| `Database DDL operations` | Schema del database. Se necessario, Commerce pulisce automaticamente questa cache, ma gli sviluppatori di terze parti possono inserire qualsiasi dato in qualsiasi segmento della cache. Pulisci o svuota questo tipo di cache dopo aver apportato modifiche personalizzate allo schema del database. In altre parole, si tratta di aggiornamenti che Commerce non effettua da solo. Un modo per aggiornare automaticamente lo schema del database è utilizzare la configurazione di Magento:db-schema:comando di aggiornamento. | `DB_DDL` | `db_ddl` |
+| [!UICONTROL Compiled Config] | Risultati della compilazione del codice. | `COMPILED_CONFIG` | `compiled_config` |
+| [!UICONTROL Webhooks Response Cache] | Memorizza nella cache le risposte alle richieste di webhook. Per ulteriori informazioni, vedere [Guida ai webhook](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) nella documentazione per gli sviluppatori di Commerce. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL EAV types and attributes] | Cache delle dichiarazioni dei tipi di entità per i metadati relativi agli attributi EAV (ad esempio, etichette di archivio, collegamenti al codice PHP correlato, rendering degli attributi, impostazioni di ricerca e così via). In genere non è necessario pulire o svuotare questo tipo di cache. | `EAV` | `eav` |
+| [!UICONTROL Customer Notification] | Notifiche temporanee visualizzate nell’interfaccia utente. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
+| [!UICONTROL GraphQL Query Resolver Results] | Memorizza nella cache i risultati dei risolutori di query GraphQL per le entità cliente, pagina CMS, blocco CMS e galleria di supporti del prodotto. Mantieni questa cache abilitata per migliorare le prestazioni del GraphQL. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
+| [!UICONTROL Integrations Configuration] | File di configurazione dell’integrazione. Pulisci o svuota la cache dopo aver modificato o aggiunto le integrazioni. | `INTEGRATION` | `config_integration` |
+| [!UICONTROL Integrations API Configuration] | È stata compilata la configurazione delle API di integrazione per le integrazioni store. | `INTEGRATION_API_CONFIG` | `config_integration_api` |
+| [!UICONTROL Admin UI SDK Cache] | Memorizza nella cache le personalizzazioni per l’Amministratore. Consulta [Configurazione e test dell’amministratore](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) nel _Guida all’SDK per l’interfaccia utente di amministrazione_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Page Cache] | Memorizzazione in cache di pagine intere. | `FPC` | `full_page` |
+| [!UICONTROL Target Rule] | Indice delle regole di destinazione | `TARGET_RULE` | `target_rule` |
+| [!UICONTROL Web Services Configuration] | Memorizzazione in cache della struttura API web. | `WEBSERVICE` | `config_webservice` |
+| [!UICONTROL Translations] | File di traduzione. | `TRANSLATE` | `translate` |
 
 {style="table-layout:auto"}
 
@@ -180,6 +199,8 @@ Per informazioni tecniche, consulta [Configurare e utilizzare vernice](https://e
    - `Varnish Caching`
 
 1. Per impostare il timeout per la cache della pagina, immetti **[!UICONTROL TTL for public content]**. Il valore predefinito è `86400`)
+
+1. Per specificare il numero massimo di [maniglie di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare su [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) Endpoint HTTP, immetti il **[!UICONTROL Handles param size]**. La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Il valore predefinito è `100`)
 
 1. Se si utilizza la vernice, completare il **[!UICONTROL Varnish Configuration]** come segue:
 
