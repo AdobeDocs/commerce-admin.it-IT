@@ -3,9 +3,9 @@ title: Creare categorie
 description: Puoi creare tutte le sottocategorie aggiuntive necessarie, in base alla profondità massima del menu impostata nella configurazione.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
 
 1. Se si desidera che la pagina della categoria includa _`Filter by Attribute`_sezione della navigazione a livelli, set **[!UICONTROL Anchor]**a `Yes`.
 
-1. Per **[!UICONTROL Available Product Listing Sort By]** selezionare uno o più valori disponibili per consentire ai clienti di ordinare l&#39;elenco.
+1. Per **[!UICONTROL Available Product Listing Sort By]** selezionare uno o più valori disponibili per consentire ai clienti di ordinare l&#39;elenco. Questa impostazione non si applica al [!DNL Live Search] [Widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
    Per impostazione predefinita, sono inclusi tutti i valori disponibili. Deseleziona il **[!UICONTROL Use All]** per modificare le selezioni. Ad esempio, i valori possono includere:
 
@@ -122,7 +122,7 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
    - `Product Name`
    - `Price`
 
-1. Per impostare l&#39;ordinamento predefinito per la categoria, scegliere **[!UICONTROL Default Product Listing Sort By]** valore.
+1. Per impostare l&#39;ordinamento predefinito per la categoria, scegliere **[!UICONTROL Default Product Listing Sort By]** valore. Questa impostazione non si applica al [!DNL Live Search] [Widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
 1. Per modificare la navigazione a livelli predefinita [gradino di prezzo](navigation-layered.md#configure-price-navigation) effettuare le seguenti operazioni:
 

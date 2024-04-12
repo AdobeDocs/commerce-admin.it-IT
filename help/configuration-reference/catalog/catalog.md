@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Rivedi le impostazioni di configurazione su [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] pagina dell’amministratore di Commerce.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3146'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Visualizzazione store | Determina il numero di prodotti visualizzati per pagina per impostazione predefinita nella visualizzazione griglia. |
 | [!UICONTROL Products per Page on List Allowed Values] | Visualizzazione store | Determina il numero di prodotti visualizzati nella Vista a elenco. Per fornire una selezione di opzioni, immettere più valori separati da virgole. |
 | [!UICONTROL Products per Page on List Default Value] | Visualizzazione store | Determina il numero di prodotti visualizzati per pagina per impostazione predefinita, nella vista a elenco. |
-| Elenco prodotti Ordina per | Visualizzazione store | Determina l&#39;ordinamento dell&#39;elenco dei risultati della ricerca. La selezione delle opzioni è determinata dalle impostazioni di visualizzazione della categoria e dagli attributi disponibili impostati su `Used for Sorting in Product Listing`. Il valore predefinito è impostato su `Use All Available Attributes` e in genere include il valore migliore, il nome, il prezzo |
+| Elenco prodotti Ordina per | Visualizzazione store | Determina l&#39;ordinamento dell&#39;elenco dei risultati della ricerca. La selezione delle opzioni è determinata dalle impostazioni di visualizzazione della categoria e dagli attributi disponibili impostati su `Used for Sorting in Product Listing`. Il valore predefinito è impostato su `Use All Available Attributes` e in genere include Valore migliore, Nome, Prezzo. Questa impostazione non si applica al [!DNL Live Search] [Widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Visualizzazione store | Se impostato su `Yes`, include `ALL` nel controllo Mostra per pagina. |
 | [!UICONTROL Remember Category Pagination] | Globale | Se impostato su `Yes`, i valori di impaginazione della categoria corrente vengono salvati mentre i clienti navigano da una categoria all’altra in [elenchi di prodotti](../../catalog/navigation-product-listings.md). Il salvataggio del valore utilizza una maggiore quantità di memoria cache e può influire sul modo in cui le pagine vengono indicizzate dai motori di ricerca. Opzioni: `Yes` / `No` (impostazione predefinita) |
 | [!UICONTROL Use Flat Catalog Category] | Globale | Abilita [struttura di categorie piatta](../../catalog/catalog-flat.md) (non consigliato). Opzioni: `Yes` / `No` |
