@@ -3,9 +3,9 @@ title: '''[!DNL Inventory Management] note sulla versione'
 description: Consulta le note sulla versione per informazioni su tutte [!DNL Inventory Management] versioni.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Queste note sulla versione descrivono le versioni di [!DNL Inventory Management]
 [!DNL Inventory Management] è un progetto speciale di progettazione della community di Magento Open Source aperto ai collaboratori. Per partecipare e contribuire, consulta la [Progetto GitHub](https://github.com/magento/inventory) archivio e [wiki](https://github.com/magento/inventory/wiki) per iniziare. Per discutere il progetto, partecipa al [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) canale ([iscrizione autonoma](https://opensource.magento.com/slack)).
 
 [Pianificazione della versione](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} per le versioni supportate e compatibili.
+
+## v1.2.7
+
+[!DNL Inventory Management] Le note sulla versione 1.2.7 sono incluse nella [note sulla versione di core 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -108,7 +112,7 @@ Queste note sulla versione descrivono le versioni di [!DNL Inventory Management]
 
 Inventory management 1.2.4 (versione modulo: `magento/inventory-metapackage = 1.2.4`) è supportato con la versione 2.4.4 e compatibile con la versione 2.4.0 di Adobe Commerce, Adobe Commerce sull’infrastruttura cloud e la base di codice del Magento Open Source.
 
-![Problema risolto](../assets/fix.svg) Commerce ora mostra un valore preciso per la quantità vendibile di tutti i prodotti nella vista Elenco prodotti amministratore. In precedenza veniva visualizzato un valore vuoto per la quantità di prodotti in magazzino con SKU contenenti caratteri speciali. <!--- MC-41936-->
+![Problema risolto](../assets/fix.svg) Commerce ora visualizza un valore preciso per la quantità vendibile per tutti i prodotti nella vista Elenco prodotti amministratore. In precedenza veniva visualizzato un valore vuoto per la quantità di prodotti in magazzino con SKU contenenti caratteri speciali. <!--- MC-41936-->
 
 ![Problema risolto](../assets/fix.svg) Sono state migliorate le prestazioni per le azioni di carrello e pagamento, ad esempio l’aggiunta di prodotti al carrello in implementazioni con molte (circa 10.000) sorgenti di inventario. <!--- MC-42570-->
 
@@ -118,7 +122,7 @@ Inventory management 1.2.4 (versione modulo: `magento/inventory-metapackage = 1.
 
 ![Problema risolto](../assets/fix.svg) Nella pagina delle categorie della vetrina ora viene visualizzato il numero corretto di prodotti dopo la rimozione di un prodotto da una categoria tramite API. In precedenza, il conteggio dei prodotti della pagina delle categorie non era corretto fino alla reindicizzazione. <!--- MC-42287-->
 
-![Problema risolto](../assets/fix.svg) I prodotti configurabili possono ora essere rimessi in magazzino durante la creazione di una nota di credito quando **[!UICONTROL Manage Stock]** è disabilitata. In precedenza, Commerce non visualizzava **Torna a magazzino** casella di controllo nella pagina di creazione della nota di credito quando questa opzione è stata disabilitata. <!--- MC-42002-->
+![Problema risolto](../assets/fix.svg) I prodotti configurabili possono ora essere rimessi in magazzino durante la creazione di una nota di credito quando **[!UICONTROL Manage Stock]** è disabilitata. In precedenza, Commerce non mostrava **Torna a magazzino** casella di controllo nella pagina di creazione della nota di credito quando questa opzione è stata disabilitata. <!--- MC-42002-->
 
 ![Problema risolto](../assets/fix.svg) È stata migliorata la gestione delle scorte di magazzino che superano i 10.000 articoli. In precedenza, a volte i problemi di prestazioni impedivano ai commercianti di modificare le risorse in Admin prima di avviare il sito web. <!--- MC-42643-->
 
@@ -132,7 +136,7 @@ Inventory management 1.2.4 (versione modulo: `magento/inventory-metapackage = 1.
 
 ![Problema risolto](../assets/fix.svg) Le prestazioni della convalida sono ottimizzate per impedire l&#39;aggiunta di una nuova origine al prodotto figlio di un prodotto in bundle con il tipo di spedizione `Ship Together`. <!--- MC-43039-->
 
-## 1.2.3
+## 1.2.3.
 
 [!DNL Inventory Management] 1.2.3 (versione del modulo: `magento/inventory-metapackage = 1.2.3`) è supportato con la versione 2.4.3 e compatibile con la versione 2.4.0 di Adobe Commerce, Adobe Commerce sull’infrastruttura cloud e la base di codice del Magento Open Source.
 
@@ -148,7 +152,7 @@ Inventory management 1.2.4 (versione modulo: `magento/inventory-metapackage = 1.
 
 ![Problema risolto](../assets/fix.svg) [!DNL Commerce] ora aggiorna la cache dei prodotti di categoria quando un prodotto bundle torna disponibile.
 
-## 1.2.2
+## 1.2.2.
 
 [!DNL Inventory Management] 1.2.2 (versione del modulo: `magento/inventory-metapackage = 1.2.2`) è supportato con la versione 2.4.2 e compatibile con la versione 2.4.0 di Adobe Commerce, Adobe Commerce sull’infrastruttura cloud e la base di codice del Magento Open Source.
 
@@ -160,7 +164,7 @@ Inventory management 1.2.4 (versione modulo: `magento/inventory-metapackage = 1.
 
 ![Nuovo](../assets/new.svg) **Test funzionali.** Sono stati introdotti nuovi test funzionali e sono state fornite correzioni per i test esistenti al fine di renderli più stabili.
 
-## 1.2.1
+## 1.2.1.
 
 [!DNL Inventory Management] 1.2.1 (versione del modulo: `magento/inventory-metapackage = 1.2.1`) è supportato con la versione 2.4.1 e compatibile con la versione 2.4.0 di Adobe Commerce, Adobe Commerce sull’infrastruttura cloud e la base di codice del Magento Open Source.
 
@@ -168,7 +172,7 @@ Inventory management 1.2.4 (versione modulo: `magento/inventory-metapackage = 1.
 
 ![Nuovo](../assets/new.svg) **Test funzionali.** Sono stati introdotti nuovi test funzionali per fornire una copertura aggiuntiva alla funzionalità di ritiro in-store.
 
-## 1.2.0
+## 1.2.0.
 
 [!DNL Inventory Management] 1.2.0 (versione modulo: `magento/inventory-metapackage = 1.2.0`) è supportato con la versione 2.4.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e la base di codice del Magento Open Source.
 
@@ -193,7 +197,7 @@ SELECT GROUP_CONCAT(reservation_id) FROM inventory_reservation GROUP BY stock_id
 DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_query);
 ```
 
-## 1.1.6
+## 1.1.6.
 
 [!DNL Inventory Management] 1.1.6 (versione modulo: `inventory-composer-metapackage = 1.1.6`) è supportato con la versione 2.3.6 e compatibile con le versioni 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1 e 2.3.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e con la base di codice del Magento Open Source.
 
@@ -201,7 +205,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![Nuovo](../assets/new.svg) **Reindicizzazione azionaria asincrona.** È stata aggiunta la possibilità di reindicizzare in modo asincrono le scorte e di migliorare le prestazioni di diversi scenari critici.
 
-## 1.1.5
+## 1.1.5.
 
 [!DNL Inventory Management] 1.1.5 (versione modulo: `inventory-composer-metapackage = 1.1.5`) è supportato con la versione 2.3.5 e compatibile con le versioni 2.3.4, 2.3.3, 2.3.2, 2.3.1 e 2.3.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e con la base di codice del Magento Open Source.
 
@@ -211,7 +215,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![Problema noto](../assets/bug.svg) Correzioni per evitare la vendita eccessiva dei prodotti, visibilità dei prodotti &quot;esauriti&quot; sulla vetrina, numerose correzioni per il supporto di ambienti scalabili e miglioramenti all’interfaccia utente.
 
-## 1.1.4
+## 1.1.4.
 
 [!DNL Inventory Management] 1.1.4 (versione modulo: `inventory-composer-metapackage = 1.1.4`) è supportato con la versione 2.3.4 e compatibile con le versioni 2.3.3, 2.3.2, 2.3.1 e 2.3.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e con la base di codice del Magento Open Source.
 
@@ -221,7 +225,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![Problema noto](../assets/bug.svg) Numerose correzioni mirate a risolvere i problemi relativi alle note di credito, ai prodotti raggruppati e alle azioni di massa relative a origini e scorte.
 
-## 1.1.3
+## 1.1.3.
 
 [!DNL Inventory Management] 1.1.3 (versione modulo: `inventory-composer-metapackage = 1.1.3`) è supportato con la versione 2.3.3 e compatibile con le versioni 2.3.2, 2.3.1 e 2.3.0 di Adobe Commerce, Adobe Commerce on cloud infrastructure e con il codice di Magento Open Source.
 
@@ -235,7 +239,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![Nuovo ](../assets/new.svg)**Maggiore copertura dei test.** La copertura automatizzata dei test funzionali e di integrazione è aumentata in modo significativo.
 
-## 1.1.2
+## 1.1.2.
 
 [!DNL Inventory Management] 1.1.2 (versione del modulo: `inventory-composer-metapackage = 1.1.2`) è supportato con la versione 2.3.2 e compatibile con le versioni 2.3.1 e 2.3.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e la base di codice del Magento Open Source.
 
@@ -268,7 +272,7 @@ Nuovi moduli per [!DNL Inventory Management] 1.1.2 La beta comprende:
 
 ![Nuovo](../assets/new.svg) **Esporta servizio magazzino aggregato** - Questa versione offre un nuovo servizio di gestione delle scorte aggregate per l&#39;esportazione (mantenimento delle prenotazioni nel sistema) per supportare Sales Channel esterni, come Amazon, eBay e annunci di acquisto Google.  <!-- https://github.com/magento/inventory/pull/2067 -->
 
-## 1.1.0
+## 1.1.0.
 
 [!DNL Inventory Management] 1.1.0 (versione modulo: `inventory-composer-metapackage = 1.1.0`) è supportato e compatibile con la versione 2.3.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e con la base di codice del Magento Open Source. [!DNL Inventory Management] La versione 1.1.1 viene rilasciata solo come aggiornamento del nome di un pacchetto, supportato per la versione 2.3.1 e compatibile con la versione 2.3.0 di Adobe Commerce, Adobe Commerce sull’infrastruttura cloud e la base di codice del Magento Open Source.
 
