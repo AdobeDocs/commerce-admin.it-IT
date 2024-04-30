@@ -3,9 +3,9 @@ title: Condividi un [!DNL Commerce] account
 description: Scopri come concedere un accesso limitato al tuo [!DNL Commerce] account per altro [!DNL Commerce] titolari del conto.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
+source-git-commit: 5886f0605312dc06360051188ffce983281a3ccd
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Il [!DNL Commerce] Il team di supporto non ha accesso all’account e non può i
 1. Prima di iniziare, è necessario ottenere le seguenti informazioni dal [!DNL Commerce] conto del **nuovo beneficiario dell&#39;accesso condiviso**:
 
    - L&#39;utente deve essersi già registrato per un account all&#39;indirizzo account.adobe.com e aver effettuato l&#39;accesso tramite account.magento.com.
-   - Il `Account ID` visualizzato nell&#39;angolo superiore sinistro del _[!UICONTROL Magento]_, appena sopra la **Disconnetti**collegamento.
+   - Il `MAGE ID/Account ID (MAG00XXXXXXX)` viene visualizzato nell&#39;angolo superiore sinistro del _[!UICONTROL Magento]_, appena sopra la **Disconnetti**collegamento.
    - Il `Email` indirizzo associato all’account.
 
 1. Accedi al tuo [[!DNL Commerce] account](commerce-account-create.md).
