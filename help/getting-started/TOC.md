@@ -5,9 +5,9 @@ breadcrumb-title: Guida introduttiva
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 5c9d61ae16576b3298336b94c9b4101c78c05976
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 1%
 
 + [Guida introduttiva di Adobe Commerce](guide-overview.md)
 + [Cos’è Adobe Commerce?](about.md)
-+ [Informazioni sulla versione](about-this-release.md)
 + [Credenziali di accesso e URL](login-urls.md)
 + Account Commerce {#commerce-account}
    + [Crea e accedi al tuo account](commerce-account-create.md)

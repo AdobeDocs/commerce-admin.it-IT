@@ -1,9 +1,9 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -75,10 +75,10 @@ Per accedere alle impostazioni di configurazione dell&#39;archivio, scegliere **
 
 | Risorsa documentazione | Descrizione |
 |----------------------- | ----------- |
-| [Documentazione di Adobe Commerce 2.4 per esercenti](../landing/home.md) | Documentazione incentrata sui commercianti per Adobe Commerce e Magento Open Source |
+| [Documentazione di Adobe Commerce 2.4 per esercenti](../landing/home.md) | Documentazione di Adobe Commerce incentrata sugli esercenti |
 | [Documentazione dei servizi per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentazione per supportare una raccolta di servizi che consentono ai commercianti di integrare i componenti chiave della propria attività con il negozio. |
-| [Guida di Commerce su infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedure dettagliate per la distribuzione di Adobe Commerce su una piattaforma cloud con hosting gestito e automatizzato. |
-| [Guide operative di Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentazione di sistema su concetti, processi, strumenti e best practice per sviluppare, distribuire e gestire progetti implementati su piattaforme Adobe Commerce e di Magento Open Source. |
-| [Documentazione per gli sviluppatori di Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentazione incentrata sugli sviluppatori utilizzata per creare e personalizzare Adobe Commerce o Magento Open Source |
+| [Guida di Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedure dettagliate per la distribuzione di Adobe Commerce su una piattaforma cloud con hosting gestito e automatizzato. |
+| [Guide operative di Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentazione di sistema su concetti, processi, strumenti e best practice per sviluppare, distribuire e gestire progetti Adobe Commerce. |
+| [Documentazione per gli sviluppatori di Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentazione incentrata sugli sviluppatori utilizzata per personalizzare Adobe Commerce e integrarlo con sistemi di terze parti |
 
 {style="table-layout:auto"}

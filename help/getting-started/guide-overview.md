@@ -1,26 +1,26 @@
 ---
 title: Guida introduttiva di Adobe Commerce
-description: Informazioni complete per gli esercenti che hanno poca esperienza con Adobe Commerce e Magento Open Source.
+description: Informazioni complete per gli esercenti che non hanno mai usato Adobe Commerce.
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # Guida introduttiva di Adobe Commerce
 
-Questa guida è destinata ai commercianti e agli amministratori di sistema che hanno poca esperienza con Adobe Commerce e Magento Open Source. Offre una panoramica della piattaforma dal loro punto di vista e informazioni dettagliate sulle funzioni di base che consentono di avere un negozio funzionale.
+Questa guida è destinata ai commercianti e agli amministratori di sistema che hanno poca esperienza con Adobe Commerce. Offre una panoramica della piattaforma dal loro punto di vista e informazioni dettagliate sulle funzioni di base che consentono di avere un negozio funzionale.
 
 Questa guida tratta i seguenti argomenti:
 
 | Oggetto | Descrizione |
 | ------- | ----------- |
-| [Informazioni sulla versione](about-this-release.md) | Scopri la versione corrente di Adobe Commerce e Magento Open Source. |
+| [Informazioni su Commerce](about.md) | Scopri la versione corrente di Adobe Commerce. |
 | [Credenziali di accesso e URL](login-urls.md) | Scopri di più su [!DNL Commerce] URL e credenziali dell’account utilizzati per accedere all’amministratore e alla vetrina. |
 | [[!DNL Commerce] account](commerce-account-create.md) | Informazioni su [!DNL Commerce] account, che gestiscono i prodotti e i servizi acquistati. |
 | [L’Amministratore](admin.md) | Scopri di più su [!DNL Commerce] Amministratore, il luogo in cui i commercianti impostano prodotti e promozioni, gestiscono gli ordini ed eseguono altre attività amministrative. |
@@ -32,7 +32,7 @@ Questa guida tratta i seguenti argomenti:
 
 {style="table-layout:auto"}
 
-Non include le funzionalità più dettagliate di Adobe Commerce e Magento Open Source.
+Non tratta le funzionalità più dettagliate di Adobe Commerce.
 
 ## Documentazione aggiuntiva
 
