@@ -2,13 +2,13 @@
 title: Cos’è Adobe Commerce
 description: Adobe Commerce è una piattaforma di e-commerce aziendale. Scopri le funzioni più recenti che stimolano la crescita dei team di e-commerce a livello globale.
 mini-toc-levels: 1
-source-git-commit: f3bba921f180f0338722d0e29fef1c6f260837de
+exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
+source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3323'
+source-wordcount: '3326'
 ht-degree: 0%
 
 ---
-
 
 # Cos’è Adobe Commerce?
 
@@ -34,6 +34,8 @@ L’obiettivo di Adobe è fornire una piattaforma di e-commerce basata su dati e
 - [Basato su dati](#data-powered-commerce). Adobe Commerce offre la condivisione diretta dei dati nel tuo stack di tecnologia di marketing, consentendoti di mettere in funzione i dati di e-commerce di prime parti e personalizzando le esperienze in ogni punto di contatto e canale.
 
 - [Abilitato alla tecnologia](#tech-enabled-commerce). Adobe Commerce è una piattaforma di e-commerce componibile progettata per lanciare funzioni di e-commerce più veloci, condividere facilmente i dati tra sistemi di terze parti e ridurre il costo di proprietà per integrazioni e personalizzazioni.
+
+![Infografica di Adobe Commerce](assets/about-commerce.png)
 
 ## Commerce basato su esperienze
 
