@@ -3,9 +3,9 @@ title: Aggiornamenti pianificati dei prodotti
 description: Scopri come pianificare le modifiche agli elenchi dei prodotti per supportare campagne e programmi promozionali.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 1e809696ee6d623d162226628329ed53e8f71511
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Gli aggiornamenti dei prodotti possono essere applicati secondo pianificazione e raggruppati con altre modifiche al contenuto. È possibile utilizzare [staging dei contenuti](../content-design/content-staging.md) per creare una campagna in base alle modifiche pianificate al prodotto o applicarle a una campagna esistente.
+
+>[!NOTE]
+>
+>Il [!UICONTROL Set Product as New From] e [!UICONTROL To] campi e [!UICONTROL Schedule Design Update] la scheda è stata rimossa in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente sul prodotto. Devi creare un aggiornamento pianificato per queste attivazioni.
 
 >[!NOTE]
 >

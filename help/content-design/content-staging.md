@@ -3,9 +3,9 @@ title: Staging dei contenuti
 description: La gestione temporanea dei contenuti offre al team aziendale la possibilità di creare, visualizzare in anteprima e pianificare facilmente un’ampia gamma di aggiornamenti dei contenuti per il tuo archivio direttamente dall’amministratore.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ La gestione temporanea dei contenuti offre al team aziendale la possibilità di 
 Il termine _campagna_ fa riferimento al record di una modifica pianificata o a una raccolta di modifiche gestite dal dashboard di staging. Le modifiche possono essere visualizzate in un calendario o in una sequenza temporale. I termini _modifica pianificata_ e _aggiornamento pianificato_ sono intercambiabili e si riferiscono a una singola modifica.
 
 Quando pianifichi una modifica del contenuto per un periodo di tempo specifico, alla scadenza della modifica pianificata il contenuto ritorna alla versione precedente. È possibile creare più versioni dello stesso contenuto della linea di base da utilizzare per aggiornamenti futuri. Puoi anche tornare indietro nella timeline per visualizzare le versioni precedenti del contenuto. Per salvare una bozza di versione, è sufficiente assegnare una data sulla timeline che sia così lontana nel futuro da non entrare mai in produzione.
+
+>[!NOTE]
+>
+>I campi relativi alla data di inizio e alla data di fine sono stati rimossi in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente nelle pagine regola prezzo carrello, regola prezzo catalogo, prodotto, categoria e CMS. Devi creare un aggiornamento pianificato per queste attivazioni.
 
 ## Oggetti e campagne di staging del contenuto
 

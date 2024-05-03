@@ -3,9 +3,9 @@ title: Modifiche pianificate per le regole prezzo carrello
 description: Scopri come applicare le regole di prezzo del carrello alla pianificazione come parte di una campagna e raggruppate con altre modifiche al contenuto.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Le regole di prezzo del carrello possono essere applicate secondo programma come parte di una campagna e raggruppate con altre modifiche al contenuto. Puoi creare una campagna in base alle modifiche pianificate per una regola di prezzo o applicare le modifiche a una campagna esistente.
+
+>[!NOTE]
+>
+>Il [!UICONTROL From] e [!UICONTROL To] i campi sono stati rimossi in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente nella regola del prezzo del carrello. Devi creare un aggiornamento pianificato per queste attivazioni.
 
 ![Regole prezzo carrello - modifiche pianificate](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 

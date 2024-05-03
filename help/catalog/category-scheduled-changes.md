@@ -3,9 +3,9 @@ title: Modifiche pianificate per le categorie
 description: Scopri come pianificare le modifiche di categoria per supportare campagne di marketing e promozioni su store.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Gli aggiornamenti per categoria possono essere applicati secondo programma e raggruppati con altre modifiche al contenuto. Puoi creare una campagna in base alle modifiche pianificate per la categoria o applicare le modifiche a una campagna esistente. Per ulteriori informazioni, consulta [Staging dei contenuti](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>Il [!UICONTROL Schedule Design Update] è stata rimossa in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente nella categoria. Devi creare un aggiornamento pianificato per queste attivazioni.
 
 >[!NOTE]
 >

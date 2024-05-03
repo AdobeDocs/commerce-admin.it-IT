@@ -3,9 +3,9 @@ title: Modifiche pianificate per le regole prezzo catalogo
 description: Scopri come applicare le regole del prezzo di catalogo alla pianificazione come parte di una campagna e raggruppate con altre modifiche al contenuto.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 La casella Modifiche pianificate viene visualizzata nella parte superiore della pagina quando viene salvata o aggiornata una nuova regola prezzo. Le regole del prezzo del catalogo possono essere applicate secondo programma come parte di una campagna e raggruppate con altre modifiche al contenuto. Puoi creare una campagna in base alle modifiche pianificate per una regola di prezzo o applicare le modifiche a una campagna esistente.
+
+>[!NOTE]
+>
+>Il [!UICONTROL From] e [!UICONTROL To] i campi sono stati rimossi in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente nella regola del prezzo di catalogo. Devi creare un aggiornamento pianificato per queste attivazioni.
 
 >[!NOTE]
 >
