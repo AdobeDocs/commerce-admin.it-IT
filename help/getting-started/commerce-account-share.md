@@ -3,9 +3,9 @@ title: Condividi un [!DNL Commerce] account
 description: Scopri come concedere un accesso limitato al tuo [!DNL Commerce] account per altro [!DNL Commerce] titolari del conto.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 5886f0605312dc06360051188ffce983281a3ccd
+source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Il tuo [!DNL Commerce] L&#39;account contiene informazioni che è possibile rendere disponibili a dipendenti e provider di servizi attendibili che aiutano a gestire il sito. In qualità di titolare dell&#39;account principale, hai l&#39;autorità di concedere un accesso limitato ad altri [!DNL Commerce] titolari del conto. L&#39;accesso condiviso può essere revocato, ma non può essere trasferito da un utente all&#39;altro.
 
-Il [!DNL Commerce] Il team di supporto non ha accesso all’account e non può impostare l’accesso condiviso per te. Solo il titolare dell’account principale con le autorizzazioni appropriate può impostare l’accesso condiviso. Quando il tuo account viene condiviso, tutte le informazioni riservate, ad esempio la cronologia di fatturazione o le informazioni sulla carta di credito, rimangono protette e non vengono mai condivise con altri utenti.
+Il [!DNL Commerce] Il team di supporto non ha accesso all’account e non può impostare l’accesso condiviso per te. Solo il titolare dell’account principale con le autorizzazioni appropriate può impostare l’accesso condiviso. Quando si condivide l&#39;accesso all&#39;account, tutte le informazioni riservate, ad esempio la cronologia di fatturazione o le informazioni sulla carta di credito, rimangono protette e non sono mai disponibili per altri utenti.
 
 >[!NOTE]
 >
@@ -47,14 +47,16 @@ Il [!DNL Commerce] Il team di supporto non ha accesso all’account e non può i
 
 1. Sotto _[!UICONTROL Shared Information]_, eseguire le operazioni seguenti:
 
-   - Per identificare l&#39;account condiviso, immettere un **[!UICONTROL Share Name]**. Questo nome è un riferimento interno ed è visibile solo a te e alla persona con cui condividi l’account. (Non immettere un nome di condivisione che inizi con `CLOUD SHARED ACCESS FROM MAG XYX`.)
+   - Per identificare l&#39;account condiviso, immettere un **[!UICONTROL Share Name]**. Questo nome è un riferimento interno ed è visibile solo a te e alla persona con cui condividi l’account.
+
+     Una best practice consiste nell’utilizzare il nome dell’organizzazione come [!UICONTROL Share Name]. Non utilizzare un nome che inizia con `CLOUD SHARED ACCESS FROM MAG XYX`.
    - Se si desidera condividere le informazioni personali sul contatto con il nuovo utente, immettere: **[!UICONTROL Your Email]** e **[!UICONTROL Your Phone]**.
 
 1. Sotto _[!UICONTROL Grant Account Permissions]_, seleziona la casella di controllo di ciascun [!DNL Commerce] prodotto e servizio che desideri condividere.
 
    ![Concedere le autorizzazioni dell’account](./assets/shared-permissions.png){width="600"}
 
-1. Al termine, fai clic su **[!UICONTROL Create Shared Access]**.
+1. Clic **[!UICONTROL Create Shared Access]**.
 
    Le informazioni sul nuovo utente vengono visualizzate nel _[!UICONTROL Manage Permissions]_nella pagina Accesso condiviso e un invito e-mail con istruzioni per l&#39;accesso all&#39;account condiviso viene inviato al nuovo utente.
 
@@ -80,11 +82,11 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 
    ![Supporto](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   È possibile utilizzare [Centro assistenza Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) dall’account condiviso per cercare articoli e informazioni sulla risoluzione dei problemi, trovare patch per i problemi noti e creare ticket di supporto.
+   È possibile utilizzare [Centro assistenza Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) dall’account condiviso per cercare articoli e informazioni sulla risoluzione dei problemi, trovare patch per i problemi noti e creare ticket di supporto.
 
    >[!NOTE]
    >
-   >Dopo aver ricevuto l’accesso condiviso, l’utente deve accedere al proprio [[!DNL Commerce] account](https://account.magento.com/customer/account/login), passa a _Accesso condiviso_, quindi fare clic su **[!UICONTROL Support]** scheda. Questa azione è necessaria solo la prima volta, per garantire che [Knowledge Base di supporto Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) è configurato correttamente tramite `SSO` chiamare.
+   >Dopo aver ricevuto l’accesso condiviso, l’utente deve accedere al proprio [[!DNL Commerce] account](https://account.magento.com/customer/account/login), passa a _Accesso condiviso_, quindi fare clic su **[!UICONTROL Support]** scheda. Questa azione è necessaria la prima volta solo per garantire che il [Knowledge Base di supporto Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) è configurato correttamente tramite `SSO` chiamare.
 
 1. Per tornare al tuo account, fai clic su **Indietro** nei controlli del browser e impostare **[!UICONTROL Switch Accounts]** a `My Account`.
 
@@ -98,15 +100,15 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 
    >[!NOTE]
    >
-   > Se  **[!UICONTROL Delete]** non viene visualizzato, verifica se **[!UICONTROL Share Name]** inizia con `Cloud Shared Access from MAG XYZ` - [questi account](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) non può essere eliminato.
+   > Se  **[!UICONTROL Delete]** non viene visualizzato, verifica se **[!UICONTROL Share Name]** inizia con `Cloud Shared Access from MAG XYZ`. Non è possibile eliminare gli account con tale account [pattern di denominazione](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
    > 
-   > In tal caso, chiedere al proprietario dell&#39;account di modificare l&#39;account di Accesso condiviso e cancellare le autorizzazioni dell&#39;account. Dopo tale aggiornamento, l’accesso condiviso a una qualsiasi delle risorse non è disponibile per l’utente.
+   > In tal caso, chiedere al proprietario dell&#39;account di modificare l&#39;account di Accesso condiviso per annullare le autorizzazioni dell&#39;account. Dopo tale aggiornamento, l’utente non può accedere ad alcuna risorsa dell’account.
    >
-   > Inoltre, assicurati che gli utenti vengano rimossi dal progetto in modo che non ricevano più le notifiche e-mail: [Gli ex membri del gruppo ricevono le e-mail di notifica cloud di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > Inoltre, assicurati che gli utenti vengano rimossi dal progetto in modo che non ricevano più le notifiche e-mail: [Gli ex membri del gruppo ricevono le e-mail di notifica cloud di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
 
 
 1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->Impossibile eliminare utenti con il nome di condivisione _Accesso condiviso cloud da MAG[XYZ]_ in questa interfaccia. Per ulteriori informazioni, consulta [Come si eliminano gli utenti a cui è stato concesso l’accesso condiviso tramite un progetto Cloud?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).
+>Impossibile eliminare utenti con il nome di condivisione _Accesso condiviso cloud da MAG[XYZ]_ in questa interfaccia. Consulta [Come si eliminano gli utenti a cui è stato concesso l’accesso condiviso tramite un progetto Cloud?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).
