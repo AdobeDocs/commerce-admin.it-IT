@@ -3,9 +3,9 @@ title: Preparazione HIPAA su Adobe Commerce
 description: Scopri come aggiungere il modulo HIPAA-Ready di Adobe Commerce e ottenere funzioni e funzionalità aggiuntive per rispettare gli obblighi HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
+source-git-commit: c21c8b76e37e617885bae3492801b45093a6b5a5
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ Nessuno dei servizi SaaS offerti per Adobe Commerce è disponibile nell’ambito
 ### Estrazione guest disattivata per impostazione predefinita
 
 - Il checkout degli ospiti presenta un potenziale rischio per vari aspetti dell&#39;HIPAA, tra cui la registrazione, il controllo degli accessi, l&#39;igiene e la derivazione PHI, e potenzialmente di più.
-- Il Checkout ospite è disabilitato per impostazione predefinita nel modulo di preparazione HIPAA, ma può essere abilitato dai miei commercianti a proprio rischio e pericolo.
+- Il Checkout ospite è disabilitato per impostazione predefinita nel modulo di preparazione HIPAA, ma può essere abilitato dagli esercenti a proprio rischio e pericolo.
 
 ### Funzione newsletter disabilitata per impostazione predefinita
 
@@ -191,3 +191,7 @@ Nessuno dei servizi SaaS offerti per Adobe Commerce è disponibile nell’ambito
 ### Impostazione predefinita del servizio Advanced Reporting disabilitata
 
 L’impostazione del servizio di reporting avanzato è disabilitata per impostazione predefinita per impedire l’utilizzo di PHI per l’analisi e il reporting, ma può essere abilitata dall’esercente a proprio rischio.
+
+### Servizio Sendgrid disabilitato per impostazione predefinita
+
+Il servizio Sendgrid è disabilitato per impostazione predefinita perché l&#39;applicazione non è compatibile con HIPAA. Gli esercenti possono inviare una richiesta di supporto per abilitare Sendgrid, ma devono confermare che si assumeranno il rischio di utilizzare il servizio.
