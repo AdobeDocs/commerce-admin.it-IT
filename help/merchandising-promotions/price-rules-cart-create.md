@@ -3,9 +3,9 @@ title: Creare una regola di prezzo del carrello
 description: Scopri come creare una regola di prezzo del carrello basata sugli attributi del carrello o del prodotto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
+source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '3302'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ Puoi impostare una condizione per una regola del prezzo del carrello basata su u
    | `Name` | Nome del pubblico, ad esempio `Orders over $50` |
    | `Description` | Descrizione del pubblico, ad esempio `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica da dove proviene il pubblico, ad esempio `Experience Platform`. |
-   | `Website` | Indica quale sito web hai collegato allo stream di dati che contiene i tipi di pubblico. Puoi creare questo collegamento quando connetti la tua istanza Commerce all’Experience Platform tramite [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) estensione. |
+   | `Website` | Indica quale sito web hai collegato allo stream di dati che contiene i tipi di pubblico. Questo collegamento viene creato quando si collega l’istanza Commerce all’Experience Platform tramite [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) estensione. |
 
    {style="table-layout:auto"}
 
@@ -328,7 +328,7 @@ L&#39;etichetta viene visualizzata nella sezione dei totali dell&#39;ordine per 
 
 1. Verifica la regola per assicurarti che funzioni correttamente.
 
-   Le regole di prezzo vengono elaborate automaticamente ogni notte con altre regole di sistema. Quando crei una regola del prezzo, lascia il tempo necessario per l&#39;accesso al sistema. Verifica inoltre la regola per assicurarti che funzioni correttamente. Con l’aggiunta di nuove regole, Commerce ricalcola di conseguenza i prezzi e le priorità.
+   Le regole di prezzo vengono elaborate automaticamente ogni notte con altre regole di sistema. Quando crei una regola del prezzo, lascia il tempo necessario per l&#39;accesso al sistema. Verifica inoltre la regola per assicurarti che funzioni correttamente. Con l&#39;aggiunta di nuove regole, Commerce ricalcola di conseguenza i prezzi e le priorità.
 
 ## Dimostrazione regola prezzo carrello
 
@@ -360,6 +360,31 @@ Guarda questo video per scoprire come creare le regole di prezzo del carrello:
 ### [!UICONTROL Conditions]
 
 Specifica le condizioni che devono essere soddisfatte prima che la regola del prezzo del carrello entri in azione. Se non specificato, la regola viene applicata a tutti i prodotti nel carrello. Le condizioni possono essere basate su qualsiasi combinazione di carrello e attributi di prodotto. Tuttavia, [opzioni personalizzabili](../catalog/settings-advanced-custom-options.md) non può essere referenziato nelle condizioni della regola prezzo carrello.
+
+| Campo | Descrizione |
+|--- |--- |
+| [!UICONTROL **Attributo articolo carrello**] |  |
+| [!UICONTROL Price in cart] | Prezzo del prodotto. La regola si applica se il prezzo del prodotto nella condizione carrello è soddisfatto. |
+| [!UICONTROL Quantity in cart] | Quantità di prodotto. La regola si applica se la quantità di prodotto nella condizione del carrello è soddisfatta. |
+| [!UICONTROL Row total in cart] | Totale righe prodotto. La regola si applica se viene soddisfatto il totale della riga prodotto nella condizione carrello. |
+| [!UICONTROL **Attributo prodotto**] |  |
+| [!UICONTROL Attribute Set] | Set di attributi del prodotto. La regola si applica se il prodotto soddisfa la condizione dell’attributo del prodotto. |
+| [!UICONTROL Category] | Categoria di prodotto. La regola si applica se il prodotto stesso o il relativo prodotto secondario soddisfa la condizione della categoria. |
+| [!UICONTROL Category (Children Only)] | Categoria di prodotti secondari. La regola si applica se solo i figli del prodotto soddisfano la condizione della categoria (il prodotto stesso non è selezionato qui). |
+| [!UICONTROL Category (Parent Only)] | Categoria del prodotto principale. La regola si applica se solo il prodotto stesso soddisfa la condizione della categoria (i prodotti secondari non sono selezionati qui). |
+| [!UICONTROL **Attributo carrello**] |  |
+| [!UICONTROL Subtotal (Excl. Tax)] | Subtotale carrello (IVA esclusa). La regola si applica se il carrello soddisfa la condizione del subtotale (IVA esclusa). |
+| [!UICONTROL Subtotal (Incl. Tax)] | Subtotale carrello (IVA inclusa). La regola si applica se il carrello soddisfa la condizione del subtotale (imposte incluse). |
+| [!UICONTROL Subtotal] | Subtotale carrello. La regola si applica se il carrello soddisfa una condizione di subtotale. L&#39;assegno include o esclude l&#39;imposta in base alle impostazioni correnti dell&#39;imposta. |
+| [!UICONTROL Total Items Quantity] | Quantità totale di tutti i prodotti nel carrello. La regola si applica se il carrello soddisfa una condizione relativa alla quantità totale di articoli. |
+| [!UICONTROL Total Weight] | Peso totale di tutti i prodotti nel carrello. La regola si applica se il carrello soddisfa la condizione di peso totale. |
+| [!UICONTROL Payment Method] | Metodo di pagamento selezionato al momento del pagamento. La regola si applica se la condizione del metodo di pagamento è soddisfatta. |
+| [!UICONTROL Shipping Method] | Metodo di spedizione selezionato al momento del pagamento. La regola si applica se la condizione del metodo di spedizione è soddisfatta. |
+| [!UICONTROL Shipping Postcode] | CAP indirizzo di spedizione. La regola si applica se l&#39;indirizzo di spedizione soddisfa la condizione del codice postale. |
+| [!UICONTROL Shipping Region] | Area dell&#39;indirizzo di spedizione. La regola si applica se l&#39;indirizzo di spedizione soddisfa la condizione dell&#39;area. |
+| [!UICONTROL Shipping State/Province] | Indirizzo/provincia di spedizione. La regola si applica se l’indirizzo di spedizione soddisfa la condizione di stato/provincia. |
+| [!UICONTROL Shipping Country] | Paese dell’indirizzo di spedizione. La regola si applica se l’indirizzo di spedizione soddisfa la condizione del paese. |
+| [!UICONTROL Customer Segment] | La regola si applica se un cliente registrato o ospite soddisfa la condizione del segmento cliente. |
 
 ### [!UICONTROL Actions]
 
