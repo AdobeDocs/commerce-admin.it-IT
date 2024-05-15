@@ -3,9 +3,9 @@ title: Estensioni da Adobe
 description: Rivedi le informazioni sulle estensioni per Adobe Commerce e Magento Open Source rilasciate da Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: c22ad5c3220f14588131d6b29a88dab3c5347681
+source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Alcune estensioni vengono installate automaticamente con Adobe Commerce o Magent
 
 ### Braintree
 
-PayPal e Gene Commerce hanno sviluppato insieme l’estensione ufficiale di Braintree per i negozi Commerce 2.4.x. Grazie a una migliore esperienza di pagamento progettata per favorire la conversione, gli aggiornamenti includono opzioni PayLater che mostrano automaticamente messaggi e pulsanti PayLater rilevanti ai consumatori durante gli acquisti e durante il pagamento.
+PayPal e Gene Commerce hanno sviluppato insieme l&#39;estensione ufficiale di Braintree per i negozi Commerce 2.4.x. Grazie a una migliore esperienza di pagamento progettata per favorire la conversione, gli aggiornamenti includono opzioni PayLater che mostrano automaticamente messaggi e pulsanti PayLater rilevanti ai consumatori durante gli acquisti e durante il pagamento.
 
 Questa estensione è installata per impostazione predefinita, ma richiede [Braintree account](https://www.braintreepayments.com/) e la configurazione nell’Amministratore da abilitare per il tuo archivio. Per determinare le commissioni applicabili quando si utilizza Braintree per elaborare le transazioni, selezionare [Braintree prezzi](https://www.braintreepayments.com/braintree-pricing).
 
@@ -83,18 +83,13 @@ Il [!DNL Catalog Service] consente di offrire ai clienti un’esperienza di prod
 
 [!DNL Payment services] per Adobe Commerce e Magento Open Source è una soluzione di pagamento completamente integrata che semplifica la gestione dei pagamenti e offre ai clienti l&#39;opportunità di pagare. Esegui la riconciliazione sicura di tutti i dati relativi a pagamenti e transazioni all’interno dell’amministratore di Adobe Commerce, consentendoti di gestire gli ordini e i pagamenti in un’unica posizione e di effettuare un pagamento senza soluzione di continuità. Consulta la [[!DNL Payment Services] Guida utente](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) per ulteriori informazioni.
 
-### [!DNL Quick Checkout]
-
-[!DNL Quick Checkout] per Adobe Commerce offre un’esperienza di pagamento fluida progettata per convertire gli acquirenti occasionali in titolari di account fedeli.
-Consulta la [[!DNL Quick Checkout] Guida utente](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) per ulteriori informazioni.
-
 ### [!DNL Store Fulfillment]
 
 Il servizio di consegna del negozio per Adobe Commerce e il Magento Open Source consente un acquisto online di qualità superiore, la customer experience del ritiro in negozio (BOPIS) e massimizza la produttività dei dipendenti grazie a un flusso di lavoro di distribuzione completo abilitato tramite un dispositivo mobile. Consulta la [[!DNL Store Fulfillment] Guida utente](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) per ulteriori informazioni.
 
 ### [!DNL Amazon Sales Channel]
 
-Il [!DNL Amazon Sales Channel] per Adobe Commerce consente di integrare il database delle inserzioni di Amazon Seller Central con il [!DNL Commerce] catalogo dei prodotti e gestisci le inserzioni e le vendite Amazon nell’amministratore di Commerce. Consulta la [[!DNL Amazon Sales] Guida utente](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) per ulteriori informazioni.
+Il [!DNL Amazon Sales Channel] per Adobe Commerce consente di integrare il database delle inserzioni di Amazon Seller Central con il [!DNL Commerce] catalogo dei prodotti e gestisci le inserzioni e le vendite Amazon nell’amministratore Commerce. Consulta la [[!DNL Amazon Sales] Guida utente](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) per ulteriori informazioni.
 
 ### [!DNL Channel Manager]
 
