@@ -5,7 +5,7 @@ mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3322'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Le ricerche hanno dimostrato che [64% degli acquirenti](https://techreport.com/s
 Questa nuova vetrina ad alte prestazioni è già stata testata con successo da diversi commercianti Adobe Commerce, come [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), proprietà di HanesBrands. I risultati parlano da soli. Le pagine Maidenform forniscono in modo coerente punteggi di Google Lighthouse di [Risultati di 100 e Core Web Vitals](https://treo.sh/sitespeed/www.maidenform.com) molto al di sopra della media del settore.
 
 ![Risultati velocità sito](assets/maidenform-site.png){width=&quot;50%&quot; align=center}
-![Grafico core Web Vitals](assets/maidenform-site-stats.png){zoomable=&quot;yes&quot;}
+![Grafico core Web Vitals](assets/maidenform-site-stats.png){zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -186,7 +186,7 @@ Il playbook iniziale di Adobe Commerce consente ai clienti di avviare facilmente
 
 Adobe sta inoltre aggiungendo dashboard specifiche per Commerce in Adobe Experience Platform per aiutare gli esperti di marketing ad analizzare i dati Commerce e identificare opportunità di personalizzazione.
 
-![Un diagramma di una campagna carrello abbandonata](assets/use-case-playbook.png){zoomable=&quot;yes&quot;}
+![Un diagramma di una campagna carrello abbandonata](assets/use-case-playbook.png){zoomable="yes"}
 
 #### Attiva la personalizzazione utilizzando i tipi di pubblico da Adobe Real-time CDP
 

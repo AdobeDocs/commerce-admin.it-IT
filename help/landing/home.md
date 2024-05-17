@@ -7,8 +7,8 @@ breadcrumb-title: Documentazione del commerciante
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
@@ -126,9 +126,9 @@ Magento Open Source è la base di codice a cui Adobe contribuisce ufficialmente 
 | **Versione 1.4.0 B2B** : le note sulla versione di B2B per Adobe Commerce descrivono modifiche e aggiunte per [Versione 1.4.0](../b2b/release-notes.md#b2b-v140). | Aggiorna | 06/13/23 |
 | **Versione 1.4.0 B2B** - Il [Avvia offerta per un acquirente](../b2b/sales-rep-initiates-quote.md) L&#39;argomento è ora incluso nel _Guida al B2B per Adobe Commerce_. Descrive come un venditore può creare un preventivo per un acquirente specifico per avviare il processo di negoziazione. | Nuovo | 06/13/23 |
 | **Versione 1.4.0 B2B** - Il [Negoziazione di un preventivo](../b2b/quote-price-negotiation.md), [Offerte negoziabili](../b2b/quotes.md), e [Abilitare le funzioni B2B](../b2b/enable-basic-features.md) gli argomenti vengono aggiornati per riflettere le modifiche per le offerte avviate dal venditore e le funzioni predefinite. | Aggiorna | 06/13/23 |
-| **Versione 2.2.0 dell’integrazione Adobe IMS** - Il [Disattivare l’integrazione dell’amministratore Commerce con Adobe ID](../getting-started/adobe-ims-disable.md) L&#39;argomento è ora incluso nel _Guida introduttiva_. Descrive una procedura opzionale per disabilitare l’integrazione di Adobe Commerce Admin con Adobe IMS. | Nuovo | 06/13/23 |
+| **Versione 2.2.0 dell’integrazione Adobe IMS** - Il [Disattivare l’integrazione dell’amministratore di Commerce con Adobe ID](../getting-started/adobe-ims-disable.md) L&#39;argomento è ora incluso nel _Guida introduttiva_. Descrive una procedura opzionale per disabilitare l’integrazione di Adobe Commerce Admin con Adobe IMS. | Nuovo | 06/13/23 |
 | **Versione 2.2.0 dell’integrazione Adobe IMS** - Modifiche della [Panoramica sull’integrazione di Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-integration-overview.md) e [Configurare l’integrazione dell’amministratore di Commerce con Adobe ID](../getting-started/adobe-ims-config.md) argomenti che riflettono le funzionalità aggiornate. | Aggiorna | 06/13/23 |
-| **[!DNL Audience Activation]** - Informazioni nuove, aggiornate e migliorate incluse nel [[!DNL Audience Activation]](../customers/audience-activation.md) argomento per riflettere [!DNL Experience Platform Connector] configurazione dell’interfaccia utente e utilizzo dell’istanza Commerce headless con regole di prezzo del carrello e blocchi dinamici. | Aggiorna | 06/13/23 |
+| **[!DNL Audience Activation]** - Informazioni nuove, aggiornate e migliorate incluse nel [[!DNL Audience Activation]](../customers/audience-activation.md) argomento per riflettere [!DNL Experience Platform Connector] configurazione dell’interfaccia utente e utilizzo dell’istanza Commerce headless con regole del prezzo del carrello e blocchi dinamici. | Aggiorna | 06/13/23 |
 | **API UPS obsoleta** - Aggiornato il [United Parcel Service (UPS)](../stores-purchase/ups.md) argomento e [Metodi di consegna](../configuration-reference/sales/delivery-methods.md#ups) pagina di riferimento della configurazione per riflettere la rimozione temporanea delle API UPS per la generazione di nuove chiavi API. | Aggiorna | 06/08/23 |
 | **Versione 2.4.6** - Aggiornato il [Elenco prodotti](../catalog/products-list.md) e [Riferimento configurazione amministratore](../configuration-reference/advanced/admin.md) argomenti che includono informazioni sulle limitazioni di visualizzazione dei prodotti utilizzabili per migliorare le prestazioni di cataloghi di grandi dimensioni. | Aggiorna | 03/14/23 |
 | **Versione 2.4.6** - Aggiornato il [Creare ed eliminare segmenti di clienti](../customers/customer-segment-create.md) e [Riferimento configurazione cliente](../configuration-reference/customers/customer-configuration.md) argomenti che includono informazioni sulla convalida in tempo reale dei segmenti. | Aggiorna | 03/14/23 |
