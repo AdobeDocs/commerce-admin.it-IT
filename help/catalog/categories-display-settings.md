@@ -3,9 +3,9 @@ title: Categorie - Impostazioni di visualizzazione
 description: Scopri come utilizzare il [!UICONTROL Display] impostazioni per definire gli elementi di contenuto da visualizzare in una pagina categoria e l’ordine in cui vengono visualizzati i prodotti.
 exl-id: bb3a1b00-ba56-4113-8208-860963612333
 feature: Catalog Management, Categories, Page Content
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: a47e744cf4cc5163ca2ba0718ccb78eb65a7d404
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Le impostazioni di visualizzazione determinano gli elementi di contenuto da visu
 | Campo | Descrizione |
 |--- |--- |
 | [!UICONTROL Display Mode] | Determina gli elementi di contenuto visualizzati nella pagina della categoria. Opzioni: `Products Only` / `Static Block Only` / `Static Block and Products` |
-| [!UICONTROL Anchor] | Se impostato su `Yes`, include _[!UICONTROL filter by attribute]_nella navigazione a livelli. Opzioni: `Yes` / `No` |
+| [!UICONTROL Anchor] | Se impostato su `Yes`, visualizza i prodotti delle sottocategorie nella categoria anche se non sono stati aggiunti in modo esplicito alla categoria e consente la visualizzazione del _[!UICONTROL filter by attribute]_nella navigazione a livelli. Opzioni: `Yes` / `No` |
 | [!UICONTROL Available Product Listing Sort By] | (Obbligatorio) I valori predefiniti sono `Position`, `Name`, e `Price`. Per personalizzare l’opzione di ordinamento, deseleziona la **[!UICONTROL Use All Available Attributes]** e selezionare gli attributi che si desidera utilizzare. Puoi definire e aggiungere attributi in base alle esigenze. Questa impostazione non si applica al [!DNL Live Search] [Widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Default Product Listing Sort By] | (Obbligatorio) Per definire il valore predefinito _[!UICONTROL Sort By]_deselezionare l&#39;opzione **[!UICONTROL Use Config Settings]**e selezionare un attributo. Questa impostazione non si applica al [!DNL Live Search] [Widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Layered Navigation Price Step] | Per impostazione predefinita, Commerce visualizza la fascia di prezzo con incrementi di 10, 100 e 1000, a seconda dei prodotti presenti nell&#39;elenco. Per modificare l&#39;intervallo di incrementi di prezzo, deselezionare **[!UICONTROL Use Config Settings]** casella di controllo. |
