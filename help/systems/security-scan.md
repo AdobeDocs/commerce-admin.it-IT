@@ -4,9 +4,9 @@ description: Scopri come eseguire un’analisi della sicurezza avanzata e monito
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ L&#39;analisi avanzata della sicurezza consente di monitorare tutti i siti Adobe
 - Accedi ai report cronologici di sicurezza che tengono traccia e monitorano l’avanzamento dei siti.
 - Accedere al rapporto di scansione che mostra i controlli riusciti e non riusciti, con le azioni consigliate.
 
-Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboard [Account Commerce](../getting-started/commerce-account-create.md). Per informazioni tecniche, consulta [Configurare lo strumento Security Scan](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) nel _Guida di Commerce su infrastruttura cloud_.
+Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboard [Account Commerce/Magento](../getting-started/commerce-account-create.md). Per informazioni tecniche, consulta [Configurare lo strumento Security Scan](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) nel _Guida di Commerce sull’infrastruttura cloud_.
 
 ![Strumento di analisi della sicurezza](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Esegui un&#39;analisi della sicurezza
 
-1. Vai alla home page di Commerce e accedi al tuo [Account Commerce](../getting-started/commerce-account-create.md) ed effettuare le seguenti operazioni:
+1. Dalla pagina Home di Commerce, accedi al tuo [Account Commerce/Magento](../getting-started/commerce-account-create.md).
+
+1. Rivedere e accettare i termini per l&#39;utilizzo dello strumento Security scan.
 
    - Nel pannello a sinistra, scegli **[!UICONTROL Security Scan]**.
    - Clic **[!UICONTROL Go to Security Scan]**.
@@ -37,13 +39,13 @@ Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboa
 
 1. Il giorno _[!UICONTROL Monitored Websites]_pagina, fai clic su **[!UICONTROL +Add Site]**.
 
-   Se disponi di più siti con domini diversi, devi configurare una scansione separata per ciascun dominio.
+   Se disponi di più siti con domini diversi, configura una scansione separata per ciascun dominio.
 
    ![Siti monitorati](./assets/monitored-website.png){width="600" zoomable="yes"}
 
 1. Per verificare la proprietà del dominio del sito aggiungendo un codice di conferma, eseguire una delle operazioni seguenti:
 
-   **Vetrina commerciale**:
+   **vetrina Commerce**:
 
    - Inserisci il **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
    - Clic **[!UICONTROL Generate Confirmation Code]**.
@@ -102,7 +104,7 @@ Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboa
 
         Al termine del processo di compilazione, le modifiche verranno distribuite nella parte anteriore dell’archivio PWA.
 
-1. Torna a _[!UICONTROL Security Scan]_pagina nell’account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
+1. Torna a _[!UICONTROL Security Scan]_nel tuo account Commerce, quindi fai clic su **[!UICONTROL Verify Confirmation Code]**stabilire la proprietà del dominio.
 
 1. Dopo una conferma, configura il **[!UICONTROL Set Automatic Security Scan]** opzioni per uno dei tipi seguenti:
 
@@ -126,6 +128,6 @@ Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboa
 
 1. Al termine, fai clic su **[!UICONTROL Submit]**.
 
-   Una volta verificata la proprietà del dominio, il sito viene visualizzato nell’elenco Siti web monitorati dell’account Commerce.
+   Dopo aver verificato la proprietà del dominio, il sito viene visualizzato nell&#39;elenco Siti Web monitorati dell&#39;account Commerce.
 
 1. Se disponi di più siti web con domini diversi, ripeti questo processo per impostare un’analisi di sicurezza per ciascuno di essi.
