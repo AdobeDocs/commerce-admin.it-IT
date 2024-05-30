@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ composer require magento/audiences
 
 ### Configurare l&#39;estensione
 
-Dopo aver installato [!DNL Audience Activation] devi accedere al tuo amministratore Commerce e completare le seguenti operazioni:
+Dopo aver installato [!DNL Audience Activation] , devi accedere al tuo amministratore Commerce e completare le seguenti operazioni:
 
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
@@ -154,11 +154,11 @@ Dopo aver installato [!DNL Audience Activation] devi accedere al tuo amministrat
 
 1. In **[!UICONTROL Datastream ID]** incolla l’ID dello stream di dati creato quando [attivato](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce come destinazione in Real-Time CDP.
 
-   Questo flusso di dati invia i dati dal sito Web Commerce a Real-Time CDP per determinare se un acquirente appartiene a un pubblico. Se non hai ancora creato un flusso di dati, [creare](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) uno in Experience Platform, [aggiungi](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) alla destinazione Commerce in Real-Time CDP e alla [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) in Admin.
+   Questo flusso di dati invia i dati dal sito web Commerce a Real-Time CDP per determinare se un acquirente appartiene a un pubblico. Se non hai ancora creato un flusso di dati, [creare](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) uno in Experience Platform, [aggiungi](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) alla destinazione Commerce in Real-Time CDP e alla [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) in Admin.
 
    >[!NOTE]
    >
-   >Quando specifichi un ID dello stream di dati, [associarlo a un sito Web specifico](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) nel [!DNL Data Connection] estensione. Se il tuo punto vendita Commerce ha più siti web, [creare una destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) per ogni sito web in Real-Time CDP e utilizza un ID di flusso di dati diverso per ciascuno di essi.
+   >Quando specifichi un ID dello stream di dati, [associarlo a un sito Web specifico](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) nel [!DNL Data Connection] estensione. Se il tuo store Commerce ha più siti web, [creare una destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) per ogni sito web in Real-Time CDP e utilizza un ID di flusso di dati diverso per ciascuno di essi.
 
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -174,6 +174,8 @@ Con il [!DNL Audience Activation] abilitata, puoi:
 - [Creare un blocco dinamico](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informato dal pubblico
 - [(**Beta** a) Creare una regola di prodotto correlata](../merchandising-promotions/product-related-rule-create.md) informato dal pubblico
 
+Per un caso d’uso end-to-end completo su come esportare [!DNL Commerce] su Real-Time CDP, crea un pubblico e attivalo in [!DNL Commerce], vedi [Creazione di un pubblico in Real-Time CDP tramite [!DNL Commerce] dati evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+
 ## Dashboard dei tipi di pubblico di Real-Time CDP
 
 Puoi visualizzare tutto [attivo](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) tipi di pubblico disponibili per la personalizzazione all’interno dell’istanza di Adobe Commerce utilizzando **Pubblico Real-Time CDP** dashboard.
@@ -187,7 +189,7 @@ Il dashboard contiene i campi seguenti:
 | Colonna | Descrizione |
 |--- |--- |
 | `Hide filters` | Consente di mostrare o nascondere i filtri che è possibile applicare al dashboard. Attualmente, l’unico filtro applicabile è `Last updated`. Questo filtro consente di selezionare un intervallo di date per i tipi di pubblico in base a quando sono stati aggiornati l’ultima volta. |
-| `Search` | Consente di cercare i tipi di pubblico attivi nell’istanza Commerce. |
+| `Search` | Consente di cercare i tipi di pubblico attivi nell’istanza di Commerce. |
 | `Name` | Nome assegnato al pubblico in Real-Time CDP. |
 | `Origin` | Indica da dove proviene il pubblico, ad esempio `Experience Platform`. |
 | `Websites` | Indica quali siti web sono configurati per utilizzare i tipi di pubblico. |
@@ -215,7 +217,7 @@ Dopo di te [installare](#install-the-extension) e [configura](#configure-the-ext
 
 Per acquisire le appartenenze ai segmenti dall’SDK, consulta questa [frammento di codice](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
-Una volta recuperato, puoi passare tali segmenti a Commerce all’interno dell’intestazione GraphQL. Ad esempio:
+Una volta recuperato, puoi passare tali segmenti a Commerce all’interno dell’intestazione di GraphQL. Ad esempio:
 
 ```bash
 curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-segments-membership: urlencoded_list_of_segments' -H 'Content-Type: application/json' --data-binary '{"query":"query {\ncustomer {\nfirstname\nlastname\nemail\n}\n}"}'
@@ -306,7 +308,7 @@ Ulteriori informazioni su `dynamicBlocks` Query GraphQL in [documentazione per s
 Puoi recuperare il pubblico di Real-Time CDP utilizzando l’SDK di Adobe Experience Platform Mobile.
 
 1. [Installa](#install-the-extension) l’estensione Audience Activation.
-1. [installare e configurare l’SDK per il sito Commerce mobile](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [installare e configurare l’SDK per il sito Commerce per dispositivi mobili](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -353,7 +355,7 @@ Nelle due sezioni seguenti viene descritto come risolvere i problemi relativi a 
 
 ### Tipo di autenticazione non corretto selezionato nella configurazione
 
-1. Apri l’istanza Commerce.
+1. Apri l’istanza di Commerce.
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 1. Espandi **[!UICONTROL Services]** e seleziona **[!UICONTROL [!DNL Data Connection]]**.
 1. Verificare il metodo di autorizzazione server-to-server specificato in **[!UICONTROL Authentication Type]** il campo è corretto. L’Adobe consiglia di utilizzare **OAuth**. Il codice JWT è stato dichiarato obsoleto. [Ulteriori informazioni](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).

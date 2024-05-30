@@ -3,9 +3,9 @@ title: Creare esperienze coinvolgenti e personalizzate su larga scala
 description: Scopri le funzioni di Adobe [!DNL Commerce] ti consente di creare un’esperienza personalizzata per i tuoi acquirenti.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ Adobe [!DNL Commerce] I clienti di utilizzano funzionalità predefinite e condiv
 | **Comportamento del cliente per canale** : scopri le sfumature del modo in cui i clienti si impegnano in ogni canale (web, di persona, app, altro) per influire sulle strategie di marketing per ogni canale; scopri il funnel cliente e le sue debolezze. | **Adobe [!DNL Commerce] Solo**:<br>[Adobe [!DNL Commerce] Intelligenza](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) fornisce analisi avanzate sul digitale [!DNL Commerce] ma non su canali diversi o su parti più ampie del percorso di clienti.<br>**Adobe [!DNL Commerce] con Customer Journey Analytics**:<br>[!DNL Commerce] feed di dati dashboard di dati per informazioni complete su tutte le fasi dell’esperienza del cliente (nei diversi canali). Comprendi ogni punto di contatto e il funnel più ampio per identificare i punti deboli nel percorso di clienti in cui i clienti potrebbero cadere. |
 | **Tendenze di acquisto** - Comprendi i comportamenti di acquisto in un arco di tempo specifico (ad esempio, analisi del carrello acquisti e dei prodotti) per identificare tendenze e stagionalità e ottimizzare il marketing in base a modelli di acquisto storici. | **Adobe [!DNL Commerce] Solo**:<br>[Adobe [!DNL Commerce] Intelligenza](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) fornisce analisi avanzate sul digitale [!DNL Commerce] ma non su canali diversi o su parti più ampie del percorso di clienti.<br>**Adobe [!DNL Commerce] con Customer Journey Analytics**:<br>[!DNL Commerce] feed di dati dashboard di dati per informazioni complete su tutte le fasi dell’esperienza del cliente (nei diversi canali). Comprendi ogni punto di contatto e il funnel più ampio per identificare i punti deboli nel percorso di clienti in cui i clienti potrebbero cadere. |
 
-## Caso d’uso di esempio
+## Casi d’uso di esempio
 
-Scopri come utilizzare Adobe Journey Optimizer per [invia un’e-mail carrello abbandonata](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Scopri come utilizzare Adobe Journey Optimizer per [invia un’e-mail carrello abbandonata](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Scopri come [creare un pubblico in Real-Time CDP](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience) per informare una regola di prezzo del carrello in Adobe [!DNL Commerce].
