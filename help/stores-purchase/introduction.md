@@ -2,9 +2,9 @@
 title: Introduzione ai negozi ed esperienza di acquisto
 description: Scopri le funzioni utilizzate per creare e gestire i negozi online e l’esperienza di acquisto per i clienti.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: a56509eeedbb30a1e9cacfd521ea4c18e0241d94
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe Commerce e Magento Open Source riducono gli errori di ordinazione verifica
 
 >[!TIP]
 >
->![B2B per Adobe Commerce](../assets/b2b.svg) Con l’installazione e l’abilitazione di B2B per Adobe Commerce, puoi configurare _Ordine rapido_ per i clienti associati a un account aziendale. Questa funzione riduce il processo di ordinazione a diversi clic quando conoscono il nome o lo SKU dei prodotti che desiderano ordinare. È inoltre possibile configurare il supporto per i preventivi negoziabili per gli account aziendali. Per ulteriori informazioni sulle funzioni B2B, vedi [Guida utente di B2B per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Con l’installazione e l’abilitazione di Adobe Commerce B2B, puoi configurare _Ordine rapido_ per i clienti associati a un account aziendale. Questa funzione riduce il processo di ordinazione a diversi clic quando conoscono il nome o lo SKU dei prodotti che desiderano ordinare. È inoltre possibile configurare il supporto per i preventivi negoziabili per gli account aziendali. Per ulteriori informazioni sulle funzioni B2B, vedi [Guida utente di Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## Assistenza agli acquisti
 

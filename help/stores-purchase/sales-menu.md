@@ -2,9 +2,9 @@
 title: '[!UICONTROL Sales] menu'
 description: L’amministratore di Commerce include [!UICONTROL Sales] , che consente di accedere agli strumenti per l'utilizzo degli ordini in base alla loro posizione all'interno del flusso di lavoro.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Il giorno _Amministratore_ barra laterale, fai clic su **[!UICONTROL Sales]**.
 
 ### [!UICONTROL Quotes]
 
-![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B)
 
 Gli acquirenti autorizzati possono [negoziare il prezzo](../b2b/quotes.md) con il venditore inviando un [richiesta](../b2b/quote-request.md) dal carrello.
 

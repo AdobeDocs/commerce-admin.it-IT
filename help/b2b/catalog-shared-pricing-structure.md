@@ -1,12 +1,12 @@
 ---
 title: Impostare la struttura e i prezzi del catalogo condiviso
-description: Con B2B per Adobe Commerce, scopri come impostare i prezzi e la struttura di un catalogo condiviso.
+description: Con Adobe Commerce B2B, scopri come impostare i prezzi e la struttura di un catalogo condiviso.
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ title: Processo di pagamento e opzioni
 description: Scopri in che modo Adobe Commerce e il processo di pagamento del Magento Open Source raccolgono le informazioni necessarie per completare la transazione e la pagina Pagamento guida il cliente attraverso ogni fase del processo.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Durante il secondo passaggio del processo di pagamento, il cliente sceglie [meto
 
 ### Revisione e pagamenti - Ordine di acquisto
 
-![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile solo con B2B per Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile solo con Adobe Commerce B2B)
 
 Quando un cliente è associato a un’azienda che ha abilitato [ordini fornitore](../b2b/purchase-order-flow.md), tutti gli ordini vengono elaborati come ordini di acquisto. I metodi di pagamento disponibili sono determinati dalle impostazioni dell&#39;account aziendale.
 

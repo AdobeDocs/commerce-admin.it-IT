@@ -3,9 +3,9 @@ title: Social media e feed RSS
 description: Scopri come aggiungere i social media e altre integrazioni di feed RSS per creare consapevolezza del marchio e del prodotto.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ I siti di social networking dispongono di numerosi plug-in che possono essere fa
 
 1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Add Widget]** ed effettuare le seguenti operazioni:
 
-   - ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile solo con B2B per Adobe Commerce) In _Impostazioni_ sezione, set **[!UICONTROL Type]** a `CMS Static Block` e fai clic su **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile solo con Adobe Commerce B2B) Nella _Impostazioni_ sezione, set **[!UICONTROL Type]** a `CMS Static Block` e fai clic su **[!UICONTROL Continue]**.
 
    - Verifica che **[!UICONTROL Design Theme]** è impostato sul tema corrente.
 

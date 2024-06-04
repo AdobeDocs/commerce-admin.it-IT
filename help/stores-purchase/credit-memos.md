@@ -3,9 +3,9 @@ title: Note di credito
 description: Scopri le note di credito e come vengono utilizzate per emettere un rimborso parziale o completo.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Il [metodo di pagamento](payments.md) per l&#39;ordine determina, in una certa m
 
 - Credito conto: gli ordini pagati utilizzando un conto di credito possono essere rimborsati come credito conto:
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) [Credito store](../customers/store-credit-using.md)
-   - ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce) [Pagamento in acconto](../b2b/enable-basic-features.md#configure-payment-on-account) (metodo offline)
-   - ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce) [Credito società](../b2b/credit-company.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) [Pagamento in acconto](../b2b/enable-basic-features.md#configure-payment-on-account) (metodo offline)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) [Credito società](../b2b/credit-company.md)
 - [Rimborso online](payments.md#online-payment-methods)- Gli ordini pagati con carta di credito tramite un gateway di pagamento, come PayPal o Braintree, vengono rimborsati online tramite il processore di pagamento.
 - [Rimborso offline](payments.md#offline-payment-methods)- Ordini pagati in contrassegno ([COD](cash-on-delivery.md)) o da [assegno o vaglia postale](check-money-order.md) vengono rimborsati offline.
 

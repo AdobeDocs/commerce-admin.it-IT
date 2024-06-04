@@ -3,9 +3,9 @@ title: Esperienze vetrina migliorate
 description: Scopri i numerosi strumenti progettati per massimizzare il coinvolgimento, la fidelizzazione e la fidelizzazione dei clienti.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: ecc1ae5a741cab915369eac619905728d1c61061
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Adobe Commerce e Magento Open Source forniscono una serie di strumenti per aiuta
 
 - **Regole aziendali automatizzate** - Configurazione [regole aziendali automatizzate](../merchandising-promotions/price-rules-cart.md) che definiscono le relazioni tra prodotti e utilizzano regole di prezzo che attivano gli sconti in base a varie condizioni.
 
-- **B2B e B2C integrati** - Con [B2B per Adobe Commerce](../b2b/introduction.md), puoi offrire servizi sia ai clienti B2C che a quelli B2B. Tramite un portale clienti di facile utilizzo, i clienti B2B possono impostare più livelli di acquirenti con ruoli e autorizzazioni specifici, tenere traccia di preventivi e ordini, definire regole di approvazione degli acquisti e gestire il credito online.
+- **B2B e B2C integrati** - Con [Adobe Commerce B2B](../b2b/introduction.md), puoi offrire servizi sia ai clienti B2C che a quelli B2B. Tramite un portale clienti di facile utilizzo, i clienti B2B possono impostare più livelli di acquirenti con ruoli e autorizzazioni specifici, tenere traccia di preventivi e ordini, definire regole di approvazione degli acquisti e gestire il credito online.
 
 ## Momento di acquisto
 

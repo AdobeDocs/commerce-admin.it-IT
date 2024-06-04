@@ -1,12 +1,12 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] dell'amministratore di Commerce.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
@@ -31,4 +31,4 @@ Per informazioni dettagliate sulla configurazione di queste impostazioni per la 
 
 >[!NOTE]
 >
->![B2B per Adobe Commerce](../../assets/b2b.svg) (Disponibile solo con B2B per Adobe Commerce) Per gli ordini con più indirizzi di spedizione, il [Pagamento in acconto](../../b2b/enable-basic-features.md#configure-payment-on-account) il metodo di pagamento, anche se abilitato, non è disponibile durante l&#39;estrazione.
+>![Adobe Commerce B2B](../../assets/b2b.svg) (Disponibile solo con Adobe Commerce B2B) Per gli ordini con più indirizzi di spedizione, il [Pagamento in acconto](../../b2b/enable-basic-features.md#configure-payment-on-account) il metodo di pagamento, anche se abilitato, non è disponibile durante l&#39;estrazione.

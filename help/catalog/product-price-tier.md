@@ -3,9 +3,9 @@ title: Prezzi a livelli
 description: Scopri come utilizzare la determinazione prezzi a livello per offrire uno sconto sulla quantità da un elenco di prodotti o da una pagina di prodotti.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ I prezzi in vetrina hanno la precedenza dalla quantità più alta a quella più 
 
 1. Se il tuo negozio dispone di più siti web, scegli **[!UICONTROL Website]** per i quali si applica la determinazione dei prezzi secondo un livello.
 
-1. Se necessario, limitare la disponibilità del piano tariffario selezionando **[!UICONTROL Customer Group]** o **[!UICONTROL Shared Catalog]** (![B2B per Adobe Commerce](../assets/b2b.svg) Disponibile con [B2B per Adobe Commerce](./b2b/../introduction.md) solo ).
+1. Se necessario, limitare la disponibilità del piano tariffario selezionando **[!UICONTROL Customer Group]** o **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) Disponibile con [Adobe Commerce B2B](./b2b/../introduction.md) solo ).
 
 1. Per **[!UICONTROL Qty]**, inserire la quantità che deve essere ordinata per ricevere lo sconto.
 

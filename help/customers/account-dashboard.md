@@ -3,9 +3,9 @@ title: Dashboard account cliente
 description: I clienti possono gestire e monitorare le proprie informazioni e attività dalla dashboard Account cliente.
 exl-id: 74d5b9ec-0630-4843-a88c-f881cb6cd957
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ I clienti possono gestire e monitorare le proprie informazioni e attività dal d
 
 >[!NOTE]
 >
-> Con l’installazione e l’abilitazione di B2B per Adobe Commerce, l’esperienza di acquisto può essere personalizzata con funzioni specifiche per l’azienda. Per i clienti associati a una società può essere abilitata l’intera gamma di opzioni del dashboard dei conti B2B (ordini di acquisto, elenchi di richieste di acquisto e preventivi negoziati). Per ulteriori informazioni sulle funzioni B2B, vedi [Guida utente di B2B per Adobe Commerce](../b2b/introduction.md).
+> Con l’installazione e l’abilitazione di Adobe Commerce B2B, l’esperienza di acquisto può essere personalizzata con funzioni specifiche per l’azienda. Per i clienti associati a una società può essere abilitata l’intera gamma di opzioni del dashboard dei conti B2B (ordini di acquisto, elenchi di richieste di acquisto e preventivi negoziati). Per ulteriori informazioni sulle funzioni B2B, vedi [Guida utente di Adobe Commerce B2B](../b2b/introduction.md).
 
 ![Dashboard account società nella vetrina](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
 
@@ -44,14 +44,14 @@ La tabella seguente contiene informazioni su tutte le sezioni disponibili nel pa
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL Reward Points]**](../merchandising-promotions/rewards-loyalty.md) | Elenca tutti i punti premio guadagnati dal cliente che possono essere applicati agli acquisti. |
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL Gift Registry]**](../merchandising-promotions/gift-registries.md) | Utilizzato per elencare e gestire i registri dei regali e per aggiungerne di nuovi. |
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL My Invitations]**](../merchandising-promotions/invitations.md) | Elenca tutti gli inviti creati e inviati dal cliente per gli eventi pianificati. |
-| ![B2B per Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Purchase Orders]**](../b2b/account-dashboard-my-purchase-orders.md) | (Solo società) Elenca tutti gli ordini di acquisto sottomessi o controllati dal cliente, con un collegamento a informazioni dettagliate. |
-| ![B2B per Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (Solo Aziende) Elenca tutti i preventivi inviati dal cliente, con un collegamento a informazioni dettagliate. |
-| ![B2B per Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (Solo società) Gestisce tutti gli elenchi di richieste di acquisto creati dal cliente. |
-| ![B2B per Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (Solo società) Un amministratore società designato può gestire le informazioni della società, tra cui il nome e l&#39;indirizzo della società, le informazioni di contatto dell&#39;amministratore società e le informazioni di pagamento. |
-| ![B2B per Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Solo società) Mostra il saldo in sospeso corrente, il credito disponibile e il limite di credito allocato al conto, seguito da un elenco di fatture in sospeso. La sezione Credito società viene visualizzata nel dashboard solo quando [Pagamento in acconto](../b2b/enable-basic-features.md#configure-payment-on-account) è abilitato nella configurazione. |
-| ![B2B per Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (Solo società) Utilizzato dall’amministratore della società per definire la struttura aziendale della società. |
-| ![B2B per Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (Solo società) Utilizzato dall’amministratore della società per creare account utente per gli acquirenti della società. |
-| ![B2B per Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (Solo per società) Utilizzato dall’amministratore della società per definire i ruoli degli utenti della società con vari livelli di autorizzazione. |
-| ![B2B per Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Approval Rules]**](../b2b/account-dashboard-approval-rules.md) | (Solo società) Consente di definire le regole di approvazione per gli ordini fornitore. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Purchase Orders]**](../b2b/account-dashboard-my-purchase-orders.md) | (Solo società) Elenca tutti gli ordini di acquisto sottomessi o controllati dal cliente, con un collegamento a informazioni dettagliate. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (Solo Aziende) Elenca tutti i preventivi inviati dal cliente, con un collegamento a informazioni dettagliate. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (Solo società) Gestisce tutti gli elenchi di richieste di acquisto creati dal cliente. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (Solo società) Un amministratore società designato può gestire le informazioni della società, tra cui il nome e l&#39;indirizzo della società, le informazioni di contatto dell&#39;amministratore società e le informazioni di pagamento. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Solo società) Mostra il saldo in sospeso corrente, il credito disponibile e il limite di credito allocato al conto, seguito da un elenco di fatture in sospeso. La sezione Credito società viene visualizzata nel dashboard solo quando [Pagamento in acconto](../b2b/enable-basic-features.md#configure-payment-on-account) è abilitato nella configurazione. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (Solo società) Utilizzato dall’amministratore della società per definire la struttura aziendale della società. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (Solo società) Utilizzato dall’amministratore della società per creare account utente per gli acquirenti della società. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (Solo per società) Utilizzato dall’amministratore della società per definire i ruoli degli utenti della società con vari livelli di autorizzazione. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Approval Rules]**](../b2b/account-dashboard-approval-rules.md) | (Solo società) Consente di definire le regole di approvazione per gli ordini fornitore. |
 
 {style="table-layout:auto"}

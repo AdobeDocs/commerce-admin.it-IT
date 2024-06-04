@@ -3,20 +3,20 @@ title: Gestione degli indici
 description: Scopri la gestione dell’indice, incluse le azioni che attivano la reindicizzazione e le best practice.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
 
 # Gestione degli indici
 
-Adobe Commerce e Magento Open Source si reindicizzano automaticamente ogni volta che uno o più elementi cambiano. Le azioni che attivano la reindicizzazione includono le modifiche dei prezzi, la creazione di regole dei prezzi per il catalogo o il carrello, l’aggiunta di nuove categorie e così via. Per ottimizzare le prestazioni, Commerce accumula i dati in tabelle speciali utilizzando gli indicizzatori. Man mano che i dati cambiano, le tabelle indicizzate devono essere aggiornate o reindicizzate. Commerce reindicizza come processo in background e il tuo archivio rimane accessibile durante i processi.
+Adobe Commerce e Magento Open Source si reindicizzano automaticamente ogni volta che uno o più elementi cambiano. Le azioni che attivano la reindicizzazione includono le modifiche dei prezzi, la creazione di regole dei prezzi per il catalogo o il carrello, l’aggiunta di nuove categorie e così via. Per ottimizzare le prestazioni, Commerce accumula i dati in tabelle speciali utilizzando gli indici. Man mano che i dati cambiano, le tabelle indicizzate devono essere aggiornate o reindicizzate. Commerce reindicizza come processo in background e il tuo archivio rimane accessibile durante i processi.
 
-La reindicizzazione dei dati velocizza l’elaborazione e riduce il tempo di attesa del cliente. Ad esempio, se modifichi il prezzo di un articolo da $ 4,99 a $ 3,99, Commerce reindicizza i dati per mostrare la modifica del prezzo nel negozio. Senza l’indicizzazione, Commerce dovrebbe calcolare il prezzo di ogni prodotto al volo; gestire le regole di prezzo del carrello, i prezzi dei bundle, gli sconti, i prezzi dei livelli e così via. Il caricamento del prezzo di un prodotto potrebbe richiedere più tempo di quanto il cliente sia disposto ad aspettare.
+La reindicizzazione dei dati velocizza l’elaborazione e riduce il tempo di attesa del cliente. Se ad esempio si modifica il prezzo di un articolo da 4,99 a 3,99 dollari, Commerce reindicizza i dati per mostrare la modifica del prezzo nel negozio. Senza l&#39;indicizzazione, Commerce dovrebbe calcolare il prezzo di ogni prodotto al volo, gestendo le regole di prezzo del carrello, i prezzi dei bundle, gli sconti, i prezzi dei livelli e così via. Il caricamento del prezzo di un prodotto potrebbe richiedere più tempo di quanto il cliente sia disposto ad aspettare.
 
-Gli indicizzatori possono essere impostati per l&#39;aggiornamento al momento del salvataggio o in base alla pianificazione. Tutti gli indici possono utilizzare entrambe le opzioni, ad eccezione di Customer Grid che supporta solo al salvataggio. Durante l’indicizzazione al momento del salvataggio, Commerce avvia una reindicizzazione alle azioni di salvataggio. La pagina Gestione dell’indice completa l’aggiornamento e svuota la cache, con il messaggio di reindicizzazione visualizzato entro un minuto o due. Quando si reindicizza in base a una pianificazione, la reindicizzazione viene eseguita in base a una pianificazione come processo cron. Viene visualizzato un messaggio di sistema [lavoro cron](cron.md) non è disponibile per aggiornare eventuali indicizzatori che non sono più validi. L’archivio rimane accessibile durante i processi di reindicizzazione.
+Gli indicizzatori possono essere impostati per l&#39;aggiornamento al momento del salvataggio o in base alla pianificazione. Tutti gli indici possono utilizzare entrambe le opzioni, ad eccezione di Customer Grid che supporta solo al salvataggio. Durante l’indicizzazione al momento del salvataggio, Commerce avvia una reindicizzazione delle azioni di salvataggio. La pagina Gestione dell’indice completa l’aggiornamento e svuota la cache, con il messaggio di reindicizzazione visualizzato entro un minuto o due. Quando si reindicizza in base a una pianificazione, la reindicizzazione viene eseguita in base a una pianificazione come processo cron. Viene visualizzato un messaggio di sistema [lavoro cron](cron.md) non è disponibile per aggiornare eventuali indicizzatori che non sono più validi. L’archivio rimane accessibile durante i processi di reindicizzazione.
 
 >[!NOTE]
 > I commercianti di Adobe Commerce che utilizzano Live Search, Catalog Service o Product Recommendations possono scegliere di utilizzare un [Indicizzatore prezzi basato su SaaS](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
@@ -43,7 +43,7 @@ La reindicizzazione e il caching hanno scopi diversi in Commerce. Gli indici ten
 
 >[!IMPORTANT]
 >
->Per i negozi che utilizzano [B2B per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) e hanno impostato Elasticsearch come testo completo (`catalogsearch_fulltext`) indexer: l&#39;indice full-text deve essere rieseguito dopo eventuali modifiche delle autorizzazioni in blocco o quando l&#39;indicizzatore &#39;permissions&#39; è in modalità &#39;Pianificato&#39;.
+>Per i negozi che utilizzano [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) e hanno impostato Elasticsearch come testo completo (`catalogsearch_fulltext`) indexer: l&#39;indice full-text deve essere rieseguito dopo eventuali modifiche delle autorizzazioni in blocco o quando l&#39;indicizzatore &#39;permissions&#39; è in modalità &#39;Pianificato&#39;.
 
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 

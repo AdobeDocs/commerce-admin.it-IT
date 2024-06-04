@@ -4,9 +4,9 @@ description: Scopri come configurare Google reCAPTCHA per l’accesso come ammin
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Google reCAPTCHA è configurato separatamente per l’amministratore e la vetrina.
 
-- Per l’amministratore, è possibile utilizzare Google reCAPTCHA sul [Accedi](../getting-started/admin-signin.md) e quando un utente richiede la reimpostazione della password. Se il codice Commerce standard [CAPTCHA](security-captcha.md) è anche abilitato, Google reCAPTCHA può essere utilizzato allo stesso tempo senza alcun problema.
+- Per l’amministratore, è possibile utilizzare Google reCAPTCHA sul [Accedi](../getting-started/admin-signin.md) e quando un utente richiede la reimpostazione della password. Se il Commerce standard [CAPTCHA](security-captcha.md) è anche abilitato, Google reCAPTCHA può essere utilizzato allo stesso tempo senza alcun problema.
 
 - Per la vetrina, Google reCAPTCHA può essere utilizzato per accedere a [account cliente](../customers/customer-sign-in.md), invia un messaggio da [Contattaci](../getting-started/store-details.md#contact-us-form) e in numerose altre posizioni della vetrina.
 
@@ -160,7 +160,7 @@ Google reCAPTCHA richiede una coppia di chiavi API per abilitare. Puoi ottenere 
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile solo con B2B per Adobe Commerce)
+   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile solo con Adobe Commerce B2B)
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]

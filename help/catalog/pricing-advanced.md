@@ -3,9 +3,9 @@ title: Prezzi avanzati
 description: Scopri i controlli avanzati sui prezzi disponibili in Adobe Commerce.
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Il _[!UICONTROL Advanced Pricing]_Le impostazioni definiscono le condizioni nece
 
 I dati di determinazione prezzi avanzata vengono sincronizzati con le pagine dei prodotti. Ad esempio, se si aggiorna una quantità di prezzo livello, il sistema aggiorna il valore nella pagina del prodotto.
 
-![B2B per Adobe Commerce](../assets/b2b.svg) (disponibile con [B2B per Adobe Commerce](./b2b/../introduction.md) solo) Se utilizzi cataloghi condivisi, i dati di determinazione prezzi avanzati vengono sincronizzati sia con le pagine dei prodotti che con i cataloghi condivisi. Ad esempio, se aggiorni una quantità di prezzo livello, il sistema aggiorna il valore nel catalogo condiviso e nella pagina del prodotto. Qualsiasi prezzo personalizzato indicato nel catalogo condiviso ha la priorità rispetto alla determinazione dei prezzi per gruppo di clienti. Consulta anche [Impostare la struttura e i prezzi del catalogo condiviso](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) nel _Guida al B2B per Adobe Commerce_.
+![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con [Adobe Commerce B2B](./b2b/../introduction.md) solo) Se utilizzi cataloghi condivisi, i dati di determinazione prezzi avanzati vengono sincronizzati sia con le pagine dei prodotti che con i cataloghi condivisi. Ad esempio, se aggiorni una quantità di prezzo livello, il sistema aggiorna il valore nel catalogo condiviso e nella pagina del prodotto. Qualsiasi prezzo personalizzato indicato nel catalogo condiviso ha la priorità rispetto alla determinazione dei prezzi per gruppo di clienti. Consulta anche [Impostare la struttura e i prezzi del catalogo condiviso](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) nel _Guida B2B di Adobe Commerce_.
 
 ![Advanced Pricing](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

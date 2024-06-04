@@ -3,9 +3,9 @@ title: Impostazioni spedizione
 description: Scopri come configurare le impostazioni di spedizione che definiscono il punto di origine e la politica di spedizione per il tuo Negozio.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ Le opzioni di spedizione con più indirizzi consentono ai clienti di spedire un 
 
 >[!NOTE]
 >
->![B2B per Adobe Commerce](../assets/b2b.svg) (B2B per Adobe Commerce) Per gli ordini con più indirizzi di spedizione, il [Pagamento in acconto](../b2b/enable-basic-features.md#configure-payment-on-account) il metodo di pagamento, anche se abilitato, non è disponibile durante l&#39;estrazione.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Per gli ordini con più indirizzi di spedizione, il [Pagamento in acconto](../b2b/enable-basic-features.md#configure-payment-on-account) il metodo di pagamento, anche se abilitato, non è disponibile durante l&#39;estrazione.

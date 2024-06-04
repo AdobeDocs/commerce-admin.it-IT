@@ -1,18 +1,18 @@
 ---
 title: Panoramica del catalogo condiviso
-description: Scopri i cataloghi condivisi forniti da B2B per Adobe Commerce e come utilizzarli per gestire i cataloghi gestiti con prezzi personalizzati per diversi account aziendali.
+description: Scopri i cataloghi condivisi forniti da Adobe Commerce B2B e come utilizzarli per gestire i cataloghi gestiti con prezzi personalizzati per diversi account aziendali.
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
 
 # Panoramica del catalogo condiviso
 
-B2B per Adobe Commerce offre la possibilità di mantenere Gated _condiviso_ cataloghi con prezzi personalizzati per diverse aziende. Oltre allo standard, _primario_, catalogo dei prodotti, consente l&#39;accesso dei clienti a due tipi di cataloghi condivisi con diverse strutture di prezzo.
+Adobe Commerce B2B consente di mantenere Gated _condiviso_ cataloghi con prezzi personalizzati per diverse aziende. Oltre allo standard, _primario_, catalogo dei prodotti, consente l&#39;accesso dei clienti a due tipi di cataloghi condivisi con diverse strutture di prezzo.
 
 Se il [Funzione Catalogo condiviso](enable-basic-features.md) è abilitato nella configurazione, il catalogo principale originale rimane visibile dall’amministratore, ma dalla vetrina è visibile solo il catalogo pubblico condiviso predefinito (generale). Inoltre, è possibile creare cataloghi personalizzati visibili solo ai membri di [azienda](account-companies.md) account.
 
@@ -56,7 +56,7 @@ Il [azioni, controlli](../getting-started/admin-actions-control.md) nell&#39;ang
 | [!UICONTROL Select] | Seleziona i record di catalogo condiviso per applicare un&#39;azione. Il controllo nell&#39;intestazione può essere utilizzato per selezionare tutti o deselezionare tutti i record di catalogo condivisi nella griglia. Per selezionare un singolo catalogo condiviso, selezionare la casella di controllo. |
 | [!UICONTROL ID] | Identificatore numerico univoco assegnato in sequenza al momento della creazione del catalogo. |
 | [!UICONTROL Name] | Nome del catalogo condiviso. Per impostazione predefinita, è disponibile il catalogo condiviso predefinito (Generale). |
-| [!UICONTROL Type] | Identifica il tipo di catalogo condiviso come: <br/>**[!UICONTROL Public]**: il catalogo condiviso pubblico predefinito viene creato automaticamente quando viene installato B2B per Adobe Commerce. Inizialmente viene assegnato al `General` e `Not Logged In` gruppi di clienti ed è visibile agli ospiti e ai singoli clienti connessi che non sono associati a un’azienda. Il sistema supporta un solo catalogo condiviso pubblico alla volta.<br/>**[!UICONTROL Custom]** - Un catalogo condiviso personalizzato contiene prezzi visibili solo ai soci connessi degli account società assegnati. Puoi creare tutti i cataloghi condivisi personalizzati necessari. |
+| [!UICONTROL Type] | Identifica il tipo di catalogo condiviso come: <br/>**[!UICONTROL Public]**: il catalogo condiviso pubblico predefinito viene creato automaticamente quando viene installato Adobe Commerce B2B. Inizialmente viene assegnato al `General` e `Not Logged In` gruppi di clienti ed è visibile agli ospiti e ai singoli clienti connessi che non sono associati a un’azienda. Il sistema supporta un solo catalogo condiviso pubblico alla volta.<br/>**[!UICONTROL Custom]** - Un catalogo condiviso personalizzato contiene prezzi visibili solo ai soci connessi degli account società assegnati. Puoi creare tutti i cataloghi condivisi personalizzati necessari. |
 | [!UICONTROL Customer Tax Class] | Classe di imposta assegnata al gruppo di clienti corrispondente. Questa colonna non viene visualizzata nella griglia predefinita, ma può essere aggiunta modificando il layout della colonna. |
 | [!UICONTROL Created At] | Data e ora di creazione del catalogo condiviso. |
 | [!UICONTROL Created By] | Nome e cognome dell&#39;amministratore del negozio che ha creato il catalogo condiviso. |

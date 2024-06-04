@@ -4,9 +4,9 @@ description: Scopri come configurare CAPTCHA per l’accesso come amministratore
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Per un ulteriore livello di sicurezza, puoi aggiungere un CAPTCHA alla pagina Ac
 
    - Inserisci il nome del **[!UICONTROL Font]** da utilizzare per i simboli CAPTCHA (impostazione predefinita: `LinLibertine`).
 
-     Per aggiungere un font personalizzato, il file font deve trovarsi nella stessa directory dell’installazione di Commerce e deve essere dichiarato nel `config.xml` file del modulo Captcha in `app/code/Magento/Captcha/etc`.
+     Per aggiungere un tipo di carattere personalizzato, il file del tipo di carattere deve trovarsi nella stessa directory dell&#39;installazione di Commerce e deve essere dichiarato nel `config.xml` file del modulo Captcha in `app/code/Magento/Captcha/etc`.
 
    - Selezionare una delle opzioni seguenti **[!UICONTROL Forms]** dove deve essere utilizzato il CAPTCHA. Per scegliere più moduli, tenere premuto Ctrl (PC) o Comando (Mac).
 
@@ -85,7 +85,7 @@ Ai clienti può essere richiesto di immettere un CAPTCHA ogni volta che accedono
 
    - Inserisci il nome del **[!UICONTROL Font]** da utilizzare per i simboli CAPTCHA (impostazione predefinita: `LinLibertine`).
 
-     Per aggiungere un font personalizzato, il file font deve trovarsi nella stessa directory dell’installazione di Commerce e deve essere dichiarato nel `config.xml` del modulo CAPTCHA.
+     Per aggiungere un tipo di carattere personalizzato, il file del tipo di carattere deve trovarsi nella stessa directory dell&#39;installazione di Commerce e deve essere dichiarato nel `config.xml` del modulo CAPTCHA.
 
    - Selezionare una delle opzioni seguenti **[!UICONTROL Forms]** dove deve essere utilizzato il CAPTCHA. Per scegliere più moduli, tenere premuto Ctrl (PC) o Comando (Mac).
 
@@ -100,7 +100,7 @@ Ai clienti può essere richiesto di immettere un CAPTCHA ogni volta che accedono
       - `Payflow Pro` (vedere [patch di sicurezza](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _Knowledge Base_ articolo)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce)
-      - `Create company` ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile solo con B2B per Adobe Commerce)
+      - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile solo con Adobe Commerce B2B)
 
    - Imposta **[!UICONTROL Displaying Mode]** a uno dei seguenti elementi:
 

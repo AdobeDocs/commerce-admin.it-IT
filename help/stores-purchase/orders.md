@@ -3,9 +3,9 @@ title: Ordini
 description: Scopri l’area di lavoro Ordini e le funzionalità di ricerca utilizzate per individuare gli ordini nell’amministratore.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Colonne aggiuntive disponibili:
 | [!UICONTROL Payment Method] | Il metodo di pagamento da utilizzare per l’ordine. |
 | [!UICONTROL Total Refunded] | Qualsiasi importo dell&#39;ordine da rimborsare al cliente. |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Solo per Adobe Commerce) Qualsiasi importo dell’ordine da rimborsare al credito del punto vendita del cliente. |
-| [!UICONTROL Company Name] | ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce) Il nome del [azienda](../b2b/account-companies.md) che ha effettuato l’ordine. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Il nome del [azienda](../b2b/account-companies.md) che ha effettuato l’ordine. |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ Colonne aggiuntive disponibili:
 
 ## Risorse per la risoluzione dei problemi
 
-Per assistenza nella risoluzione dei problemi relativi agli ordini, consulta i seguenti articoli della Knowledge Base di supporto Commerce:
+Per informazioni sulla risoluzione dei problemi relativi agli ordini, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
 - [Errore di visualizzazione degli ordini](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [Errore 10415 ordini duplicati PayPal](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)

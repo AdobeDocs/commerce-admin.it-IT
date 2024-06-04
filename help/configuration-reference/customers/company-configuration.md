@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] dell'amministratore di Commerce.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Con l’installazione e l’abilitazione di B2B per Adobe Commerce, l’esperienza di acquisto può essere personalizzata con funzioni specifiche per l’azienda. B2B per Adobe Commerce è una soluzione integrata che supporta sia i modelli B2B che B2C. Per ulteriori informazioni sulle funzioni B2B, vedi [Guida utente di B2B per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Con l’installazione e l’abilitazione di Adobe Commerce B2B, l’esperienza di acquisto può essere personalizzata con funzioni specifiche per l’azienda. Adobe Commerce B2B è una soluzione integrata che supporta sia i modelli B2B che B2C. Per ulteriori informazioni sulle funzioni B2B, vedi [Guida utente di Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
 >L’accesso a queste opzioni di configurazione per le funzioni B2B è controllato da [risorse ruolo](../../systems/permissions-user-roles.md#role-resources). Queste risorse ruolo devono essere impostate per il ruolo utente assegnato all&#39;utente amministratore.
 
-Per ulteriori informazioni sulla configurazione di queste impostazioni, consulta [Abilita funzioni B2B di base](../../b2b/enable-basic-features.md) nel _Guida utente di B2B per Adobe Commerce_.
+Per ulteriori informazioni sulla configurazione di queste impostazioni, consulta [Abilita funzioni B2B di base](../../b2b/enable-basic-features.md) nel _Guida utente di Adobe Commerce B2B_.
 
 ## [!UICONTROL General]
 

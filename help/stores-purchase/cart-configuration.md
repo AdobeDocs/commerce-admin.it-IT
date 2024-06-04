@@ -3,9 +3,9 @@ title: Configurazione del carrello
 description: Scopri le funzioni del carrello che puoi configurare per supportare l’esperienza di acquisto nel tuo negozio.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ La pagina del carrello può essere configurata in modo da essere visualizzata og
 
 ## Durata offerta
 
-Con l’installazione e l’abilitazione di B2B per Adobe Commerce, puoi aggiungere il supporto per _Virgolette_ funzionalità. Questa funzionalità consente agli acquirenti autorizzati di avviare il processo di negoziazione dei prezzi inviando una richiesta dal carrello. Il _Virgolette_ grid elenca ogni preventivo ricevuto e mantiene una cronologia della comunicazione tra l&#39;acquirente e il venditore. Per ulteriori informazioni sulle funzioni B2B, consulta [Offerte negoziate](../b2b/quotes.md) nel _Guida utente di B2B per Adobe Commerce_.
+Con l’installazione e l’abilitazione di Adobe Commerce B2B, puoi aggiungere il supporto per _Virgolette_ funzionalità. Questa funzionalità consente agli acquirenti autorizzati di avviare il processo di negoziazione dei prezzi inviando una richiesta dal carrello. Il _Virgolette_ grid elenca ogni preventivo ricevuto e mantiene una cronologia della comunicazione tra l&#39;acquirente e il venditore. Per ulteriori informazioni sulle funzioni B2B, consulta [Offerte negoziate](../b2b/quotes.md) nel _Guida utente di Adobe Commerce B2B_.
 
 Puoi determinare per quanto tempo un prezzo è valido impostando la durata dell’offerta del carrello nella configurazione. Ad esempio, se un acquirente lascia un carrello incustodito dopo diversi giorni, il prezzo di offerta per alcuni articoli potrebbe non essere più lo stesso. Per impostazione predefinita, la durata dell&#39;offerta è impostata su 30 giorni.
 

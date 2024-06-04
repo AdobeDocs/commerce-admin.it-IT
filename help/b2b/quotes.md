@@ -3,9 +3,9 @@ title: Offerte negoziabili
 description: Scopri i flussi di lavoro delle offerte e come fornire questo servizio agli account aziendali.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Durante il processo di negoziazione, il preventivo può essere aggiornato solo d
 
 I preventivi negoziabili sono disponibili solo se Adobe Commerce dispone delle seguenti impostazioni di configurazione:
 
-- [L’estensione B2B per Adobe Commerce è installata](install.md)
+- [L’estensione Adobe Commerce B2B è installata](install.md)
 - [Funzioni B2B configurate](enable-basic-features.md)
    - Abilita account società
    - Abilita offerta B2B
@@ -134,7 +134,7 @@ Solo le richieste di preventivo con un `Open` lo stato può essere rifiutato.
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | Invia il preventivo aggiornato come risposta alla richiesta di informazioni dell&#39;acquirente. Questo pulsante è disattivato se il venditore è in attesa di una risposta da parte dell&#39;acquirente. |
 | [!UICONTROL Back] | Torna a _Virgolette_ senza salvare le modifiche. |
-| [!UICONTROL Create Copy] | [!BADGE Funzionalità 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponibile solo per i partecipanti ai programmi beta"}`<original quote name> (copy)`. Modificare il nome modificando il valore in [!UICONTROL Name] e salvare l&#39;offerta come bozza. |
+| [!UICONTROL Create Copy] | [!BADGE Funzionalità 1.5.0-beta]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Disponibile solo per i partecipanti ai programmi beta&quot;} Creare un nuovo preventivo dal preventivo corrente copiandolo e rinominandolo. Quando viene aperta la nuova virgoletta, il nome predefinito è `<original quote name> (copy)`. Modificare il nome modificando il valore in [!UICONTROL Name] e salvare l&#39;offerta come bozza. |
 | [!UICONTROL Print] | Invia l&#39;offerta a una stampante o la salva come file PDF. |
 | [!UICONTROL Create a copy] | Crea una copia del preventivo denominato `<original quote name> (copy)` e lo apre. Rinominare e aggiornare il nuovo preventivo in base alle esigenze prima di salvarlo come bozza o di inviarlo all&#39;acquirente. |
 | [!UICONTROL Save as Draft] | Salva le modifiche apportate al preventivo, ma non lo restituisce all&#39;acquirente. |

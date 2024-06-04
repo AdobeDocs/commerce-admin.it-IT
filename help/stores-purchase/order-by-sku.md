@@ -3,9 +3,9 @@ title: Ordina per SKU
 description: Scopri come configurare il tuo negozio per supportare l’ordinazione per SKU (Stock Keeping Unit), per facilitare l’accesso dei clienti.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _Ordina per SKU_ è un [widget](../content-design/widgets.md) che possono essere
 
 1. Clic **[!UICONTROL Save Config]**.
 
-![B2B per Adobe Commerce](../assets/b2b.svg) (B2B solo per Adobe Commerce) _**Per attivare la funzione Ordina per SKU, disattivare la funzione Ordine rapido:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (Solo Adobe Commerce B2B) _**Per attivare la funzione Ordina per SKU, disattivare la funzione Ordine rapido:**_
 
 1. Vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -3,7 +3,7 @@ title: Modelli e-mail
 description: Scopri i modelli e-mail e come utilizzarli per supportare le comunicazioni con i clienti e rafforzare il tuo marchio.
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 I modelli e-mail definiscono il layout, il contenuto e la formattazione dei messaggi automatizzati inviati dal tuo archivio. Sono denominate e-mail transazionali perché ciascuna di esse è associata a un tipo specifico di transazione o evento.
 
-Commerce include un set di modelli e-mail dinamici attivati da vari eventi che si verificano durante il funzionamento dell’archivio. Ogni modello è ottimizzato per qualsiasi dimensione di schermo e può essere visualizzato dal desktop, nonché su tablet e dispositivi mobili. Sono disponibili vari modelli e-mail preparati relativi ad attività cliente, vendite, avvisi sui prodotti, azioni di amministrazione e messaggi di sistema [personalizzare](email-template-custom.md) per rispecchiare il tuo marchio.
+Commerce include un set di modelli e-mail dinamici attivati da vari eventi che si verificano durante il funzionamento dello store. Ogni modello è ottimizzato per qualsiasi dimensione di schermo e può essere visualizzato dal desktop, nonché su tablet e dispositivi mobili. Sono disponibili vari modelli e-mail preparati relativi ad attività cliente, vendite, avvisi sui prodotti, azioni di amministrazione e messaggi di sistema [personalizzare](email-template-custom.md) per rispecchiare il tuo marchio.
 
 Le e-mail Commerce possono essere visualizzate da client e-mail HTML e di testo normale. Potrebbero esserci alcune varianti tra i client nel modo in cui vengono riprodotte le e-mail.
 
@@ -98,7 +98,7 @@ L’elenco dei modelli e-mail è organizzato alfabeticamente per modulo.
 
 ### [!DNL Magento_Company]
 
-![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile solo con B2B per Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile solo con Adobe Commerce B2B)
 
 | Modello | Percorso di configurazione |
 |--- |--- |
@@ -121,7 +121,7 @@ L’elenco dei modelli e-mail è organizzato alfabeticamente per modulo.
 
 ### [!DNL Magento_CompanyCredit]
 
-![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile solo con B2B per Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile solo con Adobe Commerce B2B)
 
 | Modello | Percorso di configurazione |
 |--- |--- |
@@ -233,7 +233,7 @@ L’elenco dei modelli e-mail è organizzato alfabeticamente per modulo.
 
 ### [!DNL Magento_NegotiableQuote]
 
-![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile solo con B2B per Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile solo con Adobe Commerce B2B)
 
 | Modello | Percorso di configurazione |
 |--- |--- |

@@ -3,9 +3,9 @@ title: Ambito account cliente
 description: L’ambito degli account cliente può essere limitato al sito web in cui è stato creato l’account o condiviso con tutti i siti web e i negozi nella gerarchia del negozio.
 exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 feature: Customers, Configuration
-source-git-commit: 2541b2d55516e2a9c824825100c8348d81201ca9
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 L&#39;intestazione di ogni pagina del negozio estende l&#39;invito agli acquirenti a _Accedi o registra_ per un account con il tuo negozio. I clienti che aprono un account possono usufruire di una serie di vantaggi, tra cui:
 
 * **Crea account cliente** - I visitatori possono creare un account cliente per utilizzare la vetrina come cliente registrato.
-* **Creare un account società** A seconda della configurazione, un visitatore del tuo negozio può scegliere di creare un account aziendale. Per ulteriori informazioni, consulta [B2B per Adobe Commerce](../b2b/introduction.md).
+* **Creare un account società** A seconda della configurazione, un visitatore del tuo negozio può scegliere di creare un account aziendale. Per ulteriori informazioni, consulta [Adobe Commerce B2B](../b2b/introduction.md).
 * **Pagamento più rapido** — I clienti registrati passano attraverso il checkout più rapidamente perché molte delle informazioni sono già nei loro account.
 * **Self-service** — I clienti registrati possono aggiornare le informazioni, controllare lo stato degli ordini e persino riordinare i prodotti dai loro account.
 

@@ -4,9 +4,9 @@ description: Scopri come creare cataloghi condivisi e duplicare quelli esistenti
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Per vedere una dimostrazione della gestione del catalogo condiviso, guarda quest
 | Campo | Descrizione |
 |--- |--- |
 | [!UICONTROL Name] | Identifica il catalogo condiviso in Admin (Amministrazione) e negli account cliente in cui è disponibile. Il nome del catalogo deve essere descrittivo e non deve superare i 32 caratteri. Non è possibile avere due cataloghi condivisi con lo stesso nome. Massimo caratteri: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifica un catalogo con prezzi personalizzati che è disponibile solo per le società specifiche a cui è assegnato.<br/>**[!UICONTROL Public]**: identifica il catalogo condiviso disponibile per tutti i visitatori ospiti e per i clienti connessi che non sono associati a un’azienda. Quando si crea un catalogo condiviso pubblico predefinito [!DNL B2B for Adobe Commerce] è installato, ma deve essere configurato da un amministratore di archivio. Può esistere un solo catalogo condiviso pubblico alla volta. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifica un catalogo con prezzi personalizzati che è disponibile solo per le società specifiche a cui è assegnato.<br/>**[!UICONTROL Public]**: identifica il catalogo condiviso disponibile per tutti i visitatori ospiti e per i clienti connessi che non sono associati a un’azienda. Quando si crea un catalogo condiviso pubblico predefinito [!DNL Adobe Commerce B2B] è installato, ma deve essere configurato da un amministratore di archivio. Può esistere un solo catalogo condiviso pubblico alla volta. |
 | [!UICONTROL Customer Tax Class] | Determina la classe di imposta utilizzata per gli acquisti effettuati dal catalogo. Le opzioni includono tutte le classi di imposta disponibili. |
 | [!UICONTROL Description] | Breve spiegazione di come utilizzare il catalogo. |
 

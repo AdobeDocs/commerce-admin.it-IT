@@ -3,9 +3,9 @@ title: Ricerca degli indirizzi al momento del pagamento
 description: Scopri come includere la ricerca degli indirizzi al momento del pagamento nel tuo store.
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Se il cliente non ha un indirizzo di spedizione predefinito, il _Spedizione_ vis
 
 ## Ricerca di virgolette per indirizzi bloccati
 
-![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile solo con B2B per Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile solo con Adobe Commerce B2B)
 
 L&#39;abilitazione della ricerca degli indirizzi influisce anche sul pagamento degli ordini creati da preventivi in cui il numero di indirizzi salvati del cliente soddisfa o supera il limite configurato. Quando il preventivo è completo e il cliente procede al pagamento, viene visualizzato solo l&#39;indirizzo di spedizione selezionato. Nella pagina viene inoltre visualizzato un messaggio che indica che l&#39;indirizzo di spedizione è bloccato e può essere modificato solo nel preventivo.
 

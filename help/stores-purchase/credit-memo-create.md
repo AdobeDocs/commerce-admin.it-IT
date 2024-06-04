@@ -3,9 +3,9 @@ title: Emetti una nota di credito
 description: Scopri come generare e stampare una nota di credito per un ordine fatturato.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Prima di poter stampare una nota di accredito, è necessario generarla per un [ordine fatturato](invoices.md#create-an-invoice). Puoi emettere rimborsi online e offline (parziali o completi) da una nota di credito aperta, a seconda del metodo di pagamento.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) I rimborsi possono essere applicati al credito del negozio.
-- ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce) I rimborsi possono essere applicati al credito aziendale.
+- ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) I rimborsi possono essere applicati al credito aziendale.
 - Gli acquisti effettuati con carta di credito possono essere rimborsati online o offline.
 - Gli acquisti effettuati tramite assegno o vaglia postale devono essere rimborsati offline.
 
@@ -108,13 +108,13 @@ Determinare il tipo di rimborso che si desidera emettere, per un [acquisto di cr
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Per rimborsare l&#39;importo al credito del punto vendita del cliente, selezionare **[!UICONTROL Refund to Store Credit]** casella di controllo.
 
-   - ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce) Per rimborsare l’importo al credito aziendale del cliente, seleziona la **[!UICONTROL Refund to Company Credit]** casella di controllo.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Per rimborsare l’importo al credito aziendale del cliente, seleziona la **[!UICONTROL Refund to Company Credit]** casella di controllo.
 
    - Per emettere un rimborso offline, fai clic su **[!UICONTROL Refund Offline]**.
 
    - Per emettere un rimborso online, fai clic su **[!UICONTROL Refund]**.
 
-   - ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce) Se l’acquisto è stato pagato con il credito aziendale, fai clic su **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Se l’acquisto è stato pagato con il credito aziendale, fai clic su **[!UICONTROL Refund to Company Credit]**.
 
    Consulta [Note di credito](credit-memos.md) per ulteriori informazioni sui rimborsi offline e online.
 
@@ -195,7 +195,7 @@ Determinare il tipo di rimborso che si desidera emettere, per un [acquisto di cr
 | [!UICONTROL Customer Name] | Il nome del cliente o dell&#39;acquirente che ha effettuato l&#39;ordine. Il nome del cliente è collegato al suo profilo. |
 | [!UICONTROL Email] | L’indirizzo e-mail del cliente o dell’acquirente. L’indirizzo e-mail è collegato per aprire un nuovo messaggio e-mail. |
 | [!UICONTROL Customer Group] | Il nome del gruppo di clienti o del catalogo condiviso a cui è assegnato il cliente. |
-| [!UICONTROL Company Name] | ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce) Il nome dell’azienda associata all’acquirente e per conto della quale viene effettuato l’ordine. Il nome dell’azienda è collegato al profilo dell’azienda. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Il nome dell’azienda associata all’acquirente e per conto della quale viene effettuato l’ordine. Il nome dell’azienda è collegato al profilo dell’azienda. |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ Determinare il tipo di rimborso che si desidera emettere, per un [acquisto di cr
 | Campo | Descrizione |
 |--- |--- |
 | [!UICONTROL Product] | Nome del prodotto, SKU e opzioni (se applicabile). |
-| [!UICONTROL Price] | Prezzo di acquisto dell&#39;articolo. Per B2B per Adobe Commerce, questo valore riflette eventuali sconti applicati all’elemento dal catalogo condiviso, se applicabili. |
+| [!UICONTROL Price] | Prezzo di acquisto dell&#39;articolo. Per Adobe Commerce B2B, questo valore riflette eventuali sconti applicati all’elemento dal catalogo condiviso, se applicabili. |
 | [!UICONTROL Qty] | La quantità ordinata. |
 | [!UICONTROL Return to Stock] | Casella di controllo che indica se l&#39;articolo restituito deve essere restituito al magazzino. |
 | [!UICONTROL Qty to Refund] | Indica il numero di unità restituite del prodotto. |
@@ -254,7 +254,7 @@ Determinare il tipo di rimborso che si desidera emettere, per un [acquisto di cr
 | [!UICONTROL Append Comments] | Casella di controllo che determina se i commenti sono inclusi nella nota di accredito. |
 | [!UICONTROL Email Copy of Credit Memo] | Casella di controllo che determina se viene inviata un&#39;e-mail a una copia della nota di credito. |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) Solo per Adobe Commerce: casella di controllo che determina se il totale deve essere rimborsato a [credito store](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce) Il totale di tutte le righe da rimborsare. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Il totale di tutte le righe da rimborsare. |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ Il metodo di pagamento utilizzato per l&#39;ordine determina i pulsanti di rimbo
 |--- |--- |
 | **[!UICONTROL Refund]** | Se l&#39;acquisto originale è stato pagato con carta di credito tramite un gateway di pagamento, l&#39;importo del rimborso viene gestito dal processore dei pagamenti. Per gestire i rimborsi, consulta la documentazione fornita dal tuo provider di servizi di pagamento. |
 | **[!UICONTROL Refund Offline]** | Se l&#39;acquisto originale è stato pagato con assegno o vaglia postale, il rimborso viene pagato direttamente al cliente, emettendo un assegno, una gift card o contanti se si dispone di una vetrina in mattoni e malta. La nota di credito funge da record della transazione offline. |
-| **[!UICONTROL Refund to Company Credit]** | ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce) Se l’acquisto è stato addebitato al credito aziendale, il rimborso viene restituito al [Account società](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Se l&#39;acquisto è stato addebitato al credito aziendale, il rimborso viene restituito al [Account società](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 

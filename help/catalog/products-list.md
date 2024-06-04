@@ -3,9 +3,9 @@ title: Elenco prodotti
 description: Scopri il _[!UICONTROL Products]_ in Admin, dove puoi creare prodotti e modificarne di esistenti.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Tutti i prodotti del catalogo sono accessibili da _[!UICONTROL Products]_in Admin, dove puoi creare prodotti e modificare quelli esistenti. Per un&#39;installazione multisito, ogni sito Web può offrire una selezione diversa di prodotti in vendita dallo stesso catalogo.
 
-Il _[!UICONTROL Products]_L&#39;elenco include tutti i prodotti nel catalogo, indica i siti Web in cui sono disponibili e se sono attualmente abilitati per la vendita. In B2B per installazioni Adobe Commerce con [cataloghi condivisi](../b2b/catalog-shared.md) abilitata, la griglia include una colonna che indica quali prodotti hanno prezzi di sconto alternativi in un catalogo condiviso.
+Il _[!UICONTROL Products]_L&#39;elenco include tutti i prodotti nel catalogo, indica i siti Web in cui sono disponibili e se sono attualmente abilitati per la vendita. Nelle installazioni B2B di Adobe Commerce con [cataloghi condivisi](../b2b/catalog-shared.md) abilitata, la griglia include una colonna che indica quali prodotti hanno prezzi di sconto alternativi in un catalogo condiviso.
 
 Puoi sfogliare l’elenco pagina per pagina, oppure cercare prodotti specifici. Utilizza lo standard [controlli](../getting-started/admin-grid-controls.md) per ordinare e filtrare l’elenco e applicare [azioni](../getting-started/admin-actions-control.md) ai prodotti selezionati.
 
@@ -84,7 +84,7 @@ Questa impostazione di configurazione per la limitazione di visualizzazione del 
 | [!UICONTROL Status] | Indica lo stato del prodotto. Opzioni: `Enabled` e `Disabled` |
 | [!UICONTROL Websites] | Indica i siti Web in cui il prodotto è disponibile. |
 | [!UICONTROL Action] | Apre il prodotto in modalità Modifica. |
-| [!UICONTROL Shared Catalog] | ![B2B per Adobe Commerce](../assets/b2b.svg) (disponibile con [B2B per Adobe Commerce](./b2b/../introduction.md) Solo per ) Indica i cataloghi condivisi che contengono prezzi personalizzati per il prodotto. |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con [Adobe Commerce B2B](./b2b/../introduction.md) Solo per ) Indica i cataloghi condivisi che contengono prezzi personalizzati per il prodotto. |
 
 {style="table-layout:auto"}
 

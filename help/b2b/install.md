@@ -1,20 +1,20 @@
 ---
-title: Installare [!DNL B2B for Adobe Commerce] estensione
-description: Scopri come installare [!DNL B2B for Adobe Commerce] metapacchetto.
+title: Installare [!DNL Adobe Commerce B2B] estensione
+description: Scopri come installare [!DNL Adobe Commerce B2B] metapacchetto.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: e57aa4e8919c2de5341c4b8363197d6380bbb0f6
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
 
-# Installare [!DNL B2B for Adobe Commerce] estensione
+# Installare [!DNL Adobe Commerce B2B] estensione
 
-L’estensione B2B per Adobe Commerce è disponibile solo per Adobe Commerce v2.2.0 o versione successiva. Viene installato dopo l’installazione di Adobe Commerce.
+L’estensione Adobe Commerce B2B è disponibile solo per Adobe Commerce v2.2.0 o versione successiva. Viene installato dopo l’installazione di Adobe Commerce.
 
 Installa la versione più recente dell’estensione B2B supportata nella versione distribuita di Adobe Commerce.
 
@@ -81,7 +81,7 @@ Dopo aver completato l’installazione, configura e avvia gli utenti dei messagg
 
 ## Consumatori di messaggi
 
-L’estensione B2B per Adobe Commerce utilizza MySQL per la gestione della coda dei messaggi. Nella tabella seguente sono elencati i consumer di messaggi che supportano le funzionalità B2B. Dopo aver installato l’estensione, avvia il messaggio consumer per le funzionalità B2B necessarie per la vetrina Commerce.
+L’estensione Adobe Commerce B2B utilizza MySQL per la gestione della coda dei messaggi. Nella tabella seguente sono elencati i consumer di messaggi che supportano le funzionalità B2B. Dopo aver installato l’estensione, avvia il messaggio consumer per le funzionalità B2B necessarie per la vetrina Commerce.
 
 | Consumatore | Descrizione |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -154,4 +154,4 @@ Puoi anche configurare le pianificazioni per i consumatori di messaggi da [Impos
 
 ## Abilitare le funzioni B2B in Amministrazione
 
-Dopo aver installato l’estensione B2B per Adobe Commerce e aver avviato i consumer di messaggi, devi anche: [abilitare le funzioni B2B in Admin](enable-basic-features.md).
+Dopo aver installato l’estensione Adobe Commerce B2B e aver avviato i consumer di messaggi, devi anche: [abilitare le funzioni B2B in Admin](enable-basic-features.md).

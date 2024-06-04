@@ -3,9 +3,9 @@ title: Limite di prezzo
 description: Scopri l’ambito utilizzato per i prezzi dei prodotti, che può essere configurato per essere applicato a livello globale o a livello di sito web.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Ambito di applicazione [valuta di base](../stores-purchase/currency-configuratio
 
 Fattori diversi possono influenzare il prezzo dello stesso prodotto in un luogo e non in un altro. Ad esempio, potrebbero esserci costi di distribuzione aggiuntivi per il prodotto e altre considerazioni che influiscono sul prezzo dei prodotti venduti in un negozio specifico. Il diagramma seguente mostra un&#39;installazione multisito con la valuta di base impostata a livello di sito Web. I negozi e le viste negozio associati a ciascun sito web riflettono i prezzi del prodotto impostati a livello di sito web.
 
-![B2B per Adobe Commerce](../assets/b2b.svg) Se utilizzi cataloghi condivisi, consulta anche [Impostare la struttura e i prezzi del catalogo condiviso](../b2b/catalog-shared-pricing-structure.md) nel _Guida al B2B per Adobe Commerce_.
+![Adobe Commerce B2B](../assets/b2b.svg) Se utilizzi cataloghi condivisi, consulta anche [Impostare la struttura e i prezzi del catalogo condiviso](../b2b/catalog-shared-pricing-structure.md) nel _Guida B2B di Adobe Commerce_.
 
 ![Diagramma ambito prezzo](./assets/catalog-price-scope.svg){width="550"}
 

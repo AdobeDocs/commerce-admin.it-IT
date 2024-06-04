@@ -3,9 +3,9 @@ title: Panoramica sui pagamenti
 description: Scopri i metodi e i servizi di pagamento supportati in modalità nativa in Adobe Commerce e Magento Open Source.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Commerce e Magento Open Source includono diversi metodi di pagamento offli
 - [Pagamento bonifico](bank-transfer.md)
 - [Assegno/vaglia postale](check-money-order.md)
 - [Ordine di acquisto](purchase-order.md)
-- [Pagamento in acconto](../b2b/enable-basic-features.md#configure-payment-on-account) ![B2B per Adobe Commerce](../assets/b2b.svg) (Disponibile con B2B per Adobe Commerce)
+- [Pagamento in acconto](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B)
 
 ## Metodi di pagamento online
 
@@ -78,7 +78,7 @@ I servizi e i filtri antifrode esaminano gli ordini inviati prima che la transaz
 
 >[!NOTE]
 >
->Per supportare gli aggiornamenti per la conformità in materia di sicurezza, la protezione dalle frodi Signifyd viene rimossa da Commerce a partire dalla versione 2.4.0. Se utilizzi l’integrazione Signifyd in una versione 2.3.x o precedente, si consiglia di passare alla versione [Estensione Signifyd per la protezione da frodi e chargeback](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Assicurati di mantenere gli aggiornamenti per l’estensione in conformità alle linee guida del fornitore.
+>Per supportare gli aggiornamenti per la conformità in materia di sicurezza, la protezione antifrode Signifyd viene rimossa da Commerce a partire dalla versione 2.4.0. Se utilizzi l’integrazione Signifyd in una versione 2.3.x o precedente, si consiglia di passare alla versione [Estensione Signifyd per la protezione da frodi e chargeback](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Assicurati di mantenere gli aggiornamenti per l’estensione in conformità alle linee guida del fornitore.
 
 ## Risorse per la risoluzione dei problemi
 

@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL B2B for Adobe Commerce] note sulla versione'
-description: Consulta le note sulla versione per informazioni sulle modifiche apportate in [!DNL B2B for Adobe Commerce] versioni dell'estensione.
+title: '''[!DNL Adobe Commerce B2B] note sulla versione'
+description: Consulta le note sulla versione per informazioni sulle modifiche apportate in [!DNL Adobe Commerce B2B] versioni.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6937'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] note sulla versione
+# [!DNL Adobe Commerce B2B] note sulla versione
 
 Queste note sulla versione per l’estensione B2B acquisiscono aggiunte e correzioni che Adobe ha aggiunto durante un ciclo di rilascio, tra cui:
 
@@ -20,7 +20,7 @@ Queste note sulla versione per l’estensione B2B acquisiscono aggiunte e correz
 
 >[!NOTE]
 >
->Consulta [Disponibilità del prodotto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) per informazioni sulle versioni dell’estensione Commerce B2B supportate per le versioni di Adobe Commerce disponibili.
+>Consulta [Disponibilità del prodotto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) per informazioni sulle versioni dell’estensione B2B Commerce supportate per le versioni disponibili di Adobe Commerce.
 
 ## B2B 1.5.0-beta
 
@@ -118,7 +118,7 @@ Questa versione include nuove funzionalità e miglioramenti per i preventivi neg
 
 ![Problema risolto](../assets/fix.svg) <!--ACP2E-1664--> Gli SKU di prodotto che includono virgolette doppie nel catalogo condiviso e nella struttura dei prezzi non causano più errori nell’amministratore.
 
-![Problema risolto](../assets/fix.svg) <!--ACP2E-1498--> È stata aggiornata la configurazione Vernice per l’applicazione Commerce per impedire agli utenti guest di visualizzare i dati di altri gruppi di clienti.
+![Problema risolto](../assets/fix.svg) <!--ACP2E-1498--> È stata aggiornata la configurazione Vernice per l&#39;applicazione Commerce per impedire agli utenti guest di visualizzare i dati di altri gruppi di clienti.
 
 ### Problema noto
 
