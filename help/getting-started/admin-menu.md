@@ -2,9 +2,9 @@
 title: Barra laterale amministrazione
 description: L’amministratore di Commerce utilizza una barra laterale a sinistra per accedere al menu principale. Gli esercenti possono accedere a tutti gli strumenti di amministrazione necessari per configurare e gestire il negozio.
 exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
-source-git-commit: 1be366de110b933aec163a675d8ed53e814dfbfe
+source-git-commit: 474e9bb6cd6dccc723165d919b1b1ebeaa26ae46
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ La barra laterale a sinistra è il menu principale per il negozio _Amministrator
 | ![Menu Clienti](./assets/icon-admin-sidebar-customers.png) | **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | Il [!UICONTROL Customers] Il menu è il luogo in cui puoi gestire gli account dei clienti e vedere quali clienti sono online al momento. |
 | ![Menu Marketing](./assets/icon-admin-sidebar-marketing.png) | **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | Il [!UICONTROL Marketing] nel menu puoi impostare le regole di prezzo e i coupon per catalogo e carrello acquisti. Le regole di prezzo attivano azioni quando viene soddisfatta una serie di condizioni specifiche. |
 | ![Menu Contenuto](./assets/icon-admin-sidebar-content.png) | **[[!UICONTROL Content]](../content-design/content-menu.md)** | Il [!UICONTROL Content] Il menu è il luogo in cui gestisci gli elementi di contenuto e la progettazione del negozio. Scopri come creare pagine, blocchi e app front-end e gestire la presentazione del tuo store. |
-| ![Menu Rapporti](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | Il [!UICONTROL Reports] Il menu fornisce un&#39;ampia selezione di rapporti che ti forniscono informazioni approfondite su ogni aspetto del negozio, inclusi vendite, carrello, prodotti, clienti, tag, recensioni e termini di ricerca. |
+| ![Menu Rapporti](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | Il [!UICONTROL Reports] fornisce un&#39;ampia selezione di rapporti che forniscono informazioni su ogni aspetto del negozio, inclusi vendite, carrello, prodotti, clienti, tag, recensioni, termini di ricerca, monitoraggio delle prestazioni in tempo reale 24 ore su 24, 7 giorni su 7 e consigli della [Strumento di analisi a livello di sito](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro). |
 | ![Menu Negozi](./assets/icon-admin-sidebar-stores.png) | **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | Il [!UICONTROL Stores] Il menu include gli strumenti per configurare e gestire ogni aspetto del negozio, incluse le impostazioni di installazione multisito, le imposte, la valuta, gli attributi del prodotto e i gruppi di clienti. |
 | ![Menu di sistema](./assets/icon-admin-sidebar-system.png) | **[[!UICONTROL System]](../systems/system-menu.md)** | Il [!UICONTROL System] il menu include strumenti per gestire le operazioni di sistema, installare estensioni e gestire servizi web per l’integrazione con altre applicazioni. |
 | ![Trova estensioni](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | Il [!DNL Commerce Marketplace] è dove puoi trovare soluzioni Adobe Commerce e di Magento Open Source per il tuo negozio. |
