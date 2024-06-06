@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -370,7 +370,7 @@ Questo problema può essere causato da privilegi API insufficienti per il token 
 1. Chiedere all&#39;amministratore di sistema di avviare Adobe Experience Platform e passare a **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. Utilizzando l’e-mail dell’account tecnico di cui sopra, cerca le credenziali da modificare.
 1. Apri le credenziali, quindi seleziona **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. Aggiungi **Production all access**.
+1. Aggiungi il ruolo che contiene **[!UICONTROL Manage destinations]** autorizzazione.
 1. Clic **[!UICONTROL Save]**.
 1. [Rigenera](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) il token di accesso nella console.
 1. Verifica che il token fornisca una risposta valida utilizzando [API connessioni di Target](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
