@@ -1,12 +1,12 @@
 ---
 title: Preparazione HIPAA su Adobe Commerce
-description: Scopri come aggiungere l’estensione Adobe Commerce HIPAA-Ready e ottenere funzioni e funzionalità aggiuntive per rispettare gli obblighi HIPAA.
+description: Scopri come aggiungere l’estensione compatibile con HIPAA di Adobe Commerce e ottenere funzioni e funzionalità aggiuntive per rispettare gli obblighi HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
