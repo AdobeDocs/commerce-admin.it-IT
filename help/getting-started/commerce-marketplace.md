@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Scopri di più su [!DNL Commerce Marketplace], che offre ai commercianti una selezione curata di soluzioni e fornisce agli sviluppatori qualificati gli strumenti, la piattaforma e la posizione ideale per creare un business prospero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 1a5a00493e9994343c7decc763f2decdd11192c7
+source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ Gli sviluppatori hanno tradizionalmente utilizzato PHP per creare estensioni in-
 
 Le risorse seguenti forniscono un punto di partenza per consentire ai nuovi utenti di acquisire familiarità con le app:
 
-### Risorse commerce:
+### Risorse Commerce
 
 - [Configurazione di eventi di I/O per Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [Configurazione di eventi per Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 - [Configurazione dell’SDK per l’interfaccia di amministrazione](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Conversione di un’estensione in un’app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### Risorse di App Builder:
+### Risorse di App Builder
 
 - [Panoramica di Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [Configurazione di Mesh API per Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
@@ -79,17 +79,61 @@ La chiave di accesso è un set di chiavi pubbliche e private utilizzate per sinc
 >
 >A partire da Adobe Commerce e Magento Open Source 2.4.0, l&#39;Installazione guidata Web viene rimossa ed è necessario utilizzare la riga di comando per [installare](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) o [aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) la tua istanza. Questo requisito comprende anche: [moduli](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) e [estensioni](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
-Il processo di installazione per [!DNL Marketplace] gli acquisti sono diversi per _on-premise_ installazioni di Commerce rispetto alle installazioni ospitate in [Architettura Adobe Cloud][4].
+Il processo di installazione per [!DNL Marketplace] gli acquisti sono diversi per _on-premise_ installazioni di Commerce rispetto alle installazioni in hosting su [Architettura Adobe Cloud][4].
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
 ## Supporto
 
-Se hai bisogno di assistenza per l’installazione o l’utilizzo di un’estensione, consulta prima la documentazione che accompagna l’estensione. Se non riesci a trovare la risposta alla domanda, utilizza le informazioni di contatto nell’elenco delle estensioni per contattare direttamente lo sviluppatore.
+Se hai bisogno di assistenza per l’installazione o l’utilizzo di un’estensione, consulta prima la documentazione che accompagna l’estensione. Se non riesci a trovare la risposta alla domanda, utilizza le informazioni di contatto nell’elenco delle estensioni per contattare direttamente lo sviluppatore. Se gli acquisti sul Marketplace non soddisfano le tue esigenze, puoi [richiedere un rimborso](#refund-requests) entro 25 giorni dalla data di acquisto. L&#39;Adobe esamina tutte le richieste di rimborso e (se approvato) emette il rimborso appropriato. Per i problemi di supporto relativi alla Commerce Marketplace, vedi [[!DNL Marketplace] Centro risorse][5].
 
-Se gli acquisti effettuati su Commerce Marketplace non soddisfano le tue esigenze, puoi richiedere un rimborso entro 25 giorni dalla data di acquisto. L&#39;Adobe esamina tutte le richieste di rimborso e, se approvato, emette il rimborso appropriato.
+### Problemi di cassa
 
-Per i problemi di supporto relativi alla Commerce Marketplace, vedi [[!DNL Marketplace] Centro risorse][5].
+I campi dell’indirizzo nel profilo dell’account devono essere compilati a scopo di verifica nel sistema di acquisto di Marketplace.
+
+1. Aggiungi i campi dell’indirizzo nel tuo profilo account Marketplace.
+1. Salva il profilo aggiornato.
+1. Continua con il pagamento.
+
+### Problemi di accesso
+
+I problemi di accesso sono in genere correlati a una mancata corrispondenza tra il MAGEID e l’indirizzo e-mail nel database degli account. Per assistenza, contatta il supporto Marketplace.
+
+>[!INFO]
+>
+>Gli acquisti di app ed estensioni non possono essere [trasferita](#purchase-transfers) a un nuovo account.
+
+### Domande open source
+
+Il team di supporto Marketplace risolve i problemi relativi al [commerce.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce developer.adobe.com/](https://commercedeveloper.adobe.com/) solo siti. Per eventuali domande sul Magento Open Source, contattare [Forum della community](https://community.magento.com/) o [contatta un partner](https://business.adobe.com/products/magento/partners.html) che possono aiutare con il Magento Open Source.
+
+### Richieste di rimborso
+
+Per richiedere un rimborso per un acquisto Marketplace, accedi al tuo account e segui questi passaggi:
+
+1. Clic [!UICONTROL **Il mio profilo**] > [!UICONTROL **Cronologia acquisti**].
+1. Individua l’acquisto e fai clic su [!UICONTROL **Richiedi un rimborso**].
+1. Compilare il modulo dell&#39;ordine di rimborso.
+
+L’assistenza Marketplace richiederà informazioni dopo la generazione della richiesta di rimborso. L’opzione di rimborso è disponibile per 25 giorni dopo la data di acquisto. Consulta la [Contratto per i clienti del Marketplace](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
+
+### Fatture ordine
+
+È possibile scaricare le fatture degli ordini da [!UICONTROL **Cronologia acquisti**] nel tuo account Marketplace. La fattura non fornisce l&#39;IVA o l&#39;indirizzo del venditore perché al momento non è un requisito del Marketplace.
+
+Per scaricare una fattura d&#39;ordine per un acquisto Marketplace, accedi al tuo account Marketplace e segui questi passaggi:
+
+1. Clic [!UICONTROL **Il mio profilo**] > [!UICONTROL **Cronologia acquisti**].
+1. Individua l’acquisto.
+1. Fare clic sull&#39;icona della stampante nell&#39;angolo superiore destro dell&#39;ordine.
+
+### Trasferimenti di acquisto
+
+Il team di supporto Marketplace non è in grado di trasferire gli acquisti a un account diverso. Per evitare problemi di installazione e distribuzione, è necessario acquistare tutte le app e le estensioni con l&#39;account Commerce primario. Adobe Commerce ha diritto a un identificatore univoco. Poiché Composer viene utilizzato per l&#39;installazione, è disponibile un solo set di [tasti di scelta](#create-an-access-key) può essere utilizzato associato all’account principale. L&#39;unica soluzione disponibile è [richiedere un rimborso](#refund-requests) dal conto acquisti Marketplace (se consentito dalla politica di rimborso di Adobe Commerce).
+
+È possibile [condividere](commerce-account-share.md) un’istanza di Commerce tramite l’account principale. L&#39;accesso condiviso concede autorizzazioni speciali a un account subordinato da un account principale. Il punto di accesso condiviso viene generato dall&#39;account principale. L’account principale può essere l’account autorizzato di Commerce, l’account principale dell’esercente o un account condiviso all’interno di un’organizzazione.
+
+Queste autorizzazioni speciali concedono lo stesso livello di accesso su Adobe Commerce come principale, ma non viene trasferito ad Adobe Commerce Marketplace o Developer Portal. Ciò significa che l’acquisto di un’estensione da un account subordinato nel Marketplace non può essere condiviso con l’account principale. L&#39;accesso condiviso è una strada unidirezionale (account principale subordinato). Non funziona quando un account subordinato tenta di ricondividere con primario.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
