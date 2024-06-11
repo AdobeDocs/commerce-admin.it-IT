@@ -4,9 +4,9 @@ description: Scopri il supporto per l’autenticazione a due fattori per garanti
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
+source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,11 @@ Completare le impostazioni per ogni metodo 2FA richiesto.
 
 Per modificare il periodo di tempo in cui la password monouso (OTP) è disponibile durante l&#39;accesso, deselezionare **[!UICONTROL Use system value]** casella di controllo. Quindi, inserisci il numero di secondi che desideri **[!UICONTROL OTP Window]** per essere valido.
 
+![Configurazione della sicurezza - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->In Adobe Commerce 2.4.7 e versioni successive, l’impostazione di configurazione della finestra OTP controlla per quanto tempo (in secondi) il sistema accetta la password monouso (OTP) di un amministratore dopo la scadenza. Questo valore deve essere inferiore a 30 secondi. L&#39;impostazione predefinita del sistema è `1`.<br><br> Nella versione 2.4.6, l’impostazione della finestra OTP determina il numero di codici OTP passati e futuri che rimangono validi. Un valore di `1` indica che il codice OTP corrente più un codice nel passato e un codice nel futuro rimangono validi in un determinato momento.
+>In Adobe Commerce 2.4.7 e versioni successive, l’impostazione di configurazione della finestra OTP controlla per quanto tempo (in secondi) il sistema accetta la password monouso (OTP) di un amministratore dopo la scadenza. Questo valore deve essere inferiore a 30 secondi. L&#39;impostazione predefinita del sistema è `29`.<br><br> Nella versione 2.4.6, l’impostazione della finestra OTP determina il numero di codici OTP passati e futuri che rimangono validi. Un valore di `1` indica che il codice OTP corrente più un codice nel passato e un codice nel futuro rimangono validi in un determinato momento.
 
 ### [!DNL Duo Security]
 
