@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 maggio 2023_
 ![Nuovo](../assets/new.svg) - Aggiornato il [Dashboard di Real-Time CDP Audiences](#real-time-cdp-audiences-dashboard) per includere la possibilità di ordinare, cercare e filtrare i tipi di pubblico attivi all’interno della tua istanza di Adobe Commerce.
 
 +++
+
+### 2.2.0.
+
+[!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
+
+_12 giugno 2024_
+
+![Nuovo](../assets/new.svg) - Versione GA per [regole prodotto correlate](../merchandising-promotions/product-related-rule-create.md) informato dal pubblico.
 
 ### 2.1.1.
 
@@ -172,9 +180,11 @@ Con il [!DNL Audience Activation] abilitata, puoi:
 
 - [Creare una regola di prezzo del carrello](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informato dal pubblico
 - [Creare un blocco dinamico](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informato dal pubblico
-- [(**Beta** a) Creare una regola di prodotto correlata](../merchandising-promotions/product-related-rule-create.md) informato dal pubblico
+- [Creare una regola di prodotto correlata](../merchandising-promotions/product-related-rule-create.md) informato dal pubblico
 
-Per un caso d’uso end-to-end completo su come esportare [!DNL Commerce] su Real-Time CDP, crea un pubblico e attivalo in [!DNL Commerce], vedi [Creazione di un pubblico in Real-Time CDP tramite [!DNL Commerce] dati evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>Per un caso d’uso end-to-end completo su come esportare [!DNL Commerce] su Real-Time CDP, crea un pubblico e attivalo in [!DNL Commerce], vedi [Creazione di un pubblico in Real-Time CDP tramite [!DNL Commerce] dati evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Dashboard dei tipi di pubblico di Real-Time CDP
 
@@ -195,6 +205,7 @@ Il dashboard contiene i campi seguenti:
 | `Websites` | Indica quali siti web sono configurati per utilizzare i tipi di pubblico. |
 | `Dynamic Blocks` | Indica quali blocchi dinamici sono configurati per utilizzare i tipi di pubblico. |
 | `Cart Price Rules` | Indica quali regole di prezzo del carrello sono configurate per utilizzare i tipi di pubblico. |
+| `Related Product Rules` | Indica quali regole di prodotto correlate sono configurate per utilizzare i tipi di pubblico. |
 | `Last updated` | Indica quando il pubblico è stato modificato in Real-Time CDP. |
 | `Sync now` | Recupera il pubblico nuovo o aggiornato da Real-Time CDP. |
 | `Customize table` | Consente di mostrare o nascondere `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, e `Last updated` colonne. |
