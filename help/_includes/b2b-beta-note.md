@@ -1,9 +1,9 @@
 ---
 title: Adobe Commerce B2B 1.5.0-beta
 description: Nota riutilizzata sulla versione Beta per l’estensione B2B
-source-git-commit: f5b9dc65a34ad1e410e7a1c4d08aa993f77cb9e0
+source-git-commit: 2cc964946b9143857be024d4d7933c210326623f
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Le funzionalità disponibili nella versione 1.5.0-beta sono accessibili solo ai clienti che partecipano al programma beta. L’installazione e il test della versione 1.5.0-beta sono supportati solo per ambienti non di produzione. Il programma beta è ora chiuso. Tuttavia, le funzionalità avanzate di gestione e quotazione testate saranno disponibili nella versione B2B 1.5.0 GA.
+> Le funzionalità disponibili nella versione 1.5.0-beta erano accessibili ai clienti che partecipavano al programma beta. **Il programma beta è ora chiuso.** Tuttavia, le funzioni incluse in B2B Commerce 1.5.0-beta saranno disponibili nella versione con disponibilità generale 1.5.0.
