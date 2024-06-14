@@ -2,9 +2,9 @@
 user-guide-title: Guida alla gestione clienti
 breadcrumb-title: Gestione clienti
 feature: Customers
-source-git-commit: 142c01f1bc5b1292ee2001c5dd7235e5b592b7cb
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---
@@ -55,3 +55,5 @@ ht-degree: 2%
    + [Creare ed eliminare segmenti di clienti](customer-segment-create.md)
    + [Segmenti di clienti nelle regole di prezzo](customer-segment-price-rule.md)
    + [Rapporto sui segmenti cliente](customer-segment-reports.md)
++ [Torna a Guide esercenti](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

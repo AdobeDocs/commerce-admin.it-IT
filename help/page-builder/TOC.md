@@ -5,10 +5,10 @@ breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: addc34aeb4418aa3a1a9c2fc3adca738352ef94f
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 16%
    - [Pulsanti](buttons.md)
    - [Divisore](divider.md)
    - [Codice HTML](html-code.md)
-- Media {#media}
+- Contenuti multimediali {#media}
    - [Immagine](image.md)
    - [Video](video.md)
    - [Banner](banner.md)
@@ -46,3 +46,5 @@ ht-degree: 16%
    - [Prodotti](products.md)
    - [Recommendations del prodotto](recommendations.md)
 - [Modelli](templates.md)
+- [Torna a Guide esercenti](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
