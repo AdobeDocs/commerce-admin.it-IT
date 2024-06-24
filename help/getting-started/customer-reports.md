@@ -3,9 +3,9 @@ title: Rapporti sui clienti
 description: I rapporti dei clienti disponibili in Adobe Commerce e Magento Open Source forniscono informazioni approfondite sull’attività del cliente durante un determinato periodo di tempo o intervallo di date.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!U
 | [!UICONTROL Interval] | L&#39;intervallo totale dell&#39;ordine, per `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Il nome del cliente che ha effettuato l’ordine. |
 | [!UICONTROL Orders] | Numero di ordini per l&#39;intervallo specificato. |
-| [!UICONTROL Average] | Importo medio dell&#39;ordine. |
-| [!UICONTROL Total] | Somma di tutti gli ordini del periodo. |
+| [!UICONTROL Average] | Importo medio dell&#39;ordine. Questo importo viene sempre calcolato per i prezzi dei prodotti **IVA esclusa** anche se i prezzi dei prodotti del catalogo, il subtotale dell&#39;ordine e il totale dell&#39;ordine includono l&#39;imposta. Di conseguenza, l&#39;importo visualizzato nel rapporto è diverso da quello visualizzato nei dettagli dell&#39;ordine nei casi in cui i totali dell&#39;ordine includono le imposte. |
+| [!UICONTROL Total] | Somma di tutti gli ordini del periodo. Questo importo viene sempre calcolato per i prezzi dei prodotti **IVA esclusa** anche se i prezzi dei prodotti del catalogo, il subtotale dell&#39;ordine e il totale dell&#39;ordine includono l&#39;imposta. Di conseguenza, il totale visualizzato nel rapporto è diverso dall&#39;importo visualizzato nei dettagli dell&#39;ordine nei casi in cui i totali dell&#39;ordine includono le imposte. |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!U
 | [!UICONTROL Interval] | Intervallo di conteggio degli ordini, per `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Il cliente che ha effettuato l’ordine. |
 | [!UICONTROL Orders] | Numero di ordini per l&#39;intervallo specificato. |
-| [!UICONTROL Average] | Importo medio dell&#39;ordine. |
-| [!UICONTROL Total] | Somma di tutti gli ordini del periodo. |
+| [!UICONTROL Average] | Importo medio dell&#39;ordine. Questo importo viene sempre calcolato per i prezzi dei prodotti **IVA esclusa** anche se i prezzi dei prodotti del catalogo, il subtotale dell&#39;ordine e il totale dell&#39;ordine includono l&#39;imposta. Di conseguenza, l&#39;importo visualizzato nel rapporto è diverso da quello visualizzato nei dettagli dell&#39;ordine nei casi in cui i totali dell&#39;ordine includono le imposte. |
+| [!UICONTROL Total] | Somma di tutti gli ordini del periodo. Questo importo viene sempre calcolato per i prezzi dei prodotti **IVA esclusa** anche se i prezzi dei prodotti del catalogo, il subtotale dell&#39;ordine e il totale dell&#39;ordine includono l&#39;imposta. Di conseguenza, il totale visualizzato nel rapporto è diverso dall&#39;importo visualizzato nei dettagli dell&#39;ordine nei casi in cui i totali dell&#39;ordine includono i task. |
 
 {style="table-layout:auto"}
 
