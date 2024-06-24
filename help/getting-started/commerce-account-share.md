@@ -3,9 +3,9 @@ title: Condividi un [!DNL Commerce] account
 description: Scopri come concedere un accesso limitato al tuo [!DNL Commerce] account per altro [!DNL Commerce] titolari del conto.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
+source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ Il [!DNL Commerce] Il team di supporto non ha accesso all’account e non può i
    Le informazioni sul nuovo utente vengono visualizzate nel _[!UICONTROL Manage Permissions]_nella pagina Accesso condiviso e un invito e-mail con istruzioni per l&#39;accesso all&#39;account condiviso viene inviato al nuovo utente.
 
    ![Gestire le autorizzazioni per l’accesso condiviso](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Non è necessario condividere l’accesso al _[!UICONTROL Security Tool]_- Qualsiasi utente con un ID immagine può configurare lo strumento Security Scan con il proprio account. È sufficiente disporre dei privilegi necessari per apportare modifiche al sito e verificare la proprietà del dominio utilizzando uno dei [metodi obbligatori](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
 
 ## Accedere a un account condiviso
 
