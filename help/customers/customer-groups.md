@@ -3,9 +3,9 @@ title: Gruppi di clienti
 description: Utilizzare i gruppi di clienti per determinare quali sconti sono disponibili per i clienti assegnati a un gruppo e la classe fiscale associata al gruppo.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
+source-git-commit: c2fd228311a4b990be9c1409d2cdd2b5677fe2af
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ I gruppi di clienti determinano gli sconti disponibili e la classe fiscale assoc
 1. Al termine, fai clic su **[!UICONTROL Save Customer Group]**.
 
 ## Assegnare un cliente a un gruppo diverso
+
+>[!NOTE]
+>
+>Dopo aver modificato il gruppo della società, un utente della società deve disconnettersi e accedere allo Storefront per visualizzare i nuovi prezzi nel catalogo.
 
 1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
