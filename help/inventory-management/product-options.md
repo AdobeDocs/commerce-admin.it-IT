@@ -3,9 +3,9 @@ title: "Configura [!DNL Inventory Management] opzioni di prodotto"
 description: Scopri come configurare [!DNL Inventory Management] opzioni di configurazione del prodotto.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: ccd93a54b6fa23a7a54fb423f8232c72cd8fe027
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ Configurare le quantità e le impostazioni aggiuntive per [origine aggiunta](sou
 
    Ad esempio, un articolo venduto con incrementi di sei può essere acquistato in quantità di 6, 12, 18 e così via.
 
+   **[!UICONTROL Qty Increments]** Questo campo imposta quanti articoli di prodotto devono essere acquistati come singolo prodotto e come figlio di prodotti configurabili, raggruppati e in bundle.
+
 1. Al termine, fai clic su **[!UICONTROL Done]** e poi **[!UICONTROL Save]**.
 
 ### Descrizioni dei campi
@@ -113,7 +115,7 @@ Configurare le quantità e le impostazioni aggiuntive per [origine aggiunta](sou
 | [!UICONTROL Qty Uses Decimals] | Globale | Determina se i clienti possono utilizzare un valore decimale anziché un numero intero quando inseriscono la quantità ordinata. Opzioni:<br />`Yes` - Consente di immettere i valori come decimali anziché come numeri interi. I decimali sono adatti per i prodotti venduti in base a peso, volume o lunghezza.<br />`No` - Richiede l&#39;immissione di valori di quantità come numeri interi. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Globale | Determina se le parti del prodotto possono essere spedite separatamente. Questa opzione è visibile quando **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Globale | Determina la modalità di gestione degli ordini inevasi. Gli ordini inevasi non modificano lo stato di elaborazione dell&#39;ordine. I fondi vengono comunque autorizzati o acquisiti immediatamente al momento dell&#39;ordine, indipendentemente dal fatto che il prodotto sia in magazzino. I prodotti vengono spediti non appena diventano disponibili. Se questa opzione è abilitata, è consigliabile immettere un importo negativo per la soglia esaurita. Opzioni:<br/>`No Backorders` - Non accetta ordini inevasi quando il prodotto è esaurito.<br />`Allow Qty Below 0` - Accetta ordini inevasi quando la quantità scende sotto zero.<br />`Allow Qty Below 0 and Notify Customer` - Accetta ordini inevasi quando la quantità scende al di sotto di zero, ma notifica ai clienti che gli ordini possono ancora essere effettuati. |
-| [!UICONTROL Enable Qty Increments] | Globale | Determina se il prodotto può essere venduto in incrementi di quantità. |
+| [!UICONTROL Enable Qty Increments] | Globale | Determina se il prodotto può essere venduto in incrementi di quantità. Gli incrementi impostano il numero di articoli da acquistare come singolo prodotto e come figlio di prodotti configurabili, raggruppati e in bundle. |
 
 >[!NOTE]
 >
