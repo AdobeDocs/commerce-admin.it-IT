@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Commerce B2B] note sulla versione'
 description: Consulta le note sulla versione per informazioni sulle modifiche apportate in [!DNL Adobe Commerce B2B] versioni.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
+source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
 workflow-type: tm+mt
-source-wordcount: '6851'
+source-wordcount: '6867'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,13 @@ La versione B2B v1.5.0-beta include nuove funzioni, miglioramenti della qualità
 ![Problema risolto](../assets/fix.svg) <!--ACP2E-1825-->Gli ordini fornitore non possono più essere inoltrati da un utente associato alla società dopo che questa è stata bloccata. In precedenza, un utente associato alla società poteva effettuare ordini di acquisto quando la società era bloccata.
 
 ![Problema risolto](../assets/fix.svg)<!--ACP2E-1933-->Gli amministratori aziendali possono ora aggiungere utenti aziendali dalla vetrina. In precedenza, Commerce registrava un errore quando un utente amministratore tentava di aggiungere un nuovo utente: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p1
+
+[!BADGE Supportato]{type=Informative tooltip="Supportato"}
+
+![Nuovo](../assets/new.svg) È stata aggiunta la compatibilità con le versioni delle patch di sicurezza Adobe Commerce 2.4.7-p1 e 2.4.6-p6.
+
 
 ## B2B v1.4.2
 
