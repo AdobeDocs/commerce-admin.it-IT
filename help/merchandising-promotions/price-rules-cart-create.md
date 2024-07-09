@@ -3,9 +3,9 @@ title: Creare una regola di prezzo del carrello
 description: Scopri come creare una regola di prezzo del carrello basata sugli attributi del carrello o del prodotto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
+source-git-commit: 6ac8d41de0f97767296216f8239311bc6fbf168e
 workflow-type: tm+mt
-source-wordcount: '3302'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Puoi impostare una condizione per una regola del prezzo del carrello basata su u
    | Opzione | Descrizione |
    |------|-----------|
    | `ID` | Un identificatore interno del pubblico utilizzato all’interno dell’amministratore |
-   | `Real-Time CDP Audience ID` | Identificatore univoco del pubblico al momento della creazione in Experienci Platform |
+   | `Real-Time CDP Audience ID` | Identificatore univoco del pubblico al momento della creazione in Experience Platform |
    | `Name` | Nome del pubblico, ad esempio `Orders over $50` |
    | `Description` | Descrizione del pubblico, ad esempio `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica da dove proviene il pubblico, ad esempio `Experience Platform`. |
@@ -393,7 +393,7 @@ Specifica le condizioni che devono essere soddisfatte prima che la regola del pr
 | [!UICONTROL Apply] | Determina il tipo di calcolo applicato all’acquisto. Opzioni: <br/>**[!UICONTROL Percent of product price discount]**- Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale dal prezzo originale. Ad esempio: Invio `10` in _[!UICONTROL Discount Amount]_per un prezzo aggiornato inferiore del 10% rispetto al prezzo originale.<br/>**[!UICONTROL Fixed amount discount]**- Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo originale di ciascun articolo idoneo nel carrello. Ad esempio: Invio `10` in_[!UICONTROL Discount Amount]_ per un prezzo aggiornato inferiore di $10 rispetto al prezzo originale. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Sconta l&#39;intero carrello sottraendo un importo fisso dal subtotale del carrello. Ad esempio: Invio `10` in _[!UICONTROL Discount Amount]_per sottrarre $ 10 dal subtotale del carrello. Per impostazione predefinita, lo sconto si applica solo al subtotale del carrello. Per applicare lo sconto al subtotale e alla spedizione separatamente, vedere_Applica a importo spedizione _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definisce una quantità che il cliente deve acquistare per ricevere gratuitamente una quantità. (Il_[!UICONTROL Discount Amount]_ è Y.) |
 | [!UICONTROL Discount Amount] | (Obbligatorio) L’importo dello sconto offerto. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Imposta il numero massimo di prodotti a cui può essere applicato lo sconto nello stesso acquisto. |
-| [!UICONTROL Discount Qty Step (Buy X)] | Imposta il numero di prodotti rappresentati da `X` in un `Buy X Get Y Free` promozione. |
+| [!UICONTROL Discount Qty Step (Buy X)] | Imposta il numero di prodotti rappresentati da `X` in un `Buy X Get Y Free` promozione. Definisce inoltre quanti prodotti devono essere aggiunti al carrello insieme in batch da applicare `Fixed amount discount` e `Percent of product price discount` promozioni. |
 | [!UICONTROL Apply to Shipping Amount] | Determina se lo sconto viene applicato separatamente al subtotale e agli importi di spedizione. In caso contrario, viene applicato solo al subtotale. Opzioni: `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | Determina se è possibile applicare al prodotto regole di priorità inferiore (1 è la priorità più alta) quando questa regola di prezzo del carrello è una corrispondenza. Abilita questa opzione per evitare l’applicazione di più sconti allo stesso prodotto. Opzioni: `Yes` / `No` |
 | [!UICONTROL Free Shipping] | Determina se la spedizione gratuita è inclusa nella promozione e, in caso affermativo, per quali articoli. Opzioni: <br/>**[!UICONTROL No]**- La spedizione gratuita non è disponibile per la regola corrente.<br/>**[!UICONTROL For matching items only]** - La spedizione gratuita è disponibile solo per articoli specifici nel carrello che corrispondono alla regola. <br/>**[!UICONTROL For shipment with matching items]**- La spedizione gratuita è disponibile per tutti gli articoli nel carrello. Il [Spedizione gratuita](../stores-purchase/shipping-free.md) per utilizzare questa opzione è necessario abilitare il metodo di consegna. |
