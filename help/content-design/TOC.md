@@ -3,10 +3,10 @@ user-guide-title: Guida ai contenuti e alla progettazione
 user-guide-description: Informazioni complete su contenuti e funzioni di progettazione per gli amministratori di Adobe Commerce e di Magento Open Source e gli esperti di marketing e-commerce.
 breadcrumb-title: Contenuto e progettazione
 feature: CMS, Page Content
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 4%
+source-wordcount: '232'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 - [Guida ai contenuti e alla progettazione](guide-overview.md)
 - [Introduzione al contenuto e alla progettazione](introduction.md)
 - [Menu Contenuto](content-menu.md)
-- Progettazione {#design}
+- Progetta {#design}
    - [Configurazione del progetto](configuration.md)
    - Temi {#themes}
       - [Panoramica](themes.md)
@@ -28,7 +28,7 @@ ht-degree: 4%
       - [Panoramica](page-layout.md)
       - [Esempi di layout della vetrina](page-layout-examples.md)
       - [Aggiornamenti del layout](layout-updates.md)
-- Elementi di contenuto {#elements}
+- Elementi contenuto {#elements}
    - Pagine {#pages}
       - [Panoramica](pages.md)
       - [Controlli dell’area di lavoro pagina](pages-workspace.md)
@@ -57,12 +57,19 @@ ht-degree: 4%
    - [Inserisci un&#39;immagine](editor-insert-image.md)
    - [Inserire un widget](editor-widget.md)
    - [Inserire una variabile](editor-insert-variable.md)
-- Contenuti multimediali {#media}
-   - Storage multimediale {#storage}
+- Media {#media}
+   - Archiviazione file multimediali {#storage}
       - [Panoramica](media-storage.md)
       - [Utilizzare un database multimediale](media-storage-database.md)
       - [Utilizzare una rete per la distribuzione dei contenuti](media-storage-content-delivery-network.md)
       - [URL Dynamic Media](catalog-urls-dynamic-media.md)
+   - Experience Manager Assets {#aem-assets}
+      - [Integrazione con Assets](aem-assets.md)
+      - Onboarding di {#onboarding}
+         - [Configurare AEM Assets](aem-assets-configure-aem.md)
+         - [Configurare Adobe Commerce](aem-assets-configure-commerce.md)
+         - [Configurare i servizi di sincronizzazione](aem-assets-setup-synchronization.md)
+      - [Utilizzare AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Integrazione con Adobe Stock](adobe-stock.md)
       - [Utilizzare le immagini di Adobe Stock](adobe-stock-manage.md)
@@ -73,7 +80,7 @@ ht-degree: 4%
       - [Gestione risorse](media-gallery-asset-management.md)
       - [Gestione cartelle](media-gallery-folder-management.md)
       - [Ottimizzazione immagine](media-gallery-image-optimization.md)
-- Staging dei contenuti {#staging}
+- Gestione temporanea del contenuto {#staging}
    - [Panoramica](content-staging.md)
    - [Pianificare un aggiornamento](content-staging-scheduled-update.md)
    - [Dashboard di staging](content-staging-dashboard.md)
