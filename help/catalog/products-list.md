@@ -3,9 +3,9 @@ title: Elenco prodotti
 description: Scopri la pagina _[!UICONTROL Products]_ in Amministrazione, dove puoi creare prodotti e modificare quelli esistenti.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
+source-git-commit: 8bb91b80f8ba957676c654e984deb5704b777612
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,6 @@ Questa impostazione di configurazione per la limitazione di visualizzazione del 
 | [!UICONTROL Visibility] | Indica dove il prodotto è visibile nel catalogo. Opzioni: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | Indica lo stato del prodotto. Opzioni: `Enabled` e `Disabled` |
 | [!UICONTROL Websites] | Indica i siti Web in cui il prodotto è disponibile. |
-| [!UICONTROL Remote Media URL] | Se le risorse multimediali del prodotto vengono gestite mediante l&#39;integrazione di [AEM Assets per Commerce](../content-design/aem-assets.md), in questo campo viene visualizzato l&#39;URL per visualizzare la risorsa Commerce nell&#39;archivio di gestione delle risorse digitali di AEM Assets, l&#39;archivio centralizzato in cui vengono conservate le risorse. Questo campo viene visualizzato solo se l’integrazione AEM Assets è abilitata. |
 | [!UICONTROL Action] | Apre il prodotto in modalità Modifica. |
 | [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile solo con [Adobe Commerce B2B](./b2b/../introduction.md)) indica i cataloghi condivisi che contengono prezzi personalizzati per il prodotto. |
 
