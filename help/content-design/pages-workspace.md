@@ -18,10 +18,10 @@ L&#39;area di lavoro della pagina include strumenti che consentono di trovare ra
 
 ## Aggiorna rapidamente le proprietà della pagina
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 1. Fare clic su una riga qualsiasi della griglia.
 
-   ![Le proprietà di pagina possono essere modificate nella griglia Pagine](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
+   ![Le proprietà della pagina sono modificabili nella griglia Pagine](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
 
    Per selezionare più record, selezionare la casella di controllo di ogni riga che si desidera aggiornare.
 
@@ -32,9 +32,9 @@ L&#39;area di lavoro della pagina include strumenti che consentono di trovare ra
    - **[!UICONTROL Status]**
    - **[!UICONTROL Layout]**
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
-## Controlli di Workspace
+## Controlli Workspace
 
 | Controllo | Descrizione |
 |--- |--- |
@@ -57,10 +57,10 @@ L&#39;area di lavoro della pagina include strumenti che consentono di trovare ra
 | [!UICONTROL URL Key] | La chiave URL è simile al nome di un file e identifica la pagina nell’URL. |
 | [!UICONTROL Layout] | Determina se la pagina viene visualizzata con barre laterali a destra o a sinistra dell&#39;area del contenuto principale. Opzioni: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Store View] | Utilizzato per associare la pagina a una visualizzazione specifica dello store. |
-| [!UICONTROL Status] | Indica se la pagina è online o offline. Opzioni: `Enabled` / `Disabled` |
+| [!UICONTROL Status] | Indica se la pagina è online o offline. Opzioni: `Enabled` / `Disabled` |
 | [!UICONTROL Created] | Data di creazione della pagina. |
 | [!UICONTROL Modified] | Data dell’ultima modifica apportata alla pagina. |
-| [!UICONTROL Action] | Le azioni che possono essere applicate a un singolo record includono:<br/>**[!UICONTROL Edit]**- Apre la pagina in modalità di modifica.<br/>**[!UICONTROL Delete]** - Elimina la pagina.<br/>**[!UICONTROL View]**- Visualizza la pagina in modalità anteprima. |
+| [!UICONTROL Action] | Le azioni applicabili a un singolo record includono:<br/>**[!UICONTROL Edit]**- Apre la pagina in modalità di modifica.<br/>**[!UICONTROL Delete]** - Elimina la pagina.<br/>**[!UICONTROL View]**- Visualizza la pagina in modalità anteprima. |
 
 {style="table-layout:auto"}
 
@@ -79,25 +79,25 @@ L&#39;area di lavoro della pagina include strumenti che consentono di trovare ra
 
 ## Ricerca pagina
 
-Casella di ricerca in alto a sinistra nella _[!UICONTROL Pages]_grid può essere utilizzato per trovare pagine specifiche per parola chiave. Per una ricerca più avanzata, puoi [filter](../getting-started/admin-grid-controls.md) la ricerca in base a più parametri.
+È possibile utilizzare la casella di ricerca nella parte superiore sinistra della griglia _[!UICONTROL Pages]_per trovare pagine specifiche per parola chiave. Per una ricerca più avanzata, puoi [filtrare](../getting-started/admin-grid-controls.md) la ricerca per più parametri.
 
 ### Ricerca per parola chiave
 
 1. Immetti un termine di ricerca nella casella di ricerca della pagina.
 
-1. Per visualizzare i risultati, fare clic sul pulsante Cerca (![Icona Lente di ingrandimento](../assets/icon-magnify-search.png)).
+1. Per visualizzare i risultati, fare clic sull&#39;icona Cerca (![Icona Lente di ingrandimento](../assets/icon-magnify-search.png)).
 
    I risultati includono tutte le pagine che contengono la parola chiave.
 
 ### Filtrare i risultati della ricerca
 
-1. Se necessario, fai clic su **[!UICONTROL Clear All]** per cancellare i criteri di ricerca precedenti.
+1. Se necessario, fare clic su **[!UICONTROL Clear All]** per cancellare i criteri di ricerca precedenti.
 
-1. Per visualizzare la selezione dei filtri di ricerca, fare clic sul pulsante **[!UICONTROL Filters]** !([Icona funnel](../assets/icon-filter-search.png)).
+1. Per visualizzare la selezione dei filtri di ricerca, fare clic su **[!UICONTROL Filters]** !Scheda ([Icona funnel](../assets/icon-filter-search.png)).
 
 1. Completa tutti i filtri necessari per descrivere le pagine che desideri trovare.
 
-1. Clic **[!UICONTROL Apply Filters]** per visualizzare i risultati.
+1. Fare clic su **[!UICONTROL Apply Filters]** per visualizzare i risultati.
 
 ### Filtri di ricerca
 
@@ -110,7 +110,7 @@ Casella di ricerca in alto a sinistra nella _[!UICONTROL Pages]_grid può essere
 | [!UICONTROL Modified] | Filtra la ricerca in base alla data dell’ultima modifica apportata alla pagina. |
 | [!UICONTROL Store View] | Filtra la ricerca in base alla vista Store. Opzioni: `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filtra la ricerca in base al layout della pagina. Opzioni: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
-| [!UICONTROL Status] | Filtra la ricerca in base allo stato della pagina. Opzioni: `Disabled` / `Published` |
+| [!UICONTROL Status] | Filtra la ricerca in base allo stato della pagina. Opzioni: `Disabled` / `Published` |
 | [!UICONTROL Custom design from / to] | Filtra la ricerca in base alla data di inizio e di fine quando il design selezionato viene applicato alla pagina. ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source). |
 | [!UICONTROL Asset] | Filtrare la ricerca in base alle risorse del titolo della pagina |
 | [!UICONTROL Custom Layout] | Filtra la ricerca in base a un layout personalizzato. Opzioni: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
@@ -139,22 +139,22 @@ Le pagine possono essere modificate, disattivate, attivate ed eliminate. Per app
 
 ### Azione singola
 
-Utilizza il _[!UICONTROL Action]_all’estrema destra per applicare una delle seguenti azioni alla singola pagina:
+Utilizza la colonna _[!UICONTROL Action]_all&#39;estrema destra per applicare una delle seguenti azioni alla singola pagina:
 
 - [!UICONTROL Edit] - apre la pagina in modalità di modifica
 - [!UICONTROL Delete] - elimina la pagina (richiede conferma)
-- [!UICONTROL View] - apre una pagina direttamente sulla vetrina
+- [!UICONTROL View] - apre una pagina direttamente nella vetrina
 
 ![Azioni a pagina singola](./assets/page-grid-actions.png){width="600" zoomable="yes"}
 
 ### Azioni di massa
 
-Applica una delle azioni seguenti a più pagine selezionate contemporaneamente utilizzando _[!UICONTROL Action]_selettore in alto a sinistra:
+Applica una delle azioni seguenti a più pagine selezionate contemporaneamente utilizzando il selettore _[!UICONTROL Action]_in alto a sinistra:
 
 - [!UICONTROL Delete] - elimina le pagine (richiede conferma)
-- [!UICONTROL Disable] : disabilita le pagine della vetrina
-- [!UICONTROL Enable] - abilita le pagine della vetrina
-- [!UICONTROL Edit] - apre le colonne sulla griglia in modalità di modifica (**[!UICONTROL Title]**, **[!UICONTROL URL Key]**, **[!UICONTROL Layout]**, e **[!UICONTROL Status]**)
+- [!UICONTROL Disable] - disabilita le pagine nella vetrina
+- [!UICONTROL Enable] - abilita le pagine nella vetrina
+- [!UICONTROL Edit] - apre le colonne nella griglia in modalità di modifica (**[!UICONTROL Title]**, **[!UICONTROL URL Key]**, **[!UICONTROL Layout]** e **[!UICONTROL Status]**)
 
 ## Layout griglia pagina
 
@@ -162,7 +162,7 @@ La selezione delle colonne e il relativo ordine nella griglia possono essere mod
 
 ### Modificare la selezione delle colonne
 
-Nell’angolo in alto a destra, fai clic su _Colonne_ (![Icona colonna](../assets/icon-columns.png)) ed effettuare le seguenti operazioni:
+Nell&#39;angolo superiore destro fare clic sul controllo _Colonne_ (![Icona colonna](../assets/icon-columns.png)) ed eseguire le operazioni seguenti:
 
 - Selezionare la casella di controllo delle colonne che si desidera aggiungere alla griglia.
 
@@ -176,42 +176,42 @@ Nell’angolo in alto a destra, fai clic su _Colonne_ (![Icona colonna](../asset
 
 ### Salvare una visualizzazione
 
-1. Fai clic su _Visualizza_ (![Icona dell’occhio](../assets/icon-view-eye.png)) e quindi fare clic su **[!UICONTROL Save View As]**.
+1. Fare clic sul controllo _Visualizza_ (![Icona occhio](../assets/icon-view-eye.png)) e quindi su **[!UICONTROL Save View As]**.
 
 1. Immettere un nome per la visualizzazione.
 
-1. Per salvare la visualizzazione, fare clic su _Freccia_ (![Icona freccia](../assets/icon-arrow-save.png)).
+1. Per salvare la visualizzazione, fare clic sulla _freccia_ (![icona freccia](../assets/icon-arrow-save.png)).
 
    Il nome della vista viene ora visualizzato come vista corrente.
 
 ### Modificare la visualizzazione
 
-Fai clic su _Visualizza_ (![Icona dell’occhio](../assets/icon-view-eye.png)) ed effettuare una delle seguenti operazioni:
+Fare clic sul controllo _Visualizza_ (![Icona occhio](../assets/icon-view-eye.png)) ed eseguire una delle operazioni seguenti:
 
 - Scegliere la visualizzazione che si desidera utilizzare.
 
-- Modificare il nome di una visualizzazione facendo clic sul pulsante Modifica (![Icona matita](../assets/icon-edit-pencil.png)) e di aggiornare il nome.
+- Modificare il nome di una visualizzazione facendo clic sull&#39;icona Modifica (![icona matita](../assets/icon-edit-pencil.png)) e aggiornando il nome.
 
-  ![La vista salvata viene visualizzata nei controlli della vista con un&#39;icona di modifica](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
+  ![La visualizzazione salvata viene visualizzata nei controlli di visualizzazione con un&#39;icona di modifica](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
 
 ## Modifiche pianificate
 
 {{ee-feature}}
 
-Le modifiche apportate alla pagina possono essere applicate in base alla pianificazione e raggruppate con altre modifiche apportate al contenuto. Puoi creare una campagna in base alle modifiche pianificate per una pagina o applicare le modifiche a una campagna esistente. Per ulteriori informazioni, consulta [Staging dei contenuti](content-staging.md).
+Le modifiche apportate alla pagina possono essere applicate in base alla pianificazione e raggruppate con altre modifiche apportate al contenuto. Puoi creare una campagna in base alle modifiche pianificate per una pagina o applicare le modifiche a una campagna esistente. Per ulteriori informazioni, vedere [Gestione temporanea dei contenuti](content-staging.md).
 
 >[!NOTE]
 >
->Il [!UICONTROL Custom Design Update] è stata rimossa in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente sulla pagina. Devi creare un aggiornamento pianificato per queste attivazioni.
+>La scheda [!UICONTROL Custom Design Update] è stata rimossa in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non può essere modificata direttamente nella pagina. Devi creare un aggiornamento pianificato per queste attivazioni.
 
 >[!NOTE]
 >
 >Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato in un determinato punto. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere un aggiornamento pianificato diverso per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
 
-![Nella pagina Home vengono visualizzate le modifiche pianificate nella parte superiore](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
+![Nella home page vengono visualizzate le modifiche pianificate nella parte superiore](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Le date di inizio e di fine della campagna devono essere definite utilizzando **_predefinito_** Fuso orario amministratore, convertito dal fuso orario locale di ciascun sito Web. Prendi in considerazione un esempio in cui hai più siti web in fusi orari diversi, ma desideri avviare una campagna basata su un fuso orario negli Stati Uniti. In questo caso, è necessario pianificare un aggiornamento separato per ogni fuso orario locale e impostare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** in convertito da ogni fuso orario del sito Web locale al fuso orario predefinito dell’amministratore.
+>La data di inizio e la data di fine della campagna devono essere definite utilizzando il fuso orario di amministrazione **_predefinito_**, convertito dal fuso orario locale di ciascun sito Web. Prendi in considerazione un esempio in cui hai più siti web in fusi orari diversi, ma desideri avviare una campagna basata su un fuso orario negli Stati Uniti. In questo caso, è necessario pianificare un aggiornamento separato per ogni fuso orario locale e impostare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** in convertiti da ogni fuso orario del sito Web locale al fuso orario predefinito dell&#39;amministratore.
 
-Inoltre, puoi pianificare e visualizzare in anteprima le modifiche per gli aggiornamenti dei prodotti. Per ulteriori informazioni, consulta [Pianificazione di un aggiornamento](content-staging-scheduled-update.md).
+Inoltre, puoi pianificare e visualizzare in anteprima le modifiche per gli aggiornamenti dei prodotti. Per ulteriori informazioni, vedere [Pianificazione di un aggiornamento](content-staging-scheduled-update.md).

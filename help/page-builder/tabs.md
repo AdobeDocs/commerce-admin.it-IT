@@ -1,18 +1,18 @@
 ---
 title: Layout - Schede
-description: Scopri il tipo di contenuto Schede, utilizzato per aggiungere un set di schede in [!DNL Page Builder] fase.
+description: Scopri il tipo di contenuto Schede, utilizzato per aggiungere un set di schede nella fase  [!DNL Page Builder] .
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
 source-git-commit: 67bf39e8c09d6169ec5ec5e2f396e973476af56a
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2039'
 ht-degree: 0%
 
 ---
 
 # Layout - Schede
 
-Utilizza il _Schede_ tipo di contenuto per aggiungere un set di schede nel [[!DNL Page Builder] fase](workspace.md#stage). Quando trascinate il segnaposto Schede dal pannello allo stage, inizialmente viene visualizzata una singola scheda predefinita. Puoi aggiungere altre schede per creare un set completo. La larghezza del set di schede è determinata dalla larghezza delle impostazioni relative al contenitore padre e alla spaziatura interna.
+Utilizza il tipo di contenuto _Schede_ per aggiungere un set di schede nella [[!DNL Page Builder] fase](workspace.md#stage). Quando trascinate il segnaposto Schede dal pannello allo stage, inizialmente viene visualizzata una singola scheda predefinita. Puoi aggiungere altre schede per creare un set completo. La larghezza del set di schede è determinata dalla larghezza delle impostazioni relative al contenitore padre e alla spaziatura interna.
 
 ![Set di schede](./assets/pb-layout-tab-example.png){width="500" zoomable="yes"}
 
@@ -20,7 +20,7 @@ Utilizza il _Schede_ tipo di contenuto per aggiungere un set di schede nel [[!DN
 
 ## Caselle degli strumenti
 
-Quando si lavora con _Schede_ tipo di contenuto, è possibile aggiungere e modificare singole schede e il contenitore schede che contiene una o più schede. Ogni scheda dispone della propria casella degli strumenti che consente di progettare schede in [!DNL Page Builder] fase.
+Quando si utilizza il tipo di contenuto _Schede_, è possibile aggiungere e modificare singole schede e il contenitore Schede che contiene una o più schede. Ogni scheda dispone di una propria casella degli strumenti utilizzata per progettare schede nella fase [!DNL Page Builder].
 
 ### Casella degli strumenti Scheda singola
 
@@ -30,14 +30,14 @@ Quando si lavora con _Schede_ tipo di contenuto, è possibile aggiungere e modif
 |--- |--- |--- |
 | Sposta | ![Icona Sposta](./assets/pb-icon-move.png){width="25"} | Questo controllo accanto all&#39;etichetta della scheda viene utilizzato per spostare la singola scheda in un&#39;altra posizione nel set di schede. |
 | Impostazioni | ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} | Apre la pagina Modifica schede, in cui è possibile modificare le proprietà della singola scheda. |
-| Duplica | ![Icona Duplica](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia della scheda. |
+| Duplica | ![Icona duplicata](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia della scheda. |
 | Rimuovi | ![Icona Rimuovi](./assets/pb-icon-remove.png){width="25"} | Elimina la scheda dal set di schede. |
 
 {style="table-layout:auto"}
 
 ### Casella degli strumenti contenitore Schede
 
-![Casella degli strumenti Contenitore scheda](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
+![Casella degli strumenti contenitore schede](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
 
 | Strumento | Icona | Descrizione |
 |--- |--- |--- |
@@ -45,9 +45,9 @@ Quando si lavora con _Schede_ tipo di contenuto, è possibile aggiungere e modif
 | Aggiungi | ![Icona Aggiungi](./assets/pb-icon-add.png){width="25"} | Aggiunge una scheda al set di schede. |
 | (etichetta) | [!UICONTROL Tabs] | Identifica il contenitore corrente come set di schede. Passa il puntatore del mouse sul bordo superiore del contenitore per visualizzare la casella degli strumenti. |
 | Impostazioni | ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} | Apre la pagina Modifica scheda, in cui è possibile modificare le proprietà del contenitore. |
-| Nascondi | ![Nascondi icona](./assets/pb-icon-hide.png){width="25"} | Nasconde il contenitore di schede. |
+| Nascondi | ![Icona Nascondi](./assets/pb-icon-hide.png){width="25"} | Nasconde il contenitore di schede. |
 | Spettacolo | ![Mostra icona](./assets/pb-icon-show.png){width="25"} | Mostra il contenitore di schede nascosto. |
-| Duplica | ![Icona Duplica](./assets/pb-icon-duplicate.png){width="25"} | Copia la scheda corrente. |
+| Duplica | ![Icona duplicata](./assets/pb-icon-duplicate.png){width="25"} | Copia la scheda corrente. |
 | Rimuovi | ![Icona Rimuovi](./assets/pb-icon-remove.png){width="25"} | Elimina dall&#39;area di visualizzazione il set di schede corrente. |
 
 {style="table-layout:auto"}
@@ -56,13 +56,13 @@ Quando si lavora con _Schede_ tipo di contenuto, è possibile aggiungere e modif
 
 ## Aggiungi una singola scheda
 
-1. In [!DNL Page Builder] pannello in _[!UICONTROL Layout]_, trascina **[!UICONTROL Tabs]**segnaposto direttamente nell&#39;area di visualizzazione o in una riga o colonna nell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina il segnaposto **[!UICONTROL Tabs]**direttamente nell&#39;area di visualizzazione oppure in una riga o colonna nell&#39;area di visualizzazione.
 
-   ![Trascinamento delle schede su una riga](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
+   ![Trascinamento delle schede in una riga](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Tab 1]** per visualizzare la casella degli strumenti delle singole schede e scegliere _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Fai clic sull&#39;etichetta **[!UICONTROL Tab 1]** per visualizzare la casella degli strumenti delle singole schede e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Inserisci il **[!UICONTROL Tab Name]** che desideri utilizzare come etichetta.
+1. Immettere **[!UICONTROL Tab Name]** che si desidera utilizzare come etichetta.
 
    ![Inserimento del nome della scheda](./assets/pb-layout-tab1-toolbox-settings-general-tab-name.png){width="600" zoomable="yes"}
 
@@ -70,34 +70,34 @@ Quando si lavora con _Schede_ tipo di contenuto, è possibile aggiungere e modif
 
    Questo valore può essere un numero con qualsiasi unità CSS valida (ad esempio `100px`, `50%`, `50em`, `100vh`) o un calcolo (ad esempio `100vh - 237px`).
 
-1. Scegli un **[!UICONTROL Vertical Alignment]** per allineare tutti i contenitori di contenuto aggiunti alla scheda (Superiore, Centrale o Inferiore).
+1. Scegliere un&#39;impostazione **[!UICONTROL Vertical Alignment]** per allineare tutti i contenitori di contenuto aggiunti alla scheda (Superiore, Centrale o Inferiore).
 
 1. Se necessario, impostate le altre opzioni utilizzando come guida le sezioni seguenti:
 
    - [[!UICONTROL Background]][background]
    - [[!UICONTROL Advanced]][advanced]
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 ## Aggiungere un set di schede
 
 I passaggi seguenti iniziano con una singola scheda e creano un set di tre schede all’interno di un contenitore di schede. Se non si dispone già di una singola scheda, seguire le istruzioni precedenti per aggiungere una singola scheda all&#39;area di visualizzazione.
 
-1. Passa il puntatore del mouse sul contenitore delle schede per visualizzare la casella degli strumenti e scegli _Aggiungi_ ( ![Icona Aggiungi](./assets/pb-icon-add.png){width="20"} ).
+1. Passa il puntatore del mouse sul contenitore delle schede per visualizzare la casella degli strumenti e scegli l&#39;icona _Aggiungi_ ( ![Aggiungi icona](./assets/pb-icon-add.png){width="20"} ).
 
-1. Fai clic su nella **[!UICONTROL Tab 2]** etichetta per visualizzare il cursore e immettere la propria etichetta per la scheda.
+1. Fare clic sull&#39;etichetta **[!UICONTROL Tab 2]** per visualizzare il cursore e immettere la propria etichetta per la scheda.
 
-1. Fare nuovamente clic sulla seconda scheda sullo stage e scegliere _Duplica_ ( ![Icona Duplica](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Fai di nuovo clic sulla seconda scheda nell&#39;area di visualizzazione e scegli l&#39;icona _Duplica_ ( ![Icona Duplica](./assets/pb-icon-duplicate.png){width="20"} ).
 
-1. Fai clic su nel nome **[!UICONTROL Copy]** etichetta per visualizzare il cursore e immettere la propria etichetta per la terza scheda.
+1. Fare clic sull&#39;etichetta YourName **[!UICONTROL Copy]** per visualizzare il cursore e immettere un&#39;etichetta propria per la terza scheda.
 
-![Corrispondenza set di schede con casella degli strumenti](./assets/pb-layout-tabs3-toolbox-main.png){width="600" zoomable="yes"}
+![Corrispondenza tra set di schede e casella degli strumenti](./assets/pb-layout-tabs3-toolbox-main.png){width="600" zoomable="yes"}
 
 ## Spostare una tabulazione all&#39;interno del set
 
 1. Fare clic sulla scheda da spostare.
 
-1. Seleziona e trascina il _Sposta_ ( ![Icona Sposta](./assets/pb-icon-move.png){width="20"} ), visualizzata immediatamente prima del testo dell&#39;etichetta della scheda, in una nuova posizione all&#39;interno del set di schede.
+1. Seleziona e trascina l&#39;icona _Sposta_ ( ![Icona Sposta](./assets/pb-icon-move.png){width="20"} ), visualizzata immediatamente prima del testo dell&#39;etichetta della scheda, in una nuova posizione all&#39;interno del set di schede.
 
 ## Aggiungere contenuto a una scheda
 
@@ -105,31 +105,31 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
 1. Fai clic sulla scheda in cui desideri aggiungere il contenuto.
 
-1. In [!DNL Page Builder] pannello, espandere **[!UICONTROL Elements]** e trascina un **Testo** segnaposto per la scheda.
+1. Nel pannello [!DNL Page Builder], espandi **[!UICONTROL Elements]** e trascina un segnaposto **Testo** nella scheda.
 
 1. Inserisci o incolla del testo nell’editor e utilizza la barra degli strumenti dell’editor per formattarlo come necessario.
 
-   Consulta [Elementi - Testo](text.md) per ulteriori informazioni sull&#39;utilizzo del tipo di contenuto testo.
+   Per ulteriori informazioni sull&#39;utilizzo del tipo di contenuto testo, vedere [Elementi - Testo](text.md).
 
    ![Modifica del contenuto di testo aggiunto nella scheda](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"}
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Save]**.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]**.
 
 ## Modificare le singole impostazioni delle schede
 
-1. Passa il puntatore del mouse su una singola scheda per visualizzare la casella degli strumenti e scegli _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Passa il puntatore del mouse su una singola scheda per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Se necessario, modifica una delle impostazioni di base per la scheda:
 
    - **[!UICONTROL Tab Name]** - Immettere il testo revisionato per l&#39;etichetta della scheda. Potete anche modificare l&#39;etichetta direttamente sullo stage.
 
-   - **[!UICONTROL Minimum Height]** - Immetti come pixel se desideri escludere l’altezza automatica. Ad esempio, potete impostare l&#39;altezza minima in modo che corrisponda all&#39;altezza di un&#39;immagine di sfondo per garantire che sia visibile l&#39;intera immagine.
+   - **[!UICONTROL Minimum Height]** - Immettere come pixel se si desidera ignorare l&#39;altezza automatica. Ad esempio, potete impostare l&#39;altezza minima in modo che corrisponda all&#39;altezza di un&#39;immagine di sfondo per garantire che sia visibile l&#39;intera immagine.
 
-   - **[!UICONTROL Vertical Alignment]** : scegli la posizione verticale dei contenitori di contenuto aggiunti alla scheda.
+   - **[!UICONTROL Vertical Alignment]** - Scegliere la posizione verticale dei contenitori di contenuto aggiunti alla scheda.
 
 1. Modificare le altre impostazioni in base alle esigenze utilizzando le sezioni seguenti per i dettagli.
 
-1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 ### Informazioni di base
 
@@ -145,7 +145,7 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
    - Il valore rgba del colore, con percentuale di opacità, ad esempio `rgba(255, 255, 255, 0.75)`
 
-  Se desiderate scegliere un colore, fate clic sul campione a sinistra della _Nessun colore_ casella.
+  Per scegliere un colore, fare clic sul campione a sinistra della casella _Nessun colore_.
 
   ![Scelta di un campione di colore](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
@@ -155,9 +155,9 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
   >[!NOTE]
   >
-  >[!DNL Page Builder] supporta anche un livello di trasparenza, oppure _canale alfa_, nelle immagini di sfondo che possono essere utilizzate per creare sfondi con vari gradi di opacità.
+  >[!DNL Page Builder] supporta anche un livello di trasparenza, o _canale alfa_, nelle immagini di sfondo che possono essere utilizzate per creare sfondi con diversi gradi di opacità.
 
-- **[!UICONTROL Background Image]** - Se necessario, utilizza gli strumenti forniti per scegliere un’immagine di sfondo da applicare alla scheda:
+- **[!UICONTROL Background Image]** - Se necessario, utilizzare gli strumenti forniti per scegliere un&#39;immagine di sfondo da applicare alla scheda:
 
   | Strumento | Descrizione |
   |--- |--- |
@@ -167,9 +167,9 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Mobile Image]** - Se necessario, utilizzare gli stessi strumenti per scegliere un&#39;immagine di sfondo diversa da utilizzare per la visualizzazione su dispositivi mobili.
+- **[!UICONTROL Background Mobile Image]** - Se necessario, utilizzare gli stessi strumenti per scegliere un&#39;immagine di sfondo diversa da utilizzare per la visualizzazione sui dispositivi mobili.
 
-- **[!UICONTROL Background Size]** - Scegli come viene ridimensionata l’immagine di sfondo in relazione alla larghezza della scheda:
+- **[!UICONTROL Background Size]** - Scegliere come ridimensionare l&#39;immagine di sfondo in relazione alla larghezza della scheda:
 
   | Opzione | Descrizione |
   |--- |--- |
@@ -179,9 +179,9 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Position]** - Scegli come l’immagine di sfondo viene ancorata in relazione alla scheda: `Top Left` / `Top Center` / `Top Right` / `Center Left` / `Center` / `Center Right` / `Bottom Left` / `Bottom Center` / `Bottom Right`
+- **[!UICONTROL Background Position]** - Scegliere come ancorare l&#39;immagine di sfondo in relazione alla scheda: `Top Left` / `Top Center` / `Top Right` / `Center Left` / `Center` / `Center Right` / `Bottom Left` / `Bottom Center` / `Bottom Right`
 
-- **[!UICONTROL Background Attachment]** - Scegliere il tipo di allegato per determinare il modo in cui l&#39;immagine di sfondo si sposta in relazione alla pagina di scorrimento:
+- **[!UICONTROL Background Attachment]** - Scegliere il tipo di allegato per determinare la modalità di spostamento dell&#39;immagine di sfondo in relazione alla pagina di scorrimento:
 
   | Opzione | Descrizione |
   | --- | --- |
@@ -190,11 +190,11 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Repeat]** - Imposta su `Yes` per ripetere l&#39;immagine di sfondo per riempire lo spazio disponibile nella scheda.
+- **[!UICONTROL Background Repeat]** - Impostare su `Yes` per ripetere l&#39;immagine di sfondo in modo da riempire lo spazio disponibile nella scheda.
 
 ### Avanzate
 
-- Per controllare l’allineamento orizzontale dei contenitori di contenuto aggiunti alla scheda, scegli un **[!UICONTROL Alignment]** .
+- Per controllare l&#39;allineamento orizzontale dei contenitori di contenuto aggiunti alla scheda, scegliere un **[!UICONTROL Alignment]**.
 
   | Opzione | Descrizione |
   | --- | --- |
@@ -205,7 +205,7 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
   {style="table-layout:auto"}
 
-- Imposta il **[!UICONTROL Border]** stile applicato a tutti e quattro i lati del contenitore di schede:
+- Imposta lo stile **[!UICONTROL Border]** applicato a tutti e quattro i lati del contenitore di schede:
 
   | Opzione | Descrizione |
   | --- | --- |
@@ -238,11 +238,11 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
   ![Riga con raggio bordo 15](./assets/pb-settings-border-radius-15.png){width="500"}
 
-- (Facoltativo) Specifica i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare al contenitore colonne.
+- (Facoltativo) Specificare i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare al contenitore colonne.
 
   Separare più nomi di classe con uno spazio.
 
-- Immetti i valori, in pixel, per il **[!UICONTROL Margins and Padding]** per specificare i margini esterni e la spaziatura interna della colonna.
+- Immettere i valori in pixel per **[!UICONTROL Margins and Padding]** per specificare i margini esterni e la spaziatura interna della colonna.
 
   Immetti ogni valore corrispondente nel diagramma del contenitore di schede.
 
@@ -255,21 +255,21 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
 ## Modifica impostazioni set di schede
 
-1. Passa il puntatore del mouse sul bordo superiore del contenitore del set di schede per visualizzare la casella degli strumenti e scegli _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Passa il puntatore del mouse sul bordo superiore del contenitore del set di schede per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Se necessario, modificare il **[!UICONTROL Default Active Tab]**.
+1. Se necessario, modificare **[!UICONTROL Default Active Tab]**.
 
    Scegliere la scheda del set che si desidera rendere attivo al caricamento della pagina.
 
-1. Inserisci il **[!UICONTROL Minimum Height]**, in pixel, se si desidera ignorare l&#39;altezza automatica del set di schede.
+1. Immettere **[!UICONTROL Minimum Height]**, in pixel, se si desidera ignorare l&#39;altezza automatica per il set di schede.
 
-1. Per posizionare le schede di navigazione nella parte superiore del set di schede, scegliete **[!UICONTROL Tab Navigation Alignment]** (`Left`, `Center`, o `Right`).
+1. Per posizionare le schede di navigazione nella parte superiore del set di schede, scegliere **[!UICONTROL Tab Navigation Alignment]** (`Left`, `Center` o `Right`).
 
    ![Schede di navigazione allineate a destra](./assets/pb-layout-tabs-navigation-alignment-right.png){width="500" zoomable="yes"}
 
 1. Impostare le opzioni avanzate per il set di schede:
 
-   - Per controllare il posizionamento del set di schede all&#39;interno del contenitore principale, scegliete un **[!UICONTROL Alignment]**:
+   - Per controllare il posizionamento del set di schede all&#39;interno del contenitore principale, scegliere un **[!UICONTROL Alignment]**:
 
      | Opzione | Descrizione |
      | ------ | ---------- |
@@ -280,7 +280,7 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
      {style="table-layout:auto"}
 
-   - Imposta il **[!UICONTROL Border]** stile applicato a tutti e quattro i lati del contenitore schede:
+   - Imposta lo stile **[!UICONTROL Border]** applicato a tutti e quattro i lati del contenitore di schede:
 
      | Opzione | Descrizione |
      | ------ | ---------- |
@@ -307,11 +307,11 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
      {style="table-layout:auto"}
 
-   - (Facoltativo) Specifica i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente per applicare al contenitore schede.
+   - (Facoltativo) Specificare i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare al contenitore di schede.
 
      Separare più nomi di classe con uno spazio.
 
-   - Immetti i valori, in pixel, per il **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del contenitore schede.
+   - Immettere i valori, in pixel, per **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del contenitore di schede.
 
      Immetti i valori corrispondenti nel diagramma del contenitore schede.
 
@@ -322,7 +322,7 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
      {style="table-layout:auto"}
 
-1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 [background]: #background
 [advanced]: #advanced

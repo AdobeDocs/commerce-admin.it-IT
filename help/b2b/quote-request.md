@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Richiesta di offerta
 
-Se le virgolette sono abilitate in [Configurazione delle funzioni di vendita](configure-quotes.md), un acquirente autorizzato di un&#39;azienda può avviare il processo di negoziazione dei prezzi richiedendo un preventivo dal carrello. Se un buyer non è pronto a sottomettere un preventivo per la negoziazione, può salvarlo come bozza.
+Se i preventivi sono abilitati nella [configurazione delle funzionalità di vendita](configure-quotes.md), un acquirente autorizzato di una società può avviare il processo di negoziazione del prezzo richiedendo un preventivo dal carrello. Se un buyer non è pronto a sottomettere un preventivo per la negoziazione, può salvarlo come bozza.
 
 >[!NOTE]
 >
@@ -33,22 +33,22 @@ Se le virgolette sono abilitate in [Configurazione delle funzioni di vendita](co
 
    ![Richiesta di un preventivo dal carrello](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. In **[!UICONTROL Add your comment]** il cliente immette una breve nota per descrivere la richiesta.
+1. Nella casella **[!UICONTROL Add your comment]**, il cliente immette una breve nota per descrivere la richiesta.
 
-1. Immette un valore **[!UICONTROL Quote Name]**.
+1. Immette un **[!UICONTROL Quote Name]**.
 
-   ![Inserimento dei commenti e del nome dell&#39;offerta](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
+   ![Inserimento di commenti e nome](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
 
 1. Se necessario, allega un documento o un&#39;immagine di supporto all&#39;offerta:
 
    - Seleziona **[!UICONTROL Attach file]**.
    - Seleziona il file dal proprio sistema.
 
-   Per impostazione predefinita, un [file allegato](configure-quotes.md) può essere fino a 2 MB, in uno qualsiasi dei seguenti formati di file: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG o JPEG, PNG.
+   Per impostazione predefinita, un [file allegato](configure-quotes.md) può avere una dimensione massima di 2 MB, in uno qualsiasi dei seguenti formati di file: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG o JPEG, PNG.
 
 1. Crea ed elabora il preventivo:
 
    - Invia il preventivo al venditore selezionando **[!UICONTROL Request a Quote]**.
-   - [!BADGE Funzionalità 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponibile solo per i partecipanti ai programmi beta"}**[!UICONTROL Save as Draft]**.
+   - Funzionalità [!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponibile solo per i partecipanti al programma Beta"}**[!UICONTROL Save as Draft]**.
 
-     Se l&#39;acquirente salva il preventivo come bozza, il preventivo è disponibile in [!UICONTROL My Quotes] in `Draft` stato. Le proposte di preventivo non sono visibili al venditore finché l&#39;acquirente non le invia per la revisione.
+     Se l&#39;acquirente salva il preventivo come bozza, il preventivo sarà disponibile in [!UICONTROL My Quotes] nello stato `Draft`. Le proposte di preventivo non sono visibili al venditore finché l&#39;acquirente non le invia per la revisione.

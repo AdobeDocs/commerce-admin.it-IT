@@ -14,13 +14,13 @@ ht-degree: 0%
 
 All’interno dell’implementazione di Adobe Commerce o del Magento Open Source, la vetrina è la parte esterna dello store che si rivolge al pubblico. Fornisce i contenuti e i componenti funzionali utilizzati dai clienti per effettuare acquisti e acquisti.
 
-Il percorso seguito dai clienti per una vendita è talvolta denominato _percorso di acquisto_, e la vetrina include i componenti necessari ai clienti per completare questo percorso. Le sezioni seguenti forniscono una panoramica dei tipi di pagina di base che forniscono valore strategico, ovvero i luoghi che i clienti visitano solitamente durante gli acquisti nel negozio. Esaminandole, è possibile prendere in considerazione diverse funzioni del punto vendita che possono essere utilizzate in ogni fase del percorso di clienti.
+Il percorso che i clienti portano a una vendita è a volte chiamato _percorso di acquisto_ e la vetrina include i componenti necessari ai clienti per completare questo percorso. Le sezioni seguenti forniscono una panoramica dei tipi di pagina di base che forniscono valore strategico, ovvero i luoghi che i clienti visitano solitamente durante gli acquisti nel negozio. Esaminandole, è possibile prendere in considerazione diverse funzioni del punto vendita che possono essere utilizzate in ogni fase del percorso di clienti.
 
 ## Home page
 
 Lo sapevi che la maggior parte delle persone passa solo pochi secondi su una pagina prima di decidere di rimanere o andare altrove? Non è molto tempo per fare un&#39;impressione. Gli studi dimostrano che le persone amano anche le fotografie, specialmente di altre persone. Indipendentemente dal design scelto, tutto ciò che si trova nella pagina principale dovrebbe far avanzare i visitatori verso la fase successiva del processo di vendita. L&#39;idea è quella di guidare la loro attenzione in un flusso coeso da un punto di interesse all&#39;altro.
 
-![Esempio di home page della vetrina](./assets/storefront-homepage-full.png){width="700"}
+![Home page vetrina di esempio](./assets/storefront-homepage-full.png){width="700"}
 
 ## Pagina catalogo
 
@@ -32,17 +32,17 @@ La descrizione iniziale del prodotto solitamente fornisce ai clienti informazion
 
 ## Risultati di ricerca
 
-Lo sapevi che le persone che utilizzano la ricerca hanno quasi il doppio delle probabilità di effettuare un acquisto rispetto alle persone che si affidano esclusivamente alla navigazione? Potresti considerare questi acquirenti come _pre-qualificato_.
+Lo sapevi che le persone che utilizzano la ricerca hanno quasi il doppio delle probabilità di effettuare un acquisto rispetto alle persone che si affidano esclusivamente alla navigazione? Potresti considerare questi acquirenti come _pre-qualificati_.
 
 ### [!DNL Live Search]
 
-Con [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) per Adobe Commerce, il tuo negozio offre un’esperienza di ricerca rapida, super-rilevante e intuitiva ed è disponibile gratuitamente per Adobe Commerce.
+Con [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) per Adobe Commerce, il tuo store offre un&#39;esperienza di ricerca rapida, super-rilevante e intuitiva ed è disponibile gratuitamente per Adobe Commerce.
 
-![Esempio di Live Search: cerca durante la digitazione](./assets/storefront-search-as-you-type.png){width="700"}
+![Esempio di Live Search - cerca durante la digitazione](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### Ricerca nel catalogo standard
 
-Con [ricerca catalogo standard](../catalog/search.md), il tuo store include una casella di ricerca nell’angolo superiore destro e un collegamento a Ricerca avanzata nel piè di pagina. Tutti i termini di ricerca inviati dagli acquirenti vengono salvati, in modo da poter vedere esattamente ciò che stanno cercando. È possibile offrire suggerimenti e immettere sinonimi e errori ortografici comuni. Quindi, visualizza una pagina specifica quando viene inserito un termine di ricerca.
+Con [ricerca catalogo standard](../catalog/search.md), lo store include una casella di ricerca nell&#39;angolo superiore destro e un collegamento a Ricerca avanzata nel piè di pagina. Tutti i termini di ricerca inviati dagli acquirenti vengono salvati, in modo da poter vedere esattamente ciò che stanno cercando. È possibile offrire suggerimenti e immettere sinonimi e errori ortografici comuni. Quindi, visualizza una pagina specifica quando viene inserito un termine di ricerca.
 
 ![Esempio di risultati di ricerca catalogo standard](./assets/storefront-search-results-page-full.png){width="700"}
 
@@ -50,13 +50,13 @@ Con [ricerca catalogo standard](../catalog/search.md), il tuo store include una 
 
 La pagina dei prodotti è piena di novità. La prima cosa che colpisce il vostro sguardo sulla pagina del prodotto è l&#39;immagine principale con uno zoom ad alta risoluzione e la galleria di miniature. Oltre al prezzo e alla disponibilità, è disponibile una sezione a schede con ulteriori informazioni e un elenco dei prodotti correlati.
 
-![Esempio di pagina di prodotto della vetrina](./assets/storefront-product-page-full-m.png){width="700"}
+![Pagina prodotto vetrina di esempio](./assets/storefront-product-page-full-m.png){width="700"}
 
 ## Carrello
 
 Il carrello è il luogo in cui il totale dell&#39;ordine può essere determinato, insieme a buoni sconto e spese di spedizione stimate e un ottimo posto per visualizzare i distintivi di fiducia e sigilli. È anche un&#39;opportunità ideale per offrire un ultimo elemento. In qualità di cross-selling, puoi selezionare alcuni articoli da offrire come acquisto di impulso ogni volta che un articolo specifico appare nel carrello.
 
-![Esempio di pagina del carrello della vetrina](./assets/storefront-cart-full.png){width="700"}
+![Esempio di pagina del carrello acquisti della vetrina](./assets/storefront-cart-full.png){width="700"}
 
 ## Pagina cassa
 
@@ -65,9 +65,9 @@ Il processo di pagamento è costituito da due passaggi:
 1. Informazioni spedizione
 
    La prima fase del processo di pagamento consiste nel completare le informazioni relative all&#39;indirizzo di spedizione e nel scegliere il metodo di spedizione. Se il cliente dispone di un account, l&#39;indirizzo di spedizione viene inserito automaticamente, ma può essere modificato se necessario.
-Se un cliente ospite immette un indirizzo e-mail riconosciuto come registrato in precedenza, viene visualizzato il prompt di accesso se [!UICONTROL Enable Guest Checkout Login] nella configurazione dell&#39;archivio è impostato su `Yes` (vedere [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) nel _Guida di riferimento alla configurazione_). Tuttavia, questa impostazione può esporre le informazioni del cliente a utenti non autenticati.
+Se un cliente guest immette un indirizzo e-mail riconosciuto come registrato in precedenza, viene visualizzato il prompt di accesso se il campo [!UICONTROL Enable Guest Checkout Login] nella configurazione dell&#39;archivio è impostato su `Yes` (vedere [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) nella _Guida di riferimento alla configurazione_). Tuttavia, questa impostazione può esporre le informazioni del cliente a utenti non autenticati.
 
-   ![Esempio di pagina di checkout della vetrina](./assets/storefront-checkout-shipping-full.png){width="700"}
+   ![Esempio di pagina di estrazione della vetrina](./assets/storefront-checkout-shipping-full.png){width="700"}
 
 1. Verifica e informazioni sul pagamento
 
@@ -75,11 +75,11 @@ Se un cliente ospite immette un indirizzo e-mail riconosciuto come registrato in
 
    >[!NOTE]
    >
-   >Anche se [!DNL Commerce] consente di configurare più codici coupon; un cliente può applicare al carrello un solo codice coupon. (consultare la [Codici coupon](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) per ulteriori informazioni.)
+   >Sebbene [!DNL Commerce] consenta la configurazione di più codici coupon, un cliente può applicare al carrello un solo codice coupon. Per ulteriori informazioni, vedere [Codici coupon](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes).
 
-   ![Esempio di pagina di checkout della vetrina](./assets/storefront-checkout-payment-full.png){width="700"}
+   ![Esempio di pagina di estrazione della vetrina](./assets/storefront-checkout-payment-full.png){width="700"}
 
-La barra di avanzamento nella parte superiore della pagina segue ogni passaggio del processo di pagamento e _Riepilogo ordine_ mostra le informazioni immesse fino a questo punto.
+La barra di avanzamento nella parte superiore della pagina segue ogni passaggio del processo di pagamento e il _Riepilogo ordine_ mostra le informazioni immesse fino a questo momento.
 
 >[!NOTE]
 >

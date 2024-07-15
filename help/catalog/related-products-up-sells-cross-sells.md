@@ -1,18 +1,18 @@
 ---
 title: Impostazioni prodotto - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
-description: Per un prodotto, il [!UICONTROL Related Products, Up-Sells, and Cross-Sells] Le impostazioni definiscono semplici blocchi promozionali sulla pagina del prodotto che evidenziano una selezione di prodotti aggiuntivi.
+description: Per un prodotto, le impostazioni [!UICONTROL Related Products, Up-Sells, and Cross-Sells] definiscono semplici blocchi promozionali sulla pagina del prodotto che evidenziano una selezione di prodotti aggiuntivi.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
 source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
 # Impostazioni prodotto - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Utilizza il _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_sezione per impostare semplici blocchi promozionali che presentano una selezione di prodotti aggiuntivi che potrebbero essere di interesse per il cliente. Per ulteriori informazioni, consulta [Relazioni prodotto](../merchandising-promotions/product-relationships.md).
+Utilizzare la sezione _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_per impostare semplici blocchi promozionali che presentano una selezione di prodotti aggiuntivi che potrebbero essere di interesse per il cliente. Per ulteriori informazioni, vedere [Relazioni prodotto](../merchandising-promotions/product-relationships.md).
 
 ![Prodotti correlati, up-selling e cross-selling](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -33,13 +33,13 @@ Ogni blocco è costituito da un elenco di prodotti che appartengono a un’opzio
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) **Recommendations di prodotto con tecnologia Adobe Sensei** semplifica il processo di definizione delle relazioni tra i prodotti utilizzando algoritmi di intelligenza artificiale e machine learning per eseguire un’analisi approfondita dei dati aggregati dei visitatori. Quando vengono combinati con il catalogo di Adobe Commerce, questi dati offrono esperienze altamente coinvolgenti, pertinenti e personalizzate per l’acquirente.
+>![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) **Product Recommendations basato su Adobe Sensei** semplifica il processo di definizione delle relazioni tra i prodotti utilizzando algoritmi di intelligenza artificiale e machine learning per eseguire un&#39;analisi approfondita dei dati aggregati dei visitatori. Quando vengono combinati con il catalogo di Adobe Commerce, questi dati offrono esperienze altamente coinvolgenti, pertinenti e personalizzate per l’acquirente.
 ><br/>
->Per ulteriori informazioni sull’utilizzo di questa estensione sviluppata dall’Adobe come alternativa alla configurazione manuale di consigli e up-sell, consulta la sezione _[Guida di Recommendations del prodotto](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_.
+>Per ulteriori informazioni sull&#39;utilizzo di questa estensione sviluppata dall&#39;Adobe come alternativa alla configurazione manuale di consigli e up-sell per i prodotti, consulta la _[Guida di Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_.
 
 ## Prodotti correlati
 
-I prodotti correlati devono essere acquistati in aggiunta all&#39;articolo che il cliente sta visualizzando. Il cliente può inserire l’articolo nel carrello semplicemente facendo clic sulla casella di controllo. Posizionamento del _Prodotti correlati_ Il blocco varia in base al tema e al layout di pagina definiti. Nell’esempio seguente, il _Prodotti correlati_ il blocco viene visualizzato nella parte inferiore del _Visualizzazione prodotto_ pagina. Con un layout a due colonne, _Prodotti correlati_ Il blocco viene spesso visualizzato nella barra laterale destra.
+I prodotti correlati devono essere acquistati in aggiunta all&#39;articolo che il cliente sta visualizzando. Il cliente può inserire l’articolo nel carrello semplicemente facendo clic sulla casella di controllo. La posizione del blocco _Prodotti correlati_ varia in base al tema e al layout di pagina definiti. Nell&#39;esempio seguente, il blocco _Prodotti correlati_ viene visualizzato nella parte inferiore della pagina _Visualizzazione prodotto_. Con un layout a due colonne, il blocco _Prodotti correlati_ viene spesso visualizzato nella barra laterale a destra.
 
 ![Prodotti correlati](./assets/storefront-product-related-products.png){width="600" zoomable="yes"}
 
@@ -47,39 +47,39 @@ Per impostare i prodotti correlati:
 
 1. Apri il prodotto in modalità di modifica.
 
-1. Scorri verso il basso ed espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** sezione.
+1. Scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**.
 
-1. Clic **[!UICONTROL Add Related Products]**.
+1. Fare clic su **[!UICONTROL Add Related Products]**.
 
-1. Utilizza il [controlli filtro](../getting-started/admin-grid-controls.md) per trovare i prodotti desiderati.
+1. Utilizza i [controlli filtro](../getting-started/admin-grid-controls.md) per trovare i prodotti desiderati.
 
 1. Nell’elenco, seleziona la casella di controllo di qualsiasi prodotto che desideri visualizzare come prodotto correlato.
 
    ![Prodotti correlati](./assets/products-related-add.png){width="600" zoomable="yes"}
 
-1. Al termine, fai clic su **[!UICONTROL Add Selected Products]**.
+1. Al termine, fare clic su **[!UICONTROL Add Selected Products]**.
 
 ## Up-sell
 
-I prodotti di upselling sono articoli che il cliente potrebbe preferire al posto del prodotto attualmente considerato. Un articolo offerto come upselling potrebbe essere di qualità superiore, più popolare o avere un margine di profitto migliore. I prodotti di upselling vengono visualizzati nella pagina del prodotto sotto un’intestazione come _Potresti anche essere interessato ai seguenti prodotti_.
+I prodotti di upselling sono articoli che il cliente potrebbe preferire al posto del prodotto attualmente considerato. Un articolo offerto come upselling potrebbe essere di qualità superiore, più popolare o avere un margine di profitto migliore. I prodotti di upselling vengono visualizzati nella pagina del prodotto sotto un&#39;intestazione come _Potresti essere interessato anche ai seguenti prodotti_.
 
-![Up-selling](./assets/storefront-product-upsell.png){width="600" zoomable="yes"}
+![Vendita al rialzo](./assets/storefront-product-upsell.png){width="600" zoomable="yes"}
 
 Per selezionare i prodotti di upselling:
 
 1. Apri il prodotto in modalità di modifica.
 
-1. Scorri verso il basso ed espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** sezione.
+1. Scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**.
 
-1. Clic **[!UICONTROL Add Up-Sell Products]**.
+1. Fare clic su **[!UICONTROL Add Up-Sell Products]**.
 
-1. Utilizza il [controlli filtro](../getting-started/admin-grid-controls.md) per trovare i prodotti desiderati.
+1. Utilizza i [controlli filtro](../getting-started/admin-grid-controls.md) per trovare i prodotti desiderati.
 
 1. Nell’elenco, seleziona la casella di controllo di qualsiasi prodotto che desideri visualizzare come prodotto di upselling.
 
-   ![Prodotti up-selling](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
+   ![Prodotti di upselling](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
-1. Al termine, fai clic su **[!UICONTROL Add Selected Products]**.
+1. Al termine, fare clic su **[!UICONTROL Add Selected Products]**.
 
 >[!NOTE]
 >
@@ -91,22 +91,22 @@ Gli articoli di cross-selling sono simili agli acquisti di impulso posizionati a
 
 >[!NOTE]
 >
->Per mostrare o nascondere gli articoli di cross-selling per visualizzazione punto vendita, vedere [Pagamento > Carrello](../configuration-reference/sales/checkout.md) opzione denominata _[!UICONTROL Show Cross-sell Items]_nel carrello. Puoi nascondere le cross-selling durante vendite specifiche o per test A/B in una visualizzazione punto vendita.
+>Per mostrare o nascondere gli articoli di cross-selling per visualizzazione store, vedere l&#39;opzione [Pagamento > Carrello acquisti](../configuration-reference/sales/checkout.md) denominata _[!UICONTROL Show Cross-sell Items]_nel carrello acquisti. Puoi nascondere le cross-selling durante vendite specifiche o per test A/B in una visualizzazione punto vendita.
 
-![Cross-selling nel carrello](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
+![Effetti di cross-selling nel carrello](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
 **_Per selezionare i prodotti di cross-selling:_**
 
 1. Apri il prodotto in modalità di modifica.
 
-1. Scorri verso il basso ed espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** sezione.
+1. Scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**.
 
-1. Clic **[!UICONTROL Add Cross-Sell Products]**.
+1. Fare clic su **[!UICONTROL Add Cross-Sell Products]**.
 
-1. Utilizza il [controlli filtro](../getting-started/admin-grid-controls.md) per trovare i prodotti desiderati.
+1. Utilizza i [controlli filtro](../getting-started/admin-grid-controls.md) per trovare i prodotti desiderati.
 
 1. Nell’elenco, seleziona la casella di controllo di qualsiasi prodotto che desideri visualizzare come prodotto di cross-selling.
 
    ![Prodotti di cross-selling](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
 
-1. Al termine, fai clic su **[!UICONTROL Add Selected Products]**.
+1. Al termine, fare clic su **[!UICONTROL Add Selected Products]**.

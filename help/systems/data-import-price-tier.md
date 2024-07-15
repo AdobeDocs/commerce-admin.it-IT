@@ -5,28 +5,28 @@ exl-id: b19d0208-68b3-45ba-9896-318e12ff4131
 feature: Products, Data Import/Export
 source-git-commit: 55b0672984ce8cdb853daf024299919beaf7ce0b
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
 
 # Importa prezzi livello
 
-anziché immettere [prezzi di livello](../catalog/product-price-tier.md) manualmente per ogni prodotto, può essere più efficiente per [importa](data-import.md) i dati relativi ai prezzi. Prima di iniziare, creare un file di esempio dei dati dei prezzi dei livelli esportati che è possibile utilizzare come modello.
+Anziché immettere manualmente [i prezzi di livello](../catalog/product-price-tier.md) per ciascun prodotto, può essere più efficiente [importare](data-import.md) i dati relativi ai prezzi. Prima di iniziare, creare un file di esempio dei dati dei prezzi dei livelli esportati che è possibile utilizzare come modello.
 
 ![Esempio di vetrina - prezzi su più livelli](./assets/storefront-tier-pricing-water-bottle.png){width="700" zoomable="yes"}
 
 ## Passaggio 1: esportare i dati dei prezzi del livello
 
-Nell&#39;esempio seguente vengono esportati i dati relativi ai prezzi dei livelli per un singolo prodotto. Quindi, puoi utilizzare i dati esportati come modello per le importazioni in blocco di dati relativi ai prezzi dei livelli. Per ulteriori informazioni sull&#39;esportazione di dati di prezzi avanzati, vedere [Dati di determinazione prezzi avanzata](data-attributes-product.md#advanced-pricing-attributes).
+Nell&#39;esempio seguente vengono esportati i dati relativi ai prezzi dei livelli per un singolo prodotto. Quindi, puoi utilizzare i dati esportati come modello per le importazioni in blocco di dati relativi ai prezzi dei livelli. Per ulteriori informazioni sull&#39;esportazione dei dati di determinazione prezzi avanzata, vedere [Dati di determinazione prezzi avanzata](data-attributes-product.md#advanced-pricing-attributes).
 
-![Prezzi su più livelli del prodotto](./assets/price-tier-customer-group-discount.png){width="600" zoomable="yes"}
+![Prezzo su più livelli del prodotto](./assets/price-tier-customer-group-discount.png){width="600" zoomable="yes"}
 
-1. On _Amministratore_ barra laterale, vai a  **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
+1. Nella barra laterale _Admin_, vai a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-1. Sotto _[!UICONTROL Export Settings]_, impostato **[!UICONTROL Entity Type]**a `Advanced Pricing`.
+1. In _[!UICONTROL Export Settings]_, impostare **[!UICONTROL Entity Type]**su `Advanced Pricing`.
 
-1. In **[!UICONTROL Entity Attributes]** nella griglia, scorrere verso il basso fino agli attributi SKU ed effettuare le seguenti operazioni:
+1. Nella griglia **[!UICONTROL Entity Attributes]**, scorrere verso il basso fino agli attributi SKU ed effettuare le seguenti operazioni:
 
    - Per i prezzi dei livelli basati su una percentuale di sconto, inserisci lo SKU di ciascun prodotto da esportare, separato da una virgola.
 
@@ -34,13 +34,13 @@ Nell&#39;esempio seguente vengono esportati i dati relativi ai prezzi dei livell
 
    - Per i prezzi dei livelli basati su un importo fisso, immettere lo SKU di ciascun prodotto.
 
-   - Scorri verso il basso e fai clic su **[!UICONTROL Continue]**.
+   - Scorrere verso il basso e fare clic su **[!UICONTROL Continue]**.
 
 1. Individua il file di esportazione nel percorso di download per il browser Web e apri il file.
 
-   ![Esempio: dati del prezzo del livello sconto del gruppo di clienti esportato](./assets/price-tier-customer-group-discount-export.png){width="600" zoomable="yes"}
+   ![Esempio - dati prezzo livello sconto gruppo clienti esportati](./assets/price-tier-customer-group-discount-export.png){width="600" zoomable="yes"}
 
-**_Dati prezzo livello esportato_**
+**_Dati prezzo livello esportati_**
 
 Nei dati esportati sono incluse le seguenti colonne:
 
@@ -67,16 +67,16 @@ I dati esportati vengono utilizzati come modello per l&#39;importazione dei dati
 
 ## Passaggio 3: importare i dati aggiornati
 
-1. On _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. Nella barra laterale _Admin_, vai a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Sotto _Importa impostazioni_, impostato **[!UICONTROL Entity Type]** a `Advanced Pricing`.
+1. In _Impostazioni importazione_, impostare **[!UICONTROL Entity Type]** su `Advanced Pricing`.
 
-1. Imposta **[!UICONTROL Import Behavior]** a `Add/Update`.
+1. Imposta **[!UICONTROL Import Behavior]** su `Add/Update`.
 
-1. Sotto **[!UICONTROL File to Import]**, fai clic su **[!UICONTROL Choose File]** e seleziona il file che hai preparato per l’importazione dalla directory.
+1. In **[!UICONTROL File to Import]**, fare clic su **[!UICONTROL Choose File]** e selezionare il file che si è preparati a importare dalla directory.
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Check Data]**.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Check Data]**.
 
-1. Se il file è valido, fare clic su **[!UICONTROL Import]**.
+1. Se il file è valido, scegliere **[!UICONTROL Import]**.
 
    In caso contrario, correggere ogni problema relativo ai dati elencati nel messaggio e riprovare a importare il file.

@@ -13,19 +13,19 @@ ht-degree: 0%
 
 # Guida ai contenuti e alla progettazione di Adobe Commerce
 
-Questa guida è destinata ai designer di contenuti e ai commercianti che lavorano in Adobe Commerce e Magento Open Source. Fornisce informazioni dettagliate sulle funzioni di progettazione e di contenuto, inclusa la creazione di componenti di contenuto di base. È necessario conoscere le nozioni di base [!DNL Commerce] configurazione e funzionalità.
+Questa guida è destinata ai designer di contenuti e ai commercianti che lavorano in Adobe Commerce e Magento Open Source. Fornisce informazioni dettagliate sulle funzioni di progettazione e di contenuto, inclusa la creazione di componenti di contenuto di base. Si presuppone una conoscenza di base della configurazione e delle funzionalità di base di [!DNL Commerce].
 
 Questa guida tratta i seguenti argomenti:
 
 | Oggetto | Descrizione |
 | ------- | ----------- |
 | [Introduzione](introduction.md) | Panoramica dell’utilizzo delle funzioni di progettazione dei contenuti e del sito per riflettere il branding e lo stile del tuo negozio. |
-| [Menu Contenuto](content-menu.md) | Utilizza il [!UICONTROL Content] per accedere a funzioni multiple per la gestione del contenuto nel negozio. |
-| Progettazione | Utilizzare gli strumenti di progettazione per controllare [tema](themes.md) e [layout di pagina](page-layout.md) per la vetrina. Il [[!UICONTROL Design Configuration]](configuration.md) consente di modificare facilmente le regole e le impostazioni di configurazione relative alla progettazione visualizzando le impostazioni in una singola pagina. |
-| Elementi contenuto | In questa sezione della guida trovi informazioni dettagliate su come creare e gestire i contenuti [pagine](pages.md) e [blocchi](blocks.md), e utilizzare [widget](widgets.md) per aggiungere contenuto dinamico. |
-| [Editor WYSIWYG](editor.md) | L’editor consente di inserire e formattare mentre si lavora in un _Quello Che Vedi È Quello Che Ottieni_ (WYSIWYG). |
-| Media | [Storage multimediale](media-storage.md) consente di organizzare e accedere ai file multimediali memorizzati sul server. Puoi caricare le risorse multimediali e [integrare Adobe Stock](adobe-stock.md) con [!DNL Commerce] per accedere a innumerevoli risorse multimediali da utilizzare nel tuo negozio. |
-| [Staging dei contenuti](content-staging.md) | La gestione temporanea dei contenuti offre al team aziendale la possibilità di creare, visualizzare in anteprima e pianificare facilmente un’ampia gamma di aggiornamenti dei contenuti per il tuo archivio direttamente dall’amministratore. |
+| [Menu Contenuto](content-menu.md) | Utilizza il menu [!UICONTROL Content] per accedere a più funzionalità per la gestione del contenuto nel tuo archivio. |
+| Progettazione | Utilizza gli strumenti di progettazione per controllare il [tema](themes.md) e i [layout di pagina](page-layout.md) per la vetrina. [[!UICONTROL Design Configuration]](configuration.md) semplifica la modifica delle regole e delle impostazioni di configurazione relative alla progettazione visualizzando le impostazioni in un&#39;unica pagina. |
+| Elementi contenuto | In questa sezione della guida troverai informazioni dettagliate per la creazione e la gestione del contenuto [pagine](pages.md) e [blocchi](blocks.md) e utilizzerai [widget](widgets.md) per aggiungere contenuto dinamico. |
+| [Editor WYSIWYG](editor.md) | L&#39;editor consente di immettere e formattare il contenuto mentre si lavora in una visualizzazione _What You See Is What You Get_ (WYSIWYG) del contenuto. |
+| Media | [Archiviazione file multimediali](media-storage.md) consente di organizzare i file multimediali archiviati nel server e di accedervi. Puoi caricare le tue risorse multimediali e [integrare Adobe Stock](adobe-stock.md) con [!DNL Commerce] per accedere a innumerevoli risorse multimediali da utilizzare nel tuo store. |
+| [Gestione temporanea dei contenuti](content-staging.md) | La gestione temporanea dei contenuti offre al team aziendale la possibilità di creare, visualizzare in anteprima e pianificare facilmente un’ampia gamma di aggiornamenti dei contenuti per il tuo archivio direttamente dall’amministratore. |
 
 {style="table-layout:auto"}
 

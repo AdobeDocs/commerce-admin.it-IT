@@ -1,18 +1,18 @@
 ---
 title: Elementi - Divisore
-description: Scopri il tipo di contenuto Divider, utilizzato per aggiungere una regola come interruzione visiva tra le sezioni di contenuto nel [!DNL Page Builder] fase.
+description: Scopri il tipo di contenuto Divider, utilizzato per aggiungere una regola come interruzione visiva tra le sezioni di contenuto nella fase  [!DNL Page Builder] .
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # Elementi - Divisore
 
-Utilizza il _Divisore_ tipo di contenuto per aggiungere una regola come interruzione visiva tra sezioni di contenuto nel [[!DNL Page Builder] fase](workspace.md#stage). È possibile specificare il colore, lo spessore e la larghezza della linea del divisore. È inoltre possibile controllare l&#39;allineamento, impostare i margini e la spaziatura interna e il formato del bordo del contenitore. Per impostazione predefinita, il divisore è una regola per i capelli che estende l’intera larghezza del contenitore, con tolleranza per la spaziatura interna.
+Utilizza il tipo di contenuto _Divider_ per aggiungere una regola come interruzione visiva tra sezioni di contenuto in [[!DNL Page Builder] stage](workspace.md#stage). È possibile specificare il colore, lo spessore e la larghezza della linea del divisore. È inoltre possibile controllare l&#39;allineamento, impostare i margini e la spaziatura interna e il formato del bordo del contenitore. Per impostazione predefinita, il divisore è una regola per i capelli che estende l’intera larghezza del contenitore, con tolleranza per la spaziatura interna.
 
 ![Divisore predefinito in un contenitore senza bordo](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
 
@@ -29,9 +29,9 @@ Anche se la maggior parte dei contenitori divisore sono invisibili, l&#39;esempi
 | Sposta | ![Icona Sposta](./assets/pb-icon-move.png){width="25"} | Sposta il contenitore del divisore in un altro punto valido della pagina. |
 | (etichetta) | DIVISORE | Identifica il contenitore corrente come elemento divisore. |
 | Impostazioni | ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} | Apre la pagina Modifica divisore, in cui è possibile modificare le proprietà del divisore e del relativo contenitore. |
-| Nascondi | ![Nascondi icona](./assets/pb-icon-hide.png){width="25"} | Nasconde il contenitore divisore. |
+| Nascondi | ![Icona Nascondi](./assets/pb-icon-hide.png){width="25"} | Nasconde il contenitore divisore. |
 | Spettacolo | ![Mostra icona](./assets/pb-icon-show.png){width="25"} | Mostra il contenitore divisore nascosto. |
-| Duplica | ![Icona Duplica](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia del contenitore del divisore. |
+| Duplica | ![Icona duplicata](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia del contenitore del divisore. |
 | Rimuovi | ![Icona Rimuovi](./assets/pb-icon-remove.png){width="25"} | Elimina dall&#39;area di visualizzazione il contenitore del divisore e il relativo contenuto. |
 
 {style="table-layout:auto"}
@@ -40,7 +40,7 @@ Anche se la maggior parte dei contenitori divisore sono invisibili, l&#39;esempi
 
 ## Aggiungi un divisore
 
-1. In [!DNL Page Builder] pannello, espandere **[!UICONTROL Elements]** e trascina un **[!UICONTROL Divider]** segnaposto per una riga, colonna o gruppo di schede sullo stage.
+1. Nel pannello [!DNL Page Builder], espandi **[!UICONTROL Elements]** e trascina un segnaposto **[!UICONTROL Divider]** in una riga, colonna o set di schede sull&#39;area di visualizzazione.
 
    Utilizza la linea guida rossa come riferimento quando posizioni il divisore prima o dopo un altro contenitore di contenuto sullo stage.
 
@@ -54,28 +54,28 @@ Anche se la maggior parte dei contenitori divisore sono invisibili, l&#39;esempi
 
 ## Modificare le impostazioni del divisore
 
-1. Passa il puntatore del mouse sul contenitore del divisore per visualizzare la casella degli strumenti e scegli _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Passa il puntatore del mouse sul contenitore del divisore per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Casella degli strumenti Divisore](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
+   ![Casella degli strumenti divisore](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
 
-1. Cambia il divisore **[!UICONTROL Line Color]** utilizzando uno dei seguenti metodi:
+1. Modificare il divisore **[!UICONTROL Line Color]** utilizzando uno dei metodi seguenti:
 
-   - Immetti un valore valido [Nome colore HTML][1]. Ad esempio, `Teal`.
+   - Immettere un nome di colore [HTML valido][1]. Ad esempio, `Teal`.
    - Immetti il valore esadecimale del colore. Ad esempio, `#008080`.
 
-   Al termine, fai clic su **[!UICONTROL Apply]**.
+   Al termine, fare clic su **[!UICONTROL Apply]**.
 
    ![Impostazione del colore della linea](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
 
-1. Inserisci il **[!UICONTROL Line Thickness]** in pixel.
+1. Immetti **[!UICONTROL Line Thickness]** in pixel.
 
 1. Per indicare l&#39;unità di misura, immettere **[!UICONTROL Line Width]** seguito da `px` o `%`.
 
-   ![Impostazione del colore, dello spessore e della larghezza delle linee](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
+   ![Impostazione del colore, dello spessore e della larghezza della linea](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Aggiornare il _[!UICONTROL Advanced]_in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
 
-   - Per controllare il posizionamento del divisore all&#39;interno del contenitore principale, scegliete **[!UICONTROL Alignment]**:
+   - Per controllare il posizionamento del divisore all&#39;interno del contenitore principale, scegliere **[!UICONTROL Alignment]**:
 
      | Opzione | Descrizione |
      | ------ | ----------- |
@@ -90,7 +90,7 @@ Anche se la maggior parte dei contenitori divisore sono invisibili, l&#39;esempi
 
      ![Divisore con allineamento al centro](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - Imposta il **[!UICONTROL Border]** stile applicato a tutti e quattro i lati del contenitore divisore:
+   - Impostare lo stile **[!UICONTROL Border]** applicato a tutti e quattro i lati del contenitore divisore:
 
      | Opzione | Descrizione |
      | ------ | ----------- |
@@ -117,11 +117,11 @@ Anche se la maggior parte dei contenitori divisore sono invisibili, l&#39;esempi
 
      {style="table-layout:auto"}
 
-   - (Facoltativo) Specifica i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare al contenitore.
+   - (Facoltativo) Specificare i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare al contenitore.
 
      Separare più nomi di classe con uno spazio.
 
-   - Immetti i valori, in pixel, per il **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del contenitore divisore.
+   - Immettere i valori, in pixel, per **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del contenitore divisore.
 
      Immettere i valori corrispondenti nel diagramma.
 
@@ -132,7 +132,7 @@ Anche se la maggior parte dei contenitori divisore sono invisibili, l&#39;esempi
 
      {style="table-layout:auto"}
 
-1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
    ![Divisore centrato in una riga](./assets/pb-elements-divider-settings-2px-centered.png){width="500" zoomable="yes"}
 
@@ -140,13 +140,13 @@ Anche se la maggior parte dei contenitori divisore sono invisibili, l&#39;esempi
 
 Per un divisore formattato con impostazioni specifiche, è più efficiente creare un duplicato, anziché ricominciare con un nuovo segnaposto.
 
-1. Passa il puntatore del mouse sul contenitore del divisore per visualizzare la casella degli strumenti e scegli _Duplica_ ( ![Icona Duplica](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Passa il puntatore del mouse sul contenitore del divisore per visualizzare la casella degli strumenti e scegli l&#39;icona _Duplica_ ( ![Icona Duplica](./assets/pb-icon-duplicate.png){width="20"} ).
 
    Il contenitore del divisore duplicato viene visualizzato immediatamente sotto l&#39;originale.
 
    ![Divisore duplicato](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. Passa il puntatore del mouse sul nuovo contenitore divisore per visualizzare la casella degli strumenti e scegli _Sposta_ ( ![Icona Sposta](./assets/pb-icon-move.png){width="20"} ).
+1. Passa il puntatore del mouse sul nuovo contenitore del divisore per visualizzare la casella degli strumenti e scegli l&#39;icona _Sposta_ ( ![Icona Sposta](./assets/pb-icon-move.png){width="20"} ).
 
    ![Spostamento di un divisore](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 

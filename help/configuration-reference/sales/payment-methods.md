@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] dell'amministratore di Commerce.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Payment Services per Adobe Commerce e Magento Open Source fornisce una soluzione self-service chiavi in mano, che include test sandbox e una configurazione semplice, per fornire un’elaborazione dei pagamenti solida e sicura. Per ulteriori informazioni su questo potente set di strumenti e su come può fornirti le informazioni e il controllo necessari per creare la migliore esperienza per i tuoi acquirenti, consulta la [_Guida utente di Payment Services_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>Payment Services per Adobe Commerce e Magento Open Source fornisce una soluzione self-service chiavi in mano, che include test sandbox e una configurazione semplice, per fornire un’elaborazione dei pagamenti solida e sicura. Per ulteriori informazioni su questo potente set di strumenti e su come può fornirti le informazioni e il controllo necessari per creare la migliore esperienza per i tuoi acquirenti, consulta la [_Guida utente per i servizi di pagamento_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
-![Località esercente](./assets/payment-methods-merchant-location.png)<!-- zoom -->
+![Posizione commerciante](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
 <!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
 
@@ -40,13 +40,13 @@ Le seguenti soluzioni di pagamento sono consigliate come un modo semplice per gl
 
 >[!NOTE]
 >
->Alcune integrazioni di pagamenti ed estensioni in bundle sono state rimosse nelle versioni 2.4.x e spostate in Commerci Marketplace. Puoi trovare le ultime estensioni ufficiali di integrazione dei pagamenti in [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
+>Alcune integrazioni di pagamenti ed estensioni in bundle sono state rimosse nelle versioni 2.4.x e spostate in Commerce Marketplace. Puoi trovare le ultime estensioni ufficiali di integrazione dei pagamenti in [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
 ><br/>
 >**Amazon Pay** e **Klarna**: Adobe Commerce e le versioni di Magento Open Source da 2.4.0 a 2.4.3 includevano queste estensioni sviluppate dal fornitore. A partire dalla versione 2.4.4, queste estensioni non sono più incluse nella versione di base e devono essere installate e aggiornate dalla versione di Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
 ><br/>
->Se hai abilitato e configurato una di queste estensioni in bundle, devi aggiornare il `composer.json` come parte del processo di aggiornamento 2.4.4 e per gestire gli aggiornamenti delle estensioni in futuro. Consulta [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nel _Guida all’aggiornamento_ per ulteriori informazioni.<br/>
+>Se una di queste estensioni in bundle è abilitata e configurata, devi aggiornare il file `composer.json` come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nella _Guida all&#39;aggiornamento_.<br/>
 ><br/>
->**Worldpay**, **Eway**, **CyberSource**, e **Authorize.Net**: per informazioni dettagliate su come effettuare una transizione sicura da queste integrazioni di pagamento, consulta [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
+>**Worldpay**, **Eway**, **CyberSource** e **Authorize.Net**: per informazioni dettagliate sull&#39;esecuzione di una transizione sicura da queste integrazioni di pagamento, vedere [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
 
 ## Altri metodi PayPal
 
@@ -60,12 +60,12 @@ PayPal offre diverse soluzioni di pagamento che soddisfano le esigenze delle azi
 
 ### Gateway di pagamento PayPal
 
-- [PayPal Payflow Pro](paypal-payflow-pro.md) (include il Checkpoint rapido)
-- [Collegamento flusso di pagamento PayPal](paypal-payflow-link.md) (include il Checkpoint rapido)
+- [PayPal Payflow Pro](paypal-payflow-pro.md) (Comprende Pagamento rapido)
+- [PayPal Payflow Link](paypal-payflow-link.md) (Include Pagamento Espresso)
 
 ## Metodi di pagamento di base
 
-I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un fornitore di pagamenti di terze parti per elaborare la transazione. Molti dei metodi di pagamento di base sono gestiti offline anziché online.
+I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un fornitore di servizi di pagamento di terze parti per elaborare la transazione. Molti dei metodi di pagamento di base sono gestiti offline anziché online.
 
 ### [!UICONTROL Check / Money Order]
 
@@ -77,20 +77,20 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Sito Web | Determina se i clienti possono pagare tramite assegno o vaglia postale. Opzioni: `Yes` / `No` |
 | [!UICONTROL Title] | Visualizzazione store | Il nome di questo metodo di pagamento che viene visualizzato ai clienti durante il pagamento. |
-| [!UICONTROL New Order Status] | Sito Web | Determina il valore iniziale [stato ordine](../../stores-purchase/order-status.md) assegnati a ordini pagati tramite assegno o vaglia postale. Valore predefinito: `Pending` |
+| [!UICONTROL New Order Status] | Sito Web | Determina lo stato iniziale dell&#39;[ordine](../../stores-purchase/order-status.md) assegnato agli ordini pagati tramite assegno o vaglia postale. Valore predefinito: `Pending` |
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina i paesi da cui si accetta il pagamento tramite assegno o vaglia postale. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici da cui si accetta il pagamento tramite assegno o vaglia postale. |
 | [!UICONTROL Make Check Payable to] | Visualizzazione store | Il nome dell&#39;entità a cui gli assegni e i vaglia postali dovrebbero essere esigibili. |
 | [!UICONTROL Send Check to] | Visualizzazione store | Indirizzo stradale o casella postale presso il quale devono essere inviati gli assegni e i vaglia postali. |
 | [!UICONTROL Minimum Order Total] | Sito Web | Importo minimo dell&#39;ordine che può essere pagato tramite assegno o vaglia postale. |
-| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite assegno o vaglia postale. <br/><br/>**_Nota:_**Un ordine è qualificato se il totale è compreso tra il totale minimo o massimo dell&#39;ordine oppure se corrisponde a tale totale. |
-| [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite assegno o vaglia postale se elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
+| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite assegno o vaglia postale. <br/><br/>**_Nota:_**un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
+| [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite assegno o vaglia postale se elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
-![Pagamento bonifico](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
+![Bonifico bancario](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
 <!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
 
@@ -102,8 +102,8 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina i paesi da cui si accetta il pagamento tramite bonifico bancario. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici da cui si accetta il pagamento tramite bonifico bancario. |
 | [!UICONTROL Minimum Order Total] | Sito Web | Importo minimo dell&#39;ordine che può essere pagato tramite bonifico bancario. |
-| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite bonifico bancario. <br/><br/>**_Nota:_**Un ordine è qualificato se il totale è compreso tra il totale minimo o massimo dell&#39;ordine oppure se corrisponde a tale totale. |
-| [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite bonifico bancario se elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
+| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite bonifico bancario. <br/><br/>**_Nota:_**un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
+| [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite bonifico bancario se elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}
 
@@ -111,7 +111,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 
 {{b2b-feature}}
 
-![Pagamento in acconto](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
+![Pagamento sull&#39;account](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
 <!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
 
@@ -123,18 +123,18 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina i paesi in cui le aziende possono addebitare gli acquisti sui propri conti. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici in cui le aziende possono addebitare gli acquisti sui propri conti. |
 | [!UICONTROL Minimum Order Total] | Sito Web | Specifica l&#39;importo dell&#39;ordine più piccolo che può essere addebitato a un conto aziendale. |
-| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere addebitato a un conto aziendale. <br/><br/>**_Nota:_**Un ordine è qualificato se il totale è compreso tra il totale minimo o massimo dell&#39;ordine oppure se corrisponde a tale totale. |
-| [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento dell&#39;acconto se elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
+| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere addebitato a un conto aziendale. <br/><br/>**_Nota:_**un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
+| [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento dell&#39;acconto se elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Il pagamento in conto non è supportato per gli ordini con [più indirizzi di spedizione](../../stores-purchase/shipping-settings.md#multiple-addresses) e non compare tra le opzioni di pagamento.
+>Il pagamento in conto non è supportato per gli ordini con [più indirizzi di spedizione](../../stores-purchase/shipping-settings.md#multiple-addresses) e non viene visualizzato tra le opzioni di pagamento.
 
 ### [!UICONTROL Cash On Delivery Payment]
 
-![Pagamento in contanti alla consegna](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
+![Pagamento Alla Consegna](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
 
 <!-- [Cash On Delivery Payment](../../stores-purchase/cash-on-delivery.html) -->
 
@@ -146,14 +146,14 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina i paesi da cui si accetta il pagamento tramite bonifico bancario. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici da cui si accetta il pagamento tramite bonifico bancario. |
 | [!UICONTROL Minimum Order Total] | Sito Web | Specifica l&#39;importo minimo dell&#39;ordine che può essere pagato tramite bonifico bancario. |
-| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite bonifico bancario. <br/><br/>**_Nota:_**Un ordine è qualificato se il totale è compreso tra il totale minimo o massimo dell&#39;ordine oppure se corrisponde a tale totale. |
-| [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite bonifico bancario se elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
+| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite bonifico bancario. <br/><br/>**_Nota:_**un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
+| [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite bonifico bancario se elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
-![Estrazione subtotale pari a zero](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
+![Estrazione Subtotale Zero](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
 
 <!-- [Zero Subtotal Checkout](../../stores-purchase/zero-subtotal-checkout.html) -->
 
@@ -164,7 +164,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL New Order Status] | Sito Web | Determina lo stato dell&#39;ordine iniziale assegnato agli ordini elaborati come Checkout subtotale zero. Valore predefinito: `Pending` |
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina i paesi da cui è possibile applicare il Check-Out del subtotale zero. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici per i quali è possibile applicare il Checkout subtotale zero. |
-| [!UICONTROL Sort Order] | Sito Web | Un numero che determina l&#39;ordine in cui il titolo, ad esempio &quot;Nessuna informazione di pagamento è richiesta&quot;, viene visualizzato quando elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
+| [!UICONTROL Sort Order] | Sito Web | Un numero che determina l&#39;ordine in cui il titolo, ad esempio &quot;Nessuna informazione di pagamento è richiesta&quot;, viene visualizzato quando elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}
 
@@ -179,9 +179,9 @@ Per un elenco completo delle singole opzioni di configurazione, consulta la sezi
 | [!UICONTROL Authorization] | Approva l&#39;acquisto, ma blocca i fondi. L&#39;importo non viene prelevato fino a quando non viene catturato dal commerciante. |
 | [!UICONTROL Authorize] | Autorizza il conto dell&#39;acquirente per il totale dell&#39;ordine ma non acquisisce il pagamento. Acquisisci il pagamento creando una fattura. È possibile annullare o annullare gli ordini autorizzati. |
 | [!UICONTROL Authorize and Capture] | Autorizza il conto dell&#39;acquirente per il totale dell&#39;ordine e acquisisce il pagamento. Viene creata automaticamente una fattura. È possibile rimborsare i fondi acquisiti tramite nota di credito. Non puoi annullare un ordine una volta acquisito il pagamento. |
-| [!UICONTROL Charge on shipment] | Amazon riceve una richiesta di acquisizione e addebita al cliente il costo di una fattura creata in Commerce. |
+| [!UICONTROL Charge on shipment] | Amazon riceve una richiesta di acquisizione e addebita al cliente una fattura creata in Commerce. |
 | [!UICONTROL Charge on order] | Amazon crea la fattura e addebita al cliente quando l&#39;ordine viene effettuato. |
-| [!UICONTROL Not Capture] | Quando la fattura viene inviata, il sistema non acquisisce il pagamento. Si presume che il pagamento venga acquisito successivamente tramite Commerce. Nella fattura completata è presente un pulsante Acquisisci. Prima dell&#39;acquisizione, è possibile annullare la fattura. Dopo l&#39;acquisizione, è possibile creare una nota di accredito e annullare la fattura. |
+| [!UICONTROL Not Capture] | Quando la fattura viene inviata, il sistema non acquisisce il pagamento. Si presume che il pagamento venga acquisito tramite Commerce in un secondo momento. Nella fattura completata è presente un pulsante Acquisisci. Prima dell&#39;acquisizione, è possibile annullare la fattura. Dopo l&#39;acquisizione, è possibile creare una nota di accredito e annullare la fattura. |
 | [!UICONTROL Order] | Rappresenta un accordo con PayPal che consente all&#39;esercente di acquisire uno o più importi fino al totale dell&#39;ordine dal conto dell&#39;acquirente del cliente, entro un periodo di tempo definito (fino a 29 giorni). |
 | [!UICONTROL Sale] | L&#39;importo dell&#39;acquisto è autorizzato e immediatamente prelevato dal conto del cliente. |
 
@@ -189,7 +189,7 @@ Per un elenco completo delle singole opzioni di configurazione, consulta la sezi
 
 >[!NOTE]
 >
->Non selezionare _[!UICONTROL Not Capture]_a meno che tu non sia certo di voler recuperare il pagamento tramite Commerce in un secondo momento. Non è possibile creare una nota di accredito finché il pagamento non viene acquisito utilizzando il pulsante Acquisisci.
+>Non selezionare l&#39;opzione _[!UICONTROL Not Capture]_a meno che non si sia certi che il pagamento verrà acquisito tramite Commerce in un secondo momento. Non è possibile creare una nota di accredito finché il pagamento non viene acquisito utilizzando il pulsante Acquisisci.
 
 ## [!UICONTROL Purchase Order]
 
@@ -201,11 +201,11 @@ Per un elenco completo delle singole opzioni di configurazione, consulta la sezi
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Sito Web | Determina se i clienti possono pagare per ordine di acquisto (OA). Opzioni: `Yes` / `No` |
 | [!UICONTROL Title] | Visualizzazione store | Il nome di questo metodo di pagamento che viene visualizzato ai clienti durante il pagamento. |
-| [!UICONTROL New Order Status] | Sito Web | Determina il valore iniziale [stato ordine](../../stores-purchase/order-status.md) assegnati a ordini pagati da OA. Valore predefinito: In sospeso |
+| [!UICONTROL New Order Status] | Sito Web | Determina lo stato iniziale dell&#39;[ordine](../../stores-purchase/order-status.md) assegnato agli ordini pagati da OA. Valore predefinito: In sospeso |
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina i paesi dai quali si accetta il pagamento tramite OA. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici da cui si accetta il pagamento tramite OA. |
 | [!UICONTROL Minimum Order Total] | Sito Web | Importo minimo dell&#39;ordine che può essere pagato da OA. |
-| [!UICONTROL Maximum Order Total] | Sito Web | Importo massimo dell&#39;ordine che può essere pagato da OA. <br/><br/>**_Nota:_**Un ordine è qualificato se il totale è compreso tra il totale minimo o massimo dell&#39;ordine oppure se corrisponde a tale totale. |
-| [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite OA quando viene elencato con altri metodi di pagamento durante il pagamento. Invio `0` per posizionarlo in cima all&#39;elenco. |
+| [!UICONTROL Maximum Order Total] | Sito Web | Importo massimo dell&#39;ordine che può essere pagato da OA. <br/><br/>**_Nota:_**un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
+| [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite OA quando viene elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}

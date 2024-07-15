@@ -5,7 +5,7 @@ exl-id: a767ee80-7b6e-4acd-9772-2f8adcf3233e
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Il rapporto Segmento cliente fornisce informazioni sul numero di clienti in ciascun segmento.
 
-![Rapporto segmento cliente](assets/customer-segments-reports.png){width="700" zoomable="yes"}
+![Report segmento cliente](assets/customer-segments-reports.png){width="700" zoomable="yes"}
 
 | Colonna | Descrizione |
 |--- |--- |
@@ -32,14 +32,14 @@ Puoi espandere un elenco di clienti nel segmento ed esportare i dati.
 
 ![Espandere i dati dei clienti](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
-Per assicurarti di disporre dei dati più recenti, devi aggiornare i dati del segmento. Se i dati del segmento non sono disponibili o sono obsoleti, fai clic su **[!UICONTROL Refresh Segment Data]** nella barra dei pulsanti per l’aggiornamento.
+Per assicurarti di disporre dei dati più recenti, devi aggiornare i dati del segmento. Se i dati del segmento non sono disponibili o sono obsoleti, fare clic su **[!UICONTROL Refresh Segment Data]** nella barra dei pulsanti per aggiornare.
 
-1. Per **[!UICONTROL Export to]**, scegli un formato di esportazione:
+1. Per **[!UICONTROL Export to]**, scegliere un formato di esportazione:
 
    * CSV: file di valori separati da virgole contenente dati in testo normale.
    * XML di Excel: formato di dati per fogli di calcolo basato su XML.
 
-1. Clic **[!UICONTROL Export]**.
+1. Fare clic su **[!UICONTROL Export]**.
 
    | Colonna | Descrizione |
    |--- |--- |

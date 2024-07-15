@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] dell'amministratore di Commerce.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 {{config}}
 
-Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Impostazioni spedizione](../../stores-purchase/shipping-settings.md) nel _Guida ai negozi e all’esperienza di acquisto_.
+Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Impostazioni di spedizione](../../stores-purchase/shipping-settings.md) nella _Guida agli store e all&#39;acquisto_.
 
 ## [!UICONTROL Origin]
 

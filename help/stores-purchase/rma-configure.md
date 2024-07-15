@@ -14,51 +14,51 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Quando questa opzione è abilitata, le richieste RMA possono essere inviate dai clienti dalla vetrina. Un RMA può essere generato solo se nell&#39;ordine è presente un articolo disponibile per la restituzione. Le richieste di restituzione di singoli elementi vengono gestite dal _Abilita RMA_ in ciascun record di prodotto. Per impostazione predefinita, le impostazioni di configurazione vengono applicate al prodotto (_[!UICONTROL Use Config Settings]_è selezionato). Se_[!UICONTROL Enable RMA]_ è impostato su `No`, il prodotto non viene visualizzato nell’elenco degli elementi disponibili per la restituzione. Se si modifica il _Abilita RMA_ , si applica sia agli ordini nuovi che a quelli esistenti.
+Quando questa opzione è abilitata, le richieste RMA possono essere inviate dai clienti dalla vetrina. Un RMA può essere generato solo se nell&#39;ordine è presente un articolo disponibile per la restituzione. Le richieste di restituzione di singoli elementi sono gestite dall&#39;attributo _Abilita RMA_ in ogni record di prodotto. Per impostazione predefinita, le impostazioni di configurazione vengono applicate al prodotto (_[!UICONTROL Use Config Settings]_è selezionato). Se_[!UICONTROL Enable RMA]_ è impostato su `No`, il prodotto non viene visualizzato nell&#39;elenco degli elementi disponibili per la restituzione. Se si modifica l&#39;impostazione _Abilita RMA_, questa verrà applicata sia agli ordini nuovi che a quelli esistenti.
 
 ## Abilita RMA per lo store
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Sales]** sotto.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL RMA Settings]** sezione.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL RMA Settings]**.
 
    ![Impostazioni RMA](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
-1. Imposta **[!UICONTROL Enable RMA on Storefront]** a `Yes`.
+1. Imposta **[!UICONTROL Enable RMA on Storefront]** su `Yes`.
 
    Questa impostazione determina se i clienti possono creare e visualizzare richieste RMA dalla vetrina. Le RMA possono essere applicate sia agli ordini nuovi che a quelli esistenti.
 
-1. Imposta **[!UICONTROL Enable RMA on Product Level]** a `Yes`.
+1. Imposta **[!UICONTROL Enable RMA on Product Level]** su `Yes`.
 
-   Questa impostazione determina il comportamento della _Abilita RMA_ attributo per singoli prodotti sulla vetrina:
+   Questa impostazione determina il comportamento dell&#39;attributo _Abilita RMA_ per i singoli prodotti nella vetrina:
 
-   - Quando [!UICONTROL Enable RMA on Product Level] è impostato su `Yes`, i clienti della vetrina possono restituire tutti i singoli prodotti. Include entrambi _[!UICONTROL Enable RMA]_= `Yes` e_[!UICONTROL Enable RMA]_ = `No` valori degli attributi del prodotto.
-   - Quando [!UICONTROL Enable RMA on Product Level] è impostato su `No`, i clienti della vetrina possono restituire solo i prodotti con un _[!UICONTROL Enable RMA]_= `Yes` valore dell’attributo del prodotto.
+   - Quando [!UICONTROL Enable RMA on Product Level] è impostato su `Yes`, i clienti della vetrina possono restituire tutti i singoli prodotti. Include sia _[!UICONTROL Enable RMA]_= `Yes` che_[!UICONTROL Enable RMA]_ = `No` valori di attributo del prodotto.
+   - Quando [!UICONTROL Enable RMA on Product Level] è impostato su `No`, i clienti della vetrina possono restituire solo i prodotti con un valore di attributo di prodotto _[!UICONTROL Enable RMA]_= `Yes`.
 
-1. Imposta **[!UICONTROL Use Store Address]** a uno dei seguenti valori:
+1. Imposta **[!UICONTROL Use Store Address]** su uno dei seguenti valori:
 
-   - `Yes` - Inviare i prodotti restituiti all&#39;indirizzo del negozio.
+   - `Yes` - Invia i prodotti restituiti all&#39;indirizzo dello store.
    - `No` - Immettere un indirizzo alternativo per le restituzioni di prodotti.
 
    ![Impostazioni RMA con indirizzo alternativo](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
-1. Clic **[!UICONTROL Save Config]**.
+1. Fare clic su **[!UICONTROL Save Config]**.
 
 ## Configura i metodi di spedizione per le restituzioni
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Delivery Methods]**.
 
-1. Espandere la sezione relativa al vettore che si desidera utilizzare per il servizio di restituzione, ad esempio **[!UICONTROL UPS]**.
+1. Espandere la sezione relativa al gestore che si desidera utilizzare per il servizio di reso, ad esempio **[!UICONTROL UPS]**.
 
    ![Abilita servizio RMA per gestore](./assets/rma-delivery-method.png){width="600" zoomable="yes"}
 
-1. Imposta **[!UICONTROL Enabled for RMA]** a `Yes`.
+1. Imposta **[!UICONTROL Enabled for RMA]** su `Yes`.
 
-1. Clic **[!UICONTROL Save Config]**.
+1. Fare clic su **[!UICONTROL Save Config]**.
 
 ## Modificare le RMA consentite a livello di prodotto
 
@@ -66,12 +66,12 @@ Se si attivano le RMA per il negozio e il catalogo contiene alcuni prodotti che 
 
 1. Apri il prodotto in modalità di modifica.
 
-1. Scorri verso il basso ed espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Autosettings]** sezione.
+1. Scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Autosettings]**.
 
-1. Cancella **[!UICONTROL Use Config Setting]** se necessario.
+1. Deselezionare la casella di controllo **[!UICONTROL Use Config Setting]**, se necessario.
 
-1. Attiva/disattiva **[!UICONTROL Enable RMA]** impostazione su `No`.
+1. Imposta **[!UICONTROL Enable RMA]** su `No`.
 
-   ![Disattivazione di RMA per un prodotto](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"}
+   ![Disabilita RMA per un prodotto](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"}
 
-1. Clic **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.

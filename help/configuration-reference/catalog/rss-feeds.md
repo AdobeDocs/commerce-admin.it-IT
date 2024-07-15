@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] dell'amministratore di Commerce.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Wish List]
 
-![Lista dei desideri](./assets/rss-feeds-wishlist.png)<!-- zoom -->
+![Elenco desideri](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
 <!-- [Wish List](https://docs.magento.com/user-guide/marketing/wishlists.html) -->
 

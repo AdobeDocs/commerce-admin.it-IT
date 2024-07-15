@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Page Builder] Elementi nascosti"
+title: "[!DNL Page Builder] elementi nascosti"
 description: Nota riutilizzata sugli elementi nascosti
 source-git-commit: d8eddb226843fe72449f1001bf4bbc8d545f3a6d
 workflow-type: tm+mt
@@ -8,7 +8,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] Elementi nascosti
+# [!DNL Page Builder] elementi nascosti
 
 >[!NOTE]
 >

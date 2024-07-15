@@ -5,7 +5,7 @@ exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ L’esportazione dei dati è un’operazione asincrona, eseguita in background i
 
 I filtri di esportazione vengono utilizzati per specificare i dati da inserire nel file di esportazione, in base al valore dell’attributo. Inoltre, puoi specificare quali dati attributo desideri includere o escludere dall’esportazione.
 
-![Criteri di esportazione dei dati](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
+![Criteri di esportazione dati](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
 
 ### Esporta filtri
 
 Puoi utilizzare i filtri per determinare quali SKU sono inclusi nel file di esportazione. Ad esempio, se inserisci un valore nel filtro Paese di produzione, il file CSV esportato include solo i prodotti fabbricati in tale paese.
 
-Il tipo di filtro corrisponde al tipo di dati. Per i campi data, è possibile scegliere la data dal Calendario ![Icona Calendario](../assets/icon-calendar.png). Consulta [Tipi di input degli attributi](../catalog/attributes-input-types.md) per ulteriori informazioni.
+Il tipo di filtro corrisponde al tipo di dati. Per i campi data, è possibile scegliere la data dall&#39;icona Calendario ![Calendario](../assets/icon-calendar.png). Per ulteriori informazioni, vedere [Tipi di input attributo](../catalog/attributes-input-types.md).
 
-Il formato della data è determinato da [lingua](../getting-started/store-details.md#locale-options).
+Il formato della data è determinato dalle [impostazioni locali](../getting-started/store-details.md#locale-options).
 
 Per includere solo i record con un valore specifico, ad esempio uno SKU, immettere il valore nel campo Filtro. Alcuni campi, ad esempio Prezzo, Peso e Imposta prodotto come nuovo, hanno un intervallo di valori iniziale/finale.
 
@@ -49,9 +49,9 @@ La casella di controllo nella prima colonna viene utilizzata per escludere gli a
 
 ## Esporta dati
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-1. In _Impostazioni di esportazione_ sezione, set **[!UICONTROL Entity Type]** a uno dei seguenti elementi:
+1. Nella sezione _Esporta impostazioni_, impostare **[!UICONTROL Entity Type]** su una delle opzioni seguenti:
 
    - `Advanced Pricing`
    - `Products`
@@ -60,38 +60,38 @@ La casella di controllo nella prima colonna viene utilizzata per escludere gli a
    - `Customer Addresses`
    - `Stock Sources`
 
-   ![Impostazioni di esportazione dei dati](./assets/data-export-settings.png){width="600" zoomable="yes"}
+   ![Impostazioni di esportazione dati](./assets/data-export-settings.png){width="600" zoomable="yes"}
 
-1. Accetta il valore predefinito **[!UICONTROL Export File Format]** del file CSV.
+1. Accettare il valore predefinito **[!UICONTROL Export File Format]** del file CSV.
 
-1. Se si desidera racchiudere i caratteri speciali eventualmente presenti nei dati come _sequenza di escape_, seleziona la **[!UICONTROL Fields Enclosure]** casella di controllo.
+1. Se si desidera racchiudere i caratteri speciali eventualmente presenti nei dati come _sequenza di escape_, selezionare la casella di controllo **[!UICONTROL Fields Enclosure]**.
 
 1. Se necessario, modifica la visualizzazione degli attributi di entità.
 
-   Per impostazione predefinita, la sezione Attributi entità elenca tutti gli attributi disponibili in ordine alfabetico. Puoi utilizzare lo standard [controlli elenco](../getting-started/admin-grid-controls.md) per cercare attributi specifici e ordinare l&#39;elenco. I controlli Ricerca e Ripristina filtro controllano la visualizzazione dell&#39;elenco, ma non hanno alcun effetto sulla selezione degli attributi da includere nel file di esportazione.
+   Per impostazione predefinita, la sezione Attributi entità elenca tutti gli attributi disponibili in ordine alfabetico. È possibile utilizzare i [controlli elenco](../getting-started/admin-grid-controls.md) standard per cercare attributi specifici e ordinare l&#39;elenco. I controlli Ricerca e Ripristina filtro controllano la visualizzazione dell&#39;elenco, ma non hanno alcun effetto sulla selezione degli attributi da includere nel file di esportazione.
 
-   ![Attributi di entità filtrate per l’esportazione di dati](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
+   ![Attributi di entità filtrata per l&#39;esportazione dei dati](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
 
 1. Per filtrare i dati esportati in base al valore dell&#39;attributo, eseguire le operazioni seguenti:
 
-   - Per esportare solo i record con valori di attributo specifici, immettere il valore richiesto in **[!UICONTROL Filter]** colonna. Nell&#39;esempio seguente viene esportato solo uno SKU specifico.
+   - Per esportare solo record con valori di attributo specifici, immettere il valore richiesto nella colonna **[!UICONTROL Filter]**. Nell&#39;esempio seguente viene esportato solo uno SKU specifico.
 
-   - Per omettere un attributo dall&#39;esportazione, selezionare **[!UICONTROL Exclude]** all’inizio della riga. Ad esempio, per esportare solo `sku` e `image` , selezionare la casella di controllo di ogni altro attributo. La colonna viene visualizzata nel file di esportazione, ma senza alcun valore.
+   - Per omettere un attributo dall&#39;esportazione, selezionare la casella di controllo **[!UICONTROL Exclude]** all&#39;inizio della riga. Ad esempio, per esportare solo le colonne `sku` e `image`, selezionare la casella di controllo di ogni altro attributo. La colonna viene visualizzata nel file di esportazione, ma senza alcun valore.
 
-1. Scorri verso il basso e fai clic su **[!UICONTROL Continue]** nell’angolo inferiore destro della pagina.
+1. Scorri verso il basso e fai clic su **[!UICONTROL Continue]** nell&#39;angolo inferiore destro della pagina.
 
-   Al termine dell’operazione, il file viene elaborato tramite una coda di messaggi (assicurati che il processo cron sia in esecuzione). Il file esportato viene salvato in `var/export/ folder`. Per ulteriori informazioni sulla coda dei messaggi, vedi [Gestire le code dei messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) nel _Guida alla configurazione_.
+   Al termine dell’operazione, il file viene elaborato tramite una coda di messaggi (assicurati che il processo cron sia in esecuzione). Il file esportato è stato salvato in `var/export/ folder`. Per ulteriori informazioni sulla coda di messaggi, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) nella _Guida alla configurazione_.
 
    Puoi salvare o aprire il file CSV esportato come foglio di calcolo, quindi modificare i dati e importarli nuovamente nell’archivio.
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, tutti i file esportati si trovano in `<Magento-root-directory>/var/export` cartella. Se il modulo di archiviazione remota è attivato, tutti i file esportati si trovano nel `<remote-storage-root-directory>/import_export/export` cartella.
+   >Per impostazione predefinita, tutti i file esportati si trovano nella cartella `<Magento-root-directory>/var/export`. Se il modulo di archiviazione remota è abilitato, tutti i file esportati si trovano nella cartella `<remote-storage-root-directory>/import_export/export`.
 
 ## Risorse per la risoluzione dei problemi
 
-Per assistenza nella risoluzione dei problemi relativi all’esportazione dei dati, consulta i seguenti articoli della Knowledge Base di supporto Commerce:
+Per assistenza nella risoluzione dei problemi relativi all&#39;esportazione dei dati, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
 - [Il file .csv dei prodotti esportati non viene visualizzato](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
-- [Il file di esportazione del prodotto non viene visualizzato in Amministrazione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31168-magento-patch-product-export-file-does-not-show-in-admin.html)
-- [Problema nell’esportazione degli ordini in formato CSV](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31242-magento-patch-issue-in-exporting-orders-in-csv-format.html)
+- [Il file di esportazione del prodotto non viene visualizzato in Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31168-magento-patch-product-export-file-does-not-show-in-admin.html)
+- [Problema durante l&#39;esportazione degli ordini in formato CSV](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31242-magento-patch-issue-in-exporting-orders-in-csv-format.html)

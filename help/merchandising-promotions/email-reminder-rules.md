@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Lo scopo di un promemoria e-mail è quello di incoraggiare le persone che hanno visitato il tuo negozio ad approfittare di una promozione e fare un acquisto. I promemoria e-mail possono essere inviati automaticamente ai clienti quando viene soddisfatta una specifica serie di condizioni. Ad esempio, puoi inviare un promemoria ai clienti che hanno aggiunto qualcosa al carrello o alla lista dei desideri, ma che non hanno ancora effettuato un acquisto. Puoi utilizzare i promemoria e-mail per incoraggiare i clienti a tornare al negozio e includere un [codice coupon](price-rules-cart-coupon.md) come incentivo. I codici coupon possono essere generati automaticamente per ogni batch di promemoria e-mail, per darti il controllo sulle offerte associate a ogni batch.
+Lo scopo di un promemoria e-mail è quello di incoraggiare le persone che hanno visitato il tuo negozio ad approfittare di una promozione e fare un acquisto. I promemoria e-mail possono essere inviati automaticamente ai clienti quando viene soddisfatta una specifica serie di condizioni. Ad esempio, puoi inviare un promemoria ai clienti che hanno aggiunto qualcosa al carrello o alla lista dei desideri, ma che non hanno ancora effettuato un acquisto. Puoi utilizzare i promemoria e-mail per incoraggiare i clienti a tornare al tuo store e includere un [codice coupon](price-rules-cart-coupon.md) come incentivo. I codici coupon possono essere generati automaticamente per ogni batch di promemoria e-mail, per darti il controllo sulle offerte associate a ogni batch.
 
 I promemoria e-mail possono essere attivati dopo un numero specifico di giorni dall’abbandono di un carrello o per qualsiasi altra condizione che desideri definire. Le condizioni comuni includono il valore totale del carrello, la quantità, gli articoli nel carrello e così via.
 
 >[!NOTE]
 >
->Se un cliente ha più di un carrello abbandonato, una lista dei desideri o una combinazione di entrambi, il promemoria e-mail viene attivato una sola volta per quel cliente. Per attivare nuovamente lo stesso promemoria e-mail, utilizza _[!UICONTROL Repeat Schedule]_per impostare il numero di giorni tra le e-mail.
+>Se un cliente ha più di un carrello abbandonato, una lista dei desideri o una combinazione di entrambi, il promemoria e-mail viene attivato una sola volta per quel cliente. Per attivare nuovamente lo stesso promemoria e-mail, utilizzare il campo _[!UICONTROL Repeat Schedule]_per impostare il numero di giorni tra le e-mail.
 
 ![Promemoria e-mail](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -28,35 +28,35 @@ I promemoria e-mail possono essere attivati dopo un numero specifico di giorni d
 
 Le regole dei promemoria e-mail possono essere inviate a intervalli regolari al minuto, all’ora o al giorno. La configurazione determina il numero di e-mail inviate in un batch e l’identità dell’archivio visualizzata come mittente del messaggio.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Promotions]**.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Automated Email Reminder Rules]** ed effettuare le seguenti operazioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Automated Email Reminder Rules]** ed effettuare le seguenti operazioni:
 
-   ![Configurazione clienti: regole di promemoria e-mail automatizzate](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
+   ![Configurazione clienti - regole promemoria e-mail automatizzate](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
 
-   - Imposta **[!UICONTROL Enable Reminder Emails]** a `Yes`.
+   - Imposta **[!UICONTROL Enable Reminder Emails]** su `Yes`.
 
-   - Per impostare la frequenza con cui eseguire gli assegni per i nuovi clienti che qualificano i promemoria e-mail automatizzati, impostare **[!UICONTROL Frequency]** a uno dei seguenti elementi:
+   - Per impostare la frequenza di esecuzione degli assegni per i nuovi clienti che qualificano i promemoria e-mail automatizzati, impostare **[!UICONTROL Frequency]** su uno dei seguenti valori:
 
       - `Minute Intervals`
       - `Hourly`
       - `Daily`
 
-   - Impostare il **[!UICONTROL Interval]**, in base alla _[!UICONTROL Frequency]_impostazione.
+   - Impostare **[!UICONTROL Interval]** appropriato in base all&#39;impostazione _[!UICONTROL Frequency]_.
 
-   - Imposta **[!UICONTROL Start Time]** all’ora, al minuto e al secondo in cui l’e-mail viene inviata, in base a un orologio di 24 ore.
+   - Impostare **[!UICONTROL Start Time]** sull&#39;ora, il minuto e il secondo di invio dell&#39;e-mail, in base a un orologio di 24 ore.
 
-   - Per limitare il numero di e-mail che possono essere inviate in un batch, inserisci il numero in **[!UICONTROL Maximum Emails per One Run]** campo.
+   - Per limitare il numero di e-mail che possono essere inviate in un batch, immettere il numero nel campo **[!UICONTROL Maximum Emails per One Run]**.
 
-   - Per evitare tentativi ripetuti di invio di e-mail non riuscite, immetti il numero massimo di tentativi consentiti in **[!UICONTROL Email Send Failure Threshold]** campo.
+   - Per evitare tentativi ripetuti di invio di e-mail non riuscite, immettere il numero massimo di tentativi nel campo **[!UICONTROL Email Send Failure Threshold]**.
 
-   - Imposta **[!UICONTROL Reminder Email Sender]** al [contatto store](../getting-started/store-details.md#store-email-addresses) che viene visualizzato come mittente dell&#39;e-mail di promemoria.
+   - Imposta **[!UICONTROL Reminder Email Sender]** sul [contatto archivio](../getting-started/store-details.md#store-email-addresses) che viene visualizzato come mittente dell&#39;e-mail di promemoria.
 
-   Per un elenco dettagliato di queste opzioni, vedi [Regole di promemoria e-mail automatizzati](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) nel _Riferimento configurazione_.
+   Per un elenco dettagliato di queste opzioni, vedere [Regole promemoria e-mail automatizzati](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) nel _Riferimento configurazione_.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 ## Modelli di promemoria e-mail
 
@@ -66,15 +66,15 @@ Puoi personalizzare il modello di promemoria e-mail predefinito e creare modelli
 
 ### Personalizzare un modello di promemoria e-mail
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
-1. Clic **[!UICONTROL Add New Template]**.
+1. Fare clic su **[!UICONTROL Add New Template]**.
 
-1. In **[!UICONTROL Template]** elenco in `Magento_Reminder`, scegli il **[!UICONTROL Promotion Notification/Reminder]** modello.
+1. Nell&#39;elenco **[!UICONTROL Template]** in `Magento_Reminder`, scegliere il modello **[!UICONTROL Promotion Notification/Reminder]**.
 
-1. Clic **[!UICONTROL Load Template]**.
+1. Fare clic su **[!UICONTROL Load Template]**.
 
-Segui lo standard [istruzioni](../systems/email-template-custom.md) per personalizzare il modello.
+Segui le [istruzioni](../systems/email-template-custom.md) standard per personalizzare il modello.
 
 ### Variabili promemoria e-mail
 

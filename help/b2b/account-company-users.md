@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Gestire gli account utente aziendali
 
-Gli utenti dell’azienda vengono assegnati dall’amministratore dell’azienda e sono visibili dall’amministratore in _[!UICONTROL Customers]_griglia per tipo di cliente,_[!UICONTROL Company User]_. Si tratta in genere di acquirenti con diversi livelli di autorizzazione per accedere ai servizi e alle risorse del punto vendita.
+Gli utenti della società vengono assegnati dall&#39;amministratore della società e sono visibili dall&#39;amministratore nella griglia _[!UICONTROL Customers]_in base al tipo di cliente,_[!UICONTROL Company User]_. Si tratta in genere di acquirenti con diversi livelli di autorizzazione per accedere ai servizi e alle risorse del punto vendita.
 
-L’amministratore della società configura innanzitutto [struttura aziendale](account-company-structure.md), quindi completa le seguenti attività, in base alle esigenze:
+L&#39;amministratore della società configura innanzitutto la [struttura della società](account-company-structure.md) e quindi completa le seguenti attività, in base alle esigenze:
 
 - Creare utenti aziendali e assegnare utenti ai team
 
@@ -33,11 +33,11 @@ L’amministratore della società configura innanzitutto [struttura aziendale](a
 
    ![Utenti società](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Clic **[!UICONTROL Add New User]** ed effettua quanto segue:
+1. Fai clic su **[!UICONTROL Add New User]** ed effettua le seguenti operazioni:
 
-   - Entra nel **[!UICONTROL Job Title]** del nuovo utente.
+   - Immette **[!UICONTROL Job Title]** del nuovo utente.
 
-   - Scegli la **[!UICONTROL User Role]** se sono definiti i ruoli e le autorizzazioni. In caso contrario, possono tornare in un secondo momento per assegnare il ruolo.
+   - Seleziona il **[!UICONTROL User Role]** appropriato se sono definiti i ruoli e le autorizzazioni. In caso contrario, possono tornare in un secondo momento per assegnare il ruolo.
 
      ![Aggiungi nuovo utente](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
@@ -47,15 +47,15 @@ L’amministratore della società configura innanzitutto [struttura aziendale](a
       - **[!UICONTROL Email]**
       - **[!UICONTROL Phone Number]**
 
-   Per impostazione predefinita, il **[!UICONTROL Status]** dell’account è `Active`.
+   Per impostazione predefinita, il **[!UICONTROL Status]** dell&#39;account è `Active`.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fa clic su **[!UICONTROL Save]**.
 
 1. Ripete il processo per creare tutti gli utenti aziendali necessari.
 
    I nuovi utenti vengono visualizzati nell&#39;elenco Utenti società insieme all&#39;Amministratore società.
 
-Per risparmiare tempo durante il primo ordine, l&#39;amministratore della società può ricordare a ogni utente della società di aggiungere l&#39;indirizzo di fatturazione e spedizione predefinito della società [rubrica](../customers/account-dashboard-address-book.md).
+Per risparmiare tempo durante il primo ordine, l&#39;amministratore della società può ricordare a ogni utente della società di aggiungere l&#39;indirizzo predefinito di fatturazione e spedizione della società alla [rubrica](../customers/account-dashboard-address-book.md).
 
 ## Modifica utenti società
 
@@ -67,7 +67,7 @@ Per risparmiare tempo durante il primo ordine, l&#39;amministratore della societ
 
 1. Apporta le modifiche necessarie.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fa clic su **[!UICONTROL Save]**.
 
 ## Rimuovere un utente della società
 
@@ -77,20 +77,20 @@ Per risparmiare tempo durante il primo ordine, l&#39;amministratore della societ
 
 1. Seleziona l&#39;utente della società nella struttura della società.
 
-1. Clic **[!UICONTROL Delete Selected]**.
+1. Clic su **[!UICONTROL Delete Selected]**.
 
    ![Elimina utente](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
 1. Quando viene richiesto di confermare, fa clic su **[!UICONTROL Delete]**.
 
-In Admin (Amministratore), l’utente della società rimane elencato in [Clienti](../customers/customers-all.md) ma con una griglia `Inactive` stato.
+Nell&#39;amministratore, l&#39;utente della società rimane elencato nella griglia [Clienti](../customers/customers-all.md), ma con uno stato `Inactive`.
 
 ## Descrizioni dei campi
 
 | Campo | Descrizione |
 |--------------|---------------|
 | [!UICONTROL Job Title] | Qualifica dell&#39;utente dell&#39;azienda. |
-| [!UICONTROL User Role] | Il [ruolo](account-company-roles-permissions.md) assegnato all’utente della società. Opzioni: `Default User` / (altri ruoli) |
+| [!UICONTROL User Role] | Il [ruolo](account-company-roles-permissions.md) assegnato all&#39;utente della società. Opzioni: `Default User` / (altri ruoli) |
 | [!UICONTROL First Name] | Il nome dell’utente dell’azienda. |
 | [!UICONTROL Last Name] | Cognome dell&#39;utente della società. |
 | [!UICONTROL Email] | L’indirizzo e-mail dell’utente dell’azienda. |

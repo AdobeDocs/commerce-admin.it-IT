@@ -24,9 +24,9 @@ Le istruzioni seguenti illustrano il processo di creazione di un prodotto raggru
 
 ## Passaggio 1: scegliere il tipo di prodotto
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Il giorno _[!UICONTROL Add Product]_( ![Freccia del menu](../assets/icon-menu-down-arrow-red.png){width="25"} ) nell&#39;angolo superiore destro, scegliere **[!UICONTROL Grouped Product]**.
+1. Scegliere **[!UICONTROL Grouped Product]** dal menu _[!UICONTROL Add Product]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto raggruppato](./assets/product-add-grouped.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ Le istruzioni seguenti illustrano il processo di creazione di un prodotto raggru
 
 Per scegliere il [set di attributi](attribute-sets.md) utilizzato come modello per il prodotto, eseguire una delle operazioni seguenti:
 
-- Per eseguire la ricerca, immettere il nome del **[!UICONTROL Attribute Set]**.
+- Per eseguire la ricerca, immettere il nome di **[!UICONTROL Attribute Set]**.
 - Nell&#39;elenco, scegliere il set di attributi che si desidera utilizzare.
 
 Il modulo viene aggiornato per riflettere la modifica.
@@ -43,41 +43,41 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 Se gli attributi necessari non esistono, puoi aggiungere nuovi attributi durante la creazione di un prodotto:
 
-- Nell’angolo superiore destro, fai clic su **[!UICONTROL Add Attribute]**.
-- Definire un nuovo attributo (vedere [Aggiunta di un attributo a un prodotto](product-attributes-add.md)).
+- Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Attribute]**.
+- Definisci un nuovo attributo (vedi [Aggiunta di un attributo a un prodotto](product-attributes-add.md)).
 
   ![Nuovo attributo](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
 
-Per aggiungere un attributo esistente al prodotto, utilizza [controlli filtro](../getting-started/admin-grid-controls.md) per trovare l&#39;attributo nella griglia ed eseguire le operazioni seguenti:
+Per aggiungere un attributo esistente al prodotto, utilizzare i [controlli filtro](../getting-started/admin-grid-controls.md) per trovare l&#39;attributo nella griglia ed eseguire le operazioni seguenti:
 
 - Selezionare la casella di controllo nella prima colonna di ogni attributo da aggiungere.
-- Clic **[!UICONTROL Add Selected]**.
+- Fare clic su **[!UICONTROL Add Selected]**.
 
 ## Passaggio 3: completare le impostazioni richieste
 
-1. Inserisci il **[!UICONTROL Product Name]**.
+1. Immettere **[!UICONTROL Product Name]**.
 
-1. Accetta il valore predefinito **[!UICONTROL SKU]** in base al nome del prodotto o immettine un altro.
+1. Accettare **[!UICONTROL SKU]** predefinito basato sul nome del prodotto o immetterne un altro.
 
-   Nota che **[!UICONTROL Quantity]** non è disponibile perché il valore è derivato dai singoli prodotti che compongono il gruppo.
+   Il campo **[!UICONTROL Quantity]** non è disponibile perché il valore è derivato dai singoli prodotti che compongono il gruppo.
 
    Un prodotto raggruppato non ha un proprio prezzo nel catalogo. Il prezzo del prodotto raggruppato è derivato dal prezzo dei singoli prodotti inclusi nel gruppo.
 
-1. Poiché il prodotto non è ancora pronto per la pubblicazione, imposta **[!UICONTROL Enable Product]** a `No` ( ![Attiva/disattiva](../assets/toggle-no.png) ).
+1. Poiché il prodotto non è ancora pronto per la pubblicazione, impostare **[!UICONTROL Enable Product]** su `No` ( ![Attiva/Disattiva n.](../assets/toggle-no.png) ).
 
-1. Clic **[!UICONTROL Save]** e continua.
+1. Fare clic su **[!UICONTROL Save]** e continuare.
 
-   Quando il prodotto viene salvato, il nome del prodotto viene visualizzato nella parte superiore della pagina e [Visualizzazione store](introduction.md#product-scope) selettore viene visualizzato nell&#39;angolo superiore sinistro.
+   Quando il prodotto viene salvato, il nome del prodotto viene visualizzato nella parte superiore della pagina e il selettore [Visualizzazione store](introduction.md#product-scope) viene visualizzato nell&#39;angolo superiore sinistro.
 
-1. Scegli la **[!UICONTROL Store View]** dove il prodotto deve essere disponibile.
+1. Scegliere **[!UICONTROL Store View]** in cui il prodotto deve essere disponibile.
 
-   ![Scegli la vista dello store](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![Scegli visualizzazione store](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Passaggio 4: completare le impostazioni di base
 
-1. Accetta **[!UICONTROL Stock Status]** impostazione di `In Stock`.
+1. Accettare l&#39;impostazione **[!UICONTROL Stock Status]** di `In Stock`.
 
-1. Da assegnare **[!UICONTROL Categories]** al prodotto, fai clic su **[!UICONTROL Select…]** ed effettuare una delle seguenti operazioni:
+1. Per assegnare **[!UICONTROL Categories]** al prodotto, fare clic sulla casella **[!UICONTROL Select…]** ed eseguire una delle operazioni seguenti:
 
    **Scegli una categoria esistente:**
 
@@ -85,29 +85,29 @@ Per aggiungere un attributo esistente al prodotto, utilizza [controlli filtro](.
 
    - Selezionare la casella di controllo della categoria da assegnare.
 
-   **Creare una categoria:**
+   **Crea una categoria:**
 
-   - Clic **[!UICONTROL New Category]**.
+   - Fare clic su **[!UICONTROL New Category]**.
 
-   - Inserisci il **[!UICONTROL Category Name]** e scegli la **[!UICONTROL Parent Category]**, che ne determina la posizione nella struttura del menu.
+   - Immettere **[!UICONTROL Category Name]** e scegliere **[!UICONTROL Parent Category]**, che ne determina la posizione nella struttura del menu.
 
-   - Clic **[!UICONTROL Create Category]**.
+   - Fare clic su **[!UICONTROL Create Category]**.
 
-1. Accetta **[!UICONTROL Visibility]** impostazioni di `Catalog, Search`.
+1. Accettare le impostazioni **[!UICONTROL Visibility]** di `Catalog, Search`.
 
-1. Per inserire il prodotto in [elenco di nuovi prodotti](../content-design/widget-new-products-list.md), scegli il **[!UICONTROL Set Product as New]** **[!UICONTROL from]** e **[!UICONTROL to]** date nel calendario.
+1. Per inserire il prodotto nell&#39;[elenco di nuovi prodotti](../content-design/widget-new-products-list.md), scegliere le date **[!UICONTROL Set Product as New]** **[!UICONTROL from]** e **[!UICONTROL to]** nel calendario.
 
-1. Scegli la **[!UICONTROL Country of Manufacture]**.
+1. Scegliere **[!UICONTROL Country of Manufacture]**.
 
    Potrebbero essere presenti singoli attributi aggiuntivi che descrivono il prodotto. La selezione varia a seconda del set di attributi e può essere completata in un secondo momento.
 
 ## Passaggio 5: aggiungere prodotti al gruppo
 
-1. Scorri verso il basso fino a **[!UICONTROL Grouped Products]** e fai clic su **[!UICONTROL Add Products to Group]**.
+1. Scorri verso il basso fino alla sezione **[!UICONTROL Grouped Products]** e fai clic su **[!UICONTROL Add Products to Group]**.
 
    ![Prodotti Raggruppati](./assets/product-grouped-products.png){width="600" zoomable="yes"}
 
-1. Se necessario, utilizzare [filtri](../getting-started/admin-grid-controls.md) per trovare i prodotti da includere nel gruppo.
+1. Se necessario, utilizzare i [filtri](../getting-started/admin-grid-controls.md) per trovare i prodotti da includere nel gruppo.
 
 1. Nell&#39;elenco selezionare la casella di controllo di ogni elemento che si desidera includere nel gruppo.
 
@@ -117,19 +117,19 @@ Per aggiungere un attributo esistente al prodotto, utilizza [controlli filtro](.
 
    ![Aggiungi prodotti selezionati](./assets/product-grouped-add-products.png){width="600" zoomable="yes"}
 
-1. Per aggiungerli al gruppo di prodotti, fai clic su **[!UICONTROL Add Selected Products]**.
+1. Per aggiungerli al gruppo di prodotti, fare clic su **[!UICONTROL Add Selected Products]**.
 
-   I prodotti selezionati vengono visualizzati nel _[!UICONTROL Grouped Products]_sezione.
+   I prodotti selezionati vengono visualizzati nella sezione _[!UICONTROL Grouped Products]_.
 
-   Per commercianti multi-sorgente con [Inventory management](../inventory-management/sources-stocks.md), la griglia include **[!UICONTROL Quantity per Source]** colonna con ciascuna origine e quantità di scorte di magazzino assegnate.
+   Per gli esercenti Multi Source con [Inventory management](../inventory-management/sources-stocks.md), la griglia include una colonna **[!UICONTROL Quantity per Source]** con ogni origine assegnata e l&#39;importo delle scorte di magazzino.
 
    ![Prodotti nel gruppo](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}
 
-1. Immetti un **[!UICONTROL Default Quantity]** per uno qualsiasi degli elementi.
+1. Immettere **[!UICONTROL Default Quantity]** per uno qualsiasi degli elementi.
 
-1. Per modificare l’ordine dei prodotti, acquisisci _Cambia ordine_ icona ( ![Controller posizione](../assets/icon-sort-order.png) ) nella prima colonna e trascinare il prodotto nella nuova posizione nell&#39;elenco.
+1. Per modificare l&#39;ordine dei prodotti, afferrare l&#39;icona _Cambia ordine_ ( ![Controller posizione](../assets/icon-sort-order.png) ) nella prima colonna e trascinare il prodotto nella nuova posizione nell&#39;elenco.
 
-1. Per rimuovere un prodotto dal gruppo, fai clic su **[!UICONTROL Remove]**.
+1. Per rimuovere un prodotto dal gruppo, scegliere **[!UICONTROL Remove]**.
 
 ## Passaggio 5: Completare le informazioni sul prodotto
 
@@ -144,45 +144,45 @@ Compila le informazioni nelle sezioni seguenti secondo necessità:
 - [Progettazione](settings-advanced-design.md)
 - [Opzioni regalo](product-gift-options.md)
 
-## Passaggio 6: pubblicare il prodotto
+## Passaggio 6: Publish del prodotto
 
-1. Se sei pronto per pubblicare il prodotto nel catalogo, imposta **[!UICONTROL Enable Product]** a `Yes`.
+1. Se si è pronti a pubblicare il prodotto nel catalogo, impostare **[!UICONTROL Enable Product]** su `Yes`.
 
 1. Effettuare una delle seguenti operazioni:
 
-   **Metodo 1:** Salva e visualizza anteprima
+   **Metodo 1:** Salvataggio e anteprima
 
-   - Nell’angolo superiore destro, fai clic su **[!UICONTROL Save]**.
+   - Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]**.
 
-   - Per visualizzare il prodotto nel tuo negozio, scegli **[!UICONTROL Customer View]** il _Amministratore_ ( ![Freccia del menu](../assets/icon-menu-down-arrow-black.png) ).
+   - Per visualizzare il prodotto nell&#39;archivio, scegli **[!UICONTROL Customer View]** nel menu _Amministratore_ ( ![Freccia menu](../assets/icon-menu-down-arrow-black.png) ).
 
      L’archivio si apre in una nuova scheda del browser.
 
-     ![Visualizzazione cliente](./assets/product-admin-customer-view.png){width="700" zoomable="yes"}
+     ![Visualizzazione clienti](./assets/product-admin-customer-view.png){width="700" zoomable="yes"}
 
    **Metodo 2:** Salva e chiudi
 
-   - Il giorno _[!UICONTROL Save]_( ![Freccia del menu](../assets/icon-menu-down-arrow-red.png){width="25"} ), scegliere **[!UICONTROL Save & Close]**.
+   - Scegliere **[!UICONTROL Save & Close]** dal menu _[!UICONTROL Save]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Passaggio 7: configurare le miniature del carrello (facoltativo)
 
 Se hai un’immagine diversa per ciascun prodotto del gruppo, puoi impostare la configurazione in modo da utilizzare l’immagine corretta per la miniatura del carrello acquisti.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Shopping Cart]**.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Shopping Cart]**.
 
-   Per un elenco dettagliato di queste opzioni di configurazione, vedi [Carrello](../configuration-reference/sales/checkout.md#shopping-cart) nel _Riferimento configurazione_.
+   Per un elenco dettagliato di queste opzioni di configurazione, vedere [Carrello acquisti](../configuration-reference/sales/checkout.md#shopping-cart) nel _Riferimento configurazione_.
 
-1. Imposta **[!UICONTROL Grouped Product Image]** a `Product Thumbnail Itself`.
+1. Imposta **[!UICONTROL Grouped Product Image]** su `Product Thumbnail Itself`.
 
-   ![Carrello](./assets/config-sales-cart-grouped-product.png){width="600" zoomable="yes"}
+   ![Carrello acquisti](./assets/config-sales-cart-grouped-product.png){width="600" zoomable="yes"}
 
-   Se necessario, deselezionare la **[!UICONTROL Use system value]** per impostare questa opzione.
+   Se necessario, deselezionare la casella di controllo **[!UICONTROL Use system value]** per impostare questa opzione.
 
-1. Clic **[!UICONTROL Save Config]**.
+1. Fare clic su **[!UICONTROL Save Config]**.
 
 ## Aspetti da ricordare
 

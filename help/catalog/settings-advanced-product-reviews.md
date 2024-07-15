@@ -1,6 +1,6 @@
 ---
 title: Impostazioni prodotto - [!UICONTROL Product Reviews]
-description: Per un prodotto, il [!UICONTROL Product Reviews] Le impostazioni consentono di accedere alle revisioni inviate per il prodotto e di modificare lo stato delle revisioni in sospeso.
+description: Per un prodotto, le impostazioni [!UICONTROL Product Reviews] consentono di accedere alle revisioni inviate per il prodotto e di modificare lo stato delle revisioni in sospeso.
 exl-id: 9328c9f5-dcd4-4837-8902-39dc48cb8151
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Product Reviews]
 
-Il _[!UICONTROL Product Reviews]_In questa sezione sono elencate tutte le recensioni inviate dai clienti sul prodotto. Questa sezione viene visualizzata con le altre informazioni sul prodotto solo dopo il primo salvataggio di un nuovo prodotto. Per ulteriori informazioni, consulta [Recensioni prodotti](../merchandising-promotions/product-reviews.md).
+Nella sezione _[!UICONTROL Product Reviews]_sono elencate tutte le recensioni inviate dai clienti sul prodotto. Questa sezione viene visualizzata con le altre informazioni sul prodotto solo dopo il primo salvataggio di un nuovo prodotto. Per ulteriori informazioni, consulta [Recensioni prodotti](../merchandising-promotions/product-reviews.md).
 
 ![Recensioni prodotti](./assets/product-review.png){width="600" zoomable="yes"}
 
@@ -22,7 +22,7 @@ Il _[!UICONTROL Product Reviews]_In questa sezione sono elencate tutte le recens
 |--- |--- |
 | [!UICONTROL ID] | ID numerico univoco generato per la voce di recensione prodotto |
 | [!UICONTROL Created] | Data di pubblicazione del riesame |
-| [!UICONTROL Status] | Stato revisione (`Pending`, `Approved`, o `Not Approved`) |
+| [!UICONTROL Status] | Stato revisione (`Pending`, `Approved` o `Not Approved`) |
 | [!UICONTROL Title] | Rivedi titolo |
 | [!UICONTROL Nickname] | Il nome alternativo dell’utente che ha lasciato la revisione |
 | [!UICONTROL Review] | Analisi del prodotto corrente da parte del cliente |
@@ -36,20 +36,20 @@ Il _[!UICONTROL Product Reviews]_In questa sezione sono elencate tutte le recens
 
 ## Recensioni moderate per un prodotto specifico
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Individua il prodotto e aprilo in modalità di modifica.
 
-1. Scorri fino a _[!UICONTROL Product Reviews]_sezione.
+1. Scorri fino alla sezione _[!UICONTROL Product Reviews]_.
 
-1. Clic **[!UICONTROL Edit]** per una recensione del prodotto con `Pending` stato per visualizzare e modificare i dettagli.
+1. Fare clic su **[!UICONTROL Edit]** per una revisione del prodotto con stato `Pending` per visualizzare e modificare i dettagli.
 
 1. Imposta lo stato per la revisione:
 
    - Per approvare una revisione in sospeso, selezionare `Approved`.
-   - Per rifiutare una revisione, seleziona `Not Approved`.
+   - Per rifiutare una revisione, selezionare `Not Approved`.
    - È possibile ripristinare lo stato di revisione su `Pending` in qualsiasi momento.
 
-1. Al termine, fai clic su **[!UICONTROL Save Review]**.
+1. Al termine, fare clic su **[!UICONTROL Save Review]**.
 
-Recensioni con `Pending` e `Not Approved` Gli stati non vengono visualizzati nella vetrina.
+Le recensioni con gli stati `Pending` e `Not Approved` non vengono visualizzate nella vetrina.

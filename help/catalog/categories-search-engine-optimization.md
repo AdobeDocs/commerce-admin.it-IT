@@ -1,18 +1,18 @@
 ---
 title: Categorie - Impostazioni ottimizzazione motore di ricerca
-description: Scopri come utilizzare il [!UICONTROL Search Engine Optimization] impostazioni per definire la chiave URL e i campi di metadati utilizzati dai motori di ricerca per indicizzare la categoria.
+description: Scopri come utilizzare le impostazioni [!UICONTROL Search Engine Optimization] per definire la chiave URL e i campi di metadati utilizzati dai motori di ricerca per indicizzare la categoria.
 exl-id: 6c8af01d-d2aa-4c13-af76-663c47cbe38c
 feature: Catalog Management, Categories, Search
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # Categorie - Impostazioni ottimizzazione motore di ricerca
 
-Il _[!UICONTROL Search Engine Optimization]_specifica la [Chiave URL](catalog-urls.md) e [metadati](../merchandising-promotions/meta-data.md) campi utilizzati dai motori di ricerca per indicizzare la categoria. Anche se alcuni motori di ricerca ignorano le parole chiave meta, altri continuano a utilizzarle. L’attuale best practice SEO (Search Engine Optimization) consiste nell’incorporare parole chiave di alto valore sia nel titolo meta che nella descrizione meta.
+La sezione _[!UICONTROL Search Engine Optimization]_specifica i campi [Chiave URL](catalog-urls.md) e [Metadati](../merchandising-promotions/meta-data.md) utilizzati dai motori di ricerca per indicizzare la categoria. Anche se alcuni motori di ricerca ignorano le parole chiave meta, altri continuano a utilizzarle. L’attuale best practice SEO (Search Engine Optimization) consiste nell’incorporare parole chiave di alto valore sia nel titolo meta che nella descrizione meta.
 
 ![Ottimizzazione motore di ricerca](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

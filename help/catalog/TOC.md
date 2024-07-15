@@ -20,7 +20,7 @@ ht-degree: 1%
 + Nozioni di base sul catalogo {#catalog}
    + [URL di cataloghi e prodotti](catalog-urls.md)
    + [Cataloghi semplici](catalog-flat.md)
-   + Navigazione nel catalogo {#navigation}
+   + Navigazione catalogo {#navigation}
       + [Panoramica sulla navigazione](navigation.md)
       + [Navigazione superiore](navigation-top.md)
       + [Tracce breadcrumb](navigation-breadcrumb-trail.md)
@@ -35,7 +35,7 @@ ht-degree: 1%
    + [Panoramica sulle categorie](categories.md)
    + [Categoria principale e gerarchia](category-root.md)
    + [Categorie nascoste](category-hidden.md)
-   + Creare e aggiornare le categorie {#create}
+   + Crea e aggiorna categorie {#create}
       + [Creare una categoria](category-create.md)
       + [Impostazioni del contenuto](categories-content-settings.md)
       + [Impostazioni di visualizzazione](categories-display-settings.md)
@@ -60,15 +60,15 @@ ht-degree: 1%
       + [Prodotto bundle](product-create-bundle.md)
       + [Prodotto scaricabile](product-create-downloadable.md)
       + [Biglietto regalo](product-gift-card-create.md)
-   + Risorse digitali di prodotto {#digital-assets}
+   + Risorse digitali prodotto {#digital-assets}
       + [Immagini e video del catalogo](catalog-images-video.md)
       + [Configurazione risorsa immagine](product-image-config.md)
       + [Gestire le immagini dei prodotti](product-image.md)
       + [Aggiungi video di prodotto](product-video.md)
-      + Gestione dei modelli 3D dei prodotti {#product-3d-model}
+      + Gestisci modelli 3D di prodotto {#product-3d-model}
          + [Panoramica di AR Viewer](ar-viewer-overview.md)
          + [Configurazione del visualizzatore AR](ar-viewer-setup.md)
-   + Gestire i prezzi {#pricing}
+   + Gestisci prezzi {#pricing}
       + [Limite di prezzo](catalog-price-scope.md)
       + [Prezzi avanzati](pricing-advanced.md)
       + [Prezzi di gruppo](product-price-group.md)
@@ -90,12 +90,12 @@ ht-degree: 1%
       + [Progettazione](settings-advanced-design.md)
       + [Impostazioni automatiche](product-autosettings.md)
       + [Opzioni regalo](product-gift-options.md)
-+ Attributi del prodotto {#product-attributes}
++ Attributi prodotto {#product-attributes}
    + [Panoramica sugli attributi](product-attributes.md)
    + [Tipo di input attributo](attributes-input-types.md)
    + [Aggiungere attributi a un prodotto](product-attributes-add.md)
    + [Campioni di prodotto](swatches.md)
-   + Creare e aggiornare gli attributi {#create}
+   + Crea e aggiorna attributi {#create}
       + [Creare ed eliminare attributi](attribute-product-create.md)
       + [Aggiornamenti in blocco](bulk-product-attribute-update.md)
       + [Set di attributi](attribute-sets.md)

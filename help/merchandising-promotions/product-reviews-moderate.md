@@ -12,67 +12,67 @@ ht-degree: 0%
 
 # Modera recensioni prodotto
 
-Per le revisioni dei prodotti Commerce, prima di poter essere visualizzata, è necessario approvare una revisione del prodotto inviata. In questo modo le recensioni sono appropriate per visualizzare pubblicamente il tuo negozio. Una revisione inviata si trova in una `Pending` finché non viene approvato o rifiutato.
+Per le revisioni dei prodotti Commerce, prima di poter essere visualizzata, è necessario approvare una revisione del prodotto inviata. In questo modo le recensioni sono appropriate per visualizzare pubblicamente il tuo negozio. Lo stato di una revisione inviata è `Pending` finché non viene approvata o rifiutata.
 
 ## Visualizzare le recensioni dei prodotti in Admin
 
 Per visualizzare tutte le recensioni per un prodotto specifico nell’Admin, effettua le seguenti operazioni:
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Trova il prodotto da visualizzare e fai clic su **[!UICONTROL Edit]** nel _[!UICONTROL Action]_colonna.
+1. Individuare il prodotto che si desidera visualizzare e fare clic su **[!UICONTROL Edit]** nella colonna _[!UICONTROL Action]_.
 
-1. Nella pagina del prodotto, scorri verso il basso ed espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Product Reviews]** sezione.
+1. Nella pagina del prodotto, scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Product Reviews]**.
 
-   In questa griglia, puoi anche modificare la revisione specifica facendo clic sul pulsante **[!UICONTROL Edit]** collegamento in _[!UICONTROL Action]_colonna.
+   In questa griglia è inoltre possibile modificare la revisione specifica facendo clic sul collegamento **[!UICONTROL Edit]** nella colonna _[!UICONTROL Action]_.
 
 ## Aggiorna stato per le recensioni
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**o **[!UICONTROL All Reviews]**.
+1. Nella barra laterale _Admin_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**o **[!UICONTROL All Reviews]**.
 
 1. Nell’elenco, fai clic su una revisione in sospeso per visualizzare i dettagli e modificarli, se necessario.
 
-1. Modificare il **[!UICONTROL Status]** in base alla sua valutazione:
+1. Modifica **[!UICONTROL Status]** in base alla tua valutazione:
 
    - Per approvare una revisione in sospeso, selezionare `Approved`.
 
-   - Per rifiutare una revisione, seleziona `Not Approved`. Le revisioni non approvate scompaiono dall’elenco di _[!UICONTROL Pending Reviews]_pagina.
+   - Per rifiutare una revisione, selezionare `Not Approved`. Le revisioni non approvate scompaiono dall&#39;elenco della pagina _[!UICONTROL Pending Reviews]_.
 
    >[!NOTE]
    >
-   >Recensioni con `Pending` e `Not Approved` Gli stati non vengono visualizzati nella vetrina.
+   >Le recensioni con gli stati `Pending` e `Not Approved` non vengono visualizzate nella vetrina.
 
-1. Se applicabile, impostare **[!UICONTROL Visibility]** di una recensione di prodotto per apparire in diverse visualizzazioni dello store.
+1. Se applicabile, imposta **[!UICONTROL Visibility]** di una recensione di prodotto per visualizzarla in diverse visualizzazioni dello store.
 
-1. Se necessario, modifica i valori per **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]**, e **[!UICONTROL Summary of Review]**.
+1. Se necessario, modificare i valori per **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]** e **[!UICONTROL Summary of Review]**.
 
-   Per modificare la visualizzazione del punto vendita in cui è disponibile una revisione, scegliere la visualizzazione del punto vendita necessaria nel _[!UICONTROL Visibility]_colonna.
+   Per modificare la visualizzazione archivio in cui è disponibile una revisione, scegliere la visualizzazione archivio necessaria nella colonna _[!UICONTROL Visibility]_.
 
    ![Modifica pagina di revisione](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
-1. Al termine, fai clic su **[!UICONTROL Save Review]**.
+1. Al termine, fare clic su **[!UICONTROL Save Review]**.
 
 ## Aggiornamento batch
 
 Puoi aggiornare o eliminare più recensioni contemporaneamente:
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
 
 1. Seleziona le recensioni da aggiornare.
 
-1. Utilizza il _[!UICONTROL Action]_nell’angolo in alto a sinistra per applicare un’azione.
+1. Utilizza il selettore _[!UICONTROL Action]_in alto a sinistra per applicare un&#39;azione.
 
-1. Clic **[!UICONTROL Submit]**
+1. Fai clic su **[!UICONTROL Submit]**
 
 ## Eliminare una recensione di prodotto
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
 
 1. Trova la recensione del prodotto da eliminare e aprila in modalità di modifica.
 
-1. Nella barra dei menu, fai clic su **[!UICONTROL Delete Review]** pulsante.
+1. Nella barra dei menu fare clic sul pulsante **[!UICONTROL Delete Review]**.
 
-1. Per confermare l’azione, fai clic su **[!UICONTROL OK]**.
+1. Per confermare l&#39;azione, fare clic su **[!UICONTROL OK]**.
 
 ## Barra dei pulsanti
 

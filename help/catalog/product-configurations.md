@@ -1,6 +1,6 @@
 ---
 title: Impostazioni prodotto - [!UICONTROL Configurations]
-description: Per un prodotto, il [!UICONTROL Configurations] Le impostazioni definiscono le varianti da utilizzare con il tipo di prodotto Configurabile.
+description: Per un prodotto, le impostazioni [!UICONTROL Configurations] definiscono le varianti da utilizzare con il tipo di prodotto Configurabile.
 exl-id: 75c594e1-ef75-464b-a1f0-0eb63b9d165f
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Configurations]
 
-Il _[!UICONTROL Configurations]_Questa sezione elenca tutte le varianti esistenti del prodotto e può essere utilizzata per generare varianti da utilizzare con il tipo di prodotto Configurabile. Per ulteriori informazioni, consulta [Prodotto configurabile](product-create-configurable.md).
+Nella sezione _[!UICONTROL Configurations]_sono elencate tutte le varianti esistenti del prodotto e possono essere utilizzate per generare varianti da utilizzare con il tipo di prodotto Configurabile. Per ulteriori informazioni, vedere [Prodotto configurabile](product-create-configurable.md).
 
-![Sezione Configurazioni](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
+![Sezione configurazioni](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 ![Configurazioni prodotto](./assets/product-configurations-hoodie.png){width="600" zoomable="yes"}
 
@@ -28,8 +28,8 @@ Il _[!UICONTROL Configurations]_Questa sezione elenca tutte le varianti esistent
 | [!UICONTROL Price] | Prezzo del prodotto |
 | [!UICONTROL Quantity] | Quantità di scorte disponibili per ciascun prodotto |
 | [!UICONTROL Weight] | Il peso del prodotto |
-| [!UICONTROL Status] | Stato del prodotto **[!UICONTROL Enabled]** / **[!UICONTROL Disabled]** |
+| [!UICONTROL Status] | Stato prodotto **[!UICONTROL Enabled]** / **[!UICONTROL Disabled]** |
 | [!UICONTROL Attributes] | Un set di attributi utilizzati per descrivere un prodotto |
-| [!UICONTROL Actions] | Elenca tutte le azioni applicabili ai prodotti selezionati. Azioni:<br /> **[!UICONTROL Choose a different Product]** - Rimuove e sostituisce il prodotto corrente con la nuova selezione.<br /> **[!UICONTROL Disable Product]** / **[!UICONTROL Enable Product]** - Disattiva o attiva il prodotto selezionato.<br /> **[!UICONTROL Remove Product]** - Rimuove il prodotto selezionato dalla configurazione corrente. |
+| [!UICONTROL Actions] | Elenca tutte le azioni applicabili ai prodotti selezionati. Azioni:<br /> **[!UICONTROL Choose a different Product]** - Rimuove e sostituisce il prodotto corrente con la nuova selezione.<br /> **[!UICONTROL Disable Product]** / **[!UICONTROL Enable Product]** - Disabilita o abilita il prodotto selezionato.<br /> **[!UICONTROL Remove Product]** - Rimuove il prodotto selezionato dalla configurazione corrente. |
 
 {style="table-layout:auto"}

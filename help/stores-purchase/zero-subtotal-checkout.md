@@ -12,55 +12,55 @@ ht-degree: 0%
 
 # Estrazione subtotale pari a zero
 
-_Estrazione subtotale pari a zero_ può essere utilizzato per gli ordini con un subtotale pari a zero che vengono tassati dopo l&#39;applicazione di uno sconto. Ad esempio, il checkout del subtotale pari a zero può essere utilizzato nelle situazioni seguenti:
+_È possibile utilizzare un totale parziale pari a zero_ per gli ordini con un totale parziale pari a zero che vengono tassati dopo l&#39;applicazione di uno sconto. Ad esempio, il checkout del subtotale pari a zero può essere utilizzato nelle situazioni seguenti:
 
 - Uno sconto copre l&#39;intero prezzo dell&#39;acquisto, senza alcun costo aggiuntivo per la spedizione.
 
-- Il cliente aggiunge una [scaricabile](../catalog/product-create-downloadable.md) o [virtuale](../catalog/product-create-virtual.md) al carrello e il prezzo è uguale a zero.
+- Il cliente aggiunge al carrello un prodotto [scaricabile](../catalog/product-create-downloadable.md) o [virtuale](../catalog/product-create-virtual.md) e il prezzo è uguale a zero.
 
-- Il prezzo di un [semplice](../catalog/product-create-simple.md) il prodotto è zero e il valore [spedizione gratuita](shipping-free.md) è disponibile.
+- Il prezzo di un prodotto [simple](../catalog/product-create-simple.md) è zero ed è disponibile il metodo [spedizione gratuita](shipping-free.md).
 
-- A [codice coupon](../merchandising-promotions/price-rules-cart-coupon.md) copre l&#39;intero prezzo dei prodotti e spedizione.
+- Un [codice coupon](../merchandising-promotions/price-rules-cart-coupon.md) copre l&#39;intero prezzo dei prodotti e della spedizione.
 
 Per risparmiare tempo, è possibile impostare zero ordini di subtotale su fatturazione automatica.
 
-**_Per configurare l&#39;estrazione del subtotale pari a zero:_**
+**_Per configurare l&#39;estrazione del subtotale zero:_**
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Payment Methods]**.
 
-1. Sotto _[!UICONTROL Other Payment Methods]_, espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Zero Subtotal Checkout]**sezione.
+1. In _[!UICONTROL Other Payment Methods]_, espandere ![Selettore di espansione](../assets/icon-display-expand.png) la sezione **[!UICONTROL Zero Subtotal Checkout]**.
 
-   ![Estrazione subtotale pari a zero](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
+   ![Estrazione Subtotale Zero](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Se necessario, cancellare prima **[!UICONTROL Use system value]** per modificare queste impostazioni.
+   >Se necessario, deselezionare la casella di controllo **[!UICONTROL Use system value]** per modificare le impostazioni.
 
-1. Per attivare l&#39;estrazione del subtotale pari a zero, impostare **[!UICONTROL Enabled]** a `Yes`.
+1. Per attivare l&#39;estrazione del subtotale zero, impostare **[!UICONTROL Enabled]** su `Yes`.
 
 1. Per **[!UICONTROL Title]**, immettere un titolo che identifichi il metodo Subtotale zero durante l&#39;estrazione.
 
-1. Se gli ordini in genere attendono l’approvazione, accetta l’impostazione predefinita **[!UICONTROL New Order Status]** as `Pending"` fino all’approvazione dell’ordine.
+1. Se in genere gli ordini attendono l&#39;approvazione, accettare **[!UICONTROL New Order Status]** come `Pending"` predefinito fino all&#39;approvazione dell&#39;ordine.
 
-   Se preferisci, puoi utilizzare il `Processing` o `Suspected Fraud` stato dei nuovi ordini con questo metodo di pagamento.
+   Se si preferisce, è possibile utilizzare lo stato `Processing` o `Suspected Fraud` per i nuovi ordini con questo metodo di pagamento.
 
-1. Imposta **[!UICONTROL Automatically Invoice All Items]** a `Yes` se si desidera fatturare automaticamente tutti gli articoli con saldo zero.
+1. Impostare **[!UICONTROL Automatically Invoice All Items]** su `Yes` se si desidera fatturare automaticamente tutti gli elementi con saldo pari a zero.
 
-   Questa opzione è disponibile solo se **[!UICONTROL New Order Status]** è impostata su `Processing`.
+   Questa opzione è disponibile solo se l&#39;opzione **[!UICONTROL New Order Status]** è impostata su `Processing`.
 
    >[!NOTE]
    >
-   >Se _[!UICONTROL New Order Status]_è impostato su `Processing` e_[!UICONTROL Automatically Invoice All Items]_ è impostato su `No`, è inoltre necessario assegnare **[!UICONTROL Order Status]** = `Processing` per **[!UICONTROL Order State]** = `Pending` e **[!UICONTROL Default Status]** = `No` mappatura su [Stato ordine](order-status.md#custom-order-status) pagina.
+   >Se _[!UICONTROL New Order Status]_è impostato su `Processing` e_[!UICONTROL Automatically Invoice All Items]_ è impostato su `No`, è necessario assegnare anche **[!UICONTROL Order Status]** = `Processing` per il mapping **[!UICONTROL Order State]** = `Pending` e **[!UICONTROL Default Status]** = `No` nella pagina [Stato ordine](order-status.md#custom-order-status).
 
-1. Imposta **[!UICONTROL Payment from Applicable Countries]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Payment from Applicable Countries]** su uno dei seguenti:
 
-   - `All Allowed Countries` - Clienti di tutti [paesi](../getting-started/store-details.md#country-options) specificato nella configurazione del negozio può utilizzare questo metodo di pagamento.
-   - `Specific Countries` - Dopo aver scelto questa opzione, il _[!UICONTROL Payment from Specific Countries]_viene visualizzato. Per selezionare più paesi, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e fare clic su ciascuna opzione.
+   - `All Allowed Countries` - I clienti di tutti i [paesi](../getting-started/store-details.md#country-options) specificati nella configurazione del tuo negozio possono utilizzare questo metodo di pagamento.
+   - `Specific Countries` - Dopo aver scelto questa opzione, viene visualizzato l&#39;elenco _[!UICONTROL Payment from Specific Countries]_. Per selezionare più paesi, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e fare clic su ciascuna opzione.
 
 1. Per **[!UICONTROL Sort Order]**, immettere un numero che determini la posizione di questo elemento nell&#39;elenco dei metodi di pagamento visualizzato durante l&#39;estrazione.
 
-   Questo numero è relativo agli altri metodi di pagamento. (`0` = innanzitutto, `1` = secondo, `2` = terzo e così via.)
+   Questo numero è relativo agli altri metodi di pagamento. (`0` = primo, `1` = secondo, `2` = terzo e così via).
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.

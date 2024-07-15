@@ -42,7 +42,7 @@ ht-degree: 1%
       - [Configurare gli eventi](event-configure.md)
       - [Creare gli eventi](event-create.md)
       - [Inviti evento](invitations.md)
-   - Regole prezzo catalogo {#catalog-rules}
+   - Regole prezzi catalogo {#catalog-rules}
       - [Panoramica sulle regole dei prezzi del catalogo](price-rules-catalog.md)
       - [Creare una regola del prezzo di catalogo](price-rules-catalog-create.md)
       - [Modifiche pianificate per le regole prezzo catalogo](price-rule-catalog-scheduled-changes.md)
@@ -70,11 +70,11 @@ ht-degree: 1%
    - Promemoria e-mail {#email-reminders}
       - [Abilita promemoria e-mail](email-reminder-rules.md)
       - [Creare promemoria e-mail](email-reminder-rules-create.md)
-- Ottimizzazione dei motori di ricerca {#seo}
+- Ottimizzazione motore di ricerca {#seo}
    - [Panoramica e best practice per l’ottimizzazione SEO](seo-overview.md)
    - [Metadati](meta-data.md)
    - [Mappe del sito](sitemap-xml.md)
-   - Riscritture URL {#url-rewrites}
+   - URL riscrive {#url-rewrites}
       - [Panoramica e configurazione](url-rewrite.md)
       - [Riscritture categoria](url-rewrite-category.md)
       - [Riscritture prodotto](url-rewrite-product.md)

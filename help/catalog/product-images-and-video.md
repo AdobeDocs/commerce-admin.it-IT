@@ -1,6 +1,6 @@
 ---
 title: Impostazioni prodotto - [!UICONTROL Images and Videos]
-description: Per un prodotto, il [!UICONTROL Images and Videos] Le impostazioni determinano il modo in cui ogni immagine o video viene utilizzato per l’elenco dei prodotti.
+description: Per un prodotto, le impostazioni [!UICONTROL Images and Videos] determinano il modo in cui ogni immagine o video viene utilizzato per l'elenco dei prodotti.
 exl-id: 13ebed16-a788-4d39-bc28-b86c2375cc6b
 feature: Catalog Management, Products, Media
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -12,37 +12,37 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Images and Videos]
 
-Dalla sezione _[!UICONTROL Images and Videos]_Questa sezione consente di eseguire attività di base per la gestione delle immagini, ad esempio caricare più immagini, ridisporre le immagini e controllare il modo in cui ogni immagine viene utilizzata. Per un ulteriore controllo sulle singole immagini, puoi aprire ciascuna immagine in_ vista dettagli _. Per ulteriori informazioni, consulta [Immagini e video del catalogo](catalog-images-video.md).
+Dalla sezione _[!UICONTROL Images and Videos]_è possibile eseguire attività di base per la gestione delle immagini, ad esempio caricare più immagini, ridisporre le immagini e controllare la modalità di utilizzo di ogni immagine. Per un ulteriore controllo sulle singole immagini, puoi aprire ogni immagine in_ visualizzazione dettagli _. Per ulteriori informazioni, vedere [Immagini e video del catalogo](catalog-images-video.md).
 
 ## Carica una nuova immagine
 
 1. Apri il prodotto in modalità di modifica.
 
-1. Scorri verso il basso ed espandi ![Selettore di espansione](../assets/icon-display-expand.png) il _[!UICONTROL Images and Videos]_sezione.
+1. Scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Images and Videos]_.
 
    ![Immagini e video](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
 1. Se si è pronti ad aggiungere un&#39;immagine di prodotto, effettuare una delle seguenti operazioni:
 
-   - Trascina un’immagine dal desktop e rilasciala sulla _Fotocamera_ (![Icona fotocamera](../assets/icon-camera.png)).
+   - Trascina un&#39;immagine dal desktop e rilasciala sulla sezione _Fotocamera_ (![icona fotocamera](../assets/icon-camera.png)).
 
-   - Fai clic su _Fotocamera_ (![Icona fotocamera](../assets/icon-camera.png)), selezionare il file di immagine e fare clic su **[!UICONTROL Open]**.
+   - Fai clic sul riquadro _Fotocamera_ (![icona fotocamera](../assets/icon-camera.png)), seleziona il file di immagine e fai clic su **[!UICONTROL Open]**.
 
-A [segnaposto](product-image-config.md#image-placeholders) L&#39;immagine viene visualizzata nel catalogo finché non è disponibile un&#39;immagine del prodotto.
+Un&#39;immagine [placeholder](product-image-config.md#image-placeholders) viene visualizzata nel catalogo finché non è disponibile un&#39;immagine del prodotto.
 
 ## Dettagli immagine
 
-Man mano che aggiungi le immagini del prodotto, puoi personalizzarne la visualizzazione nell&#39; _[!UICONTROL Image Detail]_finestra.
+Quando si aggiungono immagini di prodotto, è possibile personalizzare la visualizzazione dell&#39;immagine nella finestra _[!UICONTROL Image Detail]_.
 
-![Immagini del prodotto](./assets/image-video.png){width="600" zoomable="yes"}
+![Immagini dei prodotti](./assets/image-video.png){width="600" zoomable="yes"}
 
 Per impostare le opzioni di visualizzazione delle immagini per un prodotto:
 
 1. Fai clic sull’immagine del prodotto.
 
-1. Inserisci il **[!UICONTROL Alt text]**.
+1. Immettere **[!UICONTROL Alt text]**.
 
-1. Scegli un **[!UICONTROL Role]** per visualizzare l’immagine (è possibile selezionare tutti i ruoli per una sola immagine):
+1. Scegliere un **[!UICONTROL Role]** per visualizzare l&#39;immagine (è possibile selezionare tutti i ruoli per una sola immagine):
 
    - `Swatch`
    - `Base`
@@ -53,4 +53,4 @@ Per impostare le opzioni di visualizzazione delle immagini per un prodotto:
 
    ![Dettagli immagine](./assets/product-image-details.png){width="600" zoomable="yes"}
 
-Per nascondere l’immagine del prodotto dalla pagina, seleziona la **[!UICONTROL Hide from Product Page]** casella di controllo.
+Per nascondere l&#39;immagine del prodotto dalla pagina del prodotto, selezionare la casella di controllo **[!UICONTROL Hide from Product Page]**.

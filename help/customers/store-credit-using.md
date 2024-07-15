@@ -20,43 +20,43 @@ Gli amministratori del Negozio possono visualizzare il saldo e la cronologia del
 
 ## Visualizza il saldo a credito
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Individuare il cliente nella griglia.
 
-1. In _Azione_ , fare clic su **[!UICONTROL Edit]**.
+1. Nella colonna _Azione_ fare clic su **[!UICONTROL Edit]**.
 
-1. Scorri _[!UICONTROL Customer View]_e visualizzare **[!UICONTROL Store Credit Balance]**in basso.
+1. Scorrere la pagina _[!UICONTROL Customer View]_e visualizzare **[!UICONTROL Store Credit Balance]**nella parte inferiore.
 
 ![Memorizza saldo credito](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
 ## Aggiorna saldo credito negozio
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Customers]** > _Operazioni_ > **[!UICONTROL All Customers]**.
+1. Nella barra laterale _Admin_, vai a **[!UICONTROL Customers]** > _Operazioni_ > **[!UICONTROL All Customers]**.
 
 1. Individuare il cliente nella griglia.
 
-1. In _Azione_ , fare clic su **[!UICONTROL Edit]**.
+1. Nella colonna _Azione_ fare clic su **[!UICONTROL Edit]**.
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Store Credit]**.
 
 1. Scegliere il sito Web (vetrina) che si desidera associare al saldo.
 
-1. Per **[!UICONTROL Update Balance]**, immetti il nuovo valore.
+1. Per **[!UICONTROL Update Balance]**, immettere il nuovo valore.
 
-1. Per notificare al cliente l&#39;aggiornamento del saldo, selezionare **[!UICONTROL Notify Customer by Email]** e scegli la visualizzazione store da **[!UICONTROL Send Email Notification From the Following Store View]**.
+1. Per notificare al cliente l&#39;aggiornamento del saldo, selezionare la casella di controllo **[!UICONTROL Notify Customer by Email]** e scegliere la visualizzazione dello store da **[!UICONTROL Send Email Notification From the Following Store View]**.
 
-1. Immetti un **[!UICONTROL Comment]** circa il cambiamento.
+1. Immetti **[!UICONTROL Comment]** sulla modifica.
 
-1. Al termine degli aggiornamenti, fai clic su **[!UICONTROL Save and Continue Edit]** o **[!UICONTROL Save Customer]**.
+1. Al termine degli aggiornamenti, fare clic su **[!UICONTROL Save and Continue Edit]** o **[!UICONTROL Save Customer]**.
 
-Il saldo aggiornato deve essere visualizzato in **[!UICONTROL Balance History]**.
+Il saldo aggiornato dovrebbe essere visualizzato in **[!UICONTROL Balance History]**.
 
 ## Applicare un saldo a credito a un ordine come amministratore del negozio
 
-In qualità di amministratore del negozio, puoi eseguire varie operazioni per conto di un cliente, incluso l’invio di ordini. Quando [creare un ordine](../stores-purchase/customer-account-create-order.md), puoi applicare un saldo a credito del Negozio dovuto al cliente. Il saldo disponibile viene visualizzato nel _Informazioni su pagamento e spedizione_ sezione. Seleziona la **[!UICONTROL Use Store Credit]** casella di controllo per applicare il saldo o una parte del saldo se il totale dell&#39;ordine è inferiore.
+In qualità di amministratore del negozio, puoi eseguire varie operazioni per conto di un cliente, incluso l’invio di ordini. Quando [crei un ordine](../stores-purchase/customer-account-create-order.md), puoi applicare un saldo a credito del negozio dovuto al cliente. Il saldo disponibile viene visualizzato nella sezione _Informazioni su pagamento e spedizione_. Selezionare la casella di controllo **[!UICONTROL Use Store Credit]** per applicare il saldo o una parte del saldo se il totale dell&#39;ordine è inferiore.
 
-![Applica il saldo a credito del punto vendita all&#39;ordine](assets/store-credit-apply.png){width="500" zoomable="yes"}
+![Applica il saldo a credito dell&#39;archivio all&#39;ordine](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
 ## Applica credito del negozio durante l&#39;acquisto
 
@@ -64,14 +64,14 @@ Se è presente un saldo a credito per la sede, il cliente può applicare il cred
 
 1. Il cliente visualizza l&#39;importo del credito del negozio disponibile.
 
-   Durante il _Revisione e pagamenti_ fase, l&#39;importo disponibile viene visualizzato in _[!UICONTROL Store Credit]_.
+   Durante il passaggio _Verifica e pagamenti_, l&#39;importo disponibile viene visualizzato in _[!UICONTROL Store Credit]_.
 
-1. Per applicare l’importo all’ordine, fai clic su **[!UICONTROL Use Store Credit]**.
+1. Per applicare l&#39;importo all&#39;ordine, fare clic su **[!UICONTROL Use Store Credit]**.
 
    >[!INFO]
    >
-   >Il totale dell&#39;ordine viene ricalcolato e l&#39;importo del credito del punto vendita applicato viene visualizzato nel _[!UICONTROL Order Summary]_.
+   >Il totale dell&#39;ordine viene ricalcolato e l&#39;importo del credito dell&#39;archivio applicato viene visualizzato in _[!UICONTROL Order Summary]_.
 
-   ![Saldo a credito del punto vendita applicato all&#39;ordine](assets/store-credit-checkout.png){width="700" zoomable="yes"}
+   ![Saldo a credito archiviato applicato all&#39;ordine](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 
 1. Quando è pronto, fa clic su **[!UICONTROL Place Order]**.

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Metodi di pagamento memorizzati
 
-I clienti che hanno accesso a un vaulting sicuro per memorizzare le informazioni di pagamento possono effettuare il pagamento senza inserire ogni volta le informazioni sulla carta di credito. Se [Acquisto immediato](checkout-instant-purchase.md) è abilitato, i clienti possono evitare il processo di pagamento in due fasi e effettuare l’ordine dalla pagina del prodotto.
+I clienti che hanno accesso a un vaulting sicuro per memorizzare le informazioni di pagamento possono effettuare il pagamento senza inserire ogni volta le informazioni sulla carta di credito. Se [Acquisto immediato](checkout-instant-purchase.md) è abilitato, i clienti possono ignorare il processo di pagamento in due fasi e inoltrare l&#39;ordine dalla pagina del prodotto.
 
-Un metodo di pagamento che supporta un archivio protetto, ad esempio [Braintree](braintree.md), è obbligatorio. Quando nella configurazione del metodo di pagamento è abilitato un vaulting protetto, i clienti hanno la possibilità, durante il pagamento, di salvare le informazioni sulla carta di credito come metodo di pagamento memorizzato. I clienti possono gestire i metodi di pagamento memorizzati dal dashboard del proprio account.
+È necessario un metodo di pagamento che supporti un insieme di credenziali protetto, ad esempio [Braintree](braintree.md). Quando nella configurazione del metodo di pagamento è abilitato un vaulting protetto, i clienti hanno la possibilità, durante il pagamento, di salvare le informazioni sulla carta di credito come metodo di pagamento memorizzato. I clienti possono gestire i metodi di pagamento memorizzati dal dashboard del proprio account.
 
 ![Metodi di pagamento memorizzati](./assets/customer-account-stored-payment-methods.png){width="700" zoomable="yes"}
 
@@ -26,26 +26,26 @@ Un metodo di pagamento che supporta un archivio protetto, ad esempio [Braintree]
 
 1. Consente di passare alla pagina di pagamento.
 
-1. Completa il _Spedizione_ passaggio.
+1. Completa il passaggio _Spedizione_.
 
-1. Seleziona il **[!UICONTROL Braintree Credit Card]** metodo di pagamento.
+1. Seleziona il metodo di pagamento **[!UICONTROL Braintree Credit Card]**.
 
 1. Inserisce i dati della carta di credito.
 
-1. Seleziona il **[!UICONTROL Save for later use]** casella di controllo.
+1. Seleziona la casella di controllo **[!UICONTROL Save for later use]**.
 
-1. Clic **[!UICONTROL Place Order]**.
+1. Clic su **[!UICONTROL Place Order]**.
 
-Il metodo di pagamento salvato viene quindi visualizzato nel _[!UICONTROL Stored Payment Methods]_della dashboard del cliente.
+Il metodo di pagamento salvato viene quindi visualizzato nella scheda _[!UICONTROL Stored Payment Methods]_del dashboard cliente.
 
 ## Elimina un metodo di pagamento memorizzato
 
 Qualsiasi metodo di pagamento precedentemente aggiunto e memorizzato non può essere modificato dal cliente, può solo essere eliminato. Questa azione non può essere annullata.
 
-1. Nella barra laterale del loro account, il cliente seleziona **[!UICONTROL Stored Payment Methods]**.
+1. Nella barra laterale del proprio account, il cliente seleziona **[!UICONTROL Stored Payment Methods]**.
 
 1. Trova la voce del metodo di pagamento da eliminare.
 
-1. Clic **[!UICONTROL Delete]**.
+1. Clic su **[!UICONTROL Delete]**.
 
-1. Per confermare l’azione, fai clic su **[!UICONTROL OK]**.
+1. Per confermare l&#39;azione, fa clic su **[!UICONTROL OK]**.

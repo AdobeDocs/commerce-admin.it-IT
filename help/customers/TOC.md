@@ -17,7 +17,7 @@ ht-degree: 2%
 + Strumenti di gestione clienti {#customers-menu}
    + [Elenco clienti](customers-all.md)
    + [Ora online](now-online.md)
-   + [Personalizzazione su larga scala](personalize-scale.md)
+   + [Personalization su larga scala](personalize-scale.md)
 + Account cliente {#customer-accounts}
    + [Ambito account](customer-account-scope.md)
    + Opzioni account {#configure}
@@ -37,7 +37,7 @@ ht-degree: 2%
       + [Proprietà attributo](attribute-properties.md)
       + [Attributi indirizzo](address-attributes.md)
       + [Modelli di indirizzo](address-templates.md)
-   + Credito store {#store-credit}
+   + Memorizza credito {#store-credit}
       + [Flusso di lavoro per crediti store](store-credit.md)
       + [Configura credito negozio](credit-configure.md)
       + [Applica credito negozio](store-credit-using.md)

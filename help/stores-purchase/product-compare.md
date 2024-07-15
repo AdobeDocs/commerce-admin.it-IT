@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Confronta prodotti
 
-Confronta prodotti genera un confronto dettagliato affiancato di due o più prodotti. A seconda del tema, il collegamento Aggiungi per confrontare potrebbe essere rappresentato da un&#39;icona o da un testo. Il _Confronta prodotti_ il blocco viene in genere visualizzato nella barra laterale sinistra o destra di una pagina di catalogo.
+Confronta prodotti genera un confronto dettagliato affiancato di due o più prodotti. A seconda del tema, il collegamento Aggiungi per confrontare potrebbe essere rappresentato da un&#39;icona o da un testo. Il blocco _Confronta prodotti_ viene in genere visualizzato nella barra laterale sinistra o destra di una pagina del catalogo.
 
 ![Esempio di vetrina - elenco di confronto](./assets/storefront-comparison-list.png){width="700" zoomable="yes"}
 
-A differenza della [Prodotti visualizzati/confrontati di recente](products-viewed-compared.md) , l&#39;amministratore non include impostazioni di configurazione aggiuntive per Confronta prodotti.
+A differenza del blocco [Prodotti visualizzati/confrontati di recente](products-viewed-compared.md), l&#39;amministratore non include impostazioni di configurazione aggiuntive per Confronta prodotti.
 
 ## Confronta i prodotti sul vetrina
 
@@ -24,15 +24,15 @@ Sono disponibili alcuni modi per utilizzare l’elenco di confronto nella vetrin
 
 ### Dalle pagine del catalogo
 
-1. Il cliente trova i prodotti che desidera confrontare e fa clic sul pulsante **[!UICONTROL Add to Compare]** collegamento per ciascuno.
+1. Il cliente trova i prodotti che desidera confrontare e fa clic sul collegamento **[!UICONTROL Add to Compare]** per ciascuno di essi.
 
 1. Passa a una pagina categoria associata.
 
-   A seconda del tema e del layout della pagina, è possibile che _Confronta prodotti_ nella barra laterale. In tal caso, vengono elencati gli elementi della categoria contrassegnati per il confronto.
+   A seconda del tema e del layout della pagina, nella barra laterale potrebbe essere presente un blocco _Confronta prodotti_. In tal caso, vengono elencati gli elementi della categoria contrassegnati per il confronto.
 
-   Il cliente può fare clic su _Elimina_ ( ![Icona Elimina](../assets/icon-delete-x.png) ) per qualsiasi prodotto per rimuoverlo dal rapporto di confronto, oppure fai clic su **[!UICONTROL Clear All]** per rimuovere tutti gli elementi e ricominciare dalle selezioni di confronto.
+   Il cliente può fare clic su _Elimina_ ( ![Icona Elimina](../assets/icon-delete-x.png) ) per qualsiasi prodotto per rimuoverlo dal report di confronto, oppure fare clic su **[!UICONTROL Clear All]** per rimuovere tutti gli elementi e ricominciare dalle selezioni di confronto.
 
-1. Clic **[!UICONTROL Compare]**.
+1. Clic su **[!UICONTROL Compare]**.
 
 1. Per stampare le informazioni di confronto, fare clic su **[!UICONTROL Print This Page]**.
 
@@ -42,17 +42,17 @@ Sono disponibili alcuni modi per utilizzare l’elenco di confronto nella vetrin
 
 1. Dopo che un cliente ha aggiunto un prodotto a un elenco di confronto, la pagina mostra un messaggio di notifica.
 
-1. Nella notifica del messaggio in alto visualizzata, fai clic sul pulsante _elenco di confronto_ collegamento.
+1. Nella notifica del messaggio in alto visualizzata, fai clic sul collegamento _elenco di confronto_.
 
    ![Confronta notifica prodotti](./assets/notification-comparison-list.png){width="700" zoomable="yes"}
 
 Questa azione reindirizza il cliente alla lista di confronto in cui può accedere alle azioni aggiuntive.
 
-### Dalla sezione _Confronta prodotti_ blocco
+### Dal blocco _Confronta prodotti_
 
-1. Il cliente trova i prodotti che desidera confrontare e fa clic sul pulsante **[!UICONTROL Add to Compare]** collegamento per ciascuno.
+1. Il cliente trova i prodotti che desidera confrontare e fa clic sul collegamento **[!UICONTROL Add to Compare]** per ciascuno di essi.
 
-1. Nell’intestazione accanto al campo di ricerca, fai clic su _Confronta prodotti_ collegamento.
+1. Nell&#39;intestazione accanto al campo di ricerca, fare clic sul collegamento _Confronta prodotti_.
 
    ![Confronta intestazione prodotti](./assets/compare-products-header.png){width="700" zoomable="yes"}
 
@@ -62,9 +62,9 @@ Questa azione reindirizza il cliente alla lista di confronto in cui può acceder
 
 1. Passa a **[!UICONTROL My Account]**.
 
-1. In _Confronta prodotti_ blocco, clic **[!UICONTROL Compare]**.
+1. Nel blocco _Confronta prodotti_, fa clic su **[!UICONTROL Compare]**.
 
-   ![Blocco Confronta prodotti nel dashboard dell’account cliente](./assets/my-account-compare-block.png){width="700" zoomable="yes"}
+   ![Confronta i prodotti bloccati nel dashboard account cliente](./assets/my-account-compare-block.png){width="700" zoomable="yes"}
 
 ## Azioni aggiuntive dell’elenco di confronto
 

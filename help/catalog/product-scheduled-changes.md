@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Gli aggiornamenti dei prodotti possono essere applicati secondo pianificazione e raggruppati con altre modifiche al contenuto. È possibile utilizzare [staging dei contenuti](../content-design/content-staging.md) per creare una campagna in base alle modifiche pianificate al prodotto o applicarle a una campagna esistente.
+Gli aggiornamenti dei prodotti possono essere applicati secondo pianificazione e raggruppati con altre modifiche al contenuto. Puoi utilizzare [staging contenuto](../content-design/content-staging.md) per creare una campagna basata su modifiche pianificate al prodotto o applicare le modifiche a una campagna esistente.
 
 >[!NOTE]
 >
->Il [!UICONTROL Set Product as New From] e [!UICONTROL To] campi e [!UICONTROL Schedule Design Update] la scheda è stata rimossa in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente sul prodotto. Devi creare un aggiornamento pianificato per queste attivazioni.
+>I campi [!UICONTROL Set Product as New From] e [!UICONTROL To] e la scheda [!UICONTROL Schedule Design Update] sono stati rimossi da ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente sul prodotto. Devi creare un aggiornamento pianificato per queste attivazioni.
 
 >[!NOTE]
 >
@@ -26,53 +26,53 @@ Gli aggiornamenti dei prodotti possono essere applicati secondo pianificazione e
 
 >[!NOTE]
 >
->Un’anteprima di staging per un aggiornamento pianificato inizia sempre dal **predefinito** la vista store, che emula l’esperienza del cliente durante la navigazione nella campagna di aggiornamento dell’area di gestione temporanea.
+>Un&#39;anteprima di gestione temporanea per un aggiornamento pianificato inizia sempre dalla visualizzazione **predefinita** dell&#39;archivio, che emula l&#39;esperienza del cliente di navigare attraverso la campagna di aggiornamento di gestione temporanea.
 
 ## Crea un aggiornamento pianificato
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Seleziona un prodotto esistente e fai clic su **[!UICONTROL Edit]**.
+1. Selezionare un prodotto esistente e fare clic su **[!UICONTROL Edit]**.
 
-1. Clic **[!UICONTROL Schedule New Update]**.
+1. Fare clic su **[!UICONTROL Schedule New Update]**.
 
-1. Seleziona **[!UICONTROL Save as a New Update]**.
+1. Selezionare **[!UICONTROL Save as a New Update]**.
 
-1. Per **[!UICONTROL Update Name]**, immetti un nome per la nuova campagna di staging dei contenuti.
+1. Per **[!UICONTROL Update Name]**, immettere un nome per la nuova campagna di gestione temporanea del contenuto.
 
-1. Inserisci una descrizione **[!UICONTROL Description]** dell’aggiornamento e come deve essere utilizzato.
+1. Immetti una breve **[!UICONTROL Description]** dell&#39;aggiornamento e come deve essere utilizzato.
 
-1. Utilizza il calendario (![icona calendario](../assets/icon-calendar.png)) per scegliere il **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** per la campagna.
+1. Utilizzare lo strumento Calendario (![icona calendario](../assets/icon-calendar.png)) per scegliere **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** per la campagna.
 
    >[!NOTE]
    >
-   >Campagna **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** deve essere definito utilizzando **_predefinito_** Fuso orario amministratore, convertito dal fuso orario locale per ogni sito Web. Ad esempio, con più siti web in fusi orari diversi in cui desideri avviare una campagna basata su un fuso orario USA, devi pianificare un aggiornamento separato per ogni fuso orario locale. Imposta **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** per ogni e viene convertito dal fuso orario del sito web locale al fuso orario predefinito dell’amministratore.
+   >Le campagne **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** devono essere definite utilizzando il fuso orario di amministrazione **_default_**, che viene convertito dal fuso orario locale per ogni sito Web. Ad esempio, con più siti web in fusi orari diversi in cui desideri avviare una campagna basata su un fuso orario USA, devi pianificare un aggiornamento separato per ogni fuso orario locale. Impostare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** per ciascuno di essi e verranno convertiti dal fuso orario del sito Web locale al fuso orario predefinito dell&#39;amministratore.
 
    ![Pianifica come nuovo aggiornamento](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
 1. Scorri verso il basso fino a _[!UICONTROL Price]_e fai clic su **[!UICONTROL Advanced Pricing]**.
 
-1. Immetti un **[!UICONTROL Special Price]** per il prodotto durante la campagna pianificata e fai clic su **[!UICONTROL Done]**.
+1. Immettere **[!UICONTROL Special Price]** per il prodotto durante la campagna pianificata e fare clic su **[!UICONTROL Done]**.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
 ## Assegna ad aggiornamento esistente
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Seleziona un prodotto esistente e fai clic su **[!UICONTROL Edit]**.
+1. Selezionare un prodotto esistente e fare clic su **[!UICONTROL Edit]**.
 
-1. Clic **[!UICONTROL Schedule New Update]**.
+1. Fare clic su **[!UICONTROL Schedule New Update]**.
 
-1. Seleziona **[!UICONTROL Assign to Existing Campaign]**.
+1. Selezionare **[!UICONTROL Assign to Existing Campaign]**.
 
 1. Nell’elenco, seleziona la campagna da modificare.
 
    ![Assegnazione a una campagna esistente](./assets/scheduled-changes-assign-to-existing-campaign.png){width="600" zoomable="yes"}
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
+1. Espandere ![Selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
 ## Visualizza la modifica pianificata
 
@@ -82,17 +82,17 @@ La modifica pianificata viene visualizzata nella parte superiore della pagina de
 
 ## Modifica la modifica pianificata
 
-1. In _[!UICONTROL Scheduled Changes]_nella parte superiore della pagina, fai clic su **[!UICONTROL View/Edit]**.
+1. Nella casella _[!UICONTROL Scheduled Changes]_nella parte superiore della pagina, fare clic su **[!UICONTROL View/Edit]**.
 
 1. Apporta le modifiche necessarie all’aggiornamento pianificato.
 
-1. Clic **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 ## Rimuovi la modifica pianificata
 
-1. In _[!UICONTROL Scheduled Changes]_nella parte superiore della pagina, fai clic su **[!UICONTROL View/Edit]**.
+1. Nella casella _[!UICONTROL Scheduled Changes]_nella parte superiore della pagina, fare clic su **[!UICONTROL View/Edit]**.
 
-1. Nella barra superiore, fai clic su **[!UICONTROL Remove from Update]**.
+1. Nella barra superiore fare clic su **[!UICONTROL Remove from Update]**.
 
    ![Rimuovi modifica pianificata](./assets/remove-product-scheduled-changes.png){width="600" zoomable="yes"}
 
@@ -106,9 +106,9 @@ La modifica pianificata viene visualizzata nella parte superiore della pagina de
 
 {{ce-feature}}
 
-Il _[!UICONTROL Schedule Design Update]_consente di apportare modifiche temporanee all&#39;aspetto della pagina di prodotto. È possibile pianificare le modifiche di progettazione per una stagione, una promozione o semplicemente per rinnovare la struttura. Le modifiche di progettazione possono essere pianificate in anticipo, quindi diventano effettive, oppure_ gocciolamento _, nella pianificazione definita.
+La sezione _[!UICONTROL Schedule Design Update]_consente di apportare modifiche temporanee all&#39;aspetto della pagina del prodotto. È possibile pianificare le modifiche di progettazione per una stagione, una promozione o semplicemente per rinnovare la struttura. Le modifiche della progettazione possono essere pianificate in anticipo, quindi diventano effettive, o_ drip _, nella pianificazione definita.
 
-![Design Update Programmato](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
+![Aggiornamento Progettazione Pianificato](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 
 
 | Campo | Descrizione |

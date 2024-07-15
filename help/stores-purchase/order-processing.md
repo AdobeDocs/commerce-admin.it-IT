@@ -14,39 +14,39 @@ ht-degree: 0%
 
 Quando un cliente effettua un ordine, viene creato un ordine di vendita come record temporaneo della transazione. Nella griglia Ordini, gli ordini di vendita inizialmente hanno lo stato &quot;In sospeso&quot; e possono essere annullati in qualsiasi momento fino all&#39;elaborazione del pagamento. Dopo la conferma del pagamento, l&#39;ordine può essere fatturato e spedito.
 
-**Passaggio 1: Effettuare un ordine** - Il processo di pagamento inizia quando l&#39;acquirente fa clic su **[!UICONTROL Go to Checkout]** sulla pagina del carrello oppure [riordina](reorders-allow.md) direttamente dal proprio account cliente.
+**Passaggio 1: Ordina** - Il processo di pagamento inizia quando l&#39;acquirente fa clic su **[!UICONTROL Go to Checkout]** nella pagina del carrello o [riordina](reorders-allow.md) direttamente dal proprio account cliente.
 
-**Passaggio 2: ordine in sospeso** - Lo stato dell&#39;ordine cliente iniziale è `Pending`. In questo stato, il pagamento non è stato elaborato e l’ordine può ancora essere modificato o annullato. Questo stato si verifica quando il metodo di pagamento è configurato per la modalità di autorizzazione.
+**Passaggio 2: ordine in sospeso**. Lo stato iniziale dell&#39;ordine di vendita è `Pending`. In questo stato, il pagamento non è stato elaborato e l’ordine può ancora essere modificato o annullato. Questo stato si verifica quando il metodo di pagamento è configurato per la modalità di autorizzazione.
 
-**Passaggio 3: Ricezione del pagamento** - Lo stato dell’ordine cambia in `Processing` quando il pagamento è ricevuto o autorizzato. A seconda del metodo di pagamento, potresti ricevere una notifica quando la transazione viene autorizzata o elaborata. Questo stato si verifica automaticamente quando il metodo di pagamento è configurato per la modalità acquisizione o vendita intento.
+**Passaggio 3: ricezione pagamento** - Lo stato dell&#39;ordine diventa `Processing` quando il pagamento viene ricevuto o autorizzato. A seconda del metodo di pagamento, potresti ricevere una notifica quando la transazione viene autorizzata o elaborata. Questo stato si verifica automaticamente quando il metodo di pagamento è configurato per la modalità acquisizione o vendita intento.
 
-**Passaggio 4: Ordine di fatturazione** - Un ordine viene generalmente fatturato dopo la ricezione del pagamento. Il metodo di pagamento determina le opzioni di fatturazione necessarie per l&#39;ordine. Dopo la generazione e l&#39;invio della fattura, viene inviata una copia al cliente. Se il metodo di pagamento è configurato con `capture` o `intent sale` azione di pagamento, una fattura viene generata automaticamente quando il pagamento viene autorizzato e acquisito.
-
->[!NOTE]
->
->Le fatture non vengono create automaticamente per gli ordini effettuati utilizzando `Gift Card`, `Store Credit`, `Reward Points`, o altri metodi di pagamento offline.
-
-**Passaggio 5: Registrare una singola spedizione** - Lo stato dell’ordine cambia in `Complete` quando i dettagli della spedizione sono completi, la spedizione viene prenotata e la spedizione impostata. Il requisito di spedizione è soddisfatto con un documento di trasporto stampato e l&#39;etichetta di spedizione o _Notifica pronta per il ritiro_ è selezionato (metodo di consegna in-store). Il cliente riceve la notifica e il pacchetto viene spedito. Se vengono utilizzati numeri di registrazione, la spedizione può essere tracciata dal conto del cliente.
+**Passaggio 4: ordine di fatturazione** - Un ordine viene generalmente fatturato dopo la ricezione del pagamento. Il metodo di pagamento determina le opzioni di fatturazione necessarie per l&#39;ordine. Dopo la generazione e l&#39;invio della fattura, viene inviata una copia al cliente. Se il metodo di pagamento è configurato con l&#39;azione di pagamento `capture` o `intent sale`, viene generata automaticamente una fattura quando il pagamento viene autorizzato e acquisito.
 
 >[!NOTE]
 >
->Per informazioni dettagliate sullo stato degli ordini e sulle opzioni di configurazione del metodo di pagamento, consulta [Stato ordine](order-status.md) e [Pagamenti](payments.md).
+>Le fatture non vengono create automaticamente per gli ordini effettuati utilizzando `Gift Card`, `Store Credit`, `Reward Points` o altri metodi di pagamento offline.
+
+**Passaggio 5: Registra una singola spedizione** - Lo stato dell&#39;ordine diventa `Complete` quando i dettagli della spedizione sono completi, la spedizione è registrata e la spedizione è impostata. Il requisito di spedizione è soddisfatto con un documento di trasporto stampato e l&#39;etichetta di spedizione oppure è selezionato _Notify Ready for Pickup_ (metodo di consegna in-store). Il cliente riceve la notifica e il pacchetto viene spedito. Se vengono utilizzati numeri di registrazione, la spedizione può essere tracciata dal conto del cliente.
+
+>[!NOTE]
+>
+>Per informazioni dettagliate sullo stato degli ordini e sulle opzioni di configurazione del metodo di pagamento, vedere [Stato ordine](order-status.md) e [Pagamenti](payments.md).
 
 ## Visualizza un ordine
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
 1. Trovare l&#39;ordine nella griglia.
 
-1. In _[!UICONTROL Action]_, fare clic su **[!UICONTROL View]**.
+1. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL View]**.
 
 1. Verifica stato ordine:
 
-   - A `Pending` l&#39;ordine può essere modificato, sospeso, annullato o fatturato e spedito.
+   - Un ordine `Pending` può essere modificato, bloccato, annullato o fatturato e spedito.
 
-   - A `Processing` l&#39;ordine non può più essere modificato o annullato in modo sostanziale, ma è possibile modificare l&#39;indirizzo di fatturazione e di spedizione.
+   - Un ordine `Processing` non può più essere modificato o annullato in modo sostanziale, ma è possibile modificare l&#39;indirizzo di fatturazione e di spedizione.
 
-   - A `Completed` l&#39;ordine può essere riordinato.
+   - È possibile riordinare un ordine `Completed`.
 
 L’e-mail del cliente può essere modificata in qualsiasi punto del flusso di lavoro dell’ordine modificando il cliente. Non è possibile modificare l&#39;e-mail se l&#39;ordine è stato effettuato da un ospite.
 
@@ -56,15 +56,15 @@ Il pannello sinistro di un ordine aperto consente di accedere a diversi tipi di 
 
 ## Elabora un ordine
 
-Quando un cliente effettua un ordine, viene creato un ordine di vendita come record temporaneo della transazione. Lo stato dell&#39;ordine cliente è `Pending` fino alla ricezione del pagamento. In `Pending` stato, gli ordini possono essere modificati o annullati fino al momento della ricezione del pagamento e della generazione della fattura. Un modo semplice di pensare è che gli ordini diventano fatture, e le fatture diventano spedizioni. La griglia Ordini elenca tutti gli ordini, indipendentemente dalla loro posizione nel flusso di lavoro. Per scoprire come aiutare i clienti con un ordine, consulta [Aggiornare un ordine](order-update.md).
+Quando un cliente effettua un ordine, viene creato un ordine di vendita come record temporaneo della transazione. Lo stato dell&#39;ordine cliente è `Pending` fino alla ricezione del pagamento. Quando si trova nello stato `Pending`, gli ordini possono essere modificati o annullati fino al momento della ricezione del pagamento e della generazione della fattura. Un modo semplice di pensare è che gli ordini diventano fatture, e le fatture diventano spedizioni. La griglia Ordini elenca tutti gli ordini, indipendentemente dalla loro posizione nel flusso di lavoro. Per informazioni su come aiutare i clienti con un ordine, consulta [Aggiornare un ordine](order-update.md).
 
 ![Ordini](./assets/orders-grid.png){width="700" zoomable="yes"}
 
-Per aprire un `Pending` ordina, fai clic su **[!UICONTROL Edit]** nell’angolo superiore destro.
+Per aprire un ordine `Pending`, fare clic su **[!UICONTROL Edit]** nell&#39;angolo superiore destro.
 
 >[!NOTE]
 >
->È possibile modificare gli ordini solo in `Pending` stato. Il pulsante Modifica non è visibile per gli ordini con stato diverso o per gli ordini basati su [offerta negoziata](../b2b/quotes.md).
+>È possibile modificare gli ordini solo se si trova nello stato `Pending`. Il pulsante Modifica non è visibile per gli ordini con stato diverso o per gli ordini basati su [offerte negoziate](../b2b/quotes.md).
 
 ![Modifica ordine cliente](./assets/order-pending.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Esaminare le sezioni seguenti nell&#39;ordine cliente, utilizzando le descrizion
 
 >[!NOTE]
 >
->Un utente amministratore deve avere **[!UICONTROL Sales / Archive]** [autorizzazioni](../systems/permissions-user-roles.md) affinché il loro ambito di ruolo possa visualizzare _Fatture_, _Note di credito_, e _Spedizioni_ ordinare le schede.
+>Un utente amministratore deve disporre di **[!UICONTROL Sales / Archive]** [autorizzazioni](../systems/permissions-user-roles.md) per l&#39;ambito del proprio ruolo per visualizzare le _fatture_, _note di credito_ e _spedizioni_ schede ordine.
 
 ### Barra dei pulsanti
 
@@ -98,17 +98,17 @@ Esaminare le sezioni seguenti nell&#39;ordine cliente, utilizzando le descrizion
 | **[!UICONTROL Ship]** | Crea un record di spedizione per l&#39;ordine. |
 | **[!UICONTROL Notify Order is Ready for Pickup]** | Viene visualizzato solo quando un ordine viene effettuato come consegna in-store. Notifica al cliente che l&#39;ordine è pronto per il prelievo. |
 | **[!UICONTROL Reorder]** | Crea un ordine cliente in base all&#39;ordine corrente. |
-| **[!UICONTROL Edit]** | Apre un ordine in sospeso in modalità di modifica. Il pulsante Modifica non è visibile per gli ordini con stato `Processing`, o ordini basati su preventivi negoziati. |
+| **[!UICONTROL Edit]** | Apre un ordine in sospeso in modalità di modifica. Il pulsante Modifica non è visibile per gli ordini con stato `Processing` o basati su preventivi negoziati. |
 
 {style="table-layout:auto"}
 
 ### Annullare un ordine
 
-È possibile [annulla](order-update.md) ordini non ancora fatturati. A [nota di accredito](credit-memos.md) deve essere emesso se un cliente desidera annullare un ordine dopo la fatturazione (acquisizione del pagamento).
+È possibile [annullare](order-update.md) ordini non ancora fatturati. È necessario emettere una [nota di credito](credit-memos.md) se un cliente desidera annullare un ordine dopo che è stato fatturato (il pagamento viene acquisito).
 
-Se un ordine è `Pending` o `Processing` e il pagamento non viene acquisito o non acquisito completamente, puoi [annullare l’ordine](#void-an-order) invece di annullarla.
+Se un ordine è `Pending` o `Processing` e il pagamento non viene acquisito o non viene acquisito completamente, è possibile [annullare l&#39;ordine](#void-an-order) invece di annullarlo.
 
-Per ripristinare un ordine annullato, fare clic su **[!UICONTROL Reorder]** e viene creato un nuovo ordine con lo stato `Pending`.
+Per ripristinare un ordine annullato, fare clic sul pulsante **[!UICONTROL Reorder]** e creare un nuovo ordine con lo stato `Pending`.
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Per ripristinare un ordine annullato, fare clic su **[!UICONTROL Reorder]** e vi
 
 ### Annullare un ordine
 
-Solo gli ordini cliente non fatturati con stato `Processing`, e un [impostazione di integrazione dei pagamenti di `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), può essere [annullato](order-update.md#void-a-processing-order). Dopo aver annullato un ordine, puoi annullarlo.
+Solo gli ordini cliente non fatturati con stato `Processing` e impostazione di integrazione del pagamento [di `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions) possono essere [annullati](order-update.md#void-a-processing-order). Dopo aver annullato un ordine, puoi annullarlo.
 
 ### [!UICONTROL Order and Account Information]
 
@@ -130,7 +130,7 @@ Solo gli ordini cliente non fatturati con stato `Processing`, e un [impostazione
 | [!UICONTROL Order Date] | La data e l’ora in cui è stato effettuato l’ordine. |
 | [!UICONTROL Purchased From] | Indica la visualizzazione del sito Web, del punto vendita e del punto vendita in cui è stato effettuato l&#39;ordine. |
 | [!UICONTROL Placed from IP] | Indica l&#39;indirizzo IP del computer da cui è stato effettuato l&#39;ordine. |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Indica [preventivo](../b2b/quotes.md) da cui è stato generato l’ordine, se applicabile. Il nome dell&#39;offerta è collegato all&#39;offerta. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Commerce B2B) indica il [preventivo](../b2b/quotes.md) da cui è stato generato l&#39;ordine, se applicabile. Il nome dell&#39;offerta è collegato all&#39;offerta. |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ Solo gli ordini cliente non fatturati con stato `Processing`, e un [impostazione
 | [!UICONTROL Customer Name] | Il nome del cliente o dell&#39;acquirente che ha effettuato l&#39;ordine. Il Nome cliente è collegato al profilo cliente. |
 | [!UICONTROL Email] | L’indirizzo e-mail del cliente o dell’acquirente. L’indirizzo e-mail è collegato per aprire un nuovo messaggio e-mail. |
 | [!UICONTROL Customer Group] | Il nome del gruppo di clienti o del catalogo condiviso a cui è assegnato il cliente. |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Il nome dell’azienda a cui è associato l’acquirente e per conto della quale viene effettuato l’ordine. Il nome dell’azienda è collegato al [profilo società](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Commerce B2B) Il nome dell&#39;azienda a cui è associato l&#39;acquirente e per conto della quale è stato effettuato l&#39;ordine. Il nome della società è collegato al [profilo società](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
@@ -151,7 +151,7 @@ Solo gli ordini cliente non fatturati con stato `Processing`, e un [impostazione
 
 | Campo | Descrizione |
 |--- |--- |
-| [!UICONTROL Billing Address] | Il nome del cliente o dell&#39;acquirente che ha effettuato l&#39;ordine, seguito dall&#39;indirizzo di fatturazione, dal numero di telefono e [IVA](vat.md), se applicabile. Il numero di telefono è collegato alla composizione automatica su un dispositivo mobile. |
+| [!UICONTROL Billing Address] | Il nome del cliente o dell&#39;acquirente che ha effettuato l&#39;ordine, seguito dall&#39;indirizzo di fatturazione, dal numero di telefono e da [IVA](vat.md), se applicabile. Il numero di telefono è collegato alla composizione automatica su un dispositivo mobile. |
 | [!UICONTROL Shipping Address] | Il nome della persona alla cui attenzione deve essere spedito l&#39;ordine, seguito dall&#39;indirizzo di spedizione e dal numero di telefono. Il numero di telefono è collegato alla composizione automatica su un dispositivo mobile. |
 
 {style="table-layout:auto"}
@@ -162,7 +162,7 @@ Solo gli ordini cliente non fatturati con stato `Processing`, e un [impostazione
 
 | Campo | Descrizione |
 |--- |--- |
-| [!UICONTROL Payment Information] | Il metodo di pagamento da utilizzare per l’ordine e il numero dell’ordine di acquisto, se applicabile, seguito dalla valuta utilizzata per effettuare l’ordine. Se l&#39;ordine viene addebitato al credito della società utilizzando [Pagamento in acconto](../b2b/enable-basic-features.md#configure-payment-on-account), viene indicato l&#39;importo addebitato sul conto. |
+| [!UICONTROL Payment Information] | Il metodo di pagamento da utilizzare per l’ordine e il numero dell’ordine di acquisto, se applicabile, seguito dalla valuta utilizzata per effettuare l’ordine. Se l&#39;ordine viene addebitato al credito della società utilizzando [Pagamento sul conto](../b2b/enable-basic-features.md#configure-payment-on-account), viene indicato l&#39;importo addebitato sul conto. |
 | [!UICONTROL Shipping & Handling Information] | Il metodo di spedizione da utilizzare e le eventuali spese di imballaggio applicabili. |
 
 {style="table-layout:auto"}
@@ -171,15 +171,15 @@ Solo gli ordini cliente non fatturati con stato `Processing`, e un [impostazione
 
 ![Elementi ordinati](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
 
-In **[!UICONTROL Order Total]** eseguire le operazioni seguenti:
+Nella sezione **[!UICONTROL Order Total]** eseguire le operazioni seguenti:
 
-1. Immetti un **[!UICONTROL Comment]** da includere nell’ordine.
+1. Immettere un **[!UICONTROL Comment]** da includere nell&#39;ordine.
 
-1. Se desideri inviare il commento via e-mail al cliente, seleziona la **[!UICONTROL Notify Customer by Email]** casella di controllo.
+1. Per inviare il commento al cliente tramite posta elettronica, selezionare la casella di controllo **[!UICONTROL Notify Customer by Email]**.
 
-1. Se desideri che il commento sia visibile nel conto del cliente, seleziona la **[!UICONTROL Visible on Storefront]** casella di controllo.
+1. Se si desidera che il commento sia visibile nell&#39;account cliente, selezionare la casella di controllo **[!UICONTROL Visible on Storefront]**.
 
-   ![Totale ordine](./assets/order-total.png){width="600" zoomable="yes"}
+   ![Totale ordini](./assets/order-total.png){width="600" zoomable="yes"}
 
 1. Se si è pronti a fatturare l&#39;ordine, fare clic su **[!UICONTROL Invoice]** e seguire le istruzioni per [creare una fattura](invoices.md#create-an-invoice).
 
@@ -205,7 +205,7 @@ In **[!UICONTROL Order Total]** eseguire le operazioni seguenti:
 | Campo | Descrizione |
 |--- |--- |
 | [!UICONTROL Status] | Visualizza lo stato dell&#39;ordine cliente. |
-| [!UICONTROL Comment] | Casella di testo utilizzata per immettere un commento per il cliente che accompagna l&#39;ordine. <br/>**[!UICONTROL Notify Customer by Email]**: seleziona la casella di controllo se desideri inviare il commento al cliente come e-mail separata.<br/>**[!UICONTROL Visible on Storefront]** : seleziona la casella di controllo se desideri che il commento sia visibile dall’account del cliente. <br/>**[!UICONTROL Submit Comment]**- Invia il commento e invia per e-mail, se applicabile. |
+| [!UICONTROL Comment] | Casella di testo utilizzata per immettere un commento per il cliente che accompagna l&#39;ordine. <br/>**[!UICONTROL Notify Customer by Email]**- Selezionare la casella di controllo se si desidera inviare il commento al cliente come e-mail separata.<br/>**[!UICONTROL Visible on Storefront]** - Selezionare la casella di controllo se si desidera che il commento sia visibile dall&#39;account del cliente. <br/>**[!UICONTROL Submit Comment]**- Invia il commento e invia tramite e-mail, se applicabile. |
 
 {style="table-layout:auto"}
 
@@ -219,10 +219,10 @@ In **[!UICONTROL Order Total]** eseguire le operazioni seguenti:
 | [!UICONTROL Total Paid] | Importo totale pagato per l’ordine, se applicabile. |
 | [!UICONTROL Total Refunded] | Importo totale rimborsato dall&#39;ordine, se applicabile. |
 | [!UICONTROL Total Due] | Importo totale dovuto. |
-| [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) L’importo del credito del negozio disponibile applicato all’ordine, se applicabile. |
-| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Il prezzo totale degli articoli nel preventivo senza imposte, in base alla determinazione dei prezzi nel catalogo condiviso o nel catalogo standard utilizzato come base del preventivo. Se la valuta di visualizzazione della vetrina è diversa da quella di base, il valore viene visualizzato in entrambe le valute, con la visualizzazione della vetrina tra parentesi quadre. |
-| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Lo sconto risultante da un preventivo negoziato tra l&#39;acquirente e il venditore. Se la valuta di visualizzazione della vetrina è diversa da quella di base, il valore viene visualizzato in entrambe le valute, con la visualizzazione della vetrina tra parentesi quadre. |
-| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponibile con Adobe Commerce B2B) Il prezzo totale del catalogo meno lo sconto negoziato. |
+| [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) l&#39;importo del credito del negozio disponibile applicato all&#39;ordine, se applicabile. |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Commerce B2B) Il prezzo totale degli articoli nel preventivo senza imposte, in base ai prezzi nel catalogo condiviso o nel catalogo standard utilizzato come base del preventivo. Se la valuta di visualizzazione della vetrina è diversa da quella di base, il valore viene visualizzato in entrambe le valute, con la visualizzazione della vetrina tra parentesi quadre. |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Commerce B2B) Sconto risultante da un preventivo negoziato tra l&#39;acquirente e il venditore. Se la valuta di visualizzazione della vetrina è diversa da quella di base, il valore viene visualizzato in entrambe le valute, con la visualizzazione della vetrina tra parentesi quadre. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Commerce B2B) Il prezzo totale del catalogo meno lo sconto negoziato. |
 
 {style="table-layout:auto"}
 

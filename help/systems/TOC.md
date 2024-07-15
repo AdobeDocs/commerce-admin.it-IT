@@ -17,7 +17,7 @@ ht-degree: 2%
 
 - [Guida ai sistemi di amministrazione](guide-overview.md)
 - [Introduzione ai sistemi di amministrazione](introduction.md)
-- [[!UICONTROL System] menu](system-menu.md)
+- [Menu [!UICONTROL System]](system-menu.md)
 - Account utente amministratore {#user-accounts}
    - [Autorizzazioni amministratore](permissions.md)
    - [Gestire gli account utente](permissions-users-all.md)
@@ -49,7 +49,7 @@ ht-degree: 2%
       - [Importa dati prezzo livello](data-import-price-tier.md)
    - [Importazione ed esportazione pianificate](data-scheduled-import-export.md)
    - [Dashboard di gestione dati](data-dashboard.md)
-- Registri delle azioni {#action-logs}
+- Registri azioni {#action-logs}
    - [Panoramica](action-log.md)
    - [Rapporto dei registri delle azioni](action-log-report.md)
    - [Archivio dei registri](action-log-archive.md)
@@ -62,7 +62,7 @@ ht-degree: 2%
    - [Strumenti per sviluppatori](developer-tools.md)
    - [Strumenti di supporto](support.md)
 - [Integrazioni](integrations.md)
-- Sicurezza {#security}
+- Protezione {#security}
    - [Panoramica](security.md)
    - [Chiave di crittografia](encryption-key.md)
    - [Scansione di sicurezza](security-scan.md)

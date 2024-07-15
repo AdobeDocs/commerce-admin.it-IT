@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Adobe Commerce B2B utilizza Composer per gestire i pacchetti PHP.
 
-Il `composer.json` file dichiara l&#39;elenco dei colli, mentre il `composer.lock` Il file archivia un elenco completo dei pacchetti (una versione completa di ciascun pacchetto e delle relative dipendenze) utilizzati per creare un’installazione di Adobe Commerce B2B.
+Il file `composer.json` dichiara l&#39;elenco dei pacchetti, mentre il file `composer.lock` memorizza un elenco completo dei pacchetti (una versione completa di ciascun pacchetto e delle relative dipendenze) utilizzati per creare un&#39;installazione di Adobe Commerce B2B.
 
-La seguente documentazione di riferimento è generata da `composer.lock` e riguarda i pacchetti richiesti inclusi in Adobe Commerce B2B 1.4.2.
+La seguente documentazione di riferimento è generata dal file `composer.lock` e riguarda i pacchetti richiesti inclusi in Adobe Commerce B2B 1.4.2.
 
 ## Dipendenze
 
@@ -240,14 +240,14 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-code.git">Codice laminas/laminas</a>
+      <a href="https://github.com/laminas/laminas-code.git">laminas/laminas-code</a>
     </td>
     <td>libreria</td>
     <td>Estensioni dell'API PHP Reflection, scansione del codice statico e generazione del codice</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-config.git">configurazione laminas/laminas</a>
+      <a href="https://github.com/laminas/laminas-config.git">laminas/laminas-config</a>
     </td>
     <td>libreria</td>
     <td>fornisce un'interfaccia utente basata su proprietà di oggetto nidificato per accedere ai dati di configurazione nel codice dell'applicazione</td>
@@ -289,14 +289,14 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-feed.git">Alimentazione laminas/laminas</a>
+      <a href="https://github.com/laminas/laminas-feed.git">laminas/laminas-feed</a>
     </td>
     <td>libreria</td>
     <td>fornisce funzionalità per creare e utilizzare feed RSS e Atom</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-file.git">File laminas/laminas</a>
+      <a href="https://github.com/laminas/laminas-file.git">laminas/laminas-file</a>
     </td>
     <td>libreria</td>
     <td>Individuazione dei file di classe PHP</td>
@@ -401,7 +401,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-server.git">server laminas/laminas</a>
+      <a href="https://github.com/laminas/laminas-server.git">laminas/laminas-server</a>
     </td>
     <td>libreria</td>
     <td>Creazione di server RPC basati su riflessioni</td>
@@ -415,14 +415,14 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-session.git">sessione laminas/laminas</a>
+      <a href="https://github.com/laminas/laminas-session.git">laminas/laminas-session</a>
     </td>
     <td>libreria</td>
     <td>Interfaccia orientata agli oggetti per sessioni PHP e storage</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-soap.git">Laminas/laminas-soap</a>
+      <a href="https://github.com/laminas/laminas-soap.git">laminati/sapone laminato</a>
     </td>
     <td>libreria</td>
     <td></td>
@@ -457,7 +457,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-view.git">Laminas/laminas</a>
+      <a href="https://github.com/laminas/laminas-view.git">laminas/laminas-view</a>
     </td>
     <td>libreria</td>
     <td>Livello di vista flessibile che supporta e fornisce più livelli di vista, helper e altro ancora</td>
@@ -541,7 +541,7 @@ magento/security-package-b2b: 1.0.4
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/ezyang/htmlpurifier.git">ezyang/htmlPurificer</a>
+      <a href="https://github.com/ezyang/htmlpurifier.git">ezyang/htmlpurificer</a>
     </td>
     <td>libreria</td>
     <td>Filtro HTML conforme agli standard scritto in PHP</td>
@@ -569,14 +569,14 @@ magento/security-package-b2b: 1.0.4
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/braintree/braintree_php.git">braintree/braintree_php</a>
+      <a href="https://github.com/braintree/braintree_php.git">albero del cervello/albero del cervello_php</a>
     </td>
     <td>libreria</td>
     <td>Braintree libreria client PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/brick/math.git">mattone/matematica</a>
+      <a href="https://github.com/brick/math.git">brick/matematica</a>
     </td>
     <td>libreria</td>
     <td>Libreria aritmetica di precisione arbitraria</td>
@@ -590,7 +590,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ChristianRiesen/base32.git">christian-riesen/base32</a>
+      <a href="https://github.com/ChristianRiesen/base32.git">cristiano-riesen/base32</a>
     </td>
     <td>libreria</td>
     <td>Codificatore/decodificatore Base32 secondo RFC 4648</td>
@@ -646,7 +646,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/spdx-licenses.git">compositore/licenze spdx</a>
+      <a href="https://github.com/composer/spdx-licenses.git">licenze compositore/spdx</a>
     </td>
     <td>libreria</td>
     <td>Elenco licenze SPDX e libreria di convalida.</td>
@@ -667,7 +667,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ezimuel/guzzlestreams.git">ezimuel/guzzlestream</a>
+      <a href="https://github.com/ezimuel/guzzlestreams.git">ezimuel/guzzlestreams</a>
     </td>
     <td>libreria</td>
     <td>Forcella di guzzle/ruscelli (abbandonati) da utilizzare con elasticsearch-php</td>
@@ -709,7 +709,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/thephpleague/flysystem.git">league/flysystem</a>
+      <a href="https://github.com/thephpleague/flysystem.git">lega/flysystem</a>
     </td>
     <td>libreria</td>
     <td>Estrazione archiviazione file per PHP</td>
@@ -989,7 +989,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/filesystem.git">symfony/file system</a>
+      <a href="https://github.com/symfony/filesystem.git">symfony/filesystem</a>
     </td>
     <td>libreria</td>
     <td>Fornisce utilità di base per il file system</td>
@@ -1010,7 +1010,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/http-client-contracts.git">symfony/http-client-contract</a>
+      <a href="https://github.com/symfony/http-client-contracts.git">symfony/http-client-CONTRACTS</a>
     </td>
     <td>libreria</td>
     <td>Astrazioni generiche correlate ai client HTTP</td>
@@ -1115,7 +1115,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/service-contracts.git">symfony/service-contract</a>
+      <a href="https://github.com/symfony/service-contracts.git">symfony/service-CONTRACTS</a>
     </td>
     <td>libreria</td>
     <td>Astrazioni generiche relative ai servizi di scrittura</td>

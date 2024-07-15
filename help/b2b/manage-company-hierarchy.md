@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 6ec075d9cbce41ebc056e631b1ae7b4f2749c161
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ Creare una gerarchia di società dalla pagina Dettagli società.
 
 ## Apri la pagina dei dettagli dell’azienda
 
-1. Dalla sezione _Amministratore_ barra laterale, vai a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Dalla barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Aprire la pagina dei dettagli della società nella griglia Società relativa alla società padre selezionando la **[!UICONTROL Edit]** azione.
+1. Aprire la pagina dei dettagli della società nella griglia Società relativa alla società padre selezionando l&#39;azione **[!UICONTROL Edit]**.
 
-Consulta la [Gestire gli account aziendali](account-company-manage.md) per ulteriori informazioni sulla griglia Società.
+Per ulteriori informazioni sulla griglia Aziende, vedere [Gestisci account società](account-company-manage.md).
 
 ## [!UICONTROL Company Hierarchy]
 
-Al momento della creazione iniziale della società, il [!UICONTROL Company Hierarchy] la griglia è vuota quando la si espande. Dopo la creazione di una società, gli utenti amministratori con le autorizzazioni appropriate possono utilizzare [!UICONTROL Company Hierarchy] per creare un&#39;organizzazione della società madre modificando la società madre designata e assegnando società correlate.
+Al momento della creazione iniziale della società, la griglia [!UICONTROL Company Hierarchy] è vuota quando la si espande. Dopo la creazione di una società, gli utenti amministratori con le autorizzazioni appropriate possono utilizzare [!UICONTROL Company Hierarchy] per creare un&#39;organizzazione della società padre modificando la società padre designata e assegnando società correlate.
 
 ![Griglia gerarchia società](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-Consulta [assegnare e annullare l&#39;assegnazione delle società](assign-companies.md) per ulteriori informazioni sulle azioni disponibili nella sezione [!UICONTROL Company Hierarchy] griglia.
+Per ulteriori informazioni sulle azioni disponibili nella griglia [!UICONTROL Company Hierarchy], vedere [Assegnazione e annullamento dell&#39;assegnazione di società](assign-companies.md).

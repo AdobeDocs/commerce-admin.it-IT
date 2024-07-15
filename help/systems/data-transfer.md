@@ -19,17 +19,17 @@ Ad esempio, puoi aggiungere nuovi prodotti al tuo inventario, aggiornare i dati 
 
 >[!NOTE]
 >
->Adobe Commerce supporta anche l’esportazione di dati SaaS per trasferire i dati di prodotto dal server Commerce ai servizi SaaS. L&#39;esportazione dei dati SaaS è integrata con i servizi SaaS di Commerce, tra cui [Recommendations del prodotto](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), e [Servizio catalogo](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Per ulteriori informazioni, vedere [Guida all’esportazione dei dati SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce supporta anche l’esportazione di dati SaaS per trasferire i dati di prodotto dal server Commerce ai servizi SaaS. L&#39;esportazione dei dati SaaS è integrata con i servizi SaaS di Commerce, tra cui [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) e [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Per informazioni dettagliate, vedere la [Guida all&#39;esportazione dei dati SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## Convalida dei dati
 
-Tutti i dati devono superare la convalida per garantire la qualità, l’accuratezza e l’integrità dei valori prima di importarli nell’archivio. La convalida inizia quando fai clic su **[!UICONTROL Check Data]**. Durante il processo, tutte le entità nel file di importazione vengono verificate per i seguenti elementi:
+Tutti i dati devono superare la convalida per garantire la qualità, l’accuratezza e l’integrità dei valori prima di importarli nell’archivio. La convalida inizia quando si fa clic su **[!UICONTROL Check Data]**. Durante il processo, tutte le entità nel file di importazione vengono verificate per i seguenti elementi:
 
 - **Attributi** - I nomi delle intestazioni di colonna vengono verificati per assicurarsi che corrispondano agli attributi corrispondenti nel database di sistema. Il valore di ogni attributo viene controllato per assicurarsi che soddisfi i requisiti del tipo di dati (decimal, integer, varchar, text e datetime).
-- **Dati complessi** - I valori provenienti da un set definito, ad esempio un elenco a discesa o un tipo di input a selezione multipla, vengono verificati per garantire che siano presenti nel set definito.
-- **Dati del servizio** : i valori nelle colonne dei dati del servizio vengono verificati per garantire che le proprietà o i valori dei dati complessi siano coerenti con quelli già definiti nel database di sistema.
-- **Valori obbligatori** - Per le nuove entità, viene verificata la presenza dei valori di attributo richiesti nel file. Per le entità esistenti, non è necessario verificare nuovamente l&#39;esistenza dei valori di attributo richiesti.
-- **Separatori** - Anche se i separatori non sono visibili quando vengono visualizzati in un foglio di calcolo, i valori dei dati in un file CSV sono separati da virgole e i valori di testo sono racchiusi tra virgolette doppie. Durante il processo di convalida, viene verificata la formattazione dei separatori e di ogni insieme di virgolette che racchiude le stringhe di caratteri.
+- **Dati complessi** - I valori provenienti da un set definito, ad esempio un tipo di input a discesa o a selezione multipla, vengono verificati per verificare che i valori siano presenti nel set definito.
+- **Dati del servizio** - I valori nelle colonne dei dati del servizio vengono verificati per garantire che le proprietà o i valori dei dati complessi siano coerenti con quelli già definiti nel database di sistema.
+- **Valori richiesti** - Per le nuove entità, viene verificata la presenza dei valori di attributo richiesti nel file. Per le entità esistenti, non è necessario verificare nuovamente l&#39;esistenza dei valori di attributo richiesti.
+- **Separatori** - Sebbene i separatori non siano visibili quando vengono visualizzati in un foglio di calcolo, i valori dei dati in un file CSV sono separati da virgole e i valori di testo sono racchiusi tra virgolette doppie. Durante il processo di convalida, viene verificata la formattazione dei separatori e di ogni insieme di virgolette che racchiude le stringhe di caratteri.
 
 I risultati della convalida vengono visualizzati nella sezione Risultati convalida e includono le seguenti informazioni:
 
@@ -37,7 +37,7 @@ I risultati della convalida vengono visualizzati nella sezione Risultati convali
 - Numero di righe non valide
 - Numero di errori rilevati
 
-Se i dati sono validi, _Importazione completata_ viene visualizzato il messaggio.
+Se i dati sono validi, viene visualizzato un messaggio di _Importazione completata_.
 
 ![Messaggio di sistema - file valido](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 

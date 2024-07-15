@@ -5,7 +5,7 @@ exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -22,39 +22,39 @@ ht-degree: 0%
 
 Quando si crea un Registro di sistema, questo diventa un&#39;opzione nell&#39;elenco dei tipi di Registro doni nell&#39;account del cliente.
 
-È possibile utilizzare uno dei tre registri regali preparati oppure creare un registro personalizzato. Ogni tipo di registro di articoli regalo include diversi attributi, ovvero i campi di immissione dati completati da un cliente per creare un registro di articoli regalo. Gli attributi forniscono informazioni aggiuntive sull&#39;evento, l&#39;ora e la posizione o qualsiasi altra informazione necessaria. A seconda del tipo di input, alcuni attributi dispongono di più opzioni. Ad esempio, il `Wedding` il tipo di registro regalo ha l&#39;attributo `Role`, con `Bride`, `Groom`, e `Partner` opzioni. Per ulteriori informazioni sugli attributi e sui tipi di input, consulta [Attributi](../customers/attribute-properties.md).
+È possibile utilizzare uno dei tre registri regali preparati oppure creare un registro personalizzato. Ogni tipo di registro di articoli regalo include diversi attributi, ovvero i campi di immissione dati completati da un cliente per creare un registro di articoli regalo. Gli attributi forniscono informazioni aggiuntive sull&#39;evento, l&#39;ora e la posizione o qualsiasi altra informazione necessaria. A seconda del tipo di input, alcuni attributi dispongono di più opzioni. Ad esempio, il tipo di registro regalo `Wedding` ha l&#39;attributo `Role`, con le opzioni `Bride`, `Groom` e `Partner`. Per ulteriori informazioni sugli attributi e sui tipi di input, vedere [Attributi](../customers/attribute-properties.md).
 
 ![Tipi di registro regali](./assets/gift-registry-types.png){width="700" zoomable="yes"}
 
 ## Utilizza un registro regali preparato
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
 
    I registri di compleanno, matrimonio e bambino sono pronti per i clienti da utilizzare dai loro account.
 
-1. Assicurati di completare la sezione [configurazione del modello e-mail](../systems/email-templates.md#configure-email-templates)quindi riflettono il tuo marchio.
+1. Assicurati di completare la [configurazione del modello e-mail](../systems/email-templates.md#configure-email-templates), in modo che rifletta il tuo marchio.
 
 ## Creazione di un registro regali personalizzato
 
-1. Nella barra laterale Amministratore, vai a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
+1. Nella barra laterale di amministrazione, vai a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Add Gift Registry Type]**.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Gift Registry Type]**.
 
-1. Sotto **[!UICONTROL General Information]**, completa quanto segue:
+1. In **[!UICONTROL General Information]**, completare le operazioni seguenti:
 
-   - Inserisci un valore univoco **[!UICONTROL Code]** per identificare internamente il registro doni.
+   - Immettere un **[!UICONTROL Code]** univoco per identificare internamente il registro regali.
 
      Il codice deve iniziare con una lettera minuscola. Il resto del codice può essere costituito da qualsiasi combinazione di lettere minuscole (a-z), numeri (0-9) e caratteri di sottolineatura (`_`).
 
-   - Per **[!UICONTROL Label]** Immettere un nome per il registro regali, come si desidera che venga visualizzato nell&#39;archivio.
+   - Per **[!UICONTROL Label]**, immettere un nome per il registro regali, come si desidera che venga visualizzato nell&#39;archivio.
 
      Questa etichetta è un&#39;opzione nell&#39;elenco dei tipi di registro regali disponibili per il cliente.
 
-   - Per **[!UICONTROL Sort Order]**, immettere un numero per determinare l&#39;ordine di visualizzazione del registro regali quando viene elencato con altri tipi.
+   - Per **[!UICONTROL Sort Order]**, immettere un numero per determinare l&#39;ordine di visualizzazione di questo registro regali quando viene elencato con altri tipi.
 
-   - Per attivare il registro regali, impostare **[!UICONTROL Is Listed]** a `Yes`.
+   - Per attivare il registro regali, impostare **[!UICONTROL Is Listed]** su `Yes`.
 
-     ![Registro delle donazioni - informazioni generali](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
+     ![Registro regali - informazioni generali](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
 
 1. Esamina ogni sezione del Registro regali per determinare il tipo di informazioni che desideri includere.
 
@@ -64,27 +64,27 @@ Quando si crea un Registro di sistema, questo diventa un&#39;opzione nell&#39;el
 
 1. Per ogni attributo, eseguire le operazioni seguenti:
 
-   - Assegna un univoco **[!UICONTROL Code]** per identificare l&#39;attributo internamente. Il codice può contenere fino a 15 caratteri e deve iniziare con una lettera minuscola. Il resto del codice può includere lettere minuscole (`a`-`z`), numeri (`0`-`9`) e il carattere di sottolineatura (`_`) in parole separate.
+   - Assegna un **[!UICONTROL Code]** univoco per identificare l&#39;attributo internamente. Il codice può contenere fino a 15 caratteri e deve iniziare con una lettera minuscola. Il resto del codice può includere lettere minuscole (`a`-`z`), numeri (`0`-`9`) e il carattere di sottolineatura (`_`) per separare le parole.
 
-   - Scegli la **[!UICONTROL Input Type]** da utilizzare per l&#39;immissione dei dati. Puoi utilizzare uno dei tipi personalizzati o statici.
+   - Scegliere **[!UICONTROL Input Type]** da utilizzare per l&#39;immissione dei dati. Puoi utilizzare uno dei tipi personalizzati o statici.
 
-   - Se il tipo di input dispone di più opzioni, fare clic su **[!UICONTROL Add New Option]** e completare le informazioni per ciascuna opzione.
+   - Se il tipo di input ha più opzioni, fare clic su **[!UICONTROL Add New Option]** e completare le informazioni per ciascuna opzione.
 
      Alcuni tipi di input hanno proprietà aggiuntive. Ad esempio, il Percorso evento dispone di proprietà aggiuntive per rendere l&#39;evento ricercabile e incluso nell&#39;elenco pubblico dei registri delle donazioni del tuo Negozio.
 
-      - Imposta **[!UICONTROL Attribute Group]** nella sezione del registro dei doni in cui si desidera visualizzare l&#39;attributo.
+      - Impostare **[!UICONTROL Attribute Group]** nella sezione del registro degli oggetti regalo in cui si desidera visualizzare l&#39;attributo.
 
       - Per **[!UICONTROL Label]**, immettere un nome per identificare il campo di immissione dati nel Registro di sistema.
 
-      - Se il cliente deve effettuare una selezione o inserire un valore nel campo, impostare **[!UICONTROL Is Required]** a `Yes`.
+      - Se il cliente deve effettuare una selezione o immettere un valore nel campo, impostare **[!UICONTROL Is Required]** su `Yes`.
 
-      - Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui viene visualizzato il registro regali elencato con altri registri regali che potrebbero essere disponibili nel negozio.
+      - Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui viene visualizzato questo registro regali quando viene elencato con altri registri regali che potrebbero essere disponibili nell&#39;archivio.
 
-1. Per aggiungere un’altra opzione, fai clic su **Aggiungi nuova opzione**.
+1. Per aggiungere un&#39;altra opzione, fare clic su **Aggiungi nuova opzione**.
 
    Ogni nuova opzione aggiunta viene visualizzata in una nuova sezione nella parte superiore. Ripetere questo processo per il nuovo attributo.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
 ## Descrizioni dei campi
 
@@ -121,9 +121,9 @@ Selezionare il tipo di dati e il controllo di input associati all&#39;attributo.
 | Campo | Descrizione |
 |--- |--- |
 | [!UICONTROL Text] | Visualizza l&#39;attributo come campo di testo. |
-| [!UICONTROL Select] | Visualizza l&#39;attributo come elenco a discesa. Clic **[!UICONTROL Add New Option]** per aggiungere altre condizioni all’elenco a discesa:<br/>**[!UICONTROL Code]**- Un nome univoco per identificare l&#39;attributo internamente.<br/>**[!UICONTROL Label]** : nome che identifica l’attributo nel dashboard dell’account del cliente.<br/>**[!UICONTROL Is Default]**- Impostare questo interruttore per selezionare la condizione predefinita.<br/>**[!UICONTROL Delete Option]** - Fare clic per eliminare l&#39;opzione. |
+| [!UICONTROL Select] | Visualizza l&#39;attributo come elenco a discesa. Fare clic su **[!UICONTROL Add New Option]** per aggiungere altre condizioni all&#39;elenco a discesa:<br/>**[!UICONTROL Code]**- Nome univoco per identificare l&#39;attributo internamente.<br/>**[!UICONTROL Label]** - Nome che identifica l&#39;attributo nel dashboard account del cliente.<br/>**[!UICONTROL Is Default]**- Impostare questa opzione per selezionare la condizione predefinita.<br/>**[!UICONTROL Delete Option]** - Fare clic per eliminare l&#39;opzione. |
 | [!UICONTROL Date] | Visualizza l&#39;attributo come campo data. Opzioni: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Country] | Visualizza l&#39;attributo come elenco a discesa di paesi. Imposta **[!UICONTROL Show Region]** a: `Yes` / `No`. |
+| [!UICONTROL Country] | Visualizza l&#39;attributo come elenco a discesa di paesi. Imposta **[!UICONTROL Show Region]** su: `Yes` / `No`. |
 
 {style="table-layout:auto"}
 
@@ -131,10 +131,10 @@ Selezionare il tipo di dati e il controllo di input associati all&#39;attributo.
 
 | Campo | Descrizione |
 |--- |--- |
-| [!UICONTROL Event Date] | Determina la modalità di utilizzo dell&#39;attributo date nell&#39;archivio. Opzioni: <br/>**[!UICONTROL Searchable]**- Determina se l&#39;attributo è disponibile per la ricerca avanzata. Opzioni: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se l’evento è incluso nell’elenco degli eventi disponibili nell’archivio. Opzioni: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Determina il formato della data dell&#39;evento. Opzioni: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Event Country] | Visualizza l&#39;attributo come elenco di paesi. Opzioni: <br/>**[!UICONTROL Searchable]**- Determina se l&#39;attributo è disponibile per la ricerca avanzata. Opzioni: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se l’evento è incluso nell’elenco degli eventi disponibili nell’archivio. Opzioni: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**- Determina l&#39;area dell&#39;evento. |
-| [!UICONTROL Event Location] | La posizione dell&#39;evento correlato al registro dei doni. <br/>Imposta **[!UICONTROL Is Searcheable]** a: `Yes` / `No` <br/>Imposta **[!UICONTROL Is Listed]** a: `Yes` / `No` |
-| [!UICONTROL Role] | Ruolo che identifica il destinatario del regalo. Ad esempio: `Bride`, `Groom`, o `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Imposta su `Yes`/ `No`<br/>**&#x200B;È elencato **- Imposta su `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Fai clic su per aggiungere altre condizioni al menu a discesa:<br/>**Codice** - Un nome univoco per identificare l&#39;attributo internamente.<br/>**[!UICONTROL Label]**: nome che identifica l’attributo nel dashboard dell’account del cliente.<br/>**[!UICONTROL Is Default]** - Impostare questo interruttore per selezionare la condizione predefinita.<br/>**[!UICONTROL Delete Option]**- Fare clic per eliminare l&#39;opzione. |
+| [!UICONTROL Event Date] | Determina la modalità di utilizzo dell&#39;attributo date nell&#39;archivio. Opzioni: <br/>**[!UICONTROL Searchable]**- Determina se l&#39;attributo è disponibile per la ricerca avanzata. Opzioni: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se l&#39;evento è incluso nell&#39;elenco degli eventi disponibili nell&#39;archivio. Opzioni: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Determina il formato della data evento. Opzioni: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
+| [!UICONTROL Event Country] | Visualizza l&#39;attributo come elenco di paesi. Opzioni: <br/>**[!UICONTROL Searchable]**- Determina se l&#39;attributo è disponibile per la ricerca avanzata. Opzioni: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se l&#39;evento è incluso nell&#39;elenco degli eventi disponibili nell&#39;archivio. Opzioni: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**- Determina la regione dell&#39;evento. |
+| [!UICONTROL Event Location] | La posizione dell&#39;evento correlato al registro dei doni. <br/>Imposta **[!UICONTROL Is Searcheable]** su: `Yes` / `No` <br/>Imposta **[!UICONTROL Is Listed]** su: `Yes` / `No` |
+| [!UICONTROL Role] | Ruolo che identifica il destinatario del regalo. Ad esempio, `Bride`, `Groom` o `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Imposta su `Yes`/ `No`<br/>**&#x200B;È elencato **- Imposta su `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Fai clic per aggiungere altre condizioni al menu a discesa:<br/>**Codice** - Nome univoco per identificare l&#39;attributo internamente.<br/>**[!UICONTROL Label]**- Nome che identifica l&#39;attributo nel dashboard account del cliente.<br/>**[!UICONTROL Is Default]** - Impostare questa opzione per selezionare la condizione predefinita.<br/>**[!UICONTROL Delete Option]**- Fare clic per eliminare l&#39;opzione. |
 
 {style="table-layout:auto"}
 

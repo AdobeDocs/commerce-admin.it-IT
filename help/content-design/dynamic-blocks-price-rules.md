@@ -14,24 +14,24 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Qualsiasi [blocco dinamico](dynamic-blocks.md) che hai creato può essere associato a una promozione. Per creare l’associazione, devi innanzitutto creare sia il blocco dinamico che il [regola prezzo catalogo](../merchandising-promotions/price-rules-catalog.md) o [regola prezzo carrello](../merchandising-promotions/price-rules-cart.md). L’associazione può essere effettuata mentre si lavora su una regola di prezzo o su un blocco dinamico.
+Qualsiasi [blocco dinamico](dynamic-blocks.md) creato può essere associato a una promozione. Per creare l&#39;associazione, è necessario innanzitutto creare sia il blocco dinamico che la [regola prezzo catalogo](../merchandising-promotions/price-rules-catalog.md) o la [regola prezzo carrello](../merchandising-promotions/price-rules-cart.md). L’associazione può essere effettuata mentre si lavora su una regola di prezzo o su un blocco dinamico.
 
 >[!IMPORTANT]
 >
->Dopo aver creato questa associazione, viene visualizzato il blocco dinamico **solo** quando la regola viene attivata. Se la promozione è indirizzata al segmento A, il blocco viene visualizzato al segmento A. Se la promozione non è attiva, il blocco non viene visualizzato.
+>Dopo aver creato questa associazione, il blocco dinamico viene visualizzato **solo** quando la regola viene attivata. Se la promozione è indirizzata al segmento A, il blocco viene visualizzato al segmento A. Se la promozione non è attiva, il blocco non viene visualizzato.
 
 ## Associare un blocco dinamico a una regola di prezzo
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_e scegliere una delle seguenti opzioni:
+1. Nella barra laterale _Admin_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_e scegli una delle seguenti opzioni:
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**
 
 1. Nella griglia, individua la regola da associare al blocco dinamico e aprila in modalità di modifica.
 
-1. Scorri verso il basso ed espandi ![Selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Related Dynamic Blocks]**.
+1. Scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Related Dynamic Blocks]**.
 
-1. Nella prima colonna, imposta il filtro su `Any` e fai clic su **[!UICONTROL Reset Filter]**.
+1. Nella prima colonna impostare il filtro su `Any` e fare clic su **[!UICONTROL Reset Filter]**.
 
    Nella griglia sono ora elencati tutti i blocchi dinamici disponibili.
 
@@ -39,11 +39,11 @@ Qualsiasi [blocco dinamico](dynamic-blocks.md) che hai creato può essere associ
 
    ![Aggiunta di blocchi dinamici selezionati](./assets/price-rule-cart-related-dynamic-blocks-any.png){width="600" zoomable="yes"}
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
 ## Associare una regola di prezzo a un blocco dinamico
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
 1. Trova il blocco dinamico nella griglia e aprilo in modalità di modifica.
 
@@ -53,14 +53,14 @@ Qualsiasi [blocco dinamico](dynamic-blocks.md) che hai creato può essere associ
 
 1. Aggiungi una nuova regola associata o rimuovi un&#39;associazione corrente.
 
-   - Per associare una promozione a un carrello, fai clic su **[!UICONTROL Add Cart Price Rules]**.
+   - Per associare una promozione carrello, fare clic su **[!UICONTROL Add Cart Price Rules]**.
 
-   - Per associare una promozione relativa al prodotto, fai clic su **[!UICONTROL Add Catalog Price Rules]**.
+   - Per associare una promozione relativa al prodotto, fare clic su **[!UICONTROL Add Catalog Price Rules]**.
 
 1. Nella griglia selezionare la casella di controllo di ogni regola che si desidera associare al blocco dinamico.
 
-1. Clic **[!UICONTROL Add Selected]**.
+1. Fare clic su **[!UICONTROL Add Selected]**.
 
-   ![Aggiunta di regole di prezzo selezionate a un blocco dinamico](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
+   ![Aggiunta delle regole di prezzo selezionate a un blocco dinamico](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.

@@ -1,18 +1,18 @@
 ---
 title: Elementi - Codice HTML
-description: Scopri il tipo di contenuto Codice HTML, utilizzato per aggiungere snippet di codice HTML, CSS e JavaScript nel [!DNL Page Builder] fase.
+description: Scopri il tipo di contenuto Codice HTML, utilizzato per aggiungere snippet di codice HTML, CSS e JavaScript nella fase  [!DNL Page Builder] .
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
 # Elementi - Codice HTML
 
-Utilizza il _Codice HTML_ tipo di contenuto per aggiungere snippet di codice HTML, CSS e JavaScript nel [[!DNL Page Builder] fase](workspace.md#stage). Ad esempio, potrebbe essere utile aggiungere HTML personalizzati, dichiarare una classe CSS che può essere applicata a un elemento della pagina. In alternativa, è possibile aggiungere uno snippet di codice per un logo, un pulsante o un banner ricevuto da un provider di terze parti.
+Utilizza il tipo di contenuto _Codice HTML_ per aggiungere snippet di codice HTML, CSS e JavaScript in [[!DNL Page Builder] stage](workspace.md#stage). Ad esempio, potrebbe essere utile aggiungere HTML personalizzati, dichiarare una classe CSS che può essere applicata a un elemento della pagina. In alternativa, è possibile aggiungere uno snippet di codice per un logo, un pulsante o un banner ricevuto da un provider di terze parti.
 
 ## Casella degli strumenti Codice HTML
 
@@ -22,29 +22,29 @@ Utilizza il _Codice HTML_ tipo di contenuto per aggiungere snippet di codice HTM
 | --------- | ---------- | ----------------- |
 | Sposta | ![Icona Sposta](./assets/pb-icon-move.png){width="25"} | Sposta il contenitore Codice HTML in un altro punto valido della pagina. |
 | Impostazioni | ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} | Apre la pagina Modifica codice HTML, in cui è possibile modificare le proprietà del contenitore. |
-| Nascondi | ![Nascondi icona](./assets/pb-icon-hide.png){width="25"} | Nasconde il contenitore Codice HTML. |
+| Nascondi | ![Icona Nascondi](./assets/pb-icon-hide.png){width="25"} | Nasconde il contenitore Codice HTML. |
 | Spettacolo | ![Mostra icona](./assets/pb-icon-show.png){width="25"} | Mostra il contenitore Codice HTML nascosto. |
-| Duplica | ![Icona Duplica](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia del contenitore Codice HTML. |
+| Duplica | ![Icona duplicata](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia del contenitore Codice HTML. |
 | Rimuovi | ![Icona Rimuovi](./assets/pb-icon-remove.png){width="25"} | Elimina dall’area di visualizzazione il contenitore Codice HTML e il relativo contenuto. |
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Aggiungi codice HTML
 
-L’esempio seguente illustra come incorporare [Carattere Google][1] codificare e dichiarare classi di intestazione personalizzate che sostituiscono il foglio di stile corrente.
+Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Font][1] e dichiarare classi di intestazione personalizzate che hanno la precedenza sul foglio di stile corrente.
 
 ### Passaggio 1: scegliere un tipo di carattere Google
 
-1. Visita il [Google Fonts][1] e scegliere la famiglia di caratteri che si desidera utilizzare.
+1. Visita il sito [Google Fonts][1] e scegli la famiglia di caratteri che desideri utilizzare.
 
-1. Copia il codice generato da incorporare nel `<head>` e incollarla temporaneamente in un editor di testo.
+1. Copiare il codice generato da incorporare nella sezione `<head>` della pagina e incollarlo temporaneamente in un editor di testo.
 
    - Incorpora codice font
    - Regola CSS
 
-1. Aggiungere la regola font-family a ciascuna classe di intestazione, racchiudendo le classi di intestazione in una `<style>` tag.
+1. Aggiungere la regola font-family a ogni classe di intestazione, racchiudendo le classi di intestazione in un tag `<style>`.
 
-   Questo codice viene incollato in [!DNL Page Builder].
+   Questo codice è incollato in [!DNL Page Builder].
 
    ```html
    <style>
@@ -56,51 +56,51 @@ L’esempio seguente illustra come incorporare [Carattere Google][1] codificare 
 
 ### Passaggio 2: aggiungi il codice alla pagina
 
-1. In _Amministratore_ barra laterale del negozio, vai a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Nella barra laterale _Admin_ del tuo archivio, passa a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
 1. Individuare la pagina in cui deve essere disponibile il tipo di carattere e aprirla in modalità di modifica.
 
-1. Scorri verso il basso ed espandi **[!UICONTROL Content]** sezione.
+1. Scorri verso il basso ed espandi la sezione **[!UICONTROL Content]**.
 
-1. In [!DNL Page Builder] pannello, espandere **[!UICONTROL Elements]** e trascina un **[!UICONTROL HTML Code]** segnaposto per una riga, colonna o gruppo di schede sullo stage.
+1. Nel pannello [!DNL Page Builder], espandi **[!UICONTROL Elements]** e trascina un segnaposto **[!UICONTROL HTML Code]** in una riga, colonna o set di schede sull&#39;area di visualizzazione.
 
    Utilizza la linea guida rossa per posizionare il divisore prima o dopo un altro contenitore di contenuto nella riga, nella colonna o nel set di schede.
 
    ![Trascinamento di un segnaposto di codice HTML nell&#39;area di visualizzazione](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Passa il puntatore del mouse sul contenitore HTML per visualizzare la casella degli strumenti e scegli _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ), icona.
+1. Passa il puntatore del mouse sul contenitore HTML per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Nella casella di testo incollare il codice Google Fonts da incorporare e le dichiarazioni di stile preparate.
 
    Per semplificare la lettura, è possibile inserire alcuni spazi per applicare un rientro al codice.
 
-   ![Codice e stili di HTML](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![Codice HTML e stili](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Aggiornare le impostazioni rimanenti in base alle esigenze (vedere [Modificare le impostazioni del codice HTML](#html-settings) per i dettagli).
+1. Aggiornare le impostazioni rimanenti in base alle esigenze (vedere [Modificare le impostazioni del codice HTML](#html-settings) per ulteriori dettagli).
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
    Il nuovo font viene riprodotto quando la pagina viene visualizzata tramite un browser.
 
 ### Passaggio 3: visualizzare l’anteprima della pagina
 
-1. In _[!UICONTROL Currently Active]_sezione, set **[!UICONTROL Enable Page]**a `Yes`.
+1. Nella sezione _[!UICONTROL Currently Active]_, impostare **[!UICONTROL Enable Page]**su `Yes`.
 
    ![Abilitazione della pagina](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
-1. Nell’angolo in alto a destra, fai clic su **[!UICONTROL Save]** freccia e scegli **[!UICONTROL Save & Close]**.
+1. Nell&#39;angolo superiore destro fare clic sulla freccia **[!UICONTROL Save]** e scegliere **[!UICONTROL Save & Close]**.
 
-1. Trova la pagina nella griglia e seleziona **[!UICONTROL View]** nel _[!UICONTROL Actions]_colonna.
+1. Trovare la pagina nella griglia e selezionare **[!UICONTROL View]** nella colonna _[!UICONTROL Actions]_.
 
-   ![Visualizzare in anteprima le intestazioni di pagina con la nuova famiglia di caratteri](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
+   ![Visualizza l&#39;anteprima delle intestazioni di pagina con la nuova famiglia di caratteri](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## Modificare le impostazioni del codice HTML {#html-settings}
 
-1. Passa il puntatore del mouse sul contenitore HTML per visualizzare la casella degli strumenti e scegli _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Passa il puntatore del mouse sul contenitore HTML per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Nella casella di testo modificare il codice in base alle esigenze.
 
-   Sono supportati i codici HTML, CSS e JavaScript. Frammenti di codice che appartengono al `<head>` sezione della pagina può essere immessa qui.
+   Sono supportati i codici HTML, CSS e JavaScript. I frammenti di codice che appartengono alla sezione `<head>` della pagina possono essere immessi qui.
 
    L’editor fornisce anche pulsanti per inserire elementi speciali nel codice:
 
@@ -110,9 +110,9 @@ L’esempio seguente illustra come incorporare [Carattere Google][1] codificare 
    | Inserisci immagine... | Fare clic per inserire un&#39;immagine caricata o un&#39;immagine dalla raccolta nella posizione del cursore nella casella di testo HTML. |
    | Inserisci variabile... | Fare clic per inserire una variabile nella posizione del cursore nella casella di testo HTML. |
 
-1. Aggiornare il _[!UICONTROL Advanced]_in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
 
-   - Per controllare il posizionamento del codice all’interno del contenitore principale, scegli un **[!UICONTROL Alignment]**:
+   - Per controllare il posizionamento del codice all&#39;interno del contenitore padre, scegliere un **[!UICONTROL Alignment]**:
 
      | Opzione | Descrizione |
      | ------ | ----------- |
@@ -125,7 +125,7 @@ L’esempio seguente illustra come incorporare [Carattere Google][1] codificare 
 
      ![Divisore con allineamento al centro](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - Imposta il **[!UICONTROL Border]** stile applicato a tutti e quattro i lati del contenitore di codice:
+   - Imposta lo stile **[!UICONTROL Border]** applicato a tutti e quattro i lati del contenitore di codice:
 
      | Opzione | Descrizione |
      | ------ | ----------- |
@@ -150,11 +150,11 @@ L’esempio seguente illustra come incorporare [Carattere Google][1] codificare 
 
      {style="table-layout:auto"}
 
-   - (Facoltativo) Specifica i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare al contenitore.
+   - (Facoltativo) Specificare i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare al contenitore.
 
      Separare più nomi di classe con uno spazio.
 
-   - Immetti i valori, in pixel, per il **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del contenitore di codice.
+   - Immettere i valori, in pixel, per **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del contenitore del codice.
 
      Immettere i valori corrispondenti nel diagramma.
 

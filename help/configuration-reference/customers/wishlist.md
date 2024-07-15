@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Wish List] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Customers] &gt; [!UICONTROL Wish List] dell'amministratore di Commerce.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Visualizzazione store | Attiva il modulo lista dei desideri per il tuo negozio. Opzioni: `Yes` / `No` |
 | [!UICONTROL Show in Sidebar] | Visualizzazione store | Specifica la visibilità degli elenchi di desideri nella barra laterale. <br/>Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Multiple Wish Lists] | Visualizzazione store | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Se impostato su `Yes`, consente ai clienti di creare e gestire più elenchi di desideri. Opzioni: `Yes` / `No` |
-| [!UICONTROL Number of Multiple Wish Lists] | Visualizzazione store | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo per Adobe Commerce) Se sono abilitate più liste di desideri, determina il numero massimo di liste di desideri che i clienti possono avere associate al proprio account. |
+| [!UICONTROL Enable Multiple Wish Lists] | Visualizzazione store | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Se impostato su `Yes`, consente ai clienti di creare e gestire più elenchi di desideri. Opzioni: `Yes` / `No` |
+| [!UICONTROL Number of Multiple Wish Lists] | Visualizzazione store | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Se sono abilitati più elenchi di desideri, determina il numero massimo di elenchi di desideri che i clienti possono avere associati al proprio account. |
 
 {style="table-layout:auto"}
 

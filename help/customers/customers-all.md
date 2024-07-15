@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # Elenco clienti
 
-In Admin, il [!UICONTROL Customers] grid elenca tutti i clienti che si sono registrati per un account con il tuo store o che sono stati aggiunti dall’amministratore. Utilizza lo standard [controlli griglia](../getting-started/admin-grid-controls.md) per filtrare l’elenco e regolare il layout delle colonne. Per ulteriori informazioni, consulta [Gestire gli account cliente](../customers/manage-account.md).
+Nella griglia di amministrazione di [!UICONTROL Customers] sono elencati tutti i clienti che si sono registrati per un account con il proprio archivio o che sono stati aggiunti dall&#39;amministratore. Utilizza i [controlli griglia](../getting-started/admin-grid-controls.md) standard per filtrare l&#39;elenco e modificare il layout delle colonne. Per ulteriori informazioni, consulta [Gestione account cliente](../customers/manage-account.md).
 
 ![Elenco clienti](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
 
 ## Aggiorna informazioni cliente
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Trova il record del cliente e fai clic su [!UICONTROL **Modifica**] nel _[!UICONTROL Action]_colonna.
+1. Trova il record cliente e fai clic su [!UICONTROL **Modifica**] nella colonna _[!UICONTROL Action]_.
 
 1. Nel pannello a sinistra, scegli le informazioni da modificare e apporta le modifiche necessarie.
 
@@ -27,17 +27,17 @@ In Admin, il [!UICONTROL Customers] grid elenca tutti i clienti che si sono regi
    >
    >Per ulteriori informazioni, consulta [Aggiorna account cliente](../customers/update-account.md).
 
-1. Al termine, fai clic su **[!UICONTROL Save Customer]**.
+1. Al termine, fare clic su **[!UICONTROL Save Customer]**.
 
-## Controlli di Workspace
+## Controlli Workspace
 
 | Controllo | Descrizione |
 | --- | --- |
 | **[!UICONTROL Add New Customer]** | Crea un account cliente. |
 | **[!UICONTROL Search]** | Avvia una ricerca di clienti in base ai filtri correnti. |
-| **[!UICONTROL Filters]** | Definisce un set di parametri di ricerca utilizzati per filtrare i record visualizzati nel [griglia](../getting-started/admin-grid-controls.md). |
+| **[!UICONTROL Filters]** | Definisce un set di parametri di ricerca utilizzati per filtrare i record visualizzati nella [griglia](../getting-started/admin-grid-controls.md). |
 | **[!UICONTROL Default View]** | Determina la colonna predefinita [layout](../getting-started/admin-grid-controls.md) della griglia. |
-| **[!UICONTROL Columns]** | Determina la selezione di [colonne](../getting-started/admin-grid-controls.md) e i relativi account nella griglia. Il layout delle colonne può essere modificato e salvato come _visualizza_. Per impostazione predefinita, nella griglia sono incluse solo alcune colonne. |
+| **[!UICONTROL Columns]** | Determina la selezione di [colonne](../getting-started/admin-grid-controls.md) e dei relativi account nella griglia. Il layout delle colonne può essere modificato e salvato come _visualizzazione_. Per impostazione predefinita, nella griglia sono incluse solo alcune colonne. |
 | **[!UICONTROL Export]** | Esporta i record selezionati come file CSV o XML di Excel. |
 
 {style="table-layout:auto"}
@@ -59,8 +59,8 @@ In Admin, il [!UICONTROL Customers] grid elenca tutti i clienti che si sono regi
 | **[!UICONTROL Web Site]** | Sito Web nella gerarchia del punto vendita a cui è associato l&#39;account del cliente. |
 | **[!UICONTROL Confirmed Email]** | Indica se è necessario un messaggio e-mail di conferma. |
 | **[!UICONTROL Account Created In]** | Indica la visualizzazione del punto vendita da cui è stato creato l&#39;account cliente. |
-| **[!UICONTROL Date of Birth]** | La data di nascita del cliente. <br><br>**_Importante:_**In linea con le attuali best practice in materia di sicurezza e privacy, tieni presente eventuali rischi legali e di sicurezza associati all’archiviazione della data di nascita completa (mese, giorno, anno) dei clienti con altri identificatori personali. Si consiglia di limitare la memorizzazione delle date di nascita complete dei clienti e di utilizzare l’anno di nascita del cliente come alternativa. |
-| **[!UICONTROL Tax / VAT Number]** | Se applicabile, il codice fiscale o [imposta sul valore aggiunto](../stores-purchase/vat.md) numero assegnato al cliente. <br/><br/>Questo campo non corrisponde alla partita IVA. |
+| **[!UICONTROL Date of Birth]** | La data di nascita del cliente. <br><br>**_Importante:_**In linea con le attuali best practice in materia di sicurezza e privacy, tieni presente i potenziali rischi legali e di sicurezza associati all&#39;archiviazione della data di nascita completa (mese, giorno, anno) dei clienti con altri identificatori personali. Si consiglia di limitare la memorizzazione delle date di nascita complete dei clienti e di utilizzare l’anno di nascita del cliente come alternativa. |
+| **[!UICONTROL Tax / VAT Number]** | Se applicabile, il codice fiscale o il numero [dell&#39;imposta sul valore aggiunto](../stores-purchase/vat.md) assegnato al cliente. <br/><br/>Questo campo non corrisponde alla partita IVA. |
 | **[!UICONTROL Gender]** | Il genere del cliente. |
 | **[!UICONTROL Action]** | Modifica: apre l’account società in modalità di modifica. |
 
@@ -68,7 +68,7 @@ In Admin, il [!UICONTROL Customers] grid elenca tutti i clienti che si sono regi
 
 ### Colonne aggiuntive
 
-Queste colonne sono disponibili modificando la [layout colonna](../getting-started/admin-grid-controls.md) della griglia.
+Queste colonne sono disponibili modificando il [layout colonna](../getting-started/admin-grid-controls.md) della griglia.
 
 | Colonna | Descrizione |
 | --- | --- |
@@ -80,7 +80,7 @@ Queste colonne sono disponibili modificando la [layout colonna](../getting-start
 | **[!UICONTROL Billing Lastname]** | Cognome nell’indirizzo di fatturazione del cliente. |
 | **[!UICONTROL Billing Address]** | Indirizzo a cui devono essere inviate le informazioni di fatturazione. |
 | **[!UICONTROL Shipping Address]** | Indirizzo dove devono essere spediti gli ordini. |
-| **[!UICONTROL VAT Number]** | Numero di partita IVA associato all&#39;indirizzo del cliente. Per [beni digitali](../stores-purchase/taxes.md) venduta nell&#39;UE, l&#39;IVA si basa sull&#39;indirizzo di fatturazione del cliente. <br/><br/>Questo campo non corrisponde alla partita IVA/imposta. |
-| **[!UICONTROL Account Lock]** | Indica lo stato dell’account. Come misura di sicurezza, i conti cliente possono essere [bloccato](../customers/password-options.md) dopo troppi tentativi di accesso. Valori: `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | Numero di partita IVA associato all&#39;indirizzo del cliente. Per [beni digitali](../stores-purchase/taxes.md) venduti nell&#39;UE, l&#39;IVA si basa sull&#39;indirizzo di fatturazione del cliente. <br/><br/>Questo campo non corrisponde alla partita IVA. |
+| **[!UICONTROL Account Lock]** | Indica lo stato dell’account. Come misura di sicurezza, gli account cliente possono essere [bloccati](../customers/password-options.md) dopo troppi tentativi di accesso. Valori: `Locked` / `Unlocked` |
 
 {style="table-layout:auto"}

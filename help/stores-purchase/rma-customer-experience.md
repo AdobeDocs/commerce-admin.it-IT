@@ -16,16 +16,16 @@ ht-degree: 0%
 
 I clienti possono utilizzare una delle seguenti opzioni per richiedere un RMA dalla vetrina:
 
-- [Widget Ordini e restituzioni](../content-design/widget-orders-returns.md) nella barra laterale
+- [Widget ordini e restituzioni](../content-design/widget-orders-returns.md) nella barra laterale
 - _Ordini e restituzioni_ collegamento nel piè di pagina
 
 Come best practice, è consigliabile includere una descrizione dei requisiti e dei processi RMA nella politica del Servizio Clienti.
 
 >[!NOTE]
 >
->Se desideri raccogliere informazioni aggiuntive relative alle restituzioni, puoi aggiungere [restituisce attributi](attributes-returns.md).
+>Se desideri raccogliere ulteriori informazioni relative alle restituzioni, puoi aggiungere i tuoi [attributi di restituzione](attributes-returns.md) personalizzati.
 
-Tutte le informazioni RMA del cliente vengono visualizzate sul **[!UICONTROL My Returns]** nel dashboard dell’account del cliente.
+Tutte le informazioni RMA del cliente vengono visualizzate nella pagina **[!UICONTROL My Returns]** nel dashboard dell&#39;account del cliente.
 
 ![I miei resi](./assets/my-returns-page.png){width="700" zoomable="yes"}
 
@@ -41,29 +41,29 @@ Il cliente completa i seguenti passaggi nella vetrina per inviare una RMA:
    - Cognome fatturazione
    - E-mail
 
-1. Clic **[!UICONTROL Continue]**.
+1. Clic su **[!UICONTROL Continue]**.
 
    ![Ordini e restituzioni](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
-1. Sotto la data dell’ordine, fa clic su **[!UICONTROL Return]**.
+1. Sotto la data dell&#39;ordine, fa clic su **[!UICONTROL Return]**.
 
    ![Dettagli ordine](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
-1. Seleziona l&#39;elemento da restituire e immette il **[!UICONTROL Quantity to Return]**.
+1. Seleziona l&#39;elemento da restituire e immette **[!UICONTROL Quantity to Return]**.
 
-1. Set **[!UICONTROL Resolution]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Resolution]** su uno dei seguenti elementi:
 
    - Exchange
    - [Rimborso](../customers/refunds-customer-account.md)
    - [Credito store](../customers/store-credit-using.md)
 
-1. Set **[!UICONTROL Item Condition]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Item Condition]** su uno dei seguenti elementi:
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Set **[!UICONTROL Reason to Return]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Reason to Return]** su uno dei seguenti elementi:
 
    - `Wrong Color`
    - `Wrong Size`
@@ -76,6 +76,6 @@ Il cliente completa i seguenti passaggi nella vetrina per inviare una RMA:
 
    >[!NOTE]
    >
-   >Se l&#39;ordine contiene più articoli e il cliente desidera restituirne un altro, può fare clic su **[!UICONTROL Add Item To Return]**, selezionare l&#39;elemento e quindi impostare tutte le opzioni menzionate.
+   >Se l&#39;ordine contiene diversi articoli e il cliente desidera restituire un altro articolo, può fare clic su **[!UICONTROL Add Item To Return]**, selezionare l&#39;articolo e quindi impostare tutte le opzioni menzionate.
 
-1. Clic **[!UICONTROL Submit]**.
+1. Clic su **[!UICONTROL Submit]**.

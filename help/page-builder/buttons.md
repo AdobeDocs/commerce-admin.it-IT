@@ -1,18 +1,18 @@
 ---
 title: Elementi - Pulsanti
-description: Scopri il tipo di contenuto Pulsanti, utilizzato per aggiungere un singolo pulsante o un set di pulsanti nel [!DNL Page Builder] fase.
+description: Scopri il tipo di contenuto Pulsanti, utilizzato per aggiungere un singolo pulsante o un set di pulsanti nella fase  [!DNL Page Builder] .
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
 
 # Elementi - Pulsanti
 
-Utilizza il _Pulsanti_ tipo di contenuto per aggiungere un singolo pulsante o un set di pulsanti nel [[!DNL Page Builder] fase](workspace.md#stage). È possibile disporre i pulsanti orizzontalmente o verticalmente e aggiungerli direttamente a righe, colonne, schede e banner sullo stage.
+Utilizza il tipo di contenuto _Pulsanti_ per aggiungere un singolo pulsante o un set di pulsanti nella [[!DNL Page Builder] fase](workspace.md#stage). È possibile disporre i pulsanti orizzontalmente o verticalmente e aggiungerli direttamente a righe, colonne, schede e banner sullo stage.
 
 ![Banner con un pulsante sulla vetrina](./assets/pb-storefont-banner-with-button.png){width="600" zoomable="yes"}
 
@@ -20,16 +20,16 @@ Utilizza il _Pulsanti_ tipo di contenuto per aggiungere un singolo pulsante o un
 
 ## Caselle degli strumenti
 
-Quando si utilizza il tipo di contenuto Pulsanti, è possibile aggiungere e modificare singoli pulsanti e il relativo contenitore che contiene uno o più pulsanti. Ciascuno di essi dispone di una propria casella degli strumenti da utilizzare per progettare i pulsanti [!DNL Page Builder] fase.
+Quando si utilizza il tipo di contenuto Pulsanti, è possibile aggiungere e modificare singoli pulsanti e il relativo contenitore che contiene uno o più pulsanti. Ciascuno di essi dispone di una propria casella degli strumenti che è possibile utilizzare per progettare i pulsanti nella fase [!DNL Page Builder].
 
 ### Casella degli strumenti pulsante singolo
 
-![Casella degli strumenti Pulsante](./assets/pb-elements-button-settings.png){width="500" zoomable="yes"}
+![Casella degli strumenti pulsante](./assets/pb-elements-button-settings.png){width="500" zoomable="yes"}
 
 | Strumento | Icona | Descrizione |
 | --------- | -------- | -------------- |
 | Impostazioni | ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} | Apre la pagina Modifica pulsante, in cui è possibile modificare le proprietà del pulsante. |
-| Duplica | ![Icona Duplica](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia del pulsante. |
+| Duplica | ![Icona duplicata](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia del pulsante. |
 | Rimuovi | ![Icona Rimuovi](./assets/pb-icon-remove.png){width="25"} | Elimina il pulsante dall&#39;area di visualizzazione. |
 
 {style="table-layout:auto"}
@@ -44,9 +44,9 @@ Quando si utilizza il tipo di contenuto Pulsanti, è possibile aggiungere e modi
 | Aggiungi | ![Icona Aggiungi](./assets/pb-icon-add-button.png){width="25"} | Aggiunge un pulsante al contenitore. |
 | (etichetta) | Pulsante | Identifica il contenitore corrente come elemento pulsante. |
 | Impostazioni | ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} | Apre la pagina Modifica pulsanti, in cui è possibile modificare le proprietà del contenitore. |
-| Nascondi | ![Nascondi icona](./assets/pb-icon-hide.png){width="25"} | Nasconde il contenitore del pulsante. |
+| Nascondi | ![Icona Nascondi](./assets/pb-icon-hide.png){width="25"} | Nasconde il contenitore del pulsante. |
 | Spettacolo | ![Mostra icona](./assets/pb-icon-show.png){width="25"} | Mostra il contenitore del pulsante nascosto. |
-| Duplica | ![Icona Duplica](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia del contenitore del pulsante. |
+| Duplica | ![Icona duplicata](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia del contenitore del pulsante. |
 | Rimuovi | ![Icona Rimuovi](./assets/pb-icon-remove.png){width="25"} | Elimina dall’area di visualizzazione il contenitore del pulsante e il relativo contenuto. |
 
 {style="table-layout:auto"}
@@ -55,17 +55,17 @@ Quando si utilizza il tipo di contenuto Pulsanti, è possibile aggiungere e modi
 
 ## Aggiungi un singolo pulsante
 
-1. In [!DNL Page Builder] pannello, espandere **[!UICONTROL Elements]** e trascina un **[!UICONTROL Buttons]** segnaposto per una riga, colonna o gruppo di schede sullo stage.
+1. Nel pannello [!DNL Page Builder], espandi **[!UICONTROL Elements]** e trascina un segnaposto **[!UICONTROL Buttons]** in una riga, colonna o set di schede sull&#39;area di visualizzazione.
 
-   ![Trascinamento di un pulsante sull&#39;area di visualizzazione](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
+   ![Trascinamento di un pulsante nell&#39;area di visualizzazione](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
 
-1. Passa il puntatore del mouse sul pulsante per visualizzare la casella degli strumenti e scegli _Impostazioni_ (![Icona Impostazioni](./assets/pb-icon-settings.png)).
+1. Passa il puntatore del mouse sul pulsante per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ (![Impostazioni](./assets/pb-icon-settings.png)).
 
-1. Inserisci il **[!UICONTROL Button Text]** sul pulsante.
+1. Immettere **[!UICONTROL Button Text]** da visualizzare sul pulsante.
 
-   ![Impostazioni di base dei pulsanti](./assets/pb-elements-button-settings-button-text.png){width="600" zoomable="yes"}
+   ![Impostazioni di base del pulsante](./assets/pb-elements-button-settings-button-text.png){width="600" zoomable="yes"}
 
-1. Imposta **[!UICONTROL Button Type]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Button Type]** su uno dei seguenti:
 
    | Tipo | Descrizione |
    | ------ | ----------- |
@@ -77,7 +77,7 @@ Quando si utilizza il tipo di contenuto Pulsanti, è possibile aggiungere e modi
 
    ![Esempio di pulsante primario e secondario](./assets/pb-elements-button-settings-button-primary-secondary.png){width="500" zoomable="yes"}
 
-1. Imposta il **[!UICONTROL Button Link]** utilizzando uno dei tipi seguenti:
+1. Impostare **[!UICONTROL Button Link]** utilizzando uno dei tipi seguenti:
 
    - **[!UICONTROL URL]** - Immettere l&#39;URL di destinazione del collegamento.
 
@@ -89,27 +89,27 @@ Quando si utilizza il tipo di contenuto Pulsanti, è possibile aggiungere e modi
 
      Se il collegamento consente di accedere a un sito Web diverso, è possibile mantenere aperta la pagina corrente del negozio aprendo il collegamento in una nuova scheda del browser.
 
-     Per evitare che il visitatore si allontani dal tuo negozio, seleziona la **[!UICONTROL Open in new tab]** casella di controllo.
+     Per impedire al visitatore di uscire dal tuo archivio, seleziona la casella di controllo **[!UICONTROL Open in new tab]**.
 
    - **[!UICONTROL Product]** - Immettere un nome di prodotto (parziale o completo) o uno SKU, quindi scegliere il nome del prodotto nell&#39;elenco.
 
      >[!NOTE]
      >
-     >I prodotti vengono visualizzati nell’elenco in base al _Mostra prodotti esauriti_ impostazioni. Per i commercianti multi-sorgente che utilizzano [Inventory management](../inventory-management/introduction.md), l’elenco dei prodotti è limitato dall’origine assegnata solo al sito web predefinito.
+     >I prodotti vengono visualizzati nell&#39;elenco in base alle impostazioni di _Mostra prodotti esauriti_. Per gli esercenti Multi Source che utilizzano [Inventory management](../inventory-management/introduction.md), l&#39;elenco dei prodotti è limitato dall&#39;origine assegnata solo al sito Web predefinito.
 
-     ![Scelta di un prodotto per il collegamento pulsante](./assets/pb-elements-button-settings-button-link-product-search.png){width="600" zoomable="yes"}
+     ![Scelta di un prodotto per il collegamento del pulsante](./assets/pb-elements-button-settings-button-link-product-search.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** - Immettere un nome di categoria (parziale o completo) oppure fare clic nel campo vuoto per visualizzare la struttura delle categorie. Quindi, scegli il nome della categoria nella struttura.
 
      ![Scelta di una categoria per il collegamento del pulsante](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Page]** - Inserisci il nome di una pagina CMS (parziale o completa) o fai clic nel campo vuoto per visualizzare l’elenco completo. Scegliere quindi il nome della pagina nell&#39;elenco dei risultati della ricerca.
+   - **[!UICONTROL Page]** - Immettere il nome di una pagina CMS (parziale o completa) o fare clic nel campo vuoto per visualizzare l&#39;elenco completo. Scegliere quindi il nome della pagina nell&#39;elenco dei risultati della ricerca.
 
      ![Scegli la pagina CMS per il collegamento del pulsante](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. Completa il [impostazioni avanzate][advanced-settings] secondo necessità.
+1. Completa le [impostazioni avanzate][advanced-settings] in base alle esigenze.
 
-1. Al termine, fai clic su **[!UICONTROL Save]** nell’angolo in alto a destra per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Al termine, fare clic su **[!UICONTROL Save]** nell&#39;angolo superiore destro per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 ## Aggiungi un set di pulsanti
 
@@ -117,59 +117,59 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
 ### Passaggio 1: creare il secondo pulsante
 
-1. Passa il puntatore del mouse sul contenitore del pulsante per visualizzare la casella degli strumenti e scegli _Aggiungi_ ( ![Icona Aggiungi](./assets/pb-icon-add-button.png){width="20"} ).
+1. Passa il puntatore del mouse sul contenitore del pulsante per visualizzare la casella degli strumenti e scegli l&#39;icona _Aggiungi_ ( ![Aggiungi icona](./assets/pb-icon-add-button.png){width="20"} ).
 
    ![Aggiunta di un altro pulsante](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
 
 1. Immettere il testo da visualizzare sul secondo pulsante.
 
-1. Fare clic sul nuovo pulsante per visualizzare la casella degli strumenti e scegliere _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Fai clic sul nuovo pulsante per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Modifica del pulsante](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
 
-1. Imposta **[!UICONTROL Button Type]** a `Secondary`.
+1. Imposta **[!UICONTROL Button Type]** su `Secondary`.
 
-1. Configurare **[!UICONTROL Button Link]** secondo necessità.
+1. Configura **[!UICONTROL Button Link]** come necessario.
 
-   Nell’esempio seguente, il collegamento è un URL relativo che passa al [Contattaci](../getting-started/store-details.md#contact-us-form) pagina.
+   Nell&#39;esempio seguente, il collegamento è un URL relativo che va alla pagina [Contattaci](../getting-started/store-details.md#contact-us-form).
 
-   ![Impostazioni del pulsante Contattaci](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
+   ![Impostazioni pulsante Contattaci](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Completa il [impostazioni avanzate][advanced-settings] secondo necessità.
+1. Completa le [impostazioni avanzate][advanced-settings] in base alle esigenze.
 
-1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 ### Passaggio 2: creare il terzo pulsante
 
-1. Fare di nuovo clic sul secondo pulsante sullo stage e scegliere _Duplica_ ( ![Icona Duplica](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Fai nuovamente clic sul secondo pulsante sullo stage e scegli l&#39;icona _Duplica_ ( ![Icona Duplica](./assets/pb-icon-duplicate.png){width="20"} ).
 
    ![Duplicazione di un pulsante](./assets/pb-elements-button-set-contact-us-toolbox-duplicate.png){width="500" zoomable="yes"}
 
 1. Immettere il testo da visualizzare sul terzo pulsante.
 
-1. Fare clic sul terzo pulsante per visualizzare la casella degli strumenti e scegliere _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Fai clic sul terzo pulsante per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Casella degli strumenti per il terzo pulsante](./assets/pb-elements-button-set-find-us-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Aggiornare il **[!UICONTROL Button Link]** secondo necessità.
+1. Aggiorna **[!UICONTROL Button Link]** in base alle esigenze.
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 ### Passaggio 3: aggiornare il contenitore del pulsante
 
-1. Passa il puntatore del mouse sul contenitore del pulsante per visualizzare la casella degli strumenti e scegli _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Passa il puntatore del mouse sul contenitore del pulsante per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Casella degli strumenti contenitore pulsanti](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Sotto _[!UICONTROL Appearance]_, scegli **[!UICONTROL Stacked]**.
+1. In _[!UICONTROL Appearance]_scegliere **[!UICONTROL Stacked]**.
 
-1. Imposta **[!UICONTROL All Buttons are same size]** a `Yes`.
+1. Imposta **[!UICONTROL All Buttons are same size]** su `Yes`.
 
    ![Pulsanti in pila della stessa dimensione](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. Se necessario, aggiorna le impostazioni rimanenti utilizzando le descrizioni di [Modificare le impostazioni per un contenitore di pulsanti][button-container].
+1. Aggiornare le impostazioni rimanenti in base alle esigenze, utilizzando le descrizioni di [Modificare le impostazioni per un contenitore di pulsanti][button-container].
 
-1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
    Il set completo di pulsanti in pila viene visualizzato sullo stage, con un pulsante principale e due pulsanti secondari.
 
@@ -179,19 +179,19 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
 1. Fare clic sul pulsante da spostare.
 
-1. Seleziona e trascina Sposta ( ![Icona Sposta](./assets/pb-icon-move.png){width="20"} ), visualizzata immediatamente prima del testo del pulsante, in una nuova posizione per il pulsante all&#39;interno del relativo contenitore.
+1. Selezionare e trascinare l&#39;icona Sposta ( ![Icona Sposta](./assets/pb-icon-move.png){width="20"} ), visualizzata immediatamente prima del testo del pulsante, in una nuova posizione per il pulsante all&#39;interno del relativo contenitore.
 
    ![Spostamento di un pulsante](./assets/pb-elements-button-set-move-button.png){width="500" zoomable="yes"}
 
 ## Modificare le impostazioni di un pulsante
 
-1. Fare clic sul pulsante sullo stage per visualizzare la casella degli strumenti e scegliere _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Fai clic sul pulsante sull&#39;area di visualizzazione per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Caselle degli strumenti dei pulsanti](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
 
 1. Se necessario, aggiorna le impostazioni standard.
 
-   - **[!UICONTROL Button Text]** - Inserisci il testo da visualizzare sul pulsante (può anche essere aggiornato direttamente dall&#39;area di visualizzazione).
+   - **[!UICONTROL Button Text]** - Immettere il testo da visualizzare sul pulsante (può anche essere aggiornato direttamente dalla fase).
 
    - **[!UICONTROL Button Type]** - Determina il formato del pulsante.
 
@@ -203,7 +203,7 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
      {style="table-layout:auto"}
 
-   - **[!UICONTROL Button Link]** - Determina la pagina di destinazione visualizzata quando si fa clic sul pulsante.
+   - **[!UICONTROL Button Link]** - Determina la pagina di destinazione che viene visualizzata quando si fa clic sul pulsante.
 
      | Opzione | Descrizione |
      | ------ | ----------- |
@@ -214,15 +214,15 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
      {style="table-layout:auto"}
 
-1. Completa il [impostazioni avanzate][advanced-settings] secondo necessità.
+1. Completa le [impostazioni avanzate][advanced-settings] in base alle esigenze.
 
-1. Per salvare le impostazioni e tornare al [!DNL Page Builder] Workspace, fai clic su **[!UICONTROL Save]** nell’angolo superiore destro.
+1. Per salvare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder], fare clic su **[!UICONTROL Save]** nell&#39;angolo superiore destro.
 
 ## Modificare le impostazioni per un contenitore di pulsanti
 
-1. Passa il puntatore del mouse sul contenitore del pulsante per visualizzare la casella degli strumenti e scegli _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
+1. Passa il puntatore del mouse sul contenitore del pulsante per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Aggiornare il **[!UICONTROL Appearance]** in base alle esigenze.
+1. Aggiornare le impostazioni di **[!UICONTROL Appearance]** in base alle esigenze.
 
    - Utilizza le opzioni di disposizione per visualizzare i pulsanti orizzontalmente o verticalmente nel contenitore:
 
@@ -233,19 +233,19 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
      {style="table-layout:auto"}
 
-   - Imposta il **[!UICONTROL All buttons are same size]** in base alle proprie preferenze.
+   - Impostare l&#39;opzione **[!UICONTROL All buttons are same size]** in base alle proprie preferenze.
 
-     Se impostato su `Yes`, tutti i pulsanti nel contenitore hanno una dimensione coerente, in base alla lunghezza del testo del pulsante più lungo.
+     Se è impostato su `Yes`, tutti i pulsanti del contenitore hanno dimensioni coerenti, in base alla lunghezza del testo del pulsante più lungo.
 
-1. Completa il [Impostazioni avanzate][advanced-settings] secondo necessità.
+1. Completa le [Impostazioni avanzate][advanced-settings] in base alle esigenze.
 
-1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 ## Modificare le impostazioni avanzate
 
-È possibile modificare _[!UICONTROL Advanced]_impostazioni per singoli pulsanti e per il contenitore di pulsanti.
+È possibile modificare le impostazioni di _[!UICONTROL Advanced]_per i singoli pulsanti e per il contenitore di pulsanti.
 
-1. Per controllare il posizionamento all&#39;interno del contenitore principale, scegliere **[!UICONTROL Alignment]**:
+1. Per controllare il posizionamento all&#39;interno del contenitore padre, scegliere **[!UICONTROL Alignment]**:
 
    | Opzione | Descrizione |
    | ------ | ----------- |
@@ -256,7 +256,7 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
    {style="table-layout:auto"}
 
-1. Imposta il **[!UICONTROL Border]** stile applicato a tutti e quattro i lati del pulsante o del contenitore pulsanti:
+1. Impostare lo stile **[!UICONTROL Border]** applicato a tutti e quattro i lati del pulsante o del contenitore pulsanti:
 
    | Opzione | Descrizione |
    | ------ | ----------- |
@@ -283,11 +283,11 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Specifica i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente per applicare al contenitore pulsante o pulsanti.
+1. (Facoltativo) Specificare i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare al contenitore di pulsanti.
 
    Separare più nomi di classe con uno spazio.
 
-1. Immetti i valori, in pixel, per il **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del pulsante o del contenitore pulsanti.
+1. Immettere i valori, in pixel, per **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del pulsante o del contenitore pulsanti.
 
    Immettere i valori corrispondenti nel diagramma.
 

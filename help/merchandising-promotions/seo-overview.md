@@ -12,41 +12,41 @@ ht-degree: 0%
 
 # Panoramica SEO
 
-_Ottimizzazione dei motori di ricerca_ (SEO) è la pratica di perfezionare il contenuto e la presentazione di un sito per migliorare il modo in cui le pagine vengono indicizzate dai motori di ricerca. Commerce include varie funzioni per supportare l’attività SEO (Search Engine Optimization) in corso.
+_L&#39;ottimizzazione per i motori di ricerca_ (SEO) consiste nel perfezionare il contenuto e la presentazione di un sito per migliorare il modo in cui le pagine vengono indicizzate dai motori di ricerca. Commerce include varie funzioni per supportare l’attività SEO (Search Engine Optimization) in corso.
 
 ## Metadati
 
-Ulteriori informazioni sull&#39;aggiunta e l&#39;ottimizzazione di parole chiave [metadati](meta-data.md) per il tuo sito e store.
+Ulteriori informazioni sull&#39;aggiunta e l&#39;ottimizzazione di [metadati](meta-data.md) ricchi di parole chiave per il sito e l&#39;archivio.
 
 ## Utilizzo di una mappa del sito
 
-A [mappa del sito](sitemap-xml.md) migliora il modo in cui lo store viene indicizzato dai motori di ricerca ed è progettato per trovare pagine che potrebbero essere ignorate dai crawler web. È possibile configurare una mappa del sito per indicizzare tutte le pagine e le immagini.
+Una [mappa del sito](sitemap-xml.md) migliora l&#39;indicizzazione dell&#39;archivio da parte dei motori di ricerca ed è progettata per trovare pagine che potrebbero essere ignorate dai crawler Web. È possibile configurare una mappa del sito per indicizzare tutte le pagine e le immagini.
 
 ## Riscritture URL
 
-Il [Riscrittura URL](url-rewrite.md) Questo strumento consente di modificare qualsiasi URL associato a un prodotto, una categoria o una pagina CMS.
+Lo strumento [URL Riscrittura](url-rewrite.md) consente di modificare qualsiasi URL associato a una pagina di prodotto, categoria o CMS.
 
 ## Robot per motori di ricerca
 
-La configurazione di Commerce include impostazioni per generare e gestire istruzioni per i crawler web e i bot che indicizzano il sito. Se la richiesta di `robots.txt` raggiunge Commerce (anziché un file fisico), viene indirizzato dinamicamente al controller dei robot. Le istruzioni sono direttive riconosciute e seguite dalla maggior parte dei motori di ricerca.
+La configurazione di Commerce include impostazioni per generare e gestire istruzioni per i crawler web e i bot che indicizzano il sito. Se la richiesta per `robots.txt` raggiunge Commerce (anziché un file fisico), viene instradata dinamicamente al controller robots. Le istruzioni sono direttive riconosciute e seguite dalla maggior parte dei motori di ricerca.
 
-Per impostazione predefinita, il file robots.txt generato da Commerce contiene istruzioni per il web crawler per evitare l’indicizzazione di determinate parti del sito che contengono file utilizzati internamente dal sistema. Puoi utilizzare le impostazioni predefinite, definire istruzioni personalizzate per tutti o per motori di ricerca specifici. Ci sono molti articoli online che esplorano l&#39;argomento in dettaglio.
+Per impostazione predefinita, il file robots.txt generato da Commerce contiene istruzioni per il Web crawler per evitare di indicizzare alcune parti del sito che contengono file utilizzati internamente dal sistema. Puoi utilizzare le impostazioni predefinite, definire istruzioni personalizzate per tutti o per motori di ricerca specifici. Ci sono molti articoli online che esplorano l&#39;argomento in dettaglio.
 
 ### Esempio di istruzioni personalizzate
 
-**Consente l&#39;accesso completo**
+**Consente L&#39;Accesso Completo**
 
-    User-agent:*
+    Agente utente:*
     Non consentire:
 
-**Non consente l&#39;accesso a tutte le cartelle**
+**Accesso negato a tutte le cartelle**
 
-    User-agent:*
+    Agente utente:*
     Non consentire: /
 
 **Istruzioni predefinite**
 
-    User-agent: *
+    Agente utente: *
     Non consentire: /index.php/
     Non consentire: /*?
     Non consentire: /checkout/
@@ -64,17 +64,17 @@ Per impostazione predefinita, il file robots.txt generato da Commerce contiene i
 
 ### Configura `robots.txt`
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Trova il **[!UICONTROL Global]** nella prima riga della griglia e fare clic su **[!UICONTROL Edit]**.
+1. Trovare la configurazione **[!UICONTROL Global]** nella prima riga della griglia e fare clic su **[!UICONTROL Edit]**.
 
    ![Configurazione progettazione globale](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
 
-1. Scorri verso il basso ed espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Search Engine Robots]** ed effettuare le seguenti operazioni:
+1. Scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Robots]** ed effettua le seguenti operazioni:
 
-   ![Configurazione del progetto - robot per motori di ricerca](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
+   ![Configurazione progettazione - robot motore di ricerca](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
 
-   - Imposta **[!UICONTROL Default Robots]** a uno dei seguenti elementi:
+   - Imposta **[!UICONTROL Default Robots]** su uno dei seguenti:
 
      | Opzione | Descrizione |
      |------|------------|
@@ -85,8 +85,8 @@ Per impostazione predefinita, il file robots.txt generato da Commerce contiene i
 
      {style="table-layout:auto"}
 
-   - Se necessario, immetti istruzioni personalizzate nel **[!UICONTROL Edit Custom instruction of robots.txt file]** casella. Ad esempio, mentre un sito è in fase di sviluppo, è possibile che si desideri non consentire l&#39;accesso a tutte le cartelle.
+   - Se necessario, immettere istruzioni personalizzate nella casella **[!UICONTROL Edit Custom instruction of robots.txt file]**. Ad esempio, mentre un sito è in fase di sviluppo, è possibile che si desideri non consentire l&#39;accesso a tutte le cartelle.
 
-   - Per ripristinare le istruzioni predefinite, fai clic su **[!UICONTROL Reset to Default]**.
+   - Per ripristinare le istruzioni predefinite, scegliere **[!UICONTROL Reset to Default]**.
 
-1. Al termine, fai clic su **[!UICONTROL Save Configuration]**.
+1. Al termine, fare clic su **[!UICONTROL Save Configuration]**.

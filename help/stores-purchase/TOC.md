@@ -17,7 +17,7 @@ ht-degree: 3%
 
 + [Guida ai negozi e all’esperienza di acquisto](guide-overview.md)
 + [Introduzione ai negozi ed esperienza di acquisto](introduction.md)
-+ Gestione di siti e store {#site-store}
++ Gestione di siti e archivi {#site-store}
    + [Menu Negozi](stores-menu.md)
    + [Struttura dello store e del sito](stores.md)
    + [Visualizzazioni dello store](store-views.md)
@@ -40,18 +40,18 @@ ht-degree: 3%
       + [Aggiorna tassi di cambio](currency-update.md)
    + [E-mail di vendita](sales-email.md)
    + [Documenti di vendita](sales-documents.md)
-+ Punto vendita {#point-of-purchase}
++ Punto di acquisto {#point-of-purchase}
    + [Acquisto immediato](checkout-instant-purchase.md)
    + Carrello {#cart}
       + [Panoramica](cart.md)
       + [Configurazione del carrello](cart-configuration.md)
       + [Persistenza carrello](cart-persistent.md)
       + [Ordina per SKU](order-by-sku.md)
-   + Assistenza agli acquisti {#assist}
+   + Assistenza per acquisti {#assist}
       + [Gestire un carrello](shopping-assisted-cart-manage.md)
       + [Crea un ordine](customer-account-create-order.md)
       + [Aggiornare un ordine cliente](order-update.md)
-   + Pagamento {#checkout}
+   + Estrai {#checkout}
       + [Panoramica](checkout-process.md)
       + [Pagamento di una pagina](checkout-one-page.md)
       + [Pagamento per gli ospiti](checkout-guest.md)
@@ -62,9 +62,9 @@ ht-degree: 3%
    + Biglietti regalo {#gift-cards}
       + [Acquisto e rimborso gift card](product-gift-card-workflow.md)
       + [Conti gift card](product-gift-card-accounts.md)
-+ Strumenti per gli acquirenti {#shopper-tools}
++ Strumenti per acquisti {#shopper-tools}
    + [Invia un&#39;e-mail a un amico](email-a-friend.md)
-   + Elenchi dei desideri {#wish-lists}
+   + Elenchi desideri {#wish-lists}
       + [Panoramica](wishlists.md)
       + [Configura elenchi di desideri](wishlist-configuration.md)
       + [Esperienza vetrina elenco desideri](wishlist-storefront.md)
@@ -92,7 +92,7 @@ ht-degree: 3%
       + [Bonifici bancari](bank-transfer.md)
       + [Ordini di acquisto](purchase-order.md)
       + [Estrazione subtotale pari a zero](zero-subtotal-checkout.md)
-+ Gestire il flusso degli ordini {#order-management}
++ Gestisci flusso ordini {#order-management}
    + [Menu Vendite](sales-menu.md)
    + Ordini {#orders}
       + [Panoramica](orders.md)

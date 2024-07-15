@@ -18,37 +18,37 @@ L’esempio seguente aggiunge un’immagine promozionale alla pagina della categ
 
 ## Aggiungere l’elemento della campagna per una categoria
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Individua la categoria che desideri utilizzare nella campagna e aprila in modalità di modifica.
 
-1. Clic **[!UICONTROL Schedule New Update]**.
+1. Fare clic su **[!UICONTROL Schedule New Update]**.
 
-1. Seleziona **[!UICONTROL Assign to Existing Campaign]**.
+1. Selezionare **[!UICONTROL Assign to Existing Campaign]**.
 
 1. Nell’elenco, seleziona la campagna da modificare.
 
    ![Assegnazione a una campagna esistente](./assets/content-staging-assign-to-existing-campaign.png){width="600" zoomable="yes"}
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
+1. Espandere ![Selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
-1. Per **[!UICONTROL Category Image]**, fai clic su **[!UICONTROL Upload]** e seleziona l’immagine da visualizzare nella pagina categoria durante la campagna.
+1. Per **[!UICONTROL Category Image]**, fare clic su **[!UICONTROL Upload]** e selezionare l&#39;immagine da visualizzare nella pagina della categoria durante la campagna.
 
-   ![Aggiunta di un’immagine di categoria](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
+   ![Aggiunta di un&#39;immagine di categoria](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
 ## Convalida l&#39;elemento
 
-1. Il giorno _Amministratore_ barra laterale, vai a  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
 
 1. Trova la campagna nell’elenco o nella timeline visualizzata e aprila per accedere ai dettagli:
 
-   - Per visualizzare un elenco, fai clic su **[!UICONTROL Select]** e poi **[!UICONTROL View/Edit]** nel _[!UICONTROL Action]_colonna.
-   - Per visualizzare la timeline, fai clic una volta per visualizzare il riepilogo, quindi fai clic su **[!UICONTROL View/Edit]**.
+   - Per visualizzare un elenco, fare clic su **[!UICONTROL Select]** e quindi su **[!UICONTROL View/Edit]** nella colonna _[!UICONTROL Action]_.
+   - Per visualizzare la sequenza temporale, fare clic una volta per visualizzare il riepilogo, quindi fare clic su **[!UICONTROL View/Edit]**.
 
-   ![Dettagli della campagna](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
+   ![Dettagli campagna](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Categories]** per visualizzare l&#39;elenco delle categorie assegnate.
+1. Espandere ![Selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Categories]** per visualizzare l&#39;elenco delle categorie assegnate.
 
-1. Per rivedere le pagine della categoria quando la campagna è attiva, torna al dashboard, fai di nuovo clic sulla campagna e quindi fai clic su **[!UICONTROL Preview]**.
+1. Per rivedere le pagine della categoria quando la campagna è attiva, tornare al dashboard, fare di nuovo clic sulla campagna e quindi fare clic su **[!UICONTROL Preview]**.

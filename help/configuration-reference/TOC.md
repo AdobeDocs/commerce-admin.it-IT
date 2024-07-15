@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guida di riferimento alla configurazione
-user-guide-description: Questa guida fornisce informazioni di riferimento per tutte le impostazioni di configurazione dello store a cui si accede dalla barra laterale _Admin_ in **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+user-guide-description: Questa guida fornisce informazioni di riferimento per tutte le impostazioni di configurazione dell'archivio a cui si accede dalla barra laterale _Admin_ in **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 breadcrumb-title: Riferimento configurazione
 hide: false
 role: Admin, Developer, User
@@ -35,7 +35,7 @@ ht-degree: 1%
    - [XML Sitemap](./catalog/xml-sitemap.md)
    - [Feed RSS](./catalog/rss-feeds.md)
    - [E-mail a un amico](./catalog/email-to-a-friend.md)
-- Sicurezza {#security}
+- Protezione {#security}
    - [2FA](./security/2fa.md)
    - [Pannello di amministrazione di Google reCAPTCHA](./security/google-recaptcha-admin.md)
    - [Google reCAPTCHA Storefront](./security/google-recaptcha-storefront.md)

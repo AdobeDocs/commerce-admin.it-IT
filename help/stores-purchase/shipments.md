@@ -5,16 +5,16 @@ exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 1%
+source-wordcount: '948'
+ht-degree: 0%
 
 ---
 
 # Spedizioni
 
-Il _[!UICONTROL Shipments]_griglia elenca il record di spedizione di tutte le fatture preparate per la spedizione. È possibile generare un record di spedizione quando un ordine è [fatturato](invoices.md) o più tardi.
+Nella griglia _[!UICONTROL Shipments]_sono elencati i record di spedizione di tutte le fatture preparate per la spedizione. È possibile generare un record di spedizione quando un ordine è [fatturato](invoices.md) o successivo.
 
-Adobe Commerce e il Magento Open Source supportano la spedizione parziale e completa degli ordini, con ulteriori opzioni disponibili presso [Inventory management](../inventory-management/introduction.md) ed estensioni di terze parti.
+Adobe Commerce e il Magento Open Source supportano la spedizione parziale e completa degli ordini, con opzioni aggiuntive disponibili da [Inventory management](../inventory-management/introduction.md) ed estensioni di terze parti.
 
 ![Griglia spedizioni](./assets/shipments.png){width="600" zoomable="yes"}
 
@@ -51,9 +51,9 @@ Colonne aggiuntive:
 
 ## Creare una spedizione
 
-Le istruzioni seguenti illustrano la procedura per la creazione di una spedizione in Adobe Commerce o Magento Open Source. Se Inventory management è abilitato, è possibile rivedere [Crea spedizioni multi-sorgente](../inventory-management/shipments-create.md) e selezionare un&#39;origine (o un&#39;ubicazione) e una quantità da inviare per riga.
+Le istruzioni seguenti illustrano la procedura per la creazione di una spedizione in Adobe Commerce o Magento Open Source. Se Inventory management è abilitato, è possibile esaminare [Creazione di spedizioni con più Source](../inventory-management/shipments-create.md) e selezionare un&#39;origine (o un&#39;ubicazione) e una quantità da inviare per riga.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Individuare l&#39;ordine nella griglia e aprirlo.
 
@@ -65,19 +65,19 @@ Le istruzioni seguenti illustrano la procedura per la creazione di una spedizion
 
 ### [!UICONTROL Items to Ship]
 
-Per ogni voce dell&#39;ordine, modificare la **[!UICONTROL Qty to Ship]** secondo necessità.
+Per ogni riga nell&#39;ordine, modificare **[!UICONTROL Qty to Ship]** in base alle esigenze.
 
 ### [!UICONTROL Shipping Information]
 
 **Metodo 1:** Utilizzo della pagina dell&#39;ordine
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. In **[!UICONTROL Action]** per l&#39;ordine selezionato, fare clic su **[!UICONTROL View]**.
+1. Nella colonna **[!UICONTROL Action]** dell&#39;ordine selezionato, fare clic su **[!UICONTROL View]**.
 
-1. Clic **[!UICONTROL Ship]**.
+1. Fare clic su **[!UICONTROL Ship]**.
 
-1. Scorri verso il basso fino a _[!UICONTROL Payment & Shipping Method]_blocca e fai clic su **[!UICONTROL Add Tracking Number]**.
+1. Scorri verso il basso fino al blocco _[!UICONTROL Payment & Shipping Method]_e fai clic su **[!UICONTROL Add Tracking Number]**.
 
 1. Imposta **[!UICONTROL Carrier]**:
 
@@ -87,32 +87,32 @@ Per ogni voce dell&#39;ordine, modificare la **[!UICONTROL Qty to Ship]** second
    - `United Parcel Service`
    - `United States Postal Service`
 
-1. Per tenere traccia della spedizione, inserire **[!UICONTROL Title]** e **[!UICONTROL Number]** .
+1. Per tenere traccia della spedizione, immettere **[!UICONTROL Title]** e **[!UICONTROL Number]**.
 
 **Metodo 2:** Utilizzo della pagina di spedizione
 
 Questo metodo è consentito solo se la spedizione dell&#39;ordine è già stata creata dalla pagina ordine.
 Puoi modificare le informazioni di spedizione e di tracciamento in base alle esigenze utilizzando la pagina di spedizione diretta:
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
 
 1. Trova e apri la spedizione in modalità di modifica.
 
-1. Scorri verso il basso fino a _[!UICONTROL Payment & Shipping Method]_blocco.
+1. Scorri verso il basso fino al blocco _[!UICONTROL Payment & Shipping Method]_.
 
-1. Seleziona la **[!UICONTROL Carrier]**.
+1. Selezionare **[!UICONTROL Carrier]**.
 
-1. Immetti un **[!UICONTROL Title]** per il pacchetto.
+1. Immettere **[!UICONTROL Title]** per il pacchetto.
 
-1. Inserisci il tracciamento **[!UICONTROL Number]**.
+1. Immettere il tracciamento **[!UICONTROL Number]**.
 
-1. Clic **[!UICONTROL Add]**.
+1. Fare clic su **[!UICONTROL Add]**.
 
-1. Per inviare al cliente un’e-mail con informazioni di tracciamento, fai clic su **[!UICONTROL Send Tracking Information]** e conferma l’azione.
+1. Per inviare un&#39;e-mail con le informazioni di tracciamento al cliente, fare clic su **[!UICONTROL Send Tracking Information]** e confermare l&#39;azione.
 
-   Per tenere traccia dell&#39;ubicazione di una spedizione, apri la spedizione richiesta in modalità di modifica e fai clic su **[!UICONTROL Track this shipment]**.
+   Per tenere traccia dell&#39;ubicazione di qualsiasi spedizione, aprire la spedizione richiesta in modalità di modifica e fare clic su **[!UICONTROL Track this shipment]**.
 
-   ![Informazioni su spedizione e tracciamento](./assets/tracking-information.png){width="600" zoomable="yes"}
+   ![Informazioni su spedizione e monitoraggio](./assets/tracking-information.png){width="600" zoomable="yes"}
 
 ### Pulsanti
 
@@ -126,51 +126,51 @@ Puoi modificare le informazioni di spedizione e di tracciamento in base alle esi
 
 ### Commenti sulla spedizione
 
-1. Invio **Commenti** per la spedizione, se necessario.
+1. Immetti **Commenti** per la spedizione, se necessario.
 
-1. Quando la spedizione è pronta, fai clic su **Invia spedizione**.
+1. Quando la spedizione è pronta, fare clic su **Invia spedizione**.
 
 ## Imposta commenti per le spedizioni
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Sotto _[!UICONTROL Sales]_, seleziona **[!UICONTROL Sales Email]**.
+1. In _[!UICONTROL Sales]_, selezionare **[!UICONTROL Sales Email]**.
 
-1. Espandi **Commenti spedizione** e modificare le impostazioni in base alle esigenze:
+1. Espandere la sezione **Commenti spedizione** e modificare le impostazioni in base alle esigenze:
 
    ![Configurazione commento spedizione](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
 
-   - Il **[!UICONTROL Enabled]** è impostata su `Yes` per impostazione predefinita, il che significa che l’e-mail viene inviata a un cliente quando viene inserito un commento sulla spedizione.
+   - L&#39;opzione **[!UICONTROL Enabled]** è impostata su `Yes` per impostazione predefinita, il che significa che l&#39;e-mail viene inviata a un cliente quando viene inserito un commento sulla spedizione.
 
-   - Per **[!UICONTROL Shipment Comment Email Sender]**, selezionare la persona dalla quale viene inviata l&#39;e-mail di commento della spedizione. L’impostazione predefinita offre cinque indirizzi e-mail.
+   - Per **[!UICONTROL Shipment Comment Email Sender]**, selezionare la persona dalla quale inviare l&#39;e-mail di commento della spedizione. L’impostazione predefinita offre cinque indirizzi e-mail.
 
-   - Per **[!UICONTROL Shipment Comment Email Template]**, seleziona il modello in base alle tue esigenze oppure scegli l’opzione predefinita.
+   - Per **[!UICONTROL Shipment Comment Email Template]**, selezionare il modello in base alle proprie esigenze oppure selezionare l&#39;opzione predefinita.
 
-   - Per **[!UICONTROL Shipment Comment Email Template for Guests]**, scegli il modello utilizzato per i clienti che non hanno un account nel tuo negozio.
+   - Per **[!UICONTROL Shipment Comment Email Template for Guests]**, scegli il modello utilizzato per i clienti che non hanno un account nello store.
 
-   - Per **[!UICONTROL Shipment Comment Email Copy To]**, inserisci gli indirizzi e-mail per inviare una copia e-mail di commento della spedizione. Separa più indirizzi e-mail con una virgola.
+   - Per **[!UICONTROL Shipment Comment Email Copy To]**, immettere gli indirizzi di posta elettronica per inviare una copia dell&#39;e-mail di commento della spedizione. Separa più indirizzi e-mail con una virgola.
 
-   - Per **[!UICONTROL Shipment Comment Email Copy Method]**, seleziona `bcc` (copia per conoscenza nascosta) o `separate email copy` metodo basato sulle preferenze.
+   - Per **[!UICONTROL Shipment Comment Email Copy Method]**, selezionare `bcc` (copia per conoscenza nascosta) o il metodo `separate email copy` in base alle proprie preferenze.
 
-1. Clic **[!UICONTROL Save Config]**.
+1. Fare clic su **[!UICONTROL Save Config]**.
 
 ## Annullare una spedizione
 
 Prima che una spedizione venga inviata a un vettore, è possibile annullarla aprendo l&#39;ordine e passando alla spedizione, a condizione che il vettore supporti gli annullamenti. Alcuni vettori limitano o limitano le cancellazioni dopo una prenotazione. Ad esempio, UPS consente gli annullamenti, ma richiede di attendere 24 ore dopo la prenotazione della spedizione. Se una spedizione viene annullata, l&#39;annullamento non può essere stornato. L&#39;unico ricorso è quello di ricreare l&#39;ordine.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Trovare l&#39;ordine nella griglia.
 
-1. In _Azione_ , scegli **[!UICONTROL View]**.
+1. Nella colonna _Azione_ scegliere **[!UICONTROL View]**.
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Shipments]**.
 
    Se la spedizione può essere annullata, _[!UICONTROL Cancel Shipment]_viene visualizzato come opzione nella barra dei pulsanti superiore.
 
-1. Clic **[!UICONTROL Cancel Shipment]**.
+1. Fare clic su **[!UICONTROL Cancel Shipment]**.
 
-1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL OK]**.
+1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL OK]**.
 
 Lo stato della spedizione cambia in `Canceled`. Se il vettore non supporta gli annullamenti, viene visualizzato un messaggio di errore che spiega perché non è stato possibile annullare la spedizione.
 
@@ -222,6 +222,6 @@ Lo stato della spedizione cambia in `Canceled`. Se il vettore non supporta gli a
 
 | Campo | Descrizione |
 |-----|-----------|
-| [!UICONTROL Package Label] | **PNG** - Scaricare l’etichetta del pacchetto di spedizione. Dimensioni: A6 (105 x 148 mm, 4,1 x 5,6 pollici) |
+| [!UICONTROL Package Label] | **PNG** - Scarica l&#39;etichetta del pacchetto di spedizione. Dimensioni: A6 (105 x 148 mm, 4,1 x 5,6 pollici) |
 
 {style="table-layout:auto"}

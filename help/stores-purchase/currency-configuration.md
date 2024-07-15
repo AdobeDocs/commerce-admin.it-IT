@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Configurazione della valuta
 
-Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambito del [valuta di base](../configuration-reference/general/currency-setup.md). È impostata su globale per impostazione predefinita, che applica l&#39;impostazione della valuta di base all&#39;intero [gerarchia store](../getting-started/websites-stores-views.md). Se si dispone di un&#39;installazione Adobe Commerce multisito o di Magento Open Source, è possibile gestire più valute di base impostando l&#39;ambito a livello di sito Web.
+Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambito della [valuta di base](../configuration-reference/general/currency-setup.md). Per impostazione predefinita, è impostata su globale. L&#39;impostazione della valuta di base viene applicata all&#39;intera [gerarchia archivio](../getting-started/websites-stores-views.md). Se si dispone di un&#39;installazione Adobe Commerce multisito o di Magento Open Source, è possibile gestire più valute di base impostando l&#39;ambito a livello di sito Web.
 
-È inoltre possibile specificare le valute accettate e la valuta da utilizzare per la visualizzazione [prezzi](../catalog/catalog-price-scope.md) nel tuo negozio. Nel diagramma seguente, l&#39;ambito della valuta di base viene impostato a livello di sito Web, in modo che ogni sito Web possa avere una valuta di base diversa.
+È inoltre possibile specificare le valute accettate e la valuta da utilizzare per la visualizzazione di [prezzi](../catalog/catalog-price-scope.md) nel punto vendita. Nel diagramma seguente, l&#39;ambito della valuta di base viene impostato a livello di sito Web, in modo che ogni sito Web possa avere una valuta di base diversa.
 
 ![Diagramma ambito valuta](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
 
 ## Passaggio 1: scegliere le divise accettate
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nell&#39;angolo in alto a sinistra, imposta **[!UICONTROL Scope]** alla vista store in cui si applica la configurazione.
+1. Nell&#39;angolo in alto a sinistra, impostare **[!UICONTROL Scope]** sulla visualizzazione archivio in cui si applica la configurazione.
 
-1. Nel pannello a sinistra sotto _Generale_, scegli **[!UICONTROL Currency Setup]**.
+1. Nel pannello a sinistra in _Generale_, scegli **[!UICONTROL Currency Setup]**.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Currency Options]** e impostare le seguenti opzioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Currency Options]** e impostare le opzioni seguenti:
 
-   - **[!UICONTROL Base Currency]** — Imposta sulla valuta principale utilizzata per le transazioni in linea.
+   - **[!UICONTROL Base Currency]** — Imposta sulla valuta principale utilizzata per le transazioni online.
 
    - **[!UICONTROL Default Display Currency]** — Imposta sulla valuta utilizzata per visualizzare i prezzi nella visualizzazione punto vendita.
 
@@ -38,21 +38,21 @@ Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambi
 
    ![Configurazione generale - Opzioni di valuta](../configuration-reference/general/assets/currency-setup-currency-options.png){width="600" zoomable="yes"}
 
-   Per una descrizione dettagliata di ciascuna di queste impostazioni di configurazione, vedi [Opzioni valuta](../configuration-reference/general/currency-setup.md) nel _Guida di riferimento alla configurazione_.
+   Per una descrizione dettagliata di ciascuna di queste impostazioni di configurazione, vedere [Opzioni valuta](../configuration-reference/general/currency-setup.md) nella _Guida di riferimento alla configurazione_.
 
-1. Quando viene richiesto di aggiornare la cache, fare clic su _Chiudi_ ( ![Chiudi casella](../assets/icon-close-x.png) ) nell&#39;angolo superiore destro del messaggio di sistema.
+1. Quando viene richiesto di aggiornare la cache, fare clic su _Chiudi_ ( ![Chiudi casella](../assets/icon-close-x.png) ) nell&#39;angolo superiore destro del messaggio di sistema.
 
-   È possibile [aggiorna la cache](../systems/cache-management.md) più tardi.
+   È possibile [aggiornare la cache](../systems/cache-management.md) in un secondo momento.
 
 1. Definire l&#39;ambito della valuta di base:
 
    - Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-   - Scorri verso il basso ed espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Price]** sezione. Questa sezione viene visualizzata solo se l&#39;ambito è impostato come **[!UICONTROL Store View:]** _Configurazione predefinita_.)
+   - Scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Price]**. (Questa sezione viene visualizzata solo se l&#39;ambito è impostato come **[!UICONTROL Store View:]** _Configurazione predefinita_.)
 
-   - Imposta **[!UICONTROL Catalog Price Scope]** a `Global` o `Website`.
+   - Imposta **[!UICONTROL Catalog Price Scope]** su `Global` o `Website`.
 
-   ![Configurazione del catalogo - Opzioni di prezzo](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
+   ![Configurazione catalogo - opzioni prezzo](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
 ## Passaggio 2: configurare la connessione di importazione
 
@@ -62,49 +62,49 @@ Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambi
 
 1. Configurare la connessione al servizio valuta:
 
-   Sono disponibili tre opzioni di assistenza: _[!UICONTROL Fixer.io (legacy)]_,_[!UICONTROL Fixer Api (APILayer)]_, e _[!UICONTROL Currency Converter API]_
+   Sono disponibili tre opzioni di servizio: _[!UICONTROL Fixer.io (legacy)]_,_[!UICONTROL Fixer Api (APILayer)]_ e _[!UICONTROL Currency Converter API]_
 
    >[!IMPORTANT]
    >
-   >A partire dalla versione 2.4.6 di, le [[!DNL Fixer.io]](https://fixer.io/) il servizio è obsoleto e sostituito con il [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) servizio. Si consiglia vivamente di utilizzare un account APILayer invece di un account obsoleto [!DNL Fixer.io] account.
+   >A partire dalla versione 2.4.6, il servizio [[!DNL Fixer.io]](https://fixer.io/) è obsoleto e sostituito con il servizio [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api). Si consiglia di utilizzare un account APILayer invece di un account [!DNL Fixer.io] obsoleto.
 
-   - _Per connettersi al [servizio fixer.io](https://fixer.io/):_
+   - _Per connettersi al servizio [fixer.io](https://fixer.io/):_
 
-      - Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Fixer.io]** sezione.
+      - Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Fixer.io]**.
 
-      - Inserisci il file fixer.io **[!UICONTROL API key]**.
+      - Immettere fixer.io **[!UICONTROL API key]**.
 
-      - Per **[!UICONTROL Connection Timeout in Seconds]**, inserisci il numero di secondi di inattività consentiti prima che la connessione si interrompa.
+      - Per **[!UICONTROL Connection Timeout in Seconds]**, immettere il numero di secondi di inattività consentiti prima del timeout della connessione.
 
      ![Configurazione generale - Impostazione valuta - Opzioni Fixer.io](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
    - _Per connettersi al [[!DNL Fixer Api (APILayer)] servizio](https://apilayer.com/):_
 
-      - Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Fixer Api (APILayer)]** sezione.
+      - Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Fixer Api (APILayer)]**.
 
-      - Immetti il [!DNL APILayer] **[!UICONTROL API key]**.
+      - Immetti [!DNL APILayer] **[!UICONTROL API key]**.
 
-      - Per **[!UICONTROL Connection Timeout in Seconds]**, inserisci il numero di secondi di inattività consentiti prima che la connessione si interrompa.
+      - Per **[!UICONTROL Connection Timeout in Seconds]**, immettere il numero di secondi di inattività consentiti prima del timeout della connessione.
 
      ![Configurazione generale - Impostazione valuta - Opzioni API Fixer (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
    - _Per connettersi al [[!DNL Currency Convertor API] servizio](https://free.currencyconverterapi.com/):_
 
-      - Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Currency Convertor API]** sezione.
+      - Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Currency Convertor API]**.
 
-      - Inserire il convertitore di valuta **[!UICONTROL API key]**.
+      - Immettere il convertitore di valuta **[!UICONTROL API key]**.
 
-      - Per **[!UICONTROL Connection Timeout in Seconds]**, inserisci il numero di secondi di inattività consentiti prima che la connessione si interrompa.
+      - Per **[!UICONTROL Connection Timeout in Seconds]**, immettere il numero di secondi di inattività consentiti prima del timeout della connessione.
 
      ![Configurazione generale - Impostazione valuta - Opzioni API di Convertitore valuta](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
 ## Passaggio 3: configurare le impostazioni di importazione pianificate
 
-1. Continuando con l&#39;impostazione della valuta, espandere ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Scheduled Import Settings]** sezione.
+1. Continuando con l&#39;installazione della valuta, espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Scheduled Import Settings]**.
 
-   ![Configurazione generale - impostazioni importazione pianificata valuta](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png){width="600" zoomable="yes"}
+   ![Configurazione generale - impostazioni di importazione pianificate per la valuta](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png){width="600" zoomable="yes"}
 
-1. Per aggiornare automaticamente i tassi di cambio, impostare **[!UICONTROL Enabled]** a `Yes`.
+1. Per aggiornare automaticamente i tassi di valuta, impostare **[!UICONTROL Enabled]** su `Yes`.
 
 1. Impostare le opzioni di aggiornamento:
 
@@ -122,19 +122,19 @@ Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambi
 
      Per immettere più indirizzi e-mail, separali con una virgola.
 
-   - **[!UICONTROL Error Email Sender]** — Imposta su [contatto store](../getting-started/store-details.md#store-email-addresses) che viene visualizzato come mittente della notifica di errore.
+   - **[!UICONTROL Error Email Sender]** - Imposta il [contatto archivio](../getting-started/store-details.md#store-email-addresses) che viene visualizzato come mittente della notifica di errore.
 
-   - **[!UICONTROL Error Email Template]** — Imposta sul modello di e-mail utilizzato per la notifica di errore.
+   - **[!UICONTROL Error Email Template]** — Imposta sul modello di messaggio di posta elettronica utilizzato per la notifica di errore.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
-1. Quando viene richiesto di aggiornare la cache, fare clic su **[!UICONTROL Cache Management]** collega e aggiorna la cache non valida.
+1. Quando viene richiesto di aggiornare la cache, fare clic sul collegamento **[!UICONTROL Cache Management]** e aggiornare la cache non valida.
 
    ![Messaggio di sistema - aggiorna la cache non valida](./assets/msg-cache-management.png){width="600" zoomable="yes"}
 
 ## Passaggio 4: aggiornare i tassi di valuta
 
-I tassi di cambio devono essere aggiornati con i valori correnti prima che diventino effettivi. [Aggiornare le tariffe](currency-update.md) manualmente o per importare automaticamente le tariffe.
+I tassi di cambio devono essere aggiornati con i valori correnti prima che diventino effettivi. [Aggiorna le tariffe](currency-update.md) manualmente o per importarle automaticamente.
 
 ## Passaggio 5: personalizzare i simboli di valuta (facoltativo)
 
@@ -142,20 +142,20 @@ La gestione dei simboli di valuta consente di personalizzare il simbolo associat
 
 ![Simboli di valuta](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
 
-   Ogni valuta abilitata per il tuo archivio viene visualizzata nel _[!UICONTROL Currency]_elenco.
+   Ogni valuta abilitata per l&#39;archivio viene visualizzata nell&#39;elenco _[!UICONTROL Currency]_.
 
 1. Modificare le impostazioni nell&#39;elenco in base alle esigenze:
 
-   - Immettere un simbolo personalizzato per ogni valuta che si desidera utilizzare oppure selezionare **[!UICONTROL Use Standard]** casella di controllo per ciascuna valuta.
+   - Immettere un simbolo personalizzato per ogni valuta che si desidera utilizzare oppure selezionare la casella di controllo **[!UICONTROL Use Standard]** per ogni valuta.
 
-   - Per ignorare il simbolo di default, deselezionate _[!UICONTROL Use Standard]_e immettere il simbolo che si desidera utilizzare.
+   - Per ignorare il simbolo predefinito, deselezionare la casella di controllo _[!UICONTROL Use Standard]_e immettere il simbolo che si desidera utilizzare.
 
    >[!NOTE]
    >
    >Non è possibile modificare l&#39;allineamento del simbolo di valuta da sinistra a destra.
 
-1. Al termine, fai clic su **[!UICONTROL Save Currency Symbols]**.
+1. Al termine, fare clic su **[!UICONTROL Save Currency Symbols]**.
 
-1. Quando viene richiesto di aggiornare la cache, fare clic su **[!UICONTROL Cache Management]** collega e aggiorna eventuali cache non valide.
+1. Quando viene richiesto di aggiornare la cache, fare clic sul collegamento **[!UICONTROL Cache Management]** e aggiornare la cache non valida.

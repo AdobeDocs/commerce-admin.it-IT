@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] dell'amministratore di Commerce.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -23,7 +23,7 @@ ht-degree: 2%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Visualizzazione store | Determina la frequenza con cui le categorie della mappa del sito vengono aggiornate. Opzioni: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Visualizzazione store | Un valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti di sitemap di categoria in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
+| [!UICONTROL Priority] | Visualizzazione store | Valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti di sitemap di categoria in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
 
 {style="table-layout:auto"}
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Visualizzazione store | Determina la frequenza con cui i prodotti sitemap vengono aggiornati. Opzioni: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Visualizzazione store | Un valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti di sitemap del prodotto in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
+| [!UICONTROL Priority] | Visualizzazione store | Valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti di sitemap del prodotto in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
 | [!UICONTROL Add Images into Sitemap] | Visualizzazione store | Determina il livello di inclusione delle immagini nella sitemap. Opzioni: `None` / `Base Only` / `All` |
 
 {style="table-layout:auto"}
@@ -50,7 +50,7 @@ ht-degree: 2%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Visualizzazione store | Determina la frequenza con cui vengono aggiornate le pagine CMS di sitemap. Opzioni: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Visualizzazione store | Un valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti della mappa del sito della pagina CMS in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
+| [!UICONTROL Priority] | Visualizzazione store | Valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti della mappa del sito della pagina CMS in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
 
 {style="table-layout:auto"}
 
@@ -59,13 +59,13 @@ ht-degree: 2%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Visualizzazione store | Determina la frequenza con cui vengono aggiornati gli URL dei negozi. Opzioni: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Visualizzazione store | Un valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti dell’URL del punto vendita in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
+| [!UICONTROL Priority] | Visualizzazione store | Valore compreso tra `0.0` e `1.0` che determina la priorità degli aggiornamenti dell&#39;URL dell&#39;archivio in relazione ad altri contenuti. Zero (`0.0`) ha la priorità più bassa. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Generation Settings]
 
-![Impostazioni di generazione](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
+![Impostazioni generazione](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
 <!-- [Generation Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 

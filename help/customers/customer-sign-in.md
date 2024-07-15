@@ -12,75 +12,75 @@ ht-degree: 0%
 
 # Accesso cliente
 
-I clienti possono accedere facilmente ai propri account da ogni pagina del tuo negozio. A seconda della [configurazione](../customers/account-options-new.md), i clienti possono essere reindirizzati al dashboard del proprio account o continuare a fare acquisti dopo aver effettuato l’accesso ai propri account.
+I clienti possono accedere facilmente ai propri account da ogni pagina del tuo negozio. A seconda della [configurazione](../customers/account-options-new.md), i clienti possono essere reindirizzati al dashboard dell&#39;account o continuare a fare acquisti dopo aver effettuato l&#39;accesso ai loro account.
 
-Se [CAPTCHA](../systems/security-captcha.md) è abilitato nella configurazione, la persona deve completare correttamente un test che li verifica come esseri umani, prima di ottenere l’accesso ai propri account.
+Se [CAPTCHA](../systems/security-captcha.md) è abilitato nella configurazione, la persona deve completare correttamente un test che ne verifichi la presenza come utente umano prima di poter accedere ai propri account.
 
-Quando i clienti dimenticano le password, viene inviato un collegamento di reimpostazione all’indirizzo e-mail associato all’account. Il [Opzioni password](../customers/password-options.md) la configurazione controlla l’esperienza del cliente per i tentativi di accesso:
+Quando i clienti dimenticano le password, viene inviato un collegamento di reimpostazione all’indirizzo e-mail associato all’account. La configurazione delle [opzioni password](../customers/password-options.md) controlla l&#39;esperienza del cliente per i tentativi di accesso:
 
 - Numero di tentativi di immissione di una password da parte di un cliente
 - Numero di minuti tra un tentativo e l&#39;altro
 - Numero totale di tentativi prima che l’account venga bloccato
 - Lunghezza del blocco
 
-![Collegamento di accesso nell’intestazione della vetrina](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
+![Collegamento di accesso nell&#39;intestazione della vetrina](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
 
 ## Accedi a un account cliente
 
-1. Nell’intestazione del negozio, il cliente fa clic su **[!UICONTROL Sign in]**.
+1. Nell&#39;intestazione dello store, il cliente fa clic su **[!UICONTROL Sign in]**.
 
    ![Accesso cliente](assets/login.png){width="700" zoomable="yes"}
 
-1. Inserisce il proprio **[!UICONTROL Email]** indirizzo e **[!UICONTROL Password]**.
+1. Immette l&#39;indirizzo **[!UICONTROL Email]** e **[!UICONTROL Password]**.
 
-1. Clic **[!UICONTROL Sign in]**.
+1. Clic su **[!UICONTROL Sign in]**.
 
    >[!IMPORTANT]
    >
-   >Se non riesce a ricordare la password, il cliente può fare clic su **[!UICONTROL Forgot Your Password?]** e seguire la [istruzioni](../customers/password-reset.md) per reimpostare la password.
+   >Se non riesce a ricordare la password, il cliente può fare clic su **[!UICONTROL Forgot Your Password?]** e seguire le [istruzioni](../customers/password-reset.md) per reimpostare la password.
 
 ## Imposta il reindirizzamento al dashboard account dopo l’accesso del cliente
 
 Puoi configurare il negozio in modo da reindirizzare i clienti al dashboard dell’account dopo che hanno effettuato l’accesso o da farli continuare a fare acquisti.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Customer Configuration]**.
 
-1. Espandi **[!UICONTROL Login Options]** sezione.
+1. Espandere la sezione **[!UICONTROL Login Options]**.
 
-1. Imposta **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** su uno dei seguenti:
 
-   - `Yes` - La dashboard dell’account viene visualizzata quando i clienti accedono ai propri account.
-   - `No` - I clienti possono continuare a fare acquisti dopo aver effettuato l’accesso al proprio account.
+   - `Yes` - Il dashboard account viene visualizzato quando i clienti accedono ai propri account.
+   - `No` - I clienti possono continuare a fare acquisti dopo aver effettuato l&#39;accesso ai loro account.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 ## Accedi con Amazon
 
-Per i negozi con [!DNL Amazon Pay] e [!DNL Login with Amazon] integrazione, i clienti possono accedere al proprio account buyer di Amazon.
+Per i negozi con un&#39;integrazione configurata di [!DNL Amazon Pay] e [!DNL Login with Amazon], i clienti possono accedere al proprio account buyer di Amazon.
 
-1. Nell’intestazione del negozio, il cliente fa clic su **[!UICONTROL Sign in]**.
+1. Nell&#39;intestazione dello store, il cliente fa clic su **[!UICONTROL Sign in]**.
 
-1. Clic **[!UICONTROL Login with Amazon]**.
+1. Clic su **[!UICONTROL Login with Amazon]**.
 
-   ![Accedi con Amazon](assets/amazon-pay.png){width="700" zoomable="yes"}
+   ![Accesso con Amazon](assets/amazon-pay.png){width="700" zoomable="yes"}
 
-1. Quando gli viene richiesto di effettuare l’accesso, il cliente immette **[!UICONTROL email address]** e **[!UICONTROL password]** per il proprio account acquirente Amazon.
+1. Quando viene richiesto di effettuare l&#39;accesso, il cliente immette **[!UICONTROL email address]** e **[!UICONTROL password]** per il proprio account buyer di Amazon.
 
    ![Immissione delle credenziali di Amazon](assets/amazon-popup1.png){width="700" zoomable="yes"}
 
-1. Per concedere ad Amazon l’autorizzazione a condividere le seguenti informazioni dal proprio account con lo store durante l’elaborazione degli acquisti, fai clic su **Ok**.
+1. Per concedere ad Amazon l&#39;autorizzazione a condividere le seguenti informazioni dal proprio account con lo store durante l&#39;elaborazione degli acquisti, fai clic su **OK**.
 
    - Nome
    - Indirizzo e-mail
    - Indirizzi di spedizione
 
-   ![Concedere l’autorizzazione per condividere i dati](assets/amazon-popup2.png){width="700" zoomable="yes"}
+   ![Concedi l&#39;autorizzazione per la condivisione dei dati](assets/amazon-popup2.png){width="700" zoomable="yes"}
 
 ## Esci da un account cliente
 
-1. Nell’angolo in alto a destra accanto a  _[!UICONTROL Welcome, Customer Name!]_, il cliente fa clic su **[!UICONTROL v]**selettore di menu.
+1. Nell&#39;angolo superiore destro accanto a _[!UICONTROL Welcome, Customer Name!]_, il cliente fa clic sul selettore di menu **[!UICONTROL v]**.
 
 1. Scegli **[!UICONTROL Sign Out]**.
 

@@ -1,6 +1,6 @@
 ---
 title: Gestione ordini vetrina
-description: Scopri come i clienti possono visualizzare e gestire la cronologia degli ordini nella vetrina Commerce.
+description: Scopri come i clienti possono visualizzare e gestire la cronologia degli ordini sullo storefront Commerce.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
 source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
@@ -18,7 +18,7 @@ I clienti hanno accesso a tutti i loro ordini dal loro account. Gli ordini posso
 
 {{b2b-feature}}
 
-Il tuo iniziale _[!UICONTROL My Orders]_i risultati contengono anche ordini corrispondenti da parte di utenti subordinati di tutti i siti web all’interno dell’istanza di commerce. Un cliente associato a un account società può filtrare l&#39;elenco degli ordini per trovare rapidamente i record all&#39;interno dei risultati. Per visualizzare le opzioni del filtro, il cliente fa clic su **[!UICONTROL Filter]**, e clic **[!UICONTROL Close]**per nascondere i filtri.
+I risultati iniziali di _[!UICONTROL My Orders]_contengono anche ordini corrispondenti di utenti subordinati da tutti i siti Web all&#39;interno dell&#39;istanza di Commerce. Un cliente associato a un account società può filtrare l&#39;elenco degli ordini per trovare rapidamente i record all&#39;interno dei risultati. Per visualizzare le opzioni di filtro, il cliente fa clic su **[!UICONTROL Filter]**e fa clic su **[!UICONTROL Close]**per nascondere i filtri.
 
 ![I miei ordini](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -34,25 +34,25 @@ Il tuo iniziale _[!UICONTROL My Orders]_i risultati contengono anche ordini corr
 
 ## Visualizza un ordine
 
-Un cliente trova l’ordine nell’elenco e fa clic su **[!UICONTROL View Order]**. Dall’ordine aperto, possono eseguire una delle seguenti operazioni:
+Un cliente trova l&#39;ordine nell&#39;elenco e fa clic su **[!UICONTROL View Order]**. Dall’ordine aperto, possono eseguire una delle seguenti operazioni:
 
 ![Visualizza ordine](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
 
 ### Visualizza prodotti ordinati di recente
 
-Il **[!UICONTROL Recent Orders]** viene visualizzato nella barra laterale e sul **[!UICONTROL My Account]** pagina per i clienti che hanno effettuato l’accesso dopo aver effettuato un ordine. Vengono visualizzati cinque prodotti dell’ultimo acquisto.
+Il blocco **[!UICONTROL Recent Orders]** viene visualizzato nella barra laterale e nella pagina **[!UICONTROL My Account]** per i clienti che hanno effettuato l&#39;accesso dopo aver effettuato un ordine. Vengono visualizzati cinque prodotti dell’ultimo acquisto.
 
-Il cliente può leggere i prodotti nel carrello selezionando i prodotti e facendo clic su **[!UICONTROL Add to Cart]**. È inoltre possibile visualizzare l&#39;ultimo ordine facendo clic su **[!UICONTROL View all]**, che reindirizza al _[!UICONTROL My Account]_pagina e **[!UICONTROL Recent Orders]**blocco.
+Il cliente può leggere i prodotti nel carrello selezionando i prodotti e facendo clic su **[!UICONTROL Add to Cart]**. È inoltre possibile visualizzare l&#39;ultimo ordine facendo clic su **[!UICONTROL View all]**, che reindirizza alla pagina _[!UICONTROL My Account]_e al blocco **[!UICONTROL Recent Orders]**.
 
 ### Ordine di stampa
 
-1. Il cliente fa clic **[!UICONTROL Print Order]**.
+1. Il cliente fa clic su **[!UICONTROL Print Order]**.
 
 1. Per completare la stampa, seguire le istruzioni della finestra di dialogo Stampa.
 
 ### Stampa fatture
 
-1. Il giorno **[!UICONTROL Invoices]** , il cliente fa clic su una delle seguenti opzioni:
+1. Nella scheda **[!UICONTROL Invoices]**, il cliente fa clic su una delle opzioni seguenti:
 
    - **[!UICONTROL Print All Invoices]**
 
@@ -64,7 +64,7 @@ Il cliente può leggere i prodotti nel carrello selezionando i prodotti e facend
 
 ### Stampa spedizioni
 
-1. Il giorno **[!UICONTROL Order Shipments]** , il cliente fa clic su una delle seguenti opzioni:
+1. Nella scheda **[!UICONTROL Order Shipments]**, il cliente fa clic su una delle opzioni seguenti:
 
    - **[!UICONTROL Print All Shipments]**
 
@@ -76,7 +76,7 @@ Il cliente può leggere i prodotti nel carrello selezionando i prodotti e facend
 
 ### Tracciare una spedizione
 
-1. Il giorno **[!UICONTROL Order Shipments]** , fare clic su **[!UICONTROL Track this Shipment]**.
+1. Nella scheda **[!UICONTROL Order Shipments]**, fare clic su **[!UICONTROL Track this Shipment]**.
 
    Tutte le informazioni di tracciamento disponibili vengono visualizzate in una finestra popup.
 
@@ -84,17 +84,17 @@ Il cliente può leggere i prodotti nel carrello selezionando i prodotti e facend
 
 ### Stampa rimborsi
 
-1. Il giorno **Rimborsi** , il cliente fa clic su una delle seguenti opzioni:
+1. Nella scheda **Rimborsi**, il cliente fa clic su una delle opzioni seguenti:
 
    - **Stampa tutti i rimborsi**
 
-   - **Stampa rimborso**
+   - **Rimborso per la stampa**
 
    ![Rimborsi](./assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
 1. Utilizza la finestra di dialogo Stampa per completare la stampa.
 
-I riordini sono disponibili per i clienti quando [_Consenti riordino_](reorders-allow.md) l&#39;opzione di configurazione è abilitata.
+I reordini sono disponibili per i clienti quando l&#39;opzione di configurazione [_Consenti riordino_](reorders-allow.md) è abilitata.
 
 Un cliente può avviare la funzionalità di riordino per un ordine specifico da due pagine:
 
@@ -103,9 +103,9 @@ Un cliente può avviare la funzionalità di riordino per un ordine specifico da 
 
 ## Riordini
 
-Il _[!UICONTROL Reorder]_viene visualizzato nell’elenco con gli ordini vicini al_[!UICONTROL View]_ collegamento.
+Il collegamento _[!UICONTROL Reorder]_viene visualizzato nell&#39;elenco con gli ordini vicini al collegamento_[!UICONTROL View]_.
 
-![Collegamento Riordina nella pagina Il mio ordine](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
+![Riordina collegamento nella pagina Il mio ordine](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
 **Caso 1.** Tutti i prodotti dell&#39;ordine sono disponibili per il riordino
 
@@ -117,17 +117,17 @@ Il cliente viene reindirizzato al carrello e tutti i prodotti vengono aggiunti a
 >
 >È possibile riordinare `Not Visible Individually` prodotti.
 
-Il _[!UICONTROL Reorder]_il collegamento non viene visualizzato sul_[!UICONTROL My Orders]_ e _[!UICONTROL View Order]_pagine.
+Il collegamento _[!UICONTROL Reorder]_non viene visualizzato nelle pagine_[!UICONTROL My Orders]_ e _[!UICONTROL View Order]_.
 
-![Pagina Il mio ordine](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
+![Pagina ordine](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->Se il carrello non è vuoto e il cliente fa clic **[!UICONTROL Reorder]** (dal [!UICONTROL My Orders] o [!UICONTROL Order View] ), i prodotti esistenti rimangono nel carrello con i prodotti di riordino aggiunti.
+>Se il carrello non è vuoto e il cliente fa clic su **[!UICONTROL Reorder]** (dalla pagina [!UICONTROL My Orders] o [!UICONTROL Order View]), i prodotti esistenti rimangono nel carrello con i prodotti di riordino aggiunti.
 
 ## Annulla ordini
 
-L’opzione Annulla è disponibile per i clienti quando [_Consenti annullamento_](cancel-allow.md) l&#39;opzione di configurazione è abilitata.
+L&#39;opzione Annulla è disponibile per i clienti quando è abilitata l&#39;opzione di configurazione [_Consenti annullamento_](cancel-allow.md).
 
 Il cliente può avviare la funzionalità di annullamento per un ordine specifico da tre pagine:
 
@@ -135,25 +135,25 @@ Il cliente può avviare la funzionalità di annullamento per un ordine specifico
 - Pagina Vista ordine
 - Pagina Il mio account
 
-Il _[!UICONTROL Cancel Order]_viene visualizzato accanto al_[!UICONTROL Reorder]_ collegamento. Se non è possibile annullare l’ordine, il collegamento non viene visualizzato.
+Il collegamento _[!UICONTROL Cancel Order]_viene visualizzato accanto al collegamento_[!UICONTROL Reorder]_. Se non è possibile annullare l’ordine, il collegamento non viene visualizzato.
 
 ![Collegamento Annulla nella pagina Il mio ordine](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
 Per eseguire l’annullamento, il cliente:
 
-1. Clic **[!UICONTROL Cancel Order]**
+1. Clic su **[!UICONTROL Cancel Order]**
 
 1. Fornisce un motivo di annullamento
 
    ![Annulla motivi ordine](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
 
-   Puoi personalizzare i motivi dell’annullamento in [_Consenti annullamento_](cancel-allow.md) pagina.
+   È possibile personalizzare i motivi di annullamento nella pagina [_Consenti annullamento_](cancel-allow.md).
 
-1. Clic **[!UICONTROL Confirm]**
+1. Clic su **[!UICONTROL Confirm]**
 
    ![Annulla nella pagina Il mio ordine](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Dopo l’annullamento, gli ordini in _[!UICONTROL Pending]_stato, modifica in_[!UICONTROL Canceled]_ stato, gli ordini che erano in _[!UICONTROL Processing]_stato, modifica in_[!UICONTROL Closed]_ e un rimborso.
+   Dopo l&#39;annullamento, verranno elaborati gli ordini con stato _[!UICONTROL Pending]_, lo stato_[!UICONTROL Canceled]_, gli ordini con stato _[!UICONTROL Processing]_, lo stato_[!UICONTROL Closed]_ e un rimborso.
 
    Al termine dell’annullamento, viene inviata un’e-mail al cliente.
 
@@ -167,8 +167,8 @@ Per eseguire l’annullamento, il cliente:
 
    Se per qualche motivo l’ordine è cambiato in uno stato che non può essere annullato e il cliente non ha aggiornato la pagina, viene comunque visualizzato il collegamento per annullare l’ordine. Tuttavia, quando tenta di annullare, viene visualizzato un messaggio di errore.
 
-   ![Messaggio di errore Annulla ordine](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+   ![Messaggio di errore per annullamento ordine](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
 
    Dopo aver aggiornato la pagina, puoi vedere che l’ordine era già stato completato ed è per questo che l’annullamento non ha funzionato.
 
-   ![Annulla ordine dopo l&#39;aggiornamento](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}
+   ![Annulla ordine dopo aggiornamento](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

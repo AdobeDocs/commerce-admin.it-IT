@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Gli aggiornamenti per categoria possono essere applicati secondo programma e raggruppati con altre modifiche al contenuto. Puoi creare una campagna in base alle modifiche pianificate per la categoria o applicare le modifiche a una campagna esistente. Per ulteriori informazioni, consulta [Staging dei contenuti](../content-design/content-staging.md).
+Gli aggiornamenti per categoria possono essere applicati secondo programma e raggruppati con altre modifiche al contenuto. Puoi creare una campagna in base alle modifiche pianificate per la categoria o applicare le modifiche a una campagna esistente. Per ulteriori informazioni, consulta [Gestione temporanea dei contenuti](../content-design/content-staging.md).
 
 >[!NOTE]
 >
->Il [!UICONTROL Schedule Design Update] è stata rimossa in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente nella categoria. Devi creare un aggiornamento pianificato per queste attivazioni.
+>La scheda [!UICONTROL Schedule Design Update] è stata rimossa in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non può essere modificata direttamente nella categoria. Devi creare un aggiornamento pianificato per queste attivazioni.
 
 >[!NOTE]
 >
@@ -26,46 +26,46 @@ Gli aggiornamenti per categoria possono essere applicati secondo programma e rag
 
 ## Pianificare un aggiornamento per una categoria
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Nell&#39;albero delle categorie a sinistra, scegliere la categoria da modificare.
 
-1. In _Modifiche pianificate_ nella parte superiore della pagina, fai clic su **[!UICONTROL Schedule New Update]**.
+1. Nella casella _Modifiche pianificate_ nella parte superiore della pagina, fare clic su **[!UICONTROL Schedule New Update]**.
 
    ![Modifiche pianificate](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
 
-1. Con il **[!UICONTROL Save as a New Update]** opzione selezionata, imposta i parametri di base per l&#39;aggiornamento:
+1. Con l&#39;opzione **[!UICONTROL Save as a New Update]** selezionata, impostare i parametri di base per l&#39;aggiornamento:
 
-   - Per **[!UICONTROL Update Name]**, immetti un nome per la nuova campagna di staging dei contenuti.
+   - Per **[!UICONTROL Update Name]**, immettere un nome per la nuova campagna di gestione temporanea del contenuto.
 
-   - Inserisci una descrizione **[!UICONTROL Description]** dell’aggiornamento e come deve essere utilizzato.
+   - Immetti una breve **[!UICONTROL Description]** dell&#39;aggiornamento e come deve essere utilizzato.
 
-   - Utilizza il calendario ( ![Icona Calendario](../assets/icon-calendar.png) ) per scegliere il **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** per la campagna.
+   - Utilizzare lo strumento Calendario ( ![icona Calendario](../assets/icon-calendar.png) ) per scegliere **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** per la campagna.
 
    >[!IMPORTANT]
    >
-   >Campagna **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** deve essere definito utilizzando **_predefinito_** Fuso orario amministratore, convertito dal fuso orario locale di ciascun sito Web. Ad esempio, con più siti web in fusi orari diversi in cui desideri avviare una campagna basata su un fuso orario USA, devi pianificare un aggiornamento separato per ogni fuso orario locale. È possibile impostare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** per ogni, che viene convertito dal fuso orario del sito web locale al fuso orario predefinito dell’amministratore.
+   >Le campagne **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** devono essere definite utilizzando il fuso orario di amministrazione **_default_**, che viene convertito dal fuso orario locale di ciascun sito Web. Ad esempio, con più siti web in fusi orari diversi in cui desideri avviare una campagna basata su un fuso orario USA, devi pianificare un aggiornamento separato per ogni fuso orario locale. È possibile impostare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** per ciascuno di essi, che viene convertito dal fuso orario del sito Web locale al fuso orario predefinito dell&#39;amministratore.
 
    ![Modifiche pianificate](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
 
 1. Apporta le modifiche necessarie all’aggiornamento pianificato.
 
-1. Per visualizzare in anteprima le modifiche, fai clic su **[!UICONTROL Preview]** nella barra dei pulsanti in alto a destra.
+1. Per visualizzare l&#39;anteprima delle modifiche, fare clic su **[!UICONTROL Preview]** nella barra dei pulsanti in alto a destra.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
 ## Assegna a un aggiornamento esistente
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Nell&#39;albero delle categorie a sinistra, scegliere la categoria da modificare.
 
-1. In _Modifiche pianificate_ nella parte superiore della pagina, fai clic su **[!UICONTROL Schedule New Update]**.
+1. Nella casella _Modifiche pianificate_ nella parte superiore della pagina, fare clic su **[!UICONTROL Schedule New Update]**.
 
-1. Seleziona **[!UICONTROL Assign to Existing Campaign]**.
+1. Selezionare **[!UICONTROL Assign to Existing Campaign]**.
 
-1. Nell’elenco, individua la campagna necessaria e fai clic su **[!UICONTROL Select]**.
+1. Nell&#39;elenco trovare la campagna necessaria e fare clic su **[!UICONTROL Select]**.
 
 1. Apporta le modifiche necessarie all’aggiornamento pianificato.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.

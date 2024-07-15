@@ -13,40 +13,40 @@ ht-degree: 0%
 
 Pianifica in anticipo le modifiche alla progettazione del tema in modo che diventino effettive in base ai cicli di business e agli eventi. Puoi utilizzare le modifiche di progettazione pianificate per modifiche stagionali, promozioni o solo per aggiungere varianti.
 
-![Modifiche di progettazione pianificate](./assets/design-schedule.png){width="700" zoomable="yes"}
+![Modifiche progettuali pianificate](./assets/design-schedule.png){width="700" zoomable="yes"}
 
 ## Aggiungi una modifica di progettazione pianificata
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
-1. Clic **[!UICONTROL Add Design Change]**.
+1. Fare clic su **[!UICONTROL Add Design Change]**.
 
-   ![Nuove impostazioni di modifica della struttura del negozio](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
+   ![Impostazioni di modifica della struttura del nuovo archivio](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
-1. Imposta **[!UICONTROL Store]** nella visualizzazione punto vendita in cui si desidera applicare le modifiche.
+1. Impostare **[!UICONTROL Store]** sulla visualizzazione archivio in cui si desidera applicare le modifiche.
 
-1. Imposta **[!UICONTROL Custom Design]** al tema o alla variante di un tema da utilizzare.
+1. Impostare **[!UICONTROL Custom Design]** sul tema o sulla variante di un tema da utilizzare.
 
-1. Per **[!UICONTROL Date From]** e **[!UICONTROL Date To]**, fare clic su _Calendario_ (![Icona Calendario](../assets/icon-calendar.png)) per scegliere i valori di inizio e fine per il periodo in cui è in vigore la modifica.
+1. Per **[!UICONTROL Date From]** e **[!UICONTROL Date To]**, fai clic sull&#39;icona _Calendario_ (![Icona Calendario](../assets/icon-calendar.png)) per scegliere i valori iniziale e finale per il periodo in cui è in vigore la modifica.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
 ## Modifica modifica progettazione pianificata
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Seleziona l’elemento da modificare.
 
 1. Apporta le modifiche necessarie.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
 ## Elimina modifica di progettazione pianificata
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Selezionare l&#39;elemento da eliminare.
 
-1. Nella barra dei pulsanti nella parte superiore della pagina, fai clic su **[!UICONTROL Delete]**.
+1. Nella barra dei pulsanti nella parte superiore della pagina, fare clic su **[!UICONTROL Delete]**.
 
-1. Per confermare l’azione, fai clic su **[!UICONTROL OK]**.
+1. Per confermare l&#39;azione, fare clic su **[!UICONTROL OK]**.

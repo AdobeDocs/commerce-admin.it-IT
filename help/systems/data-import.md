@@ -44,7 +44,7 @@ Se un attributo specificato nel file di importazione esiste e il relativo valore
 ### File non validi
 
 - Impossibile importare un file se tutte le righe non sono valide.
-- Nel file di importazione viene specificato un nome di dati complesso o di dati di servizio non esistenti, ad esempio una colonna con `_<non-existing name>` intestazione.
+- Nel file di importazione è specificato un nome di dati complesso o di dati di servizio non esistenti, ad esempio una colonna con un&#39;intestazione `_<non-existing name>`.
 
 Il processo di importazione di Adobe Commerce potrebbe non riconoscere correttamente i file codificati in UTF-8 che utilizzano un Byte Order Mark (BOM). I file contenenti una distinta base possono causare problemi o errori durante il processo di importazione.
 
@@ -52,17 +52,17 @@ Il processo di importazione di Adobe Commerce potrebbe non riconoscere correttam
 
 | Operazione | Descrizione |
 | --------- | ----------- |
-| Aggiungi/aggiorna | I nuovi dati di prodotto vengono aggiunti ai dati di prodotto esistenti per le voci esistenti nel database. Tutti i campi tranne `sku` possono essere aggiornate.<br><br>Le nuove classi di imposta specificate nei dati di importazione vengono create automaticamente.<br><br>Le nuove categorie di prodotti specificate nel file di importazione vengono create automaticamente.<br><br>I nuovi SKU specificati nel file di importazione vengono creati automaticamente <br><br>**_Nota:_**Per i prodotti, puoi aggiornare tutti i campi eccetto SKU tramite importazione.<br><br>**_Importante:_** Non è possibile rimuovere più valori di campo, ad esempio siti Web o categorie, utilizzando _Aggiungi/aggiorna_ comportamento di importazione. Questi campi rimangono nel database dopo l’importazione se non sono elencati nel file CSV. |
-| Sostituisci | I dati di prodotto esistenti vengono sostituiti con nuovi dati.<br><br>**_Importante:_**Presta attenzione quando sostituisci i dati perché i dati del prodotto esistenti vengono cancellati e tutti i riferimenti nel sistema vengono persi.<br><br>Se uno SKU nei dati di importazione corrisponde allo SKU di un’entità esistente, tutti i campi, incluso lo SKU, vengono eliminati e viene creato un nuovo record utilizzando i dati CSV. Si verifica un errore se il file CSV fa riferimento a uno SKU che non esiste nel database. È possibile controllare i dati per visualizzare l&#39;errore. |
-| Elimina | Tutte le entità presenti nel database vengono eliminate dal database.<br><br>Elimina ignora tutte le colonne nei dati di importazione, ad eccezione di SKU. È possibile ignorare tutti gli altri attributi nei dati.<br><br>Si verifica un errore se il file CSV fa riferimento a uno SKU che non esiste nel database. È possibile controllare i dati per visualizzare l&#39;errore. |
+| Aggiungi/aggiorna | I nuovi dati di prodotto vengono aggiunti ai dati di prodotto esistenti per le voci esistenti nel database. È possibile aggiornare tutti i campi eccetto `sku`.<br><br>Le nuove classi di imposta specificate nei dati di importazione vengono create automaticamente.<br><br>Le nuove categorie di prodotti specificate nel file di importazione vengono create automaticamente.<br><br>I nuovi SKU specificati nel file di importazione vengono creati automaticamente <br><br>**_Nota:_**Per i prodotti, è possibile aggiornare tutti i campi eccetto SKU tramite l&#39;importazione.<br><br>**_Importante:_** Non è possibile rimuovere più valori di campo, ad esempio siti Web o categorie, utilizzando il comportamento di importazione _Aggiungi/Aggiorna_. Questi campi rimangono nel database dopo l’importazione se non sono elencati nel file CSV. |
+| Sostituisci | I dati di prodotto esistenti vengono sostituiti con nuovi dati.<br><br>**_Importante:_**prestare attenzione durante la sostituzione dei dati perché i dati del prodotto esistenti vengono cancellati e tutti i riferimenti nel sistema vengono persi.<br><br>Se uno SKU nei dati di importazione corrisponde allo SKU di un&#39;entità esistente, tutti i campi, incluso lo SKU, vengono eliminati e viene creato un nuovo record utilizzando i dati CSV. Si verifica un errore se il file CSV fa riferimento a uno SKU che non esiste nel database. È possibile controllare i dati per visualizzare l&#39;errore. |
+| Elimina | Tutte le entità presenti nel database vengono eliminate dal database.<br><br>L&#39;eliminazione ignora tutte le colonne nei dati di importazione, ad eccezione dello SKU. È possibile ignorare tutti gli altri attributi nei dati.<br><br>Si verifica un errore se il file CSV fa riferimento a uno SKU che non esiste nel database. È possibile controllare i dati per visualizzare l&#39;errore. |
 
 {style="table-layout:auto"}
 
 ## Processo di importazione
 
-La dimensione del file di importazione è determinata dalle impostazioni in `php.ini` sul server. Il messaggio di sistema sul _Importa_ indica il limite di dimensione corrente. La dimensione predefinita è 2 MB.
+La dimensione del file di importazione è determinata dalle impostazioni nel file `php.ini` sul server. Il messaggio di sistema nella pagina _Importa_ indica il limite di dimensioni corrente. La dimensione predefinita è 2 MB.
 
-I caratteri speciali (come il segno di uguale, i simboli maggiore e minore di, le virgolette singole e doppie, la barra rovesciata, la barra verticale e i simboli della e commerciale) possono causare problemi durante il trasferimento dei dati. Per garantire la corretta interpretazione di tali caratteri speciali, è possibile contrassegnarli come _sequenza di escape_. Ad esempio, se i dati includono una stringa di testo come `code="str"`, `code="str2"`, la scelta di racchiudere il testo tra virgolette doppie assicura che le virgolette doppie originali siano considerate parte dei dati. Quando il sistema rileva una doppia serie di virgolette doppie, è possibile comprendere che il set esterno di virgolette doppie racchiude i dati effettivi.
+I caratteri speciali (come il segno di uguale, i simboli maggiore e minore di, le virgolette singole e doppie, la barra rovesciata, la barra verticale e i simboli della e commerciale) possono causare problemi durante il trasferimento dei dati. Per garantire la corretta interpretazione di tali caratteri speciali, è possibile contrassegnarli come _sequenza di escape_. Se ad esempio i dati includono una stringa di testo come `code="str"`, `code="str2"`, la scelta di racchiudere il testo tra virgolette garantisce che le virgolette doppie originali siano considerate parte dei dati. Quando il sistema rileva una doppia serie di virgolette doppie, è possibile comprendere che il set esterno di virgolette doppie racchiude i dati effettivi.
 
 Durante l’importazione dei dati di prodotto, i nuovi dati di prodotto vengono aggiunti alle voci di dati di prodotto esistenti nel database. Tutti i campi ad eccezione di SKU possono essere aggiornati tramite l’importazione. Tutti i dati di prodotto esistenti vengono sostituiti con i nuovi dati importati. Presta attenzione durante la sostituzione dei dati. Tutti i dati di prodotto esistenti vengono cancellati e tutti i riferimenti nel sistema vengono persi.
 
@@ -70,9 +70,9 @@ Durante l’importazione dei dati di prodotto, i nuovi dati di prodotto vengono 
 
 ### Passaggio 1: preparare i dati
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Sotto _Importa impostazioni_, impostato **[!UICONTROL Entity Type]** a uno dei seguenti elementi:
+1. In _Impostazioni importazione_, impostare **[!UICONTROL Entity Type]** su una delle opzioni seguenti:
 
    - `Advanced Pricing`
    - `Products`
@@ -82,7 +82,7 @@ Durante l’importazione dei dati di prodotto, i nuovi dati di prodotto vengono 
    - `Customer Addresses`
    - `Stock Sources`
 
-1. Clic **[!UICONTROL Download Sample File]**.
+1. Fare clic su **[!UICONTROL Download Sample File]**.
 
 1. Individua il file di esportazione nel percorso di download per il browser Web e apri il file.
 
@@ -94,21 +94,21 @@ Durante l’importazione dei dati di prodotto, i nuovi dati di prodotto vengono 
 
 1. Verifica che la dimensione del file di importazione non superi il limite mostrato nel messaggio.
 
-   ![Notifica dimensione importazione dati](./assets/data-import-size-notification.png){width="600"}
+   ![Notifica dimensioni importazione dati](./assets/data-import-size-notification.png){width="600"}
 
 1. Se i dati di importazione includono percorsi di immagini di prodotto, accertati che i file di immagine siano stati caricati nella posizione appropriata.
 
-   Il percorso predefinito sul server Commerce è: `pub/media/import`.
+   Il percorso predefinito nel server Commerce è: `pub/media/import`.
 
    Se le immagini risiedono su un server esterno, assicurati di disporre dell’URL completo della directory che le contiene.
 
 ### Passaggio 2: scegliere il comportamento di importazione
 
-![Comportamento di importazione dei dati](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
+![Comportamento importazione dati](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
 
-1. Imposta **[!UICONTROL Import Behavior]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Import Behavior]** su uno dei seguenti:
 
-   - `Add/Update` Per i prodotti, è possibile aggiornare tutti i campi eccetto SKU tramite l’importazione.
+   - `Add/Update` (per i prodotti, è possibile aggiornare tutti i campi eccetto SKU tramite l&#39;importazione).
    - `Replace`
    - `Delete`
 
@@ -121,37 +121,37 @@ Durante l’importazione dei dati di prodotto, i nuovi dati di prodotto vengono 
 
    Il valore predefinito è 10.
 
-1. Accetta il valore predefinito di una virgola (`,`) per **[!UICONTROL Field separator]**.
+1. Accettare il valore predefinito di una virgola (`,`) per **[!UICONTROL Field separator]**.
 
-1. Accetta il valore predefinito di una virgola (`,`) per **[!UICONTROL Multiple value separator]**.
+1. Accettare il valore predefinito di una virgola (`,`) per **[!UICONTROL Multiple value separator]**.
 
    In un file CSV, il separatore predefinito è una virgola. Per utilizzare un carattere diverso, accertati che i dati nel file CSV corrispondano al carattere specificato.
 
-1. Accetta il valore predefinito `_EMPTY_VALUE_` per **[!UICONTROL Empty attribute value constant]**.
+1. Accettare il valore predefinito `_EMPTY_VALUE_` per **[!UICONTROL Empty attribute value constant]**.
 
-1. Se si desidera racchiudere i caratteri speciali eventualmente presenti nei dati come _sequenza di escape_, seleziona la **[!UICONTROL Fields Enclosure]** casella di controllo.
+1. Se si desidera racchiudere i caratteri speciali eventualmente presenti nei dati come _sequenza di escape_, selezionare la casella di controllo **[!UICONTROL Fields Enclosure]**.
 
 ### Passaggio 3: identificare il file di importazione
 
 ![File di importazione dati](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
-1. Clic **[!UICONTROL Choose File]** per selezionare il file da importare.
+1. Fare clic su **[!UICONTROL Choose File]** per selezionare il file da importare.
 
-1. Trova il file CSV che hai preparato per importare e fai clic su **[!UICONTROL Open]**.
+1. Trovare il file CSV che si è preparati a importare e fare clic su **[!UICONTROL Open]**.
 
-1. Per **[!UICONTROL Images File Directory]**, immetti il percorso relativo della posizione sul server Commerce in cui sono memorizzate le immagini caricate.
+1. Per **[!UICONTROL Images File Directory]**, immettere il percorso relativo della posizione sul server Commerce in cui sono archiviate le immagini caricate.
 
-   Ad esempio: `product_images`.
+   Esempio: `product_images`.
 
    >[!NOTE]
    >
-   >Iniziare con Adobe Commerce e Magento Open Source `2.3.2` versione di, il percorso specificato in _[!UICONTROL Images File Directory]_concatena per l&#39;importazione nella directory base immagini: `<Magento-root-folder>/var/import/images`. Ad esempio, inserisci il `product_images` file in `<Magento-root-directory>/var/import/images/product_images` cartella. La directory base delle immagini di importazione può essere configurata in `\Magento\ImportExport\etc\config.xml` file. Se il modulo di archiviazione remota è abilitato, importare i file in `<remote-storage-root-directory>/var/import/images/product_images` cartella.
+   >A partire dalla versione di Adobe Commerce e dal Magento Open Source `2.3.2`, il percorso specificato in _[!UICONTROL Images File Directory]_concatena l&#39;importazione nella directory base delle immagini: `<Magento-root-folder>/var/import/images`. Inserire ad esempio i file `product_images` nella cartella `<Magento-root-directory>/var/import/images/product_images`. La directory base delle immagini di importazione può essere configurata nel file `\Magento\ImportExport\etc\config.xml`. Se il modulo di archiviazione remota è abilitato, importare i file nella cartella `<remote-storage-root-directory>/var/import/images/product_images`.
 
-   Per ulteriori informazioni sull&#39;importazione di immagini del prodotto, consulta [Importare immagini prodotto](data-import-product-images.md).
+   Per ulteriori informazioni sull&#39;importazione di immagini prodotto, vedere [Importare immagini prodotto](data-import-product-images.md).
 
 ### Passaggio 4: controllare i dati di importazione
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Check Data]**.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Check Data]**.
 
 1. Attendere alcuni istanti per il completamento del processo di convalida.
 
@@ -159,7 +159,7 @@ Durante l’importazione dei dati di prodotto, i nuovi dati di prodotto vengono 
 
    ![Messaggio di successo - file valido](./assets/data-import-validation-message.png){width="600"}
 
-1. Se il file è valido, fare clic su **[!UICONTROL Import]**.
+1. Se il file è valido, scegliere **[!UICONTROL Import]**.
 
    In caso contrario, correggere ogni problema relativo ai dati elencati nel messaggio e riprovare a importare il file.
 
@@ -167,23 +167,23 @@ Durante l’importazione dei dati di prodotto, i nuovi dati di prodotto vengono 
 
    Se nei risultati della convalida viene visualizzato un messaggio di errore, correggere il problema nei dati e importare nuovamente il file.
 
-   ![Messaggio di errore: la chiave URL esiste già](./assets/data-import-validation-error-url-key-exists.png){width="600"}
+   ![Messaggio di errore - La chiave URL esiste già](./assets/data-import-validation-error-url-key-exists.png){width="600"}
 
    Al termine dell’importazione viene visualizzato un messaggio.
 
 ## Cronologia importazione
 
-Commerce mantiene un record dei dati importati nell’archivio, inclusi la data e l’ora di inizio, l’utente, il tempo di esecuzione e un collegamento al file importato. Il _Tempo di esecuzione_ è la durata del processo di importazione.
+Commerce mantiene un record dei dati importati nell’archivio, inclusi la data e l’ora di inizio, l’utente, l’ora di esecuzione e un collegamento al file importato. Il _Tempo di esecuzione_ è la durata del processo di importazione.
 
-**_Per visualizzare la cronologia delle importazioni:_**
+**_Per visualizzare la cronologia di importazione:_**
 
-Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**.
+Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**.
 
 ![Cronologia importazione dati](./assets/data-import-history.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Per impostazione predefinita, i file della cronologia di importazione sono `<Magento-root-directory>/var/import_history` cartella. Se il modulo di archiviazione remota è abilitato, i file di cronologia di importazione si trovano nel `<remote-storage-root-directory>/import_export/import_history` cartella.
+>Per impostazione predefinita, i file della cronologia di importazione si trovano nella cartella `<Magento-root-directory>/var/import_history`. Se il modulo di archiviazione remota è abilitato, i file di cronologia di importazione si trovano nella cartella `<remote-storage-root-directory>/import_export/import_history`.
 
 | Campo | Descrizione |
 |--- |--- |
@@ -197,4 +197,4 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UI
 
 {style="table-layout:auto"}
 
-Per scaricare _Importato/Errore_ file, fai clic su **[!UICONTROL Download]**.
+Per scaricare il file _Imported/Error_, scegliere **[!UICONTROL Download]**.

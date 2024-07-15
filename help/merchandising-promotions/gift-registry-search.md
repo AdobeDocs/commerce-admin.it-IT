@@ -6,7 +6,7 @@ feature: Gift, Storefront, Search
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -14,47 +14,47 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-Il [Widget](../content-design/widgets.md) può essere utilizzato per posizionare una casella di ricerca del registro di sistema di regali più ovunque nel tuo negozio. È possibile specificare le opzioni di ricerca disponibili per i clienti, ad esempio nome, indirizzo e-mail e ID registro regali. Quando il cliente fa clic sul pulsante Cerca, i risultati vengono visualizzati nella pagina Ricerca registro regali. Se la ricerca non restituisce alcun risultato, il cliente può riprovare con altri parametri.
+Lo strumento [Widget](../content-design/widgets.md) può essere utilizzato per inserire una casella di ricerca del Registro regali in qualsiasi punto dell&#39;archivio. È possibile specificare le opzioni di ricerca disponibili per i clienti, ad esempio nome, indirizzo e-mail e ID registro regali. Quando il cliente fa clic sul pulsante Cerca, i risultati vengono visualizzati nella pagina Ricerca registro regali. Se la ricerca non restituisce alcun risultato, il cliente può riprovare con altri parametri.
 
-![Esempio di vetrina: ricerca nel registro regali](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
+![Esempio di vetrina - ricerca nel registro regali](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
 
 ## Configurare la ricerca nel Registro di sistema per i regali
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Add Widget]**.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Widget]**.
 
-1. Scegli la **[!UICONTROL Settings]** ed effettuare le seguenti operazioni:
+1. Scegliere la scheda **[!UICONTROL Settings]** ed effettuare le seguenti operazioni:
 
-   - Imposta **[!UICONTROL Type]** a `Gift Registry Search`.
+   - Imposta **[!UICONTROL Type]** su `Gift Registry Search`.
 
-   - Imposta **[!UICONTROL Design Theme]** al tema utilizzato dallo store.
+   - Impostare **[!UICONTROL Design Theme]** sul tema utilizzato dall&#39;archivio.
 
-   - Clic **[!UICONTROL Continue]**.
+   - Fare clic su **[!UICONTROL Continue]**.
 
    ![Registro regali - Impostazioni di ricerca](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. In _[!UICONTROL Storefront Properties]_eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Storefront Properties]_eseguire le operazioni seguenti:
 
-   - Immetti un **[!UICONTROL Widget Title]** per riferimento interno.
+   - Immettere **[!UICONTROL Widget Title]** come riferimento interno.
 
-   - Imposta **[!UICONTROL Assign to Store Views]** alle viste dello store in cui sarà disponibile la Ricerca nel Registro regali.
+   - Impostare **[!UICONTROL Assign to Store Views]** sulle visualizzazioni dello store in cui sarà disponibile la ricerca nel Registro regali.
 
-   - Imposta **[!UICONTROL Sort Order]** per determinare l’ordine di visualizzazione del blocco di ricerca del registro dei regali quando vi sono altri blocchi assegnati alla stessa posizione sulla pagina.
+   - Impostare **[!UICONTROL Sort Order]** per determinare l&#39;ordine di visualizzazione del blocco di ricerca del Registro regali quando sono presenti altri blocchi assegnati alla stessa posizione sulla pagina.
 
    ![Registro regali - proprietà vetrina](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
 
-1. In **[!UICONTROL Layout Updates]** , fare clic su **[!UICONTROL Add Layout Update]**.
+1. Nella sezione **[!UICONTROL Layout Updates]**, fare clic su **[!UICONTROL Add Layout Update]**.
 
 1. Per determinare la posizione in cui viene visualizzata la ricerca nel Registro regali, eseguire le operazioni seguenti:
 
-   - Imposta **[!UICONTROL Display On]** alle pagine del Negozio in cui desideri visualizzare il blocco di ricerca del Registro dei regali.
+   - Imposta **[!UICONTROL Display On]** sulle pagine del tuo archivio in cui vuoi che appaia il blocco di ricerca del Registro dei regali.
 
-   - Se applicabile, scegliere il **[!UICONTROL Categories]** dove desideri che appaia.
+   - Se applicabile, scegliere **[!UICONTROL Categories]** nel punto in cui si desidera visualizzarlo.
 
-   - Imposta **[!UICONTROL Container]** nella posizione sulla pagina per inserire il blocco di ricerca del registro dei regali.
+   - Impostare **[!UICONTROL Container]** sulla posizione nella pagina per inserire il blocco di ricerca del Registro regali.
 
-   ![Registro regali - Aggiornamenti del layout](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
+   ![Registro regali - Aggiornamenti layout](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Widget Options]**.
 
@@ -67,7 +67,7 @@ Il [Widget](../content-design/widgets.md) può essere utilizzato per posizionare
 
    ![Registro regali - opzioni widget](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
 1. Quando viene richiesto di aggiornare la cache delle pagine, fai clic sul collegamento nel messaggio nella parte superiore dell’area di lavoro e segui le istruzioni.
 
@@ -77,7 +77,7 @@ Il [Widget](../content-design/widgets.md) può essere utilizzato per posizionare
 
 | Campo | Descrizione |
 |--- |--- |
-| [!UICONTROL Type] | Identifica `Gift Registry Search` come tipo di Widget. |
+| [!UICONTROL Type] | Identifica `Gift Registry Search` come tipo di widget. |
 | [!UICONTROL Design Theme] | Tema utilizzato dall&#39;archivio in cui verrà visualizzata la ricerca nel Registro regali. |
 
 {style="table-layout:auto"}

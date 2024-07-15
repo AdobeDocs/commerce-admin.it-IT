@@ -14,37 +14,37 @@ ht-degree: 0%
 
 Le informazioni di base sull&#39;account del cliente includono il nome e l&#39;indirizzo e-mail e la password dell&#39;utente, e possono essere gestite dalla dashboard dell&#39;account del cliente nella vetrina.
 
-![Informazioni account sulla vetrina](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
+![Informazioni account nella vetrina](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-Nella barra laterale del tuo account, il cliente può scegliere **[!UICONTROL Account Information]** ed effettuare una delle seguenti operazioni per aggiornare le informazioni relative all&#39;account.
+Nella barra laterale del tuo account, il cliente può scegliere **[!UICONTROL Account Information]** ed effettuare una delle seguenti operazioni per aggiornare le informazioni sul proprio account.
 
 ## Aggiorna il nome dell&#39;account
 
-Per aggiornare il nome del conto, il cliente modifica i valori in **[!UICONTROL First Name]** e **[!UICONTROL Last Name]** campi in base alle esigenze.
+Per aggiornare il nome dell&#39;account, il cliente modifica i valori nei campi **[!UICONTROL First Name]** e **[!UICONTROL Last Name]** in base alle esigenze.
 
 >[!INFO]
 >
->Campi aggiuntivi vengono visualizzati come parte del nome se [configurazione del cliente](../configuration-reference/customers/customer-configuration.md) include un prefisso, l&#39;iniziale centrale e il suffisso.
+>Campi aggiuntivi vengono visualizzati come parte del nome se la [configurazione del cliente](../configuration-reference/customers/customer-configuration.md) include un prefisso, un&#39;iniziale centrale e un suffisso.
 
 ## Cambia indirizzo e-mail
 
-1. Il cliente seleziona il **[!UICONTROL Change Email]** casella di controllo.
+1. Il cliente seleziona la casella di controllo **[!UICONTROL Change Email]**.
 
-1. Inserisce il nuovo **[!UICONTROL Email]** indirizzo.
+1. Immette il nuovo indirizzo **[!UICONTROL Email]**.
 
-1. Inserisce il proprio **[!UICONTROL Current Password]**.
+1. Immette il proprio **[!UICONTROL Current Password]**.
 
    ![Cambia indirizzo e-mail](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
-1. Clic **[!UICONTROL Save]**.
+1. Clic su **[!UICONTROL Save]**.
 
 ## Cambia password
 
-1. Il cliente seleziona il **[!UICONTROL Change Password]** casella di controllo.
+1. Il cliente seleziona la casella di controllo **[!UICONTROL Change Password]**.
 
-1. Inserisce il proprio **[!UICONTROL Current Password]**.
+1. Immette il proprio **[!UICONTROL Current Password]**.
 
-1. Inserisce il proprio **[!UICONTROL New Password]**.
+1. Immette il proprio **[!UICONTROL New Password]**.
 
    >[!INFO]
    >

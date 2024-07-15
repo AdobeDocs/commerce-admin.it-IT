@@ -16,14 +16,14 @@ Esistono molti modi per utilizzare le categorie nascoste. È possibile creare ul
 
 ## Creare categorie nascoste
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Nell&#39;albero delle categorie selezionare la categoria che si desidera nascondere ed eseguire le operazioni seguenti:
 
-   - Imposta **[!UICONTROL Is Active]** a `Yes`.
-   - Imposta **[!UICONTROL Include in Menu]** a `No`.
+   - Imposta **[!UICONTROL Is Active]** su `Yes`.
+   - Imposta **[!UICONTROL Include in Menu]** su `No`.
 
-1. In **[!UICONTROL Display Settings]** sezione, set **[!UICONTROL Anchor]** a `No`.
+1. Nella sezione **[!UICONTROL Display Settings]**, impostare **[!UICONTROL Anchor]** su `No`.
 
    ![Categoria nascosta](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
@@ -35,9 +35,9 @@ Esistono molti modi per utilizzare le categorie nascoste. È possibile creare ul
    >
    >Anche se la categoria è nascosta, puoi creare sottocategorie al di sotto di essa e renderle attive.
 
-   - Imposta **[!UICONTROL Enable Category]** a `Yes`.
-   - In **[!UICONTROL Display Settings]** sezione, set **[!UICONTROL Anchor]** a `Yes`.
+   - Imposta **[!UICONTROL Enable Category]** su `Yes`.
+   - Nella sezione **[!UICONTROL Display Settings]**, impostare **[!UICONTROL Anchor]** su `Yes`.
 
    Come categorie attive, ora è possibile collegarsi ad esse da altre posizioni nel negozio, ma non vengono visualizzate nel menu.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.

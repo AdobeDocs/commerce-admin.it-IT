@@ -1,102 +1,102 @@
 ---
 title: Google AdWords
-description: Scopri come configurare il Commerce Store per il tracciamento delle conversioni di Google AdWords per misurare i clic sugli annunci che causano una vendita o altre azioni di valore.
+description: Scopri come configurare il tuo store di Commerce per il tracciamento delle conversioni di Google AdWords per misurare i clic sugli annunci che portano a una vendita o ad altre azioni di valore.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
 # Google AdWords
 
-[Google AdWords][1] è un servizio che puoi utilizzare per inserire annunci nei risultati di Google Search e sulle pagine delle aziende di Google Display Network. Il dashboard di AdWords include strumenti per gestire le campagne, tracciare le risposte e misurare i risultati.
+[Google AdWords][1] è un servizio che è possibile utilizzare per inserire annunci nei risultati di Google Search e nelle pagine delle aziende della Google Display Network. Il dashboard di AdWords include strumenti per gestire le campagne, tracciare le risposte e misurare i risultati.
 
-Il tracciamento delle conversioni mostra il numero di clic dell’annuncio che hanno portato a una vendita o ad altre azioni di valore. Il _Completato_ la pagina visualizzata al cliente dopo l&#39;invio di un ordine viene utilizzata per tenere traccia delle conversioni, in quanto viene visualizzata solo dopo una vendita. Dopo aver completato la configurazione di Google AdWords per il tuo archivio, non è necessario copiare lo script di tracciamento della conversione nella pagina di successo, perché Commerce dispone già delle informazioni necessarie. Per ulteriori informazioni, consulta [Guida di Google AdWords][2].
+Il tracciamento delle conversioni mostra il numero di clic dell’annuncio che hanno portato a una vendita o ad altre azioni di valore. La pagina _Operazione riuscita_ visualizzata dal cliente dopo l&#39;invio di un ordine viene utilizzata per tenere traccia delle conversioni, in quanto viene visualizzata solo dopo una vendita. Dopo aver completato la configurazione di Google AdWords per il tuo archivio, non è necessario copiare lo script di tracciamento della conversione nella pagina di successo, perché Commerce dispone già delle informazioni necessarie. Per ulteriori informazioni, consulta la [Guida di Google AdWords][2].
 
-![Adobe di annuncio nei risultati di ricerca di Google](./assets/google-adwords-adobe-ad.png){width="500"}
+![Annuncio di Adobe nei risultati di ricerca di Google](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## Passaggio 1: Creare una campagna Google AdWords
 
-1. Visita [Google AdWords][3]e registrarsi per un account.
+1. Visita [Google AdWords][3] e registrati per un account.
 
 1. Segui le istruzioni per creare una campagna.
 
 1. Per impostare il tracciamento delle conversioni per la campagna, effettua le seguenti operazioni:
 
-   - Il giorno **[!UICONTROL Tools]** della dashboard di AdWords, scegli **[!UICONTROL Conversions]** e fai clic su **[!UICONTROL Conversion]**.
+   - Nella scheda **[!UICONTROL Tools]** del dashboard AdWords, scegli **[!UICONTROL Conversions]** e fai clic su **[!UICONTROL Conversion]**.
 
-   - Quando viene richiesto di specificare l&#39;origine di conversione, scegliere **[!UICONTROL Website]**.
+   - Quando viene richiesto l&#39;origine di conversione, scegliere **[!UICONTROL Website]**.
 
-   - Immetti un nome per l’azione di conversione da tracciare e fai clic su **[!UICONTROL Done]**.
+   - Immettere un nome per l&#39;azione di conversione da monitorare e fare clic su **[!UICONTROL Done]**.
 
-   - Clic **[!UICONTROL Value]** e, se del caso, assegna un valore alla conversione. Ad esempio:
+   - Fare clic su **[!UICONTROL Value]** e, se applicabile, assegnare un valore alla conversione. Ad esempio:
 
-      - Se guadagni $5 per ogni vendita, scegli `Each time it happens` e assegna un valore di `$5`.
+      - Se si effettuano $5 per ogni vendita, scegliere `Each time it happens` e assegnare un valore di `$5`.
       - Se il valore di ciascuna vendita varia, lasciare vuoto il valore.
 
-     Per completare, fai clic su **[!UICONTROL Done]**.
+     Per completare, fare clic su **[!UICONTROL Done]**.
 
-   - Clic **[!UICONTROL Conversion windows]** e completa le impostazioni per determinare per quanto tempo devono essere tracciate le conversioni, la categoria di reporting e il modello di attribuzione.
+   - Fare clic su **[!UICONTROL Conversion windows]** e completare le impostazioni per determinare la durata del tracciamento delle conversioni, la categoria di reporting e il modello di attribuzione.
 
-1. Al termine, fai clic su **[!UICONTROL Save and Continue]**.
+1. Al termine, fare clic su **[!UICONTROL Save and Continue]**.
 
 ## Passaggio 2: Ottieni il tag di conversione
 
-1. Sotto **[!UICONTROL Install your tag]**, scegliere di contare le conversioni su **[!UICONTROL Page load]**.
+1. In **[!UICONTROL Install your tag]** scegliere di contare le conversioni su **[!UICONTROL Page load]**.
 
-1. Come opzione, puoi aggiungere **[!UICONTROL Google Site Stats]** notifica alla pagina di conversione.
+1. In alternativa, è possibile aggiungere la notifica **[!UICONTROL Google Site Stats]** alla pagina di conversione.
 
    La notifica viene visualizzata nell’angolo inferiore con un collegamento agli standard di sicurezza e all’utilizzo dei cookie di Google.
 
 1. Per scegliere la modalità di gestione del tag AdWords, eseguire una delle operazioni seguenti:
 
    - Se prevedi di aggiungere lo script al tuo store, scegli **[!UICONTROL Save instructions and tag]**.
-   - Se prevedi che qualcun altro aggiunga lo script al tuo store, scegli **[!UICONTROL Email instructions and tag]**.
+   - Se si prevede che un altro utente aggiunga lo script al proprio archivio, scegliere **[!UICONTROL Email instructions and tag]**.
 
-1. Al termine, fai clic su **[!UICONTROL Done]**.
+1. Al termine, fare clic su **[!UICONTROL Done]**.
 
 ## Passaggio 3: Configurare lo store
 
 {{gtag-api-note}}
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Se si configura Google AdWords per una visualizzazione archivio specifica, effettuare le seguenti operazioni:
 
-   - Nell&#39;angolo in alto a sinistra, scegli il **[!UICONTROL Store View]** da configurare.
+   - Nell&#39;angolo in alto a sinistra, scegliere **[!UICONTROL Store View]** da configurare.
 
    - Quando viene richiesto di confermare il cambio di ambito, fare clic su **[!UICONTROL OK]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Google API]**.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Google AdWords]** ed effettuare le seguenti operazioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Google AdWords]** ed effettuare le seguenti operazioni:
 
-   - Imposta **[!UICONTROL Enable]** a `Yes`.
+   - Imposta **[!UICONTROL Enable]** su `Yes`.
 
-   - Inserisci il **[!UICONTROL Conversion ID]** dallo script Google AdWords.
+   - Immetti **[!UICONTROL Conversion ID]** dallo script Google AdWords.
 
-   ![Configurazione vendite - API di Google Ads](../configuration-reference/sales/assets/google-api-google-adwords.png){width="600" zoomable="yes"}
+   ![Configurazione vendite - API Google Ads](../configuration-reference/sales/assets/google-api-google-adwords.png){width="600" zoomable="yes"}
 
 1. Per formattare la notifica Google Sites Stat, effettuare le seguenti operazioni:
 
-   - Imposta **[!UICONTROL Conversion Language]** al linguaggio identificato nello script Google AdWords.
+   - Imposta **[!UICONTROL Conversion Language]** sulla lingua identificata nello script Google AdWords.
 
-   - Inserisci il **[!UICONTROL Conversion Format]** da utilizzare per la notifica Google Sites Stat nella pagina di conversione.
+   - Immettere **[!UICONTROL Conversion Format]** da utilizzare per la notifica di Google Sites Stat nella pagina di conversione.
 
-      - `1`  : visualizza una notifica su una riga con un collegamento a ulteriori informazioni sul tracciamento di Google.
+      - `1` - Visualizza una notifica su una riga con un collegamento a ulteriori informazioni sul tracciamento di Google.
       - `2` - Visualizza una notifica su due righe con un collegamento a ulteriori informazioni sul tracciamento di Google.
-      - `3` - Non visualizza alcuna notifica al cliente.
+      - `3` - Nessuna notifica del cliente.
 
-   - Inserisci il [codice esadecimale][4]{:target=&quot;_blank&quot;} per **[!UICONTROL Conversion Color]** che si desidera utilizzare per l&#39;etichetta di notifica Statistiche sito Google.
+   - Immettere il [codice esadecimale][4]{:target=&quot;_blank&quot;} per **[!UICONTROL Conversion Color]** che si desidera utilizzare per l&#39;etichetta di notifica Statistiche sito Google.
 
-   - Inserisci il testo crittografato per **[!UICONTROL Conversion Label]** che viene visualizzata nella notifica Google Sites Stat.
+   - Immettere il testo crittografato per **[!UICONTROL Conversion Label]** visualizzato nella notifica Google Sites Stat.
 
-     Ad esempio: `MlEYCOKBnGoQz6CZoAM`
+     Esempio: `MlEYCOKBnGoQz6CZoAM`
 
-     **Esempio di codice tag Google AdWords**
+     **Codice tag Google AdWords di esempio**
 
      ```html
      <!-- Google Code for Back to School Sale Conversion Page -->
@@ -120,18 +120,18 @@ Il tracciamento delle conversioni mostra il numero di clic dell’annuncio che h
      </noscript>
      ```
 
-1. Imposta **[!UICONTROL Conversion Value Type]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Conversion Value Type]** su uno dei seguenti:
 
-   - `Dynamic` - Determina che si è verificata una conversione in base al valore dinamico Importo ordine.
-   - `Constant` - Determina che si è verificata una conversione in base a un valore specifico inserito.
+   - `Dynamic` - Determina che si è verificata una conversione in base al valore dinamico dell&#39;importo dell&#39;ordine.
+   - `Constant` - Determina che si è verificata una conversione in base a un valore specifico immesso.
 
-   Per un _Costante_ tipo di valore di conversione, immettere un valore specifico **[!UICONTROL Value]** per _[!UICONTROL Order Amount]_per qualificarsi come conversione.
+   Per un tipo di valore di conversione _Constant_, immettere un valore di conversione **[!UICONTROL Value]** specifico per _[!UICONTROL Order Amount]_.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 ## Passaggio 4: Verifica la configurazione
 
-Nel giro di poche ore, lo stato di tracciamento nel dashboard di Google AdWords cambia da `Unverified` a `No recent conversions` o `Recording conversions`. Quando un utente fa clic sull’annuncio e effettua un acquisto, la conversione viene visualizzata nella pagina Azioni di conversione del dashboard e del rapporto della campagna.
+In poche ore lo stato di tracciamento nel dashboard di Google AdWords cambia da `Unverified` a `No recent conversions` o `Recording conversions`. Quando un utente fa clic sull’annuncio e effettua un acquisto, la conversione viene visualizzata nella pagina Azioni di conversione del dashboard e del rapporto della campagna.
 
 [1]: https://www.google.com/adwords/
 [2]: https://support.google.com/adwords/answer/6095821

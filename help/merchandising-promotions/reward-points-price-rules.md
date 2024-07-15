@@ -18,18 +18,18 @@ I punti premio possono essere assegnati ai clienti in base a una [regola prezzo 
 
 >[!NOTE]
 >
->[Tassi di cambio premio](reward-exchange-rates.md) La configurazione è necessaria per il rimborso dei punti premio da parte dei clienti e degli utenti amministratori durante il pagamento.
+>[La configurazione dei tassi di cambio premi](reward-exchange-rates.md) è necessaria per il rimborso dei punti premio da parte dei clienti e degli utenti amministratori durante l&#39;estrazione.
 
 ## Aggiungere punti premio a una regola di prezzo
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
 
-1. Clic **[!UICONTROL Add New Rule]** per creare una regola prezzo carrello o fare clic su una regola prezzo carrello esistente per aprirla.
+1. Fare clic su **[!UICONTROL Add New Rule]** per creare una regola prezzo carrello oppure fare clic su una regola prezzo carrello esistente per aprirla.
 
-1. Scorri verso il basso, espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Actions]** , impostare le condizioni e immettere il numero di punti nella sezione **[!UICONTROL Add Reward Points]** campo.
+1. Scorri verso il basso, espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Actions]**, imposta le condizioni e immetti il numero di punti nel campo **[!UICONTROL Add Reward Points]**.
 
    ![Regola prezzo carrello - punti premio](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
 
-1. Seguire le istruzioni standard per completare [regola prezzo carrello](price-rules-cart-create.md).
+1. Segui le istruzioni standard per completare la [regola prezzo carrello](price-rules-cart-create.md).
 
    Quando la regola del prezzo è attivata, nel carrello viene visualizzato un messaggio per comunicare ai clienti quanti punti possono guadagnare effettuando l’ordine. Questo vale solo per gli utenti registrati e può variare quando un utente è connesso.

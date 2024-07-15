@@ -31,7 +31,7 @@ L’area del contenuto di questo layout è divisa in due colonne. La colonna del
 
 Questo layout è un&#39;immagine speculare dell&#39;altro layout a due colonne. Questa volta, la barra laterale viene spostata a destra e la colonna del contenuto principale a sinistra.
 
-![Esempio di due colonne con barra a destra](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
+![Esempio di due colonne con barra destra](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
 
 ## Tre colonne
 

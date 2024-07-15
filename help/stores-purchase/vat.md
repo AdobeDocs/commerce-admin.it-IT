@@ -5,7 +5,7 @@ exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1990'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Commerce può essere configurato per addebitare un&#39;imposta sul valore aggiun
 
 - Un&#39;azienda nei Paesi Bassi che effettua un acquisto da un negozio nel Regno Unito che spedisce a un indirizzo nel Regno Unito è tenuta a pagare le aliquote IVA del Regno Unito.
 
-- Per la vendita di [prodotti scaricabili](../catalog/product-create-downloadable.md), o _beni digitali_ Tuttavia, l’aliquota IVA si basa sulla destinazione della spedizione e non sulla sede dell’esercente. Consulta [Luogo di cessione di beni digitali](taxes.md#place-of-supply-for-digital-goods-eu).
+- Per la vendita di [prodotti scaricabili](../catalog/product-create-downloadable.md), o _beni digitali_, l&#39;aliquota IVA si basa sulla destinazione di spedizione, anziché sull&#39;ubicazione dell&#39;esercente. Vedere [Luogo di fornitura per i beni digitali](taxes.md#place-of-supply-for-digital-goods-eu).
 
 >[!TIP]
 >
->Alcune spedizioni transfrontaliere e B2B hanno requisiti fiscali più complessi. Per espandere le funzionalità native dell’installazione di Commerce, è consigliabile aggiungere una soluzione di gestione delle imposte dalla [Marketplace](https://marketplace.magento.com/extensions/accounting-finance/taxes.html).
+>Alcune spedizioni transfrontaliere e B2B hanno requisiti fiscali più complessi. Per espandere le funzionalità native dell&#39;installazione di Commerce, è consigliabile aggiungere una soluzione di gestione delle imposte dal [Marketplace](https://marketplace.magento.com/extensions/accounting-finance/taxes.html).
 
 ## Configura IVA
 
@@ -36,115 +36,115 @@ Le istruzioni seguenti includono una procedura di esempio per impostare un&#39;I
 >
 >Prima di procedere, assicurati di scoprire quali regole e regolamenti si applicano all&#39;IVA nella tua zona.
 
-In talune operazioni tra imprese, l’IVA non viene calcolata. Il Commerce può convalidare l&#39;ID IVA di un cliente per garantire che l&#39;IVA sia valutata correttamente (o non valutata). Consulta [Convalida ID IVA](#vat-id-validation).
+In talune operazioni tra imprese, l’IVA non viene calcolata. Commerce può convalidare l&#39;ID IVA di un cliente per garantire che l&#39;IVA sia valutata correttamente (o meno). Consulta [Convalida ID IVA](#vat-id-validation).
 
 ### Passaggio 1: impostare le classi imposta cliente
 
 Il processo di creazione di una regola fiscale inizia con l&#39;aggiunta di un&#39;aliquota.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
    ![Imposta classi imposta cliente](./assets/vat-zones.png){width="600" zoomable="yes"}
 
 1. Assicurati che esista una classe fiscale cliente appropriata da utilizzare con l’IVA.
 
-   Per questo esempio, assicurati che esista una classe fiscale cliente denominata _Cliente al dettaglio_. Se questa classe fiscale non esiste, fare clic su **[!UICONTROL Add New Tax Rate]**.
+   Per questo esempio, accertati che esista una classe fiscale cliente denominata _Cliente al dettaglio_. Se la classe fiscale non esiste, fare clic su **[!UICONTROL Add New Tax Rate]**.
 
-1. Inserisci il **[!UICONTROL Tax Identifier]** per la nuova classe di imposta.
+1. Immettere **[!UICONTROL Tax Identifier]** per la nuova classe fiscale.
 
-   Tutte le aliquote vengono visualizzate nel _Aliquota fiscale_ campo in _Informazioni sulle regole fiscali_ quando si creano regole fiscali.
+   Tutte le aliquote vengono visualizzate nel campo _Aliquota_ in _Informazioni sulle regole fiscali_ quando si creano le regole fiscali.
 
-1. Per impostare l’intervallo del codice postale (da / a), seleziona la **[!UICONTROL Zip/Post is Range]** casella di controllo.
+1. Per impostare l&#39;intervallo di codici postali (da / a), selezionare la casella di controllo **[!UICONTROL Zip/Post is Range]**.
 
-1. Scegli la **[!UICONTROL Country]** dove si applica l’aliquota.
+1. Scegliere **[!UICONTROL Country]** in cui applicare l&#39;aliquota.
 
-1. Inserisci il **[!UICONTROL Rate Percent]** che verrebbe utilizzato per il calcolo dell’aliquota all’acquisto.
+1. Immettere **[!UICONTROL Rate Percent]** da utilizzare per il calcolo dell&#39;aliquota all&#39;acquisto.
 
-1. Al termine, fai clic su **[!UICONTROL Save Rate]**.
+1. Al termine, fare clic su **[!UICONTROL Save Rate]**.
 
 In base all&#39;aliquota fiscale sottomessa, è possibile creare regole fiscali successive. In assenza di aliquote fiscali, la creazione di norme fiscali diventa impossibile.
 
 ### Passaggio 2: impostare le classi di imposta prodotto
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** >  _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
 
-1. Clic **[!UICONTROL Add New Tax Rule]**.
+1. Fare clic su **[!UICONTROL Add New Tax Rule]**.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Additional Settings]** sezione.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Additional Settings]**.
 
    ![Imposta classi imposta prodotto](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
-1. Sotto _Classe imposta prodotto_, fai clic su **[!UICONTROL Add New Tax Class]**.
+1. In _Classe imposta prodotto_, fare clic su **[!UICONTROL Add New Tax Class]**.
 
-1. Per aggiungere la nuova classe all&#39;elenco delle classi di imposta prodotti disponibili e creare tre nuove classi, immettere il **[!UICONTROL Name]** della nuova classe di imposta e fare clic sul segno di spunta:
+1. Per aggiungere la nuova classe all&#39;elenco delle classi di imposta sui prodotti disponibili e creare tre nuove classi, immettere il **[!UICONTROL Name]** della nuova classe di imposta e fare clic sul segno di spunta:
 
    - `VAT Standard`
    - `VAT Reduced`
    - `VAT Zero`
 
-1. Clic **[!UICONTROL Save Class]** per ogni nuova classe aggiunta.
+1. Fare clic su **[!UICONTROL Save Class]** per ogni nuova classe aggiunta.
 
-1. Clic **[!UICONTROL Save Rule]**.
+1. Fare clic su **[!UICONTROL Save Rule]**.
 
 ### Passaggio 3: Impostare aree e aliquote fiscali
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** >  _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
    In questo esempio è possibile rimuovere le aliquote fiscali statunitensi o lasciarle invariate.
 
-1. Clic **[!UICONTROL Add New Tax Rate]**.
+1. Fare clic su **[!UICONTROL Add New Tax Rate]**.
 
    ![Impostare aree e aliquote fiscali](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
 
 1. Definisci i nuovi tassi come segue:
 
-   **Norma IVA**
+   **IVA standard**
 
    - Identificatore imposta: `VAT Standard`
-   - Paese e Stato: `United Kingdom`
+   - Paese e stato: `United Kingdom`
    - Percentuale tasso: `20.00`
 
    **IVA ridotta**
 
    - Identificatore imposta: `VAT Reduced`
-   - Paese e Stato: `United Kingdom`
+   - Paese e stato: `United Kingdom`
    - Percentuale tasso: `5.00`
 
-1. Clic **[!UICONTROL Save Rate]** per ogni tariffa.
+1. Fare clic su **[!UICONTROL Save Rate]** per ogni tariffa.
 
 ### Passaggio 4: Impostare le regole fiscali
 
 Una regola fiscale è una combinazione di una classe fiscale cliente, una classe fiscale prodotto e un&#39;aliquota.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
 
 1. Aggiungere nuove regole fiscali come segue:
 
-   **Norma IVA**
+   **IVA standard**
 
    - Nome: `VAT Standard`
    - Classe imposta cliente: `Retail Customer`
    - Classe imposta prodotto: `VAT Standard`
    - Aliquota: `VAT Standard Rate`
 
-   **Iva ridotta**
+   **Iva Ridotta**
 
    - Nome: `VAT Reduced`
    - Classe imposta cliente: `Retail Customer`
    - Classe imposta prodotto: `VAT Reduced`
    - Aliquota: `VAT Reduced Rate`
 
-1. Clic **[!UICONTROL Save Rule]** per ogni tariffa.
+1. Fare clic su **[!UICONTROL Save Rule]** per ogni tariffa.
 
 ### Passaggio 5: applicare le classi di imposta ai prodotti
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
 
 1. Apri un prodotto dal catalogo in modalità di modifica.
 
-1. Il giorno _Generale_ pagina, trova il **[!UICONTROL Tax Class]** e selezionare il **[!UICONTROL VAT Class]** applicabile al prodotto.
+1. Nella pagina _Generale_, individua l&#39;opzione **[!UICONTROL Tax Class]** e seleziona **[!UICONTROL VAT Class]** applicabile al prodotto.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
    ![Applica classi imposta ai prodotti](./assets/vat-apply-classes.png){width="600" zoomable="yes"}
 
@@ -152,15 +152,15 @@ Una regola fiscale è una combinazione di una classe fiscale cliente, una classe
 
 ### Informazioni archivio
 
-Commerce utilizza quanto segue [Impostazioni di configurazione delle informazioni di archiviazione](../configuration-reference/general/general.md#store-information) per calcolare l&#39;IVA in base alle informazioni relative agli esercenti.
+Commerce utilizza le seguenti [impostazioni di configurazione delle informazioni di archiviazione](../configuration-reference/general/general.md#store-information) per calcolare l&#39;IVA in base alle informazioni sul commerciante.
 
-**[!UICONTROL VAT Number]** - la partita IVA assegnata all&#39;esercente.
+**[!UICONTROL VAT Number]** - Codice IVA assegnato al commerciante.
 
-**[!UICONTROL Validate VAT Number]** - [Convalida IVA](#vat-id-validation) conferma che il numero di partita IVA corrisponde al record corrispondente nella [Commissione europea](https://ec.europa.eu/taxation_customs/vies/) database.
+**[!UICONTROL Validate VAT Number]** - [Convalida IVA](#vat-id-validation) conferma che la partita IVA corrisponde al record corrispondente nel database [Commissione europea](https://ec.europa.eu/taxation_customs/vies/).
 
 ### Informazioni cliente
 
-Commerce utilizza i campi seguenti per calcolare l’IVA in base a [informazioni sul cliente](../customers/account-dashboard-account-information.md)).
+Commerce utilizza i campi seguenti per calcolare l&#39;IVA in base a [informazioni sul cliente](../customers/account-dashboard-account-information.md)).
 
 #### Informazioni account
 
@@ -168,19 +168,19 @@ Commerce utilizza i campi seguenti per calcolare l’IVA in base a [informazioni
 
 #### Indirizzi
 
-**[!UICONTROL VAT Number]** - Se applicabile, la partita IVA associata a un indirizzo di fatturazione o di spedizione specifico del cliente. Per la vendita di [beni digitali](taxes.md#place-of-supply-for-digital-goods-eu)) all&#39;interno dell&#39;UE, l&#39;importo dell&#39;IVA dipende dalla destinazione della spedizione.
+**[!UICONTROL VAT Number]** - Se applicabile, la partita IVA associata a un indirizzo di fatturazione o spedizione specifico del cliente. Per la vendita di [beni digitali](taxes.md#place-of-supply-for-digital-goods-eu)) all&#39;interno dell&#39;UE, l&#39;importo dell&#39;IVA si basa sulla destinazione della spedizione.
 
 ### Account cliente
 
-Commerce utilizza quanto segue [impostazioni di configurazione cliente](../customers/account-options-new.md) per calcolare l&#39;IVA.
+Commerce utilizza le [impostazioni di configurazione cliente](../customers/account-options-new.md) seguenti per calcolare l&#39;IVA.
 
 **[!UICONTROL Show VAT Number on Storefront]** - Determina se il campo Partita IVA cliente è incluso nella Rubrica disponibile nel conto cliente.
 
-**[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]** - L’ID IVA è un identificatore interno del numero di IVA del cliente quando viene utilizzato nella convalida dell’IVA. Durante la convalida dell’IVA, Commerce conferma che il numero corrisponde al valore [Commissione europea](https://ec.europa.eu/taxation_customs/vies/) database. I clienti possono essere assegnati automaticamente a uno dei quattro gruppi predefiniti in base ai risultati della convalida.
+**[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]** - L&#39;ID IVA è un identificatore interno per il numero IVA del cliente quando viene utilizzato nella convalida IVA. Durante la convalida IVA, Commerce conferma che il numero corrisponde al database [Commissione europea](https://ec.europa.eu/taxation_customs/vies/). I clienti possono essere assegnati automaticamente a uno dei quattro gruppi predefiniti in base ai risultati della convalida.
 
 ## Convalida ID IVA
 
-_Convalida ID IVA_ calcola automaticamente l&#39;imposta richiesta per le transazioni B2B che hanno luogo all&#39;interno dell&#39;Unione europea (UE), in base alla localizzazione dell&#39;esercente e del cliente. Commerce esegue la convalida dell’ID IVA utilizzando i servizi web della [Commissione europea][1] server.
+_Convalida ID IVA_ calcola automaticamente l&#39;imposta richiesta per le transazioni B2B che si svolgono all&#39;interno dell&#39;Unione Europea (UE), in base alle impostazioni locali del cliente e dell&#39;esercente. Commerce esegue la convalida dell&#39;ID IVA utilizzando i servizi Web del server [Commissione europea][1].
 
 >[!NOTE]
 >
@@ -201,7 +201,7 @@ Se la convalida dell&#39;ID IVA è abilitata, dopo la registrazione a ciascun cl
 
 Quando un cliente specifica il numero di partita IVA e altri campi di indirizzo e sceglie di salvare, il sistema salva l&#39;indirizzo e invia la richiesta di convalida del codice IVA al server della Commissione europea. In base ai risultati della convalida, a un cliente viene assegnato uno dei gruppi predefiniti. Questo gruppo può essere modificato se un cliente o un amministratore modifica l&#39;ID IVA dell&#39;indirizzo predefinito o l&#39;intero indirizzo predefinito. A volte, il gruppo può essere modificato temporaneamente (la modifica del gruppo viene emulata) durante il checkout di una pagina.
 
-Se questa opzione è abilitata, è possibile sostituire la convalida dell&#39;ID IVA per i singoli clienti selezionando la casella di controllo nella _[!UICONTROL Customer Information]_pagina.
+Se questa opzione è abilitata, è possibile sostituire la convalida dell&#39;ID IVA per i singoli clienti selezionando la casella di controllo nella pagina _[!UICONTROL Customer Information]_.
 
 ### Flusso di lavoro di cassa
 
@@ -209,9 +209,9 @@ Se la convalida IVA di un cliente viene eseguita durante il pagamento, l&#39;ide
 
 Il comportamento del sistema relativo alla convalida dell&#39;ID IVA e alla modifica del gruppo di clienti durante l&#39;estrazione dipende dalla configurazione delle impostazioni Convalida per ogni transazione e Disattiva modifica automatica gruppo. Questa sezione descrive l&#39;implementazione della funzionalità di convalida dell&#39;ID IVA per l&#39;estrazione sul front-end.
 
-Se il cliente utilizza Google Express Checkout, PayPal Express Checkout o un altro metodo di pagamento esterno, il pagamento viene eseguito completamente sul lato del gateway dei pagamenti esterno. Per questo scenario, il _Convalida per ogni transazione_ non può essere applicata e il gruppo di clienti non può cambiare durante il pagamento.
+Se il cliente utilizza Google Express Checkout, PayPal Express Checkout o un altro metodo di pagamento esterno, il pagamento viene eseguito completamente sul lato del gateway dei pagamenti esterno. Per questo scenario, non è possibile applicare l&#39;impostazione _Convalida su ogni transazione_ e il gruppo di clienti non può cambiare durante l&#39;estrazione.
 
-![Flusso di lavoro di pagamento convalida IVA](./assets/vat-id-validation2.png){width="550" zoomable="yes"}
+![Flusso di lavoro estrazione convalida IVA](./assets/vat-id-validation2.png){width="550" zoomable="yes"}
 
 ### Configura convalida ID IVA
 
@@ -223,7 +223,7 @@ Gli esempi seguenti mostrano come le classi e le aliquote fiscali vengono utiliz
 
 | Regola fiscale #1 |  |
 |--- |--- |
-| Classe imposta cliente | Le classi di imposta cliente devono includere: <br />Una classe per i clienti domestici. <br />Classe per clienti con ID IVA formattati in modo errato.<br />Classe per i clienti la cui convalida dell&#39;ID IVA non è riuscita. |
+| Classe imposta cliente | Le classi di imposta cliente devono includere: <br />Una classe per i clienti nazionali. <br />Classe per clienti con ID IVA formattati in modo errato.<br />Classe per i clienti la cui convalida dell&#39;ID IVA non è riuscita. |
 | Classe imposta prodotto | Le classi di imposta prodotto devono includere una classe per i prodotti di tutti i tipi, ad eccezione di bundle e virtual. |
 | Aliquota fiscale | L&#39;aliquota deve includere l&#39;aliquota IVA del paese dell&#39;esercente. |
 
@@ -239,7 +239,7 @@ Gli esempi seguenti mostrano come le classi e le aliquote fiscali vengono utiliz
 
 | Regola fiscale #3 | (Richiesto per prodotti virtuali e scaricabili) |
 |--- |--- |
-| Classe imposta cliente | Le classi di imposta cliente devono includere: <br/>Una classe per clienti domestici <br/>Classe per clienti con ID IVA A non valido per clienti per i quali la convalida dell&#39;ID IVA non è riuscita |
+| Classe imposta cliente | Le classi IVA cliente devono includere: <br/>Una classe per clienti nazionali <br/>Una classe per clienti con ID IVA A non valido per clienti per i quali la convalida dell&#39;ID IVA non è riuscita |
 | Classe imposta prodotto | Classe per prodotti virtuali. |
 | Aliquota fiscale | Aliquota IVA del paese dell&#39;esercente. |
 
@@ -272,60 +272,60 @@ Ogni regola fiscale è definita da tre entità:
 - Classi imposta prodotto
 - Aliquote fiscali
 
-Creare [norme fiscali](tax-rules.md) per utilizzare in modo efficace la convalida ID IVA.
+Crea le [regole fiscali](tax-rules.md) per utilizzare correttamente la convalida ID IVA.
 
-- Le regole fiscali includono le aliquote e [classi fiscali](tax-class.md).
+- Le regole fiscali includono le aliquote e [le classi fiscali](tax-class.md).
 - Le classi di imposta sono assegnate a [gruppi di clienti](../customers/customer-groups.md).
 
 #### Passaggio 3: abilitare e configurare la convalida dell’ID IVA
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Se necessario, impostare **[!UICONTROL Store View]** per la configurazione.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Customer Configuration]**.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Create New Account Options]** sezione.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Create New Account Options]**.
 
    Nell&#39;esempio seguente, le impostazioni generali del cliente non correlate alla convalida dell&#39;IVA sono dim.
 
    ![Crea nuove opzioni account](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-1. Imposta **[!UICONTROL Enable Automatic Assignment to Customer Group]** a `Yes` e completa i campi seguenti, in base alle esigenze.
+1. Imposta **[!UICONTROL Enable Automatic Assignment to Customer Group]** su `Yes` e completa i campi seguenti in base alle esigenze.
 
    - **[!UICONTROL Default Group]**
    - **[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]**
    - **[!UICONTROL Show VAT Number on Storefront]**
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 #### Passaggio 4: imposta l&#39;ID IVA e il paese di ubicazione
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL General]** e scegli **[!UICONTROL General]** sotto.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Store Information]** sezione.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Store Information]**.
 
-   ![Informazioni sul negozio](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![Informazioni archivio](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
-1. Seleziona il **[!UICONTROL Country]**.
+1. Seleziona **[!UICONTROL Country]**.
 
-1. Immetti il **[!UICONTROL VAT Number]** e fai clic su **[!UICONTROL Validate VAT Number]**.
+1. Immetti **[!UICONTROL VAT Number]** e fai clic su **[!UICONTROL Validate VAT Number]**.
 
    Il risultato viene visualizzato immediatamente.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 #### Passaggio 5: verificare l&#39;elenco dei paesi membri dell&#39;UE
 
-1. Continuando in _Generale_ pagina di configurazione, espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Countries Options]** sezione.
+1. Continuando nella pagina di configurazione _Generale_, espandere ![Selettore di espansione](../assets/icon-display-expand.png) la sezione **[!UICONTROL Countries Options]**.
 
    ![Opzioni paesi](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 
-1. In **[!UICONTROL European Union Countries]** verificare che ogni paese membro dell&#39;UE sia selezionato.
+1. Nell&#39;elenco **[!UICONTROL European Union Countries]** verificare che sia selezionato ogni paese membro dell&#39;UE.
 
-   Per modificare l&#39;impostazione predefinita, deselezionare **Usa valori di sistema** casella di controllo. Tenere premuto il tasto Ctrl (PC) o Comando (Mac) e fare clic su ogni paese che si desidera aggiungere o rimuovere.
+   Per modificare l&#39;impostazione predefinita, deselezionare la casella di controllo **Usa valori di sistema**. Tenere premuto il tasto Ctrl (PC) o Comando (Mac) e fare clic su ogni paese che si desidera aggiungere o rimuovere.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 
 [1]: https://ec.europa.eu/taxation_customs/vies/

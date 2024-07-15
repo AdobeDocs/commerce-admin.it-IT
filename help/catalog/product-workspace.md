@@ -12,43 +12,43 @@ ht-degree: 0%
 
 # Area di lavoro prodotto
 
-L’area di lavoro del prodotto è sostanzialmente la stessa per tutti i tipi di prodotto, anche se la selezione dei campi cambia a seconda del set di attributi utilizzato. Gli attributi del prodotto si trovano nella parte superiore del modulo, seguiti da sezioni espandibili di informazioni sul prodotto. Quando si salva un nuovo prodotto per la prima volta, _[!UICONTROL Store View]_selettore viene visualizzato in alto a sinistra nel modulo.
+L’area di lavoro del prodotto è sostanzialmente la stessa per tutti i tipi di prodotto, anche se la selezione dei campi cambia a seconda del set di attributi utilizzato. Gli attributi del prodotto si trovano nella parte superiore del modulo, seguiti da sezioni espandibili di informazioni sul prodotto. Quando si salva un nuovo prodotto per la prima volta, il selettore _[!UICONTROL Store View]_viene visualizzato in alto a sinistra nel modulo.
 
 ![Area di lavoro prodotto](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
-## [!UICONTROL Enable Product] impostazione
+## Impostazione [!UICONTROL Enable Product]
 
-Lo stato online del prodotto è indicato dal pulsante nella parte superiore del modulo. Per modificare lo stato in linea, impostare **[!UICONTROL Enable Product]** passa a `Yes` o `No`.
+Lo stato online del prodotto è indicato dal pulsante nella parte superiore del modulo. Per modificare lo stato in linea, impostare l&#39;opzione **[!UICONTROL Enable Product]** su `Yes` o `No`.
 
 | Controllo | Descrizione |
 |-------- | ----------- |
-| ![Attiva/disattiva sì](../assets/toggle-yes.png) | Indica che il prodotto è online. |
-| ![Attiva/disattiva](../assets/toggle-no.png) | Indica che il prodotto è offline. |
+| ![Attiva/Disattiva Sì](../assets/toggle-yes.png) | Indica che il prodotto è online. |
+| ![Attiva/Disattiva ](../assets/toggle-no.png) | Indica che il prodotto è offline. |
 
 {style="table-layout:auto"}
 
 ## Set di attributi
 
-Il nome del [set di attributi](attribute-sets.md) viene visualizzato nell&#39;angolo superiore sinistro e determina i campi visualizzati nel record del prodotto. Per scegliere una serie di attributi diversa, fare clic sulla freccia rivolta verso il basso accanto al nome della serie di attributi predefinita.
+Il nome del [set di attributi](attribute-sets.md) viene visualizzato nell&#39;angolo superiore sinistro e determina i campi visualizzati nel record di prodotto. Per scegliere una serie di attributi diversa, fare clic sulla freccia rivolta verso il basso accanto al nome della serie di attributi predefinita.
 
 ![Set di attributi](./assets/product-attribute-set.png){width="600" zoomable="yes"}
 
 ## Espandi/comprimi
 
-Per espandere o comprimere una sezione, fare clic sull&#39;icona di espansione ![Selettore di espansione](../assets/icon-display-expand.png) o comprimi ![Comprimi selettore](../assets/icon-display-collapse.png) icona.
+Per espandere o comprimere una sezione, fare clic sull&#39;icona Espandi ![Selettore di espansione](../assets/icon-display-expand.png) o Comprimi ![Comprimi selettore](../assets/icon-display-collapse.png).
 
-## [!UICONTROL Save] menu
+## Menu [!UICONTROL Save]
 
-Il _[!UICONTROL Save]_Il menu include diverse opzioni che consentono di salvare e continuare, salvare e creare un prodotto, salvare e duplicare il prodotto o salvare e chiudere.
+Il menu _[!UICONTROL Save]_include diverse opzioni che consentono di salvare e continuare, salvare e creare un prodotto, salvare e duplicare il prodotto o salvare e chiudere.
 
-![Menu Salva](./assets/product-save-menu.png){width="600" zoomable="yes"}
+![Salva menu](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
 | Comando | Descrizione |
 |--- |--- |
 | [!UICONTROL Save] | Salva il prodotto corrente e continua a lavorare. |
 | [!UICONTROL Save & New] | Salva e chiudi il prodotto corrente e inizia un nuovo prodotto basato sullo stesso tipo di prodotto e modello. |
 | [!UICONTROL Save & Duplicate] | Salva e chiudi il prodotto corrente e apri una nuova copia duplicata. |
-| [!UICONTROL Save & Close] | Salva il prodotto corrente e torna a _[!UICONTROL Products]_Workspace. |
+| [!UICONTROL Save & Close] | Salvare il prodotto corrente e tornare all&#39;area di lavoro _[!UICONTROL Products]_. |
 
 {style="table-layout:auto"}
 
@@ -69,15 +69,15 @@ I segnaposto che rappresentano il valore di un altro campo sono racchiusi tra pa
 
 ![Generazione automatica campi prodotto](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
 
-Per un elenco dettagliato di queste impostazioni, vedi [Generazione automatica campi prodotto](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) nel _Riferimento configurazione_.
+Per un elenco dettagliato di queste impostazioni, vedere [Generazione automatica campi prodotto](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) nel _Riferimento configurazione_.
 
 ### Modifica il valore del segnaposto
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Product Fields Auto-Generation]** e apportare le modifiche necessarie ai valori dei segnaposto.
+1. Espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Product Fields Auto-Generation]** e apportare le modifiche necessarie ai valori dei segnaposto.
 
    Ad esempio, se è presente una parola chiave specifica che si desidera includere per ogni prodotto o una frase da includere in ogni descrizione meta, immettere il valore direttamente nel campo appropriato.
 
@@ -85,7 +85,7 @@ Per un elenco dettagliato di queste impostazioni, vedi [Generazione automatica c
    >
    >Se si desidera mantenere i valori dei segnaposto esistenti, mantenere le doppie parentesi graffe che racchiudono ogni tag di markup.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 ### Segnaposto comuni
 

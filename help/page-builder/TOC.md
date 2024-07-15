@@ -1,6 +1,6 @@
 ---
 user-guide-title: "[!DNL Page Builder] Guida utente"
-user-guide-description: Scopri come utilizzare [!DNL Page Builder] funzionalità per creare pagine ricche di contenuti con layout personalizzati che migliorano la narrazione visiva e stimolano il coinvolgimento e la fedeltà dei clienti.
+user-guide-description: Scopri come utilizzare le funzionalità di  [!DNL Page Builder]  per creare pagine ricche di contenuti con layout personalizzati che migliorano la narrazione visiva e stimolano il coinvolgimento e la fedeltà dei clienti.
 breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
@@ -13,10 +13,10 @@ ht-degree: 5%
 ---
 
 
-# [!DNL Page Builder] Guida utente {#page-builder}
+# Guida utente di [!DNL Page Builder] {#page-builder}
 
-- [[!DNL Page Builder] Guida utente](guide-overview.md)
-- [Introduzione a [!DNL Page Builder]](introduction.md)
+- [Guida utente di [!DNL Page Builder]](guide-overview.md)
+- [Introduzione a  [!DNL Page Builder]](introduction.md)
 - [Note sulla versione](release-notes.md)
 - [Configurazione e configurazione](setup.md)
 - Procedura dettagliata {#walkthrough}
@@ -34,7 +34,7 @@ ht-degree: 5%
    - [Pulsanti](buttons.md)
    - [Divisore](divider.md)
    - [Codice HTML](html-code.md)
-- Contenuti multimediali {#media}
+- Media {#media}
    - [Immagine](image.md)
    - [Video](video.md)
    - [Banner](banner.md)

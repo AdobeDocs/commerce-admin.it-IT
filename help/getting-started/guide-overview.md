@@ -21,9 +21,9 @@ Questa guida tratta i seguenti argomenti:
 | Oggetto | Descrizione |
 | ------- | ----------- |
 | [Informazioni su Commerce](about.md) | Scopri la versione corrente di Adobe Commerce. |
-| [Credenziali di accesso e URL](login-urls.md) | Scopri di più su [!DNL Commerce] URL e credenziali dell’account utilizzati per accedere all’amministratore e alla vetrina. |
-| [[!DNL Commerce] account](commerce-account-create.md) | Informazioni su [!DNL Commerce] account, che gestiscono i prodotti e i servizi acquistati. |
-| [L’Amministratore](admin.md) | Scopri di più su [!DNL Commerce] Amministratore, il luogo in cui i commercianti impostano prodotti e promozioni, gestiscono gli ordini ed eseguono altre attività amministrative. |
+| [Credenziali di accesso e URL](login-urls.md) | Scopri gli URL di [!DNL Commerce] e le credenziali dell&#39;account utilizzati per accedere all&#39;amministratore e alla vetrina. |
+| [[!DNL Commerce] account](commerce-account-create.md) | Scopri gli account [!DNL Commerce] che gestiscono i prodotti e i servizi acquistati. |
+| [L&#39;Amministratore](admin.md) | Scopri l&#39;amministratore [!DNL Commerce], il luogo in cui i commercianti configurano prodotti e promozioni, gestiscono gli ordini ed eseguono altre attività amministrative. |
 | [Vetrina](storefront.md) | Scopri le pagine e gli elementi funzionali che il tuo negozio può fornire per supportare l’esperienza di acquisto dei tuoi clienti. |
 | [Configurazione di base](websites-stores-views.md) | Scopri i concetti della gerarchia di store e dell’ambito di configurazione, nonché le impostazioni di configurazione di base. |
 | [Conformità sito](privacy-policy.md) | Scopri in che modo i commercianti sono responsabili di soddisfare le linee guida del settore per mantenere un ambiente sicuro e di soddisfare i requisiti legali e le best practice per i commercianti online nella loro giurisdizione. |

@@ -5,40 +5,40 @@ exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 1%
+source-wordcount: '364'
+ht-degree: 0%
 
 ---
 
 # Crea un ordine
 
-Per i clienti registrati che necessitano di assistenza, puoi creare un intero ordine direttamente dall’Amministratore. Il _[!UICONTROL Create New Order]_il modulo include tutte le informazioni necessarie per il normale processo di pagamento, con i riepiloghi attività del dashboard account del cliente.
+Per i clienti registrati che necessitano di assistenza, puoi creare un intero ordine direttamente dall’Amministratore. Il modulo _[!UICONTROL Create New Order]_include tutte le informazioni necessarie per il normale processo di pagamento, con i riepiloghi attività dal dashboard account del cliente.
 
-![Creare un ordine per un cliente](./assets/create-new-order.png){width="700" zoomable="yes"}
+![Crea un ordine per un cliente](./assets/create-new-order.png){width="700" zoomable="yes"}
 
 ## Passaggio 1: creare un ordine
 
-1. Il giorno _Amministratore_ barra laterale, fai clic su **[!UICONTROL Customers]**.
+1. Nella barra laterale _Admin_, fai clic su **[!UICONTROL Customers]**.
 
 1. Individuare il cliente nella griglia.
 
-1. In _Azione_ , fare clic su **[!UICONTROL Edit]**.
+1. Nella colonna _Azione_ fare clic su **[!UICONTROL Edit]**.
 
-1. Nell’intestazione del workspace, fai clic su **[!UICONTROL Create Order]**.
+1. Nell&#39;intestazione dell&#39;area di lavoro fare clic su **[!UICONTROL Create Order]**.
 
-   ![Intestazione area di lavoro](./assets/order-create-buttons.png){width="700" zoomable="yes"}
+   ![Intestazione Workspace](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   Puoi anche creare un ordine in [Area di lavoro ordini](orders.md#orders-workspace) facendo clic su **[!UICONTROL Create New Order]**.
+   Puoi anche creare un ordine nell&#39;[Area di lavoro ordini](orders.md#orders-workspace) facendo clic su **[!UICONTROL Create New Order]**.
 
 ## Passaggio 2: Aggiungere prodotti
 
 Se il tuo Negozio ha più visualizzazioni, scegli la visualizzazione del Negozio in cui deve essere effettuato l’ordine.
 
-### Aggiungi prodotti da [!UICONTROL Customer's Activities] barra laterale
+### Aggiungi prodotti dalla barra laterale [!UICONTROL Customer's Activities]
 
 Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente o da qualsiasi articolo visualizzato di recente, confrontato o ordinato.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) una delle seguenti sezioni:
+1. Espandere ![Selettore di espansione](../assets/icon-display-expand.png) in una delle sezioni seguenti:
 
    - **[!UICONTROL Wish List]**
    - **[!UICONTROL Last Ordered Items]**
@@ -48,7 +48,7 @@ Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente
 
 1. Seleziona la casella di controllo di ciascun prodotto nel pannello a sinistra.
 
-1. Scorri verso il basso e fai clic su **[!UICONTROL Update Changes]**.
+1. Scorrere verso il basso e fare clic su **[!UICONTROL Update Changes]**.
 
    L&#39;elemento viene visualizzato nel modulo d&#39;ordine.
 
@@ -56,11 +56,11 @@ Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente
 
 ### Aggiungi prodotti dal catalogo
 
-1. Clic **[!UICONTROL Add Products]**.
+1. Fare clic su **[!UICONTROL Add Products]**.
 
    ![Aggiungi prodotti](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"}
 
-1. Nella griglia, seleziona la casella di controllo di ciascun prodotto da aggiungere al carrello e immetti **[!UICONTROL Qty]** da acquistare.
+1. Nella griglia, selezionare la casella di controllo di ciascun prodotto da aggiungere al carrello e immettere **[!UICONTROL Qty]** da acquistare.
 
    ![Seleziona prodotti](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
 
@@ -70,21 +70,21 @@ Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente
 
 1. Configurare le opzioni di prodotto disponibili:
 
-   - Clic **[!UICONTROL Configure]**.
+   - Fare clic su **[!UICONTROL Configure]**.
 
    - Completa le opzioni in base alle esigenze.
 
-   - Clic **[!UICONTROL OK]**.
+   - Fare clic su **[!UICONTROL OK]**.
 
-   - Clic **[!UICONTROL Add Selected Product(s) to Order]** per aggiornare il carrello.
+   - Fare clic su **[!UICONTROL Add Selected Product(s) to Order]** per aggiornare il carrello.
 
-1. Se un prodotto è configurato per [opzioni regalo](../catalog/product-gift-options.md), imposta le opzioni in base alle esigenze.
+1. Se un prodotto è configurato per [opzioni regalo](../catalog/product-gift-options.md), impostare le opzioni in base alle esigenze.
 
 1. Sostituisci il prezzo di un articolo, se necessario:
 
-   - Seleziona la **[!UICONTROL Custom Price]** e inserire il nuovo prezzo nella casella sottostante.
+   - Selezionare la casella di controllo **[!UICONTROL Custom Price]** e immettere il nuovo prezzo nella casella seguente.
 
-   - Per aggiornare i totali del carrello, fai clic su **[!UICONTROL Update Items and Quantities]**.
+   - Per aggiornare i totali del carrello, fare clic su **[!UICONTROL Update Items and Quantities]**.
 
    ![Prezzo personalizzato](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
@@ -98,10 +98,10 @@ Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente
 
 >[!NOTE]
 >
->Consulta la [Guida ai servizi di pagamento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) per ulteriori informazioni sui metodi di pagamento per supportare questa funzionalità quando l’estensione Payment Services è installata e configurata.
+>Per ulteriori informazioni sui metodi di pagamento per supportare questa funzionalità quando l&#39;estensione Payment Services è installata e configurata, vedere la [Guida di Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html).
 
 ## Passaggio 3: sottomettere l&#39;ordine
 
-Clic **[!UICONTROL Submit Order]**.
+Fare clic su **[!UICONTROL Submit Order]**.
 
 Viene inviata una conferma al cliente che può visualizzare i dettagli dell&#39;ordine dal proprio account.

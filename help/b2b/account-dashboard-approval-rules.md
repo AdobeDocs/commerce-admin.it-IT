@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration
 role: Admin
 source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ A seconda del ruolo e delle autorizzazioni dell’azienda, gli utenti possono cr
 
 >[!IMPORTANT]
 >
->L&#39;impostazione della regola di approvazione richiede una [struttura aziendale](account-company-structure.md) al fine di specificare l&#39;approvazione da parte del responsabile del cliente acquirente.
+>La configurazione della regola di approvazione richiede una [struttura aziendale](account-company-structure.md) definita per specificare l&#39;approvazione da parte del manager del cliente acquirente.
 
 ## Metodi di pagamento
 
@@ -36,13 +36,13 @@ I flussi di approvazione degli ordini di acquisto supportano metodi di pagamento
 
 ## Impostazione regola di approvazione
 
-Con il necessario [autorizzazioni per il loro ruolo](account-company-roles-permissions.md), i clienti B2B possono impostare regole di approvazione per applicare le politiche aziendali facendo clic su **[!UICONTROL Approval Rules]** nel pannello a sinistra per l’account del cliente.
+Con le autorizzazioni [ richieste per il ruolo](account-company-roles-permissions.md), i clienti B2B possono impostare regole di approvazione per applicare i criteri aziendali facendo clic su **[!UICONTROL Approval Rules]** nel pannello a sinistra per il proprio account cliente.
 
 ![Regole di approvazione società](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 Per creare una regola di approvazione, il cliente completa i passaggi seguenti:
 
-1. Clic **[!UICONTROL Add New Rule]** per creare una regola.
+1. Fai clic su **[!UICONTROL Add New Rule]** per creare una regola.
 
 1. Se necessario, modifica la regola da **[!UICONTROL Enabled]** a **[!UICONTROL Disabled]**.
 
@@ -54,29 +54,29 @@ Per creare una regola di approvazione, il cliente completa i passaggi seguenti:
 
 1. Per **[!UICONTROL Description]**, immette una spiegazione più lunga della regola.
 
-1. Per **[!UICONTROL Applies to]**, sceglie uno o più ruoli aziendali utilizzati per applicare la regola.
+1. Per **[!UICONTROL Applies to]**, seleziona uno o più ruoli aziendali utilizzati per applicare la regola.
 
-1. Scegli il **[!UICONTROL Rule Type]** e definisce la regola.
+1. Seleziona **[!UICONTROL Rule Type]** e definisce la regola.
 
    Le sezioni seguenti forniscono una spiegazione dettagliata e un esempio per ogni tipo di regola.
 
    ![Creazione di una nuova regola di approvazione](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
-1. Per **[!UICONTROL Requires approval from]**, sceglie uno o più approvatori richiesti in base al tipo di approvazione.
+1. Per **[!UICONTROL Requires approval from]**, seleziona uno o più approvatori richiesti in base al tipo di approvazione.
 
    >[!NOTE]
    >
    >* Quando si assegna un ruolo come approvatore, accertarsi che in tale ruolo sia presente almeno un utente.
-   >* Se sono presenti due o più utenti con lo stesso ruolo approvatore, il creatore dell&#39;ordine fornitore non può approvarlo. In questo caso, l&#39;approvazione manuale è richiesta da qualsiasi altro utente con questo ruolo di approvatore. Tuttavia, se `Auto-approve POs created within this role` è impostata in [Autorizzazioni ruolo](account-company-roles-permissions.md), l&#39;ordine fornitore viene approvato automaticamente.
-   >* Se esiste un solo utente con il ruolo di approvatore e tale utente è il creatore, l&#39;ordine di acquisto viene sempre approvato automaticamente, ovvero `Auto-approve POs created within this role` l&#39;impostazione di autorizzazione viene ignorata.
+   >* Se sono presenti due o più utenti con lo stesso ruolo approvatore, il creatore dell&#39;ordine fornitore non può approvarlo. In questo caso, l&#39;approvazione manuale è richiesta da qualsiasi altro utente con questo ruolo di approvatore. Tuttavia, se l&#39;opzione `Auto-approve POs created within this role` è impostata nelle [Autorizzazioni ruolo](account-company-roles-permissions.md), l&#39;ordine di acquisto viene approvato automaticamente.
+   >* Se esiste un solo utente con il ruolo di approvatore e tale utente è il creatore, l&#39;ordine di acquisto viene sempre approvato automaticamente. L&#39;impostazione dell&#39;autorizzazione `Auto-approve POs created within this role` viene ignorata.
 
-1. Clic **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 ### [!UICONTROL Order Total]
 
 Questo tipo di regola viene utilizzato per richiedere un&#39;approvazione OA in base al totale dell&#39;ordine, imposte incluse.
 
-1. Scegli un **[!UICONTROL Order Total amount]** opzione:
+1. Scegli un&#39;opzione **[!UICONTROL Order Total amount]**:
 
    * `is more than`
    * `is less than`
@@ -91,7 +91,7 @@ Questo tipo di regola viene utilizzato per richiedere un&#39;approvazione OA in 
 
 Questo tipo di regola viene utilizzato per richiedere un&#39;approvazione dell&#39;ordine di acquisto in base alle spese di spedizione richieste da molte aziende.
 
-1. Imposta il **[!UICONTROL Shipping cost value]**:
+1. Imposta **[!UICONTROL Shipping cost value]**:
 
    * `is more than`
    * `is less than`
@@ -111,7 +111,7 @@ Questo tipo di regola viene utilizzato per richiedere un&#39;approvazione OA in 
 
 Questo esempio specifica cinque elementi, ma due SKU distinti.
 
-1. Imposta il **[!UICONTROL Number of SKUs]** valore:
+1. Imposta il valore **[!UICONTROL Number of SKUs]**:
 
    * `is more than`
    * `is less than`
@@ -126,25 +126,25 @@ Questo esempio specifica cinque elementi, ma due SKU distinti.
 
 Per modificare una regola di approvazione esistente, un cliente può completare i seguenti passaggi:
 
-1. Nella barra laterale del loro account, il cliente seleziona **[!UICONTROL Approval Rules]**.
+1. Nella barra laterale del proprio account, il cliente seleziona **[!UICONTROL Approval Rules]**.
 
 1. Trova la voce della regola di approvazione da modificare.
 
-1. Clic **[!UICONTROL Edit]**.
+1. Clic su **[!UICONTROL Edit]**.
 
-1. Apporta tutte le modifiche e i clic necessari **[!UICONTROL Save]**.
+1. Apporta tutte le modifiche necessarie e fa clic su **[!UICONTROL Save]**.
 
 ## Elimina regole di approvazione
 
 Per rimuovere una regola di approvazione esistente, un cliente può completare i seguenti passaggi:
 
-1. Nella barra laterale del loro account, seleziona **[!UICONTROL Approval Rules]**.
+1. Nella barra laterale dell&#39;account, seleziona **[!UICONTROL Approval Rules]**.
 
 1. Trova la voce della regola di approvazione da eliminare.
 
-1. Clic **[!UICONTROL Delete]**.
+1. Clic su **[!UICONTROL Delete]**.
 
-1. Per confermare l’azione, fai clic su **[!UICONTROL OK]**.
+1. Per confermare l&#39;azione, fa clic su **[!UICONTROL OK]**.
 
 ## Demo approvazioni ordini fornitore
 

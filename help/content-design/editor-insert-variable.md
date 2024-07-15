@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Inserire una variabile nell’editor
 
-Lo store include molti predefiniti [Variabili](../systems/variables-predefined.md) che possono essere incorporati nel contenuto della pagina e in altre comunicazioni. Inoltre, puoi includere [variabili personalizzate](../systems/variables-custom.md) specifici per le tue esigenze.
+Lo store include molte [variabili](../systems/variables-predefined.md) predefinite che possono essere incorporate nel contenuto della pagina e in altre comunicazioni. Inoltre, puoi includere [variabili personalizzate](../systems/variables-custom.md) che sono specifiche per le tue esigenze.
 
 1. Apri una pagina, un blocco o un blocco dinamico in modalità di modifica.
 
-1. Vai a _[!UICONTROL Content]_e fai clic su qualsiasi elemento che supporta l’editor.
+1. Andare alla sezione _[!UICONTROL Content]_e fare clic su qualsiasi elemento che supporta l&#39;editor.
 
-1. Posizionare il cursore nel punto in cui si desidera visualizzare la variabile e fare clic sul pulsante _Inserisci variabile_ icona.
+1. Posizionare il cursore nel punto in cui si desidera visualizzare la variabile e fare clic sull&#39;icona _Inserisci variabile_.
 
-   ![Barra degli strumenti dell’editor - Inserisci variabile](./assets/editor-toolbar-variable-button.png){width="700" zoomable="yes"}
+   ![Barra degli strumenti dell&#39;editor - Inserisci variabile](./assets/editor-toolbar-variable-button.png){width="700" zoomable="yes"}
 
-   Se non ha [!UICONTROL Page Builder] e preferisci lavorare con il codice HTML, fai clic su **[!UICONTROL Show / Hide Editor]**. Posizionare il punto di inserimento nel testo in cui si desidera visualizzare la variabile. Quindi, fai clic su **[!UICONTROL Insert Variable]**.
+   Se non hai abilitato [!UICONTROL Page Builder] e preferisci lavorare con il codice HTML, fai clic su **[!UICONTROL Show / Hide Editor]**. Posizionare il punto di inserimento nel testo in cui si desidera visualizzare la variabile. Quindi fare clic su **[!UICONTROL Insert Variable]**.
 
-1. Nell’elenco delle variabili disponibili, scegli quella desiderata e fai clic su **[!UICONTROL Insert Variable]**.
+1. Nell&#39;elenco delle variabili disponibili scegliere quella desiderata e fare clic su **[!UICONTROL Insert Variable]**.
 
-   ![Pagina Inserisci variabile](./assets/content-insert-variable.png){width="600" zoomable="yes"}
+   ![Inserisci pagina variabile](./assets/content-insert-variable.png){width="600" zoomable="yes"}
 
-1. Al termine delle modifiche apportate al contenuto, fai clic su **[!UICONTROL Save]**.
+1. Al termine delle modifiche apportate al contenuto, fare clic su **[!UICONTROL Save]**.

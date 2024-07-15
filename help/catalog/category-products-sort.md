@@ -5,7 +5,7 @@ exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
 source-git-commit: 14c3eb7d54776382bfa196efdac446d42c8dc940
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-La posizione dei prodotti in una categoria può essere specificata manualmente trascinando i prodotti nella posizione desiderata o applicando un ordinamento predefinito. Per impostazione predefinita, i prodotti possono essere ordinati per livello di stock, età, colore, nome, SKU e prezzo. L&#39;ordinamento automatico sostituisce l&#39;ordinamento corrente e reimposta le posizioni di trascinamento impostate manualmente. L&#39;ordinamento dei colori e il livello minimo di scorte che possono essere richiesti per i prodotti da includere nell&#39;elenco sono impostati nel [Visual Merchandiser](../configuration-reference/catalog/visual-merchandiser.md) configurazione.
+La posizione dei prodotti in una categoria può essere specificata manualmente trascinando i prodotti nella posizione desiderata o applicando un ordinamento predefinito. Per impostazione predefinita, i prodotti possono essere ordinati per livello di stock, età, colore, nome, SKU e prezzo. L&#39;ordinamento automatico sostituisce l&#39;ordinamento corrente e reimposta le posizioni di trascinamento impostate manualmente. L&#39;ordinamento dei colori e il livello minimo di scorte che possono essere richiesti per i prodotti da includere nell&#39;elenco sono impostati nella configurazione [Visual Merchandiser](../configuration-reference/catalog/visual-merchandiser.md).
 
 >[!NOTE]
 >
->Nelle pagine delle categorie, `Out of stock` i prodotti sono sempre visualizzati **_dopo_** `In Stock` prodotti nell’elenco dei prodotti con tutti i tipi di ordinamento.
+>Nelle pagine delle categorie, `Out of stock` prodotti sono sempre visualizzati **_dopo_** `In Stock` prodotti nell&#39;elenco dei prodotti con tutti i tipi di ordinamento.
 
-È possibile impostare le opzioni delle categorie separatamente per ciascuna categoria [visualizzazione store](../stores-purchase/stores.md#add-stores) per determinare la selezione dei prodotti, la loro posizione relativa nell’elenco e gli attributi disponibili per le regole di categoria. Tuttavia, esiste un unico **_globale_** l&#39;ordinamento e la posizione del prodotto nel catalogo e sono condivisi tra tutti [visualizzazioni store](../stores-purchase/store-views.md), store e siti Web.
+È possibile impostare le opzioni delle categorie separatamente per ogni [visualizzazione dello store](../stores-purchase/stores.md#add-stores) per determinare la selezione dei prodotti, la loro posizione relativa nell&#39;elenco e gli attributi disponibili per le regole delle categorie. Tuttavia, nel catalogo sono presenti un ordinamento e una posizione di prodotto **_global_** e sono condivisi in tutte le [visualizzazioni dello store](../stores-purchase/store-views.md), gli store e i siti Web.
 
 ## Passaggio 1: impostare l’ambito della configurazione
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Se necessario, scegliere il **[!UICONTROL Store View]** dove si applicano le impostazioni.
+1. Se necessario, scegliere **[!UICONTROL Store View]** in cui applicare le impostazioni.
 
-   Per un&#39;installazione in più store, _[!UICONTROL Store View]_Questa impostazione applica l&#39;ordinamento a tutte le visualizzazioni disponibili nello store.
+   Per un&#39;installazione in più store, l&#39;impostazione _[!UICONTROL Store View]_applica l&#39;ordinamento a tutte le visualizzazioni disponibili nell&#39;archivio.
 
 1. Nell&#39;albero delle categorie a sinistra, scegliere la categoria che si desidera modificare.
 
-   ![Albero categoria](./assets/category-selected.png){width="700" zoomable="yes"}
+   ![Albero categorie](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## Passaggio 2: ordinare i prodotti
 
@@ -40,13 +40,13 @@ La posizione dei prodotti in una categoria può essere specificata manualmente t
 >
 >Quando si ordina una categoria in base a un attributo di prodotto, anche i prodotti con gli stessi valori di attributo vengono ordinati in base al rispettivo _[!UICONTROL Product ID]_in ordine crescente.
 
-In _[!UICONTROL Products in Category]_, fare clic sulle tessere ( ![Visualizza riquadri](../assets/icon-view-tiles.png) ) per mostrare le sezioni del prodotto in una griglia. Utilizzare il metodo manuale o automatico per ordinare i prodotti.
+Nella sezione _[!UICONTROL Products in Category]_, fai clic sull&#39;icona dei riquadri ( ![Visualizza riquadri](../assets/icon-view-tiles.png) ) per visualizzare i riquadri del prodotto in una griglia. Utilizzare il metodo manuale o automatico per ordinare i prodotti.
 
-![Riquadri prodotto](./assets/category-products-tiles.png){width="600" zoomable="yes"}
+![Riquadri di prodotto](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
 ### Metodo 1: ordinamento manuale
 
-1. Imposta **[!UICONTROL Sort Order]** secondo le tue preferenze.
+1. Imposta **[!UICONTROL Sort Order]** sulla tua preferenza.
 
    ![Ordinamento](./assets/category-edit-sort-order.png){width="600" zoomable="yes"}
 
@@ -58,22 +58,22 @@ In _[!UICONTROL Products in Category]_, fare clic sulle tessere ( ![Visualizza r
 
 ### Metodo 2: ordinamento automatico
 
-1. Imposta **[!UICONTROL Match products by rule]** (![Attiva/disattiva sì](../assets/toggle-yes.png)) a `Yes`.
+1. Imposta **[!UICONTROL Match products by rule]** (![Attiva/disattiva yes](../assets/toggle-yes.png)) su `Yes`.
 
 
-1. Imposta **[!UICONTROL Automatic Sorting]** secondo le tue preferenze.
+1. Imposta **[!UICONTROL Automatic Sorting]** sulla tua preferenza.
 
 1. Per creare una regola di categoria, seguire le istruzioni del passaggio successivo.
 
 ## Passaggio 3: creare una regola di categoria
 
-1. Imposta **[!UICONTROL Match products by rule]** (![Attiva/disattiva sì](../assets/toggle-yes.png)) a `Yes`.
+1. Imposta **[!UICONTROL Match products by rule]** (![Attiva/disattiva yes](../assets/toggle-yes.png)) su `Yes`.
 
-1. Clic **[!UICONTROL Add Condition]**.
+1. Fare clic su **[!UICONTROL Add Condition]**.
 
-1. Scegli la **[!UICONTROL Attribute]** questa è la base della condizione.
+1. Scegliere **[!UICONTROL Attribute]** che è la base della condizione.
 
-1. Imposta **[!UICONTROL Operator]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Operator]** su uno dei seguenti:
 
    - `Equal`
    - `Not equal`
@@ -83,17 +83,17 @@ In _[!UICONTROL Products in Category]_, fare clic sulle tessere ( ![Visualizza r
    - `Less than or equal to`
    - `Contains`
 
-1. Immetti il valore appropriato **[!UICONTROL Value]**.
+1. Immettere il **[!UICONTROL Value]** appropriato.
 
    ![Condizione categoria](./assets/category-rule-create.png){width="600" zoomable="yes"}
 
-1. Per aggiungere un’altra condizione, fai clic su **[!UICONTROL Add Condition]** e ripetere il processo.
+1. Per aggiungere un&#39;altra condizione, fare clic su **[!UICONTROL Add Condition]** e ripetere il processo.
 
 ## Passaggio 4: salvare, aggiornare e verificare
 
-1. Al termine, fai clic su **[!UICONTROL Save Category]**.
+1. Al termine, fare clic su **[!UICONTROL Save Category]**.
 
-1. Quando viene richiesto di aggiornare la cache, fare clic su **[!UICONTROL Cache Management]** e aggiorna ogni cache non valida.
+1. Quando viene richiesto di aggiornare la cache, fare clic su **[!UICONTROL Cache Management]** e aggiornare ogni cache non valida.
 
 1. Nella vetrina, verifica che le regole di selezione, ordinamento e categoria del prodotto funzionino correttamente.
 

@@ -14,30 +14,30 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Il registro delle azioni in blocco registra i dettagli delle operazioni di massa asincrone eseguite in background, ad esempio importazione/esportazione o assegnazione [prezzi personalizzati](../b2b/catalog-shared-manage.md#update-custom-pricing) a più prodotti in una [catalogo condiviso](../b2b/catalog-shared.md).
+Il registro delle azioni in blocco registra i dettagli delle operazioni di massa asincrone eseguite in background, ad esempio l&#39;importazione/esportazione o l&#39;assegnazione di [prezzi personalizzati](../b2b/catalog-shared-manage.md#update-custom-pricing) a più prodotti in un [catalogo condiviso](../b2b/catalog-shared.md).
 
 ![Registro azioni in blocco](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## Configurare azioni in blocco
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Advanced]** e scegli **[!UICONTROL System]**.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Bulk Actions]** e impostare l&#39;opzione log save:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Bulk Actions]** e impostare l&#39;opzione di salvataggio del registro:
 
    **[!UICONTROL Days Saved in Log]** — Immettere il numero di giorni in cui le azioni in blocco vengono salvate in un registro.
 
-   ![Configurazione avanzata - Azioni in blocco](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
+   ![Configurazione avanzata - azioni in blocco](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
-   Per un elenco dettagliato delle impostazioni di configurazione, vedi [_Azioni in blocco_](../configuration-reference/advanced/system.md) nel _Riferimento configurazione_.
+   Per un elenco dettagliato delle impostazioni di configurazione, vedere [_Azioni in blocco_](../configuration-reference/advanced/system.md) nel _Riferimento configurazione_.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 ## Visualizza azioni in blocco
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
 
 1. Trova l’azione desiderata nel registro.
 
-1. In _[!UICONTROL Action]_, fare clic su **[!UICONTROL Details]**.
+1. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL Details]**.

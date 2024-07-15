@@ -5,14 +5,14 @@ exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Etichette di spedizione
 
-Il commercio include un elevato livello di integrazione con i principali vettori di spedizione, che ti consente di accedere ai sistemi di spedizione dei vettori per tenere traccia degli ordini, creare etichette di spedizione e altro ancora. Le etichette di spedizione possono essere create per le spedizioni regolari e i prodotti con autorizzazione alla restituzione. Oltre alle informazioni fornite dal vettore di spedizione, l&#39;etichetta comprende anche il numero dell&#39;ordine Commerce, il numero del pacchetto e la quantità totale di pacchetti per la spedizione.
+Commerce include un elevato livello di integrazione con i principali vettori di spedizione, che consente di accedere ai sistemi di spedizione dei vettori per tenere traccia degli ordini, creare etichette di spedizione e altro ancora. Le etichette di spedizione possono essere create per le spedizioni regolari e i prodotti con autorizzazione alla restituzione. Oltre alle informazioni fornite dal vettore di spedizione, l&#39;etichetta include anche il numero di ordine Commerce, il numero del pacchetto e la quantità totale di pacchetti per la spedizione.
 
 ![Etichetta spedizione prioritaria USPS](./assets/shipping-usps-priority-label.png){width="300"}
 

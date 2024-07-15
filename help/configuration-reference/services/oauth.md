@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Services] &gt; [!UICONTROL OAuth] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Services] &gt; [!UICONTROL OAuth] dell'amministratore di Commerce.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Gli algoritmi di crittografia e durata dei token API Bearer e admin sono controllati da [Autenticazione JWT](magento-web-api.md#jwt-authentication) impostazioni di configurazione.
+>Gli algoritmi di crittografia e durata del token API Bearer e dell&#39;amministratore sono controllati dalle impostazioni di configurazione [JWT Authentication](magento-web-api.md#jwt-authentication).
 
 ## [!UICONTROL Cleanup Settings]
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Cleanup Probability] | Globale | Specifica il numero di richieste OAuth prima dell&#39;avvio della pulizia. Non inserire `0` per disattivare la pulizia. |
+| [!UICONTROL Cleanup Probability] | Globale | Specifica il numero di richieste OAuth prima dell&#39;avvio della pulizia. Non immettere `0` per disabilitare la pulizia. |
 | [!UICONTROL Enable WSDL Cache] | Globale | Determina la durata delle voci in minuti, prima che vengano pulite. |
 
 {style="table-layout:auto"}

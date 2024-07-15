@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL General] &gt; [!UICONTROL Reports] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] &gt; [!UICONTROL Reports] dell'amministratore di Commerce.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf

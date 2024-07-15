@@ -5,7 +5,7 @@ exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Queste impostazioni consigliate possono essere utilizzate per la maggior parte d
 | Calcolo delle imposte | Su elemento |
 | Spedizione fiscale? | Sì |
 | Applica sconto | Al lordo delle imposte, sconto sui prezzi, incluse le imposte. |
-| Commento | Affinché gli esercenti B2B forniscano considerazioni più semplici sulla catena di approvvigionamento dell’IVA. Il calcolo dell&#39;imposta sulla riga è valido; tuttavia, verificare con la propria giurisdizione fiscale. L&#39;impostazione presuppone che un commerciante si trovi nella catena di fornitura e che le merci vendute siano utilizzate da altri fornitori per sconti IVA e così via. Questa definizione consente di individuare facilmente le imposte per articolo per generare più rapidamente gli sconti. <br/><br/>**_Nota:_**Alcune giurisdizioni richiedono diverse strategie di arrotondamento non attualmente supportate da Commerce e non tutte le giurisdizioni consentono l’imposta a livello di articolo o di riga. |
+| Commento | Affinché gli esercenti B2B forniscano considerazioni più semplici sulla catena di approvvigionamento dell’IVA. Il calcolo dell&#39;imposta sulla riga è valido; tuttavia, verificare con la propria giurisdizione fiscale. L&#39;impostazione presuppone che un commerciante si trovi nella catena di fornitura e che le merci vendute siano utilizzate da altri fornitori per sconti IVA e così via. Questa definizione consente di individuare facilmente le imposte per articolo per generare più rapidamente gli sconti. <br/><br/>**_Nota:_**alcune giurisdizioni richiedono strategie di arrotondamento diverse non supportate da Commerce e non tutte le giurisdizioni consentono l&#39;imposta a livello di articolo o di riga. |
 
 {style="table-layout:auto"}
 
@@ -140,7 +140,7 @@ Queste impostazioni consigliate possono essere utilizzate per la maggior parte d
 
 >[!IMPORTANT]
 >
->I commercianti che si trovano in una provincia GST/PST (Montreal) devono creare una regola fiscale unica e mostrare un importo di imposta combinato. In caso di domande, rivolgiti a un’autorità fiscale qualificata. Per informazioni sui requisiti fiscali di province specifiche, vedere: [Revenu Québec][1], [Governo del Saskatchewan][2], e [Manitoba Informazioni per i fornitori][3]
+>I commercianti che si trovano in una provincia GST/PST (Montreal) devono creare una regola fiscale unica e mostrare un importo di imposta combinato. In caso di domande, rivolgiti a un’autorità fiscale qualificata. Per informazioni sui requisiti fiscali di province specifiche, vedere: [Revenu Québec][1], [Government of Saskatchewan][2] e [Manitoba Information for Vendors][3]
 
 | Opzione imposta | Consiglio |
 |--- |--- |
@@ -160,9 +160,9 @@ Nell&#39;esempio seguente viene illustrato come impostare le aliquote fiscali GS
 
 ### Passaggio 1: Completare le impostazioni di calcolo delle imposte
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Per una configurazione multisito, imposta **[!UICONTROL Store View]** al sito web e al negozio di destinazione della configurazione.
+1. Per una configurazione multisito, impostare **[!UICONTROL Store View]** sul sito Web e sull&#39;archivio di destinazione della configurazione.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Tax]**.
 
@@ -258,7 +258,7 @@ Imposta un&#39;altra aliquota per la provincia applicabile.
 
 ### Passaggio 4: creare una regola fiscale GST
 
-Per evitare di comporre l&#39;imposta e visualizzare correttamente l&#39;imposta calcolata come voci di riga separate per GST e PST, impostare priorità diverse per ogni regola e selezionare **Calcola solo subtotale** casella di controllo. Ogni imposta viene visualizzata come una voce distinta, ma gli importi dell&#39;imposta non vengono composti.
+Per evitare di comporre l&#39;imposta e visualizzare correttamente l&#39;imposta calcolata come voci separate per GST e PST, impostare priorità diverse per ogni regola e selezionare la casella di controllo **Calcola solo subtotale**. Ogni imposta viene visualizzata come una voce distinta, ma gli importi dell&#39;imposta non vengono composti.
 
 #### Informazioni sulle regole fiscali
 
@@ -276,7 +276,7 @@ Per evitare di comporre l&#39;imposta e visualizzare correttamente l&#39;imposta
 
 ### Passaggio 5: creare una regola fiscale PST per Saskatchewan
 
-Per questa regola fiscale, assicurati di impostare la priorità su 0 e selezionare la **Calcola solo subtotale** casella di controllo. Ogni imposta viene visualizzata come una voce distinta, ma gli importi dell&#39;imposta non vengono composti.
+Per questa regola fiscale, impostare la priorità su 0 e selezionare la casella di controllo **Calcola solo subtotale**. Ogni imposta viene visualizzata come una voce distinta, ma gli importi dell&#39;imposta non vengono composti.
 
 #### Informazioni sulle regole fiscali
 
@@ -294,7 +294,7 @@ Per questa regola fiscale, assicurati di impostare la priorità su 0 e seleziona
 
 ### Passaggio 6: salvare e verificare i risultati
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 1. Torna alla vetrina e crea un ordine di esempio per testare i risultati.
 
@@ -324,10 +324,10 @@ Crea le seguenti aliquote:
 
 | Aliquote fiscali | Impostazioni |
 |--- |--- |
-| Francia - StandardVAT | Paese: Francia <br/>Stato/regione: * <br/>CAP: * <br/>Tasso: 20% |
-| Francia - IVA ridotta | Paese: Francia <br/>Stato/regione: * <br/>CAP: * <br/>Tasso: 5% |
-| Germania - StandardVAT | Paese: Germania <br/>Stato/regione: * <br/>CAP: * Tariffa: 19% |
-| Germania - IVA ridotta | Paese: Germania <br/>Stato/regione: * <br/>CAP: * <br/>Percentuale: 7% |
+| Francia - StandardVAT | Paese: Francia <br/>Stato/Regione: * <br/>CAP: * <br/>Percentuale: 20% |
+| Francia - IVA ridotta | Paese: Francia <br/>Stato/Regione: * <br/>CAP: * <br/>Tariffa: 5% |
+| Germania - StandardVAT | Paese: Germania <br/>Stato/Regione: * <br/>CAP: * Tariffa: 19% |
+| Germania - IVA ridotta | Paese: Germania <br/>Stato/Regione: * <br/>CAP: * <br/>Tariffa: 7% |
 
 {style="table-layout:auto"}
 
@@ -337,32 +337,32 @@ Crea le seguenti regole fiscali:
 
 | Regole fiscali | Impostazioni |
 |--- |--- |
-| Retail-Francia-StandardVAT | Classe cliente: Cliente al dettaglio <br/>Classe imposta: standard IVA <br/>Aliquota: France-StandardVAT <br/>Priorità: 0 <br/>Ordinamento: 0 |
-| Retail-France-ReducedVAT | Classe cliente: Cliente al dettaglio <br/>Classe imposta: IVA ridotta <br/>Aliquota: IVA ridotta in Francia <br/>Priorità: 0 <br/>Ordinamento: 0 |
-| Retail-Germania-StandardVAT | Classe cliente: Cliente al dettaglio <br/>Classe imposta: standard IVA <br/>Aliquota: Germania-IVA standard <br/>Priorità: 0 <br/>Ordinamento: 0 |
-| Retail-Germany-ReducedVAT | Classe cliente: Cliente al dettaglio <br/>Classe imposta: IVA ridotta <br/>Aliquota: IVA ridotta in Germania <br/>Priorità: 0 <br/>Ordinamento: 0 |
+| Retail-Francia-StandardVAT | Classe cliente: Cliente al dettaglio <br/>Classe imposta: IVA-Standard <br/>Aliquota imposta: Francia-StandardIVA <br/>Priorità: 0 <br/>Ordinamento: 0 |
+| Retail-France-ReducedVAT | Classe cliente: Cliente al dettaglio <br/>Classe imposta: IVA ridotta <br/>Aliquota imposta: France-ReducedVAT <br/>Priorità: 0 <br/>Ordinamento: 0 |
+| Retail-Germania-StandardVAT | Classe cliente: Cliente al dettaglio <br/>Classe imposta: IVA-Standard <br/>Aliquota imposta: Germania-StandardIVA <br/>Priorità: 0 <br/>Ordinamento: 0 |
+| Retail-Germany-ReducedVAT | Classe cliente: Cliente al dettaglio <br/>Classe imposta: IVA ridotta <br/>Aliquota imposta: Germania - IVA ridotta <br/>Priorità: 0 <br/>Ordinamento: 0 |
 
 {style="table-layout:auto"}
 
 ### Passaggio 4: configurare una vetrina per la Germania
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. Nel sito Web predefinito, crea una visualizzazione Store per **[!UICONTROL Germany]**.
+1. Nel sito Web predefinito creare una visualizzazione Store per **[!UICONTROL Germany]**.
 
 1. Quindi, effettuare le seguenti operazioni:
 
-   - Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-   - Nell&#39;angolo in alto a sinistra, imposta **[!UICONTROL Default Config]** al negozio francese.
+   - Nell&#39;angolo in alto a sinistra, impostare **[!UICONTROL Default Config]** sullo store francese.
 
-   - Nella pagina Generale espandere ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Countries Options]** e impostare il paese predefinito su `France`.
+   - Nella pagina Generale espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Countries Options]** e impostare il paese predefinito su `France`.
 
    - Completare le opzioni internazionali in base alle esigenze.
 
-1. Nell&#39;angolo in alto a sinistra, scegliere il tedesco **[!UICONTROL Store View]**.
+1. Nell&#39;angolo superiore sinistro scegliere il tedesco **[!UICONTROL Store View]**.
 
-1. Il giorno _Generale_ page, espandi ![Selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** e imposta il paese predefinito su `Germany`.
+1. Nella pagina _Generale_, espandere ![Selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** e impostare il paese predefinito su `Germany`.
 
 1. Completare le opzioni internazionali in base alle esigenze.
 
@@ -397,27 +397,27 @@ Completa le seguenti impostazioni fiscali generali:
 
 ### Passaggio 6: configurare le impostazioni relative alle imposte per la Germania
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nell&#39;angolo in alto a destra, imposta **[!UICONTROL Store View]** per visualizzare il negozio tedesco e fare clic su **[!UICONTROL OK]** per confermare.
+1. Nell&#39;angolo in alto a destra, impostare **[!UICONTROL Store View]** per la visualizzazione sullo store tedesco e fare clic su **[!UICONTROL OK]** per confermare.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Tax]**.
 
-1. In **[!UICONTROL Default Tax Destination Calculation]** eseguire le operazioni seguenti:
+1. Nella sezione **[!UICONTROL Default Tax Destination Calculation]** eseguire le operazioni seguenti:
 
-   - Cancella **[!UICONTROL Use Website]** casella di controllo dopo ogni campo,
+   - Deselezionare la casella di controllo **[!UICONTROL Use Website]** dopo ogni campo.
 
    - Per corrispondere alle impostazioni di spedizione del sito [punto di origine](shipping-settings.md#point-of-origin), aggiorna i seguenti valori:
 
       - Paese predefinito
       - Stato predefinito
-      - Codice postale predefinito
+      - Codice Post predefinito
 
      Questa impostazione garantisce che l&#39;imposta venga calcolata correttamente quando i prezzi dei prodotti includono l&#39;imposta.
 
      ![Calcolo destinazione imposta predefinita](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 [1]: https://www.revenuquebec.ca/en/businesses/
 [2]: https://www.saskatchewan.ca/finance

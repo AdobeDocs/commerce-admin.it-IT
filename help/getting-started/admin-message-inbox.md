@@ -1,10 +1,10 @@
 ---
 title: Casella in entrata messaggio amministratore
-description: Scopri la casella in entrata dei messaggi dell’amministratore, che fornisce messaggi importanti e utili da Adobe e da [!DNL Commerce] di rete.
+description: Scopri la casella in entrata dei messaggi dell'amministratore, che fornisce messaggi importanti e utili da Adobe e dal sistema  [!DNL Commerce] .
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
 source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -15,73 +15,73 @@ Il tuo negozio riceve regolarmente messaggi da Adobe. I messaggi sono classifica
 
 ![Amministratore - messaggi in arrivo](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-Il _[!UICONTROL Notifications]_pagina elenca tutti i messaggi classificati per data. Il_[!UICONTROL Action]_ è possibile utilizzare i comandi per contrassegnare i singoli messaggi come letti, visualizzare informazioni più dettagliate o rimuovere il messaggio dalla casella in entrata.
+Nella pagina _[!UICONTROL Notifications]_sono elencati tutti i messaggi classificati per data. I comandi_[!UICONTROL Action]_ possono essere utilizzati per contrassegnare singoli messaggi come letti, visualizzare informazioni più dettagliate o rimuovere il messaggio dalla posta in arrivo.
 
 La configurazione determina la frequenza di aggiornamento della casella in entrata e la modalità di consegna dei messaggi. Se l&#39;amministratore del tuo archivio dispone di un URL sicuro, le notifiche devono essere inviate tramite HTTPS.
 
 ## Visualizza nuovi messaggi in arrivo
 
-1. Fai clic su **[!UICONTROL Notification]** nell’intestazione e leggi il riepilogo.
+1. Fai clic sull&#39;icona **[!UICONTROL Notification]** nell&#39;intestazione e leggi il riepilogo.
 
 1. Effettuare una delle seguenti operazioni:
 
    - Se necessario, fai clic sul messaggio per visualizzare il testo completo.
    - Per eliminare il messaggio, fai clic sull’icona Elimina a destra del messaggio.
-   - Per visualizzare l’elenco completo delle notifiche, fai clic su **[!UICONTROL See All]**.
+   - Per visualizzare l&#39;elenco completo delle notifiche, fare clic su **[!UICONTROL See All]**.
 
 ## Risolvere un messaggio critico
 
 Per un messaggio di importanza critica, effettua una delle seguenti operazioni:
 
-- Clic **[!UICONTROL Read Details]**.
+- Fare clic su **[!UICONTROL Read Details]**.
 - Per chiudere la finestra di avviso mantenendo attivo il messaggio, fare clic su **[!UICONTROL Close]**.
 
 ## Amministrare le notifiche
 
 1. Per aprire la pagina Notifiche, eseguire una delle operazioni seguenti:
 
-   - Fai clic su **[!UICONTROL Notification]** nell’intestazione. Se sono presenti uno o più nuovi messaggi, fai clic su **[!UICONTROL See All]**.
+   - Fai clic sull&#39;icona **[!UICONTROL Notification]** nell&#39;intestazione. Se sono presenti uno o più nuovi messaggi, fare clic su **[!UICONTROL See All]**.
 
-   - Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
 
-1. In **[!UICONTROL Action]** eseguire una delle operazioni seguenti:
+1. Nella colonna **[!UICONTROL Action]** eseguire una delle operazioni seguenti:
 
-   - Per ulteriori informazioni, fai clic su **[!UICONTROL Read Details]** per aprire la pagina collegata in una nuova finestra.
+   - Per ulteriori informazioni, fare clic su **[!UICONTROL Read Details]** per aprire la pagina collegata in una nuova finestra.
 
    - Per mantenere il messaggio nella Posta in arrivo, fare clic su **[!UICONTROL Mark As Read]**.
 
      ![Amministratore - Contrassegna le notifiche selezionate come lette](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
-   - Per eliminare il messaggio, fai clic su **[!UICONTROL Remove]**.
+   - Per eliminare il messaggio, scegliere **[!UICONTROL Remove]**.
 
 1. Per applicare un&#39;azione a più messaggi, eseguire una delle operazioni seguenti:
 
    - Seleziona la casella di controllo nella prima colonna per ogni messaggio da gestire.
-   - Per selezionare più messaggi, imposta **[!UICONTROL Mass Actions]** secondo necessità.
+   - Per selezionare più messaggi, impostare il controllo **[!UICONTROL Mass Actions]** in base alle esigenze.
 
-1. Imposta il **[!UICONTROL Actions]** controllo a uno dei seguenti elementi:
+1. Impostare il controllo **[!UICONTROL Actions]** su uno dei seguenti valori:
 
    - `Mark as Read`
    - `Remove`
 
-1. Clic **[!UICONTROL Submit]** per completare il processo.
+1. Fare clic su **[!UICONTROL Submit]** per completare il processo.
 
 ## Configurare le notifiche
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello di navigazione a sinistra, espandi **[!UICONTROL Advanced]** e scegli **[!UICONTROL System]**.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png)il **[!UICONTROL Notifications]** sezione.
+1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png)la sezione **[!UICONTROL Notifications]**.
 
-   ![Configurazione delle notifiche](./assets/system-notifications.png){width="600"}
+   ![Configurazione notifiche](./assets/system-notifications.png){width="600"}
 
-1. Se l’amministratore del negozio esegue più di [URL protetto](../stores-purchase/store-urls.md), impostato **[!UICONTROL Use HTTPS to Get Feed]** a `Yes`.
+1. Se l&#39;amministratore dello store esegue un [URL protetto](../stores-purchase/store-urls.md), impostare **[!UICONTROL Use HTTPS to Get Feed]** su `Yes`.
 
-1. Imposta **[!UICONTROL Update Frequency]** per determinare la frequenza con cui viene aggiornata la casella in entrata.
+1. Imposta **[!UICONTROL Update Frequency]** per determinare la frequenza con cui la tua casella in entrata viene aggiornata.
 
    L’intervallo può essere compreso tra una e 24 ore.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
-Per ulteriori informazioni su [!UICONTROL System] opzioni di configurazione, vedi [_Guida di riferimento alla configurazione_](../configuration-reference/advanced/system.md).
+Per ulteriori informazioni sulle opzioni di configurazione [!UICONTROL System], vedere la [_Guida di riferimento alla configurazione_](../configuration-reference/advanced/system.md).

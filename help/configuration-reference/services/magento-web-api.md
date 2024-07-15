@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL Magento Web API]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] dell'amministratore di Commerce.
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## [!UICONTROL GraphQl Input Limits]
 
-![Limiti di input di GraphQl](./assets/web-api-graphql-input-limits.png)<!-- zoom -->
+![Limiti di input GraphQl](./assets/web-api-graphql-input-limits.png)<!-- zoom -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Web Api Input Limits]
 
-![Limiti di input API Web](./assets/web-api-input-limits.png)<!-- zoom -->
+![Limiti Di Input Api Web](./assets/web-api-input-limits.png)<!-- zoom -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -52,11 +52,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Web API Security]
 
-![Sicurezza API web](./assets/web-api-security.png)<!-- zoom -->
+![Sicurezza API Web](./assets/web-api-security.png)<!-- zoom -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Allow Anonymous Guest Access] | Globale | Determina se gli utenti guest possono accedere in modo anonimo a CMS, catalogare e archiviare risorse dalle API SOAP e REST. Per impostazione predefinita, l&#39;accesso come ospite anonimo non è consentito. Opzioni: `Yes` / `No` |
+| [!UICONTROL Allow Anonymous Guest Access] | Globale | Determina se gli ospiti di possono accedere in modo anonimo a CMS, catalogare e archiviare risorse dalle API SOAP e REST. Per impostazione predefinita, l&#39;accesso come ospite anonimo non è consentito. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

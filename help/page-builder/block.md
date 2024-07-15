@@ -1,6 +1,6 @@
 ---
 title: Aggiungi contenuto - Blocca
-description: Scopri il tipo di contenuto Blocco, utilizzato per aggiungere un blocco riutilizzabile al [!DNL Page Builder] fase.
+description: Scopri il tipo di contenuto Blocca, utilizzato per aggiungere un blocco riutilizzabile alla fase  [!DNL Page Builder] .
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Aggiungi contenuto - Blocca
 
-Utilizza il _Blocca_ tipo di contenuto per aggiungere un elemento attivo esistente [blocco](../content-design/blocks.md) al [[!DNL Page Builder] fase](workspace.md#stage). Nell’esempio seguente, la prima colonna contiene il blocco con un menu laterale per la pagina. La seconda colonna contiene un’immagine.
+Utilizza il tipo di contenuto _Blocca_ per aggiungere un [blocco](../content-design/blocks.md) attivo esistente alla [[!DNL Page Builder] fase](workspace.md#stage). Nell’esempio seguente, la prima colonna contiene il blocco con un menu laterale per la pagina. La seconda colonna contiene un’immagine.
 
 ![Blocca con un menu laterale](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
@@ -24,9 +24,9 @@ Utilizza il _Blocca_ tipo di contenuto per aggiungere un elemento attivo esisten
 | --------- | -------- | ------------- |
 | Sposta | ![Icona Sposta](./assets/pb-icon-move.png) | Sposta il contenitore di blocchi e il relativo contenuto in un&#39;altra posizione sullo stage. |
 | Impostazioni | ![Icona Impostazioni](./assets/pb-icon-settings.png) | Apre la pagina Modifica blocco, in cui è possibile scegliere il blocco e modificare le proprietà del contenitore. |
-| Nascondi | ![Nascondi icona](./assets/pb-icon-hide.png) | Nasconde il contenitore di blocchi corrente e il relativo contenuto. |
+| Nascondi | ![Icona Nascondi](./assets/pb-icon-hide.png) | Nasconde il contenitore di blocchi corrente e il relativo contenuto. |
 | Spettacolo | ![Mostra icona](./assets/pb-icon-show.png) | Mostra il contenitore di blocchi nascosto e il relativo contenuto. |
-| Duplica | ![Icona Duplica](./assets/pb-icon-duplicate.png) | Crea una copia del contenitore di blocchi e del relativo contenuto. |
+| Duplica | ![Icona duplicata](./assets/pb-icon-duplicate.png) | Crea una copia del contenitore di blocchi e del relativo contenuto. |
 | Rimuovi | ![Icona Rimuovi](./assets/pb-icon-remove.png) | Elimina dall’area di visualizzazione il contenitore di blocchi e il relativo contenuto. |
 
 {style="table-layout:auto"}
@@ -35,19 +35,19 @@ Utilizza il _Blocca_ tipo di contenuto per aggiungere un elemento attivo esisten
 
 ## Aggiungi un blocco esistente
 
-1. Accedi a [!DNL Page Builder] area di lavoro nella pagina di destinazione, nel blocco, nel blocco dinamico, nel prodotto o nella categoria.
+1. Passare all&#39;area di lavoro [!DNL Page Builder] nella pagina di destinazione, nel blocco, nel blocco dinamico, nel prodotto o nella categoria.
 
-1. In [!DNL Page Builder] pannello, espandere **[!UICONTROL Add Content]** e trascina un **[!UICONTROL Block]** segnaposto nell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder], espandere **[!UICONTROL Add Content]** e trascinare un segnaposto **[!UICONTROL Block]** nell&#39;area di visualizzazione.
 
-   ![Trascinamento di un blocco sullo stage](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
+   ![Trascinamento di un blocco nell&#39;area di visualizzazione](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. Passa il puntatore del mouse sul contenitore di blocchi vuoto per visualizzare la casella degli strumenti e scegli _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} ).
+1. Passa il puntatore del mouse sul contenitore di blocchi vuoto per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} ).
 
-1. Clic **[!UICONTROL Select Block]**.
+1. Fare clic su **[!UICONTROL Select Block]**.
 
    ![Selezione di un blocco](./assets/pb-add-content-block-select.png){width="200"}
 
-1. Nella riga del blocco che desideri aggiungere, fai clic su **[!UICONTROL Select]** nell’ultima colonna.
+1. Nella riga del blocco che si desidera aggiungere fare clic su **[!UICONTROL Select]** nell&#39;ultima colonna.
 
    ![Blocco selezionato](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
@@ -57,11 +57,11 @@ Utilizza il _Blocca_ tipo di contenuto per aggiungere un elemento attivo esisten
 
 1. Completa le altre impostazioni necessarie, utilizzando le descrizioni dei campi alla fine di questa pagina come riferimento.
 
-1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 ### Impostazioni avanzate
 
-1. Per controllare il posizionamento del blocco all’interno del contenitore principale, scegli un **[!UICONTROL Alignment]**:
+1. Per controllare il posizionamento del blocco all&#39;interno del contenitore padre, scegliere un **[!UICONTROL Alignment]**:
 
    | Opzione | Descrizione |
    | ------ | ----------- |
@@ -72,7 +72,7 @@ Utilizza il _Blocca_ tipo di contenuto per aggiungere un elemento attivo esisten
 
    {style="table-layout:auto"}
 
-1. Imposta un **[!UICONTROL Border]** stile applicato a tutti e quattro i lati del contenitore di blocchi:
+1. Imposta uno stile **[!UICONTROL Border]** applicato a tutti e quattro i lati del contenitore di blocchi:
 
    | Opzione | Descrizione |
    | ------ | ----------- |
@@ -99,11 +99,11 @@ Utilizza il _Blocca_ tipo di contenuto per aggiungere un elemento attivo esisten
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Specifica i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare al contenitore.
+1. (Facoltativo) Specificare i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare al contenitore.
 
    Separare più nomi di classe con uno spazio.
 
-1. Immetti i valori, in pixel, per il **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del contenitore di blocchi.
+1. Immettere i valori, in pixel, per **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna del contenitore di blocchi.
 
    Immettere i valori corrispondenti nel diagramma.
 
@@ -116,26 +116,26 @@ Utilizza il _Blocca_ tipo di contenuto per aggiungere un elemento attivo esisten
 
 ## Modifica impostazioni blocco
 
-1. Passa il puntatore del mouse sul contenitore di blocchi e scegli _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} ) nella casella degli strumenti.
+1. Passa il puntatore del mouse sul contenitore di blocchi e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} ) nella casella degli strumenti.
 
-   ![Casella degli strumenti Blocca](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
+   ![Blocca Casella Degli Strumenti](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
-1. Per scegliere un blocco diverso, fai clic su **[!UICONTROL Select Block]**.
+1. Per scegliere un blocco diverso, fare clic su **[!UICONTROL Select Block]**.
 
-   - Nell’elenco dei blocchi attivi, fai clic su **[!UICONTROL Select]** il blocco che desideri aggiungere.
-   - Clic **[!UICONTROL Add Selected]**.
+   - Nell&#39;elenco dei blocchi attivi fare clic su **[!UICONTROL Select]** il blocco che si desidera aggiungere.
+   - Fare clic su **[!UICONTROL Add Selected]**.
 
 1. Se necessario, aggiorna le altre impostazioni utilizzando le descrizioni dei campi alla fine di questa pagina come riferimento.
 
-1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 ## Duplicare un blocco
 
-1. Passa il puntatore del mouse sul contenitore di blocchi per visualizzare la casella degli strumenti e scegli _Duplica_ (![Icona Duplica](./assets/pb-icon-duplicate.png)).
+1. Passa il puntatore del mouse sul contenitore di blocchi per visualizzare la casella degli strumenti e scegli l&#39;icona _Duplica_ (![Icona Duplica](./assets/pb-icon-duplicate.png)).
 
    Il duplicato viene visualizzato immediatamente sotto l&#39;originale.
 
-1. Per spostare il nuovo blocco in una nuova posizione, posizionare il puntatore sul contenitore e quindi fare clic su _Sposta_ (![Icona Sposta](./assets/pb-icon-move.png)) nella casella degli strumenti.
+1. Per spostare il nuovo blocco in una nuova posizione, posizionare il puntatore del mouse sul contenitore, quindi fare clic su _Sposta_ (![Icona Sposta](./assets/pb-icon-move.png)) nella casella degli strumenti.
 
 1. Seleziona e trascina il blocco fino a quando la linea guida rossa non viene visualizzata nella nuova posizione.
 
@@ -143,6 +143,6 @@ Utilizza il _Blocca_ tipo di contenuto per aggiungere un elemento attivo esisten
 
 ## Rimuovere un blocco dall&#39;area di visualizzazione
 
-1. Passa il puntatore del mouse sul contenitore di blocchi per visualizzare la casella degli strumenti e scegli _Rimuovi_ (![Icona Rimuovi](./assets/pb-icon-remove.png)).
+1. Passa il puntatore del mouse sul contenitore di blocchi per visualizzare la casella degli strumenti e scegli l&#39;icona _Rimuovi_ (![Rimuovi icona](./assets/pb-icon-remove.png)).
 
-1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL OK]**.
+1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL OK]**.

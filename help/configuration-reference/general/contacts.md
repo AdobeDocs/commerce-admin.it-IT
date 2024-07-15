@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Contacts]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL General] &gt; [!UICONTROL Contacts] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] &gt; [!UICONTROL Contacts] dell'amministratore di Commerce.
 exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Enable Contact Us] | Visualizzazione store | Abilita [_Contattaci_](../../getting-started/store-details.md#contact-us-form) e inserisce un collegamento nel piè di pagina. |
+| [!UICONTROL Enable Contact Us] | Visualizzazione store | Abilita la pagina [_Contattaci_](../../getting-started/store-details.md#contact-us-form) e inserisce un collegamento nel piè di pagina. |
 
 {style="table-layout:auto"}
 
@@ -34,8 +34,8 @@ ht-degree: 2%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Send Emails To] | Visualizzazione store | Identifica l’indirizzo e-mail che riceve tutte le risposte da _Contattaci_ pagina |
-| [!UICONTROL Email Sender] | Visualizzazione store | Identifica il contatto del punto vendita utilizzato per tutte le risposte alle richieste di informazioni e-mail da _Contattaci_ pagina. Mittente predefinito: `Custom Email 2` |
-| [!UICONTROL Email Template] | Visualizzazione store | Specifica il modello da utilizzare come base per tutte le risposte alle richieste e-mail provenienti da _Contattaci_ pagina. Modello predefinito: `Contact Form` |
+| [!UICONTROL Send Emails To] | Visualizzazione store | Identifica l&#39;indirizzo di posta elettronica che riceve tutte le risposte dalla pagina _Contattaci_ |
+| [!UICONTROL Email Sender] | Visualizzazione store | Identifica il contatto del punto vendita utilizzato per tutte le risposte alle richieste di e-mail dalla pagina _Contattaci_. Mittente predefinito: `Custom Email 2` |
+| [!UICONTROL Email Template] | Visualizzazione store | Specifica il modello da utilizzare come base per tutte le risposte alle richieste e-mail dalla pagina _Contattaci_. Modello predefinito: `Contact Form` |
 
 {style="table-layout:auto"}

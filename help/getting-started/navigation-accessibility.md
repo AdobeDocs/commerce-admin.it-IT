@@ -5,7 +5,7 @@ exl-id: 7e3becf2-6c47-4993-8581-e253607ab381
 feature: Compliance
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Alcuni visitatori del sito utilizzano i controlli della tastiera per la navigazione, anziché il mouse, mentre altri possono utilizzare i comandi touch o vocali. Anche se i controlli di navigazione da tastiera variano in base al browser e alla piattaforma, il tasto TAB viene comunemente utilizzato per spostare lo stato attivo tra i campi, i collegamenti e i pulsanti di una pagina. Per ulteriori informazioni, consulta [Scelte rapide da tastiera][1]{:target=&quot;_blank&quot;}.
 
-Per ulteriori informazioni sull&#39;accessibilità, vedere [Linee guida per l’accessibilità][2]{:target=&quot;_blank&quot;} nella documentazione per gli sviluppatori.
+Per ulteriori informazioni sull&#39;accessibilità, vedere [Linee guida per l&#39;accessibilità][2]{:target=&quot;_blank&quot;} nella documentazione per gli sviluppatori.
 
 ## Windows
 
@@ -42,8 +42,8 @@ Per ulteriori informazioni sull&#39;accessibilità, vedere [Linee guida per l’
 
 | Funzione | Scelta rapida da tastiera standard |
 |--- |--- |
-| Pulsante - scegli | `Enter` (Ritorno) |
-| Collegamento - Vai a | `Enter` (Ritorno) |
+| Pulsante - scegli | `Enter` (restituzione) |
+| Collegamento - Vai a | `Enter` (restituzione) |
 | Opzioni - Naviga | `Up`, `Down`, `Left`, `Right` |
 | Opzioni: scegli | `Spacebar` |
 | Cursore | `Left`, `Right`, `Home`, `End` |

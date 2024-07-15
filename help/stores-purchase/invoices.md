@@ -5,16 +5,16 @@ exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
 
 # Fatture
 
-Una fattura è una registrazione del pagamento di un ordine. È possibile utilizzare più fatture [creato](#create-an-invoice) per un singolo ordine, e ciascuno può includere quanti o pochi dei prodotti acquistati che specifichi. Puoi anche creare [fatture PDF pronte per la stampa](#print-invoices) come documenti di vendita per i clienti.
+Una fattura è una registrazione del pagamento di un ordine. Più fatture possono essere [create](#create-an-invoice) per un singolo ordine e ciascuna può includere un numero pari o inferiore di prodotti acquistati specificati. È inoltre possibile creare [fatture PDF pronte per la stampa](#print-invoices) come documenti di vendita per i clienti.
 
-Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > _Operazioni_ > **Fatture** per aprire _Fatture_ e accedere alle fatture create.
+Nella barra laterale _Amministratore_, vai a **[!UICONTROL Sales]** > _Operazioni_ > **Fatture** per aprire la griglia _Fatture_ e accedere alle fatture create.
 
 ![Griglia fatture](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -49,29 +49,29 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > _Opera
 
 Quando si crea una fattura per un ordine, questa viene spostata in uno stato in cui non può essere annullata o modificata. Una nuova pagina fattura è simile a un ordine completato, con alcuni campi aggiuntivi. Ogni attività correlata a un ordine è indicata nella sezione Commenti della fattura.
 
-Normalmente, gli ordini vengono fatturati e acquisiti all&#39;avvio del processo di spedizione. Se il metodo di pagamento è un ordine di acquisto o se [azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) è impostato su `Authorize and Capture`, l&#39;ordine viene fatturato e il pagamento viene acquisito durante il pagamento. È possibile generare una fattura con un documento di trasporto e stampare le etichette di spedizione dal conto del vettore. Un singolo ordine può essere suddiviso in spedizioni parziali, fatturate separatamente, se necessario.
+Normalmente, gli ordini vengono fatturati e acquisiti all&#39;avvio del processo di spedizione. Se il metodo di pagamento è un ordine di acquisto o se l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) è impostata su `Authorize and Capture`, l&#39;ordine viene fatturato e il pagamento viene acquisito durante l&#39;estrazione. È possibile generare una fattura con un documento di trasporto e stampare le etichette di spedizione dal conto del vettore. Un singolo ordine può essere suddiviso in spedizioni parziali, fatturate separatamente, se necessario.
 
-Quando lo stato dei nuovi ordini è impostato su `Processing`, l’opzione per _Fattura automaticamente tutti gli articoli_ diventa disponibile nella configurazione. Alcuni metodi di pagamento con carta di credito completano la fase di fatturazione come parte del processo quando [azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) è impostato su `Authorize and Capture`. In questo caso, il pulsante Fattura non viene visualizzato e l&#39;ordine è pronto per la spedizione.
+Quando lo stato dei nuovi ordini è impostato su `Processing`, l&#39;opzione _Fattura automaticamente tutti gli articoli_ diventa disponibile nella configurazione. Alcuni metodi di pagamento con carta di credito completano la fase di fatturazione come parte del processo quando l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) è impostata su `Authorize and Capture`. In questo caso, il pulsante Fattura non viene visualizzato e l&#39;ordine è pronto per la spedizione.
 
 >[!NOTE]
 >
->Le fatture non vengono create automaticamente per gli ordini effettuati utilizzando `Gift Card`, `Store Credit`, `Reward Points`, o altri metodi di pagamento offline.
+>Le fatture non vengono create automaticamente per gli ordini effettuati utilizzando `Gift Card`, `Store Credit`, `Reward Points` o altri metodi di pagamento offline.
 
-È necessario generare una fattura per l&#39;ordine prima di stamparlo. Per visualizzare o stampare il PDF, scarica e installa un lettore di PDF come [Adobe Acrobat Reader][1].
+È necessario generare una fattura per l&#39;ordine prima di stamparlo. Per visualizzare o stampare il PDF, scaricare e installare un lettore di PDF come [Adobe Acrobat Reader][1].
 
 **_Per fatturare un ordine:_**
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-1. Trova l&#39;ordine cliente con lo stato `Processing` nella griglia. Quindi, effettua le seguenti operazioni:
+1. Trovare l&#39;ordine cliente con stato `Processing` nella griglia. Quindi, effettua le seguenti operazioni:
 
-1. In _Azione_ , fare clic su **[!UICONTROL View]**.
+1. Nella colonna _Azione_ fare clic su **[!UICONTROL View]**.
 
-1. Nell&#39;intestazione dell&#39;ordine cliente, scegliere **[!UICONTROL Invoice]** opzione.
+1. Nell&#39;intestazione dell&#39;ordine cliente scegliere l&#39;opzione **[!UICONTROL Invoice]**.
 
    >[!NOTE]
    >
-   >Il _[!UICONTROL Invoice]_non viene visualizzata quando [azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) per specifici [metodo di pagamento](../configuration-reference/sales/payment-methods.md) è impostato su `Authorize and Capture`, che genera automaticamente una fattura. Ciò si verifica anche se l’ordine viene effettuato e l’azione di pagamento per il metodo di pagamento è impostata su `Authorize` e l’ordine viene fatturato.
+   >L&#39;opzione _[!UICONTROL Invoice]_non viene visualizzata quando l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) per il [metodo di pagamento](../configuration-reference/sales/payment-methods.md) specifico è impostato su `Authorize and Capture`, che genera automaticamente una fattura. Ciò si verifica anche se l&#39;ordine viene effettuato e l&#39;azione di pagamento per il metodo di pagamento è impostata su `Authorize` e l&#39;ordine viene fatturato.
 
    ![Ordine di vendita fattura](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -79,59 +79,59 @@ Quando lo stato dei nuovi ordini è impostato su `Processing`, l’opzione per _
 
 1. Se gli articoli sono pronti per la spedizione, generare un documento di trasporto per la spedizione contemporaneamente alla creazione della fattura:
 
-   - In _Informazioni spedizione_ , fare clic sul pulsante **[!UICONTROL Create Shipment]** per selezionarla.
+   - Nella sezione _Informazioni sulla spedizione_, fare clic sulla casella di controllo **[!UICONTROL Create Shipment]** per selezionarla.
 
      Il record di spedizione viene creato contemporaneamente alla generazione della fattura.
 
    - Includi un numero di tracciamento:
 
-      - Clic **[!UICONTROL Add Tracking Number]**.
-      - Immetti le informazioni di tracciamento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_, e _[!UICONTROL Number]_
+      - Fare clic su **[!UICONTROL Add Tracking Number]**.
+      - Immettere le informazioni di tracciamento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ e _[!UICONTROL Number]_
 
      ![Crea una spedizione Fedex](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - Facoltativamente, generare una fattura parziale:
 
-      - In _Articoli da fatturare_ , aggiorna la sezione **[!UICONTROL Qty to Invoice]** per includere solo articoli specifici nella fattura.
-      - Quindi, fai clic su **[!UICONTROL Update Qty's]**.
+      - Nella sezione _Articoli da fatturare_, aggiornare la colonna **[!UICONTROL Qty to Invoice]** in modo da includere solo elementi specifici nella fattura.
+      - Quindi fare clic su **[!UICONTROL Update Qty's]**.
 
-        ![Articoli da fatturare](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+        ![Elementi da fatturare](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
-1. Se per l&#39;ordine è stato utilizzato un metodo di pagamento online, impostare **[!UICONTROL Amount]** all&#39;opzione appropriata.
+1. Se per l&#39;ordine è stato utilizzato un metodo di pagamento online, impostare **[!UICONTROL Amount]** sull&#39;opzione appropriata.
 
 1. Per inviare una notifica tramite posta elettronica ai clienti quando viene generata la fattura, eseguire le operazioni seguenti:
 
-   - Seleziona la **[!UICONTROL Email Copy of Invoice]** casella di controllo.
+   - Selezionare la casella di controllo **[!UICONTROL Email Copy of Invoice]**.
 
-   - Inserisci qualsiasi **[!UICONTROL Invoice Comments]**. Per includere i commenti nell’e-mail di notifica, contrassegna l’opzione **[!UICONTROL Append Comments]** casella di controllo.
+   - Immettere **[!UICONTROL Invoice Comments]**. Per includere i commenti nell&#39;e-mail di notifica, contrassegnare la casella di controllo **[!UICONTROL Append Comments]**.
 
-1. Al termine, fai clic su **[!UICONTROL Submit Invoice]** nella parte inferiore della pagina.
+1. Al termine, fare clic su **[!UICONTROL Submit Invoice]** nella parte inferiore della pagina.
 
-   **_Metodo di pagamento online:_**
+   **_Metodo di pagamento in linea:_**
 
    ![Invia fattura - metodo di pagamento in linea](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
 
    **_Metodo di pagamento offline:_**
 
-   ![Sottometti fattura - metodo di pagamento offline)](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
+   ![Invia fattura - metodo di pagamento offline)](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
 
-   Lo stato dell’ordine cambia da `Pending` a `Complete`.
+   Lo stato dell&#39;ordine cambia da `Pending` a `Complete`.
 
    ![Riepilogo fatture completate](./assets/invoice-complete.png){width="600" zoomable="yes"}
 
 ## Stampa fatture
 
-Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima di poter stampare una fattura, è necessario generarla per l&#39;ordine. È possibile caricare un logo ad alta risoluzione per una fattura PDF pronta per la stampa e includere [ID ordine](../stores-purchase/sales-documents.md#add-reference-ids) nell’intestazione. Per personalizzare il modello di fattura con il logo e l&#39;indirizzo, vedere [Requisiti per il logo PDF](../stores-purchase/sales-documents.md#image-formats).
+Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima di poter stampare una fattura, è necessario generarla per l&#39;ordine. È possibile caricare un logo ad alta risoluzione per una fattura PDF pronta per la stampa e includere l&#39;[ID ordine](../stores-purchase/sales-documents.md#add-reference-ids) nell&#39;intestazione. Per personalizzare il modello di fattura con il tuo logo e indirizzo, consulta [Requisiti PDF per il logo](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
->Per visualizzare o stampare il PDF, è necessario disporre di un lettore di PDF. Puoi scaricare [Adobe Reader][1] senza alcun costo.
+>Per visualizzare o stampare il PDF, è necessario disporre di un lettore di PDF. Puoi scaricare [Adobe Reader][1] gratuitamente.
 
 ### Stampa una singola fattura
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. In _[!UICONTROL Invoices]_individuare la fattura e fare clic su **[!UICONTROL View]**nel_ Azione _colonna.
+1. Nella griglia _[!UICONTROL Invoices]_, individuare la fattura e fare clic su **[!UICONTROL View]**nella colonna_ Azione _.
 
 1. Nella parte superiore della fattura, fare clic su **[!UICONTROL Print]** per generare un PDF della fattura.
 
@@ -139,11 +139,11 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 ### Stampa più fatture
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. In _[!UICONTROL Invoices]_griglia, selezionare la casella di controllo per ogni fattura da stampare.
+1. Nella griglia _[!UICONTROL Invoices]_selezionare la casella di controllo per ogni fattura da stampare.
 
-1. Imposta il **[!UICONTROL Actions]** controllo a `PDF Invoices`.
+1. Impostare il controllo **[!UICONTROL Actions]** su `PDF Invoices`.
 
    ![Stampa più fatture](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
@@ -151,12 +151,12 @@ Le fatture vengono salvate in un unico file PDF che può essere inviato a una st
 
 ## Risorse per la risoluzione dei problemi
 
-Per informazioni sulla risoluzione dei problemi relativi alle fatture, vedere quanto segue _Knowledge Base del supporto Commerce_ articoli:
+Per informazioni sulla risoluzione dei problemi relativi alle fatture, vedere i seguenti _articoli della Knowledge Base del supporto Commerce_:
 
-- [Impossibile fatturare i prodotti del bundle virtuale e semplice](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
-- [Fattura senza informazioni sul credito del negozio](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
+- [Impossibile fatturare prodotti bundle virtuali e semplici](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
+- [Fattura senza informazioni sul credito dell&#39;archivio](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
 - [L&#39;imposta viene visualizzata sulla fattura con uno sconto del 100%](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
-- [Le fatture ordine non vengono inviate automaticamente](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
+- [Le fatture degli ordini non vengono inviate automaticamente](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
 
 
 [1]: https://www.adobe.com/acrobat/pdf-reader.html "Scarica Adobe Reader"

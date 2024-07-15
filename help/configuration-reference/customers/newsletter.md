@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] dell'amministratore di Commerce.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La newsletter fa parte degli strumenti di marketing che consentono di inviare ai clienti notizie, sconti e altre e-mail di marketing. I clienti registrati possono gestire il proprio abbonamento dal proprio [dashboard account](../../customers/account-dashboard-my-account.md).
+>La newsletter fa parte degli strumenti di marketing che consentono di inviare ai clienti notizie, sconti e altre e-mail di marketing. I clienti registrati possono gestire l&#39;abbonamento dal dashboard dell&#39;[account](../../customers/account-dashboard-my-account.md).
 
 ## [!UICONTROL General Options]
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Subscription Options]
 
-![Opzioni di abbonamento](./assets/newsletter-subscription-options.png)<!-- zoom -->
+![Opzioni sottoscrizione](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
 <!-- [Subscription Options](https://docs.magento.com/user-guide/marketing/newsletter-configuration.html) -->
 

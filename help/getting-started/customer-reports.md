@@ -16,13 +16,13 @@ I rapporti dei clienti forniscono informazioni approfondite sull’attività del
 
 ## [!UICONTROL Order Total Report]
 
-Il [!UICONTROL Order Total Report] mostra gli ordini dei clienti per un intervallo di tempo o un intervallo di date specificato. Il rapporto include il numero di ordini per cliente, l&#39;importo medio degli ordini e l&#39;importo totale.
+[!UICONTROL Order Total Report] mostra gli ordini cliente per un intervallo di tempo o un intervallo di date specificato. Il rapporto include il numero di ordini per cliente, l&#39;importo medio degli ordini e l&#39;importo totale.
 
-Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
 
-![Rapporto Totale ordini](./assets/customers-order-total.png){width="600"}
+![Rapporto totale ordini](./assets/customers-order-total.png){width="600"}
 
-### Controlli di Workspace
+### Controlli Workspace
 
 | Controllo | Descrizione |
 |--- |--- |
@@ -38,7 +38,7 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!U
 
 | Colonna | Descrizione |
 |--- |--- |
-| [!UICONTROL Interval] | L&#39;intervallo totale dell&#39;ordine, per `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Intervallo totale dell&#39;ordine, da `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Il nome del cliente che ha effettuato l’ordine. |
 | [!UICONTROL Orders] | Numero di ordini per l&#39;intervallo specificato. |
 | [!UICONTROL Average] | Importo medio dell&#39;ordine. Questo importo viene sempre calcolato per i prezzi dei prodotti **IVA esclusa** anche se i prezzi dei prodotti del catalogo, il subtotale dell&#39;ordine e il totale dell&#39;ordine includono l&#39;imposta. Di conseguenza, l&#39;importo visualizzato nel rapporto è diverso da quello visualizzato nei dettagli dell&#39;ordine nei casi in cui i totali dell&#39;ordine includono le imposte. |
@@ -48,13 +48,13 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!U
 
 ## [!UICONTROL Order Count Report]
 
-Il [!UICONTROL Order Count Report] mostra il numero di ordini per cliente per un intervallo di tempo o un intervallo di date specificato. Il rapporto include il numero di ordini per cliente, l&#39;importo medio degli ordini e l&#39;importo totale.
+[!UICONTROL Order Count Report] mostra il numero di ordini per cliente per un intervallo di tempo o un intervallo di date specificato. Il rapporto include il numero di ordini per cliente, l&#39;importo medio degli ordini e l&#39;importo totale.
 
-Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
 
-![Rapporto Conteggio ordini](./assets/customer-order-count.png){width="600"}
+![Rapporto conteggio ordini](./assets/customer-order-count.png){width="600"}
 
-### Controlli di Workspace
+### Controlli Workspace
 
 | Controllo | Descrizione |
 |--- |--- |
@@ -70,7 +70,7 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!U
 
 | Colonna | Descrizione |
 |--- |--- |
-| [!UICONTROL Interval] | Intervallo di conteggio degli ordini, per `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Intervallo di conteggio degli ordini, da `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Il cliente che ha effettuato l’ordine. |
 | [!UICONTROL Orders] | Numero di ordini per l&#39;intervallo specificato. |
 | [!UICONTROL Average] | Importo medio dell&#39;ordine. Questo importo viene sempre calcolato per i prezzi dei prodotti **IVA esclusa** anche se i prezzi dei prodotti del catalogo, il subtotale dell&#39;ordine e il totale dell&#39;ordine includono l&#39;imposta. Di conseguenza, l&#39;importo visualizzato nel rapporto è diverso da quello visualizzato nei dettagli dell&#39;ordine nei casi in cui i totali dell&#39;ordine includono le imposte. |
@@ -80,13 +80,13 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!U
 
 ## [!UICONTROL New Accounts Report]
 
-Il [!UICONTROL New Accounts Report] mostra il numero di nuovi account cliente aperti durante un intervallo di tempo o un intervallo di date specificato.
+[!UICONTROL New Accounts Report] mostra il numero di nuovi account cliente aperti durante un intervallo di tempo o un intervallo di date specificato.
 
-Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
-![Rapporto Nuovi account](./assets/customers-new-accounts.png){width="600"}
+![Nuovo report account](./assets/customers-new-accounts.png){width="600"}
 
-### Controlli di Workspace
+### Controlli Workspace
 
 | Controllo | Descrizione |
 |--- |--- |
@@ -109,15 +109,15 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!U
 
 ## [!UICONTROL Customer Wish List Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
 
-Il [!UICONTROL Customer Wish List Report] fornisce informazioni sulle liste dei desideri dei clienti.
+[!UICONTROL Customer Wish List Report] fornisce informazioni sulle liste dei desideri del cliente.
 
-Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
 
-![Rapporto Lista dei desideri](./assets/customer-wish-list.png){width="600"}
+![Report elenco desideri](./assets/customer-wish-list.png){width="600"}
 
-### Controlli di Workspace
+### Controlli Workspace
 
 | Controllo | Descrizione |
 |--- |--- |
@@ -149,15 +149,15 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!U
 
 ## [!UICONTROL Customer Segment Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
 
-Il [!UICONTROL Customer Segment Report] fornisce informazioni sul numero di clienti in ciascun segmento.
+[!UICONTROL Customer Segment Report] fornisce informazioni sul numero di clienti in ciascun segmento.
 
-Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
-![Rapporto Segmenti](./assets/customers-segments.png){width="600"}
+![Rapporto segmenti](./assets/customers-segments.png){width="600"}
 
-### Controlli di Workspace
+### Controlli Workspace
 
 | Controllo | Descrizione |
 |--- |--- |

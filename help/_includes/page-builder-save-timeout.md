@@ -8,8 +8,8 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] Timeout
+# Timeout di [!DNL Page Builder]
 
 >[!NOTE]
 >
->Se stai apportando modifiche significative a [!DNL Page Builder] è consigliabile aumentare il [Durata sessione amministratore](../systems/security-admin.md) per evitare il timeout della sessione mentre si lavora.
+>Se si apportano modifiche significative al contenuto di [!DNL Page Builder], è consigliabile aumentare la [durata della sessione di amministrazione](../systems/security-admin.md) per evitare il timeout della sessione mentre si lavora.

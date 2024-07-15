@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] dell'amministratore di Commerce.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Mask for SKU] | Globale | Determina il valore predefinito del campo SKU in base ai valori dei segnaposto di altri campi e al testo aggiuntivo immesso. Segnaposto predefinito: <br/>Nome prodotto - `{{name}}` |
 | [!UICONTROL Mask for Meta Title] | Globale | Determina il valore predefinito del campo Titolo metadati in base ai valori dei segnaposto di altri campi e al testo aggiuntivo immesso. Segnaposto predefinito: <br/>Nome prodotto - `{{name}}` |
-| [!UICONTROL Mask for Meta Keywords] | Globale | Determina il valore predefinito del _Meta parole chiave_ in base ai valori segnaposto di altri campi e al testo aggiuntivo immesso. Segnaposto predefinito: <br/>Nome prodotto - `{{name}}` |
+| [!UICONTROL Mask for Meta Keywords] | Globale | Determina il valore predefinito del campo _Parole chiave meta_ in base ai valori dei segnaposto di altri campi e all&#39;eventuale testo immesso. Segnaposto predefinito: <br/>Nome prodotto - `{{name}}` |
 | [!UICONTROL Mask for Meta Description] | Globale | Determina il valore predefinito del campo Meta Description in base ai valori dei segnaposto di altri campi e al testo aggiuntivo immesso. Segnaposto predefinito: <br/>Nome prodotto - `{{name}}` <br/>Descrizione - `{{description}}` |
 
 {style="table-layout:auto"}
@@ -50,15 +50,15 @@ ht-degree: 0%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL List Mode] | Visualizzazione store | Determina il formato dell&#39;elenco dei risultati della ricerca. Opzioni: <br/>**`Grid Only`**- Formatta l&#39;elenco come griglia di righe e colonne. Ogni prodotto viene visualizzato in una singola cella della griglia.<br/>**`List Only`** - Formatta l&#39;elenco con ogni prodotto su una riga separata. <br/>**`Grid (default / List)`**- Per impostazione predefinita, i prodotti vengono visualizzati nella visualizzazione Griglia e possono essere attivati nella visualizzazione a elenco.<br/>**`List (default / Grid)`** - Per impostazione predefinita, i prodotti vengono visualizzati nella Vista a elenco e possono essere attivati nella Vista a griglia. |
+| [!UICONTROL List Mode] | Visualizzazione store | Determina il formato dell&#39;elenco dei risultati della ricerca. Opzioni: <br/>**`Grid Only`**- Formatta l&#39;elenco come griglia di righe e colonne. Ogni prodotto viene visualizzato in una singola cella della griglia.<br/>**`List Only`** - Formatta l&#39;elenco con ogni prodotto in una riga separata. <br/>**`Grid (default / List)`**- Per impostazione predefinita, i prodotti vengono visualizzati nella visualizzazione Griglia e possono essere attivati nella visualizzazione Elenco.<br/>**`List (default / Grid)`** - Per impostazione predefinita, i prodotti vengono visualizzati nella visualizzazione elenco e possono essere attivati nella visualizzazione griglia. |
 | [!UICONTROL Products per Page on Grid Allowed Values] | Visualizzazione store | Determina il numero di prodotti visualizzati in Visualizzazione griglia. Per fornire una selezione di opzioni, immettere più valori separati da virgole. |
 | [!UICONTROL Products per Page on Grid Default Value] | Visualizzazione store | Determina il numero di prodotti visualizzati per pagina per impostazione predefinita nella visualizzazione griglia. |
 | [!UICONTROL Products per Page on List Allowed Values] | Visualizzazione store | Determina il numero di prodotti visualizzati nella Vista a elenco. Per fornire una selezione di opzioni, immettere più valori separati da virgole. |
 | [!UICONTROL Products per Page on List Default Value] | Visualizzazione store | Determina il numero di prodotti visualizzati per pagina per impostazione predefinita, nella vista a elenco. |
-| Elenco prodotti Ordina per | Visualizzazione store | Determina l&#39;ordinamento dell&#39;elenco dei risultati della ricerca. La selezione delle opzioni è determinata dalle impostazioni di visualizzazione della categoria e dagli attributi disponibili impostati su `Used for Sorting in Product Listing`. Il valore predefinito è impostato su `Use All Available Attributes` e in genere include Valore migliore, Nome, Prezzo. Questa impostazione non si applica al [!DNL Live Search] [Widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
-| [!UICONTROL Allow All Products per Page] | Visualizzazione store | Se impostato su `Yes`, include `ALL` nel controllo Mostra per pagina. |
-| [!UICONTROL Remember Category Pagination] | Globale | Se impostato su `Yes`, i valori di impaginazione della categoria corrente vengono salvati mentre i clienti navigano da una categoria all’altra in [elenchi di prodotti](../../catalog/navigation-product-listings.md). Il salvataggio del valore utilizza una maggiore quantità di memoria cache e può influire sul modo in cui le pagine vengono indicizzate dai motori di ricerca. Opzioni: `Yes` / `No` (impostazione predefinita) |
-| [!UICONTROL Use Flat Catalog Category] | Globale | Abilita [struttura di categorie piatta](../../catalog/catalog-flat.md) (non consigliato). Opzioni: `Yes` / `No` |
+| Elenco prodotti Ordina per | Visualizzazione store | Determina l&#39;ordinamento dell&#39;elenco dei risultati della ricerca. La selezione delle opzioni è determinata dalle impostazioni di visualizzazione della categoria e dagli attributi disponibili impostati su `Used for Sorting in Product Listing`. Il valore predefinito è `Use All Available Attributes` e in genere include il valore migliore, il nome e il prezzo. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
+| [!UICONTROL Allow All Products per Page] | Visualizzazione store | Se è impostato su `Yes`, include l&#39;opzione `ALL` nel controllo &quot;Mostra per pagina&quot;. |
+| [!UICONTROL Remember Category Pagination] | Globale | Se è impostato su `Yes`, i valori di impaginazione delle categorie correnti vengono salvati mentre i clienti navigano da una categoria all&#39;altra in [elenchi di prodotti](../../catalog/navigation-product-listings.md). Il salvataggio del valore utilizza una maggiore quantità di memoria cache e può influire sul modo in cui le pagine vengono indicizzate dai motori di ricerca. Opzioni: `Yes` / `No` (impostazione predefinita) |
+| [!UICONTROL Use Flat Catalog Category] | Globale | Abilita la [struttura di categorie piatta](../../catalog/catalog-flat.md) (non consigliata). Opzioni: `Yes` / `No` |
 | [!UICONTROL Use Flat Catalog Product] | Globale | Abilita la struttura di prodotto piatta. (scelta non consigliata) Opzioni: `Yes` / `No` |
 | [!UICONTROL Swatches per Product] | Visualizzazione store | Determina il numero di campioni disponibili per ciascun prodotto. Predefinito: `16` |
 | [!UICONTROL Show Swatches in Product List] | Visualizzazione store | Determina se i campioni vengono visualizzati nell&#39;elenco dei prodotti. Opzioni: `Yes` / `No` |
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Alerts]
 
-![Avvisi sui prodotti](./assets/catalog-product-alerts.png)<!-- zoom -->
+![Avvisi prodotti](./assets/catalog-product-alerts.png)<!-- zoom -->
 
 <!-- [Product Alerts](https://docs.magento.com/user-guide/catalog/inventory-product-alerts.html) -->
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Alerts Run Settings]
 
-![Impostazioni di esecuzione degli avvisi sui prodotti](./assets/catalog-product-alerts-run-settings.png)<!-- zoom -->
+![Impostazioni di esecuzione avvisi prodotto](./assets/catalog-product-alerts-run-settings.png)<!-- zoom -->
 
 <!-- [Product Alerts Run Settings](https://docs.magento.com/user-guide/catalog/inventory-product-alert-run-settings.html) -->
 
@@ -93,14 +93,14 @@ ht-degree: 0%
 | [!UICONTROL Frequency] | Globale | Scegli la frequenza di invio degli avvisi sui prodotti. Opzioni: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Start Time] | Globale | Scegli l’ora del giorno in cui inizia il processo di avviso relativo al prodotto. Questo periodo di tempo deve essere successivo all’esecuzione di eventuali aggiornamenti di prezzo o inventario. |
 | [!UICONTROL Error Email Recipient] | Globale | Identifica l’indirizzo e-mail della persona (solitamente un amministratore del negozio) che deve ricevere una notifica e-mail quando si verifica un errore nel processo di avviso del prodotto. |
-| [!UICONTROL Error Email Sender] | Globale | Seleziona il ruolo dell’e-mail `from`. |
+| [!UICONTROL Error Email Sender] | Globale | Selezionare il ruolo che l&#39;e-mail è `from`. |
 | [!UICONTROL Error Email Template] | Globale | Seleziona il modello e-mail da utilizzare per le notifiche di errore di avvisi sui prodotti. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Product Image Placeholders]
 
-![Segnaposto immagine prodotto](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
+![Segnaposto Immagine Prodotto](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
 
 <!-- [Product Image Placeholders](https://docs.magento.com/user-guide/catalog/product-image-placeholders.html) -->
 
@@ -140,9 +140,9 @@ ht-degree: 0%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL YouTube API key] | Visualizzazione store | Specifica la chiave API necessaria per la connessione al server YouTube. |
-| [!UICONTROL Autostart base video] | Visualizzazione store | Per avviare automaticamente il video dopo il caricamento della pagina, imposta su `Yes`. |
-| [!UICONTROL Show related video] | Visualizzazione store | Per visualizzare i video correlati, imposta su `Yes`. |
-| [!UICONTROL Auto restart video] | Visualizzazione store | Per attivare la riproduzione automatica del video, impostare su `Yes`. |
+| [!UICONTROL Autostart base video] | Visualizzazione store | Per avviare automaticamente il video dopo il caricamento della pagina, impostare su `Yes`. |
+| [!UICONTROL Show related video] | Visualizzazione store | Per visualizzare i video correlati, impostare su `Yes`. |
+| [!UICONTROL Auto restart video] | Visualizzazione store | Per abilitare la riproduzione automatica del video, impostare su `Yes`. |
 
 {style="table-layout:auto"}
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Catalog Price Scope] | Globale | Determina l&#39;ambito della valuta di base. Opzioni: `Global` / `Website` |
-| [!UICONTROL Default Product Price] | Globale | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo per Adobe Commerce) Definisce il prezzo del prodotto predefinito, se applicabile. |
+| [!UICONTROL Default Product Price] | Globale | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Definisce il prezzo predefinito del prodotto, se applicabile. |
 
 {style="table-layout:auto"}
 
@@ -171,12 +171,12 @@ ht-degree: 0%
 
 ![Navigazione a livelli - Automatica (equalizza conteggi prodotti)](./assets/layered-navigation-equalize-product-counts.png)<!-- zoom -->
 
-![Navigazione a livelli - Manuale](./assets/layered-navigation-manual.png)<!-- zoom -->
+![Navigazione con livelli - Manuale](./assets/layered-navigation-manual.png)<!-- zoom -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Display Product Count] | Visualizzazione store | Determina se il conteggio dei prodotti viene visualizzato dopo ogni attributo, intervallo di prezzi e categoria. Opzioni: `Yes` / `No` |
-| [!UICONTROL Price Navigation Step Calculation] | Visualizzazione store | Determina il metodo utilizzato per determinare [passaggio di navigazione del prezzo](../../catalog/navigation-layered.md#configure-price-navigation)). Opzioni: <br/>`Automatic (equalize price ranges)` - Basa il calcolo sulla fascia di prezzo dei prodotti del gruppo. <br/>`Automatic (equalize product counts)` - Basa il calcolo sul numero di prodotti del gruppo. Stabilisce una soglia per il numero minimo di prodotti nel gruppo, per evitare che vengano divisi in gruppi più piccoli. <br/>`Manual` - Utilizza il limite di divisione inserito per gli intervalli di prezzo. |
+| [!UICONTROL Price Navigation Step Calculation] | Visualizzazione store | Determina il metodo utilizzato per determinare il [passaggio di navigazione del prezzo](../../catalog/navigation-layered.md#configure-price-navigation)). Opzioni: <br/>`Automatic (equalize price ranges)` - Basa il calcolo sulla fascia di prezzo dei prodotti del gruppo. <br/>`Automatic (equalize product counts)` - Basa il calcolo sul numero di prodotti nel gruppo. Stabilisce una soglia per il numero minimo di prodotti nel gruppo, per evitare che vengano divisi in gruppi più piccoli. <br/>`Manual` - Utilizza il limite di divisione immesso per gli intervalli di prezzo. |
 | [!UICONTROL Default Price Navigation Step] | Visualizzazione store | Determina il numero di prodotti inclusi in ciascun passaggio. |
 | [!UICONTROL Maximum Number of Price Intervals] | Visualizzazione store | Stabilisce un limite per il numero di intervalli di prezzo visualizzati nella navigazione a livelli. |
 
@@ -193,9 +193,9 @@ ht-degree: 0%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enable] | Globale | Attiva le restrizioni per le categorie. Per impostazione predefinita, l’utilizzo di questa funzione limita tutte le categorie. Opzioni: `Yes` / `No` |
-| [!UICONTROL Allow Browsing Category] | Sito Web | Determina chi può sfogliare le categorie. Opzioni: <br/>`Yes, for Everyone` : consente a tutti i visitatori e clienti di sfogliare la categoria. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri dei gruppi di clienti selezionati di esplorare la categoria. <br/>`No, Redirect to Landing Page` : nega l’accesso alla categoria e reindirizza alla pagina selezionata. |
-| [!UICONTROL Display Product Prices] | Sito Web | Controlla la visualizzazione dei prezzi dei prodotti per la categoria. Opzioni: <br/>`Yes, for Everyone` - Permette a tutti di vedere il prezzo dei prodotti della categoria. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri di gruppi di clienti selezionati di visualizzare il prezzo dei prodotti della categoria. <br/>`No` - Disattiva la visualizzazione dei prezzi dei prodotti per la categoria. |
-| [!UICONTROL Allow Adding to Cart] | Sito Web | Determina chi può acquistare prodotti dalla categoria. Opzioni: <br/>`Yes, for Everyone` - Permette a tutti di inserire i prodotti della categoria nei loro carrelli. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri di gruppi di clienti selezionati di inserire i prodotti della categoria nei loro carrelli. <br/>`No` - Non consente a nessuno di inserire prodotti della categoria nei propri carrelli. |
+| [!UICONTROL Allow Browsing Category] | Sito Web | Determina chi può sfogliare le categorie. Opzioni: <br/>`Yes, for Everyone` - Consente a tutti i visitatori e clienti di sfogliare la categoria. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri dei gruppi di clienti selezionati di esplorare la categoria. <br/>`No, Redirect to Landing Page` - Nega l&#39;accesso alla categoria e reindirizza alla pagina selezionata. |
+| [!UICONTROL Display Product Prices] | Sito Web | Controlla la visualizzazione dei prezzi dei prodotti per la categoria. Opzioni: <br/>`Yes, for Everyone` - Consente a tutti di visualizzare il prezzo dei prodotti della categoria. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri dei gruppi di clienti selezionati di visualizzare il prezzo dei prodotti della categoria. <br/>`No` - Disattiva la visualizzazione dei prezzi dei prodotti per la categoria. |
+| [!UICONTROL Allow Adding to Cart] | Sito Web | Determina chi può acquistare prodotti dalla categoria. Opzioni: <br/>`Yes, for Everyone` - Consente a tutti di inserire i prodotti della categoria nel carrello. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri di gruppi di clienti selezionati di inserire prodotti della categoria nei loro carrelli. <br/>`No` - Non consente a nessuno di inserire i prodotti della categoria nel carrello. |
 | [!UICONTROL Disallow Catalog Search by] | Sito Web | Identifica i gruppi di clienti che non possono cercare prodotti nella categoria. |
 
 {style="table-layout:auto"}
@@ -208,13 +208,13 @@ ht-degree: 0%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Visualizzazione store | Determina se _Termini di ricerca popolari_ viene implementato nell’archivio. Questa impostazione non si applica agli archivi che utilizzano [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Opzioni: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Visualizzazione store | Determina se _i termini di ricerca popolari_ sono implementati nell&#39;archivio. Questa impostazione non è applicabile agli archivi che utilizzano [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Opzioni: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Visualizzazione store | Determina se un suffisso, ad esempio html o htm, viene applicato agli URL dei prodotti. Se utilizzato, non includere un punto prima del suffisso, in quanto viene applicato automaticamente. |
 | [!UICONTROL Category URL Suffix] | Visualizzazione store | Determina se un suffisso, ad esempio html o htm, viene applicato agli URL delle categorie. Se utilizzato, non includere un punto prima del suffisso, in quanto viene applicato automaticamente. |
-| [!UICONTROL Use Categories Path for Product URLs] | Visualizzazione store | Determina se i percorsi delle categorie sono inclusi negli URL del prodotto. Così facendo, più URL potrebbero puntare alla stessa pagina, il che potrebbe influire sul livello di ricerca. Per ulteriori informazioni, consulta [Tag meta canonico](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
+| [!UICONTROL Use Categories Path for Product URLs] | Visualizzazione store | Determina se i percorsi delle categorie sono inclusi negli URL del prodotto. Così facendo, più URL potrebbero puntare alla stessa pagina, il che potrebbe influire sul livello di ricerca. Per ulteriori informazioni, consulta [Tag meta Canonical](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | Visualizzazione store | Determina se viene creato automaticamente un reindirizzamento permanente ogni volta che cambia una chiave URL. Quando è implementata, la casella di controllo Crea reindirizzamento personalizzato per il vecchio URL sotto il campo Product URL Key è selezionata per impostazione predefinita. Opzioni: `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | Globale | Determina se Adobe Commerce genera dati e li salva in tabelle di riscrittura quando un utente salva una categoria contenente molti prodotti assegnati. Opzioni: `Yes` / `No` <br/><br/>**_Importante:_**Il salvataggio dei dati generati in una tabella di riscrittura URL può compromettere le prestazioni. Consulta [Reindirizzamenti automatici dei prodotti](../../merchandising-promotions/url-redirect-product-automatic.md) per ulteriori informazioni. |
-| [!UICONTROL Apply transliteration for product URL] | Visualizzazione store | Determina se la traslitterazione viene applicata durante la creazione o l’aggiornamento degli URL dei prodotti. Opzioni: `Yes` / `No`. Impostazione predefinita: `Yes`. <br/><br/>Per alcuni casi d’uso, devi disabilitare la traslitterazione. Ad esempio, se gestisci un negozio online in cinese, le best practice per l’ottimizzazione SEO (Search Engine Optimization) consigliano che gli URL del prodotto corrispondano al nome del prodotto. Impostazione dell&#39;opzione su `No` consente di utilizzare i caratteri cinesi negli URL dei prodotti anziché in caratteri ASCII equivalenti. |
+| [!UICONTROL Generate "category/product" URL Rewrites] | Globale | Determina se Adobe Commerce genera dati e li salva in tabelle di riscrittura quando un utente salva una categoria contenente molti prodotti assegnati. Opzioni: `Yes` / `No` <br/><br/>**_Importante:_**Il salvataggio dei dati generati in una tabella di riscrittura URL può compromettere le prestazioni. Per ulteriori informazioni, vedere [Reindirizzamenti automatici ai prodotti](../../merchandising-promotions/url-redirect-product-automatic.md). |
+| [!UICONTROL Apply transliteration for product URL] | Visualizzazione store | Determina se la traslitterazione viene applicata durante la creazione o l’aggiornamento degli URL dei prodotti. Opzioni: `Yes` / `No`. Impostazione predefinita: `Yes`. <br/><br/>Per alcuni casi d&#39;uso è necessario disabilitare la traslitterazione. Ad esempio, se gestisci un negozio online in cinese, le best practice per l’ottimizzazione SEO (Search Engine Optimization) consigliano che gli URL del prodotto corrispondano al nome del prodotto. L&#39;impostazione dell&#39;opzione su `No` consente l&#39;utilizzo di caratteri cinesi negli URL dei prodotti anziché in caratteri ASCII equivalenti. |
 | [!UICONTROL Page Title Separator] | Visualizzazione store | Identifica il carattere che separa il nome della categoria e la sottocategoria nella barra del titolo del browser. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Visualizzazione store | Se esistono più URL che puntano alla stessa pagina della categoria, questa opzione utilizza un metatag canonico per identificare l’URL della categoria che i motori di ricerca devono indicizzare. L’URL include un nome completo per la categoria utilizzando il tag meta. Questo riduce i contenuti duplicati e migliora l’ottimizzazione SEO (Search Engine Optimization). Opzioni: `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | Visualizzazione store | Se esistono più URL che puntano alla stessa pagina di prodotto, questa opzione utilizza un metatag canonico per identificare l’URL del prodotto che i motori di ricerca devono indicizzare. L’URL include un nome completo per il prodotto che utilizza il tag meta. Questo riduce i contenuti duplicati e migliora l’ottimizzazione SEO (Search Engine Optimization). Opzioni: `Yes` / `No` |
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-Esistono due varianti della configurazione di Ricerca nel catalogo: le impostazioni disponibili quando [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) è installato e quelli disponibili per Adobe Commerce nativo. Seguire le istruzioni per l&#39;installazione.
+Sono disponibili due varianti della configurazione di Ricerca nel catalogo: le impostazioni disponibili al momento dell&#39;installazione di [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) e quelle disponibili per Adobe Commerce nativo. Seguire le istruzioni per l&#39;installazione.
 
 ### Adobe Commerce con [!DNL Live Search]
 
@@ -247,10 +247,10 @@ Quando è installato Live Search, Ricerca nel catalogo include le seguenti impos
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Visualizzazione store | Numero minimo di caratteri consentito in una ricerca nel catalogo. Il valore impostato per questa opzione deve essere compatibile con l’intervallo corrispondente impostato nelle configurazioni del motore di ricerca di Elasticsearch. Ad esempio, se imposti questo valore su `2` in Adobe Commerce, aggiorna il valore nel motore di ricerca. |
+| [!UICONTROL Minimal Query Length] | Visualizzazione store | Numero minimo di caratteri consentito in una ricerca nel catalogo. Il valore impostato per questa opzione deve essere compatibile con l’intervallo corrispondente impostato nelle configurazioni del motore di ricerca di Elasticsearch. Se ad esempio si imposta questo valore su `2` in Adobe Commerce, aggiornare il valore nel motore di ricerca. |
 | [!UICONTROL Maximum Query Length] | Visualizzazione store | Numero massimo di caratteri consentito in una ricerca nel catalogo. Il valore impostato per questa opzione deve essere compatibile con l’intervallo corrispondente impostato nelle configurazioni del motore di ricerca di Elasticsearch. Ad esempio, se imposti questo valore su 300 in Adobe Commerce, aggiorna il valore nel motore di ricerca. |
-| [!UICONTROL Number of top search results to cache] | Visualizzazione store | Il numero di termini e risultati di ricerca popolari da memorizzare nella cache per risposte più veloci. Inserimento di un valore `0` memorizza nella cache tutti i termini e i risultati di ricerca immessi una seconda volta. Valore predefinito: `100` |
-| [!UICONTROL Autocomplete Limit] | Visualizzazione store | Determina il numero massimo di righe disponibili nel [popover vetrina] pagina. Il valore predefinito può essere modificato quando Live Search viene installato e aggiornato in seguito modificando questa impostazione di configurazione. Valore predefinito: `8` |
+| [!UICONTROL Number of top search results to cache] | Visualizzazione store | Il numero di termini e risultati di ricerca popolari da memorizzare nella cache per risposte più veloci. Se si immette un valore di `0`, vengono memorizzati nella cache tutti i termini e i risultati di ricerca una seconda volta. Valore predefinito: `100` |
+| [!UICONTROL Autocomplete Limit] | Visualizzazione store | Determina il numero massimo di righe disponibili nella pagina [storefront popover]. Il valore predefinito può essere modificato quando Live Search viene installato e aggiornato in seguito modificando questa impostazione di configurazione. Valore predefinito: `8` |
 
 {style="table-layout:auto"}
 
@@ -264,13 +264,13 @@ Adobe Commerce nativo con Elasticsearch include le seguenti impostazioni di conf
 
 >[!IMPORTANT]
 >
->A causa dell’annuncio di fine del supporto di Elasticsearch 7 relativo ad agosto 2023, si consiglia a tutti i clienti di Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante l’aggiornamento del prodotto, consulta [Migrazione a OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) nel _Guida all’aggiornamento_.
+>A causa dell’annuncio di fine del supporto di Elasticsearch 7 relativo ad agosto 2023, si consiglia a tutti i clienti di Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante l&#39;aggiornamento del prodotto, vedere [Migrazione a OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) nella _Guida all&#39;aggiornamento_.
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Visualizzazione store | Numero minimo di caratteri consentito in una ricerca nel catalogo. Il valore impostato per questa opzione deve essere compatibile con l’intervallo corrispondente impostato nelle configurazioni del motore di ricerca di Elasticsearch. Ad esempio, se imposti questo valore su `2` in Adobe Commerce, aggiorna il valore nel motore di ricerca. |
+| [!UICONTROL Minimal Query Length] | Visualizzazione store | Numero minimo di caratteri consentito in una ricerca nel catalogo. Il valore impostato per questa opzione deve essere compatibile con l’intervallo corrispondente impostato nelle configurazioni del motore di ricerca di Elasticsearch. Se ad esempio si imposta questo valore su `2` in Adobe Commerce, aggiornare il valore nel motore di ricerca. |
 | [!UICONTROL Maximum Query Length] | Visualizzazione store | Numero massimo di caratteri consentito in una ricerca nel catalogo. Il valore impostato per questa opzione deve essere compatibile con l’intervallo corrispondente impostato nelle configurazioni del motore di ricerca di Elasticsearch. Ad esempio, se imposti questo valore su 300 in Adobe Commerce, aggiorna il valore nel motore di ricerca. |
-| [!UICONTROL Number of top search results to cache] | Visualizzazione store | Il numero di termini e risultati di ricerca popolari da memorizzare nella cache per risposte più veloci. Inserimento di un valore `0` memorizza nella cache tutti i termini e i risultati di ricerca immessi una seconda volta. Valore predefinito: `100` |
+| [!UICONTROL Number of top search results to cache] | Visualizzazione store | Il numero di termini e risultati di ricerca popolari da memorizzare nella cache per risposte più veloci. Se si immette un valore di `0`, vengono memorizzati nella cache tutti i termini e i risultati di ricerca una seconda volta. Valore predefinito: `100` |
 | [!UICONTROL Enable EAV Indexer] | Globale | Determina se attivare o disattivare l&#39;indicizzatore Product EAV. Questa funzione migliora la velocità di indicizzazione e impedisce all’indicizzatore di essere utilizzato da estensioni di terze parti. Questa opzione viene visualizzata solo per i motori di ricerca Elasticsearch o Elasticsearch 5.0+. Opzione predefinita: `Yes` per abilitato |
 | [!UICONTROL Autocomplete Limit] | Visualizzazione store | Numero massimo di query di ricerca da visualizzare sotto il campo di ricerca per il completamento automatico della ricerca. Limitando questa quantità si aumentano le prestazioni delle ricerche e si riduce la dimensione dell’elenco visualizzato. Valore predefinito: `8` |
 | Motore di ricerca | Globale | Identifica il motore di ricerca necessario per elaborare le richieste di dati di catalogo. L&#39;Elasticsearch 7.6.x è richiesto per tutte le installazioni di Adobe Commerce. Opzione: `Elasticsearch 7` |
@@ -278,23 +278,23 @@ Adobe Commerce nativo con Elasticsearch include le seguenti impostazioni di conf
 | [!UICONTROL Elasticsearch Server Port] | Globale | Specifica il numero della porta del server utilizzata da Elasticsearch. Valore predefinito: `9200` |
 | [!UICONTROL Elasticsearch Index Prefix] | Globale | Assegna un prefisso per identificare l&#39;indice Elasticsearch. Valore predefinito: `magento2` |
 | [!UICONTROL Enable Elasticsearch HTTP Auth] | Globale | Se abilitata, utilizza l’autenticazione HTTP per richiedere un nome utente e una password prima di accedere ad Elasticsearch Server. Opzioni: `Yes` / `No` |
-| [!UICONTROL Elasticsearch HTTP Username] | Globale | Quando _Abilita autenticazione HTTP Elasticsearch_ è impostato su `Yes`, specifica il nome utente per l&#39;autenticazione HTTP di Elasticsearch. |
-| [!UICONTROL Elasticsearch HTTP Password] | Globale | Quando _Abilita autenticazione HTTP Elasticsearch_ è impostato su `Yes`, specifica la password, ad Elasticsearch per l’autenticazione HTTP. |
+| [!UICONTROL Elasticsearch HTTP Username] | Globale | Quando _Abilita autenticazione HTTP Elasticsearch_ è impostato su `Yes`, specifica il nome utente per l&#39;autenticazione HTTP Elasticsearch. |
+| [!UICONTROL Elasticsearch HTTP Password] | Globale | Quando _Abilita autenticazione HTTP Elasticsearch_ è impostato su `Yes`, specifica la password per l&#39;autenticazione HTTP Elasticsearch. |
 | [!UICONTROL Elasticsearch Server Timeout] | Globale | Determina il numero di secondi prima del timeout del server. Valore predefinito: `15` |
 | [!UICONTROL Test Connection] |  | Convalida la connessione Elasticsearch. |
-| [!UICONTROL Enable Search Recommendations] | Visualizzazione store | Determina se i consigli di ricerca vengono offerti quando una ricerca non restituisce alcun risultato e vengono visualizzati sotto `Related search terms` nella pagina dei risultati della ricerca. Opzioni: `Yes` / `No` <br/>Se è impostato su Sì, vengono visualizzate altre opzioni per _[!UICONTROL Search Recommendations Count]_e_[!UICONTROL Shows Results Count for Each Recommendation]_. |
+| [!UICONTROL Enable Search Recommendations] | Visualizzazione store | Determina se i consigli di ricerca vengono offerti quando una ricerca non restituisce alcun risultato e vengono visualizzati nella sezione `Related search terms` della pagina dei risultati di ricerca. Opzioni: `Yes` / `No` <br/>Se è impostato su Sì, vengono visualizzate opzioni aggiuntive per _[!UICONTROL Search Recommendations Count]_e_[!UICONTROL Shows Results Count for Each Recommendation]_. |
 | [!UICONTROL Search Recommendations Count] | Visualizzazione store | Specifica il numero di termini di ricerca offerti come consigli. Per impostazione predefinita, non ne vengono mostrati più di cinque. |
-| [!UICONTROL Show Results Count for Each Recommendation] | Visualizzazione store | Se impostato su `Yes`Tuttavia, il numero di prodotti trovati per il consiglio di ricerca proposto è indicato tra parentesi. Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | Visualizzazione store | Determina se i suggerimenti di ricerca vengono visualizzati per gli errori ortografici più comuni. Quando questa opzione è attivata, vengono offerti suggerimenti di ricerca per qualsiasi richiesta che non restituisce alcun risultato e viene visualizzata nella sezione `Did you mean` sezione sul **Risultati di ricerca** pagina. I suggerimenti di ricerca possono influire sulle prestazioni della ricerca. Se impostato su `Yes`, vengono visualizzate opzioni aggiuntive per Abilita Search Recommendations e i campi associati. Opzioni: `Yes` / `No` |
-| [!UICONTROL Search Suggestions Count] | Visualizzazione store | Determina il numero di suggerimenti di ricerca offerti. Ad esempio: `2` |
+| [!UICONTROL Show Results Count for Each Recommendation] | Visualizzazione store | Se è impostato su `Yes`, il numero di prodotti trovati per il consiglio di ricerca proposto è indicato tra parentesi. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | Visualizzazione store | Determina se i suggerimenti di ricerca vengono visualizzati per gli errori ortografici più comuni. Quando questa opzione è attivata, vengono offerti suggerimenti di ricerca per qualsiasi richiesta che non restituisce alcun risultato e viene visualizzata nella sezione `Did you mean` della pagina **Risultati ricerca**. I suggerimenti di ricerca possono influire sulle prestazioni della ricerca. Se è impostato su `Yes`, vengono visualizzate opzioni aggiuntive per Abilita Recommendations di ricerca e i campi associati. Opzioni: `Yes` / `No` |
+| [!UICONTROL Search Suggestions Count] | Visualizzazione store | Determina il numero di suggerimenti di ricerca offerti. Esempio: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Visualizzazione store | Determina se viene visualizzato il numero di risultati di ricerca per ogni suggerimento. A seconda del tema, il numero viene in genere visualizzato tra parentesi dopo il suggerimento. Opzioni: `Yes` / `No` |
-| [!UICONTROL Minimum Terms to Match] | Visualizzazione store | Specifica un valore che corrisponde al numero di termini della query che i risultati della ricerca devono corrispondere per essere restituiti. Ciò garantisce risultati ottimali per gli acquirenti. I valori percentuali sono correlati a un numero e, se necessario, vengono arrotondati per difetto e utilizzati come numero minimo di termini da abbinare nella query. Il valore può essere un numero intero negativo o positivo, una percentuale negativa o positiva, una combinazione delle due o più combinazioni. Per ulteriori informazioni, consulta [parametro minimum_should_match](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) nella documentazione di Elasticsearch. |
+| [!UICONTROL Minimum Terms to Match] | Visualizzazione store | Specifica un valore che corrisponde al numero di termini della query che i risultati della ricerca devono corrispondere per essere restituiti. Ciò garantisce risultati ottimali per gli acquirenti. I valori percentuali sono correlati a un numero e, se necessario, vengono arrotondati per difetto e utilizzati come numero minimo di termini da abbinare nella query. Il valore può essere un numero intero negativo o positivo, una percentuale negativa o positiva, una combinazione delle due o più combinazioni. Per ulteriori informazioni, consulta il parametro [minimum_should_match](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) nella documentazione di Elasticsearch. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Downloadable Product Options]
 
-![Opzioni di prodotto scaricabili](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
+![Opzioni prodotto scaricabili](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
 <!-- [Downloadable Product Options](https://docs.magento.com/user-guide/catalog/product-download-options.html) -->
 
@@ -302,12 +302,12 @@ Adobe Commerce nativo con Elasticsearch include le seguenti impostazioni di conf
 |--- |--- |--- |
 | [!UICONTROL Order Item Status to Enable Downloads] | Sito Web | Determina lo stato che un ordine deve avere prima che i download diventino disponibili. Opzioni: `Pending` / `Invoiced` |
 | [!UICONTROL Default Maximum Number of Downloads] | Sito Web | Determina il numero predefinito di download disponibili per un cliente. |
-| [!UICONTROL Shareable] | Sito Web | Determina se i clienti devono accedere ai propri account per accedere al collegamento di download. Opzioni: <br/>**Sì** - Consente di inviare il collegamento per e-mail, che può quindi essere condiviso con altri utenti. <br/>**No** - Richiede ai clienti di accedere al proprio account per accedere al collegamento di download. |
+| [!UICONTROL Shareable] | Sito Web | Determina se i clienti devono accedere ai propri account per accedere al collegamento di download. Opzioni: <br/>**Sì** - Consente l&#39;invio del collegamento per e-mail, che può quindi essere condiviso con altri utenti. <br/>**No** - Richiede ai clienti di accedere ai propri account per accedere al collegamento di download. |
 | [!UICONTROL Default Sample Title] | Visualizzazione store | Titolo predefinito per tutti i file di esempio. |
 | [!UICONTROL Default Link Title] | Visualizzazione store | Il collegamento predefinito per tutti i titoli scaricabili. |
 | [!UICONTROL Opens Links in New Window] | Sito Web | Determina se il collegamento per il download si apre in una nuova finestra del browser. Opzioni: `Yes` / `No` |
-| [!UICONTROL Use Content Disposition] | Visualizzazione store | Determina come viene distribuito il collegamento al contenuto scaricabile, come allegato e-mail o come collegamento in linea in una finestra del browser. Opzioni: <br/>**`Attachment`**- Il collegamento per il download viene consegnato come allegato e-mail.<br/>**`Inline`** : il collegamento per il download viene fornito come collegamento in linea in una pagina web. |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Sito Web | Determina se gli ospiti che acquistano prodotti scaricabili devono registrarsi per un account e accedere per completare il processo di pagamento. Opzioni: <br/>**`Yes`**- Se il carrello contiene prodotti scaricabili, l’ospite deve registrarsi per un account o accedere a un account esistente per completare l’acquisto.<br/>**`No`** : il collegamento per il download viene fornito come collegamento in linea nel corpo del messaggio e-mail.  <br/> _**Nota:**_ Il pagamento degli ospiti è disponibile solo per il download di prodotti se Sharable è impostato su `Yes`. |
+| [!UICONTROL Use Content Disposition] | Visualizzazione store | Determina come viene distribuito il collegamento al contenuto scaricabile, come allegato e-mail o come collegamento in linea in una finestra del browser. Opzioni: <br/>**`Attachment`**- Il collegamento di download viene consegnato come allegato e-mail.<br/>**`Inline`** - Il collegamento di download viene distribuito come collegamento in linea in una pagina Web. |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Sito Web | Determina se gli ospiti che acquistano prodotti scaricabili devono registrarsi per un account e accedere per completare il processo di pagamento. Opzioni: <br/>**`Yes`**- Se il carrello contiene prodotti scaricabili, l&#39;ospite deve registrarsi per un account o accedere a un account esistente per completare l&#39;acquisto.<br/>**`No`** - Il collegamento di download viene recapitato come collegamento in linea nel corpo del messaggio e-mail.  <br/> _**Nota:**_ l&#39;estrazione guest è disponibile per il download di prodotti solo se Sharable è impostato su `Yes`. |
 
 {style="table-layout:auto"}
 
@@ -319,10 +319,10 @@ Adobe Commerce nativo con Elasticsearch include le seguenti impostazioni di conf
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Use JavaScript Calendar] | Visualizzazione store | Determina se il calendario JavaScript viene utilizzato come controllo di input per i campi data. Opzioni: `Yes` / `No` <br/>Se impostato su `No`, viene visualizzato un menu a discesa separato per ogni parte del campo data. |
+| [!UICONTROL Use JavaScript Calendar] | Visualizzazione store | Determina se il calendario di JavaScript viene utilizzato come controllo di input per i campi data. Opzioni: `Yes` / `No` <br/>Se è impostato su `No`, viene visualizzato un menu a discesa separato per ogni parte del campo data. |
 | [!UICONTROL Date Fields Order] | Visualizzazione store | Stabilisce l’ordine dei tre campi data. Opzioni: `Day` / `Month` / `Year` |
 | [!UICONTROL Time Format] | Visualizzazione store | Imposta il formato dell&#39;ora su 12 o 24 ore. Opzioni: `12h AM/PM` / `24h` |
-| [!UICONTROL Year Range] | Visualizzazione store | Definisce l&#39;intervallo di inizio e fine degli anni visualizzati nel _Anno_ campo. Il valore deve essere immesso nel formato AAAA. |
+| [!UICONTROL Year Range] | Visualizzazione store | Definisce l&#39;intervallo iniziale e finale degli anni visualizzati nel campo _Anno_. Il valore deve essere immesso nel formato AAAA. |
 
 {style="table-layout:auto"}
 
@@ -338,8 +338,8 @@ Adobe Commerce nativo con Elasticsearch include le seguenti impostazioni di conf
 |--- |--- |--- |
 | [!UICONTROL Enable Catalog Events Functionality] | Sito Web | Determina se il modulo Eventi è abilitato. |
 | [!UICONTROL Enable Catalog Event Widget on Frontend] | Visualizzazione store | Determina se il widget eventi è disponibile nella vetrina. Si tratta di un blocco statico con informazioni sugli eventi nel sito. |
-| [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | Visualizzazione store | Determina il numero di eventi visualizzati nel widget cursore eventi nelle pagine delle categorie. Per eseguire l&#39;override, utilizzare `limit="x"` variabile. |
-| [!UICONTROL Events to Scroll per Click in Event Slider Widget] | Visualizzazione store | Determina il numero di eventi visualizzati nel widget del cursore eventi sulle pagine CMS, ad esempio la home page. Per eseguire l&#39;override, utilizzare `scroll="x"` variabile. |
+| [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | Visualizzazione store | Determina il numero di eventi visualizzati nel widget cursore eventi nelle pagine delle categorie. Per ignorare, utilizzare la variabile `limit="x"`. |
+| [!UICONTROL Events to Scroll per Click in Event Slider Widget] | Visualizzazione store | Determina il numero di eventi visualizzati nel widget del cursore eventi sulle pagine CMS, ad esempio la home page. Per ignorare, utilizzare la variabile `scroll="x"`. |
 
 {style="table-layout:auto"}
 
@@ -353,13 +353,13 @@ Adobe Commerce nativo con Elasticsearch include le seguenti impostazioni di conf
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Maximum Number of Products in Related Products List] | Globale | Determina il numero massimo di prodotti che possono essere visualizzati nel _Prodotti correlati_ elenco. |
+| [!UICONTROL Maximum Number of Products in Related Products List] | Globale | Determina il numero massimo di prodotti che possono essere visualizzati nell&#39;elenco _Prodotti correlati_. |
 | [!UICONTROL Show Related Products] | Globale | Determina quale elenco di prodotti correlati viene visualizzato nell&#39;archivio. Può essere l’elenco selezionato manualmente in Informazioni prodotto, l’elenco generato in risposta a una regola di relazione prodotto o una combinazione dei due. Opzioni: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
-| [!UICONTROL Rotation Mode for Products in Related Products List] | Globale | Determina l&#39;ordine in cui i prodotti in _Prodotti correlati_ dell&#39;elenco. Opzioni: `Do not rotate` / `Shuffle` |
+| [!UICONTROL Rotation Mode for Products in Related Products List] | Globale | Determina l&#39;ordine di visualizzazione dei prodotti nell&#39;elenco _Prodotti correlati_. Opzioni: `Do not rotate` / `Shuffle` |
 | [!UICONTROL Maximum Number of Products in Cross-Sell Product List] | Globale | Determina il numero massimo di prodotti che possono essere visualizzati nell&#39;elenco di cross-selling. |
 | [!UICONTROL Show Cross-Sell Products] | Globale | Determina quale elenco di prodotti di cross-selling viene visualizzato nel negozio. Può essere l’elenco selezionato manualmente in Informazioni prodotto, l’elenco generato in risposta a una regola di relazione prodotto o una combinazione dei due. Opzioni: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Cross-Sell Products List] | Globale | Determina l&#39;ordine di visualizzazione dei prodotti nell&#39;elenco Prodotti per la vendita incrociata. Opzioni: Non ruotare / Riproduzione casuale |
-| [!UICONTROL Maximum Number of Products in Upsell Product List] | Globale | Determina il numero massimo di prodotti che possono essere visualizzati nel _Prodotti up-sell_ elenco. |
+| [!UICONTROL Maximum Number of Products in Upsell Product List] | Globale | Determina il numero massimo di prodotti che possono essere visualizzati nell&#39;elenco _Prodotti up-sell_. |
 | [!UICONTROL Show Upsell Products] | Globale | Determina quale elenco di prodotti di upselling viene visualizzato nel negozio. Può essere l’elenco selezionato manualmente in Informazioni prodotto, l’elenco generato in risposta a una regola di relazione prodotto o una combinazione dei due. Opzioni: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Upsell Product List] | Globale | Determina l&#39;ordine di visualizzazione dei prodotti nell&#39;elenco dei prodotti di vendita in upselling. Opzioni: `Do not rotate` / `Shuffle` |
 

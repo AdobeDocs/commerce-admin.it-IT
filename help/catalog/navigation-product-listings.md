@@ -22,21 +22,21 @@ Gli elenchi di prodotti possono essere impostati in modo da essere visualizzati 
 
 ## Configurare gli elenchi di prodotti
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Storefront]** sezione.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Storefront]**.
 
-   ![Opzioni di configurazione della vetrina](../configuration-reference/catalog/assets/catalog-storefront.png){width="600" zoomable="yes"}
+   ![Opzioni di configurazione vetrina](../configuration-reference/catalog/assets/catalog-storefront.png){width="600" zoomable="yes"}
 
-   Per un elenco dettagliato di queste opzioni, vedi [Vetrina](../configuration-reference/catalog/catalog.md#storefront) nel _Riferimento configurazione_.
+   Per un elenco dettagliato di queste opzioni, vedere [Storefront](../configuration-reference/catalog/catalog.md#storefront) nel _Riferimento configurazione_.
 
    >[!NOTE]
    >
-   >Per visualizzare correttamente i prodotti e i relativi prezzi in base a _ordinamento dei prodotti in base al prezzo_, assicurarsi che le impostazioni per la visualizzazione del prezzo in [Configurazione IVA](../configuration-reference/sales/tax.md) hanno lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla **[!UICONTROL Catalog Prices]**valore. E per_[!UICONTROL Price Display Settings]_, controlla **[!UICONTROL Display Product Prices in Catalog]** valore. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
+   >Per visualizzare correttamente i prodotti e i relativi prezzi in base a _ordinamento dei prodotti in base al prezzo_, assicurarsi che le impostazioni per la visualizzazione del prezzo nella [configurazione IVA](../configuration-reference/sales/tax.md) abbiano lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla il valore **[!UICONTROL Catalog Prices]**. E per_[!UICONTROL Price Display Settings]_, controlla il valore **[!UICONTROL Display Product Prices in Catalog]**. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
 
-1. Imposta il valore predefinito **[!UICONTROL List Mode]** a uno dei seguenti elementi:
+1. Impostare **[!UICONTROL List Mode]** predefinito su uno dei seguenti valori:
 
    - `Grid Only`
    - `List Only`
@@ -47,31 +47,31 @@ Gli elenchi di prodotti possono essere impostati in modo da essere visualizzati 
 
    Per immettere una selezione di valori, separa ogni numero con una virgola.
 
-1. Per **[!UICONTROL Products per Page on Grid Default Value]**, immetti il numero predefinito di prodotti da visualizzare nella griglia per pagina.
+1. Per **[!UICONTROL Products per Page on Grid Default Value]**, immettere il numero predefinito di prodotti da visualizzare nella griglia per pagina.
 
-1. Per **[!UICONTROL Products per Page on List Allowed Values]**, inserisci il numero di prodotti che desideri visualizzare per pagina quando viene visualizzato in formato elenco.
+1. Per **[!UICONTROL Products per Page on List Allowed Values]**, immettere il numero di prodotti che si desidera visualizzare per pagina quando viene visualizzato in formato elenco.
 
    Per immettere una selezione di valori, separa ogni numero con una virgola.
 
-1. Per **[!UICONTROL Products per page on List Default Value]**, inserisci il numero predefinito di prodotti visualizzati nell&#39;elenco, per pagina.
+1. Per **[!UICONTROL Products per page on List Default Value]**, immettere il numero predefinito di prodotti visualizzati nell&#39;elenco, per pagina.
 
-1. Imposta **[!UICONTROL Product Listing Sorted by]** all&#39;attributo predefinito utilizzato inizialmente per ordinare l&#39;elenco.
+1. Impostare **[!UICONTROL Product Listing Sorted by]** sull&#39;attributo predefinito utilizzato inizialmente per ordinare l&#39;elenco.
 
-1. Per offrire ai clienti l&#39;opzione di elencare tutti i prodotti, impostare **[!UICONTROL Allow All Products on Page]** a `Yes`.
+1. Per consentire ai clienti di elencare tutti i prodotti, impostare **[!UICONTROL Allow All Products on Page]** su `Yes`.
 
-1. Se si desidera mantenere tutte le impostazioni di impaginazione mentre i clienti sfogliano le voci di catalogo, impostare **[!UICONTROL Remember Category Pagination]** a `Yes`.
+1. Se si desidera mantenere tutte le impostazioni di impaginazione mentre i clienti sfogliano le voci di catalogo, impostare **[!UICONTROL Remember Category Pagination]** su `Yes`.
 
-   L’abilitazione di questa impostazione garantisce che il numero di prodotti visualizzati in un elenco o in una griglia venga mantenuto durante la navigazione da una categoria all’altra. Per impostazione predefinita, questo campo è impostato su `No` perché utilizza una maggiore quantità di memoria cache e può influire sul modo in cui le pagine vengono indicizzate dai motori di ricerca.
+   L’abilitazione di questa impostazione garantisce che il numero di prodotti visualizzati in un elenco o in una griglia venga mantenuto durante la navigazione da una categoria all’altra. Per impostazione predefinita, questo campo è impostato su `No` perché utilizza più spazio di archiviazione nella cache e può influire sul modo in cui le pagine vengono indicizzate dai motori di ricerca.
 
-1. Se si utilizza un [catalogo flat](catalog-flat.md) (**non consigliato**), effettuare le seguenti operazioni:
+1. Se si utilizza un [catalogo flat](catalog-flat.md) (**non consigliato**), eseguire le operazioni seguenti:
 
-   - Per visualizzare un elenco di categorie semplice di prodotti, impostare **[!UICONTROL Use Flat Catalog Category]** a `Yes`.
+   - Per visualizzare un elenco di categorie piatte di prodotti, impostare **[!UICONTROL Use Flat Catalog Category]** su `Yes`.
 
-   - Per visualizzare un elenco di prodotti semplice, impostare **[!UICONTROL Use Flat Catalog Product]** a `Yes`.
+   - Per visualizzare un elenco di prodotti flat, impostare **[!UICONTROL Use Flat Catalog Product]** su `Yes`.
 
-1. Se desideri consentire riferimenti dinamici per le risorse multimediali negli URL di categorie e prodotti, imposta **[!UICONTROL Allow Dynamic Media URLs in Products and Categories]** a `Yes`.
+1. Per consentire riferimenti dinamici per le risorse multimediali negli URL di categorie e prodotti, impostare **[!UICONTROL Allow Dynamic Media URLs in Products and Categories]** su `Yes`.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 ## Controlli pagina
 
@@ -95,29 +95,29 @@ Le impostazioni di impaginazione vengono visualizzate nella parte superiore e in
 | Controllo | Descrizione |
 |--- |--- |
 | ![Visualizza griglia](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Visualizza l&#39;elenco in formato Griglia o Elenco. |
-| ![Ordina per](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Modifica l&#39;ordinamento dell&#39;elenco. Il _[!UICONTROL Used for Sorting in Product Listing]_la proprietà storefront determina quale [attributi prodotto](../catalog/product-attributes.md) può essere utilizzato per ordinare l’elenco. |
+| ![Ordina per](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Modifica l&#39;ordinamento dell&#39;elenco. La proprietà vetrina _[!UICONTROL Used for Sorting in Product Listing]_determina quali [attributi di prodotto](../catalog/product-attributes.md) possono essere utilizzati per ordinare l&#39;elenco. |
 | ![Mostra per pagina](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Determina quanti prodotti vengono visualizzati per pagina. |
-| ![Collegamenti di impaginazione](./assets/control-pagination.png) | Collegamenti di impaginazione - Collegamenti di navigazione ad altre pagine. |
+| ![Collegamenti di paginazione](./assets/control-pagination.png) | Collegamenti di impaginazione - Collegamenti di navigazione ad altre pagine. |
 
 {style="table-layout:auto"}
 
 ### Configurare i controlli di impaginazione
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Individuare la visualizzazione dello store che si desidera configurare e, nel **[!UICONTROL Action]** , fare clic su **[!UICONTROL Edit]**.
+1. Individuare la visualizzazione archivio che si desidera configurare e nella colonna **[!UICONTROL Action]** fare clic su **[!UICONTROL Edit]**.
 
-1. Sotto **[!UICONTROL Other Settings]**, espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Pagination]** sezione.
+1. In **[!UICONTROL Other Settings]**, espandere ![Selettore di espansione](../assets/icon-display-expand.png) la sezione **[!UICONTROL Pagination]**.
 
    ![Paginazione](./assets/config-design-pagination.png){width="600" zoomable="yes"}
 
-   Per ulteriori informazioni su queste impostazioni, consulta [Configurazione progettazione](../content-design/configuration.md).
+   Per ulteriori informazioni su queste impostazioni, vedere [Configurazione progettazione](../content-design/configuration.md).
 
 1. Per **[!UICONTROL Pagination Frame]**, immettere il numero di collegamenti che si desidera visualizzare nel controllo di impaginazione.
 
 1. Per **[!UICONTROL Pagination Frame Skip]**, immettere il numero di collegamenti che si desidera ignorare prima di visualizzare il successivo gruppo di collegamenti nel controllo di impaginazione.
 
-   Ad esempio, se la cornice di impaginazione contiene cinque collegamenti e desiderate passare ai cinque collegamenti successivi, quanti collegamenti desiderate ignorare? Se si imposta il valore su quattro (`4`), l&#39;ultimo collegamento del set precedente è il primo collegamento del set successivo.
+   Ad esempio, se la cornice di impaginazione contiene cinque collegamenti e desiderate passare ai cinque collegamenti successivi, quanti collegamenti desiderate ignorare? Se si imposta il valore su quattro (`4`), l&#39;ultimo collegamento del set precedente sarà il primo del set successivo.
 
 1. Per **[!UICONTROL Anchor Text for Previous]**, immettere il testo che si desidera visualizzare per il collegamento Precedente.
 
@@ -125,4 +125,4 @@ Le impostazioni di impaginazione vengono visualizzate nella parte superiore e in
 
 1. Per **[!UICONTROL Anchor Text for Next]**, immettere il testo che si desidera visualizzare per il collegamento Successivo. Lasciate vuoto per usare la freccia di default.
 
-1. Al termine, fai clic su **[!UICONTROL Save Configuration]**.
+1. Al termine, fare clic su **[!UICONTROL Save Configuration]**.

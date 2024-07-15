@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Restituisce
 
-A _autorizzazione merce restituita_ (RMA) può essere concesso ai clienti che richiedono la restituzione di un articolo per la sostituzione o il rimborso. In genere, il cliente contatta il commerciante per richiedere un rimborso. Se approvato, viene assegnato un numero RMA univoco per identificare il prodotto restituito. Nella configurazione, è possibile abilitare RMA per tutti i prodotti o consentire RMA solo per determinati prodotti. Il _[!UICONTROL Returns]_La griglia elenca le richieste di merce (RMA) restituite correnti e viene utilizzata per immettere nuove richieste di restituzione.
+È possibile concedere un&#39;autorizzazione _restituita_ (RMA) per il merchandise ai clienti che richiedono la restituzione di un articolo per la sostituzione o il rimborso. In genere, il cliente contatta il commerciante per richiedere un rimborso. Se approvato, viene assegnato un numero RMA univoco per identificare il prodotto restituito. Nella configurazione, è possibile abilitare RMA per tutti i prodotti o consentire RMA solo per determinati prodotti. La griglia _[!UICONTROL Returns]_elenca le richieste di materiale promozionale (RMA) restituite correnti e viene utilizzata per immettere nuove richieste di reso.
 
-![Restituisce una griglia](./assets/return.png){width="600" zoomable="yes"}
+![Restituisce la griglia](./assets/return.png){width="600" zoomable="yes"}
 
 Le RMA possono essere rilasciate per tipi di prodotto semplici, raggruppati, configurabili e in bundle. Tuttavia, le RMA non sono disponibili per i prodotti virtuali, i prodotti scaricabili e le carte regalo.
 
@@ -35,13 +35,13 @@ Le RMA possono essere rilasciate per tipi di prodotto semplici, raggruppati, con
 
 ## RMA e flusso di lavoro di ritorno
 
-1. **Ricevi richiesta** - Se [abilitato](rma-configure.md#enable-rmas-for-your-store) per la vetrina, sia i clienti registrati che gli ospiti possono richiedere un RMA. È inoltre possibile [inviare una richiesta RMA in Admin](#create-a-return-request-in-the-admin).
+1. **Ricevi richiesta** - Se [abilitato](rma-configure.md#enable-rmas-for-your-store) per la vetrina, sia i clienti registrati che gli ospiti possono richiedere un RMA. È inoltre possibile [inviare una richiesta RMA nell&#39;Admin](#create-a-return-request-in-the-admin).
 
-2. **RMA emessa** - Dopo aver esaminato la richiesta, è possibile autorizzarla parzialmente, completamente o annullare la richiesta. Se autorizzi la restituzione e accetti di pagare per la spedizione di reso, puoi creare un ordine di spedizione dall&#39;amministratore con un vettore supportato.
+2. **RMA rilasciato** - Dopo aver esaminato la richiesta, è possibile autorizzarla parzialmente, completamente o annullare la richiesta. Se autorizzi la restituzione e accetti di pagare per la spedizione di reso, puoi creare un ordine di spedizione dall&#39;amministratore con un vettore supportato.
 
-3. **Merce ricevuta e prodotto restituito elaborato** - Il seguente diagramma di flusso descrive l&#39;ordine operativo per completare il processo di restituzione:
+3. **Merce ricevuta ed elaborata per la restituzione del prodotto** - Il seguente diagramma di flusso descrive l&#39;ordine operativo per completare il processo di restituzione:
 
-   ![Flusso di lavoro di restituzione prodotti](./assets/workflow-customer-returns.png){width="500"}
+   ![Flusso di lavoro di ritorno del prodotto](./assets/workflow-customer-returns.png){width="500"}
 
 ## Stato RMA
 
@@ -64,45 +64,45 @@ Durante il suo ciclo di vita, a un’autorizzazione di merce (RMA) restituita po
 
 ## Creare una richiesta di ritorno in Admin
 
-Un esercente può creare una richiesta di restituzione dall’amministratore per conto del cliente. I clienti possono [creare una richiesta di ritorno](rma-customer-experience.md) nella vetrina di un negozio Adobe Commerce.
+Un esercente può creare una richiesta di restituzione dall’amministratore per conto del cliente. I clienti possono [creare una richiesta di ritorno](rma-customer-experience.md) nella vetrina per un archivio Adobe Commerce.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
 
-1. Clic **[!UICONTROL New Return Request]**.
+1. Fare clic su **[!UICONTROL New Return Request]**.
 
-1. Per creare una richiesta di reso, fai clic su un ordine con un `Complete` stato.
+1. Per creare una richiesta di reso, fare clic su un ordine con stato `Complete`.
 
-1. Sotto _[!UICONTROL Return Information]_, seleziona la sezione **[!UICONTROL Return Items]**scheda.
+1. Nella sezione _[!UICONTROL Return Information]_selezionare la scheda **[!UICONTROL Return Items]**.
 
-1. Per aggiungere elementi da restituire, fai clic su **[!UICONTROL Add Items]**.
+1. Per aggiungere elementi da restituire, fare clic su **[!UICONTROL Add Items]**.
 
-1. Seleziona la casella di controllo per il prodotto richiesto e fai clic su **[!UICONTROL Add Selected Product to returns]**.
+1. Selezionare la casella di controllo per il prodotto richiesto e fare clic su **[!UICONTROL Add Selected Product to returns]**.
 
 1. Per **[!UICONTROL Requested]**, immettere il numero di elementi da restituire.
 
-1. Imposta **[!UICONTROL Return Reason]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Return Reason]** su uno dei seguenti:
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   Se il motivo della restituzione è diverso dalle scelte elencate, è possibile immettere un valore personalizzato selezionando la `Other` opzione.
+   Se il motivo della restituzione è diverso dalle scelte elencate, è possibile immettere un valore personalizzato selezionando l&#39;opzione `Other`.
 
-1. Imposta **[!UICONTROL Item Condition]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Item Condition]** su uno dei seguenti:
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Imposta **[!UICONTROL Resolution]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Resolution]** su uno dei seguenti:
 
    - `Exchange`
    - `Refund`
    - `Store Credit`
 
-1. Per creare un ritorno, fai clic su **[!UICONTROL Submit Returns]**.
+1. Per creare un ritorno, fare clic su **[!UICONTROL Submit Returns]**.
 
    ![Elementi RMA richiesti](./assets/return-item-request.png){width="600" zoomable="yes"}
 
-   La richiesta RMA appena inviata viene visualizzata sul **[!UICONTROL Returns]** pagina con un `Pending` stato.
+   La richiesta RMA appena inviata viene visualizzata nella pagina **[!UICONTROL Returns]** con uno stato `Pending`.

@@ -1,13 +1,13 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Currency Setup]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL General] &gt; [!UICONTROL Currency Setup] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] &gt; [!UICONTROL Currency Setup] dell'amministratore di Commerce.
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 3%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Consulta [Configurazione della valuta](../../stores-purchase/currency-configuration.md) per ulteriori dettagli su queste configurazioni.
+>Per ulteriori dettagli su queste configurazioni, vedere [Configurazione valuta](../../stores-purchase/currency-configuration.md).
 
 ## [!UICONTROL Currency Options]
 
-![Divisa Imposta > Opzioni divisa](./assets/currency-setup-currency-options.png)<!-- zoom -->
+![Impostazione valuta > Opzioni valuta](./assets/currency-setup-currency-options.png)<!-- zoom -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Base Currency] | Sito Web | La valuta principale utilizzata per tutte le transazioni di pagamento online. Per più viste punto vendita, l&#39;ambito del prezzo deve essere impostato nel [Catalogo](../catalog/catalog.md) configurazione. |
+| [!UICONTROL Base Currency] | Sito Web | La valuta principale utilizzata per tutte le transazioni di pagamento online. Per più visualizzazioni dello store, l&#39;ambito del prezzo deve essere impostato nella configurazione [Catalogo](../catalog/catalog.md). |
 | [!UICONTROL Default Display Currency] | Visualizzazione store | Valuta principale utilizzata per visualizzare i prezzi. |
 | [!UICONTROL Allowed Currencies] | Visualizzazione store | Le valute accettate dal tuo negozio per il pagamento. |
 
@@ -35,25 +35,25 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->A partire dalla versione 2.4.6 di, le [[!DNL Fixer.io]](https://fixer.io/) il servizio è obsoleto e sostituito con il [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) servizio. Si consiglia vivamente di utilizzare un account APILayer invece di un account obsoleto [!DNL Fixer.io] account.
+>A partire dalla versione 2.4.6, il servizio [[!DNL Fixer.io]](https://fixer.io/) è obsoleto e sostituito con il servizio [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api). Si consiglia di utilizzare un account APILayer invece di un account [!DNL Fixer.io] obsoleto.
 
-![Valuta Imposta > Fixer.io](./assets/currency-setup-fixer.png)<!-- zoom -->
+![Impostazione valuta > Fixer.io](./assets/currency-setup-fixer.png)<!-- zoom -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL API key] | Globale | Chiave utilizzata per accedere al servizio di conversione tramite [!DNL fixer.io] account. Per ulteriori informazioni, consulta [[!DNL fixer.io]](https://fixer.io/). |
+| [!UICONTROL API key] | Globale | Chiave utilizzata per accedere al servizio di conversione tramite l&#39;account [!DNL fixer.io]. Per ulteriori informazioni, vedere [[!DNL fixer.io]](https://fixer.io/). |
 | [!UICONTROL Connection Timeout in Seconds] | Globale | Determina il numero di secondi di inattività prima del timeout di una sessione Fixer.io. Valore predefinito: `100` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
-![Valuta Imposta > Api fisso (APILayer)](./assets/currency-setup-fixer-api.png)<!-- zoom -->
+![Impostazione valuta > Api Fixer (APILayer)](./assets/currency-setup-fixer-api.png)<!-- zoom -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL API key] | Globale | Chiave utilizzata per accedere al servizio di conversione tramite [!DNL APILayer] account. Per ulteriori informazioni, consulta [[!DNL APILayer]](https://apilayer.com/). |
-| [!UICONTROL Connection Timeout in Seconds] | Globale | Determina il numero di secondi di inattività prima di un [!DNL APILayer] sessione scaduta. Il valore predefinito è `100`. |
+| [!UICONTROL API key] | Globale | Chiave utilizzata per accedere al servizio di conversione tramite l&#39;account [!DNL APILayer]. Per ulteriori informazioni, vedere [[!DNL APILayer]](https://apilayer.com/). |
+| [!UICONTROL Connection Timeout in Seconds] | Globale | Determina il numero di secondi di inattività prima del timeout di una sessione [!DNL APILayer]. Il valore predefinito è `100`. |
 
 {style="table-layout:auto"}
 
@@ -63,14 +63,14 @@ ht-degree: 3%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL API key] | Globale | Chiave utilizzata per accedere al servizio di conversione. Per ulteriori informazioni, consulta [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
-| [!UICONTROL Connection Timeout in Seconds] | Globale | Determina il numero di secondi di inattività prima di un [!DNL Currency Converter] sessione scaduta. Valore predefinito:`100` |
+| [!UICONTROL API key] | Globale | Chiave utilizzata per accedere al servizio di conversione. Per ulteriori informazioni, vedere [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
+| [!UICONTROL Connection Timeout in Seconds] | Globale | Determina il numero di secondi di inattività prima del timeout di una sessione [!DNL Currency Converter]. Valore predefinito:`100` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Scheduled Import Settings]
 
-![Valuta Imposta > Impostazioni importazione programmate](./assets/currency-setup-scheduled-import-settings.png)<!-- zoom -->
+![Impostazione valuta > Impostazioni importazione pianificate](./assets/currency-setup-scheduled-import-settings.png)<!-- zoom -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

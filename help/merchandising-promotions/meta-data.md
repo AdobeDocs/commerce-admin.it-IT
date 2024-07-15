@@ -5,7 +5,7 @@ exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 Il tuo archivio è caricato di luoghi in cui puoi immettere metadati ricchi di parole chiave per migliorare il modo in cui i motori di ricerca indicizzano il sito. Durante la configurazione del negozio, è possibile immettere metadati preliminari, con l&#39;intenzione di completarli in un secondo momento. Nel tempo, puoi perfezionare i metadati per adattarli ai modelli di acquisto e alle preferenze dei clienti.
 
-![Impostazioni del prodotto - Ottimizzazione del motore di ricerca](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
+![Impostazioni prodotto - Ottimizzazione motore di ricerca](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
 ## Meta title
 
 Il metatitolo viene visualizzato nella barra del titolo e nella scheda del browser e nell’elenco dei risultati della ricerca. Il metatitolo deve essere univoco per la pagina e contenere meno di 70 caratteri.
 
-![Esempio di vetrina - meta title](./assets/storefront-home-page-meta-title.png){width="600"}
+![Esempio di vetrina - titolo meta](./assets/storefront-home-page-meta-title.png){width="600"}
 
 ## Parole chiave meta
 
 Anche se alcuni motori di ricerca ignorano le parole chiave meta, altri continuano a utilizzarle. La best practice corrente consiste nell’incorporare parole chiave di alto valore nel metatitolo e nella descrizione.
 
-![Ricerca nel browser web - parole chiave meta](./assets/storefront-meta-description.png){width="500"}
+![Ricerca nel browser Web - Parole chiave meta](./assets/storefront-meta-description.png){width="500"}
 
 ## Meta descrizione
 
@@ -34,11 +34,11 @@ Le metadescrizioni forniscono una breve panoramica della pagina per l’elenco d
 
 ## Frammenti avanzati
 
-I frammenti avanzati forniscono informazioni dettagliate per l&#39;elenco dei risultati di ricerca e altre applicazioni. Per impostazione predefinita, il markup dei dati strutturati basato su [schema.org][1] standard viene aggiunto al modello di prodotto del negozio. Di conseguenza, sono disponibili ulteriori informazioni che i motori di ricerca possono includere come _snippet avanzati_ negli elenchi di prodotti.
+I frammenti avanzati forniscono informazioni dettagliate per l&#39;elenco dei risultati di ricerca e altre applicazioni. Per impostazione predefinita, al modello di prodotto dell&#39;archivio viene aggiunto il markup di dati strutturati basato sullo standard [schema.org][1]. Di conseguenza, sono disponibili ulteriori informazioni per i motori di ricerca da includere come _frammenti avanzati_ negli elenchi di prodotti.
 
 ## Tag meta canonico
 
-Alcuni motori di ricerca penalizzano i siti web che hanno più URL che puntano allo stesso contenuto. Il metatag canonico indica ai motori di ricerca la pagina da indicizzare quando più URL hanno contenuto identico o simile. L’utilizzo del tag meta canonico può migliorare la classificazione del sito e le visualizzazioni di pagina aggregate. Il tag meta canonico viene inserito nel `<head>` blocco di una pagina di prodotto o categoria. Fornisce un collegamento all’URL preferito, quindi i motori di ricerca gli attribuiscono un peso maggiore.
+Alcuni motori di ricerca penalizzano i siti web che hanno più URL che puntano allo stesso contenuto. Il metatag canonico indica ai motori di ricerca la pagina da indicizzare quando più URL hanno contenuto identico o simile. L’utilizzo del tag meta canonico può migliorare la classificazione del sito e le visualizzazioni di pagina aggregate. Il metatag canonico si trova nel blocco `<head>` di una pagina di prodotto o categoria. Fornisce un collegamento all’URL preferito, quindi i motori di ricerca gli attribuiscono un peso maggiore.
 
 ### Esempio 1: il percorso della categoria crea URL duplicati
 
@@ -59,35 +59,35 @@ Quando i metatag canonici per i prodotti sono abilitati, la pagina del prodotto 
 
     http://mystore.com/driven-backpack.html
 
-Se includi anche il percorso della categoria negli URL del prodotto, l’URL canonico rimane nome di dominio/codice Product-url-key. Tuttavia, è possibile accedere al prodotto anche utilizzando il relativo URL completo, che include la categoria. Ad esempio, se il codice Product URL è `driven-backpack` ed è assegnato alla categoria Gear > Bags, è possibile accedere al prodotto utilizzando uno dei due URL.
+Se includi anche il percorso della categoria negli URL del prodotto, l’URL canonico rimane nome di dominio/codice Product-url-key. Tuttavia, è possibile accedere al prodotto anche utilizzando il relativo URL completo, che include la categoria. Ad esempio, se il codice URL del prodotto è `driven-backpack` e viene assegnato alla categoria Ingranaggio > Bagagli, è possibile accedere al prodotto utilizzando uno di questi URL.
 
 Puoi evitare di essere penalizzato dai motori di ricerca omettendo la categoria dall’URL o utilizzando il metatag canonico per indirizzare i motori di ricerca all’indicizzazione per prodotto o categoria. Come best practice, si consiglia di abilitare i metatag canonici sia per le categorie che per i prodotti.
 
 ### Abilita il tag meta canonico
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **Ottimizzazione motore di ricerca** sezione.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **Ottimizzazione motore di ricerca**.
 
-   Per modificare i valori dei campi, è necessario prima cancellare **Usa valore di sistema** dopo ogni campo.
+   Per modificare i valori dei campi, è necessario deselezionare la casella di controllo **Usa valore di sistema** dopo ogni campo.
 
-   ![Configurazione del catalogo - Ottimizzazione del motore di ricerca](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![Configurazione del catalogo - ottimizzazione motore di ricerca](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. Se si desidera che i motori di ricerca indicizzino solo le pagine delle categorie utilizzando il percorso completo delle categorie, eseguire le operazioni seguenti:
 
-   - Imposta **Usa metatag collegamento canonico per categorie** a `Yes`.
+   - Impostare **Use Canonical Link Meta Tag for Categories** su `Yes`.
 
-   - Imposta **Utilizza il tag meta di collegamento canonico per i prodotti** a `No`.
+   - Impostare **Use Canonical Link Meta Tag for Products** su `No`.
 
 1. Se si desidera che i motori di ricerca indicizzino le pagine di prodotti utilizzando solo il formato nome di dominio/prodotto-url-chiave, eseguire le operazioni seguenti:
 
-   - Imposta **Utilizza il tag meta di collegamento canonico per i prodotti** a `Yes`.
+   - Impostare **Use Canonical Link Meta Tag for Products** su `Yes`.
 
-   - Imposta **Usa metatag collegamento canonico per categorie** a `No`.
+   - Impostare **Use Canonical Link Meta Tag for Categories** su `No`.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 ## Demo sui metadati
 

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
-description: Rivedi le impostazioni di configurazione su [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] pagina dell’amministratore di Commerce.
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] dell'amministratore di Commerce.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
 source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[Tassi di cambio premio](../../merchandising-promotions/reward-exchange-rates.md) la configurazione è necessaria per il rimborso dei punti premio da parte dei clienti e degli amministratori durante il pagamento.
+>[La configurazione dei tassi di cambio premi](../../merchandising-promotions/reward-exchange-rates.md) è necessaria per il rimborso dei punti premio da parte dei clienti e degli amministratori durante l&#39;estrazione.
 
 ## [!UICONTROL Reward Points]
 
@@ -43,20 +43,20 @@ ht-degree: 0%
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
-![Azioni per l&#39;acquisizione di punti premio da parte dei clienti](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
+![Azioni per l&#39;acquisizione di punti premio dai clienti](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
 <!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Purchase] | Sito Web | Determina se i punti premio vengono guadagnati per gli acquisti in base al [Tassi di cambio premio](../../merchandising-promotions/reward-exchange-rates.md). Opzioni: `Yes` / `No` |
+| [!UICONTROL Purchase] | Sito Web | Determina se i punti premio vengono guadagnati per gli acquisti in base ai [tassi di cambio premio](../../merchandising-promotions/reward-exchange-rates.md) configurati. Opzioni: `Yes` / `No` |
 | [!UICONTROL Registration] | Sito Web | Specifica il numero di punti guadagnati per l&#39;apertura di un conto cliente. |
 | [!UICONTROL Newsletter Signup] | Sito Web | Specifica il numero di punti guadagnati dai clienti registrati che si abbonano a una newsletter. I punti non sono disponibili per gli abbonamenti da parte degli ospiti. Se un cliente annulla l’abbonamento e successivamente si abbona di nuovo, i punti non vengono guadagnati per il secondo abbonamento. |
 | [!UICONTROL Converting Invitation to Customer] | Sito Web | Specifica il numero di punti guadagnati da un cliente che invia un invito quando il destinatario apre un conto cliente. |
 | [!UICONTROL Invitation to Customer Conversions Quantity Limit] | Sito Web | Limita il numero di conversioni di inviti che possono essere utilizzate per guadagnare punti per il cliente che invia l’invito. Lascia vuoto per non impostare alcun limite. |
 | [!UICONTROL Converting Invitation to Order] | Sito Web | Specifica il numero di punti guadagnati da un cliente che invia un invito quando il destinatario effettua un ordine iniziale. |
 | [!UICONTROL Invitation to Order Conversions Quantity Limit] | Sito Web | Limita il numero di conversioni di ordini che possono guadagnare punti per la persona che invia l’invito. Se vuoto, non esiste alcun limite massimo. |
-| [!UICONTROL Invitation Conversion to Order Reward] | Sito Web | Indica la frequenza con cui un cliente può ottenere punti premio quando gli invitati effettuano acquisti. Opzioni: <br/>**`Each`**- Il cliente riceve punti premio per ogni ordine fatturato effettuato dall&#39;invitato. I punti premio vengono assegnati in base ai tassi di cambio fissati per la combinazione richiesta di un sito web e un gruppo di clienti.<br/>**`First`** - Il cliente riceve punti premio solo per il primo ordine fatturato effettuato dagli invitati. Se più di un invitato registra e invia un ordine, solo l&#39;importo del primo ordine viene convertito in punti premio e concesso al cliente. |
+| [!UICONTROL Invitation Conversion to Order Reward] | Sito Web | Indica la frequenza con cui un cliente può ottenere punti premio quando gli invitati effettuano acquisti. Opzioni: <br/>**`Each`**- Il cliente riceve punti premio per ogni ordine fatturato dall&#39;invitato. I punti premio vengono assegnati in base ai tassi di cambio fissati per la combinazione richiesta di un sito web e un gruppo di clienti.<br/>**`First`** - Il cliente riceve punti premio solo per il primo ordine fatturato effettuato dagli invitati. Se più di un invitato registra e invia un ordine, solo l&#39;importo del primo ordine viene convertito in punti premio e concesso al cliente. |
 | [!UICONTROL Review Submission] | Sito Web | Determina il numero di punti guadagnati da un cliente che sottomette una revisione approvata per la pubblicazione. |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | Sito Web | Limita il numero di recensioni che possono essere utilizzate per guadagnare punti per cliente. Lascia vuoto per non impostare alcun limite. |
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Email Notification Settings]
 
-![Impostazioni delle notifiche e-mail](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
+![Impostazioni notifiche e-mail](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
 <!-- [Email Notification Settings](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 

@@ -5,7 +5,7 @@ exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 Il formato di file con valori separati da virgola (CSV) viene utilizzato come base per le operazioni di trasferimento dei dati ed è supportato da tutte le applicazioni per fogli di calcolo e database. Per l&#39;importazione e l&#39;esportazione sono supportati i seguenti tipi di file:
 
-- Importa: `CSV` e `ZIP` (file CSV compresso)
+- Importa: `CSV` e `ZIP` (un file CSV compresso)
 - Esporta: `CSV`
 
 >[!IMPORTANT]
 >
->Per modificare i file CSV, si consiglia di utilizzare un programma che supporti la codifica UTF-8, ad esempio Blocco note++. Microsoft® Excel inserisce caratteri aggiuntivi nell’intestazione di colonna del file CSV, impedendo in tal modo la reimportazione dei dati in Commerce. Se utilizzi Mac, puoi salvare i dati in formato CSV (Windows).
+>Per modificare i file CSV, si consiglia di utilizzare un programma che supporti la codifica UTF-8, ad esempio Blocco note++. Microsoft® Excel inserisce caratteri aggiuntivi nell&#39;intestazione di colonna del file CSV, impedendo in tal modo la reimportazione dei dati in Commerce. Se utilizzi Mac, puoi salvare i dati in formato CSV (Windows).
 
 I file CSV hanno una struttura specifica che deve corrispondere al database. Ogni intestazione di colonna corrisponde al codice attributo del campo rappresentato dalla colonna. Per garantire che le intestazioni di colonna possano essere lette da Commerce, esporta innanzitutto i dati dall’archivio come file CSV. Puoi quindi modificare i dati e importarli nuovamente in Commerce.
 
@@ -31,13 +31,13 @@ Un’esportazione completa del database dei prodotti contiene informazioni su ci
 
 La prima riga della tabella contiene i nomi di ogni attributo, utilizzati come intestazioni di colonna. Le righe rimanenti descrivono i singoli record di prodotto. Qualsiasi riga che inizia con un valore nella colonna SKU è l&#39;inizio di un nuovo record di prodotto. Un singolo prodotto può includere diverse righe che contengono informazioni su più immagini o opzioni di prodotto. La riga successiva con un valore nella colonna SKU inizia un nuovo prodotto.
 
-La colonna categoria contiene un percorso per ogni categoria a cui è assegnato il prodotto. Il percorso include la categoria principale, seguita da una barra (`/`) tra ciascun livello. Per impostazione predefinita, la virgola `,` Il carattere viene utilizzato per separare percorsi di categorie diversi. (è possibile specificare un separatore diverso con _[!UICONTROL Multiple value separator]_). Ad esempio:
+La colonna categoria contiene un percorso per ogni categoria a cui è assegnato il prodotto. Il percorso include la categoria principale, seguita da una barra (`/`) tra ciascun livello. Per impostazione predefinita, il carattere virgola `,` viene utilizzato per separare percorsi di categorie diversi. È possibile specificare un separatore diverso con l&#39;opzione _[!UICONTROL Multiple value separator]_. Ad esempio:
 
 `Default Category/Gear,Default Category/Gear/Bags`
 
 Per importare i dati, è necessario includere solo lo SKU ed eventuali colonne con modifiche. Eventuali colonne vuote vengono ignorate durante il processo di importazione. Impossibile aggiungere attributi durante il processo di importazione. È possibile includere solo gli attributi esistenti.
 
-Per una descrizione dettagliata di ciascun attributo di prodotto, vedi [Struttura dei file CSV dei prodotti](data-attributes-product.md).
+Per una descrizione dettagliata di ciascun attributo di prodotto, vedi [Struttura del file CSV di prodotto](data-attributes-product.md).
 
 | Nome colonna | Descrizione |
 | ----------- | ----------- |
@@ -50,11 +50,11 @@ Per una descrizione dettagliata di ciascun attributo di prodotto, vedi [Struttur
 
 Il file CSV dei clienti contiene le informazioni sui clienti provenienti dal database e presenta la seguente struttura:
 
-La prima riga della tabella contiene i nomi delle colonne di attributi, che corrispondono ai codici di attributo. Esistono due tipi di nomi di colonna, come illustrato nella tabella seguente. Altre righe contengono valori di attributo, dati di servizio e dati complessi. Ogni riga con valori non vuoti nel `email` e `_website` colonne avvia la descrizione del cliente successivo. Ogni riga può rappresentare i dati del cliente con o senza i dati dell’indirizzo oppure solo i dati dell’indirizzo. Se una riga contiene solo i dati dell’indirizzo, i valori nelle colonne, relativi al profilo cliente, vengono ignorati e potrebbero essere vuoti.
+La prima riga della tabella contiene i nomi delle colonne di attributi, che corrispondono ai codici di attributo. Esistono due tipi di nomi di colonna, come illustrato nella tabella seguente. Altre righe contengono valori di attributo, dati di servizio e dati complessi. Ogni riga con valori non vuoti nelle colonne `email` e `_website` avvia la descrizione del cliente successivo. Ogni riga può rappresentare i dati del cliente con o senza i dati dell’indirizzo oppure solo i dati dell’indirizzo. Se una riga contiene solo i dati dell’indirizzo, i valori nelle colonne, relativi al profilo cliente, vengono ignorati e potrebbero essere vuoti.
 
 Per aggiungere o sostituire più indirizzi per un cliente, aggiungere una riga per ogni nuovo indirizzo con dati cliente vuoti e i dati dell&#39;indirizzo nuovi o aggiornati sotto la riga dati cliente.
 
-Per una descrizione dettagliata di ciascun attributo del cliente, vedi [Struttura dei file CSV dei clienti](data-attributes-customer.md).
+Per una descrizione dettagliata di ciascun attributo del cliente, vedi [Struttura del file CSV del cliente](data-attributes-customer.md).
 
 | Nome colonna | Descrizione |
 | ----------- | ----------- |

@@ -18,19 +18,19 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 
 ## Definisci un ruolo
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Add New Role]**.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Role]**.
 
 1. Completa i passaggi per definire il ruolo:
 
 ### Passaggio 1: aggiungere il nome del ruolo
 
-1. Sotto _[!UICONTROL Role Information]_, inserisci un valore descrittivo **[!UICONTROL Role Name]**.
+1. In _[!UICONTROL Role Information]_immettere un valore descrittivo **[!UICONTROL Role Name]**.
 
-1. Sotto _[!UICONTROL Current User Identity Verification]_, immettere la password.
+1. In _[!UICONTROL Current User Identity Verification]_immettere la password.
 
-   ![Autorizzazioni di sistema - Informazioni sul ruolo](./assets/permissions-role-info.png){width="600" zoomable="yes"}
+   ![Autorizzazioni di sistema - Informazioni ruolo](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
 ### Passaggio 2: assegnare le risorse
 
@@ -38,62 +38,62 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 >
 >Quando assegni le risorse, accertati di disabilitare l’accesso allo strumento Autorizzazioni se stai limitando l’accesso per un determinato ruolo. In caso contrario, gli utenti possono modificare le proprie autorizzazioni.
 
-1. Imposta **[!UICONTROL Role Scopes]** a uno dei seguenti elementi:
+1. Imposta **[!UICONTROL Role Scopes]** su uno dei seguenti:
 
    - `All`
    - `Custom`
 
-   Se impostato su `Custom` per un&#39;installazione multisito, selezionare la casella di controllo del sito Web e archiviare il ruolo da utilizzare.
+   Se è impostato su `Custom` per un&#39;installazione multisito, selezionare la casella di controllo del sito Web e l&#39;archivio in cui verrà utilizzato il ruolo.
 
-   ![Risorse per i ruoli utente - Ambito personalizzato](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
+   ![Risorse ruolo utente - ambito personalizzato](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Utenti con un `Custom` gli ambiti del ruolo non sono in grado di creare siti web e categorie, assegnare prodotti alle categorie o modificare prodotti in _[!UICONTROL All Store Views]_ambito quando vengono assegnati a archivi con restrizioni. Questi utenti non possono eseguire altre operazioni_ globale _azioni che interessano ambiti a cui non hanno accesso.
+   >Gli utenti con un ambito di ruolo `Custom` non possono creare siti Web e categorie, assegnare prodotti a categorie o modificare prodotti nell&#39;ambito _[!UICONTROL All Store Views]_quando sono assegnati a archivi con restrizioni. Questi utenti non possono inoltre eseguire altre azioni_ global _che interessano ambiti in cui non dispongono dell&#39;accesso.
 
-1. Sotto _[!UICONTROL Roles Resources]_, impostato **[!UICONTROL Resource Access]**a `Custom`.
+1. In _[!UICONTROL Roles Resources]_, impostare **[!UICONTROL Resource Access]**su `Custom`.
 
-1. In **[!UICONTROL Resource]** struttura ad albero, seleziona la casella di controllo di ogni funzionalità amministratore a cui il ruolo può accedere.
+1. Nella struttura ad albero **[!UICONTROL Resource]**, selezionare la casella di controllo di ogni funzionalità amministratore a cui il ruolo può accedere.
 
-   Per creare un ruolo amministratore con accesso alle impostazioni relative alle imposte, scegliere le risorse Vendite/Imposta e Sistema/Imposta. Se si configura un sito Web per un&#39;area diversa da quella predefinita [punto di origine di spedizione](../stores-purchase/shipping-settings.md#point-of-origin), è necessario consentire l&#39;accesso alle risorse di sistema/spedizione per il ruolo. Le impostazioni di spedizione determinano l&#39;aliquota dell&#39;imposta del negozio utilizzata per i prezzi del catalogo.
+   Per creare un ruolo amministratore con accesso alle impostazioni relative alle imposte, scegliere le risorse Vendite/Imposta e Sistema/Imposta. Se si configura un sito Web per un&#39;area diversa dal [punto di spedizione di origine](../stores-purchase/shipping-settings.md#point-of-origin) predefinito, è necessario consentire l&#39;accesso alle risorse di sistema/spedizione per il ruolo. Le impostazioni di spedizione determinano l&#39;aliquota dell&#39;imposta del negozio utilizzata per i prezzi del catalogo.
 
-   ![Risorse del ruolo utente assegnate](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
+   ![Risorse ruolo utente assegnate](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
    L’elenco delle autorizzazioni disponibili può includere opzioni aggiuntive per le estensioni in bundle e installate. Selezionando l’autorizzazione più in alto per ogni funzione, assegni tutte le autorizzazioni disponibili per l’utente.
 
    >[!NOTE]
    >
-   >Un utente amministratore deve avere **[!UICONTROL Sales / Archive]** autorizzazioni per il loro ambito di ruolo per visualizzare _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_, e _[!UICONTROL Shipments]_ordine [schede](../stores-purchase/order-processing.md).
+   >Un utente amministratore deve disporre delle autorizzazioni **[!UICONTROL Sales / Archive]** per il proprio ambito di ruolo per visualizzare l&#39;ordine _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ e _[!UICONTROL Shipments]_[tabs](../stores-purchase/order-processing.md).
 
-1. Al termine, fai clic su **[!UICONTROL Save Role]**.
+1. Al termine, fare clic su **[!UICONTROL Save Role]**.
 
    Il ruolo viene ora visualizzato nella griglia e può essere assegnato agli account utente.
 
 ## Assegnare un ruolo agli utenti
 
-1. Dalla sezione _[!UICONTROL Roles]_nella griglia, aprire il record in modalità di modifica.
+1. Dalla griglia _[!UICONTROL Roles]_, aprire il record in modalità di modifica.
 
-1. Sotto _[!UICONTROL Current User Identity Verification]_, immettere la password dell&#39;account utente.
+1. In _[!UICONTROL Current User Identity Verification]_immettere la password dell&#39;account utente.
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Role Users]**.
 
-   Il _[!UICONTROL Role Users]_L&#39;opzione viene visualizzata solo dopo il salvataggio di un nuovo ruolo.
+   L&#39;opzione _[!UICONTROL Role Users]_viene visualizzata solo dopo il salvataggio di un nuovo ruolo.
 
    ![Account utente assegnati al ruolo](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
 1. Per cercare un record utente specifico, effettuare le seguenti operazioni:
 
-   - Immetti il valore nel filtro di ricerca nella parte superiore di una colonna e premi **Invio**.
+   - Immettere il valore nel filtro di ricerca nella parte superiore di una colonna e premere **Invio**.
 
-   - Quando sei pronto a tornare all’elenco completo, fai clic su **[!UICONTROL Reset Filter]**.
+   - Quando si è pronti a tornare all&#39;elenco completo, fare clic su **[!UICONTROL Reset Filter]**.
 
 1. Selezionare la casella di controllo degli utenti da assegnare al ruolo.
 
-1. Clic **[!UICONTROL Save Role]**.
+1. Fare clic su **[!UICONTROL Save Role]**.
 
 ## Modificare un ruolo
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. Individuare il ruolo utilizzando i filtri sopra la griglia e fare clic sul nome del ruolo.
 
@@ -103,17 +103,17 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 
 1. Quando richiesto, immettere la password per confermare l&#39;identità.
 
-1. Fai clic su **[!UICONTROL Save Role]**.
+1. Fare clic su **[!UICONTROL Save Role]**.
 
 ## Eliminare una mansione
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. Individua il ruolo utilizzando i filtri sopra la griglia e apri in modalità di modifica.
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Delete Role]**.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Delete Role]**.
 
-1. Per confermare l’azione, fai clic su **[!UICONTROL OK]**.
+1. Per confermare l&#39;azione, fare clic su **[!UICONTROL OK]**.
 
 ## Demo sui ruoli utente
 
@@ -152,7 +152,7 @@ L’accesso alle seguenti risorse può essere assegnato a un ruolo personalizzat
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |  |
-|  | [Staging dei contenuti](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
+|  | [Gestione temporanea dei contenuti](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |

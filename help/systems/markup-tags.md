@@ -5,14 +5,14 @@ exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 # Tag di markup
 
-Un tag di markup è una direttiva che contiene uno snippet di codice con un riferimento relativo a un oggetto nell’archivio, ad esempio una variabile, un URL, un’immagine o un blocco. I tag di markup possono essere utilizzati ovunque sia disponibile l’editor e incorporati nel HTML di [email](email-templates.md) e [newsletter](../merchandising-promotions/newsletter-template.md) modelli, nonché altri tipi di [contenuto](../content-design/introduction.md#content).
+Un tag di markup è una direttiva che contiene uno snippet di codice con un riferimento relativo a un oggetto nell’archivio, ad esempio una variabile, un URL, un’immagine o un blocco. I tag di markup possono essere utilizzati ovunque sia disponibile l&#39;editor e incorporati nel HTML di [modelli e-mail](email-templates.md) e [newsletter](../merchandising-promotions/newsletter-template.md), nonché in altri tipi di [contenuto](../content-design/introduction.md#content).
 
 I tag di markup sono racchiusi tra parentesi graffe e doppie e possono essere generati dallo strumento Widget o digitati direttamente nel contenuto di HTML. Ad esempio, invece di utilizzare come codifica fissa il percorso completo di una pagina, puoi utilizzare un tag di markup per rappresentare l’URL del negozio. I tag di markup descritti negli esempi seguenti includono:
 
@@ -20,13 +20,13 @@ I tag di markup sono racchiusi tra parentesi graffe e doppie e possono essere ge
 
 ## Variabile personalizzata
 
-Il tag di markup Variable può essere utilizzato per inserire un [variabile personalizzata](variables-custom.md) in un modello e-mail, blocchi, newsletter e pagine di contenuto.
+Il tag di markup Variable può essere utilizzato per inserire una [variabile personalizzata](variables-custom.md) in un modello e-mail, blocchi, newsletter e pagine di contenuto.
 
 \{\{CustomVar code= &quot;variabile_personalizzata&quot;}}
 
 ## URL store
 
-Il tag di markup URL store rappresenta l’URL di base del sito web e viene utilizzato come sostituto della prima parte di un URL completo, incluso il nome di dominio. Esistono due versioni di questo tag di markup: una che va direttamente al tuo store e l’altra con una barra (`/`) alla fine utilizzata quando viene aggiunto un percorso.
+Il tag di markup URL store rappresenta l’URL di base del sito web e viene utilizzato come sostituto della prima parte di un URL completo, incluso il nome di dominio. Esistono due versioni di questo tag di markup: una che viene indirizzata direttamente all&#39;archivio e l&#39;altra con una barra (`/`) alla fine utilizzata quando viene aggiunto un percorso.
 
 \{\{store url=&#39;apparel/shoes/womens&#39;}}
 
@@ -70,7 +70,7 @@ Puoi utilizzare i tag di markup con i tag di ancoraggio HTML e collegarti dirett
 
 ### Passaggio 1: Identificare l’URL di destinazione
 
-Se possibile, accedi alla pagina a cui desideri collegarti e copia l’URL completo dalla barra degli indirizzi del browser. La parte dell’URL necessaria viene dopo il `.com/`. In caso contrario, copia la chiave URL dalla pagina CMS che desideri utilizzare come destinazione del collegamento.
+Se possibile, accedi alla pagina a cui desideri collegarti e copia l’URL completo dalla barra degli indirizzi del browser. La parte dell&#39;URL necessaria segue `.com/`. In caso contrario, copia la chiave URL dalla pagina CMS che desideri utilizzare come destinazione del collegamento.
 
 #### URL completo alla pagina della categoria
 
@@ -88,15 +88,15 @@ Se possibile, accedi alla pagina a cui desideri collegarti e copia l’URL compl
 
 ### Passaggio 2: Aggiungi il markup all’URL
 
-Il tag URL del negozio rappresenta l’URL di base del sito web e viene utilizzato come sostituto della parte dell’indirizzo HTTP dell’URL del negozio, inclusi il nome di dominio e `.com`. Esistono due versioni del tag, che puoi utilizzare, a seconda dei risultati che desideri ottenere.
+Il tag URL store rappresenta l&#39;URL di base del sito Web e viene utilizzato come sostituto della parte dell&#39;indirizzo HTTP dell&#39;URL dell&#39;archivio, inclusi il nome di dominio e `.com`. Esistono due versioni del tag, che puoi utilizzare, a seconda dei risultati che desideri ottenere.
 
-`store direct_url` : collegamenti diretti a una pagina.
+`store direct_url` - Collegamenti diretti a una pagina.
 
-`store url` - Inserisce una barra alla fine, in modo da poter aggiungere riferimenti aggiuntivi come tracciato.
+`store url` - Inserisce una barra alla fine, in modo che sia possibile aggiungere altri riferimenti come percorso.
 
 Negli esempi seguenti, la chiave URL è racchiusa tra virgolette singole e l&#39;intero tag di markup è racchiuso tra parentesi graffe. Se utilizzato con un tag di ancoraggio, il tag di markup viene posizionato all&#39;interno delle virgolette doppie dell&#39;ancoraggio. Per evitare confusione, è possibile alternare tra virgolette singole e doppie per ogni insieme di virgolette nidificato.
 
-Se inizi con un URL completo, elimina l’indirizzo HTTP (`http://` o `https://`) parte dell&#39;URL, fino a e incluso il `.com/`. Al suo posto, immetti il tag di markup URL del Negozio, fino alla virgoletta singola di apertura.
+Se si sta iniziando con un URL completo, eliminare la parte dell&#39;indirizzo HTTP (`http://` o `https://`) dell&#39;URL, fino al `.com/` incluso. Al suo posto, immetti il tag di markup URL del Negozio, fino alla virgoletta singola di apertura.
 
 #### Archivia tag di markup URL
 
@@ -120,10 +120,10 @@ Racchiudi il tag di markup completato all’interno di un tag di ancoraggio, uti
 
 #### Markup nel tag di ancoraggio
 
-\&lt;a href=&quot;\{\{markup tag goes here}}&quot;>Testo collegamento\&lt;/a>
+\&lt;a href=&quot;\{\{tag markup inserito qui}}&quot;>Testo collegamento\&lt;/a>
 
 Incolla il tag di ancoraggio completato nel codice di qualsiasi pagina CMS, blocco, banner o modello e-mail in cui desideri visualizzare il collegamento.
 
 ### Collegamento completo con markup
 
-\&lt;a href=&quot;\{\{store url=&amp;#39;apparel/shoes&amp;#39;}}&quot;>Vendita scarpe\&lt;/a>
+\&lt;a href=&quot;\{\{store url=&#39;vestel/shoes&#39;}}&quot;>Vendita di scarpe\&lt;/a>

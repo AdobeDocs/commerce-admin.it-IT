@@ -1,6 +1,6 @@
 ---
-title: "[!UICONTROL My Account] page"
-description: Il [!UICONTROL My Account] pagina della dashboard del cliente fornisce ai clienti una panoramica delle informazioni e dell’attività relative al negozio.
+title: "[!UICONTROL My Account] pagina"
+description: La pagina [!UICONTROL My Account] del dashboard clienti offre ai clienti una panoramica delle informazioni e delle attività relative al tuo store.
 exl-id: 01413b6b-ce32-4284-ae29-0fadf6ed22ca
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Account] pagina
 
-Il **[!UICONTROL My Account]** pagina della dashboard del cliente fornisce ai clienti una panoramica delle informazioni e dell’attività relative al negozio.
+La pagina **[!UICONTROL My Account]** del dashboard clienti offre ai clienti una panoramica delle informazioni e delle attività relative al tuo store.
 
 Questa pagina è costituita dalle sezioni riportate di seguito.
 

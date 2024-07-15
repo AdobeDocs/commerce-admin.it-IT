@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Page Builder] Modelli'
-description: Scopri come salvare le [!DNL Page Builder] come modello e quindi applicare il modello a un'altra area.
+description: Scopri come salvare il contenuto  [!DNL Page Builder]  esistente come modello e quindi applicare il modello a un'altra area.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
 source-git-commit: 06c8864e35dc37997bc26720ee9a95aff97f7987
@@ -10,27 +10,27 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] Modelli
+# [!DNL Page Builder] modelli
 
-I modelli sono contenitori che consentono di salvare [!DNL Page Builder] contenuti e layout di pagine, blocchi, blocchi dinamici, attributi di prodotto e descrizioni di categorie esistenti. L’utilizzo dei modelli consente di risparmiare tempo e fatica durante la creazione di contenuti (o la sostituzione di contenuti meno recenti). Ad esempio, puoi salvare il [!DNL Page Builder] contenuto come modello, quindi applicare il modello (con tutto il contenuto e i layout) a un&#39;altra area per creare rapidamente [!DNL Page Builder] contenuto.
+I modelli sono contenitori che salvano il contenuto e i layout [!DNL Page Builder] di pagine, blocchi, blocchi dinamici, attributi di prodotto e descrizioni delle categorie esistenti. L’utilizzo dei modelli consente di risparmiare tempo e fatica durante la creazione di contenuti (o la sostituzione di contenuti meno recenti). Ad esempio, è possibile salvare il contenuto [!DNL Page Builder] esistente come modello e quindi applicare il modello (con tutto il relativo contenuto e layout) a un&#39;altra area per creare rapidamente il contenuto [!DNL Page Builder].
 
 ## Modelli di accesso
 
-Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Templates]**.
+Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Templates]**.
 
 ![Griglia modelli con anteprima miniature](./assets/templates-list.png){width="700" zoomable="yes"}
 
-## Salva [!DNL Page Builder] contenuto come modello
+## Salva il contenuto [!DNL Page Builder] come modello
 
-1. Accedi a [[!DNL Page Builder] fase](workspace.md#stage) e accedere al contenuto da salvare come modello.
+1. Passare alla [[!DNL Page Builder] fase](workspace.md#stage) e accedere al contenuto che si desidera salvare come modello.
 
    Può trattarsi di una pagina, un blocco, un blocco dinamico, un attributo di prodotto o una descrizione di categoria.
 
 1. Sopra l&#39;area di visualizzazione, fare clic su **[!UICONTROL Save as Template]** in alto a destra.
 
-   ![[!DNL Page Builder] area di visualizzazione con il pulsante Salva come modello](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
+   Fase ![[!DNL Page Builder] con pulsante Salva come modello](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
-   Questa azione visualizza _[!UICONTROL Save Content as Template]_.
+   Questa azione visualizza la finestra di dialogo _[!UICONTROL Save Content as Template]_.
 
    ![[!DNL Page Builder] Finestra di dialogo Salva come modello](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
@@ -38,25 +38,25 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!U
 
    È necessario un nome univoco per eseguire ricerche, selezionarlo e applicarlo a un&#39;altra area di contenuto in base alle esigenze.
 
-1. Se necessario, impostare **Creato per** per assegnare il modello a un particolare tipo di area di contenuto.
+1. Se necessario, impostare **Creato per** per assegnare il modello a un particolare tipo di area contenuto.
 
-   Quando aggiungi questa assegnazione, puoi filtrarla e trovarla più facilmente se desideri applicare il modello in un secondo momento. Ma non limita il suo uso a quell&#39;area. Puoi utilizzare qualsiasi modello ovunque [!DNL Page Builder] contenuto consentito.
+   Quando aggiungi questa assegnazione, puoi filtrarla e trovarla più facilmente se desideri applicare il modello in un secondo momento. Ma non limita il suo uso a quell&#39;area. È possibile utilizzare qualsiasi modello in qualsiasi punto in cui è consentito [!DNL Page Builder] contenuto.
 
-1. Clic **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
    Viene visualizzato un messaggio di conferma che indica che il modello è stato salvato.
 
 ## Applicare un modello
 
-È possibile applicare un modello a un [!DNL Page Builder] area contenuto (pagina, blocco, blocco dinamico, attributo prodotto o descrizione categoria).
+È possibile applicare un modello a un&#39;area di contenuto [!DNL Page Builder] (pagina, blocco, blocco dinamico, attributo prodotto o descrizione categoria).
 
 1. Passa all’area del contenuto in cui desideri applicare il modello.
 
-1. Nell’area del contenuto, fai clic su **[!UICONTROL Apply Template]** in alto a destra.
+1. Nell&#39;area dei contenuti, fare clic su **[!UICONTROL Apply Template]** in alto a destra.
 
-   ![[!DNL Page Builder] Pulsante Applica modello](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] pulsante Applica modello](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Scegli un modello da _[!UICONTROL Apply Template]_e fai clic su **[!UICONTROL Apply]**alla fine della riga.
+1. Scegliere un modello dalla griglia _[!UICONTROL Apply Template]_e fare clic su **[!UICONTROL Apply]**alla fine della riga.
 
    Per visualizzare l&#39;intero modello, è possibile fare clic sull&#39;immagine della miniatura del modello. Questa azione espande l’immagine in modo da poter visualizzare l’intero modello, in base alle esigenze.
 
@@ -64,9 +64,9 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!U
 
 ## Eliminare un modello
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > **[!UICONTROL Templates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > **[!UICONTROL Templates]**.
 
-1. Dalla sezione _Modelli_ , scegli un modello e fai clic su **[!UICONTROL Delete]** alla fine della riga.
+1. Dalla pagina _Modelli_, scegli un modello e fai clic su **[!UICONTROL Delete]** alla fine della riga.
 
    Per visualizzare l&#39;intero modello, è possibile fare clic sull&#39;immagine della miniatura del modello. Questa azione espande l’immagine in modo da poter visualizzare l’intero modello, in base alle esigenze.
 
@@ -74,16 +74,16 @@ Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!U
 
 ## Filtra modelli
 
-Il _Applica modello_ griglia e _Modelli_ La griglia di pagina offre due modi per filtrare la griglia dei modelli:
+La griglia _Applica modello_ e la griglia di pagina _Modelli_ offrono due modi per filtrare la griglia dei modelli:
 
 - Utilizza la casella di ricerca in alto a sinistra per filtrare la griglia in base al nome del modello, in base al testo immesso.
 
-- Clic **[!UICONTROL Filters]** per aprire le opzioni dei filtri, in cui è possibile filtrare i modelli in base a:
+- Fare clic su **[!UICONTROL Filters]** per aprire le opzioni dei filtri, in cui è possibile filtrare i modelli in base a:
 
-   - Un intervallo di ID modello (**[!UICONTROL ID]**)
+   - Intervallo di ID modello (**[!UICONTROL ID]**)
    - Intervallo di date di creazione (**[!UICONTROL Created]**)
-   - Nome del modello (**[!UICONTROL Template Name]**)
-   - L&#39;area del contenuto designata (**[!UICONTROL Created For]**)
+   - Il nome del modello (**[!UICONTROL Template Name]**)
+   - Area del contenuto designata (**[!UICONTROL Created For]**)
 
 ![[!DNL Page Builder] Applica griglia modello](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
 

@@ -15,31 +15,31 @@ ht-degree: 0%
 
 L’amministratore della società viene inizialmente assegnato al momento della creazione dell’account aziendale e può essere modificato solo da un amministratore dello store dell’amministratore.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Trova la società nell’elenco e fai clic su **[!UICONTROL Edit]**.
+1. Trovare la società nell&#39;elenco e fare clic su **[!UICONTROL Edit]**.
 
    ![Aziende](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Company Admin]** sezione.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Company Admin]**.
 
    ![Amministratore società](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. Inserisci il **[!UICONTROL Job Title]** del nuovo amministratore della società e fai clic su **[!UICONTROL Proceed]** per continuare.
+1. Immettere **[!UICONTROL Job Title]** del nuovo amministratore della società e fare clic su **[!UICONTROL Proceed]** per continuare.
 
-   Questa azione cancella il modulo e il _[!UICONTROL First Name]_e_[!UICONTROL Last Name]_ vengono evidenziati.
+   Questa azione cancella il modulo e i campi obbligatori _[!UICONTROL First Name]_e_[!UICONTROL Last Name]_ sono evidenziati.
 
-1. Inserisci il **[!UICONTROL Email]** indirizzo del nuovo amministratore della società.
+1. Immettere l&#39;indirizzo **[!UICONTROL Email]** del nuovo amministratore della società.
 
    Se il sistema non trova l&#39;indirizzo e-mail nel database, viene richiesto di confermare la sostituzione dell&#39;amministratore della società.
 
-   - Se non esiste un account utente per il nuovo amministratore della società, il sistema crea un account `Company Admin` tipo.
+   - Se non esiste un account utente per il nuovo amministratore della società, il sistema crea un account di tipo `Company Admin`.
 
    - Se l&#39;account utente esiste nel sistema, viene spostato nella posizione di amministratore della società nella struttura della società.
 
-1. Inserisci il **[!UICONTROL First Name]** e **[!UICONTROL Last Name]** e ogni altra informazione pertinente per il nuovo amministratore della società.
+1. Immettere **[!UICONTROL First Name]** e **[!UICONTROL Last Name]** ed eventuali altre informazioni applicabili per il nuovo amministratore della società.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
    L’account individuale dell’ex amministratore della società rimane nel sistema come account utente individuale attivo nella struttura della società, assegnato al ruolo utente predefinito.
 

@@ -4,7 +4,7 @@ description: I segmenti di clienti consentono di visualizzare in modo dinamico c
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 I segmenti dei clienti consentono di visualizzare in modo dinamico contenuti e promozioni a clienti specifici, in base a varie proprietà. Alcuni esempi sono l’indirizzo del cliente, la cronologia degli ordini e i contenuti del carrello acquisti. Puoi ottimizzare le iniziative di marketing in base a segmenti mirati con regole di prezzo del carrello. Puoi anche generare rapporti ed esportare l’elenco dei clienti target. Poiché le informazioni sui segmenti dei clienti vengono costantemente aggiornate, i clienti possono associarsi e dissociarsi da un segmento mentre fanno acquisti nel negozio.
 
-Per capire meglio la differenza tra [gruppi di clienti](../customers/customer-groups.md) e segmenti cliente, annota dove vengono utilizzati:
+Per comprendere meglio la differenza tra [gruppi di clienti](../customers/customer-groups.md) e segmenti di clienti, tieni presente dove vengono utilizzati:
 
 |  | Segmento cliente | Gruppo di clienti |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ Per capire meglio la differenza tra [gruppi di clienti](../customers/customer-gr
 
 ## Attributi del segmento clienti
 
-Gli attributi del segmento clienti sono definiti in modo simile alle regole del carrello e del prezzo di catalogo. Per utilizzare un attributo in una condizione di segmento del cliente, il _[!UICONTROL Use in Customer Segment]_[proprietà](attribute-properties.md#) deve essere impostato su `Yes`. Le condizioni del segmento del cliente possono incorporare i seguenti tipi di attributi:
+Gli attributi del segmento clienti sono definiti in modo simile alle regole del carrello e del prezzo di catalogo. Affinché un attributo possa essere utilizzato in una condizione di segmento del cliente, la _[!UICONTROL Use in Customer Segment]_[proprietà](attribute-properties.md#) deve essere impostata su `Yes`. Le condizioni del segmento del cliente possono incorporare i seguenti tipi di attributi:
 
 | Attributo | Descrizione |
 |---|---|
@@ -42,9 +42,9 @@ Gli attributi del segmento clienti sono definiti in modo simile alle regole del 
 
 {style="table-layout:auto"}
 
-Consulta [Creare ed eliminare segmenti di clienti](../customers/customer-segment-create.md) per ulteriori informazioni sulla definizione dei segmenti dei clienti.
+Consulta [Creare ed eliminare segmenti cliente](../customers/customer-segment-create.md) per ulteriori informazioni sulla definizione dei segmenti cliente.
 
 ## eBooks
 
-- **Segmentazione del cliente** — Ottieni il [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) per scoprire come aumentare i profitti e la soddisfazione complessiva dei clienti.
-- **Tattiche di segmentazione** — Ottieni il [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) migliorare il targeting dei messaggi e delle promozioni per creare conversazioni significative con i clienti.
+- **Segmentazione del cliente**: ottieni il [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) per scoprire come aumentare i profitti e la soddisfazione complessiva del cliente.
+- **Tattiche di segmentazione**: ottieni il [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) per migliorare il targeting dei messaggi e delle promozioni e creare conversazioni significative con i tuoi clienti.

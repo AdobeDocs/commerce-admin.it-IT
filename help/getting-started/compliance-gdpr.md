@@ -5,7 +5,7 @@ exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -30,24 +30,24 @@ Tutte le organizzazioni che trattano dati personali devono comunicare quanto seg
 
 ## RGPD e CCPA
 
-Se la tua azienda deve rispettare i requisiti RGPD e [California Consumer Privacy Act (CCPA)](../getting-started/compliance-ccpa.md), puoi utilizzare parte del lavoro svolto dal programma di conformità RGPD per il CCPA. Anche se le normative hanno alcune somiglianze, alcune differenze includono:
+Se la tua azienda deve rispettare sia il RGPD che il [California Consumer Privacy Act (CCPA)](../getting-started/compliance-ccpa.md), puoi utilizzare parte del lavoro svolto dal programma di conformità al RGPD per il CCPA. Anche se le normative hanno alcune somiglianze, alcune differenze includono:
 
 - La definizione di informazioni personali varia a seconda del regolamento.
 - Il RGPD richiede ai consumatori di dare il consenso prima che i loro dati personali possano essere utilizzati per alcuni scopi; il CCPA fornisce ai consumatori il diritto di negare il consenso.
 - Il CCPA prevede requisiti aggiuntivi per l&#39;inventario dei dati e la mappatura.
 - Le normative hanno requisiti diversi in materia di informativa sulla privacy.
 
-Le aziende che si conformano al RGPD potrebbero avere obblighi aggiuntivi ai sensi del CCPA. Per ulteriori informazioni, consulta [Scheda informativa CCPA][3]{:target=&quot;_blank&quot;}.
+Le aziende che si conformano al RGPD potrebbero avere obblighi aggiuntivi ai sensi del CCPA. Per ulteriori informazioni, consulta la [Scheda informativa CCPA][3]{:target=&quot;_blank&quot;}.
 
 ## Best practice
 
-- Esamina la corrente [informativa sulla privacy](../getting-started/privacy-policy.md) per tutti i tuoi store, per assicurarti che siano in linea con tutti i requisiti legali applicabili (inclusi, a titolo esemplificativo, GDPR e CCPA).
+- Esamina le [policy sulla privacy](../getting-started/privacy-policy.md) correnti per tutti i tuoi store per assicurarti che siano in linea con tutti i requisiti legali applicabili (inclusi, ma non limitati a, GDPR e CCPA).
 
-- Aggiorna il tuo [Impostazioni Google](../merchandising-promotions/google-tools.md#google-privacy-settings) e assicurati che siano in linea con i tuoi obblighi legali relativi all’utilizzo dei dati personali.
+- Aggiorna le [impostazioni Google](../merchandising-promotions/google-tools.md#google-privacy-settings) e assicurati che siano in linea con gli obblighi legali relativi all&#39;utilizzo dei dati personali.
 
 - Mantenere la trasparenza e conservare la documentazione completa.
 
-- Per scoprire come Adobe aiuta i commercianti a rispettare gli obblighi legali applicabili, visita il [sito web][1]{:target=&quot;_blank&quot;}.
+- Per scoprire come Adobe aiuta i commercianti a rispettare gli obblighi legali applicabili, visita il [sito Web][1]{:target=&quot;_blank&quot;}.
 
 - Per i diagrammi di flusso dei dati e il mapping delle entità del database, vedere [Riferimento informazioni personali][2]{: target=&quot;_blank&quot;}.
 

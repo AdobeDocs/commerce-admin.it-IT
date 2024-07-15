@@ -16,7 +16,7 @@ Una volta stabilita, una categoria può essere modificata, spostata in un&#39;al
 
 ## Spostare una categoria
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Per spostare una categoria, trascinarla in una nuova posizione nella struttura.
 
@@ -28,8 +28,8 @@ Una volta stabilita, una categoria può essere modificata, spostata in un&#39;al
 
    Una categoria eliminata non può essere ripristinata, quindi accertati di aver selezionato la categoria corretta prima di procedere.
 
-1. Clic **[!UICONTROL Delete Category]**.
+1. Fare clic su **[!UICONTROL Delete Category]**.
 
-1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL OK]**.
+1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL OK]**.
 
-È inoltre possibile [aggiornare gli eventi](../merchandising-promotions/event-create.md#create-and-update-events) associato a una categoria da **[!UICONTROL Events]** pagina o **[!UICONTROL Category]** pagina.
+È inoltre possibile [aggiornare gli eventi](../merchandising-promotions/event-create.md#create-and-update-events) associati a una categoria dalla pagina **[!UICONTROL Events]** o dalla pagina **[!UICONTROL Category]**.

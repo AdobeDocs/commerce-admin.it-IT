@@ -16,23 +16,23 @@ ht-degree: 0%
 
 La configurazione del credito del negozio controlla i rimborsi automatici, la visualizzazione del credito disponibile negli account cliente e il modello e-mail utilizzato per le notifiche inviate ai clienti.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Customer Configuration]**.
 
-1. Espandi **[!UICONTROL Store Credit Options]** sezione.
+1. Espandere la sezione **[!UICONTROL Store Credit Options]**.
 
    ![Opzioni di credito store](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
 
-1. Imposta **[!UICONTROL Enable Store Credit Functionality]** a `Yes`.
+1. Imposta **[!UICONTROL Enable Store Credit Functionality]** su `Yes`.
 
 1. Imposta quanto segue in base alle tue preferenze:
 
    * **[!UICONTROL Show Store Credit History to Customers]**
    * **[!UICONTROL Refund Store Credit Automatically]**
 
-1. Imposta **[!UICONTROL Store Credit Update Email Sender]** all’identità dello store visualizzata come mittente delle notifiche e-mail inviate ai clienti.
+1. Impostare **[!UICONTROL Store Credit Update Email Sender]** sull&#39;identità dell&#39;archivio che viene visualizzata come mittente delle notifiche e-mail inviate ai clienti.
 
-1. Imposta **[!UICONTROL Store Credit Update Email Template]** al modello utilizzato per le notifiche e-mail inviate ai clienti.
+1. Imposta **[!UICONTROL Store Credit Update Email Template]** sul modello utilizzato per le notifiche e-mail inviate ai clienti.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.

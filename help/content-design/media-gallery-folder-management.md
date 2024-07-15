@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Gestione cartelle di Media Gallery
 
-Utilizzare le cartelle per organizzare le immagini nel nuovo [Raccolta file multimediali](media-gallery.md). Con l&#39;aumento del numero di risorse multimediali, le cartelle semplificano l&#39;individuazione e la gestione delle risorse esistenti nella raccolta multimediale.
+Utilizza le cartelle per organizzare le immagini nella nuova [Galleria file multimediali](media-gallery.md). Con l&#39;aumento del numero di risorse multimediali, le cartelle semplificano l&#39;individuazione e la gestione delle risorse esistenti nella raccolta multimediale.
 
 ## Creare una cartella
 
 >[!NOTE]
 >
->Puoi creare una cartella solo nel `pub/media/wysywig` e `pub/media/catalog/category` cartelle.
+>È possibile creare una cartella solo nelle cartelle `pub/media/wysywig` e `pub/media/catalog/category`.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Clic **[!UICONTROL Create Folder]**.
+1. Fare clic su **[!UICONTROL Create Folder]**.
 
-   Se si desidera creare una sottocartella, selezionare la cartella principale prima di fare clic su **[!UICONTROL Create Folder]**.
+   Se si desidera creare una sottocartella, selezionare la cartella padre prima di fare clic su **[!UICONTROL Create Folder]**.
 
-1. Inserisci il nome della nuova cartella e fai clic su **[!UICONTROL Confirm]**.
+1. Immettere il nome della nuova cartella e fare clic su **[!UICONTROL Confirm]**.
 
    ![Nome nuova cartella](./assets/media-gallery-folder-name.png){width="600" zoomable="yes"}
 
@@ -34,14 +34,14 @@ Utilizzare le cartelle per organizzare le immagini nel nuovo [Raccolta file mult
 
 >[!WARNING]
 >
->L’eliminazione di una cartella determina la rimozione di tutte le immagini al suo interno. È possibile eliminare una cartella solo nel `pub/media/wysywig` e `pub/media/catalog/category` cartelle.
+>L’eliminazione di una cartella determina la rimozione di tutte le immagini al suo interno. È possibile eliminare una cartella solo nelle cartelle `pub/media/wysywig` e `pub/media/catalog/category`.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 1. Selezionare la cartella da eliminare.
 
    ![Seleziona cartella](./assets/media-gallery-selected-folder.png){width="600" zoomable="yes"}
 
-1. Clic **[!UICONTROL Delete Folder]**.
+1. Fare clic su **[!UICONTROL Delete Folder]**.
 
-1. Per confermare l’eliminazione della cartella, fai clic su **[!UICONTROL OK]**.
+1. Per confermare l&#39;eliminazione della cartella, scegliere **[!UICONTROL OK]**.

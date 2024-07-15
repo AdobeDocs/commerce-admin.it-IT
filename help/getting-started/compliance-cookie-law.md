@@ -5,7 +5,7 @@ exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
 source-git-commit: ae43d97bb3031a06ce6a0211ee304aae53e4eb08
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ I cookie sono file di piccole dimensioni che vengono salvati nel computer di ogn
 
 >[!NOTE]
 >
->Se modificate il valore predefinito [Impostazioni privacy Google](../merchandising-promotions/google-tools.md#google-privacy-settings) per rispettare [Regolamento generale sulla protezione dei dati](compliance-gdpr.md), non è necessario ottenere il consenso degli utenti per l’utilizzo dei cookie Google Analytics.
+>Se modifichi le [impostazioni predefinite per la privacy di Google](../merchandising-promotions/google-tools.md#google-privacy-settings) in modo da rispettare il [Regolamento generale sulla protezione dei dati](compliance-gdpr.md), non è necessario ottenere il consenso degli utenti per l&#39;utilizzo dei cookie di Google Analytics.
 
 ## Metodo 1: consenso implicito
 
@@ -24,55 +24,55 @@ Il consenso implicito significa che i visitatori del tuo archivio hanno una chia
 
 ## Metodo 2: consenso espresso
 
-Gestione dello store in _modalità di restrizione dei cookie_ richiede ai visitatori di esprimere il proprio consenso prima che i cookie possano essere salvati nei loro computer. A meno che non venga concesso il consenso, molte funzioni del tuo archivio non sono disponibili. Ad esempio, se per il tuo archivio sono disponibili Google Analytics, queste possono essere richiamate solo dopo che il visitatore ha concesso l’autorizzazione all’uso dei cookie.
+Se si utilizza lo store in _modalità di restrizione dei cookie_, è necessario che i visitatori esprimano il proprio consenso prima di poter salvare i cookie nei propri computer. A meno che non venga concesso il consenso, molte funzioni del tuo archivio non sono disponibili. Ad esempio, se per il tuo archivio sono disponibili Google Analytics, queste possono essere richiamate solo dopo che il visitatore ha concesso l’autorizzazione all’uso dei cookie.
 
 ## Modalità di restrizione dei cookie
 
 Quando la modalità di restrizione dei cookie è abilitata, i visitatori del tuo store ricevono una notifica che indica che i cookie sono necessari per le operazioni complete delle funzioni. A seconda del tema, il messaggio potrebbe essere visualizzato sopra l’intestazione, sotto il piè di pagina o in un altro punto della pagina. Il messaggio rimanda all’informativa sulla privacy per ulteriori informazioni e incoraggia i visitatori a fare clic sul pulsante Consenti per concedere il consenso. Una volta concesso il consenso, il messaggio scompare.
 
-Il tuo [informativa sulla privacy](privacy-policy.md)) deve includere il nome del tuo Negozio e le informazioni di contatto, e spiegare lo scopo di ogni cookie utilizzato dal tuo Negozio. Per ulteriori informazioni, consulta [Riferimento cookie](#default-cookies).
+L&#39;[informativa sulla privacy](privacy-policy.md)) deve includere il nome dell&#39;archivio e le informazioni di contatto e spiegare lo scopo di ogni cookie utilizzato dall&#39;archivio. Per ulteriori informazioni, consulta [Riferimento cookie](#default-cookies).
 
 >[!NOTE]
 >
 >Se modifichi la chiave URL dell’informativa sulla privacy, devi anche creare un URL personalizzato da riscrivere per reindirizzare il traffico alla nuova chiave URL. In caso contrario, il collegamento nel messaggio Modalità di restrizione cookie restituisce `404 Page Not Found`.
 
-![Esempio di vetrina: avviso di restrizione dei cookie](./assets/storefront-cookie-restriction-message.png){width="600"}
+![Esempio di vetrina - Avviso di restrizione cookie](./assets/storefront-cookie-restriction-message.png){width="600"}
 
 ### Passaggio 1: abilitare la modalità di restrizione dei cookie
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello di navigazione a sinistra in **[!UICONTROL General]**, scegli **[!UICONTROL Web]**.
 
-1. Espandi **[!UICONTROL Default Cookie Settings]** ed effettuare le seguenti operazioni:
+1. Espandere la sezione **[!UICONTROL Default Cookie Settings]** ed eseguire le operazioni seguenti:
 
-   ![Configurazione web: impostazioni cookie predefinite](./assets/web-default-cookie-settings.png){width="600"}
+   ![Configurazione Web - impostazioni cookie predefinite](./assets/web-default-cookie-settings.png){width="600"}
 
-   - Inserisci il **[!UICONTROL Cookie Lifetime]** in secondi.
+   - Immetti **[!UICONTROL Cookie Lifetime]** in secondi.
 
-   - Se desideri rendere i cookie disponibili per altre cartelle, immetti **[!UICONTROL Cookie Path]**. Per rendere i cookie disponibili in qualsiasi punto del sito, immetti una barra (`/`). Questo valore può contenere solo il percorso del cookie e **_non può_** contiene altri parametri dei cookie.
+   - Se si desidera rendere i cookie disponibili per altre cartelle, immettere **[!UICONTROL Cookie Path]**. Per rendere i cookie disponibili in qualsiasi punto del sito, immettere una barra (`/`). Questo valore può contenere solo il percorso del cookie e **_non può_** contenere altri parametri del cookie.
 
-   - Per rendere i cookie disponibili per un sottodominio, inserisci il nome del sottodominio nel **[!UICONTROL Cookie Domain]** campo (`subdomain.yourdomain.com`). Per rendere i cookie disponibili per tutti i sottodomini, inserisci il nome di dominio preceduto da un punto (`.yourdomain.com`). Questo valore può contenere solo il dominio del cookie e **_non può_** contiene altri parametri dei cookie.
+   - Per rendere i cookie disponibili per un sottodominio, immettere il nome del sottodominio nel campo **[!UICONTROL Cookie Domain]** (`subdomain.yourdomain.com`). Per rendere i cookie disponibili per tutti i sottodomini, immettere il nome di dominio preceduto da un punto (`.yourdomain.com`). Questo valore può contenere solo il dominio del cookie e **_non può_** contenere altri parametri del cookie.
 
-   - Per impedire ai linguaggi di script, come JavaScript, di accedere ai cookie, assicurati che **Usa solo HTTP** è impostato su `Yes`.
+   - Per impedire ai linguaggi di script, come JavaScript, di accedere ai cookie, assicurarsi che **Usa solo HTTP** sia impostato su `Yes`.
 
-   - Imposta **[!UICONTROL Cookie Restriction Mode]** a `Yes`.
+   - Imposta **[!UICONTROL Cookie Restriction Mode]** su `Yes`.
 
-     Se necessario, deseleziona la casella di controllo e fai clic su **[!UICONTROL OK]** per confermare il cambio di ambito.
+     Se necessario, deselezionare la casella di controllo e fare clic su **[!UICONTROL OK]** per confermare il cambio di ambito.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
-1. Quando viene richiesto di aggiornare la cache, fare clic su **[!UICONTROL Cache Management]** nel messaggio di sistema. Quindi, aggiorna ogni cache non valida.
+1. Quando viene richiesto di aggiornare la cache, fare clic sul collegamento **[!UICONTROL Cache Management]** nel messaggio di sistema. Quindi, aggiorna ogni cache non valida.
 
 ### Passaggio 2: aggiornare l’informativa sulla privacy
 
-Aggiorna il tuo [informativa sulla privacy](privacy-policy.md) in modo da riflettere le informazioni raccolte dalla tua azienda e il modo in cui vengono utilizzate.
+Aggiorna l&#39;[informativa sulla privacy](privacy-policy.md) in modo che rifletta le informazioni raccolte dalla tua azienda e il modo in cui vengono utilizzate.
 
 ## Cookie predefiniti
 
-I cookie predefiniti in Adobe Commerce e Magento Open Source sono classificati come Esenti/Non esenti per aiutare i commercianti a soddisfare i requisiti delle normative sulla privacy come [RGPD](compliance-gdpr.md). I commercianti devono utilizzare queste informazioni come guida e consultare i consulenti legali per aggiornare le Politiche sulla privacy e sui cookie nell’ambito di una strategia completa di conformità alla normativa sulla privacy.
+I cookie predefiniti in Adobe Commerce e Magento Open Source sono classificati come Esenti/Non esenti per aiutare i commercianti a soddisfare i requisiti delle normative sulla privacy come il [RGPD](compliance-gdpr.md). I commercianti devono utilizzare queste informazioni come guida e consultare i consulenti legali per aggiornare le Politiche sulla privacy e sui cookie nell’ambito di una strategia completa di conformità alla normativa sulla privacy.
 
-I seguenti cookie vengono utilizzati da [!DNL Commerce] &quot;preconfigurato&quot; per le installazioni on-premise e cloud. Questi cookie possono essere richiesti da funzionalità esplicitamente richieste dal cliente. Per informazioni sulla durata dei cookie di sessione, consulta [Durata sessione](../customers/customer-online-options.md).
+I seguenti cookie sono utilizzati da [!DNL Commerce] &quot;preconfigurati&quot; per le installazioni on-premise e cloud. Questi cookie possono essere richiesti da funzionalità esplicitamente richieste dal cliente. Per informazioni sulla durata dei cookie di sessione, vedere [Durata sessione](../customers/customer-online-options.md).
 
 Alcuni di questi cookie possono fornire opzioni di configurazione, inclusa l’abilitazione/disabilitazione, in base alle esigenze.
 
@@ -81,11 +81,11 @@ Alcuni di questi cookie possono fornire opzioni di configurazione, inclusa l’a
 
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Solo per Adobe Commerce) Utilizzato da Google Tag Manager. Acquisisce lo SKU del prodotto, il nome, il prezzo e la quantità rimossi dal carrello e rende le informazioni disponibili per l’integrazione futura tramite script di terze parti.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) utilizzato da Google Tag Manager. Acquisisce lo SKU del prodotto, il nome, il prezzo e la quantità rimossi dal carrello e rende le informazioni disponibili per l’integrazione futura tramite script di terze parti.
 
 #### `guest-view`
 
-Memorizza l&#39;ID ordine utilizzato dagli acquirenti per recuperare lo stato dell&#39;ordine. Visualizzazione ordini guest. Utilizzato in _[!DNL Orders and Returns]_widget.
+Memorizza l&#39;ID ordine utilizzato dagli acquirenti per recuperare lo stato dell&#39;ordine. Visualizzazione ordini guest. Utilizzato nei widget _[!DNL Orders and Returns]_.
 
 - È sicuro? No
 - Solo HTTP: sì
@@ -94,7 +94,7 @@ Memorizza l&#39;ID ordine utilizzato dagli acquirenti per recuperare lo stato de
 
 #### `login_redirect`
 
-Mantiene la pagina di destinazione che veniva caricata prima che il cliente venisse indirizzato all’accesso. Un reindirizzamento di accesso viene utilizzato con il mini carrello per i clienti connessi se [Visualizza Mini Carrello](../stores-purchase/cart-configuration.md#mini-cart) l&#39;opzione di configurazione è impostata su `Yes`.
+Mantiene la pagina di destinazione che veniva caricata prima che il cliente venisse indirizzato all’accesso. Se l&#39;opzione di configurazione [Visualizza mini carrello](../stores-purchase/cart-configuration.md#mini-cart) è impostata su `Yes`, viene utilizzato un reindirizzamento di accesso con il mini carrello per i clienti connessi.
 
 - È sicuro? No
 - Solo HTTP: No
@@ -103,7 +103,7 @@ Mantiene la pagina di destinazione che veniva caricata prima che il cliente veni
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Solo per Adobe Commerce) Memorizza localmente il contenuto del banner per migliorare le prestazioni.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) memorizza localmente il contenuto del banner per migliorare le prestazioni.
 
 #### `mage-messages`
 
@@ -118,7 +118,7 @@ Non esiste un’opzione per disabilitare questo cookie.
 
 #### `mage-translation-storage` (archiviazione locale)
 
-Memorizza il contenuto tradotto quando richiesto dall’acquirente. Utilizzato quando [Strategia di traduzione](../configuration-reference/advanced/developer.md) è configurato come &quot;Dictionary (Translation on Storefront side)&quot;.
+Memorizza il contenuto tradotto quando richiesto dall’acquirente. Utilizzato quando [Strategia di traduzione](../configuration-reference/advanced/developer.md) è configurato come &quot;Dizionario (traduzione sul lato vetrina)&quot;.
 
 - È sicuro? No
 - Solo HTTP: No
@@ -181,11 +181,11 @@ Memorizza gli ID prodotto dei prodotti visualizzati di recente per facilitarne l
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Utilizzato da [Gestione tag Google](../merchandising-promotions/google-tag-manager.md). Acquisisce lo SKU del prodotto, il nome, il prezzo e la quantità aggiunti al carrello e rende le informazioni disponibili per l’integrazione futura tramite script di terze parti.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) utilizzato da [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). Acquisisce lo SKU del prodotto, il nome, il prezzo e la quantità aggiunti al carrello e rende le informazioni disponibili per l’integrazione futura tramite script di terze parti.
 
 #### `stf`
 
-Registra l&#39;ora in cui i messaggi vengono inviati dall&#39;oggetto SendFriend ([Invia un&#39;e-mail a un amico](../stores-purchase/email-a-friend.md)).
+Registra l&#39;ora in cui i messaggi vengono inviati dal modulo SendFriend ([Invia un messaggio e-mail a un amico](../stores-purchase/email-a-friend.md)).
 
 - È sicuro? Sì
 - Solo HTTP: sì
@@ -214,7 +214,7 @@ Misura di sicurezza che aggiunge una stringa casuale a tutti gli invii di moduli
 
 #### `mage-cache-sessid`
 
-Il valore di questo cookie attiva la pulizia dell’archiviazione della cache locale. Quando il cookie viene rimosso dall’applicazione back-end, l’amministratore ripulisce l’archiviazione locale e imposta il valore del cookie su `true`.
+Il valore di questo cookie attiva la pulizia dell’archiviazione della cache locale. Quando il cookie viene rimosso dall&#39;applicazione back-end, l&#39;amministratore ripulisce l&#39;archiviazione locale e imposta il valore del cookie su `true`.
 
 - È sicuro? No
 - Solo HTTP: No
@@ -254,20 +254,20 @@ Memorizza la chiave (ID) del carrello persistente per consentire il ripristino d
 
 - È sicuro? Sì
 - Solo HTTP: sì
-- Criterio di scadenza: basato su [Carrello acquisti persistente](../stores-purchase/cart-persistent.md) - Configurazione della durata della persistenza (secondi)
+- Criterio di scadenza: basato su [Carrello acquisti persistente](../stores-purchase/cart-persistent.md) - Configurazione durata persistenza (secondi)
 - Modulo: `Magento_Persistent`
 
 #### `private_content_version`
 
 Aggiunge un numero e un orario casuali e univoci alle pagine con contenuto del cliente per impedire che vengano memorizzate nella cache del server.
 
-È impostato in più posizioni: in PHP, in JavaScript come cookie e in JavaScript per l’archiviazione locale.
+È impostato in più posizioni: in PHP, in JavaScript come cookie e in JavaScript nell’archiviazione locale.
 
-For HTTP Only= Solo HTTP`Yes` (in base alla richiesta), significa che il cookie è sicuro se impostato durante la richiesta HTTPS e non sicuro se impostato durante la richiesta HTTP.
+Solo per HTTP=`Yes` (in base alla richiesta) significa che il cookie è protetto se impostato durante la richiesta HTTPS e non protetto se impostato durante la richiesta HTTP.
 
-- È sicuro? `Yes` (su richiesta), `No`
+- È sicuro? `Yes` (in base alla richiesta), `No`
 - Solo HTTP: `No`
-- Criterio di scadenza: basato su [Carrello acquisti persistente](../stores-purchase/cart-persistent.md) - Configurazione della durata della persistenza (secondi)
+- Criterio di scadenza: basato su [Carrello acquisti persistente](../stores-purchase/cart-persistent.md) - Configurazione durata persistenza (secondi)
    - PHP: `1` anno / `315360000s` (dieci anni)
    - JS: `1` giorno
    - Archiviazione locale JS: per regole di archiviazione locale (per sempre)
@@ -291,9 +291,9 @@ Tiene traccia della visualizzazione o delle impostazioni locali specifiche del n
 - Criteri di scadenza: `1` anno
 - Modulo: `Magento_Store`
 
-#### `mage-banners-cache-storage` - stoccaggio locale
+#### `mage-banners-cache-storage` - archiviazione locale
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Archiviazione locale per la funzionalità banner.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Archiviazione locale per funzionalità banner.
 
 - È sicuro? `No`
 - Solo HTTP: `No`
@@ -302,47 +302,47 @@ Tiene traccia della visualizzazione o delle impostazioni locali specifiche del n
 
 ## Google Analytics i cookie
 
-I seguenti cookie vengono utilizzati quando [Google Analytics](../merchandising-promotions/google-analytics.md) o Google Universal Analytics è completamente abilitato per l&#39;installazione. Per disabilitare questi cookie per la conformità alle normative sulla privacy, consulta [Impostazioni privacy Google](../merchandising-promotions/google-tools.md#google-privacy-settings). Per ulteriori informazioni, consulta [Google Analytics l’utilizzo dei cookie sui siti web][1].
+I seguenti cookie vengono utilizzati quando [Google Analytics](../merchandising-promotions/google-analytics.md) o Google Universal Analytics è completamente abilitato per l&#39;installazione. Per disabilitare questi cookie per la conformità alle normative sulla privacy, consulta [Impostazioni privacy di Google](../merchandising-promotions/google-tools.md#google-privacy-settings). Per ulteriori informazioni, consulta [Utilizzo dei cookie di Google Analytics sui siti Web][1].
 
 ### Cookie di Google Universal Analytics - non esenti
 
-![Adobe Commerce](../assets/adobe-logo.svg) Librerie JavaScript di (solo Adobe Commerce): `gtag.js` e `analytics.js`
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Librerie JavaScript: `gtag.js` e `analytics.js`
 
-- `_ga`: distingue i visitatori dal sito.
-- `_gid`: distingue i visitatori dal sito.
+- `_ga`: distingue i visitatori dal tuo sito.
+- `_gid`: distingue i visitatori dal tuo sito.
 - `gat`: utilizzato per limitare la frequenza delle richieste.
-- `dc_gtm_<property-id>`: limita la frequenza delle richieste quando le Google Analytics vengono distribuite con [Gestione tag Google](../merchandising-promotions/google-tag-manager.md).
+- `dc_gtm_<property-id>`: limita la frequenza di richieste quando le Google Analytics vengono distribuite con [Google Tag Manager](../merchandising-promotions/google-tag-manager.md).
 - `AMP_TOKEN`: contiene un token che può essere utilizzato per recuperare un ID client dal servizio ID client AMP. Altri valori possibili includono rinuncia, richiesta di informazioni o errore durante il recupero di un ID client dal servizio ID client AMP.
-- `_gac_<property-id>`: contiene informazioni relative alla campagna per l’utente. I tag di conversione di Google AdWords leggono questo cookie se la Google Analytics è collegata al tuo [AdWords][2] account.
+- `_gac_<property-id>`: contiene informazioni relative alla campagna per l&#39;utente. I tag di conversione di Google AdWords leggono questo cookie se la Google Analytics è collegata al tuo account [AdWords][2].
 
 ### Cookie Google Analytics - non esenti
 
-![Adobe Commerce](../assets/adobe-logo.svg) Libreria JavaScript (solo Adobe Commerce): `ga.js`
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Libreria JavaScript: `ga.js`
 
-- `__utma`: distingue acquirenti e sessioni. Questo cookie viene creato quando viene eseguita la libreria JavaScript e non esiste `__utma` cookie. Il cookie viene aggiornato ogni volta che i dati vengono inviati alle Google Analytics.
+- `__utma`: distingue acquirenti e sessioni. Questo cookie viene creato quando viene eseguita la libreria JavaScript e non è presente alcun cookie `__utma`. Il cookie viene aggiornato ogni volta che i dati vengono inviati alle Google Analytics.
 - `__utmt`: utilizzato per limitare la frequenza delle richieste.
-- `__utmb`: determina nuove sessioni/visite. Questo cookie viene creato quando viene eseguita la libreria JavaScript e non esiste `__utmb` cookie. Il cookie viene aggiornato ogni volta che i dati vengono inviati alle Google Analytics.
-- `_utmz`: salva l’origine del traffico o la campagna che spiega come l’acquirente ha raggiunto il sito. Il cookie viene creato al momento dell’esecuzione della libreria JavaScript e viene aggiornato ogni volta che i dati vengono inviati alle Google Analytics.
-- `__utmv`: memorizza i dati delle variabili personalizzate a livello di visitatore. Questo cookie viene creato quando uno sviluppatore utilizza `_setCustomVar` con una variabile personalizzata a livello di visitatore. Questo cookie viene aggiornato ogni volta che i dati vengono inviati alle Google Analytics.
+- `__utmb`: determina nuove sessioni/visite. Questo cookie viene creato quando viene eseguita la libreria JavaScript e non è presente alcun cookie `__utmb`. Il cookie viene aggiornato ogni volta che i dati vengono inviati alle Google Analytics.
+- `_utmz`: salva l&#39;origine del traffico o la campagna che spiega come l&#39;acquirente ha raggiunto il sito. Il cookie viene creato al momento dell’esecuzione della libreria JavaScript e viene aggiornato ogni volta che i dati vengono inviati alle Google Analytics.
+- `__utmv`: memorizza i dati delle variabili personalizzate a livello di visitatore. Questo cookie viene creato quando uno sviluppatore utilizza il metodo `_setCustomVar` con una variabile personalizzata a livello di visitatore. Questo cookie viene aggiornato ogni volta che i dati vengono inviati alle Google Analytics.
 
 ## Cookie di Recommendations del prodotto
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Solo per Adobe Commerce) I seguenti cookie vengono utilizzati da Product Recommendations per i clienti Adobe Commerce. Questi cookie vengono installati con [Modulo DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono utilizzati da Product Recommendations per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
-- `mg_dnt`: ti consente di: [limitare la raccolta dati di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) se disponi di un codice personalizzato per gestire il consenso dei cookie sul sito.
-- `user_allowed_save_cookie`: utilizzato per [modalità di restrizione dei cookie](#cookie-restriction-mode).
-- `authentication_flag`: indica se un acquirente ha effettuato l’accesso o la disconnessione. Questo cookie viene aggiornato contemporaneamente al `dataservices_customer_id` cookie.
-- `dataservices_customer_id`: indica se un acquirente ha effettuato l’accesso o la disconnessione. Questo cookie contiene l’ID univoco del cliente nel sistema.
-- `dataservices_customer_group`: indica il gruppo di un cliente. Questo cookie viene memorizzato come [sha1](https://en.wikipedia.org/wiki/SHA-1) checksum dell’ID gruppo del cliente.
+- `mg_dnt`: ti consente di [limitare la raccolta dati di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) se disponi di codice personalizzato per gestire il consenso dei cookie sul tuo sito.
+- `user_allowed_save_cookie`: utilizzato per la [modalità di restrizione cookie](#cookie-restriction-mode).
+- `authentication_flag`: indica se un acquirente ha effettuato l&#39;accesso o la disconnessione. Questo cookie viene aggiornato contemporaneamente al cookie `dataservices_customer_id`.
+- `dataservices_customer_id`: indica se un acquirente ha effettuato l&#39;accesso o la disconnessione. Questo cookie contiene l’ID univoco del cliente nel sistema.
+- `dataservices_customer_group`: indica il gruppo di un cliente. Questo cookie viene memorizzato come checksum [sha1](https://en.wikipedia.org/wiki/SHA-1) dell&#39;ID gruppo del cliente.
 - `dataservices_cart_id`: identifica le azioni del carrello di un acquirente. Questo cookie contiene l’ID carrello univoco del cliente nel sistema.
-- `dataservices_product_context`: identifica le interazioni di prodotto di un acquirente. Questo cookie contiene l’ID univoco del preventivo del cliente nel sistema.
+- `dataservices_product_context`: identifica le interazioni prodotto di un acquirente. Questo cookie contiene l’ID univoco del preventivo del cliente nel sistema.
 
 ## Cookie aggiuntivi
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Solo per Adobe Commerce) I seguenti cookie sono impostati per i clienti Adobe Commerce. Questi cookie vengono installati con [Modulo DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono impostati per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
-- `mg`: impostato da Snowplow JavaScript tracker. Ulteriori informazioni sono disponibili nella sezione [Documentazione di Snowplow](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options).
-- `com.adobe.alloy.getTld`: dato il nome host della pagina web corrente, questo è il dominio più in alto che non è un &quot;suffisso pubblico&quot; come descritto in https://publicsuffix.org. In sostanza, questo è il dominio di primo livello che può accettare i cookie. Questo cookie fa parte del [Alloy Web SDK](https://github.com/adobe/alloy).
+- `mg`: impostato da Snowplow JavaScript tracker. Ulteriori informazioni sono disponibili nella [documentazione Snowplow](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options).
+- `com.adobe.alloy.getTld`: dato il nome host della pagina Web corrente, questo è il dominio più in alto che non è un &quot;suffisso pubblico&quot; come descritto in https://publicsuffix.org. In sostanza, questo è il dominio di primo livello che può accettare i cookie. Questo cookie fa parte di [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

@@ -15,20 +15,20 @@ Quando si elimina il materiale, tutti i siti Web assegnati vengono assegnati al 
 
 >[!IMPORTANT]
 >
->Eliminazione di un [stock](stocks-manage.md) può influenzare le quantità vendibili e gli ordini non elaborati per un canale di vendita. Se si continua a utilizzare un canale di vendita, aggiungere il canale di vendita a un altro titolo esistente o nuovo.
+>L&#39;eliminazione di un [magazzino](stocks-manage.md) può influire sulle quantità vendibili e sugli ordini non elaborati per un canale di vendita. Se si continua a utilizzare un canale di vendita, aggiungere il canale di vendita a un altro titolo esistente o nuovo.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
 
 1. Seleziona uno o più stock da eliminare.
 
    Sfoglia o cerca e seleziona le caselle di controllo per i titoli che desideri eliminare.
 
-1. Dalla sezione **[!UICONTROL Actions]** menu, seleziona **[!UICONTROL Delete]**.
+1. Dal menu **[!UICONTROL Actions]**, selezionare **[!UICONTROL Delete]**.
 
    ![Selezionare Elimina dal menu Azioni](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 
-1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL OK]**.
+1. Nella finestra di dialogo di conferma, fare clic su **[!UICONTROL OK]**.
 
    Le scorte vengono eliminate e tutti i canali di vendita assegnati non vengono mappati.
 
-   ![Messaggio di verifica eliminazione titoli](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}
+   ![Messaggio di verifica eliminazione Stock](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}

@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Il [Registro Regali](gift-registries.md) sezione del conto cliente elenca i registri doni correnti del cliente e l&#39;evento associato. I clienti possono gestire i registri correnti e aggiungerne di nuovi.
+Nella sezione [Registro regali](gift-registries.md) dell&#39;account del cliente sono elencati i registri regali correnti del cliente e l&#39;evento associato. I clienti possono gestire i registri correnti e aggiungerne di nuovi.
 
-![Registro Regali](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
+![Registro regali](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
 ## Informazioni registro regali
 
 I clienti possono creare e gestire i registri delle donazioni dai loro account. Tutte le informazioni associate a ciascun tipo di registro sono disponibili nell&#39;account del cliente.
 
-![Esempio di vetrina: informazioni del registro regali](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![Esempio di vetrina - informazioni del registro regali](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | Sezione | Descrizione |
 |--- |--- |
@@ -40,11 +40,11 @@ I clienti possono creare e gestire i registri delle donazioni dai loro account. 
 
 ## Creare un registro regali
 
-1. Il cliente seleziona **[!UICONTROL Gift Registry]** nel dashboard dell’account.
+1. Il cliente seleziona **[!UICONTROL Gift Registry]** nel proprio dashboard account.
 
-1. Il giorno _Registro Regali_ pagina, clic **[!UICONTROL Add New]**.
+1. Nella pagina _Registro regali_, fa clic su **[!UICONTROL Add New]**.
 
-1. Sceglie un **[!UICONTROL Gift Registry Type]**, ad esempio:
+1. Scegli un **[!UICONTROL Gift Registry Type]**, ad esempio:
 
    - Compleanno
 
@@ -52,7 +52,7 @@ I clienti possono creare e gestire i registri delle donazioni dai loro account. 
 
    - Matrimonio
 
-1. Clic **[!UICONTROL Next]**.
+1. Clic su **[!UICONTROL Next]**.
 
 1. Immette le informazioni richieste e fa clic su **[!UICONTROL Save]**.
 
@@ -60,35 +60,35 @@ I clienti possono creare e gestire i registri delle donazioni dai loro account. 
 
 1. Il cliente apre il prodotto che desidera aggiungere all&#39;evento del registro dei doni.
 
-1. Clic **[!UICONTROL Add to Cart]**.
+1. Clic su **[!UICONTROL Add to Cart]**.
 
-1. Clic **[!UICONTROL View and Edit Cart]** sul mini carrello.
+1. Fa clic su **[!UICONTROL View and Edit Cart]** nel mini carrello.
 
-1. Nella pagina Carrello, seleziona l’evento desiderato e fa clic o tocca **[!UICONTROL Add All To Gift Registry]**.
+1. Nella pagina Carrello, seleziona l&#39;evento desiderato e fa clic/tocca **[!UICONTROL Add All To Gift Registry]**.
 
    Gli elementi vengono aggiunti al registro degli oggetti regalo dell&#39;evento selezionato.
 
 ## Condivisione di un registro regali
 
-1. Dal dashboard dell’account, il cliente accede a **[!UICONTROL Gift Registry]**.
+1. Dal dashboard dell&#39;account, il cliente accede a **[!UICONTROL Gift Registry]**.
 
 1. Trova l&#39;evento del Registro di sistema che si desidera gestire e fa clic su **[!UICONTROL Share]**.
 
-1. Immette le informazioni e i clic richiesti **[!UICONTROL Share Gift Registry]**.
+1. Immette le informazioni richieste e fa clic su **[!UICONTROL Share Gift Registry]**.
 
 ## Modificare un registro regali
 
-1. Dal dashboard dell’account, il cliente accede a **[!UICONTROL Gift Registry]**.
+1. Dal dashboard dell&#39;account, il cliente accede a **[!UICONTROL Gift Registry]**.
 
 1. Trova l&#39;evento del Registro di sistema che si desidera gestire e fa clic su **[!UICONTROL Edit]**.
 
 1. Modifica le opzioni in base alle esigenze.
 
-1. Modifica le opzioni e i clic richiesti **[!UICONTROL Save]**.
+1. Modifica le opzioni richieste e fa clic su **[!UICONTROL Save]**.
 
 ## Gestire gli elementi del Registro di sistema per i regali
 
-1. Dal dashboard dell’account, il cliente accede a **[!UICONTROL Gift Registry]**.
+1. Dal dashboard dell&#39;account, il cliente accede a **[!UICONTROL Gift Registry]**.
 
    ![Gestione degli elementi del Registro di sistema per i regali](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
@@ -96,14 +96,14 @@ I clienti possono creare e gestire i registri delle donazioni dai loro account. 
 
 1. Modifica le opzioni richieste, ad esempio **[!UICONTROL Note]** e **[!UICONTROL Qty]**.
 
-1. Se necessario, rimuove un articolo dal registro delle donazioni selezionando la casella di controllo e facendo clic su **[!UICONTROL Delete]**.
+1. Se necessario, rimuove un elemento dal Registro regali selezionando la casella di controllo e facendo clic su **[!UICONTROL Delete]**.
 
-1. Clic **[!UICONTROL Update Gift Registry]** per salvare le modifiche.
+1. Fai clic su **[!UICONTROL Update Gift Registry]** per salvare le modifiche.
 
 ## Eliminare un registro regali
 
-1. Dal dashboard dell’account, il cliente accede a **[!UICONTROL Gift Registry]**.
+1. Dal dashboard dell&#39;account, il cliente accede a **[!UICONTROL Gift Registry]**.
 
 1. Trova l&#39;evento del Registro di sistema che si desidera gestire e fa clic su **[!UICONTROL Delete]**.
 
-1. Clic **[!UICONTROL OK]** per confermare.
+1. Fai clic su **[!UICONTROL OK]** per confermare.

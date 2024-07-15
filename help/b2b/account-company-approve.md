@@ -13,40 +13,40 @@ ht-degree: 0%
 
 # Approvare un account società
 
-Lo stato delle richieste ricevute dalla vetrina per creare una società è `Pending Approval` fino a quando la richiesta non viene esaminata dall’amministratore dello store e approvata o rifiutata. Lo stato di un account società può essere impostato su uno dei seguenti:
+Lo stato delle richieste ricevute dalla vetrina per creare una società è `Pending Approval` finché la richiesta non viene esaminata dall&#39;amministratore dello store e approvata o rifiutata. Lo stato di un account società può essere impostato su uno dei seguenti:
 
 - [!UICONTROL Active]
 - [!UICONTROL Pending Approval]
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-È inoltre possibile utilizzare [Controllo Azioni](account-company-manage.md) per approvare più richieste aziendali.
+È inoltre possibile utilizzare il controllo [Azioni](account-company-manage.md) per approvare più richieste aziendali.
 
-![In attesa di approvazione](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
+![Approvazione in sospeso](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
 ## Approva un account società in sospeso
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   È possibile utilizzare _[!UICONTROL Columns]_sopra la griglia per visualizzare il **[!UICONTROL Status]**colonna.
+   È possibile utilizzare il selettore _[!UICONTROL Columns]_sopra la griglia per visualizzare la colonna **[!UICONTROL Status]**.
 
-1. In _[!UICONTROL Action]_, fare clic su **[!UICONTROL Edit]**.
+1. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL Edit]**.
 
-1. Imposta **[!UICONTROL Company Status]** a `Active`.
+1. Imposta **[!UICONTROL Company Status]** su `Active`.
 
-   ![Impostare lo stato della società](./assets/company-status-active.png){width="700" zoomable="yes"}
+   ![Imposta lo stato della società](./assets/company-status-active.png){width="700" zoomable="yes"}
 
-1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL Change status]**.
+1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL Change status]**.
 
    L’amministratore della società riceve una notifica e-mail che informa che la società è ora attiva.
 
-1. Se applicabile, impostare **[!UICONTROL Sales Representative]** a un account utente Admin specifico.
+1. Se applicabile, impostare **[!UICONTROL Sales Representative]** su un account utente amministratore specifico.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png)  il **[!UICONTROL Account Information]** e utilizza la sezione **[!UICONTROL Comment]** per immettere note sull&#39;account.
+1. Espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Account Information]** e utilizzare il campo **[!UICONTROL Comment]** per immettere note sull&#39;account.
 
    I commenti non sono visibili dalla vetrina.
 
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Al termine, fare clic su **[!UICONTROL Save]**.
 
    Viene inviata un’e-mail di conferma all’amministratore della società e della stessa che l’account della società è approvato.
 

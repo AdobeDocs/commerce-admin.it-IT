@@ -30,7 +30,7 @@ ht-degree: 6%
    + [Assegnazione di un gruppo di clienti a una società](account-company-customer-group.md)
    + [Aggiungere clienti a un’azienda](customer-assign-company.md)
    + [Gestisci credito società](credit-company.md)
-   + Utenti e struttura dell’azienda {#users}
+   + Utenti società e struttura {#users}
       + [Account utente società](account-company-users.md)
       + [Ruoli e autorizzazioni aziendali](account-company-roles-permissions.md)
       + [Definire la struttura aziendale](account-company-structure.md)
@@ -39,14 +39,14 @@ ht-degree: 6%
    + [Gestisci gerarchia società](assign-companies.md)
 + Cataloghi condivisi {#shared-catalogs}
    + [Panoramica](catalog-shared.md)
-   + Definire i cataloghi condivisi {#define}
+   + Definisci cataloghi condivisi {#define}
       + [Creare un catalogo condiviso](catalog-shared-create.md)
       + [Aggiungere prodotti a un catalogo condiviso](catalog-shared-product-add.md)
       + [Impostare la struttura e i prezzi del catalogo](catalog-shared-pricing-structure.md)
       + [Assegnare società a un catalogo](catalog-shared-assign-companies.md)
    + [Gestire i cataloghi condivisi](catalog-shared-manage.md)
 + [Ordini rapidi](quick-order.md)
-+ Ordini di acquisto {#purchase-orders}
++ Ordini fornitore {#purchase-orders}
    + [Ordini di acquisto per società](purchase-order-flow.md)
    + [Regole di approvazione](account-dashboard-approval-rules.md)
    + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)

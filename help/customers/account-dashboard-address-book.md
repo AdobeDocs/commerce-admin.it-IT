@@ -5,7 +5,7 @@ exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ I clienti che mantengono aggiornate le rubriche possono accelerare il processo d
 
 ## Aggiungi un indirizzo
 
-1. Nella navigazione a sinistra del proprio account cliente, il cliente sceglie **[!UICONTROL Address Book]**.
+1. Nella barra di navigazione a sinistra dell&#39;account cliente, il cliente sceglie **[!UICONTROL Address Book]**.
 
-1. Il giorno _[!UICONTROL Address Book]_pagina in_ Voci di indirizzo aggiuntive _, clic **[!UICONTROL Add New Address]**.
+1. Nella pagina _[!UICONTROL Address Book]_in_ Voci di indirizzo aggiuntive _, fa clic su **[!UICONTROL Add New Address]**.
 
    ![Aggiungi nuovo indirizzo](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -39,7 +39,7 @@ I clienti che mantengono aggiornate le rubriche possono accelerare il processo d
    * [!UICONTROL Use as my default billing address]
    * [!UICONTROL Use as my default shipping address]
 
-1. Al termine, fai clic su **[!UICONTROL Save Address]**.
+1. Al termine, fa clic su **[!UICONTROL Save Address]**.
 
    >[!INFO]
    >
@@ -49,41 +49,41 @@ I clienti che mantengono aggiornate le rubriche possono accelerare il processo d
 
 ## Modificare un indirizzo
 
-1. Nella navigazione a sinistra del proprio account cliente, il cliente seleziona **[!UICONTROL Address Book]**.
+1. Nel menu di navigazione a sinistra dell&#39;account cliente, il cliente seleziona **[!UICONTROL Address Book]**.
 
 1. Trova la voce dell&#39;indirizzo da modificare.
 
-1. Clic **[!UICONTROL Edit]**.
+1. Clic su **[!UICONTROL Edit]**.
 
 1. Apporta le modifiche necessarie.
 
    >[!INFO]
    >
-   >Il cliente può impostare questo indirizzo come predefinito **[!UICONTROL Shipping or Billing]** mediante la selezione di _Usa come indirizzo di fatturazione predefinito_ caselle di controllo.
+   >Il cliente può impostare questo indirizzo come indirizzo **[!UICONTROL Shipping or Billing]** predefinito selezionando le caselle di controllo _Usa come indirizzo di fatturazione predefinito_.
 
-1. Al termine delle modifiche, fai clic su **[!UICONTROL Save Address]**.
+1. Al termine delle modifiche, fa clic su **[!UICONTROL Save Address]**.
 
 ## Modificare l&#39;indirizzo predefinito
 
-1. Nella navigazione a sinistra del proprio account cliente, il cliente seleziona **[!UICONTROL Address Book]**.
+1. Nel menu di navigazione a sinistra dell&#39;account cliente, il cliente seleziona **[!UICONTROL Address Book]**.
 
 1. Scegli uno dei metodi di modifica:
 
-   * Clic **[!UICONTROL Change Billing/Shipping Address]** nel _[!UICONTROL Default Addresses]_sezione.
+   * Fa clic su **[!UICONTROL Change Billing/Shipping Address]** nella sezione _[!UICONTROL Default Addresses]_.
 
-   * Clic **[!UICONTROL Edit]** nel _[!UICONTROL Additional Address Entries]_griglia.
+   * Fa clic su **[!UICONTROL Edit]** nella griglia _[!UICONTROL Additional Address Entries]_.
 
 1. Apporta le modifiche necessarie e fa clic su **[!UICONTROL Save Address]**.
 
 ## Eliminare un indirizzo
 
-1. Nella navigazione a sinistra del proprio account cliente, il cliente seleziona **[!UICONTROL Address Book]**.
+1. Nel menu di navigazione a sinistra dell&#39;account cliente, il cliente seleziona **[!UICONTROL Address Book]**.
 
 1. Trova la voce dell&#39;indirizzo da eliminare.
 
-1. Clic **[!UICONTROL Delete]** nel _[!UICONTROL Additional Address Entries]_griglia.
+1. Fa clic su **[!UICONTROL Delete]** nella griglia _[!UICONTROL Additional Address Entries]_.
 
-1. Per confermare l’azione, fai clic su **[!UICONTROL OK]**.
+1. Per confermare l&#39;azione, fa clic su **[!UICONTROL OK]**.
 
    >[!IMPORTANT]
    >

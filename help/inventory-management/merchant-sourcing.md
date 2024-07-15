@@ -26,21 +26,21 @@ Ad esempio, disponi di un sito web o di un’implementazione multisito con siti 
 
 Per iniziare:
 
-- Configura [impostazioni globali e di prodotto](configuration.md) per l&#39;inventario del tuo negozio in base alle esigenze.
+- Configura le [impostazioni globali e di prodotto](configuration.md) per l&#39;inventario del tuo Negozio in base alle esigenze.
 
-- Aggiornare il [Origine predefinita](sources-manage.md) con le informazioni relative alla singola ubicazione di magazzino. La creazione di origini aggiuntive non è obbligatoria.
+- Aggiorna [Source predefinito](sources-manage.md) con le informazioni per la posizione di inventario singola. La creazione di origini aggiuntive non è obbligatoria.
 
-- Aggiornare il [Magazzino predefinito](stocks-manage.md). Assicurati che tutti i tuoi siti web siano selezionati come canali di vendita. Quando si aggiungono nuovi siti Web, [!DNL Commerce] le aggiunge automaticamente al grezzo di default. Non è necessario creare scorte aggiuntive.
+- Aggiorna [Stock predefinito](stocks-manage.md). Assicurati che tutti i tuoi siti web siano selezionati come canali di vendita. Quando si aggiungono nuovi siti Web, [!DNL Commerce] li aggiunge automaticamente allo Stock predefinito. Non è necessario creare scorte aggiuntive.
 
 >[!NOTE]
 >
->Con l&#39;espansione dell&#39;attività, è possibile aggiungere altre origini e scorte e aggiornare [!DNL Inventory Management] per diventare un commerciante multi-source. Consulta [Espandi e ristruttura inventario](expand-restructure.md) per tutti i dettagli.
+>Con l&#39;espansione dell&#39;azienda, aggiungi altre origini e scorte e aggiorna la configurazione di [!DNL Inventory Management] per diventare un commerciante multi-source. Per tutti i dettagli, vedere [Espandi e ripristina inventario](expand-restructure.md).
 
 ## Mercanti multi-source
 
 I commercianti multi-sorgente dispongono di un sito web o di un’implementazione multi-sito e gestiscono le scorte disponibili ed evadono gli ordini tramite più ubicazioni.
 
-Ad esempio, disponi di un’implementazione multisito con siti web per Stati Uniti, Germania, Francia e Brasile. La tua azienda include più magazzini e negozi in questi paesi e servizi di spedizione diretta che gestiscono tutte le scorte di magazzino e evadono gli ordini. Questi luoghi e siti web diventano fonti e scorte in [!DNL Commerce]. Puoi creare un magazzino per le Americhe e un altro per l&#39;Europa, assegnando siti web e sorgenti in base alle località e alle posizioni. I clienti che acquistano ogni sito web hanno accesso solo agli inventari vendibili dalle fonti assegnate.
+Ad esempio, disponi di un’implementazione multisito con siti web per Stati Uniti, Germania, Francia e Brasile. La tua azienda include più magazzini e negozi in questi paesi e servizi di spedizione diretta che gestiscono tutte le scorte di magazzino e evadono gli ordini. Queste posizioni e questi siti Web diventano origini e scorte in [!DNL Commerce]. Puoi creare un magazzino per le Americhe e un altro per l&#39;Europa, assegnando siti web e sorgenti in base alle località e alle posizioni. I clienti che acquistano ogni sito web hanno accesso solo agli inventari vendibili dalle fonti assegnate.
 
 Per iniziare:
 
@@ -48,7 +48,7 @@ Per iniziare:
 
 - Aggiungi [origini personalizzate](sources-add.md) per le ubicazioni di magazzino: magazzini, magazzini, centri di distribuzione e corrieri diretti.
 
-- Aggiungi [scorte personalizzate](stocks-add.md) per ogni area geografica per mappare i siti web con più origini. Riordinare le origini di ogni magazzino in base alla priorità dell&#39;ubicazione, utile quando si eseguono gli ordini.
+- Aggiungi [scorte personalizzate](stocks-add.md) per ogni area geografica per mappare i siti Web con più origini. Riordinare le origini di ogni magazzino in base alla priorità dell&#39;ubicazione, utile quando si eseguono gli ordini.
 
 - Assegna origini ai prodotti, aggiungendo quantità per ubicazione.
 

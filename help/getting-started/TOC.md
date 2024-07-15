@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guida introduttiva di Adobe Commerce
-user-guide-description: Se hai poca esperienza con Adobe Commerce o Magento Open Source, scopri le risorse di [!DNL Commerce] ecosistema, segui il percorso di clienti per esplorare il tuo negozio e scopri le funzioni chiave.
+user-guide-description: Se hai poca esperienza con Adobe Commerce o Magento Open Source, scopri le risorse dell'ecosistema  [!DNL Commerce] , segui il percorso di clienti per esplorare il tuo store e scopri le funzioni chiave.
 breadcrumb-title: Guida introduttiva
 role: Admin, Leader, User
 feature: Admin Workspace
@@ -23,7 +23,7 @@ ht-degree: 1%
    + [Proteggi il tuo account](commerce-account-secure.md)
    + [Condividi il tuo account](commerce-account-share.md)
    + [Trasferisci un account](commerce-account-transfer.md)
-+ Conformità del sito {#compliance}
++ Conformità sito {#compliance}
    + [Preparazione HIPAA su Adobe Commerce](hipaa-ready-service.md)
    + Privacy {#privacy}
       + [Informativa sulla privacy dello store](privacy-policy.md)
@@ -34,10 +34,10 @@ ht-degree: 1%
       + [Conformità PCI](compliance-pci.md)
       + [Direttiva sui servizi di pagamento](compliance-payment-services-directive.md)
    + [Accessibilità](navigation-accessibility.md)
-+ L’Amministratore {#admin}
++ L&#39;amministratore {#admin}
    + [Che cos’è l’amministratore?](admin.md)
    + [Account utente amministratore](admin-signin.md)
-   + Integrazione con Adobe Identity Management Service (IMS) {#ims}
+   + Integrazione Adobe Identity Management Service (IMS) {#ims}
       + [Panoramica dell’integrazione IMS](adobe-ims-integration-overview.md)
       + [Configurare l’integrazione dell’amministratore con IMS](adobe-ims-config.md)
       + [Disattiva l’integrazione dell’amministratore con IMS](adobe-ims-disable.md)
@@ -53,7 +53,7 @@ ht-degree: 1%
       + [Casella in entrata messaggio](admin-message-inbox.md)
       + [Controlli griglia](admin-grid-controls.md)
       + [Controllo Azioni](admin-actions-control.md)
-+ Vetrina {#storefront}
++ La vetrina {#storefront}
    + [Che cos&#39;è la vetrina?](storefront.md)
    + [Esperienze store migliorate](enhanced-experiences.md)
 + Configurazione di base {#setup}
@@ -61,7 +61,7 @@ ht-degree: 1%
    + [Dettagli store](store-details.md)
    + [Branding vetrina](storefront-branding.md)
    + [Elenco di controllo pre-avvio](prelaunch-checklist.md)
-+ Generazione rapporti standard  {#reporting}
++ Generazione rapporti standard {#reporting}
    + [Menu Rapporti](reports-menu.md)
    + [Rapporti di marketing](marketing-reports.md)
    + [Revisione dei rapporti](review-reports.md)
@@ -69,7 +69,7 @@ ht-degree: 1%
    + [Rapporti sui clienti](customer-reports.md)
    + [Rapporti sui prodotti](product-reports.md)
    + [Rapporti vendite private](private-sales-reports.md)
-   + [Strumenti di Commerce Intelligence](business-intelligence.md)
+   + [Strumenti Commerce Intelligence](business-intelligence.md)
    + [Reportistica di New Relic](new-relic-reporting.md)
 + Risorse {#resources}
    + [Ecosistema](resources.md)

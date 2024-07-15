@@ -1,6 +1,6 @@
 ---
 title: Aggiungi contenuto - Product Recommendations
-description: Scopri il tipo di contenuto Recommendations del prodotto, utilizzato per aggiungere un elenco di consigli al [!DNL Page Builder] fase.
+description: Scopri il tipo di contenuto Recommendations del prodotto, utilizzato per aggiungere un elenco di consigli alla fase  [!DNL Page Builder] .
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
 source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Aggiungi contenuto - Product Recommendations
 
-Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un elemento attivo esistente [unità consigli](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) al [[!DNL Page Builder] fase](workspace.md#stage) per una pagina CMS, un blocco o un blocco dinamico.
+Utilizza il tipo di contenuto _Product Recommendations_ per aggiungere una [unità di consigli](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) attiva e esistente alla [[!DNL Page Builder] fase](workspace.md#stage) per una pagina, un blocco o un blocco dinamico CMS.
 
 >[!NOTE]
 >
->Il [!DNL Page Builder] _Recommendations del prodotto_ il tipo di contenuto è supportato in Adobe Commerce 2.4.4 e versioni successive e disponibile nella [Prodotto Recommendations metapackage versioni 3.0.x o successive](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Da aggiungere [!DNL Page Builder] supporto per Product Recommendations, [vedere le informazioni di installazione](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Tipo di contenuto non disponibile per il Magento Open Source.**
+>Il tipo di contenuto [!DNL Page Builder] _Recommendations_ del prodotto è supportato in Adobe Commerce 2.4.4 e versioni successive e disponibile nel [pacchetto metapacchetto Recommendations del prodotto versioni 3.0.x o successive](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Per aggiungere il supporto di [!DNL Page Builder] per Product Recommendations, [vedere le informazioni sull&#39;installazione](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Questo tipo di contenuto non è disponibile per il Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -26,9 +26,9 @@ Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un e
 | --- | --| --- |
 | Sposta | ![Icona Sposta](./assets/pb-icon-move.png){width="25"} | Sposta il contenitore di consigli del prodotto e il relativo contenuto in un’altra posizione sullo stage. |
 | Impostazioni | ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} | Apre la pagina Modifica consiglio prodotto, in cui è possibile scegliere l&#39;unità di consigli e modificare le proprietà del contenitore. |
-| Nascondi | ![Nascondi icona](./assets/pb-icon-hide.png){width="25"} | Nasconde il contenitore di consigli prodotto corrente e il relativo contenuto. |
+| Nascondi | ![Icona Nascondi](./assets/pb-icon-hide.png){width="25"} | Nasconde il contenitore di consigli prodotto corrente e il relativo contenuto. |
 | Spettacolo | ![Mostra icona](./assets/pb-icon-show.png){width="25"} | Mostra il contenitore per consigli di prodotti nascosto e il relativo contenuto. |
-| Duplica | ![Icona Duplica](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia duplicata del contenitore per consigli di prodotto e del relativo contenuto. |
+| Duplica | ![Icona duplicata](./assets/pb-icon-duplicate.png){width="25"} | Crea una copia duplicata del contenitore per consigli di prodotto e del relativo contenuto. |
 | Rimuovi | ![Icona Rimuovi](./assets/pb-icon-remove.png){width="25"} | Elimina dall’area di visualizzazione il contenitore per consigli di prodotto e il relativo contenuto. |
 
 {style="table-layout:auto"}
@@ -37,68 +37,68 @@ Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un e
 
 ## Aggiungi un&#39;unità di consigli esistente
 
-1. Assicurati di avere già [ha creato un’unità di consigli](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) per [!DNL Page Builder] tipo di pagina.
+1. Assicurarsi di avere già [creato un&#39;unità di consigli](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) per il tipo di pagina [!DNL Page Builder].
 
 >[!NOTE]
 >
->Puoi creare unità di consigli per [!DNL Page Builder] tipo di pagina solo nella visualizzazione store predefinita.
+>È possibile creare unità di consigli per il tipo di pagina [!DNL Page Builder] solo nella visualizzazione predefinita dello store.
 
 1. Apri la pagina, il blocco o il blocco dinamico in modalità di modifica.
 
-1. Espandi _[!UICONTROL Content]_e fai clic su **[!UICONTROL Edit with Page Builder]**o nell&#39;area di anteprima del contenuto per aprire [!DNL Page Builder] Workspace.
+1. Espandere la sezione _[!UICONTROL Content]_e fare clic su **[!UICONTROL Edit with Page Builder]**o nell&#39;area di anteprima del contenuto per aprire l&#39;area di lavoro [!DNL Page Builder].
 
-1. In [!DNL Page Builder] pannello in _[!UICONTROL Layout]_, trascina un **[!UICONTROL Row]**segnaposto nell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**nell&#39;area di visualizzazione.
 
-1. In [!DNL Page Builder] pannello in _[!UICONTROL Add Content]_, trascina un **[!UICONTROL Product Recommendation]**segnaposto alla riga.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Add Content]_, trascina un segnaposto **[!UICONTROL Product Recommendation]**nella riga.
 
    ![Aggiunta del tipo di contenuto Consiglio di prodotto](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
 1. Effettuare una delle seguenti operazioni:
 
-   - Clic **[!UICONTROL Edit Product Recommendation]**.
-   - Passa il puntatore del mouse sul contenitore vuoto per visualizzare la casella degli strumenti e fai clic su _Impostazioni_ (![Icona Impostazioni](./assets/pb-icon-settings.png)).
+   - Fare clic su **[!UICONTROL Edit Product Recommendation]**.
+   - Passa il puntatore del mouse sul contenitore vuoto per visualizzare la casella degli strumenti e fai clic sull&#39;icona _Impostazioni_ (![Icona Impostazioni](./assets/pb-icon-settings.png)).
 
    ![Modifica consiglio prodotto](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL Selection]_, fare clic su **[!UICONTROL Select]**.
+1. Nella sezione _[!UICONTROL Selection]_, fare clic su **[!UICONTROL Select]**.
 
-1. Nell’elenco dei consigli di prodotto attivi, individua la riga con l’unità di consigli che desideri aggiungere e fai clic su **[!UICONTROL Select]** nell’ultima colonna.
+1. Nell&#39;elenco dei consigli di prodotti attivi, trovare la riga con l&#39;unità di consigli che si desidera aggiungere e fare clic su **[!UICONTROL Select]** nell&#39;ultima colonna.
 
-   ![Consiglio prodotto selezionato](./assets/pb-prex-select.png){width="600" zoomable="yes"}
+   ![Consiglio di prodotto selezionato](./assets/pb-prex-select.png){width="600" zoomable="yes"}
 
-1. Nell’angolo superiore destro, fai clic su **[!UICONTROL Add Selected]**.
+1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Selected]**.
 
-   Il nome del consiglio di prodotto selezionato viene visualizzato nel _[!UICONTROL Selection]_sezione del_[!UICONTROL Edit Product Recommendation]_ pagina.
+   Il nome del consiglio di prodotto selezionato viene visualizzato nella sezione _[!UICONTROL Selection]_della pagina_[!UICONTROL Edit Product Recommendation]_.
 
-1. Apporta le modifiche necessarie al [Impostazioni avanzate](#advanced-settings).
+1. Apporta le modifiche necessarie alle [Impostazioni avanzate](#advanced-settings).
 
    ![Modifica consiglio prodotto](./assets/pb-prex-edit.png){width="600" zoomable="yes"}
 
 1. Al termine, effettuare le seguenti operazioni:
 
-   - Se si utilizza una finestra del browser completamente ingrandita, fare clic sul pulsante _Chiudi schermo intero_ (![Icona Chiudi schermo intero](./assets/pb-icon-reduce.png)) nell’angolo superiore destro dell’area di lavoro.
+   - Se utilizzi una finestra del browser completamente ingrandita, fai clic sull&#39;icona _Chiudi schermo intero_ (![Chiudi icona schermo intero](./assets/pb-icon-reduce.png)) nell&#39;angolo superiore destro dell&#39;area di lavoro.
 
-   - Clic **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+   - Fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
    Quando ritorni all’area di visualizzazione, nel contenitore vengono visualizzate le immagini segnaposto del prodotto.
 
 ## Modifica impostazioni unità di consigli
 
-1. Passa il puntatore del mouse sul contenitore unità consigli per visualizzare la casella degli strumenti e fai clic su _Impostazioni_ (![Icona Impostazioni](./assets/pb-icon-settings.png)).
+1. Passa il puntatore del mouse sul contenitore unità di consigli per visualizzare la casella degli strumenti e fai clic sull&#39;icona _Impostazioni_ (![Icona Impostazioni](./assets/pb-icon-settings.png)).
 
-   ![Casella degli strumenti Consigli](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
+   ![Casella degli strumenti consigli](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
-1. Apporta le modifiche necessarie al [Impostazioni avanzate](#advanced-settings).
+1. Apporta le modifiche necessarie alle [Impostazioni avanzate](#advanced-settings).
 
-1. Al termine, fai clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare al [!DNL Page Builder] Workspace.
+1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 ## Duplicare un’unità di consigli
 
-1. Passa il puntatore del mouse sul contenitore unità consigli per visualizzare la casella degli strumenti e fai clic su _Duplica_ (![Icona Duplica](./assets/pb-icon-duplicate.png)) nella casella degli strumenti.
+1. Passa il puntatore del mouse sul contenitore di unità di consigli per visualizzare la casella degli strumenti e fai clic sull&#39;icona _Duplica_ (![Icona Duplica](./assets/pb-icon-duplicate.png)) nella casella degli strumenti.
 
    Il duplicato viene visualizzato immediatamente sotto l&#39;originale.
 
-1. Per spostare l’unità di consigli duplicata in una nuova posizione, passa il cursore del mouse sul contenitore e fai clic su _Sposta_ (![Icona Sposta](./assets/pb-icon-move.png)) nella casella degli strumenti.
+1. Per spostare l&#39;unità di consigli duplicata in una nuova posizione, posizionare il puntatore del mouse sul contenitore e fare clic sull&#39;icona _Sposta_ (![Icona Sposta](./assets/pb-icon-move.png)) nella casella degli strumenti.
 
 1. Seleziona e trascina l’unità di consigli fino a quando la linea guida rossa non viene visualizzata nella nuova posizione.
 
@@ -106,13 +106,13 @@ Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un e
 
 ## Rimuovere un’unità di consigli dalla fase
 
-1. Passa il puntatore del mouse sul contenitore unità consigli e fai clic su _Rimuovi_ ( ![Icona Rimuovi](./assets/pb-icon-remove.png)) nella casella degli strumenti.
+1. Passa il puntatore del mouse sul contenitore di unità di consigli e fai clic sull&#39;icona _Rimuovi_ ( ![Icona Rimuovi](./assets/pb-icon-remove.png)) nella casella degli strumenti.
 
-1. Quando viene richiesto di confermare, fai clic su **[!UICONTROL OK]**.
+1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL OK]**.
 
 ## Impostazioni avanzate
 
-1. Per controllare il posizionamento dell&#39;unità Product Recommendations all&#39;interno del contenitore principale, scegliere **[!UICONTROL Alignment]**:
+1. Per controllare il posizionamento dell&#39;unità Product Recommendations all&#39;interno del contenitore padre, scegliere **[!UICONTROL Alignment]**:
 
    | Opzione | Descrizione |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un e
 
    {style="table-layout:auto"}
 
-1. Imposta il **[!UICONTROL Border]** stile applicato a tutti e quattro i lati dell&#39;unità Recommendations del prodotto:
+1. Impostare lo stile **[!UICONTROL Border]** applicato a tutti e quattro i lati dell&#39;unità Product Recommendations:
 
    | Opzione | Descrizione |
    | ------ | ----------- |
@@ -150,11 +150,11 @@ Utilizza il _Recommendations del prodotto_ tipo di contenuto per aggiungere un e
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Specifica i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare all&#39;unità.
+1. (Facoltativo) Specificare i nomi di **[!UICONTROL CSS classes]** dal foglio di stile corrente da applicare all&#39;unità.
 
    Separare più nomi di classe con uno spazio.
 
-1. Immetti i valori, in pixel, per il **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna dell&#39;unità.
+1. Immettere i valori, in pixel, per **[!UICONTROL Margins and Padding]** per determinare i margini esterni e la spaziatura interna dell&#39;unità.
 
    Immettere i valori corrispondenti nel diagramma.
 

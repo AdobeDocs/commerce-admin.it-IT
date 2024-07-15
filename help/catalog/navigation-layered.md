@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La navigazione a livelli standard descritta in questa sezione differisce dalla navigazione filtrata Live Search con [facet](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>La navigazione a livelli standard descritta in questa sezione è diversa dalla navigazione filtrata di Live Search con [facet](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
 
-La navigazione a livelli consente di trovare facilmente i prodotti in base alla categoria, alla fascia di prezzo o a qualsiasi altro attributo disponibile. La navigazione a livelli viene in genere visualizzata nella colonna sinistra dei risultati di ricerca e delle pagine delle categorie e talvolta nella home page. La navigazione standard include _Acquista per_ elenco di categorie e fascia di prezzo. Puoi configurare la visualizzazione della navigazione su più livelli, compreso il conteggio dei prodotti e la gamma dei prezzi.
+La navigazione a livelli consente di trovare facilmente i prodotti in base alla categoria, alla fascia di prezzo o a qualsiasi altro attributo disponibile. La navigazione a livelli viene in genere visualizzata nella colonna sinistra dei risultati di ricerca e delle pagine delle categorie e talvolta nella home page. La navigazione standard include un elenco _Acquista per_ di categorie e fascia di prezzo. Puoi configurare la visualizzazione della navigazione su più livelli, compreso il conteggio dei prodotti e la gamma dei prezzi.
 
 ![Navigazione a livelli per categoria e prezzo](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
 
@@ -24,37 +24,37 @@ La navigazione a livelli consente di trovare facilmente i prodotti in base alla 
 
 >[!NOTE]
 >
->I requisiti degli attributi filtrabili descritti in questo argomento differiscono per [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Per ulteriori informazioni, consulta [Facet](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>I requisiti degli attributi filtrabili descritti in questo argomento sono diversi per [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Per ulteriori informazioni, consulta [Facet](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
 
 La navigazione a livelli può essere utilizzata per cercare i prodotti per categoria o per attributo. Ad esempio, quando un acquirente sceglie la categoria Mens/Short dalla navigazione superiore, i risultati iniziali includono tutti i prodotti della categoria. L&#39;elenco può essere filtrato ulteriormente scegliendo uno stile, un clima, un colore, un materiale, un motivo o un prezzo specifico oppure una combinazione di valori. Gli attributi filtrabili vengono visualizzati in una sezione espansa che elenca ogni valore di attributo. Come opzione, l’elenco dei prodotti con risultati corrispondenti può essere configurato per includere prodotti con o senza corrispondenza.
 
-Le proprietà dell’attributo, combinate con il tipo di input del prodotto, determinano gli attributi che possono essere utilizzati per la navigazione su più livelli. La navigazione a livelli è disponibile solo per [_ancoraggio_](categories-display-settings.md) , ma possono anche essere aggiunte alle pagine dei risultati di ricerca. Il **Tipo di input del catalogo per il proprietario del negozio** la proprietà di ciascun attributo deve essere impostata su `Yes/No`, `Dropdown`, `Multiple Select`, o `Price`. Per rendere gli attributi filtrabili, la **Uso in navigazione a livelli** proprietà di ogni deve essere impostata su `Filterable (with results)` o `Filterable (no results)`.
+Le proprietà dell’attributo, combinate con il tipo di input del prodotto, determinano gli attributi che possono essere utilizzati per la navigazione su più livelli. La navigazione a livelli è disponibile solo per le categorie [_ancoraggio_](categories-display-settings.md), ma può essere aggiunta anche alle pagine dei risultati di ricerca. La proprietà **Catalog Input Type per il proprietario dell&#39;archivio** di ciascun attributo deve essere impostata su `Yes/No`, `Dropdown`, `Multiple Select` o `Price`. Per rendere gli attributi filtrabili, la proprietà **Use in Layered Navigation** di ciascuno deve essere impostata su `Filterable (with results)` o `Filterable (no results)`.
 
 _Esempio: attributi filtrabili con risultati_
 
 ![Attributi filtrabili nella navigazione a livelli](./assets/storefront-layered-navigation-filtered.png){width="700" zoomable="yes"}
 
-_Esempio: i valori dei campioni filtrabili vengono visualizzati senza risultato_
+_Esempio: valori campione filtrabili visualizzati senza risultato_
 
 ![Valore campione filtrabile senza risultati](./assets/storefront-product-attribute-filter-no-results.png){width="700" zoomable="yes"}
 
-Le istruzioni seguenti mostrano come impostare una navigazione a livelli di base con attributi filtrabili. Per una navigazione avanzata su più livelli con fasce di prezzo, consulta [Navigazione prezzi](navigation-layered.md#configure-price-navigation).
+Le istruzioni seguenti mostrano come impostare una navigazione a livelli di base con attributi filtrabili. Per informazioni sulla navigazione avanzata su più livelli con fasce di prezzo, vedere [Navigazione prezzi](navigation-layered.md#configure-price-navigation).
 
 ## Passaggio 1: impostare le proprietà dell’attributo
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
 1. Sfoglia o utilizza la ricerca filtrata per trovare un attributo nell’elenco e aprirlo in modalità di modifica.
 
-   ![Immetti i termini di ricerca per colonna da utilizzare per la ricerca filtrata](./assets/attribute-search.png){width="700" zoomable="yes"}
+   ![Immettere i termini di ricerca per colonna da utilizzare per la ricerca filtrata](./assets/attribute-search.png){width="700" zoomable="yes"}
 
-1. Nel pannello a sinistra, scegli **[!UICONTROL Storefront Properties]** e imposta **[!UICONTROL Use In Layered Navigation]** a uno dei seguenti elementi:
+1. Nel pannello a sinistra, scegli **[!UICONTROL Storefront Properties]** e imposta **[!UICONTROL Use In Layered Navigation]** su uno dei seguenti:
 
    - `Filterable (with results)` - La navigazione a livelli include solo i filtri per i quali è possibile trovare prodotti corrispondenti. Qualsiasi valore di attributo già applicato a tutti i prodotti visualizzati nell’elenco deve comunque essere visualizzato come filtro disponibile. I valori degli attributi con un conteggio di zero (0) corrispondenze con i prodotti vengono omessi dall’elenco dei filtri disponibili. L’elenco filtrato include solo i prodotti che corrispondono al filtro. L’elenco dei prodotti viene aggiornato solo se i filtri selezionati modificano ciò che viene visualizzato.
 
-   - `Filterable (no results)` - La navigazione a livelli include filtri per tutti i valori di attributo disponibili e i relativi conteggi di prodotti, inclusi i prodotti con zero (0) corrispondenze di prodotto. Se il valore dell’attributo è un campione, viene visualizzato come filtro ma viene barrato. Il filtro a livelli di prezzo non è supportato da questa opzione e non influisce sui filtri di prezzo.
+   - `Filterable (no results)` - La navigazione a livelli include i filtri per tutti i valori di attributo disponibili e i relativi conteggi di prodotti, inclusi i prodotti con zero (0) corrispondenze di prodotti. Se il valore dell’attributo è un campione, viene visualizzato come filtro ma viene barrato. Il filtro a livelli di prezzo non è supportato da questa opzione e non influisce sui filtri di prezzo.
 
-1. Imposta **[!UICONTROL Use In Search Results Layered Navigation]** a `Yes`.
+1. Imposta **[!UICONTROL Use In Search Results Layered Navigation]** su `Yes`.
 
    ![Proprietà vetrina](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
@@ -62,23 +62,23 @@ Le istruzioni seguenti mostrano come impostare una navigazione a livelli di base
 
 >[!NOTE]
 >
->Quando _[!UICONTROL Use in Search]_è impostato su `No`, il_[!UICONTROL Use in Search Results Layered Navigation]_ non viene visualizzata e l&#39;attributo product non viene utilizzato nella ricerca con [!UICONTROL Use in Layered Navigation] valore di impostazione.
+>Quando l&#39;impostazione _[!UICONTROL Use in Search]_è impostata su `No`, l&#39;impostazione_[!UICONTROL Use in Search Results Layered Navigation]_ non viene visualizzata e l&#39;attributo product non viene utilizzato nella ricerca con un valore di impostazione [!UICONTROL Use in Layered Navigation].
 
 >[!NOTE]
 >
->Il [!UICONTROL Position] Il campo è disattivato per impostazione predefinita, pertanto è necessario salvare l&#39;attributo prima di poter modificare questa impostazione.
+>Il campo [!UICONTROL Position] è oscurato per impostazione predefinita, pertanto è necessario salvare l&#39;attributo prima di poter modificare questa impostazione.
 
 ## Passaggio 2: rendere la categoria un ancoraggio
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Nella struttura delle categorie selezionare la categoria in cui si desidera utilizzare la navigazione a livelli.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Display Settings]** sezione e set **[!UICONTROL Anchor]** a `Yes`.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) della sezione **[!UICONTROL Display Settings]** e impostare **[!UICONTROL Anchor]** su `Yes`.
 
-   ![Impostazioni di visualizzazione categoria](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
+   ![Impostazioni visualizzazione categoria](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
-1. Clic **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 ## Passaggio 3: verificare i risultati
 
@@ -90,23 +90,23 @@ Cerca, filtra e controlla i prodotti visualizzati.
 
 La navigazione a livelli include filtri per tutti i valori di attributo disponibili e i relativi conteggi di prodotti, inclusi i prodotti con zero (0) corrispondenze di prodotti (come mostrato nell’immagine seguente).
 
-![Visualizzazione dei filtri zero](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
+![Nessun filtro visualizzato](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
 
 Questo risultato può rendere difficile per i clienti selezionare un prodotto preferito e non è necessario visualizzare i valori degli attributi &#x200B;&#x200B;con 0 prodotti nel front-end.
 
 Per rimuovere i valori degli attributi filtrabili con 0 prodotti dalla navigazione a livelli, attenersi alla procedura descritta di seguito.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
 1. Sfoglia o utilizza la ricerca filtrata per trovare un attributo nell’elenco e aprirlo in modalità di modifica.
 
-1. Sotto _[!UICONTROL Attribute Information]_, fai clic su **[!UICONTROL Storefront Properties]**.
+1. In _[!UICONTROL Attribute Information]_fare clic su **[!UICONTROL Storefront Properties]**.
 
-1. Per **[!UICONTROL Layered Navigation]**, scegli `Filterable (with results)`.
+1. Per **[!UICONTROL Layered Navigation]**, scegliere `Filterable (with results)`.
 
-   ![Sezione Informazioni attributo](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
+   ![Sezione informazioni attributo](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
 
-1. Clic **[!UICONTROL Save Attribute]**.
+1. Fare clic su **[!UICONTROL Save Attribute]**.
 
 ## Navigazione prezzi
 
@@ -145,39 +145,39 @@ La suddivisione iterativa fornisce la migliore distribuzione dei prodotti tra le
 
 >[!IMPORTANT]
 >
->Per visualizzare correttamente i prodotti e i relativi prezzi in base a _filtri di prezzo_ nella navigazione a livelli, accertati che le impostazioni per il prezzo siano visualizzate nella sezione [Configurazione IVA](../configuration-reference/sales/tax.md) hanno lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla **[!UICONTROL Catalog Prices]**valore. E per_[!UICONTROL Price Display Settings]_, controlla **[!UICONTROL Display Product Prices in Catalog]** valore. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
+>Per visualizzare correttamente i prodotti e i relativi prezzi in base a _filtri di prezzo_ nella navigazione a livelli, assicurarsi che le impostazioni per la visualizzazione del prezzo nella [configurazione IVA](../configuration-reference/sales/tax.md) abbiano lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla il valore **[!UICONTROL Catalog Prices]**. E per_[!UICONTROL Price Display Settings]_, controlla il valore **[!UICONTROL Display Product Prices in Catalog]**. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il _Navigazione a livelli_ sezione.
+1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _Navigazione con livelli_.
 
-   Per impostazione predefinita, **[!UICONTROL Display Product Count]** è impostato su `Yes`. Se necessario, deselezionare la **[!UICONTROL Use system value]** per modificare questa impostazione.
+   Per impostazione predefinita, **[!UICONTROL Display Product Count]** è impostato su `Yes`. Se necessario, deselezionare la casella di controllo **[!UICONTROL Use system value]** per modificare questa impostazione.
 
-   ![Navigazione a livelli](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
+   ![Navigazione con livelli](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   Per un elenco dettagliato di queste opzioni di configurazione, vedi [Navigazione a livelli](../configuration-reference/catalog/catalog.md#layered-navigation) nel _Riferimento configurazione_.
+   Per un elenco dettagliato di queste opzioni di configurazione, vedi [Navigazione a livelli](../configuration-reference/catalog/catalog.md#layered-navigation) nella _Guida di riferimento alla configurazione_.
 
-1. Imposta **[!UICONTROL Price Navigation Steps Calculation]** per uno dei metodi descritti nelle sezioni seguenti.
+1. Impostare **[!UICONTROL Price Navigation Steps Calculation]** per uno dei metodi delle sezioni seguenti.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 ### Metodo 1: Automatico (equalizza intervalli di prezzi)
 
-Esci **[!UICONTROL Price Navigation Steps Calculation]** imposta su `Automatic (Equalize Price Ranges)` (impostazione predefinita). Questa impostazione utilizza l’algoritmo standard per la navigazione del prezzo.
+Lascia **[!UICONTROL Price Navigation Steps Calculation]** impostato su `Automatic (Equalize Price Ranges)` (impostazione predefinita). Questa impostazione utilizza l’algoritmo standard per la navigazione del prezzo.
 
 ### Metodo 2: Automatico (equalizza conteggi prodotti)
 
 >[!TIP]
 >
->Se necessario, deselezionare **[!UICONTROL Use system value]** per modificare queste impostazioni.
+>Se necessario, deselezionare la casella di controllo **[!UICONTROL Use system value]** per modificare le impostazioni.
 
-1. Imposta **[!UICONTROL Price Navigation Steps Calculation]** a `Automatic (equalize product counts)`.
+1. Imposta **[!UICONTROL Price Navigation Steps Calculation]** su `Automatic (equalize product counts)`.
 
-1. Per visualizzare un solo prezzo quando più prodotti hanno lo stesso prezzo, impostare **[!UICONTROL Display Price Interval as One Price]** a `Yes`.
+1. Per visualizzare un solo prezzo quando più prodotti hanno lo stesso prezzo, impostare **[!UICONTROL Display Price Interval as One Price]** su `Yes`.
 
-1. Per **[!UICONTROL Interval Division Limit]**, immettere la soglia per il numero di prodotti compresi in una fascia di prezzo.
+1. Per **[!UICONTROL Interval Division Limit]**, immettere la soglia per il numero di prodotti compresi in un intervallo di prezzi.
 
    L’intervallo non può essere ulteriormente suddiviso oltre questo limite. Il valore predefinito è `9`.
 
@@ -187,13 +187,13 @@ Esci **[!UICONTROL Price Navigation Steps Calculation]** imposta su `Automatic (
 
 >[!NOTE]
 >
->Se necessario, deselezionare **[!UICONTROL Use system value]** per modificare queste impostazioni.
+>Se necessario, deselezionare la casella di controllo **[!UICONTROL Use system value]** per modificare le impostazioni.
 
-1. Imposta **[!UICONTROL Price Navigation Steps Calculation]** a `Manual`.
+1. Imposta **[!UICONTROL Price Navigation Steps Calculation]** su `Manual`.
 
-1. Immetti un valore che determina **[!UICONTROL Default Price Navigation Step]**.
+1. Immettere un valore che determina **[!UICONTROL Default Price Navigation Step]**.
 
-1. Inserisci il **[!UICONTROL Maximum Number of Price Intervals]** consentito, fino a `100`.
+1. Immetti il **[!UICONTROL Maximum Number of Price Intervals]** consentito, fino a `100`.
 
    ![Manuale](../configuration-reference/catalog/assets/layered-navigation-manual.png){width="600" zoomable="yes"}
 
@@ -205,18 +205,18 @@ Esci **[!UICONTROL Price Navigation Steps Calculation]** imposta su `Automatic (
 
 La configurazione della navigazione a livelli determina se un conteggio dei prodotti viene visualizzato tra parentesi dopo ogni attributo e la dimensione del calcolo del passaggio utilizzato nella navigazione dei prezzi.
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nel pannello a sinistra, espandi _[!UICONTROL Catalog]_e scegliere **[!UICONTROL Catalog]**sotto.
+1. Nel pannello a sinistra, espandi la sezione _[!UICONTROL Catalog]_e scegli **[!UICONTROL Catalog]**sotto.
 
-1. Espandi _[!UICONTROL Layered Navigation]_sezione.
+1. Espandere la sezione _[!UICONTROL Layered Navigation]_.
 
    >[!NOTE]
    >
-   >Se necessario, deselezionare **[!UICONTROL Use system value]** per modificare queste impostazioni.
+   >Se necessario, deselezionare la casella di controllo **[!UICONTROL Use system value]** per modificare le impostazioni.
 
-1. Per visualizzare il numero di prodotti trovati per ogni attributo, impostare **[!UICONTROL Display Product Count]** a `Yes`.
+1. Per visualizzare il numero di prodotti trovati per ogni attributo, impostare **[!UICONTROL Display Product Count]** su `Yes`.
 
-1. Imposta **[!UICONTROL Price Navigation Step Calculation]** a `Automatic (equalize price ranges)`.
+1. Imposta **[!UICONTROL Price Navigation Step Calculation]** su `Automatic (equalize price ranges)`.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.

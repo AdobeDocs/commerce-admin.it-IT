@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Guida alla gestione del catalogo di Adobe Commerce
 
-Questa guida è destinata ai commercianti di prodotti e ai responsabili dell’inventario che lavorano in Adobe Commerce e Magento Open Source. Fornisce informazioni dettagliate sulle funzioni del catalogo dei prodotti, inclusa la creazione delle strutture di navigazione per un catalogo. È necessario conoscere le nozioni di base [!DNL Commerce] configurazione e funzionalità.
+Questa guida è destinata ai commercianti di prodotti e ai responsabili dell’inventario che lavorano in Adobe Commerce e Magento Open Source. Fornisce informazioni dettagliate sulle funzioni del catalogo dei prodotti, inclusa la creazione delle strutture di navigazione per un catalogo. Si presuppone una conoscenza di base della configurazione e delle funzionalità di base di [!DNL Commerce].
 
 Questa guida tratta i seguenti argomenti:
 
 | Oggetto | Descrizione |
 | ------- | ----------- |
 | [Introduzione](introduction.md) | Panoramica dell’utilizzo delle funzioni di gestione del catalogo per mostrare ai clienti come desiderano trovare i prodotti nel negozio. |
-| [Menu Catalogo](catalog-menu.md) | Utilizza il [!UICONTROL Catalog] menu per accedere a più funzioni per la gestione di cataloghi, categorie e prodotti per il tuo store. |
-| [URL di cataloghi e prodotti](catalog-urls.md) | Esamina i tipi di URL di base e come progettare gli URL per massimizzare l’ottimizzazione dei motori di ricerca. |
+| [Menu Catalogo](catalog-menu.md) | Utilizza il menu [!UICONTROL Catalog] per accedere a più funzioni per la gestione di cataloghi, categorie e prodotti per il tuo archivio. |
+| [URL catalogo e prodotto](catalog-urls.md) | Esamina i tipi di URL di base e come progettare gli URL per massimizzare l’ottimizzazione dei motori di ricerca. |
 | [Navigazione nel catalogo](navigation.md) | Utilizza gli strumenti di navigazione per definire il modo in cui gli acquirenti si spostano da pagina a pagina in tutto il negozio. |
 | [Ricerca nel catalogo](search.md) | Esamina gli strumenti che i clienti possono utilizzare per individuare i prodotti nella vetrina e configurare l’esperienza di ricerca in base al catalogo dei prodotti. |
 | [Categorie](categories.md) | Stabilisci la struttura di base delle categorie del catalogo in modo da ottimizzare l’esperienza dell’acquirente nel negozio. |
@@ -32,7 +32,7 @@ Questa guida tratta i seguenti argomenti:
 
 >[!TIP]
 >
->Adobe Commerce B2B consente di gestire cataloghi condivisi gestiti con prezzi personalizzati per diverse aziende. Oltre al catalogo prodotti principale standard, fornisce l&#39;accesso del cliente a due tipi di cataloghi condivisi con strutture di prezzo diverse. Per ulteriori informazioni sulla funzione del catalogo condiviso, vedi [Guida utente di Adobe Commerce B2B](../b2b/catalog-shared.md).
+>Adobe Commerce B2B consente di gestire cataloghi condivisi gestiti con prezzi personalizzati per diverse aziende. Oltre al catalogo prodotti principale standard, fornisce l&#39;accesso del cliente a due tipi di cataloghi condivisi con strutture di prezzo diverse. Per ulteriori informazioni sulla funzionalità di catalogo condiviso, consulta la [Guida utente di Adobe Commerce B2B](../b2b/catalog-shared.md).
 
 ## Documentazione disponibile
 

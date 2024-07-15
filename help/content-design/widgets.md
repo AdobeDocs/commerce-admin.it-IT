@@ -21,7 +21,7 @@ Puoi utilizzare i widget per creare pagine di destinazione per campagne di marke
 
 ## Tipi di widget
 
-Quando [creare un widget](widget-create.md), è necessario impostare il tipo. Questo tipo determina il funzionamento del widget.
+Quando [crei un widget](widget-create.md), devi impostare il tipo. Questo tipo determina il funzionamento del widget.
 
 | Tipo | Descrizione |
 |--- |--- |

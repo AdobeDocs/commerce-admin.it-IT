@@ -5,7 +5,7 @@ exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
 source-git-commit: f9d1f66f8fb8d5c00bfa298234ab22becec33f56
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -16,24 +16,24 @@ I prodotti nel catalogo possono essere promossi su altre pagine definendo la nat
 
 ## Definito nelle impostazioni del prodotto
 
-Quando crei o aggiorni un prodotto, il [impostazioni prodotto](../catalog/product-create.md#product-settings) ti consente di definire relazioni di prodotto specifiche per quel prodotto:
+Quando crei o aggiorni un prodotto, le [impostazioni prodotto](../catalog/product-create.md#product-settings) ti consentono di definire relazioni di prodotto specifiche per quel prodotto:
 
 ### Prodotti correlati
 
-[Prodotti correlati](../catalog/related-products-up-sells-cross-sells.md#related-products) devono essere acquistati in aggiunta all&#39;articolo che il cliente sta visualizzando. Integrano, migliorano o aggiungono funzioni opzionali al prodotto.
+[I prodotti correlati](../catalog/related-products-up-sells-cross-sells.md#related-products) devono essere acquistati in aggiunta all&#39;articolo che il cliente sta visualizzando. Integrano, migliorano o aggiungono funzioni opzionali al prodotto.
 
 ### Up-sell
 
-[Prodotti up-sell](../catalog/related-products-up-sells-cross-sells.md#up-sells) sono articoli simili, ma di qualità superiore, più popolari o con un margine di profitto migliore rispetto all&#39;articolo preso in considerazione dal cliente.
+[I prodotti di upselling](../catalog/related-products-up-sells-cross-sells.md#up-sells) sono articoli simili, ma di qualità superiore, più popolari o con un margine di profitto migliore rispetto all&#39;articolo preso in considerazione dal cliente.
 
 ### Effetti di cross-selling
 
-[Prodotti di cross-selling](../catalog/related-products-up-sells-cross-sells.md#cross-sells) vengono offerti nella pagina del carrello come acquisti dell’ultimo minuto prima dell’inizio del processo di pagamento.
+[I prodotti di cross-selling](../catalog/related-products-up-sells-cross-sells.md#cross-sells) vengono offerti nella pagina del carrello come acquisti dell&#39;ultimo minuto prima dell&#39;inizio del processo di pagamento.
 
 ## Regole prodotto correlate
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) [Regole prodotto correlate](product-related-rules.md) consente di eseguire il targeting della selezione di prodotti presentati ai clienti come prodotti correlati, up-sell e cross-selling.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Le regole dei prodotti correlati](product-related-rules.md) consentono di eseguire il targeting della selezione di prodotti presentati ai clienti come prodotti correlati, up-sell e cross-selling.
 
 ## Recommendations di prodotto con tecnologia Adobe Sensei
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) [Recommendations del prodotto](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html) grazie alla tecnologia di Adobe Sensei, è possibile definire relazioni di prodotto in modo più semplice utilizzando algoritmi di intelligenza artificiale e machine learning per eseguire un’analisi approfondita dei dati aggregati dei visitatori. Quando vengono combinati con il catalogo di Adobe Commerce, questi dati offrono esperienze altamente coinvolgenti, pertinenti e personalizzate per l’acquirente.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html) basato su Adobe Sensei semplifica il processo di definizione delle relazioni tra i prodotti utilizzando algoritmi di intelligenza artificiale e machine learning per eseguire un&#39;analisi approfondita dei dati aggregati dei visitatori. Quando vengono combinati con il catalogo di Adobe Commerce, questi dati offrono esperienze altamente coinvolgenti, pertinenti e personalizzate per l’acquirente.

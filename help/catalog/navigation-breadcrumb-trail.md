@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Tracce breadcrumb
 
-A _percorso breadcrumb_ è un set di collegamenti che mostra al cliente dove si trova in relazione ad altre pagine del negozio. Può fare clic su qualsiasi collegamento nella traccia delle breadcrumb per tornare alla pagina precedente.
+Un _percorso breadcrumb_ è un insieme di collegamenti che mostrano al cliente dove si trova in relazione ad altre pagine dell&#39;archivio. Può fare clic su qualsiasi collegamento nella traccia delle breadcrumb per tornare alla pagina precedente.
 
 È possibile configurare la traccia delle breadcrumb in modo che venga visualizzata sulle pagine di contenuto e sulle pagine di catalogo. Il formato e la posizione della traccia delle breadcrumb variano in base al tema, ma in genere si trova appena sotto l’intestazione. Per impostazione predefinita, la traccia delle breadcrumb viene visualizzata sulle pagine CMS.
 
@@ -46,20 +46,20 @@ Esempio: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 ## Aggiungere/rimuovere le breadcrumb dalle pagine CMS
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nel pannello a sinistra sotto _[!UICONTROL General]_, scegli **[!UICONTROL Web]**.
+1. Nel pannello a sinistra in _[!UICONTROL General]_, scegli **[!UICONTROL Web]**.
 
    ![Mostra breadcrumb per pagine CMS](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. Espandi _[!UICONTROL Default Pages]_sezione.
+1. Espandere la sezione _[!UICONTROL Default Pages]_.
 
-1. Deseleziona il **[!UICONTROL Use system value]** casella di controllo.
+1. Deselezionare la casella di controllo **[!UICONTROL Use system value]**.
 
-1. Imposta **[!UICONTROL Show Breadcrumbs for CMS Pages]** a `No` o `Yes`.
+1. Imposta **[!UICONTROL Show Breadcrumbs for CMS Pages]** su `No` o `Yes`.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->La categoria principale non viene visualizzata nella traccia Breadcrumb, nella pagina della categoria secondaria, quando `Browsing Category`= `Deny` [autorizzazione categoria](category-permissions.md) impostazioni.
+>La categoria padre non viene visualizzata nella traccia delle breadcrumb, nella pagina della categoria figlio, quando dispone delle impostazioni `Browsing Category`= `Deny` [autorizzazione categoria](category-permissions.md).

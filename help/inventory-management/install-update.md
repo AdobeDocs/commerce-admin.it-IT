@@ -1,35 +1,35 @@
 ---
-title: "Installare, aggiornare e rimuovere [!DNL Inventory Management]"
-description: Scopri come gestire [!DNL Inventory Management] metapacchetto.
+title: "Installare, aggiornare e rimuovere  [!DNL Inventory Management]"
+description: Scopri come gestire il metapackage  [!DNL Inventory Management] .
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
 source-git-commit: d6c81da4b4e0674d6699e9781921ccb2160b9983
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
 
 # Installare, aggiornare e rimuovere [!DNL Inventory Management]
 
-[!DNL Inventory Management] I moduli forniscono tutte le funzioni e le opzioni di inventario per i commercianti di origini singole e multiple per gestire le quantità di prodotti e le scorte per i canali di vendita. Queste funzioni sono disponibili nelle versioni 2.4.x di Adobe Commerce e Magento Open Source.
+I moduli [!DNL Inventory Management] forniscono tutte le funzionalità e le opzioni di inventario per i commercianti di origini singole e multiple per gestire le quantità e le scorte dei prodotti per i canali di vendita. Queste funzioni sono disponibili nelle versioni 2.4.x di Adobe Commerce e Magento Open Source.
 
-Queste funzioni ed estensioni sono state sviluppate come parte della [Progetto di magazzino](https://github.com/magento/inventory) tramite il programma di ingegneria della community di Magento Open Source.
+Queste funzionalità ed estensioni sono state sviluppate nell&#39;ambito del [progetto di inventario](https://github.com/magento/inventory) tramite il programma di progettazione della community di Magento Open Source.
 
-[!DNL Inventory Management] installa nelle versioni 2.3.x e 2.4.x di Adobe Commerce e Magento Open Source, con tutte le funzioni abilitate per impostazione predefinita. Non sono necessari passaggi aggiuntivi per abilitare queste funzioni di inventario. Gli aggiornamenti da v2.1.x o 2.2.x possono richiedere passaggi aggiuntivi. Consulta [Aggiornare Inventory management](#upgrade-inventory-management).
+[!DNL Inventory Management] viene installato nelle versioni 2.3.x e 2.4.x di Adobe Commerce e Magento Open Source, con tutte le funzioni abilitate per impostazione predefinita. Non sono necessari passaggi aggiuntivi per abilitare queste funzioni di inventario. Gli aggiornamenti da v2.1.x o 2.2.x possono richiedere passaggi aggiuntivi. Consulta [Aggiornare Inventory management](#upgrade-inventory-management).
 
-Installazione secondo [Installazione rapida on-premise](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"} è consigliato. Installa con un metapacchetto per ricevere tutti [!DNL Inventory Management] moduli.
+Si consiglia di eseguire l&#39;installazione in base a [Installazione rapida locale](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}. Eseguire l&#39;installazione con un metapacchetto per ricevere tutti i moduli [!DNL Inventory Management].
 
-La riga seguente nella `composer.json` installazioni di metapackage [!DNL Inventory Management]:
+La riga seguente nel metapackage `composer.json` installa [!DNL Inventory Management]:
 
 ```json
         magento/inventory-composer-metapackage = 1.1.3
 ```
 
-Per un elenco di [!DNL Inventory Management] versioni di metapackage, vedi [note sulla versione](release-notes.md).
+Per un elenco delle [!DNL Inventory Management] versioni del metapackage, consulta le [note sulla versione](release-notes.md).
 
-Il [!DNL Inventory Management] Il processo di installazione aggiunge tutti i moduli al `<Magento_installation_directory>/app/etc/config.php` file. A `1` Il valore indica che il modulo corrispondente è abilitato. È aggiunto il seguente elenco di moduli:
+Il processo di installazione di [!DNL Inventory Management] aggiunge tutti i moduli al file `<Magento_installation_directory>/app/etc/config.php`. Un valore `1` indica che il modulo corrispondente è abilitato. È aggiunto il seguente elenco di moduli:
 
 ```php
         'Magento_Inventory' => 1,
@@ -81,24 +81,24 @@ Il [!DNL Inventory Management] Il processo di installazione aggiunge tutti i mod
         'Magento_InventoryGraphQl' => 1,
 ```
 
-## Abilita [!DNL Inventory Management] funzioni
+## Abilita funzionalità [!DNL Inventory Management]
 
-Una volta installato, aggiornato o aggiornato, _[!UICONTROL Manage Stock]_in Admin è attivata per impostazione predefinita. Questa opzione consente la registrazione e la gestione dell&#39;inventario, ma non influisce sullo stato del modulo. Per disattivare i moduli, consulta la sezione successiva.
+Quando è installata, aggiornata o aggiornata, l&#39;opzione _[!UICONTROL Manage Stock]_nell&#39;amministratore è attivata per impostazione predefinita. Questa opzione consente la registrazione e la gestione dell&#39;inventario, ma non influisce sullo stato del modulo. Per disattivare i moduli, consulta la sezione successiva.
 
-Per ulteriori informazioni sulle configurazioni, consulta [Configurare Inventory management](configuration.md).
+Per ulteriori informazioni sulle configurazioni, vedere [Configurare Inventory management](configuration.md).
 
 ## Disabilita Inventory management
 
 >[!IMPORTANT]
 >
->Utilizzo del valore predefinito [!DNL Inventory Management] è vivamente consigliato. L&#39;alternativa [!DNL CatalogInventory] che viene utilizzato per i sistemi con disabilitato [!DNL Inventory Management] moduli, è ora obsoleto. Disattivazione di [!DNL Inventory Management] I moduli possono causare un sistema instabile e causare vari problemi.
+>Si consiglia vivamente di utilizzare i moduli predefiniti di [!DNL Inventory Management]. Il modulo [!DNL CatalogInventory] alternativo, utilizzato per sistemi con moduli [!DNL Inventory Management] disabilitati, è ora obsoleto. La disattivazione dei moduli [!DNL Inventory Management] può causare un sistema instabile e causare vari problemi.
 
-Potrebbe essere necessario disattivare [!DNL Inventory Management] moduli per:
+Disabilitare [!DNL Inventory Management] moduli per:
 
 * Accelera il processo di aggiornamento per i commercianti che eseguono la migrazione da 2.0.x, 2.1.x, 2.2.x o da 2.3.x a 2.4.x.
 * Utilizza moduli personalizzati o di terze parti per il sistema di gestione degli ordini e delle scorte.
 
-Consulta la [Abilitare o disabilitare i moduli](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) pagina in _Guida all’installazione_ per informazioni su come disattivare i moduli applicabili.
+Per informazioni su come disattivare i moduli applicabili, vedere la pagina [Attiva o disattiva moduli](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) nella _Guida all&#39;installazione_.
 
 Una volta completato, il sistema fornisce un elenco di moduli e valori in `<Magento_installation_directory>/app/etc/config.php`, a partire da:
 
@@ -111,15 +111,15 @@ Una volta completato, il sistema fornisce un elenco di moduli e valori in `<Mage
 
 >[!IMPORTANT]
 >
->Se sono installati i moduli Connettore OMS, assicurarsi di non disattivare `Magento_InventoryMessageBus` modulo, che è un modulo Connector. È necessario utilizzare il connettore con OMS.
+>Se sono installati i moduli Connettore OMS, assicurarsi di non disabilitare il modulo `Magento_InventoryMessageBus`, che è un modulo Connettore. È necessario utilizzare il connettore con OMS.
 
 ## Rimuovi Inventory management
 
 >[!IMPORTANT]
 >
->Utilizzo del valore predefinito [!DNL Inventory Management] è vivamente consigliato. L&#39;alternativa [!DNL CatalogInventory] modulo, utilizzato per sistemi con rimossi [!DNL Inventory Management] moduli, è ora obsoleto. Rimozione di [!DNL Inventory Management] I moduli possono causare un sistema instabile e causare vari problemi.
+>Si consiglia vivamente di utilizzare i moduli predefiniti di [!DNL Inventory Management]. Il modulo alternativo [!DNL CatalogInventory], utilizzato per i sistemi con moduli [!DNL Inventory Management] rimossi, è ora obsoleto. La rimozione dei moduli [!DNL Inventory Management] può causare un sistema instabile e causare vari problemi.
 
-Se scegli di non utilizzare il [!DNL Inventory Management] , è possibile rimuovere (disinstallare) questi moduli. Per rimuovere tutti i moduli tramite il file del compositore, aggiungi quanto segue a `composer.json`:
+Se si sceglie di non utilizzare la funzionalità [!DNL Inventory Management], è possibile rimuovere (disinstallare) questi moduli. Per rimuovere tutti i moduli tramite il file del compositore, aggiungere quanto segue a `composer.json`:
 
 ```
 "replace": {
@@ -201,19 +201,19 @@ Una volta completata la modifica, esegui l’installazione del compositore e rim
 
 ## Aggiornare Inventory management
 
-### Precedente [!DNL Commerce] versioni
+### Versioni precedenti di [!DNL Commerce]
 
-Durante l’aggiornamento o l’aggiornamento di un’installazione esistente 2.1.x, 2.2.x o 2.3.x in Adobe Commerce o Magento Open Source 2.4.x, [!DNL Inventory Management] I moduli sono disabilitati per impostazione predefinita. Questa impostazione predefinita è una precauzione per evitare aggiornamenti incompatibili con le versioni precedenti e per supportare meglio Order Management (OMS).
+Quando si aggiorna o si aggiorna un&#39;installazione esistente 2.1.x, 2.2.x o 2.3.x in Adobe Commerce o Magento Open Source 2.4.x, per impostazione predefinita i moduli [!DNL Inventory Management] sono disabilitati. Questa impostazione predefinita è una precauzione per evitare aggiornamenti incompatibili con le versioni precedenti e per supportare meglio Order Management (OMS).
 
 >[!NOTE]
 >
->Order Management non supporta [!DNL Inventory Management]. Durante l&#39;upgrade, [!DNL Inventory Management] I moduli sono disattivati per consentire OMS e [!DNL Commerce] 2.3.x per funzionare senza problemi.
+>Order Management non supporta [!DNL Inventory Management]. Durante l&#39;aggiornamento, [!DNL Inventory Management] moduli sono disabilitati per consentire il corretto funzionamento di OMS e [!DNL Commerce] 2.3.x.
 
 
 Per abilitare [!DNL Inventory Management] moduli:
 
-1. Modifica il `<Commerce_installation_directory>/app/etc/config.php` file.
-1. Modifica tutti i moduli Inventory da `0` a `1` per attivare.
+1. Modificare il file `<Commerce_installation_directory>/app/etc/config.php`.
+1. Modificare tutti i moduli Inventory da `0` a `1` per attivarli.
 1. Aggiornare il database:
 
    ```bash
@@ -226,11 +226,11 @@ Per abilitare [!DNL Inventory Management] moduli:
    bin/magento cache:clean
    ```
 
-Si consiglia di utilizzare il [comandi di prenotazione incoerenze](cli.md) dopo l&#39;upgrade. Durante l&#39;aggiornamento, tutti i prodotti vengono aggiunti al magazzino predefinito. Se sono presenti ordini in sospeso, i comandi aggiornano correttamente la quantità e gli impegni di vendita per l&#39;evasione degli ordini e delle vendite.
+È consigliabile utilizzare i [comandi di prenotazione incoerenze](cli.md) dopo l&#39;aggiornamento. Durante l&#39;aggiornamento, tutti i prodotti vengono aggiunti al magazzino predefinito. Se sono presenti ordini in sospeso, i comandi aggiornano correttamente la quantità e gli impegni di vendita per l&#39;evasione degli ordini e delle vendite.
 
-### Precedente [!DNL Inventory Management] versioni
+### Versioni precedenti di [!DNL Inventory Management]
 
-Durante l’aggiornamento da versioni precedenti di [!DNL Inventory Management] alla versione più recente, segui i normali passaggi per l’aggiornamento dell’estensione.
+Durante l&#39;aggiornamento dalle versioni precedenti di [!DNL Inventory Management] alla versione più recente, eseguire i normali passaggi di aggiornamento delle estensioni.
 
 Al più tardi, aggiorna la versione del metapackage:
 
@@ -240,5 +240,5 @@ Al più tardi, aggiorna la versione del metapackage:
 
 Per ulteriori informazioni sugli aggiornamenti di Commerce, consulta le seguenti guide:
 
-* [Guida all’aggiornamento di Commerce](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-* [Abilitare o disabilitare i moduli](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}
+* [Guida di Commerce Update](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
+* [Attiva o disattiva moduli](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

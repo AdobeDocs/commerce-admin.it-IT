@@ -15,19 +15,19 @@ Promozioni mirate, opportunità di coinvolgimento per i clienti e opportunità p
 
 ## Merchandising
 
-_Merchandising_ è un termine utilizzato nel commercio al dettaglio per descrivere l&#39;arte e la scienza dello sviluppo della piantina e della presentazione dei prodotti. Potresti pensare al [navigazione basata su categorie](../catalog/navigation-top.md) come la planimetria del negozio, e la presentazione dinamica dei prodotti come le condizioni che si possono applicare all&#39;elenco dei prodotti nel negozio. Inoltre, puoi implementare programmi che incrementano le vendite dei prodotti:
+_Merchandising_ è un termine utilizzato nel settore retail per descrivere l&#39;arte e la scienza dello sviluppo della piantina e della presentazione dei prodotti. È possibile considerare la [navigazione basata su categorie](../catalog/navigation-top.md) come la piantina del negozio e la presentazione dinamica dei prodotti come le condizioni applicabili all&#39;elenco dei prodotti nel negozio. Inoltre, puoi implementare programmi che incrementano le vendite dei prodotti:
 
-- [Visual Merchandiser](visual-merchandiser.md) - Insieme di strumenti avanzati che consente di posizionare i prodotti e di applicare condizioni che determinano quali prodotti vengono visualizzati nell&#39;elenco delle categorie.
+- [Visual Merchandiser](visual-merchandiser.md): un insieme di strumenti avanzati che consente di posizionare i prodotti e di applicare condizioni che determinano quali prodotti vengono visualizzati nell&#39;elenco delle categorie.
 
-- [Registri regali](gift-registries.md) - Offrite ai vostri clienti la possibilità di creare registri di regali per occasioni speciali e di invitare amici e familiari ad acquistare i regali dal registro.
+- [Registri regali](gift-registries.md) - Offri ai tuoi clienti la possibilità di creare registri regali per occasioni speciali e di invitare amici e familiari ad acquistare i regali dal registro regali.
 
-- [Premi e fedeltà](rewards-loyalty.md) : utilizza un sistema a punti per implementare programmi specifici che stimolino il coinvolgimento dei clienti e ne promuovano la fidelizzazione. È possibile assegnare punti per un&#39;ampia gamma di attività relative a transazioni e clienti e controllare l&#39;assegnazione, il saldo e la scadenza dei punti.
+- [Premi e fidelizzazione](rewards-loyalty.md): utilizza un sistema a punti per implementare programmi univoci che stimolano il coinvolgimento dei clienti e ne promuovono la fidelizzazione. È possibile assegnare punti per un&#39;ampia gamma di attività relative a transazioni e clienti e controllare l&#39;assegnazione, il saldo e la scadenza dei punti.
 
-- [Vendite ed eventi privati](events-private-sales.md) : utilizza la base di clienti esistente per generare nuovi lead o nuovi clienti oppure per scaricare le scorte in eccesso tramite vendite private e altri eventi di catalogo.
+- [Vendite ed eventi privati](events-private-sales.md) - Utilizza la base clienti esistente per generare nuovi clienti potenziali o per scaricare le scorte in eccesso tramite vendite private e altri eventi di catalogo.
 
 >[!TIP]
 >
->Per informazioni sul Product Recommendations e su come fornirti le informazioni e i controlli necessari per creare l’esperienza migliore per i tuoi acquirenti, consulta la sezione [Guida utente di Recommendations del prodotto](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>Per informazioni su Product Recommendations e su come fornirti le informazioni e i controlli necessari per creare l&#39;esperienza migliore per i tuoi acquirenti, consulta la [Guida utente di Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
 
 ## Promozioni
 
@@ -45,36 +45,36 @@ Le condizioni sono istruzioni che definiscono l’elenco di prodotti e situazion
 
 >[!NOTE]
 >
->Se desideri definire una condizione in base a un attributo di prodotto specifico, **[!UICONTROL Use for Promo Rule Conditions]** deve essere impostato su `Yes` per l’attributo nel tuo [Proprietà vetrina](../catalog/attribute-product-create.md).
+>Se vuoi definire una condizione basata su un attributo di prodotto specifico, **[!UICONTROL Use for Promo Rule Conditions]** deve essere impostato su `Yes` per l&#39;attributo nelle [Proprietà storefront](../catalog/attribute-product-create.md).
 
 
 ### Regole di prezzo
 
-Per [regole di prezzo catalogo](price-rules-catalog.md), vengono create condizioni basate su [set di attributi](../catalog/attribute-sets.md) nel catalogo, funzioni di confronto e attributi selezionati. Puoi creare condizioni come le frasi selezionando alcune istruzioni. Ad esempio, puoi creare due regole di prezzo per applicare sconti per abbigliamento per bambini e abbigliamento per uomo/donna in base alla categoria.
+Per [regole prezzo catalogo](price-rules-catalog.md), è possibile creare condizioni basate su [set di attributi](../catalog/attribute-sets.md) nel catalogo, funzioni di confronto e attributi selezionati. Puoi creare condizioni come le frasi selezionando alcune istruzioni. Ad esempio, puoi creare due regole di prezzo per applicare sconti per abbigliamento per bambini e abbigliamento per uomo/donna in base alla categoria.
 
-![Diagramma: esempio di regole di prezzo del catalogo](./assets/diagram-catalog-price-rules.png){width="500"}
+![Diagramma - esempio di regole del prezzo di catalogo](./assets/diagram-catalog-price-rules.png){width="500"}
 
-[Regola prezzo carrello](price-rules-cart.md) Le condizioni possono essere basate su qualsiasi categoria figlio del negozio [radice](../catalog/category-root.md). Le regole di prezzo sono stabilite in anticipo e si attivano ogni volta che le condizioni richieste sono soddisfatte. Queste regole utilizzano attributi, incluse combinazioni di attributi di prodotto come la corrispondenza di uno SKU nel carrello utilizzando gli attributi di prodotto. Queste regole possono anche utilizzare condizioni di quantità per la selezione del prodotto, combinazioni di condizioni per regole complicate e attributi del carrello come subtotale.
+[Le condizioni per il prezzo del carrello](price-rules-cart.md) possono essere basate su qualsiasi categoria figlio dell&#39;archivio [root](../catalog/category-root.md). Le regole di prezzo sono stabilite in anticipo e si attivano ogni volta che le condizioni richieste sono soddisfatte. Queste regole utilizzano attributi, incluse combinazioni di attributi di prodotto come la corrispondenza di uno SKU nel carrello utilizzando gli attributi di prodotto. Queste regole possono anche utilizzare condizioni di quantità per la selezione del prodotto, combinazioni di condizioni per regole complicate e attributi del carrello come subtotale.
 
-![Diagramma: esempio di regole di prezzo del carrello](./assets/diagram-cart-price-rules.png){width="500"}
+![Diagramma - Esempio di regole del prezzo del carrello](./assets/diagram-cart-price-rules.png){width="500"}
 
 ## Comunicazioni e SEO
 
-Masterizzazione [Ottimizzazione dei motori di ricerca (SEO)](seo-overview.md) è fondamentale per attirare potenziali acquirenti. Scopri come ottimizzare i motori di ricerca e come ottimizzare il contenuto e la presentazione del sito per migliorare il modo in cui le pagine vengono indicizzate dai motori di ricerca.
+La masterizzazione di [Search Engine Optimization (SEO)](seo-overview.md) è fondamentale per coinvolgere potenziali acquirenti. Scopri come ottimizzare i motori di ricerca e come ottimizzare il contenuto e la presentazione del sito per migliorare il modo in cui le pagine vengono indicizzate dai motori di ricerca.
 
 Una delle attività da completare prima di lanciare il tuo store è quella di rivedere i modelli e-mail utilizzati per tutte le comunicazioni inviate dal tuo store, per assicurarsi che riflettano il tuo marchio. Ma dovresti fare un ulteriore passo in avanti sviluppando altre comunicazioni che promuovano il tuo marchio e i tuoi prodotti presso i clienti esistenti. Puoi personalizzare il contenuto con variabili e tag di markup.
 
 >[!NOTE]
 >
->Adobe Commerce e le versioni di Magento Open Source da 2.4.0 a 2.4.3 includevano l’estensione dotdigital sviluppata da un fornitore e utilizzata per l’integrazione con dotdigital Engagement Cloud. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata dalla versione Commerci Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
+>Adobe Commerce e le versioni di Magento Open Source da 2.4.0 a 2.4.3 includevano l’estensione dotdigital sviluppata da un fornitore e utilizzata per l’integrazione con dotdigital Engagement Cloud. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata dalla versione Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
 ><br><br>
->Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Consulta [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nel _Guida all’aggiornamento_ per ulteriori informazioni.
+>Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nella _Guida all&#39;aggiornamento_.
 
-- [Newsletter](newsletters.md) : redazione di newsletter, gestione dell&#39;elenco degli abbonati, sviluppo di contenuti e traffico verso il negozio.
+- [Newsletter](newsletters.md) - Produci newsletter, gestisci l&#39;elenco degli abbonati, sviluppa contenuti e indirizza il traffico verso il tuo archivio.
 
-- [Feed RSS](social-rss.md#rss-feeds) : utilizza i feed RSS per pubblicare le informazioni sui prodotti sui siti di aggregazione degli acquisti e persino per includerli nelle newsletter. I clienti possono abbonarsi ai feed RSS per conoscere i nuovi prodotti e le promozioni.
+- [Feed RSS](social-rss.md#rss-feeds) - Utilizzare i feed RSS per pubblicare le informazioni sui prodotti nei siti di aggregazione acquisti e persino includerli nelle newsletter. I clienti possono abbonarsi ai feed RSS per conoscere i nuovi prodotti e le promozioni.
 
-- [Social network](social-rss.md#social-networks) : integra il tuo store con i social network installando un’estensione Marketplace o aggiungendo un plug-in alle pagine dei contenuti.
+- [Social network](social-rss.md#social-networks) - Integra lo store con i social network installando un&#39;estensione Marketplace o aggiungendo un plug-in alle pagine di contenuto.
 
 ## Strumenti di marketing Google
 
@@ -82,12 +82,12 @@ La configurazione del negozio è integrata con i seguenti strumenti di Google pe
 
 >[!NOTE]
 >
->A partire dalla versione 2.4.5, l’integrazione dei servizi Google viene aggiornata per supportare l’utilizzo delle API GTag. GTag è un meccanismo unificato per l’integrazione con le funzionalità di Google per le pagine web e supporta le funzionalità e le opportunità più recenti per il tracciamento e la gestione dei contenuti tramite Google Services. Per ulteriori informazioni, vedere [Documentazione per gli sviluppatori Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>A partire dalla versione 2.4.5, l’integrazione dei servizi Google viene aggiornata per supportare l’utilizzo delle API GTag. GTag è un meccanismo unificato per l’integrazione con le funzionalità di Google per le pagine web e supporta le funzionalità e le opportunità più recenti per il tracciamento e la gestione dei contenuti tramite Google Services. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
-- [Google Analytics](google-analytics.md) : utilizza Google Universal Analytics per definire dimensioni e metriche personalizzate aggiuntive per il tracciamento, con supporto per le interazioni offline e con le app mobili e accesso agli aggiornamenti continui.
+- [Google Analytics](google-analytics.md): utilizza Google Universal Analytics per definire dimensioni e metriche personalizzate aggiuntive per il tracciamento, con supporto per le interazioni offline e con le app mobili e accesso agli aggiornamenti in corso.
 
-- [Esperimenti sui contenuti Google](google-content-experiments.md) : configura un test A/B di prodotti, categorie o pagine di contenuti utilizzando Contenuto Google Analytics
+- [Esperimenti sui contenuti Google](google-content-experiments.md) - Configura un test A/B di prodotti, categorie o pagine di contenuti utilizzando il contenuto Google Analytics
 
-- [Gestione tag Google](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) Solo per Adobe Commerce: utilizza Google Tag Manager per gestire i numerosi tag relativi agli eventi delle campagne di marketing.
+- [Gestione tag Google](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Utilizza Gestione tag Google per gestire i numerosi tag relativi agli eventi delle campagne di marketing.
 
-- [Google AdWords](google-adwords.md) : crea una campagna Google AdWords e tieni traccia delle conversioni per il tuo store.
+- [Google AdWords](google-adwords.md) - Crea una campagna Google AdWords e tieni traccia delle conversioni per il tuo archivio.

@@ -5,7 +5,7 @@ exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ Se hai un account commerciale con un vettore supportato, puoi offrire ai tuoi cl
 
 >[!NOTE]
 >
->Consulta [Commerce Marketplace](../getting-started/commerce-marketplace.md) per ulteriori servizi di spedizione per l’installazione di Commerce.
+>Consulta [Commerce Marketplace](../getting-started/commerce-marketplace.md) per ulteriori servizi di spedizione per l&#39;installazione di Commerce.
 
 Prima di poter offrire ai clienti una selezione di vettori di spedizione, devi completare i seguenti passaggi:
 
-- Configurare [impostazioni di spedizione](shipping-settings.md) per stabilire il punto di origine del negozio.
+- Configura le [impostazioni di spedizione](shipping-settings.md) per stabilire il punto di origine per l&#39;archivio.
 
 - Configurare le impostazioni per ogni servizio vettore che si desidera offrire.
 
-   - [**UPS**](ups.md)  - United Parcel Service (UPS) offre servizi di spedizione nazionali e internazionali via terra e per via aerea a più di 220 paesi.
-   - [**USP**](usps.md) - United States Postal Service (USPS) è il servizio postale indipendente del governo degli Stati Uniti. USPS offre servizi di spedizione nazionali e internazionali via terra e per via aerea.
-   - [**FedEx**](fedex.md) - FedEx offre servizi di spedizione nazionali e internazionali via terra e via aria a più di 220 paesi.
-   - [**DHL**](dhl.md) - DHL offre servizi internazionali integrati e soluzioni personalizzate per la gestione e il trasporto di lettere, merci e informazioni.
+   - [**UPS**](ups.md) - United Parcel Service (UPS) offre servizi di spedizione nazionali e internazionali via terra e via aerea a più di 220 paesi.
+   - [**USPS**](usps.md) - Il servizio postale degli Stati Uniti (USPS) è il servizio postale indipendente del governo degli Stati Uniti. USPS offre servizi di spedizione nazionali e internazionali via terra e per via aerea.
+   - [**FedEx**](fedex.md) - FedEx offre servizi di spedizione nazionali e internazionali via terra e via aria verso più di 220 paesi.
+   - [**DHL**](dhl.md) - DHL offre servizi internazionali integrati e soluzioni personalizzate incentrate sul cliente per la gestione e il trasporto di lettere, merci e informazioni.
 
 ## Peso dimensionale
 

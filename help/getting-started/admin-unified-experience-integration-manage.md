@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dopo l’abilitazione iniziale, gestisci lo stato dell’integrazione Experience Cloud abilitando o disabilitando l’estensione Commerce Admin Unified Experience.
 
-- Se l’estensione Commerce Admin Unified Experience è abilitata e gli account amministratore sono [predisposto correttamente](#manage-admin-user-accounts), gli amministratori Commerce possono visualizzare e accedere ai progetti Commerce disponibili da Adobe Experience Cloud. Gli amministratori possono comunque accedere ai singoli progetti utilizzando l’URL amministratore per l’ambiente del progetto Commerce.
+- Se l&#39;estensione Commerce Admin Unified Experience è abilitata e gli account dell&#39;amministratore dispongono del provisioning [corretto](#manage-admin-user-accounts), gli amministratori di Commerce possono visualizzare e accedere ai progetti Commerce disponibili da Adobe Experience Cloud. Gli amministratori possono comunque accedere ai singoli progetti utilizzando l’URL amministratore per l’ambiente del progetto Commerce.
 
 - Se l’estensione Commerce Admin Unified Experience è disabilitata, l’accesso tramite Experience Cloud è disabilitato. Gli amministratori devono accedere ai singoli progetti utilizzando l’URL amministratore per l’ambiente del progetto Commerce.
 
@@ -26,15 +26,15 @@ Dopo l’abilitazione iniziale, gestisci lo stato dell’integrazione Experience
 
 ## Gestire l’integrazione dall’Amministratore
 
-1. Dall’amministratore di Commerce, apri il menu Configurazione archivio selezionando **[!UICONTROL Stores]** dal menu di navigazione sinistro, quindi selezionare **[!UICONTROL Configuration]**.
+1. Dall&#39;amministratore di Commerce, aprire il menu Configurazione archivio selezionando **[!UICONTROL Stores]** dal menu di navigazione sinistro, quindi selezionare **[!UICONTROL Configuration]**.
 
-1. Dal menu Configuration, seleziona **[!UICONTROL Advanced > Admin]**, quindi espandere **[!UICONTROL Unified Experience option]**.
+1. Dal menu Configuration, selezionare **[!UICONTROL Advanced > Admin]**, quindi espandere **[!UICONTROL Unified Experience option]**.
 
-   ![Configurazione dell’archivio di amministrazione per l’integrazione di Experience Cloud](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
+   ![Configurazione dell&#39;archivio di amministrazione per l&#39;integrazione Experience Cloud](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
 
-1. Abilita o disabilita l’integrazione selezionando la **[!UICONTROL Enable]** valore.
+1. Abilitare o disabilitare l&#39;integrazione selezionando il valore **[!UICONTROL Enable]**.
 
-1. Modifica il nome del progetto visualizzato nell’area di lavoro Progetti Commerce aggiungendo o aggiornando la sezione **[!UICONTROL Project Name]** valore.
+1. Modificare il nome del progetto visualizzato nell&#39;area di lavoro Progetti Commerce aggiungendo o aggiornando il valore **[!UICONTROL Project Name]**.
 
 1. Salva la configurazione.
 
@@ -64,22 +64,22 @@ Gli amministratori di sistema di Commerce con accesso amministratore al progetto
 
 1. Modifica lo stato dell’estensione per disabilitare l’integrazione
 
-   - **Abilita**—`bin/magento config:set admin/unified_experience/enabled 1`
+   - **Attiva**—`bin/magento config:set admin/unified_experience/enabled 1`
 
-   - **Disattiva**—`bin/magento config:set admin/unified_experience/enabled 0`
+   - **Disabilita**—`bin/magento config:set admin/unified_experience/enabled 0`
 
 ## Gestire gli account utente amministratore
 
-Per accedere ai prodotti e ai servizi Adobe, tutti gli utenti Commerce Admin devono disporre sia di un account Amministratore nell’istanza Commerce che di un account utente Adobe (Adobe ID). Entrambi gli account devono essere associati allo stesso indirizzo e-mail.
+Per accedere ai prodotti e ai servizi Commerce, tutti gli utenti amministratore di Commerce devono disporre sia di un account amministratore nell’istanza Adobe che di un account utente Adobe (Adobe ID). Entrambi gli account devono essere associati allo stesso indirizzo e-mail.
 
-- **Account amministratore Commerce**—[Gestire gli utenti amministratori di Commerce](../systems/permissions-users-all.md) dall’amministratore per l’istanza Commerce. Agli account utente per amministratori Commerce deve essere assegnato il ruolo Amministratore.
+- **Account amministratore Commerce**—[Gestisci utenti amministratore Commerce](../systems/permissions-users-all.md) dall&#39;amministratore per l&#39;istanza Commerce. Agli account utente per amministratori di Commerce deve essere assegnato il ruolo Amministratore.
 
-  Gli amministratori di sistema nel progetto Commerce possono utilizzare [SSH per la connessione all&#39;ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment), e utilizzare Commerce CLI `admin:user:create` e `admin:user:unlock` comandi per aggiungere o sbloccare account utente amministratore.
+  Gli amministratori di sistema nel progetto Commerce possono utilizzare [SSH per connettersi all&#39;ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment) e utilizzare i comandi Commerce CLI `admin:user:create` e `admin:user:unlock` per aggiungere o sbloccare gli account utente Admin.
 
-- **account utente Adobe**- Un amministratore dell’organizzazione Adobe associata all’istanza Commerce deve accedere a Adobe Admin Console e aggiungere all’organizzazione l’Adobe ID di ogni amministratore Commerce. Quindi, devono assegnare le autorizzazioni e i diritti del prodotto per accedere all’applicazione Commerce. Consulta [Configurare gli utenti di Adobe Commerce in Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
+- **Account utente Adobe** - Un amministratore per l&#39;organizzazione Adobe associata all&#39;istanza Commerce deve accedere a Adobe Admin Console e aggiungere l&#39;Adobe ID per ogni amministratore Commerce all&#39;organizzazione. Quindi, devono assegnare le autorizzazioni e i diritti del prodotto per accedere all’applicazione Commerce. Vedi [Configurare gli utenti Adobe Commerce in Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
 
-Gli amministratori che gestiscono la configurazione per l’integrazione Experience Cloud dalla console Adobe Developer devono disporre di un account utente Adobe con accesso Amministratore di sistema o Sviluppatore.
+Gli amministratori che gestiscono la configurazione dell’integrazione Experience Cloud da Adobe Developer Console devono disporre di un account utente Adobe con accesso Amministratore di sistema o Sviluppatore.
 
 >[!NOTE]
 >
->Un Adobe ID è un account creato tramite Adobe che è necessario per accedere a prodotti e servizi tramite Experience Cloud. Gli amministratori Commerce che non dispongono di un Adobe ID possono [creare un account gratuito](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) che utilizzano lo stesso indirizzo e-mail per accedere all’amministratore di Commerce.
+>Un Adobe ID è un account creato tramite Adobe che è necessario per accedere a prodotti e servizi tramite Experience Cloud. Gli amministratori di Commerce che non dispongono di un Adobe ID possono [creare un account gratuito](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) utilizzando lo stesso indirizzo e-mail utilizzato per accedere all&#39;amministratore di Commerce.

@@ -18,7 +18,7 @@ Gli URL assegnati ai prodotti e alle categorie svolgono un ruolo importante nel 
 
 ### URL dinamico
 
-Viene creato un URL dinamico _al volo_ e potrebbero includere una stringa di query con variabili per l’ID prodotto, l’ordinamento e la pagina in cui è stata effettuata la richiesta. Quando un cliente cerca un prodotto nel tuo negozio, l’URL risultante potrebbe essere simile al seguente:
+Un URL dinamico viene creato _al volo_ e potrebbe includere una stringa di query con variabili per l&#39;ID prodotto, l&#39;ordinamento e la pagina in cui è stata effettuata la richiesta. Quando un cliente cerca un prodotto nel tuo negozio, l’URL risultante potrebbe essere simile al seguente:
 
 - `http://mystore.com/catalogsearch/result/?q=racer+back`
 - `http://mystore.com/women/tops-women.html?style_general=135`
@@ -33,17 +33,17 @@ Un URL statico è un indirizzo fisso per una pagina specifica. Un URL statico pu
 
 ### Chiave URL
 
-Il codice URL è la parte di un URL statico che descrive il prodotto o la categoria. Quando crei un prodotto o una categoria, viene generato automaticamente un codice URL iniziale, in base al nome. Per modificare la chiave URL, vedi [Ottimizzazione motore di ricerca](product-search-engine-optimization.md) sezione delle informazioni sul prodotto.
+Il codice URL è la parte di un URL statico che descrive il prodotto o la categoria. Quando crei un prodotto o una categoria, viene generato automaticamente un codice URL iniziale, in base al nome. Per modificare la chiave URL, vedere la sezione [Ottimizzazione motore di ricerca](product-search-engine-optimization.md) delle informazioni sul prodotto.
 
 >[!NOTE]
 >
->Per impostazione predefinita, i caratteri speciali accentati vengono sostituiti automaticamente dalle normali versioni non accentate nella chiave URL. Ad esempio: `ñ` viene sostituito automaticamente da `n`. Questo comportamento può essere disattivato impostando _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_opzione di configurazione per `No`. Consulta [Configurare gli URL del catalogo](#configure-catalog-urls).
+>Per impostazione predefinita, i caratteri speciali accentati vengono sostituiti automaticamente dalle normali versioni non accentate nella chiave URL. Ad esempio, `ñ` viene sostituito automaticamente da `n`. È possibile disabilitare questo comportamento impostando l&#39;opzione di configurazione _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_su `No`. Vedi [Configurare gli URL del catalogo](#configure-catalog-urls).
 
 La chiave URL deve essere costituita da caratteri minuscoli con trattini non finali tra questi caratteri per separare le parole. I trattini non sono consentiti all’inizio o alla fine della chiave URL. Una chiave URL ben progettata e &quot;compatibile con i motori di ricerca&quot; potrebbe includere il nome del prodotto e le parole chiave per migliorarne l’indicizzazione da parte dei motori di ricerca. La chiave URL può essere configurata per creare un reindirizzamento automatico se cambia la chiave URL.
 
 >[!NOTE]
 >
->Per estendere le personalizzazioni degli URL, ad esempio gli URL localizzati, consulta [Riscritture URL](../merchandising-promotions/url-rewrite.md) per ulteriori informazioni.
+>Per estendere le personalizzazioni degli URL, ad esempio gli URL localizzati, vedere [Riscritture URL](../merchandising-promotions/url-rewrite.md) per ulteriori informazioni.
 
 ### Suffisso HTML
 
@@ -76,44 +76,44 @@ Per evitare che i motori di ricerca indicizzino più URL che conducono allo stes
 
 ## Configurare gli URL del catalogo
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Search Engine Optimizations]** e impostare le opzioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimizations]** e impostare le opzioni:
 
-   - Imposta **[!UICONTROL Product URL Suffix]** a `html` o `htm`. Immettere il suffisso senza un punto, in quanto viene applicato automaticamente.
+   - Imposta **[!UICONTROL Product URL Suffix]** su `html` o `htm`. Immettere il suffisso senza un punto, in quanto viene applicato automaticamente.
 
-   - Imposta **[!UICONTROL Category URL Suffix]** a `html` o `htm`. Immettere il suffisso senza un punto, in quanto viene applicato automaticamente.
+   - Imposta **[!UICONTROL Category URL Suffix]** su `html` o `htm`. Immettere il suffisso senza un punto, in quanto viene applicato automaticamente.
 
-   - Imposta **[!UICONTROL Use Categories Path for Product URLs]** secondo le tue preferenze.
+   - Imposta **[!UICONTROL Use Categories Path for Product URLs]** sulla tua preferenza.
 
    ![Ottimizzazione motore di ricerca](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   Per un elenco dettagliato di queste opzioni, vedi [Ottimizzazione motore di ricerca](../configuration-reference/catalog/catalog.md#search-engine-optimization) nel _Riferimento configurazione_.
+   Per un elenco dettagliato di queste opzioni, vedere [Ottimizzazione motore di ricerca](../configuration-reference/catalog/catalog.md#search-engine-optimization) nella _Guida di riferimento configurazione_.
 
-1. Al termine, fai clic su **[!UICONTROL Save Config]**.
+1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
-1. Quando richiesto, fare clic su **[!UICONTROL Cache Management]** nel messaggio di sistema e aggiorna la cache non valida.
+1. Quando richiesto, fare clic sul collegamento **[!UICONTROL Cache Management]** nel messaggio di sistema e aggiornare la cache non valida.
 
    ![Aggiorna cache](./assets/msg-cache-management.png){width="450" zoomable="yes"}
 
-   Per ulteriori informazioni su queste opzioni, vedi [Aggiorna cache](../systems/cache-management.md#refresh-specific-caches).
+   Per ulteriori informazioni su queste opzioni, vedere [Aggiorna cache](../systems/cache-management.md#refresh-specific-caches).
 
 ## Configurare il formato URL del catalogo multimediale
 
-1. Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL General]** e scegli **[!UICONTROL Web]**.
 
-1. Espandi ![Selettore di espansione](../assets/icon-display-expand.png) il **[!UICONTROL Url Options]** e impostare le opzioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Url Options]** e impostare le opzioni:
 
 ![Web > Opzioni generali](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
 | Campo | [Ambito](../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Globale | Se sono abilitate le riscritture del server web, l’abilitazione di questa impostazione inserisce nell’URL il codice store della vista corrente. Opzioni: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Globale | (Per le impostazioni per un singolo archivio) Se sul sito è presente un collegamento interrotto, il traffico viene reindirizzato all’URL di base anziché a una pagina con il messaggio &quot;404 Page Not Found&quot; (Pagina 404 non trovata). Opzioni: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**Non utilizzare il reindirizzamento automatico all&#39;URL di base per le impostazioni in più store. |
-| [!UICONTROL Catalog media URL format] | Globale | Definisce il formato URL assegnato a prodotti e categorie. Opzioni: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Definisce il nome del file convertito come valore hash univoco.<br />**[!UICONTROL Image optimization based on query parameters]** - Definisce [ottimizzazione immagine](../content-design/media-gallery-image-optimization.md) processo che dipende dai parametri di query. |
+| [!UICONTROL Auto-redirect to Base URL] | Globale | (Per le impostazioni per un singolo archivio) Se sul sito è presente un collegamento interrotto, il traffico viene reindirizzato all’URL di base anziché a una pagina con il messaggio &quot;404 Page Not Found&quot; (Pagina 404 non trovata). Opzioni: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**Non utilizzare il reindirizzamento automatico all&#39;URL di base per le impostazioni multi-store. |
+| [!UICONTROL Catalog media URL format] | Globale | Definisce il formato URL assegnato a prodotti e categorie. Opzioni: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Definisce il nome file convertito come valore hash univoco.<br />**[!UICONTROL Image optimization based on query parameters]** - Definisce il processo di [ottimizzazione immagine](../content-design/media-gallery-image-optimization.md) in base ai parametri di query. |
 
 {style="table-layout:auto"}

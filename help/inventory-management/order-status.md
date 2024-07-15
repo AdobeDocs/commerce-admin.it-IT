@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Stato dell’ordine e prenotazioni
 
-[!DNL Inventory Management] supporta fatturazione, pagamenti, spedizione e annullamenti parziali e completi per ordine. Quando si gestisce un ordine mediante l&#39;elaborazione, la fatturazione, la spedizione e potenzialmente i rimborsi, [!DNL Commerce] inserisce o modifica automaticamente gli impegni per aggiornare la quantità vendibile per un magazzino (o canale di vendita) e la quantità esistente per origine. Non è necessario accedere o inserire prenotazioni attivamente. Il completamento delle azioni per evadere, annullare o rimborsare un ordine lo fa per te.
+[!DNL Inventory Management] supporta fatturazione, pagamenti, spedizione e annullamenti parziali e completi per ordine. Quando si gestisce un ordine tramite l&#39;elaborazione, la fatturazione, la spedizione e potenzialmente i rimborsi, [!DNL Commerce] inserisce o modifica automaticamente gli impegni per aggiornare la quantità vendibile per un magazzino (o canale di vendita) e la quantità esistente per origine. Non è necessario accedere o inserire prenotazioni attivamente. Il completamento delle azioni per evadere, annullare o rimborsare un ordine lo fa per te.
 
 Queste prenotazioni consentono di regolare sempre la quantità vendibile, con importi positivi o negativi per aumentare o diminuire le quantità. Il risultato è un aggiornamento delle scorte disponibili e delle quantità vendibili per la disponibilità aggiornata dei prodotti.
 
-Per informazioni specifiche su ordini e spedizioni, consulta [Gestione di ordini e spedizioni](shipments.md).
+Per informazioni specifiche su ordini e spedizioni, vedere [Gestione di ordini e spedizioni](shipments.md).
 
 ## Opzioni di gestione degli ordini
 
@@ -32,13 +32,13 @@ Se un cliente annulla l&#39;ordine prima della spedizione (parziale o totale), v
 
 ### Ordini rimborsati
 
-Se un cliente richiede un rimborso, emettere la nota di credito per gli importi parziali o completi dei prodotti. Quando si ricevono i prodotti restituiti, inserire una nota di credito per fornire i fondi e aggiornare gli importi dei prodotti. Quando selezionate l&#39;opzione Restituisci al magazzino, [!DNL Commerce] consente di riaggiungere le quantità ai prodotti e alle origini che hanno spedito gli ordini e le compensazioni delle prenotazioni per aggiornare le quantità vendibili per le scorte associate.
+Se un cliente richiede un rimborso, emettere la nota di credito per gli importi parziali o completi dei prodotti. Quando si ricevono i prodotti restituiti, inserire una nota di credito per fornire i fondi e aggiornare gli importi dei prodotti. Quando si seleziona l&#39;opzione Restituisci a magazzino, [!DNL Commerce] aggiunge nuovamente le quantità ai prodotti e alle origini che hanno spedito gli ordini e le compensazioni per impegni per aggiornare le quantità vendibili per le scorte associate.
 
 ## Tipi di ordine
 
-Gli ordini semplici iniziano con un carrello, continuano a pagare e terminano con una consegna soddisfatta. In questi ordini, [!DNL Inventory Management] elabora facilmente gli impegni in base alla disponibilità (o alla quantità vendibile) nel carrello e al pagamento e deduce dalle scorte disponibili alla spedizione.
+Gli ordini semplici iniziano con un carrello, continuano a pagare e terminano con una consegna soddisfatta. In questi ordini, [!DNL Inventory Management] elabora facilmente gli impegni in base alla disponibilità (o alla quantità vendibile) nel carrello e al pagamento e detrae dalle scorte disponibili alla spedizione.
 
-![Processo per un ordine semplice](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
+![Elaborazione per un ordine semplice](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
 
 Un ordine più complicato può comportare annullamenti parziali, spedizioni parziali e rimborsi. In queste situazioni, le prenotazioni influiscono sulle scorte disponibili per aggiungere quantità per annullamenti e rimborsi e ridurre le quantità quando ordinate e spedite.
 
@@ -48,14 +48,14 @@ Gli impegni di disponibilità e le variazioni di magazzino si verificano in base
 
 ## Stato e prenotazioni
 
-Nelle tabelle seguenti vengono descritti dettagliatamente lo stato dell&#39;ordine e della nota di accredito con le modifiche di impegno inserite da [!DNL Commerce] per gestire l’inventario.
+Nelle tabelle seguenti vengono descritti dettagliatamente lo stato degli ordini e delle note di accredito con le modifiche degli impegni inserite da [!DNL Commerce] per gestire l&#39;inventario.
 
 | Stato ordine | Descrizione | Impegno per quantità vendibile |
 |--|--|--|
 | [!UICONTROL Open] | Nuovo e inviato di recente, nessuna elaborazione | L&#39;impegno viene salvato quando l&#39;ordine viene sottomesso per le scorte. |
 | [!UICONTROL Canceled] | Annullato parzialmente o interamente prima del pagamento | La compensazione della prenotazione viene inserita per restituire la quantità parziale o totale alla quantità di vendita delle scorte. |
 | [!UICONTROL On Hold] | Pagamento e spedizione non elaborati o fatturati | La prenotazione rimane attiva. |
-| [!UICONTROL Suspected Fraud] | Non elaborato a causa di frode | Se approvata o in revisione, la prenotazione rimane in vigore.<br/>Se rifiutata, la prenotazione rimane in vigore fino a quando il commerciante decide di approvare o annullare.<br/>Se annullata, la compensazione della prenotazione viene inserita per restituire l&#39;intera quantità alla quantità di vendita di magazzino. |
+| [!UICONTROL Suspected Fraud] | Non elaborato a causa di frode | Se approvata o in revisione, la prenotazione rimane in vigore.<br/>Se rifiutata, la prenotazione rimane in vigore finché il commerciante non decide di approvare o annullare.<br/>Se annullata, la compensazione della prenotazione viene inserita per restituire l&#39;intera quantità alla quantità di merce venduta. |
 | [!UICONTROL Pending] | In attesa di pagamento | La prenotazione rimane al suo posto. |
 | [!UICONTROL Processing] | Elaborazione del pagamento, non ricevuto | La prenotazione rimane al suo posto. |
 | [!UICONTROL Pending Payment] | Pagamento non ricevuto | La prenotazione rimane al suo posto. |
@@ -76,14 +76,14 @@ Comprano due fantastiche bici da parco per i loro bambini piccoli, una BMX per i
 
 ![Ordine complesso](assets/diagram-order-complex.png){width="600" zoomable="yes"}
 
-Mostrano alla loro famiglia cosa hanno trovato, ma apporta qualche cambiamento. Prima del completamento del pagamento, annullano due dei 33 SKU BikeFun (ai bambini non piacevano). Si tratta di una cancellazione parziale a causa di un pagamento in sospeso, quindi non è necessaria alcuna nota di credito. Per aggiornare: [!DNL Commerce] viene aggiunto nuovamente alla quantità vendibile per il Canada. L&#39;ordine viene pagato e tutti i prodotti vengono spediti, arrivando in tempo per le vacanze. [!DNL Commerce] aggiorna la quantità vendibile e le quantità di origine per i magazzini di spedizione per i prodotti spediti.
+Mostrano alla loro famiglia cosa hanno trovato, ma apporta qualche cambiamento. Prima del completamento del pagamento, annullano due dei 33 SKU BikeFun (ai bambini non piacevano). Si tratta di una cancellazione parziale a causa di un pagamento in sospeso, quindi non è necessaria alcuna nota di credito. Per aggiornare, [!DNL Commerce] viene aggiunto nuovamente alla quantità vendibile per il Canada. L&#39;ordine viene pagato e tutti i prodotti vengono spediti, arrivando in tempo per le vacanze. [!DNL Commerce] aggiorna la quantità vendibile e le quantità di origine per i magazzini di spedizione per i prodotti spediti.
 
 Ma la maglietta non andava bene per il coniuge. Blake chiede un rimborso e rispedisce indietro la sua maglietta. La creazione della nota di credito aggiunge una camicia 54-BikeLife al magazzino di spedizione e di magazzino del Canada.
 
-- **Prodotti spediti** - con i prodotti acquistati e spediti, [!DNL Commerce] aggiorna l&#39;inventario. Le compensazioni per impegni vengono convertite in detrazioni quantità scorte disponibili dall&#39;origine spedita. Aggiornamenti della quantità vendibile disponibile per il magazzino.
+- **Prodotti spediti** - Con i prodotti acquistati e spediti, [!DNL Commerce] aggiorna l&#39;inventario. Le compensazioni per impegni vengono convertite in detrazioni quantità scorte disponibili dall&#39;origine spedita. Aggiornamenti della quantità vendibile disponibile per il magazzino.
 
-- **Prodotti annullati** - mediante l&#39;annullamento delle scorte, [!DNL Commerce] rimuove la prenotazione per quel prodotto. La compensazione della prenotazione viene inserita a livello di magazzino per aggiungere quantità di vendita arretrata per l&#39;annullamento parziale di due camicie. Ciò non influisce sulla quantità di magazzino a livello di origine.
+- **Prodotti annullati** - Annullando le scorte, [!DNL Commerce] rimuove la prenotazione per quel prodotto. La compensazione della prenotazione viene inserita a livello di magazzino per aggiungere quantità di vendita arretrata per l&#39;annullamento parziale di due camicie. Ciò non influisce sulla quantità di magazzino a livello di origine.
 
-- **Nota di credito/Prodotto rimborsato** - Per le scorte contabili, essa deve essere ricalcolata. Quando si emette la nota di credito, è possibile scegliere di tornare alle scorte. [!DNL Commerce] aggiunge la quantità di magazzino precedente all&#39;origine spedita per il prodotto. Per liquidare gli impegni rimanenti, inserire le compensazioni per gli impegni. La quantità vendibile viene ricalcolata in base alla quantità aggiornata.
+- **Nota di credito/Prodotto rimborsato** - Per restituire le scorte, è necessario aggiungerle nuovamente alle quantità. Quando si emette la nota di credito, è possibile scegliere di tornare alle scorte. [!DNL Commerce] aggiunge nuovamente la quantità di magazzino all&#39;origine spedita per il prodotto. Per liquidare gli impegni rimanenti, inserire le compensazioni per gli impegni. La quantità vendibile viene ricalcolata in base alla quantità aggiornata.
 
-![Aggiornamenti quantità rimborso ordine](assets/diagram-order-refund.png){width="600" zoomable="yes"}
+![Aggiornamenti quantità rimborso ordini](assets/diagram-order-refund.png){width="600" zoomable="yes"}

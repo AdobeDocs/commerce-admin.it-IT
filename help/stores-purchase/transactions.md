@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Transazioni
 
-Il _Transazioni_ pagina elenca tutte le attività di pagamento che hanno avuto luogo tra il tuo negozio e un sistema di pagamento e fornisce l&#39;accesso a informazioni più dettagliate.
+La pagina _Transazioni_ elenca tutte le attività di pagamento che hanno avuto luogo tra il tuo Negozio e un sistema di pagamento e fornisce l&#39;accesso a informazioni più dettagliate.
 
 ## Visualizza transazioni
 
-Il giorno _Amministratore_ barra laterale, vai a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
 
-![Griglia delle transazioni](./assets/transactions.png){width="600" zoomable="yes"}
+![Griglia transazioni](./assets/transactions.png){width="600" zoomable="yes"}
 
 | Colonna | Descrizione |
 |--- |--- |
@@ -41,7 +41,7 @@ Nella pagina dei dettagli della transazione è possibile visualizzare la griglia
 
 ### Dati transazione
 
-Questa sezione include informazioni sulla transazione e fornisce un collegamento alla pagina dell&#39;ordine in **ID ordine** colonna.
+Questa sezione include informazioni relative alla transazione e fornisce un collegamento alla pagina dell&#39;ordine nella colonna **ID ordine**.
 
 | Colonna | Descrizione |
 |--- |--- |
@@ -55,7 +55,7 @@ Questa sezione include informazioni sulla transazione e fornisce un collegamento
 
 ### Transazioni figlio
 
-Le transazioni figlio vengono visualizzate nella griglia dopo la creazione delle fatture per [ordini](orders.md). Questo formato consente di tenere traccia della cronologia delle transazioni, seguendo una gerarchia di transazioni.
+Le transazioni secondarie vengono visualizzate nella griglia dopo la creazione delle fatture per [ordini](orders.md). Questo formato consente di tenere traccia della cronologia delle transazioni, seguendo una gerarchia di transazioni.
 
 ### [!UICONTROL Transaction Details]
 
