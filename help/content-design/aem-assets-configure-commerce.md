@@ -2,9 +2,9 @@
 title: Installare e configurare l’integrazione di Experience Manager Assets
 description: "Scopri come installare e configurare  [!DNL AEM Assets Integration for Adobe Commerce]"
 feature: CMS, Media
-source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
+source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,12 @@ Installa e configura l’integrazione di AEM Assets per Commerce aggiungendo l�
 - PHP 8.1, 8.2, 8.3
 - Compositore: 2.x
 
-## Prerequisiti
+**Requisiti di configurazione**
 
 - Adobe Commerce deve essere configurato per l&#39;utilizzo dell&#39;autenticazione [Adobe IMS](/help/getting-started/adobe-ims-config.md).
-- Provisioning degli account e autorizzazioni: per configurare l’integrazione di Experience Manager Assets, gli amministratori devono avere accesso alle seguenti risorse:
-   - Amministratore dell&#39;applicazione Commerce: installare le estensioni richieste e configurare il server dell&#39;applicazione Commerce dall&#39;amministratore o dalla riga di comando
+- Provisioning e autorizzazioni dell’account
+   - [Amministratore progetto cloud Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installa le estensioni richieste e configura il server applicazioni Commerce dall&#39;amministratore o dalla riga di comando
    - [Amministratore Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview): aggiorna la configurazione dell&#39;archivio e gestisci gli account utente di Commerce
-   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction): account utente o amministratore dell&#39;applicazione Adobe IMS. L’account deve disporre delle autorizzazioni per creare e gestire le cartelle e creare raccolte pubbliche, caricare le risorse, impostare le autorizzazioni e impostare i metadati.
 
 ## Panoramica sulla configurazione
 

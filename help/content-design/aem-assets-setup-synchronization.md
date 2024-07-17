@@ -1,10 +1,10 @@
 ---
-title: Configurare il servizio di sincronizzazione
+title: Abilita sincronizzazione risorse
 description: '"Scopri come collegare i progetti Adobe Commerce e Experience Manager Assets con il servizio Assets Rule Engine per abilitare la sincronizzazione delle risorse tra questi due sistemi".'
 feature: CMS, Media
-source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
