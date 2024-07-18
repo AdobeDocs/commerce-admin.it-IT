@@ -3,9 +3,9 @@ title: Panoramica sulla ricerca nel catalogo
 description: Scopri gli strumenti di ricerca rapida e avanzata che i clienti possono utilizzare per individuare i prodotti nella vetrina.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Le sezioni seguenti descrivono le funzionalità di base di ricerca nel catalogo.
 
 >[!NOTE]
 >
->Quando [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) è installato, la casella di ricerca restituisce &quot;ricerca durante la digitazione&quot; e restituisce un pop-over.
+>Quando [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) è installato e il widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) è abilitato, la casella di ricerca restituisce &quot;cerca durante la digitazione&quot; e restituisce un pop-over.
 
 La casella di ricerca nell’intestazione del negozio aiuta i visitatori a trovare i prodotti nel catalogo. Il testo da cercare può essere il nome completo o parziale del prodotto o qualsiasi altra parola o frase che descriva il prodotto. I termini di ricerca utilizzati dagli utenti per trovare i prodotti possono essere gestiti dall’amministratore.
 
