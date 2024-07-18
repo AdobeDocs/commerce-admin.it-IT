@@ -4,9 +4,9 @@ description: Scopri come generare automaticamente o aggiungere la tua chiave di 
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 21be3c7a56cb72d685b2b3605bc27266e8e55f37
+source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,33 @@ Durante l&#39;installazione iniziale, viene richiesto di consentire a Commerce d
 
 Per informazioni tecniche, vedere [Installazione locale avanzata](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) nella _Guida all&#39;installazione_.
 
-## Passaggio 1: rendere il file scrivibile
+>[!IMPORTANT]
+>
+>Prima di seguire queste istruzioni per modificare la chiave di crittografia, verificare che il file seguente sia scrivibile: `[your store]/app/etc/env.php`
 
-Per modificare la chiave di crittografia, verificare che il seguente file sia scrivibile: `[your store]/app/etc/env.php`
+**Per modificare una chiave di crittografia:**
 
-## Passaggio 2: modificare la chiave di crittografia
+Le seguenti istruzioni richiedono l&#39;accesso a un terminale.
+
+1. Attiva [modalità manutenzione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+
+   ```bash
+   bin/magento maintenance:enable
+   ```
+
+1. Disattiva processi cron.
+
+   _Progetti infrastruttura cloud:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:disable
+   ```
+
+   _Progetti locali_
+
+   ```bash
+   crontab -e
+   ```
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
 
@@ -36,6 +58,40 @@ Per modificare la chiave di crittografia, verificare che il seguente file sia sc
 
 1. Fare clic su **[!UICONTROL Change Encryption Key]**.
 
-1. Conserva un record della nuova chiave in un luogo sicuro.
+   >[!NOTE]
+   >
+   >Conserva un record della nuova chiave in un luogo sicuro. È necessario per decrittografare i dati, se si verificano problemi con i file.
 
-   È necessario per decrittografare i dati, se si verificano problemi con i file.
+1. Svuota la cache.
+
+   _Progetti infrastruttura cloud:_
+
+   ```bash
+   magento-cloud cc
+   ```
+
+   _Progetti locali:_
+
+   ```bash
+   bin/magento cache:flush
+   ```
+
+1. Abilita processi cron.
+
+   _Progetti infrastruttura cloud:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:enable
+   ```
+
+   _Progetti locali:_
+
+   ```bash
+   crontab -e
+   ```
+
+1. Disattiva la modalità di manutenzione.
+
+   ```bash
+   bin/magento maintenance:disable
+   ```
