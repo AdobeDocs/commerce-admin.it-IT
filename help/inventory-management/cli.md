@@ -4,7 +4,7 @@ description: Scopri i comandi forniti dal modulo  [!DNL Inventory Management]  p
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Le risposte che utilizzano `-r` restituiscono in formato `<ORDER_INCREMENT_ID>:<
 
 Esempi:
 
-```terminal
+```bash
 bin/magento inventory:reservation:list-inconsistencies
 
 Inconsistencies found on following entries:
@@ -84,7 +84,7 @@ Order 172:
 - Product bike-123 should be compensated by +2.000000 for stock 1
 ```
 
-```terminal
+```bash
 bin/magento inventory:reservation:list-inconsistencies -r
 
 172:bike-123:+2.000000:1
@@ -108,13 +108,13 @@ Opzione comando:
 
 Se il formato della richiesta non è corretto, viene visualizzato il seguente messaggio:
 
-```terminal
+```
 Error while parsing argument "your_incorrect_format_argument". Given argument does not match pattern "/(?P<increment_id>.*):(?P<sku>.*):(?P<quantity>.*):(?P<stock_id>.*)/".
 ```
 
 Quando il comando crea prenotazioni, visualizza messaggi che indicano gli aggiornamenti per SKU, ordine e stock.
 
-```terminal
+```bash
 bin/magento inventory:reservation:create-compensations 172:bike-123:+2.000000:1
 
 Following reservations were created:
@@ -141,7 +141,7 @@ Esempio di risposta:
 bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
 ```
 
-```terminal
+```
 Following reservations were created:
 - Product bike-123 was compensated by +2.000000 for stock 1
 - Product bikehat-456 was compensated by +1.000000 for stock 1
@@ -153,7 +153,7 @@ Al termine degli aggiornamenti, esegui il comando list per verificare:
 bin/magento inventory:reservation:list-inconsistencies -r
 ```
 
-```terminal
+```
 No order inconsistencies were found.
 ```
 

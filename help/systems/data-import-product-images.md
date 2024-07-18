@@ -3,7 +3,7 @@ title: Importazione immagine prodotto
 description: Scopri come importare le immagini dei prodotti utilizzando il percorso e il nome di file di ciascuna immagine.
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Prima di provare a importare molte immagini, rivedere i passaggi del metodo di i
 
 1. Nel server Commerce caricare i file immagine nella cartella `var/import/images` o in una sottocartella, ad esempio `var/import/images/product_images`. Questa è la cartella principale predefinita per l’importazione delle immagini del prodotto.
 
-   ```terminal
+   ```
    <Magento root folder>/var/import/images
    ```
 
@@ -50,7 +50,7 @@ Prima di provare a importare molte immagini, rivedere i passaggi del metodo di i
 
 1. Dopo aver selezionato il file da importare, immettere il percorso relativo seguente **[!UICONTROL Images File Directory]**.
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -68,7 +68,7 @@ Prima di provare a importare molte immagini, rivedere i passaggi del metodo di i
 
 1. Nei dati CSV, immetti l&#39;URL completo di ciascun file di immagine nella colonna corretta per tipo di immagine (`base_image`, `small_image`, `thumbnail_image` o `additional_images`).
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -78,7 +78,7 @@ Prima di provare a importare molte immagini, rivedere i passaggi del metodo di i
 
 1. Nel modulo di archiviazione remota, caricare i file immagine nella cartella `var/import/images` o in una sottocartella, ad esempio `var/import/images/product_images`. Questa è la cartella principale predefinita per l’importazione delle immagini del prodotto.
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -100,7 +100,7 @@ Prima di provare a importare molte immagini, rivedere i passaggi del metodo di i
 
 1. Dopo aver selezionato il file da importare, immettere il percorso relativo seguente **[!UICONTROL Images File Directory]**.
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 
