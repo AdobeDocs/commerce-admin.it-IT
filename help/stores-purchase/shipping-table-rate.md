@@ -3,9 +3,9 @@ title: Tariffa tabella spedizione
 description: Scopri come impostare un’opzione di spedizione con tariffa di tavolo per il tuo negozio.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ Il primo passo è quello di completare le impostazioni predefinite per le tariff
    - Utilizzare un asterisco (*) come carattere jolly che rappresenta tutti i valori possibili in qualsiasi categoria.
    - La colonna _[!UICONTROL Country]_deve contenere un [codice di tre caratteri valido][1] per ogni riga.
    - Ordina i dati per _[!UICONTROL Region/State]_in modo che le posizioni specifiche si trovino nella parte superiore dell&#39;elenco e le posizioni dei caratteri jolly nella parte inferiore. Questo metodo elabora le regole prima con i valori assoluti e successivamente con i valori jolly.
+   - Gli intervalli di codici postali o Zip non sono supportati. Utilizzare un asterisco (*) per consentire tutti i codici all&#39;interno dell&#39;area o dello stato oppure specificare un singolo codice per una posizione specifica nella colonna _[!UICONTROL Zip/Postal Code]_.
    - I valori nella colonna _[!UICONTROL Weight (and above)]_possono avere un massimo di quattro posizioni decimali (ad esempio `2.5075`). L’utilizzo di più posizioni decimali nei dati causa un errore di importazione.
 
    ![Peso rispetto alla destinazione (Australia)](./assets/table-rates-weight-destination-csv.png){width="500"}
