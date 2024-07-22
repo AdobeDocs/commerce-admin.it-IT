@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ Dopo il recupero dei dati, puoi utilizzarli per creare nell&#39;app Commerce [re
 
 Se i tipi di pubblico di Real-Time CDP non vengono visualizzati in Commerce, la causa potrebbe essere:
 
+- Connessione non valida
 - Tipo di autenticazione non corretto selezionato nella pagina di configurazione **Connessione dati**
 - Privilegi insufficienti sul token generato
 
-Nelle due sezioni seguenti viene descritto come risolvere i problemi relativi a entrambi i casi.
+Le sezioni seguenti descrivono come risolvere questi problemi.
+
+### Convalidare la connessione
+
+Per convalidare le credenziali e la risposta da Adobe Experience Platform, esegui il comando seguente:
+
+```bash
+bin/magento audiences:config:status
+```
+
+Questo comando restituisce lo stato della connessione. Aggiungi il flag `-v` per fornire maggiore dettaglio:
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+Ad esempio:
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### Tipo di autenticazione non corretto selezionato nella configurazione
 
