@@ -3,16 +3,16 @@ title: Persistenza carrello
 description: Scopri in che modo un carrello permanente tiene traccia degli articoli del carrello non acquistati e salva le informazioni per la visita successiva del cliente.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: ea3aae3fce7f5e18155138b2bb9e7df0b3831fdd
+source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # Persistenza carrello
 
-Un carrello acquisti permanente tiene traccia degli articoli non acquistati nel carrello e salva le informazioni. Questo processo assicura che il contenuto del carrello rimanga accessibile alla scadenza della sessione di accesso.
+Un carrello persistente salva un riferimento all’account del cliente sul dispositivo corrente, garantendo che il contenuto del carrello rimanga accessibile alla scadenza della sessione registrata.
 
 Se un cliente viene _ricordato_, il contenuto del carrello rimane accessibile sul dispositivo corrente alla scadenza della sessione di accesso. Alla scadenza della sessione, si accede al carrello del cliente utilizzando la sessione del carrello persistente. Se lo stesso cliente effettua l’accesso su un altro dispositivo o browser e aggiunge qualcosa al carrello, quindi ritorna al dispositivo con una sessione persistente attiva, il carrello viene aggiornato con gli elementi aggiunti.
 
