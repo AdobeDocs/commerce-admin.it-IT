@@ -1,11 +1,11 @@
 ---
-title: Preparazione HIPAA su Adobe Commerce
+title: Preparazione HIPAA per Adobe Systems Commerce
 description: Scopri come aggiungere l’estensione compatibile con HIPAA di Adobe Commerce e ottenere funzioni e funzionalità aggiuntive per rispettare gli obblighi HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
+source-git-commit: bce0e581e89139875e09b671038a21976eccebca
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1568'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Installare la versione più recente dell&#39;estensione HIPAA-Ready Services di 
    git push origin <branch-name>
    ```
 
-   Inviando gli aggiornamenti si avvia il [processo di distribuzione cloud di Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) per applicare le modifiche. Controllare lo stato della distribuzione dal [registro distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Il push degli aggiornamenti avvia il processo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) di distribuzione di [Commerce cloud per applicare le modifiche. Controlla lo stato della distribuzione dal [registro](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log) distribuire.
 
 ### Verificare l&#39;installazione
 
@@ -138,20 +138,20 @@ La griglia del report _Registri azioni_ (**[!UICONTROL System]** > Registri azio
 1. Sono state aggiunte due colonne:
    - ***Source***: visualizza la posizione in cui è stata eseguita l&#39;azione.
 Valori: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
-   - ***Tipo client***: visualizza il tipo di client.
+   - ***Tipo di*** client: visualizza il tipo di client.
 Valori: Cliente | Amministratore | Integrazione
 
-2. La colonna ***Nome utente*** è stata rinominata ***Identificatore client***
+2. Nome utente rinominato ****** in ***Identificatore client***
    - ***Identificatore client***: visualizza l&#39;ID di accesso per l&#39;utente che ha eseguito l&#39;azione.
 Valori:
       - un messaggio e-mail se il tipo di client è Cliente
       - un nome utente se il tipo di client è Admin
-      - un nome se il tipo di client è Integrazione
+      - un nome se Tipo client è Integrazione
 
-3. La colonna ***Nome azione completo*** è stata rinominata ***Destinazione***
-   - ***Destinazione***: visualizza il nome dell&#39;azione.
+3. La colonna Nome ***azione completo è stata rinominata*** Target ******
+   - ***Target***: visualizza il nome dell&#39;azione.
 Valori:
-      - un endpoint se Source è un’API REST o un’API SOAP
+      - un endpoint se Origine è un&#39;API REST o SOAP
       - un nome di query o mutazione se un’API GraphQL
       - un nome di azione se si tratta di un’interfaccia utente amministratore o cliente.
 
@@ -175,7 +175,7 @@ Uno dei miglioramenti principali nelle funzioni di importazione ed esportazione 
 | ---- | ------- |
 | Importa | <ul><li>Un utente amministratore esegue un’importazione<li>Un utente amministratore scarica un file importato<li>Un utente amministratore scarica un file di errore<ul/> |
 | Esporta | <ul><li>Richieste di utenti amministratore<li>Un utente amministratore scarica un file esportato<ul/> |
-| Importazioni/esportazioni programmate | <ul><li>Un utente amministratore pianifica l’esportazione<li>Un utente amministratore modifica un’esportazione pianificata<li>Un utente amministratore esegue un’esportazione pianificata<li>Un utente amministratore elimina un’esportazione pianificata<li>Un utente amministratore pianifica un’importazione<li>Un utente amministratore modifica un’importazione pianificata<li>Un utente amministratore esegue un’importazione pianificata<li>Un utente amministratore elimina un’importazione pianificata<li>Un utente amministratore esegue un’eliminazione in blocco delle operazioni di importazione/esportazione<ul/> |
+| Importazioni/esportazioni programmate | <ul><li>Un utente amministratore pianifica l’esportazione<li>Un utente amministratore modifica un’esportazione pianificata<li>Un utente amministratore esegue un’esportazione pianificata<li>Un utente amministratore elimina un’esportazione pianificata<li>Un utente amministratore pianifica un’importazione<li>Un amministratore modifica utente un&#39;importazione pianificata<li>Un utente amministratore esegue un’importazione pianificata<li>Un utente amministratore elimina un’importazione pianificata<li>Un utente amministratore esegue un’eliminazione in blocco delle operazioni di importazione/esportazione<ul/> |
 
 ### Miglioramenti alla visualizzazione e miglioramento del filtraggio e dell’ordinamento
 
@@ -196,7 +196,7 @@ Per consentire agli utenti amministratori di disporre di griglie con maggiori in
 - Ordinamento abilitato per tutte le colonne eccetto **[!UICONTROL File name]**.
 - Attivazione del filtro per tutte le colonne.
 
-#### Importazioni ed esportazioni pianificate ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export])
+#### Importazioni ed esportazioni previste ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export])
 
 - Aggiunta colonna **[!UICONTROL ID]**.
 - È stata aggiunta una colonna **[!UICONTROL Scheduled At]** (la _data e ora in cui è stata pianificata l&#39;importazione o l&#39;esportazione_).
@@ -208,21 +208,20 @@ Per soddisfare i requisiti HIPAA, alcuni servizi e funzionalità supportati da A
 
 ### Servizi
 
-- **Servizi Adobe Commerce**: nessuno dei servizi Adobe Commerce o dei servizi di estendibilità è disponibile nell&#39;offerta compatibile con HIPAA. Tali servizi includono, tra l&#39;altro:
+- **Servizi Adobe Systems Commerce**: nessuno dei servizi di Adobe Systems Commerce o dei servizi di estensibilità è disponibile nell&#39;ambito dell&#39;offerta di preparazione HIPAA. Questi servizi includono, ma non sono limitati a:
 
    - Live Search
    - Mesh API
    - App Builder
-   - Servizio catalogo
 
-- **[Servizio SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**. Il servizio è disabilitato per impostazione predefinita perché l&#39;applicazione non è compatibile con HIPAA.
+- **[Servizio](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** SendGrid: questo servizio è disabilitato per impostazione predefinita perché il applicazione non è conforme a HIPAA.
 
-### Funzioni disattivate per impostazione predefinita
+### Funzionalità disattivate per impostazione predefinita
 
-Le seguenti funzioni sono disattivate per impostazione predefinita nel modulo HIPAA-readiness. Gli esercenti possono abilitare ognuna di queste funzioni a proprio rischio.
+Le seguenti funzioni sono disabilitate per impostazione predefinita nel modulo di preparazione HIPAA. I commercianti possono abilitare una qualsiasi di queste funzionalità a proprio rischio.
 
-- **[Pagamento per gli ospiti](../stores-purchase/checkout-guest.md)** - Questa funzionalità rappresenta un potenziale rischio per vari aspetti dell&#39;HIPAA, tra cui la registrazione, il controllo degli accessi, l&#39;igiene e la derivazione PHI e potenzialmente altri.
+- **[Checkout](../stores-purchase/checkout-guest.md)** ospite: questa funzione presenta un rischio potenziale per vari aspetti dell&#39;HIPAA, tra cui registrazione, controllo della accesso, igiene e lignaggio PHI e potenzialmente altro ancora.
 
-- **[Funzione newsletter](../merchandising-promotions/newsletters.md)** - Questa funzione è disabilitata per impedire l&#39;utilizzo di PHI in un contesto di marketing.
+- **[Newsletter funzione](../merchandising-promotions/newsletters.md)**: questa funzione è disabilitata per impedire l&#39;utilizzo di PHI in un contesto marketing.
 
 - **[Impostazione avanzata del servizio Reporting](../getting-started/business-intelligence.md)**: questa impostazione di configurazione è disabilitata per impedire l&#39;utilizzo di PHI per l&#39;analisi e il reporting.
