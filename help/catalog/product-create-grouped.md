@@ -3,9 +3,9 @@ title: Prodotto raggruppato
 description: Scopri come creare un prodotto raggruppato costituito da semplici prodotti autonomi presentati come un gruppo.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,8 @@ Se hai un’immagine diversa per ciascun prodotto del gruppo, puoi impostare la 
 ## Aspetti da ricordare
 
 - Un prodotto raggruppato è essenzialmente una raccolta di semplici prodotti associati.
+
+- Tutti i prodotti secondari vengono assegnati e non assegnati al prodotto raggruppato **_globalmente_** per tutti i siti Web, gli store e le visualizzazioni dello store contemporaneamente.
 
 - I prodotti secondari raggruppati possono essere prodotti semplici, scaricabili o virtuali **[!UICONTROL without custom options]**.
 

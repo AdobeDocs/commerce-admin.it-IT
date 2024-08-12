@@ -3,9 +3,9 @@ title: Prodotto bundle
 description: Scopri come creare un pacchetto di prodotti che consenta agli acquirenti di creare un prodotto personalizzato nel tuo negozio.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -274,6 +274,8 @@ Lo stato delle scorte dei prodotti del bundle è **_non modificato automaticamen
 ## Aspetti da ricordare
 
 ![Casella di controllo](../assets/checkbox.png) I clienti possono _creare il proprio_ prodotto bundle.
+
+![Casella di controllo](../assets/checkbox.png) Tutti i prodotti secondari vengono assegnati e non assegnati al prodotto bundle **_globalmente_** per tutti i siti Web, gli store e le visualizzazioni dello store contemporaneamente.
 
 ![Casella di controllo](../assets/checkbox.png) Gli elementi del bundle possono essere prodotti semplici o virtuali senza opzioni personalizzate.
 
