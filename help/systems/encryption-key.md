@@ -4,9 +4,9 @@ description: Scopri come generare automaticamente o aggiungere la tua chiave di 
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Commerce e il Magento Open Source utilizzano una chiave di crittografia per proteggere le password e altri dati sensibili. Viene utilizzato un algoritmo [!DNL ChaCha20-Poly1305] standard del settore con una chiave a 256 bit per crittografare tutti i dati che richiedono la crittografia. Ciò include i dati della carta di credito e le password di integrazione (modulo di pagamento e spedizione). Inoltre, viene utilizzato un forte algoritmo di hash sicuro (SHA-256) per eseguire l’hashing di tutti i dati che non richiedono decrittografia.
 
-Durante l&#39;installazione iniziale, viene richiesto di consentire a Commerce di generare una chiave di crittografia o di immetterne una propria. Lo strumento per la chiave di crittografia consente di modificare la chiave in base alle esigenze. La chiave di crittografia deve essere cambiata regolarmente per migliorare la sicurezza e in qualsiasi momento la chiave originale potrebbe essere compromessa. Ogni volta che la chiave viene modificata, tutti i dati legacy vengono codificati nuovamente utilizzando la nuova chiave.
+Durante l&#39;installazione iniziale, viene richiesto di consentire a Commerce di generare una chiave di crittografia o di immetterne una propria. Lo strumento per la chiave di crittografia consente di modificare la chiave in base alle esigenze. La chiave di crittografia deve essere cambiata regolarmente per migliorare la sicurezza e in qualsiasi momento la chiave originale potrebbe essere compromessa.
 
 Per informazioni tecniche, vedere [Installazione locale avanzata](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) nella _Guida all&#39;installazione_.
 

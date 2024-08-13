@@ -4,7 +4,7 @@ description: Scopri il supporto per l’autenticazione a due fattori per garanti
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Guarda questa [demo video](https://video.tv.adobe.com/v/339104?quality=12&learn=
 
    Per selezionare più metodi, tenere premuto Ctrl (PC) o Comando (Mac) e fare clic su ogni elemento.
 
-1. Completare le impostazioni per ogni metodo 2FA richiesto.
+1. Completa le [impostazioni](../configuration-reference/security/2fa.md) per ogni metodo 2FA richiesto.
 
    ![Configurazione protezione - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
