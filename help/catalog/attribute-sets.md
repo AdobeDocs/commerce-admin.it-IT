@@ -3,9 +3,9 @@ title: Set di attributi
 description: Scopri come organizzare gli attributi in gruppi, che determinano dove vengono visualizzati nel record del prodotto.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 43550b9370f4ed4b631ae7773324ed0913718a79
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Gli attributi vengono organizzati in gruppi che determinano la posizione in cui 
 
 1. Imposta **[!UICONTROL Based On]** su un set di attributi esistente da utilizzare come modello.
 
-1. fare clic su **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
    Nella pagina successiva viene visualizzato quanto segue:
 
@@ -38,7 +38,7 @@ Gli attributi vengono organizzati in gruppi che determinano la posizione in cui 
    - Al centro della pagina è riportata la selezione corrente di gruppi di attributi.
    - Nella colonna di destra sono elencati gli attributi selezionati che non sono attualmente assegnati al set di attributi.
 
-1. Per aggiungere un attributo al set, trascinare l&#39;attributo dall&#39;elenco **[!UICONTROL Unassigned Attributes]** nella cartella appropriata nella colonna **[!UICONTROL Groups]**.
+1. Per aggiungere un attributo al set, trascinare l&#39;attributo dall&#39;elenco **[!UICONTROL Unassigned Attributes]** nella cartella appropriata nella colonna **[!UICONTROL Groups]**. Per rimuovere un attributo dal set, trascinarlo nell&#39;elenco **[!UICONTROL Unassigned Attributes]**.
 
    >[!NOTE]
    >
@@ -50,14 +50,15 @@ Gli attributi vengono organizzati in gruppi che determinano la posizione in cui 
 
 ## Creare un gruppo di attributi
 
-1. Nella colonna _[!UICONTROL Groups]_del set di attributi fare clic su **[!UICONTROL Add New]**.
+1. Nella colonna _[!UICONTROL Groups]_del set di attributi, fare clic su **[!UICONTROL Add New]**.
 
 1. Immettere **[!UICONTROL Name]** per il nuovo gruppo e fare clic su **[!UICONTROL OK]**.
 
-1. Effettuare una delle seguenti operazioni:
+1. Effettua una delle seguenti operazioni:
 
    - Trascina **[!UICONTROL Unassigned Attributes]** nel nuovo gruppo.
    - Trascinare gli attributi da qualsiasi altro gruppo al nuovo gruppo.
+   - Trascinare gli attributi non necessari in **[!UICONTROL Unassigned Attributes]**.
 
    Il nuovo gruppo diventa una sezione di attributi in qualsiasi prodotto basato sul set di attributi.
 
