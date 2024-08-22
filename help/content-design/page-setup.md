@@ -2,9 +2,9 @@
 title: Impostazione pagina
 description: Scopri come configurare le impostazioni predefinite per le parti principali di una pagina del negozio.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ Le impostazioni nella sezione HTML Head corrispondono al tag `<head>` di una pag
    - **[!UICONTROL Default Meta Keywords]**
 
 1. Immetti **[!UICONTROL Scripts and Style Sheets]** come necessario.
+
+   >[!NOTE]
+   >
+   >Tutti i JavaScript immessi nel campo [!UICONTROL Scripts and Style Sheets] devono essere inseriti nella whitelist nelle impostazioni Content Security Policy (CSP), altrimenti non verranno eseguiti nelle pagine di checkout. Per ulteriori informazioni, vedere [Criteri sulla sicurezza dei contenuti](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 
 1. Abilita o disabilita l&#39;[avviso archivio demo](../getting-started/storefront-branding.md#set-the-store-demo-notice) se necessario.
 
@@ -118,6 +123,10 @@ Nella sezione Configurazione piè di pagina è possibile aggiornare l&#39;[avvis
 1. In _Altre impostazioni_, espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Footer]**.
 
 1. Apportare le modifiche necessarie alle impostazioni **[!UICONTROL Copyright]** e **[!UICONTROL Miscellaneous HTML]**.
+
+   >[!NOTE]
+   >
+   >Tutti i JavaScript immessi nel campo [!UICONTROL Miscellaneous HTML] devono essere inseriti nella whitelist nelle impostazioni Content Security Policy (CSP), altrimenti non verranno eseguiti nelle pagine di checkout. Per ulteriori informazioni, vedere [Criteri sulla sicurezza dei contenuti](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. Al termine, fare clic su **[!UICONTROL Save Configuration]**.
 
