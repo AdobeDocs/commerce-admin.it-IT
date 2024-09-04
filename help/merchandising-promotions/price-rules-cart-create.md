@@ -3,9 +3,9 @@ title: Creare una regola di prezzo del carrello
 description: Scopri come creare una regola di prezzo del carrello basata sugli attributi del carrello o del prodotto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Completa i passaggi seguenti per aggiungere una regola, descrivere le condizioni
 
    >[!NOTE]
    >
-   >Le regole di prezzo del carrello con la stessa priorità non generano uno sconto combinato. Ogni regola viene applicata ai prodotti corrispondenti separatamente, uno per uno.
+   >Le regole di prezzo del carrello con la stessa priorità non generano uno sconto combinato. Ogni regola (coupon) viene applicata separatamente ai prodotti corrispondenti, uno per uno, in base all’ID della regola di prezzo del carrello nel database. Per controllare l’ordine in cui vengono applicati gli sconti, l’Adobe consiglia di impostare una priorità diversa per ogni regola di prezzo del carrello aggiunto.
 
 1. Per applicare la regola ai [feed RSS](social-rss.md#rss-feeds) pubblicati, impostare **Pubblico nel feed RSS** su `Yes`.
 

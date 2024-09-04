@@ -3,9 +3,9 @@ title: Codici coupon
 description: Scopri come utilizzare i codici coupon con le regole del prezzo del carrello per applicare uno sconto quando viene soddisfatta una serie di condizioni.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
+source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ I codici coupon vengono utilizzati con [regole prezzo carrello](price-rules-cart
 I codici coupon possono essere inviati tramite e-mail o inclusi in newsletter, cataloghi e annunci pubblicitari. L&#39;elenco dei codici coupon può essere esportato e inviato a un servizio di stampa esterno. Puoi anche creare coupon in-store con un codice di risposta rapida che gli acquirenti possono scansionare con i loro smartphone. Il codice QR può essere collegato a una pagina del sito con ulteriori informazioni sulla promozione.
 
 A partire dalla versione 2.4.7 di Commerce, gli acquirenti possono applicare più coupon a un carrello. Gli esercenti possono anche applicare più coupon utilizzando l’assistenza per lo shopping.
+
+>[!NOTE]
+>
+>Le regole di prezzo del carrello con la stessa priorità non generano uno sconto combinato. Ogni regola (coupon) viene applicata separatamente ai prodotti corrispondenti, uno per uno, in base all’ID della regola di prezzo del carrello nel database. Per controllare l’ordine in cui vengono applicati gli sconti, l’Adobe consiglia di impostare una priorità diversa per ogni regola di prezzo del carrello aggiunto.
 
 ## Configurare i codici coupon
 
