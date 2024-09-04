@@ -3,9 +3,9 @@ title: Aggiornamenti pianificati dei prodotti
 description: Scopri come pianificare le modifiche agli elenchi dei prodotti per supportare campagne e programmi promozionali.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ La modifica pianificata viene visualizzata nella parte superiore della pagina de
 1. Nella casella _[!UICONTROL Scheduled Changes]_nella parte superiore della pagina, fare clic su **[!UICONTROL View/Edit]**.
 
 1. Apporta le modifiche necessarie all’aggiornamento pianificato.
+
+>[!NOTE]
+>
+>Se una campagna è collegata a più di un prodotto, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](../content-design/content-staging-dashboard.md).
 
 1. Fare clic su **[!UICONTROL Save]**.
 

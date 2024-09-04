@@ -3,9 +3,9 @@ title: Controlli dell’area di lavoro pagina
 description: Scopri gli strumenti di Workspace utilizzati per individuare e aggiornare le pagine di contenuto.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,10 @@ Fare clic sul controllo _Visualizza_ (![Icona occhio](../assets/icon-view-eye.pn
 {{ee-feature}}
 
 Le modifiche apportate alla pagina possono essere applicate in base alla pianificazione e raggruppate con altre modifiche apportate al contenuto. Puoi creare una campagna in base alle modifiche pianificate per una pagina o applicare le modifiche a una campagna esistente. Per ulteriori informazioni, vedere [Gestione temporanea dei contenuti](content-staging.md).
+
+>[!NOTE]
+>
+>Se una campagna è collegata a più pagine, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](content-staging-dashboard.md).
 
 >[!NOTE]
 >

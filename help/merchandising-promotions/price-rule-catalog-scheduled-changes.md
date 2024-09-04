@@ -3,9 +3,9 @@ title: Modifiche pianificate per le regole prezzo catalogo
 description: Scopri come applicare le regole del prezzo di catalogo alla pianificazione come parte di una campagna e raggruppate con altre modifiche al contenuto.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ Se nella stessa campagna sono in esecuzione più regole di prezzo, l&#39;imposta
 1. Nella casella **[!UICONTROL Scheduled Changes]** nella parte superiore della pagina, fare clic su **[!UICONTROL View/Edit]**.
 
 1. Apporta le modifiche necessarie all’aggiornamento pianificato.
+
+   >[!NOTE]
+   >
+   >Se una campagna è collegata a più di una regola del prezzo di catalogo, è possibile modificarla solo dal [dashboard di gestione temporanea del contenuto](../content-design/content-staging-dashboard.md).
 
 1. Fare clic su **[!UICONTROL Save]**.
 

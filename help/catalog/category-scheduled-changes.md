@@ -3,9 +3,9 @@ title: Modifiche pianificate per le categorie
 description: Scopri come pianificare le modifiche di categoria per supportare campagne di marketing e promozioni su store.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,7 @@ Gli aggiornamenti per categoria possono essere applicati secondo programma e rag
 1. Apporta le modifiche necessarie all’aggiornamento pianificato.
 
 1. Al termine, fare clic su **[!UICONTROL Save]**.
+
+   >[!NOTE]
+   >
+   >Se una campagna è collegata a più categorie, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](../content-design/content-staging-dashboard.md).

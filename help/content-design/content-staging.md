@@ -3,9 +3,9 @@ title: Staging dei contenuti
 description: La gestione temporanea dei contenuti offre al team aziendale la possibilità di creare, visualizzare in anteprima e pianificare facilmente un’ampia gamma di aggiornamenti dei contenuti per il tuo archivio direttamente dall’amministratore.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Il termine _campagna_ fa riferimento al record di una modifica pianificata o a u
 
 Quando pianifichi una modifica del contenuto per un periodo di tempo specifico, alla scadenza della modifica pianificata il contenuto ritorna alla versione precedente. È possibile creare più versioni dello stesso contenuto della linea di base da utilizzare per aggiornamenti futuri. Puoi anche tornare indietro nella timeline per visualizzare le versioni precedenti del contenuto. Per salvare una bozza di versione, è sufficiente assegnare una data sulla timeline che sia così lontana nel futuro da non entrare mai in produzione.
 
->[!NOTE]
->
->I campi relativi alla data di inizio e alla data di fine sono stati rimossi in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente nella regola prezzo carrello, nella regola prezzo catalogo, nella pagina prodotto, categoria e CMS. Devi creare un aggiornamento pianificato per queste attivazioni.
-
 ## Oggetti e campagne di staging del contenuto
+
+I campi relativi alla data di inizio e alla data di fine sono stati rimossi da Adobe Commerce e non possono essere modificati direttamente nelle pagine Prezzo carrello, Prezzo catalogo, Prodotto, Categoria e CMS. Devi creare un aggiornamento pianificato per queste attivazioni.
+
+Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato alla volta. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere un aggiornamento pianificato diverso per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
 
 Quando viene creato un nuovo aggiornamento pianificato per uno dei seguenti oggetti, viene creata una campagna corrispondente come segnaposto e la casella _[!UICONTROL Scheduled Changes]_viene visualizzata nella parte superiore della pagina. La campagna segnaposto ha una data di inizio, ma non una data di fine. Puoi pianificare gli aggiornamenti ai contenuti come parte di una campagna, quindi visualizzare in anteprima e condividere le modifiche per data, ora o visualizzazione archivio. Dopo aver creato una nuova campagna per un oggetto, puoi assegnarla come aggiornamento pianificato per altri oggetti.
 
@@ -45,17 +45,17 @@ Quando viene creato un nuovo aggiornamento pianificato per uno dei seguenti ogge
 
    Crea la prima campagna con le date di inizio e fine necessarie. Per rendere la campagna aperta, lascia vuota la data di fine. Al termine della prima campagna, viene ripristinato il contenuto della linea di base originale.
 
-   >[!NOTE]
-   >
-   >La data di inizio e la data di fine della campagna devono essere definite utilizzando il fuso orario di amministrazione **_predefinito_**, convertito dal fuso orario locale di ciascun sito Web. Prendi in considerazione un esempio in cui hai più siti web in fusi orari diversi, ma desideri avviare una campagna basata su un fuso orario negli Stati Uniti. In questo caso, è necessario pianificare un aggiornamento separato per ogni fuso orario locale e impostare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** in convertiti da ogni fuso orario del sito Web locale al fuso orario predefinito dell&#39;amministratore.
+   La data di inizio e la data di fine della campagna devono essere definite utilizzando il fuso orario di amministrazione **_predefinito_**, convertito dal fuso orario locale di ciascun sito Web. Prendi in considerazione un esempio in cui hai più siti web in fusi orari diversi, ma desideri avviare una campagna basata su un fuso orario negli Stati Uniti. In questo caso, è necessario pianificare un aggiornamento separato per ogni fuso orario locale e impostare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** in convertiti da ogni fuso orario del sito Web locale al fuso orario predefinito dell&#39;amministratore.
 
 1. **Aggiungi una seconda campagna**
 
    Crea la seconda campagna, con le date di inizio e fine necessarie. La seconda campagna può essere assegnata a un periodo di tempo completamente diverso. Quando crei più campagne per la stessa risorsa, le campagne non possono sovrapporsi. Puoi creare tutte le campagne necessarie.
 
+   È possibile assegnare più risorse a una campagna esistente non ancora avviata. Ad esempio, è possibile aggiornare due diversi prezzi del prodotto nell’ambito della stessa campagna con una data di inizio futura.
+
    >[!NOTE]
    >
-   >Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato alla volta. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere un aggiornamento pianificato diverso per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
+   >Se una campagna è collegata a più entità, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](content-staging-dashboard.md).
 
 1. **Ripristina il contenuto della linea di base**
 
