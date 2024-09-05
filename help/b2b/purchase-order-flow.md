@@ -3,9 +3,9 @@ title: Ordini di acquisto per società
 description: Scopri i flussi di lavoro degli ordini di acquisto che consentono alle aziende di tenere traccia e controllare la spesa.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
+source-git-commit: c1d8bdcd2d09567846ef6819660c57468062ab01
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Il flusso di lavoro degli ordini di acquisto per un’azienda può variare in al
   >Per impostazione predefinita, un messaggio `Purchase order has been submitted for approval` viene sempre visualizzato agli utenti aziendali, anche quando non sono impostate regole di approvazione. Quando non è richiesto alcun processo di approvazione, gli utenti aziendali ricevono automaticamente un’e-mail che li informa che l’ordine è stato creato e approvato.
 
 - Se le regole di approvazione sono definite dall’amministratore della società, gli utenti passano attraverso il processo di approvazione.
+- Se a un ordine di acquisto si applicano più regole di approvazione, tutti gli approvatori univoci richiesti devono approvarlo.
 - I dettagli del pagamento offline vengono immessi durante la creazione dell&#39;ordine fornitore.
 - I dettagli del pagamento online vengono immessi dopo l&#39;approvazione dell&#39;ordine fornitore.
 
@@ -57,7 +58,7 @@ Le regole di approvazione vengono utilizzate per controllare la spesa in base al
 - Per ordini superiori a 1000 dollari è necessaria l&#39;approvazione del tuo responsabile e dell&#39;amministratore della società.
 - Qualsiasi ordine con più di 30 SKU univoci deve essere approvato dall’amministratore della società.
 
-Con queste regole in vigore per un&#39;azienda, un utente aziendale può completare l&#39;ordine immediatamente quando l&#39;ordine è inferiore a 100 $. Per conoscere la definizione della regola di approvazione, vedi [Regole di approvazione](account-dashboard-approval-rules.md)
+Con queste regole in vigore per un&#39;azienda, un utente aziendale può completare l&#39;ordine immediatamente quando l&#39;ordine è inferiore a 100 $. Per informazioni sulla definizione della regola di approvazione, vedere [Regole di approvazione](account-dashboard-approval-rules.md).
 
 ### Tipi di utenti dello store
 
