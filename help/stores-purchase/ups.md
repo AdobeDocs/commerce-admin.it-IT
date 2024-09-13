@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Scopri come impostare UPS come corriere per il tuo negozio.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Per offrire questo metodo di spedizione ai tuoi clienti, devi prima aprire un ac
 
    - Impostare **[!UICONTROL Mode]** su `Live` per inviare dati al sistema di spedizione UPS tramite una connessione protetta. La modalità di sviluppo non invia dati tramite una connessione protetta.
 
-   - Verificare **[!UICONTROL Gateway URL]** necessario per inviare le richieste. Utilizza un URL sandbox per la modalità di test e un URL di produzione per le richieste live.
+   - Verificare **[!UICONTROL Gateway URL]** necessario per inviare le richieste. Utilizza un URL sandbox (`https://wwwcie.ups.com/`) per la modalità di test e un URL di produzione per le richieste live (`https://onlinetools.ups.com`). Assicurati di utilizzare i rispettivi endpoint per ogni richiesta con l’host specificato.
 
-   - Verificare **[!UICONTROL Tracking URL]** necessario per ottenere le informazioni di tracciamento. Utilizza un URL sandbox per la modalità di test e un URL di produzione per le richieste live.
+   - Verificare **[!UICONTROL Tracking URL]** necessario per ottenere le informazioni di tracciamento. Utilizza un URL sandbox (`https://wwwcie.ups.com/`) per la modalità di test e un URL di produzione per le richieste live (`https://onlinetools.ups.com`). Assicurati di utilizzare i rispettivi endpoint per ogni richiesta con l’host specificato.
 
    - Impostare **[!UICONTROL Origin of the Shipment]** sull&#39;area di origine della spedizione.
 
@@ -50,8 +50,8 @@ Per offrire questo metodo di spedizione ai tuoi clienti, devi prima aprire un ac
 
    - Imposta **[!UICONTROL Live Account]** su uno dei seguenti:
 
-      - `Yes` - Esegue UPS in modalità di produzione e offre UPS come metodo di spedizione ai tuoi clienti.
-      - `No` - Esegue UPS in modalità di test.
+      - `Yes` - Esegue UPS in modalità di produzione e offre UPS come metodo di spedizione ai tuoi clienti. Assicurati di utilizzare gli endpoint corretti in URL gateway e URL di tracciamento.
+      - `No` - Esegue UPS in modalità di test. Assicurati di utilizzare gli endpoint corretti in URL gateway e URL di tracciamento.
 
    >[!NOTE]
    >

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] dell'amministratore di Commerce.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 8e80e6f33ede2f49f320394905b9d1a964cf8331
 workflow-type: tm+mt
-source-wordcount: '3773'
+source-wordcount: '3792'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Live Account] | Visualizzazione store | Specifica che l&#39;account United Parcel Service è attivo. Opzioni: `Yes` / `No` |
 | [!UICONTROL Title] | Visualizzazione store | Nome utilizzato per questo metodo di spedizione durante il pagamento. |
 | _[!UICONTROL UPS REST Account Settings]_ |  |  |
-| [!UICONTROL Gateway URL] | Sito Web | Per il servizio REST UPS, visualizza i seguenti URL necessari per la trasmissione dei dati JSON: URL gateway, URL di tracciamento, URL di spedizione |
+| [!UICONTROL Gateway URL] | Sito Web | Per il servizio REST UPS, visualizza i seguenti URL necessari per la trasmissione dei dati JSON: URL gateway, URL di tracciamento, URL di spedizione. Utilizza endpoint sandbox o di produzione in base all’impostazione dell’account live. |
 | [!UICONTROL Mode] | Sito Web | Determina la modalità di trasmissione utilizzata per i dati inviati al sistema UPS. Opzioni: <br/>**`Development`**- UPS non verifica che i dati ricevuti dal server Commerce vengano inviati tramite SSL.<br/>**`Live`** - UPS verifica che i dati ricevuti dal server Commerce vengano inviati tramite un livello di socket sicuro (SSL). |
 | ID utente | Sito Web | ID client dell&#39;account di spedizione UPS. |
 | [!UICONTROL Origin of the Shipment] | Sito Web | (Solo REST UPS) Il paese o l&#39;area geografica di origine della spedizione del prodotto. |
@@ -140,7 +140,7 @@ ht-degree: 0%
 | [!UICONTROL Shipper Number] | Sito Web | (Solo UPS REST) Il numero di spedizione UPS di sei caratteri è necessario per il riferimento per utilizzare le tariffe negoziate. |
 | [!UICONTROL Container] | Sito Web | Imposta il tipo di contenitore utilizzato per imballare le spedizioni. Opzioni: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | Sito Web | Imposta l&#39;unità di misura predefinita per il peso del prodotto nel punto vendita. Per ulteriori informazioni, vedere [Peso dimensionale](../../stores-purchase/carriers.md#dimensional-weight). |
-| [!UICONTROL Tracking URL] | Sito Web | (Solo REST UPS) URL del gruppo di continuità utilizzato per tenere traccia dei pacchetti. |
+| [!UICONTROL Tracking URL] | Sito Web | (Solo REST UPS) URL del gruppo di continuità utilizzato per tenere traccia dei pacchetti. Utilizza `https://onlinetools.ups.com/api/track` per la produzione OPPURE `https://wwwcie.ups.com/api/track` per la configurazione della sandbox. |
 | [!UICONTROL Destination Type] | Sito Web | Imposta il tipo di destinazione di spedizione predefinito. Opzioni: `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | Sito Web | Imposta il peso massimo che un pacchetto può avere come specificato da UPS. Se i prodotti ordinati superano il peso massimo del pacchetto, questa opzione di spedizione non è disponibile. In base a [UPS.com](https://www.ups.com/us/en/global.page), i pacchetti non possono superare i 70 kg (150 lb). Per verificare il peso massimo, rivolgiti al tuo corriere. |
 | [!UICONTROL Pickup Method] | Sito Web | Imposta il metodo di prelievo del gruppo di continuità. Opzioni: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
