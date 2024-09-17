@@ -3,9 +3,9 @@ title: Creare una regola di prezzo del carrello
 description: Scopri come creare una regola di prezzo del carrello basata sugli attributi del carrello o del prodotto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Completa i passaggi seguenti per aggiungere una regola, descrivere le condizioni
 
    >[!NOTE]
    >
-   >L’impostazione di priorità è importante quando due regole del carrello/codici coupon sono validi per lo stesso prodotto contemporaneamente. La regola con l&#39;impostazione di priorità più alta (`1` è il valore più alto) controlla l&#39;azione del carrello. Consulta _Ignorare le regole di prezzo successive_ nel passaggio _Definire le azioni_.
+   >L&#39;impostazione _[!UICONTROL Priority]_è importante quando due regole del carrello o codici coupon sono validi per lo stesso prodotto contemporaneamente. La regola con l&#39;impostazione [!UICONTROL Priority] più alta che controlla l&#39;azione del carrello.  Le priorità dal più alto al più basso sono `0,1,2,3...`. Consulta_ Ignorare le regole di prezzo successive _nel passaggio_[ Definire le azioni ](#step-3-define-the-actions)_.
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ Guarda questo video per scoprire come creare le regole di prezzo del carrello:
 | [!UICONTROL Coupon] | (Obbligatorio) Indica se alla regola è associato un buono sconto. Opzioni: <br/>**[!UICONTROL No Coupon]**- Nessun coupon associato alla regola.<br/>**[!UICONTROL Specific Coupon]** - Un coupon specifico è associato alla regola. <br/>**[!UICONTROL Coupon Code]**- Quando richiesto, immettere il codice coupon che il cliente deve inserire per usufruire della promozione.<br/>**[!UICONTROL Use Auto Generation]** - Selezionare la casella di controllo per generare automaticamente più codici coupon da utilizzare con la promozione. <br/>**[!UICONTROL Auto]**- Visualizza la sezione _[!UICONTROL Manage Coupon Codes]_per definire il formato dei codici coupon da generare. |
 | [!UICONTROL Uses per Coupon] | Determina quante volte è possibile utilizzare il codice coupon. Se non è previsto alcun limite, lasciare vuoto il campo. |
 | [!UICONTROL Uses per Customer] | Determina quante volte la regola del prezzo del carrello può essere utilizzata dallo stesso cliente registrato che appartiene a qualsiasi gruppo di clienti selezionato. Non si applica agli acquirenti ospiti che sono membri del gruppo di clienti NOT LOGGED IN o ai clienti che effettuano acquisti senza effettuare l’accesso ai propri account. Per nessun limite, lascia vuoto il campo. |
-| [!UICONTROL Priority] | Numero che indica la priorità di questa regola rispetto ad altre. La priorità più alta è il numero `1`. |
+| [!UICONTROL Priority] | Numero che indica la priorità di questa regola rispetto ad altre. Le priorità dal più alto al più basso sono `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Determina se la promozione è inclusa nel feed RSS pubblico del negozio. Opzioni:  `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) La prima data in cui è possibile utilizzare il coupon. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Ultima data in cui è possibile utilizzare il coupon. |

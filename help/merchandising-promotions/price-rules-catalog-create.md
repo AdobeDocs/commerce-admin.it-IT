@@ -3,9 +3,9 @@ title: Creare una regola del prezzo di catalogo
 description: Scopri come creare una regola del prezzo di catalogo che applica uno sconto a prodotti specifici ogni volta che viene soddisfatta una serie di condizioni.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volt
 
    >[!NOTE]
    >
-   >L&#39;impostazione _[!UICONTROL Priority]_è importante quando lo stesso prodotto catalogo soddisfa le condizioni impostate per più di una regola di prezzo. La regola con l’impostazione di priorità più elevata (dove 1 indica la priorità più elevata) diventa attiva per il prodotto.
+   >L&#39;impostazione _[!UICONTROL Priority]_è importante quando lo stesso prodotto catalogo soddisfa le condizioni impostate per più di una regola di prezzo. La regola con l’impostazione di priorità più alta (le priorità dal più alto al più basso sono 0,1,2,3...) diventa attiva per il prodotto.
 
 ## Passaggio 2: definire le condizioni
 
@@ -236,7 +236,7 @@ Guarda questo video per scoprire come creare le regole del prezzo di catalogo:
 | [!UICONTROL Description] | Una descrizione della regola deve includere lo scopo della regola e spiegare come viene utilizzata. |
 | [!UICONTROL Websites] | (Obbligatorio) Identifica i siti web in cui è possibile utilizzare la regola. |
 | [!UICONTROL Customer Groups] | (Obbligatorio) Identifica i gruppi di clienti a cui si applica la regola. |
-| [!UICONTROL Priority] | Numero che indica la priorità di questa regola rispetto ad altre. La priorità più alta è il numero 1. |
+| [!UICONTROL Priority] | Numero che indica la priorità di questa regola rispetto ad altre. Le priorità dal più alto al più basso sono `0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Determina se la regola è attiva nell&#39;archivio. Opzioni: `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Specifica il primo giorno di validità della regola prezzo. Se non specificata, la regola del prezzo entra in vigore al momento del salvataggio. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Specifica l&#39;ultimo giorno di validità della regola prezzo. Se non specificata, la regola del prezzo continua a tempo indefinito. |
