@@ -3,9 +3,9 @@ title: Ottenere la licenza di un’immagine Adobe Stock
 description: Per assicurarti di avere accesso legale e per eliminare la filigrana di Adobe Stock, acquisisci licenza per le immagini Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: ee619d6a46948a714789dfbc275735df8669cdcb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ Le risorse Adobe Stock che desideri utilizzare per la produzione Adobe Commerce 
 
 Il nuovo [[!DNL Media Gallery]](media-gallery.md) offre un&#39;integrazione diretta con Adobe Stock, semplificando la concessione di licenze per le immagini direttamente dalla pagina della galleria.
 
-## Prerequisiti
+>[!BEGINSHADEBOX]
 
-Questa funzionalità richiede il modulo e la configurazione dell&#39;[Integrazione Adobe Stock][adobe-stock-integration]. Per concedere in licenza [le immagini Adobe Stock][adobe-stock] è necessario un piano Adobe Stock a pagamento e un account Adobe [][adobe-signin].
+**Prerequisiti**
+
+La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è installata e configurata l&#39;[integrazione Adobe Stock][adobe-stock-integration]. Per concedere in licenza [le immagini Adobe Stock][adobe-stock] è necessario un piano Adobe Stock a pagamento e un account Adobe [][adobe-signin].
+
+>[!ENDSHADEBOX]
 
 ## Ottieni licenza per un&#39;immagine dal nuovo [!DNL Media Gallery]
 
