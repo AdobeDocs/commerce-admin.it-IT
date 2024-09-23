@@ -2,9 +2,10 @@
 title: Configurare Experience Manager Assets
 description: Aggiungi i metadati della risorsa necessari per consentire all’integrazione di AEM Assets per Commerce di sincronizzare le risorse tra i progetti Adobe Commerce e Experience Manager Assets.
 feature: CMS, Media, Integration
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
+source-git-commit: 8a150c79c2e15ce5bd2cb2037f94c94f90b7a1df
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -13,27 +14,59 @@ ht-degree: 0%
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Per gestire le risorse multimediali del tuo negozio tramite l’integrazione AEM Assets per Commerce, il progetto AEM Assets richiede l’aggiunta di alcuni metadati per garantire che tu possa facilmente cercare e gestire le risorse Commerce. Questi metadati facilitano anche la sincronizzazione delle risorse tra Adobe Commerce e Experience Manager Assets. Dopo aver definito i campi di metadati, la mappatura iniziale di questi campi viene eseguita automaticamente la prima volta che una risorsa Commerce viene condivisa con Experience Manager Assets.
+Prepara l’ambiente AEM as a Cloud Service per la gestione delle risorse Commerce aggiornando la configurazione dell’ambiente e configurando i metadati Assets per identificare e gestire le risorse Commerce.
 
-Per l’integrazione, puoi configurare due tipi di metadati:
+L&#39;integrazione richiede l&#39;aggiunta di uno spazio dei nomi `Commerce` personalizzato e metadati [di profilo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles) e [di schema](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas) aggiuntivi.
 
-- **[Profilo metadati](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)** ti consente di applicare metadati predefiniti alle risorse all&#39;interno di una cartella. Tutte le risorse nella cartella ereditano i metadati predefiniti configurati nel profilo.
+L’Adobe fornisce un modello di progetto AEM per aggiungere lo spazio dei nomi e le risorse dello schema dei metadati alla configurazione dell’ambiente AEM Assets as a Cloud Service. Il modello aggiunge:
 
-- **[Lo schema metadati](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)** definisce il layout della pagina delle proprietà e il set di campi che possono essere utilizzati come proprietà dei metadati in una risorsa AEM.
+- Uno [spazio dei nomi personalizzato](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json), `Commerce` per identificare le proprietà relative a Commerce.
 
-## Configurare i metadati
+- Tipo di metadati personalizzato `commerce:isCommerce` con etichetta `Does it exist in Commerce?` per assegnare tag alle risorse Commerce associate a un progetto Adobe Commerce.
 
-Per l’onboarding iniziale, aggiungi i seguenti metadati Commerce sia a un profilo di metadati di AEM Assets che a uno schema di metadati.
+- Un tipo di metadati personalizzato `commerce:productmetadata` e un componente dell&#39;interfaccia utente corrispondente per aggiungere una proprietà *[!UICONTROL Product Data]*. I dati prodotto includono le proprietà dei metadati per associare una risorsa Commerce agli SKU del prodotto e per specificare gli attributi immagine `role` e `position` della risorsa.
 
-| Tipo di campo | Etichetta | Proprietà | Valore predefinito |
-|------ | ------- | ---------- | ------------- |
-| Testo | **Esiste in Adobe Commerce?** | `./jcr:content/metadata/commerce:isCommerce` | sì |
-| Testo con più valori | **SKU** | `./jcr:content/metadata/commerce:skus` | nessuno |
-| Testo con più valori | **Posizioni** | `./jcr:content/metadata/commerce:positions` | nessuno |
-| Testo con più valori | **Ruoli** | `./jcr:content/metadata/commerce:roles` | nessuno |
+  ![Controllo interfaccia utente dati prodotto personalizzato](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
+- Modulo schema metadati con scheda Commerce che include i campi `Does it exist in Adobe Commerce?` e `Product Data` per l&#39;assegnazione di tag alle risorse Commerce. Il modulo fornisce inoltre opzioni per mostrare o nascondere i campi `roles` e `order` (posizione) dall&#39;interfaccia utente di AEM Assets.
 
-### Aggiungere campi Commerce a un profilo di metadati
+  ![Scheda Commerce per modulo schema metadati AEM Assets](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
+
+- [Esempio di risorsa con tag e approvata da Commerce](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` per supportare la sincronizzazione iniziale delle risorse. Solo le risorse Commerce approvate possono essere sincronizzate da AEM Assets ad Adobe Commerce.
+
+Per ulteriori informazioni sul progetto AEM Commerce-Assets, vedi il [File Leggimi](https://github.com/ankumalh/assets-commerce).
+
+## Personalizzare la configurazione dell’ambiente AEM Assets
+
+>[!BEGINSHADEBOX]
+
+**Prerequisiti**
+
+- [Accesso al programma e agli ambienti AEM Assets Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) con i ruoli Responsabile del programma e Responsabile della distribuzione.
+
+- [ambiente di sviluppo AEM locale](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) e familiarità con il processo di sviluppo locale AEM.
+
+- Comprendere la struttura del progetto [AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) e come distribuire pacchetti di contenuti personalizzati con Cloud Manager.
+
+>[!ENDSHADEBOX]
+
+### Distribuire il progetto AEM Commerce-Assets nell’ambiente di authoring AEM Assets
+
+1. Se necessario, crea ambienti di produzione e staging per il progetto AEM Assets da Cloud Manager.
+
+1. Se necessario, configura una pipeline di distribuzione.
+
+1. Da GitHub, scarica il codice standard dal [progetto AEM Commerce-Assets](https://github.com/ankumalh/assets-commerce).
+
+1. Dall&#39;[ambiente di sviluppo AEM locale](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), installa il codice personalizzato nella configurazione dell&#39;ambiente AEM Assets come pacchetto Maven oppure copiandolo manualmente nella configurazione del progetto esistente.
+
+1. Apporta le modifiche e invia il ramo di sviluppo locale all’archivio Git di Cloud Manager.
+
+1. Da Cloud Manager, [distribuisci il codice per aggiornare l&#39;ambiente AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
+
+## Configurare un profilo di metadati
+
+Imposta i valori predefiniti per i metadati delle risorse Commerce creando un profilo di metadati. Una volta configurato, applica questo profilo alle cartelle di risorse AEM per utilizzare automaticamente queste impostazioni predefinite. Questa configurazione opzionale semplifica l’elaborazione delle risorse riducendo i passaggi manuali.
 
 1. Dall’area di lavoro di Adobe Experience Manager, vai all’area di lavoro di amministrazione del contenuto di Author per AEM Assets facendo clic sull’icona Adobe Experience Manager.
 
@@ -55,7 +88,7 @@ Per l’onboarding iniziale, aggiungi i seguenti metadati Commerce sia a un prof
 
    1. Fare clic su **[!UICONTROL +]** nella sezione scheda e quindi specificare **[!UICONTROL Tab Name]**, `Commerce`.
 
-1. Aggiungi i [campi metadati](#configure-metadata) al modulo.
+1. Aggiungere il campo `Does it exist in Commerce?` al modulo e impostare il valore predefinito su `yes`.
 
    ![L&#39;amministratore dell&#39;autore AEM aggiunge campi di metadati al profilo](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
@@ -73,45 +106,14 @@ Per l’onboarding iniziale, aggiungi i seguenti metadati Commerce sia a un prof
 
    1. Fare clic su **[!UICONTROL Apply]**.
 
-### Aggiungere campi Commerce a un modulo schema metadati
-
-1. Dal pannello di amministrazione dei contenuti di AEM Author per Assets, apri **[!UICONTROL Metadata Schemas]** ([!UICONTROL Manage metadata schema forms]).
-
-   ![Schema metadati aggiornamento amministratore autore AEM](./assets/aem-assets-manage-metadata-schema.png){width="600" zoomable="yes"}
-
-1. **[!UICONTROL Create]** uno schema metadati per Commerce.
-
-   ![Schema metadati aggiornamento amministratore autore AEM](./assets/aem-assets-create-metadata-schema.png){width="600" zoomable="yes"}
-
-1. In [!UICONTROL Metadata Schema Form], creare i campi `Does Commerce exist?` e `Commerce mappings` e mappare le proprietà.
-
-1. Fare clic su **[!UICONTROL Save]**.
+>[!TIP]
+>
+>È possibile sincronizzare automaticamente le risorse Commerce caricate nell&#39;ambiente AEM Assets aggiornando il profilo metadati per impostare il valore predefinito per il campo _[!UICONTROL Review Status]_su `Approved`. Il tipo di proprietà per il campo `Review Status` è `./jcr:content/metadata/dam:status`.
 
 
-## Publish una risorsa
+## Passaggi successivi
 
-Dopo aver configurato i metadati AEM e il profilo dello schema per le risorse Commerce, crea la prima risorsa Commerce per mappare i campi dei metadati Commerce.
+Dopo aver aggiornato l’ambiente AEM, configura Adobe Commerce:
 
-1. Da Experience Manager, vai a [!UICONTROL Assets > Files] e seleziona la cartella **Commerce**.
-
-1. Caricare un&#39;immagine per un progetto Commerce trascinando il file nella cartella o facendo clic su **[!UICONTROL Add Assets]**.
-
-1. Verificare la configurazione dei metadati: **isCommerce** è impostato su `true` e che la proprietà `commerce:skus` sia impostata sullo SKU per il prodotto Commerce associato all&#39;immagine.
-
-1. Approva la risorsa.
-
-
-## Aggiungere una risorsa alla cartella Commerce
-
-Crea almeno una risorsa nella cartella AEM Assets Commerce a cui sono assegnati gli attributi di metadati Commerce.
-
-Questa risorsa è necessaria per impostare la sincronizzazione tra l’istanza di Commerce e AEM Assets.
-
-## Mappare i metadati per le risorse
-
-I metadati vengono mappati quando una risorsa Commerce viene pubblicata per la prima volta.  da Commerce per la prima volta. Le risorse multimediali i cui campi incorporati o personalizzati vengono mappati automaticamente sui campi specificati la prima volta che una risorsa viene inviata a Experience Manager Assets.
-
-Prima di iniziare il mapping delle risorse, completa le seguenti attività:
-
-- [Installare e configurare l’integrazione di AEM Assets per Commerce](aem-assets-configure-commerce.md)
-- [Abilita la sincronizzazione delle risorse per trasferire le risorse tra l’ambiente del progetto Adobe Commerce e l’ambiente del progetto AEM Assets](aem-assets-setup-synchronization.md)
+1. [Installare e configurare l’integrazione di AEM Assets per Commerce](aem-assets-configure-commerce.md)
+2. [Abilita la sincronizzazione delle risorse per trasferire le risorse tra l’ambiente del progetto Adobe Commerce e l’ambiente del progetto AEM Assets](aem-assets-setup-synchronization.md)
