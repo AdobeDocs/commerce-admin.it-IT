@@ -3,9 +3,9 @@ title: Aggiornamenti pianificati dei prodotti
 description: Scopri come pianificare le modifiche agli elenchi dei prodotti per supportare campagne e programmi promozionali.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 2cdf3452f1648dc1ed607d6dfb5ade4be5ed5ce9
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,20 @@ ht-degree: 0%
 
 Gli aggiornamenti dei prodotti possono essere applicati secondo pianificazione e raggruppati con altre modifiche al contenuto. Puoi utilizzare [staging contenuto](../content-design/content-staging.md) per creare una campagna basata su modifiche pianificate al prodotto o applicare le modifiche a una campagna esistente.
 
+Quando configuri le pianificazioni per gli aggiornamenti dei prodotti e le campagne di modifica, tieni presente quanto segue:
+
+- Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato alla volta. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere diversi aggiornamenti pianificati per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
+
+- Un&#39;anteprima di gestione temporanea per un aggiornamento pianificato inizia sempre dalla visualizzazione **predefinita** dell&#39;archivio, che emula l&#39;esperienza del cliente di navigare attraverso la campagna di aggiornamento di gestione temporanea.
+
+- Se una campagna è collegata a più di un prodotto, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](../content-design/content-staging-dashboard.md).
+
+- Se inizialmente viene creata una campagna attiva senza una data di fine, non è possibile modificarla in un secondo momento in modo da includere una data di fine. In tal caso, è necessario creare una campagna duplicata e immettere la data di fine necessaria.
+
+
 >[!NOTE]
 >
 >I campi [!UICONTROL Set Product as New From] e [!UICONTROL To] e la scheda [!UICONTROL Schedule Design Update] sono stati rimossi da ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente sul prodotto. Devi creare un aggiornamento pianificato per queste attivazioni.
-
->[!NOTE]
->
->Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato alla volta. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere diversi aggiornamenti pianificati per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
-
->[!NOTE]
->
->Un&#39;anteprima di gestione temporanea per un aggiornamento pianificato inizia sempre dalla visualizzazione **predefinita** dell&#39;archivio, che emula l&#39;esperienza del cliente di navigare attraverso la campagna di aggiornamento di gestione temporanea.
 
 ## Crea un aggiornamento pianificato
 
@@ -86,10 +89,6 @@ La modifica pianificata viene visualizzata nella parte superiore della pagina de
 
 1. Apporta le modifiche necessarie all’aggiornamento pianificato.
 
->[!NOTE]
->
->Se una campagna è collegata a più di un prodotto, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](../content-design/content-staging-dashboard.md).
-
 1. Fare clic su **[!UICONTROL Save]**.
 
 ## Rimuovi la modifica pianificata
@@ -102,9 +101,7 @@ La modifica pianificata viene visualizzata nella parte superiore della pagina de
 
 1. Nella finestra di dialogo, seleziona **[!UICONTROL Delete the Update]** e fai clic su **[!UICONTROL Done]**.
 
-   >[!NOTE]
-   >
-   >Il prodotto viene rimosso dall’aggiornamento e tutte le modifiche pianificate vengono perse.
+   Il prodotto viene rimosso dall’aggiornamento e tutte le modifiche pianificate vengono perse.
 
 ## Pianificare un aggiornamento della progettazione
 

@@ -3,9 +3,9 @@ title: Modifiche pianificate per le categorie
 description: Scopri come pianificare le modifiche di categoria per supportare campagne di marketing e promozioni su store.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 714904d6d81bde6374a5ce644262de252c70a391
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 Gli aggiornamenti per categoria possono essere applicati secondo programma e raggruppati con altre modifiche al contenuto. Puoi creare una campagna in base alle modifiche pianificate per la categoria o applicare le modifiche a una campagna esistente. Per ulteriori informazioni, consulta [Gestione temporanea dei contenuti](../content-design/content-staging.md).
 
->[!NOTE]
->
->La scheda [!UICONTROL Schedule Design Update] è stata rimossa in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non può essere modificata direttamente nella categoria. Devi creare un aggiornamento pianificato per queste attivazioni.
+Quando si pianificano modifiche per le categorie, tenere presente quanto segue:
+
+- Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato alla volta. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere più aggiornamenti pianificati per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
+
+- Se una campagna è collegata a più categorie, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](../content-design/content-staging-dashboard.md).
+
+- Se una campagna è collegata a più categorie, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](../content-design/content-staging-dashboard.md).
 
 >[!NOTE]
 >
->Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato alla volta. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere più aggiornamenti pianificati per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
+>La scheda [!UICONTROL Schedule Design Update] è stata rimossa in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non può essere modificata direttamente nella categoria. Devi creare un aggiornamento pianificato per queste attivazioni.
 
 ## Pianificare un aggiornamento per una categoria
 
@@ -69,7 +73,3 @@ Gli aggiornamenti per categoria possono essere applicati secondo programma e rag
 1. Apporta le modifiche necessarie all’aggiornamento pianificato.
 
 1. Al termine, fare clic su **[!UICONTROL Save]**.
-
-   >[!NOTE]
-   >
-   >Se una campagna è collegata a più categorie, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](../content-design/content-staging-dashboard.md).

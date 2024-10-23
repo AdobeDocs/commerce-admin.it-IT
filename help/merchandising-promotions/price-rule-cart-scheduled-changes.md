@@ -3,9 +3,9 @@ title: Modifiche pianificate per le regole prezzo carrello
 description: Scopri come applicare le regole di prezzo del carrello alla pianificazione come parte di una campagna e raggruppate con altre modifiche al contenuto.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ Le regole di prezzo del carrello possono essere applicate secondo programma come
 >Tutti gli aggiornamenti pianificati vengono applicati consecutivamente. Ciò significa che qualsiasi entità può avere un solo aggiornamento pianificato in un determinato momento. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere diversi aggiornamenti pianificati per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
 
 Se nella stessa campagna sono in esecuzione più regole di prezzo, l&#39;impostazione _[!UICONTROL Priority]_della regola di prezzo determina quale regola ha la precedenza. Per ulteriori informazioni, consulta [Gestione temporanea dei contenuti](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>Se inizialmente viene creata una campagna attiva senza una data di fine, non è possibile modificarla in un secondo momento in modo da includere una data di fine. In tal caso, è necessario creare una campagna duplicata e immettere la data di fine necessaria.
 
 >[!NOTE]
 >

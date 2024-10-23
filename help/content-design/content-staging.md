@@ -3,9 +3,9 @@ title: Staging dei contenuti
 description: La gestione temporanea dei contenuti offre al team aziendale la possibilità di creare, visualizzare in anteprima e pianificare facilmente un’ampia gamma di aggiornamenti dei contenuti per il tuo archivio direttamente dall’amministratore.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,10 @@ Quando viene creato un nuovo aggiornamento pianificato per uno dei seguenti ogge
 1. **Ripristina il contenuto della linea di base**
 
    Se tutte le campagne hanno date di fine, il contenuto previsto viene ripristinato ogni volta che tutte le campagne attive terminano.
+
+   >[!NOTE]
+   >
+   >Se inizialmente viene creata una campagna attiva senza una data di fine, non è possibile modificarla in un secondo momento in modo da includere una data di fine. In tal caso, è necessario creare una campagna duplicata e immettere la data di fine necessaria.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Modifiche pianificate per le regole prezzo catalogo
 description: Scopri come applicare le regole del prezzo di catalogo alla pianificazione come parte di una campagna e raggruppate con altre modifiche al contenuto.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Se nella stessa campagna sono in esecuzione più regole di prezzo, l&#39;imposta
 
 >[!IMPORTANT]
 >
->Se una campagna che include una regola di prezzo viene creata inizialmente senza una data di fine, non può essere modificata in un secondo momento in modo da includere una data di fine. È consigliabile aggiungere una data di fine al momento della creazione della campagna oppure creare una versione duplicata della campagna esistente e aggiungere la data di fine al duplicato in base alle esigenze.
+>Se inizialmente viene creata una campagna attiva senza una data di fine, non è possibile modificarla in un secondo momento in modo da includere una data di fine. In tal caso, è necessario creare una campagna duplicata e immettere la data di fine necessaria.
 
 ![Regola prezzo catalogo - modifiche pianificate](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 

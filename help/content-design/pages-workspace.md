@@ -3,9 +3,9 @@ title: Controlli dell’area di lavoro pagina
 description: Scopri gli strumenti di Workspace utilizzati per individuare e aggiornare le pagine di contenuto.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -200,22 +200,21 @@ Fare clic sul controllo _Visualizza_ (![Icona occhio](../assets/icon-view-eye.pn
 
 Le modifiche apportate alla pagina possono essere applicate in base alla pianificazione e raggruppate con altre modifiche apportate al contenuto. Puoi creare una campagna in base alle modifiche pianificate per una pagina o applicare le modifiche a una campagna esistente. Per ulteriori informazioni, vedere [Gestione temporanea dei contenuti](content-staging.md).
 
->[!NOTE]
->
->Se una campagna è collegata a più pagine, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](content-staging-dashboard.md).
+Quando configuri le pianificazioni per le modifiche di pagina e le campagne di modifica, tieni presente quanto segue:
+
+- Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato in un determinato punto. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere un aggiornamento pianificato diverso per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
+
+- Se una campagna è collegata a più pagine, è possibile modificarla solo dal [dashboard di gestione temporanea dei contenuti](content-staging-dashboard.md).
+
+- Se inizialmente viene creata una campagna attiva senza una data di fine, non è possibile modificarla in un secondo momento in modo da includere una data di fine. In tal caso, è necessario creare una campagna duplicata e immettere la data di fine necessaria.
+
+- La data di inizio e la data di fine della campagna devono essere definite utilizzando il fuso orario di amministrazione **_predefinito_**, convertito dal fuso orario locale di ciascun sito Web. Prendi in considerazione un esempio in cui hai più siti web in fusi orari diversi, ma desideri avviare una campagna basata su un fuso orario negli Stati Uniti. In questo caso, è necessario pianificare un aggiornamento separato per ogni fuso orario locale e impostare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** in convertiti da ogni fuso orario del sito Web locale al fuso orario predefinito dell&#39;amministratore.
+
+- Puoi pianificare e visualizzare in anteprima le modifiche per gli aggiornamenti dei prodotti. Per ulteriori informazioni, vedere [Pianificazione di un aggiornamento](content-staging-scheduled-update.md).
 
 >[!NOTE]
 >
 >La scheda [!UICONTROL Custom Design Update] è stata rimossa in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non può essere modificata direttamente nella pagina. Devi creare un aggiornamento pianificato per queste attivazioni.
 
->[!NOTE]
->
->Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato in un determinato punto. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere un aggiornamento pianificato diverso per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
-
 ![Nella home page vengono visualizzate le modifiche pianificate nella parte superiore](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
->[!NOTE]
->
->La data di inizio e la data di fine della campagna devono essere definite utilizzando il fuso orario di amministrazione **_predefinito_**, convertito dal fuso orario locale di ciascun sito Web. Prendi in considerazione un esempio in cui hai più siti web in fusi orari diversi, ma desideri avviare una campagna basata su un fuso orario negli Stati Uniti. In questo caso, è necessario pianificare un aggiornamento separato per ogni fuso orario locale e impostare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** in convertiti da ogni fuso orario del sito Web locale al fuso orario predefinito dell&#39;amministratore.
-
-Inoltre, puoi pianificare e visualizzare in anteprima le modifiche per gli aggiornamenti dei prodotti. Per ulteriori informazioni, vedere [Pianificazione di un aggiornamento](content-staging-scheduled-update.md).

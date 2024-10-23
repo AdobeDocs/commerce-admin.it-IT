@@ -3,9 +3,9 @@ title: Dashboard di staging del contenuto
 description: Utilizza il dashboard di staging del contenuto per accedere a una panoramica di tutte le campagne attive e future.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Gli oggetti campagna esistenti possono essere modificati dal dashboard di stagin
 
 >[!NOTE]
 >
->Se una campagna che include una regola di prezzo viene creata inizialmente senza una data di fine, non può essere modificata in un secondo momento in modo da includere una data di fine. In tal caso, è necessario creare una campagna duplicata e immettere la data di fine necessaria.
+>Se inizialmente viene creata una campagna attiva senza una data di fine, non è possibile modificarla in un secondo momento in modo da includere una data di fine. In tal caso, è necessario creare una campagna duplicata e immettere la data di fine necessaria.
 
 ![Dettagli campagna](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 
