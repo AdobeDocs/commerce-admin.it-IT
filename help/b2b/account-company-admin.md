@@ -4,9 +4,9 @@ description: Scopri come assegnare un account utente della società come amminis
 exl-id: 26f3a449-6f3a-4078-816d-6248ac6d1e46
 feature: B2B, Companies
 role: Admin, User
-source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,23 @@ ht-degree: 0%
 
 L’amministratore della società viene inizialmente assegnato al momento della creazione dell’account aziendale e può essere modificato solo da un amministratore dello store dell’amministratore.
 
+- A ogni società può essere assegnato un solo amministratore.
+- Un utente della società può essere l’amministratore di una sola società.
+- Le modifiche all’amministratore della società assegnato devono essere completate da un amministratore del negozio dell’amministratore.
+
+## Modifica amministratore società assegnato
+
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Trovare la società nell&#39;elenco e fare clic su **[!UICONTROL Edit]**.
-
    ![Aziende](./assets/companies-grid.png){width="700" zoomable="yes"}
+
+1. Trovare la società nell&#39;elenco e quindi fare clic su **[!UICONTROL Edit]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Company Admin]**.
 
    ![Amministratore società](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. Immettere **[!UICONTROL Job Title]** del nuovo amministratore della società e fare clic su **[!UICONTROL Proceed]** per continuare.
+1. Immettere **[!UICONTROL Job Title]** del nuovo amministratore società.
 
    Questa azione cancella il modulo e i campi obbligatori _[!UICONTROL First Name]_e_[!UICONTROL Last Name]_ sono evidenziati.
 
@@ -41,6 +47,7 @@ L’amministratore della società viene inizialmente assegnato al momento della 
 
 1. Al termine, fare clic su **[!UICONTROL Save]**.
 
-   L’account individuale dell’ex amministratore della società rimane nel sistema come account utente individuale attivo nella struttura della società, assegnato al ruolo utente predefinito.
+   L’account individuale dell’amministratore della società precedente rimane nel sistema come account utente attivo, assegnato al ruolo utente predefinito. Se si tratta dell&#39;unica società associata all&#39;account utente, il tipo di account cambia da *[!UICONTROL Company user]* a *[!UICONTROL Individual user]*.
 
    Il sistema invia una notifica e-mail della modifica agli amministratori della nuova e della società precedente.
+

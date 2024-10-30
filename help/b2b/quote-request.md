@@ -4,9 +4,9 @@ description: Scopri in che modo i clienti associati a un account aziendale posso
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,6 @@ Se i preventivi sono abilitati nella [configurazione delle funzionalità di vend
 1. Crea ed elabora il preventivo:
 
    - Invia il preventivo al venditore selezionando **[!UICONTROL Request a Quote]**.
-   - Funzionalità [!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponibile solo per i partecipanti al programma Beta"}**[!UICONTROL Save as Draft]**.
+   - Salva il preventivo come bozza selezionando **[!UICONTROL Save as Draft]**.
 
      Se l&#39;acquirente salva il preventivo come bozza, il preventivo sarà disponibile in [!UICONTROL My Quotes] nello stato `Draft`. Le proposte di preventivo non sono visibili al venditore finché l&#39;acquirente non le invia per la revisione.

@@ -3,7 +3,7 @@ title: Account società
 description: Scopri in che modo gli account aziendali gestiti nel tuo store di Adobe Commerce consentono di unire più acquirenti che appartengono alla stessa azienda in un unico account aziendale.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -12,7 +12,11 @@ ht-degree: 0%
 
 # Account società
 
-Quando incorpori account aziendali B2B nel tuo negozio, puoi semplificare l’esperienza di acquisto aziendale consentendo alle aziende di creare più account secondari con autorizzazioni flessibili in base ai ruoli utente nella loro organizzazione. A seconda dell&#39;azienda, l&#39;amministratore del negozio può modificare le promozioni e i prezzi in base alle esigenze, e creare offerte personalizzate in base alle esigenze e agli ordini. L&#39;aggiunta di un&#39;associazione di account società a un [individuo](../customers/account-create.md) standard consente al cliente di utilizzare i flussi di lavoro di acquisto specifici definiti per la società.
+Quando incorpori account aziendali B2B nel tuo negozio, puoi semplificare l’esperienza di acquisto aziendale consentendo alle aziende di creare più account secondari con autorizzazioni flessibili in base ai ruoli utente nella loro organizzazione.
+
+Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers&#39; demands and increase orders.
+
+L&#39;aggiunta di un&#39;associazione di account società a un [individuo](../customers/account-create.md) standard consente al cliente di utilizzare i flussi di lavoro di acquisto specifici definiti per la società.
 
 Vantaggi di un account aziendale:
 
@@ -22,19 +26,19 @@ Vantaggi di un account aziendale:
 
 - Fornisce un meccanismo che consente ai commercianti di aumentare le entrate offrendo [credito del negozio aziendale](credit-company.md) come metodo di pagamento.
 
-- Supporta la [gestione](account-company-manage.md) di tutti gli account società nell&#39;amministratore.
+- [](account-company-manage.md)
 
-## Visualizza account società
+## View company accounts
 
-Nella griglia _Aziende_ sono elencati tutti gli account società attivi e le richieste in sospeso, indipendentemente dall&#39;impostazione dello stato. Fornisce inoltre gli strumenti per [creare](account-company-create.md) e [gestire](account-company-manage.md) gli account aziendali. Utilizzare i controlli griglia standard per filtrare l&#39;elenco e modificare il layout delle colonne. Per un elenco delle descrizioni delle colonne, vedere la sezione _Descrizioni colonne_ in [Gestione degli account società](account-company-manage.md).
+__ [](account-company-create.md)[](account-company-manage.md) Utilizzare i controlli griglia standard per filtrare l&#39;elenco e modificare il layout delle colonne. Per un elenco delle descrizioni delle colonne, vedere la sezione _Descrizioni colonne_ in [Gestione degli account società](account-company-manage.md).
 
-I clienti possono creare un account aziendale dalla vetrina, oppure un commerciante può crearne uno dall’amministratore. Per impostazione predefinita, la possibilità di creare account società dalla vetrina è abilitata. Se consentito dalla configurazione, un visitatore dello store può richiedere di aprire un account aziendale. Dopo l’approvazione dell’account aziendale, l’amministratore dell’azienda può impostare la struttura aziendale e gli utenti con vari livelli di autorizzazione.
+I clienti possono creare un account aziendale dalla vetrina, oppure un commerciante può crearne uno dall’amministratore. Per impostazione predefinita, la possibilità di creare account società dalla vetrina è abilitata. If allowed by the configuration, a visitor to the store can request to open a company account. After the company account is approved, the company administrator can set up the company structure and users with various levels of permission.
 
-Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+__**[!UICONTROL Customers]****[!UICONTROL Companies]**
 
-![Griglia Aziende](./assets/companies-grid.png){width="700" zoomable="yes"}
+![](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-La griglia [!UICONTROL Companies] elenca tutte le società indipendentemente dallo stato. L’esempio visualizzato mostra gli account per due società: la società &quot;ACME&quot; e la società &quot;Vandelay&quot;.
+[!UICONTROL Companies] [](manage-company-hierarchy.md)[](/help/b2b/account-company-manage.md#company-options-and-columns) [](../getting-started/admin-grid-controls.md)
 
 ## Amministratore società
 
@@ -42,9 +46,9 @@ L&#39;esempio seguente mostra la griglia _Clienti_ con gli account iniziali dell
 
 ![Griglia clienti con account amministratore società](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-È possibile che la persona che funge da amministratore dell’azienda abbia più ruoli all’interno dell’azienda. Se per l&#39;amministratore della società viene immesso un indirizzo e-mail distinto, la struttura aziendale iniziale include l&#39;amministratore della società più un account utente singolo a nome dell&#39;amministratore della società. In tal caso, l’amministratore della società può accedere all’account come società o come singolo utente.
+Ogni società dispone di un amministratore unico identificato dall’indirizzo e-mail dell’account e dal nome e cognome dell’amministratore. The administrator can be assigned to other companies as a user, but they can be an administrator for only one company.
 
-Dopo aver creato l&#39;account, l&#39;amministratore della società definisce la struttura aziendale di [team](account-company-structure.md), imposta i [utenti della società](account-company-users.md) e stabilisce [ruoli e autorizzazioni](account-company-roles-permissions.md) per ciascuno di essi.
+[](account-company-structure.md)[](account-company-users.md)[](account-company-roles-permissions.md)
 
 ### Imposta la password dell&#39;amministratore della società prima del primo accesso
 
@@ -58,37 +62,37 @@ Dopo aver creato l&#39;account, l&#39;amministratore della società definisce la
 
 1. Segue le istruzioni e fa clic su [!UICONTROL **link**] per impostare la password.
 
-1. Immette una [!UICONTROL **nuova password**] per il proprio account e di nuovo per confermare.
+1. Immette una [!UICONTROL **nuova password**] e una password di conferma per il proprio account.
 
-   La password deve includere almeno tre dei seguenti tipi di caratteri:
+   The password must include at least three of the following character types:
 
-   - Caratteri minuscoli (abc...)
+   - Lowercase characters (abc...)
    - Caratteri maiuscoli (ABC)
    - Numeri (1234567890)
    - Caratteri speciali (!@#$...)
 
-1. Fai clic su [!UICONTROL **Imposta una nuova password**].
+1. [!UICONTROL ****]
 
-   ![Accesso cliente - Amministratore società](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
+   ![](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
 
-1. Quando viene visualizzata la pagina [!UICONTROL Customer Login], il cliente immette la sua [!UICONTROL **e-mail**] e la sua [!UICONTROL **password**].
+1. [!UICONTROL Customer Login][!UICONTROL ****][!UICONTROL ****]
 
-1. Fai clic su [!UICONTROL **Accedi**] per accedere al dashboard dell&#39;account.
+1. [!UICONTROL ****]
 
-   ![Dashboard account - società](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
+   ![](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 
 ## Struttura aziendale
 
 È possibile impostare un conto aziendale per riflettere la struttura dell&#39;attività. Inizialmente, la struttura aziendale include solo l’amministratore della società, ma può essere espansa per includere i team di utenti. Gli utenti possono essere associati a team o organizzati all’interno di una gerarchia di divisioni e suddivisioni all’interno dell’azienda. La struttura è progettata per supportare l&#39;utilizzo di [regole di approvazione](account-dashboard-approval-rules.md) per [ordini fornitore](purchase-order-flow.md) (OA) associati all&#39;account società.
 
-![Struttura della società con divisioni](./assets/company-structure-diagram.svg){width="450"}
+![](./assets/company-structure-diagram.svg){width="450"}
 
-Nel dashboard degli account dell’amministratore della società, la struttura della società è rappresentata da una struttura ad albero ed è inizialmente costituita solo dall’amministratore della società.
+In the company administrator&#39;s account dashboard, the company structure is represented as a tree and initially consists of only the company administrator.
 
 ![Struttura della società con amministratore della società](./assets/company-structure-tree-admin.png){width="600"}
 
-Al momento della creazione dell’account, l’amministratore della società può utilizzare l’indirizzo e-mail della società o riceverne uno diverso.
+When the account is created, the company administrator can use the company email address or be assigned a different email address.
 
-Nell&#39;esempio seguente, la struttura aziendale iniziale include l&#39;amministratore della società più un singolo account utente nel nome dell&#39;amministratore della società. Tuttavia, le funzioni di amministratore della società (come la struttura della società e le regole di approvazione) sono disponibili solo quando si accede all’account utente designato come amministratore della società.
+Nell&#39;esempio seguente, la struttura aziendale iniziale include l&#39;amministratore della società più un singolo account utente nel nome dell&#39;amministratore della società. But company administrator functions (such as company structure and approval rules) are available only when they are logged in to the user account that is designated as the company administrator.
 
 ![Struttura della società con account amministratore e utente](./assets/company-structure-tree-admin-user.png){width="600"}

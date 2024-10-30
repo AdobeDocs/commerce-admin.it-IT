@@ -3,9 +3,9 @@ title: Introduzione a  [!DNL Adobe Commerce B2B]
 description: Scopri come utilizzare le funzioni B2B integrate per soddisfare le tue esigenze con i clienti che sono aziende.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -29,8 +29,6 @@ Per ulteriori informazioni, vedere [Account società](account-companies.md).
 >Quando è abilitato, il tuo store può dare alle aziende l&#39;opzione di _Pagare sul conto_, il che significa effettuare acquisti su una linea di credito aziendale. In qualità di esercente, puoi allocare il credito per un conto aziendale e gestire le impostazioni del credito per una società e il rimborso del credito.
 
 ## Gestione società
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponibile solo per i partecipanti al programma Beta"}
 
 La gestione aziendale aiuta gli amministratori di esercenti a semplificare l’amministrazione e la gestione delle organizzazioni B2B con modelli operativi complessi.
 

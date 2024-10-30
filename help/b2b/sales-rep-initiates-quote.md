@@ -4,9 +4,9 @@ description: Scopri come un venditore può creare un preventivo per un acquirent
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
+source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,15 @@ Dopo aver creato l&#39;offerta provvisoria, aggiungere elementi di prodotto, app
 
    - Nel campo [!UICONTROL Discount] immettere il valore per il tipo di sconto. Ad esempio, se hai selezionato uno sconto percentuale, immetti 10 per applicare uno sconto del 10% alla voce.
 
-   - Funzionalità [!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponibile solo per i partecipanti al programma Beta"}
+   - Facoltativamente, bloccare il valore dello sconto dell&#39;articolo riga in modo che il prezzo del prodotto non venga ulteriormente ridotto dagli sconti applicati a livello di preventivo.
 
      Dopo aver confermato la modifica, gli attributi della riga nella griglia del prodotto vengono aggiornati per mostrare l’importo dello sconto applicato. Se lo sconto è bloccato, viene visualizzata un&#39;icona di blocco.
+
+   Un rappresentante commerciale può richiedere uno sconto da una voce specifica di un preventivo.
+
+   >[!NOTE]
+   >
+   >Per una demo video sul funzionamento degli sconti per l&#39;elemento riga, vedere [Il rappresentante commerciale applica lo sconto a un elemento riga preventivo](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) in _Video e Tutorials di Commerce_.
 
 1. Applicare uno sconto a livello di preventivo in base alle esigenze:
 
@@ -90,6 +96,14 @@ Dopo aver creato l&#39;offerta provvisoria, aggiungere elementi di prodotto, app
    ![Il venditore aggiunge informazioni per l&#39;acquirente](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
    Per impostazione predefinita, un [file allegato](configure-quotes.md) può avere una dimensione massima di 2 MB, in uno qualsiasi dei seguenti formati di file: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG o JPEG, PNG.
+
+1. Aggiungi l&#39;indirizzo di spedizione durante le negoziazioni.
+
+   Un rappresentante commerciale può effettuare una selezione di spedizione e consegna dopo che l&#39;acquirente ha aggiunto un indirizzo di spedizione al preventivo.
+
+   Le opzioni di spedizione sono bloccate al momento del pagamento.
+
+   Per ulteriori informazioni, vedere [Le mie quotazioni](account-dashboard-my-quotes.md#adding-a-shipping-address).
 
 1. Elabora il preventivo.
 

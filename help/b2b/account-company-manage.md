@@ -3,22 +3,26 @@ title: Gestire gli account aziendali
 description: Scopri come gestire gli account aziendali per il tuo store di Adobe Commerce utilizzando la pagina Società e gli strumenti disponibili nella griglia.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2706'
 ht-degree: 0%
 
 ---
 
 # Gestire gli account aziendali
 
-Nella pagina _[!UICONTROL Companies]_sono elencati tutti gli account società correnti, indipendentemente dallo stato. Tutte le richieste di approvazione in sospeso vengono visualizzate nella parte superiore dell&#39;elenco. I [controlli area di lavoro](../getting-started/admin-workspace.md) standard possono essere utilizzati per filtrare l&#39;elenco, modificare il [layout colonna](../getting-started/admin-grid-controls.md), salvare le visualizzazioni o esportare i dati.
-
-Il controllo _[!UICONTROL Actions]_sopra la griglia può essere utilizzato per applicare un&#39;azione a più record aziendali. Ad esempio, invece di approvare ogni singola richiesta aziendale, puoi selezionare più richieste e attivare gli account in un’unica azione. Le azioni disponibili dipendono dalle [autorizzazioni](../systems/permissions.md) per il ruolo assegnato al tuo account utente amministratore.
-
-Utilizzare la funzione _[!UICONTROL Search]_per trovare le società nella griglia **Aziende**per parola chiave. La ricerca indicizza le parole chiave dalle colonne **Nome società**e **Padre**. È possibile filtrare in base a **Tipo di società**per visualizzare solo singole società, solo società madri o solo società figlie.
+Nella pagina _[!UICONTROL Companies]_sono elencati tutti gli account società correnti, indipendentemente dallo stato. Tutte le richieste di approvazione in sospeso vengono visualizzate nella parte superiore dell&#39;elenco.
 
 ![Griglia Aziende](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+
+Utilizzare il controllo *[!UICONTROL Columns]* per personalizzare le colonne visualizzate nella griglia. Personalizza le aziende visualizzate nella vista utilizzando le funzionalità di ricerca e filtro.
+
+- Trova aziende nella griglia **Aziende** utilizzando _[!UICONTROL Search]_. La ricerca indicizza le colonne **Nome società**e **Padre**.
+
+- Personalizzare la visualizzazione per includere i record che soddisfano criteri specifici utilizzando [!UICONTROL Filter]. Ad esempio, se il sito B2B è configurato per gestire sia account di una singola società che [gerarchie di società](manage-companies.md), è possibile filtrare per `[!UICONTROL Company Type - Company]` in modo da visualizzare solo singole società o per `[!UICONTROL Company Type - Parent]` in modo da visualizzare solo la società padre per ogni gerarchia.
+
+Applicare un&#39;azione a più record aziendali utilizzando il controllo _[!UICONTROL Actions]_sopra la griglia. Ad esempio, invece di approvare ogni singola richiesta aziendale, puoi selezionare più richieste per attivare gli account in un’unica azione. Le azioni disponibili dipendono dalle [autorizzazioni](../systems/permissions.md) per il ruolo assegnato al tuo account utente amministratore.
 
 ## Risorse per il ruolo della società
 
@@ -29,15 +33,23 @@ Le impostazioni delle [risorse ruolo](../systems/permissions-user-roles.md#role-
 - Applicare un rimborso a saldo
 - Visualizza società
 
-Queste risorse ruolo devono essere impostate per il [Ruolo utente](../systems/permissions-user-roles.md) assegnato per l&#39;account utente Amministratore.
+Queste risorse ruolo devono essere impostate per il [Ruolo utente](../systems/permissions-user-roles.md) assegnato all&#39;account utente Amministratore.
 
-## Applicare un’azione
+## Gestisci account società dalla griglia Società
 
-Le azioni seguenti possono essere applicate a uno o più record.
+Visualizzare e gestire gli account utente per le società dal menu Amministratore selezionando **[!UICONTROL Customers]** > **[!UICONTROL Companies]** per aprire la pagina *[!UICONTROL Companies]*.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Puoi gestire gli account singolarmente o in gruppi.
 
-1. Nella prima colonna della griglia selezionare la casella di controllo di ogni record che si desidera aggiornare e seguire le istruzioni per l&#39;azione che si desidera applicare:
+- Visualizzare o modificare le impostazioni di configurazione per un singolo account società selezionando **[!UICONTROL Edit]** nella colonna **[!UICONTROL Action]** per il record account società.
+
+  ![Selezionare l&#39;azione da applicare alle società selezionate](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
+
+- Visualizzare o modificare un gruppo di account società selezionati utilizzando le opzioni disponibili nel controllo [!UICONTROL Actions]** sopra la griglia.
+
+  ![Selezionare l&#39;azione da applicare alle società selezionate](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+
+Per istruzioni sull’applicazione di ciascuna azione, consulta le sezioni seguenti.
 
 ### Attiva account società
 
@@ -90,6 +102,30 @@ Non è possibile ripristinare gli account società eliminati. Lo stato degli acc
 
 1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL OK]**.
 
+### Modificare le impostazioni aziendali
+
+Aggiorna la configurazione delle [Impostazioni avanzate](account-company-create.md#advanced-settings) per applicare le stesse impostazioni a più società selezionate nella *griglia Aziende*.
+
+>[!NOTE]
+>
+>Gestisci la configurazione delle impostazioni avanzate per un&#39;organizzazione aziendale con un padre e società figlio associate dalla [visualizzazione Gerarchia società](manage-company-hierarchy.md#change-company-settings).
+
+1. Dal controllo **[!UICONTROL Actions]**, selezionare **[!UICONTROL Change company settings]**.
+
+   Nel modulo *[!UICONTROL Change company settings]*, le impostazioni di configurazione iniziali sono impostate sui valori predefiniti.
+
+1. Per ogni impostazione di configurazione da modificare, selezionare la casella di controllo **[!UICONTROL Change]** per abilitare l&#39;impostazione. Quindi, aggiorna l’impostazione secondo necessità.
+
+   ![Modifica le impostazioni aziendali per più società](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
+
+1. Dopo aver aggiornato le impostazioni di configurazione, selezionare **[!UICONTROL Apply Changes]**.
+
+1. Quando richiesto, selezionare **[!UICONTROL Change settings]** per aggiornare la configurazione per le società selezionate.
+
+>[!TIP]
+>
+>È possibile modificare la configurazione delle impostazioni avanzate per una singola società selezionando **[!UICONTROL Edit]** nella colonna **[!UICONTROL Action]** per il record account società.
+
 ### Convertire la valuta del credito
 
 Il credito nei conti delle società selezionate viene convertito nel tasso corrente della valuta selezionata.
@@ -114,7 +150,7 @@ Metodo 1: **Modifica rapida**
 
    Ogni valore che può essere aggiornato viene visualizzato in una casella di testo.
 
-   ![Modifica rapida per un account società](./assets/companies-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![Modifica rapida per un account società](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"}
 
 1. Se necessario, aggiorna uno dei seguenti valori:
 
@@ -134,7 +170,7 @@ Metodo 2: **Modifica completa**
 
 1. Apportare le modifiche necessarie alle informazioni aziendali.
 
-Per le descrizioni dei campi, vedere [Creare un account aziendale](account-company-create.md).
+   Per le descrizioni dei campi, vedere [Creare un account aziendale](account-company-create.md).
 
 1. Al termine, fare clic su **[!UICONTROL Save]**.
 
@@ -176,13 +212,11 @@ Per scoprire come gestire gli account aziendali, guarda questo video:
 
 ## Gestione società
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponibile solo per i partecipanti al programma Beta"}
-
 Dopo la creazione di una società, gli utenti amministratori con le autorizzazioni appropriate possono utilizzare la sezione [!UICONTROL Company Hierarchy] per creare un&#39;organizzazione della società padre modificando la società padre designata e assegnando società correlate.
 
 Se una società è stata aggiunta a una gerarchia, nella griglia [!UICONTROL Company Hierarchy] vengono visualizzate la società padre e tutte le società assegnate.
 
-Per ulteriori informazioni, vedere [Gestione gerarchia società](assign-companies.md).
+Per ulteriori informazioni, vedere [Gestione gerarchia società](manage-company-hierarchy.md).
 
 ## Opzioni e colonne società
 
@@ -191,11 +225,12 @@ Le sezioni seguenti forniscono un riferimento per le azioni disponibili, le opzi
 ### Opzioni di controllo delle azioni
 
 | Opzione | Descrizione |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Imposta lo stato di tutti i record società selezionati su `Active`. Gli amministratori della società ricevono istruzioni per impostare le password in modo da poter accedere ai propri account e gestire le società dalla vetrina. |
 | [!UICONTROL Block] | Limita i conti aziendali che non sono in buono stato, mantenendo al contempo l’account. I membri della società possono effettuare l&#39;accesso e accedere al catalogo, ma non possono effettuare ordini per conto della società. |
 | [!UICONTROL Delete] | Elimina gli account società selezionati. Lo stato degli account utente associati a una società eliminata è impostato su `Inactive` e l&#39;ID società viene rimosso dai profili degli account utente. Le informazioni sulle attività e sulle transazioni aziendali vengono conservate nel sistema. |
 | [!UICONTROL Edit] | Consente di modificare alcuni valori del record società selezionato dalla griglia. Per impostazione predefinita, i valori Nome società, E-mail società e Numero di telefono sono disponibili per una modifica rapida. |
+| [!UICONTROL Change company settings] | Apre il modulo *Modifica impostazioni società* per aggiornare la configurazione [Impostazioni avanzate](account-company-create.md#advanced-settings) e applicare le modifiche alle società selezionate. |
 | [!UICONTROL Convert Credit] | Converte il credito in conto per le società selezionate in base ai tassi della valuta specificata. |
 
 {style="table-layout:auto"}
@@ -250,7 +285,6 @@ Le colonne seguenti sono disponibili modificando il layout [delle colonne](../ge
 | Pulsante | Descrizione |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Torna alla pagina Società senza salvare le modifiche. |
-| [!UICONTROL Login as Customer] | Consente a un utente amministratore di [accedere alla vetrina come cliente](../customers/login-as-customer.md) e aiutarlo con i suoi ordini. |
 | [!DNL Delete Company] | Elimina l&#39;account società. Lo stato degli account utente associati alla società è impostato su `Inactive` e l&#39;ID società viene rimosso dai profili degli account utente. Le informazioni sulle attività e sulle transazioni aziendali vengono conservate nel sistema. |
 | [!DNL Reset] | Ripristina i valori originali in tutti i campi con modifiche non salvate. |
 | [!DNL Reimburse Balance] | Consente all&#39;amministratore di rimborsare il saldo dal credito del negozio, indicato dal numero OA. |
@@ -278,19 +312,10 @@ Le colonne seguenti sono disponibili modificando il layout [delle colonne](../ge
 | [!UICONTROL VAT / TAX ID] | Numero di imposta o [imposta sul valore aggiunto](../stores-purchase/vat.md) assegnato alla società a scopo di dichiarazione fiscale. |
 | [!UICONTROL Reseller ID] | Numero di rivendita assegnato alla società a scopo di dichiarazione fiscale. |
 | [!UICONTROL Comment] | Queste note sull’account aziendale sono da consultare e sono visibili solo dall’Amministratore. |
-| **[!UICONTROL Legal Address]** |                                                                                                                            |
-| [!UICONTROL Street Address] | Indirizzo in cui è registrata la società per la conduzione di affari. |
-| [!UICONTROL City] | La città in cui la società è registrata per condurre gli affari. |
-| [!UICONTROL Country] | Il paese in cui la società è registrata per condurre gli affari. |
-| [!UICONTROL State/Province] | Lo stato o la provincia in cui la società è registrata per condurre affari. |
-| [!UICONTROL ZIP/Postal Code] | Il codice postale o ZIP in cui la società è registrata per condurre affari. |
-| [!UICONTROL Phone Number] | Il numero di telefono principale della società. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Hierarchy]
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponibile solo per i partecipanti al programma Beta"}
 
 | Colonne | Descrizione |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -306,10 +331,24 @@ Le colonne seguenti sono disponibili modificando il layout [delle colonne](../ge
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Legal Address]
+
+| Colonne | Descrizione |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Street Address] | Indirizzo in cui è registrata la società per la conduzione di affari. |
+| [!UICONTROL City] | La città in cui la società è registrata per condurre gli affari. |
+| [!UICONTROL Country] | Il paese in cui la società è registrata per condurre gli affari. |
+| [!UICONTROL State/Province] | Lo stato o la provincia in cui la società è registrata per condurre affari. |
+| [!UICONTROL ZIP/Postal Code] | Il codice postale o ZIP in cui la società è registrata per condurre affari. |
+| [!UICONTROL Phone Number] | Il numero di telefono principale della società. |
+
+{style="table-layout:auto"}
+
 #### [!UICONTROL Company Admin]
 
 | Campo | Descrizione |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Website] | Imposta l&#39;ambito del [sito Web](../getting-started/websites-stores-views.md) per l&#39;account società. Impostazione predefinita: *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | Titolo dell&#39;amministratore della società che gestisce l&#39;account della società. |
 | [!UICONTROL Email] | L’indirizzo e-mail dell’amministratore della società può essere lo stesso dell’indirizzo e-mail della società. Se si immette un indirizzo e-mail diverso, oltre all&#39;account aziendale viene creato un account individuale separato per l&#39;amministratore della società. |
 | [!UICONTROL Prefix] | Se applicabile, il prefisso associato al nome dell&#39;amministratore della società (ad esempio `Mr.`, `Ms.`, `Mrs.` o `Dr.`). A seconda della configurazione, il campo di input potrebbe essere un campo di testo o un elenco. |
@@ -318,6 +357,7 @@ Le colonne seguenti sono disponibili modificando il layout [delle colonne](../ge
 | [!UICONTROL Last Name] | Cognome dell&#39;amministratore della società. |
 | [!UICONTROL Suffix] | Se applicabile, il suffisso associato al nome dell&#39;amministratore della società (ad esempio `Jr.`, `Sr.` o `III`). A seconda della configurazione, il campo di input potrebbe essere un campo di testo o un elenco. |
 | [!UICONTROL Gender] | Genere dell&#39;amministratore della società. Opzioni: `Male` / `Female` / `Not Specified` |
+| [!UICONTROL Send Welcome Email From] | Impostare lo storeview da utilizzare per l&#39;invio dell&#39;e-mail di benvenuto al nuovo amministratore della società se non si desidera utilizzare *[!UICONTROL Default Store View]*. |
 
 {style="table-layout:auto"}
 

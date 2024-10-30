@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] note sulla versione'
 description: Consulta le note sulla versione per informazioni sulle modifiche apportate in  [!DNL Adobe Commerce B2B]  versioni.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
+source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
 workflow-type: tm+mt
-source-wordcount: '7198'
+source-wordcount: '7776'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,84 @@ Queste note sulla versione per l’estensione B2B acquisiscono aggiunte e correz
 >
 >Consulta [Disponibilità del prodotto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) per informazioni sulle versioni dell&#39;estensione B2B Commerce supportate per le versioni disponibili di Adobe Commerce.
 
-## B2B 1.5.0-beta
 
-{{$include /help/_includes/b2b-beta-note.md}}
+## B2B 1.5.0
 
-*13 novembre 2023*
+*30 ottobre 2024*
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"}
+Compatibile con Adobe Commerce versioni 2.4.8-beta1, da 2.4.7 a 2.4.7-p2, da 2.4.6 a 2.4.6-p7
 
-La versione B2B v1.5.0-beta include nuove funzioni, miglioramenti della qualità e correzioni di bug.
+La versione 1.5.0 di B2B include nuove funzioni, miglioramenti della qualità e correzioni di bug.
 
-![Nuovo](../assets/new.svg) I miglioramenti apportati alle funzionalità di offerta consentono a buyer e venditori di gestire i preventivi e la negoziazione dei preventivi in modo più efficace.
+### Gestione società
 
-- **Salva preventivo come bozza**<!--B2B-2566--> - Durante la creazione di una [richiesta di preventivo](quote-request.md) dal carrello, gli acquirenti possono salvare il preventivo come bozza selezionando **[!UICONTROL Save as Draft]** nel modulo [!UICONTROL Request a Quote].
+![Nuovo](../assets/new.svg) **Gestione società**<!--B2B-2901-->: gli esercenti possono ora visualizzare e gestire le società Adobe Commerce come organizzazioni gerarchiche assegnando le società alle società padre designate. Dopo che una società è stata assegnata a una società madre, l&#39;amministratore della società madre può gestire l&#39;account della società. Solo gli utenti amministratori autorizzati possono aggiungere e gestire le assegnazioni aziendali. Per ulteriori dettagli, vedere [Gestione gerarchia società](manage-company-hierarchy.md).
 
-  L&#39;offerta provvisoria non ha una data di scadenza. Gli acquirenti possono esaminare e aggiornare i preventivi provvisori dalla sezione [!UICONTROL My Quotes] del dashboard account.
+- Aggiungi e gestisci le assegnazioni della società dalla nuova sezione *[!UICONTROL Company Hierarchy]* nella pagina *[!UICONTROL Company Account]* dell&#39;amministratore.
+
+- Ordina e filtra le società in base alla nuova impostazione *[!UICONTROL Company Type]*. Nella griglia delle società, la colonna *[!UICONTROL Company Type]* indica se una società è una singola società o parte della gerarchia organizzativa (padre o figlio).
+
+![Nuovo](../assets/new.svg) **Gestisci la configurazione della società alla scala**<!--B2B-2849-->—Modifica rapidamente le impostazioni di configurazione della società per le società selezionate utilizzando l&#39;azione collettiva *[!UICONTROL Change company setting]* ora disponibile per la gestione delle società dalla griglia *[!UICONTROL Companies]* o *[!UICONTROL Company Hierarchy]*. Ad esempio, se crei un nuovo catalogo condiviso per un gruppo di aziende, puoi modificare la configurazione del catalogo condiviso in un’unica azione, anziché modificare singolarmente ogni azienda.
+
+![I nuovi](../assets/new.svg) sviluppatori API possono utilizzare il nuovo endpoint REST API per le relazioni con le società `/V1/company/{parentId}/relations` per creare, visualizzare e rimuovere le assegnazioni aziendali. Consulta [Gestire gli oggetti aziendali](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) nella *Guida per gli sviluppatori API Web*.
+
+### Account società
+
+![Nuovo](../assets/new.svg)<!--B2B-2828--> **Assegnazione di più società**—Semplificare l&#39;accesso degli utenti aziendali assegnando un utente a più società. Ad esempio, se un buyer effettua un ordine da più sedi della società, creare un singolo account e assegnare a tale account tutte le società con cui lavora il buyer. Quindi, l&#39;acquirente può effettuare l&#39;accesso una sola volta e passare da un account aziendale all&#39;altro scegliendo la società dalla vetrina.
+
+>[!NOTE]
+>
+>Un utente di un’azienda può essere assegnato a più aziende, ma può essere l’amministratore dell’azienda per una sola azienda.
+
+![Nuovo](../assets/new.svg) <!--B2B-2747--> **Selettore ambito società** - Consente agli utenti società assegnati a più società di cambiare società nella vetrina. Quando l’ambito viene cambiato, i dati vengono aggiornati per mostrare le informazioni in base al nuovo contesto aziendale. Ad esempio, se la nuova società utilizza un catalogo condiviso diverso, l’utente della società visualizza prodotti, prezzi e altre informazioni in base al nuovo catalogo condiviso. Anche il contenuto relativo a ordini, preventivi e modelli di preventivo viene aggiornato in base al contesto della società selezionata.
+
+>[!NOTE]
+>
+>Se l’utente dell’azienda cambia azienda inserendo gli articoli nel carrello, aggiorna il carrello in modo che rifletta l’assortimento del prodotto, i prezzi e gli sconti promozionali in base al nuovo contesto aziendale.
+
+![Problema risolto](../assets/fix.svg)<!--ACP2E-1933--> Gli amministratori della società ora possono aggiungere utenti della società dalla vetrina. In precedenza, Commerce registrava un errore quando un utente amministratore tentava di aggiungere un nuovo utente: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+### Preventivi e modelli di preventivo
+
+I miglioramenti apportati alle funzionalità di preventivo consentono a buyer e venditori di gestire i preventivi e la negoziazione dei preventivi in modo più efficace.
+
+![Nuovi](../assets/new.svg) **Modelli di preventivo**—<!--B2B-3367-->Acquirenti e venditori possono ora semplificare il processo di offerta creando modelli di preventivo riutilizzabili e personalizzabili. Utilizzando i modelli di preventivo, il processo di negoziazione dei preventivi può essere completato una sola volta e gli acquirenti possono generare preventivi collegati preapprovati per ordini ricorrenti anziché passare attraverso il processo di negoziazione dei preventivi per ciascun ordine. I modelli di preventivo estendono la funzionalità di preventivo esistente aggiungendo le seguenti funzionalità avanzate:
+
+- **Le soglie di ordine** consentono ai venditori di impostare impegni di ordine minimi e massimi, garantendo che l&#39;acquirente rispetti i volumi di acquisto concordati.
+- **L&#39;impostazione di quantità minime e massime per gli ordini degli articoli** offre al buyer la flessibilità necessaria per adeguare le quantità degli ordini nel preventivo collegato senza richiedere un nuovo modello o ulteriori negoziazioni.
+- **Tieni traccia del numero di preventivi collegati generati e degli ordini completati correttamente** per ottenere informazioni sull&#39;esecuzione degli accordi negoziati.
+- **I preventivi collegati** sono preventivi preapprovati che il buyer genera da un modello di preventivo attivo per inviare ordini ricorrenti in base alle condizioni negoziate nel modello di preventivo.
+
+![Nuovo](../assets/new.svg) **Miglioramenti alle funzionalità delle virgolette esistenti**
+
+- **Le regole dell&#39;elenco di controllo di accesso (ACL) di Commerce aggiornate** consentono ai responsabili e ai supervisori B2B di gestire preventivi e modelli di preventivo di utenti subordinati. Regole separate supportano la configurazione granulare per l&#39;accesso di visualizzazione, modifica ed eliminazione.
+
+- **Salva preventivo come bozza**<!--B2B-2566--> - Durante la creazione di una [richiesta di preventivo](quote-request.md) dal carrello, gli acquirenti possono salvare il preventivo come bozza in modo da poterlo esaminare e aggiornare prima di avviare il processo di negoziazione del preventivo con il venditore. L&#39;offerta provvisoria non ha una data di scadenza. Gli acquirenti possono esaminare e aggiornare i preventivi provvisori dalla sezione [!UICONTROL My Quotes] del dashboard account.
 
 - **Rinomina preventivo**<!--B2B-2596--> - Gli acquirenti possono modificare il nome di un preventivo dalla pagina [Dettagli preventivo](account-dashboard-my-quotes.md#quote-actions) selezionando l&#39;opzione **[!UICONTROL Rename]**. Questa opzione è disponibile per gli acquirenti autorizzati che modificano il preventivo. Gli eventi di modifica del nome vengono registrati nel registro Cronologia preventivo.
 
 - **Offerta duplicata**<!--B2B-2701--> - Acquirenti e venditori possono creare un nuovo preventivo copiando un preventivo esistente. Viene creata una copia dalla visualizzazione dei dettagli del preventivo selezionando **[!UICONTROL Create Copy]** nella [visualizzazione dei dettagli del preventivo](quote-price-negotiation.md#button-bar) nell&#39;Admin o nello [Storefront](account-dashboard-my-quotes.md#quote-actions).
 
-- **Blocco sconto articolo riga**<!--B2B-2597--> - Durante la negoziazione del preventivo, i venditori possono utilizzare il blocco sconto articolo riga per una maggiore flessibilità nell&#39;applicazione degli sconti. Ad esempio, un venditore può applicare uno sconto speciale su un oggetto e bloccare l&#39;oggetto per evitare ulteriori sconti. Quando un articolo è bloccato, non è possibile aggiornare il prezzo dell&#39;articolo quando viene applicato uno sconto a livello di preventivo. Vedi [Avvia offerta per un acquirente](sales-rep-initiates-quote.md).
+- **Spostare l&#39;articolo del preventivo nell&#39;elenco delle richieste di acquisto**<!--B2B-2755-->. Gli acquirenti dispongono ora della flessibilità necessaria per rimuovere i prodotti da un preventivo e salvarli in un elenco delle richieste di acquisto se decidono di non includerli nel processo di negoziazione del preventivo.
 
-![Nuovo ](../assets/new.svg)**Gestione società**<!--B2B-2901-->: gli esercenti possono ora visualizzare e gestire le società Adobe Commerce come organizzazioni gerarchiche assegnando le società alle società padre designate. Dopo che una società è stata assegnata a una società madre, l&#39;amministratore della società madre può gestire l&#39;account della società. Solo gli utenti amministratori autorizzati possono aggiungere e gestire le assegnazioni aziendali. Per ulteriori dettagli, vedere [Gestione gerarchia società](assign-companies.md).
+- **Rimuovere più prodotti da un preventivo**<!--B2B-2881-->. Nei preventivi con un numero elevato di prodotti, gli acquirenti possono ora rimuovere più prodotti dal preventivo selezionandoli e utilizzando l&#39;opzione *[!UICONTROL Remove]* dal controllo *[!UICONTROL Actions]* nella pagina Dettagli preventivo. Nelle versioni precedenti, un acquirente doveva eliminare i prodotti uno alla volta.
 
-- Nella pagina Aziende, un nuovo campo **[!UICONTROL Company Type]** identifica le aziende padre e figlio. Gli esercenti possono filtrare la visualizzazione aziendale per tipo di società e gestire le società utilizzando elementi riga o azioni in blocco.
+- **Blocco sconto articolo linea**<!--B2B-2597-->. Durante la negoziazione del preventivo, i venditori possono utilizzare il blocco sconto articolo linea per una maggiore flessibilità quando applicano sconti durante il processo di negoziazione del preventivo. Ad esempio, un venditore può applicare uno sconto speciale su un oggetto e bloccare l&#39;oggetto per evitare ulteriori sconti. Quando un articolo è bloccato, non è possibile aggiornare il prezzo dell&#39;articolo quando viene applicato uno sconto a livello di preventivo. Vedi [Avvia offerta per un acquirente](sales-rep-initiates-quote.md).
 
-- Gli esercenti possono aggiungere e gestire le assegnazioni aziendali dalla nuova sezione **[!UICONTROL Company Hierarchy]** nella pagina [!UICONTROL Company Account].
+![È stato risolto il problema](../assets/fix.svg) **Sono state corrette le funzionalità delle virgolette esistenti**
 
-- Gli sviluppatori API possono utilizzare il nuovo endpoint REST API per le relazioni con la società `/V1/company/{parentId}/relations` per creare, visualizzare e rimuovere le assegnazioni della società. Consulta [Gestire gli oggetti aziendali](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) nella *Guida per gli sviluppatori API Web*.
+- Ai commercianti che fanno clic sul pulsante *[!UICONTROL Print]* nella visualizzazione Dettagli preventivo nell&#39;amministratore viene ora richiesto di salvare il preventivo come PDF. In precedenza, i commercianti venivano reindirizzati a una pagina contenente i dettagli delle offerte. <!--ACP2E-1984-->
 
-![Problema risolto](../assets/fix.svg)<!--ACP2E-1984-->Ai commercianti che fanno clic sul pulsante **[!UICONTROL Print]** nella visualizzazione Dettagli preventivo nell&#39;amministratore viene ora richiesto di salvare il preventivo come PDF. In precedenza, i commercianti venivano reindirizzati a una pagina contenente i dettagli delle offerte.
+- In precedenza, quando si inviava un preventivo cliente con `0` percentuale e si modificava la quantità, l&#39;amministratore generava un&#39;eccezione ma salvava la quantità. In seguito a questa correzione, per `0 percentage` verrà generata l&#39;eccezione appropriata con un messaggio. <!--ACP2E-1742-->
 
-![Problema risolto](../assets/fix.svg) <!--ACP2E-1742-->In precedenza, quando si inviava un preventivo cliente con 0 percentuale e si modificava la quantità, l&#39;amministratore generava un&#39;eccezione ma salvava la quantità. In seguito a questa correzione, per `0 percentage` verrà generata l&#39;eccezione appropriata con un messaggio.
+- Durante la negoziazione del preventivo, un venditore può ora specificare uno sconto `0%` nel campo Sconto preventivo negoziato e inviare il preventivo all&#39;acquirente. In precedenza, se il venditore inseriva uno sconto dello 0% e inviava nuovamente il preventivo all&#39;acquirente, l&#39;amministratore restituiva un messaggio di errore `Exception occurred during quote sending`. <!--ACP2E-1742-->
 
-![Problema risolto](../assets/fix.svg) <!--ACP2E-1742-->Durante la negoziazione del preventivo, un venditore può ora specificare uno sconto di `0%` nel campo Sconto preventivo negoziato e inviare il preventivo all&#39;acquirente. In precedenza, se il venditore inseriva uno sconto dello 0% e inviava nuovamente il preventivo all&#39;acquirente, l&#39;amministratore restituiva un messaggio di errore `Exception occurred during quote sending`.
+- La convalida ReCaptcha ora funziona correttamente durante il processo di pagamento di un preventivo B2B quando ReCaptcha V3 è configurato per il pagamento in vetrina. In precedenza, la convalida non era riuscita con un messaggio di errore `recaptcha validation failed, please try again`.  <!--ACP2E-2097-->
 
-![Problema risolto](../assets/fix.svg) <!--ACP2E-2097-->La convalida ReCaptcha ora funziona correttamente durante il processo di estrazione di un preventivo B2B quando ReCaptcha V3 è configurato per l&#39;estrazione in vetrina. In precedenza, la convalida non era riuscita con un messaggio di errore `recaptcha validation failed, please try again`.
+### Ordini di acquisto
 
 ![Problema risolto](../assets/fix.svg) <!--ACP2E-1825-->Un utente associato alla società non può più inserire ordini di acquisto dopo il blocco della società. In precedenza, un utente associato alla società poteva effettuare ordini di acquisto quando la società era bloccata.
-
-![Problema risolto](../assets/fix.svg)<!--ACP2E-1933-->Gli amministratori della società ora possono aggiungere utenti della società dalla vetrina. In precedenza, Commerce registrava un errore quando un utente amministratore tentava di aggiungere un nuovo utente: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2-p3
 
@@ -150,7 +187,7 @@ Questa versione include nuove funzionalità e miglioramenti per i preventivi neg
 
 ![Problema risolto](../assets/fix.svg) Adobe Commerce visualizza ora i dettagli corretti durante il pagamento quando è abilitata l&#39;opzione Ordini di acquisto e quando è stato selezionato un preventivo virtuale creato con l&#39;opzione di pagamento PayPal. In precedenza, i totali venivano visualizzati come zero in queste condizioni.
 
-![È stato risolto il problema](../assets/fix.svg) <!--ACP2E-1504--> Gli errori di convalida non si verificano più quando si tenta di salvare una società con un limite di credito superiore a 999. In precedenza, per i limiti di credito della società superiori a 999, Adobe commerce inseriva un separatore con la virgola, causando un errore di convalida che impediva il salvataggio degli aggiornamenti.
+![È stato risolto il problema](../assets/fix.svg) <!--ACP2E-1504--> Gli errori di convalida non si verificano più quando si tenta di salvare una società con un limite di credito superiore a 999. In precedenza, per i limiti di credito aziendali superiori a 999, Adobe commerce inseriva un separatore di virgola, causando un errore di convalida che impediva il salvataggio degli aggiornamenti.
 
 ![Problema risolto](../assets/fix.svg) <!--ACP2E-1474--> L&#39;indirizzo di spedizione selezionato rimane invariato quando si effettua un ordine con un preventivo negoziabile. In precedenza, quando si effettuava un ordine, l&#39;indirizzo di spedizione selezionato veniva modificato nell&#39;indirizzo di spedizione predefinito.
 

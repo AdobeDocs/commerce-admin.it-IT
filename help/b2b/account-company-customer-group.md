@@ -4,9 +4,9 @@ description: Scopri come assegnare un gruppo di clienti a un account aziendale n
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
+source-git-commit: 581d2cf82880552432471171b69a1a597da54c30
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,12 @@ ht-degree: 0%
 
 L’assegnazione di un gruppo di clienti a un’azienda equivale essenzialmente all’assegnazione di un catalogo condiviso. Se il Catalogo condiviso non è abilitato [nella configurazione](enable-basic-features.md), a una società viene assegnato un gruppo di clienti anziché un Catalogo condiviso.
 
->[!NOTE]
->
-> È possibile assegnare un solo gruppo di clienti o un catalogo condiviso alla volta a una società. Impossibile eliminare un gruppo di clienti associato a un catalogo condiviso.
+- È possibile assegnare un solo gruppo di clienti o un catalogo condiviso alla volta a una società. Impossibile eliminare un gruppo di clienti associato a un catalogo condiviso.
+- La modifica del gruppo di clienti assegnato alla società aggiorna i profili di tutti i membri della società.
+- Se l&#39;assegnazione del gruppo di clienti viene cambiata da un catalogo condiviso a un gruppo di clienti normale, i membri della società perdono l&#39;accesso al catalogo condiviso e il catalogo principale diventa disponibile dalla vetrina.
+- Dopo aver modificato il gruppo della società, un utente della società deve disconnettersi e accedere allo Storefront per visualizzare i nuovi prezzi nel catalogo.
+
+## Modificare il gruppo di clienti
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -29,21 +32,9 @@ L’assegnazione di un gruppo di clienti a un’azienda equivale essenzialmente 
 
 1. Imposta il **[!UICONTROL Customer Group]** appropriato.
 
-   >[!NOTE]
-   >
-   >L&#39;elenco [!UICONTROL Customer Group] include tutti i cataloghi condivisi esistenti, anche se Cataloghi condivisi è disabilitato nella configurazione.
-
-   La modifica del gruppo di clienti assegnato alla società aggiorna i profili di tutti i membri della società.
-
-   >[!NOTE]
-   >
-   >Dopo aver modificato il gruppo della società, un utente della società deve disconnettersi e accedere allo Storefront per visualizzare i nuovi prezzi nel catalogo.
+   L&#39;elenco [!UICONTROL Customer Group] include tutti i cataloghi condivisi esistenti, anche se Cataloghi condivisi è disabilitato nella configurazione.
 
    ![Cambia gruppo clienti o catalogo condiviso](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
-
-   >[!NOTE]
-   >
-   >Se l&#39;assegnazione del gruppo di clienti viene cambiata da un catalogo condiviso a un gruppo di clienti normale, i membri della società perdono l&#39;accesso al catalogo condiviso e il catalogo principale diventa disponibile dalla vetrina.
 
 1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL Proceed]**.
 

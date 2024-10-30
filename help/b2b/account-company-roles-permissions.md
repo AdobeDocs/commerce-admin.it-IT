@@ -4,9 +4,9 @@ description: Scopri i ruoli e le autorizzazioni che un amministratore aziendale 
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 feature: B2B, Companies, Roles/Permissions
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: bad59798a1a6d97826dc421fe8614ef511e067bd
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Il sistema dispone di un ruolo utente predefinito predefinito, che puoi utilizza
 
 1. Completa una delle seguenti attività.
 
-### Creare un ruolo
+### Create a role
 
 1. Clic su **[!UICONTROL Add New Role]**.
 
@@ -73,11 +73,11 @@ Il sistema dispone di un ruolo utente predefinito predefinito, che puoi utilizza
 
    È possibile eliminare solo i ruoli senza utenti assegnati.
 
-1. Fa clic su **[!UICONTROL Delete]** nella colonna _[!UICONTROL Actions]_.
+1. **[!UICONTROL Delete]**_[!UICONTROL Actions]_
 
-1. Quando viene richiesto di confermare, fa clic su **[!UICONTROL OK]**.
+1. **[!UICONTROL OK]**
 
-## Azioni
+## Actions
 
 | Azione | Descrizione |
 |-----------| ----------- |
@@ -89,40 +89,9 @@ Il sistema dispone di un ruolo utente predefinito predefinito, che puoi utilizza
 
 ## Autorizzazioni ruolo
 
-- Tutti
-   - Vendite
-      - Consenti ritiro (ordine di registrazione)
-         - Usa metodo di pagamento in conto
-      - Visualizza ordini
-         - Visualizza ordini di utenti subordinati
-- Virgolette
-   - Visualizza
-      - Richiedi, Modifica, Elimina
-      - Pagamento con preventivo
-      - Visualizza preventivi di utenti subordinati
-- Approvazioni ordine
-   - Visualizza i miei ordini di acquisto
-      - Visualizza per subordinati
-      - Visualizza per tutte le società
-   - Approva automaticamente gli OA creati all&#39;interno di questo ruolo
-   - Approva ordini di acquisto senza altre approvazioni
-   - Visualizza regole di approvazione
-      - Creare, modificare ed eliminare
-- Profilo società
-   - Informazioni account (visualizzazione)
-      - Modifica
-   - Indirizzo legale
-      - Modifica
-   - Contatti (visualizzazione)
-   - Informazioni sul pagamento (visualizzazione)
-   - Informazioni sulla spedizione (Visualizza)
-- Gestione utente società
-   - Visualizza ruoli e autorizzazioni
-      - Gestire ruoli e autorizzazioni
-   - Visualizza utenti e team
-      - Gestione di utenti e team
-- Credito società
-   - Visualizza
+Gli amministratori della società possono aggiornare la configurazione delle autorizzazioni per un ruolo selezionando [!UICONTROL Edit action] e quindi selezionando o rimuovendo le autorizzazioni nell&#39;elenco **Autorizzazioni ruolo**.
+
+![Elenco ruoli e autorizzazioni](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## Assegnare un ruolo a un utente della società
 
@@ -134,10 +103,10 @@ Dopo aver definito i ruoli necessari, l’amministratore della società assegna 
 
    ![Utenti società](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Trova l&#39;utente nell&#39;elenco e seleziona **[!UICONTROL Edit]**.
+1. **[!UICONTROL Edit]**
 
-1. Seleziona **[!UICONTROL User Role]** appropriato per l&#39;utente.
+1. **[!UICONTROL User Role]**
 
-   ![Modifica utente - scegli un ruolo utente](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
+   ![](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 
 1. Clic su **[!UICONTROL Save]**.
