@@ -1,7 +1,7 @@
 ---
 title: Riferimento configurazione del carrello acquisti persistente
 description: Contenuto riutilizzabile per il riferimento alla configurazione del carrello acquisti persistente.
-source-git-commit: d23cb0d63409e533cf950d8d14514d9f9157fd05
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ![Opzioni generali](/help/configuration-reference/customers/assets/persistent-shopping-cart-general.png)<!-- zoom -->
 
-<!-- [General Options](https://docs.magento.com/user-guide/sales/cart-persistent-configuration.html) -->
+<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
 
 | Campo | [Ambito](/help/getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |------------------------------------------------------------------------|--- |

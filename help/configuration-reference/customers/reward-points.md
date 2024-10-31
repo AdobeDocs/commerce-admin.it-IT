@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] dell'amministratore di Commerce.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![Punti premio](./assets/reward-points-reward-points.png)<!-- zoom -->
 
-<!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Reward Points](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Calculation] | Sito Web | Determina il metodo utilizzato per determinare quando scadono i punti premio. Opzioni: <br/>**`Static`**- Determina la durata residua dei punti premio in base al numero di giorni impostati nella configurazione. Se il limite di scadenza nella configurazione cambia, la data di scadenza dei punti esistenti non cambia.<br/>**`Dynamic`** - Calcola il numero di giorni rimanenti ogni volta che il saldo del punto premio aumenta. Se il limite di scadenza nella configurazione cambia, i calcoli di scadenza per tutti i punti esistenti vengono aggiornati di conseguenza. |
 | [!UICONTROL Refund Reward Points Automatically] | Globale | Determina se i punti premio disponibili vengono rimborsati automaticamente. Opzioni: `Yes` / `No` |
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Globale | Questo determina se i punti premio guadagnati con gli acquisti vengono annullati completamente o parzialmente con il rimborso dell&#39;ordine, quando questa funzione è abilitata. Solo i punti premio dell’ordine che li ha ottenuti sono interessati quando l’ordine viene rimborsato. Opzioni: `Yes` / `No`. |
-| [!UICONTROL Landing Page] | Visualizzazione store | Specifica la pagina CMS che spiega il programma dei punti premio. Un collegamento alla pagina Premi predefinita viene visualizzato nelle posizioni del negozio in cui è possibile ottenere punti. |
+| [!UICONTROL Landing Page] | Visualizzazione store | Specifica la pagina CMS che spiega il programma punti premio. Un collegamento alla pagina Premi predefinita viene visualizzato nelle posizioni del negozio in cui è possibile ottenere punti. |
 
 {style="table-layout:auto"}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![Azioni per l&#39;acquisizione di punti premio dai clienti](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
-<!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ![Impostazioni notifiche e-mail](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
-<!-- [Email Notification Settings](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Email Notification Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

@@ -3,9 +3,9 @@ title: '[!DNL Page Builder] Procedura dettagliata parte 1: pagina semplice'
 description: Utilizza i file di esempio e segui i passaggi per creare una pagina semplice nell'interfaccia  [!DNL Page Builder] .
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '3334'
+source-wordcount: '3314'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Segui questo esercizio in tre parti per acquisire familiarità con l&#39;area di
 
 >[!NOTE]
 >
->Questi esercizi di procedura dettagliata vengono aggiornati per riflettere le recenti modifiche apportate all&#39;area di lavoro [!DNL Page Builder] nella versione 2.4.1. Se si utilizza una versione precedente di Adobe Commerce, utilizzare gli esercizi di procedura dettagliata [!DNL Page Builder] inclusi nella [[!DNL Commerce] 2.3 Guida utente](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>Questi esercizi di procedura dettagliata vengono aggiornati per riflettere le recenti modifiche apportate all&#39;area di lavoro [!DNL Page Builder] nella versione 2.4.1.
 
 ## Prima di iniziare
 
@@ -26,7 +26,7 @@ Prima di iniziare questo esercizio, è consigliabile aumentare la [durata della 
 
 Verifica le impostazioni di configurazione di Content Management richieste:
 
-- Editor WYSIWYG abilitato nella configurazione [Opzioni WYSIWYG](../content-design/editor.md#configure-the-editor).
+- WYSIWYG Editor è abilitato nella configurazione [Opzioni WYSIWYG](../content-design/editor.md#configure-the-editor).
 
 - [!DNL Page Builder] è abilitato nella configurazione di [Strumenti di contenuto avanzati](setup.md).
 
