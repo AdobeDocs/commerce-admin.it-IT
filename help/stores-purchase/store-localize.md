@@ -3,9 +3,9 @@ title: Localizzazione dello store
 description: Scopri come localizzare una visualizzazione store o store.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La maggior parte del testo che appare hardcoded sulle pagine in tutto il negozio può essere istantaneamente cambiato in una lingua diversa cambiando le impostazioni locali della visualizzazione. La modifica delle impostazioni locali non traduce il testo parola per parola, ma fa semplicemente riferimento a una tabella di traduzione diversa che fornisce il testo di interfaccia utilizzato in tutto l’archivio. Il testo che può essere modificato include titoli di navigazione, etichette, pulsanti e collegamenti quali _Carrello_ e _Account personale_. È inoltre possibile utilizzare lo strumento [Traduzione in linea](../configuration-reference/advanced/developer.md) per ritoccare il testo nell&#39;interfaccia.
 
-I Language Pack si trovano in [Traduzioni e localizzazione][1]{:target=&quot;_blank&quot;} su Commerce Marketplace. Le nuove estensioni vengono aggiunte in modo continuo a Marketplace, quindi controlla spesso.
+I Language Pack si trovano in [Traduzioni e localizzazione][1]{:target="_blank"} su Commerce Marketplace. Le nuove estensioni vengono aggiunte in modo continuo a Marketplace, quindi controlla spesso.
 
 ## Passaggio 1: installare un Language Pack
 
@@ -46,11 +46,9 @@ Segui le istruzioni standard per l’installazione dell’estensione Language Pa
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nell&#39;angolo in alto a sinistra, impostare **[!UICONTROL Store View]** sulla visualizzazione specifica in cui applicare la configurazione.
+1. Nel menu a discesa **[!UICONTROL Scope]**, selezionare la visualizzazione archivio da configurare e fare clic su **[!UICONTROL OK]** quando richiesto.
 
-1. Quando viene richiesto di confermare il cambio di ambito, fare clic su **[!UICONTROL OK]**.
-
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Locale Options]**.
+1. Nella pagina di configurazione *[!UICONTROL General]*, espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Locale Options]**.
 
 1. Deselezionare la casella di controllo **[!UICONTROL Use Website]** e impostare **[!UICONTROL Locale]** nella lingua che si desidera assegnare alla visualizzazione.
 
@@ -58,7 +56,7 @@ Segui le istruzioni standard per l’installazione dell’estensione Language Pa
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
-   Dopo aver modificato la lingua delle impostazioni locali, il contenuto rimanente creato, inclusi i nomi e le descrizioni dei prodotti, le categorie, le [pagine CMS](../content-design/page-translate.md) e i blocchi, deve essere tradotto separatamente per ogni visualizzazione archivio.
+   Dopo aver modificato la lingua delle impostazioni locali, il contenuto rimanente creato, inclusi i nomi e le descrizioni dei prodotti, le categorie, le [pagine CMS](../content-design/page-translate.md) e i blocchi, deve essere tradotto separatamente per ogni visualizzazione dello store.
 
 ## Localizzare i prodotti
 
