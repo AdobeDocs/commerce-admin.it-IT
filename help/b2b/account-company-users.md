@@ -4,9 +4,9 @@ description: Scopri gli account utente dell’azienda e come funzionano nell’a
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
-source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
+source-git-commit: 9c16d7a3909598328cc42bbcbf39fc14ae6a9eb9
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Solo l’amministratore dell’azienda può aggiungere, modificare, disattivare 
    - Aggiunge le informazioni utente nei campi rimanenti:
       - **[!UICONTROL First Name]** e **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
-      - **[!UICONTROL Phone Number]**
+      - **[!UICONTROL Work Phone Number]**
 
    Per impostazione predefinita, il **[!UICONTROL Status]** dell&#39;account è `Active`.
 
@@ -103,7 +103,7 @@ Gli amministratori aziendali possono aggiornare le informazioni sul profilo dell
 
 >[!NOTE]
 >
->Se si modifica un account utente della società e si nota che nel profilo mancano le informazioni obbligatorie relative all&#39;account, ad esempio il titolo della mansione e il numero di telefono, ciò indica che l&#39;account è stato aggiunto da un amministratore del sito Commerce. Questi account non possono essere modificati dalla vetrina. Per aggiornare le informazioni o modificare lo stato dell&#39;account, contattare l&#39;amministratore del sito.
+>Se si modifica un account utente della società e si nota che nel profilo mancano le informazioni obbligatorie relative all&#39;account, ad esempio il titolo della mansione e il numero di telefono dell&#39;ufficio, ciò indica che l&#39;account è stato aggiunto da un amministratore del sito Commerce. Questi account non possono essere modificati dalla vetrina. Per aggiornare le informazioni o modificare lo stato dell&#39;account, contattare l&#39;amministratore del sito.
 
 ### Disattivare o eliminare un account attivo
 
@@ -120,13 +120,13 @@ Gli amministratori aziendali possono aggiornare le informazioni sul profilo dell
 ## Descrizioni dei campi del profilo dell’account utente della società
 
 | Campo | Descrizione |
-|--------------|---------------|
+|--------------------------------|---------------|
 | [!UICONTROL Job Title] | Qualifica dell&#39;utente dell&#39;azienda. |
 | [!UICONTROL User Role] | Il [ruolo](account-company-roles-permissions.md) assegnato all&#39;utente della società. Opzioni: `Default User` / (altri ruoli) |
 | [!UICONTROL First Name] | Il nome dell’utente dell’azienda. |
 | [!UICONTROL Last Name] | Cognome dell&#39;utente della società. |
 | [!UICONTROL Email] | L’indirizzo e-mail dell’utente dell’azienda. |
-| [!UICONTROL Phone Number] | Numero di telefono dell&#39;utente della società. |
+| [!UICONTROL Work Phone Number] | Numero di telefono aziendale dell&#39;utente. |
 | [!UICONTROL Status] | Stato dell&#39;account utente della società. Opzioni: `Active` / `Inactive` |
 
 {style="table-layout:auto"}

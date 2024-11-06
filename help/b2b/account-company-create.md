@@ -4,9 +4,9 @@ description: Scopri come creare un account aziendale nell’amministratore di Ad
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
+source-git-commit: 5312aa3f483399ecc4e9491b39f8300d8616e9e5
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,10 @@ Alla persona che imposta un account società dalla vetrina viene assegnato un ru
 
    - Immette **[!UICONTROL First Name]** e **[!UICONTROL Last Name]** dell&#39;amministratore della società.
 
-   - Optionally completes the following fields:
+   - Facoltativamente, completa i campi seguenti:
 
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
 
    ![Amministratore società](./assets/company-administrator-account-storefront.png)
@@ -78,17 +79,17 @@ Alla persona che imposta un account società dalla vetrina viene assegnato un ru
 
    Quando la richiesta di creazione di un account aziendale viene approvata dall’esercente, viene inviata una notifica e-mail all’amministratore della società.
 
-   ![](./assets/company-admin-welcome-email.png){width="500"}
+   ![E-mail di benvenuto di esempio](./assets/company-admin-welcome-email.png){width="500"}
 
-   [](../customers/customer-sign-in.md)
+   Una volta impostata la password, l&#39;amministratore della società può [accedere](../customers/customer-sign-in.md) all&#39;account.
 
-## Method 2: Merchant creates the account from the Admin
+## Metodo 2: l’esercente crea l’account dall’amministratore
 
-The process of creating a company from the Admin is essentially the same as from the storefront, but with additional fields.
+Il processo di creazione di una società dall’amministratore è essenzialmente lo stesso della vetrina, ma con campi aggiuntivi.
 
-![](./assets/company-add-new.png){width="700" zoomable="yes"}
+![Aggiungi una nuova società dall&#39;amministratore](./assets/company-add-new.png){width="700" zoomable="yes"}
 
-1. __**[!UICONTROL Customers]****[!UICONTROL Companies]**
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 1. Fare clic su **[!UICONTROL Add New Company]** ed effettuare le seguenti operazioni:
 
@@ -142,6 +143,7 @@ The process of creating a company from the Admin is essentially the same as from
 
       - **[!UICONTROL Website]**
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
       - **[!UICONTROL Send Welcome Email From]**
 
@@ -207,14 +209,14 @@ The process of creating a company from the Admin is essentially the same as from
 
 {style="table-layout:auto"}
 
-## Field descriptions
+## Descrizioni dei campi
 
 | Campo | Descrizione |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | Il nome della società viene immesso al momento della creazione dell&#39;account della società e può essere una versione ridotta della ragione sociale completa. |
-| [!UICONTROL Status] | (Solo amministratore) indica lo stato corrente dell’account aziendale. Opzioni: <br/>**[!UICONTROL Active]**- L&#39;account società è approvato dall&#39;amministratore dello store. The company administrator and associated members can log in the account from the storefront and make purchases.<br/>**[!UICONTROL Pending Approval]** <br/>**[!UICONTROL Rejected]**The initial login credentials that were used to submit the request are blocked.<br/>****The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time. |
-| [!UICONTROL Company Email] | The email address that is associated with the company account. |
-| [!UICONTROL Sales Representative] | (Admin Only) The Admin user who is the primary contact for the company account. |
+| [!UICONTROL Status] | (Solo amministratore) indica lo stato corrente dell’account aziendale. Opzioni: <br/>**[!UICONTROL Active]**- L&#39;account società è approvato dall&#39;amministratore dello store. L’amministratore della società e i membri associati possono accedere all’account dalla vetrina e effettuare acquisti.<br/>**[!UICONTROL Pending Approval]** - Una richiesta di apertura di un account società è stata inviata, ma non è ancora stata approvata dall&#39;amministratore dello store. <br/>**[!UICONTROL Rejected]**- Richiesta di apertura di un account società inviata, ma non approvata dall&#39;amministratore dello store. Le credenziali di accesso iniziali utilizzate per inviare la richiesta sono bloccate.<br/>** Bloccato **- I membri della società possono accedere al catalogo e accedervi, ma non possono effettuare acquisti. L’amministratore dello store potrebbe bloccare un account aziendale che non è in buono stato. Il blocco sull’account può essere rimosso dall’amministratore dello store in qualsiasi momento. |
+| [!UICONTROL Company Email] | L’indirizzo e-mail associato all’account aziendale. |
+| [!UICONTROL Sales Representative] | (Solo amministratore) L’utente amministratore che è il contatto principale per l’account aziendale. |
 
 {style="table-layout:auto"}
 
@@ -234,11 +236,11 @@ The process of creating a company from the Admin is essentially the same as from
 | Campo | Descrizione |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID] | Il numero ID della società. |
-| [!UICONTROL Company Name] | Il nome completo della società. <br/>`current company indicator` |
-| [!UICONTROL Company Email] | The email address that is associated with the company account. |
-| [!UICONTROL Phone Number] | The primary phone number of the company. |
-| [!UICONTROL Country] | The country where the company is registered to conduct business. |
-| [!UICONTROL State/Province] | The state or province where the company is registered to conduct business. |
+| [!UICONTROL Company Name] | Il nome completo della società. <br/>Un `current company indicator` viene visualizzato nella riga società in fase di modifica. |
+| [!UICONTROL Company Email] | L’indirizzo e-mail associato all’account aziendale. |
+| [!UICONTROL Phone Number] | Il numero di telefono principale della società. |
+| [!UICONTROL Country] | Il paese in cui la società è registrata per condurre gli affari. |
+| [!UICONTROL State/Province] | Lo stato o la provincia in cui la società è registrata per condurre affari. |
 | [!UICONTROL City] | La città in cui la società è registrata per condurre gli affari. |
 | [!UICONTROL Group/Shared Catalog] | (Solo amministratore) indica il [gruppo di clienti](../customers/customer-groups.md) o il [catalogo condiviso](catalog-shared.md) assegnato alla società. |
 | [!UICONTROL Company Admin] | Nome completo dell&#39;amministratore della società. |
@@ -265,6 +267,7 @@ The process of creating a company from the Admin is essentially the same as from
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Determina il sito Web a cui appartiene l&#39;amministratore della società. |
 | [!UICONTROL Job Title] | Titolo dell&#39;amministratore della società che gestisce l&#39;account della società. |
+| [!UICONTROL Work Phone Number] | Numero di telefono dell&#39;amministratore della società che gestisce l&#39;account della società. |
 | [!UICONTROL Email] | L’indirizzo e-mail dell’amministratore della società può essere lo stesso dell’indirizzo e-mail della società. Se si immette un indirizzo e-mail diverso, viene creato un account individuale separato per l’amministratore della società, oltre all’account aziendale. |
 | [!UICONTROL Prefix] | Se applicabile, il prefisso associato al nome dell&#39;amministratore della società (ad esempio `Mr.`, `Ms.`, `Mrs.` o `Dr.`). A seconda della configurazione, il campo di input potrebbe essere un campo di testo o un elenco. |
 | [!UICONTROL First Name] | Nome dell&#39;amministratore della società. |
@@ -289,12 +292,12 @@ The process of creating a company from the Admin is essentially the same as from
 
 ### [!UICONTROL Advanced Settings]
 
-| Field | Descrizione |
+| Campo | Descrizione |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Customer Group] | (Solo amministratore) indica il [gruppo di clienti](../customers/customer-groups.md) o il [catalogo condiviso](catalog-shared.md) assegnato alla società. |
 | [!UICONTROL Allow Quotes] | (Solo amministratore) Determina se i membri della società possono preparare e inviare preventivi negoziabili per conto della società. |
 | [!UICONTROL Enable Purchase Orders] | (Solo amministratore) Determina se i membri della società possono inviare ordini come [ordini di acquisto](account-dashboard-my-purchase-orders.md) per conto della società. |
-| Metodi di pagamento applicabili | (Admin Only) Indicates the payment methods that are available for company purchases. `B2B Payment Methods``All Enabled Payment Methods``Selected Payment Methods` |
+| Metodi di pagamento applicabili | (Solo amministratori) indica i metodi di pagamento disponibili per gli acquisti aziendali. Opzioni: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | (Solo amministratori) diventa attivo se sono attivati metodi di pagamento specifici. Per rendere disponibili più metodi di pagamento per l&#39;account aziendale, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e selezionare ciascuna opzione. |
 | [!UICONTROL Applicable Shipping Methods] | (Solo amministratori) indica i metodi di spedizione disponibili per gli acquisti aziendali. Opzioni: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
 | [!UICONTROL Shipping Methods] | (Solo amministratori) diventa attivo se sono attivati metodi di spedizione specifici. Per rendere disponibili più metodi di pagamento per l&#39;account aziendale, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e selezionare ciascuna opzione. |
