@@ -3,9 +3,9 @@ title: Trasferire un account Commerce
 description: Scopri come trasferire il tuo account Commerce a un altro proprietario o indirizzo e-mail.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
+source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -158,6 +158,6 @@ Dopo che il nuovo proprietario ha trasferito correttamente il proprio account di
 
 1. Fare clic su **[!UICONTROL Verify]**.
 
-1. **Invia una richiesta di supporto** per informare il team di supporto che l&#39;indirizzo di posta elettronica del proprietario dell&#39;account è stato aggiornato. Includi nella richiesta l’indirizzo e-mail del proprietario dell’account precedente.
-
-Il supporto dovrà eseguire ulteriori passaggi, ad esempio l&#39;aggiornamento dell&#39;indirizzo di posta elettronica nel profilo [Commerce Marketplace](https://commercemarketplace.adobe.com/).
+>[!IMPORTANT]
+>
+>Invia una richiesta di supporto per informare il team di supporto che hai aggiornato l’indirizzo e-mail del proprietario dell’account. Il team deve eseguire ulteriori passaggi per completare l&#39;aggiornamento, ad esempio aggiornare l&#39;indirizzo di posta elettronica nel profilo [Commerce Marketplace](https://commercemarketplace.adobe.com/). Includi nella richiesta l’indirizzo e-mail del proprietario dell’account precedente.
