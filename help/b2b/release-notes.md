@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] note sulla versione'
 description: Consulta le note sulla versione per informazioni sulle modifiche apportate in  [!DNL Adobe Commerce B2B]  versioni.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
+source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
 workflow-type: tm+mt
-source-wordcount: '7776'
+source-wordcount: '7801'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Queste note sulla versione per l’estensione B2B acquisiscono aggiunte e correz
 Compatibile con Adobe Commerce versioni 2.4.8-beta1, da 2.4.7 a 2.4.7-p2, da 2.4.6 a 2.4.6-p7
 
 La versione 1.5.0 di B2B include nuove funzioni, miglioramenti della qualità e correzioni di bug.
+
+>[!NOTE]
+>
+> Scopri le modifiche non compatibili con le versioni precedenti (BIC) introdotte nella versione 1.5.0 di B2B esaminando gli elementi di rilievo e le informazioni di riferimento nell’argomento [Modifiche non compatibili con le versioni precedenti](backward-incompatible-changes.md).
 
 ### Gestione società
 
