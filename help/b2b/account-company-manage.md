@@ -3,9 +3,9 @@ title: Gestire gli account aziendali
 description: Scopri come gestire gli account aziendali per il tuo store di Adobe Commerce utilizzando la pagina Società e gli strumenti disponibili nella griglia.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
+source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
 workflow-type: tm+mt
-source-wordcount: '2706'
+source-wordcount: '2726'
 ht-degree: 0%
 
 ---
@@ -256,6 +256,7 @@ Le sezioni seguenti forniscono un riferimento per le azioni disponibili, le opzi
 | [!UICONTROL Outstanding Balance] | Saldo rimanente sul conto società. la colonna è vuota se la società non dispone di una cronologia crediti e il limite di credito è zero. |
 | [!UICONTROL Company Admin] | Nome e cognome dell&#39;amministratore della società. |
 | [!UICONTROL Job Title] | Qualifica dell&#39;amministratore della società. |
+| [!UICONTROL Work Phone Number] | Numero di telefono di lavoro dell&#39;amministratore della società. |
 | [!UICONTROL Email] | L’indirizzo e-mail dell’amministratore della società. |
 | [!UICONTROL Action] | **[!UICONTROL Edit]** - Apre l&#39;account società in modalità di modifica. |
 
@@ -347,9 +348,10 @@ Le colonne seguenti sono disponibili modificando il layout [delle colonne](../ge
 #### [!UICONTROL Company Admin]
 
 | Campo | Descrizione |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Imposta l&#39;ambito del [sito Web](../getting-started/websites-stores-views.md) per l&#39;account società. Impostazione predefinita: *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | Titolo dell&#39;amministratore della società che gestisce l&#39;account della società. |
+| [!UICONTROL Work Phone Number] | Numero di telefono dell&#39;amministratore della società che gestisce l&#39;account della società. |
 | [!UICONTROL Email] | L’indirizzo e-mail dell’amministratore della società può essere lo stesso dell’indirizzo e-mail della società. Se si immette un indirizzo e-mail diverso, oltre all&#39;account aziendale viene creato un account individuale separato per l&#39;amministratore della società. |
 | [!UICONTROL Prefix] | Se applicabile, il prefisso associato al nome dell&#39;amministratore della società (ad esempio `Mr.`, `Ms.`, `Mrs.` o `Dr.`). A seconda della configurazione, il campo di input potrebbe essere un campo di testo o un elenco. |
 | [!UICONTROL First Name] | Nome dell&#39;amministratore della società. |
