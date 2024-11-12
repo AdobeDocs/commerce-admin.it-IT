@@ -5,10 +5,10 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 0690430d3c6ac6a58a2ef98045148de8ad6a4bad
+source-git-commit: 39d49ac4efd4d00f0f8d22bf469126b748c08173
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 0%
+source-wordcount: '1565'
+ht-degree: 1%
 
 ---
 
@@ -49,6 +49,14 @@ _30 maggio 2023_
 ![Nuovo](../assets/new.svg) - È stato aggiornato il [dashboard Tipi di pubblico di Real-Time CDP](#real-time-cdp-audiences-dashboard) per includere la possibilità di ordinare, cercare e filtrare i tipi di pubblico attivi nell&#39;istanza di Adobe Commerce.
 
 +++
+
+### 2.3.1.
+
+[!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
+
+_12 novembre 2024_
+
+![Correzione](../assets/fix.svg) - È stato risolto un problema che si verificava quando si filtravano i tipi di pubblico di Real-Time CDP disponibili tra cui scegliere.
 
 ### 2.3.0.
 
