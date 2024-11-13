@@ -3,16 +3,16 @@ title: Personalizzare i modelli e-mail
 description: Scopri come personalizzare i modelli e-mail per ogni visualizzazione di siti web, store o store.
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # Personalizzare i modelli e-mail
 
-Commerce include un modello e-mail predefinito per la sezione del corpo di ogni messaggio inviato dal sistema. Per creare il messaggio completo, il modello per il contenuto del corpo viene combinato con i modelli di intestazione e piè di pagina. Il contenuto è formattato con HTML e CSS e può essere facilmente modificato e personalizzato aggiungendo [variabili](variables-predefined.md) e [widget](../content-design/widgets.md). I modelli e-mail possono essere personalizzati per ogni sito web, store o visualizzazione store. Se utilizzi modelli personalizzati, assicurati di aggiornare la [configurazione di sistema](email-templates.md#configure-email-templates) per garantire che venga utilizzato il modello corretto.
+Commerce include un modello e-mail predefinito per la sezione del corpo di ogni messaggio inviato dal sistema. Per creare il messaggio completo, il modello per il contenuto del corpo viene combinato con i modelli di intestazione e piè di pagina. Il contenuto è formattato con HTML e CSS e può essere facilmente modificato e personalizzato aggiungendo [variabili](variables-predefined.md). I modelli e-mail possono essere personalizzati per ogni sito web, store o visualizzazione store. Se utilizzi modelli personalizzati, assicurati di aggiornare la [configurazione di sistema](email-templates.md#configure-email-templates) per garantire che venga utilizzato il modello corretto. Per informazioni su come utilizzare le istruzioni condizionali nella personalizzazione del modello e-mail, consulta la [documentazione per gli sviluppatori](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1).
 
 ![Esempio - anteprima e-mail di benvenuto](./assets/email-template-preview.png){width="500" zoomable="yes"}
 
