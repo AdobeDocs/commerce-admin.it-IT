@@ -3,7 +3,7 @@ title: Proprietà degli attributi del cliente
 description: Scopri come configurare le proprietà degli attributi del cliente.
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Gli attributi del cliente forniscono le informazioni necessarie per supportare i
      | Tipo | Descrizione |
      |----|-----------|
      | `Text Field` | Campo di testo a riga singola. |
-     | `Text Area` | Campo di input a più righe per l&#39;immissione di paragrafi di testo, ad esempio la descrizione di un prodotto. È possibile utilizzare l&#39;editor WYSIWYG per formattare il testo con tag HTML o immettere i tag direttamente nel testo. |
+     | `Text Area` | Campo di input a più righe per l&#39;immissione di paragrafi di testo, ad esempio la descrizione di un prodotto. È possibile utilizzare l’editor di WYSIWYG per formattare il testo con i tag HTML o immettere i tag direttamente nel testo. |
      | `Multiple Line` | Crea più righe di testo per l&#39;attributo, in modo simile a un indirizzo stradale con più righe. Il numero di righe di immissione dati separate può essere compreso tra due e 20. Utilizzare `Default Value` per specificare il valore iniziale del campo. |
      | `Date` | Visualizza un valore di data nel formato di data e fuso orario preferiti. I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_**a seconda della configurazione del sistema, gli utenti di_Amministrazione _possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Visualizza un elenco a discesa con opzioni predefinite di `Yes` e `No`. |
@@ -171,4 +171,4 @@ Gli attributi del cliente forniscono le informazioni necessarie per supportare i
 
 Per una dimostrazione della creazione degli attributi del cliente, guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)

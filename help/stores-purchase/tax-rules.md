@@ -3,7 +3,7 @@ title: Regole fiscali
 description: Scopri come definire le regole fiscali utilizzando la classe di prodotto, la classe di cliente e l’aliquota.
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -96,4 +96,4 @@ Le regole fiscali includono una combinazione di classe di prodotto, classe di cl
 
 Scopri come gestire la valuta e le regole fiscali guardando questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)

@@ -2,7 +2,7 @@
 title: Introduzione ai negozi ed esperienza di acquisto
 description: Scopri le funzioni utilizzate per creare e gestire i negozi online e l’esperienza di acquisto per i clienti.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -39,7 +39,7 @@ I clienti a volte hanno bisogno di assistenza per completare un acquisto. Ad alc
 
 Guarda questo video per scoprire cosa sono gli acquisti assistiti dal venditore:
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## Gestione degli ordini e operazioni
 

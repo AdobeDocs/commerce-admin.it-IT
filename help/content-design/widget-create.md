@@ -2,7 +2,7 @@
 title: Creare e gestire i widget
 description: Scopri come creare e gestire i widget che aggiornano automaticamente i contenuti nel tuo store.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Le opzioni per ogni tipo di widget variano leggermente, ma il processo è sostan
 
 Per informazioni sulla creazione di widget, guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
 
 ## Modificare un widget
 

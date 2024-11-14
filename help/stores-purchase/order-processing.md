@@ -3,7 +3,7 @@ title: Flusso di lavoro ed elaborazione degli ordini
 description: Scopri il flusso di lavoro degli ordini, lo stato applicato a ogni passaggio e come spostare gli ordini attraverso questo processo.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -230,4 +230,4 @@ Nella sezione **[!UICONTROL Order Total]** eseguire le operazioni seguenti:
 
 Guarda questo video e scopri di più sull’elaborazione e lo stato degli ordini:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

@@ -3,7 +3,7 @@ title: ' [!DNL Media Gallery]'
 description: Utilizzare la Raccolta file multimediali per organizzare e gestire i file multimediali sul server.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -64,13 +64,13 @@ Per accedere alla nuova Raccolta multimediale durante l&#39;aggiunta o la modifi
 
      ![Trascina immagine nell&#39;area di visualizzazione](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
-   - Se l&#39;editor [WYSIWYG è abilitato](/help/content-design/editor.md), fare clic su **[!UICONTROL Show/Hide Editor]** e quindi su **[!UICONTROL Insert Image]**.
+   - Se l&#39;editor di WYSIWYG [è abilitato](/help/content-design/editor.md), fare clic su **[!UICONTROL Show/Hide Editor]** e quindi su **[!UICONTROL Insert Image]**.
 
 ## Demo di [!DNL Media Gallery]
 
 Per ulteriori informazioni su [!DNL Media Gallery], guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

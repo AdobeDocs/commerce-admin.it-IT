@@ -2,7 +2,7 @@
 title: Scorte e fonti
 description: Scopri le relazioni tra prodotti, origini e stock.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Di seguito sono riportate alcune opzioni importanti da comprendere per [!DNL Inv
 
 Guarda questo video per scoprire le origini e le scorte di Inventory management:
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

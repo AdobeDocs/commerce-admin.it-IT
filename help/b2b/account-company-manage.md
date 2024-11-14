@@ -3,7 +3,7 @@ title: Gestire gli account aziendali
 description: Scopri come gestire gli account aziendali per il tuo store di Adobe Commerce utilizzando la pagina Società e gli strumenti disponibili nella griglia.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '2726'
 ht-degree: 0%
@@ -208,7 +208,7 @@ Il profilo aziendale può essere gestito dalla vetrina dall’amministratore del
 
 Per scoprire come gestire gli account aziendali, guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Gestione società
 
