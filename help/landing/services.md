@@ -3,7 +3,8 @@ title: Servizi SaaS Commerce
 description: Scopri i servizi SaaS di Commerce disponibili per estendere le funzionalità della vetrina Commerce
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Adobe fornisce una raccolta di servizi Commerce, servizi di integrazione e strum
 
 ![Ricerca](../landing/assets/icon-magnify.svg){width="40"}**[Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**—Implementa uno strumento di ricerca basato sull&#39;intelligenza artificiale che fornisca risultati più intelligenti, veloci e rilevanti per gli acquirenti B2C.
 
-![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Recommendations del prodotto](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**—Aggiungi consigli basati sull&#39;intelligenza artificiale in base al comportamento degli acquirenti, alle tendenze popolari, alla somiglianza dei prodotti e altro ancora.
+![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Recommendations del prodotto](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**—Aggiungi consigli basati sull&#39;intelligenza artificiale in base al comportamento degli acquirenti, alle tendenze popolari, alla somiglianza dei prodotti e altro ancora.
 
 ![Dati del catalogo per i servizi connessi](../landing/assets/icon-data-book.svg){width="40"}**[Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**—Offri ai tuoi clienti un&#39;esperienza di prodotto ottimizzata migliorando le prestazioni, la scalabilità e le conversioni.
 

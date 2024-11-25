@@ -3,7 +3,7 @@ title: Condividi un account  [!DNL Commerce]
 description: Scopri come concedere un accesso limitato al tuo account [!DNL Commerce] per altri [!DNL Commerce] titolari di account.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -91,11 +91,11 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 
    ![Supporto](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   È possibile utilizzare il [Centro assistenza Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) dell&#39;account condiviso per cercare articoli e informazioni sulla risoluzione dei problemi, trovare patch per i problemi noti e creare ticket di supporto.
+   È possibile utilizzare il [Centro assistenza Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) dell&#39;account condiviso per cercare articoli e informazioni sulla risoluzione dei problemi, trovare patch per i problemi noti e creare ticket di supporto.
 
    >[!NOTE]
    >
-   >Dopo aver ricevuto l&#39;accesso condiviso, l&#39;utente deve accedere al proprio [[!DNL Commerce] account](https://account.magento.com/customer/account/login), passare a _Accesso condiviso_ e fare clic sulla scheda **[!UICONTROL Support]**. Questa azione è necessaria solo la prima volta per assicurarsi che la Knowledge Base [Adobe Commerce Support](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) sia configurata correttamente tramite la chiamata `SSO`.
+   >Dopo aver ricevuto l&#39;accesso condiviso, l&#39;utente deve accedere al proprio [[!DNL Commerce] account](https://account.magento.com/customer/account/login), passare a _Accesso condiviso_ e fare clic sulla scheda **[!UICONTROL Support]**. Questa azione è necessaria solo la prima volta per assicurarsi che la Knowledge Base [Adobe Commerce Support](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) sia configurata correttamente tramite la chiamata `SSO`.
 
 1. Per tornare al tuo account, fai clic su **Indietro** nei controlli del browser e imposta **[!UICONTROL Switch Accounts]** su `My Account`.
 
@@ -113,11 +113,11 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
    > 
    > In tal caso, chiedere al proprietario dell&#39;account di modificare l&#39;account di Accesso condiviso per annullare le autorizzazioni dell&#39;account. Dopo tale aggiornamento, l’utente non può accedere ad alcuna risorsa dell’account.
    >
-   > Inoltre, assicurati che gli utenti vengano rimossi dal progetto in modo che non ricevano più le notifiche e-mail: [Gli ex membri del team ricevono le e-mail di notifica cloud di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > Inoltre, assicurati che gli utenti vengano rimossi dal progetto in modo che non ricevano più le notifiche e-mail: [Gli ex membri del team ricevono le e-mail di notifica cloud di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->Non puoi eliminare utenti con il nome di condivisione di _Cloud Shared Access da MAG[XYZ]_ in questa interfaccia. Vedi [Come eliminare gli utenti a cui è stato concesso l&#39;accesso condiviso tramite un progetto Cloud?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).
+>Non puoi eliminare utenti con il nome di condivisione di _Cloud Shared Access da MAG[XYZ]_ in questa interfaccia. Vedi [Come eliminare gli utenti a cui è stato concesso l&#39;accesso condiviso tramite un progetto Cloud?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).

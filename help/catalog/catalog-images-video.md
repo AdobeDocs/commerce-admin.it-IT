@@ -3,9 +3,9 @@ title: Immagini e video del catalogo
 description: Scopri come utilizzare i media digitali per migliorare le pagine dei prodotti di catalogo e fornire elementi visivi ai clienti.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ Esistono molte caselle di luce e cursori di terze parti che puoi utilizzare per 
 Per assistenza nella risoluzione dei problemi relativi a immagini e video, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
 - [Dopo l&#39;installazione, le immagini e i fogli di stile non vengono caricati; vengono visualizzati solo testo, nessuna grafica](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [Problemi relativi alla gestione delle immagini dei prodotti tramite API REST](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.html)
-- [Immagini .csv di importazione prodotti duplicate](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
+mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
 - [Le immagini del prodotto non vengono visualizzate nonostante i ruoli immagine di modifica prodotto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [Immagini dello store non visualizzate dopo la distribuzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)

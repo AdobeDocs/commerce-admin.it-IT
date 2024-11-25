@@ -3,9 +3,9 @@ title: FedEx
 description: Scopri come impostare FedEx come vettore di spedizione per il tuo negozio.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ FedEx è una delle più grandi società di servizi di trasporto marittimo al mon
 
 ## Fase 1: Registrati per la produzione di servizi Web FedEx
 
-Sono necessari un account commerciante [FedEx][1] e la registrazione per l&#39;accesso alla produzione dei servizi Web FedEx. Dopo aver creato un account FedEx, leggere la pagina delle informazioni dell&#39;account di produzione, quindi fare clic sul collegamento _Ottieni chiave di produzione_ nella parte inferiore della pagina per registrarsi e ottenere una chiave.
+Sono necessari un account commerciante FedEx e la registrazione per l&#39;accesso alla produzione dei servizi Web FedEx. Dopo aver creato un account FedEx, leggere la pagina delle informazioni dell&#39;account di produzione, quindi fare clic sul collegamento _Ottieni chiave di produzione_ nella parte inferiore della pagina per registrarsi e ottenere una chiave.
 
 >[!NOTE]
 >
@@ -159,5 +159,3 @@ Sono necessari un account commerciante [FedEx][1] e la registrazione per l&#39;a
 >[!NOTE]
 >
 >Commerce dichiara sempre il prezzo dell&#39;ordine completo a FedEx durante il calcolo delle spese di spedizione. Questo comportamento non può essere modificato.
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

@@ -3,9 +3,9 @@ title: Dettagli store
 description: Scopri come aggiornare le informazioni di base per il tuo store.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,6 @@ Le opzioni per paese identificano il paese in cui è situata la tua azienda e i 
 Per informazioni sulla risoluzione dei problemi di configurazione del paese, vedere i seguenti articoli della Knowledge Base di supporto di [!DNL Commerce]:
 
 - [Come aggiungere un paese](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
-- [Il countryId fornito non esiste](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 
@@ -324,7 +323,7 @@ I dati di esempio Luma includono un blocco _Contact Us Info_ che può essere per
 
 >[!IMPORTANT]
 >
->A partire dalla versione 2.4.0, il modulo di contatto non può più chiamare all’interno di un blocco CMS o di una pagina CMS. Tutte le personalizzazioni del modulo del contatto devono essere eseguite utilizzando modelli XML layout o modelli di tema personalizzati.
+>A partire dalla versione 2.4.0, il modulo di contatto non può più richiamare all’interno di un blocco CMS o di una pagina CMS. Tutte le personalizzazioni del modulo del contatto devono essere eseguite utilizzando modelli XML layout o modelli di tema personalizzati.
 
 Per impostazione predefinita, gli acquirenti accedono al modulo del contatto utilizzando il _collegamento di contatto_ nel piè di pagina delle pagine della vetrina. Per ulteriori informazioni sulla personalizzazione della pagina dei contatti, consultare la [Guida per gli sviluppatori di FrontEnd][theme-guide].
 

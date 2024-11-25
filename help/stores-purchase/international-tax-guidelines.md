@@ -3,9 +3,9 @@ title: Linee guida fiscali per paese
 description: Rivedi le impostazioni fiscali consigliate in base al paese.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Queste impostazioni consigliate possono essere utilizzate per la maggior parte d
 
 >[!IMPORTANT]
 >
->I commercianti che si trovano in una provincia GST/PST (Montreal) devono creare una regola fiscale unica e mostrare un importo di imposta combinato. In caso di domande, rivolgiti a un’autorità fiscale qualificata. Per informazioni sui requisiti fiscali di province specifiche, vedere: [Revenu Québec][1], [Government of Saskatchewan][2] e [Manitoba Information for Vendors][3]
+>I commercianti che si trovano in una provincia GST/PST (Montreal) devono creare una regola fiscale unica e mostrare un importo di imposta combinato. In caso di domande, rivolgiti a un’autorità fiscale qualificata.
 
 | Opzione imposta | Consiglio |
 |--- |--- |
@@ -411,14 +411,10 @@ Completa le seguenti impostazioni fiscali generali:
 
       - Paese predefinito
       - Stato predefinito
-      - Codice Post predefinito
+      - Codice postale predefinito
 
      Questa impostazione garantisce che l&#39;imposta venga calcolata correttamente quando i prezzi dei prodotti includono l&#39;imposta.
 
      ![Calcolo destinazione imposta predefinita](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf

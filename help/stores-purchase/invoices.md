@@ -3,9 +3,9 @@ title: Fatture
 description: Scopri come creare e stampare fatture per supportare l’elaborazione degli ordini e le operazioni di assistenza clienti.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -148,15 +148,5 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
    ![Stampa più fatture](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 Le fatture vengono salvate in un unico file PDF che può essere inviato a una stampante o salvato.
-
-## Risorse per la risoluzione dei problemi
-
-Per informazioni sulla risoluzione dei problemi relativi alle fatture, vedere i seguenti _articoli della Knowledge Base del supporto Commerce_:
-
-- [Impossibile fatturare prodotti bundle virtuali e semplici](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
-- [Fattura senza informazioni sul credito dell&#39;archivio](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
-- [L&#39;imposta viene visualizzata sulla fattura con uno sconto del 100%](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
-- [Le fatture degli ordini non vengono inviate automaticamente](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
-
 
 [1]: https://www.adobe.com/acrobat/pdf-reader.html "Scarica Adobe Reader"
