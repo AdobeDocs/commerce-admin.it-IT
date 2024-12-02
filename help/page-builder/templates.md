@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Page Builder] Modelli'
+title: '[!DNL Page Builder] modelli'
 description: Scopri come salvare il contenuto  [!DNL Page Builder]  esistente come modello e quindi applicare il modello a un'altra area.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content

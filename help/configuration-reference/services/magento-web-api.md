@@ -56,7 +56,7 @@ ht-degree: 1%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Allow Anonymous Guest Access] | Globale | Determina se gli ospiti di possono accedere in modo anonimo a CMS, catalogare e archiviare risorse dalle API SOAP e REST. Per impostazione predefinita, l&#39;accesso come ospite anonimo non è consentito. Opzioni: `Yes` / `No` |
+| [!UICONTROL Allow Anonymous Guest Access] | Globale | Determina se gli ospiti di possono accedere in modo anonimo a CMS, catalogare e archiviare le risorse di entrambe le API SOAP e REST. Per impostazione predefinita, l&#39;accesso come ospite anonimo non è consentito. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

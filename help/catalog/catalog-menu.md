@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Catalog] menu'
+title: Menu [!UICONTROL Catalog]
 description: Utilizza il menu [!UICONTROL Catalog] per accedere agli strumenti di creazione prodotti, categoria e gestione inventari.
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74

@@ -1,5 +1,5 @@
 ---
-title: "Configura [!DNL Inventory Management] opzioni globali"
+title: Configura [!DNL Inventory Management] opzioni globali
 description: Scopri come configurare le opzioni di configurazione  [!DNL Inventory Management]  predefinite per prodotto e stock per i siti web.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration

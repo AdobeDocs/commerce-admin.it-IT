@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Marketing] menu'
+title: Menu [!UICONTROL Marketing]
 description: L'amministratore di Commerce include il menu [!UICONTROL Marketing], che fornisce gli strumenti di accesso per la gestione di promozioni, comunicazioni, SEO e contenuti generati dagli utenti.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27

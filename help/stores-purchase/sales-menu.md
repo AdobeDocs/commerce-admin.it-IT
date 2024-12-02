@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Sales] menu'
+title: Menu [!UICONTROL Sales]
 description: L'amministratore di Commerce include il menu [!UICONTROL Sales], che fornisce l'accesso agli strumenti per l'utilizzo degli ordini in base alla posizione all'interno del flusso di lavoro.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74

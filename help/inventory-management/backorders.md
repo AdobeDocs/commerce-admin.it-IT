@@ -1,5 +1,5 @@
 ---
-title: "Configura  [!DNL Inventory Management] ordini arretrati"
+title: Configura  [!DNL Inventory Management]  ordini inevasi
 description: Scopri come configurare gli ordini inevasi per supportare la vendita di prodotti esauriti.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders

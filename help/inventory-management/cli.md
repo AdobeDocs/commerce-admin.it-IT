@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Inventory Management] riferimento CLI'
+title: Riferimento CLI [!DNL Inventory Management]
 description: Scopri i comandi forniti dal modulo  [!DNL Inventory Management]  per gestire i dati di inventario e le impostazioni di configurazione.
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced

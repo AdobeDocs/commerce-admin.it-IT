@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Stores] menu'
+title: Menu [!UICONTROL Stores]
 description: L'amministratore di Commerce include il menu [!UICONTROL Stores], che fornisce l'accesso agli strumenti per l'impostazione della gerarchia del punto vendita, la configurazione, l'inventario, le imposte e gli attributi.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a

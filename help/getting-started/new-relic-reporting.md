@@ -1,5 +1,5 @@
 ---
-title: '[!DNL New Relic] reporting'
+title: Generazione rapporti di [!DNL New Relic]
 description: Scopri il  [!DNL New Relic] reporting disponibile per gli account di Adobe Commerce sull'infrastruttura cloud, che include il software per il servizio New Relic APM.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader

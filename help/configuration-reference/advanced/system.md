@@ -153,11 +153,11 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Backup
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Globale | Determina se l’istanza di Commerce consente i backup. Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Globale | (visualizzato quando _[!UICONTROL Enable Backup]_è impostato su `Yes`.) Determina se il backup dell&#39;istanza di Commerce viene eseguito automaticamente secondo una pianificazione regolare. Opzioni: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Globale | (visualizzato quando _[!UICONTROL Enable Scheduled Backup]_è impostato su `Yes`.) Determina gli elementi dell&#39;istanza Commerce inclusi nel backup. Opzioni: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Globale | (visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Specifica l&#39;ora, il minuto e il secondo di inizio del backup pianificato. |
-| [!UICONTROL Frequency] | Globale | (visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Determina la frequenza con cui viene eseguito il backup pianificato. Opzioni: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Globale | (visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Determina se l&#39;archivio viene messo in modalità di manutenzione durante il backup pianificato. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Globale | (Visualizzato quando _[!UICONTROL Enable Backup]_è impostato su `Yes`.) Determina se il backup dell&#39;istanza di Commerce viene eseguito automaticamente secondo una pianificazione regolare. Opzioni: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Globale | (Visualizzato quando _[!UICONTROL Enable Scheduled Backup]_è impostato su `Yes`.) Determina gli elementi dell&#39;istanza di Commerce inclusi nel backup. Opzioni: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | Globale | (Visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Specifica l&#39;ora, il minuto e il secondo di inizio del backup pianificato. |
+| [!UICONTROL Frequency] | Globale | (Visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Determina la frequenza con cui viene eseguito il backup pianificato. Opzioni: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Globale | (Visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Determina se l&#39;archivio viene messo in modalità di manutenzione durante il backup pianificato. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

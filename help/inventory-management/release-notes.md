@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Inventory Management] note sulla versione'
+title: Note sulla versione di [!DNL Inventory Management]
 description: Consulta le note sulla versione per informazioni su tutte le  [!DNL Inventory Management]  versioni.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes

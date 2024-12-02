@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] Workspace
 
-Quando [[!DNL Page Builder] è abilitato](setup.md), la sezione _[!UICONTROL Content]_e il processo di creazione dei contenuti vengono modificati per sfruttare gli strumenti avanzati [!DNL Page Builder] per le [pagine](../content-design/page-add.md), [prodotto](../catalog/product-content.md) e [categoria](../catalog/categories-content-settings.md) pagine, [blocchi](../content-design/block-add.md) e [blocchi dinamici](../content-design/dynamic-blocks.md) CMS. Questa sezione include un campo_ Intestazione contenuto _, un&#39;anteprima del contenuto e un accesso semplificato all&#39;area di lavoro [!DNL Page Builder] a schermo intero.
+Quando [[!DNL Page Builder] è abilitato](setup.md), la sezione _[!UICONTROL Content]_e il processo di creazione dei contenuti vengono modificati per sfruttare gli strumenti avanzati [!DNL Page Builder] per le [pagine](../content-design/page-add.md), [prodotto](../catalog/product-content.md) e [categoria](../catalog/categories-content-settings.md) pagine, [blocchi](../content-design/block-add.md) e [blocchi dinamici](../content-design/dynamic-blocks.md) di CMS. Questa sezione include un campo_ Intestazione contenuto _, un&#39;anteprima del contenuto e un accesso semplificato all&#39;area di lavoro [!DNL Page Builder] a schermo intero.
 
 ![Sezione contenuto con [!DNL Page Builder] anteprima](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 

@@ -1,5 +1,5 @@
 ---
-title: Guida di '[!DNL Adobe Commerce B2B]'
+title: Guida [!DNL Adobe Commerce B2B]
 description: Informazioni complete per  [!DNL Adobe Commerce B2B]  amministratori, incluse l'installazione e la configurazione.
 breadcrumb-title: Panoramica della guida
 seo-title: '[!DNL Adobe Commerce B2B] Guide'
@@ -9,7 +9,7 @@ feature: B2B
 source-git-commit: b30790b252bcab38c4d0372d5d5bd0d5b6f41a07
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

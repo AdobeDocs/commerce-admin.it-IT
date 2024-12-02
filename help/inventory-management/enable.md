@@ -1,5 +1,5 @@
 ---
-title: "Abilita  [!DNL Inventory Management]"
+title: Abilita  [!DNL Inventory Management]
 description: Scopri come abilitare  [!DNL Inventory Management]  a livello di store globale o prodotto.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration

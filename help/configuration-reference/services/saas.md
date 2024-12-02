@@ -55,6 +55,6 @@ Per informazioni su come connettere il tuo archivio ai servizi Adobe Commerce, c
 
 | Campo | Descrizione |
 |--- |--- |
-| [!UICONTROL Sign in using Adobe ID] | Il tuo Adobe ID è in genere l’indirizzo e-mail utilizzato per la prima volta quando hai iniziato a iscriverti o acquistato un’applicazione o un servizio di Adobe. Il tuo Adobe ID è la chiave di cui hai bisogno per accedere al tuo account di Adobe. |
+| [!UICONTROL Sign in using Adobe ID] | Il tuo Adobe ID è in genere l’indirizzo e-mail utilizzato per la prima volta quando hai iniziato a iscriverti o acquistato un’applicazione o un servizio Adobe. Il tuo Adobe ID è la chiave di cui hai bisogno per accedere al tuo account Adobe. |
 
 {style="table-layout:auto"}

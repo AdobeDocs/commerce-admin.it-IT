@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Page Builder] Procedura dettagliata parte 3: contenuto catalogo'
+title: '[!DNL Page Builder] Procedura dettagliata parte 3: contenuto del catalogo'
 description: Scopri come aggiungere un elenco di prodotti a una pagina  [!DNL Page Builder] .
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
@@ -256,7 +256,7 @@ In questo passaggio verranno creati due nuovi attributi personalizzati per mostr
 
    Nella parte superiore della sezione sono disponibili due attributi standard per il contenuto del prodotto:
 
-   - _Descrizione breve_, che utilizza l&#39;editor [WYSIWYG standard](../content-design/editor.md).
+   - _Descrizione breve_, che utilizza l&#39;editor [standard](../content-design/editor.md) di WYSIWYG.
    - _Descrizione_, che visualizza l&#39;anteprima di [!DNL Page Builder].
 
    ![Contenuto prodotto](./assets/pb-product-content-edit-with-page-builder.png){width="600" zoomable="yes"}
@@ -264,7 +264,7 @@ In questo passaggio verranno creati due nuovi attributi personalizzati per mostr
    Mentre scorri verso la metà inferiore della sezione, sono presenti i due attributi creati e assegnati:
 
    - _Il mio attributo [!DNL Page Builder]_, che visualizza l&#39;anteprima di [!DNL Page Builder].
-   - _Attributo My Text Editor_, che utilizza l&#39;editor WYSIWYG standard.
+   - _Attributo editor testo_, che utilizza l&#39;editor standard di WYSIWYG.
 
    ![Modifica del contenuto del prodotto](./assets/pb-product-content-my-attributes.png){width="600" zoomable="yes"}
 
