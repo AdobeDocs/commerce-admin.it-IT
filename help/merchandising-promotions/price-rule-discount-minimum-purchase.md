@@ -1,20 +1,20 @@
 ---
-title: 'Esempio di regola prezzo carrello: sconto con acquisto minimo'
-description: Rivedi un esempio di utilizzo di una regola di prezzo del carrello per offrire uno sconto con un acquisto minimo.
+title: 'Esempio di regola prezzo carrello: sconto con prezzo minimo del prodotto'
+description: Rivedi un esempio di utilizzo di una regola di prezzo del carrello per offrire uno sconto con un prezzo del prodotto minimo.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Esempio di regola prezzo carrello: sconto con acquisto minimo
 
-Le regole di prezzo del carrello possono essere utilizzate per offrire uno sconto percentuale in base a un acquisto minimo. Nell&#39;esempio seguente, viene applicato uno sconto del 25% a tutti gli acquisti superiori a $ 200,00 in una categoria specifica. Il formato dello sconto è il seguente:
+Le regole di prezzo del carrello possono essere utilizzate per offrire uno sconto percentuale basato su un prezzo prodotto minimo nel carrello. Nell’esempio seguente, uno sconto del 10% viene applicato a tutti i prodotti nell’intero carrello quando almeno 1 prodotto con un prezzo superiore a $ 30,00 da una categoria specificata viene aggiunto al carrello. Il formato dello sconto è il seguente:
 
-X% di sconto su tutte le Y (categoria) superiori a $ Z dollari
+X% intero carrello spento quando almeno 1 prodotto è dalla categoria Y e il suo prezzo è superiore a $ Z dollari.
 
 ## Passaggio 1: Creare una regola del carrello
 
