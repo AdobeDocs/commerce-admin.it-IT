@@ -3,9 +3,9 @@ title: Preparazione HIPAA su Adobe Commerce
 description: Scopri come aggiungere l’estensione compatibile con HIPAA di Adobe Commerce e ottenere funzioni e funzionalità aggiuntive per rispettare gli obblighi HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: dd97177836f5795f64e04665acdf8c1baa777465
+source-git-commit: c74d05e4a26f46f1aca5d82936a4bb61f8764084
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1598'
 ht-degree: 1%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Dichiarazione di non responsabilità**<br/>
->Queste informazioni hanno lo scopo di aiutare i clienti Adobi a rispondere alle loro domande sui servizi compatibili con HIPAA di Adobe. Non si tratta di una consulenza legale. Gli esercenti devono consultare il proprio consulente legale per comprendere i propri obblighi ai sensi dell&#39;HIPAA e l&#39;uso e la configurazione appropriati dei prodotti Adobe.
+>Queste informazioni hanno lo scopo di aiutare i clienti di Adobe a rispondere alle loro domande sui servizi compatibili con HIPAA di Adobe. Non si tratta di una consulenza legale. Gli esercenti devono consultare il proprio consulente legale per comprendere i propri obblighi in base all’HIPAA e l’uso e la configurazione appropriati dei prodotti Adobe.
 
 >[!BEGINSHADEBOX]
 
 **Legge sulla portabilità e responsabilità dell&#39;assicurazione sanitaria (HIPAA)**
 
-Il Health Insurance Portability and Accountability Act (HIPAA) è la principale legge federale sulla privacy sanitaria negli Stati Uniti ed è applicato dal Dipartimento della Salute e dei Servizi Umani (HHS). HIPAA si applica a _Entità coperte_ (come fornitori di assistenza sanitaria, assicuratori e stanze di compensazione) e _Associati commerciali_ (come le entità che forniscono servizi alle entità coperte). I requisiti HIPAA sono impostati in tre regole separate: Regola di privacy, Regola di sicurezza e Regola di notifica delle violazioni. Adobe funge da Business Associate per alcuni prodotti, che Adobe classifica come &quot;HIPAA-Ready Services&quot;. I dati regolamentati da HIPAA sono denominati _Informazioni sanitarie protette_ o PHI. Il PHI è un sottoinsieme di informazioni sulla salute che (1) è creato o ricevuto da un operatore sanitario, un piano sanitario o un centro di assistenza sanitaria, (2) si riferisce alla salute fisica o mentale o alle condizioni di un individuo passate, presenti o future, alla fornitura di assistenza sanitaria a un individuo, o al pagamento passato, presente o futuro per la fornitura di assistenza sanitaria a un individuo, e (3) identifica l&#39;individuo o in relazione al quale vi è una base ragionevole per credere che le informazioni possano essere utilizzate per identificare l&#39;individuo. Le Regole sulla privacy e sulla sicurezza HIPAA richiedono che un&#39;entità coperta ottenga garanzie scritte da un associato commerciale sotto forma di un Contratto di associazione commerciale (Business Associate Agreement, BAA), che richiedano all&#39;associato commerciale di salvaguardare la privacy e la sicurezza del PHI dellʼentità coperta. Per ulteriori informazioni, vedere [HIPAA e Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) nel Centro protezione Adobe.
+Il Health Insurance Portability and Accountability Act (HIPAA) è la principale legge federale sulla privacy sanitaria negli Stati Uniti ed è applicato dal Dipartimento della Salute e dei Servizi Umani (HHS). HIPAA si applica a _Entità coperte_ (come fornitori di assistenza sanitaria, assicuratori e stanze di compensazione) e _Associati commerciali_ (come le entità che forniscono servizi alle entità coperte). I requisiti HIPAA sono impostati in tre regole separate: Regola di privacy, Regola di sicurezza e Regola di notifica delle violazioni. Adobe funge da Business Associate per alcuni prodotti, che Adobe classifica come &quot;HIPAA-Ready Services&quot;. I dati regolamentati da HIPAA sono denominati _Informazioni sanitarie protette_ o PHI. Il PHI è un sottoinsieme di informazioni sulla salute che (1) è creato o ricevuto da un operatore sanitario, un piano sanitario o un centro di assistenza sanitaria, (2) si riferisce alla salute fisica o mentale o alle condizioni di un individuo passate, presenti o future, alla fornitura di assistenza sanitaria a un individuo, o al pagamento passato, presente o futuro per la fornitura di assistenza sanitaria a un individuo, e (3) identifica l&#39;individuo o in relazione al quale vi è una base ragionevole per credere che le informazioni possano essere utilizzate per identificare l&#39;individuo. Le Regole sulla privacy e sulla sicurezza HIPAA richiedono che un&#39;entità coperta ottenga garanzie scritte da un associato commerciale sotto forma di un Contratto di associazione commerciale (Business Associate Agreement, BAA), che richiedano all&#39;associato commerciale di salvaguardare la privacy e la sicurezza del PHI dellʼentità coperta. Per ulteriori informazioni, vedere [HIPAA e Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) nel Centro protezione di Adobe.
 
 >[!ENDSHADEBOX]
 
@@ -29,17 +29,17 @@ Il Health Insurance Portability and Accountability Act (HIPAA) è la principale 
 
 L’estensione Adobe Commerce HIPAA-Ready aggiunge ulteriori funzioni e funzionalità alle installazioni di Adobe Commerce che consentono ai commercianti di rispettare i rispettivi obblighi HIPAA.
 
-L&#39;estensione compatibile con HIPAA di Adobe Commerce, `magento/hipaa-ee`, è disponibile per Adobe Commerce su infrastrutture cloud o progetti Adobe Managed Services. Il processo di installazione compatibile con HIPAA di Adobe Commerce disabilita alcuni servizi e funzionalità nativi per soddisfare i requisiti HIPAA. Consulta [Servizi e funzionalità disabilitati](#disabled-services-and-features).
+L&#39;estensione compatibile con HIPAA di Adobe Commerce, `magento/hipaa-ee`, è disponibile per Adobe Commerce su infrastrutture cloud o progetti Managed Services di Adobe. Il processo di installazione compatibile con HIPAA di Adobe Commerce disabilita alcuni servizi e funzionalità nativi per soddisfare i requisiti HIPAA. Consulta [Servizi e funzionalità disabilitati](#disabled-services-and-features).
 
 >[!NOTE]
 >
 >L’accesso alle funzionalità pronte per l’HIPAA è disponibile solo per i commercianti che hanno acquistato il componente aggiuntivo per il servizio sanitario per Adobe Commerce.
 
-*Questi materiali sono esclusivamente a scopo informativo. La comunicazione di tali informazioni non conferisce al destinatario alcun diritto contrattuale o di altro tipo. Sebbene siano stati compiuti sforzi per garantire l&#39;accuratezza delle informazioni alla data in cui sono state fornite, non viene fornita alcuna dichiarazione che tali informazioni siano esatte e complete. Adobe non si assume alcun obbligo di aggiornare queste informazioni in seguito al cambiamento della normativa o dei prodotti Adobe. Inoltre, questo documento non può essere distribuito ad altre parti che non siano il destinatario previsto senza il consenso scritto di Adobe.*
+*Questi materiali sono esclusivamente a scopo informativo. La comunicazione di tali informazioni non conferisce al destinatario alcun diritto contrattuale o di altro tipo. Sebbene siano stati compiuti sforzi per garantire l&#39;accuratezza delle informazioni alla data in cui sono state fornite, non viene fornita alcuna dichiarazione che tali informazioni siano esatte e complete. Adobe non si assume alcun obbligo di aggiornare queste informazioni in seguito al cambiamento della normativa o dei prodotti Adobe. Inoltre, questo documento non deve essere distribuito ad alcuna parte diversa dal destinatario previsto senza il consenso scritto di Adobe.*
 
 ## Requisiti di sistema
 
-Adobe Commerce deve essere implementato su Adobe Commerce nell’infrastruttura cloud o su Adobe Commerce Managed Services con versione 2.4.6-p3 o successiva (nessuna versione beta).
+Adobe Commerce deve essere implementato su Adobe Commerce nell’infrastruttura cloud o su Adobe Commerce Managed Services con versione 2.4.6-p3 - 2.4.6-p8 (nessuna versione beta).
 
 ## Installazione
 
@@ -52,7 +52,7 @@ Adobe Commerce deve essere implementato su Adobe Commerce nell’infrastruttura 
 
 >[!ENDSHADEBOX]
 
-Installare la versione più recente dell&#39;estensione HIPAA-Ready Services di Adobe (`magento/hipaa-ee`) in un&#39;istanza che esegue Adobe Commerce versione 2.4.6-p3 o successiva. L&#39;estensione viene distribuita come metapacchetto del compositore dall&#39;archivio [repo.magento.com](https://repo.magento.com). Il metapackage include la raccolta di moduli che abilitano le funzionalità HIPAA per un’istanza Adobe Commerce.
+Installare la versione più recente dell&#39;estensione dei servizi compatibili con HIPAA (`magento/hipaa-ee`) di Adobe in un&#39;istanza che esegue Adobe Commerce versione 2.4.6-p3 o successiva. L&#39;estensione viene distribuita come metapacchetto del compositore dall&#39;archivio [repo.magento.com](https://repo.magento.com). Il metapackage include la raccolta di moduli che abilitano le funzionalità HIPAA per un’istanza Adobe Commerce.
 
 1. Sulla workstation locale, passa alla directory del progetto per il progetto Adobe Commerce su infrastruttura cloud.
 
