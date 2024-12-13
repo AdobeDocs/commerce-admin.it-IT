@@ -3,14 +3,14 @@ title: 'Esempio di regola prezzo carrello: sconto con prezzo minimo del prodotto
 description: Rivedi un esempio di utilizzo di una regola di prezzo del carrello per offrire uno sconto con un prezzo del prodotto minimo.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
+source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Esempio di regola prezzo carrello: sconto con acquisto minimo
+# Esempio di regola prezzo carrello: sconto con prezzo minimo del prodotto
 
 Le regole di prezzo del carrello possono essere utilizzate per offrire uno sconto percentuale basato su un prezzo prodotto minimo nel carrello. Nell’esempio seguente, uno sconto del 10% viene applicato a tutti i prodotti nell’intero carrello quando almeno 1 prodotto con un prezzo superiore a $ 30,00 da una categoria specificata viene aggiunto al carrello. Il formato dello sconto è il seguente:
 
