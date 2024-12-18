@@ -4,9 +4,9 @@ description: Scopri come configurare la gestione delle sessioni per proteggere l
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -104,25 +104,7 @@ Come misura di sicurezza, _Admin_ è inizialmente impostato per il timeout dopo 
 
 1. Fare clic su **[!UICONTROL Admin]**.
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Security]_.
-
-1. Per **[!UICONTROL Admin Session Lifetime (seconds)]**, immettere il numero di secondi in cui una sessione rimane attiva prima del timeout.
-
-   ![Configurazione avanzata - Impostazioni di protezione amministratore](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
-1. Al termine, fare clic su **[!UICONTROL Save Config]**.## Durata sessione amministratore
-
-Come misura di sicurezza, _Admin_ è inizialmente impostato per il timeout dopo 900 secondi (15 minuti) di inattività della tastiera. Puoi regolare la durata della sessione in base al tuo stile di lavoro.
-
-**_Per regolare la durata della sessione di amministrazione:_**
-
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
-
-1. Scorri verso il basso ed espandi **[!UICONTROL Advanced]** nel pannello laterale sinistro.
-
-1. Fare clic su **[!UICONTROL Admin]**.
-
-1. Espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione _Sicurezza_.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Security]**.
 
 1. Per **[!UICONTROL Admin Session Lifetime (seconds)]**, immettere il numero di secondi in cui una sessione rimane attiva prima del timeout.
 
