@@ -3,9 +3,9 @@ title: Trasferire un account Commerce
 description: Scopri come trasferire il tuo account Commerce a un altro proprietario o indirizzo e-mail.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
+source-git-commit: e436bbe8f4c2ed913489df22fdc3915d37d9185a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ La modalità di completamento di questo trasferimento dipende da quale dei segue
 | Tipo di trasferimento | Proprietario corrente | Nuovo proprietario |
 | ------------- | ------------- | --------- |
 | [Nuova Adobe ID e modifica e-mail](#new-adobe-id-and-email-change) | Dispone di un MAGEID **_non connesso_** con un account di accesso Adobe. | Non dispone di un MAGEID e non è connesso a un account di accesso Adobe. |
-| [Modifica e-mail](#email-change) | Ha un MAGEID **_connesso_** con un account di accesso Adobe senza altri prodotti/servizi Adobe associati. | Non dispone di un MAGEID e non è connesso a un account di accesso Adobe. |
-| [Opzione Adobe ID](#adobe-id-account-switch) | Ha un MAGEID **_connesso_** con un account di accesso Adobe senza altri prodotti/servizi Adobe associati. | Ha un MAGEID ed è connesso a un account di accesso Adobe senza altri prodotti/servizi Adobe associati. |
+| [Modifica e-mail](#email-change) | Dispone di un MAGEID **_connesso_** con un account di accesso Adobe. | Non dispone di un MAGEID e non è connesso a un account di accesso Adobe. |
+| [Opzione Adobe ID](#adobe-id-account-switch) | Dispone di un MAGEID **_connesso_** con un account di accesso Adobe. | Ha un MAGEID ed è connesso a un account di accesso Adobe senza altri prodotti/servizi Adobe associati. |
 
 {style="table-layout:auto"}
 
