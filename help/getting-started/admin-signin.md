@@ -3,9 +3,9 @@ title: Account utente amministratore
 description: Scopri il tuo account amministratore e come utilizzare l’autenticazione a due fattori per accedere all’amministratore.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -157,3 +157,21 @@ L’amministratore consente di gestire gli ordini, i clienti, i prodotti, le fun
 1. Fare clic su **[!UICONTROL Save Config]**.
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+
+## Mantenere un accesso sicuro all’amministratore
+
+Per garantire la sicurezza dell’amministratore, esegui controlli regolari su utenti e ruoli con accesso come amministratore.
+
+Inoltre, è consigliabile [aggiornare la configurazione dell&#39;URL di base dell&#39;amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) per cambiare l&#39;endpoint predefinito `/admin` in un percorso personalizzato. La configurazione di un percorso personalizzato offre i seguenti vantaggi in termini di sicurezza:
+
+**Sicurezza avanzata**: il percorso predefinito &quot;admin&quot; è ampiamente noto e spesso è indirizzato a utenti malintenzionati che tentano attacchi di forza bruta. Modificandolo in un valore univoco personalizzato, si riduce in modo significativo il rischio di tentativi di accesso non autorizzati.
+
+**Vulnerabilità ridotta**: i bot automatizzati eseguono spesso la ricerca di percorsi comuni come &quot;admin&quot; per sfruttare le vulnerabilità. Un percorso personalizzato rende più difficile per questi bot individuare la pagina di accesso dell’amministratore, riducendo in tal modo la probabilità di attacchi.
+
+**Privacy migliorata**: un percorso di amministrazione personalizzato aggiunge un ulteriore livello di oscurità, rendendo più difficile per i potenziali aggressori identificare e indirizzare la pagina di accesso dell&#39;amministratore.
+
+**Conformità alle best practice**: le seguenti best practice per la sicurezza, come la personalizzazione del percorso di amministrazione, dimostrano un approccio proattivo alla protezione dei dati dei clienti e dei siti di e-commerce.
+
+>[!NOTE]
+>
+>Se si sospetta una violazione, assicurarsi di rimuovere tutti gli utenti Admin sconosciuti e reimpostare tutte le password Admin e rivedere il [piano di azione per la sicurezza](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) per ulteriori passaggi.
