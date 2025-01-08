@@ -3,9 +3,9 @@ title: Installare e configurare l’integrazione di Experience Manager Assets
 description: Scopri come installare e configurare  [!DNL AEM Assets Integration for Adobe Commerce]  in un'istanza di Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
+source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,13 @@ L’integrazione di AEM Assets per Commerce prevede i seguenti requisiti di sist
 
 **Requisiti di configurazione**
 
-- Adobe Commerce deve essere configurato per l&#39;utilizzo dell&#39;autenticazione [Adobe IMS](/help/getting-started/adobe-ims-config.md).
 - Provisioning e autorizzazioni dell’account
    - [Amministratore progetto cloud Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installa le estensioni richieste e configura il server applicazioni Commerce dall&#39;amministratore o dalla riga di comando
    - [Amministratore Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview): aggiorna la configurazione dell&#39;archivio e gestisci gli account utente di Commerce
+
+>[!TIP]
+>
+> È possibile configurare Adobe Commerce per l&#39;utilizzo dell&#39;autenticazione [Adobe IMS](/help/getting-started/adobe-ims-config.md).
 
 ## Panoramica sulla configurazione
 
@@ -186,6 +189,44 @@ Abilita il framework degli eventi da Commerce Admin.
    ![Configurazione amministratore Commerce eventi Adobi I/O - abilita eventi Commerce](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
 1. Immettere il nome della società esercente in **[!UICONTROL Merchant ID]** e il nome dell&#39;ambiente nei campi **[!UICONTROL Environment ID]**. Utilizzare solo caratteri alfanumerici e trattini bassi per impostare questi valori.
+
+>[!BEGINSHADEBOX]
+
+**Configura VCL personalizzato per bloccare le richieste**
+
+Se si utilizza un frammento VCL personalizzato per bloccare richieste in ingresso sconosciute, potrebbe essere necessario includere l&#39;intestazione HTTP `X-Ims-Org-Idheader` per consentire le connessioni in ingresso dal servizio AEM Assets Integration for Commerce.
+
+>[!TIP]
+>
+> Puoi utilizzare il modulo Fastly CDN per creare un ACL di Edge con un elenco di indirizzi IP che desideri bloccare.
+
+Il seguente codice snippet VCL personalizzato (formato JSON) mostra un esempio con un&#39;intestazione di richiesta `X-Ims-Org-Id`.
+
+```json
+{
+  "name": "blockbyuseragent",
+  "dynamic": "0",
+  "type": "recv",
+  "priority": "5",
+  "content": "if ( req.http.X-ims-org ~ \"<YOUR-IMS-ORG>\" ) {error 405 \"Not allowed\";}"
+}
+```
+
+Prima di creare uno snippet basato su questo esempio, esaminare i valori per determinare se è necessario apportare modifiche:
+
+- `name`: nome dello snippet VCL. In questo esempio è stato utilizzato il nome `blockbyuseragent`.
+
+- `dynamic`: imposta la versione dello snippet. In questo esempio è stato utilizzato `0`. Per informazioni dettagliate sul modello dati, vedere [Frammenti VCL](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/).
+
+- `type`: specifica il tipo di snippet VCL, che determina la posizione del snippet nel codice VCL generato. In questo esempio, abbiamo utilizzato `recv`, consulta il [riferimento frammento VCL ](https://docs.fastly.com/api/config#api-section-snippet) per l&#39;elenco dei tipi di frammento.
+
+- `priority`: determina quando viene eseguito lo snippet VCL. In questo esempio viene utilizzata la priorità `5` per eseguire immediatamente e verificare se una richiesta dell&#39;amministratore proviene da un indirizzo IP consentito.
+
+- `content`: snippet di codice VCL da eseguire, che controlla l&#39;indirizzo IP del client. Se l&#39;IP si trova nell&#39;ACL di Edge, l&#39;accesso viene bloccato con un errore `405 Not allowed` per l&#39;intero sito Web. A tutti gli altri indirizzi IP client è consentito l&#39;accesso.
+
+Per informazioni dettagliate sull&#39;utilizzo dei snippet VCL per bloccare le richieste in ingresso, vedere [VCL personalizzato per bloccare le richieste](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+
+>[!ENDSHADEBOX]
 
 ## Ottenere le credenziali di autenticazione per l’accesso API
 
