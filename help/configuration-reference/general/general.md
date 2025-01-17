@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] &gt; [!UICONTROL General] dell'amministratore di Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
+source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -108,5 +108,15 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Modali
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Globale | Quando è abilitata per le installazioni di un singolo archivio, nasconde la casella Ambito configurazione e le etichette dei campi correlate Opzioni: `Yes` / `No` <br/>**_Nota:_**La modalità Archivio singolo viene ignorata per gli archivi con più di una visualizzazione.<br/> L&#39;abilitazione della modalità di archivio singolo copierà tutti i dati specifici dell&#39;archivio di prodotti e catalogo dalla vista archivio predefinita a tutto l&#39;ambito della vista archivio. Se l&#39;archivio dispone di una sola visualizzazione archivio, i dati di catalogo e di prodotto verranno copiati. Se l&#39;archivio dispone di una visualizzazione archivio disabilitata e di una visualizzazione archivio abilitata, non verranno copiati i dati di catalogo e di prodotto.<br/> L&#39;abilitazione della modalità di archiviazione singola ignora le impostazioni di configurazione specifiche per la visualizzazione dello store per i dati specifici del contenuto. Al contrario, utilizza le impostazioni di configurazione definite nell’ambito a livello globale per garantire la coerenza tra l’interfaccia utente di amministrazione e la vetrina. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Data Services]
+
+![Generale > Servizi dati](./assets/general-data-services.png)<!-- zoom -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Commerce Events Enabled] | Globale | Questa configurazione è disattivata per impostazione predefinita se si è un cliente sanitario e si è installata l&#39;estensione [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation). Di conseguenza, i dati dell’evento vetrina utilizzati da Live Search e Product Recommendations non vengono più acquisiti. Questo perché i dati dell’evento storefront vengono generati lato client. Per continuare a catturare e inviare i dati dell&#39;evento storefront da utilizzare dai servizi [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) e [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), impostare **Commerce Events Enabled** su `Yes`. |
 
 {style="table-layout:auto"}

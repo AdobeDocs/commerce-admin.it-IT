@@ -5,9 +5,9 @@ breadcrumb-title: Guida introduttiva
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 1%
    + [Condividi il tuo account](commerce-account-share.md)
    + [Trasferisci un account](commerce-account-transfer.md)
 + Conformità sito {#compliance}
-   + [Preparazione HIPAA su Adobe Commerce](hipaa-ready-service.md)
+   + Preparazione HIPAA in Adobe Commerce{#hipaa-ready-service}
+      + [Panoramica](hipaa/overview.md)
+      + [Indicazioni operative](hipaa/operations.md)
    + Privacy {#privacy}
       + [Informativa sulla privacy dello store](privacy-policy.md)
       + [Conformità CCPA](compliance-ccpa.md)
@@ -37,7 +39,7 @@ ht-degree: 1%
 + L&#39;amministratore {#admin}
    + [Che cos’è l’amministratore?](admin.md)
    + [Account utente amministratore](admin-signin.md)
-   + Integrazione Adobe Identity Management Service (IMS) {#ims}
+   + Integrazione del servizio Adobe Identity Management (IMS) {#ims}
       + [Panoramica dell’integrazione IMS](adobe-ims-integration-overview.md)
       + [Configurare l’integrazione dell’amministratore con IMS](adobe-ims-config.md)
       + [Disattiva l’integrazione dell’amministratore con IMS](adobe-ims-disable.md)
