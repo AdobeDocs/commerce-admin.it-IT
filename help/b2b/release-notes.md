@@ -3,9 +3,9 @@ title: Note sulla versione di [!DNL Adobe Commerce B2B]
 description: Consulta le note sulla versione per informazioni sulle modifiche apportate in  [!DNL Adobe Commerce B2B]  versioni.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
+source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
 workflow-type: tm+mt
-source-wordcount: '7801'
+source-wordcount: '7820'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ Queste note sulla versione per l’estensione B2B acquisiscono aggiunte e correz
 *30 ottobre 2024*
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"}
-Compatibile con Adobe Commerce versioni 2.4.8-beta1, da 2.4.7 a 2.4.7-p2, da 2.4.6 a 2.4.6-p7
+Compatibile con Adobe Commerce versioni 2.4.8-beta1, 2.4.7-2.4.7-p2, 2.4.6-2.4.6-p7.
+
+Adobe Commerce B2B versione 1.5.0 è compatibile anche con PHP 8.3 e supporta [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 La versione 1.5.0 di B2B include nuove funzioni, miglioramenti della qualità e correzioni di bug.
 

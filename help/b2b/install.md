@@ -1,12 +1,12 @@
 ---
-title: Installa l'estensione  [!DNL Adobe Commerce B2B]
+title: 'Installa l''estensione  [!DNL Adobe Commerce B2B] '
 description: Scopri come installare il metapackage  [!DNL Adobe Commerce B2B] .
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: 97717f367e2709c6b940ef16dec788027704799e
+source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ L&#39;estensione Adobe Commerce B2B `magento/extension-b2b` è disponibile per t
 ## Requisiti
 
 - [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html), tutte le versioni supportate
-- PHP 8.1 e 8.2
+- PHP 8.1, 8.2 e 8.3 (richiede B2B 1.5.0)
 - [!DNL Composer]
 
 >[!IMPORTANT]
@@ -61,7 +61,7 @@ Installare l&#39;estensione B2B (`magento/b2b-extension`) tramite Composer. L’
 >
 >Durante l’installazione di Adobe Commerce B2B su un’infrastruttura cloud, Adobe consiglia di implementare l’applicazione Adobe Commerce in un ambiente di integrazione o staging prima di iniziare.
 
-L’Adobe consiglia di lavorare in un ramo di sviluppo quando aggiungi l’estensione B2B al progetto. Se non hai un ramo, vedi [Crea un ramo per lo sviluppo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). Durante l&#39;installazione dell&#39;estensione B2B, il nome dell&#39;estensione `Magento_B2b` viene inserito automaticamente nel file `app/etc/config.php`. Non è necessario modificare direttamente il file.
+Adobe consiglia di lavorare in un ramo di sviluppo quando aggiungi l’estensione B2B al progetto. Se non hai un ramo, vedi [Crea un ramo per lo sviluppo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). Durante l&#39;installazione dell&#39;estensione B2B, il nome dell&#39;estensione `Magento_B2b` viene inserito automaticamente nel file `app/etc/config.php`. Non è necessario modificare direttamente il file.
 
 **Per installare l&#39;estensione B2B**:
 
