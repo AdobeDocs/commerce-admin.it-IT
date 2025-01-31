@@ -3,7 +3,7 @@ title: Installare e configurare l’integrazione di Experience Manager Assets
 description: Scopri come installare e configurare  [!DNL AEM Assets Integration for Adobe Commerce]  in un'istanza di Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
+source-git-commit: a2b9fc6584b9d8a57f24d87a9b5ebcdc2f29cbae
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -28,8 +28,10 @@ L’integrazione di AEM Assets per Commerce prevede i seguenti requisiti di sist
 
 **Requisiti di configurazione**
 
-- Provisioning e autorizzazioni dell’account
+- Provisioning account e autorizzazioni:
+
    - [Amministratore progetto cloud Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installa le estensioni richieste e configura il server applicazioni Commerce dall&#39;amministratore o dalla riga di comando
+
    - [Amministratore Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview): aggiorna la configurazione dell&#39;archivio e gestisci gli account utente di Commerce
 
 >[!TIP]
