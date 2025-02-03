@@ -3,9 +3,9 @@ title: Note sulla versione di [!DNL Adobe Commerce B2B]
 description: Consulta le note sulla versione per informazioni sulle modifiche apportate in  [!DNL Adobe Commerce B2B]  versioni.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
+source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7879'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ La versione 1.5.0 di B2B include nuove funzioni, miglioramenti della qualità e 
 ![Nuovo](../assets/new.svg) <!--B2B-2747--> **Selettore ambito società** - Consente agli utenti società assegnati a più società di cambiare società nella vetrina. Quando l’ambito viene cambiato, i dati vengono aggiornati per mostrare le informazioni in base al nuovo contesto aziendale. Ad esempio, se la nuova società utilizza un catalogo condiviso diverso, l’utente della società visualizza prodotti, prezzi e altre informazioni in base al nuovo catalogo condiviso. Anche il contenuto relativo a ordini, preventivi e modelli di preventivo viene aggiornato in base al contesto della società selezionata.
 
 >[!NOTE]
->
->Se l’utente dell’azienda cambia azienda inserendo gli articoli nel carrello, aggiorna il carrello in modo che rifletta l’assortimento del prodotto, i prezzi e gli sconti promozionali in base al nuovo contesto aziendale.
+>Il contenuto del carrello riflette gli articoli selezionati dal cliente corrente. Se il cliente dispone di un carrello attivo e seleziona un’altra società, gli viene richiesto di aggiornare il carrello per riflettere l’assortimento del prodotto, i prezzi e gli sconti promozionali in base al nuovo contesto aziendale. I prodotti che non sono disponibili nel catalogo associato alla nuova azienda vengono rimossi dal carrello. Se il prezzo o la disponibilità del prodotto sono diversi, il carrello viene aggiornato in modo da riflettere i dati disponibili nel contesto della società selezionata.<!--B2B-4222-->
 
 ![Problema risolto](../assets/fix.svg)<!--ACP2E-1933--> Gli amministratori della società ora possono aggiungere utenti della società dalla vetrina. In precedenza, Commerce registrava un errore quando un utente amministratore tentava di aggiungere un nuovo utente: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
