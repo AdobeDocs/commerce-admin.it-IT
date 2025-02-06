@@ -3,22 +3,20 @@ title: Configurare Experience Manager Assets
 description: Aggiungi i metadati della risorsa necessari per consentire all’integrazione di AEM Assets per Commerce di sincronizzare le risorse tra i progetti Adobe Commerce e Experience Manager Assets.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 8a150c79c2e15ce5bd2cb2037f94c94f90b7a1df
+source-git-commit: 6b0c8054e86ae697025626ad2eb575d633003578
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
 # Configurare Experience Manager Assets
 
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
-
 Prepara l’ambiente AEM as a Cloud Service per la gestione delle risorse Commerce aggiornando la configurazione dell’ambiente e configurando i metadati Assets per identificare e gestire le risorse Commerce.
 
 L&#39;integrazione richiede l&#39;aggiunta di uno spazio dei nomi `Commerce` personalizzato e metadati [di profilo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles) e [di schema](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas) aggiuntivi.
 
-L’Adobe fornisce un modello di progetto AEM per aggiungere lo spazio dei nomi e le risorse dello schema dei metadati alla configurazione dell’ambiente AEM Assets as a Cloud Service. Il modello aggiunge:
+Adobe fornisce un modello di progetto AEM per aggiungere lo spazio dei nomi e le risorse dello schema dei metadati alla configurazione dell’ambiente AEM Assets as a Cloud Service. Il modello aggiunge:
 
 - Uno [spazio dei nomi personalizzato](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json), `Commerce` per identificare le proprietà relative a Commerce.
 
