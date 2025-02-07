@@ -3,7 +3,7 @@ title: Configurare l’integrazione amministratore di Commerce con ID
 description: Segui questa procedura opzionale per integrare gli accessi dell’account utente amministratore Adobe Commerce con Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 9a9106cde5184823755fb1f44fe7eae300442abc
+source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Dopo che un amministratore o uno sviluppatore con accesso al sistema ha completa
 
 ### Passaggio 1: ottieni ID organizzazione Adobe
 
-Per abilitare questa funzione è necessaria l’appartenenza ad almeno un’organizzazione IMS. Se disponi di un’Adobe ID, per impostazione predefinita appartieni ad almeno un’organizzazione di Adobi. Accedi a [Adobe Admin Console](https://adminconsole.adobe.com/) per recuperare l&#39;ID organizzazione.
+Per abilitare questa funzione è necessaria l’appartenenza ad almeno un’organizzazione IMS. Se disponi di un’Adobe ID, per impostazione predefinita appartieni ad almeno un’organizzazione Adobe. Accedi a [Adobe Admin Console](https://adminconsole.adobe.com/) per recuperare l&#39;ID organizzazione.
 
 ### Passaggio 2: generare un nuovo progetto, le chiavi API IMS e il segreto
 
@@ -61,8 +61,8 @@ Per creare progetti per un’organizzazione, l’account amministratore di Adobe
 1. Fare clic su **[!UICONTROL Add API]** nella pagina Progetto appena creata.
 1. Selezionare **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Selezionare **[!UICONTROL Oauth 2.0 Web]**.
-1. Specificare **[!UICONTROL Redirect URI]**: `https://<hostname>/`
-1. Specificare **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/.*`
+1. Specificare **[!UICONTROL Redirect URI]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Specificare **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
 
    Esci da qualsiasi punto nel nome host precedendo i punti con `\\`. L’aggiunta di un carattere jolly alla fine dell’URL supporta la chiave segreta di amministrazione di Adobe Commerce.
 
@@ -71,7 +71,7 @@ Per creare progetti per un’organizzazione, l’account amministratore di Adobe
 
 ### Passaggio 3: configurare gli utenti di Adobe Commerce in Adobe Admin Console
 
-Prima di abilitare l’integrazione, verifica che ogni account utente di Adobe Commerce Admin disponga di un account Adobe IMS corrispondente. Gli utenti di Adobe Commerce devono appartenere a una specifica organizzazione di Adobi per accedere utilizzando un Adobe ID.
+Prima di abilitare l’integrazione, verifica che ogni account utente di Adobe Commerce Admin disponga di un account Adobe IMS corrispondente. Gli utenti di Adobe Commerce devono appartenere a una specifica organizzazione Adobe per accedere utilizzando un Adobe ID.
 
 >[!TIP]
 >
@@ -104,4 +104,4 @@ Immettere `bin/magento admin:adobe-ims:enable`. Viene chiesto di immettere i seg
 
 Adobe Commerce visualizza un messaggio che indica se l’abilitazione è riuscita o meno.
 
-Dopo aver abilitato correttamente questa funzione, puoi effettuare la transizione da altri account utente di Adobe Commerce ad account Adobe IMS. Per accedere con Adobe Commerce, gli utenti devono appartenere all’organizzazione Adobe Adobe ID configurata.
+Dopo aver abilitato correttamente questa funzione, puoi effettuare la transizione da altri account utente di Adobe Commerce ad account Adobe IMS. Per accedere tramite Adobe Commerce, gli utenti devono appartenere all’organizzazione Adobe Adobe ID configurata.
