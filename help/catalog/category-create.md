@@ -3,9 +3,9 @@ title: Creare categorie
 description: Puoi creare tutte le sottocategorie aggiuntive necessarie, in base alla profondità massima del menu impostata nella configurazione.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
 
    - Per utilizzare le immagini di Media Storage, fare clic su **[!UICONTROL Select from Gallery]** e selezionare l&#39;immagine che si desidera rappresentare nella categoria.
 
+   All&#39;interno di Media Gallery, è inoltre possibile utilizzare l&#39;[Integrazione Adobe Stock](../content-design/adobe-stock.md) per trovare un&#39;immagine appropriata facendo clic su **[!UICONTROL Search Adobe Stock]**.
+
    >[!NOTE]
    >
-   >All&#39;interno di Media Gallery, è inoltre possibile utilizzare l&#39;[Integrazione Adobe Stock](../content-design/adobe-stock.md) per trovare un&#39;immagine appropriata facendo clic su **[!UICONTROL Search Adobe Stock]**.
+   > Se AEM Assets è abilitato, vedere [Gestione categorie](../content-design/aem-assets-manage.md) per ulteriori informazioni.
 
 1. Per **[!UICONTROL Description]**, immettere il testo o altro contenuto da visualizzare nella pagina di destinazione della categoria.
 
@@ -96,7 +98,7 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
 
 1. Per includere un blocco di contenuto nella pagina di destinazione della categoria, scegliere **[!UICONTROL CMS Block]** che si desidera visualizzare.
 
-1. fare clic su **[!UICONTROL Save]** e continuare.
+1. Fare clic su **[!UICONTROL Save]** e continuare.
 
 ## Passaggio 4: completare le impostazioni dello schermo
 
