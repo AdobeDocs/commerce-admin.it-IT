@@ -3,16 +3,16 @@ title: Note sulla versione di [!DNL Adobe Commerce B2B]
 description: Consulta le note sulla versione per informazioni sulle modifiche apportate in  [!DNL Adobe Commerce B2B]  versioni.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
+source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
 workflow-type: tm+mt
-source-wordcount: '7879'
+source-wordcount: '8177'
 ht-degree: 0%
 
 ---
 
 # Note sulla versione di [!DNL Adobe Commerce B2B]
 
-Queste note sulla versione per l’estensione B2B acquisiscono aggiunte e correzioni che Adobe ha aggiunto durante un ciclo di rilascio, tra cui:
+Queste note sulla versione dell’estensione B2B acquisiscono aggiunte e correzioni che Adobe ha aggiunto durante un ciclo di rilascio, tra cui:
 
 ![Nuove](../assets/new.svg) nuove funzionalità
 ![Problema risolto](../assets/fix.svg) correzioni e miglioramenti
@@ -22,6 +22,34 @@ Queste note sulla versione per l’estensione B2B acquisiscono aggiunte e correz
 >
 >Consulta [Disponibilità del prodotto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) per informazioni sulle versioni dell&#39;estensione B2B Commerce supportate per le versioni disponibili di Adobe Commerce.
 
+## B2B 1.5.1
+
+*11 febbraio 2025*
+
+[!BADGE Supportato]{type=Informative tooltip="Supportato"}
+Compatibile con Adobe Commerce versioni da 2.4.8-beta1 a 2.4.8-beta2, da 2.4.7 a 2.4.7-p3, da 2.4.6 a 2.4.9-p8
+
+La versione 1.5.1 di B2B include miglioramenti della qualità e correzioni di bug.
+
+### Azienda
+
+![Problema risolto](../assets/fix.svg)<!-- B2B-4422 --> Se un cliente tenta di cambiare società nella pagina Dettagli preventivo, il sistema reindirizza il cliente a una pagina *Accesso negato* per assicurarsi che un preventivo creato per una società non possa essere utilizzato per effettuare un ordine con i prezzi di un&#39;altra società. In precedenza, un utente poteva creare un preventivo con il prezzo di una società e quindi passare a un’altra società per effettuare un ordine con prezzi diversi.
+
+### Sconti riga
+
+![Problema risolto](../assets/fix.svg)<!-- B2B-2938 --> È stata migliorata l&#39;efficienza del sistema risolvendo il degrado delle prestazioni osservato nello scenario di ricalcolo delle offerte. In precedenza, a ogni voce del carrello venivano aggiunte due nuove entità che causavano un notevole aumento delle richieste del database, con conseguente rallentamento delle prestazioni.
+
+### Offerta negoziabile
+
+![Problema risolto](../assets/fix.svg)<!-- B2B-3820 --> Il sistema ora mantiene la posizione degli elementi dell&#39;interfaccia utente quando la convalida JavaScript viene applicata ai campi *[!UICONTROL min/max qty]* nella pagina del modello di offerta Luma Storefront. In precedenza, l’applicazione della convalida JavaScript a questi campi causava lo spostamento di altri elementi dell’interfaccia utente della pagina.
+
+### Carrello
+
+![È stato risolto il problema](../assets/fix.svg)<!-- B2B-4222 -->. È stato introdotto un nuovo sistema di gestione del carrello progettato per semplificare l&#39;esperienza di acquisto per gli utenti che gestiscono più account aziendali. Il nuovo sistema associa i carrelli alle singole aziende, anziché all’account del cliente, per semplificare l’esperienza di acquisto e migliorare il flusso di lavoro supportando le seguenti funzionalità.
+
+- **Carrelli specifici della società:**—I carrelli acquisti sono ora collegati alle singole società per supportare le opzioni di prezzo e prodotto specifiche della società.
+- **Commutazione senza problemi**: gli utenti possono passare facilmente da un account aziendale all&#39;altro senza influire sul contenuto del carrello di ogni azienda.
+- **Integrità contestuale**: tutti i dettagli del carrello rimangono nel contesto della rispettiva azienda, fornendo un&#39;esperienza di acquisto coerente e affidabile.
 
 ## B2B 1.5.0
 
@@ -192,7 +220,7 @@ Questa versione include nuove funzionalità e miglioramenti per i preventivi neg
 
 ![Problema risolto](../assets/fix.svg) Adobe Commerce visualizza ora i dettagli corretti durante il pagamento quando è abilitata l&#39;opzione Ordini di acquisto e quando è stato selezionato un preventivo virtuale creato con l&#39;opzione di pagamento PayPal. In precedenza, i totali venivano visualizzati come zero in queste condizioni.
 
-![È stato risolto il problema](../assets/fix.svg) <!--ACP2E-1504--> Gli errori di convalida non si verificano più quando si tenta di salvare una società con un limite di credito superiore a 999. In precedenza, per i limiti di credito aziendali superiori a 999, Adobe commerce inseriva un separatore di virgola, causando un errore di convalida che impediva il salvataggio degli aggiornamenti.
+![È stato risolto il problema](../assets/fix.svg) <!--ACP2E-1504--> Gli errori di convalida non si verificano più quando si tenta di salvare una società con un limite di credito superiore a 999. In precedenza, per i limiti di credito aziendali superiori a 999, Adobe commerce inseriva un separatore con la virgola, causando un errore di convalida che impediva il salvataggio degli aggiornamenti.
 
 ![Problema risolto](../assets/fix.svg) <!--ACP2E-1474--> L&#39;indirizzo di spedizione selezionato rimane invariato quando si effettua un ordine con un preventivo negoziabile. In precedenza, quando si effettuava un ordine, l&#39;indirizzo di spedizione selezionato veniva modificato nell&#39;indirizzo di spedizione predefinito.
 
@@ -296,7 +324,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![Problema risolto](../assets/fix.svg) <!--- ACP2E-406-->Adobe Commerce ora calcola correttamente un totale complessivo di un preventivo negoziabile quando l&#39;impostazione di calcolo delle imposte **[!UICONTROL Enable Cross Border Trade]** è abilitata.
 
-![Problema risolto](../assets/fix.svg) <!--- ACP2E-322-->I prodotti configurabili ora vengono spostati nell&#39;ultima posizione nell&#39;elenco dei prodotti dopo l&#39;aggiornamento delle scorte quando l&#39;impostazione **[!UICONTROL Move out of stock to the bottom]** è abilitata. Viene implementata una nuova query di database personalizzata per garantire che il criterio di ordinamento dell’indice Elasticsearch rispetti quello abilitato dall’amministratore. In precedenza, i prodotti configurabili e i relativi prodotti secondari non venivano spostati in fondo all’elenco quando questa impostazione era abilitata.
+![Problema risolto](../assets/fix.svg) <!--- ACP2E-322-->I prodotti configurabili ora vengono spostati nell&#39;ultima posizione nell&#39;elenco dei prodotti dopo l&#39;aggiornamento delle scorte quando l&#39;impostazione **[!UICONTROL Move out of stock to the bottom]** è abilitata. Viene implementata una nuova query di database personalizzata per garantire che l’ordinamento dell’indice Elasticsearch rispetti quello abilitato dall’amministratore. In precedenza, i prodotti configurabili e i relativi prodotti secondari non venivano spostati in fondo all’elenco quando questa impostazione era abilitata.
 
 ![Problema risolto](../assets/fix.svg) <!--- ACP2E-308-->L&#39;e-mail dell&#39;ordine di acquisto ora rispetta l&#39;impostazione di invio e-mail di ogni sito Web in una distribuzione multisito. Un controllo per l&#39;impostazione **[!UICONTROL Disable Email Communications]** è stato aggiunto alla logica personalizzata per le code e-mail. In precedenza, Adobe Commerce non rispettava l’impostazione di invio dell’e-mail per il sito web secondario.
 
@@ -574,7 +602,7 @@ Questa versione include miglioramenti alle approvazioni degli ordini, ai metodi 
 
 ![Problema risolto](../assets/fix.svg) Adobe Commerce invia ora una notifica e-mail di conferma che un cliente dispone dell&#39;autorizzazione per superare il limite di credito designato quando un esercente abilita l&#39;impostazione **[!UICONTROL Allow To Exceed Credit Limit]**. In precedenza, l’e-mail di notifica inviata da Adobe Commerce indicava che il cliente non disponeva dell’autorizzazione per superare il limite. <!--- MC-34584-->
 
-![Problema risolto](../assets/fix.svg) Il contenitore HTML che circonda il prezzo del prodotto negli elenchi delle richieste di acquisto ora viene riprodotto correttamente per i figli dei prodotti inclusi nel pacchetto. <!--- MC-36331-->
+![Problema risolto](../assets/fix.svg) Il contenitore HTML che racchiude il prezzo del prodotto negli elenchi delle richieste di acquisto ora viene riprodotto correttamente per i figli dei prodotti inclusi nel pacchetto. <!--- MC-36331-->
 
 ![Problema risolto](../assets/fix.svg) I commercianti ora possono indicare la lingua in cui l&#39;e-mail dell&#39;utente della società viene inviata al momento della creazione di una società in implementazioni multilingue. In precedenza, il menu a discesa consentiva ai commercianti di selezionare la vista e la lingua appropriate per il negozio.  <!--- MC-35777-->
 
@@ -590,7 +618,7 @@ Questa versione include miglioramenti alle approvazioni degli ordini, ai metodi 
 
 ![Problema risolto](../assets/fix.svg) Le autorizzazioni della categoria non cambiano più quando un nuovo prodotto viene assegnato a un catalogo condiviso pubblico. In precedenza, le autorizzazioni per le categorie venivano duplicate. <!--- MC-34386-->
 
-![È stato risolto il problema](../assets/fix.svg) Il PUT dell&#39;endpoint REST API `rest/default/V1/company/{id}`, utilizzato per aggiornare l&#39;e-mail aziendale, non fa più distinzione tra maiuscole e minuscole. <!--- MC-34308-->
+![È stato risolto il problema](../assets/fix.svg) L&#39;endpoint REST API PUT `rest/default/V1/company/{id}`, utilizzato per aggiornare l&#39;e-mail aziendale, non fa più distinzione tra maiuscole e minuscole. <!--- MC-34308-->
 
 ![Problema risolto](../assets/fix.svg) La disabilitazione dei moduli di premi non influisce più sulle funzionalità B2B negli account cliente. In precedenza, quando i moduli di ricompensa venivano disabilitati, le seguenti schede relative a B2B non venivano visualizzate: Profilo società, Utenti società e Ruoli e autorizzazioni.<!--- MC-34191-->
 
