@@ -3,7 +3,7 @@ title: Riferimento attributi dati prodotto
 description: Utilizza questo riferimento degli attributi dei dati del prodotto quando utilizzi importazioni ed esportazioni di dati del prodotto.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
 workflow-type: tm+mt
 source-wordcount: '2473'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Nell’installazione utilizzata per esportare questi dati sono installati i dati
 | `store_view_code` | Identifica le visualizzazioni specifiche dello store in cui il prodotto è disponibile. Se questo campo viene lasciato vuoto, il prodotto sarà disponibile nella visualizzazione predefinita del Negozio. Esempio: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Assegna il prodotto a una serie di attributi o a un modello di prodotto specifici, in base al tipo di prodotto. Una volta creato il prodotto, il set di attributi non può essere modificato. Esempio: `default` |
 | `product_type` | Indica il tipo di prodotto. Valori:<br/>`simple` — Articoli materiali di solito venduti come unità singole o in quantità fisse.<br/>`grouped` — Gruppo di prodotti separati venduti come set.<br/>`configurable` — Prodotto con più opzioni che il cliente deve selezionare prima di effettuare un acquisto. L&#39;inventario può essere gestito per ogni set di varianti perché rappresenta un prodotto separato con una SKU distinta. Ad esempio, una combinazione di colore e dimensioni per un prodotto configurabile è associata a una SKU specifica nel catalogo.<br/>`virtual` — Prodotto non tangibile che non richiede spedizione e che non è conservato in magazzino. Alcuni esempi includono servizi, appartenenze e abbonamenti.<br/>`bundle`: un set di prodotti personalizzabile di prodotti semplici venduti insieme. |
-| `categories` | Indica ogni categoria assegnata al prodotto. Separa le categorie e le sottocategorie con una barra. Per indicare più percorsi di categoria, separare ogni percorso con una barra verticale | simbolo. Esempio: `Default Category/Gear&#124;Default Category/Gear/Bags` |
+| `categories` | Indica ogni categoria assegnata al prodotto. Separa le categorie e le sottocategorie con una barra. Per indicare più percorsi di categoria, separare ogni percorso con una barra verticale \| simbolo. Esempio: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | Il codice del sito web di ciascun sito web in cui il prodotto è disponibile. Un singolo prodotto può essere assegnato a più siti web o limitato a uno solo. Se si specificano più siti Web, separarli con una virgola e senza spazi. Ad esempio: `base` o `base,website2` |
 | `name` | Il nome del prodotto viene visualizzato in tutti gli elenchi di prodotti e corrisponde al nome utilizzato dai clienti per identificare il prodotto. |
 | `description` | La descrizione del prodotto fornisce informazioni dettagliate sul prodotto e potrebbe includere semplici tag HTML. |
