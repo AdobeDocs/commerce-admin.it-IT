@@ -3,9 +3,9 @@ title: Creare ed eliminare attributi di prodotto
 description: Scopri come creare e rimuovere gli attributi del prodotto, utilizzati per descrivere caratteristiche specifiche dei prodotti nel catalogo.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
    | Proprietà | Descrizione |
    |--- |--- |
    | `Text Field` | Campo di input a riga singola per il testo. |
-   | `Text Area` | Campo di input a più righe per l&#39;immissione di paragrafi di testo, ad esempio la descrizione di un prodotto. È possibile utilizzare l&#39;editor WYSIWYG per formattare il testo con tag HTML o immettere i tag direttamente nel testo. |
+   | `Text Area` | Campo di input a più righe per l&#39;immissione di paragrafi di testo, ad esempio la descrizione di un prodotto. È possibile utilizzare WYSIWYG Editor per formattare il testo con i tag di HTML o immettere i tag direttamente nel testo. |
    | `Text Editor` | Un editor di testo perfettamente funzionante nella posizione dell’attributo. |
    | Data | Visualizza un valore di data nel [formato preferito](attributes-input-types.md#date-and-time-options) e nel [fuso orario](../getting-started/store-details.md#locale-options). I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_**a seconda della configurazione del sistema, gli utenti di_Amministrazione _possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Visualizza un elenco a discesa con opzioni predefinite di `Yes` e `No`. |
@@ -63,6 +63,10 @@ ht-degree: 0%
 ## Passaggio 2: descrivi le proprietà avanzate (se necessario)
 
 1. Immettere un **[!UICONTROL Attribute Code]** univoco in caratteri minuscoli e senza spazi.
+
+   >[!NOTE]
+   >
+   >Non è consigliabile utilizzare il valore `type` nel campo [!UICONTROL Attribute Code]. Ciò può causare errori perché il valore `type` è riservato per l&#39;uso di sistema.
 
    ![Attributo prodotto - proprietà avanzate](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
@@ -128,7 +132,7 @@ ht-degree: 0%
 
 1. Per consentire la formattazione del testo con HTML, impostare **[!UICONTROL Allow HTML Tags on Frontend]** su `Yes`.
 
-   Questa impostazione rende disponibile l’editor WYSIWYG per il campo.
+   Questa impostazione rende disponibile l’editor di WYSIWYG per il campo.
 
 1. Per includere l&#39;attributo nella pagina del prodotto, impostare **[!UICONTROL Visible on Catalog Pages on Storefront]** su `Yes`.
 
