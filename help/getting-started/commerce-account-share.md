@@ -1,11 +1,11 @@
 ---
-title: Condividi un account  [!DNL Commerce]
+title: 'Condividi un account  [!DNL Commerce] '
 description: Scopri come concedere un accesso limitato al tuo account [!DNL Commerce] per altri [!DNL Commerce] titolari di account.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: e7d76a7fa9ba8d8b8ee1ce122f7ca61e2aa317c6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Il team di supporto [!DNL Commerce] non ha accesso all&#39;account e non può im
 
 >[!NOTE]
 >
->Tutte le azioni intraprese dagli utenti con accesso condiviso sono di esclusiva responsabilità del titolare del conto principale. Adobe non è responsabile di alcuna azione eseguita dagli utenti che hanno accesso condiviso al tuo account.
+>Tutte le azioni intraprese dagli utenti con accesso condiviso sono di esclusiva responsabilità del titolare del conto principale. Adobe non è responsabile per eventuali azioni intraprese dagli utenti che hanno accesso condiviso al tuo account.
 
 ![Impostazioni di accesso condiviso](./assets/shared-access.png){width="600" zoomable="yes"}
 
@@ -26,7 +26,7 @@ Il team di supporto [!DNL Commerce] non ha accesso all&#39;account e non può im
 
 1. Prima di iniziare, ottenere le seguenti informazioni dall&#39;account [!DNL Commerce] del **nuovo beneficiario dell&#39;accesso condiviso**:
 
-   - L&#39;utente deve essersi già registrato per un account all&#39;indirizzo account.adobe.com e aver effettuato l&#39;accesso tramite account.magento.com.
+   - L&#39;utente deve essersi già registrato per un account all&#39;indirizzo account.adobe.com e aver effettuato l&#39;accesso tramite account.magento.com. Per ulteriori dettagli, vedere [Creare un account Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account).
    - `MAGE ID/Account ID (MAG00XXXXXXX)` è visualizzato nell&#39;angolo superiore sinistro della scheda _[!UICONTROL Magento]_, appena sopra il collegamento **Disconnetti**.
    - Indirizzo `Email` associato all&#39;account.
 

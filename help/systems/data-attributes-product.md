@@ -3,9 +3,9 @@ title: Riferimento attributi dati prodotto
 description: Utilizza questo riferimento degli attributi dei dati del prodotto quando utilizzi importazioni ed esportazioni di dati del prodotto.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
+source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Nell’installazione utilizzata per esportare questi dati sono installati i dati
 |--- |--- |
 | `sku` | (Obbligatorio) L’unità di gestione delle scorte è un identificatore alfanumerico univoco utilizzato per tenere traccia delle scorte. Una SKU può contenere fino a 64 caratteri. Ad esempio: `sku123`<br/>**_Nota:_**un SKU più lungo di 64 caratteri impedisce l&#39;importazione. |
 | `store_view_code` | Identifica le visualizzazioni specifiche dello store in cui il prodotto è disponibile. Se questo campo viene lasciato vuoto, il prodotto sarà disponibile nella visualizzazione predefinita del Negozio. Esempio: `storeview1`, `english`, `spanish` |
-| `attribute_set_code` | Assegna il prodotto a una serie di attributi o a un modello di prodotto specifici, in base al tipo di prodotto. Una volta creato il prodotto, il set di attributi non può essere modificato. Esempio: `default` |
+| `attribute_set_code` | Assegna il prodotto a una serie di attributi o a un modello di prodotto specifici, in base al tipo di prodotto. Ad esempio: `default`<br><br>Dopo la creazione del prodotto, non è possibile modificare il set di attributi utilizzando la funzionalità di importazione. Tuttavia, puoi modificare il set di attributi da Amministratore ed esportare nuovamente il prodotto per aggiornare il file CSV . |
 | `product_type` | Indica il tipo di prodotto. Valori:<br/>`simple` — Articoli materiali di solito venduti come unità singole o in quantità fisse.<br/>`grouped` — Gruppo di prodotti separati venduti come set.<br/>`configurable` — Prodotto con più opzioni che il cliente deve selezionare prima di effettuare un acquisto. L&#39;inventario può essere gestito per ogni set di varianti perché rappresenta un prodotto separato con una SKU distinta. Ad esempio, una combinazione di colore e dimensioni per un prodotto configurabile è associata a una SKU specifica nel catalogo.<br/>`virtual` — Prodotto non tangibile che non richiede spedizione e che non è conservato in magazzino. Alcuni esempi includono servizi, appartenenze e abbonamenti.<br/>`bundle`: un set di prodotti personalizzabile di prodotti semplici venduti insieme. |
 | `categories` | Indica ogni categoria assegnata al prodotto. Separa le categorie e le sottocategorie con una barra. Per indicare più percorsi di categoria, separare ogni percorso con una barra verticale \| simbolo. Esempio: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | Il codice del sito web di ciascun sito web in cui il prodotto è disponibile. Un singolo prodotto può essere assegnato a più siti web o limitato a uno solo. Se si specificano più siti Web, separarli con una virgola e senza spazi. Ad esempio: `base` o `base,website2` |

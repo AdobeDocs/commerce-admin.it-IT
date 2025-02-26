@@ -4,9 +4,9 @@ description: Scopri come creare account utente amministratore e assegnare ruoli 
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Quando il tuo archivio viene installato per la prima volta, viene creato un account Amministratore predefinito con credenziali di accesso che ti forniscono accesso amministrativo completo. Come best practice, è consigliabile creare un altro account utente con accesso completo come amministratore. In questo modo, puoi utilizzare un account per le attività amministrative quotidiane e riservare l’altro come account &quot;Super Admin&quot;. Può essere utile se si dimenticano le credenziali normali o se queste diventano in qualche modo inutilizzabili.
 
-Se altri membri del team o provider di servizi necessitano dell&#39;accesso, è possibile creare un account utente separato per ciascuno di essi e assegnare un accesso limitato in base alle esigenze aziendali da conoscere. Per limitare i siti Web o gli archivi a cui gli utenti possono accedere in Amministrazione, devi prima [creare un ruolo](permissions-user-roles.md) con ambito limitato e solo le risorse necessarie selezionate. Quindi, puoi assegnare il ruolo a un account utente specifico. Gli utenti amministratori assegnati a un ruolo con restrizioni possono visualizzare e modificare i dati solo per i siti Web o gli archivi associati al ruolo, ma non possono modificare le impostazioni globali o i dati.
+Se altri membri del team o fornitori di servizi hanno bisogno di accedere, puoi creare singoli account utente per loro e assegnare un accesso limitato in base alle loro esigenze aziendali specifiche. Per limitare i siti Web o gli archivi a cui gli utenti possono accedere in Amministrazione, devi prima [creare un ruolo](permissions-user-roles.md) con ambito limitato e solo le risorse necessarie selezionate. Quindi, puoi assegnare il ruolo a un account utente specifico. Gli utenti amministratori assegnati a un ruolo con restrizioni possono visualizzare e modificare i dati solo per i siti Web o gli archivi associati al ruolo, ma non possono modificare le impostazioni globali o i dati.
 
 >[!NOTE]
 >
->I commercianti di Adobe Commerce che dispongono di un Adobe ID e desiderano un accesso semplificato ai prodotti Adobe Commerce e Adobe Business possono integrare l’autenticazione Commerce con il flusso di lavoro di autenticazione IMS di Adobe. Una volta abilitata l’integrazione per il tuo archivio Commerce, per accedere ogni utente amministratore deve utilizzare le credenziali di Adobe, non le credenziali di Commerce. Consulta [Panoramica dell&#39;integrazione del servizio Identity Management (IMS) Adobe](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>I commercianti di Adobe Commerce che dispongono di un Adobe ID e desiderano un accesso semplificato ai prodotti aziendali Adobe Commerce e Adobe possono integrare l’autenticazione Commerce con il flusso di lavoro di autenticazione IMS di Adobe. Una volta abilitata l’integrazione per il tuo archivio Commerce, per accedere ogni utente amministratore deve utilizzare le credenziali Adobe, non le credenziali Commerce. Consulta [Panoramica dell&#39;integrazione del servizio Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza per l’account utente.
 
