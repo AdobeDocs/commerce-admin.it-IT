@@ -3,7 +3,7 @@ user-guide-title: Guida ai contenuti e alla progettazione
 user-guide-description: Informazioni complete su contenuti e funzioni di progettazione per gli amministratori di Adobe Commerce e Magento Open Source e per gli esperti di marketing e-commerce.
 breadcrumb-title: Contenuto e progettazione
 feature: CMS, Page Content
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 4%
@@ -75,8 +75,8 @@ ht-degree: 4%
 - Integrazione di AEM Assets per Commerce {#aem-asset-management}
    - [Panoramica dell’integrazione](aem-assets-integration.md)
    - [Note sulla versione](aem-assets-release-notes.md)
-   - Introduzione a {#onboarding}
-      - [Configurare AEM Assets](aem-assets-onboard.md)
+   - Introduzione a {#getting-started}
+      - [Configurare AEM Assets](aem-assets-getting-started.md)
       - [Configurare AEM Assets](aem-assets-configure-aem.md)
       - [Configurare Adobe Commerce](aem-assets-configure-commerce.md)
       - [Abilita sincronizzazione risorse](aem-assets-setup-synchronization.md)

@@ -3,9 +3,9 @@ title: Abilita sincronizzazione risorse
 description: Scopri come collegare i progetti Adobe Commerce e Experience Manager Assets per abilitare la sincronizzazione delle risorse tra questi due sistemi.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Dopo aver identificato il progetto AEM Assets, seleziona la regola corrispondent
 
 - **[!UICONTROL Custom match]** - Regola di corrispondenza per scenari più complessi o requisiti aziendali specifici che richiedono una logica di corrispondenza personalizzata. L’implementazione della corrispondenza personalizzata richiede lo sviluppo di codice personalizzato in Adobe Developer App Builder per definire il modo in cui le risorse vengono associate ai prodotti. Ulteriori dettagli disponibili a breve...
 
-Per l&#39;onboarding iniziale, utilizza la regola predefinita *Corrispondenza per SKU prodotto*.
+Per la configurazione iniziale, utilizza la regola predefinita *Corrispondenza per SKU prodotto*.
 
 ## Prerequisiti
 
