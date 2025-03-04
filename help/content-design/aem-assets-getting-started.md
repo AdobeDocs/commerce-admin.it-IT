@@ -1,17 +1,18 @@
 ---
 title: Configurare l’integrazione di AEM Assets per Commerce
-description: Scopri come integrare Experience Manager Assets con la tua istanza  [!DNL Commerce]  per accedere a innumerevoli risorse multimediali da utilizzare nel tuo store.
+description: Scopri come impostare e configurare l’ambiente Experience Manager Assets per gestire le risorse Commerce per il tuo store.
 feature: CMS, Media, Configuration
-source-git-commit: c109edc9d9277baafd61da1df0f1917f07089353
+exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
+source-git-commit: 934473c5124002b3b0b1bee2da47afff468406dc
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
 
 # Configurare l’integrazione di AEM Assets per Commerce
 
-La configurazione dell’integrazione AEM Assets richiede l’accesso amministrativo per personalizzare la configurazione dell’applicazione e dell’ambiente.
+La configurazione dell’integrazione Adobe Experience Manager Assets per Commerce richiede l’accesso amministrativo per personalizzare la configurazione dell’applicazione e dell’ambiente.
 
 - Accesso amministrativo al programma Cloud Manager in cui viene eseguito il provisioning degli ambienti AEM Assets as a Cloud Service.
 
@@ -21,7 +22,7 @@ La configurazione dell’integrazione AEM Assets richiede l’accesso amministra
 
 Per sfruttare questa integrazione, le aziende devono soddisfare i seguenti requisiti:
 
-- Licenze attive per Adobe Commerce, AEM Assets e [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
+- Licenze attive per Adobe Commerce, Adobe Experience Manager Assets e [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
 - Adobe Commerce 2.4.5+
 
@@ -38,14 +39,14 @@ Per sfruttare questa integrazione, le aziende devono soddisfare i seguenti requi
 
 - **Soluzione Adobe ufficiale**: sviluppata, mantenuta e completamente supportata da Adobe, per garantire stabilità e allineamento con i futuri miglioramenti della piattaforma.
 
-- **Adobe Managed Support Model**: l&#39;assistenza e la risoluzione dei problemi vengono gestite direttamente da Adobe, garantendo la massima tranquillità e la risoluzione semplificata dei problemi.
+- **Adobe Managed Support Model**: Adobe gestisce l&#39;assistenza e la risoluzione dei problemi, garantendo la massima tranquillità e una risoluzione semplificata.
 
 ## Passaggi successivi
 
 L’abilitazione dell’integrazione di Commerce con Experience Manager Assets è un processo in tre fasi:
 
-1. [Configura il progetto AEM Assets per gestire le risorse Adobe Commerce](aem-assets-configure-aem.md).
+1. [Configura il progetto Adobe Experience Manager Assets per gestire le risorse Adobe Commerce](aem-assets-configure-aem.md).
 
-1. [Installa l&#39;estensione per l&#39;integrazione delle risorse di AEM e configura Adobe Commerce](aem-assets-configure-aem.md).
+1. [Installa l&#39;integrazione Adobe Experience Manager Assets per l&#39;estensione Commerce e configura Adobe Commerce](aem-assets-configure-aem.md).
 
 1. [Abilita sincronizzazione risorse](aem-assets-setup-synchronization.md).
