@@ -1,18 +1,18 @@
 ---
-title: Abilita sincronizzazione risorse
+title: Configurare l’integrazione
 description: Scopri come collegare i progetti Adobe Commerce e Experience Manager Assets per abilitare la sincronizzazione delle risorse tra questi due sistemi.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
-# Abilita sincronizzazione risorse
+# Configurare l’integrazione
 
-Abilita la sincronizzazione delle risorse aggiornando la configurazione dell’ambiente Commerce per connettere Commerce all’istanza AEM Assets. L’integrazione consente la sincronizzazione delle risorse tra Commerce e AEM Assets, garantendo che le immagini dei prodotti e altre risorse siano sempre aggiornate.
+Configura l’integrazione connettendo Commerce all’istanza di AEM Assets e selezionando la strategia di corrispondenza per la sincronizzazione delle risorse.
 
 Dopo aver identificato il progetto AEM Assets, seleziona la regola corrispondente per la sincronizzazione delle risorse tra Adobe Commerce e AEM Assets.
 
@@ -24,11 +24,11 @@ Per la configurazione iniziale, utilizza la regola predefinita *Corrispondenza p
 
 ## Prerequisiti
 
-- [Configurare AEM Assets per gestire le risorse Commerce](aem-assets-configure-aem.md)
+- [Installare il pacchetto AEM Assets](aem-assets-configure-aem.md)
 
-- [Installa e configura l&#39;integrazione AEM Assets per Commerce](aem-assets-configure-commerce.md) per aggiungere l&#39;estensione e generare le credenziali e le connessioni necessarie per utilizzare l&#39;estensione.
+- [Installa i pacchetti Adobe Commerce](aem-assets-configure-commerce.md) per aggiungere l&#39;estensione e generare le credenziali e le connessioni necessarie per utilizzare l&#39;estensione.
 
-- Crea un ticket di supporto per richiedere l’abilitazione per l’integrazione AEM Assets. È necessario fornire **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** e **[!UICONTROL IMS Org ID]** per l&#39;ambiente di authoring AEM Assets che si desidera connettere a Commerce.
+- Crea un ticket di supporto per richiedere l’abilitazione per l’integrazione di AEM Assets for Commerce. Nel ticket, includi **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** e **[!UICONTROL IMS Org ID]** per l’ambiente di authoring AEM Assets che desideri connettere a Commerce.
 
   >[!TIP]
   >
@@ -69,7 +69,7 @@ Per la configurazione iniziale, utilizza la regola predefinita *Corrispondenza p
 
 1. Selezionare **[!UICONTROL Save Config]** per applicare gli aggiornamenti e avviare la sincronizzazione delle risorse.
 
-   L’aggiornamento della configurazione attiva il processo di sincronizzazione iniziale, consentendo a Commerce di accettare gli aggiornamenti in entrata da AEM Assets. Il tempo necessario per la sincronizzazione dipende dal volume delle risorse e dalle configurazioni specifiche. L’integrazione sfrutta i processi automatizzati per ridurre al minimo il tempo necessario per la sincronizzazione.
+   L’aggiornamento della configurazione attiva il processo di sincronizzazione iniziale, consentendo a Commerce di accettare gli aggiornamenti in arrivo da AEM Assets. Il tempo necessario per la sincronizzazione dipende dal volume delle risorse e da configurazioni specifiche. L’integrazione sfrutta i processi automatizzati per ridurre al minimo il tempo necessario per la sincronizzazione.
 
 ## Passaggio successivo
 
