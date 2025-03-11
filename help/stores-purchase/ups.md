@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Scopri come impostare UPS come corriere per il tuo negozio.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
+source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,15 @@ United Parcel Service (UPS) offre servizi di spedizione nazionali e internaziona
 
 ## Passaggio 1: aprire un conto di spedizione UPS
 
-Per offrire questo metodo di spedizione ai tuoi clienti, devi prima aprire un account con UPS.
+Per offrire questo metodo di spedizione ai clienti, è necessario prima aprire un account UPS e completare l&#39;applicazione per ottenere un numero di conto Corriere. Vedere [Aprire un account UPS gratuito](https://www.ups.com/us/en/business-solutions/open-an-account).
 
-## Passaggio 2: abilitare UPS per il tuo store
+## Passaggio 2: ottenere le credenziali OAUTH UPS
+
+Segui i passaggi descritti nella [Guida introduttiva alle API UPS](https://developer.ups.com/get-started) per ottenere le credenziali API (ID client e segreto client) necessarie per abilitare l&#39;integrazione UPS. Per ottenere le credenziali è necessario creare un&#39;applicazione UPS.
+
+Quando si configurano le impostazioni del gruppo di continuità nell&#39;amministratore, utilizzare i valori delle credenziali per `username` e `password`.
+
+## Passaggio 3: abilitare UPS per il tuo store
 
 1. Nella barra laterale _Admin_, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -36,7 +42,7 @@ Per offrire questo metodo di spedizione ai tuoi clienti, devi prima aprire un ac
 
 1. Per un account REST UPS (impostazione predefinita), effettuare le seguenti operazioni:
 
-   - Immettere le credenziali UPS: ID client UPS come **[!UICONTROL User ID]**, segreto client UPS come **[!UICONTROL Password]**
+   - Immettere le credenziali del gruppo di continuità: ID client gruppo di continuità come **[!UICONTROL User ID]**, segreto client gruppo di continuità come **[!UICONTROL Password]**.
 
    - Impostare **[!UICONTROL Mode]** su `Live` per inviare dati al sistema di spedizione UPS tramite una connessione protetta. La modalità di sviluppo non invia dati tramite una connessione protetta.
 
@@ -116,7 +122,7 @@ Per offrire questo metodo di spedizione ai tuoi clienti, devi prima aprire un ac
 
    ![Descrizione contenitore](./assets/ups2.png){width="600" zoomable="yes"}
 
-## Passaggio 4: impostare le commissioni di gestione
+## Passaggio 5: impostare le commissioni di gestione
 
 La tariffa di imballaggio è facoltativa e viene visualizzata come un costo aggiuntivo che viene aggiunto al costo di spedizione UPS. Se si desidera includere una tariffa di imballaggio, eseguire le operazioni seguenti:
 
@@ -136,7 +142,7 @@ La tariffa di imballaggio è facoltativa e viene visualizzata come un costo aggi
 
    ![Spese di gestione](./assets/ups3.png){width="600" zoomable="yes"}
 
-## Passaggio 5: specificare i metodi consentiti e i paesi applicabili
+## Passaggio 6: specificare i metodi consentiti e i paesi applicabili
 
 1. Per **[!UICONTROL Allowed Methods]**, scegliere ogni metodo di spedizione UPS per renderlo disponibile ai clienti.
 
@@ -174,7 +180,7 @@ La tariffa di imballaggio è facoltativa e viene visualizzata come un costo aggi
 
 1. Fare clic su **[!UICONTROL Save Config]**.
 
-## Passaggio 6: imposta l&#39;indirizzo di origine della spedizione
+## Passaggio 7: imposta l&#39;indirizzo di origine della spedizione
 
 1. Assicurati che le [Informazioni sullo store](../getting-started/store-details.md#store-information) siano state completate.
 

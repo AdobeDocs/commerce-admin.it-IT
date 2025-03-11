@@ -1,9 +1,9 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -25,20 +25,20 @@ ht-degree: 0%
 ## Funzionalità solo CE {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Funzione Magento Open Source" src="../assets/open-source.svg" width="20" height="20" /> È necessario un metodo alternativo per il Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Ulteriori informazioni</a>)</td></tr>
+<tr><td><img alt="Funzione Magento Open Source" src="../assets/open-source.svg" width="20" height="20" /> È necessario un metodo alternativo per Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Ulteriori informazioni</a>)</td></tr>
 </table>
 
 ## Nota di autenticazione dell’amministratore IMS {#ims-admin-note}
 
 >[!NOTE]
 >
->I commercianti di Adobe Commerce che dispongono di un Adobe ID e desiderano un accesso semplificato ai prodotti Adobe Commerce e Adobe Business possono integrare l’autenticazione amministratore di Commerce con il flusso di lavoro di autenticazione IMS di Adobe. Dopo l’abilitazione di questa integrazione per l’archivio Commerce, per accedere ogni utente amministratore deve utilizzare le proprie credenziali di Adobe, non le credenziali dell’account Commerce. Consulta [Panoramica sull&#39;integrazione di Adobe Commerce con Adobe IMS](/help/getting-started/adobe-ims-integration-overview.md).
+>I commercianti di Adobe Commerce che dispongono di un Adobe ID e desiderano un accesso semplificato ai prodotti aziendali Adobe Commerce e Adobe possono integrare l’autenticazione dell’amministratore Commerce con il flusso di lavoro di autenticazione IMS di Adobe. Una volta abilitata l’integrazione per il tuo archivio Commerce, per accedere ogni utente amministratore deve utilizzare le credenziali Adobe, non le credenziali dell’account Commerce. Consulta [Panoramica sull&#39;integrazione di Adobe Commerce con Adobe IMS](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## Nota API GTag {#gtag-api-note}
 
 >[!NOTE]
 >
->A partire dalla versione 2.4.5, l’integrazione dei servizi Google viene aggiornata per supportare l’utilizzo delle API GTag. GTag è un meccanismo unificato per l’integrazione con le funzionalità di Google per le pagine web e supporta le funzionalità e le opportunità più recenti per il tracciamento e la gestione dei contenuti tramite Google Services. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>A partire dalla versione 2.4.5, l’integrazione dei servizi Google viene aggiornata per supportare l’utilizzo delle API GTag. GTag è un meccanismo unificato per l’integrazione con le funzionalità di Google per le pagine web e supporta le funzionalità e le opportunità più recenti per il tracciamento e la gestione dei contenuti tramite Google Services. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori di Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
 ## Nota di salto automatico riscrittura URL {#url-rewrite-skip}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Durante il reindirizzamento, tutti i parametri di GET specificati nell’URL vengono rimossi per motivi di sicurezza.
+>Durante il processo di reindirizzamento, tutti i parametri GET specificati nell’URL vengono rimossi per motivi di sicurezza.
 
 ## Nuova regola di prezzo {#new-price-rule}
 
@@ -66,7 +66,7 @@ Per accedere alle impostazioni di configurazione dell&#39;archivio, scegliere **
 
 >[!IMPORTANT]
 >
->A partire da giugno 2024, i commercianti di Adobe Commerce non potranno più negoziare con l’integrazione corrente del gruppo di continuità. Questo perché le API del servizio United Parcel Service (UPS) utilizzate dall’integrazione nativa di Adobe Commerce non supportano attualmente il modello di sicurezza OAuth 2.0 richiesto. Per ulteriori informazioni su questa modifica, fare riferimento alla [_Guida alla migrazione della chiave di accesso al portale per sviluppatori_](https://developer.ups.com/oauth-developer-guide). <br/>
+>A partire da giugno 2024, i commercianti di Adobe Commerce non potranno più negoziare con l’integrazione corrente del gruppo di continuità. Questo perché le API del servizio United Parcel Service (UPS) utilizzate dall’integrazione nativa di Adobe Commerce non supportano attualmente il modello di sicurezza OAuth 2.0 richiesto. Per abilitare l&#39;integrazione, [crea un&#39;applicazione sulla piattaforma di sviluppo UPS](https://developer.ups.com/get-started) per ottenere le credenziali richieste per OAuth 2.0. Utilizzare le nuove credenziali come `username` e `password` nella configurazione di Commerce UPS Shipping. Per ulteriori informazioni sulla modifica del modello di protezione, vedere [Guida alla migrazione della chiave di accesso al portale per sviluppatori_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
 >I commercianti devono [applicare un aggiornamento della patch di qualità](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) al proprio archivio per migrare dall&#39;API SOAP all&#39;API RESTful, che supporta i protocolli di autenticazione OAuth 2.0.
 
