@@ -5,9 +5,9 @@ breadcrumb-title: Riferimento configurazione
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
    - [Vendite](./sales/sales.md)
    - [E-mail vendite](./sales/sales-emails.md)
    - [Virgolette](./sales/quotes.md)
-   - [Stampe PDF](./sales/pdf-print-outs.md)
+   - [Stampati PDF](./sales/pdf-print-outs.md)
    - [Imposta](./sales/tax.md)
    - [Pagamento](./sales/checkout.md)
    - [Impostazioni spedizione](./sales/shipping-settings.md)
@@ -75,7 +75,7 @@ ht-degree: 1%
       - [Pagamenti PayPal Standard](./sales/paypal-payments-standard.md)
       - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [Collegamento flusso di pagamento PayPal](./sales/paypal-payflow-link.md)
-- [Sales Channel](./sales-channels.md)
+- [Canali di vendita](./sales-channels.md)
 - Servizi {#services}
    - [API web](./services/magento-web-api.md)
    - [Servizi Commerce](./services/saas.md)
@@ -84,5 +84,5 @@ ht-degree: 1%
    - [Amministratore](./advanced/admin.md)
    - [Sistema](./advanced/system.md)
    - [Sviluppatore](./advanced/developer.md)
-- [Torna a Guide esercenti](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

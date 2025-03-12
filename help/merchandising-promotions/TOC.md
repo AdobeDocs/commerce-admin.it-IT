@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce e Magento Open Source includono molti str
 breadcrumb-title: Merchandising e promozioni
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
       - [Panoramica e configurazione](url-rewrite.md)
       - [Riscritture categoria](url-rewrite-category.md)
       - [Riscritture prodotto](url-rewrite-product.md)
-      - [Riscrittura della pagina CMS](url-rewrite-cms-page.md)
+      - [La pagina CMS riscrive](url-rewrite-cms-page.md)
       - [Riscritture personalizzate](url-rewrite-custom.md)
       - [Reindirizzamenti automatici](url-redirect-product-automatic.md)
 - Strumenti del sito Google {#google-tools}
@@ -87,5 +87,5 @@ ht-degree: 1%
    - [Gestione tag Google](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Esperimenti sui contenuti Google](google-content-experiments.md)
-- [Torna a Guide esercenti](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

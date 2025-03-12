@@ -1,22 +1,21 @@
 ---
-user-guide-title: Guida introduttiva di Adobe Commerce
-user-guide-description: Se hai poca esperienza con Adobe Commerce o Magento Open Source, scopri le risorse dell'ecosistema  [!DNL Commerce] , segui il percorso di clienti per esplorare il tuo store e scopri le funzioni chiave.
+user-guide-title: Guida introduttiva per l’amministratore di Adobe Commerce
+user-guide-description: Se hai poca esperienza con l'amministratore di Adobe Commerce o Magento Open Source, scopri le risorse dell'ecosistema  [!DNL Commerce] , segui il percorso clienti per esplorare il tuo store e scopri le funzioni chiave dell'amministratore.
 breadcrumb-title: Guida introduttiva
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
 
 
-# Guida introduttiva di Adobe Commerce {#start}
+# Guida introduttiva per l’amministratore di Adobe Commerce {#start}
 
-+ [Guida introduttiva di Adobe Commerce](guide-overview.md)
-+ [Cos’è Adobe Commerce?](about.md)
++ [Guida introduttiva per l’amministratore di Adobe Commerce](guide-overview.md)
 + [Credenziali di accesso e URL](login-urls.md)
 + Account Commerce {#commerce-account}
    + [Crea e accedi al tuo account](commerce-account-create.md)
@@ -77,5 +76,5 @@ ht-degree: 1%
    + [Ecosistema](resources.md)
    + [Estensioni](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Torna a Guide esercenti](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

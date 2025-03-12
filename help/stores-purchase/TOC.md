@@ -1,13 +1,13 @@
 ---
 user-guide-title: Guida ai negozi e all’esperienza di acquisto
-user-guide-description: Informazioni complete per amministratori di siti, agenti del servizio clienti e responsabili vendite che lavorano in Adobe Commerce e Magento Open Source.
+user-guide-description: Informazioni complete per amministratori di siti, agenti di assistenza clienti e responsabili delle vendite che lavorano in Adobe Commerce e Magento Open Source.
 breadcrumb-title: Negozi ed esperienza di acquisto
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 3%
 
 ---
@@ -131,5 +131,5 @@ ht-degree: 3%
       + [Panoramica delle etichette di spedizione](shipping-labels.md)
       + [Configurare le etichette di spedizione](shipping-label-configure.md)
       + [Crea etichette di spedizione](shipping-label-create.md)
-+ [Torna a Guide esercenti](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

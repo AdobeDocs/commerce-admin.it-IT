@@ -5,7 +5,7 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 39d49ac4efd4d00f0f8d22bf469126b748c08173
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 1%
@@ -139,7 +139,7 @@ _11 maggio 2023_
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"}
 
 ![Correzione](../assets/fix.svg) - È stato risolto un problema che impediva l&#39;applicazione di una regola di prezzo blocco dinamico o carrello alla vetrina.
-![Correzione](../assets/fix.svg) - È stato risolto un problema che causava un errore durante il tentativo di un commerciante di creare o aggiornare un blocco dinamico a causa di un&#39;installazione non configurata dell&#39;estensione Audience Activation.
+![Correzione](../assets/fix.svg) - È stato risolto un problema che causava un errore durante un&#39;installazione non configurata dell&#39;estensione Audience Activation quando un commerciante tentava di creare o aggiornare un blocco dinamico.
 
 ### 1,0,0
 
@@ -172,23 +172,23 @@ Dopo aver installato l&#39;estensione [!DNL Audience Activation], è necessario 
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
-1. [Accedi](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) al tuo account Adobe e seleziona il tuo ID organizzazione.
+1. [Accedi](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid) al tuo account Adobe e seleziona il tuo ID organizzazione.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
 
 1. Nel campo **[!UICONTROL Datastream ID]**, incolla l&#39;ID dello stream di dati creato quando [hai attivato](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce come destinazione in Real-Time CDP.
 
-   Questo flusso di dati invia i dati dal sito web Commerce a Real-Time CDP per determinare se un acquirente appartiene a un pubblico. Se non hai ancora creato uno stream di dati, [creane](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) uno in Experience Platform, [aggiungilo](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) alla destinazione Commerce in Real-Time CDP e all&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) in Admin.
+   Questo flusso di dati invia i dati dal sito web Commerce a Real-Time CDP per determinare se un acquirente appartiene a un pubblico. Se non hai ancora creato uno stream di dati, [creane](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) uno in Experience Platform, [aggiungilo](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) alla destinazione Commerce in Real-Time CDP e all&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) in Admin.
 
    >[!NOTE]
    >
-   >Quando specifichi un ID dello stream di dati, [associalo a un sito Web specifico](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) nell&#39;estensione [!DNL Data Connection]. Se il tuo archivio Commerce dispone di più siti Web, [crea una destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) per ciascun sito Web in Real-Time CDP e utilizza un ID dello stream di dati diverso per ciascuno di essi.
+   >Quando specifichi un ID dello stream di dati, [associalo a un sito Web specifico](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) nell&#39;estensione [!DNL Data Connection]. Se il tuo archivio Commerce dispone di più siti Web, [crea una destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) per ciascun sito Web in Real-Time CDP e utilizza un ID dello stream di dati diverso per ciascuno di essi.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Espandere **[!UICONTROL Services]** e selezionare **[!UICONTROL [!DNL Data Connection]]**.
 
-1. [Aggiungi](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) dettagli account del servizio e credenziali.
+1. [Aggiungi](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) dettagli account del servizio e credenziali.
 
 ## Dove utilizzare i tipi di pubblico di Real-Time CDP in Commerce
 
@@ -200,7 +200,7 @@ Con l&#39;estensione [!DNL Audience Activation] abilitata, è possibile:
 
 >[!TIP]
 >
->Per un caso d&#39;uso end-to-end completo su come esportare i dati di [!DNL Commerce] in Real-Time CDP, creare un pubblico e quindi attivarlo in [!DNL Commerce], vedi [Creare un pubblico in Real-Time CDP utilizzando i dati di  [!DNL Commerce] evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>Per un caso d&#39;uso end-to-end completo su come esportare i dati di [!DNL Commerce] in Real-Time CDP, creare un pubblico e quindi attivarlo in [!DNL Commerce], vedi [Creare un pubblico in Real-Time CDP utilizzando i dati di  [!DNL Commerce] evento](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience).
 
 ## Dashboard dei tipi di pubblico di Real-Time CDP
 
@@ -234,7 +234,7 @@ Puoi attivare i tipi di pubblico in un’istanza di Adobe Commerce headless, ad 
 
 ### Regole di prezzo del carrello e regole di prodotto correlate
 
-Per le regole di prezzo del carrello e le regole di prodotto correlate, una vetrina headless comunica all&#39;Experience Platform tramite la [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Il framework fornisce un’API lato server che viene implementata utilizzando GraphQL. Le informazioni sul pubblico, ad esempio il segmento di un acquirente, passano a Commerce tramite un parametro di intestazione GraphQL denominato: `aep-segments-membership`.
+Per le regole di prezzo del carrello e le regole di prodotto correlate, una vetrina headless comunica con Experience Platform tramite [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Il framework fornisce un’API lato server che viene implementata utilizzando GraphQL. Le informazioni sul pubblico, ad esempio il segmento di un acquirente, passano a Commerce tramite un parametro di intestazione GraphQL denominato: `aep-segments-membership`.
 
 L’architettura generale è la seguente:
 
@@ -242,7 +242,7 @@ L’architettura generale è la seguente:
 
 Dopo aver [installato](#install-the-extension) e [configurato](#configure-the-extension) l&#39;estensione, Experience Platform Web SDK contiene le informazioni sul pubblico sotto forma di appartenenza al segmento.
 
-Per acquisire tali appartenenze al segmento dall&#39;SDK, vedi questo [frammento di codice](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
+Per acquisire tali appartenenze al segmento da SDK, vedi questo [frammento di codice](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
 Una volta recuperato, puoi passare tali segmenti a Commerce all’interno dell’intestazione di GraphQL. Ad esempio:
 
@@ -330,18 +330,18 @@ La query seguente restituisce tutti i blocchi dinamici associati a più ID di pu
 
 Ulteriori informazioni sulla query GraphQL `dynamicBlocks` nella [documentazione per gli sviluppatori](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
 
-## Recuperare il pubblico con l’SDK di Adobe Experience Platform Mobile
+## Recuperare i tipi di pubblico con Adobe Experience Platform Mobile SDK
 
-Puoi recuperare il pubblico di Real-Time CDP utilizzando l’SDK di Adobe Experience Platform Mobile.
+Puoi recuperare i tipi di pubblico di Real-Time CDP utilizzando Adobe Experience Platform Mobile SDK.
 
 1. [Installa](#install-the-extension) l&#39;estensione Audience Activation.
-1. [installa e configura l&#39;SDK per il tuo sito Commerce mobile](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [installa e configura SDK per il tuo sito Commerce per dispositivi mobili](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
->L’SDK di Adobe Experience Platform Mobile per iOS supporta iOS 11 o versione successiva.
+>Adobe Experience Platform Mobile SDK per iOS supporta iOS 11 o versione successiva.
 
-Dopo aver completato la configurazione, utilizza le operazioni SDK per dispositivi mobili per recuperare i dati sul pubblico. Ad esempio:
+Dopo aver completato la configurazione, utilizza le operazioni di SDK mobile per recuperare i dati sul pubblico. Ad esempio:
 
 ```swift
 Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) in

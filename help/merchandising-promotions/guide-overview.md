@@ -2,16 +2,16 @@
 title: Guida al merchandising e alle promozioni
 description: Scopri informazioni dettagliate sulle funzioni di merchandising e promozionali in Adobe Commerce, inclusi gli sconti e gli eventi mirati.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: 06c3676d4446dedd44b1be2cff021fabe0ad6fe3
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
 # Guida al merchandising e alle promozioni di Adobe Commerce
 
-Questa guida è destinata ai merchandier e al personale di marketing che lavorano in Adobe Commerce e Magento Open Source. Fornisce informazioni dettagliate sulle funzioni di merchandising e promozionali, inclusi sconti ed eventi mirati. Si presuppone una conoscenza di base della configurazione e delle funzionalità di base di [!DNL Commerce].
+Questa guida è destinata ai merchandier e al personale di marketing che lavorano per l’amministratore di Adobe Commerce e Magento Open Source. Fornisce informazioni dettagliate sulle funzioni di merchandising e promozionali, inclusi sconti ed eventi mirati. Si presuppone una conoscenza di base della configurazione e delle funzionalità di base di [!DNL Commerce].
 
 Questa guida tratta i seguenti argomenti:
 
@@ -26,7 +26,7 @@ Questa guida tratta i seguenti argomenti:
 | [Regole prezzo catalogo](price-rules-catalog.md) | Offri prodotti agli acquirenti a un prezzo scontato in base a una serie di condizioni definite. |
 | [Regole prezzo carrello](price-rules-cart.md) | Applica sconti agli articoli nel carrello in base a una serie di condizioni o quando il cliente immette un codice coupon valido. |
 | [Relazioni prodotto](product-relationships.md) | Promuovi i prodotti nel catalogo su altre pagine definendo la natura della relazione tra i prodotti. |
-| [Newsletter e abbonamenti](newsletters.md) | Publish e distribuire newsletter ai clienti abbonati per aumentare il traffico verso il tuo negozio. |
+| [Newsletter e abbonamenti](newsletters.md) | Pubblica e distribuisci le newsletter ai clienti abbonati per aumentare il traffico verso il tuo store. |
 | [Promemoria e-mail](email-reminder-rules.md) | Invia automaticamente promemoria ai clienti per usufruire di una promozione e effettuare un acquisto. |
 | [Ottimizzazione motore di ricerca](seo-overview.md) | Implementa le funzioni di Commerce per ottimizzare il contenuto e la presentazione del sito e migliorare il modo in cui le pagine vengono indicizzate dai motori di ricerca. |
 | [Strumenti del sito di Google](google-tools.md) | Configura le integrazioni con gli strumenti di Google per ottimizzare i contenuti, analizzare il traffico e collegare il catalogo ad aggregatori di acquisti e marketplace. |

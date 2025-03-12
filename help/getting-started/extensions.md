@@ -3,7 +3,7 @@ title: Estensioni da Adobe
 description: Rivedi le informazioni sulle estensioni per Adobe Commerce e Magento Open Source rilasciate da Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Estensioni da Adobe
 
-Questo argomento fornisce informazioni sulle estensioni per Adobe Commerce e Magento Open Source rilasciate da Adobe. Le estensioni aggiungono funzioni, funzionalità, servizi e integrazioni all’amministratore e alla vetrina. Alcune di queste estensioni sono sviluppate attraverso contributi Magenti Open Source della Comunità. Alcune estensioni richiedono un’installazione separata, altre sono installate per impostazione predefinita.
+Questo argomento fornisce informazioni sulle estensioni per Adobe Commerce e Magento Open Source rilasciate da Adobe. Le estensioni aggiungono funzioni, funzionalità, servizi e integrazioni all’amministratore e alla vetrina. Alcune di queste estensioni sono sviluppate tramite contributi della community di Magento Open Source. Alcune estensioni richiedono un’installazione separata, altre sono installate per impostazione predefinita.
 
 ## Estensioni installate
 
@@ -30,11 +30,11 @@ Alcune estensioni vengono installate automaticamente con Adobe Commerce o Magent
 
 ### Braintree
 
-PayPal e Gene Commerce hanno sviluppato insieme l&#39;estensione ufficiale di Braintree per i negozi Commerce 2.4.x. Grazie a una migliore esperienza di pagamento progettata per favorire la conversione, gli aggiornamenti includono opzioni PayLater che mostrano automaticamente messaggi e pulsanti PayLater rilevanti ai consumatori durante gli acquisti e durante il pagamento.
+PayPal e Gene Commerce hanno sviluppato insieme l&#39;estensione ufficiale Braintree per i negozi Commerce 2.4.x. Grazie a una migliore esperienza di pagamento progettata per favorire la conversione, gli aggiornamenti includono opzioni PayLater che mostrano automaticamente messaggi e pulsanti PayLater rilevanti ai consumatori durante gli acquisti e durante il pagamento.
 
-Questa estensione è installata per impostazione predefinita, ma richiede un account [Braintree](https://www.braintreepayments.com/) e la configurazione nell&#39;amministratore per essere abilitata per l&#39;archivio. Per determinare le tariffe da applicare quando si utilizza Braintree per elaborare le transazioni, controllare la [Braintree prezzi](https://www.braintreepayments.com/braintree-pricing).
+Questa estensione è installata per impostazione predefinita, ma richiede un account [Braintree](https://www.braintreepayments.com/) e la configurazione nell&#39;amministratore per essere abilitata per l&#39;archivio. Per determinare le tariffe da applicare quando si utilizza Braintree per elaborare le transazioni, controllare la [determinazione prezzi Braintree](https://www.braintreepayments.com/braintree-pricing).
 
-Per informazioni sulla configurazione delle Braintree nell&#39;amministratore, vedere l&#39;argomento [Braintree](../stores-purchase/braintree.md) nella _Guida alle vendite e all&#39;acquisto_.
+Per informazioni sulla configurazione di Braintree in Amministrazione, consulta l&#39;argomento [Braintree](../stores-purchase/braintree.md) nella _Guida alle vendite e all&#39;esperienza di acquisto_.
 
 ### Google reCAPTCHA
 
@@ -53,11 +53,11 @@ Queste funzioni sono attivate per impostazione predefinita. Ogni utente amminist
 
 >[!NOTE]
 >
->Per gli archivi Adobe Commerce che hanno abilitato l’autenticazione Adobe Identity Management Services (IMS) per l’amministratore, Commerce 2FA nativo è disabilitato. Gli utenti che hanno effettuato l’accesso all’amministratore con le proprie credenziali di Adobe non devono ripetere l’autenticazione per molte attività dell’amministratore. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Consulta [Panoramica dell&#39;integrazione del servizio Identity Management (IMS) Adobe](./adobe-ims-integration-overview.md).
+>Gli archivi Adobe Commerce che hanno abilitato l’autenticazione Adobe Identity Management Services (IMS) per l’amministratore hanno Commerce 2FA nativo disabilitato. Gli utenti che hanno effettuato l’accesso all’Amministratore con le proprie credenziali Adobe non devono ripetere l’autenticazione per molte attività di Amministratore. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Consulta [Panoramica dell&#39;integrazione del servizio Adobe Identity Management (IMS)](./adobe-ims-integration-overview.md).
 
 ## Estensioni da aggiungere
 
-[[!DNL Commerce Marketplace]](https://marketplace.magento.com/) è la risorsa eCommerce globale per le applicazioni e i servizi che espandono le soluzioni [!DNL Commerce] con nuove potenti funzionalità. Adobe rilascia diverse estensioni tramite [!DNL Marketplace] che possono essere installate e configurate nell&#39;archivio Adobe Commerce o di Magento Open Source per fornire integrazioni e funzionalità avanzate.
+[[!DNL Commerce Marketplace]](https://marketplace.magento.com/) è la risorsa eCommerce globale per le applicazioni e i servizi che espandono le soluzioni [!DNL Commerce] con nuove potenti funzionalità. Adobe rilascia diverse estensioni tramite [!DNL Marketplace] che possono essere installate e configurate nell&#39;archivio Adobe Commerce o Magento Open Source per fornire integrazioni e funzionalità avanzate.
 
 ### [!DNL Live Search]
 
@@ -65,27 +65,27 @@ Queste funzioni sono attivate per impostazione predefinita. Ogni utente amminist
 
 L&#39;estensione [!DNL Live Search] collega il tuo store al servizio Live Search, una piattaforma di ricerca gratuita di Adobe Commerce che consente ai venditori di offrire ai clienti un&#39;esperienza di ricerca avanzata dall&#39;intelligenza artificiale. Costruito con l&#39;intelligenza artificiale di Adobe, Adobe Sensei, Intelligent Faceting aiuta i commercianti a fare di più con meno, rimuovendo il lavoro manuale sul faceting/filtraggio.
 
-Per ulteriori informazioni, consulta la [Guida utente di Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html).
+Per ulteriori informazioni, consulta la [Guida utente di Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html).
 
 ### [!DNL Product Recommendations]
 
 ![Solo Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce
 
-L&#39;estensione [!DNL Product Recommendations] collega il tuo store al servizio Product Recommendations, un potente strumento di marketing che puoi utilizzare per aumentare conversioni, ricavi e coinvolgimento. [!DNL Product Recommendations] è stato creato da Adobe Commerce ed è guidato dall&#39;intelligenza artificiale testata in battaglia, Adobe Sensei, in modo da poter stimolare il coinvolgimento e la conversione. Questa funzione elimina il lavoro manuale necessario per fornire consigli di prodotto pertinenti a ogni cliente.
+L&#39;estensione [!DNL Product Recommendations] collega lo store al servizio Product Recommendations, un potente strumento di marketing che puoi utilizzare per aumentare conversioni, ricavi e coinvolgimento. [!DNL Product Recommendations] è stato creato da Adobe Commerce ed è guidato dall&#39;intelligenza artificiale testata in battaglia, Adobe Sensei, in modo da poter stimolare il coinvolgimento e la conversione. Questa funzione elimina il lavoro manuale necessario per fornire consigli di prodotto pertinenti a ogni cliente.
 
-Per ulteriori informazioni, consultare la [[!DNL Product Recommendations] Guida utente](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html?lang=en).
+Per ulteriori informazioni, consultare la [[!DNL Product Recommendations] Guida utente](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=en).
 
 ### [!DNL Catalog Service]
 
-[!DNL Catalog Service] consente di offrire ai clienti un&#39;esperienza di prodotto ottimizzata migliorando le prestazioni, migliorando la scalabilità e aumentando le conversioni. Per ulteriori informazioni, consultare la [[!DNL Catalog Service] Guida utente](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html).
+[!DNL Catalog Service] consente di offrire ai clienti un&#39;esperienza di prodotto ottimizzata migliorando le prestazioni, migliorando la scalabilità e aumentando le conversioni. Per ulteriori informazioni, consultare la [[!DNL Catalog Service] Guida utente](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html).
 
 ### [!DNL Payment Services]
 
-[!DNL Payment services] per Adobe Commerce e Magento Open Source è una soluzione di pagamento completamente integrata che semplifica la gestione dei pagamenti e offre ai clienti l&#39;opportunità di pagare. Esegui la riconciliazione sicura di tutti i dati relativi a pagamenti e transazioni all’interno dell’amministratore di Adobe Commerce, consentendoti di gestire gli ordini e i pagamenti in un’unica posizione e di effettuare un pagamento senza soluzione di continuità. Per ulteriori informazioni, consultare la [[!DNL Payment Services] Guida utente](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+[!DNL Payment services] per Adobe Commerce e Magento Open Source è una soluzione di pagamento completamente integrata che semplifica la gestione dei pagamenti e offre ai clienti l&#39;opportunità di pagare. Esegui la riconciliazione sicura di tutti i dati relativi a pagamenti e transazioni all’interno dell’amministratore di Adobe Commerce, consentendoti di gestire gli ordini e i pagamenti in un’unica posizione e di effettuare un pagamento senza soluzione di continuità. Per ulteriori informazioni, consultare la [[!DNL Payment Services] Guida utente](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 ### [!DNL Store Fulfillment]
 
-Il servizio di consegna del negozio per Adobe Commerce e il Magento Open Source consente un acquisto online di qualità superiore, la customer experience del ritiro in negozio (BOPIS) e massimizza la produttività dei dipendenti grazie a un flusso di lavoro di distribuzione completo abilitato tramite un dispositivo mobile. Per ulteriori informazioni, consultare la [[!DNL Store Fulfillment] Guida utente](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html).
+Il servizio Store Fulfillment per Adobe Commerce e Magento Open Source consente un acquisto online di qualità superiore, la customer experience del ritiro in negozio (BOPIS) e massimizza la produttività dei dipendenti grazie a un flusso di lavoro completo di esecuzione abilitato tramite un dispositivo mobile. Per ulteriori informazioni, consultare la [[!DNL Store Fulfillment] Guida utente](https://experienceleague.adobe.com/docs/commerce/store-fulfillment/guide-overview.html).
 
 ### [!DNL Amazon Sales Channel]
 

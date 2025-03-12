@@ -1,9 +1,9 @@
 ---
 title: Conformità alle normative sui cookie
-description: Per tenere il passo con la legislazione in molti paesi per quanto riguarda l’utilizzo dei cookie, Adobe Commerce e Magento Open Source offrono ai commercianti una scelta di metodi per ottenere il consenso dei clienti.
+description: Per mantenere il passo con la legislazione in molti paesi per quanto riguarda l’utilizzo dei cookie, Adobe Commerce e Magento Open Source offrono ai commercianti una scelta di metodi per ottenere il consenso dei clienti.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Conformità alle normative sui cookie
 
-I cookie sono file di piccole dimensioni che vengono salvati nel computer di ogni visitatore del sito e utilizzati come luoghi di memorizzazione temporanea per informazioni. Le informazioni salvate nei cookie vengono utilizzate per personalizzare l’esperienza di acquisto, collegare i visitatori ai loro carrelli, misurare i pattern di traffico e migliorare l’efficacia delle promozioni. Per tenere il passo con la legislazione in molti paesi per quanto riguarda l’utilizzo dei cookie, Adobe Commerce e Magento Open Source offrono ai commercianti una scelta di metodi per ottenere il consenso dei clienti. Per un elenco dei cookie predefiniti in Adobe Commerce e Magento Open Source, [Riferimento cookie](#default-cookies).
+I cookie sono file di piccole dimensioni che vengono salvati nel computer di ogni visitatore del sito e utilizzati come luoghi di memorizzazione temporanea per informazioni. Le informazioni salvate nei cookie vengono utilizzate per personalizzare l’esperienza di acquisto, collegare i visitatori ai loro carrelli, misurare i pattern di traffico e migliorare l’efficacia delle promozioni. Per mantenere il passo con la legislazione in molti paesi per quanto riguarda l’utilizzo dei cookie, Adobe Commerce e Magento Open Source offrono ai commercianti una scelta di metodi per ottenere il consenso dei clienti. Per un elenco dei cookie predefiniti in Adobe Commerce e Magento Open Source, [Riferimento cookie](#default-cookies).
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Alcuni di questi cookie possono fornire opzioni di configurazione, inclusa l’a
 
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) acquisisce lo SKU del prodotto, il nome, il prezzo e la quantità rimossi dal carrello. Consente alle Google Analytics di sapere quando un prodotto è stato aggiunto a un carrello.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) acquisisce lo SKU del prodotto, il nome, il prezzo e la quantità rimossi dal carrello. Consente a Google Analytics di sapere quando un prodotto è stato aggiunto a un carrello.
 
 #### `guest-view`
 
@@ -112,7 +112,7 @@ Memorizza gli ID prodotto dei prodotti visualizzati di recente per facilitarne l
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) consente alle Google Analytics di sapere quando un prodotto è stato rimosso da un carrello.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) consente a Google Analytics di sapere quando un prodotto è stato rimosso da un carrello.
 
 #### `stf`
 
@@ -210,11 +210,11 @@ Impostato dal modulo Page Builder. Contiene un flag che impedisce ai prompt succ
 
 Utilizzato come parte dell’implementazione della funzionalità schede solo in un’area amministrativa di un archivio. Non applicabile agli acquirenti.
 
-## Cookie di Recommendations del prodotto
+## Cookie di Product Recommendations
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono utilizzati da Product Recommendations per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono utilizzati dai consigli di prodotto per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: ti consente di [limitare la raccolta dati di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie) se disponi di codice personalizzato per gestire il consenso dei cookie sul tuo sito.
+- `mg_dnt`: ti consente di [limitare la raccolta dati di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) se disponi di codice personalizzato per gestire il consenso dei cookie sul tuo sito.
 - `user_allowed_save_cookie`: utilizzato per la [modalità di restrizione cookie](#cookie-restriction-mode).
 - `authentication_flag`: indica se un acquirente ha effettuato l&#39;accesso o la disconnessione. Questo cookie viene aggiornato contemporaneamente al cookie `dataservices_customer_id`.
 - `dataservices_customer_id`: indica se un acquirente ha effettuato l&#39;accesso o la disconnessione. Questo cookie contiene l’ID univoco del cliente nel sistema.
@@ -224,7 +224,7 @@ Utilizzato come parte dell’implementazione della funzionalità schede solo in 
 
 ## Cookie aggiuntivi
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono impostati per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono impostati per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: impostato da Snowplow JavaScript tracker. Ulteriori informazioni sono disponibili nella [documentazione Snowplow](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
 - `com.adobe.alloy.getTld`: dato il nome host della pagina Web corrente, questo è il dominio più in alto che non è un &quot;suffisso pubblico&quot; come descritto in https://publicsuffix.org. In sostanza, questo è il dominio di primo livello che può accettare i cookie. Questo cookie fa parte di [Alloy Web SDK](https://github.com/adobe/alloy).

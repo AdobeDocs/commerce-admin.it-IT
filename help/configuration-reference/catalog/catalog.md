@@ -3,7 +3,7 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] dell'amministratore di Commerce.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3233'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Visualizzazione store | Determina il numero di prodotti visualizzati per pagina per impostazione predefinita nella visualizzazione griglia. |
 | [!UICONTROL Products per Page on List Allowed Values] | Visualizzazione store | Determina il numero di prodotti visualizzati nella Vista a elenco. Per fornire una selezione di opzioni, immettere più valori separati da virgole. |
 | [!UICONTROL Products per Page on List Default Value] | Visualizzazione store | Determina il numero di prodotti visualizzati per pagina per impostazione predefinita, nella vista a elenco. |
-| Elenco prodotti Ordina per | Visualizzazione store | Determina l&#39;ordinamento dell&#39;elenco dei risultati della ricerca. La selezione delle opzioni è determinata dalle impostazioni di visualizzazione della categoria e dagli attributi disponibili impostati su `Used for Sorting in Product Listing`. Il valore predefinito è `Use All Available Attributes` e in genere include il valore migliore, il nome e il prezzo. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
+| Elenco prodotti Ordina per | Visualizzazione store | Determina l&#39;ordinamento dell&#39;elenco dei risultati della ricerca. La selezione delle opzioni è determinata dalle impostazioni di visualizzazione della categoria e dagli attributi disponibili impostati su `Used for Sorting in Product Listing`. Il valore predefinito è `Use All Available Attributes` e in genere include il valore migliore, il nome e il prezzo. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Visualizzazione store | Se è impostato su `Yes`, include l&#39;opzione `ALL` nel controllo &quot;Mostra per pagina&quot;. |
 | [!UICONTROL Remember Category Pagination] | Globale | Se è impostato su `Yes`, i valori di impaginazione delle categorie correnti vengono salvati mentre i clienti navigano da una categoria all&#39;altra in [elenchi di prodotti](../../catalog/navigation-product-listings.md). Il salvataggio del valore utilizza una maggiore quantità di memoria cache e può influire sul modo in cui le pagine vengono indicizzate dai motori di ricerca. Opzioni: `Yes` / `No` (impostazione predefinita) |
 | [!UICONTROL Use Flat Catalog Category] | Globale | Abilita la [struttura di categorie piatta](../../catalog/catalog-flat.md) (non consigliata). Opzioni: `Yes` / `No` |
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La configurazione di ricerca standard descritta in questa sezione è diversa per [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>La configurazione di ricerca standard descritta in questa sezione è diversa per [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Visualizzazione store | Determina se _i termini di ricerca popolari_ sono implementati nell&#39;archivio. Questa impostazione non è applicabile agli archivi che utilizzano [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Opzioni: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Visualizzazione store | Determina se _i termini di ricerca popolari_ sono implementati nell&#39;archivio. Questa impostazione non è applicabile agli archivi che utilizzano [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Opzioni: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Visualizzazione store | Determina se un suffisso, ad esempio html o htm, viene applicato agli URL dei prodotti. Se utilizzato, non includere un punto prima del suffisso, in quanto viene applicato automaticamente. |
 | [!UICONTROL Category URL Suffix] | Visualizzazione store | Determina se un suffisso, ad esempio html o htm, viene applicato agli URL delle categorie. Se utilizzato, non includere un punto prima del suffisso, in quanto viene applicato automaticamente. |
 | [!UICONTROL Use Categories Path for Product URLs] | Visualizzazione store | Determina se i percorsi delle categorie sono inclusi negli URL del prodotto. Così facendo, più URL potrebbero puntare alla stessa pagina, il che potrebbe influire sul livello di ricerca. Per ulteriori informazioni, consulta [Tag meta Canonical](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-È possibile configurare la ricerca nel catalogo utilizzando [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) o i servizi dei motori di ricerca di terze parti supportati da Adobe Commerce. Seguire le istruzioni per l&#39;installazione.
+È possibile configurare la ricerca nel catalogo utilizzando [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) o i servizi dei motori di ricerca di terze parti supportati da Adobe Commerce. Seguire le istruzioni per l&#39;installazione.
 
 ### Adobe Commerce con [!DNL Live Search]
 
@@ -247,8 +247,8 @@ Quando è installato Live Search, Ricerca nel catalogo include le seguenti impos
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Visualizzazione store | Numero minimo di caratteri consentito in una ricerca nel catalogo. Il valore impostato per questa opzione deve essere compatibile con l’intervallo corrispondente impostato nelle configurazioni del motore di ricerca di Elasticsearch. Se ad esempio si imposta questo valore su `2` in Adobe Commerce, aggiornare il valore nel motore di ricerca. |
-| [!UICONTROL Maximum Query Length] | Visualizzazione store | Numero massimo di caratteri consentito in una ricerca nel catalogo. Il valore impostato per questa opzione deve essere compatibile con l’intervallo corrispondente impostato nelle configurazioni del motore di ricerca di Elasticsearch. Ad esempio, se imposti questo valore su 300 in Adobe Commerce, aggiorna il valore nel motore di ricerca. |
+| [!UICONTROL Minimal Query Length] | Visualizzazione store | Numero minimo di caratteri consentito in una ricerca nel catalogo. Il valore impostato per questa opzione deve essere compatibile con l’intervallo corrispondente impostato nelle configurazioni del motore di ricerca Elasticsearch. Se ad esempio si imposta questo valore su `2` in Adobe Commerce, aggiornare il valore nel motore di ricerca. |
+| [!UICONTROL Maximum Query Length] | Visualizzazione store | Numero massimo di caratteri consentito in una ricerca nel catalogo. Il valore impostato per questa opzione deve essere compatibile con l’intervallo corrispondente impostato nelle configurazioni del motore di ricerca Elasticsearch. Ad esempio, se imposti questo valore su 300 in Adobe Commerce, aggiorna il valore nel motore di ricerca. |
 | [!UICONTROL Number of top search results to cache] | Visualizzazione store | Il numero di termini e risultati di ricerca popolari da memorizzare nella cache per risposte più veloci. Se si immette un valore di `0`, vengono memorizzati nella cache tutti i termini e i risultati di ricerca una seconda volta. Valore predefinito: `100` |
 | [!UICONTROL Autocomplete Limit] | Visualizzazione store | Determina il numero massimo di righe disponibili nella pagina [storefront popover]. Il valore predefinito può essere modificato quando Live Search viene installato e aggiornato in seguito modificando questa impostazione di configurazione. Valore predefinito: `8` |
 
@@ -256,12 +256,12 @@ Quando è installato Live Search, Ricerca nel catalogo include le seguenti impos
 
 ### Motori di ricerca di terze parti
 
-Adobe Commerce supporta OpenSearch e Elasticsearch. Le versioni di Adobe Commerce 2.3.7-p3, 2.4.3-p2 e 2.4.4 e successive supportano il servizio OpenSearch. Elasticsearch 7.11 e versioni successive non è supportato in Adobe Commerce sui progetti di infrastruttura cloud. L’Elasticsearch è ancora supportato per le installazioni on-premise.
+Adobe Commerce supporta OpenSearch e Elasticsearch. Le versioni di Adobe Commerce 2.3.7-p3, 2.4.3-p2 e 2.4.4 e successive supportano il servizio OpenSearch. Elasticsearch 7.11 e versioni successive non è supportato in Adobe Commerce nei progetti di infrastruttura cloud. Elasticsearch è ancora supportato per le installazioni on-premise.
 
 >[!IMPORTANT]
 >
->- In seguito all’annuncio della fine del supporto dell’Elasticsearch 7 relativo ad agosto 2023, Adobe consiglia a tutti i clienti Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante un aggiornamento, vedere [Migrazione a OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) nella _Guida all&#39;aggiornamento_.
->- Nelle versioni 2.4.4 e 2.4.3-p2, tutti i campi con etichetta Elasticsearch si applicano anche a OpenSearch. Quando nella versione 2.4.6 è stato introdotto il supporto per l’Elasticsearch 8.x, sono state create nuove etichette per distinguere tra le configurazioni di Elasticsearch e OpenSearch. Tuttavia, le opzioni di configurazione per entrambi sono le stesse.
+>- A causa dell’annuncio sulla fine del supporto di Elasticsearch 7 relativo ad agosto 2023, Adobe consiglia a tutti i clienti di Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante un aggiornamento, vedere [Migrazione a OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) nella _Guida all&#39;aggiornamento_.
+>- Nelle versioni 2.4.4 e 2.4.3-p2, tutti i campi etichettati Elasticsearch si applicano anche a OpenSearch. Quando è stato introdotto il supporto per Elasticsearch 8.x nella versione 2.4.6, sono state create nuove etichette per distinguere tra le configurazioni di Elasticsearch e OpenSearch. Tuttavia, le opzioni di configurazione per entrambi sono le stesse.
 
 ![Opzioni di configurazione per la ricerca nel catalogo](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
@@ -284,7 +284,7 @@ Adobe Commerce supporta OpenSearch e Elasticsearch. Le versioni di Adobe Commerc
 | [!UICONTROL Enable Search Recommendations] | Visualizzazione store | Determina se i consigli di ricerca vengono offerti quando una ricerca non restituisce alcun risultato e vengono visualizzati nella sezione `Related search terms` della pagina dei risultati di ricerca. Opzioni: `Yes` / `No` <br/>Se è impostato su Sì, vengono visualizzate opzioni aggiuntive per _[!UICONTROL Search Recommendations Count]_e_[!UICONTROL Shows Results Count for Each Recommendation]_. |
 | [!UICONTROL Search Recommendations Count] | Visualizzazione store | Specifica il numero di termini di ricerca offerti come consigli. Per impostazione predefinita, non ne vengono mostrati più di cinque. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Visualizzazione store | Se è impostato su `Yes`, il numero di prodotti trovati per il consiglio di ricerca proposto è indicato tra parentesi. Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | Visualizzazione store | Determina se i suggerimenti di ricerca vengono visualizzati per gli errori ortografici più comuni. Quando questa opzione è attivata, vengono offerti suggerimenti di ricerca per qualsiasi richiesta che non restituisce alcun risultato e viene visualizzata nella sezione `Did you mean` della pagina **Risultati ricerca**. I suggerimenti di ricerca possono influire sulle prestazioni della ricerca. Se è impostato su `Yes`, vengono visualizzate opzioni aggiuntive per Abilita Recommendations di ricerca e i campi associati. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | Visualizzazione store | Determina se i suggerimenti di ricerca vengono visualizzati per gli errori ortografici più comuni. Quando questa opzione è attivata, vengono offerti suggerimenti di ricerca per qualsiasi richiesta che non restituisce alcun risultato e viene visualizzata nella sezione `Did you mean` della pagina **Risultati ricerca**. I suggerimenti di ricerca possono influire sulle prestazioni della ricerca. Se è impostato su `Yes`, vengono visualizzate opzioni aggiuntive per Abilita consigli di ricerca e campi associati. Opzioni: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | Visualizzazione store | Determina il numero di suggerimenti di ricerca offerti. Esempio: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Visualizzazione store | Determina se viene visualizzato il numero di risultati di ricerca per ogni suggerimento. A seconda del tema, il numero viene in genere visualizzato tra parentesi dopo il suggerimento. Opzioni: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | Visualizzazione store | Specifica un valore che corrisponde al numero di termini della query che i risultati della ricerca devono corrispondere per essere restituiti. Ciò garantisce risultati ottimali per gli acquirenti. I valori percentuali sono correlati a un numero e, se necessario, vengono arrotondati per difetto e utilizzati come numero minimo di termini da abbinare nella query. Il valore può essere un numero intero negativo o positivo, una percentuale negativa o positiva, una combinazione delle due o più combinazioni. Per ulteriori informazioni, consulta il parametro [minimum_should_match](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) nella documentazione di OpenSearch. |

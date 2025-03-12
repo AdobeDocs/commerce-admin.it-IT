@@ -1,26 +1,26 @@
 ---
-title: Aggiungi contenuto - Product Recommendations
-description: Scopri il tipo di contenuto Recommendations del prodotto, utilizzato per aggiungere un elenco di consigli alla fase  [!DNL Page Builder] .
+title: Aggiungi contenuto - Consigli di prodotto
+description: Scopri il tipo di contenuto Consigli di prodotto, utilizzato per aggiungere un elenco di consigli alla fase  [!DNL Page Builder] .
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
-# Aggiungi contenuto - Product Recommendations
+# Aggiungi contenuto - Consigli di prodotto
 
-Utilizza il tipo di contenuto _Product Recommendations_ per aggiungere una [unità di consigli](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) attiva e esistente alla [[!DNL Page Builder] fase](workspace.md#stage) per una pagina, un blocco o un blocco dinamico CMS.
+Utilizza il tipo di contenuto _Consigli di prodotto_ per aggiungere una [unità di consigli](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) attiva e esistente alla [[!DNL Page Builder] fase](workspace.md#stage) per una pagina, un blocco o un blocco dinamico di CMS.
 
 >[!NOTE]
 >
->Il tipo di contenuto [!DNL Page Builder] _Recommendations_ del prodotto è supportato in Adobe Commerce 2.4.4 e versioni successive e disponibile nel [pacchetto metapacchetto Recommendations del prodotto versioni 3.0.x o successive](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Per aggiungere il supporto di [!DNL Page Builder] per Product Recommendations, [vedere le informazioni sull&#39;installazione](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Questo tipo di contenuto non è disponibile per il Magento Open Source.**
+>Il tipo di contenuto [!DNL Page Builder] _Consigli di prodotto_ è supportato in Adobe Commerce 2.4.4 e versioni successive e disponibile nel [pacchetto metapacchetto di consigli di prodotto versioni 3.0.x o successive](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Per aggiungere il supporto di [!DNL Page Builder] per Product Recommendations, [visualizzare le informazioni sull&#39;installazione](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Questo tipo di contenuto non è disponibile per Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## ToolBox Recommendations del prodotto
+## Casella degli strumenti Consigli di prodotto
 
 | Strumento | Icona | Descrizione |
 | --- | --| --- |
@@ -37,7 +37,7 @@ Utilizza il tipo di contenuto _Product Recommendations_ per aggiungere una [unit
 
 ## Aggiungi un&#39;unità di consigli esistente
 
-1. Assicurarsi di avere già [creato un&#39;unità di consigli](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) per il tipo di pagina [!DNL Page Builder].
+1. Assicurarsi di avere già [creato un&#39;unità di consigli](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) per il tipo di pagina [!DNL Page Builder].
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Utilizza il tipo di contenuto _Product Recommendations_ per aggiungere una [unit
 
    {style="table-layout:auto"}
 
-1. Impostare lo stile **[!UICONTROL Border]** applicato a tutti e quattro i lati dell&#39;unità Product Recommendations:
+1. Imposta lo stile **[!UICONTROL Border]** applicato a tutti e quattro i lati dell&#39;unità Consigli di prodotto:
 
    | Opzione | Descrizione |
    | ------ | ----------- |

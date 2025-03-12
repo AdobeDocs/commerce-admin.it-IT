@@ -2,7 +2,7 @@
 title: Introduzione al merchandising e alle promozioni di Commerce
 description: Scopri gli strumenti di Commerce per la creazione di promozioni e opportunità mirate per il coinvolgimento cliente.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -27,7 +27,7 @@ _Merchandising_ è un termine utilizzato nel settore retail per descrivere l&#39
 
 >[!TIP]
 >
->Per informazioni su Product Recommendations e su come fornirti le informazioni e i controlli necessari per creare l&#39;esperienza migliore per i tuoi acquirenti, consulta la [Guida utente di Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>Per informazioni sui consigli di prodotto e su come possono fornirti le informazioni e il controllo necessari per creare la migliore esperienza per i tuoi acquirenti, consulta la [Guida utente dei consigli di prodotto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promozioni
 
@@ -66,7 +66,7 @@ Una delle attività da completare prima di lanciare il tuo store è quella di ri
 
 >[!NOTE]
 >
->Adobe Commerce e le versioni di Magento Open Source da 2.4.0 a 2.4.3 includevano l’estensione dotdigital sviluppata da un fornitore e utilizzata per l’integrazione con dotdigital Engagement Cloud. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata dalla versione Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
+>Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includono l’estensione sviluppata da un fornitore digitale e utilizzata per l’integrazione con Engagement Cloud digitale. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata da Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
 ><br><br>
 >Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nella _Guida all&#39;aggiornamento_.
 
@@ -82,11 +82,11 @@ La configurazione del negozio è integrata con i seguenti strumenti di Google pe
 
 >[!NOTE]
 >
->A partire dalla versione 2.4.5, l’integrazione dei servizi Google viene aggiornata per supportare l’utilizzo delle API GTag. GTag è un meccanismo unificato per l’integrazione con le funzionalità di Google per le pagine web e supporta le funzionalità e le opportunità più recenti per il tracciamento e la gestione dei contenuti tramite Google Services. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>A partire dalla versione 2.4.5, l’integrazione dei servizi Google viene aggiornata per supportare l’utilizzo delle API GTag. GTag è un meccanismo unificato per l’integrazione con le funzionalità di Google per le pagine web e supporta le funzionalità e le opportunità più recenti per il tracciamento e la gestione dei contenuti tramite Google Services. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori di Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
-- [Google Analytics](google-analytics.md): utilizza Google Universal Analytics per definire dimensioni e metriche personalizzate aggiuntive per il tracciamento, con supporto per le interazioni offline e con le app mobili e accesso agli aggiornamenti in corso.
+- [Google Analytics](google-analytics.md): utilizza Google Universal Analytics per definire dimensioni e metriche personalizzate aggiuntive per il tracciamento, con supporto per le interazioni offline e con app mobili e accesso agli aggiornamenti in corso.
 
-- [Esperimenti sui contenuti Google](google-content-experiments.md) - Configura un test A/B di prodotti, categorie o pagine di contenuti utilizzando il contenuto Google Analytics
+- [Esperimenti sui contenuti Google](google-content-experiments.md) - Configura un test A/B di prodotti, categorie o pagine di contenuti utilizzando il contenuto di Google Analytics
 
 - [Gestione tag Google](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Utilizza Gestione tag Google per gestire i numerosi tag relativi agli eventi delle campagne di marketing.
 

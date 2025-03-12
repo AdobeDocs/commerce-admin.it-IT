@@ -3,7 +3,7 @@ title: Introduzione a  [!DNL Adobe Commerce B2B]
 description: Scopri come utilizzare le funzioni B2B integrate per soddisfare le tue esigenze con i clienti che sono aziende.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -40,9 +40,9 @@ Per ulteriori informazioni, vedere [Gestione società](manage-companies.md).
 
 I servizi per Adobe Commerce sono servizi in hosting che forniscono funzionalità estese ad Adobe Commerce e Magento Open Source. I servizi che supportano i flussi di lavoro B2B sono:
 
-* [Servizio catalogo](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
-* [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
-* [Recommendations prodotto](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+* [Servizio catalogo](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+* [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
+* [Consigli di prodotto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
 
 ## Cataloghi condivisi
 

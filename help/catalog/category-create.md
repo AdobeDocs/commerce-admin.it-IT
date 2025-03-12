@@ -3,7 +3,7 @@ title: Creare categorie
 description: Puoi creare tutte le sottocategorie aggiuntive necessarie, in base alla profondità massima del menu impostata nella configurazione.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
 
 1. Se si desidera che la pagina delle categorie includa la sezione _`Filter by Attribute`_della navigazione a livelli, impostare **[!UICONTROL Anchor]**su `Yes`.
 
-1. Per le opzioni **[!UICONTROL Available Product Listing Sort By]**, selezionare uno o più valori disponibili per consentire ai clienti di ordinare l&#39;elenco. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Per le opzioni **[!UICONTROL Available Product Listing Sort By]**, selezionare uno o più valori disponibili per consentire ai clienti di ordinare l&#39;elenco. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Per impostazione predefinita, sono inclusi tutti i valori disponibili. Deselezionare la casella di controllo **[!UICONTROL Use All]** per modificare le selezioni. Ad esempio, i valori possono includere:
 
@@ -124,7 +124,7 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
    - `Product Name`
    - `Price`
 
-1. Per impostare l&#39;ordinamento predefinito per la categoria, scegliere il valore **[!UICONTROL Default Product Listing Sort By]**. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Per impostare l&#39;ordinamento predefinito per la categoria, scegliere il valore **[!UICONTROL Default Product Listing Sort By]**. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Per modificare l&#39;impostazione predefinita per la navigazione a livelli [passaggio di prezzo](navigation-layered.md#configure-price-navigation), eseguire le operazioni seguenti:
 

@@ -3,18 +3,63 @@ title: Che cos'è la vetrina?
 description: Scopri le pagine e gli elementi funzionali che il tuo negozio può fornire per supportare l’esperienza di acquisto dei tuoi clienti.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
+source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
 
 # Che cos&#39;è la vetrina?
 
-All’interno dell’implementazione di Adobe Commerce o del Magento Open Source, la vetrina è la parte esterna dello store che si rivolge al pubblico. Fornisce i contenuti e i componenti funzionali utilizzati dai clienti per effettuare acquisti e acquisti.
+All’interno dell’implementazione di Adobe Commerce o Magento Open Source, la vetrina è la parte esterna dello store che si rivolge al pubblico. Fornisce i contenuti e i componenti funzionali utilizzati dai clienti per effettuare acquisti e acquisti.
 
 Il percorso che i clienti portano a una vendita è a volte chiamato _percorso di acquisto_ e la vetrina include i componenti necessari ai clienti per completare questo percorso. Le sezioni seguenti forniscono una panoramica dei tipi di pagina di base che forniscono valore strategico, ovvero i luoghi che i clienti visitano solitamente durante gli acquisti nel negozio. Esaminandole, è possibile prendere in considerazione diverse funzioni del punto vendita che possono essere utilizzate in ogni fase del percorso di clienti.
+
+## Commerce Storefront
+
+Con l&#39;introduzione di [!DNL **Commerce Storefront con tecnologia Edge Delivery Services**], Adobe offre una vetrina affidabile, scalabile e ad alte prestazioni che sfrutta la tecnologia all&#39;avanguardia per offrire velocità ed esperienza utente superiori.
+
+- **Prestazioni migliorate**: l&#39;hosting delle vetrine su Edge Delivery Services garantisce tempi di caricamento più rapidi e prestazioni del sito migliorate, il che può portare a tassi di conversione più elevati e classificazioni SEO migliori.
+
+- **Scalabilità**: l&#39;architettura supporta la scalabilità diretta per gestire un traffico maggiore e cataloghi di prodotti più grandi senza compromettere le prestazioni.
+
+- **Flessibilità**: la vetrina è altamente personalizzabile e consente alle aziende di adattare l&#39;esperienza di acquisto alle proprie esigenze specifiche.
+
+- **Esperienza utente migliorata**: funzionalità quali il caching avanzato, gli aggiornamenti in tempo reale e la distribuzione di contenuti personalizzati contribuiscono a un&#39;esperienza di acquisto più fluida e coinvolgente.
+
+### Funzioni principali
+
+Commerce Storefront con tecnologia Edge Delivery Services offre diverse funzioni chiave che vanno a vantaggio sia dei commercianti che degli sviluppatori. Queste funzionalità consentono alle aziende di creare esperienze di acquisto coinvolgenti, mantenendo al contempo la flessibilità necessaria per personalizzare e scalare le vetrine in base alle esigenze.
+
+Per informazioni e indicazioni più dettagliate sulla configurazione e l&#39;ottimizzazione dello store Commerce, consulta la [documentazione dello store Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce).
+
+>[!BEGINTABS]
+
+>[!TAB Commercianti]
+
+Commerce Storefront con tecnologia Edge Delivery Services offre un&#39;esperienza di authoring intuitiva basata su documenti che semplifica la creazione e la gestione dei contenuti da parte dei commercianti. Utilizzando strumenti familiari come Microsoft Word o Google Docs, i commercianti possono creare contenuti avanzati mantenendo il controllo della versione e collaborando con i membri del gruppo.
+
+- **Creazione semplificata di contenuti**: consente di creare e modificare i contenuti utilizzando strumenti di creazione basati su documenti, come Microsoft Word o Google Docs.
+- **Anteprima in tempo reale**: prima di pubblicare le modifiche, visualizzale immediatamente con le funzionalità di anteprima in tempo reale.
+- **Controllo versione**: tieni traccia delle modifiche al contenuto e ripristina facilmente le versioni precedenti.
+- **Flusso di lavoro collaborativo**: più membri del team possono lavorare sui contenuti contemporaneamente con i processi di revisione incorporati.
+- **Riutilizzo del contenuto**: crea blocchi di contenuto che possono essere riutilizzati in più pagine per mantenere la coerenza.
+
+>[!TAB Sviluppatori]
+
+L’implementazione headless consente agli sviluppatori di separare il livello di presentazione front-end dalla funzionalità di e-commerce back-end, consentendo di creare vetrine flessibili e personalizzate basate su tecnologie moderne e allo stesso tempo di sfruttare i solidi servizi back-end di Commerce.
+
+- **Architettura API-first**: crea esperienze front-end personalizzate utilizzando framework moderni e sfruttando i servizi back-end di Commerce.
+- **Componenti componibili**: crea e distribuisci componenti modulari e riutilizzabili che possono essere assemblati in layout di pagina diversi.
+- **Piattaforma estensibile**: aggiungi funzionalità personalizzate tramite API e webhook senza modificare il codice di base.
+- **Strumenti di sviluppo moderni**: utilizza strumenti e flussi di lavoro di sviluppo standard per velocizzare l&#39;implementazione e la distribuzione.
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>Mentre Commerce Storefront offre numerosi vantaggi, Adobe continua a supportare la vetrina originale basata su Luma. Le aziende che attualmente utilizzano Luma possono continuare a operare senza interruzioni e hanno la possibilità di passare alla nuova vetrina al proprio ritmo. Le sezioni rimanenti di questa pagina si basano su esempi Luma.
 
 ## Home page
 
@@ -36,7 +81,7 @@ Lo sapevi che le persone che utilizzano la ricerca hanno quasi il doppio delle p
 
 ### [!DNL Live Search]
 
-Con [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) per Adobe Commerce, il tuo store offre un&#39;esperienza di ricerca rapida, super-rilevante e intuitiva ed è disponibile gratuitamente per Adobe Commerce.
+Con [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) per Adobe Commerce, il tuo store offre un&#39;esperienza di ricerca rapida, super-rilevante e intuitiva ed è disponibile gratuitamente per Adobe Commerce.
 
 ![Esempio di Live Search - cerca durante la digitazione](./assets/storefront-search-as-you-type.png){width="700"}
 
@@ -54,7 +99,7 @@ La pagina dei prodotti è piena di novità. La prima cosa che colpisce il vostro
 
 ## Carrello
 
-Il carrello è il luogo in cui il totale dell&#39;ordine può essere determinato, insieme a buoni sconto e spese di spedizione stimate e un ottimo posto per visualizzare i distintivi di fiducia e sigilli. È anche un&#39;opportunità ideale per offrire un ultimo elemento. In qualità di cross-selling, puoi selezionare alcuni articoli da offrire come acquisto di impulso ogni volta che un articolo specifico appare nel carrello.
+Il carrello mostra il totale dell’ordine, compresi eventuali coupon di sconto, la spedizione stimata e le imposte. Queste caratteristiche lo rendono un ottimo posto per visualizzare badge di fiducia e sigilli. Puoi anche utilizzare la pagina del carrello come opportunità per un’offerta finale. Ad esempio, puoi impostare articoli di cross-selling che appaiono come opzioni di acquisto impulsive quando nel carrello sono presenti prodotti specifici.
 
 ![Esempio di pagina del carrello acquisti della vetrina](./assets/storefront-cart-full.png){width="700"}
 
@@ -83,4 +128,4 @@ La barra di avanzamento nella parte superiore della pagina segue ogni passaggio 
 
 >[!NOTE]
 >
->L’eccezione a un’estrazione in due fasi si applica ai prodotti virtuali e/o scaricabili. Se nel carrello sono presenti solo questi tipi di prodotti, il pagamento viene automaticamente trasformato in una procedura in un unico passaggio, perché le informazioni di spedizione non sono necessarie.
+>L’eccezione a un’estrazione in due fasi si applica ai prodotti virtuali e/o scaricabili. Se nel carrello sono presenti solo questi tipi di prodotti, il pagamento viene trasformato automaticamente in una procedura in un unico passaggio, perché le informazioni di spedizione non sono necessarie.

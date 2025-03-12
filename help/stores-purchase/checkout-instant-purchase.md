@@ -3,7 +3,7 @@ title: Acquisto immediato
 description: Scopri l’acquisto istantaneo e come può offrire un pagamento rapido per gli account cliente registrati.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -28,7 +28,7 @@ _Acquisto immediato_ consente ai clienti di velocizzare il processo di pagamento
 
   I seguenti metodi di pagamento possono essere utilizzati per fornire un accesso sicuro alle informazioni salvate sulla carta di credito:
 
-   - [Braintree carte di credito](braintree.md) (l&#39;acquisto immediato non può essere utilizzato con le carte di credito Braintree se 3D Secure è abilitato.)
+   - [Carte di credito Braintree](braintree.md) (l&#39;acquisto immediato non può essere utilizzato con le carte di credito Braintree se 3D Secure è abilitato.)
    - [Braintree con PayPal abilitato](braintree.md)
    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
@@ -57,7 +57,7 @@ Puoi utilizzare l’acquisto istantaneo con Braintree o Payment Services per Ado
 Scopri come configurare il metodo di pagamento e abilitare il vaulting per Braintree o Payment Services:
 
 - [Braintree](braintree.md)
-- [Documentazione di Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [Documentazione di Payment Services](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 
 ### Passaggio 3: abilitare l’acquisto immediato
 

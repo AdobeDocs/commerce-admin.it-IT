@@ -3,7 +3,7 @@ title: Dashboard di gestione dati
 description: Scopri come accedere alle informazioni sui flussi di dati per  [!DNL Catalog Service], [!DNL Live Search] e [!DNL Product Recommendation] s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 4495a27b57c04c6f9c37b2c5237b5f2233cc8532
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Data Management Dashboard offre una panoramica dello stato di sincronizzazione d
 
 ## Pubblico
 
-Il dashboard di gestione dati è disponibile senza costi aggiuntivi per tutti i commercianti Commerce che utilizzano [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) o [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) con una licenza attiva.
+Il dashboard di gestione dati è disponibile senza costi aggiuntivi per tutti i commercianti Commerce che utilizzano [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview) o [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) con una licenza attiva.
 
 Il dashboard di gestione dati si trova in *Sistema* > Trasferimento dati > *Dashboard di gestione dati*.
 
@@ -47,7 +47,7 @@ Quando il numero di prodotti elaborati corrisponde al numero di prodotti aggiorn
 
 >[!NOTE]
 >
->Adobe fornisce anche un’interfaccia della riga di comando e registri di sistema che gli sviluppatori e gli integratori di sistemi possono utilizzare per gestire e tenere traccia delle operazioni di sincronizzazione e risolvere gli errori per i servizi SaaS di Commerce. Per informazioni dettagliate, vedere la [Guida all&#39;esportazione dei dati SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe fornisce anche un’interfaccia della riga di comando e registri di sistema che gli sviluppatori e gli integratori di sistemi possono utilizzare per gestire e tenere traccia delle operazioni di sincronizzazione e risolvere gli errori per i servizi SaaS di Commerce. Per informazioni dettagliate, vedere la [Guida all&#39;esportazione dei dati SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ### Elenco dei prodotti sincronizzati
 

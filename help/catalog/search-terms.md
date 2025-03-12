@@ -3,7 +3,7 @@ title: Gestire i termini di ricerca
 description: Scopri come gestire i termini di ricerca per il tuo negozio per reindirizzare i clienti utilizzando termini errati o alternativi.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Un modo per migliorare l&#39;efficacia della [ricerca nel catalogo](search-confi
 
 Adobe Commerce supporta due diverse soluzioni per la gestione dei sinonimi:
 
-- La funzionalità [Sinonimi](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) di Live Search è disponibile per le installazioni di Adobe Commerce con Live Search installato.
+- La funzionalità [Sinonimi](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) di Live Search è disponibile per le installazioni di Adobe Commerce con Live Search installato.
 - La funzione standard Sinonimi di ricerca (descritta in questa pagina) è disponibile come strumento predefinito per tutte le installazioni di Adobe Commerce.
 
 >[!NOTE]

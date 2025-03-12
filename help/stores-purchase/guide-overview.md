@@ -1,18 +1,18 @@
 ---
 title: Guida ai negozi e all’esperienza di acquisto
-description: Informazioni complete sulla definizione del negozio e sulle funzioni di elaborazione delle vendite per gli agenti del servizio clienti e i responsabili delle vendite che lavorano in Adobe Commerce e per l’amministratore di Magento Open Source.
+description: Informazioni complete sulla definizione del negozio e sulle funzioni di elaborazione delle vendite per gli agenti del servizio clienti e i responsabili delle vendite che lavorano nell’amministrazione di Adobe Commerce e Magento Open Source.
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Guida agli acquisti e ai negozi Adobe Commerce
 
-Questa guida è destinata agli agenti del servizio clienti e ai responsabili delle vendite che lavorano in Adobe Commerce e Magento Open Source. Fornisce informazioni dettagliate sulla gestione degli ordini e sulle funzioni di acquisto, tra cui il modo in cui il carrello può essere configurato per assistere i clienti e promuovere le vendite. Si presuppone una conoscenza di base della configurazione e delle funzionalità di base di [!DNL Commerce].
+Questa guida è destinata agli agenti del servizio clienti e ai responsabili delle vendite che lavorano nell’amministrazione di Adobe Commerce e Magento Open Source. Fornisce informazioni dettagliate sulla gestione degli ordini e sulle funzioni di acquisto, tra cui il modo in cui il carrello può essere configurato per assistere i clienti e promuovere le vendite. Si presuppone una conoscenza di base della configurazione e delle funzionalità di base di [!DNL Commerce].
 
 Questa guida tratta i seguenti argomenti:
 

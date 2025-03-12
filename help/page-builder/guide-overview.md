@@ -1,19 +1,19 @@
 ---
 title: Guida utente di [!DNL Page Builder]
-description: Informazioni complete su [!DNL Page Builder] per gli amministratori di Adobe Commerce e di Magento Open Source.
+description: Informazioni complete su [!DNL Page Builder] per gli amministratori di Adobe Commerce e Magento Open Source.
 seo-title: Adobe Commerce [!DNL Page Builder] User Guide
 seo-description: Describes how to use the [!DNL Page Builder] module in Adobe Commerce or Magento Open Source.
 exl-id: 983ef3a8-b803-40ff-a9f5-07eb895df31c
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
 
 # Guida utente di [!DNL Page Builder]
 
-Questa guida è destinata agli amministratori di Adobe Commerce e Magento Open Source. Fornisce informazioni dettagliate sulle funzionalità di [!DNL Page Builder], inclusa una procedura dettagliata in tre parti per la creazione di componenti di contenuto di base. Si presuppone una conoscenza di base della configurazione e delle funzionalità di base di [!DNL Commerce].
+Questa guida è destinata agli amministratori che lavorano in Adobe Commerce e Magento Open Source Admin. Fornisce informazioni dettagliate sulle funzionalità di [!DNL Page Builder], inclusa una procedura dettagliata in tre parti per la creazione di componenti di contenuto di base. Si presuppone una conoscenza di base della configurazione e delle funzionalità di base di [!DNL Commerce].
 
 [!DNL Page Builder] dispone di due aree per gli amministratori di store:
 
@@ -24,7 +24,7 @@ Questa guida tratta i seguenti argomenti:
 
 | Oggetto | Descrizione |
 | ------- | ----------- |
-| [Introduzione](introduction.md) | Cos&#39;è [!DNL Page Builder]? E in che modo migliora la creazione di contenuti per Adobe Commerce e i siti di Magento Open Source? |
+| [Introduzione](introduction.md) | Cos&#39;è [!DNL Page Builder]? E in che modo migliora la creazione di contenuti per i siti Adobe Commerce e Magento Open Source? |
 | [Note sulla versione](release-notes.md) | Esaminare gli aggiornamenti forniti in ogni versione del modulo [!DNL Page Builder]. |
 | [Configurazione](setup.md) | Per aggiornare le impostazioni predefinite, è possibile modificare il layout di pagina predefinito e abilitare ulteriori funzionalità avanzate di [!DNL Page Builder]. È inoltre possibile integrare [!DNL Google Maps] per incorporare il contenuto della posizione nelle pagine. |
 | [Workspace](workspace.md) | Rivedi i componenti dell&#39;area di lavoro [!DNL Page Builder] e come ti consentono di creare contenuti coinvolgenti per i tuoi store. |
@@ -33,12 +33,12 @@ Questa guida tratta i seguenti argomenti:
 | Layout | Esplora la sezione _Layout_ del pannello [!DNL Page Builder] e come utilizzare questi strumenti per aggiungere componenti layout alla fase [!DNL Page Builder]: <br>[righe](row.md)<br>[colonne](column.md)<br>[schede](tabs.md) |
 | Elementi | Esplora la sezione _Elementi_ del pannello [!DNL Page Builder] e come utilizzare questi strumenti per aggiungere elementi di base a qualsiasi contenitore di layout nella fase [!DNL Page Builder]: <br>[testo](text.md)<br>[intestazioni](heading.md)<br>[pulsanti](buttons.md)<br>[divisori](divider.md)<br>[codice HTML](html-code.md) |
 | Media | Esplora la sezione _Media_ del pannello [!DNL Page Builder] e come utilizzare questi strumenti per aggiungere elementi multimediali a qualsiasi contenitore di layout nella fase [!DNL Page Builder]: <br>[immagini](image.md)<br>[video](video.md)<br>[banner](banner.md)<br>[cursori](slider.md)<br>[[!DNL Google Maps]](map.md) |
-| Aggiungi contenuto | Esplora la sezione _Aggiungi contenuto_ del pannello [!DNL Page Builder] e come aggiungere componenti di contenuto alla fase [!DNL Page Builder]: <br>[Blocco](block.md)<br>[Blocco dinamico](dynamic-block.md)<br>[Prodotti](products.md)<br>[Recommendations di prodotto](recommendations.md) (solo Adobe Commerce) |
+| Aggiungi contenuto | Esplora la sezione _Aggiungi contenuto_ del pannello [!DNL Page Builder] e come aggiungere componenti di contenuto alla fase [!DNL Page Builder]: <br>[Blocco](block.md)<br>[Blocco dinamico](dynamic-block.md)<br>[Prodotti](products.md)<br>[Consigli di prodotto](recommendations.md) (solo Adobe Commerce) |
 | [Modelli](templates.md) | Salva il contenuto [!DNL Page Builder] esistente come modello e quindi applica il modello a un&#39;altra area per creare contenuti in modo rapido e coerente. |
 
 {style="table-layout:auto"}
 
-Non tratta le funzionalità principali di Adobe Commerce e Magento Open Source.
+Non include le funzionalità di base di Adobe Commerce e Magento Open Source.
 
 ## Documentazione aggiuntiva
 
