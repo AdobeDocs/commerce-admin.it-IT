@@ -3,25 +3,29 @@ title: Braintree
 description: Scopri come impostare Braintree come soluzione di pagamento online nel tuo negozio.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: fcd08ea5d8c3bd498eb4beae41bdf2f078a89f55
+source-git-commit: da3d64b1d248635b8d13f8bb6e85c8ac661048c2
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2643'
 ht-degree: 0%
 
 ---
 
 # Braintree
 
-Braintree offre un’esperienza di pagamento completamente personalizzabile con rilevamento di frodi e integrazione PayPal. Supporta [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo e metodi di pagamento locali. Braintree riduce il carico di conformità PCI per gli esercenti perché la transazione avviene sul sistema Braintree. L&#39;integrazione Braintree Payments è stata sviluppata da [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
+>[!IMPORTANT]
+>
+>Se hai bisogno di assistenza per le spese impreviste sulla tua carta, visita la pagina [annulla abbonamento](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) per assistenza.
+
+Braintree offre un’esperienza di pagamento completamente personalizzabile con rilevamento delle frodi e integrazione PayPal. Supporta [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo e metodi di pagamento locali. Braintree riduce il carico di conformità PCI per gli esercenti perché la transazione avviene sul sistema Braintree. L&#39;integrazione di Braintree Payments è stata sviluppata da [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 
 >[!NOTE]
 >
->Se stai eseguendo l&#39;aggiornamento a 2.4.x da una versione precedente di Adobe Commerce o di un Magento Open Source con l&#39;estensione Braintree di Commerce Marketplace installata, consulta le [2.4 note sull&#39;aggiornamento](#24-upgrade-notes) alla fine di questa pagina.
+>Se stai eseguendo l&#39;aggiornamento a 2.4.x da una versione precedente di Adobe Commerce o Magento Open Source con l&#39;estensione Braintree da Commerce Marketplace installata, consulta le [2.4 note sull&#39;aggiornamento](#24-upgrade-notes) alla fine di questa pagina.
 
 
 ## Passaggio 1: ottieni le credenziali Braintree
 
-Vai a [Braintree pagamenti][1] e registrati per un account.
+Vai a [Pagamenti Braintree][1] e registrati per un account.
 
 ## Passaggio 2: completare le impostazioni di base
 
@@ -41,7 +45,7 @@ Vai a [Braintree pagamenti][1] e registrati per un account.
 
 1. Imposta **[!UICONTROL Environment]** operativo corrente per le transazioni Braintree su `Sandbox` o `Production`
 
-   Durante il test della configurazione in una sandbox, utilizza solo [numeri di carta di credito][2] consigliati per Braintree. Quando si è pronti per passare alla produzione con Braintree, impostare **[!UICONTROL Environment]** su `Production`.
+   Durante il test della configurazione in una sandbox, utilizza solo [numeri di carta di credito][2] consigliati da Braintree. Quando si è pronti per passare alla produzione con Braintree, impostare **[!UICONTROL Environment]** su `Production`.
 
    ![Impostazioni credenziali di base](./assets/braintree-settings1.png){width="600" zoomable="yes"}
 
@@ -50,9 +54,9 @@ Vai a [Braintree pagamenti][1] e registrati per un account.
    - `Authorize Only` - Approva l&#39;acquisto e blocca i fondi. L&#39;importo non viene prelevato dal conto bancario del cliente fino a quando la vendita non viene _acquisita_ dall&#39;esercente.|
    - `Intent Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente. **_Nota:_** questo valore era _Autorizza e acquisisci_ nelle versioni 2.3.x e precedenti.|
 
-1. Immetti **[!UICONTROL Sandbox Merchant ID / Merchant ID]** dal tuo account di Braintree.
+1. Immetti **[!UICONTROL Sandbox Merchant ID / Merchant ID]** dal tuo account Braintree.
 
-1. Immetti le seguenti credenziali dal tuo account di Braintree:
+1. Immetti le seguenti credenziali dal tuo account Braintree:
 
    - **[!UICONTROL Sandbox Public Key / Public Key]**
    - **[!UICONTROL Sandbox Private Key / Private Key]**
@@ -77,9 +81,9 @@ Vai a [Braintree pagamenti][1] e registrati per un account.
 
 1. Per **[!UICONTROL Vault Title]**, immettere un titolo descrittivo per il riferimento che identifichi l&#39;insieme di credenziali in cui sono memorizzate le informazioni della scheda cliente.
 
-1. Immetti **[!UICONTROL Merchant Account ID]** dal tuo account di Braintree.
+1. Immetti **[!UICONTROL Merchant Account ID]** dal tuo account Braintree.
 
-   Se non si specifica il conto esercente da utilizzare, Braintree elabora la transazione utilizzando il proprio conto esercente predefinito.
+   Se non si specifica l&#39;account esercente da utilizzare, Braintree elabora la transazione utilizzando l&#39;account esercente predefinito.
 
 1. Per fornire un&#39;esperienza di pagamento più rapida con le opzioni di pagamento rapido all&#39;inizio del processo di pagamento, inclusi PayPal, PayLater, Apple Pay e Google Pay, impostare **[!UICONTROL Enable Checkout Express Payments]** su `Yes`.
 
@@ -93,33 +97,33 @@ Vai a [Braintree pagamenti][1] e registrati per un account.
 
 1. Per richiedere ai clienti di fornire il codice di sicurezza a tre cifre dal retro di una carta di credito, impostare **[!UICONTROL CVV Verification]** su `Yes`.
 
-   Se utilizzi la verifica CVV, assicurati di abilitare AVS e/o CVV nella sezione _Impostazioni/Elaborazione_ del tuo account di Braintree.
+   Se utilizzi la verifica CVV, assicurati di abilitare AVS e/o CVV nella sezione _Impostazioni/Elaborazione_ del tuo account Braintree.
 
 1. Per inviare gli elementi riga carrello per tutti i metodi di pagamento, impostare **[!UICONTROL Send Card Line Items]** su `Yes`.
 
-1. Per **[!UICONTROL Credit Card Types]**, selezionare ogni carta di credito accettata dal tuo Negozio come pagamento tramite Braintree.
+1. Per **[!UICONTROL Credit Card Types]**, selezionare tutte le carte di credito accettate dal tuo Negozio come pagamento tramite Braintree.
 
    Per selezionare più tipi di schede, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e fare clic su ciascuna opzione.
 
-1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza di visualizzazione della Braintree quando questa viene elencata con altri metodi di pagamento durante l&#39;estrazione.
+1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui Braintree viene visualizzato quando viene elencato con altri metodi di pagamento durante l&#39;estrazione.
 
 ## Passaggio 4: completare le impostazioni del webhook di Braintree
 
-![Braintree impostazioni webhook](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
+![Impostazioni webhook Braintree](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
 
 1. Impostare **[!UICONTROL Enable Webhook]** su `Yes` per abilitare la funzionalità webhook per la protezione dalle frodi, i pagamenti ACH e i metodi di pagamento locali.
 
-1. Copia l&#39;URL nel campo **[!UICONTROL Fraud Protection URL]** e aggiungilo al tuo account di Braintree come _[!UICONTROL Webhook Destination URL]_.
+1. Copia l&#39;URL nel campo **[!UICONTROL Fraud Protection URL]** e aggiungilo al tuo account Braintree come _[!UICONTROL Webhook Destination URL]_.
 
    >[!IMPORTANT]
    >
    >Questo URL deve essere sicuro e accessibile al pubblico.
 
-1. Impostare il campo **[!UICONTROL Fraud Protection Approve Order Status]** per determinare quando la protezione antifrode viene approvata dalla Braintree.
+1. Imposta il campo **[!UICONTROL Fraud Protection Approve Order Status]** per determinare quando la protezione antifrode viene approvata da Braintree.
 
    Lo stato dell&#39;ordine selezionato viene assegnato all&#39;ordine Commerce.
 
-1. Impostare il campo **[!UICONTROL Fraud Protection Reject Order Status]** per determinare quando la protezione contro le frodi viene rifiutata dalla Braintree.
+1. Impostare il campo **[!UICONTROL Fraud Protection Reject Order Status]** per determinare quando la protezione dalle frodi viene rifiutata da Braintree.
 
    Lo stato dell&#39;ordine selezionato viene assegnato all&#39;ordine Commerce.
 
@@ -140,7 +144,7 @@ Vai a [Braintree pagamenti][1] e registrati per un account.
 
    - Ripetere l&#39;operazione per identificare le carte di credito accettate da ciascun paese.
 
-## Passaggio 6: completare l&#39;ACH tramite le impostazioni delle Braintree
+## Passaggio 6: completare l&#39;ACH tramite le impostazioni di Braintree
 
 ![ACH tramite Braintree](../configuration-reference/sales/assets/payment-methods-braintree-ach-config.png){width="600" zoomable="yes"}
 
@@ -148,15 +152,15 @@ Vai a [Braintree pagamenti][1] e registrati per un account.
 
 1. I clienti possono archiviare il metodo di pagamento con Addebito automatico sul conto bancario (ACH Direct Debit) monouso e memorizzarlo per utilizzarlo in futuro. Una volta eseguito il vaulting, i clienti possono riutilizzare l&#39;Addebito automatico sul conto bancario senza dover reimmettere o autenticare le informazioni di pagamento se impostato su `Yes`.**[!UICONTROL Enable Vault for ACH Direct Debit]**
 
-1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui viene visualizzata l&#39;opzione di pagamento Braintree ACH quando elencata con altre opzioni di pagamento durante l&#39;estrazione.
+1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui verrà visualizzata l&#39;opzione di pagamento Braintree ACH elencata con altre opzioni di pagamento durante l&#39;estrazione.
 
 ## Passaggio 7: completare [!UICONTROL Apple Pay] tramite le impostazioni di Braintree
 
-![ApplePay tramite impostazioni Braintree](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png){width="600" zoomable="yes"}
+![Impostazioni ApplePay tramite Braintree](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png){width="600" zoomable="yes"}
 
 1. Per includere [!DNL Apple Pay] come opzione di pagamento con Braintree, impostare **[!UICONTROL Enable ApplePay through Braintree]** su `Yes`.
 
-   Assicurati di [verificare prima il nome di dominio](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) nell&#39;account di Braintree.
+   Assicurati di [verificare prima il nome di dominio](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) nell&#39;account Braintree.
 
 1. Se desideri poter archiviare le informazioni dei clienti in modo sicuro, in modo che i clienti non debbano reinserirle ogni volta che effettuano un acquisto con Apple Pay, imposta **[!UICONTROL Enable Vault for ApplePay]** su `Yes`.
 
@@ -187,7 +191,7 @@ Vai a [Braintree pagamenti][1] e registrati per un account.
 
    >[!NOTE]
    >
-   >L&#39;estensione Braintree nel pacchetto non supporta tutti i metodi di pagamento locali elencati nella [documentazione per gli sviluppatori Braintree](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Sono in fase di sviluppo altri metodi di pagamento locali, che saranno supportati nelle prossime versioni.
+   >L&#39;estensione Braintree nel pacchetto non supporta tutti i metodi di pagamento locali elencati nella [documentazione per gli sviluppatori di Braintree](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Sono in fase di sviluppo altri metodi di pagamento locali, che saranno supportati nelle prossime versioni.
 
 1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui viene visualizzato il metodo di pagamento locale quando viene elencato con altre opzioni di pagamento durante l&#39;estrazione.
 
@@ -214,13 +218,13 @@ Vai a [Braintree pagamenti][1] e registrati per un account.
 
 1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui [!DNL Google Pay] viene visualizzato quando elencato con altre opzioni di pagamento durante l&#39;estrazione.
 
-## Passaggio 10: Completare le impostazioni di Braintree di Venmo through
+## Passaggio 10: completare le impostazioni Venmo attraverso Braintree
 
 1. Per includere Venmo come opzione di pagamento con Braintree, impostare **[!UICONTROL Enable Venmo through Braintree]** su `Yes`.
 
 1. Impostare **[!UICONTROL Enable Vault for Venmo]** su `Yes` per consentire l&#39;utilizzo di un archivio protetto per archiviare l&#39;account Venmo dei clienti in modo che non sia necessario accedere nuovamente al proprio account Venmo per le transazioni future.
 
-   ![Venmo attraverso Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
+   ![Venmo tramite Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
 
 1. Imposta **[!UICONTROL Payment Action]** su uno dei seguenti:
 
@@ -229,9 +233,9 @@ Vai a [Braintree pagamenti][1] e registrati per un account.
 
 1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui viene visualizzato Venmo quando viene elencato con altre opzioni di pagamento durante l&#39;estrazione.
 
-## Passo 11: Completare PayPal attraverso le impostazioni di Braintree
+## Passaggio 11: completare le impostazioni di PayPal tramite Braintree
 
-![PayPal tramite impostazioni Braintree](./assets/braintree-paypal.png){width="550" zoomable="yes"}
+![PayPal tramite Impostazioni Braintree](./assets/braintree-paypal.png){width="550" zoomable="yes"}
 
 1. Per includere PayPal come opzione di pagamento con Braintree, impostare **[!UICONTROL Enable PayPal through Braintree]** su `Yes`.
 
@@ -253,15 +257,15 @@ Vai a [Braintree pagamenti][1] e registrati per un account.
 
      Quando **[!UICONTROL Enable PayPal PayLater through Braintree]** è impostato su `Yes`, viene visualizzato solo questo campo.
 
-     Puoi visualizzare sul tuo sito i messaggi PayLater per le offerte, ad esempio _Paga in 3_, che consente ai clienti di pagare con tre pagamenti mensili senza interessi. L’integrazione Braintree può visualizzare messaggi sul sito per promuovere questa funzione. Non puoi promuovere le offerte PayLater con altri contenuti, materiale di marketing o materiale.
+     Puoi visualizzare sul tuo sito i messaggi PayLater per le offerte, ad esempio _Paga in 3_, che consente ai clienti di pagare con tre pagamenti mensili senza interessi. L’integrazione di Braintree può visualizzare messaggi sul sito per promuovere questa funzione. Non puoi promuovere le offerte PayLater con altri contenuti, materiale di marketing o materiale.
 
-1. Per **[!UICONTROL Title]**, inserisci un titolo che identifichi il pagamento Braintree tramite PayPal durante l&#39;acquisto.
+1. Per **[!UICONTROL Title]**, immetti un titolo che identifichi il pagamento Braintree tramite PayPal durante l&#39;acquisto.
 
 1. Imposta **[!UICONTROL Vault Enabled]** su `Yes` per abilitare l&#39;utilizzo di un insieme di credenziali protetto per archiviare il conto PayPal dei clienti. Il conto PayPal archiviato può essere utilizzato per transazioni future, riducendo il numero di passaggi per i clienti.
 
 1. Imposta **[!UICONTROL Send Cart Line Items for PayPal]** su `Yes` per inviare gli articoli della linea (articoli dell&#39;ordine) a PayPal insieme a Biglietti regalo, Confezione regalo per gli articoli, Confezione regalo per l&#39;ordine, Credito del Negozio, Spedizione e Imposta come articoli della linea.
 
-1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui viene visualizzata l&#39;opzione di pagamento Braintree PayPal quando elencata con altre opzioni di pagamento durante l&#39;estrazione.
+1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui viene visualizzata l&#39;opzione di pagamento Braintree PayPal elencata con altre opzioni di pagamento durante l&#39;estrazione.
 
 1. Per visualizzare il nome dell&#39;esercente in modo diverso da quello definito nella [configurazione archivio](../getting-started/store-details.md#store-information), immettere il nome nel campo **[!UICONTROL Override Merchant Name]** come si desidera visualizzarlo.
 
@@ -354,7 +358,7 @@ Quando queste opzioni sono impostate, puoi visualizzare l&#39;anteprima dei puls
 
    ![Impostazioni di verifica 3D](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
-## Passaggio 14: configurare i descrittori dinamici Braintree
+## Passaggio 14: configurare i descrittori dinamici di Braintree
 
 I seguenti descrittori vengono utilizzati per identificare gli acquisti sugli estratti conto della carta di credito del cliente. Puoi ridurre il numero di chargeback identificando chiaramente l’azienda associata a ogni acquisto. Se i descrittori dinamici non sono abilitati per il tuo account, contatta il supporto Braintree.
 
@@ -392,7 +396,7 @@ I seguenti descrittori vengono utilizzati per identificare gli acquisti sugli es
 
 ## Note sull’aggiornamento 2.4
 
-A partire da Adobe Commerce e dal Magento Open Source 2.4.0, l’estensione Braintree è inclusa nella versione. Se si esegue la migrazione a Commerce 2.4.x da una versione precedente alla 2.4.0 in cui è installata l&#39;estensione Marketplace Braintree, è necessario disinstallare tale estensione (`paypal/module-braintree` o `gene/module-braintree`) e aggiornare le personalizzazioni del codice per utilizzare lo spazio dei nomi `PayPal_Braintree` anziché `Magento_Braintree`. Le impostazioni di configurazione dell&#39;estensione del bundle Commerce Braintree Payments di base e dell&#39;estensione distribuita su Commerce Marketplace persistono e i pagamenti effettuati con le versioni precedenti possono ancora essere acquisiti, annullati o rimborsati come di consueto.
+A partire da Adobe Commerce e Magento Open Source 2.4.0, l’estensione Braintree è inclusa nella versione. Se si esegue la migrazione a Commerce 2.4.x da una versione precedente alla 2.4.0 in cui è installata l&#39;estensione Marketplace Braintree, è necessario disinstallare tale estensione (`paypal/module-braintree` o `gene/module-braintree`) e aggiornare le personalizzazioni del codice per utilizzare lo spazio dei nomi `PayPal_Braintree` anziché `Magento_Braintree`. Le impostazioni di configurazione dell’estensione bundled Commerce Braintree Payments di base e dell’estensione distribuita su Commerce Marketplace persistono e i pagamenti effettuati con le versioni precedenti possono ancora essere acquisiti, annullati o rimborsati come di consueto.
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php
