@@ -3,7 +3,7 @@ title: Configurare l’integrazione amministratore di Commerce con ID
 description: Segui questa procedura opzionale per integrare gli accessi dell’account utente amministratore Adobe Commerce con Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
+source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Questa integrazione supporta i rivenditori Commerce con utenti amministratori che dispongono di un Adobe ID e desiderano accedere in modo più semplice ai prodotti Adobe Commerce e Adobe Business. È facoltativo ed è abilitato per singole istanze. Solo i flussi di lavoro degli utenti amministratori sono interessati quando sono abilitati. 
+Questa integrazione supporta i rivenditori Commerce con utenti amministratori che dispongono di un Adobe ID e desiderano accedere in modo più semplice ai prodotti aziendali Adobe Commerce e Adobe. È facoltativo ed è abilitato per singole istanze. Solo i flussi di lavoro degli utenti amministratori sono interessati quando sono abilitati. 
 
 >[!IMPORTANT]
 >
@@ -27,7 +27,7 @@ Questa integrazione supporta i rivenditori Commerce con utenti amministratori ch
 
 Durante l’abilitazione del modulo, l’amministratore che configura questa integrazione deve disporre delle seguenti credenziali:
 
-* ID organizzazione (ottenuto da [Adobe Admin Console](https://adminconsole.adobe.com/)), che deve contenere almeno 24 caratteri. L’utente autenticato deve appartenere a questa organizzazione IMS. Per informazioni su come trovare l&#39;ID organizzazione, vedere [Organizzazioni nell&#39;Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+* ID organizzazione (ottenuto da [Adobe Admin Console](https://adminconsole.adobe.com/)), che deve contenere almeno 24 caratteri. L’utente autenticato deve appartenere a questa organizzazione IMS. Per informazioni su come trovare l&#39;ID organizzazione, vedi [Organizzazioni in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
 * 2FA deve essere applicato a livello di organizzazione in Adobe Admin Console per abilitare il modulo. Controlla [Impostazioni autenticazione](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * ID client
 * Segreto client
@@ -61,8 +61,8 @@ Per creare progetti per un’organizzazione, l’account amministratore di Adobe
 1. Fare clic su **[!UICONTROL Add API]** nella pagina Progetto appena creata.
 1. Selezionare **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Selezionare **[!UICONTROL Oauth 2.0 Web]**.
-1. Specificare **[!UICONTROL Redirect URI]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
-1. Specificare **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Specificare **[!UICONTROL Redirect URI]**: `https://<commerce_base_url>/`
+1. Specificare **[!UICONTROL Redirect URI pattern]**: `https://<commerce_base_url>/.*`
 
    Esci da qualsiasi punto nel nome host precedendo i punti con `\\`. L’aggiunta di un carattere jolly alla fine dell’URL supporta la chiave segreta di amministrazione di Adobe Commerce.
 
