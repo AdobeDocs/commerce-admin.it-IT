@@ -3,9 +3,9 @@ title: URL di cataloghi e prodotti
 description: Scopri i tipi di formato URL per i prodotti del catalogo e come configurarli.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
+source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,13 @@ Poiché il suffisso è controllato dalla configurazione di sistema, non è mai c
 
 ### Percorso categoria
 
-Puoi configurare l’URL in modo da includere o escludere il percorso della categoria. Per impostazione predefinita, il percorso della categoria è incluso in tutte le pagine relative a categorie e prodotti. Gli esempi seguenti mostrano lo stesso URL di prodotto con e senza il percorso della categoria.
+Puoi configurare gli URL del prodotto in modo da includere o escludere il percorso della categoria in base alle tue preferenze. Per impostazione predefinita, il percorso della categoria non è incluso negli URL del prodotto. Tuttavia, le categorie nidificate visualizzeranno sempre l’intero percorso delle categorie nei loro URL nella vetrina, garantendo chiarezza e coerenza nella navigazione delle categorie. Gli esempi seguenti mostrano lo stesso URL di prodotto con e senza il percorso della categoria.
 
-#### URL con percorso categoria
+#### URL prodotto con percorso categoria
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### URL senza percorso categoria
+#### URL prodotto senza percorso categoria
 
 - `http://mystore.com/helena-hooded-fleece.html`
 
