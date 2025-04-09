@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Security] &gt; [!UICONTROL 2FA] dell'amministratore di Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 22bfff98a9189f3020de21b31705351510dcf1be
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Gli archivi che hanno abilitato l’autenticazione IMS (Adobe Identity Management Services) hanno Adobe Commerce nativo e l’autenticazione a due fattori (2FA) di Magento Open Source disabilitata. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza di Adobe Commerce con le relative credenziali di Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Consulta [Panoramica sull&#39;integrazione di Adobe Commerce con Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Per gli archivi che hanno abilitato l’autenticazione IMS (Adobe Identity Management Services), l’autenticazione a due fattori (2FA) nativa di Adobe Commerce e Magento Open Source è disabilitata. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza di Adobe Commerce con le credenziali Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Consulta [Panoramica sull&#39;integrazione di Adobe Commerce con Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 {{config}}
 
@@ -49,8 +49,10 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Autent
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Integration Key] | Globale | La chiave di integrazione dal tuo account [!DNL Duo Security]. |
-| [!UICONTROL Secret Key] | Globale | La chiave segreta del tuo account [!DNL Duo Security]. |
+| [!UICONTROL Client Id] | Globale | ID client dall&#39;account [!DNL Duo Security]. |
+| [!UICONTROL Client Secret] | Globale | Il segreto client dall&#39;account [!DNL Duo Security]. |
+| [!UICONTROL Integration Key] | Globale | Chiave di integrazione dall&#39;account API [!DNL Duo Security]. |
+| [!UICONTROL Secret Key] | Globale | Chiave segreta dell&#39;account API [!DNL Duo Security]. |
 | [!UICONTROL API Hostname] | Globale | Il nome host API dall&#39;account [!DNL Duo Security]. |
 
 {style="table-layout:auto"}

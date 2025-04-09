@@ -4,22 +4,22 @@ description: Scopri come impostare l’autenticazione a due fattori durante l’
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: dc6e5fc7c0996af30bae6374cd7c9879902b9235
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
 # Impostazione dell’autenticazione a due fattori per gli account utente
 
-Queste istruzioni mostrano come impostare l’autenticazione a due fattori durante il primo accesso a Adobe Commerce o al Magento Open Source e come autenticare la tua identità utilizzando le app e i dispositivi seguenti.
+Queste istruzioni mostrano come impostare l’autenticazione a due fattori durante il primo accesso a Adobe Commerce o Magento Open Source e come autenticare la tua identità utilizzando le app e i dispositivi seguenti.
 
 Per istruzioni complete, vedere [Accesso amministratore](../getting-started/admin-signin.md).
 
 >[!NOTE]
 >
->Gli archivi che hanno abilitato l&#39;autenticazione [!DNL Adobe Identity Management Services] (IMS) hanno Adobe Commerce nativo e Magento Open Source 2FA disabilitato. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza di Commerce con le credenziali di Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Vedi Panoramica sull&#39;integrazione di [[!DNL Adobe Identity Management Service] (IMS)](../getting-started/adobe-ims-integration-overview.md).
+>Gli archivi che hanno abilitato l&#39;autenticazione [!DNL Adobe Identity Management Services] (IMS) hanno Adobe Commerce nativo e Magento Open Source 2FA disabilitati. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza di Commerce con le credenziali Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Vedi Panoramica sull&#39;integrazione di [[!DNL Adobe Identity Management Service] (IMS)](../getting-started/adobe-ims-integration-overview.md).
 
 ## [!DNL Google Authenticator]
 
@@ -29,9 +29,9 @@ Per istruzioni complete, vedere [Accesso amministratore](../getting-started/admi
 
 1. Apri l&#39;app **[!UICONTROL Google Authenticator]** sul tuo dispositivo mobile.
 
-1. Fare clic sul segno più ( **+** ) per aggiungere una voce e allineare la casella rossa con il codice QR da digitalizzare con la fotocamera dello smart phone.
+1. Fare clic sul segno più ( **+** ) per aggiungere una voce e allineare la casella rossa con il codice QR per eseguire la scansione con la fotocamera sullo smartphone.
 
-1. Quando il telefono riconosce il codice QR e aggiunge una voce, immetti tale codice di 6 cifre nel campo _Amministratore_ **[!UICONTROL Authenticator code]**.
+1. Quando il telefono riconosce il codice QR e aggiunge una voce, inserisci il codice a 6 cifre nel _campo Amministratore_**[!UICONTROL Authenticator code]**.
 
 1. Al termine, fare clic su **[!UICONTROL Confirm]**.
 
@@ -59,27 +59,23 @@ Per istruzioni complete, vedere [Accesso amministratore](../getting-started/admi
 
 1. Immetti le credenziali del tuo account e accedi a _Admin_.
 
-1. Quando viene visualizzata la pagina di installazione di [!DNL Duo], fare clic su **[!UICONTROL Start setup]** ed eseguire le operazioni seguenti:
+1. Quando viene visualizzata la pagina di installazione di [!DNL Duo], fare clic su **[!UICONTROL Get Started]** ed eseguire le operazioni seguenti:
 
-   ![Esempio di vetrina - Configurazione Duo](./assets/storefront-2fa-duo-user1.png){width="300"}
+   ![Esempio di vetrina - Configurazione Duo](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
-1. Seleziona il dispositivo.
+1. Seleziona l’opzione. Puoi scegliere Touch ID, Duo Mobile, Security Key o Phone Number (Numero di telefono). Questo esempio mostra l’opzione Duo Mobile o Phone Number (Numero cellulare o telefono Duo).
 
 1. Quando richiesto, immettere il numero di telefono e fare clic su **[!UICONTROL Continue]**.
 
-   In questo esempio viene richiesto il numero di telefono perché si sta utilizzando un dispositivo mobile.
+   Conferma la proprietà inviando e verificando il passcode sul numero di telefono.
 
-1. Quando viene richiesto di installare [!DNL Duo Mobile] per il tipo di telefono, fare clic su **[!UICONTROL I have Duo Mobile]**.
+1. Quando viene richiesto di eseguire l&#39;installazione [!DNL Duo Mobile] per il tipo di telefono in uso, fare clic su **[!UICONTROL I have Duo Mobile]**.
 
-1. Apri [!DNL Duo Mobile] ed esegui la scansione del codice QR per sincronizzare l&#39;autenticatore con Adobe Commerce. Al termine dell’attivazione viene visualizzato un segno di spunta.
+1. Apri [!DNL Duo Mobile] ed esegui la scansione del codice QR per Sincronizzazione l&#39;autenticatore con Adobe Systems Commerce. Al termine dell&#39;attivazione viene visualizzato un segno di spunta.
 
-1. Per configurare le impostazioni per il dispositivo, scegliere l&#39;azione da eseguire all&#39;accesso.
+1. Puoi aggiungere altri dispositivi (se necessario) o saltare. La configurazione è stata completata ed è possibile accedere con Duo.
 
-   - `Ask me to choose an authenticator method` - Consente all&#39;utente di selezionare l&#39;accesso e l&#39;autenticazione in _Admin_.
-   - `Automatically send this device a Duo Push` - Invia un messaggio al dispositivo per accettare o negare l&#39;accesso.
-   - `Automatically call this device` — Chiama e fornisce un passcode da immettere per l&#39;accesso.
-
-   ![Azioni di verifica Duo](./assets/storefront-2fa-duo-user7.png){width="300"}
+   ![Azioni di verifica Duo](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
 
 ### Passaggio 2: accedere con [!DNL Duo Security]
 
@@ -89,13 +85,11 @@ Nell&#39;esempio seguente vengono illustrate le opzioni per `Ask me to choose an
 
    ![Duo - accesso](./assets/storefront-2fa-duo-auth.png){width="300"}
 
-1. Scegliere il metodo da utilizzare per l&#39;autenticazione:
+1. Scegli accedi con Duo per ricevere una notifica push sull&#39;app Duo Mobile, accedi con Touch ID o procedi con un&#39;altra opzione configurata durante l&#39;installazione.
 
-   - `Send Me a Push` - Fare clic per ricevere un avviso push a [!DNL Duo Mobile]. Accetta per autenticare.
-   - `Call Me` — Fare clic su questa opzione, ricevere una chiamata con un codice e immettere il codice di accesso.
-   - `Enter a Passcode` — Fare clic su questa opzione per ricevere e immettere un codice di accesso.
+1. Approvate la richiesta dell&#39;app Duo/ID contatto/Messaggio di testo e avrete effettuato l&#39;accesso.
 
-1. Completa il push o il codice per accedere completamente a _Admin_.
+   ![Duo - accesso](./assets/storefront-2fa-duo-success.png){width="300"}
 
 ## [!DNL Authy]
 
@@ -111,7 +105,7 @@ Nell&#39;esempio seguente vengono illustrate le opzioni per `Ask me to choose an
 
    - Seleziona il tuo paese.
 
-   - Immetti il numero di telefono.
+   - Inserisci il tuo numero di telefono.
 
    - Selezionare **[!UICONTROL Verification method]**: `SMS` o `Call Me`
 
@@ -147,9 +141,9 @@ Nell&#39;esempio seguente vengono illustrate le opzioni per `Ask me to choose an
 
 Segui le istruzioni del provider di soluzioni per configurare il dispositivo U2F. Per ulteriori informazioni, vedere la documentazione del fornitore, ad esempio [[!DNL YubiKey]](https://support.yubico.com/hc/en-us/articles/360013790339-Getting-Started-with-Your-YubiKey) di [!UICONTROL Yubico].
 
-1. Immetti le credenziali del tuo account e accedi a _Admin_.
+1. Immetti le tue credenziali account e accedi all&#39;amministratore __.
 
-   ![Accesso chiave U2F](./assets/storefront-2fa-u2f.png){width="300"}
+   ![accesso chiave U2F](./assets/storefront-2fa-u2f.png){width="300"}
 
 1. Premere il tasto.
 

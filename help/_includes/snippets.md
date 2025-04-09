@@ -1,25 +1,25 @@
 ---
-title: Snippet
-description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
+title: Frammenti
+description: Note ed elementi visivi riutilizzati per annotare l'applicazione di una funzione o di una pagina a un'edizione specifica
+source-git-commit: e82b979ee2c5f51caba6a2aa416c5f20dbce110a
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
 
-# Snippet
+# Frammenti
 
-## Funzionalità solo EE {#ee-feature}
+## Caratteristica solo EE {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Funzione di Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Funzionalità esclusiva solo in Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Ulteriori informazioni</a>)</td></tr>
+<tr><td><img alt="Funzione Adobe Systems Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Funzionalità esclusiva solo in Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Ulteriori informazioni</a>)</td></tr>
 </table>
 
-## Funzionalità solo B2B {#b2b-feature}
+## B2B unica funzione {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Funzione B2B di Adobe Commerce" src="../assets/b2b.svg" width="20" height="20" /> Funzionalità esclusiva disponibile solo con <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Funzione B2B di Adobe Systems Commerce" src="../assets/b2b.svg" width="20" height="20" /> Funzionalità esclusiva disponibile solo con <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Systems Commerce B2B</a></td></tr>
 </table>
 
 ## Funzionalità solo CE {#ce-feature}
@@ -44,25 +44,25 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Quando i reindirizzamenti automatici sono attivati e si salva una categoria, tutte le riscritture di prodotti e categorie vengono generate in tempo reale e memorizzate nelle tabelle di riscrittura per impostazione predefinita. Questo processo potrebbe causare problemi di prestazioni significativi per le categorie con molti prodotti assegnati. La soluzione consiste nel modificare questa impostazione predefinita e saltare la generazione di riscritture URL categoria/prodotti dei prodotti per il salvataggio categoria. In questo caso, le riscritture del prodotto vengono generate solo per l’URL canonico del prodotto. Per ulteriori informazioni, vedere [Reindirizzamenti automatici dei prodotti](/help/merchandising-promotions/url-redirect-product-automatic.md).
+>Quando i reindirizzamenti automatici sono abilitati e si salva una categoria, tutte le riscritture di prodotti e categorie vengono generate in tempo reale e memorizzate in tabelle di riscrittura per impostazione predefinita. Questo processo potrebbe causare notevoli problemi di prestazioni per le categorie a cui sono assegnati molti prodotti. La soluzione è cambiare questa impostazione predefinita e saltare la generazione di categoria/prodotti URL la riscrittura dei prodotti per il salvataggio della categoria. In questo caso, le riscritture dei prodotti vengono generate solo per il prodotto canonico URL. Per ulteriori informazioni, consulta [Reindirizzamenti automatici dei](/help/merchandising-promotions/url-redirect-product-automatic.md) prodotti.
 
-## Nota sui parametri di riscrittura URL {#url-rewrite-params}
+## URL nota sui parametri di riscrittura {#url-rewrite-params}
 
 >[!IMPORTANT]
 >
->Durante il processo di reindirizzamento, tutti i parametri GET specificati nell’URL vengono rimossi per motivi di sicurezza.
+>Durante il processo di reindirizzamento, tutti i parametri GET specificati nel URL vengono rimossi per motivi di sicurezza.
 
-## Nuova regola di prezzo {#new-price-rule}
+## Nuovo prezzo regola {#new-price-rule}
 
 >[!NOTE]
 >
->Le regole di prezzo vengono elaborate automaticamente con altre regole di sistema. La frequenza di elaborazione dipende dalla configurazione [cron](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). Quando crei una regola del prezzo, lascia il tempo necessario per l&#39;accesso al sistema. Quando sei sicuro che sia nel sistema, verifica la regola.
+>Le regole di prezzo vengono elaborate automaticamente con altre regole di sistema. La frequenza di elaborazione dipende dalla configurazione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) cron[. Quando crei un regola di prezzi, concedi abbastanza tempo per farlo entrare nel sistema. Se sei sicuro che sia nel sistema, prova il regola.
 
 ## Impostazioni di configurazione {#config}
 
-Per accedere alle impostazioni di configurazione dell&#39;archivio, scegliere **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**dalla barra laterale_ Amministratore _.
+Per accesso le impostazioni di configurazione store, scegli **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**dalla_ barra laterale Amministratore _.
 
-## API UPS obsoleta {#ups-api}
+## Elementi obsoleti dell&#39;API UPS {#ups-api}
 
 >[!IMPORTANT]
 >
@@ -75,10 +75,16 @@ Per accedere alle impostazioni di configurazione dell&#39;archivio, scegliere **
 
 | Risorsa documentazione | Descrizione |
 |----------------------- | ----------- |
-| [Guide utente amministratore di Adobe Commerce 2.4](../landing/home.md) | Documentazione e risorse per gli esercenti che lavorano nell’Amministratore. |
-| [Servizi per la documentazione di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | Documentazione a supporto di una raccolta di servizi di merchandising che consentono ai commercianti di integrare componenti chiave della propria attività con il negozio. |
-| [Guida di Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedure dettagliate per la distribuzione di Adobe Commerce su una piattaforma cloud con hosting gestito e automatizzato. |
-| [Guide operative di Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentazione dei sistemi su concetti, processi, strumenti e best practice per sviluppare, distribuire e gestire progetti Adobe Commerce on-premise e sul cloud. |
-| [Documentazione per gli sviluppatori di Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentazione incentrata sugli sviluppatori utilizzata per personalizzare Adobe Commerce e integrarlo con sistemi di terze parti. |
+| [Guide utente amministrative di Adobe Systems Commerce 2.4](../landing/home.md) | Documentazione e risorse per gli esercenti che lavorano nell&#39;area di amministrazione. |
+| [Servizi per Adobe Systems Commerce Documentazione](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | Documentazione supportare una raccolta di servizi merchandising che aiutino i commercianti a integrare componenti chiave della loro attività con i loro store. |
+| [Guida di Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedure dettagliate per la distribuzione di Adobe Systems Commerce su una piattaforma di hosting cloud gestita e automatizzata. |
+| [Guide operative di Adobe Systems Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentazione di sistema su concetti, processi, strumenti e best practice per sviluppare, distribuire e gestire progetti Adobe Systems Commerce on Cloud e locali. |
+| [Documentazione per sviluppatori di Adobe Systems Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentazione incentrata sugli sviluppatori utilizzata per personalizzare Adobe Systems Commerce e integrare con sistemi di terze parti. |
 
 {style="table-layout:auto"}
+
+## Compatibilità B2B {#b2b-compatibility}
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B versione 1.4.2+ è compatibile con PHP 8.2. Se aggiorni l’istanza di Commerce alla versione 2.4.7+, assicurati che l’istanza utilizzi la versione PHP 8.2 per mantenere la compatibilità con la versione B2B di Adobe Commerce. Inoltre, la versione 1.4.2+ di B2B non supporta [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).

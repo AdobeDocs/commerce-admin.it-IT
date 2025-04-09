@@ -3,9 +3,9 @@ title: Braintree
 description: Scopri come impostare Braintree come soluzione di pagamento online nel tuo negozio.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: da3d64b1d248635b8d13f8bb6e85c8ac661048c2
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2873'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
    - Nella sezione _[!UICONTROL Merchant Location]_verificare che **[!UICONTROL Merchant Country]**sia impostato sul percorso dell&#39;azienda.
 
-1. In _[!UICONTROL Recommended Solutions]_, nella sezione_[!UICONTROL Braintree Payments] (di [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.6.1 - [Note sulla versione](https://support.gene.co.uk/support/solutions/articles/35000228529)_, fare clic su **[!UICONTROL Configure]**.
+1. In _[!UICONTROL Recommended Solutions]_, nella sezione_[!UICONTROL Braintree Payments] (di [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Note sulla versione](https://support.gene.co.uk/support/solutions/articles/35000278668)_, fare clic su **[!UICONTROL Configure]**.
 
    ![Configura Braintree](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -47,7 +47,7 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
    Durante il test della configurazione in una sandbox, utilizza solo [numeri di carta di credito][2] consigliati da Braintree. Quando si è pronti per passare alla produzione con Braintree, impostare **[!UICONTROL Environment]** su `Production`.
 
-   ![Impostazioni credenziali di base](./assets/braintree-settings1.png){width="600" zoomable="yes"}
+   ![Impostazioni credenziali di base](../configuration-reference/sales/assets/payment-methods-braintree-basic-config.png){width="600" zoomable="yes"}
 
 1. Imposta **[!UICONTROL Payment Action]** su uno dei seguenti:
 
@@ -69,9 +69,9 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
 1. Imposta **[!UICONTROL Enable Card Payments]** su `Yes`.
 
-   ![Impostazioni di base](./assets/braintree-settings2.png){width="600" zoomable="yes"}
+1. Se si desidera poter archiviare le informazioni dei clienti in modo sicuro, in modo che i clienti non debbano reinserirle ogni volta che effettuano un acquisto, impostare **[!UICONTROL Enable Vault for Card Payments]** su `Yes`.
 
-   Se si desidera poter archiviare le informazioni dei clienti in modo sicuro, in modo che i clienti non debbano reinserirle ogni volta che effettuano un acquisto, impostare **[!UICONTROL Enable Vault for Card Payments]** su `Yes`.
+1. Se desideri che un cliente verifichi il numero CVV per la propria carta in archivio a ogni acquisto, imposta **[!UICONTROL Enable Vault CVV Re-verification]** su `Yes`.
 
 ## Passaggio 3: completare le impostazioni avanzate
 
@@ -89,15 +89,15 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
 1. Se si desidera impedire l&#39;invio della transazione per la valutazione come parte dei controlli degli strumenti fraudolenti avanzati, negli ordini inoltrati tramite l&#39;amministratore, impostare **[!UICONTROL Skip Fraud Checks on Admin Orders]** su `Yes`.
 
-1. Impostare **[!UICONTROL Bypass Fraud Protection Threshold]** in modo che i controlli `Advanced Fraud Protection` vengano ignorati quando la soglia viene raggiunta o superata.
+1. Impostare il **[!UICONTROL Bypass Fraud Protection Threshold]** in modo che i `Advanced Fraud Protection` controlli vengano ignorati quando il soglia viene raggiunto o superato.
 
-   Se si lascia vuoto questo campo, questa opzione viene disabilitata.
+   Se questo campo viene lasciato vuoto, questa opzione viene disabilitata.
 
-1. Se si desidera che venga salvato un file di registro delle interazioni tra l&#39;archivio e Braintree, impostare **[!UICONTROL Debug]** su `Yes`.
+1. Se si desidera che il sistema salvi un file di registro delle interazioni tra il store e il Braintree, impostare **[!UICONTROL Debug]** su `Yes`.
 
-1. Per richiedere ai clienti di fornire il codice di sicurezza a tre cifre dal retro di una carta di credito, impostare **[!UICONTROL CVV Verification]** su `Yes`.
+1. Per richiedere ai clienti di fornire il codice di sicurezza a tre cifre dal retro di una scheda di credito, impostare **[!UICONTROL CVV Verification]** su `Yes`.
 
-   Se utilizzi la verifica CVV, assicurati di abilitare AVS e/o CVV nella sezione _Impostazioni/Elaborazione_ del tuo account Braintree.
+   Se utilizzi la verifica CVV, assicurati di abilitare AVS _e/o CVV nella sezione Impostazioni/Elaborazione_ del tuo Braintree account.
 
 1. Per inviare gli elementi riga carrello per tutti i metodi di pagamento, impostare **[!UICONTROL Send Card Line Items]** su `Yes`.
 
@@ -105,11 +105,11 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
    Per selezionare più tipi di schede, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e fare clic su ciascuna opzione.
 
-1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui Braintree viene visualizzato quando viene elencato con altri metodi di pagamento durante l&#39;estrazione.
+1. Per **[!UICONTROL Sort Order]**, immetti un numero per determinare la sequenza in cui Braintree appare quando viene elencata con altri metodi di pagamento durante il checkout.
 
-## Passaggio 4: completare le impostazioni del webhook di Braintree
+## Passaggio 4: Tutte le applicazioni le impostazioni del webhook Braintree
 
-![Impostazioni webhook Braintree](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
+![Braintree Webhook Impostazioni](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
 
 1. Impostare **[!UICONTROL Enable Webhook]** su `Yes` per abilitare la funzionalità webhook per la protezione dalle frodi, i pagamenti ACH e i metodi di pagamento locali.
 
@@ -205,16 +205,16 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
 1. Imposta **[!UICONTROL Payment Action]** su uno dei seguenti:
 
-   - `Authorize Only` - Approva l&#39;acquisto e blocca i fondi. L&#39;importo non viene prelevato dal conto bancario del cliente finché la vendita non viene _acquisita_ dal commerciante.
-   - `Intent Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente.
+   - `Authorize Only` - Approva l&#39;acquisto e blocca i fondi. L&#39;importo non viene prelevato dalla banca del cliente account fino a quando la vendita non viene _catturata_ dal commerciante.
+   - `Intent Sale`  - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal account del cliente.
 
-1. Impostare **[!UICONTROL Button Color]** per determinare il colore del pulsante [!DNL Google Pay]: `White` o `Black`
+1. Impostare **[!UICONTROL Button Color]** questa opzione per determinare il colore della [!DNL Google Pay] pulsante: `White` oppure `Black`
 
-1. Per **[!UICONTROL Merchant ID]**, immetti il tuo ID commerciante (fornito da Google).
+1. Per **[!UICONTROL Merchant ID]**, inserisci il tuo MerchantID (fornito da Google).
 
-1. Per **[!UICONTROL Accepted Cards]**, selezionare il tipo di schede che un cliente può utilizzare per effettuare un ordine utilizzando [!DNL Google Pay].
+1. Per **[!UICONTROL Accepted Cards]**, selezionare il tipo di carte che un cliente può utilizzare per effettuare un ordine utilizzando [!DNL Google Pay].
 
-   Opzioni: `Visa` / `MasterCard` / `AMEX` / `Discover` / `JCB`
+   Opzioni: `Visa` / `MasterCard` / `AMEX` `Discover``JCB`
 
 1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui [!DNL Google Pay] viene visualizzato quando elencato con altre opzioni di pagamento durante l&#39;estrazione.
 
@@ -224,7 +224,7 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
 1. Impostare **[!UICONTROL Enable Vault for Venmo]** su `Yes` per consentire l&#39;utilizzo di un archivio protetto per archiviare l&#39;account Venmo dei clienti in modo che non sia necessario accedere nuovamente al proprio account Venmo per le transazioni future.
 
-   ![Venmo tramite Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
+   ![Venmo attraverso Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
 
 1. Imposta **[!UICONTROL Payment Action]** su uno dei seguenti:
 
@@ -235,7 +235,7 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
 ## Passaggio 11: completare le impostazioni di PayPal tramite Braintree
 
-![PayPal tramite Impostazioni Braintree](./assets/braintree-paypal.png){width="550" zoomable="yes"}
+![PayPal tramite Impostazioni Braintree 1](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
 
 1. Per includere PayPal come opzione di pagamento con Braintree, impostare **[!UICONTROL Enable PayPal through Braintree]** su `Yes`.
 
@@ -279,15 +279,27 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
    - `All Allowed Countries` - I clienti di tutti i [paesi](../getting-started/store-details.md#country-options) specificati nella configurazione del tuo negozio possono utilizzare questo metodo di pagamento.
    - `Specific Countries` - Dopo aver scelto questa opzione, viene visualizzato l&#39;elenco _[!UICONTROL Payment from Specific Countries]_. Tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e selezionare ogni paese nell&#39;elenco in cui i clienti possono effettuare acquisti dal negozio.
 
+   ![PayPal tramite Impostazioni Braintree 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
+
 1. Per richiedere ai clienti di fornire un indirizzo di fatturazione, impostare **[!UICONTROL Require Customer's Billing Address]** su `Yes`.
 
    >[!NOTE]
    >
    >Questa funzione deve essere abilitata per il tuo account dal Supporto tecnico PayPal.
 
+1. Per saltare la pagina di revisione dell&#39;ordine di PayPal Express, impostare **[!UICONTROL Skip Order Review Step]** su `Yes`.
+
+   Per i clienti che pagano con PayPal Express: se desideri che i clienti vengano reindirizzati a una pagina di revisione prima di completare il pagamento, imposta questo valore su `No`. Se si preferisce che i clienti saltino la pagina di revisione, impostarla su `Yes`.
+
 1. Per salvare un file di registro delle interazioni tra il tuo store e PayPal tramite Braintree, imposta **[!UICONTROL Debug]** su `Yes`.
 
 1. Per visualizzare il pulsante PayPal sia sul mini carrello che sulla pagina del carrello, impostare **[!UICONTROL Display on Shopping Cart]** su `Yes`.
+
+1. Per inviare le informazioni di tracciamento del pacchetto a PayPal, imposta **[!UICONTROL Send Package Tracking]** su `Yes`.
+
+   Le informazioni di tracciamento dei pacchetti verranno inviate a PayPal solo per le transazioni/gli ordini PayPal. È necessario abilitare il campo di configurazione [!UICONTROL Send Cart Line Items for PayPal] affinché la funzionalità [!UICONTROL Package Tracking] funzioni correttamente.
+
+1. Per notificare a un acquirente o a un pagatore tramite PayPal gli aggiornamenti per il monitoraggio del pacchetto, impostare **[!UICONTROL Use PayPal's "Notify Payer" functionality]** su `Yes`.
 
 ## Passaggio 12: impostazione degli stili
 
@@ -311,21 +323,33 @@ Le opzioni e le impostazioni di questa sezione variano a seconda del tipo di pul
 
 1. Per **[!UICONTROL Color]**, selezionare il colore del pulsante PayPal: `Blue`, `Black`, `Gold` o `Silver`
 
-1. Per **[!UICONTROL Shape]**, selezionare la forma pulsante PayPal: `Pill` o `Rectangle`
+1. Per **[!UICONTROL Shape]**, selezionare la forma pulsante PayPal: `Pill` oppure `Rectangle`
 
-1. Per **[!UICONTROL Size (Deprecated)]**, selezionare la dimensione del pulsante PayPal: `Medium`, `Large` o `Responsive`
+1. Per **[!UICONTROL Size (Deprecated)]**, selezionare la dimensione pulsante PayPal: `Medium`, `Large`oppure `Responsive`
 
 >[!NOTE]
 >
->Il campo di configurazione **[!DNL Size(Deprecated)]** è obsoleto e non viene utilizzato per assegnare uno stile ai pulsanti PayPal.
+>Il **[!DNL Size(Deprecated)]** campo di configurazione è obsoleto e non viene utilizzato per applicare uno stile ai pulsanti PayPal.
 
-**[!UICONTROL PayLater Messaging]**
+Quando queste opzioni sono impostate, è possibile visualizzare l&#39;anteprima dei pulsanti PayPal. Sono disponibili controlli che è possibile utilizzare per applicare le impostazioni o ripristinare i valori:
 
-1. Per visualizzare i messaggi di [!DNL PayLater] nella vetrina nel percorso selezionato, impostare **[!UICONTROL Show PayLater Messaging]** su `Yes`.
+- Per store le impostazioni di stile selezionate per i pulsanti e l&#39;messaggistica PayLater e applicarle alla posizione corrente e al tipo di pulsante corrente, fare clic su **[!UICONTROL Apply]**.
 
-   Questo messaggio include la visualizzazione di [!DNL PayLater] messaggi per le offerte disponibili ([restrizioni applicate](https://developer.paypal.com/docs/checkout/pay-later/us/)).
+- Per memorizzare le impostazioni di stile selezionate per i pulsanti e i valori di messaggistica PayLater e applicarle a tutti i tipi di pulsanti e le posizioni, fare clic su **[!UICONTROL Apply to All Buttons]**.
 
-1. Per **[!UICONTROL Message Layout]**, selezionare il layout del messaggio [!DNL PayLater]: `Text` o `Flex`
+- Per ripristinare i valori predefiniti consigliati per i pulsanti e i messaggi PayLater e applicarli a tutti i tipi di pulsanti e le posizioni, fare clic su **[!UICONTROL Reset to Recommended Defaults]**.
+
+## Passaggio 13: Messaggi posticipati
+
+**[!UICONTROL Product Page]**
+
+![Pay Later Invia messaggio - Impostazioni Pagina prodotto](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-product.png){width="600" zoomable="yes"}
+
+1. Per visualizzare [!DNL Pay Later] messaggistica sulla vetrina della pagina del prodotto, imposta **[!UICONTROL Show PayLater Messaging]** su `Yes`.
+
+   Visualizza i messaggi Paga più tardi per le offerte disponibili. Si applicano delle restrizioni. Consulta la [documentazione di PayPal](https://developer.paypal.com/studio/checkout/pay-later/us).
+
+1. Per **[!UICONTROL Message Layout]**, selezionare il layout del messaggio [!DNL Pay Later]: `Text` o `Flex`
 
 1. Per **[!UICONTROL Logo]**, seleziona il tipo di logo PayPal: `Inline`, `Primary`, `Alternative` o `None`
 
@@ -333,15 +357,35 @@ Le opzioni e le impostazioni di questa sezione variano a seconda del tipo di pul
 
 1. Per **[!UICONTROL Text Color]**, selezionare il colore del testo del messaggio [!DNL PayLater]: `Black`, `White`, `Monochrome` o `Grayscale`
 
-Quando queste opzioni sono impostate, puoi visualizzare l&#39;anteprima dei pulsanti PayPal e dei messaggi PayLater. Esistono controlli che è possibile utilizzare per applicare le impostazioni o reimpostare i valori:
+**[!UICONTROL Cart]**
 
-- Per memorizzare le impostazioni di stile selezionate per i pulsanti e i messaggi PayLater e applicarle alla posizione corrente e al tipo di pulsante corrente, fare clic su **[!UICONTROL Apply]**.
+![Paga più tardi messaggio - Impostazioni pagina carrello](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-cart.png){width="600" zoomable="yes"}
 
-- per memorizzare le impostazioni di stile selezionate per i pulsanti e i valori di messaggistica PayLater e applicarle a tutti i tipi di pulsanti e le posizioni, fare clic su **[!UICONTROL Apply to All Buttons]**.
+1. Per visualizzare i messaggi di [!DNL Pay Later] nella vetrina al mini-carrello o alla pagina del carrello, impostare **[!UICONTROL Show PayLater Messaging]** su `Yes`.
 
-- Per ripristinare i valori predefiniti consigliati per i pulsanti e i messaggi PayLater e applicarli a tutti i tipi di pulsanti e le posizioni, fare clic su **[!UICONTROL Reset to Recommended Defaults]**.
+   Visualizza i messaggi Paga più tardi per le offerte disponibili. Si applicano delle restrizioni. Consulta la [documentazione di PayPal](https://developer.paypal.com/studio/checkout/pay-later/us).
 
-## Passaggio 13: completare le impostazioni di verifica 3D
+1. Per **[!UICONTROL Message Layout]**, selezionare il layout del messaggio [!DNL Pay Later]: `Text` o `Flex`
+
+1. Per **[!UICONTROL Logo]**, seleziona il tipo di logo PayPal: `Inline`, `Primary`, `Alternative` o `None`
+
+1. Per **[!UICONTROL Logo Position]**, seleziona la posizione del logo PayPal: `Left`, `Right` o `Top`
+
+1. Per **[!UICONTROL Text Color]**, selezionare il colore del testo del messaggio [!DNL PayLater]: `Black`, `White`, `Monochrome` o `Grayscale`
+
+**[!UICONTROL Checkout]**
+
+![Paga più tardi messaggio - Impostazioni pagina cassa](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-checkout.png){width="600" zoomable="yes"}
+
+1. Per visualizzare i messaggi di [!DNL Pay Later] nella vetrina al momento del pagamento, impostare **[!UICONTROL Show PayLater Messaging]** su `Yes`.
+
+   Visualizza i messaggi Paga più tardi per le offerte disponibili. Si applicano delle restrizioni. Consulta la [documentazione di PayPal](https://developer.paypal.com/studio/checkout/pay-later/us).
+
+1. Per **[!UICONTROL Text Align]**, selezionare l&#39;allineamento del testo per il messaggio [!DNL Pay Later]: `Text` o `Center` o `Right`
+
+1. Per **[!UICONTROL Text Color]**, selezionare il colore del testo del messaggio [!DNL Pay Later]: `Black`, `White`
+
+## Passaggio 14: completare le impostazioni di verifica 3D
 
 1. Se si desidera aggiungere un passaggio di verifica per i clienti che utilizzano carte di credito registrate in un programma di verifica, ad esempio _Verified by VISA_, impostare **[!UICONTROL 3D Secure Verification]** su `Yes`.
 
@@ -349,16 +393,16 @@ Quando queste opzioni sono impostate, puoi visualizzare l&#39;anteprima dei puls
 
 2. Per soddisfare sempre la richiesta 3D Secure per tutte le transazioni, impostare **[!UICONTROL Always request 3DS]** su `Yes`.
 
-3. Per **[!UICONTROL Threshold Amount]**, immettere l&#39;importo minimo dell&#39;ordine necessario per attivare la verifica 3D.
+3. Per **[!UICONTROL Threshold Amount]**, inserisci l&#39;importo minimo dell&#39;ordine necessario per attivare la verifica 3D.
 
-4. Imposta **[!UICONTROL Verify for Applicable Countries]** su uno dei seguenti:
+4. Imposta **[!UICONTROL Verify for Applicable Countries]** su una delle opzioni seguenti:
 
    - `All Allowed Countries` - I clienti di tutti i [paesi](../getting-started/store-details.md#country-options) specificati nella configurazione del tuo negozio possono utilizzare questo metodo di pagamento.
    - `Specific Countries` - Dopo aver scelto questa opzione, viene visualizzato l&#39;elenco _[!UICONTROL Verify for Specific Countries]_. Tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e selezionare ogni paese nell&#39;elenco in cui i clienti possono effettuare acquisti dal negozio.
 
    ![Impostazioni di verifica 3D](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
-## Passaggio 14: configurare i descrittori dinamici di Braintree
+## Passaggio 15: configurare i descrittori dinamici di Braintree
 
 I seguenti descrittori vengono utilizzati per identificare gli acquisti sugli estratti conto della carta di credito del cliente. Puoi ridurre il numero di chargeback identificando chiaramente l’azienda associata a ogni acquisto. Se i descrittori dinamici non sono abilitati per il tuo account, contatta il supporto Braintree.
 

@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Scopri come utilizzare [!DNL Google Tag Manager] per gestire i numerosi tag (snippet di codice) correlati agli eventi delle campagne di marketing nei siti Adobe Commerce.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
+source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Le istruzioni seguenti mostrano come configurare un nuovo contenitore con le imp
 
    - Nel campo **[!UICONTROL Container ID]**, immetti il tuo ID GTM (`GTM-xxxxxx`).
 
-   - Se utilizzi anche Google Analytics a esperimenti di contenuto, imposta **Abilita esperimenti di contenuto** su `Yes`.
+   - Se si utilizza anche Google Analytics per gli esperimenti di contenuto, impostare **Abilita esperimenti di contenuto** su `Yes`.
 
    - Utilizzare i valori predefiniti per i campi rimanenti.
 
@@ -142,9 +142,9 @@ Le istruzioni seguenti mostrano come configurare un nuovo contenitore con le imp
 
 | Campo | Ambito | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Enable] | Visualizzazione store | Determina se è possibile utilizzare l’e-commerce Google Analytics avanzato per analizzare l’attività nel tuo store. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable] | Visualizzazione store | Determina se l’e-commerce avanzato di Google Analytics può essere utilizzato per analizzare l’attività nel tuo store. Opzioni: `Yes` / `No` |
 | [!UICONTROL Account type] | Visualizzazione store | Determina il codice di tracciamento di Google utilizzato per monitorare l&#39;attività e il traffico dell&#39;archivio. Opzioni: `Google Analytics` / `Google Tag Manager` |
-| [!UICONTROL Anonymize IP] | Visualizzazione store | Determina se le informazioni di identificazione vengono rimosse dagli indirizzi IP visualizzati nei risultati delle Google Analytics. |
+| [!UICONTROL Anonymize IP] | Visualizzazione store | Determina se rimuovere le informazioni di identificazione dagli indirizzi IP visualizzati nei risultati di Google Analytics. |
 | [!UICONTROL Enable Content Experiments] | Visualizzazione store | Attiva Google Content Experiments, che può essere utilizzato per testare fino a dieci versioni diverse della stessa pagina. Opzioni: `Yes` / `No` |
 | [!UICONTROL Container Id] | Visualizzazione store | Se [!DNL Google Tag Manager] è già installato e configurato per il tuo archivio, l&#39;ID contenitore viene visualizzato automaticamente in questo campo. |
 | [!UICONTROL List property for the catalog page] | Visualizzazione store | Identifica la proprietà Tag Manager associata alla pagina del catalogo. Valore predefinito: `Catalog Page` |
@@ -210,3 +210,55 @@ Continuando dal dashboard [!DNL Google Tag Manager], il passaggio successivo con
 ### Passaggio 3: Anteprima e pubblicazione
 
 Il passaggio successivo nel processo consiste nell’visualizzare in anteprima il tag. Ogni volta che il tag viene visualizzato in anteprima, viene salvata un’istantanea della versione. Quando si è soddisfatti dei risultati, passare alla versione che si desidera utilizzare e fare clic su **[!UICONTROL Publish]**.
+
+## Tag HTML personalizzato con JavaScript
+
+Questa sezione spiega come aggiungere un Nonce CSP al JavaScript di tag HTML personalizzato per l’esecuzione sulla pagina di pagamento, garantendo la conformità con i requisiti Content Security Policy (CSP). Questa aggiunta migliora la sicurezza del sito impedendo l&#39;esecuzione di script non autorizzati. Per informazioni più dettagliate, consulta la documentazione di [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
+>[!NOTE]
+>
+>L&#39;importazione della variabile globale `cspNonce` in Google Tag Manager è supportata solo in Adobe Commerce versione 2.4.8 e successive.
+
+>[!WARNING]
+>
+>L&#39;aggiunta di script sconosciuti al tuo archivio può comportare il rischio di compromissione dei dati. Gli script autorizzati nella pagina di pagamento possono sottrarre informazioni riservate dei clienti, inclusi i dettagli di pagamento. È essenziale prendere precauzioni per proteggere il tuo account Google Tag Manager. Aggiungi solo script attendibili, controlla e controlla regolarmente i tag e implementa misure di sicurezza avanzate come l’autenticazione a due fattori (2FA) e i controlli di accesso.
+
+### Passaggio 1: Creare una variabile Nonce CSP
+
+Puoi creare una variabile Nonce CSP che può essere utilizzata all’interno di Google Tag Manager importando la configurazione della variabile o configurandola manualmente.
+
+#### Importare la configurazione della variabile
+
+La variabile Nonce CSP è inclusa nel contenitore di esempio [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt). Puoi creare la variabile importando questo codice nell’area di lavoro.
+
+#### Creare la variabile manualmente
+
+Se non riesci a importare la configurazione della variabile, completa i passaggi seguenti per crearla.
+
+1. Nell&#39;area di lavoro, passa alla sezione **Variabili** nella barra laterale.
+1. Fai clic sul pulsante **Nuovo** nella parte inferiore della pagina nella sezione **Variabili definite dall&#39;utente**.
+1. Denomina la variabile `gtmNonce`.
+1. Fai clic sull’icona della matita per modificare la variabile.
+1. Seleziona **Variabile JavaScript** dalla sezione **Variabile pagina**.
+1. Nel campo **Nome variabile globale** immettere `window.cspNonce`.
+1. Salva la variabile.
+
+Per ulteriori informazioni sulle [variabili di Google Tag Manager](https://support.google.com/tagmanager/answer/7683056?hl=en), consulta [Tipi di variabili definite dall&#39;utente per il Web](https://support.google.com/tagmanager/answer/7683362?hl=en) nella documentazione di Google. Questa documentazione offre indicazioni dettagliate sulla creazione e la gestione di variabili personalizzate per adattare la gestione dei tag a esigenze di marketing e analisi specifiche.
+
+### Passaggio 2: Creare un tag HTML personalizzato
+
+1. Nell&#39;area di lavoro, passa alla sezione **Tag** nella barra laterale.
+1. Fare clic sul pulsante **Nuovo**.
+1. Nella sezione **Configurazione tag**, seleziona **Tag HTML personalizzato**.
+1. Immettere il JavaScript richiesto nell&#39;area di testo e aggiungere un attributo nonce al tag di apertura `<script>` che punta alla variabile creata nel passaggio precedente. Ad esempio:
+
+   ```html
+   <script nonce="{{gtmNonce}}">
+       // Your JavaScript code here
+   </script>
+   ```
+
+1. Selezionare **Documento di supporto.scrittura**.
+1. Nella sezione **Attivazione** selezionare il trigger desiderato. Ad esempio, **Inizializzazione del consenso - Tutte le pagine**.
+
+Per ulteriori informazioni su [Tag](https://support.google.com/tagmanager/answer/3281060) in Gestione tag di Google, vedere [Tag personalizzati](https://support.google.com/tagmanager/answer/6107167) nella documentazione di Google.

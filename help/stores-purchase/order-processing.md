@@ -1,18 +1,18 @@
 ---
 title: Flusso di lavoro ed elaborazione degli ordini
-description: Scopri il flusso di lavoro degli ordini, lo stato applicato a ogni passaggio e come spostare gli ordini attraverso questo processo.
+description: Scopri informazioni sull'workflow dell'ordine, sullo stato che si applica in ogni passaggio e su come spostare gli ordini attraverso questo processo.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
 
 ---
 
-# Flusso di lavoro ed elaborazione degli ordini
+# workflow ed elaborazione degli ordini
 
-Quando un cliente effettua un ordine, viene creato un ordine di vendita come record temporaneo della transazione. Nella griglia Ordini, gli ordini di vendita inizialmente hanno lo stato &quot;In sospeso&quot; e possono essere annullati in qualsiasi momento fino all&#39;elaborazione del pagamento. Dopo la conferma del pagamento, l&#39;ordine può essere fatturato e spedito.
+Quando un cliente effettua un ordine, viene creato un ordine cliente come registrazione temporanea della transazione. Nella griglia Ordini, gli ordini cliente hanno inizialmente lo stato &quot;In sospeso&quot; e possono essere annullati in qualsiasi momento fino all&#39;elaborazione del pagamento. Dopo che il pagamento è confermato, l&#39;ordine può essere fatturato e spedito.
 
 **Passaggio 1: Ordina** - Il processo di pagamento inizia quando l&#39;acquirente fa clic su **[!UICONTROL Go to Checkout]** nella pagina del carrello o [riordina](reorders-allow.md) direttamente dal proprio account cliente.
 
@@ -30,11 +30,11 @@ Quando un cliente effettua un ordine, viene creato un ordine di vendita come rec
 
 >[!NOTE]
 >
->Per informazioni dettagliate sullo stato degli ordini e sulle opzioni di configurazione del metodo di pagamento, vedere [Stato ordine](order-status.md) e [Pagamenti](payments.md).
+>Per informazioni dettagliate sullo stato dell&#39;ordine e sulle opzioni di configurazione del metodo di pagamento, vedere [Stato](order-status.md) dell&#39;ordine e [pagamenti](payments.md).
 
 ## Visualizza un ordine
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. _Nella barra laterale Amministratore_, vai a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
 1. Trovare l&#39;ordine nella griglia.
 
@@ -84,7 +84,7 @@ Esaminare le sezioni seguenti nell&#39;ordine cliente, utilizzando le descrizion
 
 >[!NOTE]
 >
->Un utente amministratore deve disporre di **[!UICONTROL Sales / Archive]** [autorizzazioni](../systems/permissions-user-roles.md) per l&#39;ambito del proprio ruolo per visualizzare le _fatture_, _note di credito_ e _spedizioni_ schede ordine.
+>Un utente amministratore deve disporre **[!UICONTROL Sales / Archive]** [delle autorizzazioni](../systems/permissions-user-roles.md) per il proprio ruolo ambito per visualizzare le _schede Ordine fatture_, _Memo_ di credito e _Spedizioni_ .
 
 ### Barra dei pulsanti
 
@@ -102,11 +102,11 @@ Esaminare le sezioni seguenti nell&#39;ordine cliente, utilizzando le descrizion
 
 {style="table-layout:auto"}
 
-### Annullare un ordine
+### Annulla un ordine
 
-È possibile [annullare](order-update.md) ordini non ancora fatturati. È necessario emettere una [nota di credito](credit-memos.md) se un cliente desidera annullare un ordine dopo che è stato fatturato (il pagamento viene acquisito).
+È possibile [annullare](order-update.md) gli ordini che non sono ancora fatturati. Una [nota](credit-memos.md) di credito deve essere emessa se un cliente desidera annullare un ordine dopo che è stato fatturato (il pagamento viene acquisito).
 
-Se un ordine è `Pending` o `Processing` e il pagamento non viene acquisito o non viene acquisito completamente, è possibile [annullare l&#39;ordine](#void-an-order) invece di annullarlo.
+Se un ordine è `Pending` o `Processing` e il pagamento non viene acquisito o non interamente acquisito, è possibile [annullare l&#39;ordine](#void-an-order) invece di annullarlo.
 
 Per ripristinare un ordine annullato, fare clic sul pulsante **[!UICONTROL Reorder]** e creare un nuovo ordine con lo stato `Pending`.
 
@@ -127,10 +127,10 @@ Solo gli ordini cliente non fatturati con stato `Processing` e impostazione di i
 | Campo | Descrizione |
 |--- |--- |
 | [!UICONTROL Order Number] | Il numero dell’ordine viene visualizzato nella parte superiore dell’ordine di vendita, seguito da una nota che indica se l’e-mail di conferma è stata inviata. |
-| [!UICONTROL Order Date] | La data e l’ora in cui è stato effettuato l’ordine. |
-| [!UICONTROL Purchased From] | Indica la visualizzazione del sito Web, del punto vendita e del punto vendita in cui è stato effettuato l&#39;ordine. |
+| [!UICONTROL Order Date] | La data e l&#39;ora in cui è stato effettuato l&#39;ordine. |
+| [!UICONTROL Purchased From] | Indica il sito Web, la store e store visualizzazione in cui è stato effettuato l&#39;ordine. |
 | [!UICONTROL Placed from IP] | Indica l&#39;indirizzo IP del computer da cui è stato effettuato l&#39;ordine. |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Commerce B2B) indica il [preventivo](../b2b/quotes.md) da cui è stato generato l&#39;ordine, se applicabile. Il nome dell&#39;offerta è collegato all&#39;offerta. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Commerce B2B) indica il [preventivo](../b2b/quotes.md) da cui è stato generato l&#39;ordine, se applicabile. Il nome della citazione è collegato alla citazione. |
 
 {style="table-layout:auto"}
 
@@ -205,7 +205,7 @@ Nella sezione **[!UICONTROL Order Total]** eseguire le operazioni seguenti:
 | Campo | Descrizione |
 |--- |--- |
 | [!UICONTROL Status] | Visualizza lo stato dell&#39;ordine cliente. |
-| [!UICONTROL Comment] | Casella di testo utilizzata per immettere un commento per il cliente che accompagna l&#39;ordine. <br/>**[!UICONTROL Notify Customer by Email]**- Selezionare la casella di controllo se si desidera inviare il commento al cliente come e-mail separata.<br/>**[!UICONTROL Visible on Storefront]** - Selezionare la casella di controllo se si desidera che il commento sia visibile dall&#39;account del cliente. <br/>**[!UICONTROL Submit Comment]**- Invia il commento e invia tramite e-mail, se applicabile. |
+| [!UICONTROL Comment] | Casella di testo utilizzata per inserire un commento al cliente che accompagna l&#39;ordine. <br/>**[!UICONTROL Notify Customer by Email]**- Selezionare la casella di controllo se si desidera inviare il commento al cliente come e-mail separata.<br/>**[!UICONTROL Visible on Storefront]** - Selezionare la casella di controllo se si desidera che il commento sia visibile dall&#39;account del cliente. <br/>**[!UICONTROL Update]**- Aggiunge il commento e invia un&#39;e-mail, se applicabile. |
 
 {style="table-layout:auto"}
 
@@ -220,8 +220,8 @@ Nella sezione **[!UICONTROL Order Total]** eseguire le operazioni seguenti:
 | [!UICONTROL Total Refunded] | Importo totale rimborsato dall&#39;ordine, se applicabile. |
 | [!UICONTROL Total Due] | Importo totale dovuto. |
 | [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) l&#39;importo del credito del negozio disponibile applicato all&#39;ordine, se applicabile. |
-| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Commerce B2B) Il prezzo totale degli articoli nel preventivo senza imposte, in base ai prezzi nel catalogo condiviso o nel catalogo standard utilizzato come base del preventivo. Se la valuta di visualizzazione della vetrina è diversa da quella di base, il valore viene visualizzato in entrambe le valute, con la visualizzazione della vetrina tra parentesi quadre. |
-| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Commerce B2B) Sconto risultante da un preventivo negoziato tra l&#39;acquirente e il venditore. Se la valuta di visualizzazione della vetrina è diversa da quella di base, il valore viene visualizzato in entrambe le valute, con la visualizzazione della vetrina tra parentesi quadre. |
+| [!UICONTROL Catalog Total Price] | ![Adobe Systems Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Systems Commerce B2B) Il prezzo totale degli articoli nel preventivo senza imposte, in base ai prezzi nel catalogo condiviso o nel catalogo standard utilizzato come base del preventivo. Se la valuta di visualizzazione della vetrina è diversa da quella di base, il valore viene visualizzato in entrambe le valute, con la visualizzazione della vetrina tra parentesi quadre. |
+| [!UICONTROL Negotiated Discount] | ![Adobe Systems Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Systems Commerce B2B) Lo sconto che è il risultato di un preventivo negoziato tra acquirente e venditore. Se la valuta di visualizzazione della vetrina è diversa dalla valuta di base, il valore viene visualizzato in entrambe le valute, con la vetrina visualizzata tra parentesi quadre. |
 | [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponibile con Adobe Commerce B2B) Il prezzo totale del catalogo meno lo sconto negoziato. |
 
 {style="table-layout:auto"}

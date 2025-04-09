@@ -3,9 +3,9 @@ title: Persistenza carrello
 description: Scopri in che modo un carrello permanente tiene traccia degli articoli del carrello non acquistati e salva le informazioni per la visita successiva del cliente.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
+source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Se lo stesso cliente visita il tuo negozio utilizzando più browser durante l’
 
 ### Comportamento della casella di controllo &quot;Ricorda utente&quot;
 
-I clienti possono selezionare la casella di controllo _[!UICONTROL Remember Me]_nella pagina di accesso o durante la creazione di un nuovo account per mantenere i contenuti del carrello accessibile sul dispositivo corrente alla scadenza della sessione di accesso.
+I clienti possono selezionare la casella di controllo _[!UICONTROL Remember Me]_nella pagina di accesso, nel popup di autenticazione, negli accessi di checkout o durante la creazione di un nuovo account per mantenere il contenuto del carrello accessibile sul dispositivo corrente alla scadenza della sessione di login.
 
 | Ti Ricordi Di Me? | Risultato |
 | ------------ |  ------ |
@@ -56,6 +56,10 @@ I clienti possono selezionare la casella di controllo _[!UICONTROL Remember Me]_
 | Non selezionato | Non crea un cookie persistente e non mantiene il contenuto del carrello accessibile sul dispositivo corrente alla scadenza della sessione di accesso. Tieni presente che il contenuto del carrello viene comunque salvato nell’account del cliente e ricaricato al successivo accesso. |
 
 {style="table-layout:auto"}
+
+![Ricordami l&#39;accesso del cliente](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![Popup Memorizza autenticazione](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![Ricordami: estrai accessi](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### Comportamento Cancella persistenza alla disconnessione
 

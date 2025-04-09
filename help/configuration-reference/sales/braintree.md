@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Br
 description: Rivedi le impostazioni di configurazione per la sezione [!UICONTROL Braintree] nella pagina [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] dell'amministratore di Commerce.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: d22d44b8c93649a60b16569cc502d2e291ce6b22
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2822'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ ht-degree: 0%
 | [!UICONTROL Sandbox Public Key] | Visualizzazione store | Questo è l&#39;identificatore pubblico specifico dell&#39;utente che limita l&#39;accesso ai dati crittografati. Ogni utente associato al gateway Braintree sandbox dispone di una propria chiave pubblica sandbox. Questo campo viene visualizzato quando il campo _[!UICONTROL Environment]_è impostato su `Sandbox`. |
 | [!UICONTROL Sandbox Private Key] | Visualizzazione store | Si tratta dell&#39;identificatore privato specifico dell&#39;utente che limita l&#39;accesso ai dati crittografati. Ogni utente associato al gateway Braintree sandbox dispone di una propria chiave privata per la sandbox. Questo campo viene visualizzato quando il campo _[!UICONTROL Environment]_è impostato su `Sandbox`. |
 | [!UICONTROL Merchant ID] | Visualizzazione store | Questo è l’identificatore univoco dell’intero account gateway, inclusi i diversi account esercente eventualmente presenti nel gateway. Anche noto come _ID pubblico_ o _ID produzione_, il tuo ID commerciante è diverso per i gateway di produzione e sandbox. Questo campo viene visualizzato quando il campo _[!UICONTROL Environment]_è impostato su `Production`. |
-| [!UICONTROL Public Key] | Visualizzazione store | Questo è l&#39;identificatore pubblico specifico dell&#39;utente che limita l&#39;accesso ai dati crittografati. Ogni utente associato al gateway Braintree dispone di una propria chiave pubblica. Questo campo viene visualizzato quando il campo _[!UICONTROL Environment]_è impostato su `Production`. |
-| [!UICONTROL Private Key] | Visualizzazione store | Si tratta dell&#39;identificatore privato specifico dell&#39;utente che limita l&#39;accesso ai dati crittografati. Ogni utente associato al gateway Braintree dispone di una propria chiave privata. Questo campo viene visualizzato quando il campo _[!UICONTROL Environment]_è impostato su `Production`. |
-| [!UICONTROL Enable Card Payments] | Sito Web | Determina se il metodo di pagamento con carta di credito Braintree è disponibile per i clienti come metodo di pagamento. Opzioni: `Yes` / `No` |
+| [!UICONTROL Public Key] | Visualizzazione store | Questo è l&#39;identificatore pubblico specifico dell&#39;utente che limita l&#39;accesso ai dati crittografati. Ogni utente associata al gateway Braintree dispone di una propria chiave pubblica. Questo campo viene visualizzato quando il _[!UICONTROL Environment]_campo è impostato su `Production`. |
+| [!UICONTROL Private Key] | Visualizza negozio | Si tratta dell&#39;identificatore privato specifico dell&#39;utente che limita accesso ai dati crittografati. Ogni utente associato al gateway Braintree dispone di una propria chiave privata. Questo campo viene visualizzato quando il _[!UICONTROL Environment]_campo è impostato su `Production`. |
+| [!UICONTROL Enable Card Payments] | Sito web | Determina se il metodo di pagamento scheda di credito Braintree è disponibile per i clienti come metodo di pagamento. Opzioni: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | Sito Web | Quando questa opzione è abilitata, consente di memorizzare in modo sicuro le informazioni relative al pagamento del cliente, evitando così che i clienti debbano reinserire le informazioni sulla carta di credito per ogni acquisto. Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Vault CVV Reverification] | Sito Web | Quando questa opzione è abilitata, la convalida viene eseguita per l’impostazione delle regole del CVV nell’account Braintree. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Vault CVV Re-verification] | Sito Web | Quando questa opzione è abilitata, la convalida viene eseguita per l’impostazione delle regole del CVV nell’account Braintree. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -85,8 +85,8 @@ ht-degree: 0%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina se si accettano pagamenti elaborati da Braintree da tutti i paesi o solo da paesi specifici. Opzioni: `All Allowed Countries` / `Specific Countries` |
-| [!UICONTROL Payment from Specific Countries] | Sito Web | Se applicabile, identifica i paesi specifici da cui si accettano i pagamenti elaborati da Braintree. |
-| [!UICONTROL Country Specific Credit Card Types] | Sito Web | Identifica le carte di credito accettate per paese per i pagamenti elaborati da Braintree. Viene salvato un record per ogni paese. Opzioni: <br/>**`Country`**- Scegliere il paese.<br/>**`Allowed Card Types`** - Selezionare ogni carta di credito accettata dal paese come pagamento tramite Braintree. <br/>**`Add`**- Aggiungi una riga per consentire le carte di credito per un altro paese.<br/>**`Action`** - Elimina il record delle carte di credito consentite per il paese. |
+| [!UICONTROL Payment from Specific Countries] | Sito web | Se applicabile, identifica i paesi specifici da cui accetti pagamenti elaborati da Braintree. |
+| [!UICONTROL Country Specific Credit Card Types] | Sito web | Identifica le carte di credito accettate in base al paese per i pagamenti elaborati da Braintree. Viene salvato un record per ogni paese. Opzioni: <br/>**`Country`**- Scegliere il paese.<br/>**`Allowed Card Types`** - Selezionare ogni carta di credito accettata dal paese come pagamento tramite Braintree. <br/>**`Add`**- Aggiungi una riga per consentire le carte di credito per un altro paese.<br/>**`Action`** - Elimina il record delle carte di credito consentite per il paese. |
 
 {style="table-layout:auto"}
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Title] | Sito Web | Etichetta visualizzata nella sezione relativa al metodo di pagamento del pagamento di pagamento. Valore predefinito: `Local Payments` |
 | [!UICONTROL Fallback Button Text] | Sito Web | Inserisci il testo da utilizzare per il pulsante visualizzato nella pagina Braintree di fallback che riporta i clienti al sito web. Valore predefinito: `Complete Checkout` |
 | [!UICONTROL Redirect on Fail] | Sito Web | Specifica l&#39;URL a cui devono essere reindirizzati i clienti quando le transazioni del metodo di pagamento locale vengono annullate, non riuscite o rilevano errori. Deve essere la pagina di pagamento per l&#39;estrazione, ad esempio `https://www.domain.com/checkout#payment`. |
-| [!UICONTROL Allowed Payment Method] | Sito Web | Selezionare il metodo di pagamento locale da abilitare. Opzioni: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (non ancora supportato) |
+| [!UICONTROL Allowed Payment Method] | Sito Web | Selezionare il metodo di pagamento locale da abilitare. Opzioni: `Bancontact` / `EPS` / `iDeal` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` |
 | [!UICONTROL Sort Order] | Sito Web | Determina l&#39;ordine in base al quale il metodo di pagamento locale viene elencato con altri metodi di pagamento durante l&#39;estrazione. |
 
 {style="table-layout:auto"}
@@ -141,8 +141,8 @@ ht-degree: 0%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Enabled GooglePay through Braintree] | Sito Web | Determina se il pagamento [!DNL Google Pay] è incluso come metodo di pagamento tramite Braintree. Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Vault for GooglePay] | Sito Web | I clienti possono archiviare/archiviare il metodo di pagamento Google Pay per utilizzi futuri. Una volta archiviati i dettagli del pagamento, il cliente può utilizzare Google Pay senza reinserire i dati o autenticare le informazioni di pagamento. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enabled GooglePay through Braintree] | Sito web | Determina se [!DNL Google Pay] il pagamento è incluso come metodo di pagamento tramite Braintree. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Vault for GooglePay] | Sito web | I clienti possono effettuare il vault/store il proprio metodo di pagamento Google Pay per un utilizzo futuro. Una volta archiviati i dettagli del pagamento, il cliente può utilizzare Google Pay senza reinserire i dati o autenticare le informazioni di pagamento. Opzioni: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Sito Web | Determina l&#39;azione eseguita da Braintree durante l&#39;elaborazione di un pagamento. Opzioni: <br/>**`Authorize`**- I fondi sulla carta del cliente sono autorizzati, ma non trasferiti dall&#39;account del cliente. Viene creato un ordine nell’amministratore del negozio. In seguito sarà possibile acquisire la vendita e creare una fattura.<br/>**`Intent Sale`** - I fondi sulla carta del cliente sono autorizzati e acquisiti da Braintree e un ordine e una fattura vengono creati nell&#39;amministratore del tuo negozio. **_Nota:_** si trattava di `Authorize and Capture` nelle versioni 2.3.x e precedenti. |
 | [!UICONTROL Button Color] | Sito Web | Determina il colore del pulsante [!DNL Google Pay]. Opzioni: `White` / `Black` |
 | [!UICONTROL Merchant ID] | Visualizzazione store | L’ID fornito da Google deve essere inserito qui. |
@@ -166,7 +166,8 @@ ht-degree: 0%
 
 ## [!UICONTROL PayPal through Braintree]
 
-![PayPal tramite Braintree](./assets/payment-methods-braintree-paypal-config.png){width="550" zoomable="yes"}
+![PayPal tramite Configurazione Braintree 1](./assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
+![PayPal tramite Braintree Config 2](./assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -178,12 +179,15 @@ ht-degree: 0%
 | [!UICONTROL Send Cart Line Items for PayPal] | Sito Web | Invia gli articoli della linea (articoli dell&#39;ordine) a PayPal insieme a Biglietti regalo, Confezione regalo per gli articoli, Confezione regalo per l&#39;ordine, Credito del negozio, Spedizione e Imposta come articoli della linea. Opzioni: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine in cui PayPal tramite Braintree viene elencato con altri metodi di pagamento durante il pagamento. |
 | [!UICONTROL Override Merchant Name] | Visualizzazione store | Nome alternativo che può essere utilizzato per identificare l&#39;esercente per ogni visualizzazione dello store. |
-| [!UICONTROL Payment Action] | Sito Web | Determina l&#39;azione eseguita da PayPal tramite Braintree quando viene elaborato un pagamento. Opzioni: <br/>**`Authorize`**- I fondi sulla carta del cliente sono autorizzati, ma non trasferiti dall&#39;account del cliente. Viene creato un ordine nell’amministratore del negozio. In seguito sarà possibile acquisire la vendita e creare una fattura.<br/>**`Authorize and Capture`** - I fondi sulla carta del cliente sono autorizzati e acquisiti da PayPal tramite Braintree e un ordine e una fattura vengono creati nell&#39;amministratore del tuo negozio. |
-| [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina se si accettano pagamenti elaborati da PayPal tramite Braintree da tutti i paesi o solo da paesi specifici. Opzioni: `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Payment Action] | Sito Web | Determina l&#39;azione eseguita da PayPal tramite Braintree quando viene elaborato un pagamento. Opzioni: <br/>**`Authorize`**- I fondi sulla carta del cliente sono autorizzati, ma non trasferiti dall&#39;account del cliente. Viene creato un ordine nell&#39;amministratore store. In seguito puoi acquisire la vendita e creare una fattura.<br/>**`Authorize and Capture`** - I fondi sul scheda del cliente sono autorizzati e acquisiti da PayPal tramite Braintree e un ordine e una fattura vengono creati nel tuo amministratore store. |
+| [!UICONTROL Payment from Applicable Countries] | Sito web | Determina se accettare pagamenti elaborati da PayPal a Braintree da tutti i paesi o solo da paesi specifici. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Se applicabile, identifica i paesi specifici da cui si accettano i pagamenti elaborati da Braintree. |
 | [!UICONTROL Require Customer's Billing Address] | Sito Web | Determina se l&#39;indirizzo di fatturazione del cliente è necessario per sottomettere un ordine. Opzioni: `Yes` / `No` |
+| [!UICONTROL Skip Order Review Step] | Sito Web | Determina se i clienti devono essere reindirizzati alla pagina di revisione prima di completare il pagamento. Opzioni: `Yes` / `No` |
 | [!UICONTROL Debug] | Sito Web | Determina se le comunicazioni tra il sistema PayPal tramite Braintree e il tuo Negozio vengono registrate in un file di registro. Opzioni: `Yes` / `No` |
 | [!UICONTROL Display on Shopping Cart] | Sito Web | Determina se il pulsante PayPal viene visualizzato nel [mini carrello](../../stores-purchase/cart-configuration.md#mini-cart) e nella pagina [carrello](../../stores-purchase/cart.md). Opzioni: `Yes` / `No` |
+| [!UICONTROL Send Package Tracking] | Sito Web | Le informazioni di tracciamento dei pacchetti verranno inviate a PayPal solo per le transazioni/gli ordini PayPal. È necessario abilitare il campo di configurazione [!UICONTROL Send Cart Line Items for PayPal] affinché la funzionalità [!UICONTROL Package Tracking] funzioni correttamente. Opzioni: `Yes` / `No` |
+| [!UICONTROL Use PayPal's "Notify Payer" functionality] | Sito Web | Una volta impostato su Sì, PayPal invierà una notifica all&#39;acquirente o al pagatore per gli aggiornamenti di tracciamento dei pacchetti. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -195,9 +199,9 @@ ht-degree: 0%
 
 ![Stile PayPal](./assets/payment-methods-braintree-paypal-styling.png)<!-- zoom -->
 
-| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+| Campo | [Portata](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Location] | Sito Web | Determina dove vengono riprodotti i pulsanti e i messaggi PayPal nella vetrina. Opzioni: `Mini-Cart and Cart Page` / `Checkout Page` / `Product Page` |
+| [!UICONTROL Location] | Sito web | Determina la posizione in cui vengono visualizzati i pulsanti e i messaggi PayPal nella vetrina. Opzioni: `Mini-Cart and Cart Page` / `Checkout Page` / `Product Page` |
 
 {style="table-layout:auto"}
 
@@ -205,9 +209,9 @@ ht-degree: 0%
 
 L&#39;opzione e le impostazioni in questa sezione variano a seconda dell&#39;impostazione nel campo _[!UICONTROL Location]_.
 
-| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+| Campo | [Portata](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL PayPal Button Type] | Sito Web | Imposta il pulsante su uno dei tre tipi seguenti: `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button` |
+| [!UICONTROL PayPal Button Type] | Sito web | Imposta il pulsante su uno dei tre tipi seguenti: `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button` |
 
 **[!UICONTROL PayPal Button]**
 
@@ -227,25 +231,55 @@ Le opzioni e le impostazioni di questa sezione variano a seconda del tipo di pul
 >
 >Il campo di configurazione **[!DNL Size(Deprecated)]** è obsoleto e non viene utilizzato per assegnare uno stile ai pulsanti PayPal.
 
-**[!UICONTROL PayLater Messaging]**
-
-| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
-|--- |--- |--- |
-| [!UICONTROL Show PayLater Messaging] | Sito Web | Abilita la messaggistica PayLater nella posizione selezionata. Opzioni: `Yes` / `No`. Quando è abilitato, il messaggio PayLater viene visualizzato per le offerte disponibili ([restrizioni applicate](https://developer.paypal.com/docs/checkout/pay-later/us/)). |
-| [!UICONTROL Message Layout] | Sito Web | Determina il layout del messaggio PayLater. Opzioni: `Text` / `Flex` |
-| [!UICONTROL Logo] | Sito Web | Determina il tipo di logo utilizzato per il pulsante PayPal. Opzioni: `Inline` / `Primary` / `Alternative` / `None` |
-| [!UICONTROL Logo Position] | Sito Web | Determina la posizione del logo per il pulsante PayPal. Opzioni: `Left` / `Right` / `Top` |
-| [!UICONTROL Text Color] | Sito Web | Determina il colore del testo del pulsante PayPal. Opzioni: `Black` / `White` / `Monochrome` / `Grayscale` |
-
-{style="table-layout:auto"}
-
 Quando queste opzioni sono impostate, puoi visualizzare l&#39;anteprima dei pulsanti PayPal e dei messaggi PayLater. Esistono controlli che è possibile utilizzare per applicare le impostazioni o reimpostare i valori:
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Apply] | Sito Web | Memorizza le impostazioni di stile selezionate per i pulsanti e i messaggi PayLater e le applica alla posizione corrente e al tipo di pulsante corrente. |
-| [!UICONTROL Apply to All Buttons] | Sito Web | Memorizza le impostazioni di stile selezionate per i pulsanti e i valori di messaggistica PayLater e le applica a tutti i tipi di pulsanti e a tutte le posizioni. |
-| [!UICONTROL Reset to Recommended Defaults] | Sito Web | Restituisce le impostazioni di stile ai valori predefiniti consigliati per i pulsanti e i messaggi PayLater e li applica a tutti i tipi di pulsanti e a tutte le posizioni. |
+| [!UICONTROL Apply to All Buttons] | Sito Web | Memorizza le impostazioni di stile selezionate per i pulsanti e i valori del messaggistica PayLater e le applica a tutti i tipi e le posizioni di pulsante. |
+| [!UICONTROL Reset to Recommended Defaults] | Sito web | Ripristina le impostazioni di stile ai valori predefiniti consigliati per i pulsanti e le messaggistica PayLater e le applica a tutti i tipi di pulsante e posizioni. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Pay Later Messaging]
+
+**[!UICONTROL Product Page]**
+
+![Messaggistica con pagamento successivo - Pagina del prodotto](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Sito Web | Abilita la messaggistica PayLater nella posizione selezionata. Opzioni: `Yes` / `No`. Visualizza i messaggi Paga più tardi per le offerte disponibili. Si applicano delle restrizioni. [Fai clic qui per ulteriori informazioni.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | Sito Web | Determina il layout del messaggio PayLater. Opzioni: `Text` / `Flex` |
+| [!UICONTROL Logo] | Sito Web | Determina il tipo di logo utilizzato per il messaggio Paga più tardi. Opzioni: `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | Sito Web | Determina la posizione del logo per il messaggio Paga più tardi. Opzioni: `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | Sito Web | Determina il colore del testo del messaggio Paga più tardi. Opzioni: `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Cart]**
+
+![Messaggistica posticipata - Carrello](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Sito web | Abilita l&#39;messaggistica PayLater nella posizione selezionata. Opzioni: `Yes` / `No`. Visualizza l&#39;messaggistica Paga dopo le offerte disponibili. Si applicano restrizioni. [Clicca qui per saperne di più.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | Sito Web | Determina il layout del messaggio PayLater. Opzioni: `Text` / `Flex` |
+| [!UICONTROL Logo] | Sito web | Determina il tipo di logo utilizzato per il messaggio Paga dopo. Opzioni: `Inline` / `Primary` / / `Alternative``None` |
+| [!UICONTROL Logo Position] | Sito Web | Determina la posizione del logo per il messaggio Paga più tardi. Opzioni: `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | Sito Web | Determina il colore del testo del messaggio Paga più tardi. Opzioni: `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Checkout]**
+
+![Messaggi posticipati - Pagamento](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--------------------------------------|--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Sito Web | Abilita la messaggistica PayLater nella posizione selezionata. Opzioni: `Yes` / `No`. Visualizza i messaggi Paga più tardi per le offerte disponibili. Si applicano delle restrizioni. [Fai clic qui per ulteriori informazioni.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Text Align] | Sito Web | Determina il layout del messaggio PayLater. Opzioni: `Left` / `Center` / `Right` |
+| [!UICONTROL Text Color] | Sito Web | Determina il colore del testo del messaggio Paga più tardi. Opzioni: `Black` / `White` |
 
 {style="table-layout:auto"}
 
@@ -256,10 +290,10 @@ Quando queste opzioni sono impostate, puoi visualizzare l&#39;anteprima dei puls
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL 3D Secure Verification] | Sito Web | Determina se una transazione deve superare un processo di verifica aggiuntivo quando il cliente è iscritto a un programma come _Verified by VISA_. Opzioni: `Yes` / `No` |
-| [!UICONTROL Always request 3DS] | Sito Web | Sfida la richiesta 3D Secure sempre per tutte le transazioni. Opzioni: `Yes` / `No` |
-| [!UICONTROL Threshold Amount] | Sito Web | Determina l&#39;importo massimo dell&#39;ordine autorizzato per l&#39;elaborazione in un singolo ordine. Braintree rifiuta l’autorizzazione se l’importo dell’ordine supera questa soglia. |
-| [!UICONTROL Verify for Applicable Countries] | Sito Web | Determina i paesi in cui è necessario verificare il pagamento. Opzioni: `All Allowed Countries` / `Specific Countries` |
-| [!UICONTROL Verify for Specific Countries] | Sito Web | Se applicabile, identifica i paesi specifici da cui deve essere verificato il pagamento effettuato da Braintree. |
+| [!UICONTROL Always request 3DS] | Sito Web | Sfida il 3D Secure richiesta sempre per tutte le transazioni. Opzioni: `Yes` / `No` |
+| [!UICONTROL Threshold Amount] | Sito web | Determina l&#39;importo massimo dell&#39;ordine autorizzato per l&#39;elaborazione di un singolo ordine. Braintree rifiuta l&#39;autorizzazione se l&#39;importo dell&#39;ordine supera tale importo soglia. |
+| [!UICONTROL Verify for Applicable Countries] | Sito web | Determina i paesi in cui il pagamento deve essere verificato. Opzioni: `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Verify for Specific Countries] | Sito web | Se applicabile, identifica i paesi specifici da cui deve essere verificato il pagamento tramite Braintree. |
 
 {style="table-layout:auto"}
 
@@ -267,9 +301,9 @@ Quando queste opzioni sono impostate, puoi visualizzare l&#39;anteprima dei puls
 
 ![Descrittori dinamici](./assets/payment-methods-braintree-dynamic-config.png)<!-- zoom -->
 
-| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+| Campo | [Portata](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Name] | Visualizzazione store | Il descrittore Nome è costituito da due parti, separate da un asterisco (*). La prima parte del descrittore identifica l’azienda o il DBA e la seconda parte identifica il prodotto. Ad esempio: `company*myproduct` <br/><br/>La lunghezza delle parti Società e Prodotto del descrittore può essere allocata nei seguenti modi, per una lunghezza combinata fino a 22 caratteri: <br/>**`Option 1`**- Azienda deve essere tre caratteri / Prodotto può essere fino a 18 caratteri<br/>**`Option 2`** - Azienda deve essere sette caratteri / Prodotto può essere fino a 14 caratteri <br/>**`Option 3`**- Azienda deve essere 12 caratteri / Prodotto può essere fino a nove caratteri |
+| [!UICONTROL Name] | Visualizza negozio | Il descrittore Nome è costituito da due parti, separate da un asterisco (*). La prima parte del descrittore identifica l’azienda o il DBA e la seconda parte identifica il prodotto. Ad esempio: `company*myproduct` <br/><br/>La lunghezza delle parti Società e Prodotto del descrittore può essere allocata nei seguenti modi, per una lunghezza combinata fino a 22 caratteri: <br/>**`Option 1`**- Azienda deve essere tre caratteri / Prodotto può essere fino a 18 caratteri<br/>**`Option 2`** - Azienda deve essere sette caratteri / Prodotto può essere fino a 14 caratteri <br/>**`Option 3`**- Azienda deve essere 12 caratteri / Prodotto può essere fino a nove caratteri |
 | [!UICONTROL Phone] | Visualizzazione store | Il descrittore del telefono deve contenere da dieci a 14 caratteri e può includere solo numeri, trattini, parentesi e punti. Esempio: `9999999999` `(999) 999-9999` `999.999.9999` |
 | [!UICONTROL URL] | Visualizzazione store | Il descrittore URL rappresenta il nome di dominio e può contenere fino a 13 caratteri. Esempio: `company.com` |
 

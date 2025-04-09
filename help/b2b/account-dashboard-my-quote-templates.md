@@ -3,9 +3,9 @@ title: '[!UICONTROL My Quote Templates]'
 description: Scopri l’esperienza del cliente per i modelli di preventivo, disponibili nella dashboard dell’account storefront.
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
+source-git-commit: 15f85631741859280450ae1b477e2f3859c42773
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Un acquirente che accetta le condizioni negoziate offerte dal venditore può acc
    - Accetta il modello di preventivo
    - Modificare la data di scadenza del modello di preventivo
    - Aggiungi un indirizzo di spedizione
+   - Gestisci collegamenti documenti di riferimento
 
 - Azioni per l&#39;aggiornamento dei dettagli del modello di preventivo durante il processo di negoziazione:
 
@@ -43,6 +44,7 @@ Un acquirente che accetta le condizioni negoziate offerte dal venditore può acc
    - Tenere traccia del processo di negoziazione dalle sezioni [!UICONTROL Comments] e [!UICONTROL History].
    - Per i modelli ancora in fase di revisione, l&#39;acquirente può modificare il modello di preventivo rimuovendo gli elementi.
    - Comunica e negozia con il venditore aggiungendo note a livello di articolo e preventivo.
+   - Aggiungere, modificare o rimuovere collegamenti al documento di riferimento a contratti e accordi esterni.
 
   Dopo aver apportato le modifiche, l&#39;acquirente restituisce il modello al venditore per la revisione.
 
@@ -114,3 +116,57 @@ Gli acquirenti possono completare le seguenti azioni da un preventivo collegato:
 Dalla pagina del modello di preventivo, fare clic su **[!UICONTROL Cancel Quote Template]**.
 
 Il modello di preventivo è stato annullato e lo stato del preventivo cambia in `Closed`. Le virgolette chiuse rimangono nell&#39;elenco di *[!UICONTROL Inactive]* e rimangono elencate nella griglia _[!UICONTROL Quote Templates]_dell&#39;amministratore.
+
+## Gestisci collegamenti documenti di riferimento
+
+La funzione dei collegamenti ai documenti di riferimento consente a buyer e venditori di aggiungere, modificare e gestire i collegamenti a documenti esterni, ad esempio contratti, accordi o specifiche, durante il processo di creazione del modello di preventivo.
+
+### Aggiungi un collegamento al documento di riferimento
+
+1. Aprire il modello di preventivo.
+
+1. Nella sezione **[!UICONTROL Reference Documents]**, fare clic su **[!UICONTROL Add]**.
+
+1. Nella finestra di dialogo Informazioni documento:
+   - Immetti **[!UICONTROL Document Name]** (obbligatorio)
+   - Immetti **[!UICONTROL Document Identifier]** (facoltativo)
+   - Immetti **[!UICONTROL Reference Document URL]** (obbligatorio)
+
+1. Fare clic su **[!UICONTROL Add to Quote Template]**.
+
+   Il collegamento al documento di riferimento viene aggiunto al modello di preventivo con il seguente formato:
+   `Document Name, Document Identifier https://document-url`
+
+### Modificare un collegamento a un documento di riferimento
+
+1. Aprire il modello di preventivo.
+
+1. Nella sezione **[!UICONTROL Reference Documents]**, fare clic su **[!UICONTROL Edit]** accanto al collegamento del documento che si desidera modificare.
+
+1. Aggiorna le informazioni del documento nella finestra di dialogo:
+   - Nome documento
+   - Identificatore documento
+   - URL documento di riferimento
+
+1. Fare clic su **[!UICONTROL Add to Quote Template]**.
+
+### Rimuovere un collegamento a un documento di riferimento
+
+1. Aprire il modello di preventivo.
+
+1. Nella sezione **[!UICONTROL Reference Documents]**, fare clic su **[!UICONTROL Remove]** accanto al collegamento del documento che si desidera eliminare.
+
+### Visualizzare un documento di riferimento
+
+1. Aprire il modello di preventivo.
+
+1. Nella sezione **[!UICONTROL Reference Documents]** fare clic sul collegamento del nome del documento.
+
+   Il documento viene aperto in una nuova finestra del browser.
+
+### Limitazioni dei collegamenti ai documenti di riferimento
+
+- I collegamenti ai documenti di riferimento possono essere aggiunti, modificati o rimossi solo quando il modello di preventivo è in uno stato modificabile.
+- Una volta inviato o accettato il modello di preventivo, i collegamenti del documento di riferimento diventano di sola lettura.
+- Il campo Nome documento è obbligatorio quando si aggiunge o si modifica un collegamento a un documento di riferimento.
+- I collegamenti ai documenti di riferimento rimangono accessibili anche dopo l&#39;accettazione o il completamento del modello di preventivo.

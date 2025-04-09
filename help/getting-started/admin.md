@@ -2,12 +2,13 @@
 title: Che cos’è l’amministratore?
 description: Scopri l’ [!DNL Commerce] Amministratore, il luogo in cui i commercianti configurano prodotti e promozioni, gestiscono gli ordini ed eseguono altre attività amministrative.
 exl-id: 065cf14f-80e7-4695-8922-c761a2191d72
-source-git-commit: b657db7e486fec591d5a6239d554376f00707e8c
+source-git-commit: a6b293dca673808bbc7f37cb468c6e316fddb735
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
+
 
 # Che cos’è l’amministratore?
 
@@ -17,7 +18,7 @@ Per ulteriore sicurezza, l&#39;accesso _Admin_ è protetto da [autenticazione a 
 
 ![Barra laterale di amministrazione e dashboard](./assets/admin-dashboard.png){width="700" zoomable="yes"}
 
-Le credenziali di accesso [iniziali](admin-signin.md) sono state configurate durante l&#39;installazione di Adobe Commerce o di Magento Open Source. Se dimentichi la password, puoi inviare una password temporanea all’indirizzo e-mail associato all’account. Per aumentare la sicurezza, configura il tuo archivio in modo che richieda un nome utente con distinzione tra maiuscole e minuscole e una password complessa.
+Le credenziali di accesso [iniziali](admin-signin.md) sono state configurate durante l&#39;installazione di Adobe Commerce o Magento Open Source. Se dimentichi la password, puoi inviare una password temporanea all’indirizzo e-mail associato all’account. Per aumentare la sicurezza, configura il tuo archivio in modo che richieda un nome utente con distinzione tra maiuscole e minuscole e una password complessa.
 
 Oltre all&#39;account utente Amministratore predefinito, la tua azienda può creare tutti i [account aggiuntivi](../systems/permissions-users-all.md) necessari per gestire gli account cliente dello store e del supporto. Ogni account può essere associato a un [ruolo](../systems/permissions-user-roles.md) specifico e al livello di accesso, in base all&#39;azienda _che deve sapere_. L’indirizzo e-mail associato a ciascun account utente amministratore deve essere univoco.
 
@@ -25,7 +26,7 @@ Oltre all&#39;account utente Amministratore predefinito, la tua azienda può cre
 
 ## Raccolta dati di utilizzo
 
-La prima volta che accedi a _Admin_, ti viene richiesto di concedere l&#39;autorizzazione di Adobe per raccogliere i dati di utilizzo per tutti gli utenti Admin. Adobe Consentendo la raccolta dei dati di utilizzo da parte dell’amministratore, puoi contribuire a migliorare l’esperienza di utilizzo dell’amministratore Adobe Commerce e dei prodotti e servizi correlati.
+La prima volta che accedi a _Admin_, ti viene richiesto di concedere l&#39;autorizzazione Adobe per raccogliere i dati di utilizzo per tutti gli utenti Admin. Consentendo la raccolta dei dati di utilizzo da parte dell’amministratore, puoi aiutare Adobe a migliorare l’esperienza di utilizzo dell’amministratore Adobe Commerce e dei prodotti e servizi correlati.
 
 ![Consenti raccolta dati di utilizzo amministratore](./assets/admin-usage-data.png){width="600"}
 

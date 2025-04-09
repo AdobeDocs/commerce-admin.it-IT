@@ -3,7 +3,7 @@ title: Spedisci un ordine
 description: Scopri come completare le informazioni di spedizione per un ordine di elaborazione e visualizzare le informazioni di spedizione e tracciamento.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Un ordine che è stato pagato, ma è in attesa di spedizione ha lo stato `Proces
 
    - Per pubblicare il commento nell&#39;account del cliente, selezionare la casella di controllo **[!UICONTROL Visible on Frontend]**.
 
-1. Fare clic su **[!UICONTROL Submit Comment]**.
+1. Fare clic su **[!UICONTROL Update]**.
 
 ## Tracciare la spedizione
 
