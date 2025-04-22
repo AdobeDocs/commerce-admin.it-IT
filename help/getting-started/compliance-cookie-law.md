@@ -3,7 +3,7 @@ title: Conformità alle normative sui cookie
 description: Per mantenere il passo con la legislazione in molti paesi per quanto riguarda l’utilizzo dei cookie, Adobe Commerce e Magento Open Source offrono ai commercianti una scelta di metodi per ottenere il consenso dei clienti.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Utilizzato come parte dell’implementazione della funzionalità schede solo in 
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono impostati per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg`: impostato da Snowplow JavaScript tracker. Ulteriori informazioni sono disponibili nella [documentazione Snowplow](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
+- `mg`: impostato da Snowplow JavaScript tracker. Ulteriori informazioni sono disponibili nella [documentazione Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: dato il nome host della pagina Web corrente, questo è il dominio più in alto che non è un &quot;suffisso pubblico&quot; come descritto in https://publicsuffix.org. In sostanza, questo è il dominio di primo livello che può accettare i cookie. Questo cookie fa parte di [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
