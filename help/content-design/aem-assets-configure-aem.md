@@ -3,9 +3,9 @@ title: Installare il pacchetto AEM Assets per Commerce
 description: Aggiungi i metadati della risorsa necessari per consentire all’integrazione di AEM Assets per Commerce di sincronizzare le risorse tra i progetti Adobe Commerce e Experience Manager Assets.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: d7125774dbf6fb2796ccabc6df8e574455e1e968
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Il modello aggiunge le seguenti risorse all’ambiente di authoring AEM Assets.
 
   ![Controllo interfaccia utente dati prodotto personalizzato](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- Modulo schema metadati con scheda Commerce che include i campi `Does it exist in Adobe Commerce?` e `Product Data` per l&#39;assegnazione di tag alle risorse Commerce. Il modulo fornisce inoltre opzioni per mostrare o nascondere i campi `roles` e `order` (posizione) dall&#39;interfaccia utente di AEM Assets.
+- Modulo schema metadati con scheda Commerce che include i campi `Eligible for Commerce?` e `Product Data` per l&#39;assegnazione di tag alle risorse Commerce. Il modulo fornisce inoltre opzioni per mostrare o nascondere i campi `roles` e `order` (posizione) dall&#39;interfaccia utente di AEM Assets.
 
   ![Scheda Commerce per modulo schema metadati AEM Assets](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
@@ -59,6 +59,15 @@ Per utilizzare questo progetto AEM per aggiornare la configurazione dell’ambie
 
 Nell’ambiente di authoring di AEM Assets, imposta i valori predefiniti per i metadati delle risorse Commerce creando un profilo di metadati. Quindi, applica il nuovo profilo alle cartelle di AEM Asset per utilizzare automaticamente queste impostazioni predefinite. Questa configurazione semplifica l’elaborazione delle risorse riducendo i passaggi manuali.
 
+Quando configuri il profilo di metadati, devi configurare solo i seguenti componenti:
+
+- Aggiungi una scheda Commerce. Questa scheda abilita le impostazioni di configurazione specifiche di Commerce aggiunte dal modello
+- Aggiungere il campo `Eligible for Commerce` alla scheda Commerce.
+
+Il componente Interfaccia utente dati prodotto viene aggiunto automaticamente in base al modello.
+
+### Configurare il profilo di metadati
+
 1. Accedi all’ambiente di authoring di Adobe Experience Manager.
 
 1. Dall’area di lavoro di Adobe Experience Manager, vai all’area di lavoro Amministrazione contenuto authoring per AEM Assets facendo clic sull’icona Adobe Experience Manager.
@@ -81,27 +90,41 @@ Nell’ambiente di authoring di AEM Assets, imposta i valori predefiniti per i m
 
    1. Fare clic su **[!UICONTROL +]** nella sezione scheda e quindi specificare **[!UICONTROL Tab Name]**, `Commerce`.
 
-1. Aggiungere il campo `Does it exist in Commerce?` al modulo e impostare il valore predefinito su `yes`.
+1. Aggiungi il campo `Eligible for Commerce` al modulo.
 
    ![L&#39;amministratore di AEM Author aggiunge campi di metadati al profilo](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
+   - Fare clic su **[!UICONTROL Build form]**.
+
+   - Trascina il campo `Single Line text` nel modulo.
+
+   - Aggiungere il testo `Eligible for Commerce` per l&#39;etichetta facendo clic su **[!UICONTROL Field Label]**.
+
+   - Nella scheda Impostazioni, aggiungere il testo dell&#39;etichetta a **Etichetta campo**.
+
+   - Impostare il testo segnaposto su `yes`.
+
+   - Nel campo **[!UICONTROL Map to Property]**, copia e incolla il seguente valore
+
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```
+
+1. Facoltativo. Per sincronizzare automaticamente le risorse Commerce approvate durante il caricamento nell&#39;ambiente AEM Assets, impostare su `approved` il valore predefinito per il campo _[!UICONTROL Review Status]_nella scheda `Basic`.
+
 1. Salva l’aggiornamento.
 
-1. Applica il profilo di metadati `Commerce integration` alla cartella in cui sono memorizzate le risorse Commerce.
+#### Applicare il profilo di metadati alla cartella di origine delle risorse di Commerce
 
-   1. Dalla pagina [!UICONTROL  Metadata Profiles], seleziona il profilo di integrazione di Commerce.
+1. Dalla pagina [!UICONTROL  Metadata Profiles], seleziona il profilo di integrazione di Commerce.
 
-   1. Dal menu Azioni, selezionare **[!UICONTROL Apply Metadata Profiles to Folders]**.
+1. Dal menu Azioni, selezionare **[!UICONTROL Apply Metadata Profiles to Folders]**.
 
-   1. Seleziona la cartella contenente le risorse Commerce.
+1. Seleziona la cartella contenente le risorse Commerce.
 
-      Crea una cartella Commerce se non esiste.
+   Crea una cartella Commerce se non esiste.
 
-   1. Fare clic su **[!UICONTROL Apply]**.
-
->[!TIP]
->
->È possibile sincronizzare automaticamente le risorse Commerce caricate nell&#39;ambiente AEM Assets aggiornando il profilo metadati per impostare il valore predefinito per il campo _[!UICONTROL Review Status]_su `Approved`. Il tipo di proprietà per il campo `Review Status` è `./jcr:content/metadata/dam:status`.
+1. Fare clic su **[!UICONTROL Apply]**.
 
 ## Passaggio successivo
 
