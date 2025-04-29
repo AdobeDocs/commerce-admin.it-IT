@@ -4,9 +4,10 @@ description: Scopri come installare il metapackage  [!DNL Adobe Commerce B2B] .
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -185,7 +186,7 @@ L’estensione Adobe Commerce B2B utilizza MySQL per la gestione della coda dei 
 
 Per evitare possibili problemi di elaborazione o ritardi, aggiungi i seguenti parametri quando [avvii il messaggio consumer](#start-message-consumers) per le funzionalità B2B.
 
-- `--max-messages <value>`— Specifica il numero massimo di messaggi che ogni consumer deve elaborare prima di terminare (impostazione predefinita = 10000). Anche se Adobe non lo consiglia, è possibile utilizzare 0 per impedire al consumatore di terminare. La best practice per un&#39;applicazione PHP consiste nel riavviare i processi a esecuzione prolungata per evitare possibili perdite di memoria.
+- `--max-messages <value>`— Specifica il numero massimo di messaggi che ogni consumer deve elaborare prima di terminare (impostazione predefinita = 10000). Anche se Adobe non lo consiglia, puoi utilizzare 0 per impedire al consumatore di terminare il servizio. La best practice per un&#39;applicazione PHP consiste nel riavviare i processi a esecuzione prolungata per evitare possibili perdite di memoria.
 
 - `--batch-size <value>`: consente di limitare le risorse di sistema utilizzate dai consumatori (CPU, memoria). L’utilizzo di batch più piccoli riduce l’utilizzo delle risorse e, pertanto, rallenta l’elaborazione.  Se specificato, i messaggi in una coda vengono utilizzati in batch di `<value>` ciascuno. Questa opzione è applicabile solo al consumatore batch. Se `--batch-size` non è definito, il consumer batch riceve tutti i messaggi disponibili in una coda.
 
