@@ -3,9 +3,10 @@ title: Pianificare un aggiornamento del contenuto
 description: Rivedi questo esempio di campagna utilizzato per pianificare una modifica di prezzo temporanea per un prodotto.
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-source-git-commit: b3897ba034770229ef8f3117231bed286abdddb9
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 Nell&#39;esempio seguente viene illustrato come pianificare una modifica di prezzo temporanea per un prodotto. Include la pianificazione e l&#39;anteprima delle modifiche e la visualizzazione degli aggiornamenti pianificati nel calendario. Anche se questo esempio include solo una singola modifica, una campagna potrebbe includere più modifiche a prodotti, regole di prezzo, pagine CMS e altre entità pianificate per avere luogo contemporaneamente. Seguire un metodo simile per specificare le date di inizio/fine per l&#39;attributo [!UICONTROL Set Product As New].
 
 >[!NOTE]
->È necessario creare un aggiornamento pianificato per specificare una data di inizio (e di fine) per [!UICONTROL Set Product As New]. Per [!UICONTROL Special Price] e [!UICONTROL Design Change], i campi di data Da/A sono rimossi da Adobe Commerce e sono disponibili solo nel Magento Open Source.
+>È necessario creare un aggiornamento pianificato per specificare una data di inizio (e di fine) per [!UICONTROL Set Product As New]. Per [!UICONTROL Special Price] e [!UICONTROL Design Change], i campi di data Da/A sono rimossi da Adobe Commerce e sono disponibili solo in Magento Open Source.
 >
 >Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato alla volta. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere un aggiornamento pianificato diverso per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
 
