@@ -1,6 +1,6 @@
 ---
 title: Guida introduttiva per l’amministratore di Adobe Commerce
-description: Informazioni complete per gli esercenti che non hanno mai usato Adobe Commerce Admin.
+description: Informazioni complete per i commercianti che non hanno mai usato Adobe Commerce Admin.
 seo-title: Adobe Commerce Admin Getting Started Guide
 seo-description: Describes basic Admin tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
@@ -8,7 +8,7 @@ recommendations: noCatalog
 source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
