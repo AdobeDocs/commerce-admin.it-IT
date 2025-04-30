@@ -6,9 +6,9 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: a893a33a14d33106bb9291ceeff96dc155bb017a
+source-git-commit: 09e1ef6be9eed9bcf1d562f0490dfb7d28b18171
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Questa guida tratta i seguenti argomenti:
 | [Abilita funzionalità B2B di base](enable-basic-features.md) | Dopo aver installato [!DNL Adobe Commerce B2B], è necessario attivare le funzionalità che si desidera attivare per lo store. |
 | [Account società](account-companies.md) | Scopri gli account aziendali e come forniscono il supporto principale per gli acquirenti B2B sul tuo store. |
 | [Gestione società](manage-companies.md) | Scopri come gli amministratori di siti Commerce B2B possono creare gerarchie aziendali per semplificare la gestione di più aziende che appartengono alla stessa azienda aziendale. |
-| [Cataloghi condivisi](catalog-shared.md) | Scopri come utilizzare i cataloghi condivisi per gestire i cataloghi gestiti con prezzi personalizzati per diverse aziende. [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} |
+| [Cataloghi condivisi](catalog-shared.md) | Scopri come utilizzare i cataloghi condivisi per gestire i cataloghi gestiti con prezzi personalizzati per diverse aziende. |
 | [Ordini rapidi](quick-order.md) | Scopri le funzionalità di ordine rapido e come abilitarle per i clienti. |
 | [Ordini di acquisto](purchase-order-flow.md) | Scopri i flussi di lavoro degli ordini di acquisto che consentono alle aziende di tenere traccia e controllare le proprie spese. |
 | [Virgolette](quotes.md) | Scopri i flussi di lavoro delle offerte e come fornire questo servizio agli account aziendali. |
