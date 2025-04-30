@@ -2,13 +2,13 @@
 title: Note sulla versione di AEM Assets Integration for Commerce
 description: Consulta le note sulla versione per informazioni su tutte le versioni di Integrazione di AEM Assets.
 feature: CMS, Media, Release Notes
-source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
+exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
+source-git-commit: b104e504eea70d931233a880c2d52043d48346c5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
-
 
 # Note sulla versione di AEM Assets Integration for Commerce
 
@@ -34,10 +34,28 @@ _11 febbraio 2025_
 
 +++
 
+## v1.1.0
+
+_23 aprile 2025_
+
+[!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce versione 2.4.5 e successive.
+
+![Nuovo problema](../assets/new.svg)<!-- Issue ACAP-955 --> Ora è possibile utilizzare un [URL di dominio personalizzato](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url) al posto dell&#39;URL di consegna di AEM. Se un commerciante imposta un **nome di dominio personalizzato** nel dashboard di AEM, è necessario aggiungere questo **URL di dominio personalizzato** in Commerce.
+
+![È stato risolto il problema](../assets/fix.svg)<!-- Issue ACAP-987 -->. Sono stati migliorati i registri generali per i processi di sincronizzazione AEM Assets.
+
+## v1.0.22
+
+_12 marzo 2025_
+
+[!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce versione 2.4.5 e successive.
+
+![Nuovo problema](../assets/new.svg)<!-- Issue ACAP-xx --> Ora, il [ID client IMS del selettore Assets](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization) è richiesto dal selettore Assets per abilitare la mappatura delle immagini AEM Assets con le categorie di prodotto e il contenuto generato da Page Builder.
+
 ## v1.0.20
 
 _11 febbraio 2025_
 
-[!BADGE Supportato]{type=Informative tooltip="Supportato"}
+[!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce versione 2.4.5 e successive.
 
-![Nuovo](../assets/new.svg) rilascio di disponibilità generale.
+![Nuovo](../assets/new.svg)<!-- Issue ACAP-xx --> rilascio di disponibilità generale.
