@@ -1,26 +1,27 @@
 ---
 title: Reindirizzamenti automatici
-description: Scopri come configurare i reindirizzamenti automatici da generare ogni volta che la chiave URL di un prodotto o di una categoria cambia nel tuo store Commerce.
+description: Scopri come configurare i reindirizzamenti automatici da generare ogni volta che la chiave URL di un prodotto o di una categoria cambia nel tuo store di Commerce.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
-source-git-commit: d088d5833b9c61e7b1c90a0839fdf38527929ce5
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
 
 # Reindirizzamenti automatici
 
-Il store può essere configurato per generare automaticamente un reindirizzare permanente ogni volta che cambia la chiave URL di un prodotto o di una categoria. Nella sezione Ottimizzazione motore Search, la casella di controllo sotto il tasto URL indica se i reindirizzamenti permanenti sono abilitati. Se lo store è già configurato per reindirizzare automaticamente gli URL del catalogo, un reindirizzamento è un semplice aggiornamento della chiave URL. Il processo per creare un reindirizzare automatico è lo stesso sia per i prodotti che per le categorie.
+Il tuo archivio può essere configurato in modo da generare automaticamente un reindirizzamento permanente ogni volta che la chiave URL di un prodotto o di una categoria cambia. Nella sezione Ottimizzazione motore di ricerca, la casella di controllo sotto la chiave URL indica se i reindirizzamenti permanenti sono abilitati. Se lo store è già configurato per reindirizzare automaticamente gli URL del catalogo, un reindirizzamento è un semplice aggiornamento della chiave URL. Il processo per creare un reindirizzamento automatico è lo stesso sia per i prodotti che per le categorie.
 
 >[!NOTE]
 >
->Quando i reindirizzamenti automatici sono abilitati e si salva una categoria, tutte le riscritture di prodotti e categorie vengono generate in tempo reale e memorizzate in tabelle di database per impostazione predefinita. Ciò potrebbe causare problemi di prestazioni significativi per le categorie con molti prodotti assegnati. La soluzione è cambiare questa impostazione predefinita e saltare la generazione di categoria/prodotti URL riscritture per i prodotti salvati per categoria. In questo caso, le riscritture dei prodotti vengono generate solo per il prodotto canonico URL.
+>Quando i reindirizzamenti automatici sono attivati e si salva una categoria, tutte le riscritture di prodotti e categorie vengono generate in tempo reale e memorizzate nelle tabelle del database per impostazione predefinita. Questo poteva causare problemi di prestazioni significativi per le categorie con molti prodotti assegnati. La soluzione consiste nel modificare questa impostazione predefinita e saltare la generazione di riscritture URL categoria/prodotti per i prodotti al salvataggio categoria. In questo caso, le riscritture del prodotto vengono generate solo per l’URL canonico del prodotto.
 
 ## Impostare i reindirizzamenti automatici
 
-1. _Nella barra laterale Amministratore_, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
@@ -45,27 +46,27 @@ Il store può essere configurato per generare automaticamente un reindirizzare p
 
 1. Espandere ![Il selettore di espansione ](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization]**.
 
-   ![Ottimizzazione del motore ricerca del prodotto - reindirizzare permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+   ![Ottimizzazione motore di ricerca prodotti - reindirizzamento permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
-1. Per **[!UICONTROL URL Key]**, procedi come segue:
+1. Per **[!UICONTROL URL Key]**, eseguire le operazioni seguenti:
 
-   - Verificare che la casella di **[!UICONTROL Create Permanent Redirect for old URL]** controllo sia selezionata. In caso contrario, seguire le istruzioni per [abilitare i reindirizzamenti automatici](url-rewrite.md#configure-url-rewrites).
+   - Verificare che la casella di controllo **[!UICONTROL Create Permanent Redirect for old URL]** sia selezionata. In caso contrario, seguire le istruzioni per [abilitare i reindirizzamenti automatici](url-rewrite.md#configure-url-rewrites).
 
    - Aggiornare **[!UICONTROL URL Key]** in base alle esigenze, utilizzando tutti i caratteri minuscoli e i trattini non finali tra questi caratteri invece degli spazi.
 
 1. Al termine, fare clic su **[!UICONTROL Save]**.
 
-1. Quando viene richiesto di aggiornare la cache, seguire i collegamenti nel messaggio nella parte superiore dell&#39;area di lavoro.
+1. Quando viene richiesto di aggiornare la cache, segui i collegamenti presenti nel messaggio nella parte superiore dell’area di lavoro.
 
-   La reindirizzare permanente è ora valida per il prodotto e per tutti gli URL di categoria associati.
+   Il reindirizzamento permanente è ora attivo per il prodotto ed eventuali URL di categoria associati.
 
-## reindirizzare automaticamente gli URL delle categorie
+## Reindirizza automaticamente gli URL delle categorie
 
-1. _Nella barra laterale Amministratore_, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Individuare la categoria nella struttura e fare clic per aprire il record.
 
-1. Espandi ![Espansione selettore](../assets/icon-display-expand.png) sezione **[!UICONTROL Search Engine Optimization]** .
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization]**.
 
 1. Per **[!UICONTROL URL Key]**, eseguire le operazioni seguenti:
 
@@ -89,11 +90,11 @@ Il store può essere configurato per generare automaticamente un reindirizzare p
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Espandi ![Espansione selettore](../assets/icon-display-expand.png) sezione **[!UICONTROL Search Engine Optimization]** .
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization]**.
 
 1. Imposta **[!UICONTROL Generate "category/product" URL Rewrites]** su `No`.
 
-1. Nella finestra di dialogo di conferma, fate clic per **[!UICONTROL OK]** confermare la modifica e la rimozione delle riscritture di URL esistenti.
+1. Nella finestra di dialogo di conferma, fare clic su **[!UICONTROL OK]** per confermare la modifica e la rimozione delle riscritture URL esistenti.
 
    ![Disattiva le riscritture URL categoria/prodotto - conferma](./assets/seo-rewrite-off.png){width="350"}
 

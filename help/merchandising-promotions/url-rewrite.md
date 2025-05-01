@@ -3,9 +3,10 @@ title: Riscritture URL
 description: Scopri come riscrivere gli URL e come utilizzare lo strumento di riscrittura URL di Commerce per modificare gli URL associati a una pagina di prodotto, categoria o CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -74,7 +75,7 @@ URL con riscrittura server Web
 
 Puoi utilizzare lo strumento di riscrittura URL per creare riscritture di prodotti e categorie e riscritture personalizzate per qualsiasi pagina del Negozio. Quando la riscrittura entra in vigore, tutti i collegamenti esistenti che puntano all’URL precedente vengono reindirizzati direttamente al nuovo indirizzo.
 
-Le riscritture URL possono essere utilizzate per aggiungere parole chiave di alto valore per migliorare il modo in cui il prodotto viene indicizzato dai motori di ricerca. È inoltre possibile utilizzare le riscritture per creare URL aggiuntivi per una modifica stagionale temporanea o permanente. Le riscritture possono essere create per qualsiasi percorso valido, comprese le pagine di contenuto CMS. Internamente, il sistema fa sempre riferimento a prodotti e categorie in base al loro ID. Indipendentemente dalla frequenza con cui l’URL cambia, l’ID rimane lo stesso. Di seguito sono riportati alcuni modi in cui puoi utilizzare una riscrittura URL:
+Le riscritture URL possono essere utilizzate per aggiungere parole chiave di alto valore per migliorare il modo in cui il prodotto viene indicizzato dai motori di ricerca. È inoltre possibile utilizzare le riscritture per creare URL aggiuntivi per una modifica stagionale temporanea o permanente. Le riscritture possono essere create per qualsiasi percorso valido, incluse le pagine di contenuto CMS. Internamente, il sistema fa sempre riferimento a prodotti e categorie in base al loro ID. Indipendentemente dalla frequenza con cui l’URL cambia, l’ID rimane lo stesso. Di seguito sono riportati alcuni modi in cui puoi utilizzare una riscrittura URL:
 
 URL di sistema
 
@@ -99,7 +100,7 @@ Commerce offre i seguenti tipi di riscrittura URL:
 
 * [Riscritture prodotto](url-rewrite-product.md)
 * [Riscritture categoria](url-rewrite-category.md)
-* [Riscritture pagina CMS](url-rewrite-cms-page.md)
+* [Riscrittura della pagina CMS](url-rewrite-cms-page.md)
 * [Riscritture personalizzate](url-rewrite-custom.md)
 
 ## URL riscrive demo

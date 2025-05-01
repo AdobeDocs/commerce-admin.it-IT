@@ -3,9 +3,10 @@ title: Riscrittura dell'URL della pagina del contenuto
 description: Scopri come utilizzare la riscrittura dell’URL della pagina dei contenuti per reindirizzare i collegamenti all’URL di un’altra pagina dei contenuti nel tuo store di Commerce.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Prima di iniziare, assicurati di comprendere esattamente cosa deve essere realizzato il reindirizzamento. Pensa in termini di _destinazione_ / _origine_ o _reindirizzamento a_ / _reindirizzamento da_. Anche se le persone possono ancora passare alla pagina precedente da motori di ricerca o collegamenti obsoleti, il reindirizzamento fa sì che il tuo negozio passi alla nuova destinazione.
 
-![Riscritture URL - pagina CMS](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![Riscritture URL - Pagina CMS](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## Passaggio 1: Pianificare la riscrittura
 

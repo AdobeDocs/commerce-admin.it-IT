@@ -2,9 +2,9 @@
 title: Introduzione al merchandising e alle promozioni di Commerce
 description: Scopri gli strumenti di Commerce per la creazione di promozioni e opportunità mirate per il coinvolgimento cliente.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Promozioni mirate, opportunità di coinvolgimento per i clienti e opportunità p
 
 _Merchandising_ è un termine utilizzato nel settore retail per descrivere l&#39;arte e la scienza dello sviluppo della piantina e della presentazione dei prodotti. È possibile considerare la [navigazione basata su categorie](../catalog/navigation-top.md) come la piantina del negozio e la presentazione dinamica dei prodotti come le condizioni applicabili all&#39;elenco dei prodotti nel negozio. Inoltre, puoi implementare programmi che incrementano le vendite dei prodotti:
 
-- [Visual Merchandiser](visual-merchandiser.md): un insieme di strumenti avanzati che consente di posizionare i prodotti e di applicare condizioni che determinano quali prodotti vengono visualizzati nell&#39;elenco delle categorie.
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} [Visual Merchandiser](visual-merchandiser.md) - Un insieme di strumenti avanzati che ti consente di posizionare i prodotti e di applicare condizioni che determinano quali prodotti vengono visualizzati nell&#39;elenco delle categorie.
 
 - [Registri regali](gift-registries.md) - Offri ai tuoi clienti la possibilità di creare registri regali per occasioni speciali e di invitare amici e familiari ad acquistare i regali dal registro regali.
 
@@ -27,7 +27,7 @@ _Merchandising_ è un termine utilizzato nel settore retail per descrivere l&#39
 
 >[!TIP]
 >
->Per informazioni sui consigli di prodotto e su come possono fornirti le informazioni e il controllo necessari per creare la migliore esperienza per i tuoi acquirenti, consulta la [Guida utente dei consigli di prodotto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
+>Per informazioni sui consigli di prodotto e su come possono offrirti insight e il controllo di cui hai bisogno per creare la migliore esperienza per i tuoi acquirenti, consulta la [Guida utente dei consigli di prodotto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promozioni
 
