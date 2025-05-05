@@ -73,7 +73,7 @@ Il sistema dispone di un ruolo utente predefinito predefinito, che puoi utilizza
 
    È possibile eliminare solo i ruoli senza utenti assegnati.
 
-1. **[!UICONTROL Delete]**_[!UICONTROL Actions]_
+1. **[!UICONTROL Delete]**&#x200B;_[!UICONTROL Actions]_
 
 1. **[!UICONTROL OK]**
 

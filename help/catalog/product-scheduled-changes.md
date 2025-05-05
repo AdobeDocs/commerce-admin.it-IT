@@ -53,7 +53,7 @@ Quando configuri le pianificazioni per gli aggiornamenti dei prodotti e le campa
 
    ![Pianifica come nuovo aggiornamento](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. Scorri verso il basso fino a _[!UICONTROL Price]_e fai clic su **[!UICONTROL Advanced Pricing]**.
+1. Scorri verso il basso fino a _[!UICONTROL Price]_&#x200B;e fai clic su **[!UICONTROL Advanced Pricing]**.
 
 1. Immettere **[!UICONTROL Special Price]** per il prodotto durante la campagna pianificata e fare clic su **[!UICONTROL Done]**.
 
@@ -85,7 +85,7 @@ La modifica pianificata viene visualizzata nella parte superiore della pagina de
 
 ## Modifica la modifica pianificata
 
-1. Nella casella _[!UICONTROL Scheduled Changes]_nella parte superiore della pagina, fare clic su **[!UICONTROL View/Edit]**.
+1. Nella casella _[!UICONTROL Scheduled Changes]_&#x200B;nella parte superiore della pagina, fare clic su **[!UICONTROL View/Edit]**.
 
 1. Apporta le modifiche necessarie all’aggiornamento pianificato.
 
@@ -93,7 +93,7 @@ La modifica pianificata viene visualizzata nella parte superiore della pagina de
 
 ## Rimuovi la modifica pianificata
 
-1. Nella casella _[!UICONTROL Scheduled Changes]_nella parte superiore della pagina, fare clic su **[!UICONTROL View/Edit]**.
+1. Nella casella _[!UICONTROL Scheduled Changes]_&#x200B;nella parte superiore della pagina, fare clic su **[!UICONTROL View/Edit]**.
 
 1. Nella barra superiore fare clic su **[!UICONTROL Remove from Update]**.
 
@@ -107,7 +107,7 @@ La modifica pianificata viene visualizzata nella parte superiore della pagina de
 
 {{ce-feature}}
 
-La sezione _[!UICONTROL Schedule Design Update]_consente di apportare modifiche temporanee all&#39;aspetto della pagina del prodotto. È possibile pianificare le modifiche di progettazione per una stagione, una promozione o semplicemente per rinnovare la struttura. Le modifiche della progettazione possono essere pianificate in anticipo, quindi diventano effettive, o_ drip _, nella pianificazione definita.
+La sezione _[!UICONTROL Schedule Design Update]_&#x200B;consente di apportare modifiche temporanee all&#39;aspetto della pagina del prodotto. È possibile pianificare le modifiche di progettazione per una stagione, una promozione o semplicemente per rinnovare la struttura. Le modifiche della progettazione possono essere pianificate in anticipo, quindi diventano effettive, o_ drip _, nella pianificazione definita.
 
 ![Aggiornamento Progettazione Pianificato](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

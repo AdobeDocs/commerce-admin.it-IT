@@ -114,7 +114,7 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Se si desidera che la pagina delle categorie includa la sezione _`Filter by Attribute`_della navigazione a livelli, impostare **[!UICONTROL Anchor]**su `Yes`.
+1. Se si desidera che la pagina delle categorie includa la sezione _`Filter by Attribute`_della navigazione a livelli, impostare **[!UICONTROL Anchor]**&#x200B;su `Yes`.
 
 1. Per le opzioni **[!UICONTROL Available Product Listing Sort By]**, selezionare uno o più valori disponibili per consentire ai clienti di ordinare l&#39;elenco. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 

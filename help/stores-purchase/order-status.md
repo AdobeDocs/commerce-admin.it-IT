@@ -82,7 +82,7 @@ Oltre alle impostazioni predefinite per lo stato dell&#39;ordine, è possibile c
 
    - Per **[!UICONTROL Status Label]**, immettere un&#39;etichetta che identifichi l&#39;impostazione dello stato sia in Admin che in storefront.
 
-1. Nella sezione _[!UICONTROL Store View Specific Labels]_immettere le etichette necessarie per le diverse visualizzazioni dello store.
+1. Nella sezione _[!UICONTROL Store View Specific Labels]_&#x200B;immettere le etichette necessarie per le diverse visualizzazioni dello store.
 
 1. Fare clic su **[!UICONTROL Save Status]**.
 
@@ -130,13 +130,13 @@ Oltre alle impostazioni predefinite per lo stato dell&#39;ordine, è possibile c
 
 1. Nella griglia _[!UICONTROL Order Status]_, trovare il record dello stato dell&#39;ordine da annullare l&#39;assegnazione.
 
-1. Nella colonna _[!UICONTROL Action]_all&#39;estrema destra della riga, fare clic sul collegamento **[!UICONTROL Unassign]**.
+1. Nella colonna _[!UICONTROL Action]_&#x200B;all&#39;estrema destra della riga, fare clic sul collegamento **[!UICONTROL Unassign]**.
 
    Nella parte superiore dell’area di lavoro viene visualizzato un messaggio che informa che lo stato dell’ordine è stato revocato. Sebbene l&#39;etichetta dello stato dell&#39;ordine sia ancora visualizzata nell&#39;elenco, non è più assegnata a uno stato. Impossibile eliminare le impostazioni dello stato dell&#39;ordine.
 
 >[!NOTE]
 >
->Se lo stato predefinito dell&#39;ordine viene rimosso dallo stato dell&#39;ordine, _**un altro**_ stato dell&#39;ordine è _**impostato automaticamente**_ come predefinito per questo stato dell&#39;ordine.
+>Se lo stato predefinito dell&#39;ordine viene rimosso dallo stato dell&#39;ordine, _&#x200B;**un altro**&#x200B;_ stato dell&#39;ordine è _&#x200B;**impostato automaticamente**&#x200B;_ come predefinito per questo stato dell&#39;ordine.
 
 ## Notifica
 

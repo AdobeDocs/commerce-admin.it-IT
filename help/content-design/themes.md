@@ -52,7 +52,7 @@ Il tema reattivo `Magento Blank` esegue il rendering della visualizzazione della
 
 1. Individuare la visualizzazione archivio da configurare e fare clic su **[!UICONTROL Edit]** nella colonna _[!UICONTROL Action]_.
 
-1. In _[!UICONTROL Default Theme]_, impostare **[!UICONTROL Applied Theme]**su quello che si desidera utilizzare per la visualizzazione corrente.
+1. In _[!UICONTROL Default Theme]_, impostare **[!UICONTROL Applied Theme]**&#x200B;su quello che si desidera utilizzare per la visualizzazione corrente.
 
    ![Tema applicato](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 

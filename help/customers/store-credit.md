@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Il credito del Negozio è un importo che viene ripristinato in un conto cliente. I clienti possono utilizzare il credito del negozio per pagare gli acquisti e gli amministratori possono utilizzare il credito del negozio per i rimborsi in contanti. I saldi della gift card possono essere accreditati sul conto del cliente, invece di utilizzare il codice gift card per acquisti futuri.
 
-Dopo il pagamento e la fatturazione di un ordine, è possibile rimborsare l&#39;ordine o parte di esso emettendo una nota di credito [](../stores-purchase/credit-memo-create.md). Una nota di credito differisce da un rimborso perché l&#39;importo del credito viene ripristinato sul conto del cliente in cui può essere utilizzato per acquisti futuri. A volte, un rimborso può essere dato contemporaneamente all&#39;emissione di una nota di credito e applicato al saldo del credito del negozio del cliente. L&#39;importo del credito del punto vendita disponibile nel conto del cliente è specificato nella configurazione.
+Dopo il pagamento e la fatturazione di un ordine, è possibile rimborsare l&#39;ordine o parte di esso emettendo una nota di credito [&#128279;](../stores-purchase/credit-memo-create.md). Una nota di credito differisce da un rimborso perché l&#39;importo del credito viene ripristinato sul conto del cliente in cui può essere utilizzato per acquisti futuri. A volte, un rimborso può essere dato contemporaneamente all&#39;emissione di una nota di credito e applicato al saldo del credito del negozio del cliente. L&#39;importo del credito del punto vendita disponibile nel conto del cliente è specificato nella configurazione.
 
 >[!NOTE]
 >

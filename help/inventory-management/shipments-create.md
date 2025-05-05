@@ -54,9 +54,9 @@ Quando si inseriscono le spedizioni, le quantità di scorte disponibili detraggo
 
      ![Selezionare un Source e immettere una quantità](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Esaminare la pagina _[!UICONTROL New Shipment]_e immettere eventuali modifiche aggiuntive.
+1. Esaminare la pagina _[!UICONTROL New Shipment]_&#x200B;e immettere eventuali modifiche aggiuntive.
 
-   Nella sezione _[!UICONTROL Inventory]_vengono visualizzati l&#39;origine, la spedizione dei prodotti, la quantità ordinata totale e la quantità da spedire.
+   Nella sezione _[!UICONTROL Inventory]_&#x200B;vengono visualizzati l&#39;origine, la spedizione dei prodotti, la quantità ordinata totale e la quantità da spedire.
 
    ![Dettagli di magazzino per la spedizione, esempio spedizione parziale](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

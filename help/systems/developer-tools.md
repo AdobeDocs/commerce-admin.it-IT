@@ -246,7 +246,7 @@ Se il punto vendita è disponibile in più lingue, è possibile apportare regola
 
    Deselezionare la casella di controllo **[!UICONTROL Use Website]** per modificare le impostazioni.
 
-   L&#39;opzione _[!UICONTROL Enabled for Admin]_non è disponibile quando si modifica una visualizzazione archivio specifica.
+   L&#39;opzione _[!UICONTROL Enabled for Admin]_&#x200B;non è disponibile quando si modifica una visualizzazione archivio specifica.
 
    ![Configurazione avanzata - traduzione in linea](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

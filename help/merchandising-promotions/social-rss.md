@@ -95,7 +95,7 @@ I siti di social networking dispongono di numerosi plug-in che possono essere fa
 
    - Immettere un numero nel campo **[!UICONTROL Sort Order]** per determinare l&#39;ordine del blocco, se assegnato per essere visualizzato nella stessa posizione sulla pagina degli altri elementi di contenuto. La posizione superiore è zero.
 
-1. Nella sezione _[!UICONTROL Layout Updates]_, fare clic su **[!UICONTROL Add Layout Update]**e impostare **[!UICONTROL Display On]**sulla categoria, il prodotto o la pagina in cui si desidera visualizzare il blocco.
+1. Nella sezione _[!UICONTROL Layout Updates]_, fare clic su **[!UICONTROL Add Layout Update]**&#x200B;e impostare **[!UICONTROL Display On]**&#x200B;sulla categoria, il prodotto o la pagina in cui si desidera visualizzare il blocco.
 
    Se ad esempio si sceglie `All Pages` e si posiziona il blocco nell&#39;intestazione o nel piè di pagina, il blocco verrà visualizzato nello stesso punto in ogni pagina dell&#39;archivio.
 

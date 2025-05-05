@@ -20,7 +20,7 @@ Utilizza il tipo di contenuto _Colonna_ per dividere una pagina in più colonne 
 
 ## Aggiornamenti nella versione 2.4.5
 
-Le funzionalità di Page Builder sono state aggiornate nella versione 2.4.5 in modo che gli utenti ora utilizzino _[!DNL Columns]_come contenitore principale per le singole colonne. Questo nuovo contenitore supporta anche le proprietà per lo sfondo ed elimina la necessità di racchiudere le colonne in una riga. Riduce i markup superflui e offre un controllo più preciso sullo schermo e sull&#39;esperienza della vetrina.
+Le funzionalità di Page Builder sono state aggiornate nella versione 2.4.5 in modo che gli utenti ora utilizzino _[!DNL Columns]_&#x200B;come contenitore principale per le singole colonne. Questo nuovo contenitore supporta anche le proprietà per lo sfondo ed elimina la necessità di racchiudere le colonne in una riga. Riduce i markup superflui e offre un controllo più preciso sullo schermo e sull&#39;esperienza della vetrina.
 
 È possibile modificare il layout del contenitore [!DNL Columns] trascinando una colonna al di sopra o al di sotto di altre colonne nel gruppo e sovrapponendole. Si apre una nuova varietà di possibili combinazioni di layout che possono essere ottenute senza la necessità di personalizzazione da parte degli sviluppatori.
 
@@ -54,7 +54,7 @@ Nell&#39;esempio di due colonne riportato di seguito, i numeri tra parentesi (6/
 
 ## Aggiungi una colonna
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un **[!UICONTROL Column]**nell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un **[!UICONTROL Column]**&#x200B;nell&#39;area di visualizzazione.
 
    ![Trascinamento di una colonna nell&#39;area di visualizzazione](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ Nell&#39;esempio di due colonne riportato di seguito, i numeri tra parentesi (6/
 
    - Passa il puntatore del mouse sulla colonna per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-   - Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_e imposta tutti e quattro i valori **[!UICONTROL Padding]**su `0`.
+   - Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_&#x200B;e imposta tutti e quattro i valori **[!UICONTROL Padding]**&#x200B;su `0`.
 
      ![Utilizzo della spaziatura interna pari a zero](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -170,7 +170,7 @@ Nell&#39;esempio di due colonne riportato di seguito, i numeri tra parentesi (6/
 
    - **[!UICONTROL Background Repeat]** - Se si desidera ripetere l&#39;immagine di sfondo per riempire lo spazio, modificare questa impostazione `Yes`.
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
 
    - Per controllare il posizionamento orizzontale dei contenitori di contenuto aggiunti alla colonna, scegliere un **[!UICONTROL Alignment]**:
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Spedizioni
 
-Nella griglia _[!UICONTROL Shipments]_sono elencati i record di spedizione di tutte le fatture preparate per la spedizione. È possibile generare un record di spedizione quando un ordine è [fatturato](invoices.md) o successivo.
+Nella griglia _[!UICONTROL Shipments]_&#x200B;sono elencati i record di spedizione di tutte le fatture preparate per la spedizione. È possibile generare un record di spedizione quando un ordine è [fatturato](invoices.md) o successivo.
 
 Adobe Commerce e il Magento Open Source supportano la spedizione parziale e completa degli ordini, con opzioni aggiuntive disponibili da [Inventory management](../inventory-management/introduction.md) ed estensioni di terze parti.
 
@@ -77,7 +77,7 @@ Per ogni riga nell&#39;ordine, modificare **[!UICONTROL Qty to Ship]** in base a
 
 1. Fare clic su **[!UICONTROL Ship]**.
 
-1. Scorri verso il basso fino al blocco _[!UICONTROL Payment & Shipping Method]_e fai clic su **[!UICONTROL Add Tracking Number]**.
+1. Scorri verso il basso fino al blocco _[!UICONTROL Payment & Shipping Method]_&#x200B;e fai clic su **[!UICONTROL Add Tracking Number]**.
 
 1. Imposta **[!UICONTROL Carrier]**:
 
@@ -166,7 +166,7 @@ Prima che una spedizione venga inviata a un vettore, è possibile annullarla apr
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Shipments]**.
 
-   Se la spedizione può essere annullata, _[!UICONTROL Cancel Shipment]_viene visualizzato come opzione nella barra dei pulsanti superiore.
+   Se la spedizione può essere annullata, _[!UICONTROL Cancel Shipment]_&#x200B;viene visualizzato come opzione nella barra dei pulsanti superiore.
 
 1. Fare clic su **[!UICONTROL Cancel Shipment]**.
 

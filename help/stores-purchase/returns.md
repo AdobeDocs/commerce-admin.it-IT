@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Restituisce
 
-È possibile concedere un&#39;autorizzazione _restituita_ (RMA) per il merchandise ai clienti che richiedono la restituzione di un articolo per la sostituzione o il rimborso. In genere, il cliente contatta il commerciante per richiedere un rimborso. Se approvato, viene assegnato un numero RMA univoco per identificare il prodotto restituito. Nella configurazione, è possibile abilitare RMA per tutti i prodotti o consentire RMA solo per determinati prodotti. La griglia _[!UICONTROL Returns]_elenca le richieste di materiale promozionale (RMA) restituite correnti e viene utilizzata per immettere nuove richieste di reso.
+È possibile concedere un&#39;autorizzazione _restituita_ (RMA) per il merchandise ai clienti che richiedono la restituzione di un articolo per la sostituzione o il rimborso. In genere, il cliente contatta il commerciante per richiedere un rimborso. Se approvato, viene assegnato un numero RMA univoco per identificare il prodotto restituito. Nella configurazione, è possibile abilitare RMA per tutti i prodotti o consentire RMA solo per determinati prodotti. La griglia _[!UICONTROL Returns]_&#x200B;elenca le richieste di materiale promozionale (RMA) restituite correnti e viene utilizzata per immettere nuove richieste di reso.
 
 ![Restituisce la griglia](./assets/return.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ Un esercente può creare una richiesta di restituzione dall’amministratore per
 
 1. Per creare una richiesta di reso, fare clic su un ordine con stato `Complete`.
 
-1. Nella sezione _[!UICONTROL Return Information]_selezionare la scheda **[!UICONTROL Return Items]**.
+1. Nella sezione _[!UICONTROL Return Information]_&#x200B;selezionare la scheda **[!UICONTROL Return Items]**.
 
 1. Per aggiungere elementi da restituire, fare clic su **[!UICONTROL Add Items]**.
 

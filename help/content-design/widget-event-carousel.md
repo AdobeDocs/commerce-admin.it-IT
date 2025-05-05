@@ -30,7 +30,7 @@ Prima di iniziare, segui le [istruzioni](../merchandising-promotions/event-confi
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Widget]**.
 
-1. Nella sezione _[!UICONTROL Settings]_eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Settings]_&#x200B;eseguire le operazioni seguenti:
 
    - Imposta **[!UICONTROL Type]** su `Catalog Events Carousel`.
 
@@ -40,7 +40,7 @@ Prima di iniziare, segui le [istruzioni](../merchandising-promotions/event-confi
 
    ![Impostazioni widget per un carosello eventi](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Storefront Properties]_eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Storefront Properties]_&#x200B;eseguire le operazioni seguenti:
 
    - Per **[!UICONTROL Widget Title]**, immettere un titolo descrittivo per il widget.
 
@@ -70,7 +70,7 @@ Prima di iniziare, segui le [istruzioni](../merchandising-promotions/event-confi
 
    >[!NOTE]
    >
-   >I risultati variano in base al tema e al layout della pagina. È inoltre necessario specificare _[!UICONTROL Catalog Events Carousel Default Template]_nella configurazione della categoria.
+   >I risultati variano in base al tema e al layout della pagina. È inoltre necessario specificare _[!UICONTROL Catalog Events Carousel Default Template]_&#x200B;nella configurazione della categoria.
 
 1. Se si desidera che il carosello eventi venga visualizzato in un&#39;altra posizione nella vetrina, fare clic su **[!UICONTROL Add Layout Update]** e ripetere i passaggi per tale posizione.
 

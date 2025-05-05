@@ -28,7 +28,7 @@ Per visualizzare tutte le recensioni per un prodotto specifico nell’Admin, eff
 
 ## Aggiorna stato per le recensioni
 
-1. Nella barra laterale _Admin_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**o **[!UICONTROL All Reviews]**.
+1. Nella barra laterale _Admin_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;o **[!UICONTROL All Reviews]**.
 
 1. Nell’elenco, fai clic su una revisione in sospeso per visualizzare i dettagli e modificarli, se necessario.
 
@@ -60,7 +60,7 @@ Puoi aggiornare o eliminare più recensioni contemporaneamente:
 
 1. Seleziona le recensioni da aggiornare.
 
-1. Utilizza il selettore _[!UICONTROL Action]_in alto a sinistra per applicare un&#39;azione.
+1. Utilizza il selettore _[!UICONTROL Action]_&#x200B;in alto a sinistra per applicare un&#39;azione.
 
 1. Fai clic su **[!UICONTROL Submit]**
 

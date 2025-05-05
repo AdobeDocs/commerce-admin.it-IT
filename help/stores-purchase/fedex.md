@@ -127,7 +127,7 @@ FedEx è una delle più grandi società di servizi di spedizione al mondo, che f
    - Opzioni nazionali: Express Saver, Ground, First, Overnight, consegna a domicilio, Standard Overnight
    - Opzioni internazionali: economia internazionale, trasporto merci in economia internazionale, prima internazionale, terra internazionale, internazionale, priorità internazionale
    - Opzioni prioritarie: trasporto, priorità durante la notte
-   - Smart Post: se si offre il metodo Smart Post (immettere l&#39;ID **** Hub)
+   - Smart Post: se si offre il metodo Smart Post (immettere l&#39;ID **&#x200B;**&#x200B;Hub)
    - Opzioni di trasporto–Freight, National Freight
 
 1. Se si desidera fornire un&#39;opzione [di spedizione](shipping-free.md) gratuita tramite FedEx, impostare le opzioni di spedizione gratuito.

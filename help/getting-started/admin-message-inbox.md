@@ -15,7 +15,7 @@ Il tuo negozio riceve regolarmente messaggi da Adobe. I messaggi sono classifica
 
 ![Amministratore - messaggi in arrivo](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-Nella pagina _[!UICONTROL Notifications]_sono elencati tutti i messaggi classificati per data. I comandi_[!UICONTROL Action]_ possono essere utilizzati per contrassegnare singoli messaggi come letti, visualizzare informazioni più dettagliate o rimuovere il messaggio dalla posta in arrivo.
+Nella pagina _[!UICONTROL Notifications]_&#x200B;sono elencati tutti i messaggi classificati per data. I comandi&#x200B;_[!UICONTROL Action]_ possono essere utilizzati per contrassegnare singoli messaggi come letti, visualizzare informazioni più dettagliate o rimuovere il messaggio dalla posta in arrivo.
 
 La configurazione determina la frequenza di aggiornamento della casella in entrata e la modalità di consegna dei messaggi. Se l&#39;amministratore del tuo archivio dispone di un URL sicuro, le notifiche devono essere inviate tramite HTTPS.
 

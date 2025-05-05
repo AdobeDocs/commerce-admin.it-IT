@@ -50,7 +50,7 @@ Gli attributi vengono organizzati in gruppi che determinano la posizione in cui 
 
 ## Creare un gruppo di attributi
 
-1. Nella colonna _[!UICONTROL Groups]_del set di attributi, fare clic su **[!UICONTROL Add New]**.
+1. Nella colonna _[!UICONTROL Groups]_&#x200B;del set di attributi, fare clic su **[!UICONTROL Add New]**.
 
 1. Immettere **[!UICONTROL Name]** per il nuovo gruppo e fare clic su **[!UICONTROL OK]**.
 

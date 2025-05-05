@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Gift Options]
 
-Nella sezione _[!UICONTROL Gift Options]_è possibile impostare le opzioni relative ai messaggi regalo e alla confezione regalo al momento del pagamento a livello di prodotto. Per ignorare l&#39;impostazione di configurazione predefinita, deselezionare la casella di controllo **[!UICONTROL Use Config Settings]**.
+Nella sezione _[!UICONTROL Gift Options]_&#x200B;è possibile impostare le opzioni relative ai messaggi regalo e alla confezione regalo al momento del pagamento a livello di prodotto. Per ignorare l&#39;impostazione di configurazione predefinita, deselezionare la casella di controllo **[!UICONTROL Use Config Settings]**.
 
 ![Opzioni regalo](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
@@ -20,7 +20,7 @@ Nella sezione _[!UICONTROL Gift Options]_è possibile impostare le opzioni relat
 
 1. Apri il prodotto in modalità di modifica.
 
-1. Scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Gift Options]_ed effettua le seguenti operazioni:
+1. Scorri verso il basso ed espandi il ![selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Gift Options]_&#x200B;ed effettua le seguenti operazioni:
 
    - Per ignorare l&#39;impostazione predefinita, deselezionare la casella di controllo **[!UICONTROL Use Config Settings]**.
 

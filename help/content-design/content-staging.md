@@ -27,7 +27,7 @@ I campi relativi alla data di inizio e alla data di fine sono stati rimossi da A
 
 Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato alla volta. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere un aggiornamento pianificato diverso per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
 
-Quando viene creato un nuovo aggiornamento pianificato per uno dei seguenti oggetti, viene creata una campagna corrispondente come segnaposto e la casella _[!UICONTROL Scheduled Changes]_viene visualizzata nella parte superiore della pagina. La campagna segnaposto ha una data di inizio, ma non una data di fine. Puoi pianificare gli aggiornamenti ai contenuti come parte di una campagna, quindi visualizzare in anteprima e condividere le modifiche per data, ora o visualizzazione archivio. Dopo aver creato una nuova campagna per un oggetto, puoi assegnarla come aggiornamento pianificato per altri oggetti.
+Quando viene creato un nuovo aggiornamento pianificato per uno dei seguenti oggetti, viene creata una campagna corrispondente come segnaposto e la casella _[!UICONTROL Scheduled Changes]_&#x200B;viene visualizzata nella parte superiore della pagina. La campagna segnaposto ha una data di inizio, ma non una data di fine. Puoi pianificare gli aggiornamenti ai contenuti come parte di una campagna, quindi visualizzare in anteprima e condividere le modifiche per data, ora o visualizzazione archivio. Dopo aver creato una nuova campagna per un oggetto, puoi assegnarla come aggiornamento pianificato per altri oggetti.
 
 - [Prodotti](../catalog/product-scheduled-changes.md)
 - [Categorie](../catalog/category-scheduled-changes.md)
@@ -40,7 +40,7 @@ Quando viene creato un nuovo aggiornamento pianificato per uno dei seguenti ogge
 
 1. **Crea il contenuto della linea di base**
 
-   La baseline è il contenuto di una risorsa senza una campagna e include tutto ciò che si trova sotto la sezione _[!UICONTROL Scheduled Changes]_nella parte superiore della pagina. Il contenuto della linea di base viene sempre utilizzato, a meno che non sia presente una campagna attiva con le modifiche pianificate per tale posizione nella timeline.
+   La baseline è il contenuto di una risorsa senza una campagna e include tutto ciò che si trova sotto la sezione _[!UICONTROL Scheduled Changes]_&#x200B;nella parte superiore della pagina. Il contenuto della linea di base viene sempre utilizzato, a meno che non sia presente una campagna attiva con le modifiche pianificate per tale posizione nella timeline.
 
 1. **Crea la prima campagna**
 

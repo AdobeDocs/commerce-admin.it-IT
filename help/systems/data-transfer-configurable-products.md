@@ -68,7 +68,7 @@ Nell’esempio seguente, aggiungi un set di varianti di prodotto per una nuova d
 
    - Imposta **[!UICONTROL Export File Format]** su `CSV`.
 
-1. In _[!UICONTROL Entity Attributes]_, scorrere verso il basso o utilizzare il filtro delle etichette degli attributi per individuare l&#39;attributo **[!UICONTROL SKU]**ed effettuare le seguenti operazioni:
+1. In _[!UICONTROL Entity Attributes]_, scorrere verso il basso o utilizzare il filtro delle etichette degli attributi per individuare l&#39;attributo **[!UICONTROL SKU]**&#x200B;ed effettuare le seguenti operazioni:
 
    - Immettere lo SKU del prodotto configurabile che si è scelto di esportare e fare clic su **[!UICONTROL Continue]**.
 
@@ -152,13 +152,13 @@ Nell&#39;esempio seguente, il set di dimensioni XL viene copiato e incollato nel
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. In _[!UICONTROL Import Settings]_, impostare **[!UICONTROL Entity Type]**su `Products`.
+1. In _[!UICONTROL Import Settings]_, impostare **[!UICONTROL Entity Type]**&#x200B;su `Products`.
 
-1. In _[!UICONTROL Import Behavior]_, impostare **[!UICONTROL Import Behavior]**su `Add/Update`.
+1. In _[!UICONTROL Import Behavior]_, impostare **[!UICONTROL Import Behavior]**&#x200B;su `Add/Update`.
 
    ![Comportamento importazione dati](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL File to Import]_, fare clic su **[!UICONTROL Choose File]**e passare al file CSV preparato per l&#39;importazione e scegliere il file.
+1. In _[!UICONTROL File to Import]_, fare clic su **[!UICONTROL Choose File]**&#x200B;e passare al file CSV preparato per l&#39;importazione e scegliere il file.
 
    ![File di importazione dati](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

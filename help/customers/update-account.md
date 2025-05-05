@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Aggiornare un profilo cliente
 
-Il pannello sinistro della pagina _[!UICONTROL Customer Information]_include informazioni sull&#39;attività del cliente, gli indirizzi, le statistiche degli ordini, gli ordini recenti, il contenuto del carrello, le recensioni dei prodotti e gli abbonamenti alle newsletter.
+Il pannello sinistro della pagina _[!UICONTROL Customer Information]_&#x200B;include informazioni sull&#39;attività del cliente, gli indirizzi, le statistiche degli ordini, gli ordini recenti, il contenuto del carrello, le recensioni dei prodotti e gli abbonamenti alle newsletter.
 
 ![Profilo cliente](assets/cust-profile.png){width="700" zoomable="yes"}
 

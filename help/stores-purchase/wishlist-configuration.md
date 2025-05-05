@@ -65,7 +65,7 @@ La configurazione della lista dei desideri abilita le liste dei desideri e deter
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Widget]**.
 
-1. Nella scheda _[!UICONTROL Settings]_eseguire le operazioni seguenti:
+1. Nella scheda _[!UICONTROL Settings]_&#x200B;eseguire le operazioni seguenti:
 
    - Imposta **[!UICONTROL Type]** su `Wish List Search`.
 
@@ -83,7 +83,7 @@ La configurazione della lista dei desideri abilita le liste dei desideri e deter
 
      `0` = primo (predefinito), `1` = secondo, `2` = terzo e così via.
 
-1. Nella sezione _[!UICONTROL Layout Updates]_, fare clic su **[!UICONTROL Add Layout Update]**e impostare **[!UICONTROL Display on]**su uno dei seguenti elementi:
+1. Nella sezione _[!UICONTROL Layout Updates]_, fare clic su **[!UICONTROL Add Layout Update]**&#x200B;e impostare **[!UICONTROL Display on]**&#x200B;su uno dei seguenti elementi:
 
    - _[!UICONTROL Categories]_
 

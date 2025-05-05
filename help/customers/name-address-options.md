@@ -41,7 +41,7 @@ Puoi configurare le opzioni di nome e indirizzo che vengono presentate ai client
 
    >[!INFO]
    >
-   >La sezione _[!UICONTROL Name and Address Options]_non viene visualizzata quando l&#39;ambito è impostato su `Default Store View`.
+   >La sezione _[!UICONTROL Name and Address Options]_&#x200B;non viene visualizzata quando l&#39;ambito è impostato su `Default Store View`.
 
    ![Ambito configurazione](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 

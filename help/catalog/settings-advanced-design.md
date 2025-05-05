@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Design]
 
-Le impostazioni di _[!UICONTROL Design]_consentono di applicare un tema diverso alla pagina del prodotto, modificare il layout delle colonne, determinare la posizione in cui vengono visualizzate le opzioni del prodotto e immettere un codice XML personalizzato.
+Le impostazioni di _[!UICONTROL Design]_&#x200B;consentono di applicare un tema diverso alla pagina del prodotto, modificare il layout delle colonne, determinare la posizione in cui vengono visualizzate le opzioni del prodotto e immettere un codice XML personalizzato.
 
 ![Progettazione](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Quando lo stesso prodotto viene assegnato a più categorie con impostazioni di progettazione diverse per ogni categoria, si consiglia di impostare **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` nelle [opzioni di configurazione Ottimizzazione motore di ricerca](../configuration-reference/catalog/catalog.md#search-engine-optimization). Per accedere a questa impostazione, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, espandi **[!UICONTROL Catalog]**e scegli **[!UICONTROL Catalog]**nel pannello a sinistra, quindi espandi la sezione **[!UICONTROL Search Engine Optimization]**nella pagina.
+>Quando lo stesso prodotto viene assegnato a più categorie con impostazioni di progettazione diverse per ogni categoria, si consiglia di impostare **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` nelle [opzioni di configurazione Ottimizzazione motore di ricerca](../configuration-reference/catalog/catalog.md#search-engine-optimization). Per accedere a questa impostazione, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, espandi **[!UICONTROL Catalog]**&#x200B;e scegli **[!UICONTROL Catalog]**&#x200B;nel pannello a sinistra, quindi espandi la sezione **[!UICONTROL Search Engine Optimization]**&#x200B;nella pagina.
 
 | Campo | [Ambito](../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |---|---|----|

@@ -59,13 +59,13 @@ Quando aggiungi un utente della società, la prima società associata all’acco
 
 [!UICONTROL Customers grid] mostra una riga separata per ogni società a cui l&#39;utente è assegnato. Le seguenti colonne vengono aggiornate.
 
-- La colonna _[!UICONTROL Customer Type]_viene aggiornata per mostrare il ruolo assegnato all&#39;utente.
+- La colonna _[!UICONTROL Customer Type]_&#x200B;viene aggiornata per mostrare il ruolo assegnato all&#39;utente.
 
-  Se è la prima volta che il cliente viene assegnato a una società, la colonna _[!UICONTROL Customer Type]_viene aggiornata da_[!UICONTROL Individual user]_ a _[!UICONTROL Company User]_.
+  Se è la prima volta che il cliente viene assegnato a una società, la colonna _[!UICONTROL Customer Type]_&#x200B;viene aggiornata da&#x200B;_[!UICONTROL Individual user]_ a _[!UICONTROL Company User]_.
 
-- La colonna _[!UICONTROL Group]_cambia al nome del gruppo di clienti (o del catalogo condiviso) assegnato alla società.
+- La colonna _[!UICONTROL Group]_&#x200B;cambia al nome del gruppo di clienti (o del catalogo condiviso) assegnato alla società.
 
-- Nella colonna _[!UICONTROL Company]_viene visualizzato il nome della società a cui è ora associato il profilo cliente.
+- Nella colonna _[!UICONTROL Company]_&#x200B;viene visualizzato il nome della società a cui è ora associato il profilo cliente.
 
 ## Assegnare un utente a uno o più account società
 
@@ -83,7 +83,7 @@ Quando si assegna un nuovo utente, la prima società associata all&#39;account u
 
 ## Rimuovere l&#39;assegnazione della società da un account utente
 
-Se si rimuove un’azienda da un profilo utente, viene revocato l’accesso dell’utente a tale azienda. I dati utente rimangono accessibili nell’amministratore. Se si rimuovono tutte le assegnazioni della società, _[!UICONTROL Customer Type]_diventa *[!UICONTROL Individual user]*e le funzionalità B2B vengono disabilitate per l&#39;account.
+Se si rimuove un’azienda da un profilo utente, viene revocato l’accesso dell’utente a tale azienda. I dati utente rimangono accessibili nell’amministratore. Se si rimuovono tutte le assegnazioni della società, _[!UICONTROL Customer Type]_&#x200B;diventa *[!UICONTROL Individual user]*&#x200B;e le funzionalità B2B vengono disabilitate per l&#39;account.
 
 1. Dalla griglia Cliente nell’amministratore, modifica il profilo cliente da aggiornare.
 

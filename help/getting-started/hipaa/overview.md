@@ -70,7 +70,7 @@ Installare la versione più recente dell&#39;estensione dei servizi pronti per H
 
 >[!NOTE]
 >
->Per assicurarsi che i dati degli eventi di back office inviati al Experience Platform siano compatibili con HIPAA, vedere la Guida](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension) all&#39;estensione della [connessione dati.
+>Per assicurarsi che i dati degli eventi di back office inviati al Experience Platform siano compatibili con HIPAA, vedere la Guida[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension) all&#39;estensione della connessione dati.
 
 1. Nella workstation locale, passare alla directory del progetto per il progetto Adobe Systems Commerce su infrastruttura cloud.
 
@@ -163,7 +163,7 @@ Valori: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***Tipo di*** client: visualizza il tipo di client.
 Valori: Cliente | Amministratore | Integrazione
 
-2. Nome utente rinominato ****** in ***Identificatore client***
+2. Nome utente rinominato **&#x200B;**&#x200B;**&#x200B; in &#x200B;***Identificatore client***
    - ***Identificatore*** client: visualizza l&#39;ID login del utente che ha eseguito l&#39;azione.
 Valori:
       - un&#39;e-mail se il tipo di client è cliente

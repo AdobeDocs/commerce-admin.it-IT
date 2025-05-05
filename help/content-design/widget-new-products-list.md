@@ -22,7 +22,7 @@ L’elenco dei nuovi prodotti è un esempio di contenuto dinamico ed è costitui
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Per gli archivi Adobe Commerce, vedi [Pianificazione di un aggiornamento](content-staging-scheduled-update.md) e quindi continua con il passaggio 2 in questa pagina.
 
-L&#39;impostazione dell&#39;intervallo di date _[!UICONTROL Set Product as New]_può essere configurato solo negli aggiornamenti pianificati.
+L&#39;impostazione dell&#39;intervallo di date _[!UICONTROL Set Product as New]_&#x200B;può essere configurato solo negli aggiornamenti pianificati.
 
 Se si imposta un prodotto come nuovo, il prodotto viene aggiunto all&#39;elenco _Nuovi prodotti_. È possibile ripristinare l&#39;impostazione in qualsiasi momento se non si desidera più includerla nell&#39;elenco.
 
@@ -46,7 +46,7 @@ Il codice che determina il contenuto dell’elenco Nuovi prodotti e il suo posiz
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Widget]**.
 
-1. Nella sezione _[!UICONTROL Settings]_eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Settings]_&#x200B;eseguire le operazioni seguenti:
 
    - Imposta **[!UICONTROL Type]** su `Catalog New Products List`.
 
@@ -56,7 +56,7 @@ Il codice che determina il contenuto dell’elenco Nuovi prodotti e il suo posiz
 
    ![Impostazioni widget nuovo elenco prodotti](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Storefront Properties]_eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Storefront Properties]_&#x200B;eseguire le operazioni seguenti:
 
    - Per **[!UICONTROL Widget Title]**, immettere un titolo descrittivo per il widget. Questo titolo è visibile solo da _Admin_.
 

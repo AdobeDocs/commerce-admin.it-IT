@@ -20,13 +20,13 @@ Per il catalogo condiviso pubblico `Default (General)`, è necessario assegnare 
 
 >[!NOTE]
 >
->**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione categoria](../catalog/category-permissions.md) per il catalogo è impostata su _[!UICONTROL Allow for the Display Product Prices]_e_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
+>**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione categoria](../catalog/category-permissions.md) per il catalogo è impostata su _[!UICONTROL Allow for the Display Product Prices]_&#x200B;e_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
 
 >[!IMPORTANT]
 >
 >Tutte le [impostazioni delle autorizzazioni di gruppo](../configuration-reference/catalog/catalog.md#category-permissions) esistenti vengono ignorate da **_tutte_** categorie nel catalogo quando la funzionalità **_[!UICONTROL Shared Catalog]_** è abilitata. [!UICONTROL Shared Catalog] controlla completamente tutte le autorizzazioni di categoria nel catalogo quando è abilitato.
 
-La pagina _[!UICONTROL Shared Catalogs]_consente di accedere agli strumenti utilizzati per la gestione dei cataloghi condivisi. La pagina è simile all&#39;[Area di lavoro di amministrazione](../getting-started/admin-workspace.md) standard, con filtri e controlli delle azioni. Nella griglia sono elencati tutti i cataloghi condivisi, incluso il catalogo condiviso pubblico predefinito e tutti i cataloghi personalizzati impostati.
+La pagina _[!UICONTROL Shared Catalogs]_&#x200B;consente di accedere agli strumenti utilizzati per la gestione dei cataloghi condivisi. La pagina è simile all&#39;[Area di lavoro di amministrazione](../getting-started/admin-workspace.md) standard, con filtri e controlli delle azioni. Nella griglia sono elencati tutti i cataloghi condivisi, incluso il catalogo condiviso pubblico predefinito e tutti i cataloghi personalizzati impostati.
 
 ![Cataloghi condivisi](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +36,7 @@ Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL S
 
 ## Controlli delle azioni
 
-I [controlli azioni](../getting-started/admin-actions-control.md) nell&#39;angolo superiore sinistro possono essere utilizzati con il controllo Azioni di massa per eliminare i cataloghi condivisi selezionati che non sono più necessari. Nella griglia, la colonna _[!UICONTROL Actions]_contiene la selezione completa di strumenti per la gestione dei cataloghi condivisi.
+I [controlli azioni](../getting-started/admin-actions-control.md) nell&#39;angolo superiore sinistro possono essere utilizzati con il controllo Azioni di massa per eliminare i cataloghi condivisi selezionati che non sono più necessari. Nella griglia, la colonna _[!UICONTROL Actions]_&#x200B;contiene la selezione completa di strumenti per la gestione dei cataloghi condivisi.
 
 ![Azioni catalogo condiviso](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

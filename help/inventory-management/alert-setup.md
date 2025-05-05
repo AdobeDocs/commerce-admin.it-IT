@@ -32,7 +32,7 @@ L&#39;avviso di magazzino crea un collegamento denominato _Notifica quando il pr
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Fare clic per espandere la sezione _[!UICONTROL Product Alerts]_ed eseguire le operazioni seguenti:
+1. Fare clic per espandere la sezione _[!UICONTROL Product Alerts]_&#x200B;ed eseguire le operazioni seguenti:
 
    ![Avvisi prodotti](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 

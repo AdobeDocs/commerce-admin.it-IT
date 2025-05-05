@@ -24,7 +24,7 @@ I commercianti con una sola e più origini possono aggiornare le origini, le qua
 
 - I commercianti con più origini possono assegnare più origini e quantità per prodotto per ogni ubicazione (magazzini, magazzini, corrieri diretti e così via). Si consiglia di aggiungere le origini prima di impostare le quantità di scorte dei prodotti.
 
-Quando si aggiungono origini e quantità ai prodotti, è possibile visualizzare le quantità tramite la griglia prodotti. Se il numero di origini è elevato, passare il cursore su _[!UICONTROL Quantity per Source]_per visualizzare l&#39;elenco completo e scorrevole delle origini con le quantità correnti.
+Quando si aggiungono origini e quantità ai prodotti, è possibile visualizzare le quantità tramite la griglia prodotti. Se il numero di origini è elevato, passare il cursore su _[!UICONTROL Quantity per Source]_&#x200B;per visualizzare l&#39;elenco completo e scorrevole delle origini con le quantità correnti.
 
 ![Quantità di prodotti per origine](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 

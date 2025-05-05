@@ -115,7 +115,7 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 1. Accettare l&#39;impostazione **[!UICONTROL Visibility]** predefinita di `Catalog, Search`.
 
-1. Per assegnare _[!UICONTROL Categories]_al prodotto, fare clic sulla casella **[!UICONTROL Select…]**ed eseguire una delle operazioni seguenti:
+1. Per assegnare _[!UICONTROL Categories]_&#x200B;al prodotto, fare clic sulla casella **[!UICONTROL Select…]**&#x200B;ed eseguire una delle operazioni seguenti:
 
    **Scegli una categoria esistente:**
 
@@ -139,7 +139,7 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 ## Passaggio 5: aggiungere gli elementi del bundle
 
-La sezione _[!UICONTROL Bundle Items]_viene utilizzata per aggiungere elementi a un tipo di prodotto Bundle e per modificare la selezione corrente di elementi.
+La sezione _[!UICONTROL Bundle Items]_&#x200B;viene utilizzata per aggiungere elementi a un tipo di prodotto Bundle e per modificare la selezione corrente di elementi.
 
 ![Elementi bundle definiti per un prodotto](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -180,7 +180,7 @@ La sezione _[!UICONTROL Bundle Items]_viene utilizzata per aggiungere elementi a
 
      >[!NOTE]
      >
-     >La quantità può essere un valore predefinito o definito dall&#39;utente. Tuttavia, non assegnare la proprietà _[!UICONTROL User Defined]_a tipi di input a selezione multipla o casella di controllo.
+     >La quantità può essere un valore predefinito o definito dall&#39;utente. Tuttavia, non assegnare la proprietà _[!UICONTROL User Defined]_&#x200B;a tipi di input a selezione multipla o casella di controllo.
 
      Per impostazione predefinita, la quantità predefinita inclusa in un articolo del bundle non può essere modificata dal cliente. Tuttavia, il cliente può inserire la quantità dell&#39;articolo da includere nel bundle.
 
@@ -283,7 +283,7 @@ Lo stato delle scorte dei prodotti del bundle è **_non modificato automaticamen
 
 ![Lo SKU e il peso della casella di controllo](../assets/checkbox.png) possono essere `Fixed` o `Dynamic`.
 
-![Casella di controllo](../assets/checkbox.png) La quantità può essere un valore predefinito o definito dall&#39;utente. Tuttavia, non assegnare la proprietà _[!UICONTROL User Defined]_a tipi di input a selezione multipla o casella di controllo.
+![Casella di controllo](../assets/checkbox.png) La quantità può essere un valore predefinito o definito dall&#39;utente. Tuttavia, non assegnare la proprietà _[!UICONTROL User Defined]_&#x200B;a tipi di input a selezione multipla o casella di controllo.
 
 ![Casella di controllo](../assets/checkbox.png) Gli elementi del bundle possono essere spediti insieme o separatamente.
 

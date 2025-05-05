@@ -56,7 +56,7 @@ Quando si utilizza il tipo di contenuto _Schede_, è possibile aggiungere e modi
 
 ## Aggiungi una singola scheda
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina il segnaposto **[!UICONTROL Tabs]**direttamente nell&#39;area di visualizzazione oppure in una riga o colonna nell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina il segnaposto **[!UICONTROL Tabs]**&#x200B;direttamente nell&#39;area di visualizzazione oppure in una riga o colonna nell&#39;area di visualizzazione.
 
    ![Trascinamento delle schede in una riga](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Content]
 
-La sezione _[!UICONTROL Content]_viene utilizzata per immettere e modificare la descrizione principale del prodotto visualizzata nella pagina del prodotto. La breve descrizione può essere utilizzata nella maggior parte dei feed RSS e potrebbe essere visualizzata anche negli elenchi catalogo, a seconda del [tema](../content-design/themes.md).
+La sezione _[!UICONTROL Content]_&#x200B;viene utilizzata per immettere e modificare la descrizione principale del prodotto visualizzata nella pagina del prodotto. La breve descrizione può essere utilizzata nella maggior parte dei feed RSS e potrebbe essere visualizzata anche negli elenchi catalogo, a seconda del [tema](../content-design/themes.md).
 
 ## Aggiungi la descrizione del prodotto in [!DNL Page Builder]
 
@@ -30,7 +30,7 @@ La sezione _[!UICONTROL Content]_viene utilizzata per immettere e modificare la 
 
 ## Anteprima [!DNL Page Builder]
 
-Quando espandi la sezione _[!UICONTROL Content]_per un prodotto esistente in cui è presente contenuto creato con [!DNL Page Builder], viene visualizzata un&#39;anteprima del contenuto di **[!UICONTROL Description]**come apparirebbe nella pagina del prodotto. Aprire l&#39;area di lavoro [!DNL Page Builder], in cui è possibile apportare gli aggiornamenti necessari, facendo clic su **[!UICONTROL Edit with Page Builder]**.
+Quando espandi la sezione _[!UICONTROL Content]_&#x200B;per un prodotto esistente in cui è presente contenuto creato con [!DNL Page Builder], viene visualizzata un&#39;anteprima del contenuto di **[!UICONTROL Description]**&#x200B;come apparirebbe nella pagina del prodotto. Aprire l&#39;area di lavoro [!DNL Page Builder], in cui è possibile apportare gli aggiornamenti necessari, facendo clic su **[!UICONTROL Edit with Page Builder]**.
 
 ![Anteprima descrizione](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

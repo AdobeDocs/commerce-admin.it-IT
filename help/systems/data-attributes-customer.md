@@ -27,7 +27,7 @@ Ogni attributo, o campo, è rappresentato nel file CSV come una colonna e i reco
 | `created_at` | Data di creazione dell&#39;account cliente. |
 | `created_in` | La vista del negozio in cui è stato creato l’account. |
 | `disable_auto_group_change` | Determina se i gruppi di clienti possono essere assegnati in modo dinamico durante la convalida dell&#39;ID IVA. |
-| `dob` | La data di nascita del cliente. <br><br>**_Importante:_**In linea con le attuali best practice per la sicurezza e la privacy, controlla l&#39;archiviazione e l&#39;elaborazione della data di nascita completa dei clienti (mese, giorno, anno). Se raccolto con altri identificatori personali (ad esempio_nome completo _), potrebbe rappresentare un rischio legale e di sicurezza. Consigliamo di limitare la memorizzazione delle date di nascita complete dei clienti e di utilizzare invece l’anno di nascita del cliente come alternativa. |
+| `dob` | La data di nascita del cliente. <br><br>**_Importante:_**&#x200B;In linea con le attuali best practice per la sicurezza e la privacy, controlla l&#39;archiviazione e l&#39;elaborazione della data di nascita completa dei clienti (mese, giorno, anno). Se raccolto con altri identificatori personali (ad esempio_nome completo _), potrebbe rappresentare un rischio legale e di sicurezza. Consigliamo di limitare la memorizzazione delle date di nascita complete dei clienti e di utilizzare invece l’anno di nascita del cliente come alternativa. |
 | `firstname` | Il nome del cliente. |
 | `gender` | Il genere del cliente. |
 | `group_id` | ID del gruppo di clienti a cui è assegnato il cliente. |

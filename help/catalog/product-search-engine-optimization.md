@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _L&#39;ottimizzazione per i motori di ricerca_ (SEO) consiste nel perfezionare il contenuto e la presentazione di un sito per migliorare il modo in cui le pagine vengono indicizzate dai motori di ricerca.
 
-Le impostazioni _[!UICONTROL Search Engine Optimization]_per un prodotto specificano i campi [Chiave URL](catalog-urls.md) e [Metadati](../merchandising-promotions/meta-data.md) utilizzati dai motori di ricerca per indicizzare il prodotto. Anche se alcuni motori di ricerca ignorano le parole chiave meta, altri motori di ricerca continuano a utilizzarle. La [best practice SEO](../merchandising-promotions/seo-overview.md) corrente consiste nell&#39;incorporare parole chiave di valore elevato sia nel titolo meta che nella descrizione meta.
+Le impostazioni _[!UICONTROL Search Engine Optimization]_&#x200B;per un prodotto specificano i campi [Chiave URL](catalog-urls.md) e [Metadati](../merchandising-promotions/meta-data.md) utilizzati dai motori di ricerca per indicizzare il prodotto. Anche se alcuni motori di ricerca ignorano le parole chiave meta, altri motori di ricerca continuano a utilizzarle. La [best practice SEO](../merchandising-promotions/seo-overview.md) corrente consiste nell&#39;incorporare parole chiave di valore elevato sia nel titolo meta che nella descrizione meta.
 
 Il valore predefinito per ogni campo di metadati può essere generato automaticamente in base ai valori specificati nella configurazione. Ogni campo contiene un segnaposto sostituito da un valore effettivo. Per ulteriori informazioni, vedere [Generazione automatica campi prodotto](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
 

@@ -26,9 +26,9 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 
 ### Passaggio 1: aggiungere il nome del ruolo
 
-1. In _[!UICONTROL Role Information]_immettere un valore descrittivo **[!UICONTROL Role Name]**.
+1. In _[!UICONTROL Role Information]_&#x200B;immettere un valore descrittivo **[!UICONTROL Role Name]**.
 
-1. In _[!UICONTROL Current User Identity Verification]_immettere la password.
+1. In _[!UICONTROL Current User Identity Verification]_&#x200B;immettere la password.
 
    ![Autorizzazioni di sistema - Informazioni ruolo](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -49,9 +49,9 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 
    >[!NOTE]
    >
-   >Gli utenti con un ambito di ruolo `Custom` non possono creare siti Web e categorie, assegnare prodotti a categorie o modificare prodotti nell&#39;ambito _[!UICONTROL All Store Views]_quando sono assegnati a archivi con restrizioni. Questi utenti non possono inoltre eseguire altre azioni_ global _che interessano ambiti in cui non dispongono dell&#39;accesso.
+   >Gli utenti con un ambito di ruolo `Custom` non possono creare siti Web e categorie, assegnare prodotti a categorie o modificare prodotti nell&#39;ambito _[!UICONTROL All Store Views]_&#x200B;quando sono assegnati a archivi con restrizioni. Questi utenti non possono inoltre eseguire altre azioni_ global _che interessano ambiti in cui non dispongono dell&#39;accesso.
 
-1. In _[!UICONTROL Roles Resources]_, impostare **[!UICONTROL Resource Access]**su `Custom`.
+1. In _[!UICONTROL Roles Resources]_, impostare **[!UICONTROL Resource Access]**&#x200B;su `Custom`.
 
 1. Nella struttura ad albero **[!UICONTROL Resource]**, selezionare la casella di controllo di ogni funzionalità amministratore a cui il ruolo può accedere.
 
@@ -73,11 +73,11 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 
 1. Dalla griglia _[!UICONTROL Roles]_, aprire il record in modalità di modifica.
 
-1. In _[!UICONTROL Current User Identity Verification]_immettere la password dell&#39;account utente.
+1. In _[!UICONTROL Current User Identity Verification]_&#x200B;immettere la password dell&#39;account utente.
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Role Users]**.
 
-   L&#39;opzione _[!UICONTROL Role Users]_viene visualizzata solo dopo il salvataggio di un nuovo ruolo.
+   L&#39;opzione _[!UICONTROL Role Users]_&#x200B;viene visualizzata solo dopo il salvataggio di un nuovo ruolo.
 
    ![Account utente assegnati al ruolo](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 

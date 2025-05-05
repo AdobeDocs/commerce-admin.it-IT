@@ -20,7 +20,7 @@ I clienti che mantengono aggiornate le rubriche possono accelerare il processo d
 
 1. Nella barra di navigazione a sinistra dell&#39;account cliente, il cliente sceglie **[!UICONTROL Address Book]**.
 
-1. Nella pagina _[!UICONTROL Address Book]_in_ Voci di indirizzo aggiuntive _, fa clic su **[!UICONTROL Add New Address]**.
+1. Nella pagina _[!UICONTROL Address Book]_&#x200B;in_ Voci di indirizzo aggiuntive _, fa clic su **[!UICONTROL Add New Address]**.
 
    ![Aggiungi nuovo indirizzo](assets/add-new-address.png){width="600" zoomable="yes"}
 

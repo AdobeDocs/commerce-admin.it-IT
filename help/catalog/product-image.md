@@ -44,7 +44,7 @@ Per caricare un&#39;immagine, effettuare una delle seguenti operazioni:
 
 ### Ridisponi immagini
 
-Per modificare l&#39;ordine delle immagini nella raccolta, fare clic sull&#39;icona _[!UICONTROL Sort]_( ![Icona ordinamento](./assets/inventory-icon-sort.png) ) nella parte inferiore del riquadro immagine e trascinare l&#39;immagine in una posizione diversa nella casella_[!UICONTROL Images And Videos]_.
+Per modificare l&#39;ordine delle immagini nella raccolta, fare clic sull&#39;icona _[!UICONTROL Sort]_( ![Icona ordinamento](./assets/inventory-icon-sort.png) ) nella parte inferiore del riquadro immagine e trascinare l&#39;immagine in una posizione diversa nella casella&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Cambia ordine](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -66,13 +66,13 @@ Al termine, fare clic su **[!UICONTROL Save]**.
 
 Per migliorare l’accessibilità web, gli assistenti vocali fanno riferimento al testo Image Alt e i motori di ricerca durante l’indicizzazione del sito fanno riferimento a tale testo. Alcuni browser visualizzano il testo Alt al passaggio del mouse. Il testo alternativo può contenere diverse parole e includere parole chiave selezionate con attenzione.
 
-Nella casella _[!UICONTROL Alt Text]_immettere una breve descrizione dell&#39;immagine.
+Nella casella _[!UICONTROL Alt Text]_&#x200B;immettere una breve descrizione dell&#39;immagine.
 
 #### Assegna ruoli
 
 Per impostazione predefinita, tutti i ruoli vengono assegnati alla prima immagine caricata sul prodotto. Per riassegnare un ruolo a un&#39;altra immagine, effettuare le seguenti operazioni:
 
-Nella casella _[!UICONTROL Role]_scegliere il ruolo che si desidera assegnare all&#39;immagine.
+Nella casella _[!UICONTROL Role]_&#x200B;scegliere il ruolo che si desidera assegnare all&#39;immagine.
 
 Quando ritorni alla sezione _Immagini e video_, i ruoli attualmente assegnati vengono visualizzati sotto ogni immagine.
 

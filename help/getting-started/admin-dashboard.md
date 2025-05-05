@@ -23,7 +23,7 @@ Se si dispone di una quantità significativa di dati da elaborare, è possibile 
 
 ## Configurare il dashboard
 
-1. Nella barra laterale _Admin_, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**e completa una delle seguenti impostazioni.
+1. Nella barra laterale _Admin_, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;e completa una delle seguenti impostazioni.
 
 1. Al termine della configurazione, fare clic su **[!UICONTROL Save Config]**.
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni sulle opzioni di configurazione dell&#39;amministrato
 
 Il dashboard è la [pagina di avvio](../configuration-reference/advanced/admin.md) predefinita per l&#39;amministratore, anche se è possibile configurare una pagina di avvio diversa.
 
-1. Se le opzioni di configurazione dell&#39;amministratore non sono già aperte, scegliere **[!UICONTROL Admin]** in _[!UICONTROL Advanced]_nel pannello di navigazione a sinistra.
+1. Se le opzioni di configurazione dell&#39;amministratore non sono già aperte, scegliere **[!UICONTROL Admin]** in _[!UICONTROL Advanced]_&#x200B;nel pannello di navigazione a sinistra.
 
 1. Fare clic per espandere la sezione **Pagina di avvio**.
 

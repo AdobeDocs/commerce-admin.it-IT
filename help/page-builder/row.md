@@ -38,7 +38,7 @@ La casella degli strumenti riga viene visualizzata quando si passa il puntatore 
 
 ## Aggiungi una riga
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un nuovo **[!UICONTROL Row]**nell&#39;area di visualizzazione, appena sotto la prima riga.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un nuovo **[!UICONTROL Row]**&#x200B;nell&#39;area di visualizzazione, appena sotto la prima riga.
 
 1. Per formattare la riga, passa il puntatore del mouse sul contenitore della riga per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +114,7 @@ Un tipo di sfondo può essere un&#39;immagine o un video. [!DNL Page Builder] ut
 
 ### Impostazioni del tipo di immagine
 
-Se si imposta _[!UICONTROL Background Type]_su `Image`, utilizzare le impostazioni seguenti per definire la visualizzazione dell&#39;immagine di sfondo.
+Se si imposta _[!UICONTROL Background Type]_&#x200B;su `Image`, utilizzare le impostazioni seguenti per definire la visualizzazione dell&#39;immagine di sfondo.
 
 ![Immagine di sfondo](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

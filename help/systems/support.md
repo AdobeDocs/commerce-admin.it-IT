@@ -55,7 +55,7 @@ Una volta generato il backup, puoi scaricare la copia di Code e DB data.
 
 1. Assicurarsi che lo stato sia `Complete`.
 
-1. Fare clic sul nome dell&#39;entità nelle colonne _[!UICONTROL Code Dump]_o_[!UICONTROL DB Dump]_.
+1. Fare clic sul nome dell&#39;entità nelle colonne _[!UICONTROL Code Dump]_&#x200B;o_[!UICONTROL DB Dump]_.
 
 Il processo di download deve iniziare automaticamente.
 
@@ -65,7 +65,7 @@ Il processo di download deve iniziare automaticamente.
 
 1. Individuare e selezionare i dati di backup da eliminare.
 
-1. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL Delete]**.
+1. Nella colonna _[!UICONTROL Action]_&#x200B;fare clic su **[!UICONTROL Delete]**.
 
 1. Per confermare l&#39;azione, fare clic su **[!UICONTROL OK]**.
 

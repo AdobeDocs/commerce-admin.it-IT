@@ -31,7 +31,7 @@ Il modello aggiunge le seguenti risorse all’ambiente di authoring AEM Assets.
 - [Esempio di risorsa con tag e approvata da Commerce](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` per supportare la sincronizzazione iniziale delle risorse. Solo le risorse Commerce approvate possono essere sincronizzate da AEM Assets ad Adobe Commerce.
 
 >[!NOTE]
->Per ulteriori informazioni sul modello di progetto AEM `commerce-assets`, vedere il file Leggimi [2}.](https://github.com/ankumalh/assets-commerce)
+>Per ulteriori informazioni sul modello di progetto AEM `commerce-assets`, vedere il file Leggimi [2&rbrace;.](https://github.com/ankumalh/assets-commerce)
 
 Per utilizzare questo progetto AEM per aggiornare la configurazione dell’ambiente sono necessarie le risorse e le autorizzazioni seguenti:
 
@@ -110,13 +110,13 @@ Il componente Interfaccia utente dati prodotto viene aggiunto automaticamente in
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. Facoltativo. Per sincronizzare automaticamente le risorse Commerce approvate durante il caricamento nell&#39;ambiente AEM Assets, impostare su `approved` il valore predefinito per il campo _[!UICONTROL Review Status]_nella scheda `Basic`.
+1. Facoltativo. Per sincronizzare automaticamente le risorse Commerce approvate durante il caricamento nell&#39;ambiente AEM Assets, impostare su `approved` il valore predefinito per il campo _[!UICONTROL Review Status]_&#x200B;nella scheda `Basic`.
 
 1. Salva l’aggiornamento.
 
 #### Applicare il profilo di metadati alla cartella di origine delle risorse di Commerce
 
-1. Dalla pagina [!UICONTROL  Metadata Profiles], seleziona il profilo di integrazione di Commerce.
+1. Dalla pagina [!UICONTROL &#x200B; Metadata Profiles], seleziona il profilo di integrazione di Commerce.
 
 1. Dal menu Azioni, selezionare **[!UICONTROL Apply Metadata Profiles to Folders]**.
 

@@ -18,7 +18,7 @@ Quando gli inviti sono abilitati, i clienti possono inviare e visualizzare gli i
 
 ## Inviti personali
 
-Nella sezione _[!UICONTROL My Invitations]_dell&#39;account cliente sono elencati tutti gli inviti inviati dal cliente. I clienti possono inviare inviti ad amici e familiari per eventi del negozio, registri di regali, elenchi di desideri e così via.
+Nella sezione _[!UICONTROL My Invitations]_&#x200B;dell&#39;account cliente sono elencati tutti gli inviti inviati dal cliente. I clienti possono inviare inviti ad amici e familiari per eventi del negozio, registri di regali, elenchi di desideri e così via.
 
 ![Inviti personali](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 

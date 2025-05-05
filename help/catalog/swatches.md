@@ -20,7 +20,7 @@ Per [prodotti configurabili](product-create-configurable.md), il colore può ess
 
 >[!NOTE]
 >
->Gli attributi dei campioni possono essere configurati in modo da non visualizzare le immagini di prodotto semplici corrispondenti quando il campione viene selezionato impostando il valore dell&#39;opzione _[!UICONTROL Update Product Preview Image]_su `No` nella pagina [!UICONTROL Attribute Edit] dell&#39;amministratore.
+>Gli attributi dei campioni possono essere configurati in modo da non visualizzare le immagini di prodotto semplici corrispondenti quando il campione viene selezionato impostando il valore dell&#39;opzione _[!UICONTROL Update Product Preview Image]_&#x200B;su `No` nella pagina [!UICONTROL Attribute Edit] dell&#39;amministratore.
 
 ## Campioni basati su testo
 
@@ -30,7 +30,7 @@ Se un&#39;immagine non è disponibile per un campione, il valore dell&#39;attrib
 
 ## Campioni nella navigazione a livelli
 
-I campioni possono essere utilizzati anche nella navigazione a livelli, se la proprietà _[!UICONTROL Use in Layered Navigation]_dell&#39;attributo color è impostata su `Yes`. L&#39;esempio seguente mostra campioni di immagini a colori e basati su testo in una navigazione a più livelli.
+I campioni possono essere utilizzati anche nella navigazione a livelli, se la proprietà _[!UICONTROL Use in Layered Navigation]_&#x200B;dell&#39;attributo color è impostata su `Yes`. L&#39;esempio seguente mostra campioni di immagini a colori e basati su testo in una navigazione a più livelli.
 
 ![Campioni visualizzati in navigazione a livelli](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Per creare campioni per i prodotti, utilizzate uno dei metodi descritti di segui
 
 1. Se preferisci non visualizzare le immagini di prodotto semplici corrispondenti quando il campione è selezionato nella pagina di visualizzazione del prodotto, imposta **[!UICONTROL Update Product Preview Image]** su `No`.
 
-1. In _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, fare clic su **[!UICONTROL Add Swatch]**ed eseguire le operazioni seguenti:
+1. In _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, fare clic su **[!UICONTROL Add Swatch]**&#x200B;ed eseguire le operazioni seguenti:
 
    ![Gestisci valori campione](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -106,9 +106,9 @@ Per creare campioni per i prodotti, utilizzate uno dei metodi descritti di segui
 
 1. Se preferisci non visualizzare le immagini di prodotto semplici corrispondenti quando il campione è selezionato nella pagina di visualizzazione del prodotto, imposta **[!UICONTROL Update Product Preview Image]** su `No`.
 
-1. In _[!UICONTROL Manage Swatch]_(valori dell&#39;attributo), fare clic su **[!UICONTROL Add Swatch]**ed eseguire le operazioni seguenti:
+1. In _[!UICONTROL Manage Swatch]_(valori dell&#39;attributo), fare clic su **[!UICONTROL Add Swatch]**&#x200B;ed eseguire le operazioni seguenti:
 
-   - Nella colonna _[!UICONTROL Swatch]_fare clic sul nuovo campione per visualizzare il menu e scegliere **[!UICONTROL Upload a file]**.
+   - Nella colonna _[!UICONTROL Swatch]_&#x200B;fare clic sul nuovo campione per visualizzare il menu e scegliere **[!UICONTROL Upload a file]**.
 
    - Individuate il file campione preparato e scegliete il file da caricare.
 

@@ -55,8 +55,8 @@ Quando si converte una valuta in punti, il numero di punti non può essere divis
 
    | Direzione | Impostazioni della tariffa |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | Nel primo campo _[!UICONTROL Rate]_immettere il numero di punti. Nel secondo campo_[!UICONTROL Rate]_ immettere il valore monetario dei punti. |
-   | [!UICONTROL Currency to Points] | Nel primo campo _[!UICONTROL Rate]_immettere il valore monetario. Nel secondo campo_[!UICONTROL Rate]_ immettere il numero di punti rappresentato dal valore monetario. |
+   | [!UICONTROL Points to Currency] | Nel primo campo _[!UICONTROL Rate]_&#x200B;immettere il numero di punti. Nel secondo campo&#x200B;_[!UICONTROL Rate]_ immettere il valore monetario dei punti. |
+   | [!UICONTROL Currency to Points] | Nel primo campo _[!UICONTROL Rate]_&#x200B;immettere il valore monetario. Nel secondo campo&#x200B;_[!UICONTROL Rate]_ immettere il numero di punti rappresentato dal valore monetario. |
 
    Quando si convertono i punti in valuta, il numero di punti non può essere diviso. Ad esempio, se dieci punti vengono convertiti in $ 2,00, i punti devono essere riscattati in gruppi di dieci. Pertanto, 25 punti verrebbero rimborsati per $ 4,00, con 5 punti rimanenti nel saldo del cliente.
 
@@ -80,4 +80,4 @@ Quando si converte una valuta in punti, il numero di punti non può essere divis
 |--- |--- |
 | [!UICONTROL Website] | I siti web in cui si applicano i tassi di ricompensa. |
 | [!UICONTROL Customer Group] | I gruppi di clienti a cui si applicano i tassi di premio. |
-| [!UICONTROL Direction] | Determina il tipo di transazione definito dal tasso di cambio. Opzioni: <br/>**[!UICONTROL Points to Currency]**- Definisce il numero di punti che possono essere applicati come credito rispetto all&#39;importo di un ordine. Nel primo campo _[!UICONTROL Rate]_immettere il numero di punti. Nel secondo campo_[!UICONTROL Rate]_ immettere il valore monetario dei punti.<br/>**[!UICONTROL Currency to Points]** - Definisce l&#39;importo di un ordine che può guadagnare punti cliente. Nel primo campo _[!UICONTROL Rate]_immettere il valore monetario. Nel secondo campo_[!UICONTROL Rate]_ immettere il numero di punti rappresentato dal valore monetario. |
+| [!UICONTROL Direction] | Determina il tipo di transazione definito dal tasso di cambio. Opzioni: <br/>**[!UICONTROL Points to Currency]**- Definisce il numero di punti che possono essere applicati come credito rispetto all&#39;importo di un ordine. Nel primo campo _[!UICONTROL Rate]_&#x200B;immettere il numero di punti. Nel secondo campo&#x200B;_[!UICONTROL Rate]_ immettere il valore monetario dei punti.<br/>**[!UICONTROL Currency to Points]** - Definisce l&#39;importo di un ordine che può guadagnare punti cliente. Nel primo campo _[!UICONTROL Rate]_&#x200B;immettere il valore monetario. Nel secondo campo&#x200B;_[!UICONTROL Rate]_ immettere il numero di punti rappresentato dal valore monetario. |

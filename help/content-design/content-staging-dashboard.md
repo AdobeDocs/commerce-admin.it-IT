@@ -76,7 +76,7 @@ Segui i passaggi seguenti per modificare uno qualsiasi degli oggetti di questa c
    - Per visualizzare un elenco, fare clic su **[!UICONTROL Select]** e quindi su **[!UICONTROL View/Edit]** nella colonna _[!UICONTROL Action]_.
    - Per visualizzare la sequenza temporale, fare clic una volta per visualizzare il riepilogo, quindi fare clic su **[!UICONTROL View/Edit]**.
 
-1. Aggiornare le impostazioni nella sezione _[!UICONTROL General]_in base alle esigenze.
+1. Aggiornare le impostazioni nella sezione _[!UICONTROL General]_&#x200B;in base alle esigenze.
 
 1. Espandere ![Selettore di espansione](../assets/icon-display-expand.png) in qualsiasi sezione contenente un elemento da modificare.
 

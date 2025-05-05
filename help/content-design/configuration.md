@@ -48,7 +48,7 @@ La configurazione Progettazione consente di modificare facilmente le regole e le
    >
    >Puoi aggiungere tutte le regole per i dispositivi che desideri designare. Le stringhe di ricerca vengono confrontate nell&#39;ordine in cui vengono immesse.
 
-1. In _[!UICONTROL Other Settings]_espandere ogni sezione e seguire le istruzioni degli argomenti collegati per modificare le impostazioni in base alle esigenze.
+1. In _[!UICONTROL Other Settings]_&#x200B;espandere ogni sezione e seguire le istruzioni degli argomenti collegati per modificare le impostazioni in base alle esigenze.
 
    - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
    - [[!UICONTROL HTML Head]](page-setup.md#html-head)

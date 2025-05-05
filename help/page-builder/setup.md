@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configurazione di [!DNL Page Builder]
 
-Se attivato nella configurazione, [!DNL Page Builder] è lo strumento predefinito per la creazione di contenuti per pagine, blocchi e blocchi dinamici di CMS. Inoltre, il pulsante _[!UICONTROL Enable Advanced CMS]_offre [!DNL Page Builder] come opzione per Categorie e Prodotti. Puoi anche scegliere il [layout di pagina](../content-design/page-layout.md) predefinito che desideri utilizzare per prodotti, categorie e pagine CMS. [!DNL Page Builder] non è disponibile per il contenuto della newsletter, che utilizza l&#39;[editor](../content-design/editor.md) di WYSIWYG.
+Se attivato nella configurazione, [!DNL Page Builder] è lo strumento predefinito per la creazione di contenuti per pagine, blocchi e blocchi dinamici di CMS. Inoltre, il pulsante _[!UICONTROL Enable Advanced CMS]_&#x200B;offre [!DNL Page Builder] come opzione per Categorie e Prodotti. Puoi anche scegliere il [layout di pagina](../content-design/page-layout.md) predefinito che desideri utilizzare per prodotti, categorie e pagine CMS. [!DNL Page Builder] non è disponibile per il contenuto della newsletter, che utilizza l&#39;[editor](../content-design/editor.md) di WYSIWYG.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Per ulteriori informazioni sulle opzioni di configurazione degli strumenti avanz
 
 >[!NOTE]
 >
->La disabilitazione di [!DNL Page Builder] sostituisce gli strumenti di contenuto avanzato con l&#39;editor ](../content-design/editor.md) di WYSIWYG e potrebbe causare errori di visualizzazione nella vetrina. [ Il contenuto creato in precedenza con [!DNL Page Builder] potrebbe non essere modificabile dall&#39;amministratore.
+>La disabilitazione di [!DNL Page Builder] sostituisce gli strumenti di contenuto avanzato con l&#39;editor [&#128279;](../content-design/editor.md) di WYSIWYG e potrebbe causare errori di visualizzazione nella vetrina.  Il contenuto creato in precedenza con [!DNL Page Builder] potrebbe non essere modificabile dall&#39;amministratore.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

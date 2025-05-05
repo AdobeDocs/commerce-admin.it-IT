@@ -47,7 +47,7 @@ Quando i clienti acquistano i 25 prodotti disponibili, i nuovi ordini vengono in
 
 >[!NOTE]
 >
->Quando un cliente effettua un ordine utilizzando _[!UICONTROL backorder qty]_, [!DNL Inventory Management] sottrae automaticamente la quantità dalla quantità vendibile. Se un ordine non viene spedito e viene annullato, la quantità viene restituita alla quantità di vendita virtuale aggregata. La quantità dell&#39;ordine **_annullata non è assegnata ad alcuna origine_**, ma viene restituita al numero totale di prodotti disponibili per la vendita (colonna_[!UICONTROL Salable Quantity]_ nella griglia prodotti).
+>Quando un cliente effettua un ordine utilizzando _[!UICONTROL backorder qty]_, [!DNL Inventory Management] sottrae automaticamente la quantità dalla quantità vendibile. Se un ordine non viene spedito e viene annullato, la quantità viene restituita alla quantità di vendita virtuale aggregata. La quantità dell&#39;ordine **_annullata non è assegnata ad alcuna origine_**, ma viene restituita al numero totale di prodotti disponibili per la vendita (colonna&#x200B;_[!UICONTROL Salable Quantity]_ nella griglia prodotti).
 
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 

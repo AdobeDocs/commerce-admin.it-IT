@@ -27,7 +27,7 @@ Il selettore della visualizzazione archivio nell’angolo in alto a sinistra di 
 
 ## [!UICONTROL Use system value]
 
-La casella di controllo _[!UICONTROL Use System Value]_a destra di molte impostazioni di configurazione viene utilizzata per applicare o sostituire il valore del campo predefinito nell&#39;ambito di configurazione corrente. Il valore del campo predefinito non può essere modificato quando la casella di controllo è selezionata. Per modificare il valore, deselezionare la casella di controllo e immettere il nuovo valore. Viene richiesto di confermare ogni volta che si modifica il valore di sistema.
+La casella di controllo _[!UICONTROL Use System Value]_&#x200B;a destra di molte impostazioni di configurazione viene utilizzata per applicare o sostituire il valore del campo predefinito nell&#39;ambito di configurazione corrente. Il valore del campo predefinito non può essere modificato quando la casella di controllo è selezionata. Per modificare il valore, deselezionare la casella di controllo e immettere il nuovo valore. Viene richiesto di confermare ogni volta che si modifica il valore di sistema.
 
 L&#39;etichetta della casella di controllo cambia in base all&#39;ambito corrente e fa sempre riferimento al livello padre che è un passo avanti nella gerarchia dell&#39;ambito. Poiché il livello padre è un contenitore per tutti gli elementi al di sotto di tale livello, l&#39;impostazione dell&#39;ambito dal livello padre viene ereditata a meno che non venga sostituita.
 

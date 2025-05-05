@@ -30,7 +30,7 @@ Dalla sezione [Prodotti nella categoria](categories-product-assignments.md), un 
 
    ![Cerca in tutti i prodotti](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. Nella colonna _[!UICONTROL Assign]_impostare l&#39;opzione su `Yes` per ogni prodotto che si desidera aggiungere.
+1. Nella colonna _[!UICONTROL Assign]_&#x200B;impostare l&#39;opzione su `Yes` per ogni prodotto che si desidera aggiungere.
 
    Se si desidera includere tutti i prodotti visualizzati, è possibile fare clic sulla freccia del menu nell&#39;intestazione di colonna e scegliere **[!UICONTROL Select All]**.
 
@@ -71,6 +71,6 @@ Dalla sezione [Prodotti nella categoria](categories-product-assignments.md), un 
 
 1. Trovare i prodotti da rimuovere.
 
-1. Nella colonna _[!UICONTROL Actions]_fare clic su **[!UICONTROL Unassign]**.
+1. Nella colonna _[!UICONTROL Actions]_&#x200B;fare clic su **[!UICONTROL Unassign]**.
 
 1. Per applicare le modifiche, fare clic su **[!UICONTROL Save]**.

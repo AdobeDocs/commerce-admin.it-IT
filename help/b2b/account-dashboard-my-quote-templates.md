@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quote Templates]
 
-Se i preventivi sono abilitati, nella sezione _[!UICONTROL My Quotes Template]_del dashboard dei conti cliente vengono elencati tutti i modelli di preventivo associati al conto cliente. A seconda delle autorizzazioni, solo gli acquirenti che effettuano acquisti per conto di una società possono richiedere un modello di preventivo e negoziare prezzi e condizioni per gli ordini ricorrenti.
+Se i preventivi sono abilitati, nella sezione _[!UICONTROL My Quotes Template]_&#x200B;del dashboard dei conti cliente vengono elencati tutti i modelli di preventivo associati al conto cliente. A seconda delle autorizzazioni, solo gli acquirenti che effettuano acquisti per conto di una società possono richiedere un modello di preventivo e negoziare prezzi e condizioni per gli ordini ricorrenti.
 
 ![Modelli di offerta personali](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -115,7 +115,7 @@ Gli acquirenti possono completare le seguenti azioni da un preventivo collegato:
 
 Dalla pagina del modello di preventivo, fare clic su **[!UICONTROL Cancel Quote Template]**.
 
-Il modello di preventivo è stato annullato e lo stato del preventivo cambia in `Closed`. Le virgolette chiuse rimangono nell&#39;elenco di *[!UICONTROL Inactive]* e rimangono elencate nella griglia _[!UICONTROL Quote Templates]_dell&#39;amministratore.
+Il modello di preventivo è stato annullato e lo stato del preventivo cambia in `Closed`. Le virgolette chiuse rimangono nell&#39;elenco di *[!UICONTROL Inactive]* e rimangono elencate nella griglia _[!UICONTROL Quote Templates]_&#x200B;dell&#39;amministratore.
 
 ## Gestisci collegamenti documenti di riferimento
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Gestire gli account cliente
 
-Utilizzare la griglia _[!UICONTROL Customers]_per trovare un account cliente. È possibile utilizzare i [controlli area di lavoro](../getting-started/admin-workspace.md) standard per filtrare l&#39;elenco, modificare il layout [colonna](../getting-started/admin-grid-controls.md), salvare le visualizzazioni ed esportare i dati. Il controllo [Actions](../getting-started/admin-actions-control.md) sopra la griglia può essere utilizzato per applicare un&#39;operazione a più record cliente.
+Utilizzare la griglia _[!UICONTROL Customers]_&#x200B;per trovare un account cliente. È possibile utilizzare i [controlli area di lavoro](../getting-started/admin-workspace.md) standard per filtrare l&#39;elenco, modificare il layout [colonna](../getting-started/admin-grid-controls.md), salvare le visualizzazioni ed esportare i dati. Il controllo [Actions](../getting-started/admin-actions-control.md) sopra la griglia può essere utilizzato per applicare un&#39;operazione a più record cliente.
 
 ![Tutti i clienti](assets/customers-all-customers.png){width="700" zoomable="yes"}
 

@@ -45,20 +45,20 @@ Il team di supporto [!DNL Commerce] non ha accesso all&#39;account e non può im
 
    ![Informazioni sul nuovo utente](./assets/shared-new-user.png){width="600"}
 
-1. In _[!UICONTROL Shared Information]_eseguire le operazioni seguenti:
+1. In _[!UICONTROL Shared Information]_&#x200B;eseguire le operazioni seguenti:
 
    - Per identificare l&#39;account condiviso, immettere un **[!UICONTROL Share Name]**. Questo nome è un riferimento interno ed è visibile solo a te e alla persona con cui condividi l’account.
 
      Si consiglia di utilizzare il nome dell&#39;organizzazione come [!UICONTROL Share Name]. Non utilizzare un nome che inizia con `CLOUD SHARED ACCESS FROM MAG XYX`.
    - Se si desidera condividere le proprie informazioni personali con il nuovo utente, immettere **[!UICONTROL Your Email]** e **[!UICONTROL Your Phone]**.
 
-1. In _[!UICONTROL Grant Account Permissions]_selezionare la casella di controllo di ogni prodotto e servizio [!DNL Commerce] che si desidera condividere.
+1. In _[!UICONTROL Grant Account Permissions]_&#x200B;selezionare la casella di controllo di ogni prodotto e servizio [!DNL Commerce] che si desidera condividere.
 
    ![Concedi le autorizzazioni dell&#39;account](./assets/shared-permissions.png){width="600"}
 
 1. Fare clic su **[!UICONTROL Create Shared Access]**.
 
-   Le informazioni sul nuovo utente vengono visualizzate nella sezione _[!UICONTROL Manage Permissions]_della pagina Accesso condiviso e al nuovo utente viene inviato un invito e-mail con le istruzioni per l&#39;accesso all&#39;account condiviso.
+   Le informazioni sul nuovo utente vengono visualizzate nella sezione _[!UICONTROL Manage Permissions]_&#x200B;della pagina Accesso condiviso e al nuovo utente viene inviato un invito e-mail con le istruzioni per l&#39;accesso all&#39;account condiviso.
 
    ![Gestione delle autorizzazioni per l&#39;accesso condiviso](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
@@ -72,13 +72,13 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 
 1. Quando ricevi un invito a un account condiviso, segui le istruzioni riportate nell&#39;e-mail per accedere al tuo account [!DNL Commerce].
 
-   Il pannello di navigazione sinistro del tuo account ha una nuova scheda _[!UICONTROL Shared with me]_. Il controllo_[!UICONTROL Switch Accounts]_ nell&#39;angolo superiore destro include opzioni per `My Account` e il nome dell&#39;account condiviso.
+   Il pannello di navigazione sinistro del tuo account ha una nuova scheda _[!UICONTROL Shared with me]_. Il controllo&#x200B;_[!UICONTROL Switch Accounts]_ nell&#39;angolo superiore destro include opzioni per `My Account` e il nome dell&#39;account condiviso.
 
    ![Condiviso con me](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   Se il controllo _[!UICONTROL Switch Accounts]_non viene visualizzato, contattare il titolare dell&#39;account principale e confermare che le [informazioni sull&#39;account](#set-up-a-shared-account) sono corrette.
+   >   Se il controllo _[!UICONTROL Switch Accounts]_&#x200B;non viene visualizzato, contattare il titolare dell&#39;account principale e confermare che le [informazioni sull&#39;account](#set-up-a-shared-account) sono corrette.
 
 
 1. Per accedere all&#39;account condiviso, impostare **[!UICONTROL Switch Accounts]** sul nome dell&#39;account condiviso.
@@ -105,7 +105,7 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 
 1. Nel pannello di navigazione a sinistra, fare clic su **[!UICONTROL Shared Access]**.
 
-1. Trovare l&#39;account da revocare in _[!UICONTROL Managing Users & Permissions]_e fare clic su **[!UICONTROL Delete]**.
+1. Trovare l&#39;account da revocare in _[!UICONTROL Managing Users & Permissions]_&#x200B;e fare clic su **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >

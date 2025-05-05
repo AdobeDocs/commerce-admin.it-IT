@@ -52,7 +52,7 @@ Per risparmiare tempo, è possibile impostare zero ordini di subtotale su fattur
 
    >[!NOTE]
    >
-   >Se _[!UICONTROL New Order Status]_è impostato su `Processing` e_[!UICONTROL Automatically Invoice All Items]_ è impostato su `No`, è necessario assegnare anche **[!UICONTROL Order Status]** = `Processing` per il mapping **[!UICONTROL Order State]** = `Pending` e **[!UICONTROL Default Status]** = `No` nella pagina [Stato ordine](order-status.md#custom-order-status).
+   >Se _[!UICONTROL New Order Status]_&#x200B;è impostato su `Processing` e&#x200B;_[!UICONTROL Automatically Invoice All Items]_ è impostato su `No`, è necessario assegnare anche **[!UICONTROL Order Status]** = `Processing` per il mapping **[!UICONTROL Order State]** = `Pending` e **[!UICONTROL Default Status]** = `No` nella pagina [Stato ordine](order-status.md#custom-order-status).
 
 1. Imposta **[!UICONTROL Payment from Applicable Countries]** su uno dei seguenti:
 

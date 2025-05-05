@@ -20,7 +20,7 @@ La funzionalità _Ordine rapido_ riduce il processo di ordinazione a diversi cli
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nella sezione _[!UICONTROL General]_del pannello a sinistra, scegli **[!UICONTROL B2B Features]**.
+1. Nella sezione _[!UICONTROL General]_&#x200B;del pannello a sinistra, scegli **[!UICONTROL B2B Features]**.
 
 1. Imposta **[!UICONTROL Enable Quick Order]** su `Yes`.
 
@@ -92,7 +92,7 @@ I clienti possono specificare i prodotti per gli ordini rapidi utilizzando uno d
 
 ### Metodo 3: Caricare un elenco di prodotti
 
-1. Nella sezione _[!UICONTROL Add from File]_, fare clic su **[!UICONTROL Download Sample]**per scaricare un modello di ordine.
+1. Nella sezione _[!UICONTROL Add from File]_, fare clic su **[!UICONTROL Download Sample]**&#x200B;per scaricare un modello di ordine.
 
    ![Aggiungi da file](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 

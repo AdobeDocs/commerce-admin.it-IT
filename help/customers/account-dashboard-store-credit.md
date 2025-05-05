@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Nella pagina _[!UICONTROL Store Credit]_del pannello di controllo del conto cliente sono elencati gli importi di restituzioni e restituzioni che possono essere applicati ad acquisti futuri. I clienti possono anche riscattare il valore da una gift card.
+Nella pagina _[!UICONTROL Store Credit]_&#x200B;del pannello di controllo del conto cliente sono elencati gli importi di restituzioni e restituzioni che possono essere applicati ad acquisti futuri. I clienti possono anche riscattare il valore da una gift card.
 
 ![Credito per l&#39;archivio clienti](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 

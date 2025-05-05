@@ -62,7 +62,7 @@ Le istruzioni seguenti mostrano come impostare una navigazione a livelli di base
 
 >[!NOTE]
 >
->Quando l&#39;impostazione _[!UICONTROL Use in Search]_è impostata su `No`, l&#39;impostazione_[!UICONTROL Use in Search Results Layered Navigation]_ non viene visualizzata e l&#39;attributo product non viene utilizzato nella ricerca con un valore di impostazione [!UICONTROL Use in Layered Navigation].
+>Quando l&#39;impostazione _[!UICONTROL Use in Search]_&#x200B;è impostata su `No`, l&#39;impostazione&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ non viene visualizzata e l&#39;attributo product non viene utilizzato nella ricerca con un valore di impostazione [!UICONTROL Use in Layered Navigation].
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Per rimuovere i valori degli attributi filtrabili con 0 prodotti dalla navigazio
 
 1. Sfoglia o utilizza la ricerca filtrata per trovare un attributo nell’elenco e aprirlo in modalità di modifica.
 
-1. In _[!UICONTROL Attribute Information]_fare clic su **[!UICONTROL Storefront Properties]**.
+1. In _[!UICONTROL Attribute Information]_&#x200B;fare clic su **[!UICONTROL Storefront Properties]**.
 
 1. Per **[!UICONTROL Layered Navigation]**, scegliere `Filterable (with results)`.
 
@@ -145,7 +145,7 @@ La suddivisione iterativa fornisce la migliore distribuzione dei prodotti tra le
 
 >[!IMPORTANT]
 >
->Per visualizzare correttamente i prodotti e i relativi prezzi in base a _filtri di prezzo_ nella navigazione a livelli, assicurarsi che le impostazioni per la visualizzazione del prezzo nella [configurazione IVA](../configuration-reference/sales/tax.md) abbiano lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla il valore **[!UICONTROL Catalog Prices]**. E per_[!UICONTROL Price Display Settings]_, controlla il valore **[!UICONTROL Display Product Prices in Catalog]**. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
+>Per visualizzare correttamente i prodotti e i relativi prezzi in base a _filtri di prezzo_ nella navigazione a livelli, assicurarsi che le impostazioni per la visualizzazione del prezzo nella [configurazione IVA](../configuration-reference/sales/tax.md) abbiano lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla il valore **[!UICONTROL Catalog Prices]**. E per&#x200B;_[!UICONTROL Price Display Settings]_, controlla il valore **[!UICONTROL Display Product Prices in Catalog]**. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -207,7 +207,7 @@ La configurazione della navigazione a livelli determina se un conteggio dei prod
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nel pannello a sinistra, espandi la sezione _[!UICONTROL Catalog]_e scegli **[!UICONTROL Catalog]**sotto.
+1. Nel pannello a sinistra, espandi la sezione _[!UICONTROL Catalog]_&#x200B;e scegli **[!UICONTROL Catalog]**&#x200B;sotto.
 
 1. Espandere la sezione _[!UICONTROL Layered Navigation]_.
 

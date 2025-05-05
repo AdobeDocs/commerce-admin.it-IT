@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Sito Web | Imposta il peso minimo che un pacchetto può avere in base a quanto specificato da UPS. Se i prodotti ordinati pesano meno del peso minimo del pacchetto, questa opzione di spedizione non è disponibile. Per verificare il peso minimo, contattare il vettore di spedizione. |
 | [!UICONTROL Calculate Handling Fee] | Sito Web | Imposta il metodo di calcolo della tariffa di movimentazione per la spedizione delle tariffe della tabella. Opzioni: <br>**`Fixed`**- La tariffa di imballaggio è fissa.<br>**`Percent`** - La tariffa di imballaggio viene applicata come percentuale dell&#39;importo dell&#39;ordine. |
 | [!UICONTROL Handling Applied] | Sito Web | Specifica se le spese di imballaggio vengono applicate a ogni ordine o pacchetto all&#39;interno di un ordine. |
-| [!UICONTROL Handling Fee] | Sito Web | Imposta la gestione inclusa nel prezzo della tariffa di spedizione. La tariffa di imballaggio può essere impostata come importo fisso o percentuale. <br/><br/>**_Nota:_**Se si digita un importo percentuale, utilizzare il formato decimale `0.25` per il 25%. |
+| [!UICONTROL Handling Fee] | Sito Web | Imposta la gestione inclusa nel prezzo della tariffa di spedizione. La tariffa di imballaggio può essere impostata come importo fisso o percentuale. <br/><br/>**_Nota:_**&#x200B;Se si digita un importo percentuale, utilizzare il formato decimale `0.25` per il 25%. |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Sito Web | Specifica i metodi consentiti di spedizione UPS offerti ai clienti. Le tariffe di spedizione vengono calcolate in base al metodo di spedizione selezionato. |
-| [!UICONTROL Free Method] | Sito Web | Identifica il metodo utilizzato per il metodo di spedizione gratuita tramite UPS. Per disattivare la spedizione gratuita, scegliere &quot;Nessuno&quot;. <br/><br/>**_Nota:_**questo metodo è simile al metodo di base [Spedizione gratuita](../../stores-purchase/shipping-free.md), tuttavia viene visualizzato come opzione di spedizione UPS durante il pagamento. |
+| [!UICONTROL Free Method] | Sito Web | Identifica il metodo utilizzato per il metodo di spedizione gratuita tramite UPS. Per disattivare la spedizione gratuita, scegliere &quot;Nessuno&quot;. <br/><br/>**_Nota:_**&#x200B;questo metodo è simile al metodo di base [Spedizione gratuita](../../stores-purchase/shipping-free.md), tuttavia viene visualizzato come opzione di spedizione UPS durante il pagamento. |
 | [!UICONTROL Free Shipping Amount Threshold] | Sito Web | Determina se la spedizione gratuita viene applicata quando l&#39;importo dell&#39;ordine soddisfa la soglia di spedizione gratuita. Opzioni: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Sito Web | Imposta l&#39;importo totale minimo che un ordine deve raggiungere per qualificarsi per la spedizione gratuita. |
 | [!UICONTROL Displayed Error Message] | Visualizzazione store | Messaggio di errore visualizzato quando il metodo di spedizione non è disponibile per alcun motivo. |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Sito Web | Imposta il metodo di calcolo della tariffa di movimentazione per la spedizione delle tariffe della tabella. Opzioni: <br/>**`Fixed`**- La tariffa di imballaggio è fissa.<br/>**`Percent`** - La tariffa di imballaggio viene applicata come percentuale dell&#39;importo dell&#39;ordine. |
 | [!UICONTROL Handling Applied] | Sito Web | Specifica se le spese di imballaggio vengono applicate a ogni ordine o pacchetto all&#39;interno di un ordine. |
-| [!UICONTROL Handling Fee] | Sito Web | Imposta la gestione inclusa nel prezzo della tariffa di spedizione. La tariffa di imballaggio può essere impostata come importo fisso o percentuale. <br/><br/>**_Nota:_**Quando si digita un importo percentuale, utilizzare il formato decimale `0.25` per il 25%. |
+| [!UICONTROL Handling Fee] | Sito Web | Imposta la gestione inclusa nel prezzo della tariffa di spedizione. La tariffa di imballaggio può essere impostata come importo fisso o percentuale. <br/><br/>**_Nota:_**&#x200B;Quando si digita un importo percentuale, utilizzare il formato decimale `0.25` per il 25%. |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Sito Web | Specifica i metodi di spedizione USPS consentiti offerti ai clienti. Le tariffe di spedizione vengono calcolate in base al metodo di spedizione selezionato. |
-| [!UICONTROL Free Method] | Sito Web | Imposta il metodo di spedizione gratuita tramite USPS o può essere disabilitato selezionando `None`. <br/><br/>**_Nota:_**questo metodo di spedizione è simile al metodo di spedizione gratuita del tuo Negozio, tuttavia è elencato come opzione di spedizione USPS e identificato come spedizione USPS. |
+| [!UICONTROL Free Method] | Sito Web | Imposta il metodo di spedizione gratuita tramite USPS o può essere disabilitato selezionando `None`. <br/><br/>**_Nota:_**&#x200B;questo metodo di spedizione è simile al metodo di spedizione gratuita del tuo Negozio, tuttavia è elencato come opzione di spedizione USPS e identificato come spedizione USPS. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Sito Web | Imposta l&#39;importo minimo dell&#39;ordine che deve essere raggiunto per qualificarsi per la spedizione gratuita. |
 | [!UICONTROL Displayed Error Message] | Visualizzazione store | Messaggio di errore visualizzato quando USPS non è disponibile per alcun motivo. |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Sito Web | Determina il metodo utilizzato per calcolare le commissioni di gestione. Opzioni: `Fixed Fee` / `Percentage` <br/><br/>**_Nota:_**La tariffa di imballaggio è facoltativa e viene visualizzata come un costo aggiuntivo aggiunto alle spese di spedizione FedEx. |
+| [!UICONTROL Calculate Handling Fee] | Sito Web | Determina il metodo utilizzato per calcolare le commissioni di gestione. Opzioni: `Fixed Fee` / `Percentage` <br/><br/>**_Nota:_**&#x200B;La tariffa di imballaggio è facoltativa e viene visualizzata come un costo aggiuntivo aggiunto alle spese di spedizione FedEx. |
 | [!UICONTROL Handling Applied] | Sito Web | Determina la modalità di applicazione delle commissioni di gestione. Opzioni: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Sito Web | Specifica l&#39;importo addebitato come commissione di imballaggio, in base al metodo utilizzato per calcolare l&#39;importo. Se l&#39;addebito è basato su una tariffa fissa, immettere l&#39;importo come decimale, ad esempio `4.90`. Se la commissione di gestione è basata su una percentuale dell&#39;ordine, immettere l&#39;importo come percentuale. Ad esempio, per addebitare il 6% dell&#39;ordine, immettere il valore come `.06`. |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Sito Web | Impostato su uno dei seguenti, a seconda che si venda business-to-consumer (B2C) o business-to-business (B2B): <br/>**`Yes`**- Per consegne B2C<br/>**`No`** - Per consegne B2B |
 | [!UICONTROL Allowed Methods] | Sito Web | Selezionare dall&#39;elenco i metodi di spedizione supportati. I metodi dipendono dal tuo account FedEx, dalla frequenza e dalle dimensioni delle tue spedizioni e dall’autorizzazione o meno delle spedizioni internazionali. In qualità di commerciante, potresti decidere di offrire solo la spedizione a terra. |
 | [!UICONTROL Hub ID] | Sito Web | ID fornito da FedEx utilizzato con il metodo [!DNL Smart Post]. |
-| [!UICONTROL Free Method] | Sito Web | Dall’elenco, seleziona il metodo di spedizione che preferisci utilizzare per le offerte di spedizione gratuita. <br/><br/>**_Nota:_**questo metodo di spedizione è simile al normale metodo di spedizione gratuita, tuttavia è elencato nelle opzioni di spedizione FedEx ed è identificato come spedizione FedEx. |
+| [!UICONTROL Free Method] | Sito Web | Dall’elenco, seleziona il metodo di spedizione che preferisci utilizzare per le offerte di spedizione gratuita. <br/><br/>**_Nota:_**&#x200B;questo metodo di spedizione è simile al normale metodo di spedizione gratuita, tuttavia è elencato nelle opzioni di spedizione FedEx ed è identificato come spedizione FedEx. |
 | [!UICONTROL Free Shipping Amount Threshold] | Sito Web | Determina se è necessario un importo minimo per la spedizione gratuita. Opzioni: <br/>**`Enable`**- Consente la spedizione gratuita FedEx per gli ordini che soddisfano l&#39;importo minimo.<br/>**`Disable`** - Disabilita la spedizione gratuita FedEx con un ordine minimo. |
 | [!UICONTROL Free Shipping Amount Threshold] | Sito Web | Specifica l&#39;importo minimo dell&#39;ordine necessario per la spedizione gratuita. |
 | [!UICONTROL Displayed Error Message] | Visualizzazione store | Messaggio visualizzato quando FedEx non è disponibile per qualsiasi motivo. Puoi utilizzare il messaggio predefinito o immetterne un altro. |

@@ -28,7 +28,7 @@ La posizione dei prodotti in una categoria può essere specificata manualmente t
 
 1. Se necessario, scegliere **[!UICONTROL Store View]** in cui applicare le impostazioni.
 
-   Per un&#39;installazione in più store, l&#39;impostazione _[!UICONTROL Store View]_applica l&#39;ordinamento a tutte le visualizzazioni disponibili nell&#39;archivio.
+   Per un&#39;installazione in più store, l&#39;impostazione _[!UICONTROL Store View]_&#x200B;applica l&#39;ordinamento a tutte le visualizzazioni disponibili nell&#39;archivio.
 
 1. Nell&#39;albero delle categorie a sinistra, scegliere la categoria che si desidera modificare.
 
@@ -38,7 +38,7 @@ La posizione dei prodotti in una categoria può essere specificata manualmente t
 
 >[!NOTE]
 >
->Quando si ordina una categoria in base a un attributo di prodotto, anche i prodotti con gli stessi valori di attributo vengono ordinati in base al rispettivo _[!UICONTROL Product ID]_in ordine crescente.
+>Quando si ordina una categoria in base a un attributo di prodotto, anche i prodotti con gli stessi valori di attributo vengono ordinati in base al rispettivo _[!UICONTROL Product ID]_&#x200B;in ordine crescente.
 
 Nella sezione _[!UICONTROL Products in Category]_, fai clic sull&#39;icona dei riquadri ( ![Visualizza riquadri](../assets/icon-view-tiles.png) ) per visualizzare i riquadri del prodotto in una griglia. Utilizzare il metodo manuale o automatico per ordinare i prodotti.
 

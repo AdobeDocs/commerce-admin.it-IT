@@ -15,7 +15,7 @@ Quando si utilizza una raccolta di record nella griglia, è possibile utilizzare
 
 È possibile apportare tutte le modifiche necessarie e quindi aggiornare i record in un singolo passaggio. È molto più efficiente che cambiare le impostazioni singolarmente per ciascun prodotto. L’applicazione delle modifiche a un batch di record è un’operazione asincrona, che viene eseguita in background in modo da poter continuare a lavorare in Admin senza attendere il completamento dell’operazione. Il sistema visualizza un messaggio al completamento dell&#39;operazione.
 
-La selezione delle azioni disponibili varia in base all’elenco e, a seconda dell’azione selezionata, potrebbero essere visualizzate opzioni aggiuntive. Ad esempio, quando si modifica lo stato di un gruppo di record, accanto al controllo Azioni viene visualizzata una casella _[!UICONTROL Status]_con opzioni aggiuntive.
+La selezione delle azioni disponibili varia in base all’elenco e, a seconda dell’azione selezionata, potrebbero essere visualizzate opzioni aggiuntive. Ad esempio, quando si modifica lo stato di un gruppo di record, accanto al controllo Azioni viene visualizzata una casella _[!UICONTROL Status]_&#x200B;con opzioni aggiuntive.
 
 ## Passaggio 1: selezionare i record
 

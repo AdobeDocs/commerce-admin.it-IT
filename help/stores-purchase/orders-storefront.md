@@ -18,7 +18,7 @@ I clienti hanno accesso a tutti i loro ordini dal loro account. Gli ordini posso
 
 {{b2b-feature}}
 
-I risultati iniziali di _[!UICONTROL My Orders]_contengono anche ordini corrispondenti di utenti subordinati da tutti i siti Web all&#39;interno dell&#39;istanza di Commerce. Un cliente associato a un account società può filtrare l&#39;elenco degli ordini per trovare rapidamente i record all&#39;interno dei risultati. Per visualizzare le opzioni di filtro, il cliente fa clic su **[!UICONTROL Filter]**e fa clic su **[!UICONTROL Close]**per nascondere i filtri.
+I risultati iniziali di _[!UICONTROL My Orders]_&#x200B;contengono anche ordini corrispondenti di utenti subordinati da tutti i siti Web all&#39;interno dell&#39;istanza di Commerce. Un cliente associato a un account società può filtrare l&#39;elenco degli ordini per trovare rapidamente i record all&#39;interno dei risultati. Per visualizzare le opzioni di filtro, il cliente fa clic su **[!UICONTROL Filter]**&#x200B;e fa clic su **[!UICONTROL Close]**&#x200B;per nascondere i filtri.
 
 ![I miei ordini](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +42,7 @@ Un cliente trova l&#39;ordine nell&#39;elenco e fa clic su **[!UICONTROL View Or
 
 Il blocco **[!UICONTROL Recent Orders]** viene visualizzato nella barra laterale e nella pagina **[!UICONTROL My Account]** per i clienti che hanno effettuato l&#39;accesso dopo aver effettuato un ordine. Vengono visualizzati cinque prodotti dell’ultimo acquisto.
 
-Il cliente può leggere i prodotti nel carrello selezionando i prodotti e facendo clic su **[!UICONTROL Add to Cart]**. È inoltre possibile visualizzare l&#39;ultimo ordine facendo clic su **[!UICONTROL View all]**, che reindirizza alla pagina _[!UICONTROL My Account]_e al blocco **[!UICONTROL Recent Orders]**.
+Il cliente può leggere i prodotti nel carrello selezionando i prodotti e facendo clic su **[!UICONTROL Add to Cart]**. È inoltre possibile visualizzare l&#39;ultimo ordine facendo clic su **[!UICONTROL View all]**, che reindirizza alla pagina _[!UICONTROL My Account]_&#x200B;e al blocco **[!UICONTROL Recent Orders]**.
 
 ### Ordine di stampa
 
@@ -103,7 +103,7 @@ Un cliente può avviare la funzionalità di riordino per un ordine specifico da 
 
 ## Riordini
 
-Il collegamento _[!UICONTROL Reorder]_viene visualizzato nell&#39;elenco con gli ordini vicini al collegamento_[!UICONTROL View]_.
+Il collegamento _[!UICONTROL Reorder]_&#x200B;viene visualizzato nell&#39;elenco con gli ordini vicini al collegamento&#x200B;_[!UICONTROL View]_.
 
 ![Riordina collegamento nella pagina Il mio ordine](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -117,7 +117,7 @@ Il cliente viene reindirizzato al carrello e tutti i prodotti vengono aggiunti a
 >
 >È possibile riordinare `Not Visible Individually` prodotti.
 
-Il collegamento _[!UICONTROL Reorder]_non viene visualizzato nelle pagine_[!UICONTROL My Orders]_ e _[!UICONTROL View Order]_.
+Il collegamento _[!UICONTROL Reorder]_&#x200B;non viene visualizzato nelle pagine&#x200B;_[!UICONTROL My Orders]_ e _[!UICONTROL View Order]_.
 
 ![Pagina ordine](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +135,7 @@ Il cliente può avviare la funzionalità di annullamento per un ordine specifico
 - Pagina Vista ordine
 - Pagina Il mio account
 
-Il collegamento _[!UICONTROL Cancel Order]_viene visualizzato accanto al collegamento_[!UICONTROL Reorder]_. Se non è possibile annullare l’ordine, il collegamento non viene visualizzato.
+Il collegamento _[!UICONTROL Cancel Order]_&#x200B;viene visualizzato accanto al collegamento&#x200B;_[!UICONTROL Reorder]_. Se non è possibile annullare l’ordine, il collegamento non viene visualizzato.
 
 ![Collegamento Annulla nella pagina Il mio ordine](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +153,7 @@ Per eseguire l’annullamento, il cliente:
 
    ![Annulla nella pagina Il mio ordine](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Dopo l&#39;annullamento, verranno elaborati gli ordini con stato _[!UICONTROL Pending]_, lo stato_[!UICONTROL Canceled]_, gli ordini con stato _[!UICONTROL Processing]_, lo stato_[!UICONTROL Closed]_ e un rimborso.
+   Dopo l&#39;annullamento, verranno elaborati gli ordini con stato _[!UICONTROL Pending]_, lo stato&#x200B;_[!UICONTROL Canceled]_, gli ordini con stato _[!UICONTROL Processing]_, lo stato&#x200B;_[!UICONTROL Closed]_ e un rimborso.
 
    Al termine dell’annullamento, viene inviata un’e-mail al cliente.
 

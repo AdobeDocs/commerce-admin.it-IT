@@ -17,7 +17,7 @@ L&#39;_Amministratore_ di Commerce per l&#39;installazione di Adobe Commerce o M
 
 >[!NOTE]
 >
->Questa implementazione dell&#39;autenticazione a due fattori (2FA) si applica solo all&#39;amministratore _1} e non è disponibile per gli account cliente._ L’autenticazione a due fattori che protegge l’account Commerce dispone di una configurazione separata. Per ulteriori informazioni, vai a [Proteggi il tuo account Commerce](../getting-started/commerce-account-secure.md).
+>Questa implementazione dell&#39;autenticazione a due fattori (2FA) si applica solo all&#39;amministratore _1&rbrace; e non è disponibile per gli account cliente._ L’autenticazione a due fattori che protegge l’account Commerce dispone di una configurazione separata. Per ulteriori informazioni, vai a [Proteggi il tuo account Commerce](../getting-started/commerce-account-secure.md).
 
 L’autenticazione a due fattori è ampiamente utilizzata ed è comune generare codici di accesso per siti web diversi sulla stessa app. Questa autenticazione aggiuntiva garantisce che solo l’utente sia in grado di accedere al proprio account utente. Se si perde la password o se un bot la indovina, l&#39;autenticazione a due fattori aggiunge un livello di protezione. Ad esempio, puoi utilizzare Google Authenticator per generare codici per l’amministratore del negozio, l’account Commerce e l’account Google.
 
@@ -39,7 +39,7 @@ Guarda questa [demo video](https://video.tv.adobe.com/v/339104?quality=12&learn=
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Security]** e scegli **[!UICONTROL 2FA]**.
 
-1. _[!UICONTROL General]_Nella sezione selezionare i provider da utilizzare.
+1. _[!UICONTROL General]_&#x200B;Nella sezione selezionare i provider da utilizzare.
 
    | Provider | Funzione |
    |--- |--- |

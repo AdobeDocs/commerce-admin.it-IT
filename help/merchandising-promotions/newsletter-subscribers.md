@@ -58,7 +58,7 @@ Se si desidera utilizzare un servizio di terze parti per l&#39;invio di newslett
    >
    >Per annullare un abbonamento in blocco, seleziona la casella di controllo di ciascun abbonato che desideri annullare.
 
-1. Impostare il controllo _[!UICONTROL Action]_su **[!UICONTROL Unsubscribe]**e fare clic su **[!UICONTROL Submit]**.
+1. Impostare il controllo _[!UICONTROL Action]_&#x200B;su **[!UICONTROL Unsubscribe]**&#x200B;e fare clic su **[!UICONTROL Submit]**.
 
    ![Annulla iscrizione newsletter](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -83,6 +83,6 @@ Se si desidera utilizzare un servizio di terze parti per l&#39;invio di newslett
 
 1. Individuare il sottoscrittore nella griglia e selezionare la casella di controllo nella prima colonna.
 
-1. Impostare il controllo _[!UICONTROL Action]_su **[!UICONTROL Delete]**e fare clic su **[!UICONTROL Submit]**.
+1. Impostare il controllo _[!UICONTROL Action]_&#x200B;su **[!UICONTROL Delete]**&#x200B;e fare clic su **[!UICONTROL Submit]**.
 
 1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL OK]**.

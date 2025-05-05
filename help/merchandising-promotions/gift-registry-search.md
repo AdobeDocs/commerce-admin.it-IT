@@ -34,7 +34,7 @@ Lo strumento [Widget](../content-design/widgets.md) può essere utilizzato per i
 
    ![Registro regali - Impostazioni di ricerca](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Storefront Properties]_eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Storefront Properties]_&#x200B;eseguire le operazioni seguenti:
 
    - Immettere **[!UICONTROL Widget Title]** come riferimento interno.
 

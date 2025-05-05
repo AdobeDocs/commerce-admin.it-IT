@@ -88,7 +88,7 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Manage Labels]**.
 
-1. Nella sezione _[!UICONTROL Manage Titles]_immettere un&#39;etichetta tradotta per ogni visualizzazione dello store.
+1. Nella sezione _[!UICONTROL Manage Titles]_&#x200B;immettere un&#39;etichetta tradotta per ogni visualizzazione dello store.
 
    ![Immetti etichette tradotte](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
 
 1. Per _Informazioni di base_, traduci **[!UICONTROL Category Name]**.
 
-1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Content]_e traduci **[!UICONTROL Description]**.
+1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Content]_&#x200B;e traduci **[!UICONTROL Description]**.
 
 1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization Settings]** e traduci i campi seguenti:
 

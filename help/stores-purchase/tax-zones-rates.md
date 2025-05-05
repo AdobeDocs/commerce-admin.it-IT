@@ -56,7 +56,7 @@ L&#39;imposta del negozio viene calcolata in base all&#39;indirizzo del negozio.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-1. Trovare l&#39;aliquota nella griglia _[!UICONTROL Tax Zones and Rates]_e aprire il record in modalità di modifica.
+1. Trovare l&#39;aliquota nella griglia _[!UICONTROL Tax Zones and Rates]_&#x200B;e aprire il record in modalità di modifica.
 
    Se nell&#39;elenco sono presenti molte tariffe, utilizzare i [controlli filtro](../getting-started/admin-grid-controls.md) per trovare la tariffa necessaria.
 

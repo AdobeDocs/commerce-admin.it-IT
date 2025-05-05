@@ -121,7 +121,7 @@ L&#39;annullamento di un ordine ne modifica lo stato da `Pending` a `Canceled`.
 
 1. Nella griglia _[!UICONTROL Orders]_, trovare l&#39;ordine in sospeso da annullare.
 
-1. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL View]**.
+1. Nella colonna _[!UICONTROL Action]_&#x200B;fare clic su **[!UICONTROL View]**.
 
 1. Fare clic su **[!UICONTROL Cancel]** per annullare l&#39;ordine.
 

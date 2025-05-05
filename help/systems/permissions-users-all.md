@@ -31,9 +31,9 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New User]**.
 
-   Per modificare un utente esistente, fare clic sul nome di un utente nella griglia. È possibile modificare le sezioni _[!UICONTROL User Info]_e_[!UICONTROL User Role]_ in base alle esigenze.
+   Per modificare un utente esistente, fare clic sul nome di un utente nella griglia. È possibile modificare le sezioni _[!UICONTROL User Info]_&#x200B;e_[!UICONTROL User Role]_ in base alle esigenze.
 
-1. Nella sezione _[!UICONTROL Account Information]_eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Account Information]_&#x200B;eseguire le operazioni seguenti:
 
    ![Informazioni account utente](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
@@ -65,21 +65,21 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
    La definizione di una data di scadenza è utile quando un utente o un ruolo è temporaneo. Dopo la data di scadenza, lo stato dell&#39;account utente cambia in `Inactive` e può essere aggiornato, se necessario.
 
-1. In _[!UICONTROL Current User Identity Verification]_immettere la password dell&#39;account utente.
+1. In _[!UICONTROL Current User Identity Verification]_&#x200B;immettere la password dell&#39;account utente.
 
 >[!IMPORTANT]
 >
->Dopo aver completato la sezione _[!UICONTROL Account Information]_, puoi salvare l&#39;utente. Il nuovo utente viene visualizzato nella griglia_[!UICONTROL Users]_, ma il nome utente non può accedere finché non viene assegnato un ruolo.
+>Dopo aver completato la sezione _[!UICONTROL Account Information]_, puoi salvare l&#39;utente. Il nuovo utente viene visualizzato nella griglia&#x200B;_[!UICONTROL Users]_, ma il nome utente non può accedere finché non viene assegnato un ruolo.
 
 ## Assegna un ruolo utente
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL User Role]**.
 
-   Nella griglia sono elencati tutti i ruoli utente esistenti. Per un nuovo archivio, _[!UICONTROL Administrators]_è l&#39;unico ruolo disponibile.
+   Nella griglia sono elencati tutti i ruoli utente esistenti. Per un nuovo archivio, _[!UICONTROL Administrators]_&#x200B;è l&#39;unico ruolo disponibile.
 
    ![Amministratore - Aggiungi nuovo ruolo utente](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. Nella colonna _[!UICONTROL Assigned]_selezionare un ruolo utente.
+1. Nella colonna _[!UICONTROL Assigned]_&#x200B;selezionare un ruolo utente.
 
    Puoi [visualizzare ruoli utente esistenti o definire ruoli utente aggiuntivi](permissions-user-roles.md). Dopo aver definito un ruolo, è necessario modificare l&#39;account utente per assegnare il nuovo ruolo.
 
@@ -105,7 +105,7 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
 1. Quando richiesto, immettere la password per confermare l&#39;identità e fare di nuovo clic su **[!UICONTROL Save User]**.
 
-   La griglia _[!UICONTROL Users]_si apre ed elenca tutti gli utenti.
+   La griglia _[!UICONTROL Users]_&#x200B;si apre ed elenca tutti gli utenti.
 
 ## Eliminare un utente amministratore
 

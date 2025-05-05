@@ -26,7 +26,7 @@ Per semplificare il processo di pagamento, i clienti possono stipulare un contra
 
 ## Gestisci accordi di fatturazione
 
-Nella pagina _[!UICONTROL Billing Agreements]_sono elencati tutti gli accordi di fatturazione tra lo store e i relativi clienti. Gli esercenti possono filtrare i record in base alle informazioni relative al cliente o al contratto di fatturazione, inclusi l&#39;ID di riferimento del contratto di fatturazione, lo stato e la data di creazione. Ogni record include informazioni generali sul contratto di fatturazione e tutti gli ordini di vendita che lo hanno utilizzato come metodo di pagamento. È possibile visualizzare, annullare o eliminare i contratti di fatturazione dei clienti. Un contratto di fatturazione annullato può essere eliminato solo dall&#39;amministratore del punto vendita.
+Nella pagina _[!UICONTROL Billing Agreements]_&#x200B;sono elencati tutti gli accordi di fatturazione tra lo store e i relativi clienti. Gli esercenti possono filtrare i record in base alle informazioni relative al cliente o al contratto di fatturazione, inclusi l&#39;ID di riferimento del contratto di fatturazione, lo stato e la data di creazione. Ogni record include informazioni generali sul contratto di fatturazione e tutti gli ordini di vendita che lo hanno utilizzato come metodo di pagamento. È possibile visualizzare, annullare o eliminare i contratti di fatturazione dei clienti. Un contratto di fatturazione annullato può essere eliminato solo dall&#39;amministratore del punto vendita.
 
 ### Visualizza un contratto di fatturazione
 
@@ -34,7 +34,7 @@ Nella pagina _[!UICONTROL Billing Agreements]_sono elencati tutti gli accordi di
 
 1. Individuare il contratto di fatturazione nell&#39;elenco e fare clic per aprirlo.
 
-Ogni pagina del contratto di fatturazione è costituita da due schede: _[!UICONTROL General Information]_e_[!UICONTROL Related Orders]_.
+Ogni pagina del contratto di fatturazione è costituita da due schede: _[!UICONTROL General Information]_&#x200B;e_[!UICONTROL Related Orders]_.
 
 #### Informazioni generali
 

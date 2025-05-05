@@ -86,13 +86,13 @@ Nella pagina, i blocchi di contenuto vengono spostati per riempire lo spazio dis
 
 ![Diagramma - layout a una colonna](./assets/layout-1-col-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL 1 Column]_può essere utilizzato per creare una home page di grandi dimensioni con un&#39;immagine di grandi dimensioni o un punto focale. È inoltre una buona scelta per una pagina di destinazione o qualsiasi altra pagina con una combinazione di testo, immagini e video.
+Il layout _[!UICONTROL 1 Column]_&#x200B;può essere utilizzato per creare una home page di grandi dimensioni con un&#39;immagine di grandi dimensioni o un punto focale. È inoltre una buona scelta per una pagina di destinazione o qualsiasi altra pagina con una combinazione di testo, immagini e video.
 
 ### Due colonne con barra a sinistra
 
 ![Diagramma - layout a due colonne con barra a sinistra](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL 2 Columns with Left Bar]_viene spesso utilizzato per le pagine con navigazione a sinistra, ad esempio un catalogo o pagine dei risultati di ricerca con navigazione a livelli. Si tratta inoltre di una scelta eccellente per le home page che richiedono una navigazione aggiuntiva o blocchi di contenuto di supporto a sinistra.
+Il layout _[!UICONTROL 2 Columns with Left Bar]_&#x200B;viene spesso utilizzato per le pagine con navigazione a sinistra, ad esempio un catalogo o pagine dei risultati di ricerca con navigazione a livelli. Si tratta inoltre di una scelta eccellente per le home page che richiedono una navigazione aggiuntiva o blocchi di contenuto di supporto a sinistra.
 
 ### Due colonne con barra a destra
 
@@ -104,10 +104,10 @@ Con un layout _[!UICONTROL 2 Columns with Right Bar]_, l&#39;area del contenuto 
 
 ![Diagramma - layout a tre colonne](./assets/layout-3-col-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL 3 Column]_ha una colonna centrale sufficientemente ampia per il testo principale della pagina, con spazio su ciascun lato per ulteriori elementi di navigazione e blocchi di contenuto di supporto.
+Il layout _[!UICONTROL 3 Column]_&#x200B;ha una colonna centrale sufficientemente ampia per il testo principale della pagina, con spazio su ciascun lato per ulteriori elementi di navigazione e blocchi di contenuto di supporto.
 
 ### Vuoto
 
 ![Diagramma - layout vuoto](./assets/layout-blank-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL Empty]_può essere utilizzato per definire layout di pagina personalizzati.
+Il layout _[!UICONTROL Empty]_&#x200B;può essere utilizzato per definire layout di pagina personalizzati.

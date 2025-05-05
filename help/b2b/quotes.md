@@ -41,17 +41,17 @@ This diagram shows the quote statuses for a buyer and seller (Admin) in the diff
 
 ![](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
 
-****
+**&#x200B;**
 
-- ****[](quote-request.md) __ __`New` A request for a quote can be modified by the buyer until it is opened by the seller.
+- **&#x200B;**&#x200B;[&#128279;](quote-request.md) __ __`New` A request for a quote can be modified by the buyer until it is opened by the seller.
 
   ![](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
 
-- ****[](sales-rep-initiates-quote.md) The Sales Representative must update the quote to add products and other information like discounts and notes to the buyer. `draft` In draft state, the quote is visible only to the seller. `Submitted` It cannot be modified by the seller until the buyer sends it back.
+- **&#x200B;**&#x200B;[&#128279;](sales-rep-initiates-quote.md) The Sales Representative must update the quote to add products and other information like discounts and notes to the buyer. `draft` In draft state, the quote is visible only to the seller. `Submitted` It cannot be modified by the seller until the buyer sends it back.
 
   ![](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
-****
+**&#x200B;**
 
 Reviewing or negotiating a quote can include changing quantities, removing items, adding line item comments, applying line item or quote discounts (seller), and adding a shipping address (buyer).
 
@@ -61,7 +61,7 @@ Reviewing or negotiating a quote can include changing quantities, removing items
 
 L&#39;acquirente e il venditore possono continuare il processo di negoziazione fino a quando non viene raggiunto un accordo o il venditore rifiuta il preventivo. Se l&#39;acquirente apporta modifiche al preventivo, ovvero aggiungendo o rimuovendo prodotti o modificando quantità di prodotti, il preventivo deve essere restituito al venditore per la revisione.
 
-- **** After the buyer adds the address, the seller can provide shipping and delivery options. I metodi di spedizione visualizzati dipendono dalla configurazione Storefront.
+- **&#x200B;**&#x200B;After the buyer adds the address, the seller can provide shipping and delivery options. I metodi di spedizione visualizzati dipendono dalla configurazione Storefront.
 
 Se l&#39;acquirente aggiunge un indirizzo di spedizione, l&#39;accordo di negoziazione deve essere rivisto e il venditore può continuare il processo di negoziazione fino a quando non viene raggiunto un accordo o il venditore rifiuta il preventivo.
 
@@ -117,9 +117,9 @@ In Amministrazione, gli amministratori e i venditori B2B possono gestire le offe
 
 ### Visualizza un preventivo
 
-1. **[!UICONTROL Actions]****[!UICONTROL View]**
+1. **[!UICONTROL Actions]**&#x200B;**[!UICONTROL View]**
 
-1. [](quote-price-negotiation.md)
+1. [&#128279;](quote-price-negotiation.md)
 
 ### View quote activity
 
@@ -127,7 +127,7 @@ In Amministrazione, gli amministratori e i venditori B2B possono gestire le offe
 
 1. Open a quote.
 
-1. **[!UICONTROL Negotiation]****[!UICONTROL Comments]****[!UICONTROL History Log]**
+1. **[!UICONTROL Negotiation]**&#x200B;**[!UICONTROL Comments]**&#x200B;**[!UICONTROL History Log]**
 
    ![](./assets/quote-view-history.png){width="400"}
 

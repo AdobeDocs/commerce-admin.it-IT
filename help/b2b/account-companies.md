@@ -26,19 +26,19 @@ Vantaggi di un account aziendale:
 
 - Fornisce un meccanismo che consente ai commercianti di aumentare le entrate offrendo [credito del negozio aziendale](credit-company.md) come metodo di pagamento.
 
-- [](account-company-manage.md)
+- [&#128279;](account-company-manage.md)
 
 ## View company accounts
 
-__ [](account-company-create.md)[](account-company-manage.md) Utilizzare i controlli griglia standard per filtrare l&#39;elenco e modificare il layout delle colonne. Per un elenco delle descrizioni delle colonne, vedere la sezione _Descrizioni colonne_ in [Gestione degli account società](account-company-manage.md).
+__ [&#128279;](account-company-create.md) [&#128279;](account-company-manage.md) Utilizzare i controlli griglia standard per filtrare l&#39;elenco e modificare il layout delle colonne. Per un elenco delle descrizioni delle colonne, vedere la sezione _Descrizioni colonne_ in [Gestione degli account società](account-company-manage.md).
 
 I clienti possono creare un account aziendale dalla vetrina, oppure un commerciante può crearne uno dall’amministratore. Per impostazione predefinita, la possibilità di creare account società dalla vetrina è abilitata. If allowed by the configuration, a visitor to the store can request to open a company account. After the company account is approved, the company administrator can set up the company structure and users with various levels of permission.
 
-__**[!UICONTROL Customers]****[!UICONTROL Companies]**
+__&#x200B;**[!UICONTROL Customers]**&#x200B;**[!UICONTROL Companies]**
 
 ![](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-[!UICONTROL Companies] [](manage-company-hierarchy.md)[](/help/b2b/account-company-manage.md#company-options-and-columns) [](../getting-started/admin-grid-controls.md)
+[!UICONTROL Companies] [&#128279;](manage-company-hierarchy.md) [&#128279;](/help/b2b/account-company-manage.md#company-options-and-columns) [&#128279;](../getting-started/admin-grid-controls.md)
 
 ## Amministratore società
 
@@ -48,7 +48,7 @@ L&#39;esempio seguente mostra la griglia _Clienti_ con gli account iniziali dell
 
 Ogni società dispone di un amministratore unico identificato dall’indirizzo e-mail dell’account e dal nome e cognome dell’amministratore. The administrator can be assigned to other companies as a user, but they can be an administrator for only one company.
 
-[](account-company-structure.md)[](account-company-users.md)[](account-company-roles-permissions.md)
+[&#128279;](account-company-structure.md) [&#128279;](account-company-users.md) [&#128279;](account-company-roles-permissions.md)
 
 ### Imposta la password dell&#39;amministratore della società prima del primo accesso
 
@@ -71,13 +71,13 @@ Ogni società dispone di un amministratore unico identificato dall’indirizzo e
    - Numeri (1234567890)
    - Caratteri speciali (!@#$...)
 
-1. [!UICONTROL ****]
+1. [!UICONTROL **&#x200B;**]
 
    ![](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
 
-1. [!UICONTROL Customer Login][!UICONTROL ****][!UICONTROL ****]
+1. [!UICONTROL Customer Login][!UICONTROL **&#x200B;**][!UICONTROL **&#x200B;**]
 
-1. [!UICONTROL ****]
+1. [!UICONTROL **&#x200B;**]
 
    ![](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 

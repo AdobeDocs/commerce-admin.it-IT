@@ -66,7 +66,7 @@ Funzionamento delle carte regalo sul vetrina:
 
 - Gli account per i codici regalo vengono creati per tenere traccia del saldo di un voucher specifico. L&#39;amministratore dello store può regolare manualmente il saldo.
 
-Il cliente ricevente può utilizzare la sezione _[!UICONTROL Gift Card]_del dashboard account per verificare il saldo del proprio [conto gift card](product-gift-card-accounts.md) e riscattare gift card per [credito store](../customers/store-credit-using.md).
+Il cliente ricevente può utilizzare la sezione _[!UICONTROL Gift Card]_&#x200B;del dashboard account per verificare il saldo del proprio [conto gift card](product-gift-card-accounts.md) e riscattare gift card per [credito store](../customers/store-credit-using.md).
 
 ![Biglietto Regalo](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 

@@ -57,7 +57,7 @@ Se una regola del prezzo del carrello viene attivata dall’acquisto, il calcolo
 
    - (Facoltativo) Immetti **[!UICONTROL SKU]** per l&#39;opzione. L’opzione SKU è un suffisso che viene aggiunto allo SKU del prodotto.
 
-   - Se _[!UICONTROL Option Type]_è `File`, impostare i parametri per il file. Per **[!UICONTROL Compatible File Extensions]**, immettere le estensioni valide come valori separati da virgole (ad esempio `png, jpg, gif`). Per **[!UICONTROL Maximum Image Size]**, immettere la dimensione immagine massima in pixel. Se è una voce di testo, immettere il valore massimo per **[!UICONTROL Maximum Characters]**.
+   - Se _[!UICONTROL Option Type]_&#x200B;è `File`, impostare i parametri per il file. Per **[!UICONTROL Compatible File Extensions]**, immettere le estensioni valide come valori separati da virgole (ad esempio `png, jpg, gif`). Per **[!UICONTROL Maximum Image Size]**, immettere la dimensione immagine massima in pixel. Se è una voce di testo, immettere il valore massimo per **[!UICONTROL Maximum Characters]**.
 
    ![Aggiungi valori per opzione di personalizzazione](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 

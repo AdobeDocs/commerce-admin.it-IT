@@ -57,7 +57,7 @@ Questo metodo di impostazione presuppone che sia presente un conto PayPal.
 
 1. Se nell&#39;installazione di Commerce sono presenti più siti Web, store o visualizzazioni, impostare **[!UICONTROL Store View]** sulla visualizzazione dello store in cui si desidera applicare questa configurazione.
 
-1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**in cui si trova la tua azienda.
+1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**&#x200B;in cui si trova la tua azienda.
 
    Questa impostazione determina la selezione delle soluzioni PayPal visualizzate nella configurazione.
 
@@ -256,7 +256,7 @@ Imposta **[!UICONTROL Enable PayPal PayLater Experience]** su uno dei seguenti:
    - `Authorization` - Approva l&#39;acquisto e blocca i fondi. L&#39;importo non viene prelevato fino a quando non viene catturato dal mercante.
    - `Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente.
 
-1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**su `Yes`.
+1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_&#x200B;nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**&#x200B;su `Yes`.
 
 ### Passaggio 6: completare le impostazioni avanzate
 
@@ -397,7 +397,7 @@ Un [contratto di fatturazione](paypal-billing-agreements.md) è un contratto di 
 
 #### Impostazioni esperienza front-end
 
-Utilizza _[!UICONTROL Frontend Experience Settings]_per scegliere quali logo PayPal visualizzare sul tuo sito e per personalizzare l&#39;aspetto delle tue pagine di esercenti PayPal.
+Utilizza _[!UICONTROL Frontend Experience Settings]_&#x200B;per scegliere quali logo PayPal visualizzare sul tuo sito e per personalizzare l&#39;aspetto delle tue pagine di esercenti PayPal.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Frontend Experience Settings]**.
 

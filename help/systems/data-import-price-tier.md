@@ -24,7 +24,7 @@ Nell&#39;esempio seguente vengono esportati i dati relativi ai prezzi dei livell
 
 1. Nella barra laterale _Admin_, vai a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-1. In _[!UICONTROL Export Settings]_, impostare **[!UICONTROL Entity Type]**su `Advanced Pricing`.
+1. In _[!UICONTROL Export Settings]_, impostare **[!UICONTROL Entity Type]**&#x200B;su `Advanced Pricing`.
 
 1. Nella griglia **[!UICONTROL Entity Attributes]**, scorrere verso il basso fino agli attributi SKU ed effettuare le seguenti operazioni:
 

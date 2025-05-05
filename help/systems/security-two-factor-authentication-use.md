@@ -31,7 +31,7 @@ Per istruzioni complete, vedere [Accesso amministratore](../getting-started/admi
 
 1. Fare clic sul segno più ( **+** ) per aggiungere una voce e allineare la casella rossa con il codice QR per eseguire la scansione con la fotocamera sullo smartphone.
 
-1. Quando il telefono riconosce il codice QR e aggiunge una voce, inserisci il codice a 6 cifre nel _campo Amministratore_**[!UICONTROL Authenticator code]**.
+1. Quando il telefono riconosce il codice QR e aggiunge una voce, inserisci il codice a 6 cifre nel _campo Amministratore_&#x200B;**[!UICONTROL Authenticator code]**.
 
 1. Al termine, fare clic su **[!UICONTROL Confirm]**.
 

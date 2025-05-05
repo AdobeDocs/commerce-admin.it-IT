@@ -54,7 +54,7 @@ L&#39;ordine fornitore originale può essere chiuso se non è più necessario.
 
 ## Approvazioni ordini fornitore
 
-Per un cliente designato come approvatore in base alla struttura della società o al ruolo aziendale assegnato, nella pagina del dashboard _[!UICONTROL My Purchase Orders]_viene visualizzata la scheda **[!UICONTROL Requires My Approval]**. Il cliente fa clic su questa scheda per esaminare gli OA in attesa di approvazione. Il contatore indica il numero di ordini in attesa di approvazione.
+Per un cliente designato come approvatore in base alla struttura della società o al ruolo aziendale assegnato, nella pagina del dashboard _[!UICONTROL My Purchase Orders]_&#x200B;viene visualizzata la scheda **[!UICONTROL Requires My Approval]**. Il cliente fa clic su questa scheda per esaminare gli OA in attesa di approvazione. Il contatore indica il numero di ordini in attesa di approvazione.
 
 Dopo aver fatto clic su **[!UICONTROL View]** per un ordine di acquisto e aver esaminato i dettagli, l&#39;approvatore può fare clic su **[!UICONTROL Approve]** o **[!UICONTROL Reject]**.
 

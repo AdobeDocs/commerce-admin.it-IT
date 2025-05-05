@@ -60,9 +60,9 @@ Se l&#39;archivio è [configurato](enable-basic-features.md) per consentire alle
 
 1. Nel pannello a sinistra, seleziona **[!UICONTROL Company Structure]**.
 
-1. **[!UICONTROL Business Structure]****[!UICONTROL Add Team]**
+1. **[!UICONTROL Business Structure]**&#x200B;**[!UICONTROL Add Team]**
 
-   - **[!UICONTROL Team Title]****[!UICONTROL Description]**
+   - **[!UICONTROL Team Title]**&#x200B;**[!UICONTROL Description]**
 
      The Team Title can be anything that represents the structure of the company, such as a team, office, or division within the company
 
@@ -78,7 +78,7 @@ Se l&#39;archivio è [configurato](enable-basic-features.md) per consentire alle
 
      ![](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Team Title]****[!UICONTROL Description]**
+   - **[!UICONTROL Team Title]**&#x200B;**[!UICONTROL Description]**
 
    - **[!UICONTROL Save]**
 
@@ -116,7 +116,7 @@ Quando l’amministratore della società lavora con la struttura della società,
 
 ## Assign users to teams
 
-[](account-company-structure.md)
+[&#128279;](account-company-structure.md)
 
 ![](./assets/company-users-added.png){width="700" zoomable="yes"}
 

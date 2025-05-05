@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Assegnare società a un catalogo condiviso
 
-Esistono due modi per assegnare una società a un catalogo condiviso. È possibile effettuare l&#39;assegnazione dalla griglia _[!UICONTROL Shared Catalogs]_oppure modificare la società e assegnare il catalogo condiviso come si sceglie un gruppo di clienti.
+Esistono due modi per assegnare una società a un catalogo condiviso. È possibile effettuare l&#39;assegnazione dalla griglia _[!UICONTROL Shared Catalogs]_&#x200B;oppure modificare la società e assegnare il catalogo condiviso come si sceglie un gruppo di clienti.
 
 ![Assegna società](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 

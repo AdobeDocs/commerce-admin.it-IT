@@ -26,7 +26,7 @@ Nell&#39;esempio seguente viene illustrato come pianificare una modifica di prez
 
 1. Dalla griglia _[!UICONTROL Products]_, apri un prodotto in modalità di modifica.
 
-1. Nella casella _[!UICONTROL Scheduled Changes]_nella parte superiore della pagina, fare clic su **[!UICONTROL Schedule New Update]**.
+1. Nella casella _[!UICONTROL Scheduled Changes]_&#x200B;nella parte superiore della pagina, fare clic su **[!UICONTROL Schedule New Update]**.
 
    ![Pianifica nuovo aggiornamento](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -49,7 +49,7 @@ Nell&#39;esempio seguente viene illustrato come pianificare una modifica di prez
      >
      >La data di inizio e la data di fine della campagna devono essere definite utilizzando il fuso orario di amministrazione **_predefinito_**, convertito dal fuso orario locale di ciascun sito Web. Ad esempio, se hai più siti web in fusi orari diversi, ma desideri avviare una campagna basata su un fuso orario USA (predefinito), devi pianificare un aggiornamento separato per ogni fuso orario locale. In questo caso, impostare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** come convertiti da ogni fuso orario del sito Web locale al fuso orario predefinito dell&#39;amministratore.
 
-1. Scorri verso il basso fino a _[!UICONTROL Price]_e fai clic su **[!UICONTROL Advanced Pricing]**.
+1. Scorri verso il basso fino a _[!UICONTROL Price]_&#x200B;e fai clic su **[!UICONTROL Advanced Pricing]**.
 
 1. Immettere **[!UICONTROL Special Price]** per il prodotto durante la campagna pianificata e fare clic su **[!UICONTROL Done]**.
 

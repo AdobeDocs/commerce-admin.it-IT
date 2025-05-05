@@ -84,7 +84,7 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
 
 ### Passaggio 3: visualizzare l’anteprima della pagina
 
-1. Nella sezione _[!UICONTROL Currently Active]_, impostare **[!UICONTROL Enable Page]**su `Yes`.
+1. Nella sezione _[!UICONTROL Currently Active]_, impostare **[!UICONTROL Enable Page]**&#x200B;su `Yes`.
 
    ![Abilitazione della pagina](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
    | Inserisci immagine... | Fare clic per inserire un&#39;immagine caricata o un&#39;immagine dalla raccolta nella posizione del cursore nella casella di testo HTML. |
    | Inserisci variabile... | Fare clic per inserire una variabile nella posizione del cursore nella casella di testo HTML. |
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
 
    - Per controllare il posizionamento del codice all&#39;interno del contenitore padre, scegliere un **[!UICONTROL Alignment]**:
 

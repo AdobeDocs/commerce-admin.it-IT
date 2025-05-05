@@ -69,7 +69,7 @@ Quando è presente uno sconto con imposta incorporata, Commerce calcola una _imp
 
 1. Comprensione abituale da parte del cliente del prezzo scontato (totale ordine):
 
-   _Prezzo intero dell&#39;articolo comprese le imposte **meno**l&#39;importo dello sconto: $100 - $8,33 = $91,67_
+   _Prezzo intero dell&#39;articolo comprese le imposte **meno**&#x200B;l&#39;importo dello sconto: $100 - $8,33 = $91,67_
 
 1. **Modalità di calcolo del prezzo scontato in Commerce** (vedere la formula precedente):
 

@@ -104,7 +104,7 @@ Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboa
 
         Al termine del processo di compilazione, le modifiche verranno distribuite nella parte anteriore dell’archivio PWA.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
 
 1. Dopo una conferma, configurare le opzioni **[!UICONTROL Set Automatic Security Scan]** per uno dei tipi seguenti:
 

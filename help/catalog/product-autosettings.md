@@ -14,6 +14,6 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-La sezione _[!UICONTROL Autosettings]_include tutti gli attributi che sono dipendenze per altre operazioni. È possibile applicare l&#39;impostazione predefinita [Configurazione RMA](../stores-purchase/rma-configure.md) al prodotto o sostituirla, in base alle esigenze.
+La sezione _[!UICONTROL Autosettings]_&#x200B;include tutti gli attributi che sono dipendenze per altre operazioni. È possibile applicare l&#39;impostazione predefinita [Configurazione RMA](../stores-purchase/rma-configure.md) al prodotto o sostituirla, in base alle esigenze.
 
 ![Impostazioni automatiche](./assets/product-autosettings.png){width="600" zoomable="yes"}

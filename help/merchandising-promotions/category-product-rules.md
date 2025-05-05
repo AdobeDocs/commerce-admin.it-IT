@@ -41,7 +41,7 @@ Le regole per prodotti di categoria possono accelerare il processo di assegnazio
 
    >[!NOTE]
    >
-   >Verificare che l&#39;attributo selezionato NON sia un elemento _[!UICONTROL Input Type]_a selezione multipla.
+   >Verificare che l&#39;attributo selezionato NON sia un elemento _[!UICONTROL Input Type]_&#x200B;a selezione multipla.
 
 1. Completare la [configurazione](smart-attributes-configure.md) per identificare ogni attributo _smart_ da utilizzare con Visual Merchandiser.
 

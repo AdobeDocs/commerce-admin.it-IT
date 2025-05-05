@@ -21,11 +21,11 @@ Il file `security.txt` contiene le informazioni di contatto e i collegamenti rel
 
 1. Nel pannello a sinistra in _[!UICONTROL Security]_, fai clic su **[!UICONTROL Security.txt]**.
 
-1. Nella sezione _[!UICONTROL General]_, impostare **[!UICONTROL Enable]**su `Yes`.
+1. Nella sezione _[!UICONTROL General]_, impostare **[!UICONTROL Enable]**&#x200B;su `Yes`.
 
    ![Configurazione generale della sicurezza](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL Contact Information]_immettere quanto segue:
+1. In _[!UICONTROL Contact Information]_&#x200B;immettere quanto segue:
 
    - L’indirizzo e-mail e il numero di telefono della persona che gestisce i problemi di sicurezza per il tuo negozio.
 
@@ -33,7 +33,7 @@ Il file `security.txt` contiene le informazioni di contatto e i collegamenti rel
 
    ![Configurazione informazioni di contatto](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL Other Information]_immettere quanto segue:
+1. In _[!UICONTROL Other Information]_&#x200B;immettere quanto segue:
 
    - URL della chiave **[!UICONTROL Encryption]** pubblica. Esempio: `https://example.com/pgp-key.txt`
 

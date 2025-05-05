@@ -16,7 +16,7 @@ Un ordine che è stato pagato, ma è in attesa di spedizione ha lo stato `Proces
 
 1. Nella barra laterale _Admin_, selezionare **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. Nell&#39;elenco _[!UICONTROL Orders]_trovare l&#39;ordine da spedire e fare clic per aprirlo.
+1. Nell&#39;elenco _[!UICONTROL Orders]_&#x200B;trovare l&#39;ordine da spedire e fare clic per aprirlo.
 
 1. Nell&#39;angolo superiore destro fare clic sul pulsante **[!UICONTROL Ship]**.
 
@@ -26,7 +26,7 @@ Un ordine che è stato pagato, ma è in attesa di spedizione ha lo stato `Proces
 
 1. Per fare in modo che il vettore generi un&#39;etichetta di spedizione, selezionare la casella di controllo **[!UICONTROL Create Shipping Label]** e impostare le opzioni:
 
-   - Per aggiungere un numero di tracciamento, scorrere verso il basso fino alla sezione _[!UICONTROL Shipping Information]_e fare clic su **[!UICONTROL Add Tracking Number]**.
+   - Per aggiungere un numero di tracciamento, scorrere verso il basso fino alla sezione _[!UICONTROL Shipping Information]_&#x200B;e fare clic su **[!UICONTROL Add Tracking Number]**.
 
    - Effettuare una delle seguenti operazioni:
 
@@ -62,7 +62,7 @@ Un ordine che è stato pagato, ma è in attesa di spedizione ha lo stato `Proces
 
 1. Individuare la spedizione nell&#39;elenco e fare clic per aprire il record.
 
-1. Se si desidera aggiungere un commento all&#39;ordine, scorrere verso il basso fino alla sezione _[!UICONTROL Comments History]_e immettere il commento nella casella.
+1. Se si desidera aggiungere un commento all&#39;ordine, scorrere verso il basso fino alla sezione _[!UICONTROL Comments History]_&#x200B;e immettere il commento nella casella.
 
    - Per inviare il commento al cliente tramite e-mail, selezionare la casella di controllo **[!UICONTROL Notify Customer by Email]**.
 
@@ -78,7 +78,7 @@ Un ordine che è stato pagato, ma è in attesa di spedizione ha lo stato `Proces
 
 1. Trovare l&#39;ordine di spedizione nella griglia e fare clic su **[!UICONTROL View]**.
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Shipping & Handling Information]_e fai clic su **[!UICONTROL Track Order]**.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Shipping & Handling Information]_&#x200B;e fai clic su **[!UICONTROL Track Order]**.
 
    Tutte le informazioni di tracciamento disponibili vengono visualizzate in una finestra popup.
 

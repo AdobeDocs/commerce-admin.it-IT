@@ -34,7 +34,7 @@ Per configurare, disponi tali origini dall’alto verso il basso in priorità pe
 
 1. Fare clic su **[!UICONTROL Assign Sources]**.
 
-1. Nella visualizzazione _[!UICONTROL Assign Sources]_, selezionare la casella di controllo per l&#39;origine richiesta, quindi fare clic su **[!UICONTROL Done]**per assegnare un&#39;origine al titolo.
+1. Nella visualizzazione _[!UICONTROL Assign Sources]_, selezionare la casella di controllo per l&#39;origine richiesta, quindi fare clic su **[!UICONTROL Done]**&#x200B;per assegnare un&#39;origine al titolo.
 
 >[!NOTE]
 >

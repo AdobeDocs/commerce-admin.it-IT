@@ -42,7 +42,7 @@ Il numero di stelle indica il livello di soddisfazione del prodotto. I visitator
 
 ### [!UICONTROL My Product Reviews]
 
-Nella sezione _[!UICONTROL My Product Reviews]_del dashboard account cliente sono elencate tutte le revisioni inviate dal cliente e approvate per la pubblicazione. Ogni riepilogo di revisione include la data di invio della revisione, i collegamenti alla pagina del prodotto e i dettagli della revisione.
+Nella sezione _[!UICONTROL My Product Reviews]_&#x200B;del dashboard account cliente sono elencate tutte le revisioni inviate dal cliente e approvate per la pubblicazione. Ogni riepilogo di revisione include la data di invio della revisione, i collegamenti alla pagina del prodotto e i dettagli della revisione.
 
 ![Recensioni dei miei prodotti](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Con le Revisioni dei prodotti Commerce, i clienti possono assegnare valutazioni 
 
    ![Amministratore - Valutazioni](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Rating Title]_, immetti **[!UICONTROL Default Value]**per la nuova valutazione.
+1. Nella sezione _[!UICONTROL Rating Title]_, immetti **[!UICONTROL Default Value]**&#x200B;per la nuova valutazione.
 
    Se applicabile, inserisci anche la traduzione per ogni visualizzazione store.
 

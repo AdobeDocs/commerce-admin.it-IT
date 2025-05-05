@@ -132,7 +132,7 @@ Queste impostazioni consigliate possono essere utilizzate per la maggior parte d
 | Calcolo delle imposte | Su elemento |
 | Spedizione fiscale? | Sì |
 | Applica sconto | Al lordo delle imposte, sconto sui prezzi, incluse le imposte. |
-| Commento | Affinché gli esercenti B2B forniscano considerazioni più semplici sulla catena di approvvigionamento dell’IVA. Il calcolo dell&#39;imposta sulla riga è valido; tuttavia, verificare con la propria giurisdizione fiscale. L&#39;impostazione presuppone che un commerciante si trovi nella catena di fornitura e che le merci vendute siano utilizzate da altri fornitori per sconti IVA e così via. Questa definizione consente di individuare facilmente le imposte per articolo per generare più rapidamente gli sconti. <br/><br/>**_Nota:_**alcune giurisdizioni richiedono strategie di arrotondamento diverse non supportate da Commerce e non tutte le giurisdizioni consentono l&#39;imposta a livello di articolo o di riga. |
+| Commento | Affinché gli esercenti B2B forniscano considerazioni più semplici sulla catena di approvvigionamento dell’IVA. Il calcolo dell&#39;imposta sulla riga è valido; tuttavia, verificare con la propria giurisdizione fiscale. L&#39;impostazione presuppone che un commerciante si trovi nella catena di fornitura e che le merci vendute siano utilizzate da altri fornitori per sconti IVA e così via. Questa definizione consente di individuare facilmente le imposte per articolo per generare più rapidamente gli sconti. <br/><br/>**_Nota:_**&#x200B;alcune giurisdizioni richiedono strategie di arrotondamento diverse non supportate da Commerce e non tutte le giurisdizioni consentono l&#39;imposta a livello di articolo o di riga. |
 
 {style="table-layout:auto"}
 

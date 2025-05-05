@@ -89,7 +89,7 @@ I commercianti sottoposti a revisione per le imposte pagate per i beni digitali 
 - Per stabilire il luogo di residenza del cliente, è possibile utilizzare l&#39;indirizzo di spedizione del cliente e la registrazione di una transazione di pagamento riuscita. Il pagamento viene accettato solo se l&#39;indirizzo di spedizione corrisponde alle informazioni del provider di pagamenti.
 - Le informazioni possono anche essere acquisite direttamente dall’archivio dati nelle tabelle del database di Commerce.
 
-_**Per raccogliere informazioni sull&#39;imposta sui beni digitali:**_
+_&#x200B;**Per raccogliere informazioni sull&#39;imposta sui beni digitali:**&#x200B;_
 
 1. Caricare le aliquote fiscali per tutti i paesi membri dell&#39;UE.
 

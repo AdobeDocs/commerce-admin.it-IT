@@ -56,7 +56,7 @@ Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL El
 
    ![[!DNL Page Builder] pulsante Applica modello](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Scegliere un modello dalla griglia _[!UICONTROL Apply Template]_e fare clic su **[!UICONTROL Apply]**alla fine della riga.
+1. Scegliere un modello dalla griglia _[!UICONTROL Apply Template]_&#x200B;e fare clic su **[!UICONTROL Apply]**&#x200B;alla fine della riga.
 
    Per visualizzare l&#39;intero modello, è possibile fare clic sull&#39;immagine della miniatura del modello. Questa azione espande l’immagine in modo da poter visualizzare l’intero modello, in base alle esigenze.
 

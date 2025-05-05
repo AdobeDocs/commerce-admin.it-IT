@@ -16,7 +16,7 @@ Le _impostazioni di invio posta_ consentono di indirizzare le e-mail restituite 
 
 >[!IMPORTANT]
 >
->**Avviso di protezione** Tutti i commercianti devono impostare immediatamente la configurazione di invio della posta per proteggersi da un potenziale exploit di esecuzione del codice remoto identificato di recente. Fino alla risoluzione del problema, si consiglia di evitare di utilizzare [!DNL Sendmail] per le comunicazioni e-mail. In _[!UICONTROL Mail Sending Settings]_, assicurarsi che_[!UICONTROL Set Return Path]_ sia impostato su `No`.
+>**Avviso di protezione** Tutti i commercianti devono impostare immediatamente la configurazione di invio della posta per proteggersi da un potenziale exploit di esecuzione del codice remoto identificato di recente. Fino alla risoluzione del problema, si consiglia di evitare di utilizzare [!DNL Sendmail] per le comunicazioni e-mail. In _[!UICONTROL Mail Sending Settings]_, assicurarsi che&#x200B;_[!UICONTROL Set Return Path]_ sia impostato su `No`.
 
 Per un elenco dettagliato delle impostazioni di configurazione, vedere [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) in _Riferimento configurazione_.
 

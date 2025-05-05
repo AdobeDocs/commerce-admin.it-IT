@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_è un servizio basato su cloud basato su [Adobe Commerce Intelligence][1]{:target="_blank"}. Per ulteriori informazioni, vedere [Reporting avanzato][2]{:target="_blank"} nella_ Guida introduttiva _.
+_[!DNL Advanced Reporting]_&#x200B;è un servizio basato su cloud basato su [Adobe Commerce Intelligence][1]{:target="_blank"}. Per ulteriori informazioni, vedere [Reporting avanzato][2]{:target="_blank"} nella_ Guida introduttiva _.
 
 ![Generazione avanzata di rapporti](./assets/advanced-reporting.png)<!-- zoom -->
 

@@ -43,7 +43,7 @@ Per un&#39;installazione in più store, il magazzino predefinito viene inizialme
 
 | Pulsante | Descrizione |
 |--|--|
-| [!UICONTROL Add New Stock] | Apre il modulo _[!UICONTROL New Stock]_utilizzato per immettere una nuova scorta di magazzino per la mappatura del magazzino al canale di vendita. |
+| [!UICONTROL Add New Stock] | Apre il modulo _[!UICONTROL New Stock]_&#x200B;utilizzato per immettere una nuova scorta di magazzino per la mappatura del magazzino al canale di vendita. |
 
 ## Descrizioni delle colonne Gestisci scorte
 

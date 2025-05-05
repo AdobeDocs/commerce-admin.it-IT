@@ -49,7 +49,7 @@ Puoi creare fino a dieci varianti di ogni entità da testare. Per i prodotti, ut
 
    **Metodo 1:** Scegliere una visualizzazione esistente
 
-   Nell&#39;intestazione della colonna _[!UICONTROL View]_fare clic sulla freccia giù e scegliere la visualizzazione che fornirà i dati per l&#39;esperimento.
+   Nell&#39;intestazione della colonna _[!UICONTROL View]_&#x200B;fare clic sulla freccia giù e scegliere la visualizzazione che fornirà i dati per l&#39;esperimento.
 
    **Metodo 2:** Creare una nuova visualizzazione di report
 

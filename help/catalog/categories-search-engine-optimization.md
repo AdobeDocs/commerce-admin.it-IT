@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Categorie - Impostazioni ottimizzazione motore di ricerca
 
-La sezione _[!UICONTROL Search Engine Optimization]_specifica i campi [Chiave URL](catalog-urls.md) e [Metadati](../merchandising-promotions/meta-data.md) utilizzati dai motori di ricerca per indicizzare la categoria. Anche se alcuni motori di ricerca ignorano le parole chiave meta, altri continuano a utilizzarle. L’attuale best practice SEO (Search Engine Optimization) consiste nell’incorporare parole chiave di alto valore sia nel titolo meta che nella descrizione meta.
+La sezione _[!UICONTROL Search Engine Optimization]_&#x200B;specifica i campi [Chiave URL](catalog-urls.md) e [Metadati](../merchandising-promotions/meta-data.md) utilizzati dai motori di ricerca per indicizzare la categoria. Anche se alcuni motori di ricerca ignorano le parole chiave meta, altri continuano a utilizzarle. L’attuale best practice SEO (Search Engine Optimization) consiste nell’incorporare parole chiave di alto valore sia nel titolo meta che nella descrizione meta.
 
 ![Ottimizzazione motore di ricerca](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

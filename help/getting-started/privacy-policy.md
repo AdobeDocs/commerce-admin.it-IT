@@ -36,7 +36,7 @@ Qualsiasi rappresentazione di informazioni che consenta di dedurre ragionevolmen
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Nella griglia, trovare **[!UICONTROL Privacy Policy]**. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL Select]**e scegliere **[!UICONTROL Edit]**.
+1. Nella griglia, trovare **[!UICONTROL Privacy Policy]**. Nella colonna _[!UICONTROL Action]_&#x200B;fare clic su **[!UICONTROL Select]**&#x200B;e scegliere **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >

@@ -44,7 +44,7 @@ Per aggiungere un video di prodotto, devi prima ottenere una chiave API dal tuo 
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Product Video]_e incolla **[!UICONTROL YouTube API key]**.
+1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Product Video]_&#x200B;e incolla **[!UICONTROL YouTube API key]**.
 
    ![Configurazione video prodotto](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -56,7 +56,7 @@ Per aggiungere un video di prodotto, devi prima ottenere una chiave API dal tuo 
 
 1. Apri un prodotto in modalità di modifica.
 
-1. Scorri fino alla sezione _[!UICONTROL Images and Videos]_ed espandila.
+1. Scorri fino alla sezione _[!UICONTROL Images and Videos]_&#x200B;ed espandila.
 
    ![Immagini e video](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ Per aggiungere un video di prodotto, devi prima ottenere una chiave API dal tuo 
 
    >[!NOTE]
    >
-   >Se l&#39;opzione di configurazione _[!UICONTROL Autostart base video]_è impostata su `Yes` ma il video non inizia a essere riprodotto automaticamente, ciò potrebbe essere dovuto ai criteri di riproduzione automatica applicati dal browser e non controllabili da Adobe Commerce. Ogni browser supportato dispone di criteri di riproduzione automatica che possono cambiare nel tempo e il video potrebbe non essere riprodotto automaticamente in futuro. Come best practice consigliata, non affidarti alla riproduzione automatica per le funzionalità business critical e verifica il comportamento di riproduzione automatica del video nel tuo store con ogni browser supportato.
+   >Se l&#39;opzione di configurazione _[!UICONTROL Autostart base video]_&#x200B;è impostata su `Yes` ma il video non inizia a essere riprodotto automaticamente, ciò potrebbe essere dovuto ai criteri di riproduzione automatica applicati dal browser e non controllabili da Adobe Commerce. Ogni browser supportato dispone di criteri di riproduzione automatica che possono cambiare nel tempo e il video potrebbe non essere riprodotto automaticamente in futuro. Come best practice consigliata, non affidarti alla riproduzione automatica per le funzionalità business critical e verifica il comportamento di riproduzione automatica del video nel tuo store con ogni browser supportato.
 
 ## Gestisci accesso API
 

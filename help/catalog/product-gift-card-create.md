@@ -96,7 +96,7 @@ Potrebbero essere presenti singoli attributi aggiuntivi che descrivono il prodot
 
 ### Passaggio 5: completare le informazioni sulla gift card
 
-La sezione _[!UICONTROL Gift Card Information]_delle impostazioni del prodotto può essere utilizzata per ignorare le impostazioni della [configurazione gift card](../configuration-reference/sales/gift-cards.md) che determinano la modalità di gestione della gift card.
+La sezione _[!UICONTROL Gift Card Information]_&#x200B;delle impostazioni del prodotto può essere utilizzata per ignorare le impostazioni della [configurazione gift card](../configuration-reference/sales/gift-cards.md) che determinano la modalità di gestione della gift card.
 
 1. Scorri verso il basso fino alla sezione _[!UICONTROL Gift Card Information]_.
 

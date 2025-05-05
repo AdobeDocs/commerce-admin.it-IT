@@ -38,7 +38,7 @@ ht-degree: 1%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | Globale | Determina se il titolare della gift card può riscattare il proprio valore in contanti. Opzioni: `Yes` / `No`. |
-| [!UICONTROL Lifetime (days)] | Globale | Determina il numero di giorni di validità della scheda. Se lasciata vuota, la scheda non scade. <br/><br/>**_Importante:_**In alcuni luoghi non è consentito impostare dati di scadenza sulle gift card. Controlla le leggi locali prima di impostare una vita per le tue carte regalo. |
+| [!UICONTROL Lifetime (days)] | Globale | Determina il numero di giorni di validità della scheda. Se lasciata vuota, la scheda non scade. <br/><br/>**_Importante:_**&#x200B;In alcuni luoghi non è consentito impostare dati di scadenza sulle gift card. Controlla le leggi locali prima di impostare una vita per le tue carte regalo. |
 | [!UICONTROL Allow Gift Message] | Visualizzazione store | Determina se l&#39;opzione per includere un messaggio regalo è disponibile per i clienti che acquistano una gift card. Opzioni: `Yes` / `No`. |
 | [!UICONTROL Gift Message Maximum Length] | Visualizzazione store | Determina il numero massimo di caratteri consentiti in un messaggio gift card. Valore predefinito: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Globale | Determina se viene generato un conto gift card quando un cliente effettua un ordine o quando l&#39;ordine viene fatturato. Opzioni: `Ordered` / `Invoiced` |

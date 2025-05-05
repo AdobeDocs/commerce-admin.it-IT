@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Images and Videos]
 
-Dalla sezione _[!UICONTROL Images and Videos]_è possibile eseguire attività di base per la gestione delle immagini, ad esempio caricare più immagini, ridisporre le immagini e controllare la modalità di utilizzo di ogni immagine. Per un ulteriore controllo sulle singole immagini, puoi aprire ogni immagine in_ visualizzazione dettagli _. Per ulteriori informazioni, vedere [Immagini e video del catalogo](catalog-images-video.md).
+Dalla sezione _[!UICONTROL Images and Videos]_&#x200B;è possibile eseguire attività di base per la gestione delle immagini, ad esempio caricare più immagini, ridisporre le immagini e controllare la modalità di utilizzo di ogni immagine. Per un ulteriore controllo sulle singole immagini, puoi aprire ogni immagine in_ visualizzazione dettagli _. Per ulteriori informazioni, vedere [Immagini e video del catalogo](catalog-images-video.md).
 
 ## Carica una nuova immagine
 

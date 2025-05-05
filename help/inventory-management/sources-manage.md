@@ -36,7 +36,7 @@ Tutti gli archivi iniziano con un Source predefinito che deve rimanere abilitato
 
 Se si modifica il Source predefinito, è possibile modificare tutte le configurazioni ad eccezione del nome e del codice. È consigliabile che i commercianti single-source aggiungano informazioni corrispondenti alla loro posizione.
 
-Nella pagina _[!UICONTROL Manage Sources]_sono elencate tutte le ubicazioni di magazzino e le strutture di evasione disponibili. È possibile aggiungere nuove origini di magazzino e modificare le ubicazioni esistenti.
+Nella pagina _[!UICONTROL Manage Sources]_&#x200B;sono elencate tutte le ubicazioni di magazzino e le strutture di evasione disponibili. È possibile aggiungere nuove origini di magazzino e modificare le ubicazioni esistenti.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 

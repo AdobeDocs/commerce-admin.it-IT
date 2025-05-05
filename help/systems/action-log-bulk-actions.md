@@ -40,4 +40,4 @@ Il registro delle azioni in blocco registra i dettagli delle operazioni di massa
 
 1. Trova l’azione desiderata nel registro.
 
-1. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL Details]**.
+1. Nella colonna _[!UICONTROL Action]_&#x200B;fare clic su **[!UICONTROL Details]**.

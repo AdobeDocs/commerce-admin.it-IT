@@ -43,7 +43,7 @@ _Ordina per SKU_ è un [widget](../content-design/widgets.md) che può essere vi
 
 1. Fare clic su **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (solo Adobe Commerce B2B) _**Per abilitare la funzione Ordina per SKU, disabilitare la funzione Ordine rapido:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (solo Adobe Commerce B2B) _&#x200B;**Per abilitare la funzione Ordina per SKU, disabilitare la funzione Ordine rapido:**&#x200B;_
 
 1. Vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -75,7 +75,7 @@ Quando la funzionalità è configurata per lo store, i clienti possono ordinare 
 
 1. Aggiunge singoli elementi in base alle preferenze:
 
-   _**Aggiunge ogni elemento per SKU:**_
+   _&#x200B;**Aggiunge ogni elemento per SKU:**&#x200B;_
 
    - Immette **[!UICONTROL SKU]** e **[!UICONTROL Qty]** dell&#39;elemento da ordinare.
 
@@ -83,9 +83,9 @@ Quando la funzionalità è configurata per lo store, i clienti possono ordinare 
 
    - Clic su **[!UICONTROL Add to Cart]**.
 
-   _**Carica un file CSV con più elementi:**_
+   _&#x200B;**Carica un file CSV con più elementi:**&#x200B;_
 
-   - Prepara un file CSV](../systems/data-csv.md) dei dati di [importazione (valore separato da virgole) che include colonne per `SKU` e `Qty`.
+   - Prepara un file CSV[&#128279;](../systems/data-csv.md) dei dati di importazione (valore separato da virgole) che include colonne per `SKU` e `Qty`.
 
    ![SKU da importare](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
 

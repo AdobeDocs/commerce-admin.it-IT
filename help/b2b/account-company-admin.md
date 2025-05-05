@@ -33,7 +33,7 @@ L’amministratore della società viene inizialmente assegnato al momento della 
 
 1. Immettere **[!UICONTROL Job Title]** del nuovo amministratore società.
 
-   Questa azione cancella il modulo e i campi obbligatori _[!UICONTROL First Name]_e_[!UICONTROL Last Name]_ sono evidenziati.
+   Questa azione cancella il modulo e i campi obbligatori _[!UICONTROL First Name]_&#x200B;e_[!UICONTROL Last Name]_ sono evidenziati.
 
 1. Immettere l&#39;indirizzo **[!UICONTROL Email]** del nuovo amministratore della società.
 

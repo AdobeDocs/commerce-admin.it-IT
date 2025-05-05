@@ -49,7 +49,7 @@ Quando è abilitata la [modalità di produzione](https://experienceleague.adobe.
 
 ``bin/magento config:set dev/grid/async_indexing 1``
 
-Quando è attivata la modalità predefinita [](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode), completare i passaggi seguenti:
+Quando è attivata la modalità predefinita [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode), completare i passaggi seguenti:
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

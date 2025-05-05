@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Categorie - Impostazioni di progettazione
 
-La sezione _[!UICONTROL Design]_consente di controllare l&#39;aspetto di una categoria, tutte le pagine di prodotto associate e il layout di pagina. È possibile personalizzare una pagina categoria e i relativi prodotti associati per una promozione o per differenziare la categoria. Ad esempio, puoi sviluppare un design distintivo per un marchio o una linea di prodotti speciale, oppure applicare un aggiornamento per un periodo di tempo specifico.
+La sezione _[!UICONTROL Design]_&#x200B;consente di controllare l&#39;aspetto di una categoria, tutte le pagine di prodotto associate e il layout di pagina. È possibile personalizzare una pagina categoria e i relativi prodotti associati per una promozione o per differenziare la categoria. Ad esempio, puoi sviluppare un design distintivo per un marchio o una linea di prodotti speciale, oppure applicare un aggiornamento per un periodo di tempo specifico.
 
 ![Impostazioni di progettazione per una categoria](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Quando lo stesso prodotto viene assegnato a più categorie con impostazioni di progettazione diverse per ciascuna categoria, si consiglia di impostare **Usa percorso categorie per URL prodotto** = `Yes` nelle [opzioni di configurazione Ottimizzazione motore di ricerca](../configuration-reference/catalog/catalog.md#search-engine-optimization). Per accedere a questa impostazione, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, espandi **[!UICONTROL Catalog]**e scegli **Catalogo**sotto nel pannello a sinistra, quindi espandi la sezione **Ottimizzazione motore di ricerca**nella pagina.
+>Quando lo stesso prodotto viene assegnato a più categorie con impostazioni di progettazione diverse per ciascuna categoria, si consiglia di impostare **Usa percorso categorie per URL prodotto** = `Yes` nelle [opzioni di configurazione Ottimizzazione motore di ricerca](../configuration-reference/catalog/catalog.md#search-engine-optimization). Per accedere a questa impostazione, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, espandi **[!UICONTROL Catalog]**&#x200B;e scegli **Catalogo**&#x200B;sotto nel pannello a sinistra, quindi espandi la sezione **Ottimizzazione motore di ricerca**&#x200B;nella pagina.
 
 | Campo | Descrizione |
 |--- |--- |
@@ -34,7 +34,7 @@ La sezione _[!UICONTROL Design]_consente di controllare l&#39;aspetto di una cat
 
 {{ce-feature}}
 
-La sezione _[!UICONTROL Scheduled Design Update]_determina l&#39;intervallo di date in cui viene applicata una struttura personalizzata alle pagine delle categorie.
+La sezione _[!UICONTROL Scheduled Design Update]_&#x200B;determina l&#39;intervallo di date in cui viene applicata una struttura personalizzata alle pagine delle categorie.
 
 | Campo | Descrizione |
 |--- |--- |

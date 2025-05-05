@@ -56,13 +56,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Le regole di prezzo vengono elaborate automaticamente con altre regole di sistema. La frequenza di elaborazione dipende dalla configurazione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) cron[. Quando crei un regola di prezzi, concedi abbastanza tempo per farlo entrare nel sistema. Se sei sicuro che sia nel sistema, prova il regola.
+>Le regole di prezzo vengono elaborate automaticamente con altre regole di sistema. La frequenza di elaborazione dipende dalla configurazione[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) cron. Quando crei un regola di prezzi, concedi abbastanza tempo per farlo entrare nel sistema. Se sei sicuro che sia nel sistema, prova il regola.
 
 ## Impostazioni di configurazione {#config}
 
-Per accesso le impostazioni di configurazione store, scegli **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**dalla_ barra laterale Amministratore _.
+Per accesso le impostazioni di configurazione store, scegli **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;dalla_ barra laterale Amministratore _.
 
-## Elementi obsoleti dell&#39;API UPS {#ups-api}
+## Elementi obsoleti dell'API UPS {#ups-api}
 
 >[!IMPORTANT]
 >

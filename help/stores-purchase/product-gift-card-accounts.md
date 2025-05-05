@@ -26,7 +26,7 @@ La configurazione della gift card stabilisce le impostazioni predefinite per tut
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Gift Cards]**.
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Gift Card Email Settings]_ed effettuare le seguenti operazioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Gift Card Email Settings]_&#x200B;ed effettuare le seguenti operazioni:
 
    - Impostare **[!UICONTROL Gift Card Notification Email Sender]** sull&#39;identità dello store che viene visualizzata come mittente delle notifiche gift card.
 
@@ -34,7 +34,7 @@ La configurazione della gift card stabilisce le impostazioni predefinite per tut
 
    ![Impostazioni e-mail gift card](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Email Sent from Gift Card Account Management]_ed effettuare le seguenti operazioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;ed effettuare le seguenti operazioni:
 
    - Impostare **[!UICONTROL Gift Card Email Sender]** sull&#39;identità dello store per essere visualizzato come mittente delle gift card.
 
@@ -67,7 +67,7 @@ Consulta [Archivia indirizzi e-mail](../configuration-reference/general/store-em
 
 ### Passaggio 3: stabilire il pool di codici gift card
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Gift Card Account General Settings]_ed effettuare le seguenti operazioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Gift Card Account General Settings]_&#x200B;ed effettuare le seguenti operazioni:
 
    ![Impostazioni generali account gift card](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -115,7 +115,7 @@ Consulta [Archivia indirizzi e-mail](../configuration-reference/general/store-em
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Gift Card Account]**.
 
-1. Nella sezione _[!UICONTROL Information]_, impostare **[!UICONTROL Active]**su `Yes` ed eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Information]_, impostare **[!UICONTROL Active]**&#x200B;su `Yes` ed eseguire le operazioni seguenti:
 
    - Per rendere il saldo della carta rimborsabile al momento del pagamento o trasferito al credito del negozio del cliente, impostare **[!UICONTROL Redeemable]** su `Yes`.
 

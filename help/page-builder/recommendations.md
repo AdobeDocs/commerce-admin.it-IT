@@ -45,11 +45,11 @@ Utilizza il tipo di contenuto _Consigli di prodotto_ per aggiungere una [unità 
 
 1. Apri la pagina, il blocco o il blocco dinamico in modalità di modifica.
 
-1. Espandere la sezione _[!UICONTROL Content]_e fare clic su **[!UICONTROL Edit with Page Builder]**o nell&#39;area di anteprima del contenuto per aprire l&#39;area di lavoro [!DNL Page Builder].
+1. Espandere la sezione _[!UICONTROL Content]_&#x200B;e fare clic su **[!UICONTROL Edit with Page Builder]**&#x200B;o nell&#39;area di anteprima del contenuto per aprire l&#39;area di lavoro [!DNL Page Builder].
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**nell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**&#x200B;nell&#39;area di visualizzazione.
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Add Content]_, trascina un segnaposto **[!UICONTROL Product Recommendation]**nella riga.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Add Content]_, trascina un segnaposto **[!UICONTROL Product Recommendation]**&#x200B;nella riga.
 
    ![Aggiunta del tipo di contenuto Consiglio di prodotto](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ Utilizza il tipo di contenuto _Consigli di prodotto_ per aggiungere una [unità 
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Selected]**.
 
-   Il nome del consiglio di prodotto selezionato viene visualizzato nella sezione _[!UICONTROL Selection]_della pagina_[!UICONTROL Edit Product Recommendation]_.
+   Il nome del consiglio di prodotto selezionato viene visualizzato nella sezione _[!UICONTROL Selection]_&#x200B;della pagina&#x200B;_[!UICONTROL Edit Product Recommendation]_.
 
 1. Apporta le modifiche necessarie alle [Impostazioni avanzate](#advanced-settings).
 

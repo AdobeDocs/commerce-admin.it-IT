@@ -22,7 +22,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Rule]**.
 
-1. Completa _[!UICONTROL Rule Information]_come segue:
+1. Completa _[!UICONTROL Rule Information]_&#x200B;come segue:
 
    ![Regola promemoria e-mail](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -55,9 +55,9 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
    >[!NOTE]
    >
-   >Se un cliente ha più di un carrello abbandonato, una lista dei desideri o una combinazione di entrambi, il promemoria e-mail viene attivato una sola volta per quel cliente. Per attivare nuovamente lo stesso promemoria e-mail, utilizzare il campo _[!UICONTROL Repeat Schedule]_per impostare il numero di giorni tra le e-mail. <br/>
+   >Se un cliente ha più di un carrello abbandonato, una lista dei desideri o una combinazione di entrambi, il promemoria e-mail viene attivato una sola volta per quel cliente. Per attivare nuovamente lo stesso promemoria e-mail, utilizzare il campo _[!UICONTROL Repeat Schedule]_&#x200B;per impostare il numero di giorni tra le e-mail. <br/>
    >
-   >Lo stesso promemoria e-mail è **_non riattivato_** per lo stesso cliente per **_nuovi_** carrelli abbandonati ed elenchi di desideri **_dopo_** il periodo _[!UICONTROL Repeat Schedule]_è terminato.
+   >Lo stesso promemoria e-mail è **_non riattivato_** per lo stesso cliente per **_nuovi_** carrelli abbandonati ed elenchi di desideri **_dopo_** il periodo _[!UICONTROL Repeat Schedule]_&#x200B;è terminato.
 
    Completa la condizione per descrivere lo scenario che attiva il promemoria e-mail.
 
@@ -83,7 +83,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
      ![Promemoria e-mail - titoli e descrizioni](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - Nella sezione _[!UICONTROL Titles and Descriptions Per Store View]_, immettere **[!UICONTROL Rule Title]**e **[!UICONTROL Description]**per la_ Visualizzazione archivio predefinita _. Per più visualizzazioni dello store, immetti il titolo e la descrizione appropriati per ciascuna di esse.
+   - Nella sezione _[!UICONTROL Titles and Descriptions Per Store View]_, immettere **[!UICONTROL Rule Title]**&#x200B;e **[!UICONTROL Description]**&#x200B;per la_ Visualizzazione archivio predefinita _. Per più visualizzazioni dello store, immetti il titolo e la descrizione appropriati per ciascuna di esse.
 
      >[!NOTE]
      >

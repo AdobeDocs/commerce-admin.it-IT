@@ -28,9 +28,9 @@ Lo stato delle richieste ricevute dalla vetrina per creare una società è `Pend
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   È possibile utilizzare il selettore _[!UICONTROL Columns]_sopra la griglia per visualizzare la colonna **[!UICONTROL Status]**.
+   È possibile utilizzare il selettore _[!UICONTROL Columns]_&#x200B;sopra la griglia per visualizzare la colonna **[!UICONTROL Status]**.
 
-1. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL Edit]**.
+1. Nella colonna _[!UICONTROL Action]_&#x200B;fare clic su **[!UICONTROL Edit]**.
 
 1. Imposta **[!UICONTROL Company Status]** su `Active`.
 

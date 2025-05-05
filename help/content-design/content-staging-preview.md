@@ -26,7 +26,7 @@ Qualsiasi giorno o periodo di tempo durante una campagna può essere visualizzat
 
    - _Da qualsiasi pagina con modifiche pianificate_
 
-      - Apri qualsiasi pagina con una casella _[!UICONTROL Scheduled Changes]_nella parte superiore.
+      - Apri qualsiasi pagina con una casella _[!UICONTROL Scheduled Changes]_&#x200B;nella parte superiore.
       - Fare clic su **[!UICONTROL Preview]**.
 
    L’anteprima viene visualizzata in una nuova scheda del browser e mostra come appare il prodotto durante la campagna pianificata.

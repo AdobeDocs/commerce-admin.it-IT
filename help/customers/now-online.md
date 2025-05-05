@@ -1,6 +1,6 @@
 ---
 title: Clienti online
-description: L'opzione _Now Online_ del menu [!UICONTROL Customers ] elenca tutti i clienti e i visitatori attualmente in linea nel tuo negozio.
+description: L'opzione _Now Online_ del menu [!UICONTROL Customers &#x200B;] elenca tutti i clienti e i visitatori attualmente in linea nel tuo negozio.
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt

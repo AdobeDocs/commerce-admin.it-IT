@@ -321,7 +321,7 @@ L&#39;immagine a capo regalo deve essere un campione che mostra il motivo ripetu
 
 1. Per caricare una miniatura **[!UICONTROL Image]** della confezione regalo, fai clic su **[!UICONTROL Choose File]** e seleziona il file da caricare dalla directory.
 
-   Una miniatura dell&#39;immagine viene visualizzata in _[!UICONTROL Gift Wrapping Information]_dopo il salvataggio del record.
+   Una miniatura dell&#39;immagine viene visualizzata in _[!UICONTROL Gift Wrapping Information]_&#x200B;dopo il salvataggio del record.
 
 1. Fare clic su **[!UICONTROL Save]**.
 

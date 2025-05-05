@@ -45,7 +45,7 @@ Nell&#39;esempio seguente viene utilizzata la mappatura delle parole chiave basa
 
 ### Passaggio 1: creare un attributo
 
-1. Nell&#39;elenco _[!UICONTROL Products]_aprire `Montana Wind Jacket` (MJ03) in modalità di modifica.
+1. Nell&#39;elenco _[!UICONTROL Products]_&#x200B;aprire `Montana Wind Jacket` (MJ03) in modalità di modifica.
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Attribute]**.
 1. Nella pagina _Seleziona attributo_ fare clic su **[!UICONTROL Create New Attribute]**.
 1. Completa le proprietà dell’attributo come segue:
@@ -80,15 +80,15 @@ Nell&#39;esempio seguente viene utilizzata la mappatura delle parole chiave basa
    ![Sezione Attributi con parola chiave di ricerca](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Al termine, fare clic su **[!UICONTROL Save]**.
-1. Vai a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**e aggiorna **[!UICONTROL Page Cache]**.
+1. Vai a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;e aggiorna **[!UICONTROL Page Cache]**.
 
 ### Passaggio 3: mappare il secondo prodotto
 
-1. Nell&#39;elenco _[!UICONTROL Products]_aprire `Chaz Kangaroo Hoodie` (MH01) in modalità di modifica.
+1. Nell&#39;elenco _[!UICONTROL Products]_&#x200B;aprire `Chaz Kangaroo Hoodie` (MH01) in modalità di modifica.
 1. Scorri verso il basso ed espandi la sezione **[!UICONTROL Attributes]**.
 1. Nel campo **[!UICONTROL Search Keywords]**, immettere lo SKU per l&#39;altro prodotto, `MJ03`.
 1. Fare clic su **[!UICONTROL Save]**.
-1. Vai a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**e aggiorna **[!UICONTROL Page Cache]**.
+1. Vai a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;e aggiorna **[!UICONTROL Page Cache]**.
 
 ### Passaggio 4: testarlo nella vetrina
 

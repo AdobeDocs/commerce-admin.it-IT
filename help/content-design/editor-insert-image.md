@@ -21,7 +21,7 @@ Dall’editor, puoi inserire un’immagine utilizzando tre tipi di origine:
 
 1. Apri una pagina, un blocco o un blocco dinamico in modalità di modifica.
 
-1. Andare alla sezione _[!UICONTROL Content]_e fare clic su qualsiasi elemento che supporta l&#39;editor.
+1. Andare alla sezione _[!UICONTROL Content]_&#x200B;e fare clic su qualsiasi elemento che supporta l&#39;editor.
 
 1. Posizionare il cursore nel punto in cui si desidera visualizzare l&#39;immagine.
 

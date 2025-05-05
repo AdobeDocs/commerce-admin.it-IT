@@ -36,7 +36,7 @@ I clienti che hanno accesso a un vaulting sicuro per memorizzare le informazioni
 
 1. Clic su **[!UICONTROL Place Order]**.
 
-Il metodo di pagamento salvato viene quindi visualizzato nella scheda _[!UICONTROL Stored Payment Methods]_del dashboard cliente.
+Il metodo di pagamento salvato viene quindi visualizzato nella scheda _[!UICONTROL Stored Payment Methods]_&#x200B;del dashboard cliente.
 
 ## Elimina un metodo di pagamento memorizzato
 

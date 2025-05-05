@@ -20,7 +20,7 @@ Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volt
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Rule]**.
 
-   La sezione _[!UICONTROL Rule Information]_include sezioni espandibili per **[!UICONTROL Conditions]**e **[!UICONTROL Actions]**.
+   La sezione _[!UICONTROL Rule Information]_&#x200B;include sezioni espandibili per **[!UICONTROL Conditions]**&#x200B;e **[!UICONTROL Actions]**.
 
    ![Regola prezzo catalogo - informazioni](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -54,7 +54,7 @@ Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volt
 
    >[!NOTE]
    >
-   >L&#39;impostazione _[!UICONTROL Priority]_è importante quando lo stesso prodotto catalogo soddisfa le condizioni impostate per più di una regola di prezzo. La regola con l’impostazione di priorità più alta (le priorità dal più alto al più basso sono 0,1,2,3...) diventa attiva per il prodotto.
+   >L&#39;impostazione _[!UICONTROL Priority]_&#x200B;è importante quando lo stesso prodotto catalogo soddisfa le condizioni impostate per più di una regola di prezzo. La regola con l’impostazione di priorità più alta (le priorità dal più alto al più basso sono 0,1,2,3...) diventa attiva per il prodotto.
 
 ## Passaggio 2: definire le condizioni
 
@@ -251,7 +251,7 @@ Specifica le condizioni che devono essere soddisfatte prima che la regola del pr
 
 | Campo | Descrizione |
 |-----|-----------|
-| [!UICONTROL Apply] | Determina il tipo di calcolo applicato all’acquisto. Opzioni: <br/>**[!UICONTROL Apply as percentage of original]**- Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale del prezzo normale.<br/>**[!UICONTROL Apply as fixed amount]** - Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo regolare. <br/>**[!UICONTROL Adjust final price to this percentage]**- Adegua il prezzo finale di una percentuale del prezzo normale.<br/>**[!UICONTROL Adjust final price to discount value]** - Imposta il prezzo finale su un importo fisso e scontato. <br/><br/>**_Nota:_**il prezzo normale si riferisce al prezzo di base del prodotto senza sconti promozionali o per prezzi avanzati (speciali/livello/gruppo). Il prezzo finale si riferisce al prezzo scontato visualizzato nel carrello. <br/>Il prezzo del prodotto**_final _**è calcolato come**_prezzo minimo _**rilevante, utilizzando la seguente formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Determina il tipo di calcolo applicato all’acquisto. Opzioni: <br/>**[!UICONTROL Apply as percentage of original]**- Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale del prezzo normale.<br/>**[!UICONTROL Apply as fixed amount]** - Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo regolare. <br/>**[!UICONTROL Adjust final price to this percentage]**- Adegua il prezzo finale di una percentuale del prezzo normale.<br/>**[!UICONTROL Adjust final price to discount value]** - Imposta il prezzo finale su un importo fisso e scontato. <br/><br/>**_Nota:_**&#x200B;il prezzo normale si riferisce al prezzo di base del prodotto senza sconti promozionali o per prezzi avanzati (speciali/livello/gruppo). Il prezzo finale si riferisce al prezzo scontato visualizzato nel carrello. <br/>Il prezzo del prodotto&#x200B;**_final _**&#x200B;è calcolato come&#x200B;**_prezzo minimo _**&#x200B;rilevante, utilizzando la seguente formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Obbligatorio) L’importo dello sconto offerto. |
 | [!UICONTROL Discard Subsequent Rules] | Determina se è possibile applicare regole aggiuntive a questo acquisto. Per evitare l&#39;applicazione di più sconti allo stesso acquisto, selezionare `Yes`. Opzioni: `Yes` / `No` |
 

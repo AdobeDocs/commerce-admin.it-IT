@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dopo aver aggiunto [sorgenti](sources-assign-per-product.md), aggiorna le quantità di magazzino per il prodotto. Questi valori tengono traccia degli importi delle scorte disponibili.
 
-Per nascondere le scorte di un&#39;origine dalle spedizioni senza rimuovere l&#39;origine, impostare _[!UICONTROL Source Item Status]_su `Out of Stock`. Le opzioni SSA e di spedizione accedono solo alle origini elencate come `In Stock` con quantità di magazzino disponibile.
+Per nascondere le scorte di un&#39;origine dalle spedizioni senza rimuovere l&#39;origine, impostare _[!UICONTROL Source Item Status]_&#x200B;su `Out of Stock`. Le opzioni SSA e di spedizione accedono solo alle origini elencate come `In Stock` con quantità di magazzino disponibile.
 
 Tutte le quantità e le origini aggiornate vengono visualizzate nella griglia di prodotto.
 
@@ -33,7 +33,7 @@ Tutte le quantità e le origini aggiornate vengono visualizzate nella griglia di
 1. Per impostare una notifica per le quantità di magazzino, effettuare una delle seguenti operazioni:
 
    - Quantità notifica personalizzata: deselezionare la casella di controllo **[!UICONTROL Use Default]** e immettere un importo in **[!UICONTROL Notify Qty]**.
-   - Quantità di notifica predefinita: selezionare la casella di controllo **[!UICONTROL Use Default]**. [!DNL Commerce] verifica e utilizza l&#39;impostazione in _[!UICONTROL Advanced Inventory]_o nella configurazione dell&#39;archivio globale.
+   - Quantità di notifica predefinita: selezionare la casella di controllo **[!UICONTROL Use Default]**. [!DNL Commerce] verifica e utilizza l&#39;impostazione in _[!UICONTROL Advanced Inventory]_&#x200B;o nella configurazione dell&#39;archivio globale.
 
    ![Aggiorna quantità prodotto per Source](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
@@ -44,6 +44,6 @@ Tutte le quantità e le origini aggiornate vengono visualizzate nella griglia di
    - Scegliere **[!UICONTROL Save & Close]** dal menu **[!UICONTROL Save]** (![freccia menu](../assets/icon-menu-down-arrow-red.png)).
 
 
-La griglia prodotti viene aggiornata con un elenco di tutte le origini e delle quantità correlate. Per i prodotti con più di cinque origini assegnate, passa il cursore del mouse sulla colonna _[!UICONTROL Quantity per Source]_per visualizzare l&#39;elenco completo.
+La griglia prodotti viene aggiornata con un elenco di tutte le origini e delle quantità correlate. Per i prodotti con più di cinque origini assegnate, passa il cursore del mouse sulla colonna _[!UICONTROL Quantity per Source]_&#x200B;per visualizzare l&#39;elenco completo.
 
 ![Quantità di prodotti per origine](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

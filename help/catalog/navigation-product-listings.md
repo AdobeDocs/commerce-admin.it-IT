@@ -16,7 +16,7 @@ Gli elenchi di prodotti possono essere impostati in modo da essere visualizzati 
 
 >[!NOTE]
 >
->Quando si ordina una categoria in base a un attributo di prodotto, anche i prodotti con gli stessi valori di attributo vengono ordinati in base al rispettivo _[!UICONTROL Product ID]_in ordine crescente.
+>Quando si ordina una categoria in base a un attributo di prodotto, anche i prodotti con gli stessi valori di attributo vengono ordinati in base al rispettivo _[!UICONTROL Product ID]_&#x200B;in ordine crescente.
 
 ![Prodotti visualizzati come griglia](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ Gli elenchi di prodotti possono essere impostati in modo da essere visualizzati 
 
    >[!NOTE]
    >
-   >Per visualizzare correttamente i prodotti e i relativi prezzi in base a _ordinamento dei prodotti in base al prezzo_, assicurarsi che le impostazioni per la visualizzazione del prezzo nella [configurazione IVA](../configuration-reference/sales/tax.md) abbiano lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla il valore **[!UICONTROL Catalog Prices]**. E per_[!UICONTROL Price Display Settings]_, controlla il valore **[!UICONTROL Display Product Prices in Catalog]**. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
+   >Per visualizzare correttamente i prodotti e i relativi prezzi in base a _ordinamento dei prodotti in base al prezzo_, assicurarsi che le impostazioni per la visualizzazione del prezzo nella [configurazione IVA](../configuration-reference/sales/tax.md) abbiano lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla il valore **[!UICONTROL Catalog Prices]**. E per&#x200B;_[!UICONTROL Price Display Settings]_, controlla il valore **[!UICONTROL Display Product Prices in Catalog]**. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
 
 1. Impostare **[!UICONTROL List Mode]** predefinito su uno dei seguenti valori:
 
@@ -95,7 +95,7 @@ Le impostazioni di impaginazione vengono visualizzate nella parte superiore e in
 | Controllo | Descrizione |
 |--- |--- |
 | ![Visualizza griglia](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Visualizza l&#39;elenco in formato Griglia o Elenco. |
-| ![Ordina per](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Modifica l&#39;ordinamento dell&#39;elenco. La proprietà vetrina _[!UICONTROL Used for Sorting in Product Listing]_determina quali [attributi di prodotto](../catalog/product-attributes.md) possono essere utilizzati per ordinare l&#39;elenco. |
+| ![Ordina per](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Modifica l&#39;ordinamento dell&#39;elenco. La proprietà vetrina _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;determina quali [attributi di prodotto](../catalog/product-attributes.md) possono essere utilizzati per ordinare l&#39;elenco. |
 | ![Mostra per pagina](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Determina quanti prodotti vengono visualizzati per pagina. |
 | ![Collegamenti di paginazione](./assets/control-pagination.png) | Collegamenti di impaginazione - Collegamenti di navigazione ad altre pagine. |
 

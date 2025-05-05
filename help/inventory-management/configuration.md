@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Il modulo [!DNL Inventory Management] supporta le impostazioni di configurazione dell&#39;inventario a livello di prodotto e globale e fornisce inoltre impostazioni aggiuntive che influiscono sulla disponibilità dell&#39;origine, sui prodotti della vetrina e sulla spedizione dell&#39;ordine. Le impostazioni di configurazione si applicano a:
 
-- L&#39;intero catalogo: Vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Quindi, espandi **[!UICONTROL Catalog]**nel pannello a sinistra e seleziona **[!UICONTROL Inventory]**.
+- L&#39;intero catalogo: Vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Quindi, espandi **[!UICONTROL Catalog]**&#x200B;nel pannello a sinistra e seleziona **[!UICONTROL Inventory]**.
 
 - Prodotti specifici: vai a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. Quindi, aprire il prodotto in modalità di modifica e fare clic su **[!UICONTROL Advanced Inventory]** nella sezione _[!UICONTROL Sources]_.
 
@@ -46,7 +46,7 @@ Gli archivi e i prodotti di [!DNL Commerce] supportano le seguenti configurazion
 
 ## Fallimento della configurazione ed ereditarietà
 
-Le configurazioni sostituiscono o si applicano nel seguente percorso di ereditarietà: la sezione del prodotto _[!UICONTROL Sources]_sostituisce la configurazione dell&#39;archivio_[!UICONTROL Inventory]_ globale del prodotto _[!UICONTROL Advanced Options]_.
+Le configurazioni sostituiscono o si applicano nel seguente percorso di ereditarietà: la sezione del prodotto _[!UICONTROL Sources]_&#x200B;sostituisce la configurazione dell&#39;archivio&#x200B;_[!UICONTROL Inventory]_ globale del prodotto _[!UICONTROL Advanced Options]_.
 
 Quando [!DNL Commerce] controlla l&#39;applicazione delle impostazioni personalizzate, segue questo ordine:
 

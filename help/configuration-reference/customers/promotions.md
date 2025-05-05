@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | Globale | Definisce il formato del codice coupon. Le opzioni includono: <br/>**`Alphanumeric`**- Qualsiasi combinazione di lettere e numeri.<br/>**`Alphabetical`** - Solo lettere. <br/>**`Numeric`**- Solo numeri. |
 | [!UICONTROL Code Prefix] | Globale | Valore aggiunto all&#39;inizio di tutti i codici coupon. Se non desideri utilizzare un prefisso, lascia vuoto il campo. |
 | [!UICONTROL Code Suffix] | Globale | Valore aggiunto alla fine di tutti i codici. Se non desideri utilizzare un suffisso, lascia vuoto il campo. |
-| [!UICONTROL Dash Every X Characters] | Globale | Intervallo di inserimento di un trattino (-) in tutti i codici coupon. Se non desideri utilizzare un trattino, lascia vuoto il campo. <br/>_**Nota:**_ i codici coupon che differiscono solo di un trattino sono considerati codici diversi. |
+| [!UICONTROL Dash Every X Characters] | Globale | Intervallo di inserimento di un trattino (-) in tutti i codici coupon. Se non desideri utilizzare un trattino, lascia vuoto il campo. <br/>_&#x200B;**Nota:**&#x200B;_ i codici coupon che differiscono solo di un trattino sono considerati codici diversi. |
 
 {style="table-layout:auto"}

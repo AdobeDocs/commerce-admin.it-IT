@@ -39,8 +39,8 @@ Inizia con un Titolo predefinito assegnato con il Source predefinito e il tuo si
 
 Quantità è il numero di prodotti nel magazzino attivo disponibili per l&#39;acquisto. La quantità di prodotti aumenta e diminuisce quando si completano le spedizioni o si adegua il magazzino. L’aggiunta di prodotti a un carrello non influisce su questa quantità. La Quantità vendibile tiene traccia della disponibilità del prodotto per un canale di vendita e utilizza questo valore anche per determinare le scorte disponibili per l&#39;acquisto. A seconda del numero di origini, è possibile visualizzare e gestire la quantità di prodotto per uno dei seguenti elementi:
 
-- **Quantità** - Per i commercianti con una sola origine, la colonna e il valore _[!UICONTROL Quantity]_tengono traccia della quantità di scorte disponibili.
-- **Quantità per Source** - Per i commercianti con più origini, la colonna e i valori _[!UICONTROL Quantity per Source]_tengono traccia delle scorte disponibili in base all&#39;ubicazione. Se si aggiungono più origini, questo valore sostituisce la Quantità ed elenca tutte le origini e le quantità assegnate.
+- **Quantità** - Per i commercianti con una sola origine, la colonna e il valore _[!UICONTROL Quantity]_&#x200B;tengono traccia della quantità di scorte disponibili.
+- **Quantità per Source** - Per i commercianti con più origini, la colonna e i valori _[!UICONTROL Quantity per Source]_&#x200B;tengono traccia delle scorte disponibili in base all&#39;ubicazione. Se si aggiungono più origini, questo valore sostituisce la Quantità ed elenca tutte le origini e le quantità assegnate.
 
 Le prenotazioni tengono traccia delle richieste di scorte per l&#39;intero processo di acquisto, aggiungendo prodotti al carrello, completando il pagamento e gestendo i rimborsi. Per le scorte e le scorte disponibili, gli impegni riservano gli importi delle scorte per ordine tramite il processo di pagamento, sottratti dalla quantità vendibile. Gli impegni vengono convertiti in detrazioni quantità durante la fatturazione e la spedizione dei prodotti.
 

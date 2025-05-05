@@ -16,7 +16,7 @@ A volte, i clienti hanno bisogno di assistenza per il loro ordine. Gli amministr
 
 Tutte le azioni intraprese durante l’accesso come cliente vengono applicate all’account del cliente effettivo.
 
-Quando è abilitato per un utente _Admin_, il pulsante _[!UICONTROL Login as Customer]_viene visualizzato in più pagine:
+Quando è abilitato per un utente _Admin_, il pulsante _[!UICONTROL Login as Customer]_&#x200B;viene visualizzato in più pagine:
 
 * [Pagina Modifica cliente](../customers/update-account.md)
 * [Pagina Vista ordine](../stores-purchase/order-processing.md)

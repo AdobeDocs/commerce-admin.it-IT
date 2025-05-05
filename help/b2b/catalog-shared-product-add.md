@@ -26,9 +26,9 @@ Affinché un prodotto complesso (ad esempio bundle, raggruppato o configurabile)
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Per il prodotto nella griglia da aggiungere, passare alla colonna _[!UICONTROL Action]_e fare clic su **[!UICONTROL Edit]**.
+1. Per il prodotto nella griglia da aggiungere, passare alla colonna _[!UICONTROL Action]_&#x200B;e fare clic su **[!UICONTROL Edit]**.
 
-1. Scorri verso il basso, espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Product in Shared Catalogs]_ed effettua le seguenti operazioni:
+1. Scorri verso il basso, espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Product in Shared Catalogs]_&#x200B;ed effettua le seguenti operazioni:
 
    - Seleziona la casella di controllo di ciascun catalogo condiviso in cui deve essere visualizzato il prodotto. Per scegliere tutti i cataloghi, fare clic su **[!UICONTROL Select all]**.
 
@@ -46,7 +46,7 @@ Affinché un prodotto complesso (ad esempio bundle, raggruppato o configurabile)
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Per il catalogo condiviso nella griglia, passare alla colonna _[!UICONTROL Action]_e selezionare **[!UICONTROL Set Pricing and Structure]**.
+1. Per il catalogo condiviso nella griglia, passare alla colonna _[!UICONTROL Action]_&#x200B;e selezionare **[!UICONTROL Set Pricing and Structure]**.
 
 1. Nell&#39;albero delle categorie eseguire una delle operazioni seguenti:
 

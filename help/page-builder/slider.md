@@ -256,7 +256,7 @@ Un tipo di sfondo può essere un&#39;immagine o un video. [!DNL Page Builder] ut
 
 ### Impostazioni del tipo di immagine
 
-Se si imposta _[!UICONTROL Background Type]_su `Image`, utilizzare le impostazioni seguenti per definire la visualizzazione dell&#39;immagine di sfondo.
+Se si imposta _[!UICONTROL Background Type]_&#x200B;su `Image`, utilizzare le impostazioni seguenti per definire la visualizzazione dell&#39;immagine di sfondo.
 
 ![Banner con immagine di sfondo](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ Se si imposta il _Tipo di sfondo_ su `Video`, utilizzare le impostazioni seguent
 
 1. Fai clic sul punto di navigazione nella parte inferiore del cursore per visualizzare la casella degli strumenti per la singola diapositiva e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Nella sezione _[!UICONTROL Content]_, immettere **[!UICONTROL Message Text]**che si desidera visualizzare con la diapositiva.
+1. Nella sezione _[!UICONTROL Content]_, immettere **[!UICONTROL Message Text]**&#x200B;che si desidera visualizzare con la diapositiva.
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Content]_e utilizza l&#39;editor **[!UICONTROL Message Text]**per immettere e formattare il testo del banner.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Content]_&#x200B;e utilizza l&#39;editor **[!UICONTROL Message Text]**&#x200B;per immettere e formattare il testo del banner.
 
    È inoltre possibile inserire elementi quali collegamenti di testo, immagini e widget.
 

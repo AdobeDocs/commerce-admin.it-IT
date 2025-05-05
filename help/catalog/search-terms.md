@@ -48,7 +48,7 @@ Man mano che si apprendono nuove parole utilizzate dagli utenti per eseguire ric
 
    ![Informazioni generali sui termini di ricerca](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL General Information]_nella casella **[!UICONTROL Search Query]**immettere la parola o la frase che si desidera aggiungere come nuovo termine di ricerca.
+1. In _[!UICONTROL General Information]_&#x200B;nella casella **[!UICONTROL Search Query]**&#x200B;immettere la parola o la frase che si desidera aggiungere come nuovo termine di ricerca.
 
 1. Se il tuo archivio è disponibile in più lingue, scegli la visualizzazione **[!UICONTROL Store]** applicabile.
 
@@ -60,7 +60,7 @@ Man mano che si apprendono nuove parole utilizzate dagli utenti per eseguire ric
 
 ## Modificare un termine di ricerca
 
-1. Nella griglia _[!UICONTROL Search Terms]_fare clic sulla riga di un record per aprire il termine di ricerca in modalità di modifica.
+1. Nella griglia _[!UICONTROL Search Terms]_&#x200B;fare clic sulla riga di un record per aprire il termine di ricerca in modalità di modifica.
 
 1. Apporta le modifiche necessarie.
 
@@ -164,7 +164,7 @@ Adobe Commerce supporta due diverse soluzioni per la gestione dei sinonimi:
 
 ### Modificare un gruppo di sinonimi
 
-1. Nella griglia _[!UICONTROL Search Synonyms]_fare clic sulla riga di un record per aprire il gruppo di sinonimi in modalità di modifica.
+1. Nella griglia _[!UICONTROL Search Synonyms]_&#x200B;fare clic sulla riga di un record per aprire il gruppo di sinonimi in modalità di modifica.
 
 1. Apporta le modifiche necessarie.
 
@@ -176,7 +176,7 @@ Esistono due metodi per eliminare un gruppo di sinonimi: dalla griglia e nella p
 
 **Metodo 1:** nella griglia dei sinonimi di ricerca
 
-1. Nella griglia _[!UICONTROL Search Synonyms]_selezionare la casella di controllo del gruppo da eliminare.
+1. Nella griglia _[!UICONTROL Search Synonyms]_&#x200B;selezionare la casella di controllo del gruppo da eliminare.
 
 1. Nell&#39;angolo superiore sinistro dell&#39;elenco, impostare **[!UICONTROL Actions]** su `Delete`.
 

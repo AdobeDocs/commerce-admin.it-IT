@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Utilizzare la sezione _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_per impostare semplici blocchi promozionali che presentano una selezione di prodotti aggiuntivi che potrebbero essere di interesse per il cliente. Per ulteriori informazioni, vedere [Relazioni prodotto](../merchandising-promotions/product-relationships.md).
+Utilizzare la sezione _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;per impostare semplici blocchi promozionali che presentano una selezione di prodotti aggiuntivi che potrebbero essere di interesse per il cliente. Per ulteriori informazioni, vedere [Relazioni prodotto](../merchandising-promotions/product-relationships.md).
 
 ![Prodotti correlati, up-selling e cross-selling](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Gli articoli di cross-selling sono simili agli acquisti di impulso posizionati a
 
 >[!NOTE]
 >
->Per mostrare o nascondere gli articoli di cross-selling per visualizzazione store, vedere l&#39;opzione [Pagamento > Carrello acquisti](../configuration-reference/sales/checkout.md) denominata _[!UICONTROL Show Cross-sell Items]_nel carrello acquisti. Puoi nascondere le cross-selling durante vendite specifiche o per test A/B in una visualizzazione punto vendita.
+>Per mostrare o nascondere gli articoli di cross-selling per visualizzazione store, vedere l&#39;opzione [Pagamento > Carrello acquisti](../configuration-reference/sales/checkout.md) denominata _[!UICONTROL Show Cross-sell Items]_&#x200B;nel carrello acquisti. Puoi nascondere le cross-selling durante vendite specifiche o per test A/B in una visualizzazione punto vendita.
 
 ![Effetti di cross-selling nel carrello](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 

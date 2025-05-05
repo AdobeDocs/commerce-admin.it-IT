@@ -121,7 +121,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Ottimi
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Globale | Specifica l&#39;adattatore utilizzato per il rendering delle immagini. Dopo aver modificato l&#39;impostazione della scheda, svuotare la cache delle immagini del catalogo. Opzioni: `PHP GD2` / `ImageMagick` <br/><br/>**_Nota:_**il tipo di file ICO è supportato solo dall&#39;adattatore ImageMagik. |
+| [!UICONTROL Image Adapter] | Globale | Specifica l&#39;adattatore utilizzato per il rendering delle immagini. Dopo aver modificato l&#39;impostazione della scheda, svuotare la cache delle immagini del catalogo. Opzioni: `PHP GD2` / `ImageMagick` <br/><br/>**_Nota:_**&#x200B;il tipo di file ICO è supportato solo dall&#39;adattatore ImageMagik. |
 
 {style="table-layout:auto"}
 

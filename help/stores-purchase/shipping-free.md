@@ -38,7 +38,7 @@ _La spedizione gratuita_ è una delle promozioni più efficaci che puoi offrire.
 
    >[!TIP]
    >
-   >Per utilizzare la spedizione gratuita con [tariffe di tabella](shipping-table-rate.md), impostare _[!UICONTROL Minimum Order Amount]_su un valore talmente alto da non essere mai raggiunto. L&#39;utilizzo di questo valore elevato impedisce l&#39;applicazione della spedizione gratuita, a meno che non venga attivata da una regola di prezzo.
+   >Per utilizzare la spedizione gratuita con [tariffe di tabella](shipping-table-rate.md), impostare _[!UICONTROL Minimum Order Amount]_&#x200B;su un valore talmente alto da non essere mai raggiunto. L&#39;utilizzo di questo valore elevato impedisce l&#39;applicazione della spedizione gratuita, a meno che non venga attivata da una regola di prezzo.
 
 1. Imposta **[!UICONTROL Include Tax to Amount]**:
 

@@ -32,7 +32,7 @@ I modelli predefiniti includono il logo e le informazioni di archiviazione e pos
 | [!UICONTROL Insert Variable] | Inserisce una variabile nel modello in corrispondenza della posizione del cursore. |
 | [!UICONTROL Template Subject] | L&#39;oggetto del modello viene visualizzato nella colonna Oggetto e può essere utilizzato per ordinare e filtrare i modelli nell&#39;elenco. |
 | [!UICONTROL Template Content] | Il contenuto del modello in HTML. |
-| [!UICONTROL Template Styles] | Nella casella _[!UICONTROL Template Styles]_è possibile immettere qualsiasi dichiarazione di stile CSS necessaria per formattare il modello. |
+| [!UICONTROL Template Styles] | Nella casella _[!UICONTROL Template Styles]_&#x200B;è possibile immettere qualsiasi dichiarazione di stile CSS necessaria per formattare il modello. |
 
 {style="table-layout:auto"}
 
@@ -218,7 +218,7 @@ Il processo di personalizzazione del corpo di ogni messaggio è lo stesso utiliz
 
 ### Passaggio 3: Aggiornare la configurazione
 
-L&#39;analisi delle breadcrumb di _[!UICONTROL Currently Used For]_mostra dove viene utilizzato il modello. In questo esempio, la configurazione del modello si trova nella pagina_[!UICONTROL Customer Configuration]_, nella sezione _[!UICONTROL Create New Account Options]_e nel campo_[!UICONTROL Default Welcome Email]_.
+L&#39;analisi delle breadcrumb di _[!UICONTROL Currently Used For]_&#x200B;mostra dove viene utilizzato il modello. In questo esempio, la configurazione del modello si trova nella pagina&#x200B;_[!UICONTROL Customer Configuration]_, nella sezione _[!UICONTROL Create New Account Options]_&#x200B;e nel campo&#x200B;_[!UICONTROL Default Welcome Email]_.
 
 - Pagina - [!UICONTROL Customer Configuration]
 - Sezione - [!UICONTROL Create New Account Options]

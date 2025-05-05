@@ -124,11 +124,11 @@ Puoi aggiornare rapidamente e contemporaneamente le riscritture URL per più o t
 
 1. Seleziona tutti i prodotti per i quali desideri aggiornare le riscritture URL.
 
-1. In _[!UICONTROL Actions]_, scegliere **[!UICONTROL Update attributes]**per aggiornare più o tutte le riscritture.
+1. In _[!UICONTROL Actions]_, scegliere **[!UICONTROL Update attributes]**&#x200B;per aggiornare più o tutte le riscritture.
 
 1. In _[!UICONTROL PRODUCTS INFORMATION]_, fare clic sulla scheda **[!UICONTROL Websites]**.
 
-1. Nella sezione _[!UICONTROL Add Product To Websites]_selezionare tutti i siti Web per i quali si desidera ripristinare le riscritture URL.
+1. Nella sezione _[!UICONTROL Add Product To Websites]_&#x200B;selezionare tutti i siti Web per i quali si desidera ripristinare le riscritture URL.
 
 1. Al termine dell&#39;aggiornamento, fare clic su **[!UICONTROL Save]**.
 
