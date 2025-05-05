@@ -96,6 +96,6 @@ Per impostare la configurazione di sistema nell&#39;amministratore [!DNL Commerc
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

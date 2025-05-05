@@ -47,4 +47,4 @@ Rimuovi le proprietà del prodotto non utilizzate per una migliore strutturazion
 
 >[NOTA!]
 >
->Per informazioni sull&#39;ottimizzazione della configurazione dell&#39;attributo del prodotto per le prestazioni, consulta [Best practice per la gestione del catalogo](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) nella _playbook di implementazione_.
+>Per informazioni sull&#39;ottimizzazione della configurazione dell&#39;attributo del prodotto per le prestazioni, consulta [Best practice per la gestione del catalogo](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) nella _playbook di implementazione_.

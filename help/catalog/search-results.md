@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->In questa pagina sono descritte le funzionalità di ricerca standard che potrebbero essere diverse da [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>In questa pagina sono descritte le funzionalità di ricerca standard che potrebbero essere diverse da [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=it).
 
 L&#39;elenco _Risultati ricerca_ include tutti i prodotti che corrispondono ai criteri di ricerca specificati nella casella Ricerca rapida o nel modulo Ricerca avanzata. Ogni elenco di prodotti del catalogo ha essenzialmente gli stessi controlli. L&#39;unica differenza è che uno è il risultato di una query di ricerca e l&#39;altra è il risultato di [navigazione](navigation.md).
 
@@ -30,7 +30,7 @@ Con **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->A causa dell’annuncio sulla fine del supporto di Elasticsearch 7 relativo ad agosto 2023, si consiglia a tutti i clienti di Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante l&#39;aggiornamento del prodotto, vedere [Migrazione a OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) nella _Guida all&#39;aggiornamento_.
+>A causa dell’annuncio sulla fine del supporto di Elasticsearch 7 relativo ad agosto 2023, si consiglia a tutti i clienti di Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante l&#39;aggiornamento del prodotto, vedere [Migrazione a OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=it) nella _Guida all&#39;aggiornamento_.
 
 ## Mappatura delle parole chiave per estendere i risultati della ricerca
 

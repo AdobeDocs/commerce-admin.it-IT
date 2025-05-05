@@ -62,7 +62,7 @@ La lunghezza e il formato dei codici coupon generati automaticamente sono contro
 
 >[!NOTE]
 >
->Prima di creare i coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) nella _Guida alla configurazione_.
+>Prima di creare i coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it#run-cron-from-the-command-line) nella _Guida alla configurazione_.
 
 ### Metodo 1: creazione di un coupon specifico
 

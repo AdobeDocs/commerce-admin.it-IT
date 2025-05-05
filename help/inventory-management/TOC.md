@@ -58,5 +58,5 @@ ht-degree: 5%
    - [Panoramica](shipments.md)
    - [Crea spedizioni](shipments-create.md)
 - [Riferimento CLI](cli.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
 

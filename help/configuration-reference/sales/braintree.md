@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Se hai bisogno di assistenza per le spese impreviste sulla tua carta, visita la pagina [annulla abbonamento](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) per assistenza.
+>Se hai bisogno di assistenza per le spese impreviste sulla tua carta, visita la pagina [annulla abbonamento](https://helpx.adobe.com/it/manage-account/using/cancel-subscription.html) per assistenza.
 
 ## [!UICONTROL Basic Braintree Settings]
 

@@ -46,5 +46,5 @@ ht-degree: 7%
    - [Prodotti](products.md)
    - [Consigli di prodotto](recommendations.md)
 - [Modelli](templates.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
 

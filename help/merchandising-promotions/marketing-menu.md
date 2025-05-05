@@ -35,11 +35,11 @@ Vendite private e altri eventi catalogo sono un ottimo modo per utilizzare la ba
 
 ### [!UICONTROL Channels]
 
-Aumenta i ricavi espandendo le vendite ad altri negozi Web con [integrazione con Amazon Marketplace](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html). Il sottomenu Canali viene visualizzato solo quando è configurato il Sales Channel Amazon.
+Aumenta i ricavi espandendo le vendite ad altri negozi Web con [integrazione con Amazon Marketplace](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=it). Il sottomenu Canali viene visualizzato solo quando è configurato il Sales Channel Amazon.
 
 >[!TIP]
 >
->Channel Manager consente ai commercianti di aumentare le vendite, raggiungere nuovi clienti, semplificare le operazioni di vendita e risparmiare tempo integrando un catalogo di prodotti Adobe Commerce o di Magento Open Source con Walmart Marketplace. Per ulteriori informazioni sull&#39;installazione, l&#39;onboarding, la configurazione e la gestione di Channel Manager, vedere la [_Guida di Channel Manager_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html).
+>Channel Manager consente ai commercianti di aumentare le vendite, raggiungere nuovi clienti, semplificare le operazioni di vendita e risparmiare tempo integrando un catalogo di prodotti Adobe Commerce o di Magento Open Source con Walmart Marketplace. Per ulteriori informazioni sull&#39;installazione, l&#39;onboarding, la configurazione e la gestione di Channel Manager, vedere la [_Guida di Channel Manager_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=it).
 
 ### [!UICONTROL Communications]
 

@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ![Opzioni generali](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
+<!-- [General Options](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

@@ -36,7 +36,7 @@ La selezione di [rapporti sulle vendite](sales-reports.md) include i rapporti Or
 
 ### [!UICONTROL System Insights]
 
-(Solo per Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) fornisce informazioni sul sistema per le installazioni di Adobe Commerce sull&#39;infrastruttura cloud con monitoraggio delle prestazioni in tempo reale 24 ore su 24, 7 giorni su 7, report e consigli.
+(Solo per Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=it) fornisce informazioni sul sistema per le installazioni di Adobe Commerce sull&#39;infrastruttura cloud con monitoraggio delle prestazioni in tempo reale 24 ore su 24, 7 giorni su 7, report e consigli.
 
 ### [!UICONTROL Customers]
 

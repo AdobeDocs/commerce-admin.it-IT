@@ -74,7 +74,7 @@ Per accedere ai prodotti e ai servizi Commerce, tutti gli utenti amministratore 
 
 - **Account amministratore Commerce**—[Gestisci utenti amministratore Commerce](../systems/permissions-users-all.md) dall&#39;amministratore per l&#39;istanza Commerce. Agli account utente per amministratori di Commerce deve essere assegnato il ruolo Amministratore.
 
-  Gli amministratori di sistema nel progetto Commerce possono utilizzare [SSH per connettersi all&#39;ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment) e utilizzare i comandi Commerce CLI `admin:user:create` e `admin:user:unlock` per aggiungere o sbloccare gli account utente Admin.
+  Gli amministratori di sistema nel progetto Commerce possono utilizzare [SSH per connettersi all&#39;ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it#connect-to-a-remote-environment) e utilizzare i comandi Commerce CLI `admin:user:create` e `admin:user:unlock` per aggiungere o sbloccare gli account utente Admin.
 
 - **Account utente Adobe** - Un amministratore per l&#39;organizzazione Adobe associata all&#39;istanza Commerce deve accedere a Adobe Admin Console e aggiungere l&#39;Adobe ID per ogni amministratore Commerce all&#39;organizzazione. Quindi, devono assegnare le autorizzazioni e i diritti del prodotto per accedere all’applicazione Commerce. Vedi [Configurare gli utenti Adobe Commerce in Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
 
@@ -82,4 +82,4 @@ Gli amministratori che gestiscono la configurazione dell’integrazione Experien
 
 >[!NOTE]
 >
->Un Adobe ID è un account creato tramite Adobe che è necessario per accedere a prodotti e servizi tramite Experience Cloud. Gli amministratori di Commerce che non dispongono di un Adobe ID possono [creare un account gratuito](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) utilizzando lo stesso indirizzo e-mail utilizzato per accedere all&#39;amministratore di Commerce.
+>Un Adobe ID è un account creato tramite Adobe che è necessario per accedere a prodotti e servizi tramite Experience Cloud. Gli amministratori di Commerce che non dispongono di un Adobe ID possono [creare un account gratuito](https://helpx.adobe.com/it/manage-account/using/create-update-adobe-id.html) utilizzando lo stesso indirizzo e-mail utilizzato per accedere all&#39;amministratore di Commerce.

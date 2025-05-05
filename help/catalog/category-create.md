@@ -116,7 +116,7 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
 
 1. Se si desidera che la pagina delle categorie includa la sezione _`Filter by Attribute`_della navigazione a livelli, impostare **[!UICONTROL Anchor]**&#x200B;su `Yes`.
 
-1. Per le opzioni **[!UICONTROL Available Product Listing Sort By]**, selezionare uno o più valori disponibili per consentire ai clienti di ordinare l&#39;elenco. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Per le opzioni **[!UICONTROL Available Product Listing Sort By]**, selezionare uno o più valori disponibili per consentire ai clienti di ordinare l&#39;elenco. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Per impostazione predefinita, sono inclusi tutti i valori disponibili. Deselezionare la casella di controllo **[!UICONTROL Use All]** per modificare le selezioni. Ad esempio, i valori possono includere:
 
@@ -124,7 +124,7 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
    - `Product Name`
    - `Price`
 
-1. Per impostare l&#39;ordinamento predefinito per la categoria, scegliere il valore **[!UICONTROL Default Product Listing Sort By]**. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Per impostare l&#39;ordinamento predefinito per la categoria, scegliere il valore **[!UICONTROL Default Product Listing Sort By]**. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Per modificare l&#39;impostazione predefinita per la navigazione a livelli [passaggio di prezzo](navigation-layered.md#configure-price-navigation), eseguire le operazioni seguenti:
 

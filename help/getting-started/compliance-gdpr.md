@@ -52,5 +52,5 @@ Le aziende che si conformano al RGPD potrebbero avere obblighi aggiuntivi ai sen
 - Per i diagrammi di flusso dei dati e il mapping delle entità del database, vedere [Riferimento informazioni personali][2]{: target=&quot;_blank&quot;}.
 
 [1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=it
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf

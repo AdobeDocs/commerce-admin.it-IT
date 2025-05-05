@@ -98,7 +98,7 @@ Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui metodi di pagamento per supportare questa funzionalità quando l&#39;estensione Payment Services è installata e configurata, vedere la [Guida di Payment Services](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview).
+>Per ulteriori informazioni sui metodi di pagamento per supportare questa funzionalità quando l&#39;estensione Payment Services è installata e configurata, vedere la [Guida di Payment Services](https://experienceleague.adobe.com/it/docs/commerce/payment-services/guide-overview).
 
 ## Passaggio 3: sottomettere l&#39;ordine
 

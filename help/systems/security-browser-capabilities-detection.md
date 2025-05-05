@@ -18,7 +18,7 @@ Come la maggior parte dei siti web e delle applicazioni su Internet, Adobe Comme
 - Se le impostazioni di privacy del browser non consentono i cookie, è possibile configurare il sistema per reindirizzarli automaticamente alla pagina [Abilita cookie](../content-design/pages.md#enable-cookies), che spiega come creare le impostazioni consigliate con la maggior parte dei browser.
 - Se le impostazioni di privacy del browser non consentono JavaScript, è possibile configurare il sistema in modo che visualizzi il seguente messaggio sopra l&#39;intestazione di ogni pagina.
 
-Per informazioni tecniche, consultare [Browser supportati](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) nella _Guida all&#39;installazione_.
+Per informazioni tecniche, consultare [Browser supportati](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=it#supported-browsers) nella _Guida all&#39;installazione_.
 
 ## Configurare il rilevamento delle funzionalità del browser
 

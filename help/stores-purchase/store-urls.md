@@ -137,7 +137,7 @@ Se dopo aver seguito le istruzioni di configurazione, alcune pagine continuano a
 
 ## Utilizza un URL amministratore personalizzato
 
-Come [best practice per la sicurezza](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe consiglia di utilizzare un URL amministratore univoco invece del _admin_ predefinito o un termine comune come _backend_. Anche se non protegge direttamente il sito da un determinato attore non valido, può ridurre l&#39;esposizione a script che tentano di ottenere l&#39;accesso non autorizzato.
+Come [best practice per la sicurezza](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=it), Adobe consiglia di utilizzare un URL amministratore univoco invece del _admin_ predefinito o un termine comune come _backend_. Anche se non protegge direttamente il sito da un determinato attore non valido, può ridurre l&#39;esposizione a script che tentano di ottenere l&#39;accesso non autorizzato.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Anche se è possibile modificare l’URL e il percorso dell’amministratore in 
 
 >[!NOTE]
 >
->Per precauzione, non provare a modificare l’URL amministratore personalmente, a meno che non si sappia come modificare i file di configurazione sul server. Per i progetti Adobe Commerce distribuiti nell&#39;infrastruttura cloud, modifica l&#39;URL amministratore seguendo le [istruzioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
+>Per precauzione, non provare a modificare l’URL amministratore personalmente, a meno che non si sappia come modificare i file di configurazione sul server. Per i progetti Adobe Commerce distribuiti nell&#39;infrastruttura cloud, modifica l&#39;URL amministratore seguendo le [istruzioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=it#admin-url) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
 
 ### Metodo 1: Cambiare da Amministratore
 
@@ -199,7 +199,7 @@ Anche se è possibile modificare l’URL e il percorso dell’amministratore in 
 
    >[!TIP]
    >
-   >Per Adobe Commerce sull&#39;infrastruttura cloud, puoi impostare un percorso amministratore personalizzato utilizzando la variabile `ADMIN_URL` nell&#39;interfaccia utente di Cloud. Consulta l&#39;[argomento Variabili amministratore](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+   >Per Adobe Commerce sull&#39;infrastruttura cloud, puoi impostare un percorso amministratore personalizzato utilizzando la variabile `ADMIN_URL` nell&#39;interfaccia utente di Cloud. Consulta l&#39;[argomento Variabili amministratore](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=it) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
    - **Percorso amministratore predefinito**
 

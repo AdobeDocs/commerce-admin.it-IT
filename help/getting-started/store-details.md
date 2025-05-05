@@ -169,7 +169,7 @@ Le opzioni per paese identificano il paese in cui è situata la tua azienda e i 
 
 Per informazioni sulla risoluzione dei problemi di configurazione del paese, vedere i seguenti articoli della Knowledge Base di supporto di [!DNL Commerce]:
 
-- [Come aggiungere un paese](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Come aggiungere un paese](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=it)
 
 ## [!UICONTROL Merchant Location]
 

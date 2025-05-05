@@ -45,11 +45,11 @@ Pianificando queste attività, puoi evitare i blocchi che si verificano quando i
 
 **_Per abilitare gli aggiornamenti e la reindicizzazione:_**
 
-Quando è abilitata la [modalità di produzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (la modalità predefinita utilizzata in Adobe Commerce nell&#39;infrastruttura cloud), eseguire il comando seguente:
+Quando è abilitata la [modalità di produzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=it#production-mode) (la modalità predefinita utilizzata in Adobe Commerce nell&#39;infrastruttura cloud), eseguire il comando seguente:
 
 ``bin/magento config:set dev/grid/async_indexing 1``
 
-Quando è attivata la modalità predefinita [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode), completare i passaggi seguenti:
+Quando è attivata la modalità predefinita [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=it#default-mode), completare i passaggi seguenti:
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

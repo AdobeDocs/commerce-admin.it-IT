@@ -64,7 +64,7 @@ Se si supera la dimensione massima della sessione, non viene visualizzato alcun 
 
 Adobe Commerce e Magento Open Source consentono di convalidare le variabili di sessione come misura protettiva contro possibili attacchi di fissazione delle sessioni o tentativi di avvelenare o dirottare le sessioni degli utenti. Le impostazioni di convalida della sessione determinano il modo in cui le variabili di sessione vengono convalidate durante ogni visita dello store e se l’ID sessione è incluso nell’URL dello store.
 
-Per informazioni tecniche, vedere [Utilizzare Redis per l&#39;archiviazione della sessione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) nella _Guida alla configurazione_.
+Per informazioni tecniche, vedere [Utilizzare Redis per l&#39;archiviazione della sessione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=it) nella _Guida alla configurazione_.
 
 ![Configurazione generale - Convalida sessione Web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

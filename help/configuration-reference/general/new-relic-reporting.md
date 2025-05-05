@@ -17,13 +17,13 @@ ht-degree: 0%
 >[!NOTE]
 >Queste opzioni di configurazione non si applicano ad Adobe Commerce su infrastruttura cloud.
 >
->Se ti trovi nel piano Pro, New Relic è già [preconfigurato e abilitato per impostazione predefinita](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Se si utilizza il piano Starter, è necessario completare i [passaggi di configurazione di New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) che fanno parte del processo di installazione.
+>Se ti trovi nel piano Pro, New Relic è già [preconfigurato e abilitato per impostazione predefinita](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=it). Se si utilizza il piano Starter, è necessario completare i [passaggi di configurazione di New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=it#configure-new-relic-for-starter-environment) che fanno parte del processo di installazione.
 
 ## [!UICONTROL General]
 
 ![Generale](./assets/new-relic-reporting-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting) -->
+<!-- [General](https://experienceleague.adobe.com/it/docs/commerce-admin/start/reporting/new-relic-reporting) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Cron](./assets/new-relic-reporting-cron.png)<!-- zoom -->
 
-<!-- Cron](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
+<!-- Cron](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/tools/cron) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

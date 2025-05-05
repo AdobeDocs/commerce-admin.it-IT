@@ -187,5 +187,5 @@ Colonne aggiuntive disponibili:
 
 Per informazioni sulla risoluzione dei problemi relativi agli ordini, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
-- [Errore di visualizzazione ordini](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [Errore di visualizzazione ordini](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=it)
 - [Ordini non visualizzati nella griglia Ordini dell&#39;amministratore](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

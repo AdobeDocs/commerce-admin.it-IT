@@ -74,6 +74,6 @@ La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è in
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/it/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html

@@ -19,7 +19,7 @@ Se altri membri del team o fornitori di servizi hanno bisogno di accedere, puoi 
 
 >[!NOTE]
 >
->I commercianti di Adobe Commerce che dispongono di un Adobe ID e desiderano un accesso semplificato ai prodotti aziendali Adobe Commerce e Adobe possono integrare l’autenticazione Commerce con il flusso di lavoro di autenticazione IMS di Adobe. Una volta abilitata l’integrazione per il tuo archivio Commerce, per accedere ogni utente amministratore deve utilizzare le credenziali Adobe, non le credenziali Commerce. Consulta [Panoramica dell&#39;integrazione del servizio Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>I commercianti di Adobe Commerce che dispongono di un Adobe ID e desiderano un accesso semplificato ai prodotti aziendali Adobe Commerce e Adobe possono integrare l’autenticazione Commerce con il flusso di lavoro di autenticazione IMS di Adobe. Una volta abilitata l’integrazione per il tuo archivio Commerce, per accedere ogni utente amministratore deve utilizzare le credenziali Adobe, non le credenziali Commerce. Consulta [Panoramica dell&#39;integrazione del servizio Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=it).
 
 Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza per l’account utente.
 

@@ -33,7 +33,7 @@ Google reCAPTCHA può essere implementato in diversi modi:
 
 >[!IMPORTANT]
 >
->Prima di configurare Google reCAPTCHA, verificare che il file `PHP.ini` includa l&#39;impostazione seguente: `allow_url_fopen = 1`. Questo potrebbe richiedere l’assistenza dello sviluppatore. Consulta [Impostazioni PHP richieste](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target=&quot;_blank&quot;} nella Guida all&#39;installazione.
+>Prima di configurare Google reCAPTCHA, verificare che il file `PHP.ini` includa l&#39;impostazione seguente: `allow_url_fopen = 1`. Questo potrebbe richiedere l’assistenza dello sviluppatore. Consulta [Impostazioni PHP richieste](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=it){:target=&quot;_blank&quot;} nella Guida all&#39;installazione.
 
 ## Passaggio 1: generare le chiavi reCAPTCHA di Google
 

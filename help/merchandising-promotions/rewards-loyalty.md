@@ -187,4 +187,4 @@ Tutte le azioni relative ai punti premio vengono visualizzate nel blocco _[!UICO
 
 Per informazioni sulla risoluzione dei problemi relativi ai punti premio, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
-- [errore 404 - rimozione dei punti premio in caso di pagamento con spedizione multipla](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- [errore 404 - rimozione dei punti premio in caso di pagamento con spedizione multipla](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=it)

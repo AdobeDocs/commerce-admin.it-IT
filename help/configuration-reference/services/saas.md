@@ -3,7 +3,7 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] dell'amministratore di Commerce.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: 0020db425032254fb7661701533d1e700d98260c
 workflow-type: tm+mt
 source-wordcount: '215'
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Per informazioni su come connettere il tuo archivio ai servizi Adobe Commerce, consulta [Servizi Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
+Per informazioni su come connettere il tuo archivio ai servizi Adobe Commerce, consulta [Servizi Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=it).
 
 {{config}}
 
@@ -46,7 +46,7 @@ Per informazioni su come connettere il tuo archivio ai servizi Adobe Commerce, c
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Project] | Globale | Nome del progetto SaaS che raggruppa tutti gli spazi di dati SaaS. Se non esistono progetti SaaS, viene visualizzato il pulsante _Crea progetto_. |
-| [!UICONTROL Data Space] | Globale | Elenca gli spazi di dati SaaS nel progetto SaaS specificato. Il numero di spazi dati SaaS dipende dalla [licenza Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html):<br />Adobe Commerce - Uno spazio dati di produzione; due spazi dati di test;<br />Magento Open Source - Uno spazio dati di produzione; nessuno spazio dati di test |
+| [!UICONTROL Data Space] | Globale | Elenca gli spazi di dati SaaS nel progetto SaaS specificato. Il numero di spazi dati SaaS dipende dalla [licenza Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=it):<br />Adobe Commerce - Uno spazio dati di produzione; due spazi dati di test;<br />Magento Open Source - Uno spazio dati di produzione; nessuno spazio dati di test |
 
 {style="table-layout:auto"}
 

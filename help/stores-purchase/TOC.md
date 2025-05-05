@@ -131,5 +131,5 @@ ht-degree: 3%
       + [Panoramica delle etichette di spedizione](shipping-labels.md)
       + [Configurare le etichette di spedizione](shipping-label-configure.md)
       + [Crea etichette di spedizione](shipping-label-create.md)
-+ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
 

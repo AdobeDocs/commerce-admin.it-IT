@@ -97,7 +97,7 @@ Per creare sitemap per un&#39;istanza multistore, effettuare le seguenti operazi
    
 >[!NOTE]
 >
->Se il sito utilizza il motore del server Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), è necessario aggiornare il file [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) nella directory principale del sito Web per indirizzare eventuali altre richieste di sitemap nella posizione corretta.
+>Se il sito utilizza il motore del server Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=it), è necessario aggiornare il file [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) nella directory principale del sito Web per indirizzare eventuali altre richieste di sitemap nella posizione corretta.
 
 ## Descrizioni delle colonne
 
@@ -223,6 +223,6 @@ La mappa del sito deve essere aggiornata con la stessa frequenza con cui cambia 
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=it
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

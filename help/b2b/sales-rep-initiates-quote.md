@@ -27,7 +27,7 @@ Un rappresentante commerciale può creare un preventivo dalla tabella Preventivi
 
 >[!NOTE]
 >
->Per una demo video di un venditore durante la creazione di un preventivo per un acquirente, vedere [Il rappresentante commerciale avvia il preventivo](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) in _Video e Tutorials di Commerce_.
+>Per una demo video di un venditore durante la creazione di un preventivo per un acquirente, vedere [Il rappresentante commerciale avvia il preventivo](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=it) in _Video e Tutorials di Commerce_.
 
 ### Creare un preventivo dalla griglia Preventivo
 
@@ -79,7 +79,7 @@ Dopo aver creato l&#39;offerta provvisoria, aggiungere elementi di prodotto, app
 
    >[!NOTE]
    >
-   >Per una demo video sul funzionamento degli sconti per l&#39;elemento riga, vedere [Il rappresentante commerciale applica lo sconto a un elemento riga preventivo](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) in _Video e Tutorials di Commerce_.
+   >Per una demo video sul funzionamento degli sconti per l&#39;elemento riga, vedere [Il rappresentante commerciale applica lo sconto a un elemento riga preventivo](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=it) in _Video e Tutorials di Commerce_.
 
 1. Applicare uno sconto a livello di preventivo in base alle esigenze:
 

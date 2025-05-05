@@ -16,7 +16,7 @@ Ogni installazione di Adobe Commerce e Magento Open Source dispone di una [gerar
 
 >[!NOTE]
 >
->Per ulteriori informazioni, vedere [Più siti Web o store](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) nella documentazione per gli sviluppatori [!DNL Commerce].
+>Per ulteriori informazioni, vedere [Più siti Web o store](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=it) nella documentazione per gli sviluppatori [!DNL Commerce].
 
 ## Siti Web
 

@@ -219,7 +219,7 @@ Puoi impostare una condizione per una regola del prezzo del carrello basata su u
    | `Name` | Nome del pubblico, ad esempio `Orders over $50` |
    | `Description` | Descrizione del pubblico, ad esempio `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica da dove proviene il pubblico, ad esempio `Experience Platform`. |
-   | `Website` | Indica quale sito web hai collegato allo stream di dati che contiene i tipi di pubblico. Questo collegamento viene creato quando si connette l&#39;istanza di Commerce all&#39;Experience Platform tramite l&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
+   | `Website` | Indica quale sito web hai collegato allo stream di dati che contiene i tipi di pubblico. Questo collegamento viene creato quando si connette l&#39;istanza di Commerce all&#39;Experience Platform tramite l&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=it). |
 
    {style="table-layout:auto"}
 

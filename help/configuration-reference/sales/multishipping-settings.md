@@ -20,7 +20,7 @@ Per informazioni dettagliate sulla configurazione di queste impostazioni di conf
 
 ![Opzioni](./assets/multishipping-settings-options.png)<!-- zoom -->
 
-<!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
+<!-- [Options](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) offre un&#39;esperienza di ricerca rapida, super rilevante e intuitiva ed è disponibile gratuitamente per Adobe Commerce. Questa sezione descrive la funzionalità di ricerca standard che potrebbe essere diversa da [!DNL Live Search].
+>[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=it) offre un&#39;esperienza di ricerca rapida, super rilevante e intuitiva ed è disponibile gratuitamente per Adobe Commerce. Questa sezione descrive la funzionalità di ricerca standard che potrebbe essere diversa da [!DNL Live Search].
 
 Le ricerche mostrano che le persone che utilizzano la ricerca hanno più probabilità di effettuare un acquisto rispetto ai clienti che si affidano esclusivamente alla navigazione. Infatti, secondo alcuni studi, le persone che utilizzano la ricerca hanno quasi il doppio delle probabilità di effettuare un acquisto.
 
@@ -32,7 +32,7 @@ Le sezioni seguenti descrivono le funzionalità di base di ricerca nel catalogo.
 
 >[!NOTE]
 >
->Quando [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) è installato e il widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) è abilitato, la casella di ricerca restituisce &quot;cerca durante la digitazione&quot; e restituisce un pop-over.
+>Quando [[!DNL Live Search]](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview) è installato e il widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-storefront/storefront-popover) è abilitato, la casella di ricerca restituisce &quot;cerca durante la digitazione&quot; e restituisce un pop-over.
 
 La casella di ricerca nell’intestazione del negozio aiuta i visitatori a trovare i prodotti nel catalogo. Il testo da cercare può essere il nome completo o parziale del prodotto o qualsiasi altra parola o frase che descriva il prodotto. I termini di ricerca utilizzati dagli utenti per trovare i prodotti possono essere gestiti dall’amministratore.
 
@@ -48,7 +48,7 @@ La casella di ricerca nell’intestazione del negozio aiuta i visitatori a trova
 
 >[!NOTE]
 >
->La funzionalità di ricerca avanzata dei moduli qui descritta non è applicabile a [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>La funzionalità di ricerca avanzata dei moduli qui descritta non è applicabile a [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=it).
 
 La funzione Ricerca avanzata consente agli acquirenti di cercare il catalogo in base ai valori immessi in un modulo. Poiché il modulo contiene più campi, una singola ricerca può includere diversi parametri. Il risultato è un elenco di tutti i prodotti del catalogo che corrispondono ai criteri. Un collegamento a Ricerca avanzata si trova nel piè di pagina del negozio.
 

@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Inventory Management] per Adobe Commerce e Magento Open Source offre gli strumenti per gestire l&#39;inventario dei prodotti. I commercianti con un singolo punto vendita in più magazzini, magazzini, ubicazioni di prelievo, corrieri diretti e altro ancora possono utilizzare queste funzioni per gestire le quantità per le vendite e gestire le spedizioni per completare gli ordini. Per ulteriori informazioni su queste funzionalità e su come utilizzarle per gestire le scorte in più posizioni, vedere la [_[!DNL Inventory Management] Guida utente _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
+>[!DNL Inventory Management] per Adobe Commerce e Magento Open Source offre gli strumenti per gestire l&#39;inventario dei prodotti. I commercianti con un singolo punto vendita in più magazzini, magazzini, ubicazioni di prelievo, corrieri diretti e altro ancora possono utilizzare queste funzioni per gestire le quantità per le vendite e gestire le spedizioni per completare gli ordini. Per ulteriori informazioni su queste funzionalità e su come utilizzarle per gestire le scorte in più posizioni, vedere la [_[!DNL Inventory Management] Guida utente _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=it).
 
 ## [!UICONTROL Stock Options]
 
 ![Opzioni Stock](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 ![Opzioni Stock Di Prodotto](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | Globale | Determina se si utilizza il controllo completo dell&#39;inventario per gestire gli articoli nel catalogo. Opzioni: <br/>**Sì** - Attiva il controllo inventario completo per tenere traccia del numero di articoli attualmente in magazzino. <br/>**No** - Non tiene traccia del numero di elementi attualmente in magazzino. |
 | [!UICONTROL Backorders] | Globale | Determina il modo in cui lo store gestisce gli ordini inevasi. Un ordine inevaso non modifica lo stato di elaborazione dell’ordine. I fondi vengono comunque autorizzati o acquisiti immediatamente al momento dell&#39;ordine, indipendentemente dal fatto che il prodotto sia in magazzino. Quando il prodotto diventa disponibile, viene spedito. Opzioni: <br/>**Nessun ordine inevaso** - Non accetta ordini inevasi quando il prodotto è esaurito. <br/>**Quantità consentita inferiore a 0** - Accetta ordini inevasi quando la quantità scende al di sotto di zero. <br/>**Consenti quantità inferiore a 0 e notifica al cliente** - Accetta ordini inevasi quando la quantità scende al di sotto di zero, ma notifica ai clienti che è ancora possibile effettuare ordini. |
-| [!UICONTROL Use deferred Stock update] | Globale | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Determina se posticipare l&#39;aggiornamento delle scorte se sono consentiti ordini inevasi (l&#39;opzione _Ordini inevasi_ è impostata su un valore diverso da quello predefinito `No backorders`). Funziona per un singolo prodotto o un intero sito Web e utilizza il meccanismo _Coda processi_ per consentire l&#39;aggiornamento asincrono degli indicatori di quantità di magazzino dopo l&#39;inserimento degli ordini. Questa opzione funziona anche con [Inserimento ordine asincrono](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html#asynchronous-order-placement) in combinazione con [Inventory management](../../inventory-management/introduction.md). |
+| [!UICONTROL Use deferred Stock update] | Globale | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Determina se posticipare l&#39;aggiornamento delle scorte se sono consentiti ordini inevasi (l&#39;opzione _Ordini inevasi_ è impostata su un valore diverso da quello predefinito `No backorders`). Funziona per un singolo prodotto o un intero sito Web e utilizza il meccanismo _Coda processi_ per consentire l&#39;aggiornamento asincrono degli indicatori di quantità di magazzino dopo l&#39;inserimento degli ordini. Questa opzione funziona anche con [Inserimento ordine asincrono](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html?lang=it#asynchronous-order-placement) in combinazione con [Inventory management](../../inventory-management/introduction.md). |
 | Quantità massima consentita nel carrello | Globale | Determina il numero massimo di prodotti che possono essere acquistati in un singolo ordine. Per impostazione predefinita, la quantità massima è impostata su 10.000. |
 | [!UICONTROL Out-of-Stock Threshold] | Globale | Determina il livello di scorte al quale un prodotto viene considerato esaurito. Opzioni: <br/>**Importo positivo** - Con _ordini inevasi_ disabilitati, immettere un importo positivo. Con ordini inevasi abilitati, questo importo viene ignorato. <br/>**Zero** - Con _Backorders_ abilitati, l&#39;immissione di `0` consente ordini inevasi infiniti. <br/>**Importo negativo** - Con _ordini inevasi_ abilitati, è consigliabile immettere un importo negativo. L&#39;importo viene aggiunto alla quantità di vendita. Ad esempio, immettere -50 per consentire ordini fino a questo importo. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Globale | Determina l&#39;importo minimo di un articolo disponibile per l&#39;acquisto in base al gruppo di clienti. Per impostazione predefinita, la quantità minima è impostata su 1. Fare clic su **[!UICONTROL Add Minimum Qty]** per immettere un valore diverso per un gruppo di clienti specifico. |
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 ![Operazioni in blocco per amministratori](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
->Per configurare e supportare **gestori di code asincrone**, è necessario utilizzare la riga di comando. Questo potrebbe richiedere l’assistenza dello sviluppatore. Vedere [Avvia consumer della coda messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) nella _Guida alla configurazione_.
+>Per configurare e supportare **gestori di code asincrone**, è necessario utilizzare la riga di comando. Questo potrebbe richiedere l’assistenza dello sviluppatore. Vedere [Avvia consumer della coda messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=it) nella _Guida alla configurazione_.
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ![Provider di distanze per SSA basato sulla distanza](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ![Provider distanza Google](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

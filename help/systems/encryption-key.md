@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Se si è tentato di completare questi passaggi e si verificano problemi, vedere l&#39;articolo [della Knowledge Base Risoluzione dei problemi relativi alla rotazione delle chiavi di crittografia: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) .
+>Se si è tentato di completare questi passaggi e si verificano problemi, vedere l&#39;articolo [della Knowledge Base Risoluzione dei problemi relativi alla rotazione delle chiavi di crittografia: CVE-2024-34102](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) .
 
 Adobe Systems Commerce e Magento Open Source utilizzano una chiave di crittografia per proteggere password e altri dati sensibili. Un algoritmo standard [!DNL ChaCha20-Poly1305] del settore viene utilizzato con una chiave a 256 bit per crittografare tutti i dati che richiedono la crittografia. Ciò include dati di scheda di credito e password di integrazione (modulo di pagamento e spedizione). Inoltre, viene utilizzato un forte algoritmo Secure Hash (SHA-256) per eseguire l&#39;hashing di tutti i dati che non richiedono la decrittografia.
 
 Durante l&#39;installazione iniziale, viene richiesto di consentire a Commerce di generare una chiave di crittografia o di immetterne una personalizzata. La chiave di crittografia consente strumento di modificare la chiave in base alle esigenze. La chiave di crittografia deve essere cambiata regolarmente per migliorare la sicurezza e in qualsiasi momento la chiave originale potrebbe essere compromessa.
 
-Per informazioni tecniche, vedere [Avanzate&#39;installazione](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) locale nella Guida _all&#39;installazione_ e [Crittografia](https://developer.adobe.com/commerce/php/development/security/data-encryption/) dei dati nella _Guida per sviluppatori_ PHP.
+Per informazioni tecniche, vedere [Avanzate&#39;installazione](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=it) locale nella Guida _all&#39;installazione_ e [Crittografia](https://developer.adobe.com/commerce/php/development/security/data-encryption/) dei dati nella _Guida per sviluppatori_ PHP.
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ Per informazioni tecniche, vedere [Avanzate&#39;installazione](https://experienc
 
 Le seguenti istruzioni richiedono accesso a un terminale.
 
-1. Abilita [la modalità](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) di manutenzione.
+1. Abilita [la modalità](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) di manutenzione.
 
    ```bash
    bin/magento maintenance:enable

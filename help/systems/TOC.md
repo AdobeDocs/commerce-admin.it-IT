@@ -77,6 +77,6 @@ ht-degree: 2%
    - [Gestione delle sessioni](security-session-management.md)
    - [Rilevamento funzionalità browser](security-browser-capabilities-detection.md)
    - [Segnalazione dei problemi di sicurezza](security-issue-reporting.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
 
 
