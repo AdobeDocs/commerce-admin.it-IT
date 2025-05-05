@@ -3,7 +3,7 @@ title: Disattivare l’integrazione dell’amministratore di Commerce con Adobe 
 description: Segui questa procedura facoltativa per disabilitare l’integrazione Amministratore Adobe Commerce con Adobe IMS.
 exl-id: 0cd02b23-873e-4e65-ae1f-dbe4f7d0a476
 feature: Identity Management
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '319'
@@ -19,7 +19,7 @@ I commercianti che hanno integrato la loro istanza di Commerce con il flusso di 
 
 Dopo la disabilitazione dell’integrazione IMS, le distribuzioni di Commerce tornano al flusso di lavoro e ai criteri per le password di autenticazione di Commerce predefiniti. Solo i flussi di lavoro degli utenti amministratori sono interessati quando questa integrazione è abilitata o disabilitata.
 
-Per una panoramica dell&#39;accesso dell&#39;amministratore di Commerce, vedere [Account amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html).
+Per una panoramica dell&#39;accesso dell&#39;amministratore di Commerce, vedere [Account amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=it).
 
 ## Passaggio 1: disabilitare l’integrazione
 
@@ -43,7 +43,7 @@ Dopo aver disabilitato l’integrazione, gli utenti amministratore devono utiliz
 
 * Gli utenti amministratore di Commerce che ricordano la propria password Commerce preesistente (ovvero una password Commerce creata prima dell’integrazione IMS) possono utilizzarla per accedere all’amministratore.
 
-* Gli utenti amministratori di Commerce che non hanno una password Commerce preesistente o l’hanno dimenticata devono creare una nuova password. Per creare una nuova password, gli utenti amministratori possono utilizzare la funzionalità [!UICONTROL Forgot your password?] nella pagina di accesso di Commerce per creare una nuova password. Consulta [Reimpostare le password dei clienti](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html). Commerce non accetta un campo password vuoto.
+* Gli utenti amministratori di Commerce che non hanno una password Commerce preesistente o l’hanno dimenticata devono creare una nuova password. Per creare una nuova password, gli utenti amministratori possono utilizzare la funzionalità [!UICONTROL Forgot your password?] nella pagina di accesso di Commerce per creare una nuova password. Consulta [Reimpostare le password dei clienti](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=it). Commerce non accetta un campo password vuoto.
 
 ## Dopo aver disabilitato l’integrazione
 

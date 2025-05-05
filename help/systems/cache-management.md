@@ -102,7 +102,7 @@ Per informazioni sull&#39;assegnazione di risorse per concedere l&#39;accesso ag
 
 ## Svuota utilizzando la riga di comando
 
-Gli amministratori di sistema e gli sviluppatori con accesso al server applicazioni Commerce possono inoltre gestire la configurazione della cache e della cache dalla riga di comando utilizzando Commerce CLI. Vedi [Gestione della cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} nella _Guida alla configurazione_.
+Gli amministratori di sistema e gli sviluppatori con accesso al server applicazioni Commerce possono inoltre gestire la configurazione della cache e della cache dalla riga di comando utilizzando Commerce CLI. Vedi [Gestione della cache](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} nella _Guida alla configurazione_.
 
 ## Controlli
 
@@ -136,11 +136,11 @@ Nella pagina [!UICONTROL Cache Management] sono elencati i tipi di cache che è 
 
 Sviluppatori e integratori di sistemi utilizzano questi valori per configurare e gestire la memorizzazione in cache durante la personalizzazione o l’integrazione con Adobe Commerce, ad esempio lo sviluppo di integrazioni tramite API GraphQL.
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} `cache_type_id` viene utilizzato anche per la gestione della cache dalla riga di comando del server applicazioni tramite Commerce CLI. Ad esempio, ` bin/magento cache:status config` visualizza lo stato corrente della cache di configurazione.
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} `cache_type_id` viene utilizzato anche per la gestione della cache dalla riga di comando del server applicazioni tramite Commerce CLI. Ad esempio, ` bin/magento cache:status config` visualizza lo stato corrente della cache di configurazione.
 
 >[!NOTE]
 >
->Sviluppatori e integratori di sistemi possono personalizzare ed estendere il sistema di gestione della cache di Commerce per supportare moduli e integrazioni personalizzati. Per informazioni dettagliate, vedere [Configurare il caching](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) nella _Guida alla configurazione di Adobe Commerce_.
+>Sviluppatori e integratori di sistemi possono personalizzare ed estendere il sistema di gestione della cache di Commerce per supportare moduli e integrazioni personalizzati. Per informazioni dettagliate, vedere [Configurare il caching](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cache/caching-overview) nella _Guida alla configurazione di Adobe Commerce_.
 
 <!-- prettier-ignore -->
 
@@ -183,7 +183,7 @@ Il contenuto nella cache può essere utilizzato per elaborare le richieste prove
 - `Sessioned` - Durante una visita con sessione, agli acquirenti che interagiscono con l&#39;archivio viene assegnato un ID sessione. Le interazioni includono attività come il confronto di prodotti o l’aggiunta di prodotti al carrello. Le pagine in cache generate durante la sessione vengono utilizzate solo da quell’acquirente durante la sessione.
 - `Customer` - Le sessioni per i clienti vengono create per i clienti che accedono e acquistano utilizzando il proprio account registrato. Durante la sessione, ai clienti possono essere presentate offerte speciali, promozioni e prezzi in base al gruppo di clienti assegnato.
 
-Per informazioni tecniche, vedere [Configurare e utilizzare Vernice](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} e [Utilizzare Redis per la pagina Commerce e la cache predefinita](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"} nella _Guida alla configurazione_.
+Per informazioni tecniche, vedere [Configurare e utilizzare Vernice](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=it){:target="_blank"} e [Utilizzare Redis per la pagina Commerce e la cache predefinita](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=it){:target="_blank"} nella _Guida alla configurazione_.
 
 **_Per configurare la cache a pagina intera:_**
 
@@ -202,7 +202,7 @@ Per informazioni tecniche, vedere [Configurare e utilizzare Vernice](https://exp
 
 1. Per impostare il timeout per la cache delle pagine, immettere **[!UICONTROL TTL for public content]**. Il valore predefinito è `86400`
 
-1. Per specificare il numero massimo di [handle di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare sull&#39;endpoint HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html), immettere **[!UICONTROL Handles param size]**. La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Il valore predefinito è `100`
+1. Per specificare il numero massimo di [handle di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare sull&#39;endpoint HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=it), immettere **[!UICONTROL Handles param size]**. La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Il valore predefinito è `100`
 
 1. Se si utilizza Vernice, completare la sezione **[!UICONTROL Varnish Configuration]** come segue:
 
@@ -212,7 +212,7 @@ Per informazioni tecniche, vedere [Configurare e utilizzare Vernice](https://exp
 
    - **[!UICONTROL Backend port]** - Identificare la porta back-end utilizzata per generare i file di configurazione. Valore predefinito: `8080`.
 
-   - **[!UICONTROL Grace period]** - Specificare il numero di secondi da utilizzare come periodo di tolleranza per generare i file di configurazione. Vedere [Configurazione avanzata vernice](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) nella _Guida alla configurazione_.
+   - **[!UICONTROL Grace period]** - Specificare il numero di secondi da utilizzare come periodo di tolleranza per generare i file di configurazione. Vedere [Configurazione avanzata vernice](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=it) nella _Guida alla configurazione_.
 
    - Per esportare la configurazione come file `varnish.vcl`, fare clic sul pulsante della versione di vernice utilizzata.
 

@@ -20,7 +20,7 @@ Questa guida è destinata agli amministratori che lavorano nell’amministrazion
 Gli amministratori dei punti vendita possono operare in due modi:
 
 - Amministratore: utilizza quest’area per accedere all’interfaccia utente di configurazione e ai rapporti.
-- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Interfaccia della riga di comando: utilizzare questo strumento per eseguire attività di installazione e di configurazione back-end.
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Interfaccia della riga di comando: utilizzare questo strumento per eseguire attività di installazione e di configurazione back-end.
 
 Questa guida tratta i seguenti argomenti:
 
@@ -28,7 +28,7 @@ Questa guida tratta i seguenti argomenti:
 | ------- | ----------- |
 | [Introduzione](introduction.md) | Quali funzionalità sono disponibili con [!DNL Adobe Commerce B2B]? |
 | [Note sulla versione](release-notes.md) | Rivedi gli aggiornamenti forniti in ogni versione [!DNL Adobe Commerce B2B]. |
-| [Installa](install.md) | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Installa l&#39;estensione [!DNL Adobe Commerce B2B]. |
+| [Installa](install.md) | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Installa l&#39;estensione [!DNL Adobe Commerce B2B]. |
 | [Abilita funzionalità B2B di base](enable-basic-features.md) | Dopo aver installato [!DNL Adobe Commerce B2B], è necessario attivare le funzionalità che si desidera attivare per lo store. |
 | [Account società](account-companies.md) | Scopri gli account aziendali e come forniscono il supporto principale per gli acquirenti B2B sul tuo store. |
 | [Gestione società](manage-companies.md) | Scopri come gli amministratori di siti Commerce B2B possono creare gerarchie aziendali per semplificare la gestione di più aziende che appartengono alla stessa azienda aziendale. |
@@ -52,5 +52,5 @@ Per informazioni sulle modifiche incluse nelle versioni dei moduli, consulta le 
 
 Se hai bisogno di informazioni o hai domande che non sono trattate in questa guida, utilizza le risorse seguenti:
 
-- [Knowledge Base del supporto Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
-- [Ticket di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - Invia un ticket per ricevere ulteriore assistenza.
+- [Knowledge Base del supporto Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=it)
+- [Ticket di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=it#submit-ticket) - Invia un ticket per ricevere ulteriore assistenza.
