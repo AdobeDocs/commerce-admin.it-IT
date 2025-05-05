@@ -83,7 +83,7 @@ Dopo ogni processo di importazione pianificato, viene eseguita automaticamente u
 
      >[!NOTE]
      >
-     >Per i tipi di entità _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_e_[!UICONTROL Stock Sources]_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update`, `Replace` e `Delete`. Per i tipi di entità _Finanze cliente_, _File principale clienti_ e _Clienti e indirizzi_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update Complex Data`, `Delete Entities` e `Custom Action`.
+     >Per i tipi di entità _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;e_[!UICONTROL Stock Sources]_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update`, `Replace` e `Delete`. Per i tipi di entità _Finanze cliente_, _File principale clienti_ e _Clienti e indirizzi_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update Complex Data`, `Delete Entities` e `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Impostare su ora, minuto e secondo per l&#39;inizio pianificato dell&#39;importazione.
 
@@ -224,7 +224,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
       - `Customer Addresses`
       - `Stock Sources`
 
-     La sezione _[!UICONTROL Entity Attributes]_nella parte inferiore della pagina viene aggiornata per riflettere il tipo di entità selezionato.
+     La sezione _[!UICONTROL Entity Attributes]_&#x200B;nella parte inferiore della pagina viene aggiornata per riflettere il tipo di entità selezionato.
 
    - Impostare **[!UICONTROL Start Time]** sull&#39;ora, il minuto e il secondo per cui è pianificato l&#39;inizio dell&#39;esportazione.
 
@@ -258,7 +258,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
    - Per **[!UICONTROL Local Server]**, immettere un percorso relativo nell&#39;installazione di Commerce, ad esempio `var/export`. Se il modulo di archiviazione remota è configurato, utilizzare `import_export/export`.
    - Per **[!UICONTROL Remote FTP server]**, immettere l&#39;URL completo e il percorso della cartella di destinazione sul server di destinazione.
 
-1. Se il server _[!UICONTROL Remote FTP]_è selezionato, immettere le credenziali di connessione al server e selezionare altre impostazioni:
+1. Se il server _[!UICONTROL Remote FTP]_&#x200B;è selezionato, immettere le credenziali di connessione al server e selezionare altre impostazioni:
 
    - Per **[!UICONTROL FTP Host[:Port]]**, immettere l&#39;indirizzo host FTP remoto.
    - Per **[!UICONTROL User Name]**, immettere il nome utente utilizzato per accedere al server remoto.
@@ -285,7 +285,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
 
 ### Passaggio 4: scegliere gli attributi di entità
 
-1. Nella sezione _[!UICONTROL Entity Attributes]_scegliere gli attributi che si desidera includere nei dati di esportazione.
+1. Nella sezione _[!UICONTROL Entity Attributes]_&#x200B;scegliere gli attributi che si desidera includere nei dati di esportazione.
 
    - Per filtrare i dati di esportazione in base al valore degli attributi, immettere il valore dell&#39;attributo nella colonna _[!UICONTROL Filter]_.
    - Per escludere prodotti o clienti con determinati valori di attributo, immettere i valori degli attributi che si desidera escludere e selezionare la casella di controllo nella colonna Ignora.
@@ -319,7 +319,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
 | Campo | Descrizione |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | Determina la posizione del file di esportazione. Opzioni:<br>**Server locale** - Posiziona il file di esportazione nello stesso server in cui è distribuito Commerce. Se il modulo di archiviazione remota è abilitato, `Local Server` viene cambiato in `Remote Storage`.<br>**FTP remoto** - inserisce il file di esportazione in un server remoto. Vengono visualizzate opzioni aggiuntive per le credenziali e le impostazioni di trasferimento dei file. |
-| [!UICONTROL File Directory] | Specificare la directory in cui si trova il file di esportazione. Se _[!UICONTROL Server Type]_è impostato su `Local Server`, specificare il percorso relativo al percorso di installazione di Commerce. Ad esempio, `var/export` o `import_export/export` per l&#39;archiviazione remota. |
+| [!UICONTROL File Directory] | Specificare la directory in cui si trova il file di esportazione. Se _[!UICONTROL Server Type]_&#x200B;è impostato su `Local Server`, specificare il percorso relativo al percorso di installazione di Commerce. Ad esempio, `var/export` o `import_export/export` per l&#39;archiviazione remota. |
 
 {style="table-layout:auto"}
 

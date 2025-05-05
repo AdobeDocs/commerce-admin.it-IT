@@ -127,11 +127,11 @@ Inventory management 1.2.4 (versione modulo: `magento/inventory-metapackage = 1.
 
 ![Problema risolto](../assets/fix.svg) È stata migliorata la gestione delle scorte di magazzino che superano i 10.000 elementi. In precedenza, a volte i problemi di prestazioni impedivano ai commercianti di modificare le risorse in Admin prima di avviare il sito web. <!--- MC-42643-->
 
-![Problema risolto](../assets/fix.svg) La pagina **[!UICONTROL User Roles]** nell&#39;amministratore è stata aggiornata per fornire agli amministratori autorizzazioni limitate di accesso alla configurazione dei metodi di consegna. La sezione _Metodi di spedizione_ è stata rinominata in _[!UICONTROL Delivery methods]_e_[!UICONTROL In-Store Pickup]_ è stata spostata nella sezione _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![Problema risolto](../assets/fix.svg) La pagina **[!UICONTROL User Roles]** nell&#39;amministratore è stata aggiornata per fornire agli amministratori autorizzazioni limitate di accesso alla configurazione dei metodi di consegna. La sezione _Metodi di spedizione_ è stata rinominata in _[!UICONTROL Delivery methods]_&#x200B;e_[!UICONTROL In-Store Pickup]_ è stata spostata nella sezione _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![Problema risolto](../assets/fix.svg) Adobe Commerce non crea più una prenotazione di prodotto duplicata dopo che una nota di credito è stata aggiornata dall&#39;API. <!--- MC-41757-->
 
-![È stato risolto il problema](../assets/fix.svg) Il passaggio dalla scheda _[!UICONTROL Pick up in Store]_alla scheda_[!UICONTROL Shipping]_ nel flusso di lavoro di estrazione non attiva più un errore JavaScript quando è disponibile solo la consegna di ritiro nello store. <!--- MC-42808-->
+![È stato risolto il problema](../assets/fix.svg) Il passaggio dalla scheda _[!UICONTROL Pick up in Store]_&#x200B;alla scheda&#x200B;_[!UICONTROL Shipping]_ nel flusso di lavoro di estrazione non attiva più un errore JavaScript quando è disponibile solo la consegna di ritiro nello store. <!--- MC-42808-->
 
 ![Problema risolto](../assets/fix.svg) La quantità di prodotto vendibile e la quantità di prodotto in magazzino ora sono sincronizzate correttamente. In precedenza, per gli ordini annullati non veniva ricreato il compenso per l&#39;impegno di magazzino. <!--- MC-42485-->
 
