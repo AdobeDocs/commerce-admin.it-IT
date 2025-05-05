@@ -4,9 +4,9 @@ description: Scopri come configurare la gestione delle sessioni per proteggere l
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,8 @@ Utilizza le seguenti impostazioni di configurazione per limitare la dimensione m
 
 ### Sessioni di amministrazione
 
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+
 Se si supera la dimensione massima della sessione, viene visualizzato un messaggio di errore e il sistema registra il vincolo della dimensione della sessione nella directory `var/log`.
 
 Se perdi l’accesso all’amministratore dopo aver impostato le dimensioni della sessione troppo basse, utilizza CLI per reimpostare la configurazione:
@@ -58,25 +60,27 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Sessioni vetrina
 
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+
 Se si supera la dimensione massima della sessione, non viene visualizzato alcun errore ma il sistema registra il vincolo della dimensione della sessione nella directory `var/log`.
 
 ## Convalida della sessione
 
 Adobe Commerce e Magento Open Source consentono di convalidare le variabili di sessione come misura protettiva contro possibili attacchi di fissazione delle sessioni o tentativi di avvelenare o dirottare le sessioni degli utenti. Le impostazioni di convalida della sessione determinano il modo in cui le variabili di sessione vengono convalidate durante ogni visita dello store e se l’ID sessione è incluso nell’URL dello store.
 
-Per informazioni tecniche, vedere [Utilizzare Redis per l&#39;archiviazione della sessione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=it) nella _Guida alla configurazione_.
+Per informazioni tecniche, vedere [Utilizzare Redis per l&#39;archiviazione della sessione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) nella _Guida alla configurazione_.
 
 ![Configurazione generale - Convalida sessione Web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
 La convalida verifica che i visitatori siano quello che dicono di essere confrontando il valore nelle variabili di convalida con i dati della sessione memorizzati nei dati `$_SESSION` per l&#39;utente. La convalida non riesce se l’informazione non viene trasmessa come previsto e la variabile corrispondente è vuota. A seconda delle impostazioni di convalida della sessione, se una variabile di sessione non supera il processo di convalida, la sessione client viene terminata immediatamente.
 
-L’abilitazione di tutte le variabili di convalida può contribuire a prevenire gli attacchi, ma potrebbe anche influire sulle prestazioni del server. Per impostazione predefinita, la convalida di tutte le variabili di sessione è disabilitata. È consigliabile sperimentare le impostazioni per trovare la combinazione ottimale per l’installazione di Adobe Commerce o di Magento Open Source. L&#39;attivazione di tutte le variabili di convalida potrebbe rivelarsi eccessivamente restrittiva e potrebbe impedire l&#39;accesso ai clienti con connessioni Internet che passano attraverso un server proxy o provengono da un firewall. Per ulteriori informazioni sulle variabili di sessione e sul loro utilizzo, consulta la documentazione di amministrazione del sistema Linux®.
+L’abilitazione di tutte le variabili di convalida può contribuire a prevenire gli attacchi, ma potrebbe anche influire sulle prestazioni del server. Per impostazione predefinita, la convalida di tutte le variabili di sessione è disabilitata. È consigliabile sperimentare le impostazioni per trovare la combinazione ottimale per l’installazione di Adobe Commerce o Magento Open Source. L&#39;attivazione di tutte le variabili di convalida potrebbe rivelarsi eccessivamente restrittiva e potrebbe impedire l&#39;accesso ai clienti con connessioni Internet che passano attraverso un server proxy o provengono da un firewall. Per ulteriori informazioni sulle variabili di sessione e sul loro utilizzo, consulta la documentazione di amministrazione del sistema Linux®.
 
 **_Per configurare la convalida della sessione:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nel pannello a sinistra, espandi _[!UICONTROL General]_&#x200B;e scegli **[!UICONTROL Web]**.
+1. Nel pannello a sinistra, espandi _[!UICONTROL General]_e scegli **[!UICONTROL Web]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Session Validation Settings]**.
 

@@ -3,16 +3,17 @@ title: URL store
 description: Scopri gli URL del negozio e come configurare l’URL di base e i codici del negozio.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: c7839f0a86be4459ba7f555fd2d2e748d81c4ebb
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1529'
 ht-degree: 0%
 
 ---
 
 # URL store
 
-Ogni sito web in un’installazione di Adobe Commerce o di Magento Open Source ha un URL di base assegnato alla vetrina e un altro URL assegnato all’amministratore. In questo Adobe le variabili vengono utilizzate per definire collegamenti interni in relazione all’URL di base, consentendo di spostare un intero archivio da una posizione all’altra senza aggiornare i collegamenti. Gli URL di base standard iniziano con `http` e gli URL di base sicuri iniziano con `https`.
+Ogni sito web in un’installazione di Adobe Commerce o Magento Open Source ha un URL di base assegnato alla vetrina e un altro URL assegnato all’amministratore. Adobe utilizza le variabili per definire collegamenti interni in relazione all’URL di base, il che consente di spostare un intero archivio da una posizione all’altra senza aggiornare i collegamenti. Gli URL di base standard iniziano con `http` e gli URL di base sicuri iniziano con `https`.
 
 - **URL di base** - `http://www.yourdomain.com/magento/`
 - **URL di base protetto** - `https://www.yourdomain.com/magento/`
@@ -30,7 +31,7 @@ Se al momento dell’installazione non era disponibile un certificato di sicurez
 
 >[!IMPORTANT]
 >
->L’Adobe consiglia vivamente di trasmettere tutte le pagine di un sito di produzione, incluse le pagine di contenuto e di prodotto, utilizzando un protocollo sicuro.
+>Adobe consiglia vivamente di trasmettere tutte le pagine di un sito di produzione, incluse le pagine di contenuto e di prodotto, utilizzando un protocollo sicuro.
 
 Per impostazione predefinita, Adobe Commerce e Magento Open Source possono essere configurati per distribuire tutte le pagine oltre `HTTPS`. Se l&#39;archivio è in esecuzione con il protocollo standard, è possibile migliorare la sicurezza abilitando [HTTP Strict Transport Security][2] (HSTS) e aggiornando eventuali richieste di pagine non sicure. HSTS è un protocollo opt-in che impedisce ai browser di eseguire il rendering delle pagine standard `HTTP` trasmesse con un protocollo non sicuro per il dominio specificato. Poiché i motori di ricerca potrebbero aver già indicizzato ogni pagina del tuo archivio con `HTTP` URL standard, puoi configurare Commerce in modo da aggiornare automaticamente eventuali richieste di pagine non sicure a `HTTPS`, in modo da non perdere traffico. Quando Commerce è configurato per l&#39;utilizzo di URL sicuri sia per la vetrina che per l&#39;amministratore, vengono visualizzati due campi aggiuntivi che consentono di abilitare `HSTS`.
 
@@ -111,7 +112,7 @@ Se il dominio dispone di un certificato di sicurezza valido, puoi configurare gl
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In _[!UICONTROL General]_&#x200B;nel pannello a sinistra, scegli **[!UICONTROL Web]**.
+1. In _[!UICONTROL General]_nel pannello a sinistra, scegli **[!UICONTROL Web]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL URL Options]**.
 
@@ -137,7 +138,7 @@ Se dopo aver seguito le istruzioni di configurazione, alcune pagine continuano a
 
 ## Utilizza un URL amministratore personalizzato
 
-Come [best practice per la sicurezza](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=it), Adobe consiglia di utilizzare un URL amministratore univoco invece del _admin_ predefinito o un termine comune come _backend_. Anche se non protegge direttamente il sito da un determinato attore non valido, può ridurre l&#39;esposizione a script che tentano di ottenere l&#39;accesso non autorizzato.
+Come [best practice per la sicurezza](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe consiglia di utilizzare un URL amministratore univoco invece del _admin_ predefinito o un termine comune come _backend_. Anche se non protegge direttamente il sito da un determinato attore non valido, può ridurre l&#39;esposizione a script che tentano di ottenere l&#39;accesso non autorizzato.
 
 >[!NOTE]
 >
@@ -153,7 +154,7 @@ Anche se è possibile modificare l’URL e il percorso dell’amministratore in 
 
 >[!NOTE]
 >
->Per precauzione, non provare a modificare l’URL amministratore personalmente, a meno che non si sappia come modificare i file di configurazione sul server. Per i progetti Adobe Commerce distribuiti nell&#39;infrastruttura cloud, modifica l&#39;URL amministratore seguendo le [istruzioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=it#admin-url) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
+>Per precauzione, non provare a modificare l’URL amministratore personalmente, a meno che non si sappia come modificare i file di configurazione sul server. Per i progetti Adobe Commerce distribuiti nell&#39;infrastruttura cloud, modifica l&#39;URL amministratore seguendo le [istruzioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
 
 ### Metodo 1: Cambiare da Amministratore
 
@@ -199,7 +200,7 @@ Anche se è possibile modificare l’URL e il percorso dell’amministratore in 
 
    >[!TIP]
    >
-   >Per Adobe Commerce sull&#39;infrastruttura cloud, puoi impostare un percorso amministratore personalizzato utilizzando la variabile `ADMIN_URL` nell&#39;interfaccia utente di Cloud. Consulta l&#39;[argomento Variabili amministratore](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=it) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+   >Per Adobe Commerce sull&#39;infrastruttura cloud, puoi impostare un percorso amministratore personalizzato utilizzando la variabile `ADMIN_URL` nell&#39;interfaccia utente di Cloud. Consulta l&#39;[argomento Variabili amministratore](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
    - **Percorso amministratore predefinito**
 

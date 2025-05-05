@@ -1,49 +1,50 @@
 ---
-title: Preparazione HIPAA per Adobe Systems Commerce
+title: Preparazione HIPAA su Adobe Commerce
 description: Scopri come aggiungere l’estensione compatibile con HIPAA di Adobe Commerce e ottenere funzioni e funzionalità aggiuntive per rispettare gli obblighi HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 2807c36fdb4ca169c31a5e92b4dab278a45c474c
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2392'
 ht-degree: 1%
 
 ---
 
-# Preparazione HIPAA per Adobe Systems Commerce
+# Preparazione HIPAA su Adobe Commerce
 
 >[!IMPORTANT]
 >
->**Legali**<br/>
->Queste informazioni hanno lo scopo di aiutare Adobe Systems clienti a rispondere alle loro domande relative ai servizi HIPAA-Ready di Adobe Systems. Non costituisce consulenza legale. I commercianti dovrebbero consultare il proprio consulente legale per comprendere i loro obblighi ai sensi dell&#39;HIPAA e l&#39;uso e la configurazione appropriati dei prodotti di Adobe Systems.
+>**Dichiarazione di non responsabilità**<br/>
+>Queste informazioni hanno lo scopo di aiutare i clienti di Adobe a rispondere alle loro domande sui servizi compatibili con HIPAA di Adobe. Non si tratta di una consulenza legale. Gli esercenti devono consultare il proprio consulente legale per comprendere i propri obblighi in base all’HIPAA e l’uso e la configurazione appropriati dei prodotti Adobe.
 
 >[!BEGINSHADEBOX]
 
-**Legge sulla portabilità e la responsabilità dell&#39;assicurazione sanitaria (HIPAA)**
+**Legge sulla portabilità e responsabilità dell&#39;assicurazione sanitaria (HIPAA)**
 
-L&#39;Health Insurance Portability and Accountability Act (HIPAA) è la principale legge federale sulla privacy sanitaria negli Stati Uniti ed è applicata dal Dipartimento della salute e dei servizi umani degli Stati Uniti (HHS). L&#39;HIPAA si applica alle _Entità_ coperte (come fornitori di assistenza sanitaria, assicuratori e stanze di compensazione) e _ai Aziende associati_ (come le entità che forniscono servizi alle entità coperte). I requisiti HIPAA sono stabiliti in tre regole separate: Regola sulla privacy, Regola di sicurezza e Regola di notifica delle violazioni. Adobe Systems agisce come Aziende Associate per determinati prodotti, che Adobe Systems classifica come &quot;Servizi predisposti per la normativa HIPAA&quot;. I dati regolati dall&#39;HIPAA sono indicati come _informazioni_ sanitarie protette o PHI. PHI è un sottoinsieme di informazioni sanitarie che (1) è creato o ricevuto da un fornitore di assistenza sanitaria, un piano sanitario o una stanza di compensazione sanitaria, (2) si riferisce alla salute fisica o mentale passata, presente o futura o alla condizione di un individuo, alla fornitura di assistenza sanitaria a un individuo o al pagamento passato, presente o futuro per la fornitura di assistenza sanitaria a un individuo,  e (3) identifica l&#39;individuo o rispetto al quale vi è una ragionevole base per ritenere che le informazioni possano essere utilizzate per identificare l&#39;individuo. Le Norme sulla privacy e sulla sicurezza HIPAA richiedono che un&#39;Entità coperta ottenga garanzie scritte da un Aziende Associato sotto forma di Aziende Associate Agreement o BAA, che richiede all&#39;Aziende Associate di salvaguardare la privacy e la sicurezza del PHI dell&#39;Entità Coperta. Per ulteriori informazioni, vedere [Prodotti e servizi](https://www.adobe.com/trust/compliance/hipaa-ready.html) HIPAA e Adobe Systems nel Centro protezione Adobe Systems.
+Il Health Insurance Portability and Accountability Act (HIPAA) è la principale legge federale sulla privacy sanitaria negli Stati Uniti ed è applicato dal Dipartimento della Salute e dei Servizi Umani (HHS). HIPAA si applica a _Entità coperte_ (come fornitori di assistenza sanitaria, assicuratori e stanze di compensazione) e _Associati commerciali_ (come le entità che forniscono servizi alle entità coperte). I requisiti HIPAA sono impostati in tre regole separate: Regola di privacy, Regola di sicurezza e Regola di notifica delle violazioni. Adobe funge da Business Associate per alcuni prodotti, che Adobe classifica come &quot;HIPAA-Ready Services&quot;. I dati regolamentati da HIPAA sono denominati _Informazioni sanitarie protette_ o PHI. Il PHI è un sottoinsieme di informazioni sulla salute che (1) è creato o ricevuto da un operatore sanitario, un piano sanitario o un centro di assistenza sanitaria, (2) si riferisce alla salute fisica o mentale o alle condizioni di un individuo passate, presenti o future, alla fornitura di assistenza sanitaria a un individuo, o al pagamento passato, presente o futuro per la fornitura di assistenza sanitaria a un individuo, e (3) identifica l&#39;individuo o in relazione al quale vi è una base ragionevole per credere che le informazioni possano essere utilizzate per identificare l&#39;individuo. Le Regole sulla privacy e sulla sicurezza HIPAA richiedono che un&#39;entità coperta ottenga garanzie scritte da un associato commerciale sotto forma di un Contratto di associazione commerciale (Business Associate Agreement, BAA), che richiedano all&#39;associato commerciale di salvaguardare la privacy e la sicurezza del PHI dellʼentità coperta. Per ulteriori informazioni, vedere [Prodotti e servizi HIPAA e Adobe](https://www.adobe.com/trust/compliance/hipaa-ready.html) nel Centro protezione di Adobe.
 
 >[!ENDSHADEBOX]
 
-## Pronto per Adobe Systems Commerce per HIPAA
+## Predisposto per Adobe Commerce HIPAA
 
-L&#39;estensione HIPAA-Ready di Adobe Systems Commerce aggiunge ulteriori caratteristiche e funzionalità alle installazioni di Adobe Systems Commerce che consentono ai commercianti di rispettare i rispettivi obblighi HIPAA.
+L’estensione Adobe Commerce HIPAA-Ready aggiunge ulteriori funzioni e funzionalità alle installazioni di Adobe Commerce che consentono ai commercianti di rispettare i rispettivi obblighi HIPAA.
 
-L&#39;estensione `magento/hipaa-ee` HIPAA-Ready di Adobe Systems Commerce è disponibile per Adobe Systems Commerce su progetti infrastruttura cloud o Adobe Systems Managed Services. Il processo di installazione HIPAA-Ready di Adobe Systems Commerce disabilita alcuni servizi e funzionalità di nativo per conformarsi ai requisiti HIPAA. Vedere [Servizi e funzionalità](#disabled-services-and-features) disabilitati.
+L&#39;estensione compatibile con HIPAA di Adobe Commerce, `magento/hipaa-ee`, è disponibile per Adobe Commerce su infrastrutture cloud o progetti Adobe Managed Services. Il processo di installazione compatibile con HIPAA di Adobe Commerce disabilita alcuni servizi e funzionalità nativi per soddisfare i requisiti HIPAA. Consulta [Servizi e funzionalità disabilitati](#disabled-services-and-features).
 
 >[!NOTE]
 >
->L&#39;accesso alle caratteristiche e alle funzionalità compatibili con HIPAA è disponibile solo per i commercianti che hanno acquistato il componente aggiuntivo per l&#39;assistenza sanitaria per Adobe Systems Commerce.
+>L’accesso alle funzionalità pronte per l’HIPAA è disponibile solo per i commercianti che hanno acquistato il componente aggiuntivo per il servizio sanitario per Adobe Commerce.
 
-*Questi materiali sono destinati esclusivamente a scopo informativo. La fornitura di queste informazioni non conferisce al destinatario alcun diritto contrattuale o di altro tipo. Sebbene siano stati compiuti sforzi per garantire l&#39;accuratezza delle informazioni alla data in cui sono state fornite, non viene fornita alcuna dichiarazione che tali informazioni siano accurate e complete. Adobe Systems non si assume alcun obbligo di aggiornare queste informazioni man mano che la legge o i prodotti Adobe Systems cambiano. Inoltre, questo documento non deve essere distribuito a soggetti diversi dal destinatario previsto senza il consenso scritto di Adobe Systems.*
+*Questi materiali sono esclusivamente a scopo informativo. La comunicazione di tali informazioni non conferisce al destinatario alcun diritto contrattuale o di altro tipo. Sebbene siano stati compiuti sforzi per garantire l&#39;accuratezza delle informazioni alla data in cui sono state fornite, non viene fornita alcuna dichiarazione che tali informazioni siano esatte e complete. Adobe non si impegna ad aggiornare queste informazioni in base ai cambiamenti della legge o dei prodotti Adobe. Inoltre, questo documento non può essere distribuito ad altre parti oltre al destinatario previsto senza il consenso scritto di Adobe.*
 
-## requisiti di sistema
+## Requisiti di sistema
 
-Nella tabella seguente viene illustrata la compatibilità tra le versioni di Adobe Systems Commerce e l&#39;estensione compatibile con HIPAA:
+La tabella seguente mostra la compatibilità tra le versioni di Adobe Commerce e l’estensione compatibile con HIPAA:
 
 | Adobe Commerce | Supportato | Note |
 |----------------|-----------|-------|
-| 2,4,7-p4 - 2,4,7-p5 | 1.2.0. | Il supporto per la versione 2.4.7-P4 richiede un [hotfix](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2,4,7-p4 - 2,4,7-p5 | 1.2.0. | Il supporto per 2.4.7-p4 richiede un [hotfix](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
 | 2,4,6-p9 - 2,4,6-p10 | 1.2.0. | |
 | 2.4.6-p8 | 1.1.0. | Il supporto per [servizi dati](#adobe-commerce-services) è stato introdotto in 1.1.0 |
 | 2,4,6-p3 - 2,4,6-p7 | 1,0,0 | |
@@ -62,29 +63,29 @@ Nella tabella seguente viene illustrata la compatibilità tra le versioni di Ado
 >[!BEGINSHADEBOX]
 
 - Adobe ha eseguito il provisioning del tuo account Adobe Commerce per accedere all’estensione HIPAA Ready.
-- Accedi a [repo.magento.com](https://repo.magento.com) per installare l&#39;estensione. Per generare le chiavi e ottenere i diritti necessari, vedere [Ottenere le chiavi di autenticazione](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=it).
+- Accedi a [repo.magento.com](https://repo.magento.com) per installare l&#39;estensione. Per generare le chiavi e ottenere i diritti necessari, vedere [Ottenere le chiavi di autenticazione](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
 
-Installare la versione più recente dell&#39;estensione dei servizi pronti per HIPAA di Adobe (`magento/hipaa-ee`) in un&#39;istanza che esegue Adobe Commerce versione 2.4.7-p5 o 2.4.6-p3 fino a 2.4.6-p8. L&#39;estensione viene distribuita come metapacchetto del compositore dall&#39;archivio [repo.magento.com](https://repo.magento.com). Il metapacchetto include la raccolta di moduli che abilitano le funzionalità HIPAA per un istanza di Adobe Systems Commerce.
+Installare la versione più recente dell&#39;estensione dei servizi pronti per HIPAA di Adobe (`magento/hipaa-ee`) in un&#39;istanza che esegue Adobe Commerce versione 2.4.7-p5 o 2.4.6-p3 fino a 2.4.6-p8. L&#39;estensione viene distribuita come metapacchetto del compositore dall&#39;archivio [repo.magento.com](https://repo.magento.com). Il metapackage include la raccolta di moduli che abilitano le funzionalità HIPAA per un’istanza Adobe Commerce.
 
 >[!NOTE]
 >
->Per assicurarsi che i dati degli eventi di back office inviati al Experience Platform siano compatibili con HIPAA, vedere la Guida[&#128279;](https://experienceleague.adobe.com/it/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension) all&#39;estensione della connessione dati.
+>Per verificare che i dati dell&#39;evento di back office inviati ad Experience Platform siano pronti per HIPAA, vedere la [guida all&#39;estensione Data Connection](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
-1. Nella workstation locale, passare alla directory del progetto per il progetto Adobe Systems Commerce su infrastruttura cloud.
+1. Sulla workstation locale, passa alla directory del progetto per il progetto Adobe Commerce su infrastruttura cloud.
 
    >[!NOTE]
    >
-   >Per informazioni sulla gestione locale degli ambienti di progetto Commerce, vedere [Gestione delle filiali con l&#39;interfaccia della riga di comando](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/cli-branches) nel Guida utente _Adobe Systems Commerce sull&#39;infrastruttura_ cloud.
+   >Per informazioni sulla gestione locale degli ambienti di progetto Commerce, vedere [Gestione dei rami con CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) nella _Guida utente di Adobe Commerce on Cloud Infrastructure_.
 
-1. Estrai il ramo dell&#39;ambiente per aggiornarlo utilizzando l&#39;interfaccia della riga di comando Adobe Commerce Cloud.
+1. Seleziona il ramo dell’ambiente da aggiornare utilizzando Adobe Commerce Cloud CLI.
 
    ```shell
    magento-cloud environment:checkout <environment-id>
    ```
 
-1. Aggiungi il metapacchetto `magento/hipaa-ee` alla configurazione del compositore usando la CLI del compositore.
+1. Aggiungere il metapacchetto `magento/hipaa-ee` alla configurazione del compositore utilizzando l&#39;interfaccia CLI del compositore.
 
    ```shell
    composer require "magento/hipaa-ee" --no-update
@@ -104,7 +105,7 @@ Installare la versione più recente dell&#39;estensione dei servizi pronti per H
    git push origin <branch-name>
    ```
 
-   Inviando gli aggiornamenti si avvia il [processo di distribuzione cloud di Commerce](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/deploy/process) per applicare le modifiche. Controllare lo stato della distribuzione dal [registro distribuzione](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Inviando gli aggiornamenti si avvia il [processo di distribuzione cloud di Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) per applicare le modifiche. Controllare lo stato della distribuzione dal [registro distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Verificare l&#39;installazione
 
@@ -145,30 +146,30 @@ Dopo aver distribuito gli aggiornamenti, verificare che l&#39;estensione `Hipaa*
 
 ## Miglioramenti funzionali per la conformità HIPAA
 
-L&#39;estensione `magento/hipaa-ee` introduce alcune modifiche e miglioramenti al prodotto Commerce di base. Nelle sezioni seguenti vengono fornite informazioni dettagliate su queste modifiche e su come modificano il prodotto di base.
+L&#39;estensione `magento/hipaa-ee` introduce alcune modifiche e miglioramenti al prodotto Commerce di base. Le sezioni seguenti forniscono dettagli su queste modifiche e su come modificano il prodotto di base.
 
-### Registri delle azioni
+### Registri azioni
 
-La registrazione di controllo è un requisito HIPAA. In Adobe Systems Commerce, la [funzione Registri azioni](../../systems/action-log.md) registra ogni modifica apportata da un utente amministratore che lavora nel tuo store. Per soddisfare i requisiti HIPAA per il registro di controllo, la funzionalità è stata aggiornata per registrare tutte le utente dell&#39;amministratore e le azioni dei clienti eseguite tramite il interfaccia di amministrazione e le chiamate API.
+La registrazione dei controlli è un requisito HIPAA. In Adobe Commerce, la funzione [Registri azioni](../../systems/action-log.md) registra ogni modifica apportata da un utente amministratore che lavora nell&#39;archivio. Per soddisfare i requisiti HIPAA per il registro di controllo, la funzione è stata aggiornata per registrare tutte le azioni degli utenti e dei clienti amministratori eseguite tramite l’interfaccia utente di amministrazione e tramite chiamate API.
 
-I registri azioni acquisiscono anche eventi quando i servizi Adobe Systems accesso i tuoi dati store. È possibile identificare questi eventi filtrando l&#39;azione &quot;Dati inviati all&#39;esterno&quot; nel rapporto Registri azioni.
+I registri di azioni acquisiscono anche eventi quando i servizi Adobe accedono ai dati del tuo archivio. Puoi identificare questi eventi filtrando l’azione &quot;Dati inviati all’esterno&quot; nel rapporto Action Logs (Registri azioni).
 
 #### Rapporto Registri azioni
 
-La _griglia del report Action Logs_ (**[!UICONTROL System]** > Action Logs > Report) viene modificata per adattarsi alle azioni dei clienti eseguite tramite l&#39;interfaccia di amministrazione e l&#39;API.
+La griglia del report _Registri azioni_ (**[!UICONTROL System]** > Registri azioni > Report) è stata modificata per adattarsi alle azioni dei clienti eseguite tramite l&#39;interfaccia utente e l&#39;API di amministrazione.
 
 1. Sono state aggiunte due colonne:
-   - ***Origine***: mostra dove è stata eseguita l&#39;azione.
+   - ***Source***: visualizza la posizione in cui è stata eseguita l&#39;azione.
 Valori: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
-   - ***Tipo di*** client: visualizza il tipo di client.
+   - ***Tipo client***: visualizza il tipo di client.
 Valori: Cliente | Amministratore | Integrazione
 
-2. Nome utente rinominato **&#x200B;**&#x200B;**&#x200B; in &#x200B;***Identificatore client***
-   - ***Identificatore*** client: visualizza l&#39;ID login del utente che ha eseguito l&#39;azione.
+2. La colonna ***Nome utente*** è stata rinominata ***Identificatore client***
+   - ***Identificatore client***: visualizza l&#39;ID di accesso per l&#39;utente che ha eseguito l&#39;azione.
 Valori:
-      - un&#39;e-mail se il tipo di client è cliente
+      - un messaggio e-mail se il tipo di client è Cliente
       - un nome utente se il tipo di client è Admin
-      - un nome se Tipo client è Integrazione
+      - un nome se il tipo di client è Integrazione
 
 3. La colonna ***Nome azione completo*** è stata rinominata ***Destinazione***
    - ***Destinazione***: visualizza il nome dell&#39;azione.
@@ -208,13 +209,13 @@ Le griglie clienti nella pagina Ordine di creazione amministratore (**[!UICONTRO
 - Per eseguire una ricerca, gli utenti devono applicare almeno tre filtri.
 - Per impostazione predefinita, i risultati della ricerca sono limitati a 10 record.
 - Se ci sono più record che corrispondono ai criteri di ricerca, le notifiche informeranno gli utenti del limite di risultati e della necessità di perfezionare la ricerca.
-- L&#39;impaginazione della griglia non è disponibile.
-- Precedente ricerca risultati e filtri applicati non vengono salvati quando ci si allontana dalla pagina.
+- Paginazione griglia non disponibile.
+- I risultati della ricerca precedente e i filtri applicati non vengono salvati quando si esce dalla pagina.
 
-La funzionalità di restrizione dei risultati del ricerca si applica anche all&#39;API REST per ricerca del cliente (`/V1/customers/search`).
+La funzionalità di restrizione dei risultati di ricerca si applica anche all&#39;API REST per la ricerca clienti (`/V1/customers/search`).
 
-- Senza filtri applicati o con filtri insufficienti, l&#39;API restituisce un messaggio di errore che indica che è necessario il numero richiesto di filtri per eseguire un ricerca.
-- Quando un numero sufficiente di filtri viene applicato da utenti autorizzati, l&#39;API restituisce risultati entro il limite specificato.
+- Se non vengono applicati filtri o se i filtri sono insufficienti, l’API restituisce un messaggio di errore per indicare che è necessario il numero di filtri necessario per eseguire una ricerca.
+- Quando gli utenti autorizzati applicano un numero sufficiente di filtri, l’API restituisce i risultati entro il limite specificato.
 - Quando i risultati sono limitati, alla risposta viene aggiunto un messaggio che indica il numero totale di record trovati e il limite applicato corrente.
 
 ### Importazione ed esportazione di feature
@@ -231,11 +232,11 @@ Uno dei miglioramenti principali nelle funzioni di importazione ed esportazione 
 
 | Tipo | Azioni |
 | ---- | ------- |
-| Importa | <ul><li>Un utente amministratore esegue un&#39;importazione<li>Un amministratore utente scarica un file importato<li>Un utente amministratore scarica un file di errore<ul/> |
-| Esportazione | <ul><li>Un amministratore utente le richieste<li>Un utente amministratore scarica un file esportato<ul/> |
-| Importazioni/esportazioni programmate | <ul><li>Un amministratore utente pianifica l&#39;esportazione<li>Un amministratore utente modifica un&#39;esportazione pianificata<li>Un utente amministratore esegue un&#39;esportazione pianificata<li>Un amministratore utente elimina un&#39;esportazione pianificata<li>Un utente amministratore pianifica un&#39;importazione<li>Un amministratore modifica utente un&#39;importazione pianificata<li>Un utente amministratore esegue un&#39;importazione pianificata<li>Un utente amministratore elimina un&#39;importazione pianificata<li>Un utente Admin esegue un&#39;eliminazione collettiva delle operazioni di importazione/esportazione<ul/> |
+| Importa | <ul><li>Un utente amministratore esegue un’importazione<li>Un utente amministratore scarica un file importato<li>Un utente amministratore scarica un file di errore<ul/> |
+| Esporta | <ul><li>Richieste di utenti amministratore<li>Un utente amministratore scarica un file esportato<ul/> |
+| Importazioni/esportazioni programmate | <ul><li>Un utente amministratore pianifica l’esportazione<li>Un utente amministratore modifica un’esportazione pianificata<li>Un utente amministratore esegue un’esportazione pianificata<li>Un utente amministratore elimina un’esportazione pianificata<li>Un utente amministratore pianifica un’importazione<li>Un utente amministratore modifica un’importazione pianificata<li>Un utente amministratore esegue un’importazione pianificata<li>Un utente amministratore elimina un’importazione pianificata<li>Un utente amministratore esegue un’eliminazione in blocco delle operazioni di importazione/esportazione<ul/> |
 
-### Miglioramenti alla visualizzazione e ottimizzazione di filtri e ordinamento
+### Miglioramenti alla visualizzazione e miglioramento del filtraggio e dell’ordinamento
 
 Per consentire agli utenti amministratori di disporre di griglie con maggiori informazioni, il servizio HIPAA-Ready fornisce diversi miglioramenti per visualizzare, filtrare e ordinare i dati.
 
@@ -267,7 +268,7 @@ Questa sezione descrive i servizi Adobe pronti per HIPAA che sono disponibili pe
 | Servizio | Produzione | Staging | staging_for_support | Sviluppo |
 |---------------------------------------|------------|---------|---------------------|-------------|
 | Adobe Commerce con componente aggiuntivo per il settore sanitario | Sì | Sì | Sì | No |
-| SendGrid | No | No | No | No |
+| InviaGriglia | No | No | No | No |
 | Servizio e-mail semplice AWS | Sì | Sì | Sì | No |
 
 ### Servizi Adobe Commerce
@@ -278,13 +279,13 @@ La tabella seguente identifica i servizi Adobe Commerce disponibili per l’offe
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Sì | Sì |
 | [Mesh API per Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Sì | Sì |
-| [Esportazione dati SaaS](https://experienceleague.adobe.com/it/docs/commerce/saas-data-export/overview) | Sì | Sì |
-| [Live search](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview) | No | No |
-| [Raccomandazioni del prodotto](https://experienceleague.adobe.com/it/docs/commerce/product-recommendations/overview) | No | No |
-| [Servizi di pagamento](https://experienceleague.adobe.com/it/docs/commerce/payment-services/guide-overview) | No | No |
-| [Eventi back office connessione dati](https://experienceleague.adobe.com/it/docs/commerce/data-connection/event-forwarding/events-backoffice) | Sì | Sì |
-| [Eventi Storefront Connessione Dati](https://experienceleague.adobe.com/it/docs/commerce/data-connection/event-forwarding/events#storefront-events) | No | No |
-| [Audience Activation](https://experienceleague.adobe.com/it/docs/commerce-admin/customers/audience-activation) | No | No |
+| [Esportazione dati SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Sì | Sì |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | No | No |
+| [Consigli di prodotto](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | No | No |
+| [Servizi di pagamento](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | No | No |
+| [Eventi back office connessione dati](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Sì | Sì |
+| [Eventi Storefront Connessione Dati](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | No | No |
+| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | No | No |
 
 ### Strumenti
 
@@ -296,18 +297,18 @@ Lo strumento [Analisi sicurezza](../../systems/security-scan.md) per Adobe Comme
 - Tutte le estensioni installate corrispondono a un inserisco nell&#39;elenco Consentiti predefinito per la
 - Nessun servizio Adobe non supportato installato
 
-È possibile [configurare lo strumento](../../systems/security-scan.md#run-a-security-scan) per inviare notifiche e-mail con i dettagli delle analisi pianificate o [visualizzare manualmente i report](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
+È possibile [configurare lo strumento](../../systems/security-scan.md#run-a-security-scan) per inviare notifiche e-mail con i dettagli delle analisi pianificate o [visualizzare manualmente i report](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
 
 ## Funzioni disattivate
 
 Per soddisfare i requisiti HIPAA, alcune funzioni supportate da Adobe Commerce non sono disponibili o sono disabilitate per impostazione predefinita. I commercianti hanno la possibilità di riattivare o utilizzare queste funzioni a proprio rischio.
 
-Le seguenti funzioni sono disabilitate per impostazione predefinita nel modulo di preparazione HIPAA. Gli esercenti possono abilitare ognuna di queste funzioni a proprio rischio.
+Le seguenti funzioni sono disattivate per impostazione predefinita nel modulo HIPAA-readiness. Gli esercenti possono abilitare ognuna di queste funzioni a proprio rischio.
 
-- **[E-mail transazionale](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=it)**—SendGrid è disabilitato per impostazione predefinita perché il servizio non è compatibile con HIPAA. Adobe Commerce fornisce un&#39;opzione di integrazione che puoi utilizzare con il tuo account [AWS Simple Email Service](https://docs.aws.amazon.com/ses/). Per informazioni dettagliate sulla configurazione, contatta il tuo Customer Technical Account Manager o il servizio di assistenza Adobe Commerce.
+- **[E-mail transazionale](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—SendGrid è disabilitato per impostazione predefinita perché il servizio non è compatibile con HIPAA. Adobe Commerce fornisce un&#39;opzione di integrazione che puoi utilizzare con il tuo account [AWS Simple Email Service](https://docs.aws.amazon.com/ses/). Per informazioni dettagliate sulla configurazione, contatta il tuo Customer Technical Account Manager o il servizio di assistenza Adobe Commerce.
 
 - **[Pagamento per gli ospiti](../../stores-purchase/checkout-guest.md)** - Questa funzionalità rappresenta un potenziale rischio per vari aspetti dell&#39;HIPAA, tra cui la registrazione, il controllo degli accessi, l&#39;igiene e la derivazione PHI e potenzialmente altri.
 
 - **[Funzione newsletter](../../merchandising-promotions/newsletters.md)** - Questa funzione è disabilitata per impedire l&#39;utilizzo di PHI in un contesto di marketing.
 
-- **[Avanzate impostazione del servizio](../../getting-started/business-intelligence.md)** di reporting: questa impostazione di configurazione è disabilitata per impedire l&#39;utilizzo di PHI per l&#39;analisi e il reporting.
+- **[Impostazione avanzata del servizio Reporting](../../getting-started/business-intelligence.md)**. Questa impostazione di configurazione è disabilitata per impedire l&#39;utilizzo di PHI per l&#39;analisi e il reporting.

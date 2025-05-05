@@ -4,9 +4,10 @@ description: Scopri come gestire il metapackage  [!DNL Inventory Management] .
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-source-git-commit: d6c81da4b4e0674d6699e9781921ccb2160b9983
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 0%
 
 I moduli [!DNL Inventory Management] forniscono tutte le funzionalità e le opzioni di inventario per i commercianti di origini singole e multiple per gestire le quantità e le scorte dei prodotti per i canali di vendita. Queste funzioni sono disponibili nelle versioni 2.4.x di Adobe Commerce e Magento Open Source.
 
-Queste funzionalità ed estensioni sono state sviluppate nell&#39;ambito del [progetto di inventario](https://github.com/magento/inventory) tramite il programma di progettazione della community di Magento Open Source.
+Queste funzionalità ed estensioni sono state sviluppate nell&#39;ambito del [progetto di inventario](https://github.com/magento/inventory) tramite il programma di progettazione della community Magento Open Source.
 
 [!DNL Inventory Management] viene installato nelle versioni 2.3.x e 2.4.x di Adobe Commerce e Magento Open Source, con tutte le funzioni abilitate per impostazione predefinita. Non sono necessari passaggi aggiuntivi per abilitare queste funzioni di inventario. Gli aggiornamenti da v2.1.x o 2.2.x possono richiedere passaggi aggiuntivi. Consulta [Aggiornare Inventory management](#upgrade-inventory-management).
 
-Si consiglia di eseguire l&#39;installazione in base a [Installazione rapida locale](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=it){target="_blank"}. Eseguire l&#39;installazione con un metapacchetto per ricevere tutti i moduli [!DNL Inventory Management].
+Si consiglia di eseguire l&#39;installazione in base a [Installazione rapida locale](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}. Eseguire l&#39;installazione con un metapacchetto per ricevere tutti i moduli [!DNL Inventory Management].
 
 La riga seguente nel metapackage `composer.json` installa [!DNL Inventory Management]:
 
@@ -83,7 +84,7 @@ Il processo di installazione di [!DNL Inventory Management] aggiunge tutti i mod
 
 ## Abilita funzionalità [!DNL Inventory Management]
 
-Quando è installata, aggiornata o aggiornata, l&#39;opzione _[!UICONTROL Manage Stock]_&#x200B;nell&#39;amministratore è attivata per impostazione predefinita. Questa opzione consente la registrazione e la gestione dell&#39;inventario, ma non influisce sullo stato del modulo. Per disattivare i moduli, consulta la sezione successiva.
+Quando è installata, aggiornata o aggiornata, l&#39;opzione _[!UICONTROL Manage Stock]_nell&#39;amministratore è attivata per impostazione predefinita. Questa opzione consente la registrazione e la gestione dell&#39;inventario, ma non influisce sullo stato del modulo. Per disattivare i moduli, consulta la sezione successiva.
 
 Per ulteriori informazioni sulle configurazioni, vedere [Configurare Inventory management](configuration.md).
 
@@ -98,7 +99,7 @@ Disabilitare [!DNL Inventory Management] moduli per:
 * Accelera il processo di aggiornamento per i commercianti che eseguono la migrazione da 2.0.x, 2.1.x, 2.2.x o da 2.3.x a 2.4.x.
 * Utilizza moduli personalizzati o di terze parti per il sistema di gestione degli ordini e delle scorte.
 
-Per informazioni su come disattivare i moduli applicabili, vedere la pagina [Attiva o disattiva moduli](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=it) nella _Guida all&#39;installazione_.
+Per informazioni su come disattivare i moduli applicabili, vedere la pagina [Attiva o disattiva moduli](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) nella _Guida all&#39;installazione_.
 
 Una volta completato, il sistema fornisce un elenco di moduli e valori in `<Magento_installation_directory>/app/etc/config.php`, a partire da:
 
@@ -203,7 +204,7 @@ Una volta completata la modifica, esegui l’installazione del compositore e rim
 
 ### Versioni precedenti di [!DNL Commerce]
 
-Quando si aggiorna o si aggiorna un&#39;installazione esistente 2.1.x, 2.2.x o 2.3.x in Adobe Commerce o Magento Open Source 2.4.x, per impostazione predefinita i moduli [!DNL Inventory Management] sono disabilitati. Questa impostazione predefinita è una precauzione per evitare aggiornamenti incompatibili con le versioni precedenti e per supportare meglio Order Management (OMS).
+Durante l&#39;aggiornamento o l&#39;aggiornamento di un&#39;installazione esistente 2.1.x, 2.2.x o 2.3.x in Adobe Commerce o Magento Open Source 2.4.x, i moduli [!DNL Inventory Management] sono disabilitati per impostazione predefinita. Questa impostazione predefinita è una precauzione per evitare aggiornamenti incompatibili con le versioni precedenti e per supportare meglio Order Management (OMS).
 
 >[!NOTE]
 >
@@ -240,5 +241,5 @@ Al più tardi, aggiorna la versione del metapackage:
 
 Per ulteriori informazioni sugli aggiornamenti di Commerce, consulta le seguenti guide:
 
-* [Guida di Commerce Update](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=it){target="_blank"}
-* [Attiva o disattiva moduli](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=it){target="_blank"}
+* [Guida di Commerce Update](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
+* [Attiva o disattiva moduli](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

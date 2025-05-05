@@ -3,9 +3,9 @@ title: Codici coupon
 description: Scopri come utilizzare i codici coupon con le regole del prezzo del carrello per applicare uno sconto quando viene soddisfatta una serie di condizioni.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ A partire dalla versione 2.4.7 di Commerce, gli acquirenti possono applicare pi�
 
 >[!NOTE]
 >
->Le regole di prezzo del carrello con la stessa priorità non generano uno sconto combinato. Ogni regola (coupon) viene applicata separatamente ai prodotti corrispondenti, uno per uno, in base all’ID della regola di prezzo del carrello nel database. Per controllare l’ordine in cui vengono applicati gli sconti, l’Adobe consiglia di impostare una priorità diversa per ogni regola di prezzo del carrello aggiunto.
+>Le regole di prezzo del carrello con la stessa priorità non generano uno sconto combinato. Ogni regola (coupon) viene applicata separatamente ai prodotti corrispondenti, uno per uno, in base all’ID della regola di prezzo del carrello nel database. Per controllare l’ordine in cui vengono applicati gli sconti, Adobe consiglia di impostare una priorità diversa per ogni regola di prezzo del carrello aggiunto.
 
 ## Configurare i codici coupon
 
@@ -62,7 +62,7 @@ La lunghezza e il formato dei codici coupon generati automaticamente sono contro
 
 >[!NOTE]
 >
->Prima di creare i coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it#run-cron-from-the-command-line) nella _Guida alla configurazione_.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Prima di creare coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) nella _Guida alla configurazione_.
 
 ### Metodo 1: creazione di un coupon specifico
 
@@ -89,7 +89,7 @@ La lunghezza e il formato dei codici coupon generati automaticamente sono contro
 
 1. Per rendere valido il coupon per un periodo di tempo, effettuare le seguenti operazioni:
 
-   - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Completa le date **Da** e **A**. Per selezionare la data, fare clic sull&#39;icona **Calendario** (![Icona Calendario](../assets/icon-calendar.png)) accanto a ogni campo. Se lasci vuoto l’intervallo di date, la regola non scade.
+   - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) completa le date **Da** e **A**. Per selezionare la data, fare clic sull&#39;icona **Calendario** (![Icona Calendario](../assets/icon-calendar.png)) accanto a ogni campo. Se lasci vuoto l’intervallo di date, la regola non scade.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Effettua una delle seguenti operazioni:
 

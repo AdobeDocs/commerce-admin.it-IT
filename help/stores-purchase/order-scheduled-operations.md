@@ -3,9 +3,9 @@ title: Operazioni ordine programmato
 description: Scopri le operazioni dell’ordine programmato e le impostazioni cron dell’ordine che supportano questa funzionalità.
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
-source-git-commit: db859c40cd6f052a8f1153e245c23d9f1ea97d33
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,11 @@ Pianificando queste attività, puoi evitare i blocchi che si verificano quando i
 
 **_Per abilitare gli aggiornamenti e la reindicizzazione:_**
 
-Quando è abilitata la [modalità di produzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=it#production-mode) (la modalità predefinita utilizzata in Adobe Commerce nell&#39;infrastruttura cloud), eseguire il comando seguente:
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Quando [Modalità di produzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (modalità predefinita utilizzata in Adobe Commerce nell&#39;infrastruttura cloud) è abilitata, esegui il comando seguente:
 
-``bin/magento config:set dev/grid/async_indexing 1``
+`bin/magento config:set dev/grid/async_indexing 1`
 
-Quando è attivata la modalità predefinita [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=it#default-mode), completare i passaggi seguenti:
+Quando è attivata la modalità predefinita [](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode), completare i passaggi seguenti:
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
