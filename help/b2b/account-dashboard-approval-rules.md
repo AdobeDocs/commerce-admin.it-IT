@@ -150,4 +150,4 @@ Per rimuovere una regola di approvazione esistente, un cliente può completare i
 
 Guarda questo video per scoprire di più sulle approvazioni degli ordini d’acquisto:
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410766?quality=12&learn=on&captions=ita)

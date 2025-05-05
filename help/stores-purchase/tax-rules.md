@@ -96,4 +96,4 @@ Le regole fiscali includono una combinazione di classe di prodotto, classe di cl
 
 Scopri come gestire la valuta e le regole fiscali guardando questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410212/?quality=12&learn=on&captions=ita)

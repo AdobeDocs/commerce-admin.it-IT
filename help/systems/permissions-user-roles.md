@@ -119,7 +119,7 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 
 Guarda questo video per scoprire come gestire i ruoli utente:
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443515?quality=12&learn=on&captions=ita)
 
 ## Risorse per il ruolo
 

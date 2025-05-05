@@ -91,4 +91,4 @@ La griglia _Applica modello_ e la griglia di pagina _Modelli_ offrono due modi p
 
 Guarda questo video per scoprire di più sui modelli di contenuto di Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410843?quality=12&learn=on&captions=ita)

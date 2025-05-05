@@ -80,7 +80,7 @@ Il [!UICONTROL Content Staging] [dashboard](content-staging-dashboard.md) fornis
 
 Per informazioni sulla gestione temporanea dei contenuti, guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410855?quality=12&learn=on&captions=ita)
 
 ## Risorse per la risoluzione dei problemi
 

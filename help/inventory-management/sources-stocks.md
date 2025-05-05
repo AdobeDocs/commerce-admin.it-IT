@@ -65,4 +65,4 @@ Di seguito sono riportate alcune opzioni importanti da comprendere per [!DNL Inv
 
 Guarda questo video per scoprire le origini e le scorte di Inventory management:
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410197?quality=12&learn=on&captions=ita)
