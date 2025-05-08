@@ -2,9 +2,9 @@
 title: Introduzione ai sistemi di amministrazione
 description: Scopri gli strumenti e le funzioni di sistema che l’amministratore dello store può utilizzare per gestire in modo efficace siti, dati, integrazioni e utenti amministratore.
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 46564240e7f76cf2a691c209b36d530763ba4f01
+source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ L’amministratore supporta inoltre varie attività per consentire agli amminist
 - **Trasferimento dati** - Utilizza gli strumenti [trasferimento dati](data-transfer.md) per importare ed esportare dati, nonché per gestire dati su prodotti, prezzi, clienti e aliquota fiscale.
 - **Integrazioni** - Stabilisci il percorso delle credenziali OAuth e l&#39;URL di reindirizzamento per [integrazioni di terze parti](integrations.md) e identifica le risorse API disponibili.
 - **Log azioni** - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Accedi ai record ([log azioni](action-log.md)) per le modifiche apportate dagli utenti amministratori che lavorano nel tuo archivio.
-- **Strumenti di supporto** - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Gli strumenti di supporto ([Agente di raccolta dati](support.md#data-collector) e [Report di sistema](support.md#access-system-reports)) sono progettati per identificare i problemi noti nel sistema. Possono essere utilizzati come risorsa durante i processi di sviluppo e ottimizzazione e come strumento diagnostico per aiutare il nostro team di supporto a identificare e risolvere i problemi.
+- **Strumenti di supporto** - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [I report di sistema](support.md#access-system-reports) sono progettati per identificare i problemi noti nel sistema. Possono essere utilizzati come risorsa durante i processi di sviluppo e ottimizzazione e come strumento diagnostico per aiutare il nostro team di supporto a identificare e risolvere i problemi.
