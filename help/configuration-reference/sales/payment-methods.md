@@ -91,7 +91,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Make Check Payable to] | Visualizzazione store | Il nome dell&#39;entità a cui gli assegni e i vaglia postali dovrebbero essere esigibili. |
 | [!UICONTROL Send Check to] | Visualizzazione store | Indirizzo stradale o casella postale presso il quale devono essere inviati gli assegni e i vaglia postali. |
 | [!UICONTROL Minimum Order Total] | Sito Web | Importo minimo dell&#39;ordine che può essere pagato tramite assegno o vaglia postale. |
-| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite assegno o vaglia postale. <br/><br/>**_Nota:_**un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
+| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite assegno o vaglia postale. <br/><br/>**_Nota:_**&#x200B;un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite assegno o vaglia postale se elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}
@@ -110,7 +110,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina i paesi da cui si accetta il pagamento tramite bonifico bancario. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici da cui si accetta il pagamento tramite bonifico bancario. |
 | [!UICONTROL Minimum Order Total] | Sito Web | Importo minimo dell&#39;ordine che può essere pagato tramite bonifico bancario. |
-| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite bonifico bancario. <br/><br/>**_Nota:_**un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
+| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite bonifico bancario. <br/><br/>**_Nota:_**&#x200B;un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite bonifico bancario se elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}
@@ -131,7 +131,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina i paesi in cui le aziende possono addebitare gli acquisti sui propri conti. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici in cui le aziende possono addebitare gli acquisti sui propri conti. |
 | [!UICONTROL Minimum Order Total] | Sito Web | Specifica l&#39;importo dell&#39;ordine più piccolo che può essere addebitato a un conto aziendale. |
-| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere addebitato a un conto aziendale. <br/><br/>**_Nota:_**un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
+| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere addebitato a un conto aziendale. <br/><br/>**_Nota:_**&#x200B;un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento dell&#39;acconto se elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}
@@ -154,7 +154,7 @@ I seguenti metodi di pagamento sono incorporati in Commerce e non utilizzano un 
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina i paesi da cui si accetta il pagamento tramite bonifico bancario. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici da cui si accetta il pagamento tramite bonifico bancario. |
 | [!UICONTROL Minimum Order Total] | Sito Web | Specifica l&#39;importo minimo dell&#39;ordine che può essere pagato tramite bonifico bancario. |
-| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite bonifico bancario. <br/><br/>**_Nota:_**un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
+| [!UICONTROL Maximum Order Total] | Sito Web | L&#39;importo massimo dell&#39;ordine che può essere pagato tramite bonifico bancario. <br/><br/>**_Nota:_**&#x200B;un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite bonifico bancario se elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}
@@ -199,7 +199,7 @@ Per un elenco completo delle singole opzioni di configurazione, consulta la sezi
 
 >[!NOTE]
 >
->Non selezionare l&#39;opzione _[!UICONTROL Not Capture]_a meno che non si sia certi che il pagamento verrà acquisito tramite Commerce in un secondo momento. Non è possibile creare una nota di accredito finché il pagamento non viene acquisito utilizzando il pulsante Acquisisci.
+>Non selezionare l&#39;opzione _[!UICONTROL Not Capture]_&#x200B;a meno che non si sia certi che il pagamento verrà acquisito tramite Commerce in un secondo momento. Non è possibile creare una nota di accredito finché il pagamento non viene acquisito utilizzando il pulsante Acquisisci.
 
 ## [!UICONTROL Purchase Order]
 
@@ -215,7 +215,7 @@ Per un elenco completo delle singole opzioni di configurazione, consulta la sezi
 | [!UICONTROL Payment from Applicable Countries] | Sito Web | Determina i paesi dai quali si accetta il pagamento tramite OA. Opzioni: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sito Web | Identifica i paesi specifici da cui si accetta il pagamento tramite OA. |
 | [!UICONTROL Minimum Order Total] | Sito Web | Importo minimo dell&#39;ordine che può essere pagato da OA. |
-| [!UICONTROL Maximum Order Total] | Sito Web | Importo massimo dell&#39;ordine che può essere pagato da OA. <br/><br/>**_Nota:_**un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
+| [!UICONTROL Maximum Order Total] | Sito Web | Importo massimo dell&#39;ordine che può essere pagato da OA. <br/><br/>**_Nota:_**&#x200B;un ordine è qualificato se il totale è compreso tra, o corrisponde, al totale minimo o massimo dell&#39;ordine. |
 | [!UICONTROL Sort Order] | Sito Web | Numero che determina l&#39;ordine di visualizzazione del pagamento tramite OA quando viene elencato con altri metodi di pagamento durante il pagamento. Immetti `0` per collocarlo all&#39;inizio dell&#39;elenco. |
 
 {style="table-layout:auto"}
