@@ -169,11 +169,11 @@ Le opzioni per paese identificano il paese in cui è situata la tua azienda e i 
 
 Per informazioni sulla risoluzione dei problemi di configurazione del paese, vedere i seguenti articoli della Knowledge Base di supporto di [!DNL Commerce]:
 
-- [Come aggiungere un paese](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Come aggiungere un paese](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=it)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 L&#39;impostazione dell&#39;ubicazione esercente viene utilizzata per configurare [metodi di pagamento](../stores-purchase/payments.md). Se non è presente alcun valore per questa impostazione, verrà utilizzata l&#39;impostazione [Paese predefinito](#uicontrol-country-options).
 
