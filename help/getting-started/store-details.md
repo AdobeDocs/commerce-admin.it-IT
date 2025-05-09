@@ -3,9 +3,9 @@ title: Dettagli store
 description: Scopri come aggiornare le informazioni di base per il tuo store.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Le informazioni di base per il negozio includono il nome e l&#39;indirizzo del n
 
 ## [!UICONTROL Store Information]
 
-La sezione _[!UICONTROL Store Information]_&#x200B;fornisce le informazioni di base visualizzate nei documenti di vendita e in altre comunicazioni.
+La sezione _[!UICONTROL Store Information]_fornisce le informazioni di base visualizzate nei documenti di vendita e in altre comunicazioni.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -169,9 +169,11 @@ Le opzioni per paese identificano il paese in cui è situata la tua azienda e i 
 
 Per informazioni sulla risoluzione dei problemi di configurazione del paese, vedere i seguenti articoli della Knowledge Base di supporto di [!DNL Commerce]:
 
-- [Come aggiungere un paese](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=it)
+- [Come aggiungere un paese](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 L&#39;impostazione dell&#39;ubicazione esercente viene utilizzata per configurare [metodi di pagamento](../stores-purchase/payments.md). Se non è presente alcun valore per questa impostazione, verrà utilizzata l&#39;impostazione [Paese predefinito](#uicontrol-country-options).
 
@@ -313,7 +315,7 @@ I dati di esempio Luma includono un blocco _Contact Us Info_ che può essere per
 
 1. Passa il puntatore del mouse sul contenitore HTML per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](../page-builder/assets/pb-icon-settings.png) ).
 
-1. Modificare il codice HTML in base alle informazioni di contatto per il tuo archivio e fare clic su **[!UICONTROL Save]**.
+1. Modificare il codice HTML in base alle informazioni di contatto per il tuo Negozio e fare clic su **[!UICONTROL Save]**.
 
    ![Blocco di contenuto - modifica codice HTML](./assets/content-block-contact-us-html.png){width="700"}
 

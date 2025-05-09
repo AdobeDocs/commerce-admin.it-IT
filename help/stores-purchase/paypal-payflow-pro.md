@@ -3,9 +3,10 @@ title: PayPal Payflow Pro
 description: Scopri come impostare PayPal Payflow Pro come soluzione di pagamento online sul tuo store.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -18,14 +19,14 @@ Il gateway PayPal Payflow Pro, precedentemente noto come _Verisign_, è disponib
 
 >[!IMPORTANT]
 >
->**Requisiti PSD2:** <br/>
+>**Requisiti di PSD2:** <br/>
 >A partire dal 14 settembre 2019, le banche europee potrebbero rifiutare i pagamenti che non soddisfano i requisiti di [PSD2](../getting-started/compliance-payment-services-directive.md). Per rispettare PSD2, PayPal Payflow Pro deve essere integrato con un plug-in di terze parti. Per ulteriori informazioni, vedere [3D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/).
 
 ## Requisiti
 
 - [Account commerciale PayPal][1] - Il gateway PayPal Payflow Pro collega il conto commerciale di PayPal al sito Web del commerciante, fungendo sia da gateway che da conto commerciale.
 
-- Se gestisci più siti web Adobe Commerce e Magento Open Source, devi avere un account esercente PayPal separato per ogni sito web.
+- Se gestisci più siti Web Adobe Commerce e Magento Open Source, devi avere un account esercente PayPal separato per ogni sito Web.
 
 ## Flusso di lavoro cliente
 
@@ -113,7 +114,7 @@ Questo metodo di impostazione presuppone che sia presente un conto PayPal.
 
 1. Se nell&#39;installazione di Commerce sono presenti più siti Web, store o visualizzazioni, impostare **[!UICONTROL Store View]** sulla visualizzazione dello store in cui si desidera applicare questa configurazione.
 
-1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**&#x200B;in cui si trova la tua azienda.
+1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**in cui si trova la tua azienda.
 
    Questa impostazione determina la selezione delle soluzioni PayPal visualizzate nella configurazione.
 
@@ -448,7 +449,7 @@ Utilizza le impostazioni di esperienza front-end per scegliere quali logo PayPal
    - `Authorization` - Approva l&#39;acquisto e blocca i fondi. L&#39;importo non viene prelevato finché non viene _acquisito_ dal commerciante.
    - `Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente.
 
-1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_&#x200B;nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**&#x200B;su `Yes`.
+1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**su `Yes`.
 
 ### Passo 7: Completare le impostazioni avanzate per PayPal Express Checkout
 

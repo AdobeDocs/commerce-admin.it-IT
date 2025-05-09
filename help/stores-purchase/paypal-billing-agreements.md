@@ -3,9 +3,10 @@ title: Accordi di fatturazione PayPal
 description: Scopri come supportare i contratti di fatturazione PayPal e un metodo di pagamento all’interno del tuo Negozio.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Per semplificare il processo di pagamento, i clienti possono stipulare un contra
 
 ## Gestisci accordi di fatturazione
 
-Nella pagina _[!UICONTROL Billing Agreements]_&#x200B;sono elencati tutti gli accordi di fatturazione tra lo store e i relativi clienti. Gli esercenti possono filtrare i record in base alle informazioni relative al cliente o al contratto di fatturazione, inclusi l&#39;ID di riferimento del contratto di fatturazione, lo stato e la data di creazione. Ogni record include informazioni generali sul contratto di fatturazione e tutti gli ordini di vendita che lo hanno utilizzato come metodo di pagamento. È possibile visualizzare, annullare o eliminare i contratti di fatturazione dei clienti. Un contratto di fatturazione annullato può essere eliminato solo dall&#39;amministratore del punto vendita.
+Nella pagina _[!UICONTROL Billing Agreements]_sono elencati tutti gli accordi di fatturazione tra lo store e i relativi clienti. Gli esercenti possono filtrare i record in base alle informazioni relative al cliente o al contratto di fatturazione, inclusi l&#39;ID di riferimento del contratto di fatturazione, lo stato e la data di creazione. Ogni record include informazioni generali sul contratto di fatturazione e tutti gli ordini di vendita che lo hanno utilizzato come metodo di pagamento. È possibile visualizzare, annullare o eliminare i contratti di fatturazione dei clienti. Un contratto di fatturazione annullato può essere eliminato solo dall&#39;amministratore del punto vendita.
 
 ### Visualizza un contratto di fatturazione
 
@@ -34,7 +35,7 @@ Nella pagina _[!UICONTROL Billing Agreements]_&#x200B;sono elencati tutti gli ac
 
 1. Individuare il contratto di fatturazione nell&#39;elenco e fare clic per aprirlo.
 
-Ogni pagina del contratto di fatturazione è costituita da due schede: _[!UICONTROL General Information]_&#x200B;e_[!UICONTROL Related Orders]_.
+Ogni pagina del contratto di fatturazione è costituita da due schede: _[!UICONTROL General Information]_e_[!UICONTROL Related Orders]_.
 
 #### Informazioni generali
 

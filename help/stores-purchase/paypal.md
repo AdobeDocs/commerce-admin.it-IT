@@ -3,9 +3,10 @@ title: Soluzioni di pagamento PayPal
 description: Scopri le integrazioni di soluzioni di pagamento PayPal disponibili per il tuo store.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ PayPal è un leader globale nei pagamenti online e un modo veloce e sicuro per i
 
 >[!IMPORTANT]
 >
->**Requisiti PSD2:** <br/>
+>**Requisiti di PSD2:** <br/>
 >A partire dal 14 settembre 2019, le banche europee potrebbero rifiutare i pagamenti che non soddisfano i requisiti di [PSD2](../getting-started/compliance-payment-services-directive.md). Per la maggior parte delle soluzioni PayPal, non è richiesta alcuna azione per conformarsi a PSD2 perché questi requisiti sono gestiti da PayPal.
 
 ## Account aziendale PayPal
@@ -102,7 +103,7 @@ I filtri di gestione delle frodi PayPal semplificano l&#39;individuazione e la r
 | Azione | Risultato |
 | --- | --- |
 | [!UICONTROL Review] | L&#39;ordine sospetto riceve lo stato _Revisione pagamento_ quando l&#39;ordine viene effettuato. Puoi rivedere l&#39;ordine e approvare o annullare il pagamento nell&#39;Admin o sul lato PayPal. Quando si fa clic su **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, non vengono create nuove transazioni per l&#39;ordine. <br/><br/>Se modifichi lo stato della transazione sul sito PayPal, devi fare clic su **[!UICONTROL Get Payment Update]** nella pagina Ordine dell&#39;amministratore per applicare le modifiche. Se fai clic su **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, vengono applicate le modifiche apportate al sito PayPal. |
-| [!UICONTROL Deny] | L&#39;ordine sospetto non può essere effettuato dal cliente, perché la transazione corrispondente viene rifiutata da PayPal. <br/><br/>Per rifiutare il pagamento da parte dell&#39;amministratore, fare clic su **[!UICONTROL Deny Payment]** nell&#39;angolo superiore destro della pagina. Lo stato dell&#39;ordine cambia in `Canceled`, la transazione viene ripristinata e i fondi vengono rilasciati sul conto cliente. Le informazioni corrispondenti vengono aggiunte nella sezione _[!UICONTROL Comments History]_&#x200B;della visualizzazione ordine. |
+| [!UICONTROL Deny] | L&#39;ordine sospetto non può essere effettuato dal cliente, perché la transazione corrispondente viene rifiutata da PayPal. <br/><br/>Per rifiutare il pagamento da parte dell&#39;amministratore, fare clic su **[!UICONTROL Deny Payment]** nell&#39;angolo superiore destro della pagina. Lo stato dell&#39;ordine cambia in `Canceled`, la transazione viene ripristinata e i fondi vengono rilasciati sul conto cliente. Le informazioni corrispondenti vengono aggiunte nella sezione _[!UICONTROL Comments History]_della visualizzazione ordine. |
 | [!UICONTROL Flag] | L&#39;ordine sospetto ottiene lo stato `Processing` al momento dell&#39;inserimento. La transazione corrispondente è contrassegnata da un contrassegno nell&#39;elenco delle transazioni del conto esercente. |
 
 {style="table-layout:auto"}

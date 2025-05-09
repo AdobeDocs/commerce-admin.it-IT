@@ -3,9 +3,10 @@ title: Pagamenti PayPal avanzati
 description: Scopri come impostare PayPal Payments Advanced come soluzione di pagamento online sul tuo store.
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Anche i clienti senza un conto PayPal possono effettuare acquisti tramite il gat
 
 >[!IMPORTANT]
 >
->**Requisiti PSD2:** <br/>
+>**Requisiti di PSD2:** <br/>
 >A partire dal 14 settembre 2019, le banche europee potrebbero rifiutare i pagamenti che non soddisfano i requisiti di [PSD2](../getting-started/compliance-payment-services-directive.md). Per rispettare PSD2, PayPal Payments Advanced deve essere integrato con un plug-in di terze parti. Per ulteriori informazioni, vedere [3D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/).
 
 >[!NOTE]
@@ -28,7 +29,7 @@ Anche i clienti senza un conto PayPal possono effettuare acquisti tramite il gat
 ## Requisiti
 
 - [Account aziendale PayPal][1]
-- Se gestisci più siti web Adobe Commerce e Magento Open Source, devi avere un account esercente PayPal separato per ogni sito web.
+- Se gestisci più siti Web Adobe Commerce e Magento Open Source, devi avere un account esercente PayPal separato per ogni sito Web.
 
 ## Flusso di lavoro di cassa
 
@@ -109,7 +110,7 @@ Prima di configurare PayPal Payments Advanced in Commerce, è necessario configu
 
 1. Se nell&#39;installazione di Commerce sono presenti più siti Web, store o visualizzazioni, impostare **[!UICONTROL Store View]** sulla visualizzazione dello store in cui si desidera applicare questa configurazione.
 
-1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**&#x200B;in cui si trova la tua azienda.
+1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**in cui si trova la tua azienda.
 
    Questa impostazione determina la selezione delle soluzioni PayPal visualizzate nella configurazione.
 
@@ -379,7 +380,7 @@ Imposta **[!UICONTROL Enable PayPal PayLater Experience]** su uno dei seguenti:
 
 #### Impostazioni esperienza front-end
 
-Utilizza _[!UICONTROL Frontend Experience Settings]_&#x200B;per scegliere quali logo PayPal visualizzare sul tuo sito e per personalizzare l&#39;aspetto delle tue pagine di esercenti PayPal.
+Utilizza _[!UICONTROL Frontend Experience Settings]_per scegliere quali logo PayPal visualizzare sul tuo sito e per personalizzare l&#39;aspetto delle tue pagine di esercenti PayPal.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Frontend Experience Settings]**.
 
@@ -434,7 +435,7 @@ Utilizza _[!UICONTROL Frontend Experience Settings]_&#x200B;per scegliere quali 
    - `Authorization` - Approva l&#39;acquisto e blocca i fondi. L&#39;importo non viene prelevato finché non viene _acquisito_ dal commerciante.
    - `Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente.
 
-1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_&#x200B;nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**&#x200B;su `Yes`.
+1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**su `Yes`.
 
 ### Passo 7: Completa impostazioni avanzate - PayPal Express Checkout
 
