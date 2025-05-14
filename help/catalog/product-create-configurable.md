@@ -139,7 +139,7 @@ La barra di avanzamento nella parte superiore della pagina mostra la posizione i
 
 ### Passaggio 1: scegliere gli attributi
 
-1. Continuando dall&#39;alto, scorrere verso il basso fino alla sezione _[!UICONTROL Configurations]_e fare clic su **[!UICONTROL Create Configurations]**.
+1. Continuando dall&#39;alto, scorrere verso il basso fino alla sezione _[!UICONTROL Configurations]_&#x200B;e fare clic su **[!UICONTROL Create Configurations]**.
 
    ![Configurazioni](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
