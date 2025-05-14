@@ -3,7 +3,7 @@ title: Prodotto configurabile
 description: Scopri come creare un prodotto configurabile che fornisca agli acquirenti varianti per la selezione.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,6 +33,7 @@ Le proprietà di ciascun attributo utilizzato per una variante di prodotto confi
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | Il tipo di input di qualsiasi attributo utilizzato per una variante di prodotto deve essere uno dei seguenti: `Dropdown`, `Visual Swatch` o `Text Swatch`. |
 | [!UICONTROL Values Required] | `Yes` |
+| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -138,7 +139,7 @@ La barra di avanzamento nella parte superiore della pagina mostra la posizione i
 
 ### Passaggio 1: scegliere gli attributi
 
-1. Continuando dall&#39;alto, scorrere verso il basso fino alla sezione _[!UICONTROL Configurations]_&#x200B;e fare clic su **[!UICONTROL Create Configurations]**.
+1. Continuando dall&#39;alto, scorrere verso il basso fino alla sezione _[!UICONTROL Configurations]_e fare clic su **[!UICONTROL Create Configurations]**.
 
    ![Configurazioni](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -302,7 +303,7 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 
 - [Opzioni regalo](product-gift-options.md)
 
-### Passaggio 7: Publish del prodotto
+### Passaggio 7: pubblicare il prodotto
 
 1. Se si è pronti a pubblicare il prodotto nel catalogo, impostare **[!UICONTROL Enable Product]** su `Yes` ed eseguire una delle operazioni seguenti:
 
