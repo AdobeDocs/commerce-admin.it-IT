@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] dell'amministratore di Commerce.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: bad9a004d0354f3db7739d4582a015f4b38116f8
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
@@ -15,6 +15,18 @@ ht-degree: 2%
 {{config}}
 
 Per informazioni dettagliate su questi campi e opzioni di configurazione, vedi [Archivia indirizzi e-mail](../../getting-started/store-details.md#store-email-addresses).
+
+## [!UICONTROL General]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+
+![Archivia indirizzi e-mail > Contatto generale](./assets/store-email-addresses-general-general.png)<!-- zoom -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Storefront Base URL] | Visualizzazione store | L’URL di base che verrà utilizzato per creare i collegamenti inclusi nelle e-mail rivolte al cliente. L’URL deve terminare con una barra. Ad esempio, `https://www.example.com/`. |
+
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Contact]
 
