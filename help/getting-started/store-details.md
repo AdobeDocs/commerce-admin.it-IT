@@ -18,7 +18,7 @@ Le informazioni di base per il negozio includono il nome e l&#39;indirizzo del n
 
 ## [!UICONTROL Store Information]
 
-La sezione _[!UICONTROL Store Information]_fornisce le informazioni di base visualizzate nei documenti di vendita e in altre comunicazioni.
+La sezione _[!UICONTROL Store Information]_&#x200B;fornisce le informazioni di base visualizzate nei documenti di vendita e in altre comunicazioni.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
