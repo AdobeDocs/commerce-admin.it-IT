@@ -1,13 +1,13 @@
 ---
 title: Guida alla gestione del catalogo
-description: Informazioni complete sulle funzioni del catalogo dei prodotti per gli amministratori di Adobe Commerce e Magento Open Source e per i venditori e-commerce.
+description: Informazioni complete sulle funzioni del catalogo dei prodotti per gli amministratori e per i venditori e-commerce di Adobe Commerce e Magento Open Source.
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 

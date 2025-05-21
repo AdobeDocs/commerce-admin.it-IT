@@ -1,11 +1,11 @@
 ---
 title: Guida ai sistemi di amministrazione
-description: Scopri le best practice di sicurezza per proteggere lo store Commerce e gestire le autorizzazioni, e come importare ed esportare dati, gestire integrazioni ed estensioni e occuparti della manutenzione di routine.
+description: Scopri le best practice sulla sicurezza per proteggere lo store Commerce e gestire le autorizzazioni, e come importare ed esportare dati, gestire integrazioni ed estensioni e occuparti della manutenzione di routine.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
