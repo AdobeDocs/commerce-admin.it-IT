@@ -3,7 +3,7 @@ title: Gestione degli indici
 description: Scopri la gestione dell’indice, incluse le azioni che attivano la reindicizzazione e le best practice.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '1296'
@@ -20,7 +20,7 @@ La reindicizzazione dei dati velocizza l’elaborazione e riduce il tempo di att
 Gli indicizzatori possono essere impostati per l&#39;aggiornamento al momento del salvataggio o in base alla pianificazione. Tutti gli indici possono utilizzare entrambe le opzioni, ad eccezione di Customer Grid che supporta solo al salvataggio. Durante l’indicizzazione al momento del salvataggio, Commerce avvia una reindicizzazione delle azioni di salvataggio. La pagina Gestione dell’indice completa l’aggiornamento e svuota la cache, con il messaggio di reindicizzazione visualizzato entro un minuto o due. Quando si reindicizza in base a una pianificazione, la reindicizzazione viene eseguita in base a una pianificazione come processo cron. Se non è disponibile un processo [cron](cron.md) per aggiornare gli indicizzatori che non sono più validi, verrà visualizzato un messaggio di sistema. L’archivio rimane accessibile durante i processi di reindicizzazione.
 
 >[!NOTE]
-> I commercianti di Adobe Commerce che utilizzano Live Search, Catalog Service o Product Recommendations possono utilizzare un indicizzatore prezzi basato su [SaaS](https://experienceleague.adobe.com/docs/commerce/price-indexer/index.html).
+> I commercianti di Adobe Commerce che utilizzano Live Search, Catalog Service o Product Recommendations possono utilizzare un indicizzatore prezzi basato su [SaaS](https://experienceleague.adobe.com/docs/commerce/price-indexer/index.html?lang=it).
 
 Quando è necessaria una reindicizzazione, nella parte superiore della pagina viene visualizzata una notifica. L’indice e il messaggio vengono cancellati in base alla modalità di reindicizzazione e alle potenziali azioni eseguite. Per informazioni più dettagliate sull&#39;indicizzazione, vedere [Come l&#39;applicazione implementa l&#39;indicizzazione](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) nella _Guida per gli sviluppatori PHP_.
 
@@ -44,7 +44,7 @@ La reindicizzazione e il caching hanno scopi diversi in Commerce. Gli indici ten
 
 >[!IMPORTANT]
 >
->Per gli archivi che utilizzano [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) e hanno impostato Elasticsearch come indicizzatore full-text (`catalogsearch_fulltext`): è necessario eseguire nuovamente l&#39;indice full-text dopo eventuali modifiche delle autorizzazioni in blocco o quando l&#39;indicizzatore &#39;permissions&#39; è in modalità &#39;Pianificato&#39;.
+>Per gli archivi che utilizzano [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=it) e hanno impostato Elasticsearch come indicizzatore full-text (`catalogsearch_fulltext`): è necessario eseguire nuovamente l&#39;indice full-text dopo eventuali modifiche delle autorizzazioni in blocco o quando l&#39;indicizzatore &#39;permissions&#39; è in modalità &#39;Pianificato&#39;.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -77,7 +77,7 @@ La reindicizzazione e il caching hanno scopi diversi in Commerce. Gli indici ten
 
 ## Reindicizzare utilizzando la riga di comando
 
-Commerce fornisce opzioni di reindicizzazione aggiuntive utilizzando la riga di comando. Per informazioni dettagliate e opzioni di comando, vedere [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} nella _Guida alla configurazione_.
+Commerce fornisce opzioni di reindicizzazione aggiuntive utilizzando la riga di comando. Per informazioni dettagliate e opzioni di comando, vedere [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=it#reindex){:target="blank"} nella _Guida alla configurazione_.
 
 ## Indice eventi trigger
 

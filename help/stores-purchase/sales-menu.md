@@ -17,13 +17,13 @@ Il menu Vendite elenca le transazioni in base alla posizione in cui si trovano n
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 ![Menu Vendite](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
 
 ![Menu Vendite](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
 
@@ -71,7 +71,7 @@ Una [nota di credito](credit-memos.md) è un documento che mostra l&#39;importo 
 
 ### [!UICONTROL Billing Agreements]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Un [contratto di fatturazione](paypal-billing-agreements.md) è simile a un ordine di acquisto, con la differenza che non è limitato a un singolo acquisto. Durante il pagamento, il cliente sceglie Contratto di fatturazione come metodo di pagamento. Un contratto di fatturazione semplifica il processo di pagamento in quanto il cliente non deve inserire informazioni di pagamento per ogni acquisto.
 
@@ -81,7 +81,7 @@ La pagina [Transazioni](transactions.md) elenca tutte le attività di pagamento 
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Nella pagina Braintree Virtual Terminal, un utente amministratore può accettare il pagamento per l&#39;importo selezionato. Per rendere disponibile la funzionalità terminale, un commerciante deve configurare [impostazioni Braintree](braintree.md) di base. Braintree offre un’esperienza di pagamento completamente personalizzabile con rilevamento delle frodi e integrazione PayPal.
 

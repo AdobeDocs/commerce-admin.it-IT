@@ -3,7 +3,7 @@ title: Riscritture URL
 description: Scopri come riscrivere gli URL e come utilizzare lo strumento di riscrittura URL di Commerce per modificare gli URL associati a una pagina di prodotto, categoria o CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '669'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Per Adobe Commerce as a Cloud Service, consulta le [linee guida SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) nella documentazione di Commerce Storefront
+>Per Adobe Commerce as a Cloud Service, consulta le [linee guida SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=it) nella documentazione di Commerce Storefront
 
 Lo strumento di riscrittura URL consente di modificare qualsiasi URL associato a un prodotto, una categoria o una pagina CMS. Quando la riscrittura diventa effettiva, tutti i collegamenti che puntano all’URL precedente vengono reindirizzati al nuovo indirizzo.
 

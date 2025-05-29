@@ -2,7 +2,7 @@
 title: Note sulla versione di [!DNL Admin Unified Experience for Adobe Commerce]
 description: Consulta le note sulla versione per informazioni sull'ultima versione dell'estensione  [!DNL Admin Unified Experience]  per Commerce.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
 source-wordcount: '210'
@@ -20,7 +20,7 @@ Queste note sulla versione dell&#39;estensione Commerce Admin Unified Experience
 
 >[!NOTE]
 >
->Consulta [Disponibilità del prodotto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) per informazioni dettagliate sullo stato di rilascio dell&#39;estensione Admin Unified Experience relativa ad Adobe Commerce.
+>Consulta [Disponibilità del prodotto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=it) per informazioni dettagliate sullo stato di rilascio dell&#39;estensione Admin Unified Experience relativa ad Adobe Commerce.
 
 ## Versione 1.0
 
