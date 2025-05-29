@@ -77,7 +77,7 @@ L’abilitazione di tutte le variabili di convalida può contribuire a prevenire
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nel pannello a sinistra, espandi _[!UICONTROL General]_e scegli **[!UICONTROL Web]**.
+1. Nel pannello a sinistra, espandi _[!UICONTROL General]_&#x200B;e scegli **[!UICONTROL Web]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Session Validation Settings]**.
 

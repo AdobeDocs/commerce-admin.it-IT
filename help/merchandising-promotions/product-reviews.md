@@ -20,8 +20,8 @@ Commerce include una funzionalità nativa di valutazione del prodotto che puoi g
 >[!NOTE]
 >
 >Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includevano l’estensione sviluppata dal fornitore Yotpo. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata da Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
->><br><br>
->>Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nella _Guida all&#39;aggiornamento_.
+>&#x200B;><br><br>
+>&#x200B;>Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nella _Guida all&#39;aggiornamento_.
 
 ## Recensioni di prodotto sul vetrina
 
@@ -43,7 +43,7 @@ Il numero di stelle indica il livello di soddisfazione del prodotto. I visitator
 
 ### [!UICONTROL My Product Reviews]
 
-Nella sezione _[!UICONTROL My Product Reviews]_del dashboard account cliente sono elencate tutte le revisioni inviate dal cliente e approvate per la pubblicazione. Ogni riepilogo di revisione include la data di invio della revisione, i collegamenti alla pagina del prodotto e i dettagli della revisione.
+Nella sezione _[!UICONTROL My Product Reviews]_&#x200B;del dashboard account cliente sono elencate tutte le revisioni inviate dal cliente e approvate per la pubblicazione. Ogni riepilogo di revisione include la data di invio della revisione, i collegamenti alla pagina del prodotto e i dettagli della revisione.
 
 ![Recensioni dei miei prodotti](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Con le Revisioni dei prodotti Commerce, i clienti possono assegnare valutazioni 
 
    ![Amministratore - Valutazioni](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Rating Title]_, immetti **[!UICONTROL Default Value]**per la nuova valutazione.
+1. Nella sezione _[!UICONTROL Rating Title]_, immetti **[!UICONTROL Default Value]**&#x200B;per la nuova valutazione.
 
    Se applicabile, inserisci anche la traduzione per ogni visualizzazione store.
 

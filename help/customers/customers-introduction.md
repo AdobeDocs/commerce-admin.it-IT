@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Introduzione alla gestione dei clienti
 
-Il menu _[!UICONTROL Customers]_consente di accedere agli strumenti di gestione degli account dei clienti e di vedere chi è online nel tuo store.
+Il menu _[!UICONTROL Customers]_&#x200B;consente di accedere agli strumenti di gestione degli account dei clienti e di vedere chi è online nel tuo store.
 
 >[!BEGINTABS]
 

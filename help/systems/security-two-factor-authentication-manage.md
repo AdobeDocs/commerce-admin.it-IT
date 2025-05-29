@@ -35,11 +35,11 @@ Per reimpostare gli autenticatori dalla riga di comando e per informazioni più 
 
 1. Seleziona l’utente e apri l’account in modalità di modifica.
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Current User Identity Verification]_e immetti la password.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Current User Identity Verification]_&#x200B;e immetti la password.
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL 2FA]**.
 
-1. Nella sezione _[!UICONTROL Configuration reset]_, fare clic su **[!UICONTROL Reset]**e **[!UICONTROL OK]**per confermare.
+1. Nella sezione _[!UICONTROL Configuration reset]_, fare clic su **[!UICONTROL Reset]**&#x200B;e **[!UICONTROL OK]**&#x200B;per confermare.
 
    ![Account utente - abilita 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 
