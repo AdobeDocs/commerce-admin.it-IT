@@ -2,9 +2,9 @@
 title: Introduzione ai sistemi di amministrazione
 description: Scopri gli strumenti e le funzioni di sistema che l’amministratore dello store può utilizzare per gestire in modo efficace siti, dati, integrazioni e utenti amministratore.
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
+source-git-commit: 5517bb16a8f7c8aa2f9f057df773f142302a69c7
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ L’amministratore supporta inoltre varie attività per consentire agli amminist
 
 - **Account utente amministratore e autorizzazioni** - Gestisci gli [account utente amministratore](permissions-users-all.md), nonché i [ruoli e autorizzazioni](permissions-user-roles.md) associati che controllano l&#39;accesso ai siti e alle aree funzionali dell&#39;amministratore.
 - **Sessioni di amministrazione e restrizioni del sito Web** - Rivedi le [best practice per la sicurezza](security.md) e scopri come gestire le sessioni di amministrazione e le credenziali, implementare CAPTCHA e gestire le restrizioni del sito Web.
-- **Strumenti di sistema** - Esegui le operazioni di gestione [index](index-management.md) e [cache](cache-management.md) di routine, [esegui il backup](backups.md) del sistema, gestisci [operazioni pianificate](data-scheduled-import-export.md) e utilizza un assortimento di [strumenti di sviluppo](developer-tools.md).
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} **Strumenti di sistema** - Esegui le operazioni di gestione [index](index-management.md) e [cache](cache-management.md) di routine, [esegui il backup](backups.md) del sistema, gestisci [le operazioni pianificate](data-scheduled-import-export.md) e utilizza un assortimento di [strumenti di sviluppo](developer-tools.md).
 - **Trasferimento dati** - Utilizza gli strumenti [trasferimento dati](data-transfer.md) per importare ed esportare dati, nonché per gestire dati su prodotti, prezzi, clienti e aliquota fiscale.
 - **Integrazioni** - Stabilisci il percorso delle credenziali OAuth e l&#39;URL di reindirizzamento per [integrazioni di terze parti](integrations.md) e identifica le risorse API disponibili.
 - **Log azioni** - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Accedi ai record ([log azioni](action-log.md)) per le modifiche apportate dagli utenti amministratori che lavorano nel tuo archivio.
-- **Strumenti di supporto** - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [I report di sistema](support.md#access-system-reports) sono progettati per identificare i problemi noti nel sistema. Possono essere utilizzati come risorsa durante i processi di sviluppo e ottimizzazione e come strumento diagnostico per aiutare il nostro team di supporto a identificare e risolvere i problemi.
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} **Strumenti di supporto** - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Report di sistema](support.md#access-system-reports)) sono progettati per identificare i problemi noti nel sistema. Possono essere utilizzati come risorsa durante i processi di sviluppo e ottimizzazione e come strumento diagnostico per aiutare il nostro team di supporto a identificare e risolvere i problemi.

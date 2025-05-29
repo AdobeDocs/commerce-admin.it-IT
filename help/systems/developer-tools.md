@@ -3,9 +3,10 @@ title: Strumenti per sviluppatori
 description: Scopri gli strumenti per sviluppatori avanzati disponibili per supportare gli sviluppatori che lavorano su progetti di personalizzazione.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -24,16 +25,16 @@ Utilizza gli strumenti per sviluppatori avanzati per determinare la modalità di
 
 ## Modalità operative
 
-L&#39;istanza di Adobe Commerce o di Magento Open Source può essere distribuita per l&#39;esecuzione in _produzione_ o in _modalità sviluppatore_. È possibile accedere agli strumenti e alle impostazioni di configurazione specifici per gli sviluppatori solo quando l&#39;archivio è in esecuzione in _modalità sviluppatore_.
+È possibile distribuire l&#39;istanza Adobe Commerce o Magento Open Source per l&#39;esecuzione in _produzione_ o in _modalità sviluppatore_. È possibile accedere agli strumenti e alle impostazioni di configurazione specifici per gli sviluppatori solo quando l&#39;archivio è in esecuzione in _modalità sviluppatore_.
 
-La modalità operativa può essere modificata solo dalla riga di comando del server da un utente con le autorizzazioni appropriate. Per ulteriori informazioni, vedere [Impostare la modalità operativa](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=it) nella _Guida alla configurazione_.
+La modalità operativa può essere modificata solo dalla riga di comando del server da un utente con le autorizzazioni appropriate. Per ulteriori informazioni, vedere [Impostare la modalità operativa](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) nella _Guida alla configurazione_.
 
 La maggior parte degli argomenti nella documentazione per esercenti si applica a un’istanza di Commerce in esecuzione in modalità di produzione. Tuttavia, le impostazioni di configurazione e gli strumenti seguenti possono essere utilizzati solo quando l&#39;installazione è in esecuzione in modalità sviluppatore.
 
 ## Flusso di lavoro di sviluppo front-end
 
 Il tipo di flusso di lavoro di sviluppo front-end determina se la compilazione Less viene eseguita sul lato client o server durante lo sviluppo. Less è un’estensione di CSS che dispone di funzioni e convenzioni aggiuntive e che produce codice semplificato. Per lo sviluppo dei temi, si consiglia la compilazione Less lato client. La compilazione lato server è la modalità predefinita. Le opzioni del flusso di lavoro di sviluppo non sono disponibili per i negozi in modalità di produzione.
-Vedi [Compilazione LESS lato client rispetto a lato server](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target=&quot;_blank&quot;} nella documentazione per gli sviluppatori di Commerce.
+Vedi [Compilazione LESS lato client rispetto a lato server](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"} nella documentazione per gli sviluppatori di Commerce.
 
 >[!NOTE]
 >
@@ -58,7 +59,7 @@ Vedi [Compilazione LESS lato client rispetto a lato server](https://developer.ad
 
 L&#39;aggiunta di una firma digitale all&#39;URL di file statici consente ai browser di rilevare quando è disponibile una versione più recente del file. I file statici che possono essere tracciati con le firme digitali includono JavaScript, CSS, immagini e font. La firma viene aggiunta al percorso direttamente dopo l’URL di base. Se la firma di un file è diversa da quella memorizzata nella cache del browser, viene utilizzata la versione più recente del file.
 
-Consulta [Firma di contenuti statici](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=it){:target=&quot;_blank&quot;} nella documentazione per gli sviluppatori di Commerce.
+Consulta [Firma di contenuti statici](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} nella documentazione per gli sviluppatori di Commerce.
 
 >[!NOTE]
 >
@@ -90,7 +91,7 @@ Il tempo necessario per caricare i file di risorse può essere ridotto unendo e 
 
 Per impostazione predefinita, Adobe Commerce e Magento Open Source non uniscono, raggruppano o riducono a icona i file e lo sviluppatore del progetto deve determinare quali metodi di ottimizzazione file utilizzare.
 
-Per ulteriori informazioni, consulta [Best practice per le prestazioni](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=it).
+Per ulteriori informazioni, consulta [Best practice per le prestazioni](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html).
 
 >[!NOTE]
 >
@@ -140,7 +141,7 @@ Prima di utilizzare uno strumento come [suggerimenti percorso modello](#template
 >
 >Le restrizioni per i client di sviluppo possono essere impostate solo in [Modalità sviluppatore](../systems/developer-tools.md#operation-modes).
 
-Per informazioni tecniche, consulta [VCL personalizzato per consentire le richieste](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=it) nella _Guida di Commerce on Cloud Infrastructure_.
+Per informazioni tecniche, consulta [VCL personalizzato per consentire le richieste](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) nella _Guida di Commerce on Cloud Infrastructure_.
 
 **_Per aggiungere il tuo indirizzo IP al inserisco nell&#39;elenco Consentiti di:_**
 
@@ -168,7 +169,7 @@ Gli hint di percorso del modello sono uno strumento diagnostico che aggiunge una
 >
 >Gli Hint percorso modello possono essere modificati solo in [modalità sviluppatore](../systems/developer-tools.md#operation-modes).
 
-Consulta [Individuare modelli, layout e stili](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target=&quot;_blank&quot;} nella documentazione per gli sviluppatori di Commerce.
+Consulta [Individuare modelli, layout e stili](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"} nella documentazione per gli sviluppatori di Commerce.
 
 ![Esempio di vetrina - suggerimenti percorso modello](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 
@@ -246,7 +247,7 @@ Se il punto vendita è disponibile in più lingue, è possibile apportare regola
 
    Deselezionare la casella di controllo **[!UICONTROL Use Website]** per modificare le impostazioni.
 
-   L&#39;opzione _[!UICONTROL Enabled for Admin]_&#x200B;non è disponibile quando si modifica una visualizzazione archivio specifica.
+   L&#39;opzione _[!UICONTROL Enabled for Admin]_non è disponibile quando si modifica una visualizzazione archivio specifica.
 
    ![Configurazione avanzata - traduzione in linea](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

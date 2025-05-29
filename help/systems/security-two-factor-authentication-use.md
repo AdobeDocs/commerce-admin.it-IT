@@ -4,9 +4,10 @@ description: Scopri come impostare l’autenticazione a due fattori durante l’
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-source-git-commit: dc6e5fc7c0996af30bae6374cd7c9879902b9235
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -29,9 +30,9 @@ Per istruzioni complete, vedere [Accesso amministratore](../getting-started/admi
 
 1. Apri l&#39;app **[!UICONTROL Google Authenticator]** sul tuo dispositivo mobile.
 
-1. Fare clic sul segno più ( **+** ) per aggiungere una voce e allineare la casella rossa con il codice QR per eseguire la scansione con la fotocamera sullo smartphone.
+1. Fare clic sul segno più ( **+** ) per aggiungere una voce e allineare la casella rossa con il codice QR da digitalizzare con la fotocamera dello smart phone.
 
-1. Quando il telefono riconosce il codice QR e aggiunge una voce, inserisci il codice a 6 cifre nel _campo Amministratore_&#x200B;**[!UICONTROL Authenticator code]**.
+1. Quando il telefono riconosce il codice QR e aggiunge una voce, immetti tale codice di 6 cifre nel campo _Amministratore_ **[!UICONTROL Authenticator code]**.
 
 1. Al termine, fare clic su **[!UICONTROL Confirm]**.
 
@@ -69,9 +70,9 @@ Per istruzioni complete, vedere [Accesso amministratore](../getting-started/admi
 
    Conferma la proprietà inviando e verificando il passcode sul numero di telefono.
 
-1. Quando viene richiesto di eseguire l&#39;installazione [!DNL Duo Mobile] per il tipo di telefono in uso, fare clic su **[!UICONTROL I have Duo Mobile]**.
+1. Quando viene richiesto di installare [!DNL Duo Mobile] per il tipo di telefono, fare clic su **[!UICONTROL I have Duo Mobile]**.
 
-1. Apri [!DNL Duo Mobile] ed esegui la scansione del codice QR per Sincronizzazione l&#39;autenticatore con Adobe Systems Commerce. Al termine dell&#39;attivazione viene visualizzato un segno di spunta.
+1. Apri [!DNL Duo Mobile] ed esegui la scansione del codice QR per sincronizzare l&#39;autenticatore con Adobe Commerce. Al termine dell’attivazione viene visualizzato un segno di spunta.
 
 1. Puoi aggiungere altri dispositivi (se necessario) o saltare. La configurazione è stata completata ed è possibile accedere con Duo.
 
@@ -105,7 +106,7 @@ Nell&#39;esempio seguente vengono illustrate le opzioni per `Ask me to choose an
 
    - Seleziona il tuo paese.
 
-   - Inserisci il tuo numero di telefono.
+   - Immetti il numero di telefono.
 
    - Selezionare **[!UICONTROL Verification method]**: `SMS` o `Call Me`
 
@@ -141,9 +142,9 @@ Nell&#39;esempio seguente vengono illustrate le opzioni per `Ask me to choose an
 
 Segui le istruzioni del provider di soluzioni per configurare il dispositivo U2F. Per ulteriori informazioni, vedere la documentazione del fornitore, ad esempio [[!DNL YubiKey]](https://support.yubico.com/hc/en-us/articles/360013790339-Getting-Started-with-Your-YubiKey) di [!UICONTROL Yubico].
 
-1. Immetti le tue credenziali account e accedi all&#39;amministratore __.
+1. Immetti le credenziali del tuo account e accedi a _Admin_.
 
-   ![accesso chiave U2F](./assets/storefront-2fa-u2f.png){width="300"}
+   ![Accesso chiave U2F](./assets/storefront-2fa-u2f.png){width="300"}
 
 1. Premere il tasto.
 

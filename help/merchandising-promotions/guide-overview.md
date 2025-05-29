@@ -2,9 +2,9 @@
 title: Guida al merchandising e alle promozioni
 description: Scopri informazioni dettagliate sulle funzioni di merchandising e promozionali in Adobe Commerce, inclusi gli sconti e gli eventi mirati.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Questa guida tratta i seguenti argomenti:
 | ------- | ----------- |
 | [Introduzione](introduction.md) | Panoramica delle funzioni di merchandising e promozione con un’istanza Commerce. |
 | [Menu Marketing](marketing-menu.md) | Utilizza il menu [!UICONTROL Marketing] per accedere a più funzioni per gestire promozioni, comunicazioni, SEO e contenuti generati dagli utenti. |
-| [Merchandiser visivo](visual-merchandiser.md) | Esplora questo set di strumenti avanzati che ti consente di posizionare i prodotti e applicare condizioni che determinano quali prodotti visualizzare nell’elenco delle categorie. |
+| [Merchandiser visivo](visual-merchandiser.md) | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Esplora questo set di strumenti avanzati che ti consente di posizionare i prodotti e applicare condizioni che determinano quali prodotti visualizzare nell&#39;elenco delle categorie. |
 | [Registri regali](gift-registries.md) | Offri ai tuoi clienti la possibilità di creare registri di regali per occasioni speciali e di invitare amici e familiari ad acquistare i regali dal registro. |
 | [Programmi di ricompensa e fedeltà](rewards-loyalty.md) | Implementare programmi che stimolino il coinvolgimento dei clienti e ne promuovano la fidelizzazione. |
 | [Eventi e vendite privati](events-private-sales.md) | Crea vendite a tempo limitato, limita le vendite a membri specifici o crea una pagina di vendita privata autonoma. |

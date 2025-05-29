@@ -4,9 +4,10 @@ description: Scopri come configurare la gestione delle sessioni per proteggere l
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -48,8 +49,6 @@ Utilizza le seguenti impostazioni di configurazione per limitare la dimensione m
 
 ### Sessioni di amministrazione
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
-
 Se si supera la dimensione massima della sessione, viene visualizzato un messaggio di errore e il sistema registra il vincolo della dimensione della sessione nella directory `var/log`.
 
 Se perdi l’accesso all’amministratore dopo aver impostato le dimensioni della sessione troppo basse, utilizza CLI per reimpostare la configurazione:
@@ -60,15 +59,13 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Sessioni vetrina
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
-
 Se si supera la dimensione massima della sessione, non viene visualizzato alcun errore ma il sistema registra il vincolo della dimensione della sessione nella directory `var/log`.
 
 ## Convalida della sessione
 
 Adobe Commerce e Magento Open Source consentono di convalidare le variabili di sessione come misura protettiva contro possibili attacchi di fissazione delle sessioni o tentativi di avvelenare o dirottare le sessioni degli utenti. Le impostazioni di convalida della sessione determinano il modo in cui le variabili di sessione vengono convalidate durante ogni visita dello store e se l’ID sessione è incluso nell’URL dello store.
 
-Per informazioni tecniche, vedere [Utilizzare Redis per l&#39;archiviazione della sessione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=it) nella _Guida alla configurazione_.
+Per informazioni tecniche, vedere [Utilizzare Redis per l&#39;archiviazione della sessione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) nella _Guida alla configurazione_.
 
 ![Configurazione generale - Convalida sessione Web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -80,7 +77,7 @@ L’abilitazione di tutte le variabili di convalida può contribuire a prevenire
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nel pannello a sinistra, espandi _[!UICONTROL General]_&#x200B;e scegli **[!UICONTROL Web]**.
+1. Nel pannello a sinistra, espandi _[!UICONTROL General]_e scegli **[!UICONTROL Web]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Session Validation Settings]**.
 

@@ -1,11 +1,12 @@
 ---
 title: Integrazione di Adobe Experience Cloud per l’amministratore di Commerce
-description: Scopri l’estensione Admin Unified Experience, che integra Commerce con Experience Cloud in modo che i clienti possano accedere ai progetti Commerce dalla pagina Home di Experience Cloud.
+description: Scopri l’estensione Admin Unified Experience, che integra Commerce con Experience Cloud in modo che i clienti possano accedere ai progetti Commerce dalla home page di Experience Cloud.
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: 61874f3dac4f574ad393e8ae258f3d6c56c8f37e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 # Integrazione di Adobe Experience Cloud per Commerce
 
 <table style="border:1px solid red">
-<tr><td><img alt="Funzione di Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Funzionalità esclusiva solo in Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it#product-editions">Ulteriori informazioni</a>)</td></tr>
+<tr><td><img alt="Funzione di Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Funzionalità esclusiva solo in Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Ulteriori informazioni</a>)</td></tr>
 </table>
 
 Integra i progetti Adobe Commerce con Experience Cloud abilitando l’estensione Admin Unified Experience. Quando l’integrazione è attiva, gli amministratori possono accedere ai progetti Commerce da Adobe Experience Cloud.
@@ -22,7 +23,7 @@ Integra i progetti Adobe Commerce con Experience Cloud abilitando l’estensione
 
 ## Visualizza progetti Commerce disponibili
 
-Gli amministratori possono visualizzare i progetti Commerce per i quali dispongono dell&#39;autorizzazione di accesso selezionando **[!UICONTROL Commerce]** dalla home page dell&#39;Experience Cloud.
+Gli amministratori possono visualizzare i progetti Commerce per i quali dispongono dell&#39;autorizzazione di accesso selezionando **[!UICONTROL Commerce]** dalla home page di Experience Cloud.
 
 ![Area di lavoro Progetti Commerce in Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
@@ -30,11 +31,11 @@ Gli amministratori possono aprire Admin e Storefront per ciascun progetto dall&#
 
 - **Istantanea della home page della vetrina di Commerce**: istantanea della home page della vetrina. Se un progetto ha più siti Web, lo snapshot mostra la home page del sito predefinito.
 
-- **[Nome progetto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html?lang=it)**—Identifica l&#39;ambiente del progetto cloud per l&#39;istanza. Il nome predefinito del progetto è [Nome ramo Git](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=it) nel progetto cloud. Modifica o aggiorna il nome del progetto nelle [impostazioni di configurazione di Unified Experience Store](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
+- **[Nome progetto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—Identifica l&#39;ambiente del progetto cloud per l&#39;istanza. Il nome predefinito del progetto è [Nome ramo Git](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) nel progetto cloud. Modifica o aggiorna il nome del progetto nelle [impostazioni di configurazione di Unified Experience Store](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
 
 - **[URL vetrina](../stores-purchase/store-urls.md)** - Mostra l&#39;URL di base del sito Web predefinito.
 
-- **[Tipo di ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html?lang=it)**: le istanze di Commerce distribuite in un ambiente di sviluppo o di gestione temporanea sono identificate con un&#39;etichetta [!UICONTROL Development] o [!UICONTROL Staging]. Le istanze prive di etichetta vengono distribuite in un ambiente di produzione.
+- **[Tipo di ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**: le istanze di Commerce distribuite in un ambiente di sviluppo o di gestione temporanea sono identificate con un&#39;etichetta [!UICONTROL Development] o [!UICONTROL Staging]. Le istanze prive di etichetta vengono distribuite in un ambiente di produzione.
 
 - **Accesso amministratore Commerce**. Aprire l&#39;amministratore facendo clic su **[!UICONTROL Open]**.
 
@@ -48,9 +49,9 @@ Quando l’integrazione Experience Cloud è abilitata, gli amministratori utiliz
 
 1. Accedi tramite la pagina di accesso di Experience Cloud.
 
-   ![Pagina di accesso Experience Cloud](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
+   ![Pagina di accesso di Experience Cloud](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
 
-   Gli amministratori devono effettuare l’accesso a Experience Cloud con il profilo aziendale Adobe per l’organizzazione associata all’istanza Commerce. Consulta [Gestire i profili di Adobe](https://helpx.adobe.com/it/enterprise/using/manage-adobe-profiles.html).
+   Gli amministratori devono accedere ad Experience Cloud con il profilo aziendale di Adobe per l’organizzazione associata all’istanza di Commerce. Consulta [Gestire i profili Adobe](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
 
 1. Nella home page di Experience Cloud, aprire [!UICONTROL Commerce Projects workspace] selezionando **[!UICONTROL Open]**.
 
@@ -62,7 +63,7 @@ Quando l’integrazione Experience Cloud è abilitata, gli amministratori utiliz
 
 >[!NOTE]
 >
->Consulta [Gestire l&#39;integrazione Experience Cloud](admin-unified-experience-integration-manage.md) per informazioni dettagliate su come viene influenzato il flusso di lavoro di autenticazione quando l&#39;integrazione Experience Cloud è abilitata o disabilitata.
+>Consulta [Gestire l&#39;integrazione di Experience Cloud](admin-unified-experience-integration-manage.md) per informazioni dettagliate su come viene influenzato il flusso di lavoro di autenticazione quando l&#39;integrazione di Experience Cloud è abilitata o disabilitata.
 
 ## Requisiti
 
@@ -74,13 +75,13 @@ Quando l’integrazione Experience Cloud è abilitata, gli amministratori utiliz
 
      Se il modulo non è disponibile nell’istanza di Commerce, può essere installato utilizzando Composer.
 
-   - [Servizio eventi di Adobe I/O](https://developer.adobe.com/commerce/extensibility/events/) - Necessario per inviare i dati dell&#39;evento da Experience Cloud per gestire l&#39;accesso amministratore ai progetti Commerce.
+   - [Servizio Adobe I/O Events](https://developer.adobe.com/commerce/extensibility/events/) - Necessario per inviare dati evento per gestire l&#39;accesso amministratore ai progetti Commerce da Experience Cloud.
 
-     L&#39;integrazione Adobe I/O Events con Commerce è abilitata dall&#39;estensione Commerce Event (`magento/commerce-eventing`) disponibile con Adobe Commerce 2.4.4 e versioni successive.
+     L&#39;integrazione di Adobe I/O Events con Commerce è abilitata dall&#39;estensione Commerce Event (`magento/commerce-eventing`) disponibile con Adobe Commerce 2.4.4 e versioni successive.
 
 ## Abilitare l’integrazione
 
-Abilita l&#39;integrazione seguendo le istruzioni per [configurare l&#39;integrazione Experience Cloud con l&#39;amministratore Commerce](admin-unified-experience-integration-configure.md).
+Abilita l&#39;integrazione seguendo le istruzioni per [configurare l&#39;integrazione di Experience Cloud con l&#39;amministratore di Commerce](admin-unified-experience-integration-configure.md).
 
 >[!TIP]
 >

@@ -2,18 +2,32 @@
 title: Menu [!UICONTROL Stores]
 description: L'amministratore di Commerce include il menu [!UICONTROL Stores], che fornisce l'accesso agli strumenti per l'impostazione della gerarchia del punto vendita, la configurazione, l'inventario, le imposte e gli attributi.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 48d47b7dfe4ab1162b74d650083e7b1a66456d4f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # Menu [!UICONTROL Stores]
 
-Il menu _[!UICONTROL Stores]_&#x200B;consente di accedere alle impostazioni utilizzate meno frequentemente, ma a cui si fa riferimento durante l&#39;installazione di Adobe Commerce o di Magento Open Source. Queste funzioni includono l’impostazione della gerarchia del negozio, la configurazione, le impostazioni di vendita e ordine, le imposte e la valuta, gli attributi del prodotto, le valutazioni di recensione del prodotto e i gruppi di clienti.
+Il menu _[!UICONTROL Stores]_consente di accedere alle impostazioni utilizzate meno frequentemente, ma a cui si fa riferimento durante l&#39;installazione di Adobe Commerce o Magento Open Source. Queste funzioni includono l’impostazione della gerarchia del negozio, la configurazione, le impostazioni di vendita e ordine, le imposte e la valuta, gli attributi del prodotto, le valutazioni di recensione del prodotto e i gruppi di clienti.
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 ![Amministratore - Menu Archivi](./assets/stores-menu.png){width="500" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+
+![Amministratore - Menu Archivi](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Visualizza il menu [!UICONTROL Stores]
 
@@ -23,7 +37,7 @@ Nella barra laterale _Admin_, fai clic su **[!UICONTROL Stores]**.
 
 ### [!UICONTROL Settings]
 
-Gestisci la gerarchia di [siti Web, archivi e visualizzazioni dello store](stores.md#store-and-site-structure) nell&#39;installazione di Adobe Commerce o di Magento Open Source e tutte le [impostazioni di configurazione](../configuration-reference/guide-overview.md). Inoltre, puoi impostare i [Termini e condizioni](terms-and-conditions.md) di una vendita e gestire le [impostazioni dello stato dell&#39;ordine](order-status.md#custom-order-status).
+Gestisci la gerarchia di [siti Web, archivi e visualizzazioni dello store](stores.md#store-and-site-structure) nell&#39;installazione di Adobe Commerce o Magento Open Source e tutte le [impostazioni di configurazione](../configuration-reference/guide-overview.md). Inoltre, puoi impostare i [Termini e condizioni](terms-and-conditions.md) di una vendita e gestire le [impostazioni dello stato dell&#39;ordine](order-status.md#custom-order-status).
 
 ### [!UICONTROL Inventory]
 

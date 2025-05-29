@@ -3,9 +3,10 @@ title: Vendite ed eventi privati
 description: Scopri come utilizzare le vendite private e altri eventi di catalogo per aumentare le vendite per la base di clienti esistente e generare nuovi clienti potenziali.
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
 feature: Reporting, Promotions/Events
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Le vendite private e altri eventi di catalogo sono un ottimo modo per utilizzare la base clienti esistente per generare nuovi clienti potenziali e potenziali clienti o per scaricare le scorte in eccesso. Puoi creare vendite a tempo limitato, limitare le vendite a membri specifici o creare una pagina di vendita privata autonoma. Puoi anche definire inviti e dettagli dell’evento. Aumenta la brand loyalty e genera entusiasmo offrendo ai tuoi clienti migliori il trattamento per l’VIP. Offri accesso esclusivo alle vendite dei soli membri o alle vendite private per aumentare la brand loyalty. È inoltre possibile utilizzare queste vendite per liquidare le merci in eccesso. I gruppi di clienti sono utili per impostare solo questi tipi di membri e le vendite VIP.
+Le vendite private e altri eventi di catalogo sono un ottimo modo per utilizzare la base clienti esistente per generare nuovi clienti potenziali e potenziali clienti o per scaricare le scorte in eccesso. Puoi creare vendite a tempo limitato, limitare le vendite a membri specifici o creare una pagina di vendita privata autonoma. Puoi anche definire inviti e dettagli dell’evento. Aumenta la fidelizzazione al marchio e genera entusiasmo offrendo ai tuoi clienti migliori il trattamento VIP. Offri accesso esclusivo alle vendite dei soli membri o alle vendite private per aumentare la brand loyalty. È inoltre possibile utilizzare queste vendite per liquidare le merci in eccesso. I gruppi di clienti sono utili per impostare solo questi tipi di membri e le vendite VIP.
 
 ![Esempio di vetrina - evento nella home page](./assets/storefront-event-home-page.png){width="700" zoomable="yes"}
 

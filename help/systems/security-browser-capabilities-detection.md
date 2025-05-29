@@ -4,9 +4,10 @@ description: Scopri come configurare il rilevamento delle funzionalità del brow
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Come la maggior parte dei siti web e delle applicazioni su Internet, Adobe Comme
 - Se le impostazioni di privacy del browser non consentono i cookie, è possibile configurare il sistema per reindirizzarli automaticamente alla pagina [Abilita cookie](../content-design/pages.md#enable-cookies), che spiega come creare le impostazioni consigliate con la maggior parte dei browser.
 - Se le impostazioni di privacy del browser non consentono JavaScript, è possibile configurare il sistema in modo che visualizzi il seguente messaggio sopra l&#39;intestazione di ogni pagina.
 
-Per informazioni tecniche, consultare [Browser supportati](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=it#supported-browsers) nella _Guida all&#39;installazione_.
+Per informazioni tecniche, consultare [Browser supportati](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) nella _Guida all&#39;installazione_.
 
 ## Configurare il rilevamento delle funzionalità del browser
 

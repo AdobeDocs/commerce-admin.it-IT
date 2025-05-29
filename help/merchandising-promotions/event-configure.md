@@ -3,9 +3,10 @@ title: Configurare gli eventi
 description: Scopri come completare la configurazione di base per abilitare gli eventi e impostare il blocco eventi nella barra laterale della vetrina.
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-source-git-commit: 084d2c3381f57a8a4c7e8ffde9da1abd4d8af670
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -88,6 +89,6 @@ L’accesso a una vendita, un evento o un sito privato può essere limitato ai c
 
 ### Limita vendite
 
-Per impostazione predefinita, i prodotti visualizzati negli eventi in programma o chiusi non sono disponibili per la vendita generica e il pulsante _[!UICONTROL Add to Cart]_&#x200B;non viene visualizzato nell&#39;elenco dei prodotti o nella pagina dei prodotti.
+Per impostazione predefinita, i prodotti visualizzati negli eventi in programma o chiusi non sono disponibili per la vendita generica e il pulsante _[!UICONTROL Add to Cart]_non viene visualizzato nell&#39;elenco dei prodotti o nella pagina dei prodotti.
 
-Per ripristinare il pulsante _[!UICONTROL Add to Cart]_&#x200B;per un evento chiuso, è necessario eliminare l&#39;evento (vedere [Aggiornare gli eventi](event-create.md#update-events)). Tuttavia, se un prodotto è associato a un’altra categoria senza restrizioni di vendita, il pulsante è disponibile nella pagina del prodotto. Analogamente, il blocco ticker non viene visualizzato nella pagina del prodotto se il prodotto è associato a un’altra categoria senza restrizioni di vendita.
+Per ripristinare il pulsante _[!UICONTROL Add to Cart]_per un evento chiuso, è necessario eliminare l&#39;evento (vedere [Aggiornare gli eventi](event-create.md#update-events)). Tuttavia, se un prodotto è associato a un’altra categoria senza restrizioni di vendita, il pulsante è disponibile nella pagina del prodotto. Analogamente, il blocco ticker non viene visualizzato nella pagina del prodotto se il prodotto è associato a un’altra categoria senza restrizioni di vendita.

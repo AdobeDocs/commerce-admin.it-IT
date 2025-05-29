@@ -4,9 +4,10 @@ description: Scopri come configurare le informazioni di contatto e i collegament
 exl-id: 47b95505-51a3-4b7a-a4e3-dbc4b0045797
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -21,11 +22,11 @@ Il file `security.txt` contiene le informazioni di contatto e i collegamenti rel
 
 1. Nel pannello a sinistra in _[!UICONTROL Security]_, fai clic su **[!UICONTROL Security.txt]**.
 
-1. Nella sezione _[!UICONTROL General]_, impostare **[!UICONTROL Enable]**&#x200B;su `Yes`.
+1. Nella sezione _[!UICONTROL General]_, impostare **[!UICONTROL Enable]**su `Yes`.
 
    ![Configurazione generale della sicurezza](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL Contact Information]_&#x200B;immettere quanto segue:
+1. In _[!UICONTROL Contact Information]_immettere quanto segue:
 
    - L’indirizzo e-mail e il numero di telefono della persona che gestisce i problemi di sicurezza per il tuo negozio.
 
@@ -33,7 +34,7 @@ Il file `security.txt` contiene le informazioni di contatto e i collegamenti rel
 
    ![Configurazione informazioni di contatto](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL Other Information]_&#x200B;immettere quanto segue:
+1. In _[!UICONTROL Other Information]_immettere quanto segue:
 
    - URL della chiave **[!UICONTROL Encryption]** pubblica. Esempio: `https://example.com/pgp-key.txt`
 

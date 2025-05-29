@@ -2,9 +2,9 @@
 title: Barra laterale amministrazione
 description: L’amministratore di Commerce utilizza una barra laterale a sinistra per accedere al menu principale. Gli esercenti possono accedere a tutti gli strumenti di amministrazione necessari per configurare e gestire il negozio.
 exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
-source-git-commit: 474e9bb6cd6dccc723165d919b1b1ebeaa26ae46
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ La barra laterale a sinistra è il menu principale per lo store _Admin_ ed è pr
 | ![Menu Clienti](./assets/icon-admin-sidebar-customers.png) | **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | Nel menu [!UICONTROL Customers] puoi gestire gli account dei clienti e vedere quali clienti sono online al momento. |
 | ![Menu Marketing](./assets/icon-admin-sidebar-marketing.png) | **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | Nel menu [!UICONTROL Marketing] è possibile impostare le regole di prezzo del catalogo e del carrello acquisti e i coupon. Le regole di prezzo attivano azioni quando viene soddisfatta una serie di condizioni specifiche. |
 | ![Menu Contenuto](./assets/icon-admin-sidebar-content.png) | **[[!UICONTROL Content]](../content-design/content-menu.md)** | Nel menu [!UICONTROL Content] puoi gestire gli elementi di contenuto e la progettazione dell&#39;archivio. Scopri come creare pagine, blocchi e app front-end e gestire la presentazione del tuo store. |
-| ![Menu Rapporti](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | Il menu [!UICONTROL Reports] fornisce un&#39;ampia selezione di report che forniscono informazioni approfondite su ogni aspetto del tuo negozio, inclusi vendite, carrello acquisti, prodotti, clienti, tag, recensioni, termini di ricerca e monitoraggio delle prestazioni in tempo reale 24 ore su 24, 7 giorni su 7 e consigli da [Site-Wide Analysis Tool](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/site-wide-analysis-tool/intro). |
+| ![Menu Rapporti](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Il menu [!UICONTROL Reports] offre un&#39;ampia selezione di report che forniscono insight in ogni aspetto del tuo negozio, inclusi vendite, carrello acquisti, prodotti, clienti, tag, recensioni, termini di ricerca e monitoraggio delle prestazioni in tempo reale 24 ore su 24, 7 giorni su 7 e consigli dallo [Strumento di analisi per l&#39;intero sito](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro). |
 | ![Menu Archivi](./assets/icon-admin-sidebar-stores.png) | **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | Il menu [!UICONTROL Stores] include strumenti per configurare e gestire ogni aspetto del tuo Negozio, incluse impostazioni di installazione multisito, imposte, valuta, attributi di prodotto e gruppi di clienti. |
 | ![Menu di sistema](./assets/icon-admin-sidebar-system.png) | **[[!UICONTROL System]](../systems/system-menu.md)** | Il menu [!UICONTROL System] include strumenti per gestire le operazioni di sistema, installare estensioni e gestire i servizi Web per l&#39;integrazione con altre applicazioni. |
-| ![Trova estensioni](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | [!DNL Commerce Marketplace] è il luogo in cui puoi trovare le soluzioni Adobe Commerce e di Magento Open Source per il tuo store. |
+| ![Trova estensioni](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} In [!DNL Commerce Marketplace] puoi trovare le soluzioni Adobe Commerce e Magento Open Source per il tuo store. |
 
 {style="table-layout:auto"}

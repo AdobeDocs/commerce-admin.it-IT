@@ -3,9 +3,9 @@ title: Ottimizzazione dei motori di ricerca
 description: Scopri gli strumenti di ottimizzazione dei motori di ricerca (SEO) per i siti Commerce e le best practice per una SEO ottimale.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,25 @@ ht-degree: 0%
 
 _L&#39;ottimizzazione per i motori di ricerca_ (SEO) consiste nel perfezionare il contenuto e la presentazione di un sito per migliorare il modo in cui le pagine vengono indicizzate dai motori di ricerca. Commerce include varie funzioni per supportare l’attività SEO (Search Engine Optimization) in corso.
 
+>[!TIP]
+>
+>Per Adobe Commerce as a Cloud Service, consulta le [linee guida SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) nella documentazione di Commerce Storefront
+
 ## Metadati
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Ulteriori informazioni sull&#39;aggiunta e l&#39;ottimizzazione di [metadati](meta-data.md) ricchi di parole chiave per il sito e l&#39;archivio.
 
 ## Utilizzo di una mappa del sito
 
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+
 Una [mappa del sito](sitemap-xml.md) migliora l&#39;indicizzazione dell&#39;archivio da parte dei motori di ricerca ed è progettata per trovare pagine che potrebbero essere ignorate dai crawler Web. È possibile configurare una mappa del sito per indicizzare tutte le pagine e le immagini.
 
 ## Riscritture URL
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Lo strumento [URL Riscrittura](url-rewrite.md) consente di modificare qualsiasi URL associato a una pagina di prodotto, categoria o CMS.
 

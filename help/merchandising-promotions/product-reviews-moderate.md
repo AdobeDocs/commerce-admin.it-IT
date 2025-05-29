@@ -3,9 +3,10 @@ title: Modera recensioni prodotto
 description: Scopri come moderare le recensioni dei prodotti per garantire che quelle inviate siano appropriate per la visualizzazione pubblica del tuo store.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Per visualizzare tutte le recensioni per un prodotto specifico nell’Admin, eff
 
 ## Aggiorna stato per le recensioni
 
-1. Nella barra laterale _Admin_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;o **[!UICONTROL All Reviews]**.
+1. Nella barra laterale _Admin_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**o **[!UICONTROL All Reviews]**.
 
 1. Nell’elenco, fai clic su una revisione in sospeso per visualizzare i dettagli e modificarli, se necessario.
 
@@ -60,7 +61,7 @@ Puoi aggiornare o eliminare più recensioni contemporaneamente:
 
 1. Seleziona le recensioni da aggiornare.
 
-1. Utilizza il selettore _[!UICONTROL Action]_&#x200B;in alto a sinistra per applicare un&#39;azione.
+1. Utilizza il selettore _[!UICONTROL Action]_in alto a sinistra per applicare un&#39;azione.
 
 1. Fai clic su **[!UICONTROL Submit]**
 

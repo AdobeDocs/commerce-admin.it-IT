@@ -1,16 +1,17 @@
 ---
-title: Panoramica sull’integrazione di Adobe Identity Management Service (IMS)
+title: Panoramica sull’integrazione del servizio Adobe Identity Management (IMS)
 description: Introduce l’integrazione opzionale dell’accesso amministratore di Adobe Commerce con Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
-# Panoramica sull’integrazione di Adobe Identity Management Service (IMS)
+# Panoramica sull’integrazione del servizio Adobe Identity Management (IMS)
 
 {{ee-feature}}
 
@@ -22,11 +23,11 @@ Per implementare questa integrazione, vedere [Configurare l&#39;integrazione del
 
 ## Modifiche ai flussi di lavoro e all’interfaccia di amministrazione dopo l’integrazione con IMS
 
-Quando questa integrazione è abilitata, gli utenti amministratore di Commerce visualizzano le modifiche al flusso di lavoro di autenticazione e accesso predefinito di Amministratore Commerce durante l’esecuzione di attività di routine in Amministratore che richiedono la riautenticazione, ad esempio la creazione di un utente amministratore. Per l’abilitazione del modulo è necessaria l’autenticazione a due fattori (2FA) a livello di organizzazione Adobe. L&#39;accesso predefinito per l&#39;amministratore e 2FA sono disabilitati e il pulsante _[!UICONTROL Sign In with Adobe ID]_&#x200B;sostituisce il modulo di accesso predefinito per l&#39;amministratore. I diritti sono ancora gestiti dall’amministratore.
+Quando questa integrazione è abilitata, gli utenti amministratore di Commerce visualizzano le modifiche al flusso di lavoro di autenticazione e accesso predefinito di Amministratore Commerce durante l’esecuzione di attività di routine in Amministratore che richiedono la riautenticazione, ad esempio la creazione di un utente amministratore. Per l’abilitazione del modulo è necessaria l’autenticazione a due fattori (2FA) a livello di organizzazione Adobe. L&#39;accesso predefinito per l&#39;amministratore e 2FA sono disabilitati e il pulsante _[!UICONTROL Sign In with Adobe ID]_sostituisce il modulo di accesso predefinito per l&#39;amministratore. I diritti sono ancora gestiti dall’amministratore.
 
 ## Effetti dell’integrazione dell’amministratore con IMS sulle password di Commerce
 
-Le implementazioni Commerce integrate con Adobe IMS richiedono un account Adobe ID con accesso all’organizzazione Adobe IMS configurata per l’applicazione Commerce durante il processo di abilitazione IMS.  Quando l’integrazione IMS è abilitata, gli utenti amministratori si autenticano tramite la pagina di accesso di Adobe utilizzando le loro credenziali di Adobe. Le password e i nomi utente di Commerce per gli utenti amministratori non vengono più utilizzati per l’autenticazione purché sia abilitata l’integrazione Adobe IMS.
+Le implementazioni Commerce integrate con Adobe IMS richiedono un account Adobe ID con accesso all’organizzazione Adobe IMS configurata per l’applicazione Commerce durante il processo di abilitazione IMS.  Quando l’integrazione IMS è abilitata, gli utenti amministratori si autenticano tramite la pagina di accesso di Adobe utilizzando le loro credenziali Adobe. Le password e i nomi utente di Commerce per gli utenti amministratori non vengono più utilizzati per l’autenticazione purché sia abilitata l’integrazione Adobe IMS.
 
 Se l’integrazione IMS è disabilitata, gli utenti amministratori devono eseguire di nuovo l’autenticazione tramite Adobe Commerce utilizzando il nome utente e la password Commerce. Gli utenti amministratori devono salvare le credenziali amministratore di Commerce (nome utente e password) e le credenziali 2FA prima di abilitare questa integrazione.
 

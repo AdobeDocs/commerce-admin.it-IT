@@ -2,9 +2,10 @@
 title: Strumenti di supporto
 description: Scopri gli strumenti di supporto forniti che puoi utilizzare per identificare i problemi nel sistema.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---

@@ -4,9 +4,10 @@ description: Scopri come configurare le credenziali OAuth e l’URL di reindiriz
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ La definizione di un’integrazione nell’amministratore di Commerce stabilisce
 
    - Immetti **[!UICONTROL Callback URL]** in cui è possibile inviare le credenziali OAuth quando si utilizza OAuth per lo scambio di token. Si consiglia vivamente di utilizzare `https://`.
 
-   - Immetti **[!UICONTROL Identity Link URL]** per reindirizzare gli utenti a un account di terze parti con queste credenziali di integrazione di Adobe Commerce o di Magento Open Source.
+   - Immetti **[!UICONTROL Identity Link URL]** per reindirizzare gli utenti a un account di terze parti con queste credenziali di integrazione di Adobe Commerce o Magento Open Source.
 
    >[!NOTE]
    >
@@ -80,7 +81,7 @@ Per generare un nuovo token di accesso all’integrazione e un nuovo segreto per
 
 1. Trovare l&#39;integrazione con lo stato **[!UICONTROL Active]**.
 
-1. Nella colonna _[!UICONTROL Activate]_&#x200B;fare clic su **[!UICONTROL Reauthorize]**.
+1. Nella colonna _[!UICONTROL Activate]_fare clic su **[!UICONTROL Reauthorize]**.
 
 1. Fare clic su **[!UICONTROL Reauthorize]** per approvare l&#39;accesso alle risorse API.
 
@@ -88,7 +89,7 @@ Per generare un nuovo token di accesso all’integrazione e un nuovo segreto per
 
 ## Modificare l’impostazione di sicurezza dell’accesso guest API
 
-Per impostazione predefinita, il sistema non consente l’accesso come ospite anonimo a CMS, catalogo e altre risorse dello store. Se è necessario modificare l&#39;impostazione, effettuare le seguenti operazioni:
+Per impostazione predefinita, il sistema non consente l&#39;accesso come ospite anonimo a CMS, al catalogo e ad altre risorse del negozio. Se è necessario modificare l&#39;impostazione, effettuare le seguenti operazioni:
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -4,16 +4,17 @@ description: Scopri come configurare la sicurezza per l’amministratore del tuo
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-source-git-commit: e301cfaeec3a8427fff6138ba041bdbd7433c137
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # Configurare la sicurezza dell’amministratore
 
-È consigliabile adottare un approccio multidimensionale per proteggere la sicurezza del negozio. Puoi iniziare utilizzando un [URL amministratore personalizzato](../stores-purchase/store-urls.md#use-a-custom-admin-url) non facile da indovinare, anziché l&#39;ovvio &quot;Amministratore&quot; o &quot;Back-end&quot;. Per impostazione predefinita, le password utilizzate per [accedere](../getting-started/admin-signin.md) all&#39;amministratore devono essere composte da sette o più caratteri e includere sia lettere che numeri. Come [best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=it), utilizza solo password amministratore complesse che includono una combinazione di lettere, numeri e simboli. Adobe Commerce e Magento Open Source non consentono il riutilizzo delle ultime quattro password assegnate all’account.
+È consigliabile adottare un approccio multidimensionale per proteggere la sicurezza del negozio. Puoi iniziare utilizzando un [URL amministratore personalizzato](../stores-purchase/store-urls.md#use-a-custom-admin-url) non facile da indovinare, anziché l&#39;ovvio &quot;Amministratore&quot; o &quot;Back-end&quot;. Per impostazione predefinita, le password utilizzate per [accedere](../getting-started/admin-signin.md) all&#39;amministratore devono essere composte da sette o più caratteri e includere sia lettere che numeri. Come [best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), utilizza solo password amministratore complesse che includono una combinazione di lettere, numeri e simboli. Adobe Commerce e Magento Open Source non consentono il riutilizzo delle ultime quattro password assegnate all’account.
 
 La configurazione della sicurezza Admin consente di:
 
@@ -29,9 +30,9 @@ Oltre alle impostazioni di protezione in questa sezione, è necessaria l&#39;aut
 
 >[!NOTE]
 >
->Gli archivi che hanno abilitato l&#39;autenticazione [!DNL Adobe Identity Management Services] (IMS) hanno Adobe Commerce nativo e Magento Open Source 2FA disabilitato. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza di Commerce con le credenziali di Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Vedi Panoramica sull&#39;integrazione di [[!DNL Adobe Identity Management Service] (IMS)](../getting-started/adobe-ims-integration-overview.md).
+>Gli archivi che hanno abilitato l&#39;autenticazione [!DNL Adobe Identity Management Services] (IMS) hanno Adobe Commerce nativo e Magento Open Source 2FA disabilitati. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza di Commerce con le credenziali Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Vedi Panoramica sull&#39;integrazione di [[!DNL Adobe Identity Management Service] (IMS)](../getting-started/adobe-ims-integration-overview.md).
 
-Per informazioni tecniche, consulta [Panoramica sulla sicurezza](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target=&quot;_blank&quot;} nella documentazione per gli sviluppatori.
+Per informazioni tecniche, consulta [Panoramica sulla sicurezza](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} nella documentazione per gli sviluppatori.
 
 ![Sicurezza amministratore](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 

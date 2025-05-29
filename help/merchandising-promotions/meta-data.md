@@ -3,14 +3,19 @@ title: Metadati
 description: Scopri come immettere metadati ricchi di parole chiave per migliorare il modo in cui i motori di ricerca indicizzano il sito Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
 # Metadati
+
+>[!TIP]
+>
+>Per Adobe Commerce as a Cloud Service, consulta le [linee guida sui metadati](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) nella documentazione di Commerce Storefront
 
 Il tuo archivio è caricato di luoghi in cui puoi immettere metadati ricchi di parole chiave per migliorare il modo in cui i motori di ricerca indicizzano il sito. Durante la configurazione del negozio, è possibile immettere metadati preliminari, con l&#39;intenzione di completarli in un secondo momento. Nel tempo, puoi perfezionare i metadati per adattarli ai modelli di acquisto e alle preferenze dei clienti.
 
@@ -93,6 +98,6 @@ Puoi evitare di essere penalizzato dai motori di ricerca omettendo la categoria 
 
 Guarda questo video per scoprire come gestire i metadati SEO (Search Engine Optimization):
 
->[!VIDEO](https://video.tv.adobe.com/v/3410175?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
 
 [1]: https://schema.org/

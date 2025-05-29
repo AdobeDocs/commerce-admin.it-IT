@@ -4,9 +4,9 @@ description: Scopri gli URL di Commerce e le credenziali dell’account utilizza
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 feature: System
 role: Admin, Leader
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,6 @@ Mentre stai apprendendo a spostarti all&#39;interno del negozio, assicurati di i
 
 ## Dati di esempio
 
-In Adobe viene fornito un set di dati di esempio che include un archivio di campioni con più di 250 prodotti (di cui circa 200 configurabili), categorie, regole di prezzo promozionali, pagine CMS, banner e così via. I dati di esempio utilizzano il tema _Luma_ nella vetrina. [L&#39;installazione di questi dati di esempio](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=it) è facoltativa, ma può essere utile per testare e sviluppare personalizzazioni per le attività di eCommerce.
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+
+Adobe fornisce un set di dati di esempio che include un archivio di campioni con più di 250 prodotti (di cui circa 200 configurabili), categorie, regole di prezzo promozionali, pagine CMS, banner e così via. I dati di esempio utilizzano il tema _Luma_ nella vetrina. [L&#39;installazione di questi dati di esempio](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) è facoltativa, ma può essere utile per testare e sviluppare personalizzazioni per le attività di eCommerce.

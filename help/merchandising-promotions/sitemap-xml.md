@@ -3,14 +3,19 @@ title: Mappe del sito
 description: Scopri come configurare una mappa del sito per indicizzare tutte le pagine e le immagini dei siti Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
 
 # Mappe del sito
+
+>[!TIP]
+>
+>Per Adobe Commerce as a Cloud Service, consulta le [linee guida SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) nella documentazione di Commerce Storefront
 
 Una mappa del sito migliora il modo in cui il tuo archivio viene indicizzato dai motori di ricerca ed è progettata per trovare pagine che potrebbero essere ignorate dai crawler web. È possibile configurare una mappa del sito per indicizzare tutte le pagine e le immagini.
 
@@ -97,7 +102,7 @@ Per creare sitemap per un&#39;istanza multistore, effettuare le seguenti operazi
    
 >[!NOTE]
 >
->Se il sito utilizza il motore del server Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=it), è necessario aggiornare il file [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) nella directory principale del sito Web per indirizzare eventuali altre richieste di sitemap nella posizione corretta.
+>Se il sito utilizza il motore del server Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), è necessario aggiornare il file [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) nella directory principale del sito Web per indirizzare eventuali altre richieste di sitemap nella posizione corretta.
 
 ## Descrizioni delle colonne
 
@@ -159,9 +164,9 @@ La mappa del sito deve essere aggiornata con la stessa frequenza con cui cambia 
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL CMS Pages Options]** e completare le impostazioni **[!UICONTROL Frequency]** e **[!UICONTROL Priority]** in base alle esigenze.
 
-   ![Configurazione catalogo - Pagine CMS sitemap XML](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
+   ![Configurazione del catalogo - Pagine CMS sitemap XML](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   Per un elenco dettagliato di queste opzioni, vedere [Opzioni pagine CMS](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) nel _Riferimento configurazione_.
+   Per un elenco dettagliato di queste opzioni, vedere [Opzioni pagine CMS](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) nella _Guida di riferimento alla configurazione_.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Store Url Options]** e completare le impostazioni **[!UICONTROL Frequency]** e **[!UICONTROL Priority]** in base alle esigenze.
 
@@ -223,6 +228,6 @@ La mappa del sito deve essere aggiornata con la stessa frequenza con cui cambia 
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=it
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed
