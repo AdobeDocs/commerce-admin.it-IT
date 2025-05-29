@@ -111,4 +111,4 @@ Commerce offre i seguenti tipi di riscrittura URL:
 
 Guarda questo video per scoprire come gestire le riscritture URL:
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410125?quality=12&learn=on&captions=ita)
