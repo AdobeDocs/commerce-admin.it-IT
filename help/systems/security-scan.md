@@ -104,7 +104,7 @@ Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboa
 
          Al termine del processo di generazione, le modifiche verranno distribuite nella parte anteriore dello store di PWA.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
 
 1. Dopo una conferma, configurare le opzioni **[!UICONTROL Set Automatic Security Scan]** per uno dei tipi seguenti:
 
@@ -159,7 +159,7 @@ Di seguito sono riportati alcuni scenari comuni in cui è possibile contrassegna
 
 Per gestire gli errori di scansione identificati come falsi positivi, effettua le seguenti operazioni:
 
-1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**per il sito che si desidera gestire.
+1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**&#x200B;per il sito che si desidera gestire.
 
 1. Nella visualizzazione report, individuare la scansione non riuscita che si desidera contrassegnare come falso positivo.
 
@@ -169,7 +169,7 @@ Per gestire gli errori di scansione identificati come falsi positivi, effettua l
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_ed è escluso dal punteggio di rischio.
+L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_&#x200B;ed è escluso dal punteggio di rischio.
 
 ### Interrompi ignoramento errori di scansione
 
@@ -183,7 +183,7 @@ Se è necessario ripristinare un errore di scansione precedentemente ignorato ne
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_ed è incluso nel punteggio di rischio.
+L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_&#x200B;ed è incluso nel punteggio di rischio.
 
 ### Visualizza errori di scansione ignorati
 
