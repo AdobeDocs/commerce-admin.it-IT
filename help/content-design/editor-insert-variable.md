@@ -17,7 +17,7 @@ Lo store include molte [variabili](../systems/variables-predefined.md) predefini
 
 1. Apri una pagina, un blocco o un blocco dinamico in modalità di modifica.
 
-1. Andare alla sezione _[!UICONTROL Content]_e fare clic su qualsiasi elemento che supporta l&#39;editor.
+1. Andare alla sezione _[!UICONTROL Content]_&#x200B;e fare clic su qualsiasi elemento che supporta l&#39;editor.
 
 1. Posizionare il cursore nel punto in cui si desidera visualizzare la variabile e fare clic sull&#39;icona _Inserisci variabile_.
 

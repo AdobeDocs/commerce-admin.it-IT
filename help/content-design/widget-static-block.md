@@ -28,7 +28,7 @@ Il _blocco statico di CMS_ [widget](widgets.md) consente di inserire un [blocco 
 
    ![Impostazioni widget](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Storefront Properties]_eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Storefront Properties]_&#x200B;eseguire le operazioni seguenti:
 
    - Per **[!UICONTROL Widget Title]**, immettere un titolo descrittivo per il widget.
 

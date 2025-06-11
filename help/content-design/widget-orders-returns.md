@@ -38,7 +38,7 @@ Il widget _Ordini e restituzioni_ consente agli ospiti di controllare lo stato d
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Widget]**.
 
-1. Nella sezione _[!UICONTROL Settings]_eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Settings]_&#x200B;eseguire le operazioni seguenti:
 
    - Imposta **[!UICONTROL Type]** su `Orders and Returns`.
 
@@ -46,7 +46,7 @@ Il widget _Ordini e restituzioni_ consente agli ospiti di controllare lo stato d
 
 1. Fare clic su **[!UICONTROL Continue]**.
 
-1. Nella sezione _[!UICONTROL Storefront Properties]_eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Storefront Properties]_&#x200B;eseguire le operazioni seguenti:
 
    - Per **[!UICONTROL Widget Title]**, immettere un titolo descrittivo per il widget.
 
@@ -58,7 +58,7 @@ Il widget _Ordini e restituzioni_ consente agli ospiti di controllare lo stato d
 
    - (Facoltativo) Per **[!UICONTROL Sort Order]**, immettere un numero per determinare l&#39;ordine di visualizzazione di questo elemento con altri nella stessa parte della pagina. (`0` = primo, `1` = secondo, `3` = terzo e così via).
 
-1. Nella sezione _[!UICONTROL Layout Updates]_, fare clic su **[!UICONTROL Add Layout Update]**ed eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Layout Updates]_, fare clic su **[!UICONTROL Add Layout Update]**&#x200B;ed eseguire le operazioni seguenti:
 
    - Impostare **[!UICONTROL Display On]** sul tipo di pagina in cui si desidera visualizzare il widget.
 

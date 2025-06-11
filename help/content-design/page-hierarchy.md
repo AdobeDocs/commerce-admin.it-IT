@@ -60,7 +60,7 @@ Per creare un collegamento a un nodo, utilizzare lo strumento [Widget](widgets.m
 
 1. Sopra la griglia, fare clic su **[!UICONTROL Add Node...]**.
 
-1. In _[!UICONTROL Page Properties]_, immettere un **[!UICONTROL Title]**per il nodo e un **[!UICONTROL URL Key]**appropriato.
+1. In _[!UICONTROL Page Properties]_, immettere un **[!UICONTROL Title]**&#x200B;per il nodo e un **[!UICONTROL URL Key]**&#x200B;appropriato.
 
    La chiave URL fornisce un indirizzo web univoco per il nodo. Devono essere tutti caratteri minuscoli, utilizzando i trattini per separare le parole, invece degli spazi.
 
@@ -86,7 +86,7 @@ Per creare un collegamento a un nodo, utilizzare lo strumento [Widget](widgets.m
 
 1. Fai clic sul nodo nella parte superiore della gerarchia.
 
-   Nella sezione _[!UICONTROL Page Properties]_sono ora visualizzate informazioni sul nodo.
+   Nella sezione _[!UICONTROL Page Properties]_&#x200B;sono ora visualizzate informazioni sul nodo.
 
 1. In **[!UICONTROL Render Metadata in HTML Head]** eseguire le operazioni seguenti:
 
