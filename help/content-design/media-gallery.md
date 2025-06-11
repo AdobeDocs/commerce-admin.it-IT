@@ -71,7 +71,7 @@ Per accedere alla nuova Raccolta multimediale durante l&#39;aggiunta o la modifi
 
 Per ulteriori informazioni su [!DNL Media Gallery], guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411045?quality=12&learn=on&captions=ita)
 
 [adobe-stock]: https://stock.adobe.com
 
