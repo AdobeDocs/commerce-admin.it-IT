@@ -4,16 +4,29 @@ description: Scopri come eseguire un’analisi della sicurezza avanzata e monito
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 4f46ce0ee4e4d51d178dac04d1493f0d9cffc49b
+source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
+
 # Scansione di sicurezza
 
-Monitora i siti Adobe Commerce e Magento Open Source per individuare rischi per la sicurezza e malware e ricevi aggiornamenti e notifiche per la sicurezza.
+Lo strumento Adobe Commerce Security Scan fornisce gratuitamente il monitoraggio della sicurezza per i siti Adobe Commerce e Magento Open Source. Lo strumento funziona come un servizio basato su Web a cui puoi accedere tramite il tuo account Adobe Commerce online all&#39;indirizzo [account.magento.com](https://account.magento.com/customer/account/login).
+
+![Strumento Analisi protezione](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe fornisce questo servizio gratuitamente, anche se gli esercenti devono accettare termini che limitano la responsabilità di Adobe in base ai risultati della scansione e alla configurazione del sito.
+
+## Copertura scansione
+
+Lo strumento Security Scan funziona sia su protocolli HTTP che HTTPS per rilevare malware, identificare vulnerabilità di sicurezza e aiutare a mantenere la postura di sicurezza del tuo archivio. Lo strumento è disponibile per tutti i commercianti, sviluppatori e personale designato responsabile della sicurezza del sito.
+
+Lo strumento Security Scan fornisce funzionalità complete di monitoraggio della sicurezza che consentono di mantenere un ambiente di archiviazione sicuro:
 
 - Ottieni da insight lo stato di sicurezza in tempo reale del tuo negozio.
 - Ricevi suggerimenti in base alle best practice per aiutare a risolvere i problemi.
@@ -22,11 +35,25 @@ Monitora i siti Adobe Commerce e Magento Open Source per individuare rischi per 
 - Accedi ai report cronologici di sicurezza che tengono traccia e monitorano l’avanzamento dei siti.
 - Accedere al rapporto di scansione che mostra i controlli riusciti e non riusciti, con le azioni consigliate.
 
-Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboard dell&#39;[account Commerce/Magento](../getting-started/commerce-account-create.md). Per informazioni tecniche, vedere [Configurare lo strumento di analisi della sicurezza](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+>[!NOTE]
+>
+>Non è possibile escludere test di sicurezza specifici dalle analisi dello strumento Security Scan per Adobe Commerce. Tuttavia, in [puoi eseguire il self-service ignorando gli errori](#manage-scan-failures) come falsi positivi, se applicabile.
 
-![Strumento Analisi protezione](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## Accesso
 
-## Esegui un&#39;analisi della sicurezza
+Lo strumento Security Scan mantiene rigorosi controlli di accesso per proteggere le informazioni del sito. Solo tu puoi scansionare il tuo sito perché lo strumento richiede la verifica della proprietà del dominio tramite il tuo account Adobe Commerce. Ogni sito si connette al tuo account tramite un token univoco, che impedisce la scansione non autorizzata da parte di terze parti.
+
+Lo strumento si concentra specificamente sui domini Adobe Commerce e sulle relative vulnerabilità di sicurezza. Anche se il tuo negozio web può includere pagine provenienti da altre piattaforme, lo strumento Security Scan dovrebbe analizzare solo i contenuti generati da Adobe Commerce per garantire risultati affidabili. La scansione di pagine non Adobe Commerce può produrre valutazioni delle vulnerabilità inaffidabili.
+
+## Esegui una scansione
+
+Il processo di scansione verifica il sito rispetto a problemi di sicurezza noti e identifica patch e aggiornamenti mancanti di Adobe Commerce che potrebbero rendere il tuo archivio vulnerabile ad attacchi.
+
+>[!TIP]
+>
+>Per i progetti di infrastruttura cloud di Commerce, vedere [Configurazione dello strumento di analisi della sicurezza](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+
+Per eseguire una scansione:
 
 1. Dalla home page di Commerce, accedi al tuo [account Commerce/Magento](../getting-started/commerce-account-create.md).
 
@@ -104,7 +131,7 @@ Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboa
 
          Al termine del processo di generazione, le modifiche verranno distribuite nella parte anteriore dello store di PWA.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
 
 1. Dopo una conferma, configurare le opzioni **[!UICONTROL Set Automatic Security Scan]** per uno dei tipi seguenti:
 
@@ -159,7 +186,7 @@ Di seguito sono riportati alcuni scenari comuni in cui è possibile contrassegna
 
 Per gestire gli errori di scansione identificati come falsi positivi, effettua le seguenti operazioni:
 
-1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**&#x200B;per il sito che si desidera gestire.
+1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**per il sito che si desidera gestire.
 
 1. Nella visualizzazione report, individuare la scansione non riuscita che si desidera contrassegnare come falso positivo.
 
@@ -169,7 +196,7 @@ Per gestire gli errori di scansione identificati come falsi positivi, effettua l
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_&#x200B;ed è escluso dal punteggio di rischio.
+L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_ed è escluso dal punteggio di rischio.
 
 ### Interrompi ignoramento errori di scansione
 
@@ -183,7 +210,7 @@ Se è necessario ripristinare un errore di scansione precedentemente ignorato ne
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_&#x200B;ed è incluso nel punteggio di rischio.
+L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_ed è incluso nel punteggio di rischio.
 
 ### Visualizza errori di scansione ignorati
 
