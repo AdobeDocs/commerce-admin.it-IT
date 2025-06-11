@@ -2,9 +2,10 @@
 title: Gerarchia delle pagine
 description: Scopri come il sistema di gerarchia delle pagine consente di organizzare le pagine di contenuto e aggiungere impaginazione, navigazione e menu.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ L’esempio seguente mostra come creare un nodo con una semplice navigazione all
 
 Ad esempio, puoi creare un nodo denominato _Comunicati stampa_ che consente di accedere ai singoli comunicati stampa. Quindi, puoi includere il collegamento al nodo nella pagina _Informazioni su di noi_. Oppure potresti creare un nodo per una raccolta di problemi precedenti della newsletter.
 
-Per creare un collegamento a un nodo, utilizzare lo strumento [Widget](widgets.md) per creare un collegamento al nodo della gerarchia CMS e inserire il widget in un blocco di contenuto o in una pagina.
+Per creare un collegamento a un nodo, utilizzare lo strumento [Widget](widgets.md) per creare un collegamento a un nodo gerarchia CMS e inserire il widget in un blocco di contenuto o in una pagina.
 
 ![Menu di navigazione di esempio nella pagina Informazioni](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
@@ -59,7 +60,7 @@ Per creare un collegamento a un nodo, utilizzare lo strumento [Widget](widgets.m
 
 1. Sopra la griglia, fare clic su **[!UICONTROL Add Node...]**.
 
-1. In _[!UICONTROL Page Properties]_, immettere un **[!UICONTROL Title]**&#x200B;per il nodo e un **[!UICONTROL URL Key]**&#x200B;appropriato.
+1. In _[!UICONTROL Page Properties]_, immettere un **[!UICONTROL Title]**per il nodo e un **[!UICONTROL URL Key]**appropriato.
 
    La chiave URL fornisce un indirizzo web univoco per il nodo. Devono essere tutti caratteri minuscoli, utilizzando i trattini per separare le parole, invece degli spazi.
 
@@ -85,7 +86,7 @@ Per creare un collegamento a un nodo, utilizzare lo strumento [Widget](widgets.m
 
 1. Fai clic sul nodo nella parte superiore della gerarchia.
 
-   Nella sezione _[!UICONTROL Page Properties]_&#x200B;sono ora visualizzate informazioni sul nodo.
+   Nella sezione _[!UICONTROL Page Properties]_sono ora visualizzate informazioni sul nodo.
 
 1. In **[!UICONTROL Render Metadata in HTML Head]** eseguire le operazioni seguenti:
 

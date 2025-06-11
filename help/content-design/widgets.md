@@ -2,9 +2,10 @@
 title: Widget
 description: Scopri i widget, che forniscono uno snippet di codice che consente di visualizzare un’ampia gamma di contenuti e inserirli in specifici riferimenti di blocco nel tuo archivio.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Quando [crei un widget](widget-create.md), devi impostare il tipo. Questo tipo d
 | Tipo | Descrizione |
 |--- |--- |
 | [!UICONTROL CMS Hierarchy Node Link] | Utilizza questa opzione per visualizzare un collegamento a un nodo specifico nella gerarchia delle pagine che può essere incorporato in altri contenuti. |
-| [!UICONTROL CMS Page Link] | Utilizza questa opzione per specificare un testo personalizzato e un titolo da collegare a una pagina CMS specifica. Una volta completato, il collegamento può essere utilizzato nelle pagine e nei blocchi di contenuto. |
+| [!UICONTROL CMS Page Link] | Utilizzare questa opzione per specificare testo personalizzato e un titolo che rimandi a una pagina CMS specifica. Una volta completato, il collegamento può essere utilizzato nelle pagine e nei blocchi di contenuto. |
 | [!UICONTROL CMS Static Block] | Utilizza questa opzione per visualizzare un blocco di contenuto in una posizione specifica su una pagina. |
 | [!UICONTROL Catalog Category Link] | Utilizza questa opzione per visualizzare un collegamento in linea o in stile blocco a una categoria di catalogo selezionata. Una volta completato, il collegamento può essere utilizzato nelle pagine e nei blocchi di contenuto. |
 | [!UICONTROL Catalog Events Carousel] | Utilizza questa opzione per visualizzare un elenco dei prossimi eventi catalogo. |

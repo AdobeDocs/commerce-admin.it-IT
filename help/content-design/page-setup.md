@@ -2,28 +2,29 @@
 title: Impostazione pagina
 description: Scopri come configurare le impostazioni predefinite per le parti principali di una pagina del negozio.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # Impostazione pagina
 
-Le sezioni principali della pagina sono controllate, in parte, da un set di tag HTML standard. Alcuni di questi tag possono essere utilizzati per determinare la selezione di font, colore, dimensioni, colori di sfondo e immagini utilizzati in ogni sezione della pagina. Altre impostazioni controllano gli elementi della pagina, ad esempio il logo nell&#39;intestazione e l&#39;avviso di copyright nel piè di pagina. Queste sezioni corrispondono alla struttura sottostante della pagina HTML e molte delle proprietà di base possono essere impostate dall’amministratore.
+Le sezioni principali della pagina sono controllate, in parte, da un set di tag standard di HTML. Alcuni di questi tag possono essere utilizzati per determinare la selezione di font, colore, dimensioni, colori di sfondo e immagini utilizzati in ogni sezione della pagina. Altre impostazioni controllano gli elementi della pagina, ad esempio il logo nell&#39;intestazione e l&#39;avviso di copyright nel piè di pagina. Queste sezioni corrispondono alla struttura sottostante della pagina HTML e molte delle proprietà di base possono essere impostate dall’amministratore.
 
-- [Testa HTML](#html-head)
+- [Intestazione HTML](#html-head)
 - [Intestazione](#header)
 - [Piè di pagina](#footer)
 
-![Sezioni pagina HTML](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![Sezioni delle pagine di HTML](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
-## Testa HTML
+## Intestazione HTML
 
 Le impostazioni nella sezione HTML Head corrispondono al tag `<head>` di una pagina HTML e possono essere configurate per ogni visualizzazione dello store. Oltre ai metadati per il titolo della pagina, la descrizione e le parole chiave, la sezione include un collegamento al favicon e script vari. In questa sezione sono anche configurate le istruzioni per i robot dei motori di ricerca e la visualizzazione dell’avviso di dimostrazione del negozio.
 
-### Configurare l’intestazione del HTML
+### Configurare l’intestazione HTML
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
@@ -31,7 +32,7 @@ Le impostazioni nella sezione HTML Head corrispondono al tag `<head>` di una pag
 
 1. In _Altre impostazioni_, espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL HTML Head]**.
 
-   ![Impostazioni di configurazione HTML Head](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![Impostazioni configurazione HTML Head](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
 1. Aggiorna [favicon](../getting-started/storefront-branding.md#add-a-favicon) se necessario.
 
@@ -59,17 +60,17 @@ Le impostazioni nella sezione HTML Head corrispondono al tag `<head>` di una pag
 
 1. Al termine, fare clic su **[!UICONTROL Save Configuration]**.
 
-### Descrizioni dei campi HTML Head
+### Descrizioni dei campi Intestazione HTML
 
 | Campo | Ambito | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Favicon Icon] | Visualizzazione store | Carica la piccola immagine grafica visualizzata nella barra degli indirizzi e nella scheda del browser. Tipi di file consentiti: ICO, PNG, APNG, GIF e JPG JPEG. Non tutti i browser supportano questi formati. |
+| [!UICONTROL Favicon Icon] | Visualizzazione store | Carica la piccola immagine grafica visualizzata nella barra degli indirizzi e nella scheda del browser. Tipi di file consentiti: ICO, PNG, APNG, GIF e JPG (JPEG). Non tutti i browser supportano questi formati. |
 | [!UICONTROL Default Page Title] | Visualizzazione store | Titolo visualizzato sulla barra del titolo di ogni pagina visualizzata in un browser. Il titolo predefinito viene utilizzato per tutte le pagine, a meno che non venga specificato un altro titolo per le singole pagine. |
 | [!UICONTROL Page Title Prefix] | Visualizzazione store | È possibile aggiungere un prefisso prima del titolo per creare un titolo in due o tre parti. È possibile utilizzare una barra verticale o due punti come separatore alla fine del prefisso per differenziarlo dal testo del titolo principale. |
 | [!UICONTROL Page Title Suffix] | Visualizzazione store | È possibile aggiungere un suffisso dopo il titolo per creare un titolo in due o tre parti. È possibile utilizzare una barra verticale o due punti come separatore alla fine del prefisso per differenziarlo dal testo del titolo principale. |
 | [!UICONTROL Default Meta Description] | Visualizzazione store | La descrizione fornisce un riepilogo del sito per gli elenchi dei motori di ricerca e non può superare i 160 caratteri. |
 | [!UICONTROL Default Meta Keywords] | Visualizzazione store | Una serie di parole chiave che descrivono il tuo archivio, ciascuna separata da una virgola. |
-| [!UICONTROL Scripts and Style Sheets] | Visualizzazione store | Contiene gli script che devono essere inclusi nel HTML prima del tag di chiusura `<head>`. È ad esempio possibile immettere qui qualsiasi JavaScript di terze parti che deve essere inserito prima del tag `<body>`. |
+| [!UICONTROL Scripts and Style Sheets] | Visualizzazione store | Contiene gli script che devono essere inclusi in HTML prima del tag di chiusura `<head>`. È ad esempio possibile immettere qui qualsiasi JavaScript di terze parti che deve essere inserito prima del tag `<body>`. |
 | [!UICONTROL Display Demo Store Notice] | Visualizzazione store | Controlla la visualizzazione dell&#39;avviso dell&#39;archivio demo nella parte superiore della pagina. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -99,7 +100,7 @@ La configurazione dell’intestazione identifica il percorso del logo dell’arc
 
 | Campo | Ambito | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Logo Image] | Visualizzazione store | Identifica il percorso del logo visualizzato nell&#39;intestazione. Tipi di file supportati: PNG, GIF, JPG JPEG |
+| [!UICONTROL Logo Image] | Visualizzazione store | Identifica il percorso del logo visualizzato nell&#39;intestazione. Tipi di file supportati: PNG, GIF, JPG (JPEG) |
 | [!UICONTROL Logo Attribute Width] | Visualizzazione store | Larghezza dell&#39;immagine del logo in pixel. |
 | [!UICONTROL Logo Attribute Height] | Visualizzazione store | Altezza dell&#39;immagine del logo in pixel. |
 | [!UICONTROL Welcome Text] | Visualizzazione store | Il messaggio di benvenuto viene visualizzato nell’intestazione della pagina e include il nome dei clienti che hanno effettuato l’accesso. |
@@ -135,7 +136,7 @@ Nella sezione Configurazione piè di pagina è possibile aggiornare l&#39;[avvis
 | Campo | Ambito | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Miscellaneous HTML] | Visualizzazione store | Una casella di input in cui è possibile caricare script vari nel server che devono essere inseriti immediatamente prima del tag di chiusura `<body>`. |
-| [!UICONTROL Copyright] | Visualizzazione store | Dichiarazione di copyright visualizzata nella parte inferiore di ogni pagina. Per includere il simbolo di copyright, utilizzare l&#39;entità carattere HTML `\&copy;` come indicato di seguito: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Sostituire l&#39;avviso di copyright di esempio con il proprio. |
+| [!UICONTROL Copyright] | Visualizzazione store | Dichiarazione di copyright visualizzata nella parte inferiore di ogni pagina. Per includere il simbolo di copyright, utilizzare l&#39;entità carattere di HTML `\&copy;` come indicato di seguito: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Assicurarsi di sostituire l&#39;avviso di copyright di esempio con il proprio. |
 | [!UICONTROL Display Report Bugs Link] | Visualizzazione store | Determina se il collegamento al report di bug (supportato per alcuni temi) è abilitato o disabilitato. |
 
 {style="table-layout:auto"}

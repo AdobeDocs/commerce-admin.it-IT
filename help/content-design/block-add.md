@@ -2,9 +2,10 @@
 title: Aggiungere blocchi di contenuto
 description: Crea blocchi di contenuto personalizzati che puoi riutilizzare in qualsiasi pagina o all’interno di un altro blocco.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ ht-degree: 0%
 
    - Utilizza l&#39;[editor](editor.md) per formattare il testo, creare collegamenti e aggiungere tabelle, immagini, video e audio.
 
-     Se preferisci lavorare con codice HTML, fai clic su **Mostra/Nascondi editor**.
+     Se preferisci lavorare con il codice HTML, fai clic su **Mostra/Nascondi editor**.
 
      ![Editor blocchi (nascosto)](./assets/block-editor-hidden.png){width="500" zoomable="yes"}
 

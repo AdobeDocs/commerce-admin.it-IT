@@ -2,16 +2,17 @@
 title: Utilizzare un widget per posizionare un blocco
 description: Scopri come utilizzare un widget di blocchi statici per inserire un contenuto esistente quasi ovunque all’interno del tuo store.
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # Utilizzare un widget per posizionare un blocco
 
-Il _blocco statico CMS_ [widget](widgets.md) consente di inserire un [blocco di contenuto](blocks.md) esistente in qualsiasi punto dell&#39;archivio.
+Il _blocco statico di CMS_ [widget](widgets.md) consente di inserire un [blocco di contenuto](blocks.md) esistente in qualsiasi punto dell&#39;archivio.
 
 ![Widget](./assets/widgets.png){width="700" zoomable="yes"}
 
@@ -27,7 +28,7 @@ Il _blocco statico CMS_ [widget](widgets.md) consente di inserire un [blocco di 
 
    ![Impostazioni widget](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Storefront Properties]_&#x200B;eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Storefront Properties]_eseguire le operazioni seguenti:
 
    - Per **[!UICONTROL Widget Title]**, immettere un titolo descrittivo per il widget.
 

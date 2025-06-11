@@ -2,16 +2,17 @@
 title: Layout di pagina
 description: Scopri le sezioni di layout di pagina e come configurare i layout predefiniti.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
 
 # Layout di pagina
 
-Il layout di ogni pagina del punto vendita è costituito da sezioni o contenitori distinti che definiscono l&#39;intestazione, il piè di pagina e le aree di contenuto della pagina. A seconda del layout, ogni pagina può avere una, due, tre colonne o più. Puoi considerare il layout come la _piantina_ della pagina e assegnare un layout specifico da utilizzare come predefinito per le pagine CMS, prodotto e categoria.
+Il layout di ogni pagina del punto vendita è costituito da sezioni o contenitori distinti che definiscono l&#39;intestazione, il piè di pagina e le aree di contenuto della pagina. A seconda del layout, ogni pagina può avere una, due, tre colonne o più. È possibile considerare il layout come la _piantina_ della pagina e assegnare un layout specifico da utilizzare come predefinito per le pagine CMS, prodotto e categoria.
 
 Nella pagina, i blocchi di contenuto vengono spostati per riempire lo spazio disponibile, in base alla sezione del [layout di pagina](layout-updates.md) a cui sono assegnati. Se si modifica il layout da un layout a tre colonne a un layout a due colonne, il contenuto dell&#39;area principale si espande fino a riempire lo spazio disponibile. Inoltre, eventuali blocchi associati alla barra laterale non utilizzata sembrano scomparire. Tuttavia, se ripristini il layout a tre colonne, i blocchi vengono nuovamente visualizzati. Questo approccio fluido, o _layout liquido_, consente di modificare il layout della pagina senza dover rielaborare il contenuto. Se si è abituati a lavorare con singole pagine HTML, questo approccio modulare _blocco predefinito_ richiede un modo di pensare diverso.
 
@@ -72,9 +73,9 @@ Nella pagina, i blocchi di contenuto vengono spostati per riempire lo spazio dis
    - `2 columns with right bar` - Utilizza un layout a due colonne con barra laterale a destra per le pagine CMS.
    - `3 columns` - Utilizza un layout a tre colonne con barre laterali a sinistra e a destra per le pagine CMS.
 
-   Quando [Page Builder](../page-builder/introduction.md) è abilitato, sono disponibili altre opzioni a larghezza intera. Puoi quindi utilizzare gli strumenti di contenuto Page Builder per progettare il layout delle pagine CMS.
+   Quando [Page Builder](../page-builder/introduction.md) è abilitato, sono disponibili altre opzioni a larghezza intera. È quindi possibile utilizzare gli strumenti di contenuto Page Builder per progettare il layout delle pagine CMS.
 
-   - `Page -- Full Width` - (consigliato) usa il layout _Pagina - Larghezza intera_ per le pagine CMS.
+   - `Page -- Full Width` - (Consigliato) Utilizza il layout _Pagina - Larghezza intera_ per le pagine CMS.
    - `Category - Full Width` - Utilizza il layout _Categoria - Larghezza intera_ per le pagine CMS.
    - `Product - Full Width` - Utilizza il layout _Prodotto - Larghezza intera_ per le pagine CMS.
 
@@ -86,13 +87,13 @@ Nella pagina, i blocchi di contenuto vengono spostati per riempire lo spazio dis
 
 ![Diagramma - layout a una colonna](./assets/layout-1-col-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL 1 Column]_&#x200B;può essere utilizzato per creare una home page di grandi dimensioni con un&#39;immagine di grandi dimensioni o un punto focale. È inoltre una buona scelta per una pagina di destinazione o qualsiasi altra pagina con una combinazione di testo, immagini e video.
+Il layout _[!UICONTROL 1 Column]_può essere utilizzato per creare una home page di grandi dimensioni con un&#39;immagine di grandi dimensioni o un punto focale. È inoltre una buona scelta per una pagina di destinazione o qualsiasi altra pagina con una combinazione di testo, immagini e video.
 
 ### Due colonne con barra a sinistra
 
 ![Diagramma - layout a due colonne con barra a sinistra](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL 2 Columns with Left Bar]_&#x200B;viene spesso utilizzato per le pagine con navigazione a sinistra, ad esempio un catalogo o pagine dei risultati di ricerca con navigazione a livelli. Si tratta inoltre di una scelta eccellente per le home page che richiedono una navigazione aggiuntiva o blocchi di contenuto di supporto a sinistra.
+Il layout _[!UICONTROL 2 Columns with Left Bar]_viene spesso utilizzato per le pagine con navigazione a sinistra, ad esempio un catalogo o pagine dei risultati di ricerca con navigazione a livelli. Si tratta inoltre di una scelta eccellente per le home page che richiedono una navigazione aggiuntiva o blocchi di contenuto di supporto a sinistra.
 
 ### Due colonne con barra a destra
 
@@ -104,10 +105,10 @@ Con un layout _[!UICONTROL 2 Columns with Right Bar]_, l&#39;area del contenuto 
 
 ![Diagramma - layout a tre colonne](./assets/layout-3-col-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL 3 Column]_&#x200B;ha una colonna centrale sufficientemente ampia per il testo principale della pagina, con spazio su ciascun lato per ulteriori elementi di navigazione e blocchi di contenuto di supporto.
+Il layout _[!UICONTROL 3 Column]_ha una colonna centrale sufficientemente ampia per il testo principale della pagina, con spazio su ciascun lato per ulteriori elementi di navigazione e blocchi di contenuto di supporto.
 
 ### Vuoto
 
 ![Diagramma - layout vuoto](./assets/layout-blank-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL Empty]_&#x200B;può essere utilizzato per definire layout di pagina personalizzati.
+Il layout _[!UICONTROL Empty]_può essere utilizzato per definire layout di pagina personalizzati.

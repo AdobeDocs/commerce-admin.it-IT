@@ -2,9 +2,10 @@
 title: Blocchi di contenuto
 description: Un blocco può essere utilizzato per visualizzare informazioni fisse come testo, immagini, video incorporato e informazioni dinamiche.
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -21,6 +22,6 @@ Puoi creare blocchi di contenuto personalizzati senza scrivere codice e assegnar
 
 Scopri i blocchi statici e [dinamici](dynamic-blocks.md) guardando questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411069?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

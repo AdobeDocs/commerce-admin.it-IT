@@ -3,9 +3,10 @@ title: Risorse tema
 description: Scopri come gestire le risorse dei temi, ad esempio CSS, font, immagini e file JavaScript.
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: e50b85311f4512fb54c7cb29faf6136eaf07eae6
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---

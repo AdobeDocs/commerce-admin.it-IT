@@ -3,9 +3,10 @@ title: Widget carosello eventi catalogo
 description: Scopri come utilizzare un widget carosello eventi catalogo per visualizzare un cursore dei prossimi eventi su una pagina.
 exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Prima di iniziare, segui le [istruzioni](../merchandising-promotions/event-confi
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Widget]**.
 
-1. Nella sezione _[!UICONTROL Settings]_&#x200B;eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Settings]_eseguire le operazioni seguenti:
 
    - Imposta **[!UICONTROL Type]** su `Catalog Events Carousel`.
 
@@ -40,7 +41,7 @@ Prima di iniziare, segui le [istruzioni](../merchandising-promotions/event-confi
 
    ![Impostazioni widget per un carosello eventi](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Storefront Properties]_&#x200B;eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Storefront Properties]_eseguire le operazioni seguenti:
 
    - Per **[!UICONTROL Widget Title]**, immettere un titolo descrittivo per il widget.
 
@@ -70,7 +71,7 @@ Prima di iniziare, segui le [istruzioni](../merchandising-promotions/event-confi
 
    >[!NOTE]
    >
-   >I risultati variano in base al tema e al layout della pagina. È inoltre necessario specificare _[!UICONTROL Catalog Events Carousel Default Template]_&#x200B;nella configurazione della categoria.
+   >I risultati variano in base al tema e al layout della pagina. È inoltre necessario specificare _[!UICONTROL Catalog Events Carousel Default Template]_nella configurazione della categoria.
 
 1. Se si desidera che il carosello eventi venga visualizzato in un&#39;altra posizione nella vetrina, fare clic su **[!UICONTROL Add Layout Update]** e ripetere i passaggi per tale posizione.
 

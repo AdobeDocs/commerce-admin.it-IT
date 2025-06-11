@@ -2,9 +2,10 @@
 title: Aggiungere un blocco dinamico rotante
 description: Presenta una presentazione di contenuti interattivi nella vetrina aggiungendo più blocchi dinamici a un rotatore.
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---

@@ -2,9 +2,10 @@
 title: Aggiornamenti del layout
 description: Scopri come utilizzare gli aggiornamenti del layout per personalizzare il layout di una pagina.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Nel diagramma seguente, i nomi che fanno riferimento ai contenitori sono neri e 
 | `page/html_wrapper` | Anche se incluso nel layout predefinito, questo blocco è obsoleto ed è incluso solo per garantire la compatibilità con le versioni precedenti. Non utilizzare blocchi di questo tipo. |
 | `page/html_breadcrumbs` | Il nome di questo blocco è `breadcrumbs` ed è un elemento figlio del blocco intestazione. Questo blocco visualizza le breadcrumb per la pagina corrente. Può esistere un solo blocco di questo tipo per pagina. |
 | `page/html_footer` | Il nome del blocco è `footer` ed è un elemento figlio del blocco radice. Il blocco piè di pagina corrisponde al piè di pagina visivo nella parte inferiore della pagina e contiene diversi blocchi standard. Può esistere un solo blocco di questo tipo per pagina e non deve essere rimosso. |
-| `page/template_links` | Nel layout standard sono presenti due blocchi di questo tipo. Il blocco `top.links` è un elemento figlio del blocco intestazione e corrisponde al menu di navigazione superiore. Il blocco `footer_links` è un elemento figlio del blocco piè di pagina e corrisponde al menu di navigazione inferiore. <br/><br/>**_Nota:_**&#x200B;è possibile modificare i collegamenti dei modelli, come illustrato negli esempi. |
+| `page/template_links` | Nel layout standard sono presenti due blocchi di questo tipo. Il blocco `top.links` è un elemento figlio del blocco intestazione e corrisponde al menu di navigazione superiore. Il blocco `footer_links` è un elemento figlio del blocco piè di pagina e corrisponde al menu di navigazione inferiore. <br/><br/>**_Nota:_**è possibile modificare i collegamenti dei modelli, come illustrato negli esempi. |
 | `page/switch` | Esistono due blocchi di questo tipo in un layout standard. Il blocco `store_language` è un elemento figlio del blocco di intestazione e corrisponde al commutatore della lingua superiore. Il blocco `store_switcher` è un elemento figlio del blocco piè di pagina e corrisponde al commutatore dell&#39;archivio inferiore. |
 | core/messages | Esistono due blocchi di questo tipo in un layout standard. Il blocco `global_messages` visualizza messaggi globali. Il blocco `messages` viene utilizzato per visualizzare tutti gli altri messaggi. Se rimuovi questi blocchi, il cliente non visualizza alcun messaggio. |
 | `core/text_list` | Questo tipo di blocco è ampiamente utilizzato in [!DNL Commerce] come segnaposto per il rendering dei blocchi figlio. |

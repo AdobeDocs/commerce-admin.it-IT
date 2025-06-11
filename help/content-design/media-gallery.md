@@ -3,9 +3,10 @@ title: ' [!DNL Media Gallery]'
 description: Utilizzare la Raccolta file multimediali per organizzare e gestire i file multimediali sul server.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Con Adobe Commerce o Magento Open Source 2.4, i commercianti possono utilizzare 
 
 >[!NOTE]
 >
->Le immagini del prodotto aggiunte alla sezione [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) non sono gestite da [!DNL Media Gallery]. Solo le immagini utilizzate nei campi della sezione prodotto&#x200B;_[!UICONTROL Content]_ vengono visualizzate e filtrate nel nuovo [!DNL Media Gallery].
+>Le immagini del prodotto aggiunte alla sezione [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) non sono gestite da [!DNL Media Gallery]. Solo le immagini utilizzate nei campi della sezione prodotto_[!UICONTROL Content]_ vengono visualizzate e filtrate nel nuovo [!DNL Media Gallery].
 
 ## Abilita il nuovo [!DNL Media Gallery]
 
@@ -40,7 +41,7 @@ Con Adobe Commerce o Magento Open Source 2.4, i commercianti possono utilizzare 
 
 >[!NOTE]
 >
->La funzionalità completa per il nuovo [!DNL Media Gallery] richiede l&#39;avvio dei consumer della coda `media.gallery.synchronization` e `media.content.synchronization` per la sincronizzazione iniziale. Per ulteriori dettagli, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=it) nella _Guida alla configurazione_.
+>La funzionalità completa per il nuovo [!DNL Media Gallery] richiede l&#39;avvio dei consumer della coda `media.gallery.synchronization` e `media.content.synchronization` per la sincronizzazione iniziale. Per ulteriori dettagli, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) nella _Guida alla configurazione_.
 
 ## Accedi al nuovo [!DNL Media Gallery]
 
@@ -56,7 +57,7 @@ Per accedere alla nuova Raccolta multimediale durante l&#39;aggiunta o la modifi
 
 1. Fare clic su **[!UICONTROL Add a New Page]**.
 
-   Per modificare una pagina esistente, è possibile utilizzare la colonna _[!UICONTROL Action]_&#x200B;per fare clic su **[!UICONTROL Select]**&#x200B;e scegliere **[!UICONTROL Edit]**.
+   Per modificare una pagina esistente, è possibile utilizzare la colonna _[!UICONTROL Action]_per fare clic su **[!UICONTROL Select]**e scegliere **[!UICONTROL Edit]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Content]** ed effettuare le seguenti operazioni:
 
@@ -70,7 +71,7 @@ Per accedere alla nuova Raccolta multimediale durante l&#39;aggiunta o la modifi
 
 Per ulteriori informazioni su [!DNL Media Gallery], guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411045?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

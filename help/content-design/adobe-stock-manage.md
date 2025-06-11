@@ -3,9 +3,10 @@ title: Utilizzare le immagini di Adobe Stock
 description: Migliora le pagine del tuo store con le immagini di Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -26,11 +27,11 @@ Il pannello di ricerca di Adobe Stock è accessibile quando [aggiungi o modifich
 
 1. Fare clic su **[!UICONTROL Add a New Page]**.
 
-   Per modificare una pagina esistente, è possibile utilizzare la colonna _[!UICONTROL Action]_&#x200B;per fare clic su **[!UICONTROL Select]**&#x200B;e scegliere **[!UICONTROL Edit]**.
+   Per modificare una pagina esistente, è possibile utilizzare la colonna _[!UICONTROL Action]_per fare clic su **[!UICONTROL Select]**e scegliere **[!UICONTROL Edit]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Content]** ed effettuare le seguenti operazioni:
 
-   - Se l&#39;editor [WYSIWYG è abilitato](editor.md), fare clic su **[!UICONTROL Show/Hide Editor]** e quindi su **[!UICONTROL Insert Image]**.
+   - Se l&#39;editor di WYSIWYG [è abilitato](editor.md), fare clic su **[!UICONTROL Show/Hide Editor]** e quindi su **[!UICONTROL Insert Image]**.
 
    - Se [Page Builder è abilitato](../page-builder/setup.md), espandere il pannello **[!UICONTROL Media]** e trascinare un segnaposto **[!UICONTROL Image]** nel contenitore di destinazione. Quindi fare clic su **[!UICONTROL Select from Gallery]**.
 
@@ -46,11 +47,11 @@ Il pannello di ricerca di Adobe Stock è accessibile quando [aggiungi o modifich
 
    Per aggiungere l&#39;immagine a una categoria esistente, fare clic sul nome della categoria nell&#39;elenco a sinistra.
 
-1. Espandere la sezione **[!UICONTROL Content]** e in _[!UICONTROL Category Image]_&#x200B;fare clic su **[!UICONTROL Select from Gallery]**.
+1. Espandere la sezione **[!UICONTROL Content]** e in _[!UICONTROL Category Image]_fare clic su **[!UICONTROL Select from Gallery]**.
 
 1. Fare clic su **[!UICONTROL Search Adobe Stock]**.
 
-Per cercare le risorse Adobe Stock e aggiungere un’immagine stock dall’editor WYSIWYG:
+Per cercare le risorse Adobe Stock e aggiungere un’immagine stock dall’editor di WYSIWYG:
 
 1. fare clic su **[!UICONTROL Show/Hide Editor]**.
 
@@ -118,23 +119,23 @@ Ogni immagine ha i dettagli disponibili per la visualizzazione. Ulteriori azioni
 
 ## Accedi al tuo account Adobe
 
-Per ottenere l&#39;accesso completo a un&#39;immagine ed eliminare la filigrana di Adobe Stock, è necessario [accedere con un account Adobe](https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html) e acquistare crediti per i diritti di licenza per l&#39;utilizzo di un&#39;immagine.
+Per ottenere l&#39;accesso completo a un&#39;immagine ed eliminare la filigrana di Adobe Stock, devi [accedere con un account Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) e acquistare crediti per i diritti di licenza per l&#39;utilizzo di un&#39;immagine.
 
 1. [Accedere alla griglia di ricerca di Adobe Stock](#access-the-adobe-stock-search-grid).
 
 1. Fai clic su **[!UICONTROL Sign In]** in alto a destra.
 
-   Una nuova finestra del browser ti guida attraverso la [procedura di accesso di Adobe](https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html).
+   Una nuova finestra del browser ti guida attraverso il [processo di accesso ad Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
    Dopo aver completato il processo di accesso, lo stato di licenza delle immagini viene visualizzato nei risultati di ricerca come etichetta.
 
-   ![Accesso Adobe](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
+   ![Accesso ad Adobe](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
 
 ### Visualizzare lo stato di licenza dei risultati di ricerca
 
 [Accedi al tuo account Adobe](#log-in-to-your-adobe-account).
 
-Tutte le immagini con licenza associate al tuo account di Adobe hanno un’etichetta visualizzata su di esse, che indica chiaramente quali immagini hai concesso la licenza.
+Tutte le immagini con licenza associate al tuo account Adobe hanno un’etichetta visualizzata su di esse, che indica chiaramente quali immagini hai concesso la licenza.
 
 ![Risultati della ricerca Adobe Stock con immagini concesse in licenza](./assets/adobe-stock-licensed-images.png){width="600" zoomable="yes"}
 
@@ -164,7 +165,7 @@ L’anteprima dell’immagine è una versione con filigrana di una risorsa Adobe
 
 #### Salvare un’immagine con licenza
 
-Le risorse Adobe Stock che desideri utilizzare per gli store [!DNL Commerce] di produzione devono essere concesse in licenza. Le licenze garantiscono l&#39;accesso legale all&#39;immagine e l&#39;eliminazione della filigrana Adobe Stock presente in tutte le [anteprime di immagini](adobe-stock-save-preview.md). Per concedere in licenza immagini o salvare immagini già concesse in licenza, devi aver effettuato l’accesso al tuo account di Adobe.
+Le risorse Adobe Stock che desideri utilizzare per gli store [!DNL Commerce] di produzione devono essere concesse in licenza. Le licenze garantiscono l&#39;accesso legale all&#39;immagine e l&#39;eliminazione della filigrana Adobe Stock presente in tutte le [anteprime di immagini](adobe-stock-save-preview.md). Per concedere in licenza immagini o salvare immagini già concesse in licenza, devi aver effettuato l’accesso al tuo account Adobe.
 
 1. [Accedi al tuo account Adobe](#log-in-to-your-adobe-account).
 
@@ -178,7 +179,7 @@ Le risorse Adobe Stock che desideri utilizzare per gli store [!DNL Commerce] di 
 
      >[!NOTE]
      >
-     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/it/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
+     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
 
    Questa azione richiede di specificare un nome di file utilizzato per salvare l&#39;immagine nell&#39;[archivio multimediale](media-storage.md). Viene fornito un nome di file predefinito, ma puoi personalizzarlo in base alle tue preferenze.
 

@@ -1,10 +1,11 @@
 ---
 title: Inserire un widget nell’editor
-description: Aggiungi vari elementi di contenuto a una pagina utilizzando lo strumento widget nell’editor WYSIWYG.
+description: Aggiungi vari elementi di contenuto a una pagina utilizzando lo strumento widget nell’editor di WYSIWYG.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Per impostazione predefinita, i collegamenti ereditano il proprio stile dal fogl
 
 1. Apri una pagina, un blocco o un blocco dinamico in modalità di modifica.
 
-1. Andare alla sezione _[!UICONTROL Content]_&#x200B;e fare clic su qualsiasi elemento che supporta l&#39;editor.
+1. Andare alla sezione _[!UICONTROL Content]_e fare clic su qualsiasi elemento che supporta l&#39;editor.
 
 1. Posizionare il cursore nel punto in cui si desidera visualizzare il widget e fare clic sull&#39;icona _Inserisci widget_.
 
@@ -55,6 +56,6 @@ Per impostazione predefinita, i collegamenti ereditano il proprio stile dal fogl
 
 1. Fare clic su **[!UICONTROL Insert Widget]** per inserire il collegamento nella pagina.
 
-   Se si utilizza codice HTML, nella parte superiore della pagina verrà visualizzato un tag [markup](../systems/markup-tags.md) per il collegamento, racchiuso tra parentesi graffe. Se necessario, utilizzare _Taglia e incolla_ per posizionare il tag di markup nel codice nel punto in cui si desidera visualizzare il collegamento.
+   Se si utilizza il codice HTML, nella parte superiore della pagina verrà visualizzato un tag [markup](../systems/markup-tags.md) per il collegamento, racchiuso tra parentesi graffe. Se necessario, utilizzare _Taglia e incolla_ per posizionare il tag di markup nel codice nel punto in cui si desidera visualizzare il collegamento.
 
 1. Al termine delle modifiche apportate al contenuto, fare clic su **[!UICONTROL Save]**.

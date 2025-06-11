@@ -3,9 +3,10 @@ title: Temi
 description: Scopri  [!DNL Commerce] i temi, tra cui file di layout, file modello, file di traduzione e interfacce che definiscono l'aspetto del tuo archivio.
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -52,7 +53,7 @@ Il tema reattivo `Magento Blank` esegue il rendering della visualizzazione della
 
 1. Individuare la visualizzazione archivio da configurare e fare clic su **[!UICONTROL Edit]** nella colonna _[!UICONTROL Action]_.
 
-1. In _[!UICONTROL Default Theme]_, impostare **[!UICONTROL Applied Theme]**&#x200B;su quello che si desidera utilizzare per la visualizzazione corrente.
+1. In _[!UICONTROL Default Theme]_, impostare **[!UICONTROL Applied Theme]**su quello che si desidera utilizzare per la visualizzazione corrente.
 
    ![Tema applicato](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 

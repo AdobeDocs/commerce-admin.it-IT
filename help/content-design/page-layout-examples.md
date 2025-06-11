@@ -2,9 +2,10 @@
 title: Esempi di layout della vetrina
 description: Esaminare gli esempi di opzioni di layout di pagina.
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---

@@ -4,9 +4,10 @@ description: Scopri come utilizzare un database di file multimediali per archivi
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -15,13 +16,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Il metodo di archiviazione dei supporti del database è obsoleto a partire da Adobe Commerce e dal Magento Open Source 2.4.3.
+>Il metodo di archiviazione dei supporti del database è obsoleto a partire da Adobe Commerce e Magento Open Source 2.4.3.
 
 Per impostazione predefinita, tutte le immagini, i file CSS compilati e i file JavaScript compilati dell&#39;istanza [!DNL Commerce] sono archiviati nel file system del server Web. È possibile scegliere di memorizzare questi file in un database su un server di database. Uno dei vantaggi di questo approccio è la possibilità di sincronizzazione automatica e inversa tra il file system del server web e il database. È possibile utilizzare il database predefinito per archiviare i supporti o crearne uno. Per poter utilizzare un database appena creato come archivio dei supporti, è necessario aggiungere le relative informazioni e le relative credenziali di accesso al file `env.php`.
 
 ## Flusso di lavoro database
 
-1. **Il browser richiede il supporto**: nel browser del cliente viene aperta una pagina dell&#39;archivio e il browser richiede il supporto specificato nel HTML.
+1. **Il browser richiede il supporto**: nel browser del cliente viene aperta una pagina dell&#39;archivio e il browser richiede il supporto specificato in HTML.
 
 1. **Il sistema cerca i file multimediali nel file system**. Il sistema cerca i file multimediali nel file system e, se li trova, li trasmette al browser.
 

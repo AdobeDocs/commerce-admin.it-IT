@@ -3,9 +3,10 @@ title: Widget per elenco nuovi prodotti
 description: Scopri come utilizzare il nuovo widget elenco prodotti per visualizzare un elenco degli ultimi prodotti aggiunti.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ L’elenco dei nuovi prodotti è un esempio di contenuto dinamico ed è costitui
 
 ## Passaggio 1: impostare ogni prodotto come nuovo
 
-![Magento Open Source](../assets/open-source.svg) Questo passaggio si applica solo al Magento Open Source.
+![Magento Open Source](../assets/open-source.svg) Questo passaggio si applica solo a Magento Open Source.
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Per gli archivi Adobe Commerce, vedi [Pianificazione di un aggiornamento](content-staging-scheduled-update.md) e quindi continua con il passaggio 2 in questa pagina.
 
-L&#39;impostazione dell&#39;intervallo di date _[!UICONTROL Set Product as New]_&#x200B;può essere configurato solo negli aggiornamenti pianificati.
+L&#39;impostazione dell&#39;intervallo di date _[!UICONTROL Set Product as New]_può essere configurato solo negli aggiornamenti pianificati.
 
 Se si imposta un prodotto come nuovo, il prodotto viene aggiunto all&#39;elenco _Nuovi prodotti_. È possibile ripristinare l&#39;impostazione in qualsiasi momento se non si desidera più includerla nell&#39;elenco.
 
@@ -46,7 +47,7 @@ Il codice che determina il contenuto dell’elenco Nuovi prodotti e il suo posiz
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Widget]**.
 
-1. Nella sezione _[!UICONTROL Settings]_&#x200B;eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Settings]_eseguire le operazioni seguenti:
 
    - Imposta **[!UICONTROL Type]** su `Catalog New Products List`.
 
@@ -56,7 +57,7 @@ Il codice che determina il contenuto dell’elenco Nuovi prodotti e il suo posiz
 
    ![Impostazioni widget nuovo elenco prodotti](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Storefront Properties]_&#x200B;eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Storefront Properties]_eseguire le operazioni seguenti:
 
    - Per **[!UICONTROL Widget Title]**, immettere un titolo descrittivo per il widget. Questo titolo è visibile solo da _Admin_.
 

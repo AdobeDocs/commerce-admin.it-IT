@@ -3,16 +3,17 @@ title: Ottenere la licenza di un’immagine Adobe Stock
 description: Per assicurarti di avere accesso legale e per eliminare la filigrana di Adobe Stock, acquisisci licenza per le immagini Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # Ottenere la licenza di un’immagine Adobe Stock
 
-Le risorse Adobe Stock che desideri utilizzare per la produzione Adobe Commerce e gli archivi di Magento Open Source devono essere concessi in licenza. Questa licenza ti garantisce l&#39;accesso legale all&#39;immagine e l&#39;eliminazione della filigrana di Adobe Stock presente in tutte le [anteprime di immagini](./adobe-stock-save-preview.md). Per concedere in licenza immagini o salvare immagini già concesse in licenza, devi aver effettuato l’accesso al tuo account di Adobe.
+Le risorse Adobe Stock che desideri utilizzare per gli store Adobe Commerce e Magento Open Source di produzione devono essere concesse in licenza. Questa licenza ti garantisce l&#39;accesso legale all&#39;immagine e l&#39;eliminazione della filigrana di Adobe Stock presente in tutte le [anteprime di immagini](./adobe-stock-save-preview.md). Per concedere in licenza immagini o salvare immagini già concesse in licenza, devi aver effettuato l’accesso al tuo account Adobe.
 
 Il nuovo [[!DNL Media Gallery]](media-gallery.md) offre un&#39;integrazione diretta con Adobe Stock, semplificando la concessione di licenze per le immagini direttamente dalla pagina della galleria.
 
@@ -74,6 +75,6 @@ La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è in
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/it/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html

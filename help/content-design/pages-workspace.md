@@ -3,9 +3,10 @@ title: Controlli dell’area di lavoro pagina
 description: Scopri gli strumenti di Workspace utilizzati per individuare e aggiornare le pagine di contenuto.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -79,7 +80,7 @@ L&#39;area di lavoro della pagina include strumenti che consentono di trovare ra
 
 ## Ricerca pagina
 
-È possibile utilizzare la casella di ricerca nella parte superiore sinistra della griglia _[!UICONTROL Pages]_&#x200B;per trovare pagine specifiche per parola chiave. Per una ricerca più avanzata, puoi [filtrare](../getting-started/admin-grid-controls.md) la ricerca per più parametri.
+È possibile utilizzare la casella di ricerca nella parte superiore sinistra della griglia _[!UICONTROL Pages]_per trovare pagine specifiche per parola chiave. Per una ricerca più avanzata, puoi [filtrare](../getting-started/admin-grid-controls.md) la ricerca per più parametri.
 
 ### Ricerca per parola chiave
 
@@ -139,7 +140,7 @@ Le pagine possono essere modificate, disattivate, attivate ed eliminate. Per app
 
 ### Azione singola
 
-Utilizza la colonna _[!UICONTROL Action]_&#x200B;all&#39;estrema destra per applicare una delle seguenti azioni alla singola pagina:
+Utilizza la colonna _[!UICONTROL Action]_all&#39;estrema destra per applicare una delle seguenti azioni alla singola pagina:
 
 - [!UICONTROL Edit] - apre la pagina in modalità di modifica
 - [!UICONTROL Delete] - elimina la pagina (richiede conferma)
@@ -149,7 +150,7 @@ Utilizza la colonna _[!UICONTROL Action]_&#x200B;all&#39;estrema destra per appl
 
 ### Azioni di massa
 
-Applica una delle azioni seguenti a più pagine selezionate contemporaneamente utilizzando il selettore _[!UICONTROL Action]_&#x200B;in alto a sinistra:
+Applica una delle azioni seguenti a più pagine selezionate contemporaneamente utilizzando il selettore _[!UICONTROL Action]_in alto a sinistra:
 
 - [!UICONTROL Delete] - elimina le pagine (richiede conferma)
 - [!UICONTROL Disable] - disabilita le pagine nella vetrina

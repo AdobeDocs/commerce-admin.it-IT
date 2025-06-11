@@ -2,9 +2,10 @@
 title: Blocchi dinamici
 description: Utilizza i blocchi dinamici per creare contenuti avanzati e interattivi basati su una logica basata sulle regole di prezzo e sui segmenti di clienti.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Crea contenuti avanzati e interattivi basati sulla logica da [regole di prezzo](
 
 >[!NOTE]
 >
->L&#39;opzione _[!UICONTROL Banner]_&#x200B;nel menu [[!UICONTROL Content]](content-menu.md) è stata rimossa nella versione 2.3.1 e rimossa nella versione 2.4.0. La sua funzionalità è sostituita da Blocchi dinamici.
+>L&#39;opzione _[!UICONTROL Banner]_nel menu [[!UICONTROL Content]](content-menu.md) è stata rimossa nella versione 2.3.1 e rimossa nella versione 2.4.0. La sua funzionalità è sostituita da Blocchi dinamici.
 
 ![[!DNL Page Builder] - blocco dinamico con regola di prezzo e segmento cliente](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 

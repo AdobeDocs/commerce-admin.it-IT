@@ -3,9 +3,10 @@ title: Pagine
 description: Scopri i dettagli sulle pagine di contenuto di base incluse nell'archivio demo di  [!DNL Commerce]  e modifica della configurazione Pagine predefinite.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -73,11 +74,11 @@ La configurazione di _Pagine predefinite_ determina la pagina di destinazione as
    | Campo | [Ambito](../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
    |--- |--- |--- |
    | [!UICONTROL Default Web URL] | Visualizzazione store | Indica la pagina di destinazione associata all’URL di base. Per impostazione predefinita, questo campo è impostato su `cms` per indicare una pagina del sistema di gestione dei contenuti [!DNL Commerce]. Puoi anche utilizzare un tipo diverso di pagina di destinazione, ad esempio un blog. Se ad esempio nel server di `magento/blog` è installato un blog, è possibile immettere il nome della cartella `blog` come percorso relativo per la selezione delle pagine. |
-   | [!UICONTROL CMS Home Page] | Visualizzazione store | Per scegliere la home page del negozio, seleziona semplicemente la pagina CMS dall’elenco. Per impostazione predefinita, la home page del CMS elenca l’intera selezione di pagine CMS disponibili per lo store. |
+   | [!UICONTROL CMS Home Page] | Visualizzazione store | Per scegliere la home page del negozio, è sufficiente selezionare la pagina CMS dall&#39;elenco. Per impostazione predefinita, la home page di CMS elenca l&#39;intera selezione di pagine CMS disponibili per lo store. |
    | [!UICONTROL Default No-route URL] | Visualizzazione store | Contiene l&#39;URL della pagina predefinita da visualizzare quando si verifica un errore `404 Page not Found`. Il valore predefinito è `cms/noroute/index`. |
    | [!UICONTROL CMS No Route Page] | Visualizzazione store | Identifica una pagina CMS specifica che si desidera visualizzare quando si verifica un errore Pagina 404 non trovata. La pagina predefinita è `404 Not Found`. |
    | [!UICONTROL CMS No Cookies Page] | Visualizzazione store | Identifica una pagina CMS specifica che viene visualizzata quando i cookie non sono abilitati per il browser. La pagina spiega perché vengono utilizzati i cookie e come abilitarli per ogni browser. La pagina predefinita è `Enable Cookies`. |
-   | [!UICONTROL Show Breadcrumbs for CMS Pages] | Visualizzazione store | Determina se un percorso di breadcrumb viene visualizzato su tutte le pagine CMS del catalogo. Opzioni: `Yes` / `No` |
+   | [!UICONTROL Show Breadcrumbs for CMS Pages] | Visualizzazione store | Determina se un percorso di breadcrumb viene visualizzato in tutte le pagine CMS del catalogo. Opzioni: `Yes` / `No` |
 
    {style="table-layout:auto"}
 
@@ -87,7 +88,7 @@ La configurazione di _Pagine predefinite_ determina la pagina di destinazione as
 
    >[!NOTE]
    >
-   >Per una visualizzazione archivio specifica, deselezionare la casella di controllo **[!UICONTROL Use Default]** accanto a _[!UICONTROL Default Web URL]_&#x200B;ed eventuali altre impostazioni predefinite da modificare.
+   >Per una visualizzazione archivio specifica, deselezionare la casella di controllo **[!UICONTROL Use Default]** accanto a _[!UICONTROL Default Web URL]_ed eventuali altre impostazioni predefinite da modificare.
 
 1. Impostare **[!UICONTROL CMS Home Page]** sulla pagina CMS da utilizzare come home page. Altre pagine create possono essere utilizzate come home page, ad esempio:
 
@@ -107,6 +108,6 @@ La configurazione di _Pagine predefinite_ determina la pagina di destinazione as
 
 1. Impostare **[!UICONTROL CMS No Cookies Page]** sulla pagina CMS visualizzata quando i cookie sono disabilitati nel browser. La pagina spiega perché vengono utilizzati i cookie e come abilitarli per ogni browser. La pagina predefinita è `Enable Cookies`.
 
-1. Se si desidera visualizzare un percorso di breadcrumb nella parte superiore di tutte le pagine CMS, impostare **[!UICONTROL Show Breadcrumbs for CMS Pages]** su `Yes`.
+1. Se si desidera visualizzare un percorso di breadcrumb nella parte superiore di tutte le pagine di CMS, impostare **[!UICONTROL Show Breadcrumbs for CMS Pages]** su `Yes`.
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.

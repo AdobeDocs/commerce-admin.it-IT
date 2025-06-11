@@ -2,9 +2,10 @@
 title: Aggiungi e rimuovi pagine
 description: Scopri come aggiungere e rimuovere le pagine di contenuto utilizzate nell'archivio  [!DNL Commerce] .
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -149,9 +150,9 @@ A seconda della [configurazione avanzata degli strumenti di contenuto](../config
 
 1. Per tornare alla griglia, fare clic su **[!UICONTROL Back]** nell&#39;angolo superiore sinistro della finestra del browser.
 
-### Passaggio 8: Publish la pagina
+### Passaggio 8: pubblicare la pagina
 
-1. Selezionare **[!UICONTROL Edit]** nella colonna _[!UICONTROL Action]_&#x200B;della griglia.
+1. Selezionare **[!UICONTROL Edit]** nella colonna _[!UICONTROL Action]_della griglia.
 
 1. Imposta **[!UICONTROL Enable Page]** su `Yes`.
 
@@ -206,7 +207,7 @@ Qualsiasi pagina di contenuto può essere utilizzata come modello e salvata come
 
 ## Eliminare una pagina
 
-Esistono due modi per rimuovere una pagina creata. È possibile rimuoverlo dalla griglia _[!UICONTROL Pages]_&#x200B;o dalla pagina&#x200B;_[!UICONTROL Edit]_.
+Esistono due modi per rimuovere una pagina creata. È possibile rimuoverlo dalla griglia _[!UICONTROL Pages]_o dalla pagina_[!UICONTROL Edit]_.
 
 ### Metodo 1: rimuovere una pagina dalla griglia Pagine
 
@@ -224,7 +225,7 @@ Esistono due modi per rimuovere una pagina creata. È possibile rimuoverlo dalla
 
 1. Trova la pagina da eliminare.
 
-1. Nella colonna _[!UICONTROL Actions]_&#x200B;dell&#39;entità pagina fare clic su **[!UICONTROL Select]**&#x200B;e scegliere **[!UICONTROL Edit]**.
+1. Nella colonna _[!UICONTROL Actions]_dell&#39;entità pagina fare clic su **[!UICONTROL Select]**e scegliere **[!UICONTROL Edit]**.
 
 1. Nella barra dei pulsanti fare clic su **[!UICONTROL Delete Page]**.
 

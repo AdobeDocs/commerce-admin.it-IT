@@ -3,9 +3,10 @@ title: URL Dynamic Media
 description: Scopri come utilizzare un URL di elementi multimediali dinamici come riferimento relativo a un’immagine o a un’altra risorsa multimediale.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-source-git-commit: d3b9b4cd0d12f8d5feb2bad0bf601970f9ee1a36
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ Le direttive URL dinamiche vengono elaborate dal contenuto HTML salvato quando l
 
 ## Configurare gli URL dei file multimediali statici
 
-Per impostazione predefinita, le immagini inserite nel catalogo dall’editor WYSIWYG hanno URL relativi e dinamici. Se preferisci utilizzare un URL statico, puoi modificare l’impostazione di configurazione.
+Per impostazione predefinita, le immagini inserite nel catalogo dall’editor di WYSIWYG hanno URL relativi e dinamici. Se preferisci utilizzare un URL statico, puoi modificare l’impostazione di configurazione.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -38,6 +39,6 @@ Per impostazione predefinita, le immagini inserite nel catalogo dall’editor WY
 
    - `Yes` - Utilizza URL statici per i contenuti multimediali inseriti con l&#39;editor WYSIWYG. Gli URL statici sono assoluti e si interrompono se l&#39;[URL di base](../stores-purchase/store-urls.md) dell&#39;archivio cambia.
 
-   - `No` - (predefinito) Utilizza URL dinamici per contenuti multimediali inseriti con l&#39;editor WYSIWYG, in base alla direttiva `\{\{media url="..."}}`. Gli URL dinamici sono relativi e non si interrompono se l’URL di base dell’archivio cambia.
+   - `No` - (predefinito) Utilizza URL dinamici per contenuti multimediali inseriti con l&#39;editor di WYSIWYG, in base alla direttiva `\{\{media url="..."}}`. Gli URL dinamici sono relativi e non si interrompono se l’URL di base dell’archivio cambia.
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.

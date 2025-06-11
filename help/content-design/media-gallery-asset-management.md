@@ -3,9 +3,10 @@ title: Gestione risorse di Media Gallery
 description: Scopri come gestire i file multimediali caricati e le risorse acquisite tramite un’integrazione Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -61,7 +62,7 @@ La nuova [Raccolta file multimediali](media-gallery.md) fornisce gli strumenti p
    - **[!UICONTROL Description]**
    - **[!UICONTROL Tags/Keywords]**
 
-   Questi dati vengono salvati nel database e nei metadati del file stesso. Attualmente sono supportati i formati XMP e IPTC.
+   Questi dati vengono salvati nel database e nei metadati del file stesso. Attualmente, sono supportati i formati XMP e IPTC.
 
    Puoi scaricare l’immagine con i metadati aggiornati.
 
