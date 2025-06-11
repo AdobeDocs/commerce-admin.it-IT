@@ -3,7 +3,7 @@ title: Ottimizzazione immagine di Media Gallery
 description: Scopri come utilizzare l'ottimizzazione delle immagini per le  [!DNL Commerce] risorse multimediali.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '191'
@@ -32,6 +32,6 @@ Quando la funzionalità di ottimizzazione immagine di Raccolta multimediale è a
 
 Quando i valori _Larghezza massima_ e _Altezza massima_ vengono modificati nella configurazione, vengono aggiornate tutte le immagini ottimizzate esistenti precedentemente inserite.
 
-L&#39;ottimizzazione delle immagini di Media Gallery richiede che i consumer della coda `media.gallery.renditions.update` siano in esecuzione per la rigenerazione delle immagini ottimizzate quando la configurazione viene modificata. Per ulteriori dettagli, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) nella _Guida alla configurazione_.
+L&#39;ottimizzazione delle immagini di Media Gallery richiede che i consumer della coda `media.gallery.renditions.update` siano in esecuzione per la rigenerazione delle immagini ottimizzate quando la configurazione viene modificata. Per ulteriori dettagli, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=it) nella _Guida alla configurazione_.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

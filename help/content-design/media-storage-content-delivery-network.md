@@ -4,7 +4,7 @@ description: Scopri come utilizzare una rete CDN (Content Delivery Network) per 
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '416'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Utilizzare una rete per la distribuzione dei contenuti
 
-È possibile utilizzare una rete CDN (Content Delivery Network) per archiviare i file multimediali. Adobe Commerce su infrastruttura cloud include la rete CDN Fastly (vedi [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) nella _Guida di Commerce su infrastruttura cloud_). Un&#39;istanza di Commerce installata _on-premise_ non include un&#39;integrazione con alcun CDN specifico. È possibile utilizzare il CDN desiderato.
+È possibile utilizzare una rete CDN (Content Delivery Network) per archiviare i file multimediali. Adobe Commerce su infrastruttura cloud include la rete CDN Fastly (vedi [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=it) nella _Guida di Commerce su infrastruttura cloud_). Un&#39;istanza di Commerce installata _on-premise_ non include un&#39;integrazione con alcun CDN specifico. È possibile utilizzare il CDN desiderato.
 
 Dopo aver configurato la rete CDN, devi completare la configurazione dall’amministratore. Le modifiche possono essere apportate a livello globale o a livello di sito web. Quando si utilizza una rete CDN per l’archiviazione dei contenuti multimediali, tutti i percorsi dei contenuti multimediali nelle pagine dello store di Commerce vengono modificati in percorsi CDN specificati nella configurazione.
 

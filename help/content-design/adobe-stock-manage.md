@@ -3,7 +3,7 @@ title: Utilizzare le immagini di Adobe Stock
 description: Migliora le pagine del tuo store con le immagini di Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '1013'
@@ -119,13 +119,13 @@ Ogni immagine ha i dettagli disponibili per la visualizzazione. Ulteriori azioni
 
 ## Accedi al tuo account Adobe
 
-Per ottenere l&#39;accesso completo a un&#39;immagine ed eliminare la filigrana di Adobe Stock, devi [accedere con un account Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) e acquistare crediti per i diritti di licenza per l&#39;utilizzo di un&#39;immagine.
+Per ottenere l&#39;accesso completo a un&#39;immagine ed eliminare la filigrana di Adobe Stock, devi [accedere con un account Adobe](https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html) e acquistare crediti per i diritti di licenza per l&#39;utilizzo di un&#39;immagine.
 
 1. [Accedere alla griglia di ricerca di Adobe Stock](#access-the-adobe-stock-search-grid).
 
 1. Fai clic su **[!UICONTROL Sign In]** in alto a destra.
 
-   Una nuova finestra del browser ti guida attraverso il [processo di accesso ad Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Una nuova finestra del browser ti guida attraverso il [processo di accesso ad Adobe](https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html).
 
    Dopo aver completato il processo di accesso, lo stato di licenza delle immagini viene visualizzato nei risultati di ricerca come etichetta.
 
@@ -179,7 +179,7 @@ Le risorse Adobe Stock che desideri utilizzare per gli store [!DNL Commerce] di 
 
      >[!NOTE]
      >
-     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
+     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/it/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
 
    Questa azione richiede di specificare un nome di file utilizzato per salvare l&#39;immagine nell&#39;[archivio multimediale](media-storage.md). Viene fornito un nome di file predefinito, ma puoi personalizzarlo in base alle tue preferenze.
 

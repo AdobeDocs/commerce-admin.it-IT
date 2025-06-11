@@ -3,7 +3,7 @@ title: Widget carosello eventi catalogo
 description: Scopri come utilizzare un widget carosello eventi catalogo per visualizzare un cursore dei prossimi eventi su una pagina.
 exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '467'
