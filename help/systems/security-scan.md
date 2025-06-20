@@ -4,9 +4,9 @@ description: Scopri come eseguire un’analisi della sicurezza avanzata e monito
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
+source-git-commit: eb226a969397bbfa31f72a4ae4fb61b22a0101bc
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,25 @@ Lo strumento Security Scan mantiene rigorosi controlli di accesso per proteggere
 
 Lo strumento si concentra specificamente sui domini Adobe Commerce e sulle relative vulnerabilità di sicurezza. Anche se il tuo negozio web può includere pagine provenienti da altre piattaforme, lo strumento Security Scan dovrebbe analizzare solo i contenuti generati da Adobe Commerce per garantire risultati affidabili. La scansione di pagine non Adobe Commerce può produrre valutazioni delle vulnerabilità inaffidabili.
 
+>[!NOTE]
+>
+>Lo strumento di analisi della sicurezza utilizza i seguenti indirizzi IP pubblici:
+>
+>```text
+>52.87.98.44
+>34.196.167.176
+>3.218.25.102
+>```
+>
+>Aggiungere questi indirizzi IP a un elenco Consentiti di protezione del firewall di rete per consentire allo strumento di eseguire la scansione del sito. Lo strumento invia richieste solo alle porte `80` e `443`.
+
 ## Esegui una scansione
 
 Il processo di scansione verifica il sito rispetto a problemi di sicurezza noti e identifica patch e aggiornamenti mancanti di Adobe Commerce che potrebbero rendere il tuo archivio vulnerabile ad attacchi.
 
 >[!TIP]
 >
->Per i progetti di infrastruttura cloud di Commerce, vedere [Configurazione dello strumento di analisi della sicurezza](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Per i progetti di infrastruttura cloud di Commerce, vedere [Configurazione dello strumento di analisi della sicurezza](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Per eseguire una scansione:
 
@@ -131,7 +143,7 @@ Per eseguire una scansione:
 
          Al termine del processo di generazione, le modifiche verranno distribuite nella parte anteriore dello store di PWA.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
 
 1. Dopo una conferma, configurare le opzioni **[!UICONTROL Set Automatic Security Scan]** per uno dei tipi seguenti:
 
@@ -186,7 +198,7 @@ Di seguito sono riportati alcuni scenari comuni in cui è possibile contrassegna
 
 Per gestire gli errori di scansione identificati come falsi positivi, effettua le seguenti operazioni:
 
-1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**&#x200B;per il sito che si desidera gestire.
+1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**per il sito che si desidera gestire.
 
 1. Nella visualizzazione report, individuare la scansione non riuscita che si desidera contrassegnare come falso positivo.
 
@@ -196,7 +208,7 @@ Per gestire gli errori di scansione identificati come falsi positivi, effettua l
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_&#x200B;ed è escluso dal punteggio di rischio.
+L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_ed è escluso dal punteggio di rischio.
 
 ### Interrompi ignoramento errori di scansione
 
@@ -210,7 +222,7 @@ Se è necessario ripristinare un errore di scansione precedentemente ignorato ne
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_&#x200B;ed è incluso nel punteggio di rischio.
+L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_ed è incluso nel punteggio di rischio.
 
 ### Visualizza errori di scansione ignorati
 
