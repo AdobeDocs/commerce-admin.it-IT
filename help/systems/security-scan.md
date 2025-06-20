@@ -63,7 +63,7 @@ Il processo di scansione verifica il sito rispetto a problemi di sicurezza noti 
 
 >[!TIP]
 >
->Per i progetti di infrastruttura cloud di Commerce, vedere [Configurazione dello strumento di analisi della sicurezza](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Per i progetti di infrastruttura cloud di Commerce, vedere [Configurazione dello strumento di analisi della sicurezza](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Per eseguire una scansione:
 
