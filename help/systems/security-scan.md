@@ -52,7 +52,7 @@ Lo strumento si concentra specificamente sui domini Adobe Commerce e sulle relat
 
 ## Accesso ai risultati della scansione
 
-I risultati della scansione sono accessibili solo all&#39;utente che ha inizialmente configurato la scansione. Per condividere i risultati con altri utenti, l’utente originale deve distribuire manualmente il rapporto PDF. In alternativa, il proprietario di un archivio può condividere gli invii con un altro MAGEID utilizzando la funzionalità [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). Anche altri utenti possono avviare scansioni utilizzando i propri account. Durante la configurazione della scansione, è possibile specificare un elenco separato da virgole di indirizzi e-mail per ricevere notifiche di scansioni completate e livello di rischio valutato.
+I risultati della scansione sono accessibili solo all&#39;utente che ha inizialmente configurato la scansione. Per condividere i risultati con altri utenti, l’utente originale deve distribuire manualmente il rapporto PDF. In alternativa, il proprietario di un archivio può condividere gli invii con un altro MAGEID utilizzando la funzionalità [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/it/docs/commerce-admin/start/commerce-account/commerce-account-share). Anche altri utenti possono avviare scansioni utilizzando i propri account. Durante la configurazione della scansione, è possibile specificare un elenco separato da virgole di indirizzi e-mail per ricevere notifiche di scansioni completate e livello di rischio valutato.
 
 
 >[!NOTE]
@@ -74,7 +74,7 @@ Il processo di scansione verifica il sito rispetto a problemi di sicurezza noti 
 
 >[!TIP]
 >
->Per i progetti di infrastruttura cloud di Commerce, vedere [Configurazione dello strumento di analisi della sicurezza](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Per i progetti di infrastruttura cloud di Commerce, vedere [Configurazione dello strumento di analisi della sicurezza](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Per eseguire una scansione:
 
