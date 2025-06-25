@@ -4,9 +4,9 @@ description: Scopri come eseguire un’analisi della sicurezza avanzata e monito
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
+source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,19 @@ Lo strumento Security Scan fornisce funzionalità complete di monitoraggio della
 
 >[!NOTE]
 >
->Non è possibile escludere test di sicurezza specifici dalle analisi dello strumento Security Scan per Adobe Commerce. Tuttavia, in [puoi eseguire il self-service ignorando gli errori](#manage-scan-failures) come falsi positivi, se applicabile.
+>Impossibile escludere l&#39;esecuzione di test di sicurezza specifici, ma è possibile spostare i controlli non riusciti nella categoria **[!UICONTROL Ignored Results]**. Per ulteriori dettagli, vedere [Gestione errori di analisi](#manage-scan-failures).
 
 ## Accesso
 
 Lo strumento Security Scan mantiene rigorosi controlli di accesso per proteggere le informazioni del sito. Solo tu puoi scansionare il tuo sito perché lo strumento richiede la verifica della proprietà del dominio tramite il tuo account Adobe Commerce. Ogni sito si connette al tuo account tramite un token univoco, che impedisce la scansione non autorizzata da parte di terze parti.
 
 Lo strumento si concentra specificamente sui domini Adobe Commerce e sulle relative vulnerabilità di sicurezza. Anche se il tuo negozio web può includere pagine provenienti da altre piattaforme, lo strumento Security Scan dovrebbe analizzare solo i contenuti generati da Adobe Commerce per garantire risultati affidabili. La scansione di pagine non Adobe Commerce può produrre valutazioni delle vulnerabilità inaffidabili.
+
+
+## Accesso ai risultati della scansione
+
+I risultati della scansione sono accessibili solo all&#39;utente che ha inizialmente configurato la scansione. Per condividere i risultati con altri utenti, l’utente originale deve distribuire manualmente il rapporto PDF. In alternativa, il proprietario di un archivio può condividere gli invii con un altro MAGEID utilizzando la funzionalità [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). Anche altri utenti possono avviare scansioni utilizzando i propri account. Durante la configurazione della scansione, è possibile specificare un elenco separato da virgole di indirizzi e-mail per ricevere notifiche di scansioni completate e livello di rischio valutato.
+
 
 >[!NOTE]
 >
@@ -61,13 +67,14 @@ Lo strumento si concentra specificamente sui domini Adobe Commerce e sulle relat
 >
 >Aggiungere questi indirizzi IP a un elenco Consentiti di protezione del firewall di rete per consentire allo strumento di eseguire la scansione del sito. Lo strumento invia richieste solo alle porte `80` e `443`.
 
+
 ## Esegui una scansione
 
 Il processo di scansione verifica il sito rispetto a problemi di sicurezza noti e identifica patch e aggiornamenti mancanti di Adobe Commerce che potrebbero rendere il tuo archivio vulnerabile ad attacchi.
 
 >[!TIP]
 >
->Per i progetti di infrastruttura cloud di Commerce, vedere [Configurazione dello strumento di analisi della sicurezza](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Per i progetti di infrastruttura cloud di Commerce, vedere [Configurazione dello strumento di analisi della sicurezza](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Per eseguire una scansione:
 
@@ -147,7 +154,7 @@ Per eseguire una scansione:
 
          Al termine del processo di generazione, le modifiche verranno distribuite nella parte anteriore dello store di PWA.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
 
 1. Dopo una conferma, configurare le opzioni **[!UICONTROL Set Automatic Security Scan]** per uno dei tipi seguenti:
 
@@ -191,18 +198,20 @@ La gestione degli errori di scansione consente di ottenere una panoramica più a
 - Eliminazione della necessità di contattare il supporto per falsi positivi noti.
 - Risparmio di tempo grazie alla gestione automatica degli errori di scansione già analizzati.
 
-Di seguito sono riportati alcuni scenari comuni in cui è possibile contrassegnare un errore di scansione come falso positivo:
+### Esempi di scenari validi per ignorare gli errori di scansione
 
 - Quando è già stata applicata una patch di sicurezza che lo strumento di scansione non ha rilevato.
-- Quando un problema rilevato non è applicabile alla configurazione di archivio specifica.
-- Quando hai implementato una misura di sicurezza alternativa che risolve il problema.
+- Quando un problema rilevato non è applicabile alla configurazione specifica dell’archivio (ad esempio, pagine di accesso e registrazione utente personalizzate).
+- Dopo aver implementato una misura di sicurezza alternativa che risponde al problema (ad esempio, Firewall applicazione Web).
 - Quando l&#39;errore di scansione si basa su una configurazione impostata intenzionalmente per le esigenze aziendali.
+- Quando utilizzi intenzionalmente un codice JavaScript di terze parti che non supera il controllo a causa di offuscamento e/o codifica del codice.
+
 
 ### Ignora errori di scansione
 
 Per gestire gli errori di scansione identificati come falsi positivi, effettua le seguenti operazioni:
 
-1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**&#x200B;per il sito che si desidera gestire.
+1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**per il sito che si desidera gestire.
 
 1. Nella visualizzazione report, individuare la scansione non riuscita che si desidera contrassegnare come falso positivo.
 
@@ -212,7 +221,7 @@ Per gestire gli errori di scansione identificati come falsi positivi, effettua l
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_&#x200B;ed è escluso dal punteggio di rischio.
+L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_ed è escluso dal punteggio di rischio.
 
 ### Interrompi ignoramento errori di scansione
 
@@ -226,7 +235,7 @@ Se è necessario ripristinare un errore di scansione precedentemente ignorato ne
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_&#x200B;ed è incluso nel punteggio di rischio.
+L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_ed è incluso nel punteggio di rischio.
 
 ### Visualizza errori di scansione ignorati
 
