@@ -328,7 +328,7 @@ L&#39;etichetta viene visualizzata nella sezione dei totali dell&#39;ordine per 
 
 Guarda questo video per scoprire come creare le regole di prezzo del carrello:
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410805?quality=12&learn=on&captions=ita)
 
 ## Descrizioni dei campi
 
