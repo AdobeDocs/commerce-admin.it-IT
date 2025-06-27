@@ -18,7 +18,7 @@ Per informazioni dettagliate su questi campi e opzioni di configurazione, vedi [
 
 ## [!UICONTROL General]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 ![Archivia indirizzi e-mail > Contatto generale](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
