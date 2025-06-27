@@ -21,7 +21,7 @@ ht-degree: 0%
 
 L&#39;account di accesso [!DNL Commerce] è separato dall&#39;account di accesso amministratore dello store. In genere si utilizzano credenziali diverse per ogni sistema e l&#39;accesso a ogni sistema viene gestito in modo indipendente.
 
-Tuttavia, un utente che desidera semplificare l&#39;accesso ai prodotti aziendali Adobe Commerce e Adobe potrà configurare il proprio Adobe ID per l&#39;accesso all&#39;amministratore dello store: [Configurare l&#39;integrazione dell&#39;amministratore Commerce con Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
+Tuttavia, un utente che desidera semplificare l&#39;accesso ai prodotti aziendali Adobe Commerce e Adobe potrà configurare il proprio Adobe ID per l&#39;accesso all&#39;amministratore dello store: [Configurare l&#39;integrazione dell&#39;amministratore Commerce con Adobe ID](https://experienceleague.adobe.com/it/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 
 Gli accessi a Commerce e all’amministrazione dello store sono separati, con credenziali diverse e un accesso gestito in modo indipendente. Tuttavia, puoi semplificare l’accesso configurando l’Adobe ID per accedere all’amministratore del negozio. Consulta [Configurare l&#39;integrazione dell&#39;amministratore di Commerce con Adobe ID] nella *Guida all&#39;integrazione IMS per Commerce*.
 
