@@ -22,7 +22,7 @@ L&#39;analisi avanzata della sicurezza consente di monitorare tutti i siti Adobe
 - Accedi ai report cronologici di sicurezza che tengono traccia e monitorano l’avanzamento dei siti.
 - Accedere al rapporto di scansione che mostra i controlli riusciti e non riusciti, con le azioni consigliate.
 
-Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboard dell&#39;[account Commerce/Magento](../getting-started/commerce-account-create.md). Per informazioni tecniche, vedere [Configurare lo strumento di analisi della sicurezza](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboard dell&#39;[account Commerce/Magento](../getting-started/commerce-account-create.md). Per informazioni tecniche, vedere [Configurare lo strumento di analisi della sicurezza](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html?lang=it#set-up-the-security-scan-tool) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
 ![Strumento di analisi protezione](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
