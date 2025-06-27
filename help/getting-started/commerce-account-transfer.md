@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Con il cambiare delle responsabilità aziendali, potrebbe essere necessario trasferire l&#39;account Commerce a un nuovo proprietario o a un altro indirizzo e-mail. Questo trasferimento richiede una modifica all’e-mail utente principale associata all’account.
 
-Le informazioni seguenti descrivono il processo di trasferimento di un account Commerce (MAGEID). Non include le modifiche relative alla proprietà dell’account Cloud (progetto Cloud o New Relic). Per ulteriori informazioni sull&#39;accesso ai progetti cloud, vedere [Gestire l&#39;accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+Le informazioni seguenti descrivono il processo di trasferimento di un account Commerce (MAGEID). Non include le modifiche relative alla proprietà dell’account Cloud (progetto Cloud o New Relic). Per ulteriori informazioni sull&#39;accesso ai progetti cloud, vedere [Gestire l&#39;accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=it) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
 >[!IMPORTANT]
 >
->Se il nuovo proprietario dell&#39;account ha acquistato estensioni utilizzando Accesso condiviso, l&#39;accesso a tali estensioni viene perso non appena il processo di trasferimento dell&#39;account è stato avviato. Prima di richiedere il trasferimento dell&#39;account, assicurati che il nuovo proprietario recuperi gli ID ordine per gli acquisti dall&#39;[account Marketplace](https://commercemarketplace.adobe.com/sales/order/history/) e richieda un rimborso per tali estensioni al [team Marketplace](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). Non è possibile trasferire gli acquisti dell’estensione a un altro account.
+>Se il nuovo proprietario dell&#39;account ha acquistato estensioni utilizzando Accesso condiviso, l&#39;accesso a tali estensioni viene perso non appena il processo di trasferimento dell&#39;account è stato avviato. Prima di richiedere il trasferimento dell&#39;account, assicurati che il nuovo proprietario recuperi gli ID ordine per gli acquisti dall&#39;[account Marketplace](https://commercemarketplace.adobe.com/sales/order/history/) e richieda un rimborso per tali estensioni al [team Marketplace](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). Non è possibile trasferire gli acquisti dell’estensione a un altro account.
 
 ## Identificare il tipo di trasferimento
 
