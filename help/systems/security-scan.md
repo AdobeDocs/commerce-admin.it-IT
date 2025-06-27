@@ -104,7 +104,7 @@ Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboa
 
         Al termine del processo di generazione, le modifiche verranno distribuite nella parte anteriore dello store di PWA.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
 
 1. Dopo una conferma, configurare le opzioni **[!UICONTROL Set Automatic Security Scan]** per uno dei tipi seguenti:
 
@@ -148,4 +148,4 @@ Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboa
    - Leggi **[!UICONTROL Terms and Conditions]**.
    - Fare clic su **[!UICONTROL Agree]** per continuare.
 
-1. Nella pagina _[!UICONTROL Monitored Websites]_, individua il menu a discesa sotto la colonna [!UICONTROL Actions], quindi seleziona **[!UICONTROL Delete]**per i siti Web appropriati.
+1. Nella pagina _[!UICONTROL Monitored Websites]_, individua il menu a discesa sotto la colonna [!UICONTROL Actions], quindi seleziona **[!UICONTROL Delete]**&#x200B;per i siti Web appropriati.
