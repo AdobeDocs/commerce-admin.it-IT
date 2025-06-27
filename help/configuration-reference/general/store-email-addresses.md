@@ -3,10 +3,10 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] dell'amministratore di Commerce.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: bad9a004d0354f3db7739d4582a015f4b38116f8
+source-git-commit: 7cbb5b3af0803dd2ec4d47d372632756b5ebfffa
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 2%
+source-wordcount: '338'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Per informazioni dettagliate su questi campi e opzioni di configurazione, vedi [
 
 ## [!UICONTROL General]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 ![Archivia indirizzi e-mail > Contatto generale](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
@@ -35,7 +35,7 @@ Per informazioni dettagliate su questi campi e opzioni di configurazione, vedi [
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Visualizzazione store | Il nome visualizzato come mittente dell&#39;e-mail inviata dall&#39;identità `General Contact`. |
-| [!UICONTROL Sender Email] | Visualizzazione store | Indirizzo e-mail associato all&#39;identità `General Contact`. |
+| [!UICONTROL Sender Email] | Visualizzazione store | Indirizzo e-mail associato all&#39;identità `General Contact`. In Adobe Commerce as a Cloud Service, crea un ticket di supporto per modificare l’indirizzo e-mail. |
 
 {style="table-layout:auto"}
 
@@ -46,7 +46,7 @@ Per informazioni dettagliate su questi campi e opzioni di configurazione, vedi [
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Visualizzazione store | Il nome visualizzato come mittente dell&#39;e-mail inviata dall&#39;identità `Sales Representative`. |
-| [!UICONTROL Sender Email] | Visualizzazione store | Indirizzo e-mail associato all&#39;identità `Sales Representative`. |
+| [!UICONTROL Sender Email] | Visualizzazione store | Indirizzo e-mail associato all&#39;identità `Sales Representative`.  In Adobe Commerce as a Cloud Service, crea un ticket di supporto per modificare l’indirizzo e-mail. |
 
 {style="table-layout:auto"}
 
@@ -57,7 +57,7 @@ Per informazioni dettagliate su questi campi e opzioni di configurazione, vedi [
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Visualizzazione store | Il nome visualizzato come mittente dell&#39;e-mail inviata dall&#39;identità `Customer Support`. |
-| [!UICONTROL Sender Email] | Visualizzazione store | Indirizzo e-mail associato all&#39;identità `Customer Support`. |
+| [!UICONTROL Sender Email] | Visualizzazione store | Indirizzo e-mail associato all&#39;identità `Customer Support`.  In Adobe Commerce as a Cloud Service, crea un ticket di supporto per modificare l’indirizzo e-mail. |
 
 {style="table-layout:auto"}
 
@@ -68,7 +68,7 @@ Per informazioni dettagliate su questi campi e opzioni di configurazione, vedi [
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Visualizzazione store | Il nome visualizzato come mittente dell&#39;e-mail inviata dall&#39;identità `Custom 1`. |
-| [!UICONTROL Sender Email] | Visualizzazione store | Indirizzo e-mail associato all&#39;identità `Custom 1`. |
+| [!UICONTROL Sender Email] | Visualizzazione store | Indirizzo e-mail associato all&#39;identità `Custom 1`.  In Adobe Commerce as a Cloud Service, crea un ticket di supporto per modificare l’indirizzo e-mail. |
 
 {style="table-layout:auto"}
 
@@ -79,6 +79,6 @@ Per informazioni dettagliate su questi campi e opzioni di configurazione, vedi [
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Visualizzazione store | Il nome visualizzato come mittente dell&#39;e-mail inviata dall&#39;identità `Custom 2`. |
-| [!UICONTROL Sender Email] | Visualizzazione store | Indirizzo e-mail associato all&#39;identità `Custom 2`. |
+| [!UICONTROL Sender Email] | Visualizzazione store | Indirizzo e-mail associato all&#39;identità `Custom 2`.  In Adobe Commerce as a Cloud Service, crea un ticket di supporto per modificare l’indirizzo e-mail. |
 
 {style="table-layout:auto"}
