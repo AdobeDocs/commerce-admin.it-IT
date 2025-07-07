@@ -4,7 +4,7 @@ description: Scopri come modificare la tua chiave di crittografia, operazione ch
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: 256517ebbbd6e28eb027f26c7f0a43001f5d7904
 workflow-type: tm+mt
 source-wordcount: '460'
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Se si è tentato di completare questi passaggi e si sono verificati dei problemi, vedere l&#39;articolo della Knowledge Base [Risoluzione dei problemi relativi alla rotazione della chiave di crittografia: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102).
+>Se si è tentato di completare questi passaggi e si sono verificati dei problemi, vedere l&#39;articolo della Knowledge Base [Risoluzione dei problemi relativi alla rotazione della chiave di crittografia: CVE-2024-34102](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102).
 
 Adobe Commerce e Magento Open Source utilizzano una chiave di crittografia per proteggere le password e altri dati sensibili. Viene utilizzato un algoritmo [!DNL ChaCha20-Poly1305] standard del settore con una chiave a 256 bit per crittografare tutti i dati che richiedono la crittografia. Ciò include i dati della carta di credito e le password di integrazione (modulo di pagamento e spedizione). Inoltre, viene utilizzato un forte algoritmo di hash sicuro (SHA-256) per eseguire l’hashing di tutti i dati che non richiedono decrittografia.
 
 Durante l&#39;installazione iniziale, viene richiesto di consentire a Commerce di generare una chiave di crittografia o di immetterne una propria. Lo strumento per la chiave di crittografia consente di modificare la chiave in base alle esigenze. La chiave di crittografia deve essere cambiata regolarmente per migliorare la sicurezza e in qualsiasi momento la chiave originale potrebbe essere compromessa.
 
-Per informazioni tecniche, vedere [Installazione locale avanzata](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) nella _Guida all&#39;installazione_ e [Nuova crittografia dei dati](https://developer.adobe.com/commerce/php/development/security/data-encryption/) nella _Guida per gli sviluppatori PHP_.
+Per informazioni tecniche, vedere [Installazione locale avanzata](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=it) nella _Guida all&#39;installazione_ e [Nuova crittografia dei dati](https://developer.adobe.com/commerce/php/development/security/data-encryption/) nella _Guida per gli sviluppatori PHP_.
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Per informazioni tecniche, vedere [Installazione locale avanzata](https://experi
 
 Le seguenti istruzioni richiedono l&#39;accesso a un terminale.
 
-1. Attiva [modalità manutenzione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+1. Attiva [modalità manutenzione](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
 
    ```bash
    bin/magento maintenance:enable
