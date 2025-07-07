@@ -56,7 +56,7 @@ Le seguenti istruzioni richiedono l&#39;accesso a un terminale.
 
 1. Modificare la chiave di crittografia utilizzando uno dei metodi seguenti.
 
-   Comando +++CLI
+   +++Comando CLI
 
    Eseguire il seguente comando CLI e assicurarsi che venga completato senza errori. Se devi crittografare di nuovo alcuni valori di configurazione del sistema o campi di pagamento, consulta la [guida dettagliata sulla ri-crittografia](https://developer.adobe.com/commerce/php/development/security/data-encryption/) nella _Guida per lo sviluppo di PHP_.
 
@@ -64,7 +64,7 @@ Le seguenti istruzioni richiedono l&#39;accesso a un terminale.
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++Impostazioni amministratore
 
@@ -87,7 +87,7 @@ Le seguenti istruzioni richiedono l&#39;accesso a un terminale.
       >
       >Conserva un record della nuova chiave in un luogo sicuro. È necessario per decrittografare i dati, se si verificano problemi con i file.
 
-+++
+   +++
 
 1. Svuota la cache.
 
