@@ -56,7 +56,7 @@ Le seguenti istruzioni richiedono l&#39;accesso a un terminale.
 
 1. Modificare la chiave di crittografia utilizzando uno dei metodi seguenti.
 
-   Comando +++CLI
+   +++Comando CLI
 
    Conferma l’esistenza del nuovo comando:
 
@@ -76,7 +76,7 @@ Le seguenti istruzioni richiedono l&#39;accesso a un terminale.
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++Impostazioni amministratore
 
@@ -99,7 +99,7 @@ Le seguenti istruzioni richiedono l&#39;accesso a un terminale.
       >
       >Conserva un record della nuova chiave in un luogo sicuro. È necessario per decrittografare i dati, se si verificano problemi con i file.
 
-+++
+   +++
 
 1. Svuota la cache.
 
