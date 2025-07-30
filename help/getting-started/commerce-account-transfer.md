@@ -70,7 +70,7 @@ Questo tipo di trasferimento richiede innanzitutto la creazione di un Adobe ID a
 
 1. Fare clic su **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447667/?learn=on&captions=ita)
 
 ## Modifica e-mail
 
