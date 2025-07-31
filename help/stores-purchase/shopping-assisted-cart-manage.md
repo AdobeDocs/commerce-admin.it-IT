@@ -3,9 +3,9 @@ title: Gestire un carrello
 description: Scopri come assistere un cliente nel carrello direttamente dall’Amministratore.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
+source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Per iniziare una sessione di acquisto assistito, il cliente deve aver effettuato
 
 | Pulsante | Descrizione |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | Cancella il carrello corrente da tutti i prodotti. |
+| [!UICONTROL Clear my shopping cart] | Rimuove tutti gli elementi dal carrello. |
 | [!UICONTROL Update Items and Quantities|]Immettere la quantità richiesta nel campo **[!UICONTROL Qty]** e aggiornare il numero di elementi nel carrello. |
 | [!UICONTROL Add selections to my cart] | Aggiunge al carrello i prodotti di tutte le sezioni. |
 
@@ -55,7 +55,7 @@ Per iniziare una sessione di acquisto assistito, il cliente deve aver effettuato
    >
    >Per trovare rapidamente il record cliente, utilizzare il controllo [Filtri](../getting-started/admin-grid-controls.md).
 
-   Nel profilo cliente in _[!UICONTROL Personal Information]_, la data e l&#39;ora&#x200B;_[!UICONTROL Last Logged In]_ mostrano che il cliente è online.
+   Nel profilo cliente in _[!UICONTROL Personal Information]_, la data e l&#39;ora_[!UICONTROL Last Logged In]_ mostrano che il cliente è online.
 
    ![Profilo cliente di un cliente online](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,10 +175,26 @@ Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente
 
 1. Fare clic su **[!UICONTROL Create Order]**.
 
-   Nella pagina _[!UICONTROL Create New Order]_&#x200B;sono visualizzati gli articoli nel carrello, seguiti dalle informazioni di spedizione e pagamento.
+   Nella pagina _[!UICONTROL Create New Order]_sono visualizzati gli articoli nel carrello, seguiti dalle informazioni di spedizione e pagamento.
 
 1. Completare le informazioni relative alla spedizione e al pagamento.
 
 1. Fare clic su **[!UICONTROL Submit Order]**.
 
 Per ulteriori informazioni, consulta [Creare un ordine](customer-account-create-order.md).
+
+## Rimuovere tutti gli elementi da un carrello
+
+La rimozione di tutti gli articoli dal carrello di un cliente in modalità di acquisto assistito è utile se il cliente desidera ricominciare da capo, ha aggiunto articoli non corretti o deve cancellare il carrello prima di effettuare un nuovo ordine. In questo modo il carrello conterrà solo i prodotti che il cliente desidera acquistare.
+
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+
+1. Nell’elenco, apri il record cliente in modalità di modifica.
+
+1. Fai clic su **[!UICONTROL Manage Shopping Cart]** nella barra dei pulsanti superiore.
+
+1. Fare clic su **[!UICONTROL Clear my shopping cart]**.
+
+   ![Cancella il carrello](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. Quando richiesto, fare clic su **[!UICONTROL OK]** per confermare l&#39;azione.
