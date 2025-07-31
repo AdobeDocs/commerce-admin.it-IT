@@ -55,7 +55,7 @@ Per iniziare una sessione di acquisto assistito, il cliente deve aver effettuato
    >
    >Per trovare rapidamente il record cliente, utilizzare il controllo [Filtri](../getting-started/admin-grid-controls.md).
 
-   Nel profilo cliente in _[!UICONTROL Personal Information]_, la data e l&#39;ora_[!UICONTROL Last Logged In]_ mostrano che il cliente è online.
+   Nel profilo cliente in _[!UICONTROL Personal Information]_, la data e l&#39;ora&#x200B;_[!UICONTROL Last Logged In]_ mostrano che il cliente è online.
 
    ![Profilo cliente di un cliente online](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente
 
 1. Fare clic su **[!UICONTROL Create Order]**.
 
-   Nella pagina _[!UICONTROL Create New Order]_sono visualizzati gli articoli nel carrello, seguiti dalle informazioni di spedizione e pagamento.
+   Nella pagina _[!UICONTROL Create New Order]_&#x200B;sono visualizzati gli articoli nel carrello, seguiti dalle informazioni di spedizione e pagamento.
 
 1. Completare le informazioni relative alla spedizione e al pagamento.
 
