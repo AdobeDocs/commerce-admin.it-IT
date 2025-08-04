@@ -3,9 +3,9 @@ title: Limite di prezzo
 description: Scopri l’ambito utilizzato per i prezzi dei prodotti, che può essere configurato per essere applicato a livello globale o a livello di sito web.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: bc3977f29c8048a1b8578aa21fa55fa1a4d903f2
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Commerce non consente di impostare un prezzo di prodotto per ogni negozio. Ma pu
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Nella scheda **[!UICONTROL Price]**, impostare l&#39;ambito prezzo su `Website` invece che globale.
+1. Nella scheda **[!UICONTROL Price]**, impostare l&#39;ambito prezzo su `Website` invece di `Global`.
 
 1. Per impostare il prezzo, aprire la pagina di modifica del prodotto, selezionare l&#39;ambito in alto a sinistra, quindi immettere un nuovo prezzo per sito Web.
+
+In rari casi, quando l&#39;ambito del prezzo è impostato su `Global`, il database di Commerce può ancora avere prezzi diversi a livello di sito Web. Ciò può verificarsi a causa di problemi di sincronizzazione al di fuori di Commerce. In questi casi, il commerciante deve eseguire una pulizia dei prezzi a livello di negozio ed eseguire una sincronizzazione catalogo con Commerce Services.
