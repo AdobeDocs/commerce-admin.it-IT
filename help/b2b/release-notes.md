@@ -75,9 +75,9 @@ Questo miglioramento si basa sulla funzionalità di iscrizione multiaziendale di
 
 ![Problema risolto](../assets/fix.svg) La versione di B2B v1.5.2 include le seguenti correzioni per i preventivi negoziabili:
 
-- <!-- B2B-3252 -->Il campo [!UICONTROL Line Item Discount Amount] ora convalida l&#39;input per impedire l&#39;immissione di valori di sconto negativi.
-- <!-- B2B-3224 -->È stato risolto un problema di esperienza utente a causa del quale le note sugli elementi di riga lunghi venivano troncate e risultavano di difficile lettura per i clienti B2B.
-- <!-- B2B-2865 -->I clienti B2B ora possono specificare le quantità di prodotto utilizzando valori decimali (ad esempio 1,5 o 2,75) durante la creazione dei preventivi.
+- &#x200B;<!-- B2B-3252 -->Il campo [!UICONTROL Line Item Discount Amount] ora convalida l&#39;input per impedire l&#39;immissione di valori di sconto negativi.
+- &#x200B;<!-- B2B-3224 -->È stato risolto un problema di esperienza utente a causa del quale le note sugli elementi di riga lunghi venivano troncate e risultavano di difficile lettura per i clienti B2B.
+- &#x200B;<!-- B2B-2865 -->I clienti B2B ora possono specificare le quantità di prodotto utilizzando valori decimali (ad esempio 1,5 o 2,75) durante la creazione dei preventivi.
 
 ### Modello di offerta
 
@@ -656,7 +656,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![Problema risolto](../assets/fix.svg) <!--- MC-40426--> I commercianti ora possono utilizzare l&#39;endpoint POST `rest/all/V1/requisition_lists` per creare un elenco di richieste di acquisto per un cliente. In precedenza, Adobe Commerce generava questo errore 400 quando si tentava di creare un elenco di richieste di acquisto: `Could not save Requisition List`.
 
-![Problema risolto](../assets/fix.svg) <!--- MC-41123--> Il pulsante **[!UICONTROL Add to Requisition List]** viene ora visualizzato per i prodotti in magazzino di un carrello quando il carrello contiene anche prodotti esauriti. In precedenza, se un carrello conteneva due prodotti, uno dei quali era esaurito, il pulsante _[!UICONTROL Add to Requisition List]_non veniva visualizzato per nessuno dei due prodotti.
+![Problema risolto](../assets/fix.svg) <!--- MC-41123--> Il pulsante **[!UICONTROL Add to Requisition List]** viene ora visualizzato per i prodotti in magazzino di un carrello quando il carrello contiene anche prodotti esauriti. In precedenza, se un carrello conteneva due prodotti, uno dei quali era esaurito, il pulsante _[!UICONTROL Add to Requisition List]_&#x200B;non veniva visualizzato per nessuno dei due prodotti.
 
 ![Problema risolto](../assets/fix.svg) <!--- MC-40877--> Ora puoi utilizzare l&#39;API REST per aggiungere un prodotto a un elenco di richieste.
 
@@ -720,7 +720,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![Problema risolto](../assets/fix.svg) L&#39;ordinamento di prodotti per SKU tramite Ordine rapido non determina più quantità di prodotti duplicate nel file CSV. <!--- MC-37427-->
 
-![Problema risolto](../assets/fix.svg) Il pulsante **[!UICONTROL Add to Cart]** non è più bloccato se la sezione _[!UICONTROL Enter Multiple SKUs]_della pagina Ordine rapido contiene un valore vuoto. Al contrario, Adobe Commerce ora visualizza un messaggio che richiede di immettere SKU validi. <!--- MC-37387-->
+![Problema risolto](../assets/fix.svg) Il pulsante **[!UICONTROL Add to Cart]** non è più bloccato se la sezione _[!UICONTROL Enter Multiple SKUs]_&#x200B;della pagina Ordine rapido contiene un valore vuoto. Al contrario, Adobe Commerce ora visualizza un messaggio che richiede di immettere SKU validi. <!--- MC-37387-->
 
 ![Problema risolto](../assets/fix.svg) Adobe Commerce visualizza ora questo messaggio nella pagina del prodotto quando si invia una revisione del prodotto da un elenco di richieste: `You submitted your review for moderation`. La revisione viene visualizzata anche nella pagina Revisioni in sospeso (Amministratore **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). In precedenza, anche se Adobe Commerce aggiungeva la revisione all’elenco delle revisioni in sospeso, generava un errore 404 nella pagina del prodotto. <!--- MC-37119-->
 
@@ -814,7 +814,7 @@ Questa versione include miglioramenti alle approvazioni degli ordini, ai metodi 
 
 ![Problema risolto](../assets/fix.svg) È ora possibile implementare correttamente il multishipping per gli ordini che contengono prodotti sia fisici che virtuali. <!--- MC-33818-->
 
-![Problema risolto](../assets/fix.svg) I commercianti possono ora creare utenti società dalla sezione _[!UICONTROL Company Users]_nelle pagine Il mio account e la struttura della società quando **[!UICONTROL Access Restriction]**è abilitato e **[!UICONTROL Restriction Mode]**è impostato su `Sales: Login Only`. In precedenza, Adobe Commerce generava questo errore quando un commerciante tentava di creare un utente: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![Problema risolto](../assets/fix.svg) I commercianti possono ora creare utenti società dalla sezione _[!UICONTROL Company Users]_&#x200B;nelle pagine Il mio account e la struttura della società quando **[!UICONTROL Access Restriction]**&#x200B;è abilitato e **[!UICONTROL Restriction Mode]**&#x200B;è impostato su `Sales: Login Only`. In precedenza, Adobe Commerce generava questo errore quando un commerciante tentava di creare un utente: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![Problema risolto](../assets/fix.svg) Adobe Commerce non reimposta più il gruppo clienti di un cliente sul valore predefinito quando un cliente salva le informazioni sul proprio account. <!--- MC-33554-->
 
