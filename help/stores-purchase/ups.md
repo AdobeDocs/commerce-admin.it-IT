@@ -3,7 +3,7 @@ title: United Parcel Service (UPS)
 description: Scopri come impostare UPS come corriere per il tuo negozio.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -46,9 +46,9 @@ Quando si configurano le impostazioni del gruppo di continuità nell&#39;amminis
 
    - Impostare **[!UICONTROL Mode]** su `Live` per inviare dati al sistema di spedizione UPS tramite una connessione protetta. La modalità di sviluppo non invia dati tramite una connessione protetta.
 
-   - Verificare **[!UICONTROL Gateway URL]** necessario per inviare le richieste. Utilizza un URL sandbox (`https://wwwcie.ups.com/`) per la modalità di test e un URL di produzione per le richieste live (`https://onlinetools.ups.com`). Assicurati di utilizzare i rispettivi endpoint per ogni richiesta con l’host specificato.
+   - Verificare **[!UICONTROL Gateway URL]** necessario per inviare le richieste. Utilizza un URL sandbox (`https://wwwcie.ups.com/api/rating/`) per la modalità di test e un URL di produzione per le richieste live (`https://onlinetools.ups.com/api/rating/`). Assicurati di utilizzare i rispettivi endpoint per ogni richiesta con l’host specificato.
 
-   - Verificare **[!UICONTROL Tracking URL]** necessario per ottenere le informazioni di tracciamento. Utilizza un URL sandbox (`https://wwwcie.ups.com/`) per la modalità di test e un URL di produzione per le richieste live (`https://onlinetools.ups.com`). Assicurati di utilizzare i rispettivi endpoint per ogni richiesta con l’host specificato.
+   - Verificare **[!UICONTROL Tracking URL]** necessario per ottenere le informazioni di tracciamento. Utilizza un URL sandbox (`https://wwwcie.ups.com/api/track/`) per la modalità di test e un URL di produzione per le richieste live (`https://onlinetools.ups.com/api/track/`). Assicurati di utilizzare i rispettivi endpoint per ogni richiesta con l’host specificato.
 
    - Impostare **[!UICONTROL Origin of the Shipment]** sull&#39;area di origine della spedizione.
 
