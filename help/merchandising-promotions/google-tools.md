@@ -3,9 +3,9 @@ title: Strumenti del sito Google
 description: Scopri le integrazioni degli strumenti di Google che puoi utilizzare per ottimizzare i contenuti, analizzare il traffico e collegare il catalogo ad aggregatori di acquisti e marketplace.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 La configurazione del negozio è integrata con i seguenti strumenti di Google per ottimizzare i contenuti, analizzare il traffico e collegare il catalogo ad aggregatori di acquisti e marketplace.
 
 - [Google Analytics](google-analytics.md) - Utilizza _Google Universal Analytics_ per definire dimensioni e metriche personalizzate aggiuntive per il tracciamento, con supporto per le interazioni offline e con le app mobili e accesso agli aggiornamenti in corso.
-
-- [Esperimenti di contenuto Google](google-content-experiments.md) - Configura un test A/B per prodotti, categorie o pagine di contenuto mediante Esperimenti di contenuto Google Analytics.
 
 - [Gestione tag Google](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Utilizza Gestione tag Google per gestire i numerosi tag relativi agli eventi delle campagne di marketing.
 
@@ -30,7 +28,7 @@ Se la tua azienda deve rispettare le normative sulla privacy come [RGPD](../gett
 
 ### Passaggio 1: aggiornare le impostazioni di Google
 
-1. [Accedi][1]{: target=&quot;_blank&quot;} all&#39;account di Google Analytics della tua azienda.
+1. [Accedi][1]{: target="_blank"} all&#39;account Google Analytics della tua azienda.
 
 1. Nella parte inferiore della barra laterale sinistra, scegli **[!UICONTROL Admin]**, quindi individua l&#39;account che desideri modificare (se applicabile).
 
@@ -38,7 +36,7 @@ Se la tua azienda deve rispettare le normative sulla privacy come [RGPD](../gett
 
 1. Disattiva la condivisione dei dati per soddisfare i requisiti della normativa sulla privacy.
 
-   Le impostazioni di Google Analytics predefinite condividono i dati aziendali con Google e altre parti. Per disattivare la condivisione dei dati, deselezionare la casella di controllo di selezione per le impostazioni seguenti:
+   Le impostazioni predefinite di Google Analytics condividono i dati aziendali con Google e altre parti. Per disattivare la condivisione dei dati, deselezionare la casella di controllo di selezione per le impostazioni seguenti:
 
    - Prodotti e servizi Google
    - Benchmarking
@@ -47,7 +45,7 @@ Se la tua azienda deve rispettare le normative sulla privacy come [RGPD](../gett
 
 1. Accetta la _modifica elaborazione dati_.
 
-   I Termini di elaborazione dei dati di Google Ads descrivono il modo in cui Google elabora i dati e le misure adottate per garantire la sicurezza dei dati per le aziende soggette al RGPD. Con la modifica viene inoltre conservato un registro delle persone giuridiche e delle informazioni di contatto. Per [ulteriori informazioni][2]{: target=&quot;_blank&quot;}, fai clic sul collegamento nel messaggio nella parte superiore della pagina.
+   I Termini di elaborazione dei dati di Google Ads descrivono il modo in cui Google elabora i dati e le misure adottate per garantire la sicurezza dei dati per le aziende soggette al RGPD. Con la modifica viene inoltre conservato un registro delle persone giuridiche e delle informazioni di contatto. Per [ulteriori informazioni][2]{: target="_blank"}, fare clic sul collegamento nel messaggio nella parte superiore della pagina.
 
    - Scorrere la pagina fino a **[!UICONTROL Data Processing Amendment]**.
    - Fai clic su **[!UICONTROL Review Amendment]** per leggere i _Termini di elaborazione dati di Google Ads_.
@@ -82,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-Per ulteriori informazioni, consulta la [Guida di riferimento per i campi di Analytics.js][3]{: target=&quot;_blank&quot;} nella Guida di Google.
+Per ulteriori informazioni, consulta la [Guida di riferimento per i campi di Analytics.js][3]{: target="_blank"} nella Guida di Google.
 
 Se si utilizza la libreria `ga.js` legacy, aggiungere il frammento seguente:
 
@@ -116,10 +114,10 @@ analytics.js
 
 Aggiorna l&#39;[informativa sulla privacy](../getting-started/privacy-policy.md) per indicare che la tua azienda:
 
-- Usa Google Analytics
+- Utilizza Google Analytics
 - Maschera gli indirizzi IP per nascondere le informazioni personali
 - Ha disattivato Condivisione dati di Google
-- Non utilizza altri servizi Google con i cookie Google Analytics
+- Non utilizza altri servizi Google con i cookie di Google Analytics
 
 [1]: https://www.google.com/analytics/
 [2]: https://support.google.com/analytics/answer/3379636

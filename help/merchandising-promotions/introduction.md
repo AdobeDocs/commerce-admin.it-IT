@@ -2,9 +2,9 @@
 title: Introduzione al merchandising e alle promozioni di Commerce
 description: Scopri gli strumenti di Commerce per la creazione di promozioni e opportunità mirate per il coinvolgimento cliente.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Promozioni mirate, opportunità di coinvolgimento per i clienti e opportunità p
 
 _Merchandising_ è un termine utilizzato nel settore retail per descrivere l&#39;arte e la scienza dello sviluppo della piantina e della presentazione dei prodotti. È possibile considerare la [navigazione basata su categorie](../catalog/navigation-top.md) come la piantina del negozio e la presentazione dinamica dei prodotti come le condizioni applicabili all&#39;elenco dei prodotti nel negozio. Inoltre, puoi implementare programmi che incrementano le vendite dei prodotti:
 
-- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} [Visual Merchandiser](visual-merchandiser.md) - Un insieme di strumenti avanzati che ti consente di posizionare i prodotti e di applicare condizioni che determinano quali prodotti vengono visualizzati nell&#39;elenco delle categorie.
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} [Visual Merchandiser](visual-merchandiser.md) - Un insieme di strumenti avanzati che ti consente di posizionare i prodotti e di applicare condizioni che determinano quali prodotti vengono visualizzati nell&#39;elenco delle categorie.
 
 - [Registri regali](gift-registries.md) - Offri ai tuoi clienti la possibilità di creare registri regali per occasioni speciali e di invitare amici e familiari ad acquistare i regali dal registro regali.
 
@@ -27,7 +27,7 @@ _Merchandising_ è un termine utilizzato nel settore retail per descrivere l&#39
 
 >[!TIP]
 >
->Per informazioni sui consigli di prodotto e su come possono offrirti insight e il controllo di cui hai bisogno per creare la migliore esperienza per i tuoi acquirenti, consulta la [Guida utente dei consigli di prodotto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=it).
+>Per informazioni sui consigli di prodotto e su come possono offrirti insight e il controllo di cui hai bisogno per creare la migliore esperienza per i tuoi acquirenti, consulta la [Guida utente dei consigli di prodotto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promozioni
 
@@ -67,8 +67,8 @@ Una delle attività da completare prima di lanciare il tuo store è quella di ri
 >[!NOTE]
 >
 >Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includono l’estensione sviluppata da un fornitore digitale e utilizzata per l’integrazione con Engagement Cloud digitale. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata da Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
-><br><br>
->Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=it) nella _Guida all&#39;aggiornamento_.
+>><br><br>
+>>Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nella _Guida all&#39;aggiornamento_.
 
 - [Newsletter](newsletters.md) - Produci newsletter, gestisci l&#39;elenco degli abbonati, sviluppa contenuti e indirizza il traffico verso il tuo archivio.
 
@@ -85,8 +85,6 @@ La configurazione del negozio è integrata con i seguenti strumenti di Google pe
 >A partire dalla versione 2.4.5, l’integrazione dei servizi Google viene aggiornata per supportare l’utilizzo delle API GTag. GTag è un meccanismo unificato per l’integrazione con le funzionalità di Google per le pagine web e supporta le funzionalità e le opportunità più recenti per il tracciamento e la gestione dei contenuti tramite Google Services. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori di Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
 - [Google Analytics](google-analytics.md): utilizza Google Universal Analytics per definire dimensioni e metriche personalizzate aggiuntive per il tracciamento, con supporto per le interazioni offline e con app mobili e accesso agli aggiornamenti in corso.
-
-- [Esperimenti sui contenuti Google](google-content-experiments.md) - Configura un test A/B di prodotti, categorie o pagine di contenuti utilizzando il contenuto di Google Analytics
 
 - [Gestione tag Google](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Utilizza Gestione tag Google per gestire i numerosi tag relativi agli eventi delle campagne di marketing.
 

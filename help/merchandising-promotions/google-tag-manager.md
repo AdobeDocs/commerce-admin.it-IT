@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Scopri come utilizzare [!DNL Google Tag Manager] per gestire i numerosi tag (snippet di codice) correlati agli eventi delle campagne di marketing nei siti Adobe Commerce.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Consulta [Configurare la ricerca del sito](https://support.google.com/analytics/
 
    - Scegli **[!UICONTROL Property Settings]**.
 
-   - In _[!UICONTROL Advertising Features]_, impostare **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;su `On`.
+   - In _[!UICONTROL Advertising Features]_, impostare **[!UICONTROL Enable Demographics and Interest Reports]**su `On`.
 
    - **[!UICONTROL Save]** le impostazioni.
 
@@ -145,7 +145,6 @@ Le istruzioni seguenti mostrano come configurare un nuovo contenitore con le imp
 | [!UICONTROL Enable] | Visualizzazione store | Determina se l’e-commerce avanzato di Google Analytics può essere utilizzato per analizzare l’attività nel tuo store. Opzioni: `Yes` / `No` |
 | [!UICONTROL Account type] | Visualizzazione store | Determina il codice di tracciamento di Google utilizzato per monitorare l&#39;attività e il traffico dell&#39;archivio. Opzioni: `Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | Visualizzazione store | Determina se rimuovere le informazioni di identificazione dagli indirizzi IP visualizzati nei risultati di Google Analytics. |
-| [!UICONTROL Enable Content Experiments] | Visualizzazione store | Attiva Google Content Experiments, che può essere utilizzato per testare fino a dieci versioni diverse della stessa pagina. Opzioni: `Yes` / `No` |
 | [!UICONTROL Container Id] | Visualizzazione store | Se [!DNL Google Tag Manager] è già installato e configurato per il tuo archivio, l&#39;ID contenitore viene visualizzato automaticamente in questo campo. |
 | [!UICONTROL List property for the catalog page] | Visualizzazione store | Identifica la proprietà Tag Manager associata alla pagina del catalogo. Valore predefinito: `Catalog Page` |
 | [!UICONTROL List property for the cross-sell block] | Visualizzazione store | Identifica la proprietà Tag Manager associata al blocco di cross-selling. Valore predefinito: `Cross-sell` |
@@ -179,7 +178,7 @@ Se disponi di un account Google AdWords, puoi creare un tag che tiene traccia de
 
    - In **[!UICONTROL Choose Product]**, selezionare **[!UICONTROL Google AdWords]**.
 
-   - In _[!UICONTROL Choose a Tag Type]_, selezionare **[!UICONTROL AdWords Conversion Tracking]**&#x200B;e fare clic su **[!UICONTROL Continue]**.
+   - In _[!UICONTROL Choose a Tag Type]_, selezionare **[!UICONTROL AdWords Conversion Tracking]**e fare clic su **[!UICONTROL Continue]**.
 
 1. Immetti **[!UICONTROL Conversion ID]** e **[!UICONTROL Conversion Label]** dal tuo account AdWords e fai clic su **[!UICONTROL Continue]**.
 

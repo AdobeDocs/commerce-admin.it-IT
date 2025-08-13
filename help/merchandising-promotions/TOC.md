@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce e Magento Open Source includono molti str
 breadcrumb-title: Merchandising e promozioni
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
       - [Configurare gli eventi](event-configure.md)
       - [Creare gli eventi](event-create.md)
       - [Inviti evento](invitations.md)
-   - Regole prezzi catalogo {#catalog-rules}
+   - Regole prezzo catalogo {#catalog-rules}
       - [Panoramica sulle regole dei prezzi del catalogo](price-rules-catalog.md)
       - [Creare una regola del prezzo di catalogo](price-rules-catalog-create.md)
       - [Modifiche pianificate per le regole prezzo catalogo](price-rule-catalog-scheduled-changes.md)
@@ -70,11 +70,11 @@ ht-degree: 1%
    - Promemoria e-mail {#email-reminders}
       - [Abilita promemoria e-mail](email-reminder-rules.md)
       - [Creare promemoria e-mail](email-reminder-rules-create.md)
-- Ottimizzazione motore di ricerca {#seo}
+- Ottimizzazione dei motori di ricerca {#seo}
    - [Panoramica e best practice per l’ottimizzazione SEO](seo-overview.md)
    - [Metadati](meta-data.md)
    - [Mappe del sito](sitemap-xml.md)
-   - URL riscrive {#url-rewrites}
+   - Riscritture URL {#url-rewrites}
       - [Panoramica e configurazione](url-rewrite.md)
       - [Riscritture categoria](url-rewrite-category.md)
       - [Riscritture prodotto](url-rewrite-product.md)
@@ -86,6 +86,5 @@ ht-degree: 1%
    - [Google Analytics](google-analytics.md)
    - [Gestione tag Google](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-   - [Esperimenti sui contenuti Google](google-content-experiments.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

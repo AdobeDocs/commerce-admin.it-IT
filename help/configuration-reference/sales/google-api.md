@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Sales] &gt; [!UICONTROL Google API] dell'amministratore di Commerce.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 | ----- | ------------------------------------------ | ----------- |
@@ -26,7 +26,6 @@ ht-degree: 0%
 | [!UICONTROL Account Type] | Visualizzazione store | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) determina le opzioni di configurazione in base al tipo di account Google Analytics. Opzioni: Universal Analytics (predefinito) / Google Tag Manager |
 | [!UICONTROL Account Number] | Visualizzazione store | Numero di account, o codice di registrazione, assegnato al momento della creazione dell&#39;account [!DNL Google Analytics]. |
 | [!UICONTROL Anonymize IP] | Visualizzazione store | Determina se le informazioni di identificazione vengono rimosse dagli indirizzi IP visualizzati nei risultati [!DNL Google Analytics]. |
-| [!UICONTROL Enable Content Experiments] | Visualizzazione store | Attiva [Esperimenti di contenuto Google](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), che può essere utilizzato per testare fino a dieci versioni diverse della stessa pagina. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -54,7 +53,7 @@ Quando **[!UICONTROL Account Type]** è impostato su `Google Tag Manager`, sono 
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 | ----- | ------------------------------------------ | ----------- |
@@ -76,17 +75,16 @@ Quando **[!UICONTROL Account Type]** è impostato su `Google Tag Manager`, sono 
 
 ### [!UICONTROL Google Analytics4]
 
-![Google Analytics 4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
+![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 | ----- | ------------------------------------------ | ----------- |
-| [!UICONTROL Enable] | Visualizzazione store | Abilita Google Analytics 4 per il tuo punto vendita. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable] | Visualizzazione store | Abilita Google Analytics 4 per lo store. Opzioni: `Yes` / `No` |
 | [!UICONTROL Account Type] | Visualizzazione store | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) determina le opzioni di configurazione in base al tipo di account Google Analytics. Opzioni: `Google Analytics4` (predefinito) / `Google Tag Manager` |
-| [!UICONTROL Measurement ID] | Visualizzazione store | Numero di conto, o codice di registrazione, assegnato al momento della creazione dell&#39;account Google Analytics. |
-| [!UICONTROL Anonymize IP] | Visualizzazione store | Determina se le informazioni di identificazione vengono rimosse dagli indirizzi IP visualizzati nei risultati delle Google Analytics. |
-| [!UICONTROL Enable Content Experiments] | Visualizzazione store | Attiva [Esperimenti di contenuto Google](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), che può essere utilizzato per testare fino a dieci versioni diverse della stessa pagina. Opzioni: `Yes` / `No` |
+| [!UICONTROL Measurement ID] | Visualizzazione store | Il numero di account, o codice di tracciamento, assegnato al momento della creazione dell&#39;account Google Analytics. |
+| [!UICONTROL Anonymize IP] | Visualizzazione store | Determina se rimuovere le informazioni di identificazione dagli indirizzi IP visualizzati nei risultati di Google Analytics. |
 
 {style="table-layout:auto"}
 
@@ -94,7 +92,7 @@ Quando **[!UICONTROL Account Type]** è impostato su `Google Tag Manager`, sono 
 
 {{ee-feature}}
 
-![Google Analytics 4 - Tipo di account Google Tag Manager](./assets/google-api-gtag-google-analytics4-gtm.png)<!-- zoom -->
+![Google Analytics4 - Tipo di account Google Tag Manager](./assets/google-api-gtag-google-analytics4-gtm.png)<!-- zoom -->
 
 Quando **[!UICONTROL Account Type]** è impostato su `Google Tag Manager`, sono visualizzati campi aggiuntivi.
 
@@ -114,7 +112,7 @@ Quando **[!UICONTROL Account Type]** è impostato su `Google Tag Manager`, sono 
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 | ----- | ------------------------------------------ | ----------- |
