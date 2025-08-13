@@ -67,8 +67,8 @@ Una delle attività da completare prima di lanciare il tuo store è quella di ri
 >[!NOTE]
 >
 >Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includono l’estensione sviluppata da un fornitore digitale e utilizzata per l’integrazione con Engagement Cloud digitale. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata da Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
->><br><br>
->>Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nella _Guida all&#39;aggiornamento_.
+>&#x200B;><br><br>
+>&#x200B;>Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nella _Guida all&#39;aggiornamento_.
 
 - [Newsletter](newsletters.md) - Produci newsletter, gestisci l&#39;elenco degli abbonati, sviluppa contenuti e indirizza il traffico verso il tuo archivio.
 
