@@ -3,9 +3,9 @@ title: Codici coupon
 description: Scopri come utilizzare i codici coupon con le regole del prezzo del carrello per applicare uno sconto quando viene soddisfatta una serie di condizioni.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,17 @@ A partire dalla versione 2.4.7 di Commerce, gli acquirenti possono applicare pi�
 >Le regole di prezzo del carrello con la stessa priorità non generano uno sconto combinato. Ogni regola (coupon) viene applicata separatamente ai prodotti corrispondenti, uno per uno, in base all’ID della regola di prezzo del carrello nel database. Per controllare l’ordine in cui vengono applicati gli sconti, Adobe consiglia di impostare una priorità diversa per ogni regola di prezzo del carrello aggiunto.
 
 ## Configurare i codici coupon
+
+>[!BEGINSHADEBOX]
+
+Per impostazione predefinita, Commerce supporta due metodi per la creazione di codici coupon:
+
+1. Creazione di un singolo codice coupon specifico
+1. Generazione di più codici coupon _random_
+
+Se disponi già di un elenco di codici coupon che desideri importare e associare a una regola prezzo carrello, è consigliabile utilizzare un&#39;estensione di [Commerce Marketplace](https://marketplace.magento.com/).
+
+>[!ENDSHADEBOX]
 
 La lunghezza e il formato dei codici coupon generati automaticamente sono controllati dalla configurazione. I caratteri possono essere impostati su tutti i numeri, su tutte le lettere o su una combinazione. È possibile inserire un trattino a intervalli impostati per facilitarne la lettura e aggiungere un prefisso e un suffisso per associare il codice a una campagna o iniziativa specifica.
 
@@ -62,7 +73,7 @@ La lunghezza e il formato dei codici coupon generati automaticamente sono contro
 
 >[!NOTE]
 >
->[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Prima di creare coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it#run-cron-from-the-command-line) nella _Guida alla configurazione_.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Prima di creare coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) nella _Guida alla configurazione_.
 
 ### Metodo 1: creazione di un coupon specifico
 
@@ -169,10 +180,6 @@ La generazione di buoni sconto è un’operazione asincrona, che viene eseguita 
 È possibile esportare i codici coupon in un file CSV o Excel XML selezionando il formato di file e facendo clic su **[!UICONTROL Export]**.
 
 Per eliminare i codici coupon, selezionare uno o più codici dall&#39;elenco. Selezionare `Delete` dal selettore **[!UICONTROL Actions]**, quindi fare clic su **[!UICONTROL Submit]**.
-
->[!NOTE]
->
->Anche se Commerce consente la configurazione di più codici coupon, un cliente può utilizzare un solo codice coupon nel carrello. Per consentire l&#39;utilizzo simultaneo di più codici coupon nel carrello, è possibile utilizzare un&#39;estensione corrispondente di [Commerce Marketplace](https://marketplace.magento.com/).
 
 ## Rapporto Coupon
 
