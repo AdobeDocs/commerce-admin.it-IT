@@ -5,10 +5,10 @@ breadcrumb-title: Guida introduttiva
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
+source-git-commit: b45824312b02204f1031b04c215ca42c5298d824
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 1%
    + [Proteggi il tuo account](commerce-account-secure.md)
    + [Condividi il tuo account](commerce-account-share.md)
    + [Trasferisci un account](commerce-account-transfer.md)
-+ Conformità sito {#compliance}
-   + Preparazione HIPAA in Adobe Commerce{#hipaa-ready-service}
++ Conformità del sito {#compliance}
+   + Preparazione HIPAA su Adobe Commerce{#hipaa-ready-service}
       + [Panoramica](hipaa/overview.md)
       + [Indicazioni operative](hipaa/operations.md)
    + Privacy {#privacy}
@@ -35,18 +35,13 @@ ht-degree: 1%
       + [Conformità PCI](compliance-pci.md)
       + [Direttiva sui servizi di pagamento](compliance-payment-services-directive.md)
    + [Accessibilità](navigation-accessibility.md)
-+ L&#39;amministratore {#admin}
++ L’Amministratore {#admin}
    + [Che cos’è l’amministratore?](admin.md)
    + [Account utente amministratore](admin-signin.md)
-   + Integrazione del servizio Adobe Identity Management (IMS) {#ims}
+   + Integrazione con Adobe Identity Management Service (IMS) {#ims}
       + [Panoramica dell’integrazione IMS](adobe-ims-integration-overview.md)
       + [Configurare l’integrazione dell’amministratore con IMS](adobe-ims-config.md)
       + [Disattiva l’integrazione dell’amministratore con IMS](adobe-ims-disable.md)
-   + Integrazione Adobe Experience Cloud {#unifiedexperience}
-      + [Panoramica](admin-unified-experience-integration-overview.md)
-      + [Configurare l’integrazione](admin-unified-experience-integration-configure.md)
-      + [Gestire l’integrazione di Experience Cloud](admin-unified-experience-integration-manage.md)
-      + [Note sulla versione](admin-unified-experience-release-notes.md)
    + Strumenti di amministrazione e area di lavoro {#tools}
       + [Workspace](admin-workspace.md)
       + [Barra laterale amministrazione](admin-menu.md)
@@ -54,7 +49,7 @@ ht-degree: 1%
       + [Casella in entrata messaggio](admin-message-inbox.md)
       + [Controlli griglia](admin-grid-controls.md)
       + [Controllo Azioni](admin-actions-control.md)
-+ La vetrina {#storefront}
++ Vetrina {#storefront}
    + [Che cos&#39;è la vetrina?](storefront.md)
    + [Esperienze store migliorate](enhanced-experiences.md)
 + Configurazione di base {#setup}
@@ -62,7 +57,7 @@ ht-degree: 1%
    + [Dettagli store](store-details.md)
    + [Branding vetrina](storefront-branding.md)
    + [Elenco di controllo pre-avvio](prelaunch-checklist.md)
-+ Generazione rapporti standard {#reporting}
++ Generazione rapporti standard  {#reporting}
    + [Menu Rapporti](reports-menu.md)
    + [Rapporti di marketing](marketing-reports.md)
    + [Revisione dei rapporti](review-reports.md)
@@ -76,5 +71,5 @@ ht-degree: 1%
    + [Ecosistema](resources.md)
    + [Estensioni](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
++ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
