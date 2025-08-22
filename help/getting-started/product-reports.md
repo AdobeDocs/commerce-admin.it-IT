@@ -1,18 +1,19 @@
 ---
 title: Rapporti sui prodotti
-description: I rapporti sui prodotti disponibili in Adobe Commerce e Magento Open Source forniscono informazioni approfondite sui prodotti visualizzati e ordinati, sui bestseller, sui livelli di stock e sui download.
+description: I rapporti sui prodotti disponibili in Adobe Commerce e Magento Open Source forniscono informazioni su insight relative a prodotti visualizzati e ordinati, bestseller, livelli di stock e download.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Rapporti sui prodotti
 
-I rapporti sui prodotti forniscono informazioni approfondite sui prodotti visualizzati e ordinati, sui bestseller, sui livelli di magazzino e sui download.
+I rapporti sui prodotti forniscono informazioni su insight relative ai prodotti visualizzati e ordinati, ai bestseller, ai livelli di magazzino e ai download.
 
 ## [!UICONTROL Product Views Report]
 

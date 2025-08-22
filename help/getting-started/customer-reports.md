@@ -1,18 +1,19 @@
 ---
 title: Rapporti sui clienti
-description: I rapporti dei clienti disponibili in Adobe Commerce e Magento Open Source forniscono informazioni approfondite sull’attività del cliente durante un determinato periodo di tempo o intervallo di date.
+description: I rapporti dei clienti disponibili in Adobe Commerce e Magento Open Source forniscono ad insight informazioni sull’attività del cliente durante un determinato periodo di tempo o intervallo di date.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
 
 # Rapporti sui clienti
 
-I rapporti dei clienti forniscono informazioni approfondite sull’attività del cliente in un determinato periodo di tempo o intervallo di date.
+I rapporti dei clienti forniscono ad insight informazioni sull’attività del cliente in un determinato periodo di tempo o intervallo di date.
 
 ## [!UICONTROL Order Total Report]
 

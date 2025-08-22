@@ -1,18 +1,19 @@
 ---
 title: '[!DNL Commerce Intelligence] strumenti'
-description: Scopri in che modo Adobe Commerce e gli esercenti di Magento Open Source possono utilizzare gli strumenti di Commerce Intelligence per acquisire le informazioni necessarie per prendere decisioni aziendali efficaci.
+description: Scopri come i commercianti di Adobe Commerce e Magento Open Source possono utilizzare gli strumenti di Commerce Intelligence per ottenere l’insight utilizzato per prendere decisioni aziendali valide.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
 
 # [!DNL Commerce Intelligence] strumenti
 
-Utilizza gli strumenti di Commerce Intelligence per ottenere le informazioni utilizzate per prendere decisioni aziendali valide.
+Utilizza gli strumenti di Commerce Intelligence per ottenere l’insight utilizzato per prendere valide decisioni aziendali.
 
 ## Account [!DNL Commerce Intelligence]
 
@@ -59,7 +60,7 @@ Nella configurazione [!DNL Commerce], [[!DNL Advanced Reporting]](../configurati
 
    * Verificare che **[!UICONTROL Advanced Reporting Service]** sia impostato su `Enable` (impostazione predefinita).
 
-   * Impostare **[!UICONTROL Time of day to send data]** sull&#39;ora, il minuto e il secondo, in base a un orologio di 24 ore, in modo che il servizio riceva i dati aggiornati dall&#39;archivio. Per impostazione predefinita, i dati vengono inviati alle 02:00.
+   * Impostare **[!UICONTROL Time of day to send data]** sull&#39;ora, il minuto e il secondo, in base a un orologio di 24 ore, in modo che il servizio riceva i dati aggiornati dall&#39;archivio. Per impostazione predefinita, i dati vengono inviati alle 2:00.
 
    * In **[!UICONTROL Industry Data]**, scegli **[!UICONTROL Industry]** che descrive meglio la tua attività.
 
@@ -177,6 +178,6 @@ Se la didascalia di `Data last updated...` mostra la data di ieri e non quella d
 {style="table-layout:auto"}
 
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=it
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html
 [2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it
+[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
