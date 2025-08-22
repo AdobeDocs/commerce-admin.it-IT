@@ -3,7 +3,7 @@ title: '[!DNL Commerce Intelligence] strumenti'
 description: Scopri come i commercianti di Adobe Commerce e Magento Open Source possono utilizzare gli strumenti di Commerce Intelligence per ottenere l’insight utilizzato per prendere decisioni aziendali valide.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '1179'
@@ -178,6 +178,6 @@ Se la didascalia di `Data last updated...` mostra la data di ieri e non quella d
 {style="table-layout:auto"}
 
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=it
 [2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
+[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it

@@ -3,7 +3,7 @@ title: Menu [!UICONTROL Reports]
 description: Adobe Commerce e Magento Open Source forniscono un’ampia selezione di rapporti per tenerti informato sulle tue attività di marketing, sui prodotti di vendita e sull’attività dei clienti.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '267'
@@ -37,7 +37,7 @@ La selezione di [rapporti sulle vendite](sales-reports.md) include rapporti su o
 
 ### [!UICONTROL System Insights]
 
-(Solo per Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) fornisce informazioni sul sistema per le installazioni di Adobe Commerce sull&#39;infrastruttura cloud con monitoraggio delle prestazioni in tempo reale 24 ore su 24, 7 giorni su 7, report e consigli.
+(Solo per Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=it) fornisce informazioni sul sistema per le installazioni di Adobe Commerce sull&#39;infrastruttura cloud con monitoraggio delle prestazioni in tempo reale 24 ore su 24, 7 giorni su 7, report e consigli.
 
 ### [!UICONTROL Customers]
 

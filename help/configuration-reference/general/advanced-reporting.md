@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Advanced Reporting]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] &gt; [!UICONTROL Advanced Reporting] dell'amministratore di Commerce.
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '109'
@@ -21,7 +21,7 @@ _[!DNL Advanced Reporting]_&#x200B;è un servizio basato su cloud basato su [Ado
 
 ![Generazione avanzata di rapporti](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/it/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -31,5 +31,5 @@ _[!DNL Advanced Reporting]_&#x200B;è un servizio basato su cloud basato su [Ado
 
 {style="table-layout:auto"}
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html
-[2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=it
+[2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=it#advanced-reporting
