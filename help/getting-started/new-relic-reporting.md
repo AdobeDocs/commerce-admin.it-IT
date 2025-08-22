@@ -257,7 +257,7 @@ Restituisce il numero medio di eventi dell&#39;applicazione per sito Web e archi
 
     SELECT average(StoreViewCount), average(WebsiteCount)
     FROM Cron
-    WHERE nomeApp = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minuti
+    WHERE nomeApp = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 minuti
 
 #### Conteggi correnti per siti Web e store
 
