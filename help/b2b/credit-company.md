@@ -74,7 +74,7 @@ Nella griglia vengono visualizzate le informazioni riportate di seguito per ogni
 | [!UICONTROL Operation] | Tipo di attività associata alla transazione. Valori: <br/>**[!UICONTROL Allocated]**- Credito assegnato alla società.<br/>**[!UICONTROL Updated]** - Modifica applicata a uno dei campi seguenti: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- È stato effettuato un ordine.<br/>**[!UICONTROL Reimbursed]** - Il saldo in sospeso è stato rimborsato. <br/>**[!UICONTROL Refunded]**- Rimborso di un importo della nota di accredito.<br/>**[!UICONTROL Reverted]** - L&#39;ordine è stato annullato e l&#39;importo è stato restituito al saldo a credito. |
 | [!UICONTROL Amount] | Importo della transazione associata ai seguenti tipi di transazione: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Per gli importi di acquisto, l&#39;importo viene visualizzato nella valuta di visualizzazione del punto vendita e nel formato dell&#39;impostazione della valuta di credito, seguito dal tasso di conversione corrente (se applicabile). Ad esempio: <br/>EUR 20.000,00 ($22.400,00) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | Importo rimborsato, meno il totale dovuto per tutti gli ordini effettuati utilizzando il metodo di pagamento in conto. L’importo può apparire come un valore positivo o negativo. <br/>**[!UICONTROL Positive value]**- Un pagamento anticipato è rappresentato come valore positivo.<br/>**[!UICONTROL Negative value]** - Un importo dovuto è rappresentato come valore negativo. |
-| [!UICONTROL Available Credit] | La somma di _[!UICONTROL Credit Limit]_e_[!UICONTROL Outstanding Balance]_. Se l&#39;azienda ha superato il limite di credito, l&#39;importo viene visualizzato come valore negativo. |
+| [!UICONTROL Available Credit] | La somma di _[!UICONTROL Credit Limit]_&#x200B;e_[!UICONTROL Outstanding Balance]_. Se l&#39;azienda ha superato il limite di credito, l&#39;importo viene visualizzato come valore negativo. |
 | [!UICONTROL Credit Limit] | Importo del credito concesso alla società. |
 | [!UICONTROL Updated By] | Nome della persona che ha avviato l&#39;operazione. |
 | [!UICONTROL Custom Reference Number] | Numero di riferimento personalizzato associato alla transazione. |
@@ -167,7 +167,7 @@ Durante la gestione del credito aziendale, implementa solide misure di sicurezza
 
 ## Best practice
 
-* 
+* &#x200B;
    * **Gestione delle politiche creditizie**: durante la gestione del credito aziendale, definire criteri chiari per l&#39;impostazione dei limiti di credito in base alla cronologia dei pagamenti del cliente e alle relazioni commerciali. Esamina regolarmente i saldi in essere e i modelli di pagamento per valutare il rischio e documenta sempre le modifiche alle impostazioni del credito con motivi dettagliati a scopo di audit.
 
 Elaborare i pagamenti in modo rapido per mantenere saldi accurati e garantire l&#39;allineamento delle impostazioni della valuta di credito con le operazioni aziendali principali di ciascuna società.
