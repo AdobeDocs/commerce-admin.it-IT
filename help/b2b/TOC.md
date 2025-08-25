@@ -5,7 +5,7 @@ breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 63585845dc51a0be31102dfe3e4b9074225c490d
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 6%
@@ -30,23 +30,23 @@ ht-degree: 6%
    + [Assegnazione di un gruppo di clienti a una società](account-company-customer-group.md)
    + [Aggiungere clienti a un’azienda](customer-assign-company.md)
    + [Gestisci credito società](credit-company.md)
-   + Utenti società e struttura {#users}
+   + Utenti e struttura dell’azienda {#users}
       + [Account utente società](account-company-users.md)
       + [Ruoli e autorizzazioni aziendali](account-company-roles-permissions.md)
       + [Definire la struttura aziendale](account-company-structure.md)
 + Gestione società {#company-management}
    + [Panoramica](manage-companies.md)
-   + [Gestisci gerarchia società](manage-company-hierarchy.md)
+   + [Gestire le gerarchie aziendali](manage-company-hierarchy.md)
 + Cataloghi condivisi {#shared-catalogs}
    + [Panoramica](catalog-shared.md)
-   + Definisci cataloghi condivisi {#define}
+   + Definire i cataloghi condivisi {#define}
       + [Creare un catalogo condiviso](catalog-shared-create.md)
       + [Aggiungere prodotti a un catalogo condiviso](catalog-shared-product-add.md)
       + [Impostare la struttura e i prezzi del catalogo](catalog-shared-pricing-structure.md)
       + [Assegnare società a un catalogo](catalog-shared-assign-companies.md)
    + [Gestire i cataloghi condivisi](catalog-shared-manage.md)
 + [Ordini rapidi](quick-order.md)
-+ Ordini fornitore {#purchase-orders}
++ Ordini di acquisto {#purchase-orders}
    + [Ordini di acquisto per società](purchase-order-flow.md)
    + [Regole di approvazione](account-dashboard-approval-rules.md)
    + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
@@ -68,4 +68,4 @@ ht-degree: 6%
 + Riferimento {#reference}
    + [Modifiche non compatibili con le versioni precedenti](backward-incompatible-changes.md)
    + [Pacchetti](packages.md)
-+ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
++ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

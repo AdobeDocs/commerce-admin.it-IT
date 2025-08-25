@@ -4,33 +4,69 @@ description: Scopri le linee di credito della società, l’impostazione dei par
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 1fc1e07f20e2c22ac430f384e9e2b278edae405c
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # Gestisci credito società
 
-Se nella configurazione è abilitato [Pagamento in conto](../getting-started/../b2b/enable-basic-features.md#configure-payment-on-account), le società possono effettuare acquisti in conto fino al limite di credito concesso alla società. Quando questa opzione è abilitata, i clienti possono controllare lo stato del credito della loro azienda dal dashboard dei conti.
+Il credito aziendale consente alle aziende B2B di effettuare acquisti sulla base di una linea di credito preapprovata, invece di richiedere un pagamento immediato. Quando [Pagamento sul conto](../b2b/enable-basic-features.md#configure-payment-on-account) è abilitato, le aziende possono acquistare fino al limite di credito e visualizzare lo stato del credito dal dashboard del conto.
 
 ![Credito società](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-È possibile impostare i seguenti parametri relativi al credito per ciascun profilo società:
+Il credito aziendale consente di:
 
-- Divisa credito
-- Limite di credito
-- Consenti di superare il limite di credito
-- Motivo della modifica
+* **Estendi le condizioni di credito**—Consenti ai clienti aziendali attendibili di effettuare acquisti in acconto con pagamento differito
+* **Imposta limiti di credito**—Controlla l&#39;esposizione finanziaria stabilendo limiti di credito per ogni azienda
+* **Tieni traccia dell&#39;attività di credito**—Controlla in tempo reale tutte le transazioni di credito, i pagamenti e i saldi in essere
+* **Semplificazione delle transazioni B2B**—Semplificazione del processo di acquisto per le aziende con relazioni di credito stabilite
+* **Supporto di flussi di lavoro complessi**: integrazione con ordini di acquisto, preventivi e processi di approvazione
 
-Se la società presenta un saldo scoperto, viene visualizzato un avviso all&#39;amministratore del negozio nella parte superiore dell&#39;ordine di vendita quando viene visualizzato dall&#39;amministratore. Per ulteriori informazioni, consulta [Creare un account aziendale](account-company-create.md).
+## Prerequisiti
+
+Prima di impostare il credito aziendale, verificare che:
+
+* Le funzioni B2B sono abilitate nell’installazione di Adobe Commerce
+* [Il pagamento sull&#39;account](../b2b/enable-basic-features.md#configure-payment-on-account) è configurato e abilitato
+* Gli account aziendali sono configurati correttamente con le necessarie informazioni commerciali
+* Si dispone di autorizzazioni amministrative per gestire le impostazioni di credito della società
+* Le impostazioni di valuta sono configurate se si opera in più valute
+
+## Casi d’uso
+
+Il credito aziendale è ideale per:
+
+* **Relazioni B2B consolidate**: clienti aziendali a lungo termine con una comprovata cronologia dei pagamenti
+* **Clienti aziendali di grandi dimensioni**—Aziende che effettuano acquisti significativi e regolari che richiedono termini di pagamento estesi
+* **Aziende stagionali**—Aziende con un flusso di cassa ciclico che necessitano di tempi di pagamento flessibili
+* **Approvvigionamento aziendale**: organizzazioni con centralizzazione degli acquisti ma elaborazione dei pagamenti distribuiti
+* **Partner della catena di fornitura**—Distributori, rivenditori e partner di canale che richiedono linee di credito
+
+## Informazioni sulle impostazioni relative al credito della società
+
+Puoi configurare i seguenti parametri relativi al credito per ciascun profilo aziendale:
+
+* **Divisa credito**—Divisa per tutte le transazioni di credito e i saldi
+* **Limite di credito**: importo massimo che l&#39;azienda può essere in debito in qualsiasi momento
+* **Consenti di superare il limite di credito**— Indica se le società possono effettuare ordini superiori al credito disponibile
+* **Motivo della modifica**—Campo della documentazione per la registrazione delle modifiche alle impostazioni di credito
+
+Per informazioni dettagliate su queste impostazioni e sulla configurazione del profilo società, vedere [Creare un account società](account-company-create.md).
+
+>[!NOTE]
+>
+>Se una società presenta un saldo scoperto, l&#39;amministratore del negozio visualizza un avviso all&#39;inizio degli ordini di vendita quando viene visualizzato dall&#39;amministratore. Questo aiuta a garantire la conoscenza dello stato del credito durante l’elaborazione dell’ordine.
 
 ## Attività di credito società
 
-Nella sezione [!UICONTROL Company Credit] del profilo società viene visualizzato un riepilogo dell&#39;attività di credito del cliente, con una griglia della cronologia credito della società.
+Nella sezione [!UICONTROL Company Credit] del profilo società viene visualizzata una cronologia completa di tutte le transazioni di credito, le modifiche al saldo e le attività di pagamento in un formato griglia.
 
 ![Attività di credito aziendale](./assets/company-credit-reimbursements-grid.png){width="700" zoomable="yes"}
+
+Nella griglia vengono visualizzate le informazioni riportate di seguito per ogni transazione.
 
 | Colonna | Descrizione |
 |--- |--- |
@@ -38,7 +74,7 @@ Nella sezione [!UICONTROL Company Credit] del profilo società viene visualizzat
 | [!UICONTROL Operation] | Tipo di attività associata alla transazione. Valori: <br/>**[!UICONTROL Allocated]**- Credito assegnato alla società.<br/>**[!UICONTROL Updated]** - Modifica applicata a uno dei campi seguenti: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- È stato effettuato un ordine.<br/>**[!UICONTROL Reimbursed]** - Il saldo in sospeso è stato rimborsato. <br/>**[!UICONTROL Refunded]**- Rimborso di un importo della nota di accredito.<br/>**[!UICONTROL Reverted]** - L&#39;ordine è stato annullato e l&#39;importo è stato restituito al saldo a credito. |
 | [!UICONTROL Amount] | Importo della transazione associata ai seguenti tipi di transazione: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Per gli importi di acquisto, l&#39;importo viene visualizzato nella valuta di visualizzazione del punto vendita e nel formato dell&#39;impostazione della valuta di credito, seguito dal tasso di conversione corrente (se applicabile). Ad esempio: <br/>EUR 20.000,00 ($22.400,00) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | Importo rimborsato, meno il totale dovuto per tutti gli ordini effettuati utilizzando il metodo di pagamento in conto. L’importo può apparire come un valore positivo o negativo. <br/>**[!UICONTROL Positive value]**- Un pagamento anticipato è rappresentato come valore positivo.<br/>**[!UICONTROL Negative value]** - Un importo dovuto è rappresentato come valore negativo. |
-| [!UICONTROL Available Credit] | La somma di _[!UICONTROL Credit Limit]_&#x200B;e_[!UICONTROL Outstanding Balance]_. Se l&#39;azienda ha superato il limite di credito, l&#39;importo viene visualizzato come valore negativo. |
+| [!UICONTROL Available Credit] | La somma di _[!UICONTROL Credit Limit]_e_[!UICONTROL Outstanding Balance]_. Se l&#39;azienda ha superato il limite di credito, l&#39;importo viene visualizzato come valore negativo. |
 | [!UICONTROL Credit Limit] | Importo del credito concesso alla società. |
 | [!UICONTROL Updated By] | Nome della persona che ha avviato l&#39;operazione. |
 | [!UICONTROL Custom Reference Number] | Numero di riferimento personalizzato associato alla transazione. |
@@ -49,7 +85,7 @@ Nella sezione [!UICONTROL Company Credit] del profilo società viene visualizzat
 
 ## Aggiornare le informazioni sul credito
 
-Quando il cliente effettua il pagamento del credito in essere all&#39;esercente, l&#39;amministratore del negozio deve quindi aggiornare le informazioni sul credito del cliente nell&#39;amministratore.
+Quando i clienti effettuano pagamenti, gli amministratori aggiornano le informazioni sul credito in Admin.
 
 1. Nella barra laterale _Amministratore_, vai a **Clienti > Aziende**.
 
@@ -79,19 +115,19 @@ Un saldo rimborsato è un pagamento offline effettuato da una società verso il 
 
    ![Saldo rimborso](./assets/company-reimburse-balance.png){width="500"}
 
-   - Immetti l&#39;**importo** del pagamento.
+   * Immetti l&#39;**importo** del pagamento.
 
      L&#39;importo può essere inserito come valore positivo o negativo.
 
-   - Se applicabile, immettere il **Numero di riferimento personalizzato** per riferimento.
+   * Se applicabile, immettere il **Numero di riferimento personalizzato** per riferimento.
 
      È possibile inserire un solo numero di riferimento personalizzato per rimborso. Per applicare il pagamento a più OA, creare un rimborso separato per ciascuno di essi.
 
-   - Se necessario, immetti un **commento** per descrivere il rimborso.
+   * Se necessario, immetti un **commento** per descrivere il rimborso.
 
 1. Fai clic su **Rimborso**.
 
-   Il saldo in sospeso e il credito disponibile della società vengono ricalcolati e la cronologia del credito della società viene aggiornata per riflettere il rimborso.
+   Il sistema aggiorna automaticamente i saldi e la cronologia dei crediti per riflettere il rimborso.
 
 ### Modificare un rimborso
 
@@ -109,9 +145,7 @@ Un saldo rimborsato è un pagamento offline effettuato da una società verso il 
 
 ## Informazioni sul credito Storefront
 
-Per l&#39;amministratore della società, nel dashboard account viene visualizzata la sezione _Credito società_. Fornisce il saldo in sospeso corrente, il credito disponibile e il limite di credito allocato al conto della società seguito da un elenco di fatture in sospeso.
-
-Se il commerciante annulla un ordine addebitato al credito aziendale, l&#39;importo dell&#39;ordine viene restituito al saldo della società e la _cronologia allocazioni credito_ include un record dell&#39;azione.
+Gli amministratori della società possono visualizzare le informazioni sul credito nel pannello di controllo del conto, inclusi il saldo in sospeso, il credito disponibile, il limite di credito e le fatture in sospeso. Quando gli ordini vengono annullati, gli importi vengono restituiti al saldo della società e vengono visualizzati nel campo Cronologia allocazione credito.
 
 ![Credito società](./assets/company-credit.png){width="700" zoomable="yes"}
 
@@ -119,4 +153,32 @@ Se il commerciante annulla un ordine addebitato al credito aziendale, l&#39;impo
 
 Scopri come gestire il credito aziendale guardando questo video dimostrativo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410760?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+
+## Considerazioni sulla sicurezza
+
+Durante la gestione del credito aziendale, implementa solide misure di sicurezza per proteggere i dati finanziari sensibili:
+
+* **Controllo dell&#39;accesso**—Limita le autorizzazioni di gestione del credito solo al personale autorizzato
+* **Audit Trail**: gestione di registri completi di tutte le transazioni e le modifiche di credito
+* **Protezione dei dati**: crittografia delle informazioni finanziarie riservate sia in transito che a riposo
+* **Flussi di lavoro di approvazione**—Implementare processi di approvazione a più livelli per adeguamenti di credito significativi
+* **Revisioni regolari**—Eseguire controlli periodici dell&#39;accesso utente e delle relazioni di credito
+
+## Best practice
+
+* 
+   * **Gestione delle politiche creditizie**: durante la gestione del credito aziendale, definire criteri chiari per l&#39;impostazione dei limiti di credito in base alla cronologia dei pagamenti del cliente e alle relazioni commerciali. Esamina regolarmente i saldi in essere e i modelli di pagamento per valutare il rischio e documenta sempre le modifiche alle impostazioni del credito con motivi dettagliati a scopo di audit.
+
+Elaborare i pagamenti in modo rapido per mantenere saldi accurati e garantire l&#39;allineamento delle impostazioni della valuta di credito con le operazioni aziendali principali di ciascuna società.
+
+* **Conformità e sicurezza**: limita le autorizzazioni di gestione del credito solo al personale autorizzato, implementa flussi di lavoro di approvazione per adeguamenti del credito significativi e proteggi le informazioni finanziarie sensibili in base ai criteri di sicurezza della tua organizzazione. Revisioni regolari dell’accesso degli utenti e delle relazioni di credito contribuiscono a mantenere una supervisione e una conformità corrette.
+
+>[!MORELIKETHIS]
+>
+>* [Abilita funzionalità B2B](enable-basic-features.md) * Configura pagamento in conto e altre funzionalità B2B
+>* [Creare un account società](account-company-create.md) * Configurare account società con funzionalità di credito
+>* [Gestione società](manage-companies.md) * Panoramica delle funzionalità di gestione società
+>* [Ruoli e autorizzazioni società](account-company-roles-permissions.md) * Configurare l&#39;accesso degli utenti per la gestione del credito
+>* [Flusso di lavoro ordine di acquisto](purchase-order-flow.md) * Comprendere in che modo il credito si integra con gli ordini di acquisto
+>* [Riferimento configurazione B2B](../configuration-reference/general/b2b-features.md) - Impostazioni di configurazione dettagliate per le funzionalità B2B
