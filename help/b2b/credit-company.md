@@ -153,7 +153,7 @@ Gli amministratori della società possono visualizzare le informazioni sul credi
 
 Scopri come gestire il credito aziendale guardando questo video dimostrativo:
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410760?quality=12&learn=on&captions=ita)
 
 ## Considerazioni sulla sicurezza
 
