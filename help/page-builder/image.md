@@ -1,9 +1,9 @@
 ---
 title: Media - Immagine
-description: Scopri il tipo di contenuto Immagine, utilizzato per aggiungere un'immagine JPG GIF o PNG all'area di visualizzazione  [!DNL Page Builder] .
+description: Scopri il tipo di contenuto Immagine, utilizzato per aggiungere un'immagine JPG, GIF o PNG all'area di visualizzazione  [!DNL Page Builder] .
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Media - Immagine
 
-Utilizza il tipo di contenuto _Immagine_ per aggiungere un&#39;immagine JPG GIF o PNG alla [[!DNL Page Builder] fase](workspace.md#stage). Oltre all&#39;immagine desktop predefinita, è possibile specificare un&#39;immagine secondaria per i dispositivi mobili. Puoi anche aggiungere una didascalia che appare sotto l&#39;immagine e collegarla a qualsiasi URL, prodotto, categoria o pagina.
+Utilizza il tipo di contenuto _Immagine_ per aggiungere un&#39;immagine JPG, GIF o PNG alla [[!DNL Page Builder] fase](workspace.md#stage). Oltre all&#39;immagine desktop predefinita, è possibile specificare un&#39;immagine secondaria per i dispositivi mobili. Puoi anche aggiungere una didascalia che appare sotto l&#39;immagine e collegarla a qualsiasi URL, prodotto, categoria o pagina.
 
 >[!TIP]
 >
@@ -56,9 +56,9 @@ La casella degli strumenti Immagine viene visualizzata quando passi il cursore d
 
    >[!NOTE]
    >
-   >La dimensione massima del file è di 4 MB. I tipi di file supportati sono JPG GIF e PNG.
+   >La dimensione massima del file è di 4 MB. I tipi di file supportati sono JPG, GIF e PNG.
 
-   - _&#x200B;**Carica una nuova immagine**&#x200B;_: utilizzare questo metodo per caricare un nuovo file di immagine dal sistema.
+   - _**Carica una nuova immagine**_: utilizzare questo metodo per caricare un nuovo file di immagine dal sistema.
 
       - Fare clic su **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ La casella degli strumenti Immagine viene visualizzata quando passi il cursore d
 
      In alternativa, puoi anche trascinare un file di immagine dal sistema e rilasciarlo sull&#39;icona _Fotocamera_ ( ![Icona fotocamera](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _&#x200B;**Seleziona una risorsa esistente**&#x200B;_: utilizza questo metodo per selezionare una risorsa immagine esistente dall&#39;archivio multimediale o dalla raccolta.
+   - _**Seleziona una risorsa esistente**_: utilizza questo metodo per selezionare una risorsa immagine esistente dall&#39;archivio multimediale o dalla raccolta.
 
       - Fare clic su **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ La casella degli strumenti Immagine viene visualizzata quando passi il cursore d
 
         ![Aggiunta di un&#39;immagine selezionata](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Cerca e seleziona un&#39;immagine Adobe Stock**&#x200B;_: utilizza questo metodo per trovare un&#39;immagine da Adobe Stock.
+   - _**Cerca e seleziona un&#39;immagine Adobe Stock**_: utilizza questo metodo per trovare un&#39;immagine da Adobe Stock.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ Il nome del file, le dimensioni e le dimensioni vengono visualizzati sotto l&#39
 
 1. Per modificare **[!UICONTROL Image]** corrente, eseguire una delle operazioni seguenti:
 
-   - _&#x200B;**Carica una nuova immagine**&#x200B;_: utilizzare questo metodo per caricare un nuovo file di immagine dal sistema.
+   - _**Carica una nuova immagine**_: utilizzare questo metodo per caricare un nuovo file di immagine dal sistema.
 
       - Fare clic su **[!UICONTROL Upload Image]**.
 
       - Individua e scegli l’immagine da aggiungere alla galleria e al contenitore di destinazione.
 
-   - _&#x200B;**Seleziona una risorsa esistente**&#x200B;_: utilizza questo metodo per selezionare una risorsa immagine esistente dall&#39;archivio multimediale o dalla raccolta.
+   - _**Seleziona una risorsa esistente**_: utilizza questo metodo per selezionare una risorsa immagine esistente dall&#39;archivio multimediale o dalla raccolta.
 
       - Fare clic su **[!UICONTROL Select from Gallery]**.
 
@@ -258,3 +258,5 @@ Il testo di queste impostazioni è visibile ai motori di ricerca e migliora l’
   | [!UICONTROL Padding] | Quantità di spazio vuoto applicata al bordo interno di tutti i lati del contenitore. |
 
   {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

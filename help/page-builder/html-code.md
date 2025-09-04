@@ -3,7 +3,7 @@ title: Elementi - Codice HTML
 description: Scopri il tipo di contenuto Codice HTML, utilizzato per aggiungere snippet di codice HTML, CSS e JavaScript nella fase  [!DNL Page Builder] .
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Elementi - Codice HTML
 
-Utilizza il tipo di contenuto _Codice HTML_ per aggiungere snippet di codice HTML, CSS e JavaScript in [[!DNL Page Builder] stage](workspace.md#stage). Ad esempio, potrebbe essere utile aggiungere HTML personalizzati, dichiarare una classe CSS che può essere applicata a un elemento della pagina. In alternativa, è possibile aggiungere uno snippet di codice per un logo, un pulsante o un banner ricevuto da un provider di terze parti.
+Utilizza il tipo di contenuto _Codice HTML_ per aggiungere snippet di codice HTML, CSS e JavaScript in [[!DNL Page Builder] stage](workspace.md#stage). Ad esempio, potrebbe essere utile aggiungere codice HTML personalizzato e dichiarare una classe CSS che può essere applicata a un elemento della pagina. In alternativa, è possibile aggiungere uno snippet di codice per un logo, un pulsante o un banner ricevuto da un provider di terze parti.
 
 ## Casella degli strumenti Codice HTML
 
@@ -76,7 +76,7 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
 
    ![Codice HTML e stili](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Aggiornare le impostazioni rimanenti in base alle esigenze (vedere [Modificare le impostazioni del codice HTML](#html-settings) per ulteriori dettagli).
+1. Aggiornare le impostazioni rimanenti in base alle esigenze (per ulteriori informazioni, vedere [Modificare le impostazioni del codice HTML](#html-settings)).
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
@@ -84,7 +84,7 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
 
 ### Passaggio 3: visualizzare l’anteprima della pagina
 
-1. Nella sezione _[!UICONTROL Currently Active]_, impostare **[!UICONTROL Enable Page]**&#x200B;su `Yes`.
+1. Nella sezione _[!UICONTROL Currently Active]_, impostare **[!UICONTROL Enable Page]**su `Yes`.
 
    ![Abilitazione della pagina](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -106,11 +106,11 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
 
    | Pulsante | Descrizione |
    | ------ | ----------- |
-   | Inserisci widget... | Fate clic su per inserire un widget nella posizione del cursore nella casella di testo HTML. |
-   | Inserisci immagine... | Fare clic per inserire un&#39;immagine caricata o un&#39;immagine dalla raccolta nella posizione del cursore nella casella di testo HTML. |
-   | Inserisci variabile... | Fare clic per inserire una variabile nella posizione del cursore nella casella di testo HTML. |
+   | Inserisci widget... | Fare clic per inserire un widget nella posizione del cursore nella casella di testo HTML. |
+   | Inserisci immagine... | Fare clic per inserire un&#39;immagine caricata o un&#39;immagine dalla raccolta nella posizione del cursore nella casella di testo di HTML. |
+   | Inserisci variabile... | Fare clic per inserire una variabile in corrispondenza della posizione del cursore nella casella di testo di HTML. |
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
 
    - Per controllare il posizionamento del codice all&#39;interno del contenitore padre, scegliere un **[!UICONTROL Alignment]**:
 
@@ -164,3 +164,5 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
      | [!UICONTROL Padding] | Quantità di spazio vuoto applicata al bordo interno di tutti i lati del contenitore. Opzioni: `Top` / `Right` / `Bottom` / `Left` |
 
 [1]: https://fonts.google.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

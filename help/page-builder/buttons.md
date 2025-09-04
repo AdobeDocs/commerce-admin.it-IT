@@ -3,7 +3,7 @@ title: Elementi - Pulsanti
 description: Scopri il tipo di contenuto Pulsanti, utilizzato per aggiungere un singolo pulsante o un set di pulsanti nella fase  [!DNL Page Builder] .
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -103,9 +103,9 @@ Quando si utilizza il tipo di contenuto Pulsanti, è possibile aggiungere e modi
 
      ![Scelta di una categoria per il collegamento del pulsante](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Page]** - Immettere il nome di una pagina CMS (parziale o completa) o fare clic nel campo vuoto per visualizzare l&#39;elenco completo. Scegliere quindi il nome della pagina nell&#39;elenco dei risultati della ricerca.
+   - **[!UICONTROL Page]** - Immettere il nome di una pagina CMS (parziale o completa) oppure fare clic nel campo vuoto per visualizzare l&#39;elenco completo. Scegliere quindi il nome della pagina nell&#39;elenco dei risultati della ricerca.
 
-     ![Scegli la pagina CMS per il collegamento del pulsante](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
+     ![Scegliere la pagina CMS per il collegamento del pulsante](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
 1. Completa le [impostazioni avanzate][advanced-settings] in base alle esigenze.
 
@@ -161,7 +161,7 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
    ![Casella degli strumenti contenitore pulsanti](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. In _[!UICONTROL Appearance]_&#x200B;scegliere **[!UICONTROL Stacked]**.
+1. In _[!UICONTROL Appearance]_scegliere **[!UICONTROL Stacked]**.
 
 1. Imposta **[!UICONTROL All Buttons are same size]** su `Yes`.
 
@@ -243,7 +243,7 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
 ## Modificare le impostazioni avanzate
 
-È possibile modificare le impostazioni di _[!UICONTROL Advanced]_&#x200B;per i singoli pulsanti e per il contenitore di pulsanti.
+È possibile modificare le impostazioni di _[!UICONTROL Advanced]_per i singoli pulsanti e per il contenitore di pulsanti.
 
 1. Per controllare il posizionamento all&#39;interno del contenitore padre, scegliere **[!UICONTROL Alignment]**:
 
@@ -300,3 +300,5 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

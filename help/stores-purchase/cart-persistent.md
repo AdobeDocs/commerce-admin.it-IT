@@ -3,7 +3,7 @@ title: Persistenza carrello
 description: Scopri in che modo un carrello permanente tiene traccia degli articoli del carrello non acquistati e salva le informazioni per la visita successiva del cliente.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1038'
 ht-degree: 0%
@@ -28,17 +28,17 @@ Per gestire l&#39;utilizzo della persistenza del carrello per il sito o all&#39;
 
 Quando il carrello acquisti permanente è [abilitato](#configure-a-persistent-cart), il flusso di lavoro dipende da:
 
-- I valori delle impostazioni _[!UICONTROL Enable Remember Me]_&#x200B;e_[!UICONTROL Clear Persistence on Log Out]_
+- I valori delle impostazioni _[!UICONTROL Enable Remember Me]_e_[!UICONTROL Clear Persistence on Log Out]_
 - La decisione del cliente di selezionare o deselezionare la casella di controllo _[!UICONTROL Remember Me]_
 - Quando il cookie persistente viene cancellato
 
 Alla scadenza della sessione del cliente, un collegamento `Not Jane Smith?` viene visualizzato nell&#39;intestazione della pagina nelle seguenti condizioni:
-- il cliente connesso ha selezionato l&#39;opzione _[!UICONTROL Remember Me]_&#x200B;e viene applicato un cookie persistente
-- il cliente si disconnette quando il sistema è configurato con _[!UICONTROL Clear Persistence on Sign Out]_&#x200B;impostato su `No`.
+- il cliente connesso ha selezionato l&#39;opzione _[!UICONTROL Remember Me]_e viene applicato un cookie persistente
+- il cliente si disconnette quando il sistema è configurato con _[!UICONTROL Clear Persistence on Sign Out]_impostato su `No`.
 
 Il sistema conserva un record dei contenuti del carrello sul dispositivo corrente, anche se la sessione di accesso scade. Il collegamento `Not Jane Smith?` consente al cliente di terminare la sessione persistente e iniziare a lavorare come ospite o di accedere come un altro cliente o lo stesso cliente.
 
-Se il cliente ha selezionato la casella di controllo _[!UICONTROL Remember Me]_&#x200B;durante l&#39;accesso, l&#39;archivio crea e mantiene un cookie persistente separato. Questo cookie consente di mantenere accessibile il carrello del cliente anche dopo la chiusura del browser o la navigazione a un sito diverso e la scadenza della sessione di accesso.
+Se il cliente ha selezionato la casella di controllo _[!UICONTROL Remember Me]_durante l&#39;accesso, l&#39;archivio crea e mantiene un cookie persistente separato. Questo cookie consente di mantenere accessibile il carrello del cliente anche dopo la chiusura del browser o la navigazione a un sito diverso e la scadenza della sessione di accesso.
 
 Se lo stesso cliente visita il tuo negozio utilizzando più browser durante l’accesso o mentre è attiva una sessione persistente, le modifiche apportate dal cliente al contenuto del carrello in un browser si riflettono in altri browser quando la pagina viene aggiornata.
 
@@ -48,7 +48,7 @@ Se lo stesso cliente visita il tuo negozio utilizzando più browser durante l’
 
 ### Comportamento della casella di controllo &quot;Ricorda utente&quot;
 
-I clienti possono selezionare la casella di controllo _[!UICONTROL Remember Me]_&#x200B;nella pagina di accesso, nel popup di autenticazione, negli accessi di checkout o durante la creazione di un nuovo account per mantenere il contenuto del carrello accessibile sul dispositivo corrente alla scadenza della sessione di login.
+I clienti possono selezionare la casella di controllo _[!UICONTROL Remember Me]_nella pagina di accesso, nel popup di autenticazione, negli accessi di checkout o durante la creazione di un nuovo account per mantenere il contenuto del carrello accessibile sul dispositivo corrente alla scadenza della sessione di login.
 
 | Ti Ricordi Di Me? | Risultato |
 | ------------ |  ------ |
@@ -89,3 +89,5 @@ Per utilizzare il carrello acquisti persistente, il browser del cliente deve ess
 Per ulteriori informazioni su come queste impostazioni di configurazione influiscono sul flusso di lavoro del cliente, vedere [Flusso di lavoro del carrello permanente](#persistent-cart-workflow).
 
 {{$include /help/_includes/persistent-cart-configuration.md}}
+
+<!-- Last updated from includes: 2024-10-31 10:02:14 -->

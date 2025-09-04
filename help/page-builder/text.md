@@ -3,7 +3,7 @@ title: Elementi - Testo
 description: Scopri il tipo di contenuto Testo, utilizzato per aggiungere un contenitore di testo nella fase  [!DNL Page Builder] .
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Per creare un collegamento per un numero di telefono o un&#39;e-mail, vedere [Ag
 
 1. Aggiorna il contenuto in base alle esigenze.
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
 
    - Per controllare il posizionamento del testo all&#39;interno del contenitore principale, scegliere un **[!UICONTROL Alignment]**:
 
@@ -170,3 +170,5 @@ Per creare un collegamento per un numero di telefono o un&#39;e-mail, vedere [Ag
      {style="table-layout:auto"}
 
 1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

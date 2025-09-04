@@ -3,7 +3,7 @@ title: Media - Cursore
 description: Scopri il tipo di contenuto Slider, utilizzato per aggiungere una presentazione di immagini allo stage  [!DNL Page Builder] .
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '3810'
 ht-degree: 0%
@@ -256,7 +256,7 @@ Un tipo di sfondo può essere un&#39;immagine o un video. [!DNL Page Builder] ut
 
 ### Impostazioni del tipo di immagine
 
-Se si imposta _[!UICONTROL Background Type]_&#x200B;su `Image`, utilizzare le impostazioni seguenti per definire la visualizzazione dell&#39;immagine di sfondo.
+Se si imposta _[!UICONTROL Background Type]_su `Image`, utilizzare le impostazioni seguenti per definire la visualizzazione dell&#39;immagine di sfondo.
 
 ![Banner con immagine di sfondo](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ Se si imposta il _Tipo di sfondo_ su `Video`, utilizzare le impostazioni seguent
 
 1. Fai clic sul punto di navigazione nella parte inferiore del cursore per visualizzare la casella degli strumenti per la singola diapositiva e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Nella sezione _[!UICONTROL Content]_, immettere **[!UICONTROL Message Text]**&#x200B;che si desidera visualizzare con la diapositiva.
+1. Nella sezione _[!UICONTROL Content]_, immettere **[!UICONTROL Message Text]**che si desidera visualizzare con la diapositiva.
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Content]_&#x200B;e utilizza l&#39;editor **[!UICONTROL Message Text]**&#x200B;per immettere e formattare il testo del banner.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Content]_e utilizza l&#39;editor **[!UICONTROL Message Text]**per immettere e formattare il testo del banner.
 
    È inoltre possibile inserire elementi quali collegamenti di testo, immagini e widget.
 
@@ -621,3 +621,5 @@ Se desideri un titolo sopra il cursore, aggiungi semplicemente un [tipo di conte
    Quando visualizzi l’anteprima del cursore, ridimensiona la finestra in modo da visualizzarne l’aspetto su un dispositivo mobile.
 
    ![Anteprima cursore - visualizzazione mobile](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

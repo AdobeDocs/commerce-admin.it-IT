@@ -3,7 +3,7 @@ title: Aggiungi contenuto - Prodotti
 description: Scopri il tipo di contenuto Prodotti, utilizzato per aggiungere un elenco di prodotti alla fase  [!DNL Page Builder] .
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -252,3 +252,5 @@ Se hai configurato un carosello di prodotto, questo dovrebbe essere simile al se
 ![Carosello prodotti sullo stage](./assets/pb-products-admin-carousel.png){width="600"}
 
 È ora possibile utilizzare un [widget](../content-design/widgets.md) per posizionare il blocco in qualsiasi punto dell&#39;archivio. In alternativa, è possibile utilizzare [Aggiungi contenuto - Blocco](block.md) per aggiungere il blocco a una pagina, una scheda o un blocco esistente.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

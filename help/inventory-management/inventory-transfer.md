@@ -3,7 +3,7 @@ title: Trasferisci magazzino all'origine
 description: Scopri in che modo i commercianti multi-sorgente possono trasferire l’inventario dei prodotti da una posizione di origine a un’altra.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -53,3 +53,5 @@ Questa opzione consente di selezionare uno o più prodotti, l&#39;origine di ori
 1. Fare clic su **[!UICONTROL Transfer Inventory]**.
 
    Tutte le quantità di prodotto vengono detratte dall&#39;origine e aggiunte all&#39;origine di destinazione. La quantità e la quantità vendibile vengono aggiornate automaticamente.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

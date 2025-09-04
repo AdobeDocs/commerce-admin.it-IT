@@ -3,7 +3,7 @@ title: Elementi - Intestazione
 description: Scopri il tipo di contenuto Titolo, utilizzato per aggiungere allo stadio  [!DNL Page Builder]  un contenitore di testo con un livello di intestazione da H1 a H6.
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 I livelli di intestazione stabiliscono una gerarchia che organizza il contenuto e aiuta i motori di ricerca a indicizzare ogni pagina. Utilizzare il tipo di contenuto _Intestazione_ nella [[!DNL Page Builder] fase](workspace.md#stage) per aggiungere all&#39;area di visualizzazione un contenitore di testo con un livello di intestazione da H1 a H6. Le intestazioni vengono formattate in base al foglio di stile associato al tema corrente.
 
-Il campo [Intestazione contenuto](workspace.md) nella sezione _[!UICONTROL Content]_&#x200B;può essere utilizzato per aggiungere un&#39;intestazione H1 nella parte superiore della pagina. Tuttavia, il campo è legacy rispetto alle versioni precedenti di [!DNL Commerce] ed è fornito per supportare contenuti meno recenti. Questo campo non sfrutta le funzionalità avanzate di [!DNL Page Builder]. È consigliabile lasciare vuoto il campo Intestazione contenuto e utilizzare il tipo di contenuto Intestazione [!DNL Page Builder] per aggiungere alla pagina titoli di qualsiasi livello.
+Il campo [Intestazione contenuto](workspace.md) nella sezione _[!UICONTROL Content]_può essere utilizzato per aggiungere un&#39;intestazione H1 nella parte superiore della pagina. Tuttavia, il campo è legacy rispetto alle versioni precedenti di [!DNL Commerce] ed è fornito per supportare contenuti meno recenti. Questo campo non sfrutta le funzionalità avanzate di [!DNL Page Builder]. È consigliabile lasciare vuoto il campo Intestazione contenuto e utilizzare il tipo di contenuto Intestazione [!DNL Page Builder] per aggiungere alla pagina titoli di qualsiasi livello.
 
 L’esempio seguente mostra come vengono visualizzati l’intestazione di contenuto e il tipo di contenuto Intestazione quando vengono formattati dal tema Luma.
 
@@ -74,7 +74,7 @@ Come per tutti i contenitori di contenuto, la casella degli strumenti viene visu
 
    Puoi anche aggiornare questo contenuto nell’editor delle intestazioni.
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
 
    - Per controllare il posizionamento dell&#39;intestazione all&#39;interno del contenitore padre, scegliere un **[!UICONTROL Alignment]**:
 
@@ -154,3 +154,5 @@ Per un titolo formattato con impostazioni specifiche, è più efficiente duplica
 1. Se si desidera modificare il livello di intestazione, fare clic sul testo dell&#39;intestazione e scegliere il nuovo livello nella barra degli strumenti dell&#39;editor.
 
    ![Scelta di un nuovo livello di intestazione](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

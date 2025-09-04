@@ -3,7 +3,7 @@ title: Prodotto scaricabile
 description: Scopri come creare un prodotto scaricabile da distribuire come file digitale.
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Le istruzioni seguenti illustrano il processo di creazione di un prodotto scaric
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere `Downloadable Product` dal menu _[!UICONTROL Add Product]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ) nell&#39;angolo superiore destro.
+1. Scegliere _[!UICONTROL Add Product]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu`Downloadable Product` ) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto scaricabile](./assets/product-add-downloadable.png){width="700" zoomable="yes"}
 
@@ -147,7 +147,7 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 1. Per inserire il prodotto nell&#39;elenco [ dei nuovi prodotti](../content-design/widget-new-products-list.md), selezionare la casella di controllo **[!UICONTROL Set Product as New]**.
 
-1. Per assegnare _[!UICONTROL Categories]_&#x200B;al prodotto, fare clic sulla casella **[!UICONTROL Select…]**&#x200B;ed eseguire una delle operazioni seguenti:
+1. Per assegnare _[!UICONTROL Categories]_al prodotto, fare clic sulla casella **[!UICONTROL Select…]**ed eseguire una delle operazioni seguenti:
 
    **Scegliere una categoria esistente**:
 
@@ -178,15 +178,15 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 ### Passaggio 5: completare le informazioni scaricabili
 
-Scorrere verso il basso, espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Downloadable Information]_&#x200B;e selezionare la casella di controllo **[!UICONTROL Is this downloadable product?]**.
+Scorrere verso il basso, espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Downloadable Information]_e selezionare la casella di controllo **[!UICONTROL Is this downloadable product?]**.
 
-Se abilitata, la sezione _[!UICONTROL Downloadable Information]_&#x200B;è composta da due parti. La prima parte descrive ogni collegamento di download e la seconda descrive ogni file di esempio. Il valore predefinito per molte di queste opzioni può essere impostato nella [configurazione](#configure-the-download-options).
+Se abilitata, la sezione _[!UICONTROL Downloadable Information]_è composta da due parti. La prima parte descrive ogni collegamento di download e la seconda descrive ogni file di esempio. Il valore predefinito per molte di queste opzioni può essere impostato nella [configurazione](#configure-the-download-options).
 
 ![Informazioni scaricabili](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Completa i collegamenti
 
-1. Nella sezione _[!UICONTROL Links]_, immetti **[!UICONTROL Title]**&#x200B;che desideri utilizzare come intestazione per i collegamenti di download.
+1. Nella sezione _[!UICONTROL Links]_, immetti **[!UICONTROL Title]**che desideri utilizzare come intestazione per i collegamenti di download.
 
 1. Se applicabile, selezionare la casella di controllo **[!UICONTROL Links can be purchased separately]**.
 
@@ -201,7 +201,7 @@ Se abilitata, la sezione _[!UICONTROL Downloadable Information]_&#x200B;è compo
 
    >[!NOTE]
    >
-   >Non è possibile utilizzare collegamenti a risorse esterne come prodotti scaricabili. I domini di collegamento validi sono predefiniti a livello di programmazione nel file `env.php` (vedi [riferimento env.php](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=it) nella _Guida alla configurazione_).
+   >Non è possibile utilizzare collegamenti a risorse esterne come prodotti scaricabili. I domini di collegamento validi sono predefiniti a livello di programmazione nel file `env.php` (vedi [riferimento env.php](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) nella _Guida alla configurazione_).
 
    - Imposta **[!UICONTROL Shareable]** su uno dei seguenti:
 
@@ -222,7 +222,7 @@ Se abilitata, la sezione _[!UICONTROL Downloadable Information]_&#x200B;è compo
 
 #### Completa gli esempi
 
-1. Nella sezione _[!UICONTROL Samples]_, immetti **[!UICONTROL Title]**&#x200B;che desideri utilizzare come intestazione per i campioni.
+1. Nella sezione _[!UICONTROL Samples]_, immetti **[!UICONTROL Title]**che desideri utilizzare come intestazione per i campioni.
 
 1. Per completare le informazioni per ogni campione, fare clic su **[!UICONTROL Add Link]**.
 
@@ -254,7 +254,7 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 - [Progettazione](settings-advanced-design.md)
 - [Opzioni regalo](product-gift-options.md)
 
-### Passaggio 7: Publish del prodotto
+### Passaggio 7: pubblicare il prodotto
 
 Se si è pronti a pubblicare il prodotto nel catalogo, impostare **[!UICONTROL Enable Product]** su `Yes` ed eseguire una delle operazioni seguenti:
 
@@ -270,11 +270,11 @@ Se si è pronti a pubblicare il prodotto nel catalogo, impostare **[!UICONTROL E
 
 **Metodo 2:** Salva e chiudi
 
-Scegliere **[!UICONTROL Save & Close]** dal menu _[!UICONTROL Save]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ).
+Scegliere _[!UICONTROL Save]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
 
 ## Esperienza vetrina
 
-Nel dashboard dell&#39;account cliente, la pagina _[!UICONTROL My Downloadable Products]_&#x200B;è collegata a ogni ordine di prodotti scaricabili. I download diventano disponibili dal conto del cliente quando l&#39;ordine è completato.
+Nel dashboard dell&#39;account cliente, la pagina _[!UICONTROL My Downloadable Products]_è collegata a ogni ordine di prodotti scaricabili. I download diventano disponibili dal conto del cliente quando l&#39;ordine è completato.
 
 ![Prodotti scaricabili](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ Nella tabella seguente sono descritti i valori di _Prodotti scaricabili_:
 | [!UICONTROL Status] | Stato elaborazione ordine. |
 | [!UICONTROL Remaining Downloads] | Numero di download disponibili del prodotto scaricato. |
 
-_&#x200B;**Per scaricare un file di prodotto dal dashboard account**&#x200B;_
+_**Per scaricare un file di prodotto dal dashboard account**_
 
 1. Nel dashboard account, il cliente sceglie **[!UICONTROL My Downloadable Products]**.
 
@@ -297,3 +297,5 @@ _&#x200B;**Per scaricare un file di prodotto dal dashboard account**&#x200B;_
 1. Nell&#39;angolo inferiore destro della finestra di download, fai clic sull&#39;icona _download_.
 
 1. Individua il file nel percorso di download e lo salva nel percorso desiderato.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

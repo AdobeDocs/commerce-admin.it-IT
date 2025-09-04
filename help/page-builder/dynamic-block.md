@@ -3,7 +3,7 @@ title: Aggiungi contenuto - Blocco dinamico
 description: Scopri il tipo di contenuto Blocco dinamico, utilizzato per aggiungere un blocco dinamico riutilizzabile alla fase  [!DNL Page Builder] .
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -164,3 +164,5 @@ Utilizza il tipo di contenuto Blocco dinamico per aggiungere un [blocco dinamico
 1. Passa il puntatore del mouse sul contenitore del blocco dinamico per visualizzare la casella degli strumenti e scegli l&#39;icona _Rimuovi_ ( ![Icona Rimuovi](./assets/pb-icon-remove.png){width="20"} ).
 
 1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL OK]**.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: Aggiungi contenuto - Blocca
 description: Scopri il tipo di contenuto Blocca, utilizzato per aggiungere un blocco riutilizzabile alla fase  [!DNL Page Builder] .
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -146,3 +146,5 @@ Utilizza il tipo di contenuto _Blocca_ per aggiungere un [blocco](../content-des
 1. Passa il puntatore del mouse sul contenitore di blocchi per visualizzare la casella degli strumenti e scegli l&#39;icona _Rimuovi_ (![Rimuovi icona](./assets/pb-icon-remove.png)).
 
 1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL OK]**.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: Tag di markup
 description: Scopri i tag di markup che contengono snippet di codice per fare riferimento a un oggetto nell’archivio.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Tag di markup
 
-Un tag di markup è una direttiva che contiene uno snippet di codice con un riferimento relativo a un oggetto nell’archivio, ad esempio una variabile, un URL, un’immagine o un blocco. I tag di markup possono essere utilizzati ovunque sia disponibile l&#39;editor e incorporati nel HTML di [modelli e-mail](email-templates.md) e [newsletter](../merchandising-promotions/newsletter-template.md), nonché in altri tipi di [contenuto](../content-design/introduction.md#content).
+Un tag di markup è una direttiva che contiene uno snippet di codice con un riferimento relativo a un oggetto nell’archivio, ad esempio una variabile, un URL, un’immagine o un blocco. I tag di markup possono essere utilizzati ovunque sia disponibile l&#39;editor e incorporati nel HTML dei modelli [email](email-templates.md) e [newsletter](../merchandising-promotions/newsletter-template.md), nonché di altri tipi di [content](../content-design/introduction.md#content).
 
 I tag di markup sono racchiusi tra parentesi graffe e doppie e possono essere generati dallo strumento Widget o digitati direttamente nel contenuto di HTML. Ad esempio, invece di utilizzare come codifica fissa il percorso completo di una pagina, puoi utilizzare un tag di markup per rappresentare l’URL del negozio. I tag di markup descritti negli esempi seguenti includono:
 
@@ -38,13 +38,13 @@ Il tag di markup URL per elementi multimediali dinamici rappresenta la posizione
 
 ## ID blocco
 
-Il tag di markup Block ID (ID blocco) è uno dei più semplici da utilizzare e può essere utilizzato per posizionare un blocco direttamente su una pagina CMS o anche nidificato all’interno di un altro blocco. Puoi utilizzare questa tecnica per modificare un blocco per diverse promozioni o lingue. Il tag di markup ID blocco fa riferimento a un blocco tramite il relativo identificatore.
+Il tag di markup Block ID (ID blocco) è uno dei più semplici da utilizzare e può essere utilizzato per inserire un blocco direttamente in una pagina CMS o anche nidificato all’interno di un altro blocco. Puoi utilizzare questa tecnica per modificare un blocco per diverse promozioni o lingue. Il tag di markup ID blocco fa riferimento a un blocco tramite il relativo identificatore.
 
 \{\{block id=&#39;block-id&#39;}}
 
 ## Tag modello
 
-Un tag modello fa riferimento a un file modello PHTML e può essere utilizzato per visualizzare il blocco su una pagina CMS o su un blocco statico. Il codice nell&#39;esempio seguente può essere aggiunto a una pagina o a un blocco per visualizzare il modulo Contattaci.
+Un tag modello fa riferimento a un file modello PHTML e può essere utilizzato per visualizzare il blocco in una pagina CMS o in un blocco statico. Il codice nell&#39;esempio seguente può essere aggiunto a una pagina o a un blocco per visualizzare il modulo Contattaci.
 
 \{\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;}}
 
@@ -66,7 +66,7 @@ Il codice nell’esempio successivo può essere aggiunto a una pagina o a un blo
 
 ## Utilizzare i tag di markup nei collegamenti
 
-Puoi utilizzare i tag di markup con i tag di ancoraggio HTML e collegarti direttamente a qualsiasi pagina del negozio. Il collegamento può essere incorporato in pagine di contenuto, blocchi o modelli e-mail e newsletter. Puoi usare questa tecnica anche per collegare un’immagine a una pagina specifica.
+Puoi utilizzare i tag di markup con i tag di ancoraggio di HTML e collegarti direttamente a qualsiasi pagina del negozio. Il collegamento può essere incorporato in pagine di contenuto, blocchi o modelli e-mail e newsletter. Puoi usare questa tecnica anche per collegare un’immagine a una pagina specifica.
 
 ### Passaggio 1: Identificare l’URL di destinazione
 
@@ -122,8 +122,10 @@ Racchiudi il tag di markup completato all’interno di un tag di ancoraggio, uti
 
 \&lt;a href=&quot;\{\{tag markup inserito qui}}&quot;>Testo collegamento\&lt;/a>
 
-Incolla il tag di ancoraggio completato nel codice di qualsiasi pagina CMS, blocco, banner o modello e-mail in cui desideri visualizzare il collegamento.
+Incolla il tag di ancoraggio completato nel codice di qualsiasi pagina, blocco, banner o modello e-mail di CMS in cui desideri visualizzare il collegamento.
 
 ### Collegamento completo con markup
 
 \&lt;a href=&quot;\{\{store url=&#39;vestel/shoes&#39;}}&quot;>Vendita di scarpe\&lt;/a>
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

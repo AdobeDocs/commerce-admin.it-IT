@@ -4,7 +4,7 @@ description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL A
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 1%
@@ -153,8 +153,8 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Backup
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Globale | Determina se l’istanza di Commerce consente i backup. Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Globale | (Visualizzato quando _[!UICONTROL Enable Backup]_&#x200B;è impostato su `Yes`.) Determina se il backup dell&#39;istanza di Commerce viene eseguito automaticamente secondo una pianificazione regolare. Opzioni: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Globale | (Visualizzato quando _[!UICONTROL Enable Scheduled Backup]_&#x200B;è impostato su `Yes`.) Determina gli elementi dell&#39;istanza di Commerce inclusi nel backup. Opzioni: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Globale | (Visualizzato quando _[!UICONTROL Enable Backup]_è impostato su `Yes`.) Determina se il backup dell&#39;istanza di Commerce viene eseguito automaticamente secondo una pianificazione regolare. Opzioni: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Globale | (Visualizzato quando _[!UICONTROL Enable Scheduled Backup]_è impostato su `Yes`.) Determina gli elementi dell&#39;istanza di Commerce inclusi nel backup. Opzioni: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Globale | (Visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Specifica l&#39;ora, il minuto e il secondo di inizio del backup pianificato. |
 | [!UICONTROL Frequency] | Globale | (Visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Determina la frequenza con cui viene eseguito il backup pianificato. Opzioni: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Globale | (Visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Determina se l&#39;archivio viene messo in modalità di manutenzione durante il backup pianificato. Opzioni: `Yes` / `No` |
@@ -188,7 +188,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Memori
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Globale | Determina l&#39;applicazione utilizzata per gestire la cache di pagina intera. Opzioni: <br/>**`Built-in Application`**- Non consigliato per l&#39;ambiente di produzione.<br/>**`Varnish Caching`** - Consigliato per l&#39;ambiente di produzione. |
 | [!UICONTROL TTL for public content] | Globale | Determina la durata della cache del contenuto pubblico in secondi. Valore predefinito: `120` |
-| [!UICONTROL Handles param size] | globale | Specifica il numero massimo di [handle di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare sull&#39;endpoint HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=it). La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Valore predefinito: `100` |
+| [!UICONTROL Handles param size] | globale | Specifica il numero massimo di [handle di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare sull&#39;endpoint HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Valore predefinito: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Globale | Specifica gli indirizzi IP che possono eliminare la configurazione Vernice per generare un file di configurazione. Separa più voci con una virgola. Valore predefinito: `localhost` |
 | [!UICONTROL Backend host] | Globale | Specifica l&#39;host backend che genera i file di configurazione. Valore predefinito: `localhost` |
@@ -218,7 +218,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Utiliz
 
 >[!IMPORTANT]
 >
->Il metodo di archiviazione dei supporti del database è stato dichiarato obsoleto a partire da Adobe Commerce e dal Magento Open Source 2.4.3.
+>Il metodo di archiviazione dei supporti del database è stato dichiarato obsoleto a partire da Adobe Commerce e Magento Open Source 2.4.3.
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -268,7 +268,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Import
 
 ![Configurazione avanzata - Configurazione caricamento immagine](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -315,3 +315,5 @@ Per ulteriori informazioni sulla configurazione di queste impostazioni, vedere [
 | [!UICONTROL Test Connection] |  | Esegue un test per verificare che la chiave API sia valida per l’utilizzo con il servizio Adobe Stock. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

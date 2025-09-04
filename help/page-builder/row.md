@@ -3,7 +3,7 @@ title: Layout - Riga
 description: Scopri il tipo di contenuto Riga, utilizzato per aggiungere una riga nell’area di visualizzazione  [!DNL Page Builder] .
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -38,7 +38,7 @@ La casella degli strumenti riga viene visualizzata quando si passa il puntatore 
 
 ## Aggiungi una riga
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un nuovo **[!UICONTROL Row]**&#x200B;nell&#39;area di visualizzazione, appena sotto la prima riga.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un nuovo **[!UICONTROL Row]**nell&#39;area di visualizzazione, appena sotto la prima riga.
 
 1. Per formattare la riga, passa il puntatore del mouse sul contenitore della riga per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +114,7 @@ Un tipo di sfondo può essere un&#39;immagine o un video. [!DNL Page Builder] ut
 
 ### Impostazioni del tipo di immagine
 
-Se si imposta _[!UICONTROL Background Type]_&#x200B;su `Image`, utilizzare le impostazioni seguenti per definire la visualizzazione dell&#39;immagine di sfondo.
+Se si imposta _[!UICONTROL Background Type]_su `Image`, utilizzare le impostazioni seguenti per definire la visualizzazione dell&#39;immagine di sfondo.
 
 ![Immagine di sfondo](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -258,3 +258,5 @@ Utilizza queste opzioni per controllare la velocità di scorrimento di un’imma
   {style="table-layout:auto"}
 
   ![Margini e spaziatura interna](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

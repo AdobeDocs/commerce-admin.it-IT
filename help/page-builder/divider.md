@@ -3,7 +3,7 @@ title: Elementi - Divisore
 description: Scopri il tipo di contenuto Divider, utilizzato per aggiungere una regola come interruzione visiva tra le sezioni di contenuto nella fase  [!DNL Page Builder] .
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Anche se la maggior parte dei contenitori divisore sono invisibili, l&#39;esempi
 
 1. Modificare il divisore **[!UICONTROL Line Color]** utilizzando uno dei metodi seguenti:
 
-   - Immettere un nome di colore [HTML valido][1]. Ad esempio, `Teal`.
+   - Immettere un nome colore [HTML][1] valido. Ad esempio, `Teal`.
    - Immetti il valore esadecimale del colore. Ad esempio, `#008080`.
 
    Al termine, fare clic su **[!UICONTROL Apply]**.
@@ -73,7 +73,7 @@ Anche se la maggior parte dei contenitori divisore sono invisibili, l&#39;esempi
 
    ![Impostazione del colore, dello spessore e della larghezza della linea](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
 
    - Per controllare il posizionamento del divisore all&#39;interno del contenitore principale, scegliere **[!UICONTROL Alignment]**:
 
@@ -157,3 +157,5 @@ Per un divisore formattato con impostazioni specifiche, è più efficiente crear
    ![Spostamento del divisore duplicato nella posizione](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 [1]: https://en.wikipedia.org/wiki/Web_colors
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: Prodotto virtuale
 description: Scopri come creare un prodotto virtuale che rappresenti un elemento non tangibile, ad esempio un’iscrizione, un servizio, una garanzia o un abbonamento.
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -26,7 +26,7 @@ A parte l&#39;assenza del campo _[!UICONTROL Weight]_, il processo di creazione 
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere **[!UICONTROL Virtual Product]** dal menu _[!UICONTROL Add Product]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ) nell&#39;angolo superiore destro.
+1. Scegliere _[!UICONTROL Add Product]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Virtual Product]**) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto virtuale](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
@@ -116,9 +116,9 @@ Compila le informazioni nelle sezioni seguenti secondo necessità:
 
 >[!NOTE]
 >
->L&#39;opzione _[!UICONTROL Is this downloadable product?]_&#x200B;è disabilitata per impostazione predefinita. L&#39;attivazione di questa funzionalità per un prodotto virtuale rende il prodotto [scaricabile](product-create-downloadable.md#downloadable-product).
+>L&#39;opzione _[!UICONTROL Is this downloadable product?]_è disabilitata per impostazione predefinita. L&#39;attivazione di questa funzionalità per un prodotto virtuale rende il prodotto [scaricabile](product-create-downloadable.md#downloadable-product).
 
-## Passaggio 6: Publish del prodotto
+## Passaggio 6: pubblicare il prodotto
 
 1. Se si è pronti a pubblicare il prodotto nel catalogo, impostare **[!UICONTROL Enable Product]** su `Yes`.
 
@@ -136,7 +136,7 @@ Compila le informazioni nelle sezioni seguenti secondo necessità:
 
    - **Metodo 2:** Salvare e chiudere
 
-     Scegliere **[!UICONTROL Save & Close]** dal menu _[!UICONTROL Save]_(![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ).
+     Scegliere _[!UICONTROL Save]_dal menu ![ (](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
 
 ## Aspetti da ricordare
 
@@ -145,3 +145,5 @@ Compila le informazioni nelle sezioni seguenti secondo necessità:
 - I prodotti virtuali sono molto simili ai prodotti semplici, ma privi di peso.
 
 - Le opzioni di spedizione non vengono visualizzate durante il pagamento a meno che non sia presente un prodotto tangibile nel carrello.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

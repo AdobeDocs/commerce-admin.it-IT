@@ -3,7 +3,7 @@ title: Prodotto semplice
 description: Scopri come creare un prodotto semplice che può essere venduto singolarmente o come parte di un prodotto raggruppato, configurabile o in bundle.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Le istruzioni seguenti illustrano il processo di creazione di un prodotto sempli
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere **[!UICONTROL Simple Product]** dal menu _[!UICONTROL Add Product]_( ![freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ) in alto a destra.
+1. Scegliere _[!UICONTROL Add Product]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}freccia menu **[!UICONTROL Simple Product]**) in alto a destra.
 
    ![Aggiungi prodotto semplice](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 1. Accettare l&#39;impostazione **[!UICONTROL Visibility]** predefinita di `Catalog, Search`.
 
-1. Per assegnare _[!UICONTROL Categories]_&#x200B;al prodotto, fare clic sulla casella **[!UICONTROL Select…]**&#x200B;ed eseguire una delle operazioni seguenti:
+1. Per assegnare _[!UICONTROL Categories]_al prodotto, fare clic sulla casella **[!UICONTROL Select…]**ed eseguire una delle operazioni seguenti:
 
    **Scegliere una categoria esistente**:
 
@@ -122,7 +122,7 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 - [Progettazione](settings-advanced-design.md)
 - [Opzioni regalo](product-gift-options.md)
 
-## Passaggio 6: Publish del prodotto
+## Passaggio 6: pubblicare il prodotto
 
 1. Se si è pronti a pubblicare il prodotto nel catalogo, impostare l&#39;opzione **[!UICONTROL Enable Product]** su `Yes`.
 
@@ -140,7 +140,7 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 
    - **Metodo 2:** Salva e chiudi
 
-     Scegliere **[!UICONTROL Save & Close]** dal menu _[!UICONTROL Save]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ).
+     Scegliere _[!UICONTROL Save]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
 
 ## Aspetti da ricordare
 
@@ -149,3 +149,5 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 - La semplice configurazione del prodotto sostituisce le configurazioni di prodotto configurabili per un prodotto specifico.
 
 - Un prodotto semplice può avere opzioni personalizzate con vari tipi di input, il che rende possibile vendere molte varianti di prodotto da una singola SKU.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

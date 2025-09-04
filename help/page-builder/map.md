@@ -3,7 +3,7 @@ title: Media - Mappa
 description: Scopri il tipo di contenuto Mappa, utilizzato per aggiungere una mappa da  [!DNL Google Maps] Platform alla fase  [!DNL Page Builder] .
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -104,7 +104,7 @@ A seconda che si disponga o meno di una chiave [!DNL Google Maps], utilizzare un
 
 1. Passa il puntatore del mouse sul contenitore della mappa per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Nell&#39;angolo superiore destro della pagina _[!UICONTROL Edit Map]_&#x200B;fare clic su **[!UICONTROL Add Location]**.
+1. Nell&#39;angolo superiore destro della pagina _[!UICONTROL Edit Map]_fare clic su **[!UICONTROL Add Location]**.
 
 1. Immettere **[!UICONTROL Location Name]** che si desidera associare al pin sulla mappa.
 
@@ -197,7 +197,7 @@ Utilizzare la [!DNL Google Maps] Platform Styling Wizard per applicare uno dei s
 
    {style="table-layout:auto"}
 
-1. Modificare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze:
+1. Modificare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze:
 
    - Per controllare il posizionamento orizzontale del contenuto della mappa aggiunto al contenitore, scegliere un **[!UICONTROL Alignment]**:
 
@@ -290,3 +290,5 @@ La dimensione della griglia determina la dimensione della mappa correlata a una 
 [4]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [5]: https://www.google.com/maps
 [6]: https://mapstyle.withgoogle.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

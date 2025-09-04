@@ -3,7 +3,7 @@ title: Media - Video
 description: Scopri il tipo di contenuto Video, utilizzato per aggiungere alla fase  [!DNL Page Builder]  un video in hosting su YouTube o Vimeo.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 0%
@@ -170,3 +170,5 @@ Utilizza il tipo di contenuto _Video_ per aggiungere un video in hosting su [You
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->
