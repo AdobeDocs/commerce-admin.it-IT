@@ -114,7 +114,7 @@ Per creare un collegamento per un numero di telefono o un&#39;e-mail, vedere [Ag
 
 1. Aggiorna il contenuto in base alle esigenze.
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
 
    - Per controllare il posizionamento del testo all&#39;interno del contenitore principale, scegliere un **[!UICONTROL Alignment]**:
 

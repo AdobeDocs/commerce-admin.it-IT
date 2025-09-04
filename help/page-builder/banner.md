@@ -50,7 +50,7 @@ La casella degli strumenti del banner viene visualizzata quando si passa il punt
 
    ![Trascinamento di un tipo di contenuto banner nell&#39;area di visualizzazione](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   I pulsanti _[!UICONTROL Upload Image]_e_[!UICONTROL Select from Gallery]_ sono inclusi per consentire modifiche rapide al contenuto del banner direttamente dall&#39;area di visualizzazione. È inoltre possibile modificare il contenuto della pagina _[!UICONTROL Edit Banner]_.
+   I pulsanti _[!UICONTROL Upload Image]_&#x200B;e_[!UICONTROL Select from Gallery]_ sono inclusi per consentire modifiche rapide al contenuto del banner direttamente dall&#39;area di visualizzazione. È inoltre possibile modificare il contenuto della pagina _[!UICONTROL Edit Banner]_.
 
 1. Fai clic sul segnaposto del banner per visualizzare l&#39;[editor di testo](../content-design/editor.md) e immettere il contenuto per il banner.
 
@@ -183,7 +183,7 @@ Se si imposta il _Tipo di sfondo_ su `Image`, utilizzare le impostazioni seguent
 
 ### Impostazioni del tipo di video
 
-Se si imposta _[!UICONTROL Background Type]_su `Video`, utilizzare le impostazioni seguenti per definire la visualizzazione dell&#39;immagine di sfondo.
+Se si imposta _[!UICONTROL Background Type]_&#x200B;su `Video`, utilizzare le impostazioni seguenti per definire la visualizzazione dell&#39;immagine di sfondo.
 
 - **[!UICONTROL Video URL]** - Immettere un URL video valido. Gli URL video validi possono essere collegamenti a:
 
@@ -223,7 +223,7 @@ Se si imposta _[!UICONTROL Background Type]_su `Video`, utilizzare le impostazio
 
 1. Passa il puntatore del mouse sul contenitore del banner per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="25"} ).
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Content]_e utilizza l&#39;editor **[!UICONTROL Message Text]**per immettere e formattare il testo del banner.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Content]_&#x200B;e utilizza l&#39;editor **[!UICONTROL Message Text]**&#x200B;per immettere e formattare il testo del banner.
 
    È inoltre possibile inserire elementi quali collegamenti di testo, immagini e widget.
 
@@ -240,7 +240,7 @@ Se si imposta _[!UICONTROL Background Type]_su `Video`, utilizzare le impostazio
 
    >[!NOTE]
    >
-   >A partire dalla versione 2.4.1, [!DNL Page Builder] non supporta più il collegamento del banner e dei collegamenti all&#39;interno del testo nidificato a causa di problemi di visualizzazione nella vetrina. Se si utilizza un collegamento in _[!UICONTROL Message Text]_, non è possibile configurare l&#39;opzione_[!UICONTROL Link]_. Se si preferisce utilizzare un solo collegamento per l&#39;intero banner, è possibile rimuovere tutti i collegamenti dal testo.<br/>
+   >A partire dalla versione 2.4.1, [!DNL Page Builder] non supporta più il collegamento del banner e dei collegamenti all&#39;interno del testo nidificato a causa di problemi di visualizzazione nella vetrina. Se si utilizza un collegamento in _[!UICONTROL Message Text]_, non è possibile configurare l&#39;opzione&#x200B;_[!UICONTROL Link]_. Se si preferisce utilizzare un solo collegamento per l&#39;intero banner, è possibile rimuovere tutti i collegamenti dal testo.<br/>
    >
    >![La configurazione del collegamento è bloccata](./assets/pb-nested-link-blocked.png){width="200"}
 

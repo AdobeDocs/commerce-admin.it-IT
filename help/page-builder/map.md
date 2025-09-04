@@ -104,7 +104,7 @@ A seconda che si disponga o meno di una chiave [!DNL Google Maps], utilizzare un
 
 1. Passa il puntatore del mouse sul contenitore della mappa per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Nell&#39;angolo superiore destro della pagina _[!UICONTROL Edit Map]_fare clic su **[!UICONTROL Add Location]**.
+1. Nell&#39;angolo superiore destro della pagina _[!UICONTROL Edit Map]_&#x200B;fare clic su **[!UICONTROL Add Location]**.
 
 1. Immettere **[!UICONTROL Location Name]** che si desidera associare al pin sulla mappa.
 
@@ -197,7 +197,7 @@ Utilizzare la [!DNL Google Maps] Platform Styling Wizard per applicare uno dei s
 
    {style="table-layout:auto"}
 
-1. Modificare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze:
+1. Modificare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze:
 
    - Per controllare il posizionamento orizzontale del contenuto della mappa aggiunto al contenitore, scegliere un **[!UICONTROL Alignment]**:
 

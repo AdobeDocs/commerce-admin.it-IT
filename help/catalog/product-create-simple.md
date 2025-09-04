@@ -22,7 +22,7 @@ Le istruzioni seguenti illustrano il processo di creazione di un prodotto sempli
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere _[!UICONTROL Add Product]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}freccia menu **[!UICONTROL Simple Product]**) in alto a destra.
+1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}freccia menu **[!UICONTROL Simple Product]**) in alto a destra.
 
    ![Aggiungi prodotto semplice](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 1. Accettare l&#39;impostazione **[!UICONTROL Visibility]** predefinita di `Catalog, Search`.
 
-1. Per assegnare _[!UICONTROL Categories]_al prodotto, fare clic sulla casella **[!UICONTROL Select…]**ed eseguire una delle operazioni seguenti:
+1. Per assegnare _[!UICONTROL Categories]_&#x200B;al prodotto, fare clic sulla casella **[!UICONTROL Select…]**&#x200B;ed eseguire una delle operazioni seguenti:
 
    **Scegliere una categoria esistente**:
 
@@ -140,7 +140,7 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 
    - **Metodo 2:** Salva e chiudi
 
-     Scegliere _[!UICONTROL Save]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
+     Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
 
 ## Aspetti da ricordare
 

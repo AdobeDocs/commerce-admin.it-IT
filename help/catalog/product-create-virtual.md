@@ -26,7 +26,7 @@ A parte l&#39;assenza del campo _[!UICONTROL Weight]_, il processo di creazione 
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere _[!UICONTROL Add Product]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Virtual Product]**) nell&#39;angolo superiore destro.
+1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Virtual Product]**) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto virtuale](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
@@ -116,7 +116,7 @@ Compila le informazioni nelle sezioni seguenti secondo necessità:
 
 >[!NOTE]
 >
->L&#39;opzione _[!UICONTROL Is this downloadable product?]_è disabilitata per impostazione predefinita. L&#39;attivazione di questa funzionalità per un prodotto virtuale rende il prodotto [scaricabile](product-create-downloadable.md#downloadable-product).
+>L&#39;opzione _[!UICONTROL Is this downloadable product?]_&#x200B;è disabilitata per impostazione predefinita. L&#39;attivazione di questa funzionalità per un prodotto virtuale rende il prodotto [scaricabile](product-create-downloadable.md#downloadable-product).
 
 ## Passaggio 6: pubblicare il prodotto
 
@@ -136,7 +136,7 @@ Compila le informazioni nelle sezioni seguenti secondo necessità:
 
    - **Metodo 2:** Salvare e chiudere
 
-     Scegliere _[!UICONTROL Save]_dal menu ![ (](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
+     Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![ (](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
 
 ## Aspetti da ricordare
 
