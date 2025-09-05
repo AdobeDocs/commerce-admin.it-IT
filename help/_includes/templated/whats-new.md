@@ -23,7 +23,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono stati chiariti i metodi predefiniti per <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">la creazione di codici coupon</a> e sono state fornite indicazioni per l'utilizzo di un'estensione per importare un elenco di codici coupon personalizzati.</p>
+      <td><p>Sono stati chiariti i metodi predefiniti per <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">la creazione di codici coupon</a> e sono state fornite indicazioni per l'utilizzo di un'estensione per importare un elenco di codici coupon personalizzati.</p>
 </td>
       <td>
         Tecnico
@@ -45,7 +45,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stata aggiunta la patch di sicurezza B2B di agosto 2025 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">note sulla versione</a>.</p>
+      <td><p>È stata aggiunta la patch di sicurezza B2B di agosto 2025 <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/release-notes">note sulla versione</a>.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -67,7 +67,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stato chiarito il comportamento previsto di <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtro prezzo</a> per i prodotti configurabili nella navigazione a più livelli.</p>
+      <td><p>È stato chiarito il comportamento previsto di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtro prezzo</a> per i prodotti configurabili nella navigazione a più livelli.</p>
 </td>
       <td>
         Tecnico
@@ -75,7 +75,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">commit</a></td>
     </tr>
     <tr>
-      <td><p>È stato chiarito come <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">rimuovere tutti gli elementi</a> dal carrello di un cliente in modalità di acquisto assistito.</p>
+      <td><p>È stato chiarito come <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">rimuovere tutti gli elementi</a> dal carrello di un cliente in modalità di acquisto assistito.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -97,7 +97,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono stati aggiornati i requisiti di sistema per l'estensione <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA</a>.</p>
+      <td><p>Sono stati aggiornati i requisiti di sistema per l'estensione <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA</a>.</p>
 </td>
       <td>
         Tecnico
@@ -119,7 +119,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stata chiarita la modalità predefinita per l'indicizzatore <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management">Customer Grid</a>, modificata nella versione 2.4.8.</p>
+      <td><p>È stata chiarita la modalità predefinita per l'indicizzatore <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/tools/index-management">Customer Grid</a>, modificata nella versione 2.4.8.</p>
 </td>
       <td>
         Tecnico
