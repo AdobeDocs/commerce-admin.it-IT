@@ -3,9 +3,9 @@ title: Esperienze vetrina migliorate
 description: Scopri i numerosi strumenti progettati per massimizzare il coinvolgimento, la fidelizzazione e la fidelizzazione dei clienti.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ Oltre agli elementi standard che consentono ai clienti di effettuare acquisti ne
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=it)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
 ## Attira nuovi clienti
 
-Adobe Commerce e Magento Open Source sono ricchi di funzionalità che semplificano la creazione di siti Web _compatibili con i motori di ricerca_ e aumentano la probabilità di portare i clienti giusti sul tuo sito.
+Adobe Commerce e Magento Open Source sono ricchi di funzionalità che semplificano la creazione di _siti Web compatibili con i motori di ricerca_ e aumentano la probabilità di portare i clienti giusti sul tuo sito.
 
 - **Ottimizzazione del motore di ricerca** - [!DNL Commerce] offre funzionalità potenti e native per semplificare le [procedure di ottimizzazione del motore di ricerca (SEO)](../merchandising-promotions/seo-overview.md) per l&#39;esposizione di contenuti e siti integrate con l&#39;amministratore e associate direttamente all&#39;esperienza utente.
 
@@ -32,7 +32,7 @@ Adobe Commerce e Magento Open Source sono ricchi di funzionalità che semplifica
 
 - **Mappa del sito** - Collega a una [mappa del sito](../merchandising-promotions/sitemap-xml.md) dal piè di pagina dello store per fornire ai clienti una panoramica della struttura del catalogo, con collegamenti a tutte le categorie e i prodotti dello store. Integrazione semplificata con Google Sitemap.
 
-- **Analytics** - Oltre a monitorare il sito dal dashboard di amministrazione, puoi integrare strumenti di analisi di terze parti come [Google Analytics](../merchandising-promotions/google-analytics.md) e [New Relic Reporting](new-relic-reporting.md) per statistiche dettagliate sul traffico e sulle vendite.
+- **Analytics** - Oltre a monitorare il sito dal dashboard di amministrazione, puoi integrare strumenti di analisi di terze parti come [Google Analytics](../merchandising-promotions/google-analytics.md) per ottenere statistiche dettagliate sul traffico e sulle vendite.
 
 ## Coinvolgi i tuoi clienti
 
@@ -84,11 +84,11 @@ Adobe Commerce e Magento Open Source forniscono una serie di strumenti per aiuta
 
 ## Ottimizzazione dei processi aziendali e della redditività
 
-- **[!DNL Advanced Reporting]** - Ottieni informazioni preziose con i report dinamici su prodotti, ordini e clienti, basati su [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=it).
+- **[!DNL Advanced Reporting]** - Ottieni informazioni preziose con i report dinamici su prodotti, ordini e clienti basati su [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en).
 
 - **Snapshot del dashboard** - Per massimizzare il budget di marketing è fondamentale sapere cosa è di tuo interesse sul sito. Utilizza queste [informazioni sul tuo dashboard](admin-dashboard.md) per determinare cosa devi effettuare tra e vendere ai clienti fedeli o quali prodotti mettere in vendita.
 
-- **Tasse** - Gestisci le [tasse](../stores-purchase/taxes.md) con strumenti nativi o aggiungi estensioni di terze parti da [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target=&quot;_blank&quot;}.
+- **Tasse** - Gestisci le [tasse](../stores-purchase/taxes.md) con strumenti nativi o aggiungi estensioni di terze parti da [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}.
 
 - **Regole di business automatizzate** - Imposta [regole di business automatizzate](../merchandising-promotions/price-rules-cart.md) che definiscono relazioni di prodotto e utilizzano regole di prezzo che attivano gli sconti in base a varie condizioni.
 
@@ -96,7 +96,7 @@ Adobe Commerce e Magento Open Source forniscono una serie di strumenti per aiuta
 
 ## Momento di acquisto
 
-Semplificare gli acquisti. Adobe Commerce e Magento Open Source sono progettati per aiutarti a semplificare la tua esperienza di pagamento e ad aumentare i tassi di conversione.
+Semplificare gli acquisti. Adobe Commerce e Magento Open Source sono progettati per aiutarti a semplificare la tua esperienza di processo di pagamento aumentando i tassi di conversione.
 
 **Acquisto immediato** - Semplifica l&#39;ordine e aumenta i tassi di conversione consentendo ai tuoi clienti di [velocizzare l&#39;acquisto](../stores-purchase/checkout-instant-purchase.md) utilizzando le informazioni di pagamento e spedizione memorizzate.
 
@@ -114,7 +114,7 @@ Semplificare gli acquisti. Adobe Commerce e Magento Open Source sono progettati 
 
 ## Mantieni clienti
 
-Adobe Commerce e il Magento Open Source semplificano la ripetizione dell’attività e la fidelizzazione al marchio. Ti offre il controllo totale e la flessibilità necessaria per creare e rivedere contenuti quali programmi di premi, coupon personalizzati ed e-mail automatizzate, per mantenere i clienti sempre aggiornati.
+Adobe Commerce e Magento Open Source semplificano la ripetizione dell’attività e la fidelizzazione al marchio. Ti offre il controllo totale e la flessibilità necessaria per creare e rivedere contenuti quali programmi di premi, coupon personalizzati ed e-mail automatizzate, per mantenere i clienti sempre aggiornati.
 
 **Restituzione materiale promozionale** - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I clienti possono inviare richieste per [Restituisci autorizzazione materiale promozionale](../stores-purchase/returns.md) dal tuo store. È possibile creare ordini di spedizione in un sistema di vettori e stampare etichette di spedizione con numeri RMA.
 

@@ -5,10 +5,10 @@ breadcrumb-title: Riferimento configurazione
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 1%
    - [Contatti](./general/contacts.md)
    - [Rapporti](./general/reports.md)
    - [Gestione dei contenuti](./general/content-management.md)
-   - [Generazione rapporti New Relic](./general/new-relic-reporting.md)
    - [Reporting avanzato](./general/advanced-reporting.md)
 - Catalogo {#catalog}
    - [Catalogo](./catalog/catalog.md)
@@ -35,7 +34,7 @@ ht-degree: 1%
    - [XML Sitemap](./catalog/xml-sitemap.md)
    - [Feed RSS](./catalog/rss-feeds.md)
    - [E-mail a un amico](./catalog/email-to-a-friend.md)
-- Protezione {#security}
+- Sicurezza {#security}
    - [2FA](./security/2fa.md)
    - [Pannello di amministrazione di Google reCAPTCHA](./security/google-recaptcha-admin.md)
    - [Google reCAPTCHA Storefront](./security/google-recaptcha-storefront.md)
@@ -84,5 +83,5 @@ ht-degree: 1%
    - [Amministratore](./advanced/admin.md)
    - [Sistema](./advanced/system.md)
    - [Sviluppatore](./advanced/developer.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
