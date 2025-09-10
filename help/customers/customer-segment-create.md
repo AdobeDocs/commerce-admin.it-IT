@@ -3,9 +3,9 @@ title: Creare ed eliminare segmenti di clienti
 description: I clienti possono visualizzare le informazioni sul rimborso associate all'ordine nel pannello di controllo Account cliente.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 079aef1f4d90ecba649ac43e7cbab812da79871a
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ La creazione di un segmento cliente è simile alla creazione di una [regola prez
 
 ![Elenco segmenti clienti](assets/customer-segments.png){width="700" zoomable="yes"}
 
-Griglia _&#x200B;**[!UICONTROL Customer Segments]**&#x200B;_
+Griglia _**[!UICONTROL Customer Segments]**_
 
 | Colonna | Descrizione |
 |--- |--- |
 | **[!UICONTROL ID]** | ID univoco del segmento del cliente. |
 | **[!UICONTROL Segment]** | Il nome del segmento del cliente. |
-| **[!UICONTROL Status]** | Indica se il segmento del cliente è _[!UICONTROL Active]_&#x200B;o_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indica se il segmento del cliente è _[!UICONTROL Active]_o_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indica il sito web a cui appartiene il segmento di clienti. |
 
 {style="table-layout:auto"}
@@ -104,10 +104,18 @@ I passaggi seguenti utilizzano un esempio per creare un segmento di clienti che 
 >
 > Per i visitatori, sono applicabili solo le seguenti condizioni: condizioni del carrello (importo del subtotale del carrello, articoli della riga del carrello e quantità dei prodotti del carrello), regole dei prodotti (prodotti presenti nel carrello e nella cronologia dei prodotti) e combinazioni di questi articoli. Se un segmento deve essere applicato sia ai visitatori che ai clienti registrati, i visitatori vengono tracciati solo in base alle condizioni elencate.
 
+Le condizioni possibili sono organizzate nei seguenti gruppi:
+
+| Gruppo | Descrizione |
+|--- |--- |
+| **[!UICONTROL Customer]** | Condizioni basate sugli attributi del conto cliente. Disponibile solo se il segmento si applica ai clienti registrati. |
+| **[!UICONTROL Shopping Cart]** | Condizioni basate sul contenuto del carrello. Queste condizioni sono disponibili per tutti i tipi di segmento. |
+| **[!UICONTROL Products]** | Condizioni basate sui prodotti nel carrello o sulla cronologia di navigazione dei prodotti. Queste condizioni sono disponibili per tutti i tipi di segmento. |
+| **[!UICONTROL **Sales]** | Condizioni basate sugli ordini completati. Disponibile solo se il segmento si applica ai clienti registrati. |
 
 1. Nel riquadro sinistro fare clic su **[!UICONTROL Conditions]**.
 
-   La condizione predefinita inizia con _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;sulla pagina.
+   La condizione predefinita inizia con _[!UICONTROL If ALL of these conditions are TRUE:]_sulla pagina.
 
    ![Condizioni](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -153,7 +161,7 @@ I passaggi seguenti utilizzano un esempio per creare un segmento di clienti che 
 
 1. Il segmento cliente ora può essere utilizzato per il targeting di promozioni, contenuti e comunicazioni.
 
-Griglia _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
+Griglia _**[!UICONTROL Matched Customers]**_
 
 | Colonna | Descrizione |
 |--- |--- |
@@ -183,7 +191,7 @@ Griglia _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
 
 | Pulsante | Descrizione |
 |--- |--- |
-| **[!UICONTROL Back]** | Torna alla pagina _[!UICONTROL Customer Segments]_&#x200B;senza salvare le modifiche. |
+| **[!UICONTROL Back]** | Torna alla pagina _[!UICONTROL Customer Segments]_senza salvare le modifiche. |
 | **[!UICONTROL Delete]** | Elimina il segmento cliente corrente. I clienti o gli ordini completati associati al cliente nel segmento non vengono rimossi. |
 | **[!UICONTROL Reset]** | Ripristina i valori precedenti delle modifiche non salvate nel modulo del segmento cliente. |
 | **[!UICONTROL Refresh Segment Data]** | Aggiorna i dati del segmento ai valori salvati più di recente. Rilevante se i dati di un segmento non sono disponibili o sono obsoleti. |
@@ -196,4 +204,4 @@ Griglia _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
 
 Guarda questo video per una dimostrazione della creazione di segmenti di clienti:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410190/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)
