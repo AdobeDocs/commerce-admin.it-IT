@@ -40,7 +40,7 @@ Le proprietà di ciascun attributo utilizzato per una variante di prodotto confi
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere _[!UICONTROL Add Product]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Configurable Product]**) nell&#39;angolo superiore destro.
+1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Configurable Product]**) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto configurabile](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -138,7 +138,7 @@ La barra di avanzamento nella parte superiore della pagina mostra la posizione i
 
 ### Passaggio 1: scegliere gli attributi
 
-1. Continuando dall&#39;alto, scorrere verso il basso fino alla sezione _[!UICONTROL Configurations]_e fare clic su **[!UICONTROL Create Configurations]**.
+1. Continuando dall&#39;alto, scorrere verso il basso fino alla sezione _[!UICONTROL Configurations]_&#x200B;e fare clic su **[!UICONTROL Create Configurations]**.
 
    ![Configurazioni](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -318,7 +318,7 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 
    - **Metodo 2:** Salvare e chiudere
 
-     Scegliere _[!UICONTROL Save]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
+     Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
 
 ### Passaggio 8: configurare le miniature del carrello
 
