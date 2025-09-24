@@ -169,7 +169,7 @@ Solo gli ordini cliente non fatturati con stato `Processing` e impostazione di i
 
 ### Attributi ordine personalizzati
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Gli attributi personalizzati dell&#39;ordine consentono di associare all&#39;ordine ulteriori informazioni specifiche alle esigenze aziendali.
 
