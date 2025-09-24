@@ -250,4 +250,4 @@ Nella sezione **[!UICONTROL Order Total]** eseguire le operazioni seguenti:
 
 Guarda questo video e scopri di più sull’elaborazione e lo stato degli ordini:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410798/?quality=12&learn=on&captions=ita)
