@@ -3,16 +3,16 @@ title: Crea un ordine
 description: Scopri come creare un ordine per un cliente in Commerce Admin.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 0e2d79f6b716f5d59aa9cd60b096608a6b2dbb98
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Crea un ordine
 
-Per i clienti registrati che necessitano di assistenza, puoi creare un intero ordine direttamente dall’Amministratore. Il modulo _[!UICONTROL Create New Order]_&#x200B;include tutte le informazioni necessarie per il normale processo di pagamento, con i riepiloghi attività dal dashboard account del cliente.
+Per i clienti registrati che necessitano di assistenza, puoi creare un intero ordine direttamente dall’Amministratore. Il modulo _[!UICONTROL Create New Order]_include tutte le informazioni necessarie per il normale processo di pagamento, con i riepiloghi attività dal dashboard account del cliente.
 
 ![Crea un ordine per un cliente](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,10 +95,11 @@ Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
+   - [!UICONTROL [Attributi ordine personalizzati]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui metodi di pagamento per supportare questa funzionalità quando l&#39;estensione Payment Services è installata e configurata, vedere la [Guida di Payment Services](https://experienceleague.adobe.com/it/docs/commerce/payment-services/guide-overview).
+>Per ulteriori informazioni sui metodi di pagamento per supportare questa funzionalità quando l&#39;estensione Payment Services è installata e configurata, vedere la [Guida di Payment Services](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview).
 
 ## Passaggio 3: sottomettere l&#39;ordine
 
