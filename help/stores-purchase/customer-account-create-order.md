@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Crea un ordine
 
-Per i clienti registrati che necessitano di assistenza, puoi creare un intero ordine direttamente dall’Amministratore. Il modulo _[!UICONTROL Create New Order]_include tutte le informazioni necessarie per il normale processo di pagamento, con i riepiloghi attività dal dashboard account del cliente.
+Per i clienti registrati che necessitano di assistenza, puoi creare un intero ordine direttamente dall’Amministratore. Il modulo _[!UICONTROL Create New Order]_&#x200B;include tutte le informazioni necessarie per il normale processo di pagamento, con i riepiloghi attività dal dashboard account del cliente.
 
 ![Crea un ordine per un cliente](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Puoi trasferire gli articoli nel carrello dalla lista dei desideri di un cliente
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [!UICONTROL [Attributi ordine personalizzati]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [Attributi ordine personalizzati]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >

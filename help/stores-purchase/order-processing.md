@@ -38,7 +38,7 @@ Quando un cliente effettua un ordine, viene creato un ordine di vendita come rec
 
 1. Trovare l&#39;ordine nella griglia.
 
-1. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL View]**.
+1. Nella colonna _[!UICONTROL Action]_&#x200B;fare clic su **[!UICONTROL View]**.
 
 1. Verifica stato ordine:
 
