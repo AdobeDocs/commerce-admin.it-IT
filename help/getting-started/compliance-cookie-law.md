@@ -206,7 +206,7 @@ Impostato dal modulo Page Builder. Contiene un flag che impedisce ai prompt succ
 
 Impostato dal modulo Page Builder. Contiene un flag che impedisce ai prompt successivi che richiedono a un amministratore di confermare l’apertura di una determinata azione se l’amministratore li ha esplicitamente ignorati in precedenza. Utilizzato solo in un&#39;area amministrativa di un negozio. Non applicabile agli acquirenti.
 
-#### `accordion-{VARIABLE}-{VARIABLE}`
+#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
 
 Utilizzato come parte dell’implementazione della funzionalità schede solo in un’area amministrativa di un archivio. Non applicabile agli acquirenti.
 
