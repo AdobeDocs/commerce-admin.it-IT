@@ -33,7 +33,7 @@ Presta attenzione quando si quotano i prezzi FPT in e-mail, perché la differenz
 
 ## Configura FPT
 
-Il tipo di input [FPT (Fixed Product Tax) ](../catalog/attributes-input-types.md) crea una sezione di campi per la gestione delle imposte per ogni area.
+Il tipo di input [FPT (Fixed Product Tax) &#x200B;](../catalog/attributes-input-types.md) crea una sezione di campi per la gestione delle imposte per ogni area.
 
 Le seguenti istruzioni mostrano come impostare un&#39;imposta fissa sui prodotti per il tuo negozio, utilizzando &quot;eco tax&quot; come esempio. Dopo aver impostato l&#39;ambito dell&#39;imposta e i paesi e gli stati in cui l&#39;imposta viene applicata, e a seconda delle opzioni scelte, i campi di input possono variare in base ai requisiti locali. Per ulteriori informazioni, consulta [Creare gli attributi del prodotto](../catalog/attribute-product-create.md).
 

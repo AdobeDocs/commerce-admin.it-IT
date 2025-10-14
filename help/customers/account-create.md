@@ -147,7 +147,7 @@ In qualità di esercente, puoi creare un account cliente dall’Amministratore.
 
    In caso contrario, fare clic su **[!UICONTROL Save and Continue Edit]** e ripetere i passaggi precedenti per aggiungere altri indirizzi.
 
-   Il nuovo indirizzo viene visualizzato nella pagina [!UICONTROL Addresses] con gli indirizzi selezionati _[!UICONTROL Default Billing]_&#x200B;e_[!UICONTROL Default Shipping]_ sopra l&#39;elenco completo.
+   Il nuovo indirizzo viene visualizzato nella pagina [!UICONTROL Addresses] con gli indirizzi selezionati _[!UICONTROL Default Billing]_&#x200B;e&#x200B;_[!UICONTROL Default Shipping]_ sopra l&#39;elenco completo.
 
    ![Visualizzazione indirizzi](assets/address-list.png){width="600" zoomable="yes"}
 

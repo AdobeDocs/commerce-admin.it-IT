@@ -40,7 +40,7 @@ Le proprietà di ciascun attributo utilizzato per una variante di prodotto confi
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Configurable Product]**) nell&#39;angolo superiore destro.
+1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Configurable Product]**) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto configurabile](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -318,7 +318,7 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 
    - **Metodo 2:** Salvare e chiudere
 
-     Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
+     Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
 
 ### Passaggio 8: configurare le miniature del carrello
 

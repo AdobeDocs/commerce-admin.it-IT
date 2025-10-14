@@ -43,7 +43,7 @@ Quando si inseriscono le spedizioni, le quantità di scorte disponibili detraggo
 
      >[!IMPORTANT]
      >
-     >Quando si utilizza l&#39;algoritmo Distance Priority (Priorità distanza) per la spedizione e le route e i dati non vengono restituiti per la [modalità di calcolo](distance-priority-algorithm.md) selezionata (guida, bicicletta o deambulazione) per una spedizione, il valore predefinito di SSA è Source Priority. È inoltre consigliabile impostare la priorità [ per le origini per magazzino](stocks-prioritize-sources.md).
+     >Quando si utilizza l&#39;algoritmo Distance Priority (Priorità distanza) per la spedizione e le route e i dati non vengono restituiti per la [modalità di calcolo](distance-priority-algorithm.md) selezionata (guida, bicicletta o deambulazione) per una spedizione, il valore predefinito di SSA è Source Priority. È inoltre consigliabile impostare la priorità [&#x200B; per le origini per magazzino](stocks-prioritize-sources.md).
 
 
    - Per **[!UICONTROL Select a Source to Ship from]**, selezionare un&#39;origine per l&#39;invio di una spedizione.

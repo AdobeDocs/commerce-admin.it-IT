@@ -53,7 +53,7 @@ I prezzi personalizzati dei prodotti in qualsiasi catalogo condiviso possono ess
 
 >[!NOTE]
 >
->**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione di categoria](../catalog/category-permissions.md) per il catalogo è impostata su `Allow` per _[!UICONTROL Display Product Prices]_&#x200B;e_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
+>**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione di categoria](../catalog/category-permissions.md) per il catalogo è impostata su `Allow` per _[!UICONTROL Display Product Prices]_&#x200B;e&#x200B;_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
 
 >[!IMPORTANT]
 >

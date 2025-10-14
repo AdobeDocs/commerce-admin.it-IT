@@ -44,7 +44,7 @@ Il tuo archivio può essere configurato in modo da generare automaticamente un r
 
 1. Individuare il prodotto nell&#39;elenco e fare clic per aprire il record.
 
-1. Espandere ![Il selettore di espansione ](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization]**.
+1. Espandere ![Il selettore di espansione &#x200B;](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization]**.
 
    ![Ottimizzazione motore di ricerca prodotti - reindirizzamento permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

@@ -108,7 +108,7 @@ Se nella stessa campagna sono in esecuzione più regole di prezzo, l&#39;imposta
 
    >[!NOTE]
    >
-   >Per visualizzare un’anteprima condivisa è necessario un account utente amministratore. Se il tuo ruolo [ ha accesso](../systems/permissions-user-roles.md) per creare un account utente amministratore, devi creare l&#39;account per un nuovo utente prima di condividerlo.
+   >Per visualizzare un’anteprima condivisa è necessario un account utente amministratore. Se il tuo ruolo [&#x200B; ha accesso](../systems/permissions-user-roles.md) per creare un account utente amministratore, devi creare l&#39;account per un nuovo utente prima di condividerlo.
 
    **Modifica l&#39;ambito dell&#39;anteprima**
 

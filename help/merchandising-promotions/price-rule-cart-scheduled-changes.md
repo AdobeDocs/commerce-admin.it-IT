@@ -40,7 +40,7 @@ Considera le seguenti avvertenze:
 
 - Se una campagna che include una regola di prezzo viene creata inizialmente senza una data di fine, non sarà possibile modificarla in seguito per includere una data di fine. È consigliabile aggiungere una data di fine al momento della creazione della campagna o creare una versione duplicata della campagna esistente e aggiungere la data di fine al duplicato, in base alle esigenze.
 - Quando utilizzi un aggiornamento pianificato per abilitare una regola del prezzo del carrello con una data di fine, assicurati di impostare la regola come inizialmente disabilitata. Le regole già attive non rispettano la data di fine.
-- I coupon non sono collegati alle regole di prezzo del carrello. Un aggiornamento pianificato non fornisce l&#39;accesso ai campi _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_&#x200B;e_[!UICONTROL Uses per Customer]_ nella scheda _[!UICONTROL Rule Information]_. Inoltre, tutte le impostazioni della scheda&#x200B;_[!UICONTROL Manage Coupon Codes]_ non sono disponibili.
+- I coupon non sono collegati alle regole di prezzo del carrello. Un aggiornamento pianificato non fornisce l&#39;accesso ai campi _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_&#x200B;e&#x200B;_[!UICONTROL Uses per Customer]_ nella scheda _[!UICONTROL Rule Information]_. Inoltre, tutte le impostazioni della scheda&#x200B;_[!UICONTROL Manage Coupon Codes]_ non sono disponibili.
 
 >[!IMPORTANT]
 >

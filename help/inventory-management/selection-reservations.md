@@ -16,7 +16,7 @@ Il cuore di [!DNL Inventory Management] tiene traccia di tutti i prodotti dispon
 
 >[!NOTE]
 >
->Per informazioni sull&#39;utilizzo del sistema [ a livello di programmazione, consultare la ](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)documentazione per gli sviluppatori[!DNL Inventory Management].
+>Per informazioni sull&#39;utilizzo del sistema [&#x200B; a livello di programmazione, consultare la &#x200B;](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)documentazione per gli sviluppatori[!DNL Inventory Management].
 
 ## Algoritmo di selezione Source
 

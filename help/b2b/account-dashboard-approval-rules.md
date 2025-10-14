@@ -36,7 +36,7 @@ I flussi di approvazione degli ordini di acquisto supportano metodi di pagamento
 
 ## Impostazione regola di approvazione
 
-Con le autorizzazioni [ richieste per il ruolo](account-company-roles-permissions.md), i clienti B2B possono impostare regole di approvazione per applicare i criteri aziendali facendo clic su **[!UICONTROL Approval Rules]** nel pannello a sinistra per il proprio account cliente.
+Con le autorizzazioni [&#x200B; richieste per il ruolo](account-company-roles-permissions.md), i clienti B2B possono impostare regole di approvazione per applicare i criteri aziendali facendo clic su **[!UICONTROL Approval Rules]** nel pannello a sinistra per il proprio account cliente.
 
 ![Regole di approvazione società](./assets/approval-rules.png){width="700" zoomable="yes"}
 

@@ -59,7 +59,7 @@ Se nell&#39;installazione di Adobe Commerce o di Magento Open Source è presente
 
 1. Nella colonna _[!UICONTROL Store View]_&#x200B;della griglia fare clic sul nome della visualizzazione che si desidera modificare.
 
-   Durante la modifica della visualizzazione predefinita, i campi _[!UICONTROL Store]_&#x200B;e_[!UICONTROL Status]_ non sono disponibili.
+   Durante la modifica della visualizzazione predefinita, i campi _[!UICONTROL Store]_&#x200B;e&#x200B;_[!UICONTROL Status]_ non sono disponibili.
 
    ![Visualizzazione archivio - modifica visualizzazione predefinita](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

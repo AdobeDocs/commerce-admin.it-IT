@@ -66,7 +66,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Emails and Labels]**.
 
-   ![Regola promemoria e-mail - e-mail ed etichette, modelli ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regola promemoria e-mail - e-mail ed etichette, modelli &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. Nella sezione **[!UICONTROL Email Templates]**, scegli il modello di e-mail da utilizzare per ogni sito Web e visualizzazione store nella [gerarchia store](../getting-started/websites-stores-views.md).
 

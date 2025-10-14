@@ -28,7 +28,7 @@ Per gestire l&#39;utilizzo della persistenza del carrello per il sito o all&#39;
 
 Quando il carrello acquisti permanente è [abilitato](#configure-a-persistent-cart), il flusso di lavoro dipende da:
 
-- I valori delle impostazioni _[!UICONTROL Enable Remember Me]_&#x200B;e_[!UICONTROL Clear Persistence on Log Out]_
+- I valori delle impostazioni _[!UICONTROL Enable Remember Me]_&#x200B;e&#x200B;_[!UICONTROL Clear Persistence on Log Out]_
 - La decisione del cliente di selezionare o deselezionare la casella di controllo _[!UICONTROL Remember Me]_
 - Quando il cookie persistente viene cancellato
 

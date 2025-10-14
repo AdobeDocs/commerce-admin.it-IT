@@ -31,7 +31,7 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New User]**.
 
-   Per modificare un utente esistente, fare clic sul nome di un utente nella griglia. È possibile modificare le sezioni _[!UICONTROL User Info]_&#x200B;e_[!UICONTROL User Role]_ in base alle esigenze.
+   Per modificare un utente esistente, fare clic sul nome di un utente nella griglia. È possibile modificare le sezioni _[!UICONTROL User Info]_&#x200B;e&#x200B;_[!UICONTROL User Role]_ in base alle esigenze.
 
 1. Nella sezione _[!UICONTROL Account Information]_&#x200B;eseguire le operazioni seguenti:
 

@@ -23,7 +23,7 @@ Lo stato online del prodotto è indicato dal pulsante nella parte superiore del 
 | Controllo | Descrizione |
 |-------- | ----------- |
 | ![Attiva/Disattiva Sì](../assets/toggle-yes.png) | Indica che il prodotto è online. |
-| ![Attiva/Disattiva ](../assets/toggle-no.png) | Indica che il prodotto è offline. |
+| ![Attiva/Disattiva &#x200B;](../assets/toggle-no.png) | Indica che il prodotto è offline. |
 
 {style="table-layout:auto"}
 

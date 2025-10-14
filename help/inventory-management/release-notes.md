@@ -127,7 +127,7 @@ Inventory management 1.2.4 (versione modulo: `magento/inventory-metapackage = 1.
 
 ![Problema risolto](../assets/fix.svg) È stata migliorata la gestione delle scorte di magazzino che superano i 10.000 elementi. In precedenza, a volte i problemi di prestazioni impedivano ai commercianti di modificare le risorse in Admin prima di avviare il sito web. <!--- MC-42643-->
 
-![Problema risolto](../assets/fix.svg) La pagina **[!UICONTROL User Roles]** nell&#39;amministratore è stata aggiornata per fornire agli amministratori autorizzazioni limitate di accesso alla configurazione dei metodi di consegna. La sezione _Metodi di spedizione_ è stata rinominata in _[!UICONTROL Delivery methods]_&#x200B;e_[!UICONTROL In-Store Pickup]_ è stata spostata nella sezione _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![Problema risolto](../assets/fix.svg) La pagina **[!UICONTROL User Roles]** nell&#39;amministratore è stata aggiornata per fornire agli amministratori autorizzazioni limitate di accesso alla configurazione dei metodi di consegna. La sezione _Metodi di spedizione_ è stata rinominata in _[!UICONTROL Delivery methods]_&#x200B;e&#x200B;_[!UICONTROL In-Store Pickup]_ è stata spostata nella sezione _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![Problema risolto](../assets/fix.svg) Adobe Commerce non crea più una prenotazione di prodotto duplicata dopo che una nota di credito è stata aggiornata dall&#39;API. <!--- MC-41757-->
 
@@ -220,9 +220,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.4 (versione modulo: `inventory-composer-metapackage = 1.1.4`) è supportato con la versione 2.3.4 e compatibile con le versioni 2.3.3, 2.3.2, 2.3.1 e 2.3.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e la base di codice Magento Open Source.
 
-![È stato risolto il problema ](../assets/fix.svg)**Sono state migliorate le prestazioni.** È stata introdotta una logica di bunching per il comando CLI delle prenotazioni di magazzino per ridurre l&#39;utilizzo di memoria ed evitare casi in cui il processo è bloccato senza alcuna risposta.
+![È stato risolto il problema &#x200B;](../assets/fix.svg)**Sono state migliorate le prestazioni.** È stata introdotta una logica di bunching per il comando CLI delle prenotazioni di magazzino per ridurre l&#39;utilizzo di memoria ed evitare casi in cui il processo è bloccato senza alcuna risposta.
 
-![Nuovo ](../assets/new.svg)**Maggiore copertura dei test.** ha introdotto molti nuovi test funzionali. Quasi tutti gli scenari di magazzino manuali sono coperti da test automatizzati.
+![Nuovo &#x200B;](../assets/new.svg)**Maggiore copertura dei test.** ha introdotto molti nuovi test funzionali. Quasi tutti gli scenari di magazzino manuali sono coperti da test automatizzati.
 
 ![Problema noto](../assets/bug.svg) Numerose correzioni mirate a risolvere problemi relativi a note di credito, prodotti raggruppati e azioni di massa per scorte e origini.
 
@@ -230,15 +230,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.3 (versione modulo: `inventory-composer-metapackage = 1.1.3`) è supportato con la versione 2.3.3 e compatibile con le versioni 2.3.2, 2.3.1 e 2.3.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e la base di codice Magento Open Source.
 
-![È stato risolto il problema ](../assets/fix.svg)**Migliore integrazione con le funzionalità di Adobe Commerce e B2B.** [!DNL Inventory Management] ora funziona correttamente con le seguenti funzionalità per i siti Web che utilizzano origini e scorte di inventario non predefinite:
+![È stato risolto il problema &#x200B;](../assets/fix.svg)**Migliore integrazione con le funzionalità di Adobe Commerce e B2B.** [!DNL Inventory Management] ora funziona correttamente con le seguenti funzionalità per i siti Web che utilizzano origini e scorte di inventario non predefinite:
 
 - Ordina per SKU (Adobe Commerce)
 - Ordine rapido (B2B)
 - Elenchi richieste di acquisto (B2B)
 
-![Nuovo ](../assets/new.svg)**Prestazioni migliorate.Le prestazioni di esplorazione del catalogo di** Storefront sono migliorate per i siti Web che eseguono le scorte e l&#39;origine di magazzino predefinite.
+![Nuovo &#x200B;](../assets/new.svg)**Prestazioni migliorate.Le prestazioni di esplorazione del catalogo di** Storefront sono migliorate per i siti Web che eseguono le scorte e l&#39;origine di magazzino predefinite.
 
-![Nuovo ](../assets/new.svg)**Maggiore copertura dei test.** La copertura dei test di integrazione e funzionalità automatizzata è aumentata in modo significativo.
+![Nuovo &#x200B;](../assets/new.svg)**Maggiore copertura dei test.** La copertura dei test di integrazione e funzionalità automatizzata è aumentata in modo significativo.
 
 ## 1.1.2.
 

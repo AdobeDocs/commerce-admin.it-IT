@@ -49,8 +49,8 @@ Le regole di prezzo del carrello applicano sconti agli articoli nel carrello, in
 | [!UICONTROL Status] | Utilizzare questa opzione per filtrare l&#39;elenco in base allo stato della regola (`Active` o `Inactive`). |
 | [!UICONTROL Web Site] | Utilizza questa opzione per filtrare l’elenco in base ai siti web definiti per una regola. |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Fai clic su **[!UICONTROL Edit]** per visualizzare la pagina _[!UICONTROL Rule Information]_&#x200B;e aggiornare le impostazioni della regola (in modo analogo alla creazione di una regola). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilizza i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di inizio per la regola definita al momento della creazione della regola. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilizza i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di fine per la regola definita al momento della creazione della regola. |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilizza i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e&#x200B;_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di inizio per la regola definita al momento della creazione della regola. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilizza i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e&#x200B;_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di fine per la regola definita al momento della creazione della regola. |
 
 {style="table-layout:auto"}
 

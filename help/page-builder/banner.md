@@ -50,7 +50,7 @@ La casella degli strumenti del banner viene visualizzata quando si passa il punt
 
    ![Trascinamento di un tipo di contenuto banner nell&#39;area di visualizzazione](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   I pulsanti _[!UICONTROL Upload Image]_&#x200B;e_[!UICONTROL Select from Gallery]_ sono inclusi per consentire modifiche rapide al contenuto del banner direttamente dall&#39;area di visualizzazione. È inoltre possibile modificare il contenuto della pagina _[!UICONTROL Edit Banner]_.
+   I pulsanti _[!UICONTROL Upload Image]_&#x200B;e&#x200B;_[!UICONTROL Select from Gallery]_ sono inclusi per consentire modifiche rapide al contenuto del banner direttamente dall&#39;area di visualizzazione. È inoltre possibile modificare il contenuto della pagina _[!UICONTROL Edit Banner]_.
 
 1. Fai clic sul segnaposto del banner per visualizzare l&#39;[editor di testo](../content-design/editor.md) e immettere il contenuto per il banner.
 

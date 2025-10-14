@@ -105,7 +105,7 @@ Dopo aver creato un nuovo catalogo condiviso, è necessario configurarlo con la 
 
 >[!NOTE]
 >
->**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione categoria](../catalog/category-permissions.md) per il catalogo è impostata su _[!UICONTROL Allow for the Display Product Prices]_&#x200B;e_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
+>**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione categoria](../catalog/category-permissions.md) per il catalogo è impostata su _[!UICONTROL Allow for the Display Product Prices]_&#x200B;e&#x200B;_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
 
 ## Demo del catalogo condiviso
 

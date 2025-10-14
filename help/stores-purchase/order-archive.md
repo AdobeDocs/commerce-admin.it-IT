@@ -121,7 +121,7 @@ Selezionare ogni documento come destinazione dell&#39;azione e scegliere uno dei
 
 1. Impostare il controllo **[!UICONTROL Actions]** su `Move to Archive` e cercare il messaggio che l&#39;ordine è stato archiviato.
 
-   ![Spostamento degli ordini selezionati nell&#39;archivio ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![Spostamento degli ordini selezionati nell&#39;archivio &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >

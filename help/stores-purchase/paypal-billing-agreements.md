@@ -35,7 +35,7 @@ Nella pagina _[!UICONTROL Billing Agreements]_&#x200B;sono elencati tutti gli ac
 
 1. Individuare il contratto di fatturazione nell&#39;elenco e fare clic per aprirlo.
 
-Ogni pagina del contratto di fatturazione è costituita da due schede: _[!UICONTROL General Information]_&#x200B;e_[!UICONTROL Related Orders]_.
+Ogni pagina del contratto di fatturazione è costituita da due schede: _[!UICONTROL General Information]_&#x200B;e&#x200B;_[!UICONTROL Related Orders]_.
 
 #### Informazioni generali
 

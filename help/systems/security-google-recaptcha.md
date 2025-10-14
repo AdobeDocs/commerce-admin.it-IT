@@ -94,7 +94,7 @@ Google reCAPTCHA richiede una coppia di chiavi API per abilitare. Puoi ottenere 
 
    - Per **[!UICONTROL Theme]**, scegliere il tema da utilizzare per assegnare uno stile alla casella reCAPTCHA di Google. Opzioni: `Light Theme (default)` / `Dark Theme`
 
-   - Per **[!UICONTROL Language Code]**, immettere il codice a due caratteri per specificare il linguaggio [ utilizzato per il testo e la messaggistica Google reCAPTCHA](https://developers.google.com/recaptcha/docs/language).
+   - Per **[!UICONTROL Language Code]**, immettere il codice a due caratteri per specificare il linguaggio [&#x200B; utilizzato per il testo e la messaggistica Google reCAPTCHA](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v2 - &quot;Non sono un robot&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
@@ -108,7 +108,7 @@ Google reCAPTCHA richiede una coppia di chiavi API per abilitare. Puoi ottenere 
 
    - Per **[!UICONTROL Theme]**, scegliere il tema da utilizzare per assegnare uno stile alla casella Google reCAPTCHA. Opzioni: `Light Theme (default)` / `Dark Theme`
 
-   - Per **[!UICONTROL Language Code]**, immettere un codice a due caratteri che specifica il linguaggio [ utilizzato per il testo e i messaggi reCAPTCHA di Google](https://developers.google.com/recaptcha/docs/language).
+   - Per **[!UICONTROL Language Code]**, immettere un codice a due caratteri che specifica il linguaggio [&#x200B; utilizzato per il testo e i messaggi reCAPTCHA di Google](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v2 invisibile](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
@@ -124,7 +124,7 @@ Google reCAPTCHA richiede una coppia di chiavi API per abilitare. Puoi ottenere 
 
    - Per **[!UICONTROL Theme]**, scegliere il tema da utilizzare per assegnare uno stile alla casella Google reCAPTCHA. Opzioni: `Light Theme (default)` / `Dark Theme`
 
-   - Per **[!UICONTROL Language Code]**, immettere un codice a due caratteri che specifica il linguaggio [ utilizzato per il testo e i messaggi reCAPTCHA di Google](https://developers.google.com/recaptcha/docs/language).
+   - Per **[!UICONTROL Language Code]**, immettere un codice a due caratteri che specifica il linguaggio [&#x200B; utilizzato per il testo e i messaggi reCAPTCHA di Google](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v3 invisibile](../configuration-reference/security/assets/recaptcha-admin-v3-invisible.png){width="600" zoomable="yes"}
 

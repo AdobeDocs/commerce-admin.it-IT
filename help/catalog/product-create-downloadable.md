@@ -88,7 +88,7 @@ Le istruzioni seguenti illustrano il processo di creazione di un prodotto scaric
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu`Downloadable Product` ) nell&#39;angolo superiore destro.
+1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu`Downloadable Product` ) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto scaricabile](./assets/product-add-downloadable.png){width="700" zoomable="yes"}
 
@@ -145,7 +145,7 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 1. Accettare l&#39;impostazione **[!UICONTROL Visibility]** predefinita di `Catalog, Search`.
 
-1. Per inserire il prodotto nell&#39;elenco [ dei nuovi prodotti](../content-design/widget-new-products-list.md), selezionare la casella di controllo **[!UICONTROL Set Product as New]**.
+1. Per inserire il prodotto nell&#39;elenco [&#x200B; dei nuovi prodotti](../content-design/widget-new-products-list.md), selezionare la casella di controllo **[!UICONTROL Set Product as New]**.
 
 1. Per assegnare _[!UICONTROL Categories]_&#x200B;al prodotto, fare clic sulla casella **[!UICONTROL Select…]**&#x200B;ed eseguire una delle operazioni seguenti:
 
@@ -270,7 +270,7 @@ Se si è pronti a pubblicare il prodotto nel catalogo, impostare **[!UICONTROL E
 
 **Metodo 2:** Salva e chiudi
 
-Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
+Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
 
 ## Esperienza vetrina
 

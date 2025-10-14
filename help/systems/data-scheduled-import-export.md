@@ -83,7 +83,7 @@ Dopo ogni processo di importazione pianificato, viene eseguita automaticamente u
 
      >[!NOTE]
      >
-     >Per i tipi di entità _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;e_[!UICONTROL Stock Sources]_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update`, `Replace` e `Delete`. Per i tipi di entità _Finanze cliente_, _File principale clienti_ e _Clienti e indirizzi_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update Complex Data`, `Delete Entities` e `Custom Action`.
+     >Per i tipi di entità _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;e&#x200B;_[!UICONTROL Stock Sources]_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update`, `Replace` e `Delete`. Per i tipi di entità _Finanze cliente_, _File principale clienti_ e _Clienti e indirizzi_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update Complex Data`, `Delete Entities` e `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Impostare su ora, minuto e secondo per l&#39;inizio pianificato dell&#39;importazione.
 

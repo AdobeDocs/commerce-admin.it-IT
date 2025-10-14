@@ -17,7 +17,7 @@ Il contenuto può essere visualizzato in termini di durata, come qualsiasi prodo
 
 I contenuti con una lunga durata di conservazione sono talvolta denominati _contenuti sempreverdi_. Esempi di contenuti fissi includono storie di successo dei clienti, _istruzioni su_ e domande frequenti (FAQ). Al contrario, i contenuti che per loro natura sono deperibili includono eventi, notizie del settore e comunicati stampa.
 
-![Pagina Informazioni su di noi inclusa nell&#39;archivio Luma di esempio ](./assets/storefront-about-us.png){width="700" zoomable="yes"}
+![Pagina Informazioni su di noi inclusa nell&#39;archivio Luma di esempio &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}
 
 ## Pagine contenuto core
 

@@ -28,8 +28,8 @@ Per accedere alle regole prodotto correlate, vai a **[!UICONTROL Marketing]** > 
 |--- |--- |
 | [!UICONTROL ID] | Un identificatore numerico univoco assegnato a ogni regola di prodotto correlata |
 | [!UICONTROL Rule] | Nome della regola prodotto correlata |
-| [!UICONTROL Start] | Utilizzare i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di inizio della regola definita al momento della creazione della regola. |
-| [!UICONTROL End] | Utilizzare i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di fine della regola definita al momento della creazione della regola. |
+| [!UICONTROL Start] | Utilizzare i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e&#x200B;_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di inizio della regola definita al momento della creazione della regola. |
+| [!UICONTROL End] | Utilizzare i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e&#x200B;_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di fine della regola definita al momento della creazione della regola. |
 | [!UICONTROL Priority] | Immetti il testo in questo campo per filtrare l’elenco in base alla priorità definita per una regola. |
 | [!UICONTROL Applies To] | Questa opzione filtra l&#39;elenco di regole applicabili a `Related Products`, `Up-sells` e `Cross-sells`. |
 | [!UICONTROL Status] | Utilizzare questa opzione per filtrare l&#39;elenco in base allo stato della regola (`Active` o `Inactive`). |

@@ -24,7 +24,7 @@ Griglia _&#x200B;**[!UICONTROL Customer Segments]**&#x200B;_
 |--- |--- |
 | **[!UICONTROL ID]** | ID univoco del segmento del cliente. |
 | **[!UICONTROL Segment]** | Il nome del segmento del cliente. |
-| **[!UICONTROL Status]** | Indica se il segmento del cliente è _[!UICONTROL Active]_&#x200B;o_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indica se il segmento del cliente è _[!UICONTROL Active]_&#x200B;o&#x200B;_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indica il sito web a cui appartiene il segmento di clienti. |
 
 {style="table-layout:auto"}

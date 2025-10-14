@@ -89,7 +89,7 @@ La chiave proviene dalla [piattaforma Google Maps][1] e deve avere [API Geocodin
 
      >[!NOTE]
      >
-     >Quando si utilizza questo algoritmo per la spedizione, se percorsi e dati non vengono restituiti per la modalità di calcolo selezionata (guida, bicicletta o deambulazione) per una spedizione, SSA utilizza per impostazione predefinita la priorità Source. Si consiglia di impostare la priorità [ per le origini per stock](stocks-prioritize-sources.md).
+     >Quando si utilizza questo algoritmo per la spedizione, se percorsi e dati non vengono restituiti per la modalità di calcolo selezionata (guida, bicicletta o deambulazione) per una spedizione, SSA utilizza per impostazione predefinita la priorità Source. Si consiglia di impostare la priorità [&#x200B; per le origini per stock](stocks-prioritize-sources.md).
 
      | Opzione | Descrizione |
      | ----- | ----- |

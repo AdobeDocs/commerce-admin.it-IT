@@ -43,7 +43,7 @@ Prima di modificare quantità e impostazioni, è necessario assegnare [sorgenti]
 1. Per salvare, effettuate una delle seguenti operazioni:
 
    - Fare clic su **[!UICONTROL Save]**.
-   - Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![ (](../assets/icon-menu-down-arrow-red.png)freccia menu **[!UICONTROL Save & Close]**).
+   - Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![&#x200B; (](../assets/icon-menu-down-arrow-red.png)freccia menu **[!UICONTROL Save & Close]**).
 
 Dopo aver assegnato le origini, aggiornare la [quantità di magazzino](quantities-assign-per-product.md) per ogni origine prodotto.
 

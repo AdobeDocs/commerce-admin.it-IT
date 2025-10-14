@@ -156,7 +156,7 @@ L’amministratore consente di gestire gli ordini, i clienti, i prodotti, le fun
 
 1. Fare clic su **[!UICONTROL Save Config]**.
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## Mantenere un accesso sicuro all’amministratore
 

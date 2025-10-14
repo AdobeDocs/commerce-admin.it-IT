@@ -223,7 +223,7 @@ Le azioni della regola prezzo del carrello descrivono il modo in cui i prezzi ve
 
 1. Scorri verso il basso fino a **[!UICONTROL Actions]** ed espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione.
 
-   ![Regola prezzo carrello - azioni ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![Regola prezzo carrello - azioni &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. Impostare **[!UICONTROL Apply]** su una delle seguenti opzioni di sconto:
 

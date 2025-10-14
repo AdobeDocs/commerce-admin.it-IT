@@ -102,7 +102,7 @@ Per una categoria, utilizzare la sezione _[!UICONTROL Products in Category]_&#x2
 |----------|--------------|
 | ![Visualizza come elenco](../assets/icon-view-list.png) | Visualizza come elenco |
 | ![Visualizza come sezioni](../assets/icon-view-tiles.png) | Visualizza come riquadri |
-| ![Attiva/Disattiva ](../assets/toggle-no.png) | Corrispondenza per regola - No |
+| ![Attiva/Disattiva &#x200B;](../assets/toggle-no.png) | Corrispondenza per regola - No |
 | ![Attiva/Disattiva Sì](../assets/toggle-yes.png) | Corrispondenza per regola - Sì |
 | ![Sposta controller](../assets/icon-move.png) | Il controllo di trascinamento consente di acquisire un prodotto e spostarlo in un&#39;altra posizione nella pagina corrente della griglia. Per ulteriori informazioni, vedere [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md). |
 | ![Controller posizione](../assets/control-position.png) | Determina la posizione del prodotto nell&#39;elenco. |
