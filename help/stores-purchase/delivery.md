@@ -16,7 +16,7 @@ Alcuni studi dimostrano che i negozi che offrono ai clienti una scelta di divers
 
 >[!NOTE]
 >
->A causa della chiusura di Temando, il supporto per [!DNL Magento Shipping] è stato rimosso nella versione 2.4.0. Per informazioni dettagliate sullo stato e raccomandazioni per le nuove implementazioni di spedizione in Commerce, visita la pagina [informazioni sul prodotto](https://business.adobe.com/products/magento/shipping.html){:target="_blank"}.
+>A causa della chiusura di Temando, il supporto per [!DNL Magento Shipping] è stato rimosso nella versione 2.4.0. Per informazioni dettagliate sullo stato e raccomandazioni per le nuove implementazioni di spedizione in Commerce, visita la pagina [informazioni sul prodotto](https://business.adobe.com/it/products/magento/shipping.html){:target="_blank"}.
 
 ## Metodi di consegna di base
 

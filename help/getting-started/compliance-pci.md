@@ -48,5 +48,5 @@ Per ulteriori informazioni, consulta [Approccio Adobe alla conformità PCI][1]{:
 
 Man mano che la tua azienda cresce, ti potrebbe essere richiesto di presentare una relazione sulla conformità su base annuale. Gli obblighi di reporting PCI aumentano in proporzione al livello di commerciante, ma sono esentati per le aziende che elaborano meno di 20.000 transazioni con carta di credito all&#39;anno. Per ulteriori informazioni, visitare il sito Web [PCI Security Standards Council][2].
 
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
+[1]: https://business.adobe.com/it/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

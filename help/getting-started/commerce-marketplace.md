@@ -109,7 +109,7 @@ I problemi di accesso sono in genere correlati a una mancata corrispondenza tra 
 
 ### Domande open source
 
-Il team di supporto per il Marketplace risolve i problemi relativi solo ai siti [commerce.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Domande su Magento Open Source possono essere indirizzate al [Forum della community](https://community.magento.com/) o a [un partner](https://business.adobe.com/products/magento/partners.html) che possa fornire assistenza con Magento Open Source.
+Il team di supporto per il Marketplace risolve i problemi relativi solo ai siti [commerce.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Domande su Magento Open Source possono essere indirizzate al [Forum della community](https://community.magento.com/) o a [un partner](https://business.adobe.com/it/products/magento/partners.html) che possa fornire assistenza con Magento Open Source.
 
 ### Richieste di rimborso
 
@@ -143,4 +143,4 @@ Queste autorizzazioni speciali concedono lo stesso livello di accesso su Adobe C
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/it/products/magento/magento-commerce.html

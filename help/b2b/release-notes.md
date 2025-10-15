@@ -28,7 +28,7 @@ Queste note sulla versione dell’estensione B2B acquisiscono aggiunte e correzi
 
 Compatibile con Adobe Commerce versione 2.4.9-alpha3
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html).
 
 ## B2B v1.5.3-alfa2
 
@@ -45,7 +45,7 @@ Compatibile con Adobe Commerce versione 2.4.9-alpha2
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.8-p3, 2.4.7-p8 e 2.4.6-p13.
 Compatibile con Adobe Commerce versioni da 2.4.7 a 2.4.7-p7, da 2.4.6 a 2.4.6-p12.
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html).
 
 ## B2B v1.5.2-p2
 
@@ -223,7 +223,7 @@ I miglioramenti apportati alle funzionalità di preventivo consentono a buyer e 
 
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.7-p8+ e 2.4.6-p13+.
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html).
 
 {{b2b-compatibility}}
 
@@ -385,7 +385,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.6-p13+.
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html).
 
 ## B2B v1.3.5-p12
 
@@ -475,7 +475,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce 2.4.0 e versioni successive
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html).
 
 ## B2B v1.3.4-p14
 
@@ -565,7 +565,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce 2.4.0 e versioni successive
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html)
 
 ## B2B v1.3.3-p15
 
