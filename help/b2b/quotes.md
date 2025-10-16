@@ -123,7 +123,7 @@ In Amministrazione, gli amministratori e i venditori B2B possono gestire le offe
 
 ### View quote activity
 
-[!UICONTROL Comments][!UICONTROL History Log]
+[!UICONTROL Comments]&#x200B;[!UICONTROL History Log]
 
 1. Open a quote.
 

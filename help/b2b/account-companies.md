@@ -75,7 +75,7 @@ Ogni società dispone di un amministratore unico identificato dall’indirizzo e
 
    ![](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
 
-1. [!UICONTROL Customer Login][!UICONTROL **&#x200B;**][!UICONTROL **&#x200B;**]
+1. [!UICONTROL Customer Login]&#x200B;[!UICONTROL **&#x200B;**]&#x200B;[!UICONTROL **&#x200B;**]
 
 1. [!UICONTROL **&#x200B;**]
 
