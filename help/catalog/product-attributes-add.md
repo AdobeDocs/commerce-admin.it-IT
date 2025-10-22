@@ -3,9 +3,9 @@ title: Aggiungere attributi a un prodotto
 description: Scopri come aggiungere attributi ai prodotti nel catalogo.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 45d69ccc1a5a6a7b8d072465c19829a76dde826d
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Anche se gli attributi vengono gestiti principalmente dal menu [Archivi](../stor
 
 ![Proprietà attributo](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL Attribute Properties]_, immettere **[!UICONTROL Attribute Label]**&#x200B;per identificare l&#39;attributo.
+1. In _[!UICONTROL Attribute Properties]_, immettere **[!UICONTROL Attribute Label]**per identificare l&#39;attributo.
 
 1. Impostare **[!UICONTROL Catalog Input Type for Store Owner]** sul tipo di [controllo di input](attributes-input-types.md) da utilizzare per l&#39;immissione dei dati.
 
@@ -85,7 +85,7 @@ Anche se gli attributi vengono gestiti principalmente dal menu [Archivi](../stor
 
 1. Per includere l&#39;attributo come colonna nella griglia Prodotti, impostare **[!UICONTROL Add to Column Options]** su `Yes`.
 
-1. Per filtrare la griglia _[!UICONTROL Products]_&#x200B;in base a questa colonna, impostare **[!UICONTROL Use in Filter Options]**&#x200B;su `Yes`.
+1. Per filtrare la griglia _[!UICONTROL Products]_in base a questa colonna, impostare **[!UICONTROL Use in Filter Options]**su `Yes`.
 
 ## Passaggio 4: immettere l&#39;etichetta del campo
 
@@ -96,6 +96,10 @@ Anche se gli attributi vengono gestiti principalmente dal menu [Archivi](../stor
    Se il tuo Negozio è disponibile in diverse lingue, puoi immettere un titolo tradotto per ogni visualizzazione.
 
    ![Gestisci titoli](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   > Se prevedi di utilizzare questo attributo come facet in Live Search, devi specificare un’etichetta specifica per lo store. In caso contrario, il nome dell&#39;attributo potrebbe non essere visualizzato correttamente nella pagina di configurazione del facet. Per aggiornare la configurazione, modifica manualmente l&#39;etichetta utilizzando l&#39;opzione [modifica nell&#39;elenco dei facet di Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) nella _Guida a Live Search_.
 
 ## Passaggio 5: descrivere le proprietà della vetrina
 
@@ -115,7 +119,7 @@ Anche se gli attributi vengono gestiti principalmente dal menu [Archivi](../stor
 
    >[!NOTE]
    >
-   >Quando l&#39;impostazione _[!UICONTROL Use in Search]_&#x200B;è impostata su `No`, l&#39;impostazione&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ non viene visualizzata e l&#39;attributo product non viene utilizzato nella ricerca con un valore di impostazione [!UICONTROL Use in Layered Navigation].
+   >Quando l&#39;impostazione _[!UICONTROL Use in Search]_è impostata su `No`, l&#39;impostazione_[!UICONTROL Use in Search Results Layered Navigation]_ non viene visualizzata e l&#39;attributo product non viene utilizzato nella ricerca con un valore di impostazione [!UICONTROL Use in Layered Navigation].
 
 1. Per utilizzare l&#39;attributo nella navigazione a livelli nelle pagine dei risultati di ricerca, impostare **[!UICONTROL Use in Search Results Layered Navigation]** su `Yes` e immettere un numero nel campo **[!UICONTROL Position]**.
 
@@ -123,13 +127,13 @@ Anche se gli attributi vengono gestiti principalmente dal menu [Archivi](../stor
 
    >[!NOTE]
    >
-   >Il campo _[!UICONTROL Position]_&#x200B;è oscurato per impostazione predefinita ed è necessario salvare l&#39;attributo prima di poter modificare questa impostazione.
+   >Il campo _[!UICONTROL Position]_è oscurato per impostazione predefinita ed è necessario salvare l&#39;attributo prima di poter modificare questa impostazione.
 
 1. Per utilizzare l&#39;attributo nelle regole di prezzo, impostare **[!UICONTROL Use for Promo Rule Conditions]** su `Yes`.
 
 1. Per consentire la formattazione del testo con HTML, impostare **[!UICONTROL Allow HTML Tags on Storefront]** su `Yes`.
 
-   Questa impostazione rende disponibile l’editor WYSIWYG quando si modifica il campo.
+   Questa impostazione rende disponibile l’editor di WYSIWYG durante la modifica del campo.
 
 1. Per includere l&#39;attributo nella pagina del prodotto, impostare **[!UICONTROL Visible on Catalog Pages on Storefront]** su `Yes`.
 
