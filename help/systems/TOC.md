@@ -5,10 +5,10 @@ breadcrumb-title: Guida ai sistemi di amministrazione
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c200a46a30d51b4844fff24d864b629b8400f33
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 2%
+source-wordcount: '188'
+ht-degree: 3%
 
 ---
 
@@ -48,8 +48,10 @@ ht-degree: 2%
       - [Importare prodotti scaricabili](data-transfer-downloadable-products.md)
       - [Importa dati prezzo livello](data-import-price-tier.md)
    - [Importazione ed esportazione pianificate](data-scheduled-import-export.md)
-   - [Dashboard di gestione dati](data-dashboard.md)
-- Registri azioni {#action-logs}
+   - Sincronizzazione dei dati per i servizi Commerce {#data-sync}
+      - [Dashboard di gestione dati](data-dashboard.md)
+      - [Stato sincronizzazione feed dati](data-feed-sync-status.md)
+- Registri delle azioni {#action-logs}
    - [Panoramica](action-log.md)
    - [Rapporto dei registri delle azioni](action-log-report.md)
    - [Archivio dei registri](action-log-archive.md)
@@ -62,7 +64,7 @@ ht-degree: 2%
    - [Strumenti per sviluppatori](developer-tools.md)
    - [Strumenti di supporto](support.md)
 - [Integrazioni](integrations.md)
-- Protezione {#security}
+- Sicurezza {#security}
    - [Panoramica](security.md)
    - [Chiave di crittografia](encryption-key.md)
    - [Scansione di sicurezza](security-scan.md)
@@ -77,6 +79,6 @@ ht-degree: 2%
    - [Gestione delle sessioni](security-session-management.md)
    - [Rilevamento funzionalità browser](security-browser-capabilities-detection.md)
    - [Segnalazione dei problemi di sicurezza](security-issue-reporting.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

@@ -2,9 +2,9 @@
 title: Guida ai sistemi di amministrazione
 description: Scopri le best practice sulla sicurezza per proteggere lo store Commerce e gestire le autorizzazioni, e come importare ed esportare dati, gestire integrazioni ed estensioni e occuparti della manutenzione di routine.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 0a305befd07236faf7f5f477907b9ce46e8af6f5
+source-git-commit: 941ecd6017f3534aca6ac80202b9a50492e2a10c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '414'
 ht-degree: 7%
 
 ---
@@ -22,9 +22,9 @@ Questa guida tratta i seguenti argomenti:
 | [Account e autorizzazioni amministratore](permissions.md) | Gestisci gli account utente Admin e i ruoli utilizzati per concedere l’accesso alle funzioni store. |
 | [Variabili](variables-predefined.md) | Le variabili consentono di personalizzare facilmente i modelli di e-mail e newsletter e altri tipi di contenuto che supportano il sito e l’esperienza del cliente. |
 | [Modelli e-mail](email-templates.md) | I modelli e-mail definiscono il layout, il contenuto e la formattazione dei messaggi automatizzati inviati dal tuo archivio. Sono denominate e-mail transazionali perché ciascuna di esse è associata a un tipo specifico di transazione o evento. |
-| [Trasferimento dati](data-transfer.md) | Gli strumenti di importazione ed esportazione consentono di gestire più record in un&#39;unica operazione. È possibile non solo importare nuovi elementi, ma anche aggiornare, sostituire ed eliminare set di prodotti esistenti. |
+| [Trasferimento dati](data-transfer.md) | <ul><li>Gli strumenti di importazione ed esportazione consentono di gestire più record in un&#39;unica operazione. È possibile non solo importare nuovi elementi, ma anche aggiornare, sostituire ed eliminare set di prodotti esistenti.</li><li>Visualizza i dati di prodotto pubblicati nei servizi SaaS di Commerce da [[!UICONTROL Data Management Dashboard]](data-dashboard.md).</li><li>Monitorare la sincronizzazione del feed di esportazione dei dati nel database dei servizi SaaS di Commerce dalla pagina [[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md).</li></ul> |
 | [Registri azioni](action-log.md) | Per Adobe Commerce, i registri delle azioni acquisiscono ogni modifica apportata da un utente amministratore che lavora nel tuo store. Questo ti consente di tenere traccia di tutte le modifiche apportate al tuo archivio. |
-| Strumenti | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} gli amministratori di sistema dispongono di una raccolta di strumenti: [gli strumenti di supporto](support.md) sono progettati per identificare i problemi noti nel sistema. Gli strumenti di sistema forniscono supporto operativo per eseguire la gestione [index](index-management.md) e [cache](cache-management.md) di routine, [eseguire il backup del sistema](backups.md), gestire [operazioni pianificate](data-scheduled-import-export.md) e utilizzare un assortimento di [strumenti per sviluppatori](developer-tools.md). |
+| Strumenti | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} gli amministratori di sistema dispongono di una raccolta di strumenti: [gli strumenti di supporto](support.md) sono progettati per identificare i problemi noti nel sistema. Gli strumenti di sistema forniscono supporto operativo per eseguire la gestione [index](index-management.md) e [cache](cache-management.md) di routine, [eseguire il backup del sistema](backups.md), gestire [operazioni pianificate](data-scheduled-import-export.md) e utilizzare un assortimento di [strumenti per sviluppatori](developer-tools.md). |
 | [Integrazioni](integrations.md) | Stabilisci la posizione delle credenziali OAuth e fornisci gli URL di reindirizzamento per le integrazioni di terze parti. |
 | [Sicurezza](security.md) | Scopri gli strumenti disponibili per proteggere il tuo archivio e i tuoi dati e le linee guida per un piano d’azione sulla sicurezza se noti un compromesso. |
 
