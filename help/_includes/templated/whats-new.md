@@ -23,7 +23,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stata aggiunta la documentazione per l'estensione <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Stato sincronizzazione feed dati</a> per monitorare la sincronizzazione dei feed di esportazione dati da Adobe Commerce al database Commerce SaaS per la pubblicazione nei servizi Commerce connessi (Live Search, Product Recommendations, Catalog Service). La pagina Stato di sincronizzazione dati è disponibile dal menu Sistemi di Commerce Admin.</p>
+      <td><p>È stata aggiunta la documentazione per l'estensione <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Stato sincronizzazione feed dati</a> per monitorare la sincronizzazione dei feed di esportazione dati da Adobe Commerce al database Commerce SaaS per la pubblicazione nei servizi Commerce connessi (Live Search, Product Recommendations, Catalog Service). La pagina Stato di sincronizzazione dati è disponibile dal menu Sistemi di Commerce Admin.</p>
 </td>
       <td>
         Nuovo argomento
@@ -45,7 +45,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stata aggiunta la patch di sicurezza B2B di ottobre 2025 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">note sulla versione</a>.</p>
+      <td><p>È stata aggiunta la patch di sicurezza B2B di ottobre 2025 <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/release-notes">note sulla versione</a>.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -67,7 +67,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiunte informazioni su come visualizzare e modificare <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">attributi dell'ordine personalizzati</a> nell'Admin for Adobe Commerce as a Cloud Service.</p>
+      <td><p>Sono state aggiunte informazioni su come visualizzare e modificare <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">attributi dell'ordine personalizzati</a> nell'Admin for Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -89,7 +89,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stato rimosso l'attributo Use for Promo Rule Conditions dalla tabella "Product Variation attribute requirements" nell'argomento <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Configurable products</a>.</p>
+      <td><p>È stato rimosso l'attributo Use for Promo Rule Conditions dalla tabella "Product Variation attribute requirements" nell'argomento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Configurable products</a>.</p>
 </td>
       <td>
         Tecnico
@@ -97,7 +97,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">commit</a></td>
     </tr>
     <tr>
-      <td><p>È stata aggiunta una descrizione di ogni tipo di condizione <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">segmento cliente</a>.</p>
+      <td><p>È stata aggiunta una descrizione di ogni tipo di condizione <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/customers/segments/customer-segment-create">segmento cliente</a>.</p>
 </td>
       <td>
         Tecnico
@@ -119,7 +119,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono stati rimossi i documenti sulle funzioni obsoleti di New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">reporting</a>.</p>
+      <td><p>Sono stati rimossi i documenti sulle funzioni obsoleti di New Relic <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/reporting/new-relic-reporting">reporting</a>.</p>
 </td>
       <td>
         Aggiornamento principale
