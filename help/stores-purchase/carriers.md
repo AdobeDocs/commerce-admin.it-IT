@@ -3,9 +3,9 @@ title: Impostazione vettore di spedizione
 description: Scopri il supporto per gli account di spedizione commerciali disponibile per il tuo negozio.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,20 @@ Le opzioni di configurazione variano a seconda del gestore. Tuttavia, tutti rich
 1. Apri un conto di spedizione con il vettore.
 
 1. Inserisci il numero di account o l’ID utente e l’URL del gateway per il sistema nella configurazione dell’archivio.
+
+### API degli strumenti web USPS obsoleta
+
+Le versioni 2.4.6, 2.4.7 e 2.4.8 di Adobe Commerce utilizzano le API legacy degli strumenti web per l’integrazione preconfigurata delle soluzioni di spedizione con USPS. USPS ha introdotto le API USPS, una piattaforma basata su REST che sostituisce le API legacy degli strumenti web.
+
+Il 25 gennaio 2026, USPS ritirerà le API degli strumenti web legacy. Dopo questa data, tutte le richieste alle API degli strumenti web avranno esito negativo.
+
+Per evitare interruzioni dei servizi di spedizione USPS, effettua le seguenti azioni prima del 25 gennaio 2026:
+
+- Applica la patch di qualità per la migrazione di [API REST USPS](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html) (AC-1520) per aggiungere il supporto per l&#39;integrazione con le API REST USPS.
+
+- Aggiorna la configurazione USPS di Commerce per utilizzare le API REST:
+
+   - [Configurazione vettore di spedizione USPS](usps.md)
+
+   - [Configurazione etichetta spedizione](shipping-label-create.md)
+

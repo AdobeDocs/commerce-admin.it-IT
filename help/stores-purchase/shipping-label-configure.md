@@ -3,9 +3,9 @@ title: Configurare le etichette di spedizione
 description: Scopri come configurare l’archivio per la generazione delle etichette di spedizione.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Le seguenti impostazioni devono essere effettuate a livello di prodotto e nella 
 
 | [!UICONTROL Carrier] | Requisiti |
 |-------|--------|
-| [USPS](usps.md) | Richiede un account USPS. A partire dal 23 febbraio 2018, USPS richiede che tutte le etichette di spedizione includano l&#39;affrancatura. |
+| [USPS](usps.md) | Richiede un account USPS per l&#39;affrancatura delle etichette di spedizione. |
 | [UPS](ups.md) | Richiede un account UPS. Le etichette di spedizione sono disponibili solo per le spedizioni che hanno origine nelle credenziali specifiche degli Stati Uniti sono necessarie per i negozi al di fuori degli Stati Uniti. |
 | [FedEx](fedex.md) | Richiede un account FedEx. Per i negozi al di fuori degli Stati Uniti, le etichette di spedizione sono supportate solo per le spedizioni internazionali. FedEx non consente spedizioni nazionali al di fuori degli Stati Uniti |
 | [DHL](dhl.md) | Richiede un account DHL. Le etichette di spedizione sono supportate solo per le spedizioni originarie degli Stati Uniti |
