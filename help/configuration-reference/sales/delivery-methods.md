@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![Tariffa fissa](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Spedizione gratuita](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![Tariffe tabella](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![Consegna in-store](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Impostazioni account XML UPS](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![Informazioni sul pacchetto UPS](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 ![Metodi consentiti UPS](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS¬†Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS¬†Allowed Methods]https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![Paesi UPS applicabili e altre impostazioni](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS¬†Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS¬†Applicable Countries and Other Settings]https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -214,7 +214,7 @@ I campi seguenti sono disponibili solo se √® stata applicata la patch di qualit√
 
 ![Impostazioni pacchetto USPS](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -229,7 +229,7 @@ I campi seguenti sono disponibili solo se √® stata applicata la patch di qualit√
 
 ![Impostazioni tariffe di gestione USPS](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -242,7 +242,7 @@ I campi seguenti sono disponibili solo se √® stata applicata la patch di qualit√
 
 ![Metodi consentiti USPS](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -256,7 +256,7 @@ I campi seguenti sono disponibili solo se √® stata applicata la patch di qualit√
 
 ![Paesi USPS applicabili](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -270,7 +270,7 @@ I campi seguenti sono disponibili solo se √® stata applicata la patch di qualit√
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### Impostazioni account FedEx
 
@@ -348,7 +348,7 @@ I campi seguenti sono disponibili solo se √® stata applicata la patch di qualit√
 
 ![Impostazioni account DHL](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -364,7 +364,7 @@ I campi seguenti sono disponibili solo se √® stata applicata la patch di qualit√
 
 ![Impostazioni pacchetto DHL](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -380,7 +380,7 @@ I campi seguenti sono disponibili solo se √® stata applicata la patch di qualit√
 
 ![Metodi consentiti DHL](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -396,7 +396,7 @@ I campi seguenti sono disponibili solo se √® stata applicata la patch di qualit√
 
 ![Paesi applicabili DHL](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
