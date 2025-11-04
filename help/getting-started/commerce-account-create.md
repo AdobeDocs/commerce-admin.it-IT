@@ -3,9 +3,9 @@ title: 'Crea e accedi al tuo account  [!DNL Commerce] '
 description: Scopri  [!DNL Commerce]  account, che gestiscono i prodotti e i servizi acquistati.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
+source-git-commit: 2b0959de64e139d3f652e1cd5edb744c0a8489a3
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Puoi accedere al tuo account [!DNL Commerce] dal sito Web [!DNL Commerce]. Dal d
 
 L&#39;account di accesso [!DNL Commerce] è separato dall&#39;account di accesso amministratore dello store. In genere si utilizzano credenziali diverse per ogni sistema e l&#39;accesso a ogni sistema viene gestito in modo indipendente.
 
-Tuttavia, un utente che desidera semplificare l&#39;accesso ad Adobe Commerce e ai prodotti Adobe Business può configurare il proprio Adobe ID per l&#39;accesso all&#39;amministratore dello store: [Configurare l&#39;integrazione dell&#39;amministratore Commerce con Adobe ID](https://experienceleague.adobe.com/it/docs/commerce-admin/start/admin/ims/adobe-ims-config) nella *Guida all&#39;integrazione IMS per Commerce*.
+Tuttavia, un utente che desidera semplificare l&#39;accesso ad Adobe Commerce e ai prodotti Adobe Business può configurare il proprio Adobe ID per l&#39;accesso all&#39;amministratore dello store: [Configurare l&#39;integrazione dell&#39;amministratore Commerce con Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) nella *Guida all&#39;integrazione IMS per Commerce*.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Tuttavia, un utente che desidera semplificare l&#39;accesso ad Adobe Commerce e 
 
 ## Accedi al tuo account [!DNL Commerce]
 
-Per accedere a un account Commerce è necessario disporre di un Adobe ID. Se disponi già di un account [!DNL Commerce] ma non hai effettuato l&#39;accesso a tale account da agosto 2022, dovrai creare un Adobe ID durante il processo di accesso.
+Per accedere al tuo account Commerce è necessario disporre di un Adobe ID. Se disponi di un account [!DNL Commerce] esistente ma non hai effettuato l’accesso da agosto 2022, devi creare un Adobe ID durante il processo di accesso. È necessario completare questo passaggio prima di accedere al tuo account.
 
 >[!WARNING]
 >
