@@ -111,7 +111,7 @@ Per applicare un&#39;azione a ordini specifici, seleziona la casella di controll
 | [!UICONTROL Grand Total (Base)] | Totale complessivo dell&#39;ordine. |
 | [!UICONTROL Grand Total (Purchased)] | Il totale complessivo dei prodotti acquistati nell’ordine. |
 | [!UICONTROL Status] | Stato dell&#39;ordine corrente. |
-| [!UICONTROL Action] | _[!UICONTROL View]_apre l&#39;ordine in modalità di modifica. |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;apre l&#39;ordine in modalità di modifica. |
 | [!UICONTROL Allocated sources] | Le origini allocate a tale ordine specifico. |
 
 {style="table-layout:auto"}
