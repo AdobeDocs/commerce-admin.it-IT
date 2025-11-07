@@ -38,5 +38,5 @@ Esistono molte caselle di luce e cursori di terze parti che puoi utilizzare per 
 
 Per assistenza nella risoluzione dei problemi relativi a immagini e video, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
-- [Le immagini del prodotto non vengono visualizzate nonostante i ruoli immagine di modifica prodotto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [Immagini dello store non visualizzate dopo la distribuzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [Le immagini del prodotto non vengono visualizzate nonostante i ruoli immagine di modifica prodotto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=it)
+- [Immagini dello store non visualizzate dopo la distribuzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=it)
