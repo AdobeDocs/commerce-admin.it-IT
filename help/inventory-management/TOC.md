@@ -4,10 +4,10 @@ user-guide-description: Scopri come utilizzare le  [!DNL Inventory Management] f
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b9a2bf31efd5ed04098a1e24ed4d779ba74cb1b9
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 5%
+source-wordcount: '132'
+ht-degree: 6%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 5%
 - [Guida di Inventory management](guide-overview.md)
 - [Introduzione a  [!DNL Inventory Management]](introduction.md)
 - [Note sulla versione](release-notes.md)
-- Nozioni di base sull&#39;inventario {#basics}
+- Nozioni di base sull’inventario {#basics}
    - [Fonti e scorte](sources-stocks.md)
    - [Selezione Source e prenotazioni](selection-reservations.md)
    - [Stato ordine e prenotazione](order-status.md)
    - [Tipi di prodotto](product-types.md)
-- Inizia {#get-started}
+- Introduzione {#get-started}
    - [Aggiornamenti Commerce](migrate.md)
    - [Installare e aggiornare](install-update.md)
    - [Acquisti per esercenti](merchant-sourcing.md)
@@ -35,10 +35,10 @@ ht-degree: 5%
    - [Configurare gli ordini arretrati](backorders.md)
    - [Configurare la priorità dell’origine](source-priority-algorithm.md)
    - [Configura priorità distanza](distance-priority-algorithm.md)
-   - Avvisi prodotti {#product-alerts}
+   - Avvisi sui prodotti {#product-alerts}
       - [Configurare gli avvisi sui prodotti](alert-setup.md)
       - [Scenari di messaggi azionari](stock-messages.md)
-- Gestisci origini {#sources}
+- Gestire le origini {#sources}
    - [Panoramica](sources-manage.md)
    - [Aggiungi origini](sources-add.md)
    - [Disabilita origini](sources-disable.md)
@@ -47,16 +47,14 @@ ht-degree: 5%
    - [Aggiungi scorte](stocks-add.md)
    - [Assegna priorità alle origini per gli stock](stocks-prioritize-sources.md)
    - [Elimina scorte](stocks-delete.md)
-- Gestisci quantità di magazzino {#quantities}
+- Gestire le quantità di magazzino {#quantities}
    - [Panoramica](quantities-manage.md)
    - [Assegna origini per prodotto](sources-assign-per-product.md)
    - [Assegna quantità per prodotto](quantities-assign-per-product.md)
    - [Assegnazione in blocco e annullamento dell&#39;assegnazione](bulk-assignment.md)
    - [Trasferisci magazzino all&#39;origine](inventory-transfer.md)
    - [Importare ed esportare le scorte](inventory-import-export.md)
-- Gestisci ordini e spedizioni {#orders}
+- Gestione di ordini e spedizioni {#orders}
    - [Panoramica](shipments.md)
    - [Crea spedizioni](shipments-create.md)
 - [Riferimento CLI](cli.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
-

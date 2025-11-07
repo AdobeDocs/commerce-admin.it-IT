@@ -4,9 +4,9 @@ user-guide-description: Informazioni complete sulle funzioni di gestione dei cat
 breadcrumb-title: Gestione catalogo
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 5703ca88d085d39c36ab1edca70e4e802b625e7a
+source-git-commit: d3c26582e70f18612e9736df57e328f1c8686c57
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '234'
 ht-degree: 1%
 
 ---
@@ -98,5 +98,3 @@ ht-degree: 1%
       + [Creare ed eliminare attributi](attribute-product-create.md)
       + [Aggiornamenti in blocco](bulk-product-attribute-update.md)
       + [Set di attributi](attribute-sets.md)
-+ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
-

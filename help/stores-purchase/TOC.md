@@ -5,9 +5,9 @@ breadcrumb-title: Negozi ed esperienza di acquisto
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 2e5d8c81cbf20612d1351da2f5474f13f353c34c
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 + [Guida ai negozi e all’esperienza di acquisto](guide-overview.md)
 + [Introduzione ai negozi ed esperienza di acquisto](introduction.md)
-+ Gestione di siti e archivi {#site-store}
++ Gestione di siti e store {#site-store}
    + [Menu Negozi](stores-menu.md)
    + [Struttura dello store e del sito](stores.md)
    + [Visualizzazioni dello store](store-views.md)
@@ -40,18 +40,18 @@ ht-degree: 3%
       + [Aggiorna tassi di cambio](currency-update.md)
    + [E-mail di vendita](sales-email.md)
    + [Documenti di vendita](sales-documents.md)
-+ Punto di acquisto {#point-of-purchase}
++ Punto vendita {#point-of-purchase}
    + [Acquisto immediato](checkout-instant-purchase.md)
    + Carrello {#cart}
       + [Panoramica](cart.md)
       + [Configurazione del carrello](cart-configuration.md)
       + [Persistenza carrello](cart-persistent.md)
       + [Ordina per SKU](order-by-sku.md)
-   + Assistenza per acquisti {#assist}
+   + Assistenza agli acquisti {#assist}
       + [Gestire un carrello](shopping-assisted-cart-manage.md)
       + [Crea un ordine](customer-account-create-order.md)
       + [Aggiornare un ordine cliente](order-update.md)
-   + Estrai {#checkout}
+   + Pagamento {#checkout}
       + [Panoramica](checkout-process.md)
       + [Pagamento di una pagina](checkout-one-page.md)
       + [Pagamento per gli ospiti](checkout-guest.md)
@@ -62,9 +62,9 @@ ht-degree: 3%
    + Biglietti regalo {#gift-cards}
       + [Acquisto e rimborso gift card](product-gift-card-workflow.md)
       + [Conti gift card](product-gift-card-accounts.md)
-+ Strumenti per acquisti {#shopper-tools}
++ Strumenti per gli acquirenti {#shopper-tools}
    + [Invia un&#39;e-mail a un amico](email-a-friend.md)
-   + Elenchi desideri {#wish-lists}
+   + Elenchi dei desideri {#wish-lists}
       + [Panoramica](wishlists.md)
       + [Configura elenchi di desideri](wishlist-configuration.md)
       + [Esperienza vetrina elenco desideri](wishlist-storefront.md)
@@ -92,7 +92,7 @@ ht-degree: 3%
       + [Bonifici bancari](bank-transfer.md)
       + [Ordini di acquisto](purchase-order.md)
       + [Estrazione subtotale pari a zero](zero-subtotal-checkout.md)
-+ Gestisci flusso ordini {#order-management}
++ Gestire il flusso degli ordini {#order-management}
    + [Menu Vendite](sales-menu.md)
    + Ordini {#orders}
       + [Panoramica](orders.md)
@@ -131,5 +131,3 @@ ht-degree: 3%
       + [Panoramica delle etichette di spedizione](shipping-labels.md)
       + [Configurare le etichette di spedizione](shipping-label-configure.md)
       + [Crea etichette di spedizione](shipping-label-create.md)
-+ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
-

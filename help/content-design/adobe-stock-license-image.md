@@ -3,8 +3,8 @@ title: Ottenere la licenza di un’immagine Adobe Stock
 description: Per assicurarti di avere accesso legale e per eliminare la filigrana di Adobe Stock, acquisisci licenza per le immagini Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 9d6dade372d4b931bec9aec9b9bfeedc3107ad1e
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -51,9 +51,9 @@ La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è in
 
 ## Ottenere la licenza di un&#39;immagine dal supporto di archiviazione standard
 
-1. [Accedere alla griglia di ricerca di Adobe Stock][access-search].
+1. [Accedere alla griglia di ricerca di Adobe Stock][adobe-stock-manage.md].
 
-1. Per [visualizzare i dettagli dell&#39;immagine][view-details], fare clic su un&#39;immagine nella griglia di ricerca nell&#39;ordine desiderato.
+1. Per [visualizzare i dettagli dell&#39;immagine][adobe-stock-manage.md#view-image-details], fare clic su un&#39;immagine nella griglia di ricerca nell&#39;ordine desiderato.
 
 1. A seconda dello stato di licenza corrente dell&#39;immagine, effettuare una delle seguenti operazioni:
 
@@ -75,6 +75,6 @@ La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è in
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/it/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html

@@ -2,10 +2,10 @@
 user-guide-title: Guida alla gestione clienti
 breadcrumb-title: Gestione clienti
 feature: Customers
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b58e5e2dc660b58be694bd7896d8596e9ef48c04
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 2%
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 2%
       + [Account cliente](manage-account.md)
       + [Aggiornare un profilo cliente](update-account.md)
       + [Fornire assistenza agli acquirenti](login-as-customer.md)
-   + Attributi cliente {#attributes}
+   + Attributi del cliente {#attributes}
       + [Proprietà attributo](attribute-properties.md)
       + [Attributi indirizzo](address-attributes.md)
       + [Modelli di indirizzo](address-templates.md)
-   + Memorizza credito {#store-credit}
+   + Credito store {#store-credit}
       + [Flusso di lavoro per crediti store](store-credit.md)
       + [Configura credito negozio](credit-configure.md)
       + [Applica credito negozio](store-credit-using.md)
@@ -55,5 +55,4 @@ ht-degree: 2%
    + [Creare ed eliminare segmenti di clienti](customer-segment-create.md)
    + [Segmenti di clienti nelle regole di prezzo](customer-segment-price-rule.md)
    + [Rapporto sui segmenti cliente](customer-segment-reports.md)
-+ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
 

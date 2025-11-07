@@ -3,9 +3,9 @@ title: Ordini
 description: Scopri l’area di lavoro Ordini e le funzionalità di ricerca utilizzate per individuare gli ordini nell’amministratore.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Per applicare un&#39;azione a ordini specifici, seleziona la casella di controll
 | [!UICONTROL Grand Total (Base)] | Totale complessivo dell&#39;ordine. |
 | [!UICONTROL Grand Total (Purchased)] | Il totale complessivo dei prodotti acquistati nell’ordine. |
 | [!UICONTROL Status] | Stato dell&#39;ordine corrente. |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;apre l&#39;ordine in modalità di modifica. |
+| [!UICONTROL Action] | _[!UICONTROL View]_apre l&#39;ordine in modalità di modifica. |
 | [!UICONTROL Allocated sources] | Le origini allocate a tale ordine specifico. |
 
 {style="table-layout:auto"}
@@ -149,7 +149,7 @@ Colonne aggiuntive disponibili:
 
 ### Filtrare la ricerca
 
-1. Per visualizzare la selezione dei filtri di ricerca, fare clic sulla scheda _Filtri_ ( ![icona funnel](../assets/icon-filter-search.png) ).
+1. Per visualizzare la selezione dei filtri di ricerca, fare clic sulla scheda _Filtri_ ( ![icona Funnel](../assets/icon-filter-search.png) ).
 
    ![Filtri per ordini](./assets/order-search-filter.png){width="600" zoomable="yes"}
 
@@ -183,9 +183,3 @@ Colonne aggiuntive disponibili:
 
 {style="table-layout:auto"}
 
-## Risorse per la risoluzione dei problemi
-
-Per informazioni sulla risoluzione dei problemi relativi agli ordini, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
-
-- [Errore di visualizzazione ordini](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=it)
-- [Ordini non visualizzati nella griglia Ordini dell&#39;amministratore](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
