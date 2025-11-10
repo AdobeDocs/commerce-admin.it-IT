@@ -3,9 +3,9 @@ title: Creare una regola del prezzo di catalogo
 description: Scopri come creare una regola del prezzo di catalogo che applica uno sconto a prodotti specifici ogni volta che viene soddisfatta una serie di condizioni.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
+source-git-commit: 5e21259c196419f9a337795f9bec29f0737e84ca
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volt
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Rule]**.
 
-   La sezione _[!UICONTROL Rule Information]_&#x200B;include sezioni espandibili per **[!UICONTROL Conditions]**&#x200B;e **[!UICONTROL Actions]**.
+   La sezione _[!UICONTROL Rule Information]_include sezioni espandibili per **[!UICONTROL Conditions]**e **[!UICONTROL Actions]**.
 
    ![Regola prezzo catalogo - informazioni](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -44,6 +44,10 @@ Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volt
 1. ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Immettere le date **[!UICONTROL From]** e **[!UICONTROL To]** per determinare quando è in vigore la regola del prezzo.
 
    È possibile immettere le date o utilizzare l&#39;icona **[!UICONTROL Calendar]** (![Calendario](../assets/icon-calendar.png)) per scegliere le date. Se si lasciano vuote le date, la regola viene attivata quando la regola del prezzo viene salvata.
+
+   >[!NOTE]
+   >
+   >I campi `From` e `To` sono stati rimossi dalla pagina di configurazione della regola prezzo catalogo in Adobe Commerce e non possono essere modificati direttamente nella regola prezzo catalogo. È necessario creare un aggiornamento pianificato per impostare la programmazione per l&#39;attivazione della regola prezzi.
 
 1. Immettere un numero per stabilire **[!UICONTROL Priority]** di questa regola in relazione ad altre regole.
 
@@ -215,7 +219,7 @@ La maggior parte delle condizioni disponibili si basa sui valori di attributo es
 
 Guarda questo video per scoprire come creare le regole del prezzo di catalogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410849?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Descrizioni dei campi
 
@@ -242,7 +246,7 @@ Specifica le condizioni che devono essere soddisfatte prima che la regola del pr
 
 | Campo | Descrizione |
 |-----|-----------|
-| [!UICONTROL Apply] | Determina il tipo di calcolo applicato all’acquisto. Opzioni: <br/>**[!UICONTROL Apply as percentage of original]**- Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale del prezzo normale.<br/>**[!UICONTROL Apply as fixed amount]** - Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo regolare. <br/>**[!UICONTROL Adjust final price to this percentage]**- Adegua il prezzo finale di una percentuale del prezzo normale.<br/>**[!UICONTROL Adjust final price to discount value]** - Imposta il prezzo finale su un importo fisso e scontato. <br/><br/>**_Nota:_**&#x200B;il prezzo normale si riferisce al prezzo di base del prodotto senza sconti promozionali o per prezzi avanzati (speciali/livello/gruppo). Il prezzo finale si riferisce al prezzo scontato visualizzato nel carrello. <br/>Il prezzo del prodotto&#x200B;**_final _**&#x200B;è calcolato come&#x200B;**_prezzo minimo _**&#x200B;rilevante, utilizzando la seguente formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Determina il tipo di calcolo applicato all’acquisto. Opzioni: <br/>**[!UICONTROL Apply as percentage of original]**- Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale del prezzo normale.<br/>**[!UICONTROL Apply as fixed amount]** - Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo regolare. <br/>**[!UICONTROL Adjust final price to this percentage]**- Adegua il prezzo finale di una percentuale del prezzo normale.<br/>**[!UICONTROL Adjust final price to discount value]** - Imposta il prezzo finale su un importo fisso e scontato. <br/><br/>**_Note:_** Il prezzo normale si riferisce al prezzo base del prodotto senza sconti promozionali o di prezzo avanzato (speciale/livello/gruppo). Il prezzo finale si riferisce al prezzo scontato visualizzato nel carrello. <br/>Il prezzo del prodotto **_final_** è calcolato come **_prezzo minimo_** rilevante, utilizzando la seguente formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Obbligatorio) L’importo dello sconto offerto. |
 | [!UICONTROL Discard Subsequent Rules] | Determina se è possibile applicare regole aggiuntive a questo acquisto. Per evitare l&#39;applicazione di più sconti allo stesso acquisto, selezionare `Yes`. Opzioni: `Yes` / `No` |
 

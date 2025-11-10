@@ -3,9 +3,9 @@ title: Modifiche pianificate per le regole prezzo catalogo
 description: Scopri come applicare le regole del prezzo di catalogo alla pianificazione come parte di una campagna e raggruppate con altre modifiche al contenuto.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
+source-git-commit: e4c18621d0607446b48bf2447ac1a978d33ac24a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -16,21 +16,19 @@ ht-degree: 0%
 
 La casella Modifiche pianificate viene visualizzata nella parte superiore della pagina quando viene salvata o aggiornata una nuova regola prezzo. Le regole del prezzo del catalogo possono essere applicate secondo programma come parte di una campagna e raggruppate con altre modifiche al contenuto. Puoi creare una campagna in base alle modifiche pianificate per una regola di prezzo o applicare le modifiche a una campagna esistente.
 
->[!NOTE]
->
->I campi [!UICONTROL From] e [!UICONTROL To] sono stati rimossi in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e non possono essere modificati direttamente nella regola del prezzo di catalogo. Devi creare un aggiornamento pianificato per queste attivazioni.
-
->[!NOTE]
->
->Tutti gli aggiornamenti pianificati vengono applicati consecutivamente. Ciò significa che qualsiasi entità può avere un solo aggiornamento pianificato in un determinato momento. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere diversi aggiornamenti pianificati per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
-
-Se nella stessa campagna sono in esecuzione più regole di prezzo, l&#39;impostazione Priorità della regola di prezzo determina quale regola ha la precedenza. Per ulteriori informazioni, consulta [Gestione temporanea dei contenuti](../content-design/content-staging.md).
-
->[!IMPORTANT]
->
->Se inizialmente viene creata una campagna attiva senza una data di fine, non è possibile modificarla in un secondo momento in modo da includere una data di fine. In tal caso, è necessario creare una campagna duplicata e immettere la data di fine necessaria.
-
 ![Regola prezzo catalogo - modifiche pianificate](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+
+## Funzionamento degli aggiornamenti programmati delle regole di prezzo
+
+- Tutti gli aggiornamenti pianificati vengono applicati consecutivamente. Ciò significa che qualsiasi entità può avere un solo aggiornamento pianificato alla volta.
+
+- Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere diversi aggiornamenti pianificati per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
+
+- Se nella stessa campagna sono in esecuzione più regole di prezzo, l&#39;impostazione Priorità della regola di prezzo determina quale regola ha la precedenza. Per ulteriori informazioni, consulta [Gestione temporanea dei contenuti](../content-design/content-staging.md).
+
+## Chiusura di una vendita di una regola di prezzo in un momento specifico
+
+Se una regola di prezzo attiva è stata creata senza una data di fine e occorre terminarla in un momento specifico, non è possibile modificare l&#39;aggiornamento pianificato esistente per aggiungere una data di fine. È invece necessario creare un nuovo aggiornamento pianificato che modifichi lo stato della regola in `Inactive`. Imposta la data di inizio di questo nuovo aggiornamento sulla data e sull&#39;ora in cui desideri che termini la vendita.
 
 ## Pianificare un aggiornamento a una regola del prezzo di catalogo
 
@@ -60,7 +58,7 @@ Se nella stessa campagna sono in esecuzione più regole di prezzo, l&#39;imposta
 
    >[!NOTE]
    >
-   >Se si modifica uno dei parametri delle informazioni della regola, verificare che _[!UICONTROL Status]_&#x200B;sia impostato correttamente. Se si desidera che la modifica generi una regola applicata attivamente, lo stato deve essere `Active`.
+   >Ogni volta che si aggiornano i parametri delle informazioni sulle regole, verificare che _[!UICONTROL Status]_sia impostato correttamente. Se si desidera che la modifica generi una regola applicata attivamente, impostare lo stato su `Active`.
 
 1. Al termine, fare clic su **[!UICONTROL Save]**.
 
@@ -68,13 +66,13 @@ Se nella stessa campagna sono in esecuzione più regole di prezzo, l&#39;imposta
 
 ## Modificare una modifica di regola pianificata
 
+>[!NOTE]
+>
+>Se una campagna è collegata a più di una regola del prezzo di catalogo, è possibile modificarla solo dal [Dashboard di gestione temporanea del contenuto](../content-design/content-staging-dashboard.md).
+
 1. Nella casella **[!UICONTROL Scheduled Changes]** nella parte superiore della pagina, fare clic su **[!UICONTROL View/Edit]**.
 
 1. Apporta le modifiche necessarie all’aggiornamento pianificato.
-
-   >[!NOTE]
-   >
-   >Se una campagna è collegata a più di una regola del prezzo di catalogo, è possibile modificarla solo dal [dashboard di gestione temporanea del contenuto](../content-design/content-staging-dashboard.md).
 
 1. Fare clic su **[!UICONTROL Save]**.
 
@@ -104,14 +102,14 @@ Se nella stessa campagna sono in esecuzione più regole di prezzo, l&#39;imposta
 
    **Condividi un collegamento all&#39;anteprima**
 
-   Per condividere con i colleghi un collegamento all&#39;anteprima dello store, fare clic su **[!UICONTROL Share]**. Copia il collegamento negli Appunti e incollalo nel corpo di un messaggio e-mail.
+   Per condividere un collegamento all&#39;anteprima dello store con altri utenti amministratori, fare clic su **[!UICONTROL Share]**. Copia il collegamento negli Appunti e incollalo nel corpo di un messaggio e-mail.
 
    >[!NOTE]
    >
-   >Per visualizzare un’anteprima condivisa è necessario un account utente amministratore. Se il tuo ruolo [&#x200B; ha accesso](../systems/permissions-user-roles.md) per creare un account utente amministratore, devi creare l&#39;account per un nuovo utente prima di condividerlo.
+   >Se il tuo ruolo [dispone dell&#39;accesso](../systems/permissions-user-roles.md) per gestire gli account utente amministratore, puoi creare o aggiornare un account utente esistente con autorizzazioni di amministratore in modo da poter condividere il collegamento di anteprima.
 
    **Modifica l&#39;ambito dell&#39;anteprima**
 
    Per visualizzare le modifiche pianificate per diverse visualizzazioni dello store, fare clic su **[!UICONTROL Scope]** nell&#39;intestazione della pagina Anteprima. Scegliere la visualizzazione del sito Web, dello store o dello store che si desidera visualizzare in anteprima.
 
-1. Se necessario, tornare al calendario e fare clic su **[!UICONTROL View/Edit]** nella colonna _[!UICONTROL Action]_&#x200B;per aprire un altro aggiornamento pianificato.
+1. Se necessario, tornare al calendario e fare clic su **[!UICONTROL View/Edit]** nella colonna _[!UICONTROL Action]_per aprire un altro aggiornamento pianificato.
