@@ -58,7 +58,7 @@ Se una regola di prezzo attiva è stata creata senza una data di fine e occorre 
 
    >[!NOTE]
    >
-   >Ogni volta che si aggiornano i parametri delle informazioni sulle regole, verificare che _[!UICONTROL Status]_sia impostato correttamente. Se si desidera che la modifica generi una regola applicata attivamente, impostare lo stato su `Active`.
+   >Ogni volta che si aggiornano i parametri delle informazioni sulle regole, verificare che _[!UICONTROL Status]_&#x200B;sia impostato correttamente. Se si desidera che la modifica generi una regola applicata attivamente, impostare lo stato su `Active`.
 
 1. Al termine, fare clic su **[!UICONTROL Save]**.
 
@@ -112,4 +112,4 @@ Se una regola di prezzo attiva è stata creata senza una data di fine e occorre 
 
    Per visualizzare le modifiche pianificate per diverse visualizzazioni dello store, fare clic su **[!UICONTROL Scope]** nell&#39;intestazione della pagina Anteprima. Scegliere la visualizzazione del sito Web, dello store o dello store che si desidera visualizzare in anteprima.
 
-1. Se necessario, tornare al calendario e fare clic su **[!UICONTROL View/Edit]** nella colonna _[!UICONTROL Action]_per aprire un altro aggiornamento pianificato.
+1. Se necessario, tornare al calendario e fare clic su **[!UICONTROL View/Edit]** nella colonna _[!UICONTROL Action]_&#x200B;per aprire un altro aggiornamento pianificato.

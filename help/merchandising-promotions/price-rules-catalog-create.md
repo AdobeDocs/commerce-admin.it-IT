@@ -20,7 +20,7 @@ Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volt
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Rule]**.
 
-   La sezione _[!UICONTROL Rule Information]_include sezioni espandibili per **[!UICONTROL Conditions]**e **[!UICONTROL Actions]**.
+   La sezione _[!UICONTROL Rule Information]_&#x200B;include sezioni espandibili per **[!UICONTROL Conditions]**&#x200B;e **[!UICONTROL Actions]**.
 
    ![Regola prezzo catalogo - informazioni](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
