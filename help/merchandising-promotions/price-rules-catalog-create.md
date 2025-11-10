@@ -219,7 +219,7 @@ La maggior parte delle condizioni disponibili si basa sui valori di attributo es
 
 Guarda questo video per scoprire come creare le regole del prezzo di catalogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410849?captions=ita&quality=12&learn=on)
 
 ## Descrizioni dei campi
 

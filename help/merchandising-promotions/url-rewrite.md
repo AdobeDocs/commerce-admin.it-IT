@@ -49,7 +49,7 @@ Per impostazione predefinita, [i reindirizzamenti URL automatici](url-redirect-p
 
 Guarda il video seguente per scoprire come gestire le riscritture URL:
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410125?captions=ita&quality=12&learn=on)
 
 ## Crea riscritture URL
 
