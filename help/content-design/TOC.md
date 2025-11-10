@@ -3,9 +3,9 @@ user-guide-title: Guida ai contenuti e alla progettazione
 user-guide-description: Informazioni complete su contenuti e funzioni di progettazione per gli amministratori di Adobe Commerce e Magento Open Source e per gli esperti di marketing e-commerce.
 breadcrumb-title: Contenuto e progettazione
 feature: CMS, Page Content
-source-git-commit: 198ceac9ae9bf47211295567231b1a43beff3927
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 4%
 
 ---
@@ -91,4 +91,4 @@ ht-degree: 4%
    - [Dashboard di staging](content-staging-dashboard.md)
    - [Aggiungere un elemento della campagna](content-staging-add-item.md)
    - [Anteprima di una campagna](content-staging-preview.md)
-
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
