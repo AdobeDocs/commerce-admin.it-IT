@@ -91,4 +91,4 @@ ht-degree: 4%
    - [Dashboard di staging](content-staging-dashboard.md)
    - [Aggiungere un elemento della campagna](content-staging-add-item.md)
    - [Anteprima di una campagna](content-staging-preview.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it)
