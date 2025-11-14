@@ -22,7 +22,7 @@ Monitora i siti Adobe Commerce e Magento Open Source per individuare rischi per 
 - Accedi ai report cronologici di sicurezza che tengono traccia e monitorano l’avanzamento dei siti.
 - Accedere al rapporto di scansione che mostra i controlli riusciti e non riusciti, con le azioni consigliate.
 
-Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboard dell&#39;[account Commerce/Magento](../getting-started/commerce-account-create.md). Per informazioni tecniche, vedere [Configurare lo strumento di analisi della sicurezza](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboard dell&#39;[account Commerce/Magento](../getting-started/commerce-account-create.md). Per informazioni tecniche, vedere [Configurare lo strumento di analisi della sicurezza](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
 ![Strumento Analisi protezione](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
