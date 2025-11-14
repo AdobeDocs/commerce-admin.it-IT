@@ -4,9 +4,9 @@ description: Scopri come eseguire un’analisi della sicurezza avanzata e monito
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
+source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Monitora i siti Adobe Commerce e Magento Open Source per individuare rischi per 
 - Accedi ai report cronologici di sicurezza che tengono traccia e monitorano l’avanzamento dei siti.
 - Accedere al rapporto di scansione che mostra i controlli riusciti e non riusciti, con le azioni consigliate.
 
-Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboard dell&#39;[account Commerce/Magento](../getting-started/commerce-account-create.md). Per informazioni tecniche, vedere [Configurare lo strumento di analisi della sicurezza](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+Lo strumento di analisi della sicurezza è disponibile gratuitamente nel dashboard dell&#39;[account Commerce/Magento](../getting-started/commerce-account-create.md). Per informazioni tecniche, vedere [Configurare lo strumento di analisi della sicurezza](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
 ![Strumento Analisi protezione](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -75,7 +75,7 @@ Per impostare e configurare lo strumento Security Scan per il tuo sito Adobe Com
 
    1. Al termine, fare clic su **[!UICONTROL Save Configuration]**.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
 
 >[!TAB vetrina PWA]
 
@@ -117,7 +117,7 @@ Per impostare e configurare lo strumento Security Scan per il tuo sito Adobe Com
 
       Al termine del processo di generazione, le modifiche verranno distribuite nella vetrina PWA.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
 
 >[!TAB AEM Storefront]
 
@@ -134,6 +134,10 @@ Per impostare e configurare lo strumento Security Scan per il tuo sito Adobe Com
    1. Nella directory del progetto AEM storefront, vai a `head.html`.
    1. Aggiungere il codice di conferma copiato (il contenuto HTML o il tag META generato) al file `head.html` e salvare le modifiche.
 
+   >[!NOTE]
+   >
+   >La verifica della proprietà del sito funziona solo se la conferma viene aggiunta direttamente al file `head.html` nella directory di progetto di AEM storefront. Non può essere aggiunto tramite strumenti di modifica delle pagine Web come l’authoring dei documenti o l’editor universale.
+
    ![Copia Codice Di Conferma](./assets/code-aem.png){width="600" zoomable="yes"}
 
 1. Utilizza lo strumento Git CLI per posizionare nell’area intermedia, eseguire il commit e inviare queste modifiche all’archivio del progetto.
@@ -146,7 +150,7 @@ Per impostare e configurare lo strumento Security Scan per il tuo sito Adobe Com
 
    Al termine del processo di generazione, le modifiche verranno distribuite nella parte anteriore dello store di AEM.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
 
 >[!ENDTABS]
 
@@ -205,7 +209,7 @@ Di seguito sono riportati alcuni scenari comuni in cui è possibile contrassegna
 
 Per gestire gli errori di scansione identificati come falsi positivi, effettua le seguenti operazioni:
 
-1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**&#x200B;per il sito che si desidera gestire.
+1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**per il sito che si desidera gestire.
 
 1. Nella visualizzazione report, individuare la scansione non riuscita che si desidera contrassegnare come falso positivo.
 
@@ -215,7 +219,7 @@ Per gestire gli errori di scansione identificati come falsi positivi, effettua l
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_&#x200B;ed è escluso dal punteggio di rischio.
+L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_ed è escluso dal punteggio di rischio.
 
 ### Interrompi ignoramento errori di scansione
 
@@ -229,7 +233,7 @@ Se è necessario ripristinare un errore di scansione precedentemente ignorato ne
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_&#x200B;ed è incluso nel punteggio di rischio.
+L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_ed è incluso nel punteggio di rischio.
 
 ### Visualizza errori di scansione ignorati
 
