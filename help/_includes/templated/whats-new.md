@@ -23,7 +23,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stata aggiunta la documentazione per l'estensione <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Stato sincronizzazione feed dati</a> per monitorare la sincronizzazione dei feed di esportazione dati da Adobe Commerce al database Commerce SaaS per la pubblicazione nei servizi Commerce connessi (Live Search, Product Recommendations, Catalog Service). La pagina Stato di sincronizzazione dati è disponibile dal menu Sistemi di Commerce Admin.</p>
+      <td><p>È stata aggiunta la documentazione per l'estensione <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Stato sincronizzazione feed dati</a> per monitorare la sincronizzazione dei feed di esportazione dati da Adobe Commerce al database Commerce SaaS per la pubblicazione nei servizi Commerce connessi (Live Search, Product Recommendations, Catalog Service). La pagina Stato di sincronizzazione dati è disponibile dal menu Sistemi di Commerce Admin.</p>
 </td>
       <td>
         Nuovo argomento
@@ -45,7 +45,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stata aggiunta la patch di sicurezza B2B di ottobre 2025 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">note sulla versione</a>.</p>
+      <td><p>È stata aggiunta la patch di sicurezza B2B di ottobre 2025 <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/release-notes">note sulla versione</a>.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -67,7 +67,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiunte informazioni su come visualizzare e modificare <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">attributi dell'ordine personalizzati</a> nell'Admin for Adobe Commerce as a Cloud Service.</p>
+      <td><p>Sono state aggiunte informazioni su come visualizzare e modificare <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">attributi dell'ordine personalizzati</a> nell'Admin for Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Aggiornamento principale
