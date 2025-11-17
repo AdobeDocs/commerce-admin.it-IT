@@ -77,7 +77,7 @@ La chiave di accesso è un insieme di chiavi pubbliche e private utilizzate per 
 
 >[!IMPORTANT]
 >
->A partire da Adobe Commerce e Magento Open Source 2.4.0, l&#39;Installazione guidata Web viene rimossa ed è necessario utilizzare la riga di comando per [installare](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) o [aggiornare](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) l&#39;istanza. Questo requisito include anche [moduli](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) e [estensioni](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>A partire da Adobe Commerce e Magento Open Source 2.4.0, l&#39;Installazione guidata Web viene rimossa ed è necessario utilizzare la riga di comando per [installare](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=it) o [aggiornare](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=it) l&#39;istanza. Questo requisito include anche [moduli](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=it) e [estensioni](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=it).
 
 Il processo di installazione per [!DNL Marketplace] acquisti è diverso per _installazioni on-premise_ di Commerce rispetto alle installazioni in hosting su [Adobe Cloud Architecture][4].
 
@@ -109,7 +109,7 @@ I problemi di accesso sono in genere correlati a una mancata corrispondenza tra 
 
 ### Domande open source
 
-Il team di supporto per il Marketplace risolve i problemi relativi solo ai siti [commerce.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Domande su Magento Open Source possono essere indirizzate al [Forum della community](https://community.magento.com/) o a [un partner](https://business.adobe.com/products/magento/partners.html) che possa fornire assistenza con Magento Open Source.
+Il team di supporto per il Marketplace risolve i problemi relativi solo ai siti [commerce.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Domande su Magento Open Source possono essere indirizzate al [Forum della community](https://community.magento.com/) o a [un partner](https://business.adobe.com/it/products/magento/partners.html) che possa fornire assistenza con Magento Open Source.
 
 ### Richieste di rimborso
 
@@ -143,4 +143,4 @@ Queste autorizzazioni speciali concedono lo stesso livello di accesso su Adobe C
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/it/products/magento/magento-commerce.html
