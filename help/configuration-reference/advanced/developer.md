@@ -4,7 +4,7 @@ description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL A
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Ottimi
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Allow Symlinks] | Visualizzazione store | L&#39;attivazione di [collegamenti simbolici](https://en.wikipedia.org/wiki/Symbolic_link) può esporre il sito a rischi per la sicurezza e non è consigliata per un archivio di produzione. |
-| [!UICONTROL Minify Html] | Visualizzazione store | Determina se le HTML per i modelli di archivio sono ridotte a icona. Opzioni: `Yes` / `No` |
+| [!UICONTROL Minify Html] | Visualizzazione store | Determina se il HTML per i modelli di archivio è ridotto a icona. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -121,7 +121,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Ottimi
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Globale | Specifica l&#39;adattatore utilizzato per il rendering delle immagini. Dopo aver modificato l&#39;impostazione della scheda, svuotare la cache delle immagini del catalogo. Opzioni: `PHP GD2` / `ImageMagick` <br/><br/>**_Nota:_**&#x200B;il tipo di file ICO è supportato solo dall&#39;adattatore ImageMagik. |
+| [!UICONTROL Image Adapter] | Globale | Specifica l&#39;adattatore utilizzato per il rendering delle immagini. Dopo aver modificato l&#39;impostazione della scheda, svuotare la cache delle immagini del catalogo. Opzioni: `PHP GD2` / `ImageMagick` <br/><br/>**_Note:_** Il tipo di file ICO è supportato solo dall&#39;adattatore ImageMagik. |
 
 {style="table-layout:auto"}
 
