@@ -112,7 +112,7 @@ Se il dominio dispone di un certificato di sicurezza valido, puoi configurare gl
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In _[!UICONTROL General]_nel pannello a sinistra, scegli **[!UICONTROL Web]**.
+1. In _[!UICONTROL General]_&#x200B;nel pannello a sinistra, scegli **[!UICONTROL Web]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL URL Options]**.
 
