@@ -3,9 +3,9 @@ title: Impostazione vettore di spedizione
 description: Scopri il supporto per gli account di spedizione commerciali disponibile per il tuo negozio.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Il 25 gennaio 2026, USPS ritirerà le API degli strumenti web legacy. Dopo quest
 
 Per evitare interruzioni dei servizi di spedizione USPS, effettua le seguenti azioni prima del 25 gennaio 2026:
 
-- Applica la patch di qualità per la migrazione di [API REST USPS](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html) (AC-1520) per aggiungere il supporto per l&#39;integrazione con le API REST USPS.
+- Applica la patch di qualità per la migrazione di [API REST USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) per aggiungere il supporto per l&#39;integrazione con le API REST USPS.
 
 - Aggiorna la configurazione USPS di Commerce per utilizzare le API REST:
 
