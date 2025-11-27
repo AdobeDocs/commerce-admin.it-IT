@@ -51,7 +51,7 @@ Il 25 gennaio 2026, USPS ritirerà le API degli strumenti web legacy. Dopo quest
 
 Per evitare interruzioni dei servizi di spedizione USPS, effettua le seguenti azioni prima del 25 gennaio 2026:
 
-- Applica la patch di qualità per la migrazione di [API REST USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) per aggiungere il supporto per l&#39;integrazione con le API REST USPS.
+- Applica la patch di qualità per la migrazione di [API REST USPS](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) per aggiungere il supporto per l&#39;integrazione con le API REST USPS.
 
 - Aggiorna la configurazione USPS di Commerce per utilizzare le API REST:
 
