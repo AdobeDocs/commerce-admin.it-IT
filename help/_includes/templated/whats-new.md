@@ -23,7 +23,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stato aggiornato il riferimento agli attributi dei dati del prodotto <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product#bundle-products">bundle</a> per includere nuove opzioni <code class="language-plaintext highlighter-rouge">bundle_values</code>: <code class="language-plaintext highlighter-rouge">price_website_[website-code]</code> e <code class="language-plaintext highlighter-rouge">price_type_website_[website-code]</code>. Questi attributi consentono di importare o esportare i prezzi dei prodotti in base al codice del sito Web.</p>
+      <td><p>È stato aggiornato il riferimento agli attributi dei dati del prodotto <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-attributes-product#bundle-products">bundle</a> per includere nuove opzioni <code class="language-plaintext highlighter-rouge">bundle_values</code>: <code class="language-plaintext highlighter-rouge">price_website_[website-code]</code> e <code class="language-plaintext highlighter-rouge">price_type_website_[website-code]</code>. Questi attributi consentono di importare o esportare i prezzi dei prodotti in base al codice del sito Web.</p>
 </td>
       <td>
         Tecnico
@@ -45,7 +45,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiunte indicazioni sulla disponibilità dell'anteprima di Page Builder nella pagina CMS per <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add">Aggiungere e rimuovere pagine</a> e <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace">argomenti di Page Builder Workspace</a>. L’anteprima non mostra il contenuto a meno che non sia disponibile nella Visualizzazione predefinita dello store.</p>
+      <td><p>Sono state aggiunte indicazioni sulla disponibilità dell'anteprima di Page Builder nella pagina CMS per <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/elements/pages/page-add">Aggiungere e rimuovere pagine</a> e <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/page-builder/workspace">argomenti di Page Builder Workspace</a>. L’anteprima non mostra il contenuto a meno che non sia disponibile nella Visualizzazione predefinita dello store.</p>
 </td>
       <td>
         Tecnico, feedback
@@ -67,7 +67,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Lo strumento <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">Analisi sicurezza</a> è stato aggiornato per supportare i commercianti con vetrine di Commerce distribuite come siti Adobe Experience Manager.</p>
+      <td><p>Lo strumento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security-scan">Analisi sicurezza</a> è stato aggiornato per supportare i commercianti con vetrine di Commerce distribuite come siti Adobe Experience Manager.</p>
 </td>
       <td>
         Tecnico
@@ -89,7 +89,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stato chiarito come terminare una vendita di una regola di prezzo attiva in un momento specifico in cui non è stata specificata una data di fine nell'argomento <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Modifiche pianificate per le regole di prezzo del catalogo</a>.<br />L'argomento <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL riscrive</a> è stato riorganizzato per migliorare esempi, definizioni concettuali e istruzioni di configurazione aggiuntive per la gestione degli URL per le riscritture dei server Web e gli URL canonici.</p>
+      <td><p>È stato chiarito come terminare una vendita di una regola di prezzo attiva in un momento specifico in cui non è stata specificata una data di fine nell'argomento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Modifiche pianificate per le regole di prezzo del catalogo</a>.<br />L'argomento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL riscrive</a> è stato riorganizzato per migliorare esempi, definizioni concettuali e istruzioni di configurazione aggiuntive per la gestione degli URL per le riscritture dei server Web e gli URL canonici.</p>
 </td>
       <td>
         Tecnico, feedback
@@ -111,7 +111,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiornate le istruzioni di <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">Configurazione corriere</a> con le istruzioni per la migrazione dall'API USPS Web Tools alle API REST USPS.</p>
+      <td><p>Sono state aggiornate le istruzioni di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">Configurazione corriere</a> con le istruzioni per la migrazione dall'API USPS Web Tools alle API REST USPS.</p>
 </td>
       <td>
         Tecnico, feedback
@@ -133,7 +133,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stata aggiunta la documentazione per l'estensione <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Stato sincronizzazione feed dati</a> per monitorare la sincronizzazione dei feed di esportazione dati da Adobe Commerce al database Commerce SaaS per la pubblicazione nei servizi Commerce connessi (Live Search, Product Recommendations, Catalog Service). La pagina Stato di sincronizzazione dati è disponibile dal menu Sistemi di Commerce Admin.</p>
+      <td><p>È stata aggiunta la documentazione per l'estensione <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Stato sincronizzazione feed dati</a> per monitorare la sincronizzazione dei feed di esportazione dati da Adobe Commerce al database Commerce SaaS per la pubblicazione nei servizi Commerce connessi (Live Search, Product Recommendations, Catalog Service). La pagina Stato di sincronizzazione dati è disponibile dal menu Sistemi di Commerce Admin.</p>
 </td>
       <td>
         Nuovo argomento
@@ -155,7 +155,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiunte informazioni su come configurare il Single Sign-On (SSO) per l'accesso sicuro alle app Adobe nell'argomento <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">Configurare l'integrazione dell'amministratore di Commerce con Adobe ID</a> nella documentazione di Commerce Merchant.</p>
+      <td><p>Sono state aggiunte informazioni su come configurare il Single Sign-On (SSO) per l'accesso sicuro alle app Adobe nell'argomento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">Configurare l'integrazione dell'amministratore di Commerce con Adobe ID</a> nella documentazione di Commerce Merchant.</p>
 </td>
       <td>
         Tecnico, feedback
@@ -177,7 +177,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stata aggiunta la patch di sicurezza B2B di ottobre 2025 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">note sulla versione</a>.</p>
+      <td><p>È stata aggiunta la patch di sicurezza B2B di ottobre 2025 <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/release-notes">note sulla versione</a>.</p>
 </td>
       <td>
         Aggiornamento principale
