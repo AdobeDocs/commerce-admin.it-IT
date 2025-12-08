@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Con il cambiare delle responsabilità aziendali, potrebbe essere necessario trasferire l&#39;account Commerce a un nuovo proprietario o a un altro indirizzo e-mail. Questo trasferimento richiede una modifica all’e-mail utente principale associata all’account.
 
-Le informazioni seguenti descrivono il processo di trasferimento di un account Commerce (MAGEID). Non include le modifiche relative alla proprietà dell’account Cloud (progetto Cloud o New Relic). Per ulteriori informazioni sull&#39;accesso ai progetti cloud, vedere [Gestire l&#39;accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+Le informazioni seguenti descrivono il processo di trasferimento di un account Commerce (MAGEID). Non include le modifiche relative alla proprietà dell’account Cloud (progetto Cloud o New Relic). Per ulteriori informazioni sull&#39;accesso ai progetti cloud, vedere [Gestire l&#39;accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=it) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
 >[!IMPORTANT]
 >
->Se il nuovo proprietario dell&#39;account ha acquistato estensioni utilizzando Accesso condiviso, l&#39;accesso a tali estensioni viene perso non appena il processo di trasferimento dell&#39;account è stato avviato. Prima di richiedere il trasferimento dell&#39;account, assicurati che il nuovo proprietario recuperi gli ID ordine per gli acquisti dall&#39;[account Marketplace](https://commercemarketplace.adobe.com/sales/order/history/) e richieda un rimborso per tali estensioni al [team Marketplace](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). Non è possibile trasferire gli acquisti dell’estensione a un altro account.
+>Se il nuovo proprietario dell&#39;account ha acquistato estensioni utilizzando Accesso condiviso, l&#39;accesso a tali estensioni viene perso non appena il processo di trasferimento dell&#39;account è stato avviato. Prima di richiedere il trasferimento dell&#39;account, assicurati che il nuovo proprietario recuperi gli ID ordine per gli acquisti dall&#39;[account Marketplace](https://commercemarketplace.adobe.com/sales/order/history/) e richieda un rimborso per tali estensioni al [team Marketplace](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). Non è possibile trasferire gli acquisti dell’estensione a un altro account.
 
 ## Identificare il tipo di trasferimento
 
@@ -120,7 +120,7 @@ Il proprietario corrente completa questi passaggi per associare il proprio Adobe
 >
 >Devi avere accesso all’indirizzo e-mail in modo da poter recuperare l’e-mail con il codice di conferma.
 >
->Se non riesci ad accedere all’e-mail dell’account, chiedi al tuo team IT di configurare l’inoltro e-mail per l’indirizzo e-mail dell’account nel sistema e-mail dell’azienda. Se non è possibile configurare l&#39;inoltro e-mail, verificare che il nuovo Proprietario account disponga di un Adobe ID, quindi [inviare una richiesta di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) con tutti i dettagli necessari per avviare il trasferimento dell&#39;account.
+>Se non riesci ad accedere all’e-mail dell’account, chiedi al tuo team IT di configurare l’inoltro e-mail per l’indirizzo e-mail dell’account nel sistema e-mail dell’azienda. Se non è possibile configurare l&#39;inoltro e-mail, verificare che il nuovo Proprietario account disponga di un Adobe ID, quindi [inviare una richiesta di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) con tutti i dettagli necessari per avviare il trasferimento dell&#39;account.
 
 1. Fare clic su **[!UICONTROL Change]**.
 
@@ -172,4 +172,4 @@ Dopo che il nuovo proprietario ha configurato correttamente l’account Adobe co
 
 ## Passaggi finali
 
-Dopo che il nuovo proprietario ha completato i passaggi del primo o del terzo caso d&#39;uso, deve [inviare una richiesta di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) per informare il team di supporto dell&#39;aggiornamento dell&#39;indirizzo e-mail. Il team di supporto completa quindi altre attività, ad esempio l&#39;aggiornamento dell&#39;indirizzo di posta elettronica nel profilo [Commerce Marketplace](https://commercemarketplace.adobe.com/). Includi nella richiesta l’indirizzo e-mail del proprietario dell’account precedente.
+Dopo che il nuovo proprietario ha completato i passaggi del primo o del terzo caso d&#39;uso, deve [inviare una richiesta di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) per informare il team di supporto dell&#39;aggiornamento dell&#39;indirizzo e-mail. Il team di supporto completa quindi altre attività, ad esempio l&#39;aggiornamento dell&#39;indirizzo di posta elettronica nel profilo [Commerce Marketplace](https://commercemarketplace.adobe.com/). Includi nella richiesta l’indirizzo e-mail del proprietario dell’account precedente.
