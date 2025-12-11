@@ -3,9 +3,9 @@ title: Ottimizzazione dei motori di ricerca
 description: Scopri gli strumenti di ottimizzazione dei motori di ricerca (SEO) per i siti Commerce e le best practice per una SEO ottimale.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: c8649d9107a92b15a1c9af8ae5d2ad0e8e34e64e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -16,23 +16,23 @@ _L&#39;ottimizzazione per i motori di ricerca_ (SEO) consiste nel perfezionare i
 
 >[!TIP]
 >
->Per Adobe Commerce as a Cloud Service, consulta le [linee guida SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=it) nella documentazione di Commerce Storefront
+>Per Adobe Commerce as a Cloud Service, consulta le [linee guida SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) nella documentazione di Commerce Storefront
 
 ## Metadati
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Ulteriori informazioni sull&#39;aggiunta e l&#39;ottimizzazione di [metadati](meta-data.md) ricchi di parole chiave per il sito e l&#39;archivio.
 
 ## Utilizzo di una mappa del sito
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Una [mappa del sito](sitemap-xml.md) migliora l&#39;indicizzazione dell&#39;archivio da parte dei motori di ricerca ed è progettata per trovare pagine che potrebbero essere ignorate dai crawler Web. È possibile configurare una mappa del sito per indicizzare tutte le pagine e le immagini.
 
 ## Riscritture URL
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Lo strumento [URL Riscrittura](url-rewrite.md) consente di modificare qualsiasi URL associato a una pagina di prodotto, categoria o CMS.
 
@@ -90,8 +90,8 @@ Per impostazione predefinita, il file robots.txt generato da Commerce contiene i
      |------|------------|
      | `INDEX, FOLLOW` | Indica ai Web crawler di indicizzare il sito e di verificare in seguito la presenza di modifiche. |
      | `NOINDEX, FOLLOW` | Indica ai crawler Web di evitare l&#39;indicizzazione del sito, ma di verificare in seguito la presenza di modifiche. |
-     | `INDEX, NOFOLLOW` | Indica ai Web crawler di indicizzare il sito una sola volta, ma di non verificare in seguito la presenza di modifiche. |
-     | `NOINDEX, NOFOLLOW` | Indica ai Web crawler di evitare l&#39;indicizzazione del sito e di non verificare in seguito la presenza di modifiche. |
+     | `INDEX, NOFOLLOW` | Indica ai crawler web di indicizzare il sito una volta, ma di non seguire alcun collegamento nella pagina. |
+     | `NOINDEX, NOFOLLOW` | Indica ai crawler web di evitare l’indicizzazione del sito e di non seguire alcun collegamento nella pagina. |
 
      {style="table-layout:auto"}
 
