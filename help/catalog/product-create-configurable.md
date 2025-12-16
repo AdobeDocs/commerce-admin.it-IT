@@ -48,7 +48,7 @@ Per istruzioni sulla creazione degli attributi, vedere [Attributi del prodotto](
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere _[!UICONTROL Add Product]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Configurable Product]**) nell&#39;angolo superiore destro.
+1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Configurable Product]**) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto configurabile](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -150,7 +150,7 @@ I passaggi seguenti mostrano come aggiungere configurazioni per più varianti. L
 
 ### Passaggio 6: scegliere gli attributi di variante
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Configurations]_e fai clic su **[!UICONTROL Create Configurations]**.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Configurations]_&#x200B;e fai clic su **[!UICONTROL Create Configurations]**.
 
    ![Configurazioni](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -254,7 +254,7 @@ _Singoli commercianti Source :_
 
 Immettere **[!UICONTROL Quantity]**.
 
-_Più commercianti Source che utilizzano [Inventory management ](../inventory-management/introduction.md):_
+_Più commercianti Source che utilizzano [Inventory management &#x200B;](../inventory-management/introduction.md):_
 
 Assegna origini e aggiungi quantità per tutte le varianti prodotto generate:
 
@@ -274,7 +274,7 @@ _Singoli commercianti Source :_
 
 Immettere **[!UICONTROL Quantity]** per ogni valore di attributo.
 
-_Più commercianti Source che utilizzano [Inventory management ](../inventory-management/introduction.md):_
+_Più commercianti Source che utilizzano [Inventory management &#x200B;](../inventory-management/introduction.md):_
 
 Assegna origini e aggiungi quantità per tutte le varianti prodotto generate:
 
@@ -346,7 +346,7 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 
    **Metodo 2: Salva e chiudi**
 
-   Scegliere _[!UICONTROL Save]_dal menu ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
+   Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
 
 ## Configurare lo stato delle scorte
 
