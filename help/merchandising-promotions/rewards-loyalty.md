@@ -168,7 +168,7 @@ Il saldo dei punti premio può essere aggiornato dall’Amministratore.
 
 1. Fare clic su **[!UICONTROL Save Customer]**.
 
-Tutte le azioni relative ai punti premio vengono visualizzate nel blocco _[!UICONTROL Reward Points History]_del cliente sul suo account nella vetrina.
+Tutte le azioni relative ai punti premio vengono visualizzate nel blocco _[!UICONTROL Reward Points History]_&#x200B;del cliente sul suo account nella vetrina.
 
 ## Descrizioni dei campi
 
