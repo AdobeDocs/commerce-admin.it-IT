@@ -3,9 +3,9 @@ title: Programmi di fidelizzazione e ricompensa
 description: Scopri il sistema di punti premio che puoi utilizzare per stimolare il coinvolgimento dei clienti e promuovere la loro fedeltà.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
+source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ I saldi dei punti premio possono essere gestiti dagli utenti amministratore per 
 >[La configurazione dei tassi di cambio premi](reward-exchange-rates.md) è necessaria per il rimborso dei punti premio da parte dei clienti e degli utenti amministratori durante l&#39;estrazione.
 
 I punti possono essere riscattati dagli utenti amministratori e dai clienti (se abilitati) durante il pagamento. Nella sezione Metodo di pagamento, sopra i metodi di pagamento abilitati viene visualizzata la casella di controllo Usa i miei punti premio. Sono inclusi i punti disponibili e il tasso di cambio monetario. Se il saldo disponibile è maggiore del totale complessivo dell&#39;ordine, non è richiesto alcun metodo di pagamento aggiuntivo. Il numero di punti premio applicati all&#39;ordine viene visualizzato con i totali dell&#39;ordine, sottratti dal totale complessivo, in modo analogo alle carte di credito o regalo di un negozio. Se i punti premio vengono utilizzati insieme al credito del negozio o a una gift card, i punti premio vengono dedotti per primi. La carta di credito o regalo del negozio viene quindi detratta se il totale dell&#39;ordine è maggiore del numero di punti premio rimborsabili.
+
+>[!NOTE]
+>
+>I punti premio e il credito del negozio non riducono la base imponibile dell&#39;ordine. L&#39;imposta viene calcolata sul subtotale prima dell&#39;applicazione di questi sconti. I punti o il credito riducono solo l&#39;importo finale pagato dal cliente.
 
 >[!NOTE]
 >
@@ -164,7 +168,7 @@ Il saldo dei punti premio può essere aggiornato dall’Amministratore.
 
 1. Fare clic su **[!UICONTROL Save Customer]**.
 
-Tutte le azioni relative ai punti premio vengono visualizzate nel blocco _[!UICONTROL Reward Points History]_&#x200B;del cliente sul suo account nella vetrina.
+Tutte le azioni relative ai punti premio vengono visualizzate nel blocco _[!UICONTROL Reward Points History]_del cliente sul suo account nella vetrina.
 
 ## Descrizioni dei campi
 
