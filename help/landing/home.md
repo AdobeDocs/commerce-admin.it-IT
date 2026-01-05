@@ -5,14 +5,14 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: Guide utente amministratore
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
-# &#x200B;<!-- use banner as heading -->![Documentazione dell&#39;amministratore](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![Documentazione dell&#39;amministratore](./assets/banner-user-home.png) {#documentation}
 
 Benvenuti nella nuova generazione della piattaforma di commercio digitale leader a livello mondiale. Adobe Commerce offre ai commercianti online flessibilità e controllo senza precedenti sull’aspetto, i contenuti e le funzionalità dei loro negozi online. L’amministratore dispone di potenti strumenti di marketing, ottimizzazione dei motori di ricerca e gestione dei prodotti che ti offrono la possibilità di creare siti personalizzati in base alle tue esigenze aziendali specifiche.
 
@@ -22,7 +22,7 @@ Le informazioni contenute nelle Guide utente per amministratori sono progettate 
 
 Adobe Commerce è una piattaforma di e-commerce agile B2B e B2C che consente a commercianti e marchi di accelerare i ricavi attraverso esperienze di e-commerce digitale incentrate sul cliente in spazi online e fisici. È la scelta migliore per le organizzazioni di medie e grandi dimensioni, in quanto offre i modelli di distribuzione più flessibili, dal cloud on-premise al cloud gestito con SLA garantiti. Adobe Commerce consente integrazioni API-first, estensioni completamente personalizzabili e il set più completo di funzionalità di esperienza di e-commerce di livello Enterprise, dal marketing alla commercializzazione e all’evasione. Adobe Commerce è basato su una base di codice open-source per fornire flessibilità ed estensibilità come nessun’altra piattaforma commerce.
 
-Per un elenco delle funzionalità avanzate incluse in Adobe Commerce, vedi [Funzionalità di Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=it) nelle _Informazioni sulla versione_.
+Per un elenco delle funzionalità avanzate incluse in Adobe Commerce, vedi [Funzionalità di Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html) nelle _Informazioni sulla versione_.
 
 ## Base di codice Magento Open Source
 
@@ -44,7 +44,7 @@ Magento Open Source è la base di codice a cui Adobe contribuisce ufficialmente 
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
     <div><em>Questo set di funzioni è progettato per soddisfare le esigenze dei venditori (commercianti) i cui clienti sono principalmente aziende, possibilmente con strutture organizzative complesse e più membri del personale con vari ruoli e livelli di autorizzazione all'acquisto.</em>
     <br></div>
   </td>
@@ -81,7 +81,7 @@ Magento Open Source è la base di codice a cui Adobe contribuisce ufficialmente 
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
     <div><em>[!DNL Page Builder] semplifica la creazione di pagine ricche di contenuti con layout personalizzati. Queste funzionalità sono progettate per migliorare la qualità e ridurre i tempi e i costi di produzione delle pagine personalizzate.</em></div>
   </td>
 </tr>
@@ -117,4 +117,4 @@ Magento Open Source è la base di codice a cui Adobe contribuisce ufficialmente 
 
 {{$include /help/_includes/templated/whats-new.md}}
 
-<!-- Last updated from includes: 2025-11-17 15:05:41 -->
+<!-- Last updated from includes: 2026-01-02 21:23:33 -->
