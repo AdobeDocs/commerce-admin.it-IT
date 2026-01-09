@@ -1,7 +1,7 @@
 ---
-source-git-commit: 43d8f974211206e7a71ac2e5ad02fbaf03b06b01
+source-git-commit: 8181804df811dd0916cd3df423cc6f52d68d1326
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '182'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stato aggiornato l'argomento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Premi e fedeltà</a> per chiarire come vengono calcolate le imposte quando i clienti utilizzano punti premio o memorizzano il credito durante l'acquisto.</p>
+      <td><p>È stato aggiornato l'argomento <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Premi e fedeltà</a> per chiarire come vengono calcolate le imposte quando i clienti utilizzano punti premio o memorizzano il credito durante l'acquisto.</p>
 </td>
       <td>
         Feedback
@@ -45,7 +45,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiornate le descrizioni per le metadirettive robot <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> nella <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/seo-overview">documentazione SEO</a>.<br /><em>Correzioni del problema <a href="https://github.com/AdobeDocs/commerce-admin.it-IT/issues/82">#82</a>.</em></p>
+      <td><p>Sono state aggiornate le descrizioni per le metadirettive robot <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> nella <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">documentazione SEO</a>.<br /><em>Correzioni del problema <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
 </td>
       <td>
         Tecnico, feedback
@@ -67,7 +67,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiunte informazioni sui cookie predefiniti che non devono essere disabilitati per <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">conformità alle normative sui cookie</a>.</p>
+      <td><p>Sono state aggiunte informazioni sui cookie predefiniti che non devono essere disabilitati per <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">conformità alle normative sui cookie</a>.</p>
 </td>
       <td>
         Tecnico
@@ -89,7 +89,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiunte indicazioni sulla disponibilità dell'anteprima di Page Builder nella pagina CMS per <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/elements/pages/page-add">Aggiungere e rimuovere pagine</a> e <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/page-builder/workspace">argomenti di Page Builder Workspace</a>. L’anteprima non mostra il contenuto a meno che non sia disponibile nella Visualizzazione predefinita dello store.</p>
+      <td><p>Sono state aggiunte indicazioni sulla disponibilità dell'anteprima di Page Builder nella pagina CMS per <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add">Aggiungere e rimuovere pagine</a> e <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace">argomenti di Page Builder Workspace</a>. L’anteprima non mostra il contenuto a meno che non sia disponibile nella Visualizzazione predefinita dello store.</p>
 </td>
       <td>
         Tecnico, feedback
@@ -111,34 +111,12 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Lo strumento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security-scan">Analisi sicurezza</a> è stato aggiornato per supportare i commercianti con vetrine di Commerce distribuite come siti Adobe Experience Manager.</p>
+      <td><p>Lo strumento <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">Analisi sicurezza</a> è stato aggiornato per supportare i commercianti con vetrine di Commerce distribuite come siti Adobe Experience Manager.</p>
 </td>
       <td>
         Tecnico
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/467decc88b33ada26ae7aa4afbf9b4a8e78f23cc">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 10 novembre 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrizione</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>È stato chiarito come terminare una vendita di una regola di prezzo attiva in un momento specifico in cui non è stata specificata una data di fine nell'argomento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Modifiche pianificate per le regole di prezzo del catalogo</a>.<br />L'argomento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL riscrive</a> è stato riorganizzato per migliorare esempi, definizioni concettuali e istruzioni di configurazione aggiuntive per la gestione degli URL per le riscritture dei server Web e gli URL canonici.</p>
-</td>
-      <td>
-        Tecnico, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">commit</a></td>
     </tr>
   </tbody>
 </table>
