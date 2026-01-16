@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Sales] &gt; [!UICONTROL Sales] dell'amministratore di Commerce.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1263'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![Generale](./assets/sales-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ![Ordinamento totali estrazioni](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
+<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ![Riordina](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
+<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -67,12 +67,12 @@ ht-degree: 1%
 
 ![Struttura fattura e documento di trasporto](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
-<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Logo for PDF Print-outs] | Visualizzazione store | Identifica il file del logo visualizzato nell&#39;intestazione delle fatture e dei documenti di trasporto PDF. Tipi di file consentiti: <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
-| [!UICONTROL Logo for HTML Print View] | Visualizzazione store | Identifica il file del logo visualizzato nell&#39;intestazione della visualizzazione Stampa HTML delle fatture e dei documenti di trasporto. Tipi di file consentiti: <br/>JPG /JPEG <br/>GIF <br/>PNG |
+| [!UICONTROL Logo for PDF Print-outs] | Visualizzazione store | Identifica il file del logo visualizzato nell&#39;intestazione delle fatture e dei documenti di trasporto di PDF. Tipi di file consentiti: <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | Visualizzazione store | Identifica il file del logo visualizzato nell&#39;intestazione della visualizzazione per stampa di fatture e documenti di trasporto di HTML. Tipi di file consentiti: <br/>JPG /JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | Visualizzazione store | L&#39;indirizzo del punto vendita che si desidera venga visualizzato nelle fatture e nei documenti di trasporto. |
 
 {style="table-layout:auto"}
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 ![Importo minimo ordine](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 ![Dashboard](./assets/sales-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/it/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ ht-degree: 1%
 
 ![Impostazioni Cron Ordini](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-<!-- [Orders Cron Settings](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/tools/cron) -->
+<!-- [Orders Cron Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -121,11 +121,23 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Promotions]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="Gli elementi elencati sono attualmente disponibili solo negli ambienti Sandbox. Adobe rende disponibili le nuove versioni negli ambienti Sandbox per consentire di testare le modifiche imminenti prima che siano disponibili negli ambienti di produzione."}
+
+![Impostazioni promozioni](./assets/sales-promotions-settings.png)<!-- zoom -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | Globale | Abilita [la determinazione prezzi di livello per le regole del prezzo di catalogo](../../catalog/product-price-tier.md) quando la quantità di un prezzo di livello è impostata su `1`.  Opzioni: `Yes` / `No` |
+
 ## [!UICONTROL Gift Options]
 
 ![Opzioni regalo](./assets/sales-gift-options.png)<!-- zoom -->
 
-<!-- [Gift Options](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
+<!-- [Gift Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -143,7 +155,7 @@ ht-degree: 1%
 
 ![Prezzo minimo annunciato](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -173,7 +185,7 @@ ht-degree: 1%
 
 ![Ordina per impostazioni SKU](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-<!-- [Order by SKU Settings](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
+<!-- [Order by SKU Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
 
 ![Impostazioni ordine per SKU per gruppo clienti](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
@@ -188,11 +200,11 @@ ht-degree: 1%
 
 ![Acquisto immediato](./assets/sales-instant-purchase.png)<!-- zoom -->
 
-<!-- [Instant Purchase](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
+<!-- [Instant Purchase](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Visualizzazione store | Abilita l&#39;acquisto immediato per la visualizzazione del punto vendita se per il metodo di pagamento, ad esempio Braintree, è abilitato l&#39;archivio. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enabled] | Visualizzazione store | Abilita l&#39;acquisto istantaneo per la visualizzazione punto vendita se per il metodo di pagamento, ad esempio Braintree, è abilitato l&#39;archivio. Opzioni: `Yes` / `No` |
 | [!UICONTROL Button Text] | Visualizzazione store | Specifica il testo visualizzato sul pulsante Acquisto immediato. Il testo predefinito è `Instant Purchase`. |
 
 {style="table-layout:auto"}

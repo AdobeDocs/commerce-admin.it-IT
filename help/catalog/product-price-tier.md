@@ -3,9 +3,9 @@ title: Prezzi a livelli
 description: Scopri come utilizzare la determinazione prezzi a livello per offrire uno sconto sulla quantità da un elenco di prodotti o da una pagina di prodotti.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ I prezzi in vetrina hanno la precedenza dalla quantità più alta a quella più 
 
      >[!NOTE]
      >
-     >Per ottenere il prezzo scontato, la percentuale definita viene calcolata rispetto al valore definito nel campo _[!UICONTROL Price]_, non nel campo&#x200B;_[!UICONTROL Special Price]_.
+     >Per ottenere il prezzo scontato, la percentuale definita viene calcolata rispetto al valore definito nel campo _[!UICONTROL Price]_, non nel campo_[!UICONTROL Special Price]_.
 
      ![Tier Price as a Percentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -73,3 +73,46 @@ I prezzi in vetrina hanno la precedenza dalla quantità più alta a quella più 
 >[!NOTE]
 >
 >**_Le opzioni personalizzabili del prodotto_** a prezzo fisso sono _non_ influenzate dalle regole di prezzo di gruppo, prezzo di livello, prezzo speciale o prezzo di catalogo.
+
+## Abilita determinazione prezzi livello per le regole prezzi catalogo
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="Gli elementi elencati sono attualmente disponibili solo negli ambienti Sandbox. Adobe rende disponibili le nuove versioni negli ambienti Sandbox per consentire di testare le modifiche imminenti prima che siano disponibili negli ambienti di produzione."}
+
+Nelle versioni precedenti di Commerce, non era possibile utilizzare i prezzi dei livelli insieme alle regole dei prezzi di catalogo. Le regole del catalogo ignorano la configurazione del prezzo livello e calcolano gli sconti solo dal prezzo base originale. Utilizzando Adobe Commerce as a Cloud Service, è ora possibile scegliere di includere la determinazione dei prezzi dei livelli nel calcolo delle regole dei prezzi di catalogo.
+
+Per abilitare questa funzionalità:
+
+1. Passare a **[!UICONTROL Stores]** > *[!UICONTROL Settings]* > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Promotions]** e impostare il campo **[!UICONTROL Apply Catalog Price Rule on Grouped Price]** su **[!UICONTROL Yes]**.
+
+   ![Abilita determinazione prezzi livello per le regole prezzi catalogo](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
+
+1. Definire un prezzo di livello con una quantità di `1` per ogni gruppo di clienti specifico o catalogo condiviso (ad esempio `Wholesale`, `Retail` o gruppo definito dall&#39;esercente) di cui si desidera eseguire il targeting con le regole del prezzo di catalogo. Impossibile utilizzare il gruppo clienti `ALL GROUPS` e il catalogo condiviso `Default` per questo scopo. La determinazione prezzi a livello non è abilitata per alcun gruppo per il quale non è stato definito un prezzo a livello con una quantità di `1`.
+
+1. Definire prezzi di livello aggiuntivi con quantità maggiori di `1` in base alle esigenze. Questi prezzi di livello aggiuntivi verranno applicati come di consueto quando il cliente aggiunge quantità aggiuntive del prodotto al carrello. Le regole del prezzo del catalogo non verranno applicate a questi prezzi di livello aggiuntivi.
+
+Per illustrare il funzionamento della determinazione dei prezzi per livello con le regole dei prezzi di catalogo durante l&#39;acquisto di un singolo prodotto, considerare l&#39;esempio seguente:
+
+- Il prezzo base standard di un prodotto è di 100 USD.
+- È stato definito un prezzo di livello per il gruppo di clienti `Wholesale` con una quantità di `1` e un prezzo fisso di 90 USD.
+- Una regola del prezzo di catalogo fornisce uno sconto del 10% per il gruppo di clienti `Wholesale`.
+
+Quando è abilitata la determinazione prezzi per il livello per le regole dei prezzi di catalogo, il sistema utilizza il flusso seguente per calcolare il prezzo finale:
+
+1. Prima che il cliente effettui l’accesso, il prezzo del prodotto viene visualizzato come 100 USD (il prezzo base standard).
+
+1. Dopo che il cliente ha effettuato l&#39;accesso come membro del gruppo `Wholesale`, il prezzo del prodotto viene adeguato a 90 USD (il prezzo di livello per il gruppo `Wholesale`).
+
+1. Viene applicata la regola del prezzo di catalogo, che fornisce uno sconto del 10% sul prezzo di livello di 90 USD, risultante in un prezzo finale di 81 USD.
+
+Nella tabella seguente vengono riepilogati i calcoli dei prezzi quando è abilitata la determinazione dei prezzi del livello per le regole dei prezzi di catalogo e una regola dei prezzi di catalogo fornisce uno sconto del 10% per tutti i gruppi di clienti:
+
+Prodotto: prezzo standard $100 (acquisto singolo articolo)
+
+| Gruppo di clienti | Prezzo livello (Qtà=1) | Nuovo prezzo base | Prezzo finale |
+|---|---|---|---|
+| TUTTI I GRUPPI | Non configurato | $ 100 | $100 - 10% = $90 |
+| Commercio all&#39;ingrosso | Fisso: $ 85 | $ 85 | $85 - 10% = $76,50 |
+| Retailer | 20% di sconto | $ 80 | $80 - 10% = $72,00 |
+| VIP | Sconto del 15% | $ 85 | $85 - 10% = $76,50 |

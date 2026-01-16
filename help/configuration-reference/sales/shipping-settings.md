@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] dell'amministratore di Commerce.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 2%
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
@@ -39,5 +39,23 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Impost
 |--- |--- |--- |
 | [!UICONTROL Apply Custom Shipping Policy] | Sito Web | Determina se la politica di spedizione viene visualizzata durante il pagamento. Opzioni: `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | Visualizzazione store | Contiene la politica di spedizione come testo. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Shipment Tracking URLs]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="Gli elementi elencati sono attualmente disponibili solo negli ambienti Sandbox. Adobe rende disponibili le nuove versioni negli ambienti Sandbox per consentire di testare le modifiche imminenti prima che siano disponibili negli ambienti di produzione."}
+
+![Parametri criteri di spedizione](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
+
+| Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
+|--- |--- |--- |
+| [!UICONTROL Enable Custom Tracking URLs] | Visualizzazione store | Determina se i numeri di registrazione delle spedizioni inviati nelle e-mail dei clienti sono collegamenti o testo normale. Il valore predefinito `No` indica che i numeri sono testo normale. Opzioni: `Yes` / `No` |
+| [!UICONTROL USPS Tracking URL] | Visualizzazione store | Il modello URL per le spedizioni del servizio postale degli Stati Uniti. |
+| [!UICONTROL UPS Tracking URL] | Visualizzazione store | Modello URL per spedizioni United Parcel Service. |
+| [!UICONTROL FedEx Tracking URL] | Visualizzazione store | Modello URL per spedizioni Federal Express. |
+| [!UICONTROL DHL Tracking URL] | Visualizzazione store | Modello URL per spedizioni DHL Express. |
 
 {style="table-layout:auto"}
