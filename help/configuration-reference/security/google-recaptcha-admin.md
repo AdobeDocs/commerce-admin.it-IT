@@ -3,7 +3,7 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] dell'amministratore di Commerce.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
 source-wordcount: '559'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Prima di configurare Google reCAPTCHA, è necessario assicurarsi che il file `PHP.ini` includa l&#39;impostazione seguente: `allow_url_fopen = 1`. Questo potrebbe richiedere l’assistenza dello sviluppatore. Vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) nella _Guida all&#39;installazione_.
+>Prima di configurare Google reCAPTCHA, è necessario assicurarsi che il file `PHP.ini` includa l&#39;impostazione seguente: `allow_url_fopen = 1`. Questo potrebbe richiedere l’assistenza dello sviluppatore. Vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=it) nella _Guida all&#39;installazione_.
 
 {{config}}
 
@@ -89,7 +89,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Google
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--|--|--|
-| [!UICONTROL Enable for Login] | Globale | Determina il tipo di reCAPTCHA abilitato per il [accesso amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Opzioni:<br/>**`No`**- (impostazione predefinita) non convalida l&#39;accesso amministratore.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Richiede che l&#39;utente selezioni la casella di controllo _Non sono un robot_.<br />**`Invisible reCAPTCHA v2`**- Convalida il comportamento dell&#39;utente in background senza richiedere interazioni in base al punteggio.<br/>**`Invisible reCAPTCHA v3`** - (consigliato) convalida il comportamento dell&#39;utente in background in base al punteggio di interazione. |
-| [!UICONTROL Enable for Forgot Password] | Globale | Determina il tipo di reCAPTCHA abilitato per richiedere una [reimpostazione password amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Opzioni:<br/>**`No`**- (impostazione predefinita) non convalida la richiesta di reimpostazione della password.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Richiede che l&#39;utente selezioni la casella di controllo _Non sono un robot_.<br />**`Invisible reCAPTCHA v2`**- Convalida il comportamento dell&#39;utente in background senza richiedere interazioni in base al punteggio.<br/>**`Invisible reCaptcha v3`** - (consigliato) convalida il comportamento dell&#39;utente in background in base al punteggio di interazione. |
+| [!UICONTROL Enable for Login] | Globale | Determina il tipo di reCAPTCHA abilitato per il [accesso amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=it). Opzioni:<br/>**`No`**- (impostazione predefinita) non convalida l&#39;accesso amministratore.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Richiede che l&#39;utente selezioni la casella di controllo _Non sono un robot_.<br />**`Invisible reCAPTCHA v2`**- Convalida il comportamento dell&#39;utente in background senza richiedere interazioni in base al punteggio.<br/>**`Invisible reCAPTCHA v3`** - (consigliato) convalida il comportamento dell&#39;utente in background in base al punteggio di interazione. |
+| [!UICONTROL Enable for Forgot Password] | Globale | Determina il tipo di reCAPTCHA abilitato per richiedere una [reimpostazione password amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=it#reset-your-password). Opzioni:<br/>**`No`**- (impostazione predefinita) non convalida la richiesta di reimpostazione della password.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Richiede che l&#39;utente selezioni la casella di controllo _Non sono un robot_.<br />**`Invisible reCAPTCHA v2`**- Convalida il comportamento dell&#39;utente in background senza richiedere interazioni in base al punteggio.<br/>**`Invisible reCaptcha v3`** - (consigliato) convalida il comportamento dell&#39;utente in background in base al punteggio di interazione. |
 
 {style="table-layout:auto"}
