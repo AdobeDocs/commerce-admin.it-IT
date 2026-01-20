@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8181804df811dd0916cd3df423cc6f52d68d1326
+source-git-commit: 50ee2dca64338225c0d024daff74e243c9268564
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '245'
 ht-degree: 3%
 
 ---
@@ -10,6 +10,72 @@ ht-degree: 3%
 ## Novità
 
 Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo elenco sono esclusi tutti gli aggiornamenti minori, ad esempio la modifica della copia.
+
+### 20 gennaio 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>I riferimenti al prodotto sono stati modificati da "Adobe Sensei" a "Adobe AI" per riflettere gli aggiornamenti di branding di Adobe.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4077b922dae0ed9a9050a5f6160143a636646daa">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 16 gennaio 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>È stata aggiunta una precisazione quando sono disponibili <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store">e-mail pronte per il ritiro nello store</a>.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/65fd67dcd3c14daddfc0f36493dc6da3630898a1">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 15 gennaio 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Sono state aggiunte le seguenti funzionalità ad Adobe Commerce as a Cloud Service:<br />- È stato aggiunto il supporto per <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, che fornisce protezione avanzata da bot con funzionalità di analisi dei rischi adattivi e machine learning.<br />- Trasforma i numeri di registrazione spedizione inclusi nelle e-mail dei clienti da testo normale in collegamenti cliccabili <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">abilitando gli URL di tracciamento personalizzati</a>. Questa funzione è supportata per USPS, UPS, FedEx e DHL.<br />- È ora possibile combinare gli sconti per prezzi su più livelli con gli sconti per le regole del catalogo utilizzando <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">regole prezzo catalogo</a>. Questo miglioramento consente di creare strategie di prezzo più dinamiche e competitive.</p>
+</td>
+      <td>
+        Aggiornamento principale, nuovo argomento
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/70e73b47c4b0342ade3deab64dbe39f29b82191f">commit</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 17 dicembre 2025
 
@@ -23,7 +89,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stato aggiornato l'argomento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Premi e fedeltà</a> per chiarire come vengono calcolate le imposte quando i clienti utilizzano punti premio o memorizzano il credito durante l'acquisto.</p>
+      <td><p>È stato aggiornato l'argomento <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Premi e fedeltà</a> per chiarire come vengono calcolate le imposte quando i clienti utilizzano punti premio o memorizzano il credito durante l'acquisto.</p>
 </td>
       <td>
         Feedback
@@ -45,7 +111,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiornate le descrizioni per le metadirettive robot <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> nella <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/seo-overview">documentazione SEO</a>.<br /><em>Correzioni del problema <a href="https://github.com/AdobeDocs/commerce-admin.it-IT/issues/82">#82</a>.</em></p>
+      <td><p>Sono state aggiornate le descrizioni per le metadirettive robot <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> nella <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">documentazione SEO</a>.<br /><em>Correzioni del problema <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
 </td>
       <td>
         Tecnico, feedback
@@ -67,56 +133,12 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiunte informazioni sui cookie predefiniti che non devono essere disabilitati per <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">conformità alle normative sui cookie</a>.</p>
+      <td><p>Sono state aggiunte informazioni sui cookie predefiniti che non devono essere disabilitati per <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">conformità alle normative sui cookie</a>.</p>
 </td>
       <td>
         Tecnico
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/dbc09915e0ce6f052fa797ddd103f051ea289625">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 15 novembre 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrizione</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Sono state aggiunte indicazioni sulla disponibilità dell'anteprima di Page Builder nella pagina CMS per <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/elements/pages/page-add">Aggiungere e rimuovere pagine</a> e <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/page-builder/workspace">argomenti di Page Builder Workspace</a>. L’anteprima non mostra il contenuto a meno che non sia disponibile nella Visualizzazione predefinita dello store.</p>
-</td>
-      <td>
-        Tecnico, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/929fe633f473af030f44e9b0d6b0f9bf8b4c53d5">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 13 novembre 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrizione</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Lo strumento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security-scan">Analisi sicurezza</a> è stato aggiornato per supportare i commercianti con vetrine di Commerce distribuite come siti Adobe Experience Manager.</p>
-</td>
-      <td>
-        Tecnico
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/467decc88b33ada26ae7aa4afbf9b4a8e78f23cc">commit</a></td>
     </tr>
   </tbody>
 </table>
