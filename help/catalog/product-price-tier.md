@@ -3,9 +3,9 @@ title: Prezzi a livelli
 description: Scopri come utilizzare la determinazione prezzi a livello per offrire uno sconto sulla quantità da un elenco di prodotti o da una pagina di prodotti.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ I prezzi in vetrina hanno la precedenza dalla quantità più alta a quella più 
 
      >[!NOTE]
      >
-     >Per ottenere il prezzo scontato, la percentuale definita viene calcolata rispetto al valore definito nel campo _[!UICONTROL Price]_, non nel campo&#x200B;_[!UICONTROL Special Price]_.
+     >Per ottenere il prezzo scontato, la percentuale definita viene calcolata rispetto al valore definito nel campo _[!UICONTROL Price]_, non nel campo_[!UICONTROL Special Price]_.
 
      ![Tier Price as a Percentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -76,9 +76,7 @@ I prezzi in vetrina hanno la precedenza dalla quantità più alta a quella più 
 
 ## Abilita determinazione prezzi livello per le regole prezzi catalogo
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
-
-[!BADGE Sandbox]{type=Caution tooltip="Gli elementi elencati sono attualmente disponibili solo negli ambienti Sandbox. Adobe rende disponibili le nuove versioni negli ambienti Sandbox per consentire di testare le modifiche imminenti prima che siano disponibili negli ambienti di produzione."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Nelle versioni precedenti di Commerce, non era possibile utilizzare i prezzi dei livelli insieme alle regole dei prezzi di catalogo. Le regole del catalogo ignorano la configurazione del prezzo livello e calcolano gli sconti solo dal prezzo base originale. Utilizzando Adobe Commerce as a Cloud Service, è ora possibile scegliere di includere la determinazione dei prezzi dei livelli nel calcolo delle regole dei prezzi di catalogo.
 

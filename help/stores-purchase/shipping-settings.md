@@ -3,9 +3,9 @@ title: Impostazioni spedizione
 description: Scopri come configurare le impostazioni di spedizione che definiscono il punto di origine e la politica di spedizione per il tuo Negozio.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,7 @@ Le opzioni di spedizione con più indirizzi consentono ai clienti di spedire un 
 
 ## URL di tracciamento spedizione e-mail
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
-
-[!BADGE Sandbox]{type=Caution tooltip="Gli elementi elencati sono attualmente disponibili solo negli ambienti Sandbox. Adobe rende disponibili le nuove versioni negli ambienti Sandbox per consentire di testare le modifiche imminenti prima che siano disponibili negli ambienti di produzione."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Per impostazione predefinita, i numeri di registrazione delle spedizioni inviati nelle e-mail dei clienti sono in testo normale. Puoi convertire questi numeri di tracciamento in collegamenti cliccabili abilitando la funzione URL di tracciamento personalizzato. Questa funzione ti consente di definire un modello per il tracciamento degli URL di vari vettori di spedizione. Ogni modello include l’URL completo del sito web di tracciamento e un segnaposto per il numero di tracciamento. Commerce sostituisce il segnaposto con il numero di tracciamento effettivo nell’e-mail.
 
