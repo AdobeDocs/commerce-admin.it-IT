@@ -3,7 +3,7 @@ title: Google reCAPTCHA Enterprise
 description: Scopri come configurare Google reCAPTCHA Enterprise per proteggere la vetrina Adobe Commerce as a Cloud Service da bot e attività fraudolente.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."
 source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
 source-wordcount: '545'

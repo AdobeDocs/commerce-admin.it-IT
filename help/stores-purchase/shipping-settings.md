@@ -84,7 +84,7 @@ Le opzioni di spedizione con più indirizzi consentono ai clienti di spedire un 
 
 ## URL di tracciamento spedizione e-mail
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Per impostazione predefinita, i numeri di registrazione delle spedizioni inviati nelle e-mail dei clienti sono in testo normale. Puoi convertire questi numeri di tracciamento in collegamenti cliccabili abilitando la funzione URL di tracciamento personalizzato. Questa funzione ti consente di definire un modello per il tracciamento degli URL di vari vettori di spedizione. Ogni modello include l’URL completo del sito web di tracciamento e un segnaposto per il numero di tracciamento. Commerce sostituisce il segnaposto con il numero di tracciamento effettivo nell’e-mail.
 

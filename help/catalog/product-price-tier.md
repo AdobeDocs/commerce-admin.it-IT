@@ -76,7 +76,7 @@ I prezzi in vetrina hanno la precedenza dalla quantità più alta a quella più 
 
 ## Abilita determinazione prezzi livello per le regole prezzi catalogo
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Nelle versioni precedenti di Commerce, non era possibile utilizzare i prezzi dei livelli insieme alle regole dei prezzi di catalogo. Le regole del catalogo ignorano la configurazione del prezzo livello e calcolano gli sconti solo dal prezzo base originale. Utilizzando Adobe Commerce as a Cloud Service, è ora possibile scegliere di includere la determinazione dei prezzi dei livelli nel calcolo delle regole dei prezzi di catalogo.
 
