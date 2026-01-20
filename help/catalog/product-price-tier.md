@@ -56,7 +56,7 @@ I prezzi in vetrina hanno la precedenza dalla quantità più alta a quella più 
 
      >[!NOTE]
      >
-     >Per ottenere il prezzo scontato, la percentuale definita viene calcolata rispetto al valore definito nel campo _[!UICONTROL Price]_, non nel campo_[!UICONTROL Special Price]_.
+     >Per ottenere il prezzo scontato, la percentuale definita viene calcolata rispetto al valore definito nel campo _[!UICONTROL Price]_, non nel campo&#x200B;_[!UICONTROL Special Price]_.
 
      ![Tier Price as a Percentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
