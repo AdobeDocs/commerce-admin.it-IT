@@ -3,7 +3,7 @@ title: Impostazioni prodotto - [!UICONTROL Related Products, Up-Sells, and Cross
 description: Per un prodotto, le impostazioni [!UICONTROL Related Products, Up-Sells, and Cross-Sells] definiscono semplici blocchi promozionali sulla pagina del prodotto che evidenziano una selezione di prodotti aggiuntivi.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Utilizzare la sezione _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;per impostare semplici blocchi promozionali che presentano una selezione di prodotti aggiuntivi che potrebbero essere di interesse per il cliente. Per ulteriori informazioni, vedere [Relazioni prodotto](../merchandising-promotions/product-relationships.md).
+Utilizzare la sezione _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_per impostare semplici blocchi promozionali che presentano una selezione di prodotti aggiuntivi che potrebbero essere di interesse per il cliente. Per ulteriori informazioni, vedere [Relazioni prodotto](../merchandising-promotions/product-relationships.md).
 
 ![Prodotti correlati, up-selling e cross-selling](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -33,9 +33,9 @@ Ogni blocco è costituito da un elenco di prodotti che appartengono a un’opzio
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) **Consigli di prodotto basati su Adobe Sensei** semplifica il processo di definizione delle relazioni tra i prodotti utilizzando algoritmi di intelligenza artificiale e machine learning per eseguire un&#39;analisi approfondita dei dati aggregati dei visitatori. Quando vengono combinati con il catalogo di Adobe Commerce, questi dati offrono esperienze altamente coinvolgenti, pertinenti e personalizzate per l’acquirente.
+>![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) **Consigli di prodotto basati su Adobe AI** semplifica il processo di definizione delle relazioni tra i prodotti utilizzando algoritmi di intelligenza artificiale e machine learning per eseguire un&#39;analisi approfondita dei dati aggregati dei visitatori. Quando vengono combinati con il catalogo di Adobe Commerce, questi dati offrono esperienze altamente coinvolgenti, pertinenti e personalizzate per l’acquirente.
 ><br/>
->Per ulteriori informazioni sull&#39;utilizzo di questa estensione sviluppata da Adobe come alternativa alla configurazione manuale dei consigli di prodotto e agli up-sell, consulta la _[Guida ai consigli di prodotto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=it)_.
+>Per ulteriori informazioni sull&#39;utilizzo di questa estensione sviluppata da Adobe come alternativa alla configurazione manuale dei consigli di prodotto e agli up-sell, consulta la _[Guida ai consigli di prodotto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
 
 ## Prodotti correlati
 
@@ -91,7 +91,7 @@ Gli articoli di cross-selling sono simili agli acquisti di impulso posizionati a
 
 >[!NOTE]
 >
->Per mostrare o nascondere gli articoli di cross-selling per visualizzazione store, vedere l&#39;opzione [Pagamento > Carrello acquisti](../configuration-reference/sales/checkout.md) denominata _[!UICONTROL Show Cross-sell Items]_&#x200B;nel carrello acquisti. Puoi nascondere le cross-selling durante vendite specifiche o per test A/B in una visualizzazione punto vendita.
+>Per mostrare o nascondere gli articoli di cross-selling per visualizzazione store, vedere l&#39;opzione [Pagamento > Carrello acquisti](../configuration-reference/sales/checkout.md) denominata _[!UICONTROL Show Cross-sell Items]_nel carrello acquisti. Puoi nascondere le cross-selling durante vendite specifiche o per test A/B in una visualizzazione punto vendita.
 
 ![Effetti di cross-selling nel carrello](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
