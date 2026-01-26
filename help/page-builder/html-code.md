@@ -3,9 +3,9 @@ title: Elementi - Codice HTML
 description: Scopri il tipo di contenuto Codice HTML, utilizzato per aggiungere snippet di codice HTML, CSS e JavaScript nella fase  [!DNL Page Builder] .
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Utilizza il tipo di contenuto _Codice HTML_ per aggiungere snippet di codice HTM
 
 ## Aggiungi codice HTML
 
-Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Font][1] e dichiarare classi di intestazione personalizzate che hanno la precedenza sul foglio di stile corrente.
+Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Font](https://fonts.google.com/) e dichiarare classi di intestazione personalizzate che hanno la precedenza sul foglio di stile corrente.
 
 ### Passaggio 1: scegliere un tipo di carattere Google
 
-1. Visita il sito [Google Fonts][1] e scegli la famiglia di caratteri che desideri utilizzare.
+1. Visita il sito [Google Fonts](https://fonts.google.com/) e scegli la famiglia di caratteri che desideri utilizzare.
 
 1. Copiare il codice generato da incorporare nella sezione `<head>` della pagina e incollarlo temporaneamente in un editor di testo.
 
@@ -84,7 +84,7 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
 
 ### Passaggio 3: visualizzare l’anteprima della pagina
 
-1. Nella sezione _[!UICONTROL Currently Active]_, impostare **[!UICONTROL Enable Page]**&#x200B;su `Yes`.
+1. Nella sezione _[!UICONTROL Currently Active]_, impostare **[!UICONTROL Enable Page]**su `Yes`.
 
    ![Abilitazione della pagina](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
    | Inserisci immagine... | Fare clic per inserire un&#39;immagine caricata o un&#39;immagine dalla raccolta nella posizione del cursore nella casella di testo di HTML. |
    | Inserisci variabile... | Fare clic per inserire una variabile in corrispondenza della posizione del cursore nella casella di testo di HTML. |
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
 
    - Per controllare il posizionamento del codice all&#39;interno del contenitore padre, scegliere un **[!UICONTROL Alignment]**:
 
@@ -163,6 +163,5 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
      | [!UICONTROL Margins] | Quantità di spazio vuoto applicata al bordo esterno di tutti i lati del contenitore. Opzioni: `Top` / `Right` / `Bottom` / `Left` |
      | [!UICONTROL Padding] | Quantità di spazio vuoto applicata al bordo interno di tutti i lati del contenitore. Opzioni: `Top` / `Right` / `Bottom` / `Left` |
 
-[1]: https://fonts.google.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

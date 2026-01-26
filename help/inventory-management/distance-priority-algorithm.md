@@ -3,9 +3,9 @@ title: Configurare l'algoritmo di priorità della distanza
 description: Impostare la configurazione per confrontare l'ubicazione dell'indirizzo di destinazione di spedizione con le ubicazioni di origine per determinare l'origine più vicina per evadere le spedizioni.
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
-source-git-commit: 023716935a6657b0dc2317876debe608e65bf010
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ L&#39;algoritmo Distance Priority confronta l&#39;ubicazione dell&#39;indirizzo 
 
 Sono disponibili due opzioni per calcolare la distanza e il tempo necessari per trovare l&#39;origine più vicina per l&#39;evasione della spedizione:
 
-- **Google MAP** - Utilizza i servizi [Google Maps Platform][1] per calcolare la distanza e l&#39;ora tra l&#39;indirizzo di destinazione di spedizione e le posizioni di origine. Questa opzione utilizza la latitudine e la longitudine (coordinate GPS) della sorgente e può utilizzare l’indirizzo stradale a seconda della modalità di calcolo. È necessaria una chiave API di Google con [API di geocodifica][2] e [API della matrice di distanza][3] abilitate. È possibile che vengano addebitati costi tramite Google.
+- **Google MAP** - Utilizza i servizi [Google Maps Platform](https://cloud.google.com/maps-platform/) per calcolare la distanza e l&#39;ora tra l&#39;indirizzo di destinazione di spedizione e le posizioni di origine. Questa opzione utilizza la latitudine e la longitudine (coordinate GPS) della sorgente e può utilizzare l’indirizzo stradale a seconda della modalità di calcolo. È necessaria una chiave API di Google con [API di geocodifica](https://developers.google.com/maps/documentation/geocoding/start) e [API della matrice di distanza](https://developers.google.com/maps/documentation/distance-matrix/start) abilitate. È possibile che vengano addebitati costi tramite Google.
 
 - **Calcolo offline** - Calcola la distanza utilizzando i dati del codice geografico scaricati e importati utilizzando i codici postali e le coordinate GPS per determinare l&#39;origine più vicina all&#39;indirizzo di destinazione della spedizione. Per configurare questa opzione, potrebbe essere necessario richiedere l&#39;assistenza dello sviluppatore per scaricare e importare inizialmente i geocodici utilizzando le istruzioni della riga di comando.
 
@@ -35,9 +35,9 @@ Tuttavia, l’algoritmo basato sulla distanza di Google MAP è consigliato in qu
 
 ### Passaggio 1: creare la chiave API di Google
 
-La chiave proviene dalla [piattaforma Google Maps][1] e deve avere [API Geocoding][2] e [API Distance Matrix][3] abilitate. Per ulteriori informazioni, vedere [Configurazione dell&#39;algoritmo di priorità della distanza](distance-priority-algorithm.md).
+La chiave proviene dalla [piattaforma Google Maps](https://cloud.google.com/maps-platform/) e deve avere [API Geocoding](https://developers.google.com/maps/documentation/geocoding/start) e [API Distance Matrix](https://developers.google.com/maps/documentation/distance-matrix/start) abilitate. Per ulteriori informazioni, vedere [Configurazione dell&#39;algoritmo di priorità della distanza](distance-priority-algorithm.md).
 
-1. Visita [Google Maps Platform][1] e fai clic su **[!UICONTROL Get Started]**.
+1. Visita [Google Maps Platform](https://cloud.google.com/maps-platform/) e fai clic su **[!UICONTROL Get Started]**.
 
 1. Per abilitare la piattaforma, selezionare **[!UICONTROL Maps, Routes, and Places]** e fare clic su **[!UICONTROL Continue]**.
 
@@ -65,7 +65,7 @@ La chiave proviene dalla [piattaforma Google Maps][1] e deve avere [API Geocodin
 
      ![Servizi API Google](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
-   - Cerca [API geocodifica][2] e [API matrice distanza][3]. Seleziona e abilita ciascun servizio.
+   - Cerca [API geocodifica](https://developers.google.com/maps/documentation/geocoding/start) e [API matrice distanza](https://developers.google.com/maps/documentation/distance-matrix/start). Seleziona e abilita ciascun servizio.
 
 1. Espandere il menu, fare clic su **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]** e copiare la chiave API Google.
 
@@ -77,11 +77,11 @@ La chiave proviene dalla [piattaforma Google Maps][1] e deve avere [API Geocodin
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Inventory]**.
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) della sezione _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;e impostare **[!UICONTROL Provider]**&#x200B;su `Google MAP`.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) della sezione _[!UICONTROL Distance Provider for Distance Based SSA]_e impostare **[!UICONTROL Provider]**su `Google MAP`.
 
    ![Provider per SSA basato sulla distanza](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Google Distance Provider]_&#x200B;e configurare le impostazioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Google Distance Provider]_e configurare le impostazioni:
 
    - Per **[!UICONTROL Google API Key]**, immetti la chiave copiata dal tuo account Google.
 
@@ -89,13 +89,13 @@ La chiave proviene dalla [piattaforma Google Maps][1] e deve avere [API Geocodin
 
      >[!NOTE]
      >
-     >Quando si utilizza questo algoritmo per la spedizione, se percorsi e dati non vengono restituiti per la modalità di calcolo selezionata (guida, bicicletta o deambulazione) per una spedizione, SSA utilizza per impostazione predefinita la priorità Source. Si consiglia di impostare la priorità [&#x200B; per le origini per stock](stocks-prioritize-sources.md).
+     >Quando si utilizza questo algoritmo per la spedizione, se percorsi e dati non vengono restituiti per la modalità di calcolo selezionata (guida, bicicletta o deambulazione) per una spedizione, SSA utilizza per impostazione predefinita la priorità Source. Si consiglia di impostare la priorità [ per le origini per stock](stocks-prioritize-sources.md).
 
      | Opzione | Descrizione |
      | ----- | ----- |
      | `Driving` | (Impostazione predefinita) Richiede indicazioni stradali standard utilizzando la rete stradale. |
      | `Walking` | Richiede indicazioni stradali utilizzando percorsi pedonali e marciapiedi (se disponibili). |
-     | `Bicycling` | Richiede indicazioni per il ciclismo utilizzando piste ciclabili e strade preferite (se disponibili). Il servizio [Distance Matrix Service][4] è disponibile solo negli Stati Uniti e in alcune città canadesi. |
+     | `Bicycling` | Richiede indicazioni per il ciclismo utilizzando piste ciclabili e strade preferite (se disponibili). Il servizio [Distance Matrix Service](https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes) è disponibile solo negli Stati Uniti e in alcune città canadesi. |
 
    - Per **[!UICONTROL Value]**, selezionare un tipo di valore:
 
@@ -110,11 +110,11 @@ La chiave proviene dalla [piattaforma Google Maps][1] e deve avere [API Geocodin
 
 ## Usa calcolo offline
 
-I calcoli offline utilizzano i codici paese per determinare la distanza tra la destinazione di spedizione e gli indirizzi di origine. Per configurare questa opzione potrebbe essere necessaria l’assistenza per gli sviluppatori. Utilizza un comando CLI [!DNL Inventory Management] per scaricare e importare dati da [geonames.org][5].
+I calcoli offline utilizzano i codici paese per determinare la distanza tra la destinazione di spedizione e gli indirizzi di origine. Per configurare questa opzione potrebbe essere necessaria l’assistenza per gli sviluppatori. Utilizza un comando CLI [!DNL Inventory Management] per scaricare e importare dati da [geonames.org](https://www.geonames.org/).
 
 >[!NOTE]
 >
->I geocodici importati da [geonames.org][5] presentano limitazioni per alcuni paesi, ad esempio Canada e Irlanda. Per ulteriori informazioni, consultare [File del codice postale GeoNames][6].
+>I geocodici importati da [geonames.org](https://www.geonames.org/) presentano limitazioni per alcuni paesi, ad esempio Canada e Irlanda. Per ulteriori informazioni, consultare [File del codice postale GeoNames](https://download.geonames.org/export/zip/readme.txt).
 
 ### Passaggio 1: scaricare e importare i geocodici
 
@@ -135,10 +135,3 @@ Completa questi comandi ogni volta che desideri aggiungere altri geocodici.
    ![Provider di distanze per SSA basato sulla distanza](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
-
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://developers.google.com/maps/documentation/geocoding/start
-[3]: https://developers.google.com/maps/documentation/distance-matrix/start
-[4]: https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes
-[5]: https://www.geonames.org/
-[6]: https://download.geonames.org/export/zip/readme.txt

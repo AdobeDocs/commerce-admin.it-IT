@@ -3,24 +3,24 @@ title: Google AdWords
 description: Scopri come configurare il tuo store di Commerce per il tracciamento delle conversioni di Google AdWords per misurare i clic sugli annunci che portano a una vendita o ad altre azioni di valore.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 # Google AdWords
 
-[Google AdWords][1] è un servizio che è possibile utilizzare per inserire annunci nei risultati di Google Search e nelle pagine delle aziende della Google Display Network. Il dashboard di AdWords include strumenti per gestire le campagne, tracciare le risposte e misurare i risultati.
+[Google AdWords](https://www.google.com/adwords/) è un servizio che è possibile utilizzare per inserire annunci nei risultati di Google Search e nelle pagine delle aziende della Google Display Network. Il dashboard di AdWords include strumenti per gestire le campagne, tracciare le risposte e misurare i risultati.
 
-Il tracciamento delle conversioni mostra il numero di clic dell’annuncio che hanno portato a una vendita o ad altre azioni di valore. La pagina _Operazione riuscita_ visualizzata dal cliente dopo l&#39;invio di un ordine viene utilizzata per tenere traccia delle conversioni, in quanto viene visualizzata solo dopo una vendita. Dopo aver completato la configurazione di Google AdWords per il tuo archivio, non è necessario copiare lo script di tracciamento della conversione nella pagina di successo, perché Commerce dispone già delle informazioni necessarie. Per ulteriori informazioni, consulta la [Guida di Google AdWords][2].
+Il tracciamento delle conversioni mostra il numero di clic dell’annuncio che hanno portato a una vendita o ad altre azioni di valore. La pagina _Operazione riuscita_ visualizzata dal cliente dopo l&#39;invio di un ordine viene utilizzata per tenere traccia delle conversioni, in quanto viene visualizzata solo dopo una vendita. Dopo aver completato la configurazione di Google AdWords per il tuo archivio, non è necessario copiare lo script di tracciamento della conversione nella pagina di successo, perché Commerce dispone già delle informazioni necessarie. Per ulteriori informazioni, consulta la [Guida di Google AdWords](https://support.google.com/adwords/answer/6095821).
 
-![Annuncio di Adobe nei risultati di ricerca di Google](./assets/google-adwords-adobe-ad.png){width="500"}
+![Annuncio Adobe nei risultati di ricerca di Google](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## Passaggio 1: Creare una campagna Google AdWords
 
-1. Visita [Google AdWords][3] e registrati per un account.
+1. Visita [Google AdWords](https://ads.google.com/) e registrati per un account.
 
 1. Segui le istruzioni per creare una campagna.
 
@@ -90,7 +90,7 @@ Il tracciamento delle conversioni mostra il numero di clic dell’annuncio che h
       - `2` - Visualizza una notifica su due righe con un collegamento a ulteriori informazioni sul tracciamento di Google.
       - `3` - Nessuna notifica del cliente.
 
-   - Immettere il [codice esadecimale][4]{:target=&quot;_blank&quot;} per **[!UICONTROL Conversion Color]** che si desidera utilizzare per l&#39;etichetta di notifica Statistiche sito Google.
+   - Immettere il [codice esadecimale](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} per **[!UICONTROL Conversion Color]** che si desidera utilizzare per l&#39;etichetta di notifica Statistiche sito Google.
 
    - Immettere il testo crittografato per **[!UICONTROL Conversion Label]** visualizzato nella notifica Google Sites Stat.
 
@@ -132,8 +132,3 @@ Il tracciamento delle conversioni mostra il numero di clic dell’annuncio che h
 ## Passaggio 4: Verifica la configurazione
 
 In poche ore lo stato di tracciamento nel dashboard di Google AdWords cambia da `Unverified` a `No recent conversions` o `Recording conversions`. Quando un utente fa clic sull’annuncio e effettua un acquisto, la conversione viene visualizzata nella pagina Azioni di conversione del dashboard e del rapporto della campagna.
-
-[1]: https://www.google.com/adwords/
-[2]: https://support.google.com/adwords/answer/6095821
-[3]: https://ads.google.com/
-[4]: https://www.w3schools.com/colors/colors_picker.asp

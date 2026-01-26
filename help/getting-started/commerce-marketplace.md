@@ -3,18 +3,18 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Scopri di più su  [!DNL Commerce Marketplace], che offre ai commercianti una selezione curata di soluzioni e fornisce agli sviluppatori qualificati gli strumenti, la piattaforma e la posizione principale per creare un business prospero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 17ec998812d21ab5815546e0f015965c2d35c853
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce Marketplace
 
-[Adobe Commerce Marketplace][1] è l&#39;archivio delle applicazioni che offre ai commercianti una selezione di soluzioni curata e fornisce agli sviluppatori qualificati gli strumenti, la piattaforma e la posizione principale per creare un&#39;azienda prospera. [!DNL Commerce Marketplace] offre una selezione di estensioni disponibili gratuitamente e altre che sono in vendita. Gli acquisti possono essere pagati con carta di credito o [PayPal][2].
+[Adobe Commerce Marketplace](https://marketplace.magento.com/) è l&#39;archivio delle applicazioni che offre ai commercianti una selezione di soluzioni curata e fornisce agli sviluppatori qualificati gli strumenti, la piattaforma e la posizione principale per creare un&#39;azienda prospera. [!DNL Commerce Marketplace] offre una selezione di estensioni disponibili gratuitamente e altre che sono in vendita. Gli acquisti possono essere pagati con carta di credito o [PayPal](https://www.paypal.com/us/home).
 
-Tutte le estensioni disponibili in [!DNL Commerce Marketplace] hanno superato una revisione approfondita. Il [Programma per la qualità delle estensioni][3] (EQP) combina competenze, linee guida per lo sviluppo e strumenti di verifica di [!DNL Commerce] per garantire che tutte le estensioni su Commerce Marketplace soddisfino gli standard di codifica e le best practice. Il processo di revisione include sia un controllo automatico che una revisione manuale del controllo qualità. Durante il processo, la struttura e il codice di ciascuna estensione vengono esaminati e testati per rilevare eventuali segni di infezione da virus/malware e qualsiasi indicazione di plagio. La revisione include un esame tecnico approfondito e un controllo di integrità condotto da un tecnico [!DNL Commerce], con particolare attenzione alla documentazione, alla struttura della codifica, alle prestazioni, alla scalabilità, alla sicurezza e alla compatibilità con il core [!DNL Commerce].
+Tutte le estensioni disponibili in [!DNL Commerce Marketplace] hanno superato una revisione approfondita. Il [Programma per la qualità delle estensioni](https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/) (EQP) combina competenze, linee guida per lo sviluppo e strumenti di verifica di [!DNL Commerce] per garantire che tutte le estensioni su Commerce Marketplace soddisfino gli standard di codifica e le best practice. Il processo di revisione include sia un controllo automatico che una revisione manuale del controllo qualità. Durante il processo, la struttura e il codice di ciascuna estensione vengono esaminati e testati per rilevare eventuali segni di infezione da virus/malware e qualsiasi indicazione di plagio. La revisione include un esame tecnico approfondito e un controllo di integrità condotto da un tecnico [!DNL Commerce], con particolare attenzione alla documentazione, alla struttura della codifica, alle prestazioni, alla scalabilità, alla sicurezza e alla compatibilità con il core [!DNL Commerce].
 
 Anche se è possibile acquistare estensioni da altre origini, solo le estensioni disponibili in [!DNL Commerce Marketplace] vengono verificate tramite un&#39;approfondita analisi tecnica e di marketing all&#39;interno del programma per la qualità delle estensioni.
 
@@ -43,7 +43,7 @@ Le risorse seguenti forniscono un punto di partenza per consentire ai nuovi uten
 
 ## [!DNL Marketplace] credenziali
 
-Prima di installare un&#39;estensione acquistata da [!DNL Commerce Marketplace], accedi al tuo account [!DNL Commerce] e verifica di disporre di una chiave di accesso attiva. Puoi accedere al tuo account [!DNL Commerce] dall&#39;intestazione di [[!DNL Marketplace]][1] o [Magento.com][6].
+Prima di installare un&#39;estensione acquistata da [!DNL Commerce Marketplace], accedi al tuo account [!DNL Commerce] e verifica di disporre di una chiave di accesso attiva. Puoi accedere al tuo account [!DNL Commerce] dall&#39;intestazione di [[!DNL Marketplace]](https://marketplace.magento.com/) o [Magento.com](https://business.adobe.com/products/magento/magento-commerce.html).
 
 La chiave di accesso è un insieme di chiavi pubbliche e private utilizzate per sincronizzare l&#39;installazione di [!DNL Commerce] con l&#39;account [!DNL Commerce] e verificare le credenziali. Dopo la sincronizzazione dell&#39;account, è necessario immettere la chiave privata ogni volta che si installa un&#39;estensione o un modulo da Commerce Marketplace o si aggiorna l&#39;installazione di [!DNL Commerce].
 
@@ -53,13 +53,13 @@ La chiave di accesso è un insieme di chiavi pubbliche e private utilizzate per 
 
 1. Accedi al tuo account [!DNL Commerce].
 
-1. Nella pagina _[!UICONTROL My Account]_&#x200B;scegliere la scheda **[!UICONTROL Marketplace]**.
+1. Nella pagina _[!UICONTROL My Account]_scegliere la scheda **[!UICONTROL Marketplace]**.
 
 1. Nell&#39;angolo superiore destro accanto al tuo nome, fai clic sulla freccia giù e scegli **[!UICONTROL My Profile]**.
 
    ![Il tuo profilo [!DNL Marketplace]](./assets/marketplace-profile.png){width="600"}
 
-1. Nella scheda _[!UICONTROL Marketplace]_&#x200B;in&#x200B;_[!UICONTROL My Products]_, fare clic su **[!UICONTROL Access Keys]** e quindi eseguire una delle operazioni seguenti:
+1. Nella scheda _[!UICONTROL Marketplace]_in_[!UICONTROL My Products]_, fare clic su **[!UICONTROL Access Keys]** e quindi eseguire una delle operazioni seguenti:
 
    - Controlla se disponi già di un set di chiavi di accesso per gli acquisti Marketplace. È possibile creare più set di chiavi di accesso per scopi diversi.
 
@@ -77,9 +77,9 @@ La chiave di accesso è un insieme di chiavi pubbliche e private utilizzate per 
 
 >[!IMPORTANT]
 >
->A partire da Adobe Commerce e Magento Open Source 2.4.0, l&#39;Installazione guidata Web viene rimossa ed è necessario utilizzare la riga di comando per [installare](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=it) o [aggiornare](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=it) l&#39;istanza. Questo requisito include anche [moduli](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=it) e [estensioni](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=it).
+>A partire da Adobe Commerce e Magento Open Source 2.4.0, l&#39;Installazione guidata Web viene rimossa ed è necessario utilizzare la riga di comando per [installare](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) o [aggiornare](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) l&#39;istanza. Questo requisito include anche [moduli](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) e [estensioni](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
-Il processo di installazione per [!DNL Marketplace] acquisti è diverso per _installazioni on-premise_ di Commerce rispetto alle installazioni in hosting su [Adobe Cloud Architecture][4].
+Il processo di installazione per [!DNL Marketplace] acquisti è diverso per _installazioni on-premise_ di Commerce rispetto alle installazioni in hosting su [Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html).
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
@@ -109,7 +109,7 @@ I problemi di accesso sono in genere correlati a una mancata corrispondenza tra 
 
 ### Domande open source
 
-Il team di supporto per il Marketplace risolve i problemi relativi solo ai siti [commerce.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Domande su Magento Open Source possono essere indirizzate al [Forum della community](https://community.magento.com/) o a [un partner](https://business.adobe.com/it/products/magento/partners.html) che possa fornire assistenza con Magento Open Source.
+Il team di supporto per il Marketplace risolve i problemi relativi solo ai siti [commerce.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Domande su Magento Open Source possono essere indirizzate al [Forum della community](https://community.magento.com/) o a [un partner](https://business.adobe.com/products/magento/partners.html) che possa fornire assistenza con Magento Open Source.
 
 ### Richieste di rimborso
 
@@ -138,9 +138,3 @@ Il team di supporto Marketplace non è in grado di trasferire gli acquisti a un 
 Puoi [condividere](commerce-account-share.md) un&#39;istanza di Commerce tramite l&#39;account principale. L&#39;accesso condiviso concede autorizzazioni speciali a un account subordinato da un account principale. Il punto di accesso condiviso viene generato dall&#39;account principale. L’account principale può essere l’account autorizzato di Commerce, l’account principale dell’esercente o un account condiviso all’interno di un’organizzazione.
 
 Queste autorizzazioni speciali concedono lo stesso livello di accesso su Adobe Commerce come principale, ma non viene trasferito ad Adobe Commerce Marketplace o Developer Portal. Ciò significa che l’acquisto di un’estensione da un account subordinato nel Marketplace non può essere condiviso con l’account principale. L&#39;accesso condiviso è una strada unidirezionale (account principale subordinato). Non funziona quando un account subordinato tenta di ricondividere con primario.
-
-[1]: https://marketplace.magento.com/
-[2]: https://www.paypal.com/us/home
-[3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
-[4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/it/products/magento/magento-commerce.html

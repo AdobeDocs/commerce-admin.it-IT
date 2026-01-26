@@ -3,9 +3,9 @@ title: Linee guida per la conformità PCI
 description: Rivedi queste informazioni sui requisiti PCI (Payment Card Industry) per le aziende che accettano il pagamento tramite carta di credito su Internet.
 exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Il settore delle carte di pagamento (Payment Card Industry, PCI) ha stabilito un
 
 ![casella di controllo](../assets/checkbox.png) - Non utilizzare le impostazioni predefinite fornite dal fornitore per le password di sistema e altri parametri di sicurezza.
 
-![casella di controllo](../assets/checkbox.png) - Dati del titolare della carta archiviati in Protect.
+![casella di controllo](../assets/checkbox.png) - Protegge i dati archiviati del titolare della carta.
 
 ![casella di controllo](../assets/checkbox.png) - Crittografa la trasmissione dei dati del titolare della carta su reti pubbliche aperte.
 
@@ -40,13 +40,10 @@ Il settore delle carte di pagamento (Payment Card Industry, PCI) ha stabilito un
 
 ![casella di controllo](../assets/checkbox.png) - Gestisce un criterio per la sicurezza delle informazioni.
 
-Per ulteriori informazioni, consulta [Approccio Adobe alla conformità PCI][1]{:target=&quot;_blank&quot;}.
+Per ulteriori informazioni, vedere [Approccio Adobe alla conformità PCI](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >
 >Questo contenuto è inteso solo a scopo informativo e non deve essere interpretato come consulenza legale. Per determinare se e come la tua azienda debba conformarsi ad obblighi di legge, consulta il tuo consulente legale.
 
-Man mano che la tua azienda cresce, ti potrebbe essere richiesto di presentare una relazione sulla conformità su base annuale. Gli obblighi di reporting PCI aumentano in proporzione al livello di commerciante, ma sono esentati per le aziende che elaborano meno di 20.000 transazioni con carta di credito all&#39;anno. Per ulteriori informazioni, visitare il sito Web [PCI Security Standards Council][2].
-
-[1]: https://business.adobe.com/it/products/magento/pci-compliance.html
-[2]: https://www.pcisecuritystandards.org/index.php
+Man mano che la tua azienda cresce, ti potrebbe essere richiesto di presentare una relazione sulla conformità su base annuale. Gli obblighi di reporting PCI aumentano in proporzione al livello di commerciante, ma sono esentati per le aziende che elaborano meno di 20.000 transazioni con carta di credito all&#39;anno. Per ulteriori informazioni, visitare il sito Web [PCI Security Standards Council](https://www.pcisecuritystandards.org/index.php).

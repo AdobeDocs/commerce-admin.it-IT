@@ -3,7 +3,7 @@ title: Emetti una nota di credito
 description: Scopri come generare e stampare una nota di credito per un ordine fatturato.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Determinare il tipo di rimborso che si desidera emettere, per un [acquisto di cr
 
 1. Trovare l&#39;ordine nella griglia e fare clic su **[!UICONTROL View]**.
 
-1. Se il pulsante _[!UICONTROL Credit Memo]_&#x200B;è visibile nella barra dei pulsanti, eseguire una delle operazioni seguenti:
+1. Se il pulsante _[!UICONTROL Credit Memo]_è visibile nella barra dei pulsanti, eseguire una delle operazioni seguenti:
 
    - Per emettere un rimborso `offline`, andare al passaggio #6.
    - Per emettere un rimborso `online`, continuare con il passaggio #4.
@@ -272,7 +272,7 @@ Il metodo di pagamento utilizzato per l&#39;ordine determina i pulsanti di rimbo
 
 ## Stampa una nota di credito
 
-Per stampare o visualizzare la nota di credito completata, è necessario che sia installato un lettore di PDF. Puoi scaricare [Adobe Reader][1] gratuitamente.
+Per stampare o visualizzare la nota di credito completata, è necessario che sia installato un lettore PDF. Puoi scaricare [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Ottieni Adobe Reader") gratuitamente.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 
@@ -296,9 +296,6 @@ Per stampare o visualizzare la nota di credito completata, è necessario che sia
 
 1. Quando richiesto, effettuare una delle seguenti operazioni:
 
-   - Per salvare il documento, fare clic su **[!UICONTROL Save]** e seguire le istruzioni per salvare il file nel computer. Al termine del download, apri il PDF in Adobe Reader e stampa il documento.
+   - Per salvare il documento, fare clic su **[!UICONTROL Save]** e seguire le istruzioni per salvare il file nel computer. Al termine del download, aprire PDF in Adobe Reader e stampare il documento.
 
-   - Per visualizzare il documento, scegliere **[!UICONTROL Open]**. In Adobe Reader viene aperta la nota di credito PDF pronta per la stampa. Da qui è possibile stampare la nota di credito o salvarla nel computer.
-
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Scarica Adobe Reader"
+   - Per visualizzare il documento, scegliere **[!UICONTROL Open]**. In Adobe Reader viene aperta la nota di credito di PDF pronta per la stampa. Da qui è possibile stampare la nota di credito o salvarla nel computer.

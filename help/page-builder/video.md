@@ -3,16 +3,16 @@ title: Media - Video
 description: Scopri il tipo di contenuto Video, utilizzato per aggiungere alla fase  [!DNL Page Builder]  un video in hosting su YouTube o Vimeo.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # Media - Video
 
-Utilizza il tipo di contenuto _Video_ per aggiungere un video in hosting su [YouTube][1] o [Vimeo][2] alla [[!DNL Page Builder] fase](workspace.md#stage). È facile incorporare i video in una pagina o in un blocco oppure nelle descrizioni di prodotti e categorie.
+Utilizza il tipo di contenuto _Video_ per aggiungere un video in hosting su [YouTube](https://www.youtube.com/) o [Vimeo](https://vimeo.com/) alla [[!DNL Page Builder] fase](workspace.md#stage). È facile incorporare i video in una pagina o in un blocco oppure nelle descrizioni di prodotti e categorie.
 
 ![Video nella home page della vetrina](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
@@ -38,7 +38,7 @@ Utilizza il tipo di contenuto _Video_ per aggiungere un video in hosting su [You
 
 ## Aggiungi un video
 
-1. Prima di iniziare, passa al video [YouTube][1] o [Vimeo][2] che desideri incorporare e copia il collegamento.
+1. Prima di iniziare, passa al video [YouTube](https://www.youtube.com/) o [Vimeo](https://vimeo.com/) che desideri incorporare e copia il collegamento.
 
    In alternativa, è possibile copiare un collegamento diretto in un file video valido. Per collegamenti validi, consulta [Impostazioni video di base](#basic-video-settings).
 
@@ -168,7 +168,5 @@ Utilizza il tipo di contenuto _Video_ per aggiungere un video in hosting su [You
 
 1. Quando viene richiesto di confermare, fare clic su **[!UICONTROL OK]**.
 
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

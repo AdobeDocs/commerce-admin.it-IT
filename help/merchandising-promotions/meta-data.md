@@ -1,45 +1,45 @@
 ---
-title: Metadati
+title: Dati Meta
 description: Scopri come immettere metadati ricchi di parole chiave per migliorare il modo in cui i motori di ricerca indicizzano il sito Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Metadati
+# Dati Meta
 
 >[!TIP]
 >
->Per Adobe Commerce as a Cloud Service, consulta le [linee guida sui metadati](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=it) nella documentazione di Commerce Storefront
+>Per Adobe Commerce as a Cloud Service, consulta le [linee guida sui metadati](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) nella documentazione di Commerce Storefront
 
 Il tuo archivio è caricato di luoghi in cui puoi immettere metadati ricchi di parole chiave per migliorare il modo in cui i motori di ricerca indicizzano il sito. Durante la configurazione del negozio, è possibile immettere metadati preliminari, con l&#39;intenzione di completarli in un secondo momento. Nel tempo, puoi perfezionare i metadati per adattarli ai modelli di acquisto e alle preferenze dei clienti.
 
 ![Impostazioni prodotto - Ottimizzazione motore di ricerca](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
-## Meta title
+## Titolo Meta
 
 Il metatitolo viene visualizzato nella barra del titolo e nella scheda del browser e nell’elenco dei risultati della ricerca. Il metatitolo deve essere univoco per la pagina e contenere meno di 70 caratteri.
 
 ![Esempio di vetrina - titolo meta](./assets/storefront-home-page-meta-title.png){width="600"}
 
-## Parole chiave meta
+## Parole chiave di Meta
 
 Anche se alcuni motori di ricerca ignorano le parole chiave meta, altri continuano a utilizzarle. La best practice corrente consiste nell’incorporare parole chiave di alto valore nel metatitolo e nella descrizione.
 
 ![Ricerca nel browser Web - Parole chiave meta](./assets/storefront-meta-description.png){width="500"}
 
-## Meta descrizione
+## Descrizione di Meta
 
-Le metadescrizioni forniscono una breve panoramica della pagina per l’elenco dei risultati di ricerca. Idealmente, una metadescrizione dovrebbe avere una lunghezza compresa tra 150 e 160 caratteri, anche se il campo accetta fino a 255 caratteri.
+Le descrizioni di Meta forniscono una breve panoramica della pagina per l’elenco dei risultati della ricerca. Idealmente, una metadescrizione dovrebbe avere una lunghezza compresa tra 150 e 160 caratteri, anche se il campo accetta fino a 255 caratteri.
 
 ## Frammenti avanzati
 
-I frammenti avanzati forniscono informazioni dettagliate per l&#39;elenco dei risultati di ricerca e altre applicazioni. Per impostazione predefinita, al modello di prodotto dell&#39;archivio viene aggiunto il markup di dati strutturati basato sullo standard [schema.org][1]. Di conseguenza, sono disponibili ulteriori informazioni per i motori di ricerca da includere come _frammenti avanzati_ negli elenchi di prodotti.
+I frammenti avanzati forniscono informazioni dettagliate per l&#39;elenco dei risultati di ricerca e altre applicazioni. Per impostazione predefinita, al modello di prodotto dell&#39;archivio viene aggiunto il markup di dati strutturati basato sullo standard [schema.org](https://schema.org/). Di conseguenza, sono disponibili ulteriori informazioni per i motori di ricerca da includere come _frammenti avanzati_ negli elenchi di prodotti.
 
 ## Tag meta canonico
 
@@ -82,22 +82,20 @@ Puoi evitare di essere penalizzato dai motori di ricerca omettendo la categoria 
 
 1. Se si desidera che i motori di ricerca indicizzino solo le pagine delle categorie utilizzando il percorso completo delle categorie, eseguire le operazioni seguenti:
 
-   - Impostare **Use Canonical Link Meta Tag for Categories** su `Yes`.
+   - Imposta **Usa tag Meta collegamento canonico per le categorie** su `Yes`.
 
-   - Impostare **Use Canonical Link Meta Tag for Products** su `No`.
+   - Imposta **Usa tag Meta collegamento canonico per i prodotti** su `No`.
 
 1. Se si desidera che i motori di ricerca indicizzino le pagine di prodotti utilizzando solo il formato nome di dominio/prodotto-url-chiave, eseguire le operazioni seguenti:
 
-   - Impostare **Use Canonical Link Meta Tag for Products** su `Yes`.
+   - Imposta **Usa tag Meta collegamento canonico per i prodotti** su `Yes`.
 
-   - Impostare **Use Canonical Link Meta Tag for Categories** su `No`.
+   - Imposta **Usa tag Meta collegamento canonico per le categorie** su `No`.
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
-## Demo sui metadati
+## Demo sui dati di Meta
 
 Guarda questo video per scoprire come gestire i metadati SEO (Search Engine Optimization):
 
->[!VIDEO](https://video.tv.adobe.com/v/3410175?quality=12&learn=on&captions=ita)
-
-[1]: https://schema.org/
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)

@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] &gt; [!UICONTROL Web] dell'amministratore di Commerce.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,12 +18,12 @@ ht-degree: 0%
 
 ![Web > Opzioni generali](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | Ambito | Descrizione |
 |  ---  |  ---  |  ---  |
 | [!UICONTROL Add Store Code to URLs] | Globale | Se sono abilitate le riscritture del server Web, inserisce nell&#39;URL il codice store della visualizzazione corrente. Opzioni: `Yes` / `No`. <br />Quando questo campo è impostato su `Yes`, è necessario includere i codici di archivio negli URL del browser per assicurarsi che le riscritture degli URL siano mappate correttamente e che tutte le pagine siano aperte correttamente. Questo evita _404 errori di pagina non trovata_. |
-| [!UICONTROL Auto-redirect to Base URL] | Visualizzazione store | (Per le impostazioni per un singolo archivio) Se sul sito è presente un collegamento interrotto, reindirizza il traffico all’URL di base anziché a una pagina con il messaggio &quot;404 Page Not Found&quot; (Pagina 404 non trovata). Opzioni:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Importante:_**&#x200B;Non utilizzare il reindirizzamento automatico all&#39;URL di base per le impostazioni di più archivi. |
+| [!UICONTROL Auto-redirect to Base URL] | Visualizzazione store | (Per le impostazioni per un singolo archivio) Se sul sito è presente un collegamento interrotto, reindirizza il traffico all’URL di base anziché a una pagina con il messaggio &quot;404 Page Not Found&quot; (Pagina 404 non trovata). Opzioni:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Importante:_** Non utilizzare il reindirizzamento automatico all&#39;URL di base per le impostazioni di più archivi. |
 | [!UICONTROL Catalog media URL format] | Globale | Definisce il [formato URL](../../catalog/catalog-urls.md) assegnato ai prodotti e alle categorie. Opzioni: hash univoco per variante di immagine (modalità legacy) definisce il nome del file convertito come un valore hash univoco. L&#39;ottimizzazione immagine basata sui parametri di query definisce il processo [ottimizzazione immagine](../../content-design/media-gallery-image-optimization.md) in base ai parametri di query. |
 
 {style="table-layout:auto"}
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![Web > Ottimizzazione motore di ricerca](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![Web > URL di base](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![Web > URL di base (protetto)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -69,7 +69,7 @@ ht-degree: 0%
 | [!UICONTROL Secure Base URL for User Media Files] | Visualizzazione store | Percorso che punta alla posizione delle immagini del catalogo e di altri file multimediali. I file possono trovarsi su un canale non sicuro o protetto. Un segnaposto viene utilizzato per rappresentare l’URL di base. Se nell&#39;installazione di Commerce sono presenti più siti con la stessa struttura di cartelle, è possibile utilizzare una cartella multimediale diversa per ognuno di essi. In questo modo è possibile eseguire separatamente il backup e il rollback di ogni cartella multimediale. È inoltre possibile specificare una cartella dei supporti al di fuori dell&#39;installazione di Commerce. |
 | [!UICONTROL Use Secure URLs on Storefront] | Visualizzazione store | Se il dominio dispone di un certificato di sicurezza, puoi scegliere di eseguire la vetrina, con o senza crittografia SSL. Opzioni:<br />**`Yes`**- Gli URL dell&#39;archivio iniziano con `https` per indicare che la pagina viene consegnata con un protocollo crittografato e sicuro.<br />**`No`** - Gli URL dell&#39;archivio iniziano con `http` per indicare che la pagina viene consegnata senza protocollo sicuro. |
 | [!UICONTROL Use Secure URLs in Admin] | Globale | Se il dominio dispone di un certificato di sicurezza, puoi scegliere di eseguire l’amministrazione dello store, con o senza crittografia SSL. Opzioni: <br />**`Yes`**- Gli URL dell&#39;amministratore iniziano con `https` per indicare che la pagina viene consegnata con un protocollo crittografato e sicuro.<br />**`No`** - Gli URL dell&#39;amministratore iniziano con `http` per indicare che la pagina viene consegnata senza protocollo sicuro.<br /> Quando gli URL protetti sono abilitati sia per l&#39;archivio che per l&#39;amministratore, vengono visualizzati due campi aggiuntivi per abilitare e configurare `HSTS`. |
-| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | Visualizzazione store | Se attivato, [`HSTS`][1] fornisce una misura di sicurezza contro gli attacchi &quot;man in the middle&quot; e impedisce agli utenti di ignorare il messaggio &quot;invalid certificate&quot;. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | Visualizzazione store | Se attivato, [`HSTS`](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) fornisce una misura di sicurezza contro gli attacchi &quot;man in the middle&quot; e impedisce agli utenti di ignorare il messaggio &quot;invalid certificate&quot;. Opzioni: `Yes` / `No` |
 | [!UICONTROL Upgrade Insecure Requests] | Visualizzazione store | Quando questa opzione è attivata, converte le richieste non sicure (`HTTP`) ricevute dal browser nel protocollo protetto (`HTTPS`). Opzioni: `Yes` / `No` |
 | [!UICONTROL Offloader Header] | Globale | Specifica il valore `offloader_header` nella configurazione del server per identificare il protocollo tra il client e il load balancer. La maggior parte delle installazioni di Commerce utilizza il valore predefinito `X-Forwarded-Proto` (XFP) per identificare il protocollo come `HTTP` o `HTTPS`. |
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ![Web > Pagine predefinite](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ![Layout predefiniti](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/design/layout/page-layout) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Web > Impostazioni cookie predefinite](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/it/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![Web > Convalida sessione](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ![Web > Rilevamento funzionalità browser](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -150,5 +150,3 @@ ht-degree: 0%
 | [!UICONTROL Show Notice if Local Storage is Disabled] | Visualizzazione store | Visualizza un messaggio se la cache locale è disabilitata. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}
-
-[1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html

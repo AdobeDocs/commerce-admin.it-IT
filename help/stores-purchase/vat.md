@@ -3,7 +3,7 @@ title: Imposta sul valore aggiunto
 description: descrizione qui&gt;
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1990'
 ht-degree: 0%
@@ -180,7 +180,7 @@ Commerce utilizza le [impostazioni di configurazione cliente](../customers/accou
 
 ## Convalida ID IVA
 
-_Convalida ID IVA_ calcola automaticamente l&#39;imposta richiesta per le transazioni B2B che si svolgono all&#39;interno dell&#39;Unione Europea (UE), in base alle impostazioni locali del cliente e dell&#39;esercente. Commerce esegue la convalida dell&#39;ID IVA utilizzando i servizi Web del server [Commissione europea][1].
+_Convalida ID IVA_ calcola automaticamente l&#39;imposta richiesta per le transazioni B2B che si svolgono all&#39;interno dell&#39;Unione Europea (UE), in base alle impostazioni locali del cliente e dell&#39;esercente. Commerce esegue la convalida dell&#39;ID IVA utilizzando i servizi Web del server [Commissione europea](https://ec.europa.eu/taxation_customs/vies/).
 
 >[!NOTE]
 >
@@ -326,6 +326,3 @@ Crea le [regole fiscali](tax-rules.md) per utilizzare correttamente la convalida
    Per modificare l&#39;impostazione predefinita, deselezionare la casella di controllo **Usa valori di sistema**. Tenere premuto il tasto Ctrl (PC) o Comando (Mac) e fare clic su ogni paese che si desidera aggiungere o rimuovere.
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
-
-
-[1]: https://ec.europa.eu/taxation_customs/vies/

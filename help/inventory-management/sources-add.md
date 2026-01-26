@@ -3,7 +3,7 @@ title: Aggiungi un'origine inventario
 description: Scopri come creare un’origine per un’ubicazione, ad esempio un magazzino, un magazzino, un centro di distribuzione o uno spedizioniere.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Se si modifica il Source predefinito, è possibile modificare tutte le configura
 
    - Per **[!UICONTROL Latitude]** e **[!UICONTROL Longitude]**, immettere le coordinate GPS della posizione dell&#39;impianto.
 
-     Per trovare le coordinate GPS con [Mappe Google][1], immettere l&#39;indirizzo nella casella di ricerca. Fare clic con il pulsante destro del mouse sul marcatore sulla mappa e scegliere **[!UICONTROL What's here?]**. Le coordinate GPS vengono visualizzate nella casella dei dettagli sotto l&#39;indirizzo stradale.
+     Per trovare le coordinate GPS con [Mappe Google](https://www.google.com/maps), immettere l&#39;indirizzo nella casella di ricerca. Fare clic con il pulsante destro del mouse sul marcatore sulla mappa e scegliere **[!UICONTROL What's here?]**. Le coordinate GPS vengono visualizzate nella casella dei dettagli sotto l&#39;indirizzo stradale.
 
      ![Opzioni di origine generali](assets/inventory-source-general.png)
 
@@ -123,5 +123,3 @@ Se si modifica il Source predefinito, è possibile modificare tutte le configura
 | **[!UICONTROL Pickup Location]** | |
 | [!UICONTROL Frontend Name] | Nome della posizione di prelievo per l&#39;origine visualizzata nella vetrina. |
 | [!UICONTROL Frontend Description] | Descrizione della posizione di prelievo per l&#39;origine visualizzata nella vetrina. Può contenere immagini allegate. |
-
-[1]: https://www.google.com/maps

@@ -3,7 +3,7 @@ title: Localizzazione dello store
 description: Scopri come localizzare una visualizzazione store o store.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 La maggior parte del testo che appare hardcoded sulle pagine in tutto il negozio può essere istantaneamente cambiato in una lingua diversa cambiando le impostazioni locali della visualizzazione. La modifica delle impostazioni locali non traduce il testo parola per parola, ma fa semplicemente riferimento a una tabella di traduzione diversa che fornisce il testo di interfaccia utilizzato in tutto l’archivio. Il testo che può essere modificato include titoli di navigazione, etichette, pulsanti e collegamenti quali _Carrello_ e _Account personale_. È inoltre possibile utilizzare lo strumento [Traduzione in linea](../configuration-reference/advanced/developer.md) per ritoccare il testo nell&#39;interfaccia.
 
-I Language Pack si trovano in [Traduzioni e localizzazione][1]{:target="_blank"} su Commerce Marketplace. Le nuove estensioni vengono aggiunte in modo continuo a Marketplace, quindi controlla spesso.
+I Language Pack si trovano in [Traduzioni e localizzazione](https://marketplace.magento.com/extensions/content-customizations/translations-localization.html){:target="_blank"} su Commerce Marketplace. Le nuove estensioni vengono aggiunte in modo continuo a Marketplace, quindi controlla spesso.
 
 ## Passaggio 1: installare un Language Pack
 
-Segui le istruzioni standard per l’installazione dell’estensione Language Pack. Per informazioni dettagliate sull&#39;installazione di un&#39;estensione, vedere [Installazione generale di CLI][2] nella _Guida alle estensioni_.
+Segui le istruzioni standard per l’installazione dell’estensione Language Pack. Per informazioni dettagliate sull&#39;installazione di un&#39;estensione, vedere [Installazione generale di CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) nella _Guida alle estensioni_.
 
 ## Passaggio 2: creare una visualizzazione Store per la lingua
 
@@ -88,7 +88,7 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Manage Labels]**.
 
-1. Nella sezione _[!UICONTROL Manage Titles]_&#x200B;immettere un&#39;etichetta tradotta per ogni visualizzazione dello store.
+1. Nella sezione _[!UICONTROL Manage Titles]_immettere un&#39;etichetta tradotta per ogni visualizzazione dello store.
 
    ![Immetti etichette tradotte](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
 
 1. Per _Informazioni di base_, traduci **[!UICONTROL Category Name]**.
 
-1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Content]_&#x200B;e traduci **[!UICONTROL Description]**.
+1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Content]_e traduci **[!UICONTROL Description]**.
 
 1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization Settings]** e traduci i campi seguenti:
 
@@ -139,7 +139,3 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
    ![Opzioni di gestione](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
 1. Al termine, fare clic su **[!UICONTROL Save Attribute]**.
-
-
-[1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=it

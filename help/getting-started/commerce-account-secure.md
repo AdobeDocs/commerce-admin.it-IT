@@ -1,11 +1,11 @@
 ---
-title: Proteggi il tuo account  [!DNL Commerce]
+title: 'Proteggi il tuo account  [!DNL Commerce] '
 description: Scopri come utilizzare l'autenticazione a due fattori per proteggere il tuo account  [!DNL Commerce] .
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Per usare TFA, devi avere un’applicazione TFA installata sul tuo dispositivo p
 
 ## Abilita autenticazione a due fattori
 
-1. Accedi al tuo [[!DNL Commerce] account][1]{:target=&quot;_blank&quot;}.
+1. Accedi al tuo [[!DNL Commerce] account](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Nel riquadro di spostamento a sinistra, selezionare **[!UICONTROL Account Settings]**, quindi selezionare **[!UICONTROL Two-factor Authentication]**.
 
@@ -96,7 +96,7 @@ Per usare TFA, devi avere un’applicazione TFA installata sul tuo dispositivo p
 
 ## Accedi utilizzando un codice di verifica
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [account][1]{:target=&quot;_blank&quot;}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -108,7 +108,7 @@ Per usare TFA, devi avere un’applicazione TFA installata sul tuo dispositivo p
 
 ## Accedi utilizzando un codice di ripristino
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [account][1]{:target=&quot;_blank&quot;}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -122,7 +122,7 @@ Per usare TFA, devi avere un’applicazione TFA installata sul tuo dispositivo p
 
 ## Accedi utilizzando l’e-mail di ripristino
 
-1. Accedi al tuo [[!DNL Commerce] account][1]{:target=&quot;_blank&quot;}.
+1. Accedi al tuo [[!DNL Commerce] account](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -140,7 +140,7 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
 
 ## Visualizza i codici di ripristino
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [account][1]{:target=&quot;_blank&quot;}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -168,7 +168,7 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
 
 ## Genera nuovi codici di ripristino
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [account][1]{:target=&quot;_blank&quot;}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -190,7 +190,7 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
 
 ## Cambia l’e-mail di ripristino
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [account][1]{:target=&quot;_blank&quot;}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -218,7 +218,7 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
 
 ## Modificare l&#39;applicazione di autenticazione a due fattori
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [account][1]{:target=&quot;_blank&quot;}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -270,7 +270,7 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
 >
 >Se i criteri di sicurezza organizzativi richiedono l’autenticazione a più fattori sugli account Adobe Commerce, non è possibile disabilitare l’autenticazione a due fattori.
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [account][1]{:target=&quot;_blank&quot;}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -287,5 +287,3 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
    Il sistema invia una conferma e-mail che indica che TFA è stato disabilitato sul tuo account [!DNL Commerce].
 
    ![Disabilita TFA](./assets/2fa-disable.png){width="400"}
-
-[1]: https://account.magento.com/customer/account/login

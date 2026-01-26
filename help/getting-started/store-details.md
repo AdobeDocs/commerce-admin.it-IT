@@ -3,7 +3,7 @@ title: Dettagli store
 description: Scopri come aggiornare le informazioni di base per il tuo store.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: dc07b53c27fd99c2c0dc7ee4602640d551e509cf
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Le informazioni di base per il negozio includono il nome e l&#39;indirizzo del n
 
 ## [!UICONTROL Store Information]
 
-La sezione _[!UICONTROL Store Information]_&#x200B;fornisce le informazioni di base visualizzate nei documenti di vendita e in altre comunicazioni.
+La sezione _[!UICONTROL Store Information]_fornisce le informazioni di base visualizzate nei documenti di vendita e in altre comunicazioni.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -169,11 +169,11 @@ Le opzioni per paese identificano il paese in cui è situata la tua azienda e i 
 
 Per informazioni sulla risoluzione dei problemi di configurazione del paese, vedere i seguenti articoli della Knowledge Base di supporto di [!DNL Commerce]:
 
-- [Come aggiungere un paese](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=it)
+- [Come aggiungere un paese](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 L&#39;impostazione dell&#39;ubicazione esercente viene utilizzata per configurare [metodi di pagamento](../stores-purchase/payments.md). Se non è presente alcun valore per questa impostazione, verrà utilizzata l&#39;impostazione [Paese predefinito](#uicontrol-country-options).
 
@@ -215,7 +215,7 @@ Prima di poter configurare gli indirizzi e-mail per lo store, ciascuno di essi d
 
 ### Passaggio 2: impostare l’URL di base per i collegamenti generati
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Alcune e-mail rivolte ai clienti includono collegamenti allo store, ad esempio quelle che aiutano i clienti a reimpostare le password. Per garantire il funzionamento dei collegamenti alla vetrina, è necessario definire l&#39;URL di base della vetrina.
 
@@ -223,13 +223,13 @@ Alcune e-mail rivolte ai clienti includono collegamenti allo store, ad esempio q
 
 1. In **[!UICONTROL General]** nel pannello di navigazione a sinistra, scegli **[!UICONTROL Store Email Addresses]**.
 
-1. Nella sezione **[!UICONTROL General]** del campo **[!UICONTROL Storefront Base URL]** immettere l&#39;URL principale per l&#39;archivio, ad esempio `https://www.example.com/`. L’URL deve terminare con una barra.
+1. Nella sezione **[!UICONTROL Storefront Base URL]** del campo **[!UICONTROL General]** immettere l&#39;URL principale per l&#39;archivio, ad esempio `https://www.example.com/`. L’URL deve terminare con una barra.
 
    ![Configurazione generale - Generale](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
 
 ### Passaggio 3: configurare gli indirizzi e-mail per il negozio
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} Gli indirizzi e-mail del mittente sono configurati quando viene eseguito il provisioning della tua istanza. Se devi modificare questi indirizzi, crea un ticket di supporto.
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} Gli indirizzi e-mail del mittente sono configurati quando viene eseguito il provisioning della tua istanza. Se devi modificare questi indirizzi, crea un ticket di supporto.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -343,6 +343,4 @@ I dati di esempio Luma includono un blocco _Contact Us Info_ che può essere per
 >
 >A partire dalla versione 2.4.0, il modulo di contatto non può più richiamare all’interno di un blocco CMS o di una pagina CMS. Tutte le personalizzazioni del modulo del contatto devono essere eseguite utilizzando modelli XML layout o modelli di tema personalizzati.
 
-Per impostazione predefinita, gli acquirenti accedono al modulo del contatto utilizzando il _collegamento di contatto_ nel piè di pagina delle pagine della vetrina. Per ulteriori informazioni sulla personalizzazione della pagina dei contatti, consultare la [Guida per gli sviluppatori di FrontEnd][theme-guide].
-
-[theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/
+Per impostazione predefinita, gli acquirenti accedono al modulo del contatto utilizzando il _collegamento di contatto_ nel piè di pagina delle pagine della vetrina. Per ulteriori informazioni sulla personalizzazione della pagina dei contatti, consultare la [Guida per gli sviluppatori di FrontEnd](https://developer.adobe.com/commerce/frontend-core/guide/themes/).

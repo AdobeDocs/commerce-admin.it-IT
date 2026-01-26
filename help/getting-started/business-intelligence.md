@@ -3,8 +3,8 @@ title: '[!DNL Commerce Intelligence] strumenti'
 description: Scopri come i commercianti di Adobe Commerce e Magento Open Source possono utilizzare gli strumenti di Commerce Intelligence per ottenere l’insight utilizzato per prendere decisioni aziendali valide.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -17,13 +17,13 @@ Utilizza gli strumenti di Commerce Intelligence per ottenere l’insight utilizz
 
 ## Account [!DNL Commerce Intelligence]
 
-Quando attivi un account [!DNL Commerce Intelligence] tramite Adobe, puoi accedere a cinque dashboard con circa 70 rapporti. Questi rapporti sono progettati per fornire approfondimenti sui tuoi dati e rispondere a domande come &quot;Come stanno crescendo i miei ordini mese su mese?&quot;, &quot;Chi sono i miei clienti più fedeli?&quot; e &quot;La mia strategia coupon funziona?&quot; Per informazioni dettagliate su questo set di strumenti, consulta la [Guida utente di Commerce Intelligence][1].
+Quando attivi un account [!DNL Commerce Intelligence] tramite Adobe, puoi accedere a cinque dashboard con circa 70 rapporti. Questi rapporti sono progettati per fornire approfondimenti sui tuoi dati e rispondere a domande come &quot;Come stanno crescendo i miei ordini mese su mese?&quot;, &quot;Chi sono i miei clienti più fedeli?&quot; e &quot;La mia strategia coupon funziona?&quot; Per informazioni dettagliate su questo set di strumenti, consulta la [Guida utente di Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
 
 ## [!DNL Advanced Reporting]
 
 [!DNL Advanced Reporting] è incluso in Adobe Commerce e Magento Open Source. Questa funzione consente di accedere a una suite di rapporti dinamici basati sui dati di prodotti, ordini e clienti, con una dashboard personalizzata personalizzata in base alle esigenze aziendali. Mentre [!DNL Advanced Reporting] utilizza [!DNL Commerce Intelligence] per l&#39;analisi, non è necessario disporre di un account Commerce Intelligence per utilizzare [!DNL Advanced Reporting].
 
-Per informazioni tecniche, vedere l&#39;argomento [[!DNL Advanced Reporting]][2]{:target="_blank"} nella documentazione per gli sviluppatori.
+Per informazioni tecniche, vedere l&#39;argomento [[!DNL Advanced Reporting]](https://developer.adobe.com/commerce/php/development/advanced-reporting/){:target="_blank"} nella documentazione per gli sviluppatori.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Per informazioni tecniche, vedere l&#39;argomento [[!DNL Advanced Reporting]][2]
 
 * Nella configurazione [!DNL Commerce] per gli URL dell&#39;archivio, **[!UICONTROL Use Secure URLs on Storefront]** e **[!UICONTROL Use Secure URLs in Admin]** devono essere impostati su `Yes`.
 
-* [[!DNL Commerce] crontab][3] è stato creato e i processi cron sono in esecuzione sul server installato.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) è stato creato e i processi cron sono in esecuzione sul server installato.
 
 >[!NOTE]
 >
@@ -176,8 +176,3 @@ Se la didascalia di `Data last updated...` mostra la data di ieri e non quella d
 | [!UICONTROL Best Selling Products by Revenue] | Elenca i prodotti più venduti e i ricavi generati dalla vendita del prodotto tramite la visualizzazione punto vendita durante il periodo di tempo definito. |
 
 {style="table-layout:auto"}
-
-
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=it
-[2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it

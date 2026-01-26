@@ -3,7 +3,7 @@ title: Elementi - Pulsanti
 description: Scopri il tipo di contenuto Pulsanti, utilizzato per aggiungere un singolo pulsante o un set di pulsanti nella fase  [!DNL Page Builder] .
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Quando si utilizza il tipo di contenuto Pulsanti, è possibile aggiungere e modi
 
      ![Scegliere la pagina CMS per il collegamento del pulsante](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. Completa le [impostazioni avanzate][advanced-settings] in base alle esigenze.
+1. Completa le [impostazioni avanzate](#change-advanced-settings) in base alle esigenze.
 
 1. Al termine, fare clic su **[!UICONTROL Save]** nell&#39;angolo superiore destro per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
@@ -135,7 +135,7 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
    ![Impostazioni pulsante Contattaci](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Completa le [impostazioni avanzate][advanced-settings] in base alle esigenze.
+1. Completa le [impostazioni avanzate](#change-advanced-settings) in base alle esigenze.
 
 1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
@@ -161,13 +161,13 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
    ![Casella degli strumenti contenitore pulsanti](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. In _[!UICONTROL Appearance]_&#x200B;scegliere **[!UICONTROL Stacked]**.
+1. In _[!UICONTROL Appearance]_scegliere **[!UICONTROL Stacked]**.
 
 1. Imposta **[!UICONTROL All Buttons are same size]** su `Yes`.
 
    ![Pulsanti in pila della stessa dimensione](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. Aggiornare le impostazioni rimanenti in base alle esigenze, utilizzando le descrizioni di [Modificare le impostazioni per un contenitore di pulsanti][button-container].
+1. Aggiornare le impostazioni rimanenti in base alle esigenze, utilizzando le descrizioni di [Modificare le impostazioni per un contenitore di pulsanti](#change-settings-for-a-button-container).
 
 1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
@@ -214,7 +214,7 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
      {style="table-layout:auto"}
 
-1. Completa le [impostazioni avanzate][advanced-settings] in base alle esigenze.
+1. Completa le [impostazioni avanzate](#change-advanced-settings) in base alle esigenze.
 
 1. Per salvare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder], fare clic su **[!UICONTROL Save]** nell&#39;angolo superiore destro.
 
@@ -237,13 +237,13 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
      Se è impostato su `Yes`, tutti i pulsanti del contenitore hanno dimensioni coerenti, in base alla lunghezza del testo del pulsante più lungo.
 
-1. Completa le [Impostazioni avanzate][advanced-settings] in base alle esigenze.
+1. Completa le [Impostazioni avanzate](#change-advanced-settings) in base alle esigenze.
 
 1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
 ## Modificare le impostazioni avanzate
 
-È possibile modificare le impostazioni di _[!UICONTROL Advanced]_&#x200B;per i singoli pulsanti e per il contenitore di pulsanti.
+È possibile modificare le impostazioni di _[!UICONTROL Advanced]_per i singoli pulsanti e per il contenitore di pulsanti.
 
 1. Per controllare il posizionamento all&#39;interno del contenitore padre, scegliere **[!UICONTROL Alignment]**:
 
@@ -298,7 +298,5 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
    {style="table-layout:auto"}
 
-[advanced-settings]: #change-advanced-settings
-[button-container]: #change-settings-for-a-button-container
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

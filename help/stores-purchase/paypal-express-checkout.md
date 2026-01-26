@@ -3,10 +3,10 @@ title: Pagamento PayPal Express
 description: Scopri come impostare PayPal Express Checkout come soluzione di pagamento online sul tuo store.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3111'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ I clienti con i conti PayPal correnti possono effettuare un acquisto in un unico
 
 ## Requisiti
 
-- Commerciante: [Conto PayPal aziendale][1]
-- Cliente: [Conto PayPal personale][2]
+- Commerciante: [Conto PayPal aziendale](https://www.paypal.com/webapps/mpp/how-to-sell-online)
+- Cliente: [Conto PayPal personale](https://www.paypal.com/webapps/mpp/buying-online)
 
 ## Flusso di lavoro di pagamento rapido
 
@@ -48,11 +48,11 @@ A differenza di altri metodi di pagamento, PayPal Express Checkout consente al c
 
 ## Check-out nel contesto
 
-Il _Checkout nel contesto_ di PayPal rende più facile che mai pagare online. I clienti non perdono mai di vista il tuo negozio durante questo check-out semplificato di uno o due clic senza soluzione di continuità. Il check-out nel contesto funziona ugualmente bene su Mac e PC e offre un&#39;esperienza coerente su computer desktop, tablet e dispositivi mobili. Per ulteriori informazioni, consulta [Estrazione nel contesto in Estrazione rapida][5].
+Il _Checkout nel contesto_ di PayPal rende più facile che mai pagare online. I clienti non perdono mai di vista il tuo negozio durante questo check-out semplificato di uno o due clic senza soluzione di continuità. Il check-out nel contesto funziona ugualmente bene su Mac e PC e offre un&#39;esperienza coerente su computer desktop, tablet e dispositivi mobili. Per ulteriori informazioni, consulta [Estrazione nel contesto in Estrazione rapida](https://www.paypal.com/rs/webapps/mpp/express-checkout).
 
 ![Demo di checkout contestuale di PayPal](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
 
-[_Demo di checkout contestuale di PayPal_][6]
+[_Prova di pagamento contestuale_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout)
 
 Quando configuri l&#39;archivio per [!DNL PayPal Express Checkout], puoi abilitare questa opzione.
 
@@ -60,7 +60,7 @@ Quando configuri l&#39;archivio per [!DNL PayPal Express Checkout], puoi abilita
 
 Prima di configurare PayPal Express Checkout nell&#39;amministratore di Commerce, devi configurare il tuo account esercente sul sito Web PayPal.
 
-1. Accedi al tuo conto PayPal Advanced all&#39;indirizzo [manager.paypal.com][3].
+1. Accedi al tuo conto PayPal Advanced all&#39;indirizzo [manager.paypal.com](https://manager.paypal.com/).
 
 1. Vai a **[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up]** e apporta le seguenti impostazioni:
 
@@ -72,7 +72,7 @@ Prima di configurare PayPal Express Checkout nell&#39;amministratore di Commerce
 
 1. Configura un altro utente (consigliato da PayPal):
 
-   - Vai a [manager.paypal.com][3] e accedi al tuo account.
+   - Vai a [manager.paypal.com](https://manager.paypal.com/) e accedi al tuo account.
 
    - Per impostare un altro utente, seguire le istruzioni.
 
@@ -94,13 +94,13 @@ Puoi avere due soluzioni PayPal attive contemporaneamente: PayPal Express Checko
 
 1. Se nell&#39;installazione sono presenti più siti Web, store o visualizzazioni, impostare **[!UICONTROL Store View]** sulla visualizzazione dello store in cui si desidera applicare questa configurazione.
 
-1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**&#x200B;in cui si trova la tua azienda.
+1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**in cui si trova la tua azienda.
 
    Questa impostazione determina la selezione delle soluzioni PayPal visualizzate nella configurazione.
 
    ![Paese esercente](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL Recommended Solutions]_, fare clic su **[!UICONTROL Configure]**&#x200B;per **[!UICONTROL PayPal Express Checkout]**.
+1. In _[!UICONTROL Recommended Solutions]_, fare clic su **[!UICONTROL Configure]**per **[!UICONTROL PayPal Express Checkout]**.
 
    ![Configura pagamento PayPal Express](./assets/paypal-express-checkout.png){width="600"}
 
@@ -112,7 +112,7 @@ Puoi avere due soluzioni PayPal attive contemporaneamente: PayPal Express Checko
 
 1. Connetti il tuo account per test o produzione:
 
-   - Per verificare la modalità di sviluppo, fai clic su **[!UICONTROL Sandbox Credentials]** e immetti le tue credenziali per la sandbox [PayPal][7].
+   - Per verificare la modalità di sviluppo, fai clic su **[!UICONTROL Sandbox Credentials]** e immetti le tue credenziali per la sandbox [PayPal](https://developer.paypal.com/docs/api-basics/sandbox/).
    - Per la modalità di produzione, fare clic su **[!UICONTROL Connect with PayPal]** e immettere le credenziali dell&#39;account di produzione.
 
    Una volta convalidata la connessione, puoi procedere.
@@ -158,7 +158,7 @@ Puoi avere due soluzioni PayPal attive contemporaneamente: PayPal Express Checko
 
 1. Se utilizzi le credenziali dell&#39;account sandbox, imposta **[!UICONTROL Sandbox Mode]** su `Yes`.
 
-   Durante il test della configurazione in una sandbox, utilizza solo [numeri di carta di credito][4] consigliati da PayPal. Quando sei pronto per passare alla produzione, torna alla configurazione e imposta la modalità sandbox su `No` e collegati al tuo account PayPal di produzione.
+   Durante il test della configurazione in una sandbox, utilizza solo [numeri di carta di credito](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) consigliati da PayPal. Quando sei pronto per passare alla produzione, torna alla configurazione e imposta la modalità sandbox su `No` e collegati al tuo account PayPal di produzione.
 
 1. Se il sistema utilizza un server proxy per stabilire la connessione tra Commerce e il sistema di pagamento PayPal, impostare **[!UICONTROL API Uses Proxy]** su `Yes` e completare le operazioni seguenti:
 
@@ -312,11 +312,11 @@ Imposta **[!UICONTROL Enable PayPal PayLater Experience]** su uno dei seguenti:
    - `Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente.
    - `Order` - L&#39;importo dell&#39;ordine non viene acquisito o autorizzato nel saldo cliente, nel conto bancario o nella carta di credito di PayPal. L&#39;azione di pagamento dell&#39;ordine rappresenta un accordo tra il sistema di pagamento PayPal e l&#39;esercente. Consente al commerciante di acquisire uno o più importi fino al totale ordinato dal conto dell’acquirente del cliente, in un periodo massimo di 29 giorni. Una volta ordinati i fondi, il commerciante può catturarli in qualsiasi momento durante il successivo periodo di 29 giorni. L&#39;acquisizione dell&#39;importo dell&#39;ordine può essere eseguita solo dall&#39;amministratore di Commerce creando una o più fatture.
 
-1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_&#x200B;nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**&#x200B;su `Yes`.
+1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**su `Yes`.
 
 1. Se l&#39;azione di pagamento è impostata su `Order`, completare le operazioni seguenti
 
-   - **[!UICONTROL Authorization Honor Period (days)]** - Determina per quanto tempo l&#39;autorizzazione primaria rimane valida. Il valore deve essere uguale al valore corrispondente nel tuo conto PayPal dell&#39;esercente. Il valore predefinito nel tuo conto PayPal è `3`. Per aumentare questo numero, devi contattare PayPal. L&#39;autorizzazione non è più valida alle 23:49, ora del Pacifico USA, dell&#39;ultimo giorno.
+   - **[!UICONTROL Authorization Honor Period (days)]** - Determina per quanto tempo l&#39;autorizzazione primaria rimane valida. Il valore deve essere uguale al valore corrispondente nel tuo conto PayPal dell&#39;esercente. Il valore predefinito nel tuo conto PayPal è `3`. Per aumentare questo numero, devi contattare PayPal. L&#39;autorizzazione non è più valida alle 23:00 (ora del Pacifico) dell&#39;ultimo giorno.:49
 
    - **[!UICONTROL Order Valid Period (days)]** - Determina per quanto tempo l&#39;ordine rimane valido. Quando l&#39;ordine non è più valido, non è più possibile creare le relative fatture. Specifica il valore uguale al valore del periodo valido per l&#39;ordine nel tuo conto PayPal per esercenti. Il valore predefinito nel tuo conto PayPal è `29`. Per cambiare questo numero, devi contattare PayPal.
 
@@ -574,11 +574,3 @@ Le impostazioni delle funzionalità consentono di disabilitare alcune funzionali
    - Venmo
    - PayPal Guest Checkout Icone della carta di credito
    - Elektronisches Lastschriftverfahren — ELV tedesco
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypal.com/webapps/mpp/buying-online
-[3]: https://manager.paypal.com/
-[4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout
-[7]: https://developer.paypal.com/docs/api-basics/sandbox/

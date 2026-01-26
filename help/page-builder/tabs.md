@@ -3,7 +3,7 @@ title: Layout - Schede
 description: Scopri il tipo di contenuto Schede, utilizzato per aggiungere un set di schede nella fase  [!DNL Page Builder] .
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Quando si utilizza il tipo di contenuto _Schede_, è possibile aggiungere e modi
 
 ## Aggiungi una singola scheda
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina il segnaposto **[!UICONTROL Tabs]**&#x200B;direttamente nell&#39;area di visualizzazione oppure in una riga o colonna nell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina il segnaposto **[!UICONTROL Tabs]**direttamente nell&#39;area di visualizzazione oppure in una riga o colonna nell&#39;area di visualizzazione.
 
    ![Trascinamento delle schede in una riga](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -74,8 +74,8 @@ Quando si utilizza il tipo di contenuto _Schede_, è possibile aggiungere e modi
 
 1. Se necessario, impostate le altre opzioni utilizzando come guida le sezioni seguenti:
 
-   - [[!UICONTROL Background]][background]
-   - [[!UICONTROL Advanced]][advanced]
+   - [[!UICONTROL Background]](#background)
+   - [[!UICONTROL Advanced]](#advanced)
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
@@ -324,7 +324,5 @@ Puoi inserire qualsiasi tipo di contenuto in una scheda, esattamente come si fa 
 
 1. Al termine, fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
-[background]: #background
-[advanced]: #advanced
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

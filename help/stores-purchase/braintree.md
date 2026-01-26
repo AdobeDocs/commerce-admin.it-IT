@@ -3,8 +3,8 @@ title: Braintree
 description: Scopri come impostare Braintree come soluzione di pagamento online nel tuo negozio.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2890'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Se hai bisogno di assistenza per le spese impreviste sulla tua carta, visita la pagina [annulla abbonamento](https://helpx.adobe.com/it/manage-account/using/cancel-subscription.html) per assistenza.
+>Se hai bisogno di assistenza per le spese impreviste sulla tua carta, visita la pagina [annulla abbonamento](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) per assistenza.
 
 Braintree offre un’esperienza di pagamento completamente personalizzabile con rilevamento delle frodi e integrazione PayPal. Supporta [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo e metodi di pagamento locali. Braintree riduce il carico di conformità PCI per gli esercenti perché la transazione avviene sul sistema Braintree. L&#39;integrazione di Braintree Payments è stata sviluppata da [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 
@@ -26,7 +26,7 @@ Braintree offre un’esperienza di pagamento completamente personalizzabile con 
 
 ## Passaggio 1: ottieni le credenziali Braintree
 
-Vai a [Pagamenti Braintree][1] e registrati per un account.
+Vai a [Pagamenti Braintree](https://www.braintreepayments.com/) e registrati per un account.
 
 ## Passaggio 2: completare le impostazioni di base
 
@@ -36,7 +36,7 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
    - Se nell&#39;installazione di Commerce sono presenti più siti Web, store o visualizzazioni, nell&#39;angolo superiore sinistro scegliere **[!UICONTROL Store View]** in cui applicare la configurazione.
 
-   - Nella sezione _[!UICONTROL Merchant Location]_&#x200B;verificare che **[!UICONTROL Merchant Country]**&#x200B;sia impostato sul percorso dell&#39;azienda.
+   - Nella sezione _[!UICONTROL Merchant Location]_verificare che **[!UICONTROL Merchant Country]**sia impostato sul percorso dell&#39;azienda.
 
 1. In _[!UICONTROL Recommended Solutions]_, nella sezione_[!UICONTROL Braintree Payments] (di [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Note sulla versione](https://support.gene.co.uk/support/solutions/articles/35000278668)_, fare clic su **[!UICONTROL Configure]**.
 
@@ -46,14 +46,14 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
 1. Imposta **[!UICONTROL Environment]** operativo corrente per le transazioni Braintree su `Sandbox` o `Production`
 
-   Durante il test della configurazione in una sandbox, utilizza solo [numeri di carta di credito][2] consigliati da Braintree. Quando si è pronti per passare alla produzione con Braintree, impostare **[!UICONTROL Environment]** su `Production`.
+   Durante il test della configurazione in una sandbox, utilizza solo [numeri di carta di credito](https://developers.braintreepayments.com/reference/general/testing/php) consigliati da Braintree. Quando si è pronti per passare alla produzione con Braintree, impostare **[!UICONTROL Environment]** su `Production`.
 
    ![Impostazioni credenziali di base](../configuration-reference/sales/assets/payment-methods-braintree-basic-config.png){width="600" zoomable="yes"}
 
 1. Imposta **[!UICONTROL Payment Action]** su uno dei seguenti:
 
    - `Authorize Only` - Approva l&#39;acquisto e blocca i fondi. L&#39;importo non viene prelevato dal conto bancario del cliente fino a quando la vendita non viene _acquisita_ dall&#39;esercente.|
-   - `Intent Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente. **_Nota:_** questo valore era _Autorizza e acquisisci_ nelle versioni 2.3.x e precedenti.|
+   - `Intent Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente. **_Nota:_** Questo valore era _Autorizza e acquisisci_ nelle versioni 2.3.x e precedenti.|
 
 1. Immetti **[!UICONTROL Sandbox Merchant ID / Merchant ID]** dal tuo account Braintree.
 
@@ -151,7 +151,7 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
 1. Per includere ACH come opzione di pagamento con Braintree, impostare **[!UICONTROL Enable ACH Direct Debit]** su `Yes`.
 
-1. I clienti possono archiviare il metodo di pagamento con Addebito automatico sul conto bancario (ACH Direct Debit) monouso e memorizzarlo per utilizzarlo in futuro. Una volta eseguito il vaulting, i clienti possono riutilizzare l&#39;Addebito automatico sul conto bancario senza dover reimmettere o autenticare le informazioni di pagamento se impostato su `Yes`.**[!UICONTROL Enable Vault for ACH Direct Debit]**
+1. I clienti possono archiviare il metodo di pagamento con Addebito automatico sul conto bancario (ACH Direct Debit) monouso e memorizzarlo per utilizzarlo in futuro. Una volta eseguito il vaulting, i clienti possono riutilizzare l&#39;Addebito automatico sul conto bancario senza dover reimmettere o autenticare le informazioni di pagamento se impostato su **[!UICONTROL Enable Vault for ACH Direct Debit]**.`Yes`
 
 1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui verrà visualizzata l&#39;opzione di pagamento Braintree ACH elencata con altre opzioni di pagamento durante l&#39;estrazione.
 
@@ -252,7 +252,7 @@ Vai a [Pagamenti Braintree][1] e registrati per un account.
 
      >[!NOTE]
      >
-     >PayPal Credit è disponibile solo negli Stati Uniti e nel Regno Unito. Il credito PayPal è disabilitato se il valore selezionato per il campo _[!UICONTROL Merchant Country]_&#x200B;non è `US` o `UK`.
+     >PayPal Credit è disponibile solo negli Stati Uniti e nel Regno Unito. Il credito PayPal è disabilitato se il valore selezionato per il campo _[!UICONTROL Merchant Country]_non è `US` o `UK`.
 
    - Per includere [!DNL PayPal PayLater] come opzione di pagamento con Braintree, impostare **[!UICONTROL Enable PayPal PayLater through Braintree]** su `Yes`.
 
@@ -419,9 +419,9 @@ I seguenti descrittori vengono utilizzati per identificare gli acquisti sugli es
 
      **_Caratteri nel descrittore del nome_**
 
-     _Opzione 1:_ `Company` deve essere di tre caratteri, `Product` può contenere fino a 18 caratteri
+     _L&#39;opzione 1 :_`Company` deve essere di tre caratteri, `Product` può contenere fino a 18 caratteri
 
-     _Opzione 2:_ `Company` deve essere composto da sette caratteri, `Product` da un massimo di 14 caratteri
+     _Opzione 2 :_`Company` deve essere composto da sette caratteri, `Product` da un massimo di 14 caratteri
 
      _Opzione 3_: `Company` deve essere di 12 caratteri, `Product` può contenere fino a nove caratteri
 
@@ -442,6 +442,3 @@ I seguenti descrittori vengono utilizzati per identificare gli acquisti sugli es
 ## Note sull’aggiornamento 2.4
 
 A partire da Adobe Commerce e Magento Open Source 2.4.0, l’estensione Braintree è inclusa nella versione. Se si esegue la migrazione a Commerce 2.4.x da una versione precedente alla 2.4.0 in cui è installata l&#39;estensione Marketplace Braintree, è necessario disinstallare tale estensione (`paypal/module-braintree` o `gene/module-braintree`) e aggiornare le personalizzazioni del codice per utilizzare lo spazio dei nomi `PayPal_Braintree` anziché `Magento_Braintree`. Le impostazioni di configurazione dell’estensione bundled Commerce Braintree Payments di base e dell’estensione distribuita su Commerce Marketplace persistono e i pagamenti effettuati con le versioni precedenti possono ancora essere acquisiti, annullati o rimborsati come di consueto.
-
-[1]: https://www.braintreepayments.com/
-[2]: https://developers.braintreepayments.com/reference/general/testing/php

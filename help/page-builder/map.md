@@ -3,18 +3,18 @@ title: Media - Mappa
 description: Scopri il tipo di contenuto Mappa, utilizzato per aggiungere una mappa da  [!DNL Google Maps] Platform alla fase  [!DNL Page Builder] .
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
 
 # Media - Mappa
 
-Utilizza il tipo di contenuto _Map_ per aggiungere una mappa da [[!DNL Google Maps] Platform][1] a [[!DNL Page Builder] stage](workspace.md#stage). Ad esempio, puoi aggiungere una mappa a un blocco, quindi aggiungerlo alle pagine [Informazioni su di noi](../content-design/pages.md#about-us) e [Contattaci](../getting-started/store-details.md#contact-us-form).
+Utilizza il tipo di contenuto _Map_ per aggiungere una mappa da [[!DNL Google Maps] Platform](https://cloud.google.com/maps-platform/) a [[!DNL Page Builder] stage](workspace.md#stage). Ad esempio, puoi aggiungere una mappa a un blocco, quindi aggiungerlo alle pagine [Informazioni su di noi](../content-design/pages.md#about-us) e [Contattaci](../getting-started/store-details.md#contact-us-form).
 
-Per ottenere il massimo da [!DNL Google Maps] Platform, puoi personalizzare la mappa, evidenziare i tuoi luoghi di archiviazione e utilizzare Google [Places][2] per aggiungere informazioni dettagliate sul tuo archivio a tutti [!DNL Google Maps].
+Per ottenere il massimo da [!DNL Google Maps] Platform, puoi personalizzare la mappa, evidenziare i tuoi luoghi di archiviazione e utilizzare Google [Places](https://cloud.google.com/maps-platform/places/) per aggiungere informazioni dettagliate sul tuo archivio a tutti [!DNL Google Maps].
 
 ## Vantaggi dell’incorporamento di una mappa Google
 
@@ -50,7 +50,7 @@ La casella degli strumenti mappa viene visualizzata quando passi il cursore sul 
 
 ## Configura [!DNL Google Maps] per l&#39;amministratore
 
-Prima di aggiungere una mappa, è necessario aprire un account [account][3] per una versione di prova gratuita di [!DNL Google Maps] Platform. La versione di prova gratuita dura 12 mesi e include un credito di 300 dollari. Se utilizzi il tuo credito, Google non fatturerà il tuo account senza la tua autorizzazione.
+Prima di aggiungere una mappa, è necessario aprire un account [account](https://cloud.google.com/maps-platform/user-guide/) per una versione di prova gratuita di [!DNL Google Maps] Platform. La versione di prova gratuita dura 12 mesi e include un credito di 300 dollari. Se utilizzi il tuo credito, Google non fatturerà il tuo account senza la tua autorizzazione.
 
 ### Passaggio 1: ottieni la chiave API [!DNL Google Maps]
 
@@ -60,7 +60,7 @@ A seconda che si disponga o meno di una chiave [!DNL Google Maps], utilizzare un
 
 1. Fai clic sull’elenco a discesa del progetto e seleziona o crea il progetto per il quale desideri aggiungere una chiave API.
 
-1. Per configurare le credenziali API, segui le [istruzioni][4] nella documentazione di [!DNL Google Maps].
+1. Per configurare le credenziali API, segui le [istruzioni](https://developers.google.com/maps/documentation/javascript/get-api-key) nella documentazione di [!DNL Google Maps].
 
 1. Copia la chiave API negli Appunti.
 
@@ -104,7 +104,7 @@ A seconda che si disponga o meno di una chiave [!DNL Google Maps], utilizzare un
 
 1. Passa il puntatore del mouse sul contenitore della mappa per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Nell&#39;angolo superiore destro della pagina _[!UICONTROL Edit Map]_&#x200B;fare clic su **[!UICONTROL Add Location]**.
+1. Nell&#39;angolo superiore destro della pagina _[!UICONTROL Edit Map]_fare clic su **[!UICONTROL Add Location]**.
 
 1. Immettere **[!UICONTROL Location Name]** che si desidera associare al pin sulla mappa.
 
@@ -112,7 +112,7 @@ A seconda che si disponga o meno di una chiave [!DNL Google Maps], utilizzare un
 
    In alternativa, nella casella **[!UICONTROL Position]** è possibile trascinare il pin nella mappa visualizzata.
 
-   Se necessario, passare a [[!DNL Google Maps]][5] in una nuova finestra del browser e utilizzare uno dei metodi seguenti per ottenere le coordinate:
+   Se necessario, passare a [[!DNL Google Maps]](https://www.google.com/maps) in una nuova finestra del browser e utilizzare uno dei metodi seguenti per ottenere le coordinate:
 
    ![Coordinate mappa](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
@@ -164,9 +164,9 @@ Utilizzare la [!DNL Google Maps] Platform Styling Wizard per applicare uno dei s
 
 1. Espandere ![Selettore di espansione](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-1. Nella casella di testo **[!UICONTROL Google Maps Style]** fare clic su [Crea stile mappa][6].
+1. Nella casella di testo **[!UICONTROL Google Maps Style]** fare clic su [Crea stile mappa](https://mapstyle.withgoogle.com/).
 
-   Questa azione apre la [[!DNL Google Maps] Creazione guidata Stile piattaforma][6] in una scheda separata, in cui è possibile definire uno stile per il progetto [!DNL Google Maps] Platform.
+   Questa azione apre la [[!DNL Google Maps] Creazione guidata Stile piattaforma](https://mapstyle.withgoogle.com/) in una scheda separata, in cui è possibile definire uno stile per il progetto [!DNL Google Maps] Platform.
 
 1. Fare clic su **[!UICONTROL Create a Style]** e seguire le istruzioni fornite.
 
@@ -197,7 +197,7 @@ Utilizzare la [!DNL Google Maps] Platform Styling Wizard per applicare uno dei s
 
    {style="table-layout:auto"}
 
-1. Modificare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze:
+1. Modificare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze:
 
    - Per controllare il posizionamento orizzontale del contenuto della mappa aggiunto al contenitore, scegliere un **[!UICONTROL Alignment]**:
 
@@ -284,11 +284,5 @@ La dimensione della griglia determina la dimensione della mappa correlata a una 
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://cloud.google.com/maps-platform/places/
-[3]: https://cloud.google.com/maps-platform/user-guide/
-[4]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[5]: https://www.google.com/maps
-[6]: https://mapstyle.withgoogle.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

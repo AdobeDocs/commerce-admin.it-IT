@@ -3,8 +3,8 @@ title: Collegamento flusso di pagamento PayPal
 description: Scopri come impostare PayPal Payflow Link come soluzione di pagamento online sul tuo store.
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Le note di credito sono supportate per i rimborsi online e offline. Tuttavia, no
 
 ## Requisiti
 
-- [Account commerciale PayPal][1] Il gateway PayPal Payflow Pro collega il conto commerciale di PayPal al sito Web del commerciante, fungendo sia da gateway che da conto commerciale.
+- [Account commerciale PayPal](https://www.paypal.com/webapps/mpp/how-to-sell-online) Il gateway PayPal Payflow Pro collega il conto commerciale di PayPal al sito Web del commerciante, fungendo sia da gateway che da conto commerciale.
 
 - Se gestisci più siti Web Commerce, devi disporre di un conto PayPal separato per ciascun sito Web.
 
@@ -50,9 +50,9 @@ Le note di credito sono supportate per i rimborsi online e offline. Tuttavia, no
 
 ## Configura il tuo conto PayPal
 
-1. Accedi al tuo account aziendale [PayPal][2].
+1. Accedi al tuo account aziendale [PayPal](https://manager.paypal.com/).
 
-1. Configura le [Pagine di pagamento in hosting][4] utilizzando PayPal Manager con le impostazioni seguenti:
+1. Configura le [Pagine di pagamento in hosting](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager) utilizzando PayPal Manager con le impostazioni seguenti:
 
    - In **[!UICONTROL Security Options]**, completare le impostazioni seguenti:
 
@@ -99,7 +99,7 @@ Questo metodo di impostazione presuppone che sia presente un conto PayPal.
 
 1. Se nell&#39;installazione di Commerce sono presenti più siti Web, store o visualizzazioni, impostare **[!UICONTROL Store View]** sulla visualizzazione dello store in cui si desidera applicare questa configurazione.
 
-1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**&#x200B;in cui si trova la tua azienda.
+1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**in cui si trova la tua azienda.
 
    Questa impostazione determina la selezione delle soluzioni PayPal visualizzate nella configurazione.
 
@@ -129,7 +129,7 @@ Questo metodo di impostazione presuppone che sia presente un conto PayPal.
 
 1. Per eseguire le transazioni di test, impostare **[!UICONTROL Test Mode]** su `Yes`.
 
-   Durante il test della configurazione in una sandbox, utilizza solo [numeri di carta di credito][3] consigliati da PayPal. Quando si è pronti per passare alla produzione, tornare alla configurazione e impostare la modalità di test su `No`.
+   Durante il test della configurazione in una sandbox, utilizza solo [numeri di carta di credito](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) consigliati da PayPal. Quando si è pronti per passare alla produzione, tornare alla configurazione e impostare la modalità di test su `No`.
 
 1. Se il sistema utilizza un server proxy per stabilire la connessione al sistema PayPal, impostare **[!UICONTROL Test Mode]** su `Yes` e procedere come segue:
 
@@ -365,7 +365,7 @@ Imposta **[!UICONTROL Enable PayPal PayLater Experience]** su uno dei seguenti:
 
 #### Impostazioni esperienza front-end
 
-Utilizza _[!UICONTROL Frontend Experience Settings]_&#x200B;per scegliere quali logo PayPal visualizzare sul tuo sito e per personalizzare l&#39;aspetto delle tue pagine di esercenti PayPal.
+Utilizza _[!UICONTROL Frontend Experience Settings]_per scegliere quali logo PayPal visualizzare sul tuo sito e per personalizzare l&#39;aspetto delle tue pagine di esercenti PayPal.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Frontend Experience Settings]**.
 
@@ -420,7 +420,7 @@ Utilizza _[!UICONTROL Frontend Experience Settings]_&#x200B;per scegliere quali 
    - `Authorization` - Approva l&#39;acquisto e blocca i fondi. L&#39;importo non viene prelevato finché non viene _acquisito_ dal commerciante.
    - `Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente.
 
-1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_&#x200B;nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**&#x200B;su `Yes`.
+1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**su `Yes`.
 
 ### Passo 7: Completare le impostazioni avanzate per PayPal Express Checkout
 
@@ -448,8 +448,3 @@ Utilizza _[!UICONTROL Frontend Experience Settings]_&#x200B;per scegliere quali 
 1. Per consentire al cliente di completare la transazione dal sito PayPal senza tornare allo store per la revisione dell&#39;ordine, impostare **[!UICONTROL Skip Order Review Step]** su `Yes`.
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager

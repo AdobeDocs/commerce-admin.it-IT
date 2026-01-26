@@ -3,10 +3,10 @@ title: Ottenere la licenza di un’immagine Adobe Stock
 description: Per assicurarti di avere accesso legale e per eliminare la filigrana di Adobe Stock, acquisisci licenza per le immagini Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 9d6dade372d4b931bec9aec9b9bfeedc3107ad1e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Il nuovo [[!DNL Media Gallery]](media-gallery.md) offre un&#39;integrazione dire
 
 **Prerequisiti**
 
-La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è installata e configurata l&#39;[integrazione Adobe Stock](./adobe-stock.md). Per concedere in licenza [immagini Adobe Stock][adobe-stock] è necessario un piano Adobe Stock a pagamento e un account [Adobe][adobe-signin].
+La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è installata e configurata l&#39;[integrazione Adobe Stock](./adobe-stock.md). Per concedere in licenza [immagini Adobe Stock](https://stock.adobe.com) è necessario un piano Adobe Stock a pagamento e un account [Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è in
 
    >[!NOTE]
    >
-   >Devi disporre di [crediti Adobe Stock][stock-credits] nel tuo account per concedere in licenza l&#39;immagine.
+   >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
 
 ## Ottenere la licenza di un&#39;immagine dal supporto di archiviazione standard
 
@@ -63,7 +63,7 @@ La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è in
 
      >[!NOTE]
      >
-     >Devi disporre di [crediti Adobe Stock][stock-credits] nel tuo account per concedere in licenza l&#39;immagine.
+     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
 
    Questa azione richiede di specificare un nome di file utilizzato per salvare l&#39;immagine nell&#39;[archivio multimediale](./media-storage.md). Viene fornito un nome di file predefinito, ma puoi personalizzarlo in base alle tue preferenze.
 
@@ -72,9 +72,3 @@ La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è in
 1. Fare clic su **[!UICONTROL Confirm]**.
 
    La pagina viene reindirizzata all&#39;archivio multimediale e viene visualizzata l&#39;anteprima salvata.
-
-[access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
-[view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/it/stock/help/credit-packs.html
-[adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html

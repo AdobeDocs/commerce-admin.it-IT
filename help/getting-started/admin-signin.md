@@ -3,7 +3,7 @@ title: Account utente amministratore
 description: Scopri il tuo account amministratore e come utilizzare l’autenticazione a due fattori per accedere all’amministratore.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Per ulteriore sicurezza, puoi determinare quali parti di _Admin_ ogni utente dis
 
 ### Passaggio 1: configurare l’autenticazione a due fattori
 
-Prima di poter accedere all&#39;_amministratore_ del tuo archivio, devi avere una soluzione di autenticazione a due fattori configurata e pronta per l&#39;uso. Per ulteriori informazioni sul processo di autenticazione utilizzato da ciascuna soluzione, vedere [Utilizzo dell&#39;autenticazione a due fattori](../systems/security-two-factor-authentication-use.md). Per impostazione predefinita, [!DNL Commerce] supporta [Google Authenticator][1].
+Prima di poter accedere all&#39;_amministratore_ del tuo archivio, devi avere una soluzione di autenticazione a due fattori configurata e pronta per l&#39;uso. Per ulteriori informazioni sul processo di autenticazione utilizzato da ciascuna soluzione, vedere [Utilizzo dell&#39;autenticazione a due fattori](../systems/security-two-factor-authentication-use.md). Per impostazione predefinita, [!DNL Commerce] supporta [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US).
 
 Chiedi all&#39;amministratore di sistema [!DNL Commerce] quali soluzioni 2FA sono supportate per lo store. Quindi, completare la configurazione della soluzione 2FA preferita seguendo le istruzioni del provider.
 
@@ -110,7 +110,7 @@ Non è consentito riutilizzare le ultime quattro password assegnate all’accoun
 
    ![Disconnetti](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-Nella pagina _[!UICONTROL Sign In]_&#x200B;viene visualizzato un messaggio di disconnessione. Esci da_ Amministratore _ogni volta che esci dal computer senza supervisione.
+Nella pagina _[!UICONTROL Sign In]_viene visualizzato un messaggio di disconnessione. Esci da_ Amministratore _ogni volta che esci dal computer senza supervisione.
 
 ## Modifica informazioni account
 
@@ -156,13 +156,12 @@ L’amministratore consente di gestire gli ordini, i clienti, i prodotti, le fun
 
 1. Fare clic su **[!UICONTROL Save Config]**.
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## Mantenere un accesso sicuro all’amministratore
 
 Per garantire la sicurezza dell’amministratore, esegui controlli regolari su utenti e ruoli con accesso come amministratore.
 
-Inoltre, è consigliabile [aggiornare la configurazione dell&#39;URL di base dell&#39;amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/config/advanced/admin#admin-base-url) per cambiare l&#39;endpoint predefinito `/admin` in un percorso personalizzato. La configurazione di un percorso personalizzato offre i seguenti vantaggi in termini di sicurezza:
+Inoltre, è consigliabile [aggiornare la configurazione dell&#39;URL di base dell&#39;amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) per cambiare l&#39;endpoint predefinito `/admin` in un percorso personalizzato. La configurazione di un percorso personalizzato offre i seguenti vantaggi in termini di sicurezza:
 
 **Sicurezza avanzata**: il percorso predefinito &quot;admin&quot; è ampiamente noto e spesso è indirizzato a utenti malintenzionati che tentano attacchi di forza bruta. Modificandolo in un valore univoco personalizzato, si riduce in modo significativo il rischio di tentativi di accesso non autorizzati.
 
@@ -174,4 +173,4 @@ Inoltre, è consigliabile [aggiornare la configurazione dell&#39;URL di base del
 
 >[!NOTE]
 >
->Se si sospetta una violazione, assicurarsi di rimuovere tutti gli utenti Admin sconosciuti e reimpostare tutte le password Admin e rivedere il [piano di azione per la sicurezza](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security) per ulteriori passaggi.
+>Se si sospetta una violazione, assicurarsi di rimuovere tutti gli utenti Admin sconosciuti e reimpostare tutte le password Admin e rivedere il [piano di azione per la sicurezza](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) per ulteriori passaggi.

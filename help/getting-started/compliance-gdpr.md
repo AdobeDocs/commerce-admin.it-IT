@@ -3,9 +3,9 @@ title: Conformità al RGPD
 description: Scopri il Regolamento generale sulla protezione dei dati (RGPD), una normativa che disciplina la protezione dei dati e la privacy di tutte le persone nell’Unione europea e nello Spazio economico europeo.
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Queste informazioni fanno parte di una serie di argomenti utili ad Adobe Commerce, ai commercianti e agli sviluppatori di Magenti Open Source per comprendere le implicazioni del Regolamento generale sulla protezione dei dati (RGPD). Le informazioni sono fornite unicamente a scopo informativo e non devono essere interpretate come consulenza legale. Per determinare se e come la tua azienda debba conformarsi ad obblighi di legge, consulta il tuo consulente legale.
+>Queste informazioni fanno parte di una serie di argomenti che consentono ai commercianti e agli sviluppatori di Adobe Commerce e Magento Open Source di comprendere le implicazioni del Regolamento generale sulla protezione dei dati (RGPD). Le informazioni sono fornite unicamente a scopo informativo e non devono essere interpretate come consulenza legale. Per determinare se e come la tua azienda debba conformarsi ad obblighi di legge, consulta il tuo consulente legale.
 
 Il Regolamento generale sulla protezione dei dati (RGPD) è una normativa che disciplina la protezione dei dati e la privacy di tutte le persone nell’Unione europea e nello Spazio economico europeo. La legislazione si applica anche all&#39;esportazione di dati personali al di fuori dell&#39;UE. Il RGPD è stato adottato nell&#39;aprile 2016 ed è diventato esecutivo il 25 maggio 2018. Le imprese che non hanno sede nell&#39;UE, ma che operano nel commercio mondiale, sono tenute a rispettare il regolamento. Il GDPA definisce **dati personali** come segue:
 
@@ -37,7 +37,7 @@ Se la tua azienda deve rispettare sia il RGPD che il [California Consumer Privac
 - Il CCPA prevede requisiti aggiuntivi per l&#39;inventario dei dati e la mappatura.
 - Le normative hanno requisiti diversi in materia di informativa sulla privacy.
 
-Le aziende che si conformano al RGPD potrebbero avere obblighi aggiuntivi ai sensi del CCPA. Per ulteriori informazioni, consulta la [Scheda informativa CCPA][3]{:target=&quot;_blank&quot;}.
+Le aziende che si conformano al RGPD potrebbero avere obblighi aggiuntivi ai sensi del CCPA. Per ulteriori informazioni, vedere la [Scheda informativa CCPA](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ## Best practice
 
@@ -47,10 +47,6 @@ Le aziende che si conformano al RGPD potrebbero avere obblighi aggiuntivi ai sen
 
 - Mantenere la trasparenza e conservare la documentazione completa.
 
-- Per scoprire come Adobe aiuta i commercianti a rispettare gli obblighi legali applicabili, visita il [sito Web][1]{:target=&quot;_blank&quot;}.
+- Per scoprire come Adobe aiuta i commercianti a rispettare gli obblighi legali applicabili, visita il [sito Web](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Per i diagrammi di flusso dei dati e il mapping delle entità del database, vedere [Riferimento informazioni personali][2]{: target=&quot;_blank&quot;}.
-
-[1]: https://business.adobe.com/it/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=it
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
+- Per i diagrammi di flusso dei dati e il mapping delle entità del database, vedere [Riferimento informazioni personali](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.

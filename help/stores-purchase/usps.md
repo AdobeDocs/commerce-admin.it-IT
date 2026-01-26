@@ -3,9 +3,9 @@ title: Servizio postale degli Stati Uniti (USPS)
 description: Scopri come impostare USPS come vettore di spedizione per il tuo negozio.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Lo United States Postal Service è il servizio postale indipendente del governo 
 
 ## Passaggio 1: aprire un account di spedizione USPS
 
-Apri un account [Strumenti Web USPS][1]. Dopo aver completato il processo di registrazione, riceverai il tuo ID utente e un URL al server di test USPS.
+Apri un account [Strumenti Web USPS](https://secure.shippingapis.com/registration/). Dopo aver completato il processo di registrazione, riceverai il tuo ID utente e un URL al server di test USPS.
 
-È inoltre possibile aprire un account [Strumenti Web USPS][1]. Dopo aver completato il processo di registrazione, riceverai il tuo ID utente e un URL al server di test USPS. Per ulteriori informazioni sugli strumenti Web USPS, vedere la relativa [documentazione tecnica][2].
+È inoltre possibile aprire un account [Strumenti Web USPS](https://secure.shippingapis.com/registration/). Dopo aver completato il processo di registrazione, riceverai il tuo ID utente e un URL al server di test USPS. Per ulteriori informazioni sugli strumenti Web USPS, vedere la relativa [documentazione tecnica](https://www.usps.com/business/web-tools-apis/welcome.htm).
 
 ## Passaggio 2: abilitare USPS per il tuo store
 
@@ -142,7 +142,5 @@ La tariffa di movimentazione è facoltativa e viene visualizzata come un supplem
 
 1. Fare clic su **[!UICONTROL Save Config]**.
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->

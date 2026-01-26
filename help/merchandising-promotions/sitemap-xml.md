@@ -3,8 +3,8 @@ title: Mappe del sito
 description: Scopri come configurare una mappa del sito per indicizzare tutte le pagine e le immagini dei siti Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Per Adobe Commerce as a Cloud Service, consulta le [linee guida SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=it) nella documentazione di Commerce Storefront
+>Per Adobe Commerce as a Cloud Service, consulta le [linee guida SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) nella documentazione di Commerce Storefront
 
 Una mappa del sito migliora il modo in cui il tuo archivio viene indicizzato dai motori di ricerca ed è progettata per trovare pagine che potrebbero essere ignorate dai crawler web. È possibile configurare una mappa del sito per indicizzare tutte le pagine e le immagini.
 
@@ -23,7 +23,7 @@ Quando è abilitato, Commerce crea un file denominato `sitemap.xml` che viene sa
 
 Mentre il sito è in fase di sviluppo, è possibile includere istruzioni nel file `robots.txt` per i crawler Web per evitare l&#39;indicizzazione del sito. Quindi, prima del lancio, puoi modificare le istruzioni per consentire l’indicizzazione del sito.
 
-Per informazioni tecniche, consulta [Aggiungere sitemap e robots.txt][1] nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+Per informazioni tecniche, consulta [Aggiungere sitemap e robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
 ![Griglia mappa del sito](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -67,8 +67,8 @@ Completa la configurazione di [robot per motori di ricerca](seo-overview.md#sear
 
 Per ulteriori informazioni, consulta le istruzioni per il motore di ricerca specifico. Di seguito sono riportati i collegamenti alle istruzioni per i due principali motori di ricerca:
 
-- [Google][2]
-- [Microsoft® Bing][3]
+- [Google](https://support.google.com/webmasters/answer/183669?hl=en)
+- [Microsoft® Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
 
 ## Passaggio 5: ripristinare le istruzioni robot precedenti (facoltativo)
 
@@ -102,7 +102,7 @@ Per creare sitemap per un&#39;istanza multistore, effettuare le seguenti operazi
    
 >[!NOTE]
 >
->Se il sito utilizza il motore del server Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=it), è necessario aggiornare il file [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) nella directory principale del sito Web per indirizzare eventuali altre richieste di sitemap nella posizione corretta.
+>Se il sito utilizza il motore del server Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), è necessario aggiornare il file [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) nella directory principale del sito Web per indirizzare eventuali altre richieste di sitemap nella posizione corretta.
 
 ## Descrizioni delle colonne
 
@@ -227,7 +227,3 @@ La mappa del sito deve essere aggiornata con la stessa frequenza con cui cambia 
 1. Se si utilizza un file `robots.txt` per fornire istruzioni ai motori di ricerca che eseguono la ricerca per indicizzazione del sito, impostare **[!UICONTROL Enable Submission to Robots.txt]** su `Yes`.
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
-
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=it
-[2]: https://support.google.com/webmasters/answer/183669?hl=en
-[3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

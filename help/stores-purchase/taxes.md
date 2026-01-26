@@ -3,7 +3,7 @@ title: Imposte
 description: Scopri come configurare il tuo negozio per calcolare le imposte in base ai requisiti della tua lingua.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Configura il tuo store per calcolare le tasse secondo i requisiti della tua ling
 
 >[!NOTE]
 >
->Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includevano l’estensione sviluppata dal fornitore Vertex utilizzata per l’integrazione con Vertex Cloud al fine di fornire gestione fiscale e pulizia degli indirizzi. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione di base e deve essere installata e aggiornata dalla versione di Commerce Marketplace o direttamente dal fornitore. [Contattare il vertice](https://marketplace.magento.com/partner/vertex_inc) per informazioni sull&#39;estensione e sulla documentazione.<br><br>
+>Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includevano l’estensione sviluppata dal fornitore Vertex utilizzata per l’integrazione con Vertex Cloud al fine di fornire gestione fiscale e pulizia degli indirizzi. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione di base e deve essere installata e aggiornata dal Commerce Marketplace o direttamente dal fornitore. [Contattare il vertice](https://marketplace.magento.com/partner/vertex_inc) per informazioni sull&#39;estensione e sulla documentazione.<br><br>
 >
->Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Consulta [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=it) nella _Guida all&#39;aggiornamento_.
+>Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Consulta [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) nella _Guida all&#39;aggiornamento_.
 
 ## Riferimento rapido
 
@@ -89,7 +89,7 @@ I commercianti sottoposti a revisione per le imposte pagate per i beni digitali 
 - Per stabilire il luogo di residenza del cliente, è possibile utilizzare l&#39;indirizzo di spedizione del cliente e la registrazione di una transazione di pagamento riuscita. Il pagamento viene accettato solo se l&#39;indirizzo di spedizione corrisponde alle informazioni del provider di pagamenti.
 - Le informazioni possono anche essere acquisite direttamente dall’archivio dati nelle tabelle del database di Commerce.
 
-_&#x200B;**Per raccogliere informazioni sull&#39;imposta sui beni digitali:**&#x200B;_
+_**Per raccogliere informazioni sull&#39;imposta sui beni digitali:**_
 
 1. Caricare le aliquote fiscali per tutti i paesi membri dell&#39;UE.
 
@@ -107,8 +107,5 @@ _&#x200B;**Per raccogliere informazioni sull&#39;imposta sui beni digitali:**&#x
 
 Risorse aggiuntive:
 
-- [Unione fiscale e doganale della Commissione europea][1]
-- [Modifiche al luogo di fornitura di EU 1015][2]
-
-[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
-[2]: https://www2.deloitte.com/global/en/services/tax.html
+- [Unione fiscale e doganale della Commissione europea](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [Modifiche al luogo di fornitura di EU 1015](https://www2.deloitte.com/global/en/services/tax.html)

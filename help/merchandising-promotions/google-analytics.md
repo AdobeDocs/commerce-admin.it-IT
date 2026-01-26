@@ -3,9 +3,9 @@ title: '[!DNL Google Analytics]'
 description: Scopri come utilizzare  [!DNL Google Analytics] per raccogliere metriche utili per i siti Commerce.
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Se non si dispone già di una configurazione di [!DNL Google Analytics] 4 per il
 
    - Lascia **[!UICONTROL Account type]** come `Google Analytics4`.
 
-   - Immetti **[!UICONTROL Measurement ID]**. Per ulteriori informazioni, vedere [Google Analytics](https://support.google.com/analytics/answer/9539598).
+   - Immetti **[!UICONTROL Measurement ID]**. Per ulteriori informazioni, vedere [Guida di Google Analytics](https://support.google.com/analytics/answer/9539598).
 
    - Se desideri eseguire test A/B e altri test delle prestazioni sul contenuto, imposta **Esperimenti contenuto** su `Yes`.
 
@@ -61,11 +61,11 @@ Se non si dispone già di una configurazione di [!DNL Google Analytics] 4 per il
 
 >[!IMPORTANT]
 >
->Il 1° luglio 2023, le proprietà standard di Universal Analytics non elaboreranno più i dati. Se utilizzi ancora [!DNL Universal Analytics], ti consigliamo di [prepararti a utilizzare le Google Analytics 4](https://support.google.com/analytics/answer/10759417) in futuro.
+>Il 1° luglio 2023, le proprietà standard di Universal Analytics non elaboreranno più i dati. Se utilizzi ancora [!DNL Universal Analytics], ti consigliamo di [prepararti a utilizzare Google Analytics 4](https://support.google.com/analytics/answer/10759417) in futuro.
 
 ### Passaggio 1: configurare Google Universal Analytics
 
-Visita il sito Web Google e registrati per un account [Google Universal Analytics][1].
+Visita il sito Web Google e registrati per un account [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en).
 
 ### Passaggio 2: completare la configurazione di Commerce
 
@@ -89,7 +89,7 @@ Visita il sito Web Google e registrati per un account [Google Universal Analytic
 
 ## E-commerce avanzato
 
-L&#39;e-commerce avanzato è un plug-in per [!DNL Google Universal Analytics] che fornisce informazioni sul comportamento di acquisto dei tuoi clienti. Puoi utilizzare l’e-commerce avanzato per generare rapporti sulle attività chiave dei clienti, ad esempio quando i clienti aggiungono articoli al carrello, iniziano il processo di pagamento o completano un acquisto. Puoi anche identificare e analizzare i pattern di acquirenti che abbandonano i carrelli senza effettuare un acquisto.
+L&#39;e-commerce avanzato è un plug-in per [!DNL Google Universal Analytics] che ti permette di conoscere il comportamento di acquisto dei tuoi clienti in insight. Puoi utilizzare l’e-commerce avanzato per generare rapporti sulle attività chiave dei clienti, ad esempio quando i clienti aggiungono articoli al carrello, iniziano il processo di pagamento o completano un acquisto. Puoi anche identificare e analizzare i pattern di acquirenti che abbandonano i carrelli senza effettuare un acquisto.
 
 Nelle istruzioni seguenti viene illustrato come configurare [!DNL Google Tag Manager] con [!DNL Universal Analytics] per la produzione di report e dati di e-commerce avanzati.
 
@@ -97,7 +97,7 @@ Nelle istruzioni seguenti viene illustrato come configurare [!DNL Google Tag Man
 
 1. Registrati a un account [Google Tag Manager](google-tag-manager.md) e completa la configurazione di Commerce.
 
-1. Registrati per un nuovo account [Google Universal Analytics][1].
+1. Registrati per un nuovo account [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en).
 
 ### Passaggio 2: Configurare l’e-commerce avanzato
 
@@ -213,6 +213,3 @@ Nelle istruzioni seguenti viene illustrato come configurare [!DNL Google Tag Man
 1. Al termine, fare clic su **[!UICONTROL Preview]** e verificare che i tag funzionino correttamente.
 
 1. Dopo aver verificato le impostazioni, fare clic su **[!UICONTROL Publish]**.
-
-
-[1]: https://support.google.com/analytics/answer/2817075?hl=en
