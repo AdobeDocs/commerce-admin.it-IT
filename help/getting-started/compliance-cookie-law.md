@@ -208,9 +208,9 @@ Utilizzato come parte dell’implementazione della funzionalità schede solo in 
 
 ## Cookie di Product Recommendations
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono utilizzati dai consigli di prodotto per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono utilizzati dai consigli di prodotto per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/it/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: ti consente di [limitare la raccolta dati di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) se disponi di codice personalizzato per gestire il consenso dei cookie sul tuo sito.
+- `mg_dnt`: ti consente di [limitare la raccolta dati di Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce/product-recommendations/developer/setting-cookie) se disponi di codice personalizzato per gestire il consenso dei cookie sul tuo sito.
 - `user_allowed_save_cookie`: utilizzato per la [modalità di restrizione cookie](#cookie-restriction-mode).
 - `authentication_flag`: indica se un acquirente ha effettuato l&#39;accesso o la disconnessione. Questo cookie viene aggiornato contemporaneamente al cookie `dataservices_customer_id`.
 - `dataservices_customer_id`: indica se un acquirente ha effettuato l&#39;accesso o la disconnessione. Questo cookie contiene l’ID univoco del cliente nel sistema.
@@ -230,8 +230,8 @@ I seguenti dati vengono salvati nell’archiviazione locale per i negozi che uti
 
 ## Cookie aggiuntivi
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono impostati per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) I seguenti cookie sono impostati per i clienti Adobe Commerce. Questi cookie sono installati con il modulo [DataServices](https://experienceleague.adobe.com/it/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: impostato da Snowplow JavaScript tracker. Ulteriori informazioni sono disponibili nella [documentazione Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: dato il nome host della pagina Web corrente, questo è il dominio più in alto che non è un &quot;suffisso pubblico&quot; come descritto in https://publicsuffix.org. In sostanza, questo è il dominio di primo livello che può accettare i cookie. Questo cookie fa parte di [Alloy Web SDK](https://github.com/adobe/alloy).
-- `aep-segments-membership`: contiene [informazioni sul pubblico](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), ad esempio il segmento a cui appartiene un acquirente.
+- `aep-segments-membership`: contiene [informazioni sul pubblico](https://experienceleague.adobe.com/it/docs/commerce-admin/customers/audience-activation), ad esempio il segmento a cui appartiene un acquirente.

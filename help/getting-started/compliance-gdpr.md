@@ -47,6 +47,6 @@ Le aziende che si conformano al RGPD potrebbero avere obblighi aggiuntivi ai sen
 
 - Mantenere la trasparenza e conservare la documentazione completa.
 
-- Per scoprire come Adobe aiuta i commercianti a rispettare gli obblighi legali applicabili, visita il [sito Web](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
+- Per scoprire come Adobe aiuta i commercianti a rispettare gli obblighi legali applicabili, visita il [sito Web](https://business.adobe.com/it/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Per i diagrammi di flusso dei dati e il mapping delle entità del database, vedere [Riferimento informazioni personali](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.
+- Per i diagrammi di flusso dei dati e il mapping delle entità del database, vedere [Riferimento informazioni personali](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=it){: target="_blank"}.

@@ -18,7 +18,7 @@ I Language Pack si trovano in [Traduzioni e localizzazione](https://marketplace.
 
 ## Passaggio 1: installare un Language Pack
 
-Segui le istruzioni standard per l’installazione dell’estensione Language Pack. Per informazioni dettagliate sull&#39;installazione di un&#39;estensione, vedere [Installazione generale di CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) nella _Guida alle estensioni_.
+Segui le istruzioni standard per l’installazione dell’estensione Language Pack. Per informazioni dettagliate sull&#39;installazione di un&#39;estensione, vedere [Installazione generale di CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=it) nella _Guida alle estensioni_.
 
 ## Passaggio 2: creare una visualizzazione Store per la lingua
 

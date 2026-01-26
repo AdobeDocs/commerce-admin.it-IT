@@ -40,7 +40,7 @@ Il settore delle carte di pagamento (Payment Card Industry, PCI) ha stabilito un
 
 ![casella di controllo](../assets/checkbox.png) - Gestisce un criterio per la sicurezza delle informazioni.
 
-Per ulteriori informazioni, vedere [Approccio Adobe alla conformità PCI](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
+Per ulteriori informazioni, vedere [Approccio Adobe alla conformità PCI](https://business.adobe.com/it/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >
