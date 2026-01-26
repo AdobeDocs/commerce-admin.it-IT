@@ -53,7 +53,7 @@ Determinare il tipo di rimborso che si desidera emettere, per un [acquisto di cr
 
 1. Trovare l&#39;ordine nella griglia e fare clic su **[!UICONTROL View]**.
 
-1. Se il pulsante _[!UICONTROL Credit Memo]_è visibile nella barra dei pulsanti, eseguire una delle operazioni seguenti:
+1. Se il pulsante _[!UICONTROL Credit Memo]_&#x200B;è visibile nella barra dei pulsanti, eseguire una delle operazioni seguenti:
 
    - Per emettere un rimborso `offline`, andare al passaggio #6.
    - Per emettere un rimborso `online`, continuare con il passaggio #4.

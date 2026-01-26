@@ -71,7 +71,7 @@ Quando lo stato dei nuovi ordini è impostato su `Processing`, l&#39;opzione _Fa
 
    >[!NOTE]
    >
-   >L&#39;opzione _[!UICONTROL Invoice]_non viene visualizzata quando l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) per il [metodo di pagamento](../configuration-reference/sales/payment-methods.md) specifico è impostato su `Authorize and Capture`, che genera automaticamente una fattura. Ciò si verifica anche se l&#39;ordine viene effettuato e l&#39;azione di pagamento per il metodo di pagamento è impostata su `Authorize` e l&#39;ordine viene fatturato.
+   >L&#39;opzione _[!UICONTROL Invoice]_&#x200B;non viene visualizzata quando l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) per il [metodo di pagamento](../configuration-reference/sales/payment-methods.md) specifico è impostato su `Authorize and Capture`, che genera automaticamente una fattura. Ciò si verifica anche se l&#39;ordine viene effettuato e l&#39;azione di pagamento per il metodo di pagamento è impostata su `Authorize` e l&#39;ordine viene fatturato.
 
    ![Ordine di vendita fattura](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Nella griglia _[!UICONTROL Invoices]_, individuare la fattura e fare clic su **[!UICONTROL View]**nella colonna_ Azione _.
+1. Nella griglia _[!UICONTROL Invoices]_, individuare la fattura e fare clic su **[!UICONTROL View]**&#x200B;nella colonna_ Azione _.
 
 1. Nella parte superiore della fattura, fare clic su **[!UICONTROL Print]** per generare un PDF della fattura.
 
@@ -141,7 +141,7 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Nella griglia _[!UICONTROL Invoices]_selezionare la casella di controllo per ogni fattura da stampare.
+1. Nella griglia _[!UICONTROL Invoices]_&#x200B;selezionare la casella di controllo per ogni fattura da stampare.
 
 1. Impostare il controllo **[!UICONTROL Actions]** su `PDF Invoices`.
 

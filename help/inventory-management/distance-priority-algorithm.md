@@ -77,11 +77,11 @@ La chiave proviene dalla [piattaforma Google Maps](https://cloud.google.com/maps
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Inventory]**.
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) della sezione _[!UICONTROL Distance Provider for Distance Based SSA]_e impostare **[!UICONTROL Provider]**su `Google MAP`.
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) della sezione _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;e impostare **[!UICONTROL Provider]**&#x200B;su `Google MAP`.
 
    ![Provider per SSA basato sulla distanza](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Google Distance Provider]_e configurare le impostazioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Google Distance Provider]_&#x200B;e configurare le impostazioni:
 
    - Per **[!UICONTROL Google API Key]**, immetti la chiave copiata dal tuo account Google.
 
@@ -89,7 +89,7 @@ La chiave proviene dalla [piattaforma Google Maps](https://cloud.google.com/maps
 
      >[!NOTE]
      >
-     >Quando si utilizza questo algoritmo per la spedizione, se percorsi e dati non vengono restituiti per la modalità di calcolo selezionata (guida, bicicletta o deambulazione) per una spedizione, SSA utilizza per impostazione predefinita la priorità Source. Si consiglia di impostare la priorità [ per le origini per stock](stocks-prioritize-sources.md).
+     >Quando si utilizza questo algoritmo per la spedizione, se percorsi e dati non vengono restituiti per la modalità di calcolo selezionata (guida, bicicletta o deambulazione) per una spedizione, SSA utilizza per impostazione predefinita la priorità Source. Si consiglia di impostare la priorità [&#x200B; per le origini per stock](stocks-prioritize-sources.md).
 
      | Opzione | Descrizione |
      | ----- | ----- |

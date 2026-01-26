@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configurazione di [!DNL Page Builder]
 
-Se attivato nella configurazione, [!DNL Page Builder] è lo strumento predefinito per la creazione di contenuti per pagine, blocchi e blocchi dinamici di CMS. Inoltre, il pulsante _[!UICONTROL Enable Advanced CMS]_offre [!DNL Page Builder] come opzione per Categorie e Prodotti. Puoi anche scegliere il [layout di pagina](../content-design/page-layout.md) predefinito che desideri utilizzare per prodotti, categorie e pagine CMS. [!DNL Page Builder] non è disponibile per il contenuto della newsletter, che utilizza l&#39;[editor](../content-design/editor.md) di WYSIWYG.
+Se attivato nella configurazione, [!DNL Page Builder] è lo strumento predefinito per la creazione di contenuti per pagine, blocchi e blocchi dinamici di CMS. Inoltre, il pulsante _[!UICONTROL Enable Advanced CMS]_&#x200B;offre [!DNL Page Builder] come opzione per Categorie e Prodotti. Puoi anche scegliere il [layout di pagina](../content-design/page-layout.md) predefinito che desideri utilizzare per prodotti, categorie e pagine CMS. [!DNL Page Builder] non è disponibile per il contenuto della newsletter, che utilizza l&#39;[editor](../content-design/editor.md) di WYSIWYG.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Se attivato nella configurazione, [!DNL Page Builder] è lo strumento predefinit
 
 >[!NOTE]
 >
->Per visualizzare i pulsanti [!UICONTROL Content] e utilizzare Page Builder, un utente amministratore deve disporre delle autorizzazioni [ per il proprio ambito ](../systems/permissions-user-roles.md)ruolo[!UICONTROL Edit with Page Builder].
+>Per visualizzare i pulsanti [!UICONTROL Content] e utilizzare Page Builder, un utente amministratore deve disporre delle autorizzazioni [&#x200B; per il proprio ambito &#x200B;](../systems/permissions-user-roles.md)ruolo[!UICONTROL Edit with Page Builder].
 
 Per ulteriori informazioni sulle opzioni di configurazione degli strumenti avanzati di Content Management, vedere la [_Guida di riferimento alla configurazione_](../configuration-reference/general/content-management.md).
 
@@ -44,7 +44,7 @@ Per ulteriori informazioni sulle opzioni di configurazione degli strumenti avanz
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sull&#39;utilizzo di [ nel contenuto di ](map.md), vedere [!DNL Google Maps]Media - Map[!DNL Page Builder].
+   >Per ulteriori informazioni sull&#39;utilizzo di [&#x200B; nel contenuto di &#x200B;](map.md), vedere [!DNL Google Maps]Media - Map[!DNL Page Builder].
 
 1. Per configurare il numero di linee guida nella griglia di colonna [!DNL Page Builder], eseguire le operazioni seguenti:
 
@@ -54,7 +54,7 @@ Per ulteriori informazioni sulle opzioni di configurazione degli strumenti avanz
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sull&#39;utilizzo della griglia delle colonne durante l&#39;utilizzo del contenuto di [, vedere ](column.md)Layout - Colonna[!DNL Page Builder].
+   >Per ulteriori informazioni sull&#39;utilizzo della griglia delle colonne durante l&#39;utilizzo del contenuto di [, vedere &#x200B;](column.md)Layout - Colonna[!DNL Page Builder].
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
@@ -82,7 +82,7 @@ Per ulteriori informazioni sulle opzioni di configurazione degli strumenti avanz
 
 >[!NOTE]
 >
->La disabilitazione di [!DNL Page Builder] sostituisce gli strumenti di contenuto avanzato con l&#39;editor [ di WYSIWYG e potrebbe causare errori di visualizzazione nella vetrina. ](../content-design/editor.md) Il contenuto creato in precedenza con [!DNL Page Builder] potrebbe non essere modificabile dall&#39;amministratore.
+>La disabilitazione di [!DNL Page Builder] sostituisce gli strumenti di contenuto avanzato con l&#39;editor [&#x200B; di WYSIWYG e potrebbe causare errori di visualizzazione nella vetrina. &#x200B;](../content-design/editor.md) Il contenuto creato in precedenza con [!DNL Page Builder] potrebbe non essere modificabile dall&#39;amministratore.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

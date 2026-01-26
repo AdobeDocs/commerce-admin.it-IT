@@ -73,7 +73,7 @@ Anche se la maggior parte dei contenitori divisore sono invisibili, l&#39;esempi
 
    ![Impostazione del colore, dello spessore e della larghezza della linea](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
 
    - Per controllare il posizionamento del divisore all&#39;interno del contenitore principale, scegliere **[!UICONTROL Alignment]**:
 

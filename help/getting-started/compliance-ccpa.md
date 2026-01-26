@@ -62,7 +62,7 @@ Le aziende che si conformano al RGPD potrebbero avere obblighi aggiuntivi ai sen
 
 È necessario uno sforzo coordinato per sviluppare e attuare un piano volto a garantire la conformità. Utilizza questa roadmap come guida per mobilitare le risorse e assegnare priorità alle attività in modo da poter procedere su più fronti. Il processo è essenzialmente lo stesso per tutte le installazioni di [!DNL Commerce], con la seguente eccezione:
 
-- **Adobe Commerce sull&#39;infrastruttura cloud**: i commercianti con negozi ospitati nell&#39;infrastruttura cloud di Adobe [](https://www.adobe.com/commerce/magento.html){:target="_blank"} possono richiedere al proprio Adobe Commerce Technical Account Manager o all&#39;Assistenza clienti assistenza per rispondere alle richieste dei consumatori.
+- **Adobe Commerce sull&#39;infrastruttura cloud**: i commercianti con negozi ospitati nell&#39;infrastruttura cloud di Adobe [&#128279;](https://www.adobe.com/commerce/magento.html){:target="_blank"} possono richiedere al proprio Adobe Commerce Technical Account Manager o all&#39;Assistenza clienti assistenza per rispondere alle richieste dei consumatori.
 
 - **On-Premise**: i commercianti con installazioni on-premise di Adobe Commerce o Magento Open Source devono sviluppare processi e strumenti propri per rispondere e gestire le richieste dei consumatori relative alle normative sulla privacy.
 

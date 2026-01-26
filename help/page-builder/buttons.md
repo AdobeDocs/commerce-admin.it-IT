@@ -161,7 +161,7 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
    ![Casella degli strumenti contenitore pulsanti](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. In _[!UICONTROL Appearance]_scegliere **[!UICONTROL Stacked]**.
+1. In _[!UICONTROL Appearance]_&#x200B;scegliere **[!UICONTROL Stacked]**.
 
 1. Imposta **[!UICONTROL All Buttons are same size]** su `Yes`.
 
@@ -243,7 +243,7 @@ Nelle sezioni seguenti viene descritta una serie di passaggi per iniziare con un
 
 ## Modificare le impostazioni avanzate
 
-È possibile modificare le impostazioni di _[!UICONTROL Advanced]_per i singoli pulsanti e per il contenitore di pulsanti.
+È possibile modificare le impostazioni di _[!UICONTROL Advanced]_&#x200B;per i singoli pulsanti e per il contenitore di pulsanti.
 
 1. Per controllare il posizionamento all&#39;interno del contenitore padre, scegliere **[!UICONTROL Alignment]**:
 

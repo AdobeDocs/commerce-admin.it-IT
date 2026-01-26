@@ -52,7 +52,7 @@ Il _Checkout nel contesto_ di PayPal rende più facile che mai pagare online. I 
 
 ![Demo di checkout contestuale di PayPal](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
 
-[_Prova di pagamento contestuale_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout)
+[_Prova di pagamento contestuale_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout)
 
 Quando configuri l&#39;archivio per [!DNL PayPal Express Checkout], puoi abilitare questa opzione.
 
@@ -94,13 +94,13 @@ Puoi avere due soluzioni PayPal attive contemporaneamente: PayPal Express Checko
 
 1. Se nell&#39;installazione sono presenti più siti Web, store o visualizzazioni, impostare **[!UICONTROL Store View]** sulla visualizzazione dello store in cui si desidera applicare questa configurazione.
 
-1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**in cui si trova la tua azienda.
+1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**&#x200B;in cui si trova la tua azienda.
 
    Questa impostazione determina la selezione delle soluzioni PayPal visualizzate nella configurazione.
 
    ![Paese esercente](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL Recommended Solutions]_, fare clic su **[!UICONTROL Configure]**per **[!UICONTROL PayPal Express Checkout]**.
+1. In _[!UICONTROL Recommended Solutions]_, fare clic su **[!UICONTROL Configure]**&#x200B;per **[!UICONTROL PayPal Express Checkout]**.
 
    ![Configura pagamento PayPal Express](./assets/paypal-express-checkout.png){width="600"}
 
@@ -312,7 +312,7 @@ Imposta **[!UICONTROL Enable PayPal PayLater Experience]** su uno dei seguenti:
    - `Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente.
    - `Order` - L&#39;importo dell&#39;ordine non viene acquisito o autorizzato nel saldo cliente, nel conto bancario o nella carta di credito di PayPal. L&#39;azione di pagamento dell&#39;ordine rappresenta un accordo tra il sistema di pagamento PayPal e l&#39;esercente. Consente al commerciante di acquisire uno o più importi fino al totale ordinato dal conto dell’acquirente del cliente, in un periodo massimo di 29 giorni. Una volta ordinati i fondi, il commerciante può catturarli in qualsiasi momento durante il successivo periodo di 29 giorni. L&#39;acquisizione dell&#39;importo dell&#39;ordine può essere eseguita solo dall&#39;amministratore di Commerce creando una o più fatture.
 
-1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**su `Yes`.
+1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_&#x200B;nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**&#x200B;su `Yes`.
 
 1. Se l&#39;azione di pagamento è impostata su `Order`, completare le operazioni seguenti
 

@@ -34,7 +34,7 @@ Il primo passo è quello di completare le impostazioni predefinite per le tariff
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nella sezione _[!UICONTROL Sales]_del pannello sinistro, scegli **[!UICONTROL Delivery Methods]**.
+1. Nella sezione _[!UICONTROL Sales]_&#x200B;del pannello sinistro, scegli **[!UICONTROL Delivery Methods]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Table Rates]**.
 
@@ -115,10 +115,10 @@ Il primo passo è quello di completare le impostazioni predefinite per le tariff
 1. Completare la tabella con i valori appropriati per la condizione di calcolo della spedizione.
 
    - Utilizzare un asterisco (*) come carattere jolly che rappresenta tutti i valori possibili in qualsiasi categoria.
-   - La colonna _[!UICONTROL Country]_deve contenere un [codice di tre caratteri valido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) per ogni riga.
-   - Ordina i dati per _[!UICONTROL Region/State]_in modo che le posizioni specifiche si trovino nella parte superiore dell&#39;elenco e le posizioni dei caratteri jolly nella parte inferiore. Questo metodo elabora le regole prima con i valori assoluti e successivamente con i valori jolly.
+   - La colonna _[!UICONTROL Country]_&#x200B;deve contenere un [codice di tre caratteri valido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) per ogni riga.
+   - Ordina i dati per _[!UICONTROL Region/State]_&#x200B;in modo che le posizioni specifiche si trovino nella parte superiore dell&#39;elenco e le posizioni dei caratteri jolly nella parte inferiore. Questo metodo elabora le regole prima con i valori assoluti e successivamente con i valori jolly.
    - Gli intervalli di codici postali o Zip non sono supportati. Utilizzare un asterisco (*) per consentire tutti i codici all&#39;interno dell&#39;area o dello stato oppure specificare un singolo codice per una posizione specifica nella colonna _[!UICONTROL Zip/Postal Code]_.
-   - I valori nella colonna _[!UICONTROL Weight (and above)]_possono avere un massimo di quattro posizioni decimali (ad esempio `2.5075`). L’utilizzo di più posizioni decimali nei dati causa un errore di importazione.
+   - I valori nella colonna _[!UICONTROL Weight (and above)]_&#x200B;possono avere un massimo di quattro posizioni decimali (ad esempio `2.5075`). L’utilizzo di più posizioni decimali nei dati causa un errore di importazione.
 
    ![Peso rispetto alla destinazione (Australia)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
