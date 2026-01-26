@@ -22,4 +22,4 @@ Puoi creare blocchi di contenuto personalizzati senza scrivere codice e assegnar
 
 Scopri i blocchi statici e [dinamici](dynamic-blocks.md) guardando questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411069?captions=ita&quality=12&learn=on)

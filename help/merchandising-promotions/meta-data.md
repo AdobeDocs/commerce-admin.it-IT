@@ -98,4 +98,4 @@ Puoi evitare di essere penalizzato dai motori di ricerca omettendo la categoria 
 
 Guarda questo video per scoprire come gestire i metadati SEO (Search Engine Optimization):
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410175?captions=ita&quality=12&learn=on)
