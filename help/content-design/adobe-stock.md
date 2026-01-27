@@ -3,10 +3,10 @@ title: Integrazione di Adobe Stock
 description: Integra Adobe Stock con la tua istanza  [!DNL Commerce]  per accedere a innumerevoli risorse multimediali da utilizzare nello store.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Questa integrazione richiede:
 
 La concessione di licenze per le immagini Adobe Stock richiede:
 
-- Un account [Adobe](https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html)
+- Un account [Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - Un piano a pagamento [Adobe Stock](https://stock.adobe.com) associato all&#39;account
 
 ## Integrare [!DNL Commerce] e Adobe Stock
@@ -62,7 +62,7 @@ La configurazione dell’integrazione di Adobe Stock per Adobe Commerce prevede 
    - Qualsiasi punto (`.`) deve avere un escape con due barre rovesciate (`\\`).
    - Aggiungi `.*` alla fine del modello.
 
-   Se si utilizza l&#39;esempio dell&#39;URI di reindirizzamento predefinito precedente, sarà `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
+   Utilizzando l&#39;esempio dell&#39;URI di reindirizzamento predefinito precedente, il modello sarà `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`
 
 1. Fare clic su **[!UICONTROL Next]**.
 
