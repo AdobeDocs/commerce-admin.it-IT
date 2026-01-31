@@ -3,10 +3,10 @@ title: Google reCAPTCHA Enterprise
 description: Scopri come configurare Google reCAPTCHA Enterprise per proteggere la vetrina Adobe Commerce as a Cloud Service da bot e attività fraudolente.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."
+source-git-commit: 3bc89a2dcecc91bbb4b3df285b6e1dd7c64bc477
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Questa funzione NON fornisce il supporto reCAPTCHA per l’amministratore.
+
+L&#39;[integrazione reCAPTCHA](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/) descrive come aggiungere il supporto per reCAPTCHA Enterprise nella vetrina.
 
 Vedere [Google reCAPTCHA V3 e V2](security-google-recaptcha.md) per informazioni sulla configurazione di altre versioni di Google reCAPTCHA.
 
@@ -57,9 +59,11 @@ Segui questi passaggi generali per configurare Google reCAPTCHA Enterprise per l
 
 ## Passaggio 2: configurare Google reCAPTCHA per la vetrina
 
-1. Nel pannello a sinistra in _[!UICONTROL Security]_, scegli **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Nella barra laterale di Adobe Commerce _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Completare la sezione **[!UICONTROL reCAPTCHA Enterprise]** come segue.
+1. Espandere _[!UICONTROL Security]_e scegliere **[!UICONTROL Google reCAPTCHA Storefront]**.
+
+1. Scorri verso il basso fino alla sezione **[!UICONTROL reCAPTCHA Enterprise]** e completa la configurazione come segue.
 
    - Per **[!UICONTROL Site Key]**, copia e incolla la chiave del sito aziendale reCAPTCHA dalla console Google Cloud.
 
