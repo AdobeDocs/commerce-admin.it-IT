@@ -3,7 +3,7 @@ title: Elenchi richieste
 description: Scopri gli elenchi delle richieste di acquisto e come utilizzarli per aggiungere facilmente i prodotti ordinati di frequente al carrello.
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 7e4eef8a6862667b9ab11cd07f85eb4b5ac9a6e4
+source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Elenchi richieste
 
-L&#39;utilizzo di un elenco di richieste consente di risparmiare tempo quando si acquistano prodotti ordinati di frequente, poiché gli articoli vengono aggiunti al carrello direttamente dall&#39;elenco. Gli acquirenti possono gestire più elenchi che si concentrano su prodotti di fornitori, acquirenti, team, campagne o qualsiasi altra cosa che semplifichi il loro flusso di lavoro. È disponibile sia per gli utenti connessi che per gli ospiti.
+L&#39;utilizzo di un elenco di richieste consente di risparmiare tempo quando si acquistano prodotti ordinati di frequente, poiché gli articoli vengono aggiunti al carrello direttamente dall&#39;elenco. Gli acquirenti possono gestire più elenchi che si concentrano su prodotti di fornitori, acquirenti, team, campagne o qualsiasi altra cosa che semplifichi il loro flusso di lavoro. La funzionalità elenco richieste di acquisto è disponibile per gli utenti connessi.
 
 >[!NOTE]
 >
