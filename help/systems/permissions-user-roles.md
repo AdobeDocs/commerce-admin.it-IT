@@ -3,9 +3,9 @@ title: Ruoli utente
 description: Scopri come creare ruoli utente e le autorizzazioni associate per gestire l’accesso alle funzioni di amministrazione.
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: dff29b7c3a95d4a0ae5ce16819c41a4560b477c4
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 
 ### Passaggio 1: aggiungere il nome del ruolo
 
-1. In _[!UICONTROL Role Information]_&#x200B;immettere un valore descrittivo **[!UICONTROL Role Name]**.
+1. In _[!UICONTROL Role Information]_immettere un valore descrittivo **[!UICONTROL Role Name]**.
 
-1. In _[!UICONTROL Current User Identity Verification]_&#x200B;immettere la password.
+1. In _[!UICONTROL Current User Identity Verification]_immettere la password.
 
    ![Autorizzazioni di sistema - Informazioni ruolo](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -49,9 +49,13 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 
    >[!NOTE]
    >
-   >Gli utenti con un ambito di ruolo `Custom` non possono creare siti Web e categorie, assegnare prodotti a categorie o modificare prodotti nell&#39;ambito _[!UICONTROL All Store Views]_&#x200B;quando sono assegnati a archivi con restrizioni. Questi utenti non possono inoltre eseguire altre azioni_ global _che interessano ambiti in cui non dispongono dell&#39;accesso.
+   >Gli utenti con un ambito di ruolo `Custom` non possono creare siti Web e categorie, assegnare prodotti a categorie o modificare prodotti nell&#39;ambito _[!UICONTROL All Store Views]_quando sono assegnati a archivi con restrizioni. Questi utenti non possono inoltre eseguire altre azioni_ global _che interessano ambiti in cui non dispongono dell&#39;accesso.
 
-1. In _[!UICONTROL Roles Resources]_, impostare **[!UICONTROL Resource Access]**&#x200B;su `Custom`.
+1. In _[!UICONTROL Roles Resources]_, impostare **[!UICONTROL Resource Access]**su `Custom`.
+
+   >[!NOTE]
+   >
+   >Se per accedere all&#39;amministratore è necessaria l&#39;autenticazione a due fattori (2FA), assicurarsi di abilitare la risorsa `Permissions` > `Two Factor Auth` per questo ruolo. In caso contrario, gli utenti appena creati con questo ambito del ruolo `Custom` non possono impostare 2FA quando accedono all&#39;amministratore per la prima volta.
 
 1. Nella struttura ad albero **[!UICONTROL Resource]**, selezionare la casella di controllo di ogni funzionalità amministratore a cui il ruolo può accedere.
 
@@ -73,11 +77,11 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 
 1. Dalla griglia _[!UICONTROL Roles]_, aprire il record in modalità di modifica.
 
-1. In _[!UICONTROL Current User Identity Verification]_&#x200B;immettere la password dell&#39;account utente.
+1. In _[!UICONTROL Current User Identity Verification]_immettere la password dell&#39;account utente.
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Role Users]**.
 
-   L&#39;opzione _[!UICONTROL Role Users]_&#x200B;viene visualizzata solo dopo il salvataggio di un nuovo ruolo.
+   L&#39;opzione _[!UICONTROL Role Users]_viene visualizzata solo dopo il salvataggio di un nuovo ruolo.
 
    ![Account utente assegnati al ruolo](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
@@ -119,7 +123,7 @@ Per concedere a un utente un accesso limitato all’amministratore, il primo pas
 
 Guarda questo video per scoprire come gestire i ruoli utente:
 
->[!VIDEO](https://video.tv.adobe.com/v/3443515?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
 
 ## Risorse per il ruolo
 
@@ -147,7 +151,7 @@ L’accesso alle seguenti risorse può essere assegnato a un ruolo personalizzat
 | [`Marketing`](../merchandising-promotions/marketing-menu.md) | [`Promotions`](../merchandising-promotions/marketing-menu.md#uicontrol-promotions) | [`Catalog Price Rule`](../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../merchandising-promotions/price-rules-cart.md) <br/>[`Related Products Rules`](../merchandising-promotions/product-related-rules.md)![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Gift Card Accounts`](../stores-purchase/product-gift-card-accounts.md) ![Adobe Commerce](../assets/adobe-logo.svg) |
 |  | [`Private Sales`](../merchandising-promotions/events-private-sales.md) ![Adobe Commerce](../assets/adobe-logo.svg) | [`Events`](../merchandising-promotions/event-create.md) <br/>[`Invitations`](../merchandising-promotions/invitations.md) |
 |  | `Communications` | [`Email Templates`](email-templates.md) <br/>[`Newsletter Template`](../merchandising-promotions/newsletter-template.md) <br/>[`Newsletter Queue`](../merchandising-promotions/newsletter-queue.md) <br/>[`Newsletter Subscribers`](../merchandising-promotions/newsletter-subscribers.md) <br/>[`Email Reminders`](../merchandising-promotions/email-reminder-rules.md) |
-|  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=it) |
+|  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html) |
 |  | [`SEO & Search`](../merchandising-promotions/marketing-menu.md#uicontrol-seo--search) | [`Search Terms`](../catalog/search-terms.md) <br/>[`Search Synonyms`](../catalog/search-terms.md#search-synonyms) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../merchandising-promotions/url-rewrite-custom.md) <br/>[`Site Map`](../merchandising-promotions/sitemap-xml.md) |
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
@@ -156,7 +160,7 @@ L’accesso alle seguenti risorse può essere assegnato a un ruolo personalizzat
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |
-|  | `System Insights` ![Adobe Commerce](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=it) |
+|  | `System Insights` ![Adobe Commerce](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) |
 |  | [`Customers`](../getting-started/customer-reports.md)<br/>[`Products`](../getting-started/product-reports.md)<br/>[`Private Sales`](../getting-started/private-sales-reports.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br />[`Statistics`](../getting-started/reports-menu.md#uicontrol-statistics)<br />[`Business Intelligence`](../getting-started/business-intelligence.md) |  |
 | [`Stores`](../stores-purchase/stores.md) | [`Settings`](../stores-purchase/stores-menu.md) | [`All Stores`](../stores-purchase/stores.md)<br/>[`Configuration`](../configuration-reference/guide-overview.md)<br/>[`Terms and Conditions`](../stores-purchase/terms-and-conditions.md)<br/>[`Order Status`](../stores-purchase/order-status.md) |  |
 |  | [`Inventory`](../inventory-management/sources-stocks.md) | [`Sources`](../inventory-management/sources-manage.md)<br/>[`Stocks`](../inventory-management/stocks-manage.md) |  |
