@@ -131,7 +131,7 @@ Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Sa
 
 ## Aggiorna statistiche
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Per ridurre l&#39;impatto sulle prestazioni della generazione dei rapporti sulle vendite, [!DNL Commerce] calcola e memorizza le statistiche richieste per ogni rapporto. Anziché ricalcolare le statistiche ogni volta che viene generato un rapporto, vengono utilizzate le statistiche memorizzate, a meno che non vengano aggiornate. Per includere i dati più recenti, è necessario aggiornare le statistiche del rapporto prima di generare un rapporto sulle vendite.
 

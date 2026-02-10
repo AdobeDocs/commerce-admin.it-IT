@@ -16,7 +16,7 @@ I rapporti sui prodotti forniscono informazioni su insight relative ai prodotti 
 
 ## [!UICONTROL Product Views Report]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 [!UICONTROL Product Views Report] mostra i prodotti visualizzati durante un intervallo di tempo o di date. Il rapporto include il nome del prodotto, il prezzo e il numero di visualizzazioni.
 
@@ -50,7 +50,7 @@ Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Pr
 
 ## [!UICONTROL Downloads Report]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 [!UICONTROL Downloads Report] elenca tutti i download durante l&#39;intervallo di tempo o l&#39;intervallo di date specificato. Il rapporto include il nome del prodotto, il collegamento per il download e lo SKU, con il numero di acquisti e download.
 

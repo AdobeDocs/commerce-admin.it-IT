@@ -22,7 +22,7 @@ Il report [!UICONTROL Products in Cart] fornisce un elenco di tutti i prodotti a
 
 ## [!UICONTROL Search Terms Report]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Il report [Termini di ricerca](../catalog/search-terms.md#search-terms-report) mostra ciò che i clienti cercano in ogni visualizzazione dello store. Il rapporto include il numero di elementi corrispondenti trovati nel catalogo e quante volte il termine di ricerca è stato utilizzato.
 
@@ -36,7 +36,7 @@ Il report [!UICONTROL Abandoned Carts] elenca tutti i clienti registrati che han
 
 ## [!UICONTROL Newsletter Problems Report]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 [!UICONTROL Newsletter Problems Report] include informazioni su eventuali code di newsletter non trasmesse correttamente. Il report include il nome di ciascun abbonato, la data della coda e l&#39;oggetto, nonché le informazioni sull&#39;errore.
 

@@ -151,7 +151,7 @@ Le fatture vengono salvate in un unico file PDF che può essere inviato a una st
 
 ## Importi di acquisizione personalizzati
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Per offrire ai commercianti maggiore flessibilità per acquisizioni parziali e scenari di pagamento specializzati, l’API Fattura supporta importi di acquisizione personalizzati utilizzando gli attributi di estensione.
 

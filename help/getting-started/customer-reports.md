@@ -109,7 +109,7 @@ Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Cu
 
 ## [!UICONTROL Customer Wish List Report]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
 
