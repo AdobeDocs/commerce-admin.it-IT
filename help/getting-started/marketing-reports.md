@@ -3,10 +3,9 @@ title: Rapporti di marketing
 description: I rapporti di marketing forniscono informazioni sullo stato dei carrelli, sull’utilizzo dei termini di ricerca e sulla trasmissione delle newsletter.
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -23,6 +22,8 @@ Il report [!UICONTROL Products in Cart] fornisce un elenco di tutti i prodotti a
 
 ## [!UICONTROL Search Terms Report]
 
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+
 Il report [Termini di ricerca](../catalog/search-terms.md#search-terms-report) mostra ciò che i clienti cercano in ogni visualizzazione dello store. Il rapporto include il numero di elementi corrispondenti trovati nel catalogo e quante volte il termine di ricerca è stato utilizzato.
 
 ![Rapporto termini di ricerca](./assets/search-terms.png){width="600"}
@@ -34,6 +35,8 @@ Il report [!UICONTROL Abandoned Carts] elenca tutti i clienti registrati che han
 ![Rapporto Carrelli abbandonati](./assets/abandoned-carts.png){width="600"}
 
 ## [!UICONTROL Newsletter Problems Report]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 [!UICONTROL Newsletter Problems Report] include informazioni su eventuali code di newsletter non trasmesse correttamente. Il report include il nome di ciascun abbonato, la data della coda e l&#39;oggetto, nonché le informazioni sull&#39;errore.
 

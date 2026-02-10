@@ -3,8 +3,7 @@ title: Rapporti sui clienti
 description: I rapporti dei clienti disponibili in Adobe Commerce e Magento Open Source forniscono ad insight informazioni sull’attività del cliente durante un determinato periodo di tempo o intervallo di date.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 1%
@@ -109,6 +108,8 @@ Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Cu
 {style="table-layout:auto"}
 
 ## [!UICONTROL Customer Wish List Report]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
 

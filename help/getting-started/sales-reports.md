@@ -3,8 +3,7 @@ title: Rapporti sulle vendite
 description: I  [!DNL Commerce] rapporti sulle vendite consentono di tenere traccia di ordini, imposte, fatture, spedizioni, rimborsi, coupon e liquidazioni PayPal.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -131,6 +130,8 @@ Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Sa
 1. Fare clic su **[!UICONTROL Export]**.
 
 ## Aggiorna statistiche
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Per ridurre l&#39;impatto sulle prestazioni della generazione dei rapporti sulle vendite, [!DNL Commerce] calcola e memorizza le statistiche richieste per ogni rapporto. Anziché ricalcolare le statistiche ogni volta che viene generato un rapporto, vengono utilizzate le statistiche memorizzate, a meno che non vengano aggiornate. Per includere i dati più recenti, è necessario aggiornare le statistiche del rapporto prima di generare un rapporto sulle vendite.
 

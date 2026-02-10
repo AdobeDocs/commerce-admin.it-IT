@@ -3,10 +3,9 @@ title: Rapporti sui prodotti
 description: I rapporti sui prodotti disponibili in Adobe Commerce e Magento Open Source forniscono informazioni su insight relative a prodotti visualizzati e ordinati, bestseller, livelli di stock e download.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -16,6 +15,8 @@ ht-degree: 0%
 I rapporti sui prodotti forniscono informazioni su insight relative ai prodotti visualizzati e ordinati, ai bestseller, ai livelli di magazzino e ai download.
 
 ## [!UICONTROL Product Views Report]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 [!UICONTROL Product Views Report] mostra i prodotti visualizzati durante un intervallo di tempo o di date. Il rapporto include il nome del prodotto, il prezzo e il numero di visualizzazioni.
 
@@ -48,6 +49,8 @@ Nella barra laterale _Admin_, passa a **[!UICONTROL Reports]** > _[!UICONTROL Pr
 ![Rapporto prodotti ordinati](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 [!UICONTROL Downloads Report] elenca tutti i download durante l&#39;intervallo di tempo o l&#39;intervallo di date specificato. Il rapporto include il nome del prodotto, il collegamento per il download e lo SKU, con il numero di acquisti e download.
 

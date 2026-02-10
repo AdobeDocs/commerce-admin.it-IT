@@ -3,9 +3,9 @@ title: Fatture
 description: Scopri come creare e stampare fatture per supportare l’elaborazione degli ordini e le operazioni di assistenza clienti.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: 80cc27c4247230eb5e43bca46a34d358f9f0bcea
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Quando lo stato dei nuovi ordini è impostato su `Processing`, l&#39;opzione _Fa
 
    >[!NOTE]
    >
-   >L&#39;opzione _[!UICONTROL Invoice]_&#x200B;non viene visualizzata quando l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) per il [metodo di pagamento](../configuration-reference/sales/payment-methods.md) specifico è impostato su `Authorize and Capture`, che genera automaticamente una fattura. Ciò si verifica anche se l&#39;ordine viene effettuato e l&#39;azione di pagamento per il metodo di pagamento è impostata su `Authorize` e l&#39;ordine viene fatturato.
+   >L&#39;opzione _[!UICONTROL Invoice]_non viene visualizzata quando l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) per il [metodo di pagamento](../configuration-reference/sales/payment-methods.md) specifico è impostato su `Authorize and Capture`, che genera automaticamente una fattura. Ciò si verifica anche se l&#39;ordine viene effettuato e l&#39;azione di pagamento per il metodo di pagamento è impostata su `Authorize` e l&#39;ordine viene fatturato.
 
    ![Ordine di vendita fattura](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Nella griglia _[!UICONTROL Invoices]_, individuare la fattura e fare clic su **[!UICONTROL View]**&#x200B;nella colonna_ Azione _.
+1. Nella griglia _[!UICONTROL Invoices]_, individuare la fattura e fare clic su **[!UICONTROL View]**nella colonna_ Azione _.
 
 1. Nella parte superiore della fattura, fare clic su **[!UICONTROL Print]** per generare un PDF della fattura.
 
@@ -141,10 +141,24 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Nella griglia _[!UICONTROL Invoices]_&#x200B;selezionare la casella di controllo per ogni fattura da stampare.
+1. Nella griglia _[!UICONTROL Invoices]_selezionare la casella di controllo per ogni fattura da stampare.
 
 1. Impostare il controllo **[!UICONTROL Actions]** su `PDF Invoices`.
 
    ![Stampa più fatture](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 Le fatture vengono salvate in un unico file PDF che può essere inviato a una stampante o salvato.
+
+## Importi di acquisizione personalizzati
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+
+Per offrire ai commercianti maggiore flessibilità per acquisizioni parziali e scenari di pagamento specializzati, l’API Fattura supporta importi di acquisizione personalizzati utilizzando gli attributi di estensione.
+
+È possibile effettuare chiamate REST per acquisire un importo personalizzato durante la creazione di una fattura.  Utilizzare l&#39;endpoint REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) e specificare l&#39;importo personalizzato nel campo `extension_attributes.custom_capture_amount` del payload.
+
+>[!NOTE]
+>
+>Contatta il rappresentante del supporto per abilitare questa funzione.
+>
+>A causa di restrizioni legali, l&#39;importo di cattura personalizzato è disponibile solo nell&#39;area Nord America (NA) e in altre aree geografiche in cui è consentita la sovrascrittura dei pagamenti.
