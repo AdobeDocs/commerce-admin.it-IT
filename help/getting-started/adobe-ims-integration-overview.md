@@ -23,7 +23,7 @@ Per implementare questa integrazione, vedere [Configurare l&#39;integrazione del
 
 ## Modifiche ai flussi di lavoro e all’interfaccia di amministrazione dopo l’integrazione con IMS
 
-Quando questa integrazione è abilitata, gli utenti amministratore di Commerce visualizzano le modifiche al flusso di lavoro di autenticazione e accesso predefinito di Amministratore Commerce durante l’esecuzione di attività di routine in Amministratore che richiedono la riautenticazione, ad esempio la creazione di un utente amministratore. Per l’abilitazione del modulo è necessaria l’autenticazione a due fattori (2FA) a livello di organizzazione Adobe. L&#39;accesso predefinito per l&#39;amministratore e 2FA sono disabilitati e il pulsante _[!UICONTROL Sign In with Adobe ID]_sostituisce il modulo di accesso predefinito per l&#39;amministratore. I diritti sono ancora gestiti dall’amministratore.
+Quando questa integrazione è abilitata, gli utenti amministratore di Commerce visualizzano le modifiche al flusso di lavoro di autenticazione e accesso predefinito di Amministratore Commerce durante l’esecuzione di attività di routine in Amministratore che richiedono la riautenticazione, ad esempio la creazione di un utente amministratore. Per l’abilitazione del modulo è necessaria l’autenticazione a due fattori (2FA) a livello di organizzazione Adobe. L&#39;accesso predefinito per l&#39;amministratore e 2FA sono disabilitati e il pulsante _[!UICONTROL Sign In with Adobe ID]_&#x200B;sostituisce il modulo di accesso predefinito per l&#39;amministratore. I diritti sono ancora gestiti dall’amministratore.
 
 >
 >
