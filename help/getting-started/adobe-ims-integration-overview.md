@@ -3,10 +3,10 @@ title: Panoramica sull’integrazione del servizio Adobe Identity Management (IM
 description: Introduce l’integrazione opzionale dell’accesso amministratore di Adobe Commerce con Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 484351d7db33139e3339ccea82e7a96f5ea7966e
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,13 @@ Per implementare questa integrazione, vedere [Configurare l&#39;integrazione del
 
 ## Modifiche ai flussi di lavoro e all’interfaccia di amministrazione dopo l’integrazione con IMS
 
-Quando questa integrazione è abilitata, gli utenti amministratore di Commerce visualizzano le modifiche al flusso di lavoro di autenticazione e accesso predefinito di Amministratore Commerce durante l’esecuzione di attività di routine in Amministratore che richiedono la riautenticazione, ad esempio la creazione di un utente amministratore. Per l’abilitazione del modulo è necessaria l’autenticazione a due fattori (2FA) a livello di organizzazione Adobe. L&#39;accesso predefinito per l&#39;amministratore e 2FA sono disabilitati e il pulsante _[!UICONTROL Sign In with Adobe ID]_&#x200B;sostituisce il modulo di accesso predefinito per l&#39;amministratore. I diritti sono ancora gestiti dall’amministratore.
+Quando questa integrazione è abilitata, gli utenti amministratore di Commerce visualizzano le modifiche al flusso di lavoro di autenticazione e accesso predefinito di Amministratore Commerce durante l’esecuzione di attività di routine in Amministratore che richiedono la riautenticazione, ad esempio la creazione di un utente amministratore. Per l’abilitazione del modulo è necessaria l’autenticazione a due fattori (2FA) a livello di organizzazione Adobe. L&#39;accesso predefinito per l&#39;amministratore e 2FA sono disabilitati e il pulsante _[!UICONTROL Sign In with Adobe ID]_sostituisce il modulo di accesso predefinito per l&#39;amministratore. I diritti sono ancora gestiti dall’amministratore.
+
+>
+>
+>L’integrazione AdobeIms viene applicata a livello globale. Una volta abilitati, tutti gli utenti dovranno autenticarsi tramite AdobeIms; i singoli utenti non possono essere esclusi da questa configurazione.
+>
+>**Abilita questa integrazione solo dopo averne compreso appieno le implicazioni.**
 
 ## Effetti dell’integrazione dell’amministratore con IMS sulle password di Commerce
 
