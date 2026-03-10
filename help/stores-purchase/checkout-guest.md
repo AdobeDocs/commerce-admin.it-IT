@@ -40,7 +40,7 @@ Per una descrizione dettagliata di ciascuna di queste impostazioni di configuraz
 
 ## Consenti accesso agli ordini degli ospiti per le e-mail registrate
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Una configurazione facoltativa a livello di negozio, disabilitata per impostazione predefinita, consente agli acquirenti ospiti di tenere traccia degli ordini effettuati utilizzando un indirizzo e-mail corrispondente a un account cliente registrato.
 
