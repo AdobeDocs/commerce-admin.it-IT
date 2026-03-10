@@ -3,10 +3,9 @@ title: Creare promemoria e-mail
 description: Scopri come impostare una regola di promemoria e-mail che utilizza una regola di prezzo del carrello esistente.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: 43654def3e227127dcf0732962b4f1142a6a3856
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -23,7 +22,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Rule]**.
 
-1. Completa _[!UICONTROL Rule Information]_&#x200B;come segue:
+1. Completa _[!UICONTROL Rule Information]_come segue:
 
    ![Regola promemoria e-mail](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -56,9 +55,9 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
    >[!NOTE]
    >
-   >Se un cliente ha più di un carrello abbandonato, una lista dei desideri o una combinazione di entrambi, il promemoria e-mail viene attivato una sola volta per quel cliente. Per attivare nuovamente lo stesso promemoria e-mail, utilizzare il campo _[!UICONTROL Repeat Schedule]_&#x200B;per impostare il numero di giorni tra le e-mail. <br/>
+   >Se un cliente ha più di un carrello abbandonato, una lista dei desideri o una combinazione di entrambi, il promemoria e-mail viene attivato una sola volta per quel cliente. Per attivare nuovamente lo stesso promemoria e-mail, utilizzare il campo _[!UICONTROL Repeat Schedule]_per impostare il numero di giorni tra le e-mail. <br/>
    >
-   >Lo stesso promemoria e-mail è **_non riattivato_** per lo stesso cliente per **_nuovi_** carrelli abbandonati ed elenchi di desideri **_dopo_** il periodo _[!UICONTROL Repeat Schedule]_&#x200B;è terminato.
+   >Lo stesso promemoria e-mail è **_non riattivato_** per lo stesso cliente per **_nuovi_** carrelli abbandonati ed elenchi di desideri **_dopo_** il periodo _[!UICONTROL Repeat Schedule]_è terminato.
 
    Completa la condizione per descrivere lo scenario che attiva il promemoria e-mail.
 
@@ -66,7 +65,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Emails and Labels]**.
 
-   ![Regola promemoria e-mail - e-mail ed etichette, modelli &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regola promemoria e-mail - e-mail ed etichette, modelli ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. Nella sezione **[!UICONTROL Email Templates]**, scegli il modello di e-mail da utilizzare per ogni sito Web e visualizzazione store nella [gerarchia store](../getting-started/websites-stores-views.md).
 
@@ -84,7 +83,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
      ![Promemoria e-mail - titoli e descrizioni](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - Nella sezione _[!UICONTROL Titles and Descriptions Per Store View]_, immettere **[!UICONTROL Rule Title]**&#x200B;e **[!UICONTROL Description]**&#x200B;per la_ Visualizzazione archivio predefinita _. Per più visualizzazioni dello store, immetti il titolo e la descrizione appropriati per ciascuna di esse.
+   - Nella sezione _[!UICONTROL Titles and Descriptions Per Store View]_, immettere **[!UICONTROL Rule Title]**e **[!UICONTROL Description]**per la_ Visualizzazione archivio predefinita _. Per più visualizzazioni dello store, immetti il titolo e la descrizione appropriati per ciascuna di esse.
 
      >[!NOTE]
      >
