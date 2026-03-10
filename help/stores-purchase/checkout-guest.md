@@ -3,9 +3,9 @@ title: Pagamento per gli ospiti
 description: Scopri come abilitare le funzionalità di pagamento guest nel tuo store.
 exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 347321ec5b0722f06240780136cb29816aab559f
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -37,3 +37,13 @@ Per una descrizione dettagliata di ciascuna di queste impostazioni di configuraz
    Se necessario, deselezionare la casella di controllo **[!UICONTROL Use system value]** per abilitare le modifiche a questa impostazione.
 
 1. Fare clic su **[!UICONTROL Save Config]**.
+
+## Consenti accesso agli ordini degli ospiti per le e-mail registrate
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+
+Una configurazione facoltativa a livello di negozio, disabilitata per impostazione predefinita, consente agli acquirenti ospiti di tenere traccia degli ordini effettuati utilizzando un indirizzo e-mail corrispondente a un account cliente registrato.
+
+Quando questa opzione è attivata, gli ordini di pagamento dei clienti inseriti con un messaggio e-mail registrato rimangono accessibili e vengono visualizzati anche nella cronologia degli ordini del cliente.
+
+Per abilitare questa funzione, passa a **Archivi** > Impostazioni > **Configurazione** > Vendite > **Vendite** > **Pagamento per gli ospiti** e imposta l&#39;impostazione **Consenti accesso agli ordini per gli ospiti per le e-mail registrate** su `Yes`.
