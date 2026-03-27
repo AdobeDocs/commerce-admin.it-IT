@@ -3,10 +3,10 @@ title: Gestione cartelle di Media Gallery
 description: Scopri come utilizzare le cartelle per organizzare le risorse multimediali.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: c542ab1bf941c8bebcb665b7c29b6a2a80c15790
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,7 @@ Utilizza le cartelle per organizzare le immagini nella nuova [Galleria file mult
 
 ## Creare una cartella
 
->[!NOTE]
->
->È possibile creare una cartella solo nelle cartelle `pub/media/wysywig` e `pub/media/catalog/category`.
+È possibile creare una cartella solo in `pub/media/wysywig`, `pub/media/catalog/category` o in altre cartelle aggiunte dai moduli.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 

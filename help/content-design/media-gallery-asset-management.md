@@ -3,10 +3,10 @@ title: Gestione risorse di Media Gallery
 description: Scopri come gestire i file multimediali caricati e le risorse acquisite tramite un’integrazione Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Gestione risorse di Media Gallery
 
 La nuova [Raccolta file multimediali](media-gallery.md) fornisce gli strumenti per la gestione dei file multimediali caricati e delle risorse acquisite tramite un&#39;integrazione di [Adobe Stock](adobe-stock.md). Se hai salvato una [anteprima immagine](adobe-stock-save-preview.md) di Adobe Stock, puoi anche [concedere in licenza](adobe-stock-license-image.md) l&#39;immagine nella nuova Media Gallery.
+
+Assets può essere caricato solo in `pub/media/wysywig`, `pub/media/catalog/category` o altre cartelle aggiunte dai moduli.
 
 ## Caricare una risorsa
 
@@ -23,7 +25,7 @@ La nuova [Raccolta file multimediali](media-gallery.md) fornisce gli strumenti p
 
 1. Seleziona il file da caricare.
 
-   La risorsa selezionata viene caricata automaticamente nella cartella selezionata (o nella directory principale di archiviazione, se non è selezionata alcuna cartella).
+   La risorsa selezionata viene caricata automaticamente nella cartella selezionata.
 
 ## Visualizza dettagli risorsa
 
