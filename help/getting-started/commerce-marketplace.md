@@ -53,13 +53,13 @@ La chiave di accesso è un insieme di chiavi pubbliche e private utilizzate per 
 
 1. Accedi al tuo account [!DNL Commerce].
 
-1. Nella pagina _[!UICONTROL My Account]_scegliere la scheda **[!UICONTROL Marketplace]**.
+1. Nella pagina _[!UICONTROL My Account]_&#x200B;scegliere la scheda **[!UICONTROL Marketplace]**.
 
 1. Nell&#39;angolo superiore destro accanto al tuo nome, fai clic sulla freccia giù e scegli **[!UICONTROL My Profile]**.
 
    ![Il tuo profilo [!DNL Marketplace]](./assets/marketplace-profile.png){width="600"}
 
-1. Nella scheda _[!UICONTROL Marketplace]_in_[!UICONTROL My Products]_, fare clic su **[!UICONTROL Access Keys]** e quindi eseguire una delle operazioni seguenti:
+1. Nella scheda _[!UICONTROL Marketplace]_&#x200B;in&#x200B;_[!UICONTROL My Products]_, fare clic su **[!UICONTROL Access Keys]** e quindi eseguire una delle operazioni seguenti:
 
    - Controlla se disponi già di un set di chiavi di accesso per gli acquisti Marketplace. È possibile creare più set di chiavi di accesso per scopi diversi.
 
