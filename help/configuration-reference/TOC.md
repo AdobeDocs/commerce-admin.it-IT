@@ -5,10 +5,10 @@ breadcrumb-title: Riferimento configurazione
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 2%
    - [XML Sitemap](./catalog/xml-sitemap.md)
    - [Feed RSS](./catalog/rss-feeds.md)
    - [E-mail a un amico](./catalog/email-to-a-friend.md)
+   - [Attributi del file di prodotto](./catalog/product-file-attributes.md)
 - Sicurezza {#security}
    - [2FA](./security/2fa.md)
    - [Pannello di amministrazione di Google reCAPTCHA](./security/google-recaptcha-admin.md)
@@ -83,4 +84,4 @@ ht-degree: 2%
    - [Amministratore](./advanced/admin.md)
    - [Sistema](./advanced/system.md)
    - [Sviluppatore](./advanced/developer.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
