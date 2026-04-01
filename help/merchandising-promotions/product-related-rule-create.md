@@ -84,7 +84,7 @@ Il processo di creazione di una regola prodotto correlata è simile all&#39;impo
 
 Guarda questo video per scoprire come creare regole di prodotto correlate:
 
->[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411063?captions=ita&quality=12&learn=on)
 
 ## Descrizioni dei campi
 
