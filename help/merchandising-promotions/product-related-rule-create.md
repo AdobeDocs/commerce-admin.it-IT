@@ -3,9 +3,9 @@ title: Creare una regola di prodotto correlata
 description: Scopri come creare una regola di prodotto correlata che può essere attivata per visualizzare prodotti correlati, up-sell e cross-selling.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
+source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Il processo di creazione di una regola prodotto correlata è simile all&#39;impo
 
    - Se la regola si applica a un [segmento cliente](../customers/customer-segments.md) specifico, impostare **[!UICONTROL Customer Segments]** su `Specified` e scegliere il segmento cliente dall&#39;elenco.
 
-   - Se la regola si applica a un pubblico [Real-Time CDP](../customers/audience-activation.md) specifico, impostare **[!UICONTROL Real-Time CDP Audience]** su `Specified` e scegliere il pubblico Real-Time CDP dall&#39;elenco. Questa funzione è in versione beta. Se desideri partecipare al programma beta, invia una richiesta a [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Se la regola si applica a un pubblico [Real-Time CDP](../customers/audience-activation.md) specifico, impostare **[!UICONTROL Real-Time CDP Audience]** su `Specified` e scegliere il pubblico Real-Time CDP dall&#39;elenco.
 
      ![Regola prodotti correlati - Pubblico Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 
@@ -84,7 +84,7 @@ Il processo di creazione di una regola prodotto correlata è simile all&#39;impo
 
 Guarda questo video per scoprire come creare regole di prodotto correlate:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411063?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
 
 ## Descrizioni dei campi
 
