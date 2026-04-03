@@ -1,7 +1,7 @@
 ---
-source-git-commit: 796c435dd627055ca995950c5fe854db28828ba2
+source-git-commit: 7188f09cab97a330d25b625d82d38d56ba9f065c
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '242'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## Novità
 
 Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo elenco sono esclusi tutti gli aggiornamenti minori, ad esempio la modifica della copia.
+
+### 1 aprile 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Sono stati aggiunti i tipi di input <code class="language-plaintext highlighter-rouge">numeric</code> e <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">attribute</a> e una pagina <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">Product File Attributes</a> è stata aggiunta nel riferimento alla configurazione.</p>
+</td>
+      <td>
+        Aggiornamento principale
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/907fc809707f64973e3dffe6f9089ca6bd358989">commit</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 25 marzo 2026
 
@@ -23,7 +45,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Sono state aggiunte istruzioni Adobe Commerce as a Cloud Service a <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">Fornire assistenza agli acquirenti</a>.</p>
+      <td><p>Sono state aggiunte istruzioni Adobe Commerce as a Cloud Service a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">Fornire assistenza agli acquirenti</a>.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -45,7 +67,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">I promemoria e-mail</a> sono ora disponibili in Adobe Commerce as a Cloud Service.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">I promemoria e-mail</a> sono ora disponibili in Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -61,7 +83,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/891fd0f08a952cd38bc92b41a4d54197f58f8a4d">commit</a></td>
     </tr>
     <tr>
-      <td><p>Aggiornate <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/release-notes">Note sulla versione</a> con B2B v1.5.3-beta1 (marzo 2026): miglioramenti di qualità e correzioni di bug per preventivi, elenchi di richieste di acquisto, cataloghi condivisi, pagamento, GraphQL e aree correlate, oltre a correzioni di copia e coerenza minori.</p>
+      <td><p>Aggiornate <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">Note sulla versione</a> con B2B v1.5.3-beta1 (marzo 2026): miglioramenti di qualità e correzioni di bug per preventivi, elenchi di richieste di acquisto, cataloghi condivisi, pagamento, GraphQL e aree correlate, oltre a correzioni di copia e coerenza minori.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -83,7 +105,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stato aggiornato il contrassegno PaaS solo nella pagina del menu <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/reporting/reports-menu">Report</a>.</p>
+      <td><p>È stato aggiornato il contrassegno PaaS solo nella pagina del menu <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">Report</a>.</p>
 </td>
       <td>
         Feedback
@@ -105,64 +127,12 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Aggiornamenti alla documentazione per l'amministratore per la versione di febbraio di Adobe Commerce as a Cloud Service:<br />- Aggiunta documentazione per <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">importi di acquisizione personalizzati</a> durante la creazione di fatture nell'API REST, che consente agli esercenti di acquisire importi personalizzati durante la creazione di fatture per acquisizioni parziali e scenari di pagamento specializzati.<br />- Indica quali report nel <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/reporting/reports-menu">menu Report</a> sono ora solo PaaS.</p>
+      <td><p>Aggiornamenti alla documentazione per l'amministratore per la versione di febbraio di Adobe Commerce as a Cloud Service:<br />- Aggiunta documentazione per <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">importi di acquisizione personalizzati</a> durante la creazione di fatture nell'API REST, che consente agli esercenti di acquisire importi personalizzati durante la creazione di fatture per acquisizioni parziali e scenari di pagamento specializzati.<br />- Indica quali report nel <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">menu Report</a> sono ora solo PaaS.</p>
 </td>
       <td>
         Aggiornamento principale
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/0c602db5a7291b95d725bce59df53923490d6b96">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2 febbraio 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrizione</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Aggiornamento di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Conformità alle normative sui cookie</a> per aggiungere la chiave localStorage <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> mancante e convertire l'elenco dei cookie esenti in un formato tabella.</p>
-</td>
-      <td>
-        Tecnico, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">commit</a></td>
-    </tr>
-    <tr>
-      <td><p>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Sono stati aggiornati i prerequisiti per la configurazione dell’integrazione IMS per Adobe Commerce, al fine di fornire informazioni sulla richiesta di accesso a Adobe Admin Console.</p>
-</td>
-      <td>
-        Tecnico, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/8ea546c5e1cc9296c8b056ea7e25984a66d43851">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 31 gennaio 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrizione</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>È stato aggiornato il <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/customers/customer-groups">Gruppo di clienti</a> nella Guida di gestione clienti per chiarire che gli utenti amministratori non possono modificare il Gruppo di clienti di un cliente dopo che il cliente è stato assegnato a una società.</p>
-</td>
-      <td>
-        Tecnico
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.it-IT/pull/81">richiesta pull</a></td>
     </tr>
   </tbody>
 </table>
