@@ -3,9 +3,9 @@ title: Creare promemoria e-mail
 description: Scopri come impostare una regola di promemoria e-mail che utilizza una regola di prezzo del carrello esistente.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: 43654def3e227127dcf0732962b4f1142a6a3856
+source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Rule]**.
 
-1. Completa _[!UICONTROL Rule Information]_&#x200B;come segue:
+1. Completa _[!UICONTROL Rule Information]_come segue:
 
    ![Regola promemoria e-mail](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -55,9 +55,11 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
    >[!NOTE]
    >
-   >Se un cliente ha più di un carrello abbandonato, una lista dei desideri o una combinazione di entrambi, il promemoria e-mail viene attivato una sola volta per quel cliente. Per attivare nuovamente lo stesso promemoria e-mail, utilizzare il campo _[!UICONTROL Repeat Schedule]_&#x200B;per impostare il numero di giorni tra le e-mail. <br/>
+   >Se un cliente ha più di un carrello abbandonato, una lista dei desideri o una combinazione di entrambi, il promemoria e-mail viene attivato una sola volta per quel cliente. Per attivare nuovamente lo stesso promemoria e-mail, utilizzare il campo _[!UICONTROL Repeat Schedule]_per impostare il numero di giorni tra le e-mail. <br/>
    >
-   >Lo stesso promemoria e-mail è **_non riattivato_** per lo stesso cliente per **_nuovi_** carrelli abbandonati ed elenchi di desideri **_dopo_** il periodo _[!UICONTROL Repeat Schedule]_&#x200B;è terminato.
+   >Lo stesso promemoria e-mail è **_non riattivato_** per lo stesso cliente per **_nuovi_** carrelli abbandonati ed elenchi di desideri **_dopo_** il periodo _[!UICONTROL Repeat Schedule]_è terminato.
+   >
+   >Adobe Commerce as a Cloud Service dispone di una funzione sperimentale che consente di applicare più volte una singola regola. Per ulteriori informazioni, consulta [Ripetibilità regola](#rule-repeatability).
 
    Completa la condizione per descrivere lo scenario che attiva il promemoria e-mail.
 
@@ -65,7 +67,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Emails and Labels]**.
 
-   ![Regola promemoria e-mail - e-mail ed etichette, modelli &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regola promemoria e-mail - e-mail ed etichette, modelli ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. Nella sezione **[!UICONTROL Email Templates]**, scegli il modello di e-mail da utilizzare per ogni sito Web e visualizzazione store nella [gerarchia store](../getting-started/websites-stores-views.md).
 
@@ -83,7 +85,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
      ![Promemoria e-mail - titoli e descrizioni](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - Nella sezione _[!UICONTROL Titles and Descriptions Per Store View]_, immettere **[!UICONTROL Rule Title]**&#x200B;e **[!UICONTROL Description]**&#x200B;per la_ Visualizzazione archivio predefinita _. Per più visualizzazioni dello store, immetti il titolo e la descrizione appropriati per ciascuna di esse.
+   - Nella sezione _[!UICONTROL Titles and Descriptions Per Store View]_, immettere **[!UICONTROL Rule Title]**e **[!UICONTROL Description]**per la_ Visualizzazione archivio predefinita _. Per più visualizzazioni dello store, immetti il titolo e la descrizione appropriati per ciascuna di esse.
 
      >[!NOTE]
      >
@@ -91,7 +93,38 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
      ![Titoli e descrizioni - visualizzazione archivio](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
+1. [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} Se utilizzi [!DNL Adobe Commerce as a Cloud Service], puoi abilitare la [ripetibilità della regola](#rule-repeatability) selezionando la casella di controllo [!UICONTROL Rule Repeatability].
+
+   >[!IMPORTANT]
+   >
+   >L&#39;opzione di ripetibilità della regola è una funzione sperimentale disattivata per impostazione predefinita.  Per informazioni dettagliate sull&#39;abilitazione dell&#39;opzione, vedere [Ripetibilità delle regole](#rule-repeatabilty).
+
 1. Al termine, fare clic su **[!UICONTROL Save]**.
+
+## Ripetibilità delle regole
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+
+>[!IMPORTANT]
+>
+>Questa è una feature sperimentale e non è attivata per impostazione predefinita. Per abilitarlo, contatta il tuo Customer Success Manager Adobe Commerce o crea un ticket di supporto. Sarà reso disponibile a tutti i clienti Adobe Commerce as a Cloud Service in una versione futura.
+
+La ripetibilità delle regole consente di riutilizzare una singola regola per più promemoria e-mail. Questa opzione è utile quando desideri che la regola venga applicata allo stesso cliente in un secondo momento. Senza la ripetibilità delle regole, la regola non si applica più dopo che un cliente ha cancellato il carrello o completato un acquisto.
+
+Se si seleziona la casella di controllo **[!UICONTROL Rule Repeatability]** nella scheda **[!UICONTROL General Information]**, la regola potrà essere nuovamente applicata agli utenti dopo che l&#39;attivazione della regola originale non sarà più applicabile.
+
+![Ripetibilità regola](./assets/rule-repeatability.png){width="600" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+Prendi in considerazione l’esempio seguente:
+
+Hai una regola del carrello abbandonata che viene attivata dopo 1 giorno e si riattiva 3 e 5 giorni dopo. Un utente abbandona un carrello e 1 giorno dopo riceve un promemoria e-mail del carrello abbandonato. Dopo 2 giorni, l’utente decide di completare l’acquisto. Il carrello non viene più abbandonato. 10 giorni dopo, l’utente abbandona un nuovo carrello con articoli diversi.
+
+- Se **[!UICONTROL Rule Repeatability]** è abilitato, l&#39;utente riceve un nuovo promemoria e-mail del carrello abbandonato.
+- Se **[!UICONTROL Rule Repeatability]** è disabilitato, l&#39;utente **non** riceve altri promemoria e-mail del carrello abbandonato.
+
+>[!ENDSHADEBOX]
 
 ## Condizioni di attivazione
 
