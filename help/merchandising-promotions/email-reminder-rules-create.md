@@ -93,7 +93,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
      ![Titoli e descrizioni - visualizzazione archivio](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} Se utilizzi [!DNL Adobe Commerce as a Cloud Service], puoi abilitare la [ripetibilità della regola](#rule-repeatability) selezionando la casella di controllo [!UICONTROL Rule Repeatability].
+1. [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} Se utilizzi [!DNL Adobe Commerce as a Cloud Service], puoi abilitare la [ripetibilità della regola](#rule-repeatability) selezionando la casella di controllo [!UICONTROL Rule Repeatability].
 
    >[!IMPORTANT]
    >
@@ -103,7 +103,7 @@ Prima di impostare una regola di promemoria e-mail, devi prima [impostare una re
 
 ## Ripetibilità delle regole
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
 
 >[!IMPORTANT]
 >
