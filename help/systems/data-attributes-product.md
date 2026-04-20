@@ -3,7 +3,7 @@ title: Riferimento attributi dati prodotto
 description: Utilizza questo riferimento degli attributi dei dati del prodotto quando utilizzi importazioni ed esportazioni di dati del prodotto.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Nell’installazione utilizzata per esportare questi dati sono installati i dati
 | `store_view_code` | Identifica le visualizzazioni specifiche dello store in cui il prodotto è disponibile. Se questo campo viene lasciato vuoto, il prodotto sarà disponibile nella visualizzazione predefinita del Negozio. Esempio: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Assegna il prodotto a una serie di attributi o a un modello di prodotto specifici, in base al tipo di prodotto. Ad esempio: `default`<br><br>Dopo la creazione del prodotto, non è possibile modificare il set di attributi utilizzando la funzionalità di importazione. Tuttavia, puoi modificare il set di attributi da Amministratore ed esportare nuovamente il prodotto per aggiornare il file CSV . |
 | `product_type` | Indica il tipo di prodotto. Valori:<br/>`simple` — Articoli materiali di solito venduti come unità singole o in quantità fisse.<br/>`grouped` — Gruppo di prodotti separati venduti come set.<br/>`configurable` — Prodotto con più opzioni che il cliente deve selezionare prima di effettuare un acquisto. L&#39;inventario può essere gestito per ogni set di varianti perché rappresenta un prodotto separato con una SKU distinta. Ad esempio, una combinazione di colore e dimensioni per un prodotto configurabile è associata a una SKU specifica nel catalogo.<br/>`virtual` — Prodotto non tangibile che non richiede spedizione e che non è conservato in magazzino. Alcuni esempi includono servizi, appartenenze e abbonamenti.<br/>`bundle`: un set di prodotti personalizzabile di prodotti semplici venduti insieme. |
-| `categories` | Indica ogni categoria assegnata al prodotto. Separa le categorie e le sottocategorie con una barra. Per indicare più percorsi di categoria, separare ogni percorso con una barra verticale \| simbolo. Esempio: `Default Category/Gear\|Default Category/Gear/Bags` |
+| `categories` | Indica ogni categoria assegnata al prodotto. Separa le categorie e le sottocategorie con una barra. Per indicare più percorsi di categoria, separare ogni percorso con il simbolo \| della barra verticale. Esempio: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | Il codice del sito web di ciascun sito web in cui il prodotto è disponibile. Un singolo prodotto può essere assegnato a più siti web o limitato a uno solo. Se si specificano più siti Web, separarli con una virgola e senza spazi. Ad esempio: `base` o `base,website2` |
 | `name` | Il nome del prodotto viene visualizzato in tutti gli elenchi di prodotti e corrisponde al nome utilizzato dai clienti per identificare il prodotto. |
 | `description` | La descrizione del prodotto fornisce informazioni dettagliate sul prodotto e potrebbe includere semplici tag HTML. |
@@ -95,7 +95,7 @@ Nell’installazione utilizzata per esportare questi dati sono installati i dati
 | `upsell_position` | Determina la posizione (ordinamento) degli SKU elencati come prodotti di upselling nella colonna `upsell_skus`. |
 | `additional_images` | I nomi dei file di qualsiasi immagine aggiuntiva da associare al prodotto, preceduti da una barra. Esempio: `/image.jpg` |
 | `additional_image_labels` | Etichette associate a eventuali immagini aggiuntive. Esempio: `Label 1`, `Label 2` |
-| `custom_options` | Specifica le proprietà e i valori assegnati a ciascuna opzione personalizzata. Esempio: <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
+| `custom_options` | Specifica le proprietà e i valori assegnati a ciascuna opzione personalizzata. Esempio: <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black\|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
 
 {style="table-layout:auto"}
 
@@ -130,7 +130,7 @@ Se esportate un prodotto configurabile, troverete gli attributi standard che com
 | Attributo | Descrizione |
 |--- |--- |
 | `configurable_variation_labels` | Etichette che identificano le varianti di prodotto. Ad esempio: `Choose Color:` o `Choose Size:` |
-| `configurable_variations` | Descrive i valori associati a una variante di prodotto. Esempio: `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png` |
+| `configurable_variations` | Descrive i valori associati a una variante di prodotto. Esempio: `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png\|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png` |
 
 {style="table-layout:auto"}
 

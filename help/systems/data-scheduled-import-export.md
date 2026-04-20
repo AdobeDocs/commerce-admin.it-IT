@@ -3,7 +3,7 @@ title: Importazione ed esportazione pianificate
 description: Scopri come gestire le operazioni pianificate di importazione ed esportazione dei dati.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Le importazioni e le esportazioni programmate possono essere eseguite su base gi
    >
    >Quando si crea o si aggiorna un&#39;importazione/esportazione pianificata, viene apportata una modifica alla configurazione del sistema. Dopo il salvataggio, assicurati di risolvere l’avviso di annullamento della validità della cache che viene visualizzato nella parte superiore della pagina Amministratore e di svuotare la cache per applicare la pianificazione nuova o aggiornata.
 
-1. [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni processo pianificato, una copia del file viene inserita nella directory `var/log/import_export` sul server locale di Adobe Commerce.
+1. [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni processo pianificato, una copia del file viene inserita nella directory `var/log/import_export` sul server locale di Adobe Commerce.
 
    I dettagli di ciascuna operazione non vengono scritti nel registro. Se si verifica un errore, viene inviata una notifica del processo di importazione/esportazione non riuscito, con una descrizione dell’errore.
 
@@ -48,7 +48,7 @@ Il vantaggio dell&#39;utilizzo dell&#39;importazione pianificata è che è possi
 
 I dettagli di ciascuna operazione di importazione non vengono scritti in un log, ma quando si verifica un errore si riceve un messaggio di posta elettronica di _Importazione non riuscita_ con una descrizione dell&#39;errore. Il risultato dell&#39;ultimo processo di importazione programmato viene visualizzato nella colonna Ultimo risultato della pagina Importazione/esportazione programmata.
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni operazione di importazione, una copia del file di importazione viene inserita nella directory `var/log/import_export` del server in cui è distribuito Adobe Commerce o Magento Open Source. Al nome del file di importazione vengono aggiunti la marca temporale, il marcatore dell’entità importata (prodotti o clienti) e il tipo di operazione (in questo caso, importazione).
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni operazione di importazione, una copia del file di importazione viene inserita nella directory `var/log/import_export` del server in cui è distribuito Adobe Commerce o Magento Open Source. Al nome del file di importazione vengono aggiunti la marca temporale, il marcatore dell’entità importata (prodotti o clienti) e il tipo di operazione (in questo caso, importazione).
 
 Dopo ogni processo di importazione pianificato, viene eseguita automaticamente un&#39;operazione di reindicizzazione. Nel front-end, le modifiche nelle descrizioni e in altre informazioni di testo vengono applicate dopo che i dati aggiornati vengono inviati al database e le modifiche nei prezzi vengono applicate solo dopo l&#39;operazione di reindicizzazione.
 
@@ -83,7 +83,7 @@ Dopo ogni processo di importazione pianificato, viene eseguita automaticamente u
 
      >[!NOTE]
      >
-     >Per i tipi di entità _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;e&#x200B;_[!UICONTROL Stock Sources]_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update`, `Replace` e `Delete`. Per i tipi di entità _Finanze cliente_, _File principale clienti_ e _Clienti e indirizzi_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update Complex Data`, `Delete Entities` e `Custom Action`.
+     >Per i tipi di entità _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_e_[!UICONTROL Stock Sources]_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update`, `Replace` e `Delete`. Per i tipi di entità _Finanze cliente_, _File principale clienti_ e _Clienti e indirizzi_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update Complex Data`, `Delete Entities` e `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Impostare su ora, minuto e secondo per l&#39;inizio pianificato dell&#39;importazione.
 
@@ -155,7 +155,7 @@ Dopo ogni processo di importazione pianificato, viene eseguita automaticamente u
 #### [!UICONTROL Import Settings]
 
 | Campo | Descrizione |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Name] | Nome dell’importazione. Consente di distinguere se vengono create molte importazioni pianificate diverse. |
 | [!UICONTROL Description] | (Facoltativo) È possibile immettere una descrizione. |
 | [!UICONTROL Entity Type] | Definisce i dati da importare. |
@@ -172,7 +172,7 @@ Dopo ogni processo di importazione pianificato, viene eseguita automaticamente u
 #### [!UICONTROL Import File Information]
 
 | Campo | Descrizione |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Server Type] | È possibile importare da un file nello stesso server in cui è distribuito Commerce (selezionare `Local Server`) o dal server FTP remoto (selezionare `Remote FTP`). Se si seleziona _[!UICONTROL Remote FTP]_, verranno visualizzate ulteriori opzioni per le credenziali e le impostazioni di trasferimento dei file. Se il modulo di archiviazione remota è abilitato, il tipo `Local Server` viene automaticamente cambiato in `Remote Storage`. |
 | [!UICONTROL File Directory] | Specificare la directory in cui si trova il file di importazione. Se Tipo server è impostato su _[!UICONTROL Local Server]_, specificare il percorso relativo alla directory di installazione di Commerce. Ad esempio: `var/import` o `import_export/import` per l&#39;archiviazione remota. |
 | [!UICONTROL File Name] | Specificare il nome del file di importazione. |
@@ -183,7 +183,7 @@ Dopo ogni processo di importazione pianificato, viene eseguita automaticamente u
 #### [!UICONTROL Import Failed Emails]
 
 | Campo | Descrizione |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Failed Email Receiver] | Se l’importazione non riesce, specifica l’indirizzo e-mail a cui viene inviata una notifica e-mail (e-mail di importazione non riuscita). |
 | [!UICONTROL Failed Email Sender] | Specifica l’indirizzo e-mail utilizzato come mittente per l’e-mail di importazione non riuscita. |
 | [!UICONTROL Failed Email Template] | Seleziona un modello per l’e-mail di importazione non riuscita. Per impostazione predefinita, è disponibile solo l&#39;opzione Importazione non riuscita (modello predefinito da impostazioni internazionali). È possibile creare modelli personalizzati in _[!UICONTROL System]_>_[!UICONTROL Transactional Emails]_. |
@@ -203,7 +203,7 @@ Il vantaggio di utilizzare l&#39;esportazione pianificata è che è possibile es
 
 I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in caso di errore si riceve un messaggio e-mail Esportazione non riuscita, contenente la descrizione dell’errore. Il risultato dell&#39;ultimo processo di esportazione viene visualizzato nella colonna Ultimo risultato della pagina Importazione/esportazione pianificata.
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni esportazione, il file di esportazione viene inserito nel percorso definito dall&#39;utente e una copia nella directory `var/log/import_export` sul server in cui è distribuito Adobe Commerce o Magento Open Source. Al nome del file di esportazione vengono aggiunti la marca temporale e l’indicatore dell’entità esportata (prodotti o clienti) e il tipo di operazione (in questo caso, esportazione).
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni esportazione, il file di esportazione viene inserito nel percorso definito dall&#39;utente e una copia nella directory `var/log/import_export` sul server in cui è distribuito Adobe Commerce o Magento Open Source. Al nome del file di esportazione vengono aggiunti la marca temporale e l’indicatore dell’entità esportata (prodotti o clienti) e il tipo di operazione (in questo caso, esportazione).
 
 ### Passaggio 1: completare le impostazioni di esportazione
 
@@ -224,7 +224,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
       - `Customer Addresses`
       - `Stock Sources`
 
-     La sezione _[!UICONTROL Entity Attributes]_&#x200B;nella parte inferiore della pagina viene aggiornata per riflettere il tipo di entità selezionato.
+     La sezione _[!UICONTROL Entity Attributes]_nella parte inferiore della pagina viene aggiornata per riflettere il tipo di entità selezionato.
 
    - Impostare **[!UICONTROL Start Time]** sull&#39;ora, il minuto e il secondo per cui è pianificato l&#39;inizio dell&#39;esportazione.
 
@@ -258,7 +258,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
    - Per **[!UICONTROL Local Server]**, immettere un percorso relativo nell&#39;installazione di Commerce, ad esempio `var/export`. Se il modulo di archiviazione remota è configurato, utilizzare `import_export/export`.
    - Per **[!UICONTROL Remote FTP server]**, immettere l&#39;URL completo e il percorso della cartella di destinazione sul server di destinazione.
 
-1. Se il server _[!UICONTROL Remote FTP]_&#x200B;è selezionato, immettere le credenziali di connessione al server e selezionare altre impostazioni:
+1. Se il server _[!UICONTROL Remote FTP]_è selezionato, immettere le credenziali di connessione al server e selezionare altre impostazioni:
 
    - Per **[!UICONTROL FTP Host[:Port]]**, immettere l&#39;indirizzo host FTP remoto.
    - Per **[!UICONTROL User Name]**, immettere il nome utente utilizzato per accedere al server remoto.
@@ -285,7 +285,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
 
 ### Passaggio 4: scegliere gli attributi di entità
 
-1. Nella sezione _[!UICONTROL Entity Attributes]_&#x200B;scegliere gli attributi che si desidera includere nei dati di esportazione.
+1. Nella sezione _[!UICONTROL Entity Attributes]_scegliere gli attributi che si desidera includere nei dati di esportazione.
 
    - Per filtrare i dati di esportazione in base al valore degli attributi, immettere il valore dell&#39;attributo nella colonna _[!UICONTROL Filter]_.
    - Per escludere prodotti o clienti con determinati valori di attributo, immettere i valori degli attributi che si desidera escludere e selezionare la casella di controllo nella colonna Ignora.
@@ -303,7 +303,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
 #### [!UICONTROL Export Settings]
 
 | Campo | Descrizione |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Name] | Nome dell’esportazione. Consente di distinguere se vengono create molte esportazioni pianificate diverse. |
 | [!UICONTROL Description] | (Facoltativo) Una descrizione dell&#39;esportazione pianificata. |
 | [!UICONTROL Entity Type] | Identifica i dati da esportare. Dopo la selezione, gli attributi di entità vengono visualizzati di seguito. Opzioni: `Advanced Pricing` / `Products` / `Customer Finances` / `Customers Main File` / `Customer Addresses` / `Stock Sources` |
@@ -317,16 +317,16 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
 #### [!UICONTROL Export Settings Information]
 
 | Campo | Descrizione |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Server Type] | Determina la posizione del file di esportazione. Opzioni:<br>**Server locale** - Posiziona il file di esportazione nello stesso server in cui è distribuito Commerce. Se il modulo di archiviazione remota è abilitato, `Local Server` viene cambiato in `Remote Storage`.<br>**FTP remoto** - inserisce il file di esportazione in un server remoto. Vengono visualizzate opzioni aggiuntive per le credenziali e le impostazioni di trasferimento dei file. |
-| [!UICONTROL File Directory] | Specificare la directory in cui si trova il file di esportazione. Se _[!UICONTROL Server Type]_&#x200B;è impostato su `Local Server`, specificare il percorso relativo al percorso di installazione di Commerce. Ad esempio, `var/export` o `import_export/export` per l&#39;archiviazione remota. |
+| [!UICONTROL File Directory] | Specificare la directory in cui si trova il file di esportazione. Se _[!UICONTROL Server Type]_è impostato su `Local Server`, specificare il percorso relativo al percorso di installazione di Commerce. Ad esempio, `var/export` o `import_export/export` per l&#39;archiviazione remota. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Export Failed Emails]
 
 | Campo | Descrizione |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Failed Email Receiver] | Specifica l’indirizzo e-mail a cui inviare una notifica e-mail (e-mail di esportazione non riuscita) se l’esportazione non riesce. |
 | [!UICONTROL Failed Email Sender] | Specifica l’indirizzo e-mail utilizzato come mittente e-mail non riuscito per l’esportazione. |
 | [!UICONTROL Failed Email Template] | Seleziona un modello per l’e-mail di esportazione non riuscita. Per impostazione predefinita, è disponibile solo l&#39;opzione `Export Failed (Default Template from Locale)`. |

@@ -3,7 +3,7 @@ title: Note sulla versione per  [!DNL Page Builder]
 description: Consulta le note sulla versione per informazioni su tutte le  [!DNL Page Builder]  versioni.
 exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
-source-git-commit: addc34aeb4418aa3a1a9c2fc3adca738352ef94f
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2813'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Queste note sulla versione descrivono le versioni di [!DNL Page Builder] e inclu
 
 >[!IMPORTANT]
 >
->A partire dalla versione 2.4.3, [!DNL Page Builder] è ora disponibile come estensione in bundle nel Magento Open Source. Ora è lo strumento di modifica dei contenuti predefinito sia per Adobe Commerce che per Magento Open Source e può sostituire l’editor WYSIWG con qualsiasi modulo di terze parti.
+>A partire dalla versione 2.4.3, [!DNL Page Builder] è ora disponibile come estensione in bundle in Magento Open Source. Ora è lo strumento di modifica dei contenuti predefinito sia per Adobe Commerce che per Magento Open Source e può sostituire l’editor WYSIWG con qualsiasi modulo di terze parti.
 
 ## 1.7.2 per Commerce 2.4.5
 
@@ -30,9 +30,10 @@ Queste note sulla versione descrivono le versioni di [!DNL Page Builder] e inclu
 
 ![Nuovo](../assets/new.svg) **Nuove opzioni di menu per duplicare, nascondere ed eliminare i gruppi di colonne**. Con queste nuove opzioni, gli utenti possono duplicare, nascondere ed eliminare [!DNL Columns] gruppi, esattamente come con i tipi di contenuto.<!--- PB-507-->
 
-![Nuovo](../assets/new.svg) <!-- Issue 594 -->**È stato aggiunto il supporto per nuove colonne su più righe al gruppo di colonne**. Con questa aggiunta, gli utenti possono manipolare più righe di colonne all&#39;interno di un gruppo [!DNL Columns] per rendere molto più flessibili i layout delle colonne.<!--- PB-108-->
+![Nuovo](../assets/new.svg) <!-- Issue 594 -->**È stato aggiunto il supporto per nuove colonne su più righe al gruppo di colonne**. Con questa aggiunta, gli utenti possono manipolare più righe di colonne all&#39;interno di un gruppo [!DNL Columns] per rendere i layout delle colonne molto più flessibili.
+<!--- PB-108-->
 
-Per informazioni sull&#39;utilizzo del nuovo gruppo [!DNL Columns], vedere [Layout - Colonna](./column.md).
+Per informazioni sull&#39;utilizzo del nuovo gruppo [, vedere ](./column.md)Layout - Colonna[!DNL Columns].
 
 ## 1.7.1 per Commerce 2.4.4
 
@@ -40,7 +41,7 @@ Per informazioni sull&#39;utilizzo del nuovo gruppo [!DNL Columns], vedere [Layo
 
 ![Problema risolto](../assets/fix.svg) I commercianti possono ora aggiungere testo alternativo (`alt_text`) alle immagini (immagine, banner, diapositiva) per migliorare l&#39;accessibilità del contenuto.<!--- PB-1193-->
 
-![È stato risolto il problema](../assets/fix.svg). Gli utenti amministratori con autorizzazioni limitate alla sola modifica del contenuto non visualizzano più un errore quando utilizzano Page Builder per aggiungere un widget di prodotto a una pagina CMS. Page Builder visualizza anche un conteggio accurato dei prodotti nella pagina delle impostazioni del widget. In precedenza, Page Builder richiedeva le autorizzazioni per il modulo Catalogo durante il recupero del conteggio dei prodotti e visualizzava questo errore: `A technical problem with the server created an error. Try again to continue what you were doing. If the problem persists, try again later`. <!--- MC-42779-->
+![È stato risolto il problema](../assets/fix.svg). Gli utenti amministratori con autorizzazioni limitate alla modifica del contenuto non visualizzano più un errore quando utilizzano Page Builder per aggiungere un widget di prodotto a una pagina CMS. Page Builder visualizza anche un conteggio accurato dei prodotti nella pagina delle impostazioni del widget. In precedenza, Page Builder richiedeva le autorizzazioni per il modulo Catalogo durante il recupero del conteggio dei prodotti e visualizzava questo errore: `A technical problem with the server created an error. Try again to continue what you were doing. If the problem persists, try again later`. <!--- MC-42779-->
 
 ![Problema risolto](../assets/fix.svg) I problemi di visualizzazione del menu Formato Page Builder ora vengono risolti con l&#39;aggiornamento della libreria TinyMCE 5. <!--- AC-446-->
 
@@ -68,7 +69,7 @@ Per informazioni sull&#39;utilizzo del nuovo gruppo [!DNL Columns], vedere [Layo
 
 ![Nuovo](../assets/new.svg) <!-- Issue 558 -->**Nuovo stile [!DNL Page Builder]** - [!DNL Page Builder] ha apportato notevoli miglioramenti alla modalità di creazione degli stili del contenuto. Le modifiche ora semplificano la creazione di semplici selettori CSS per ignorare gli stili del tipo di contenuto esistenti. Queste modifiche consentono di creare [!DNL Page Builder] temi con tempi di risposta avanzati per tutti i tipi di contenuto.
 
-![Nuovo](../assets/new.svg) <!-- Issue 429 -->**Contenitore riga ora facoltativo** - È ora possibile creare contenuto in [!DNL Page Builder] senza richiedere un contenitore Riga. Oltre alla riga, è ora possibile trascinare e rilasciare direttamente sullo stage i seguenti tipi di contenuto: HTML, Blocco, Blocco dinamico, Colonne e Schede.
+![Nuovo](../assets/new.svg) <!-- Issue 429 -->**Contenitore riga ora facoltativo** - È ora possibile creare contenuto in [!DNL Page Builder] senza richiedere un contenitore Riga. Oltre alla riga, ora è possibile trascinare e rilasciare direttamente sullo stage i seguenti tipi di contenuto: HTML, Blocco, Blocco dinamico, Colonne e Schede.
 
 ![Nuovo](../assets/new.svg) <!-- Issue 636 -->**Nuovo commutatore del riquadro di visualizzazione reattivo** - È ora possibile visualizzare in anteprima il contenuto di [!DNL Page Builder] con larghezze del dispositivo diverse (punti di interruzione) utilizzando i nuovi pulsanti del commutatore del riquadro di visualizzazione Amministratore sopra l&#39;area di visualizzazione. Il selettore del riquadro di visualizzazione simula lo stile del contenuto quando viene visualizzato nella vetrina utilizzando dispositivi diversi.
 
@@ -94,7 +95,7 @@ Per informazioni sull&#39;utilizzo del nuovo gruppo [!DNL Columns], vedere [Layo
 
 ![Nuovo](../assets/new.svg) <!-- Issue 510, 511, 512, 513 -->**Modifica coinvolgente a schermo intero** - La modifica del contenuto di [!DNL Page Builder] è ora a schermo intero solo per tutte le aree controllate da [!DNL Page Builder]. Questa modifica include pagine CMS, pagine di prodotti e categorie, blocchi e blocchi dinamici. La modifica a schermo intero consente di mettere a fuoco i contenuti e offre una visualizzazione che corrisponde meglio all&#39;esperienza utente nella vetrina.
 
-![Nuovi](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] anteprime dei contenuti &#x200B;**- Per impostazione predefinita, [!DNL Page Builder] ora fornisce anteprime dei contenuti non solo per pagine CMS, blocchi e blocchi dinamici, ma anche per pagine di prodotti e categorie. È possibile configurare questa funzione in modo che sia attivata o disattivata per le pagine di prodotti e categorie utilizzando la nuova impostazione Anteprima contenuto [!DNL Page Builder], a cui si accede nella configurazione dello store in Gestione contenuto > Strumenti di contenuto avanzati.
+![Nuovi](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] anteprime dei contenuti **- Per impostazione predefinita, [!DNL Page Builder] ora fornisce anteprime dei contenuti non solo per pagine, blocchi e blocchi dinamici di CMS, ma anche per pagine di prodotti e categorie. È possibile configurare questa funzione in modo che sia attivata o disattivata per le pagine di prodotti e categorie utilizzando la nuova impostazione Anteprima contenuto [!DNL Page Builder], a cui si accede nella configurazione dello store in Gestione contenuto > Strumenti di contenuto avanzati.
 
 ![Nuovo](../assets/new.svg) <!-- Issue 543 -->**Accesso migliorato alle descrizioni brevi del prodotto** - Per impostazione predefinita, viene ora visualizzata una descrizione breve del prodotto prima della descrizione più lunga. Questa modifica determina una corrispondenza con l’ordine in cui vengono visualizzate nella vetrina e impedisce la necessità di scorrere il contenuto della descrizione più lunga per accedere alla descrizione breve.
 
@@ -168,7 +169,7 @@ Questa versione di [!DNL Page Builder] è solo un aggiornamento del numero di ve
 
 ## 1.3.0 per Adobe Commerce 2.3.5
 
-![Nuovo](../assets/new.svg) **Modelli** - [!DNL Page Builder] ora dispone di modelli che possono essere creati dal contenuto esistente e applicati alle nuove aree di contenuto. I modelli [!DNL Page Builder] salvano sia il contenuto che i layout di pagine, blocchi, blocchi dinamici, attributi di prodotto e descrizioni delle categorie esistenti. Ad esempio, puoi salvare come modello una pagina CMS [!DNL Page Builder] esistente e quindi applicare tale modello (con tutti i relativi contenuti e layout) per creare rapidamente pagine CMS per il sito. Questa nuova funzione è documentata qui: [Modelli](templates.md).
+![Nuovo](../assets/new.svg) **Modelli** - [!DNL Page Builder] ora dispone di modelli che possono essere creati dal contenuto esistente e applicati alle nuove aree di contenuto. I modelli [!DNL Page Builder] salvano sia il contenuto che i layout di pagine, blocchi, blocchi dinamici, attributi di prodotto e descrizioni delle categorie esistenti. È ad esempio possibile salvare come modello una pagina CMS [!DNL Page Builder] esistente e quindi applicare il modello (con tutto il relativo contenuto e layout) per creare rapidamente pagine CMS per il sito. Questa nuova funzione è documentata qui: [Modelli](templates.md).
 
 ![Nuovo](../assets/new.svg) **Sfondi video per righe, banner e cursori** - [!DNL Page Builder] righe, banner e cursori ora possono utilizzare video per i loro sfondi. Queste nuove funzioni sono documentate qui: [Rows](row.md), [Banners](banner.md), [Sliders](slider.md).
 
@@ -186,16 +187,16 @@ Questa versione di [!DNL Page Builder] è solo un aggiornamento del numero di ve
 
 ![Problema risolto](../assets/fix.svg) **Varie correzioni**
 
-- &#x200B;<!-- PB-50 -->È stato risolto un problema a causa del quale il menu TinyMCE per il contenuto della diapositiva veniva visualizzato sotto altri tipi di contenuto se il contenitore principale della diapositiva era duplicato.
-- &#x200B;<!-- PB-166 -->[!DNL Page Builder] è stato aggiornato per implementare un metodo di eliminazione per evitare perdite di memoria in alcuni scenari.
-- &#x200B;<!-- PB-170 -->Sono state migliorate le prestazioni di TinyMCE quando si utilizzano più istanze in Admin Stage.
-- &#x200B;<!-- PB-252 -->È stato risolto un problema a causa del quale il tipo di contenuto Blocco dinamico non viene riprodotto in Admin stage se la riga superiore è contrassegnata come nascosta.
-- &#x200B;<!-- PB-273 -->È stato perfezionato il passaggio del mouse sugli eventi in Admin Stage, rimuovendo un ritardo di 200 ms dai vari controlli dell’interfaccia utente. Questa modifica semplifica l’utilizzo degli elementi di contenuto nidificati nell’area di visualizzazione.
-- &#x200B;<!-- PB-294 -->È stato risolto un problema che causava l’escape errato del simbolo di valuta nel widget Elenco prodotti all’interno del Blocco/Blocco dinamico nella fase di amministrazione.
-- &#x200B;<!-- PB-296 -->È stato risolto un problema che impediva il funzionamento del totale dei prodotti nel pannello di modifica [!DNL Page Builder] per i prodotti MSI azionari personalizzati.
-- &#x200B;<!-- PB-317 -->È stato risolto un problema a causa del quale il salvataggio di contenuto [!DNL Page Builder] con immagini di sfondo in Microsoft Edge non riproduceva tali immagini nella vetrina.
-- &#x200B;<!-- PB-390 -->È stato risolto un problema che impediva il salvataggio del contenuto [!DNL Page Builder] nidificato se gli utenti facevano clic sul pulsante Salva prima del rendering completo della pagina.
-- &#x200B;<!-- PB-418 -->È stata corretta un&#39;eccezione di errore generata nei processi cron a causa di [!DNL Page Builder] analisi.
+- <!-- PB-50 -->È stato risolto un problema a causa del quale il menu TinyMCE per il contenuto della diapositiva veniva visualizzato sotto altri tipi di contenuto se il contenitore principale della diapositiva era duplicato.
+- <!-- PB-166 -->[!DNL Page Builder] è stato aggiornato per implementare un metodo di eliminazione per evitare perdite di memoria in alcuni scenari.
+- <!-- PB-170 -->Sono state migliorate le prestazioni di TinyMCE quando si utilizzano più istanze in Admin Stage.
+- <!-- PB-252 -->È stato risolto un problema a causa del quale il tipo di contenuto Blocco dinamico non viene riprodotto in Admin stage se la riga superiore è contrassegnata come nascosta.
+- <!-- PB-273 -->È stato perfezionato il passaggio del mouse sugli eventi in Admin Stage, rimuovendo un ritardo di 200 ms dai vari controlli dell’interfaccia utente. Questa modifica semplifica l’utilizzo degli elementi di contenuto nidificati nell’area di visualizzazione.
+- <!-- PB-294 -->È stato risolto un problema che causava l’escape errato del simbolo di valuta nel widget Elenco prodotti all’interno del Blocco/Blocco dinamico nella fase di amministrazione.
+- <!-- PB-296 -->È stato risolto un problema che impediva il funzionamento del totale dei prodotti nel pannello di modifica [!DNL Page Builder] per i prodotti MSI azionari personalizzati.
+- <!-- PB-317 -->È stato risolto un problema a causa del quale il salvataggio di contenuto [!DNL Page Builder] con immagini di sfondo in Microsoft Edge non riproduceva tali immagini nella vetrina.
+- <!-- PB-390 -->È stato risolto un problema che impediva il salvataggio del contenuto [!DNL Page Builder] nidificato se gli utenti facevano clic sul pulsante Salva prima del rendering completo della pagina.
+- <!-- PB-418 -->È stata corretta un&#39;eccezione di errore generata nei processi cron a causa di [!DNL Page Builder] analisi.
 
 ## 1.2.2 per Adobe Commerce 2.3.4-p2
 
@@ -207,7 +208,7 @@ Questa versione di [!DNL Page Builder] è solo un aggiornamento del numero di ve
 
 ## 1.2.0 per Adobe Commerce 2.3.4
 
-Integrazione ![New](../assets/new.svg) **[!DNL Page Builder]con PWA Studio** - Aggiunta del rendering del contenuto [!DNL Page Builder] all&#39;app Venia in PWA Studio. È ora possibile visualizzare il contenuto [!DNL Page Builder] nell&#39;app PWA Studio Venia. Per informazioni su questa nuova funzionalità, consulta la documentazione di [!DNL Page Builder] in [PWA Studi].
+Integrazione ![New](../assets/new.svg) **[!DNL Page Builder]con PWA Studio** - Aggiunta del rendering di [!DNL Page Builder] contenuti all&#39;app Venia in PWA Studio. È ora possibile visualizzare il contenuto [!DNL Page Builder] nell&#39;app PWA Studio Venia. Per tutte le informazioni su questa nuova funzionalità, vedere la documentazione di [!DNL Page Builder] in [PWA Studio].
 
 ![Nuovo](../assets/new.svg) **Carosello prodotto aggiunto** - <!-- PB-77, PB-173, PB-175 -->Il tipo di contenuto Prodotti ora fornisce un&#39;opzione per visualizzare i prodotti in un formato carosello/cursore, incluse diverse opzioni per personalizzare il carosello in base alle tue esigenze.
 
@@ -219,14 +220,14 @@ Integrazione ![New](../assets/new.svg) **[!DNL Page Builder]con PWA Studio** - A
 
 ![Problema risolto](../assets/fix.svg) **Varie correzioni**
 
-- &#x200B;<!-- PB-237 -->Miglioramenti di sicurezza.
-- &#x200B;<!-- PB-41 -->Sono state corrette le ricerche all’interno dei componenti di selezione dell’interfaccia utente per effettuare una sola richiesta AJAX per termine di ricerca.
-- &#x200B;<!-- PB-76, PB-84-->Le anteprime dei prodotti nell&#39;amministratore sono state aggiornate per corrispondere alla vetrina, incluse le opzioni di valutazione a stelle, colore e dimensione del prodotto, se pertinenti.
-- &#x200B;<!-- PB-169 -->È stato risolto un problema che impediva il salvataggio di [!DNL Page Builder] se in Commerce erano abilitati la minimizzazione e il bundling di JavaScript.
-- &#x200B;<!-- PB-241 -->Sono state corrette le anteprime amministratore di Prodotti, Blocchi e Blocchi dinamici per eseguire correttamente il rendering sulle installazioni di Commerce che definiscono URL diversi per l’Amministratore e il front-end.
-- &#x200B;<!-- PB-238 -->Sono state corrette le anteprime amministratore di Prodotti, Blocchi e Blocchi dinamici per eseguire correttamente il rendering sulle installazioni di Commerce con B2B installato con l&#39;opzione _Solo accesso_ abilitata. Prima di questa correzione, l&#39;anteprima di [!DNL Page Builder] causerebbe il reindirizzamento della pagina all&#39;accesso dell&#39;account cliente.
-- &#x200B;<!-- PB-239 -->È stato corretto un errore di sessione che poteva verificarsi durante l&#39;anteprima di una pagina grande nell&#39;amministratore [!DNL Page Builder].
-- &#x200B;<!-- PB-248 -->Sono stati aggiornati [!DNL Page Builder] stili in meno per impedire la duplicazione degli stili della vetrina.
+- <!-- PB-237 -->Miglioramenti di sicurezza.
+- <!-- PB-41 -->Sono state corrette le ricerche all’interno dei componenti di selezione dell’interfaccia utente per effettuare una sola richiesta AJAX per termine di ricerca.
+- <!-- PB-76, PB-84-->Le anteprime dei prodotti nell&#39;amministratore sono state aggiornate per corrispondere alla vetrina, incluse le opzioni di valutazione a stelle, colore e dimensione del prodotto, se pertinenti.
+- <!-- PB-169 -->È stato risolto un problema che impediva il salvataggio di [!DNL Page Builder] se in Commerce erano abilitati la minimizzazione e il bundling di JavaScript.
+- <!-- PB-241 -->Sono state corrette le anteprime amministratore di Prodotti, Blocchi e Blocchi dinamici per eseguire correttamente il rendering sulle installazioni di Commerce che definiscono URL diversi per l’Amministratore e il front-end.
+- <!-- PB-238 -->Sono state corrette le anteprime amministratore di Prodotti, Blocchi e Blocchi dinamici per eseguire correttamente il rendering sulle installazioni di Commerce con B2B installato con l&#39;opzione _Solo accesso_ abilitata. Prima di questa correzione, l&#39;anteprima di [!DNL Page Builder] causerebbe il reindirizzamento della pagina all&#39;accesso dell&#39;account cliente.
+- <!-- PB-239 -->È stato corretto un errore di sessione che poteva verificarsi durante l&#39;anteprima di una pagina grande nell&#39;amministratore [!DNL Page Builder].
+- <!-- PB-248 -->Sono stati aggiornati [!DNL Page Builder] stili in meno per impedire la duplicazione degli stili della vetrina.
 
 ## 1.1.1 per Adobe Commerce 2.3.3-p1
 

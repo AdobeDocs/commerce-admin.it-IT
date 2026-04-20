@@ -2,10 +2,9 @@
 user-guide-title: Guida ai sistemi di amministrazione
 user-guide-description: Questa guida fornisce informazioni dettagliate sulla sicurezza dell’amministratore, sulle operazioni di manutenzione e sulle risorse a livello di sistema che supportano le funzioni organizzative all’interno dello store di Adobe Commerce.
 breadcrumb-title: Guida ai sistemi di amministrazione
-hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 3%
@@ -80,4 +79,4 @@ ht-degree: 3%
    - [Gestione delle sessioni](security-session-management.md)
    - [Rilevamento funzionalità browser](security-browser-capabilities-detection.md)
    - [Segnalazione dei problemi di sicurezza](security-issue-reporting.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

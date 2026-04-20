@@ -3,9 +3,9 @@ title: Panoramica degli attributi del prodotto
 description: Scopri gli attributi del prodotto e come vengono utilizzati per descrivere le caratteristiche specifiche di un prodotto.
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
 feature: Catalog Management, Products
-source-git-commit: e0468763b2314e69e8ee4922da9bb9cf65578904
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Considera come utilizzare gli attributi durante l’assegnazione di proprietà e
 
 ## Colore
 
-Le descrizioni a colori ad hoc possono rappresentare una sfida dal punto di vista delle operazioni del database. I nomi dei colori, ad esempio &quot;Cieli di Azure&quot; o &quot;Blu uovo di Robin&quot;, sono molto interessanti, ma potrebbero non restituire i risultati migliori se utilizzati come criteri di ricerca o se il merchandising richiede di specificare `Color_Family:Blue`. Rifletti su come i colori vengono rappresentati nei risultati della ricerca e nella navigazione a più livelli, e stabilisci alcune linee guida per le tue esigenze aziendali. Quindi, cerca di essere coerente quando assegni i valori degli attributi colore in tutto il catalogo.
+Le descrizioni a colori ad hoc possono rappresentare una sfida dal punto di vista delle operazioni del database. I nomi dei colori, ad esempio &quot;Azure Skies&quot; o &quot;Robin Egg Blue&quot;, sono molto interessanti, ma potrebbero non restituire i risultati migliori se utilizzati come criteri di ricerca o se il merchandising richiede di specificare `Color_Family:Blue`. Rifletti su come i colori vengono rappresentati nei risultati della ricerca e nella navigazione a più livelli, e stabilisci alcune linee guida per le tue esigenze aziendali. Quindi, cerca di essere coerente quando assegni i valori degli attributi colore in tutto il catalogo.
 
 ## Gestione delle varianti
 
@@ -45,6 +45,6 @@ Agli attributi di prodotto abilitati per la [ricerca nel catalogo](search.md) pu
 Rimuovi le proprietà del prodotto non utilizzate per una migliore strutturazione e un’indicizzazione più rapida.
 
 
->[NOTA!]
+>[!NOTE]
 >
->Per informazioni sull&#39;ottimizzazione della configurazione dell&#39;attributo del prodotto per le prestazioni, consulta [Best practice per la gestione del catalogo](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) nella _playbook di implementazione_.
+>Per informazioni sull&#39;ottimizzazione della configurazione dell&#39;attributo del prodotto per le prestazioni, consulta [Best practice per la gestione del catalogo](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) nella _playbook di implementazione_.

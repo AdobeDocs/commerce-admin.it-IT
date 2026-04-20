@@ -2,10 +2,9 @@
 user-guide-title: Guida di riferimento alla configurazione
 user-guide-description: Questa guida fornisce informazioni di riferimento per tutte le impostazioni di configurazione dell'archivio a cui si accede dalla barra laterale _Admin_ in **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 breadcrumb-title: Riferimento configurazione
-hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -84,4 +83,4 @@ ht-degree: 3%
    - [Amministratore](./advanced/admin.md)
    - [Sistema](./advanced/system.md)
    - [Sviluppatore](./advanced/developer.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it)
+- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

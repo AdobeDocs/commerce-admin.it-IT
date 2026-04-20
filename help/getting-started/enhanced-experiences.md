@@ -3,7 +3,7 @@ title: Esperienze vetrina migliorate
 description: Scopri i numerosi strumenti progettati per massimizzare il coinvolgimento, la fidelizzazione e la fidelizzazione dei clienti.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -14,11 +14,13 @@ ht-degree: 0%
 
 Oltre agli elementi standard che consentono ai clienti di effettuare acquisti nel tuo negozio, esistono molti strumenti progettati per aiutarti a massimizzare il coinvolgimento, la fidelizzazione e la fidelizzazione dei clienti.
 
-<!-- This is not currently working >[!TIP]
+<!-- 
+This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=it)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
->Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
+>Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. 
+-->
 
 ## Attira nuovi clienti
 
@@ -84,7 +86,7 @@ Adobe Commerce e Magento Open Source forniscono una serie di strumenti per aiuta
 
 ## Ottimizzazione dei processi aziendali e della redditività
 
-- **[!DNL Advanced Reporting]** - Ottieni informazioni preziose con i report dinamici su prodotti, ordini e clienti basati su [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=it).
+- **[!DNL Advanced Reporting]** - Ottieni informazioni preziose con i report dinamici su prodotti, ordini e clienti basati su [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 - **Snapshot del dashboard** - Per massimizzare il budget di marketing è fondamentale sapere cosa è di tuo interesse sul sito. Utilizza queste [informazioni sul tuo dashboard](admin-dashboard.md) per determinare cosa devi effettuare tra e vendere ai clienti fedeli o quali prodotti mettere in vendita.
 
