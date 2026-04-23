@@ -32,7 +32,7 @@ La sezione Cronologia fatturazione mostra solo le fatture precedenti create prim
 1. Prima di iniziare, ottenere le seguenti informazioni dall&#39;account [!DNL Commerce] del **nuovo beneficiario dell&#39;accesso condiviso**:
 
    - L&#39;utente deve essersi già registrato per un account all&#39;indirizzo account.adobe.com e aver effettuato l&#39;accesso tramite account.magento.com. Per ulteriori dettagli, vedere [Creare un account Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account).
-   - The `MAGE ID/Account ID (MAG00XXXXXXX)` is displayed in the upper-left corner of the _[!UICONTROL Magento]_tab, just above the **Log Out**link.
+   - The `MAGE ID/Account ID (MAG00XXXXXXX)` is displayed in the upper-left corner of the _[!UICONTROL Magento]_&#x200B;tab, just above the **Log Out**&#x200B;link.
    - The `Email` address that is associated with the account.
 
 1. Log in to your [[!DNL Commerce] account](commerce-account-create.md).
@@ -50,20 +50,20 @@ La sezione Cronologia fatturazione mostra solo le fatture precedenti create prim
 
    ![Informazioni sul nuovo utente](./assets/shared-new-user.png){width="600"}
 
-1. In _[!UICONTROL Shared Information]_eseguire le operazioni seguenti:
+1. In _[!UICONTROL Shared Information]_&#x200B;eseguire le operazioni seguenti:
 
    - Per identificare l&#39;account condiviso, immettere un **[!UICONTROL Share Name]**. Questo nome è un riferimento interno ed è visibile solo a te e alla persona con cui condividi l’account.
 
      Si consiglia di utilizzare il nome dell&#39;organizzazione come [!UICONTROL Share Name]. Non utilizzare un nome che inizia con `CLOUD SHARED ACCESS FROM MAG XYX`.
    - Se si desidera condividere le proprie informazioni personali con il nuovo utente, immettere **[!UICONTROL Your Email]** e **[!UICONTROL Your Phone]**.
 
-1. In _[!UICONTROL Grant Account Permissions]_selezionare la casella di controllo di ogni prodotto e servizio [!DNL Commerce] che si desidera condividere.
+1. In _[!UICONTROL Grant Account Permissions]_&#x200B;selezionare la casella di controllo di ogni prodotto e servizio [!DNL Commerce] che si desidera condividere.
 
    ![Grant the account permissions](./assets/shared-permissions.png){width="600"}
 
 1. Fare clic su **[!UICONTROL Create Shared Access]**.
 
-   The new user information appears in the _[!UICONTROL Manage Permissions]_section of the Shared Access page, and an email invitation with instructions to access the shared account is sent to the new user.
+   The new user information appears in the _[!UICONTROL Manage Permissions]_&#x200B;section of the Shared Access page, and an email invitation with instructions to access the shared account is sent to the new user.
 
    ![Manage permissions for shared access](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
@@ -77,13 +77,13 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 
 1. Quando ricevi un invito a un account condiviso, segui le istruzioni riportate nell&#39;e-mail per accedere al tuo account [!DNL Commerce].
 
-   Il pannello di navigazione sinistro del tuo account ha una nuova scheda _[!UICONTROL Shared with me]_. Il controllo_[!UICONTROL Switch Accounts]_ nell&#39;angolo superiore destro include opzioni per `My Account` e il nome dell&#39;account condiviso.
+   Il pannello di navigazione sinistro del tuo account ha una nuova scheda _[!UICONTROL Shared with me]_. Il controllo&#x200B;_[!UICONTROL Switch Accounts]_ nell&#39;angolo superiore destro include opzioni per `My Account` e il nome dell&#39;account condiviso.
 
    ![Condiviso con me](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   Se il controllo _[!UICONTROL Switch Accounts]_non viene visualizzato, contattare il titolare dell&#39;account principale e confermare che le [informazioni sull&#39;account](#set-up-a-shared-account) sono corrette.
+   >   Se il controllo _[!UICONTROL Switch Accounts]_&#x200B;non viene visualizzato, contattare il titolare dell&#39;account principale e confermare che le [informazioni sull&#39;account](#set-up-a-shared-account) sono corrette.
 
 
 1. Per accedere all&#39;account condiviso, impostare **[!UICONTROL Switch Accounts]** sul nome dell&#39;account condiviso.
@@ -110,7 +110,7 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 
 1. In the left navigation panel, click **[!UICONTROL Shared Access]**.
 
-1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_and click **[!UICONTROL Delete]**.
+1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_&#x200B;and click **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
