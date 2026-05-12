@@ -234,9 +234,9 @@ Questo miglioramento si basa sulla funzionalità di iscrizione multiaziendale di
 
 ![Problema risolto](../assets/fix.svg) La versione di B2B v1.5.2 include le seguenti correzioni per i preventivi negoziabili:
 
-- <!-- B2B-3252 -->Il campo [!UICONTROL Line Item Discount Amount] ora convalida l&#39;input per impedire l&#39;immissione di valori di sconto negativi.
-- <!-- B2B-3224 -->È stato risolto un problema di esperienza utente a causa del quale le note sugli elementi di riga lunghi venivano troncate e risultavano di difficile lettura per i clienti B2B.
-- <!-- B2B-2865 -->I clienti B2B ora possono specificare le quantità di prodotto utilizzando valori decimali (ad esempio 1,5 o 2,75) durante la creazione dei preventivi.
+- &#x200B;<!-- B2B-3252 -->Il campo [!UICONTROL Line Item Discount Amount] ora convalida l&#39;input per impedire l&#39;immissione di valori di sconto negativi.
+- &#x200B;<!-- B2B-3224 -->È stato risolto un problema di esperienza utente a causa del quale le note sugli elementi di riga lunghi venivano troncate e risultavano di difficile lettura per i clienti B2B.
+- &#x200B;<!-- B2B-2865 -->I clienti B2B ora possono specificare le quantità di prodotto utilizzando valori decimali (ad esempio 1,5 o 2,75) durante la creazione dei preventivi.
 
 ### Modello di offerta
 
@@ -307,19 +307,19 @@ La versione 1.5.0 di B2B include nuove funzioni, miglioramenti della qualità e 
 
 #### Account società
 
-- <!--B2B-2828--> **Assegnazione di più società**—Semplificare l&#39;accesso degli utenti aziendali assegnando un utente a più società. Ad esempio, se un acquirente effettua un ordine da più sedi della società, creare un singolo account e assegnare a tale account tutte le società con cui lavora il buyer. Quindi, l&#39;acquirente può effettuare l&#39;accesso una sola volta e passare da un account aziendale all&#39;altro scegliendo la società dalla vetrina.
+- &#x200B;<!--B2B-2828--> **Assegnazione di più società**—Semplificare l&#39;accesso degli utenti aziendali assegnando un utente a più società. Ad esempio, se un acquirente effettua un ordine da più sedi della società, creare un singolo account e assegnare a tale account tutte le società con cui lavora il buyer. Quindi, l&#39;acquirente può effettuare l&#39;accesso una sola volta e passare da un account aziendale all&#39;altro scegliendo la società dalla vetrina.
 
 >[!NOTE]
 >
 >Un utente di un’azienda può essere assegnato a più aziende, ma può essere l’amministratore dell’azienda per una sola azienda.
 
-- <!--B2B-2747--> **Selettore ambito società** - Consente agli utenti società assegnati a più società di cambiare società nella vetrina. Quando l’ambito viene cambiato, i dati vengono aggiornati per mostrare le informazioni in base al nuovo contesto aziendale. Ad esempio, se la nuova società utilizza un catalogo condiviso diverso, l’utente della società visualizza prodotti, prezzi e altre informazioni in base al nuovo catalogo condiviso. Anche il contenuto relativo a ordini, preventivi e modelli di preventivo viene aggiornato in base al contesto della società selezionata.
+- &#x200B;<!--B2B-2747--> **Selettore ambito società** - Consente agli utenti società assegnati a più società di cambiare società nella vetrina. Quando l’ambito viene cambiato, i dati vengono aggiornati per mostrare le informazioni in base al nuovo contesto aziendale. Ad esempio, se la nuova società utilizza un catalogo condiviso diverso, l’utente della società visualizza prodotti, prezzi e altre informazioni in base al nuovo catalogo condiviso. Anche il contenuto relativo a ordini, preventivi e modelli di preventivo viene aggiornato in base al contesto della società selezionata.
 
 >[!NOTE]
 >
 >Il contenuto del carrello riflette gli articoli selezionati dal cliente corrente. Se il cliente dispone di un carrello attivo e seleziona un’altra società, gli viene richiesto di aggiornare il carrello per riflettere l’assortimento del prodotto, i prezzi e gli sconti promozionali in base al nuovo contesto aziendale. I prodotti che non sono disponibili nel catalogo associato alla nuova azienda vengono rimossi dal carrello. Se il prezzo o la disponibilità del prodotto sono diversi, il carrello viene aggiornato in modo da riflettere i dati disponibili nel contesto della società selezionata.<!--B2B-4222-->
 
-- <!--ACP2E-1933--> Gli amministratori aziendali possono ora aggiungere utenti aziendali dalla vetrina. In precedenza, Commerce registrava un errore quando un utente amministratore tentava di aggiungere un nuovo utente: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+- &#x200B;<!--ACP2E-1933--> Gli amministratori aziendali possono ora aggiungere utenti aziendali dalla vetrina. In precedenza, Commerce registrava un errore quando un utente amministratore tentava di aggiungere un nuovo utente: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 #### Preventivi e modelli di preventivo
 
@@ -360,7 +360,7 @@ I miglioramenti apportati alle funzionalità di quotazione consentono a buyer e 
 
 #### Ordini di acquisto
 
-- <!--ACP2E-1825-->Gli ordini fornitore non possono più essere inoltrati da un utente associato alla società dopo che questa è stata bloccata. In precedenza, un utente associato alla società poteva effettuare ordini di acquisto quando la società era bloccata.
+- &#x200B;<!--ACP2E-1825-->Gli ordini fornitore non possono più essere inoltrati da un utente associato alla società dopo che questa è stata bloccata. In precedenza, un utente associato alla società poteva effettuare ordini di acquisto quando la società era bloccata.
 
 ### B2B v1.4.2-p8
 
@@ -460,7 +460,7 @@ I miglioramenti apportati alle funzionalità di quotazione consentono a buyer e 
 
 La versione 1.4.2 di B2B include miglioramenti della qualità e correzioni di bug.
 
-- <!--B2B-2897-->Se un venditore crea un&#39;offerta di acquisto che include uno SKU di prodotto non disponibile nel catalogo condiviso associato alla società acquirente, il sistema visualizza il messaggio di errore `The SKU you entered is not available in the shared catalog. Please check the SKU and try again`.  Il venditore non può salvare il preventivo finché non rimuove il prodotto non disponibile. In precedenza, il preventivo veniva salvato con lo SKU non disponibile incluso e il preventivo non veniva caricato nella vetrina.
+- &#x200B;<!--B2B-2897-->Se un venditore crea un&#39;offerta di acquisto che include uno SKU di prodotto non disponibile nel catalogo condiviso associato alla società acquirente, il sistema visualizza il messaggio di errore `The SKU you entered is not available in the shared catalog. Please check the SKU and try again`.  Il venditore non può salvare il preventivo finché non rimuove il prodotto non disponibile. In precedenza, il preventivo veniva salvato con lo SKU non disponibile incluso e il preventivo non veniva caricato nella vetrina.
 
 >[!IMPORTANT]
 >
@@ -474,15 +474,15 @@ La versione 1.4.2 di B2B include miglioramenti della qualità e correzioni di bu
 
 La versione 1.4.1 di B2B include miglioramenti della qualità e correzioni di bug.
 
-- <!--ACP2E-1825-->Gli ordini fornitore non possono più essere inoltrati da un utente associato alla società dopo che questa è stata bloccata. In precedenza, un utente associato alla società poteva effettuare ordini di acquisto quando la società era bloccata.
+- &#x200B;<!--ACP2E-1825-->Gli ordini fornitore non possono più essere inoltrati da un utente associato alla società dopo che questa è stata bloccata. In precedenza, un utente associato alla società poteva effettuare ordini di acquisto quando la società era bloccata.
 
-- <!--ACP2E-1943-->Lo stato del prodotto ordinato in inevaso viene ora visualizzato correttamente nella vetrina. In precedenza, i prodotti disponibili per la spedizione venivano erroneamente identificati come prodotti in inevaso.
+- &#x200B;<!--ACP2E-1943-->Lo stato del prodotto ordinato in inevaso viene ora visualizzato correttamente nella vetrina. In precedenza, i prodotti disponibili per la spedizione venivano erroneamente identificati come prodotti in inevaso.
 
-- <!--ACP2E-1862-->Se il modulo di registrazione della società include un attributo del tipo di file del cliente, il file caricato durante il processo di registrazione viene ora incluso nelle informazioni sull’account per l’amministratore della società dopo la creazione della società. In precedenza, l’allegato era mancante.
+- &#x200B;<!--ACP2E-1862-->Se il modulo di registrazione della società include un attributo del tipo di file del cliente, il file caricato durante il processo di registrazione viene ora incluso nelle informazioni sull’account per l’amministratore della società dopo la creazione della società. In precedenza, l’allegato era mancante.
 
-- <!--ACP2E-1793-->Il selettore campioni per un prodotto configurabile ora viene visualizzato come previsto nella pagina di configurazione dell’articolo dell’elenco richieste di acquisto. In precedenza, il selettore campioni veniva visualizzato come campo a discesa nella pagina di configurazione dell’elemento dell’elenco richieste di acquisto.
+- &#x200B;<!--ACP2E-1793-->Il selettore campioni per un prodotto configurabile ora viene visualizzato come previsto nella pagina di configurazione dell’articolo dell’elenco richieste di acquisto. In precedenza, il selettore campioni veniva visualizzato come campo a discesa nella pagina di configurazione dell’elemento dell’elenco richieste di acquisto.
 
-- <!--ACP2E-1968-->Quando si utilizza la [query GraphQL società](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) per restituire i dettagli della società, i risultati vengono restituiti correttamente senza errori.
+- &#x200B;<!--ACP2E-1968-->Quando si utilizza la [query GraphQL società](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) per restituire i dettagli della società, i risultati vengono restituiti correttamente senza errori.
 
 ### B2B v1.4.0
 
@@ -500,17 +500,17 @@ Questa versione include nuove funzionalità e miglioramenti per i preventivi neg
 
 - Adobe Commerce visualizza ora i dettagli corretti durante il pagamento quando l&#39;opzione Ordini di acquisto è abilitata e quando è stato selezionato un preventivo virtuale creato con l&#39;opzione di pagamento PayPal. In precedenza, i totali venivano visualizzati come zero in queste condizioni.
 
-- <!--ACP2E-1504--> Gli errori di convalida non si verificano più quando si tenta di salvare un&#39;azienda con un limite di credito superiore a 999. In precedenza, per i limiti di credito aziendali superiori a 999, Adobe Commerce inseriva un separatore con la virgola, causando un errore di convalida che impediva il salvataggio degli aggiornamenti.
+- &#x200B;<!--ACP2E-1504--> Gli errori di convalida non si verificano più quando si tenta di salvare un&#39;azienda con un limite di credito superiore a 999. In precedenza, per i limiti di credito aziendali superiori a 999, Adobe Commerce inseriva un separatore con la virgola, causando un errore di convalida che impediva il salvataggio degli aggiornamenti.
 
-- <!--ACP2E-1474--> L&#39;indirizzo di spedizione selezionato rimane invariato quando si effettua un ordine con un preventivo negoziabile. In precedenza, quando si effettuava un ordine, l&#39;indirizzo di spedizione selezionato veniva modificato nell&#39;indirizzo di spedizione predefinito.
+- &#x200B;<!--ACP2E-1474--> L&#39;indirizzo di spedizione selezionato rimane invariato quando si effettua un ordine con un preventivo negoziabile. In precedenza, quando si effettuava un ordine, l&#39;indirizzo di spedizione selezionato veniva modificato nell&#39;indirizzo di spedizione predefinito.
 
-- <!--ACP2E-1429--> Nelle impostazioni di configurazione dell&#39;archivio per le funzionalità B2B, il campo **[!UICONTROL Enable Shared Catalog direct products price assigning]** è ora disabilitato automaticamente. Nella vetrina, è nascosto quando l&#39;impostazione **[!UICONTROL Enable Company]** o **[!UICONTROL Enable Shared Catalog]** è impostata su **[!UICONTROL No]**.
+- &#x200B;<!--ACP2E-1429--> Nelle impostazioni di configurazione dell&#39;archivio per le funzionalità B2B, il campo **[!UICONTROL Enable Shared Catalog direct products price assigning]** è ora disabilitato automaticamente. Nella vetrina, è nascosto quando l&#39;impostazione **[!UICONTROL Enable Company]** o **[!UICONTROL Enable Shared Catalog]** è impostata su **[!UICONTROL No]**.
 
-- <!--ACP2E-1683--> Durante la creazione di un account aziendale dalla vetrina, Commerce ora convalida l’indirizzo e-mail prima di elaborare la registrazione dell’azienda. Se l’indirizzo e-mail non è valido, l’operazione non riesce e non vengono elaborati aggiornamenti dell’account. In precedenza, veniva creato un account cliente anche se la richiesta di creare un account aziendale non riusciva a causa di un indirizzo e-mail non valido.
+- &#x200B;<!--ACP2E-1683--> Durante la creazione di un account aziendale dalla vetrina, Commerce ora convalida l’indirizzo e-mail prima di elaborare la registrazione dell’azienda. Se l’indirizzo e-mail non è valido, l’operazione non riesce e non vengono elaborati aggiornamenti dell’account. In precedenza, veniva creato un account cliente anche se la richiesta di creare un account aziendale non riusciva a causa di un indirizzo e-mail non valido.
 
-- <!--ACP2E-1664--> Gli SKU di prodotto che includono virgolette doppie nel catalogo condiviso e nella struttura dei prezzi non causano più errori nell’amministratore.
+- &#x200B;<!--ACP2E-1664--> Gli SKU di prodotto che includono virgolette doppie nel catalogo condiviso e nella struttura dei prezzi non causano più errori nell’amministratore.
 
-- <!--ACP2E-1498--> È stata aggiornata la configurazione Vernice per l&#39;applicazione Commerce per impedire agli utenti guest di visualizzare i dati di altri gruppi di clienti.
+- &#x200B;<!--ACP2E-1498--> È stata aggiornata la configurazione Vernice per l&#39;applicazione Commerce per impedire agli utenti guest di visualizzare i dati di altri gruppi di clienti.
 
 #### Problema noto
 
@@ -598,25 +598,25 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stato aggiunto il supporto per Adobe Commerce 2.4.6.
 
-- <!--- ACP2E-689--> Adobe Commerce visualizza ora i dettagli corretti durante il pagamento quando l&#39;opzione Ordini di acquisto è abilitata e quando è stato selezionato un preventivo virtuale creato con l&#39;opzione di pagamento PayPal. In precedenza, i totali venivano visualizzati come zero in queste condizioni.
+- &#x200B;<!--- ACP2E-689--> Adobe Commerce visualizza ora i dettagli corretti durante il pagamento quando l&#39;opzione Ordini di acquisto è abilitata e quando è stato selezionato un preventivo virtuale creato con l&#39;opzione di pagamento PayPal. In precedenza, i totali venivano visualizzati come zero in queste condizioni.
 
-- <!--- ACP2E-609--> L&#39;elenco dei gruppi di clienti per l&#39;impostazione **Consenti esplorazione categoria** non contiene più gruppi di clienti correlati a cataloghi condivisi.
+- &#x200B;<!--- ACP2E-609--> L&#39;elenco dei gruppi di clienti per l&#39;impostazione **Consenti esplorazione categoria** non contiene più gruppi di clienti correlati a cataloghi condivisi.
 
-- <!--- ACP2E-1244--> L&#39;attributo cliente Partita IVA ora funziona come previsto con i conti di amministrazione società sia in Admin che in vetrina. Per creare un conto aziendale non sono più necessari attributi IVA/imposta personalizzati. In precedenza, quando un esercente creava un account aziendale con un attributo personalizzato Imposta/IVA, Adobe Commerce generava un errore di convalida sia nella vetrina che nell’Amministratore.
+- &#x200B;<!--- ACP2E-1244--> L&#39;attributo cliente Partita IVA ora funziona come previsto con i conti di amministrazione società sia in Admin che in vetrina. Per creare un conto aziendale non sono più necessari attributi IVA/imposta personalizzati. In precedenza, quando un esercente creava un account aziendale con un attributo personalizzato Imposta/IVA, Adobe Commerce generava un errore di convalida sia nella vetrina che nell’Amministratore.
 
-- <!--- ACP2E-1236--> La disattivazione della funzione di catalogo condiviso in un ambito specifico ora funziona correttamente. In precedenza, Adobe Commerce impostava un ambito non valido quando un commerciante salvava la configurazione di un catalogo condiviso.
+- &#x200B;<!--- ACP2E-1236--> La disattivazione della funzione di catalogo condiviso in un ambito specifico ora funziona correttamente. In precedenza, Adobe Commerce impostava un ambito non valido quando un commerciante salvava la configurazione di un catalogo condiviso.
 
-- <!--- ACP2E-1203--> Gli utenti amministratori possono ora salvare i valori degli attributi personalizzati del cliente per gli utenti aziendali. In precedenza, non era possibile salvare gli attributi personalizzati del cliente per gli utenti aziendali.
+- &#x200B;<!--- ACP2E-1203--> Gli utenti amministratori possono ora salvare i valori degli attributi personalizzati del cliente per gli utenti aziendali. In precedenza, non era possibile salvare gli attributi personalizzati del cliente per gli utenti aziendali.
 
-- <!--- ACP2E-1221--> I problemi di prestazioni vengono risolti con la convalida delle autorizzazioni aziendali fornite tramite GraphQL quando molte autorizzazioni aziendali sono già assegnate.
+- &#x200B;<!--- ACP2E-1221--> I problemi di prestazioni vengono risolti con la convalida delle autorizzazioni aziendali fornite tramite GraphQL quando molte autorizzazioni aziendali sono già assegnate.
 
-- <!--- ACP2E-1242--> Adobe Commerce non genera più un errore nella pagina del carrello quando si utilizza l’ordine rapido per aggiungere un prodotto in una quantità che supera le scorte disponibili.
+- &#x200B;<!--- ACP2E-1242--> Adobe Commerce non genera più un errore nella pagina del carrello quando si utilizza l’ordine rapido per aggiungere un prodotto in una quantità che supera le scorte disponibili.
 
-- <!--- ACP2E-1090--> Sono state migliorate le prestazioni delle operazioni relative alle autorizzazioni aziendali di `SELECT`.
+- &#x200B;<!--- ACP2E-1090--> Sono state migliorate le prestazioni delle operazioni relative alle autorizzazioni aziendali di `SELECT`.
 
-- <!--- ACP2E-2456--> Le query per categorie ora restituiscono i prezzi dei prodotti in base alle impostazioni di configurazione del negozio quando non sono impostate in modo esplicito autorizzazioni per la categoria in questione.
+- &#x200B;<!--- ACP2E-2456--> Le query per categorie ora restituiscono i prezzi dei prodotti in base alle impostazioni di configurazione del negozio quando non sono impostate in modo esplicito autorizzazioni per la categoria in questione.
 
-- <!--- ACP2E-6829--> Il pulsante **[!UICONTROL Place Order]** ora funziona come previsto quando si completa un acquisto con una richiesta di preventivo approvata. Sono stati risolti i problemi relativi al plug-in `negotiableQuoteCheckoutSessionPlugin` dell&#39;offerta negoziabile.
+- &#x200B;<!--- ACP2E-6829--> Il pulsante **[!UICONTROL Place Order]** ora funziona come previsto quando si completa un acquisto con una richiesta di preventivo approvata. Sono stati risolti i problemi relativi al plug-in `negotiableQuoteCheckoutSessionPlugin` dell&#39;offerta negoziabile.
 
 ### B2B v1.3.4-p16
 
@@ -690,31 +690,31 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stato aggiunto il supporto per Adobe Commerce 2.4.5.
 
-- <!--- ACP2E-453-->Adobe Commerce non invia più notifiche e-mail ogni volta che un’azienda esistente viene aggiornata da una chiamata API. Le e-mail ora vengono inviate solo quando viene creata un’azienda.
+- &#x200B;<!--- ACP2E-453-->Adobe Commerce non invia più notifiche e-mail ogni volta che un’azienda esistente viene aggiornata da una chiamata API. Le e-mail ora vengono inviate solo quando viene creata un’azienda.
 
-- <!--- ACP2E-406-->Adobe Commerce ora calcola correttamente un totale complessivo di un preventivo negoziabile quando l&#39;impostazione di calcolo dell&#39;imposta **[!UICONTROL Enable Cross Border Trade]** è abilitata.
+- &#x200B;<!--- ACP2E-406-->Adobe Commerce ora calcola correttamente un totale complessivo di un preventivo negoziabile quando l&#39;impostazione di calcolo dell&#39;imposta **[!UICONTROL Enable Cross Border Trade]** è abilitata.
 
-- <!--- ACP2E-322-->I prodotti configurabili vengono ora spostati all&#39;ultima posizione nell&#39;elenco dei prodotti dopo l&#39;aggiornamento delle scorte quando l&#39;impostazione **[!UICONTROL Move out of stock to the bottom]** è abilitata. Viene implementata una nuova query di database personalizzata per garantire che l’ordinamento dell’indice Elasticsearch rispetti quello abilitato dall’amministratore. In precedenza, i prodotti configurabili e i relativi prodotti secondari non venivano spostati in fondo all’elenco quando questa impostazione era abilitata.
+- &#x200B;<!--- ACP2E-322-->I prodotti configurabili vengono ora spostati all&#39;ultima posizione nell&#39;elenco dei prodotti dopo l&#39;aggiornamento delle scorte quando l&#39;impostazione **[!UICONTROL Move out of stock to the bottom]** è abilitata. Viene implementata una nuova query di database personalizzata per garantire che l’ordinamento dell’indice Elasticsearch rispetti quello abilitato dall’amministratore. In precedenza, i prodotti configurabili e i relativi prodotti secondari non venivano spostati in fondo all’elenco quando questa impostazione era abilitata.
 
-- <!--- ACP2E-308-->L’e-mail dell’ordine di acquisto ora rispetta l’impostazione di invio delle e-mail di ciascun sito web in una distribuzione multisito. Un controllo per l&#39;impostazione **[!UICONTROL Disable Email Communications]** è stato aggiunto alla logica personalizzata per le code e-mail. In precedenza, Adobe Commerce non rispettava l’impostazione di invio dell’e-mail per il sito web secondario.
+- &#x200B;<!--- ACP2E-308-->L’e-mail dell’ordine di acquisto ora rispetta l’impostazione di invio delle e-mail di ciascun sito web in una distribuzione multisito. Un controllo per l&#39;impostazione **[!UICONTROL Disable Email Communications]** è stato aggiunto alla logica personalizzata per le code e-mail. In precedenza, Adobe Commerce non rispettava l’impostazione di invio dell’e-mail per il sito web secondario.
 
-- <!--- ACP2E-302-->Il titolo del campo SKU della pagina Ordine rapido viene modificato per maggiore chiarezza.
+- &#x200B;<!--- ACP2E-302-->Il titolo del campo SKU della pagina Ordine rapido viene modificato per maggiore chiarezza.
 
-- <!--- ACP2E-543-->Adobe Commerce visualizza ora un messaggio di errore più informativo quando un acquirente immette uno SKU non valido nel campo **Inserisci SKU o nome prodotto**.
+- &#x200B;<!--- ACP2E-543-->Adobe Commerce visualizza ora un messaggio di errore più informativo quando un acquirente immette uno SKU non valido nel campo **Inserisci SKU o nome prodotto**.
 
-- <!--- ACP2E-1753-->Il campo **[!UICONTROL Account Created in]** per un amministratore società ora mantiene il valore previsto dopo il salvataggio della società.
+- &#x200B;<!--- ACP2E-1753-->Il campo **[!UICONTROL Account Created in]** per un amministratore società ora mantiene il valore previsto dopo il salvataggio della società.
 
-- <!--- ACP2E-722 -->La query `customer` non restituisce più risultati vuoti quando recupera gli elenchi di richieste di acquisto filtrati da `uid`.
+- &#x200B;<!--- ACP2E-722 -->La query `customer` non restituisce più risultati vuoti quando recupera gli elenchi di richieste di acquisto filtrati da `uid`.
 
-- <!--- ACP2E-210 -->È stato aggiunto un plug-in prima della chiamata `collectQuoteTotals` per garantire che i crediti dello store vengano applicati una sola volta.
+- &#x200B;<!--- ACP2E-210 -->È stato aggiunto un plug-in prima della chiamata `collectQuoteTotals` per garantire che i crediti dello store vengano applicati una sola volta.
 
-- <!--- ACP2E-665 -->I clienti vengono ora reindirizzati alla pagina di accesso quando il loro account viene eliminato da un amministratore dell’amministratore. In precedenza, Adobe Commerce generava un errore. Il blocco di codice del plug-in (`SessionPlugin`) si trova ora nel blocco `try…catch`. In precedenza, questo codice non veniva racchiuso all’interno del blocco generico di gestione delle eccezioni.
+- &#x200B;<!--- ACP2E-665 -->I clienti vengono ora reindirizzati alla pagina di accesso quando il loro account viene eliminato da un amministratore dell’amministratore. In precedenza, Adobe Commerce generava un errore. Il blocco di codice del plug-in (`SessionPlugin`) si trova ora nel blocco `try…catch`. In precedenza, questo codice non veniva racchiuso all’interno del blocco generico di gestione delle eccezioni.
 
-- <!--- ACP2E-661 --> Nella pagina Ordine rapido in modalità mobile, premendo **Invio** dopo aver immesso un nome di prodotto o uno SKU valido, il cliente passa al campo successivo come previsto.
+- &#x200B;<!--- ACP2E-661 --> Nella pagina Ordine rapido in modalità mobile, premendo **Invio** dopo aver immesso un nome di prodotto o uno SKU valido, il cliente passa al campo successivo come previsto.
 
-- <!--- ACP2E-607 -->Il nome della società è ora visibile come previsto nelle sezioni degli indirizzi di fatturazione e spedizione del flusso di lavoro di pagamento.
+- &#x200B;<!--- ACP2E-607 -->Il nome della società è ora visibile come previsto nelle sezioni degli indirizzi di fatturazione e spedizione del flusso di lavoro di pagamento.
 
-- <!--- ACP2E-375 -->Il credito del Negozio non è più disponibile quando il metodo di pagamento **[!UICONTROL Zero Subtotal Checkout]** è disabilitato. In precedenza, la casella di controllo Credito store non funzionava durante il posizionamento dell’ordine da parte dell’amministratore. L&#39;applicazione non ha effettuato l&#39;ordine con il credito dell&#39;archivio e ha visualizzato questo errore: `The requested Payment Method is not available`.
+- &#x200B;<!--- ACP2E-375 -->Il credito del Negozio non è più disponibile quando il metodo di pagamento **[!UICONTROL Zero Subtotal Checkout]** è disabilitato. In precedenza, la casella di controllo Credito store non funzionava durante il posizionamento dell’ordine da parte dell’amministratore. L&#39;applicazione non ha effettuato l&#39;ordine con il credito dell&#39;archivio e ha visualizzato questo errore: `The requested Payment Method is not available`.
 
 ### B2B v1.3.3-p17
 
@@ -758,49 +758,49 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stato aggiunto il supporto per Adobe Commerce 2.4.4.
 
-- <!--- MC-41985--> Il tempo necessario per eseguire l’aggiornamento da Adobe Commerce 2.3.x a Adobe Commerce 2.4.x in implementazioni con più di 100.000 ruoli aziendali è stato notevolmente ridotto.
+- &#x200B;<!--- MC-41985--> Il tempo necessario per eseguire l’aggiornamento da Adobe Commerce 2.3.x a Adobe Commerce 2.4.x in implementazioni con più di 100.000 ruoli aziendali è stato notevolmente ridotto.
 
-- <!--- MC-42153--> La richiesta POST `V1/order/:orderId/invoice` ora supporta la creazione di fatture parziali quando il metodo di pagamento **[!UICONTROL Payment on Account]** è abilitato. In precedenza, Adobe Commerce ha generato questo errore: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+- &#x200B;<!--- MC-42153--> La richiesta POST `V1/order/:orderId/invoice` ora supporta la creazione di fatture parziali quando il metodo di pagamento **[!UICONTROL Payment on Account]** è abilitato. In precedenza, Adobe Commerce ha generato questo errore: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
-- <!--- MC-41975--> PayPal Payflow Pro ora funziona come previsto con il preventivo B2B negoziabile quando il carrello del cliente contiene altri prodotti. Adobe Commerce ora elabora correttamente l’ordine e invia un’e-mail al cliente come previsto. In precedenza, Adobe Commerce generava un errore irreversibile e inviava al cliente un’e-mail di conferma con valori pari a zero.
+- &#x200B;<!--- MC-41975--> PayPal Payflow Pro ora funziona come previsto con il preventivo B2B negoziabile quando il carrello del cliente contiene altri prodotti. Adobe Commerce ora elabora correttamente l’ordine e invia un’e-mail al cliente come previsto. In precedenza, Adobe Commerce generava un errore irreversibile e inviava al cliente un’e-mail di conferma con valori pari a zero.
 
-- <!--- MC-41819--> La paginazione ora viene visualizzata correttamente nella pagina dei risultati della ricerca nel catalogo dopo l’esclusione di alcuni prodotti nel catalogo condiviso.
+- &#x200B;<!--- MC-41819--> La paginazione ora viene visualizzata correttamente nella pagina dei risultati della ricerca nel catalogo dopo l’esclusione di alcuni prodotti nel catalogo condiviso.
 
-- <!--- MC-42886--> Gli attributi personalizzati del cliente vengono ora salvati come previsto durante la creazione o il salvataggio di un utente aziendale nell’amministratore.
+- &#x200B;<!--- MC-42886--> Gli attributi personalizzati del cliente vengono ora salvati come previsto durante la creazione o il salvataggio di un utente aziendale nell’amministratore.
 
-- <!--- MC-42927--> Il pulsante **[!UICONTROL Submit]** nel modulo Crea nuova società è ora disattivato dopo un clic per impedire l&#39;invio di più moduli. In precedenza, era possibile inviare il modulo più volte facendo clic ripetutamente su questo pulsante, generando un errore.
+- &#x200B;<!--- MC-42927--> Il pulsante **[!UICONTROL Submit]** nel modulo Crea nuova società è ora disattivato dopo un clic per impedire l&#39;invio di più moduli. In precedenza, era possibile inviare il modulo più volte facendo clic ripetutamente su questo pulsante, generando un errore.
 
-- <!--- MC-42787--> Adobe Commerce non visualizza più il collegamento di riordino nella vetrina quando un acquirente accede a un negozio per il quale i riordini sono stati disabilitati.
+- &#x200B;<!--- MC-42787--> Adobe Commerce non visualizza più il collegamento di riordino nella vetrina quando un acquirente accede a un negozio per il quale i riordini sono stati disabilitati.
 
-- <!--- MC-43115--> La ricerca rapida per SKU non fa più distinzione tra maiuscole e minuscole quando è abilitato il catalogo condiviso.
+- &#x200B;<!--- MC-43115--> La ricerca rapida per SKU non fa più distinzione tra maiuscole e minuscole quando è abilitato il catalogo condiviso.
 
-- <!--- MC-42203--> È ora possibile aggiornare un file per un attributo del cliente al momento della creazione di un’azienda. In precedenza, quando si tentava di creare una società con un allegato di tipo `File`, Adobe Commerce non creava la società e registrava questo errore nel registro eccezioni: `Something went wrong while saving file`.
+- &#x200B;<!--- MC-42203--> È ora possibile aggiornare un file per un attributo del cliente al momento della creazione di un’azienda. In precedenza, quando si tentava di creare una società con un allegato di tipo `File`, Adobe Commerce non creava la società e registrava questo errore nel registro eccezioni: `Something went wrong while saving file`.
 
-- <!--- MC-42242--> È ora possibile creare un&#39;azienda con un account cliente con un attributo personalizzato di tipo (`File`) o (`Image`). In precedenza, se l’account disponeva di una di queste opzioni personalizzabili, il caricatore della pagina di modifica dell’azienda non veniva risolto, impedendo la modifica dei dettagli dell’azienda.
+- &#x200B;<!--- MC-42242--> È ora possibile creare un&#39;azienda con un account cliente con un attributo personalizzato di tipo (`File`) o (`Image`). In precedenza, se l’account disponeva di una di queste opzioni personalizzabili, il caricatore della pagina di modifica dell’azienda non veniva risolto, impedendo la modifica dei dettagli dell’azienda.
 
-- <!--- MC-42268--> La query `products` ora restituisce un campo `total_count` accurato quando è abilitato il catalogo condiviso.
+- &#x200B;<!--- MC-42268--> La query `products` ora restituisce un campo `total_count` accurato quando è abilitato il catalogo condiviso.
 
-- <!--- MC-42203-->  È ora possibile aggiornare un file per un attributo del cliente al momento della creazione di un’azienda. In precedenza, quando si tentava di creare una società con un allegato di tipo `File`, Adobe Commerce non creava la società e registrava questo errore nel registro eccezioni: `Something went wrong while saving file`.
+- &#x200B;<!--- MC-42203-->  È ora possibile aggiornare un file per un attributo del cliente al momento della creazione di un’azienda. In precedenza, quando si tentava di creare una società con un allegato di tipo `File`, Adobe Commerce non creava la società e registrava questo errore nel registro eccezioni: `Something went wrong while saving file`.
 
-- <!--- MC-43178--> Le pagine _Configurazione società_ e _Crea società_ ora funzionano come previsto dopo la disabilitazione di un metodo di spedizione online. È stata aggiunta una verifica per impedire il tentativo di elaborazione dei moduli di spedizione disabilitati. In precedenza, Adobe Commerce visualizzava questo errore: `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`.
+- &#x200B;<!--- MC-43178--> Le pagine _Configurazione società_ e _Crea società_ ora funzionano come previsto dopo la disabilitazione di un metodo di spedizione online. È stata aggiunta una verifica per impedire il tentativo di elaborazione dei moduli di spedizione disabilitati. In precedenza, Adobe Commerce visualizzava questo errore: `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`.
 
-- <!--- MC-42214--> Nella pagina _Categoria_ vengono ora visualizzati dati di prodotto coerenti durante la generazione delle autorizzazioni durante l&#39;indicizzazione parziale. A questo processo è stato aggiunto un nuovo indicizzatore parziale per le autorizzazioni della directory. In precedenza, i dati visualizzati durante l’esecuzione dell’indicizzatore non erano corretti.
+- &#x200B;<!--- MC-42214--> Nella pagina _Categoria_ vengono ora visualizzati dati di prodotto coerenti durante la generazione delle autorizzazioni durante l&#39;indicizzazione parziale. A questo processo è stato aggiunto un nuovo indicizzatore parziale per le autorizzazioni della directory. In precedenza, i dati visualizzati durante l’esecuzione dell’indicizzatore non erano corretti.
 
-- <!--- MC-42567--> La query `categoryList` ora restituisce il numero corretto di prodotti quando vengono utilizzate le autorizzazioni del catalogo e i prodotti vengono assegnati a un catalogo condiviso.
+- &#x200B;<!--- MC-42567--> La query `categoryList` ora restituisce il numero corretto di prodotti quando vengono utilizzate le autorizzazioni del catalogo e i prodotti vengono assegnati a un catalogo condiviso.
 
-- <!--- MC-42528--> La query `categoryList` rispetta ora le autorizzazioni di categoria e restituisce solo le categorie consentite. In precedenza, restituiva tutte le categorie assegnate e non assegnate.
+- &#x200B;<!--- MC-42528--> La query `categoryList` rispetta ora le autorizzazioni di categoria e restituisce solo le categorie consentite. In precedenza, restituiva tutte le categorie assegnate e non assegnate.
 
-- <!--- MC-42399--> La richiesta `rest/V1/company/{id}` ora restituisce `is_purchase_order_enabled` valori di attributo come previsto.
+- &#x200B;<!--- MC-42399--> La richiesta `rest/V1/company/{id}` ora restituisce `is_purchase_order_enabled` valori di attributo come previsto.
 
-- <!--- ACP2E-128--> Gli attributi personalizzati del cliente vengono ora visualizzati come previsto nella scheda _Amministratore società_.
+- &#x200B;<!--- ACP2E-128--> Gli attributi personalizzati del cliente vengono ora visualizzati come previsto nella scheda _Amministratore società_.
 
-- <!--- ACP2E-130--> Il blocco Elenco desideri nella pagina Account personale ora viene visualizzato come previsto per gli amministratori e gli utenti aziendali.
+- &#x200B;<!--- ACP2E-130--> Il blocco Elenco desideri nella pagina Account personale ora viene visualizzato come previsto per gli amministratori e gli utenti aziendali.
 
-- <!--- ACP2E-133--> Gli errori di ordine rapido non vengono più visualizzati nel carrello. In precedenza, Adobe Commerce visualizzava questo errore nel carrello quando lo SKU non veniva trovato nel catalogo: `The SKU was not found in the catalog`.
+- &#x200B;<!--- ACP2E-133--> Gli errori di ordine rapido non vengono più visualizzati nel carrello. In precedenza, Adobe Commerce visualizzava questo errore nel carrello quando lo SKU non veniva trovato nel catalogo: `The SKU was not found in the catalog`.
 
-- <!--- ACP2E-194--> Le operazioni di salvataggio del catalogo condiviso sono state ottimizzate per velocizzare l’esecuzione. In precedenza, il salvataggio di un catalogo condiviso con molti gruppi di clienti poteva richiedere alcuni minuti.
+- &#x200B;<!--- ACP2E-194--> Le operazioni di salvataggio del catalogo condiviso sono state ottimizzate per velocizzare l’esecuzione. In precedenza, il salvataggio di un catalogo condiviso con molti gruppi di clienti poteva richiedere alcuni minuti.
 
-- <!--- MC-42240--> Adobe Commerce ora elimina tutte le autorizzazioni delle sottocategorie dalla tabella `sharedcatalog_category_permissions` quando la categoria padre viene eliminata. In precedenza, venivano rimossi solo i dati della categoria principale.
+- &#x200B;<!--- MC-42240--> Adobe Commerce ora elimina tutte le autorizzazioni delle sottocategorie dalla tabella `sharedcatalog_category_permissions` quando la categoria padre viene eliminata. In precedenza, venivano rimossi solo i dati della categoria principale.
 
 ### B2B v1.3.2
 
@@ -810,95 +810,95 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stato aggiunto il supporto per Adobe Commerce 2.4.3.
 
-- <!--- MC-39862--> Adobe Commerce ora invia correttamente e-mail di aggiornamento sui preventivi negoziabili scaduti. In precedenza, alla scadenza di un preventivo negoziabile, Adobe Commerce non inviava e-mail di aggiornamento.
+- &#x200B;<!--- MC-39862--> Adobe Commerce ora invia correttamente e-mail di aggiornamento sui preventivi negoziabili scaduti. In precedenza, alla scadenza di un preventivo negoziabile, Adobe Commerce non inviava e-mail di aggiornamento.
 
-- <!--- MC-40682--> Adobe Commerce ora invia correttamente le e-mail di aggiornamento relative alla scadenza imminente e i preventivi negoziabili scaduti quando manca un processo `cron`.
+- &#x200B;<!--- MC-40682--> Adobe Commerce ora invia correttamente le e-mail di aggiornamento relative alla scadenza imminente e i preventivi negoziabili scaduti quando manca un processo `cron`.
 
 #### Azienda
 
-- <!--- MC-41542--> Nel campo a discesa del paese della pagina Crea nuovo account società non sono più elencati valori di opzione vuoti. In precedenza, i primi due valori dell&#39;opzione e il codice paese `AN` erano vuoti.
+- &#x200B;<!--- MC-41542--> Nel campo a discesa del paese della pagina Crea nuovo account società non sono più elencati valori di opzione vuoti. In precedenza, i primi due valori dell&#39;opzione e il codice paese `AN` erano vuoti.
 
-- <!--- MC-41260--> Facendo clic sul pulsante **[!UICONTROL Return]** per un ordine creato da un utente della società, un utente amministratore viene reindirizzato alla pagina Crea reso come previsto. In precedenza, l&#39;amministratore veniva reindirizzato alla pagina Cronologia ordini.
+- &#x200B;<!--- MC-41260--> Facendo clic sul pulsante **[!UICONTROL Return]** per un ordine creato da un utente della società, un utente amministratore viene reindirizzato alla pagina Crea reso come previsto. In precedenza, l&#39;amministratore veniva reindirizzato alla pagina Cronologia ordini.
 
 - [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} <!--- MC-40798--> Adobe Commerce non ha più esito negativo con un errore di memoria insufficiente durante l&#39;esecuzione del metodo `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` durante `bin/magento setup:upgrade`. In precedenza, Adobe Commerce non utilizzava la dimensione batch per la raccolta durante l’inizializzazione delle autorizzazioni, ma caricava una raccolta di tutti i ruoli aziendali.
 
-- <!--- MC-40551--> Gli utenti aziendali possono ora modificare e aggiornare i valori degli attributi personalizzati del cliente. In precedenza, questi attributi non venivano associati correttamente al modulo utente di creazione e modifica. Un utente della società può immettere valori di attributo diversi, ma Adobe Commerce non li ha salvati correttamente.
+- &#x200B;<!--- MC-40551--> Gli utenti aziendali possono ora modificare e aggiornare i valori degli attributi personalizzati del cliente. In precedenza, questi attributi non venivano associati correttamente al modulo utente di creazione e modifica. Un utente della società può immettere valori di attributo diversi, ma Adobe Commerce non li ha salvati correttamente.
 
-- <!--- MC-32653--> La struttura delle risorse per le autorizzazioni del ruolo aziendale ora può essere tradotta come previsto. In precedenza, la struttura delle autorizzazioni non veniva tradotta anche se erano presenti file di traduzione validi.
+- &#x200B;<!--- MC-32653--> La struttura delle risorse per le autorizzazioni del ruolo aziendale ora può essere tradotta come previsto. In precedenza, la struttura delle autorizzazioni non veniva tradotta anche se erano presenti file di traduzione validi.
 
-- <!--- MC-40358--> Adobe Commerce ora salva i valori degli attributi cliente personalizzati per gli utenti B2B come previsto. In precedenza, la creazione di un account aziendale contenente attributi cliente personalizzati causava un errore di modello e Adobe Commerce non caricava correttamente il modulo. L&#39;aggiunta di un argomento al layout di `company_create_account` ha risolto questo problema.
+- &#x200B;<!--- MC-40358--> Adobe Commerce ora salva i valori degli attributi cliente personalizzati per gli utenti B2B come previsto. In precedenza, la creazione di un account aziendale contenente attributi cliente personalizzati causava un errore di modello e Adobe Commerce non caricava correttamente il modulo. L&#39;aggiunta di un argomento al layout di `company_create_account` ha risolto questo problema.
 
-- <!--- MC-41721--> I filtri utente aziendali, ad esempio Mostra tutti gli utenti, Mostra utenti attivi e Mostra utenti inattivi, ora funzionano come previsto. In precedenza, il filtraggio delle azioni sulla pagina utente dell’azienda causava un errore JavaScript.
+- &#x200B;<!--- MC-41721--> I filtri utente aziendali, ad esempio Mostra tutti gli utenti, Mostra utenti attivi e Mostra utenti inattivi, ora funzionano come previsto. In precedenza, il filtraggio delle azioni sulla pagina utente dell’azienda causava un errore JavaScript.
 
 #### Credito società
 
-- <!--- MC-41551--> Gli amministratori con account limitati che includono solo privilegi a livello di sito Web possono ora creare una società che utilizza una valuta diversa rispetto al sito Web.
+- &#x200B;<!--- MC-41551--> Gli amministratori con account limitati che includono solo privilegi a livello di sito Web possono ora creare una società che utilizza una valuta diversa rispetto al sito Web.
 
-- <!--- MC-41523--> Adobe Commerce ora invia e-mail aziendali dall&#39;indirizzo e-mail e dall&#39;ambito `from` corretti. In precedenza, Adobe Commerce non considerava l’ambito del sito web durante l’invio dell’assegnazione del credito aziendale o l’aggiornamento dell’e-mail.
+- &#x200B;<!--- MC-41523--> Adobe Commerce ora invia e-mail aziendali dall&#39;indirizzo e-mail e dall&#39;ambito `from` corretti. In precedenza, Adobe Commerce non considerava l’ambito del sito web durante l’invio dell’assegnazione del credito aziendale o l’aggiornamento dell’e-mail.
 
 
 #### Ordine rapido
 
-- <!--- MC-42104--> La creazione di un ordine utilizzando Ordine rapido da un file CSV ora funziona come previsto con SKU inesistenti.
+- &#x200B;<!--- MC-42104--> La creazione di un ordine utilizzando Ordine rapido da un file CSV ora funziona come previsto con SKU inesistenti.
 
-- <!--- MC-40268--> L’utilizzo di Ordine rapido per eseguire ricerche su più SKU ora funziona come previsto. In precedenza, i risultati includevano voci duplicate.
+- &#x200B;<!--- MC-40268--> L’utilizzo di Ordine rapido per eseguire ricerche su più SKU ora funziona come previsto. In precedenza, i risultati includevano voci duplicate.
 
-- <!--- MC-40261--> La visualizzazione dell&#39;elenco dei prodotti aggiunti ora considera gli SKU immessi in minuscolo e in maiuscolo allo stesso modo quando si utilizzano gli SKU per selezionare più prodotti durante l&#39;ordine rapido.
+- &#x200B;<!--- MC-40261--> La visualizzazione dell&#39;elenco dei prodotti aggiunti ora considera gli SKU immessi in minuscolo e in maiuscolo allo stesso modo quando si utilizzano gli SKU per selezionare più prodotti durante l&#39;ordine rapido.
 
-- <!--- MC-40225--> L’utilizzo dell’ordine rapido ora aggiunge i prodotti nella quantità specificata dall’acquirente. In precedenza, Adobe Commerce aggiungeva un solo prodotto anche quando le quantità specificate dall’acquirente superavano il valore di uno.
+- &#x200B;<!--- MC-40225--> L’utilizzo dell’ordine rapido ora aggiunge i prodotti nella quantità specificata dall’acquirente. In precedenza, Adobe Commerce aggiungeva un solo prodotto anche quando le quantità specificate dall’acquirente superavano il valore di uno.
 
-- <!--- MC-41283--> La funzione di completamento automatico ordine rapido ora funziona con SKU parziali.
+- &#x200B;<!--- MC-41283--> La funzione di completamento automatico ordine rapido ora funziona con SKU parziali.
 
-- <!--- MC-41299--> Adobe Commerce ora visualizza i prodotti configurati come **Non visibili singolarmente** nell&#39;elenco di suggerimenti automatici e nei risultati della ricerca della pagina Ordine rapido.
+- &#x200B;<!--- MC-41299--> Adobe Commerce ora visualizza i prodotti configurati come **Non visibili singolarmente** nell&#39;elenco di suggerimenti automatici e nei risultati della ricerca della pagina Ordine rapido.
 
-- <!--- MC-42402--> Gli acquirenti possono ora utilizzare il modulo Ordine rapido per aggiungere più prodotti in base agli SKU che includono caratteri maiuscoli. In precedenza, veniva aggiunto solo il primo prodotto.
+- &#x200B;<!--- MC-42402--> Gli acquirenti possono ora utilizzare il modulo Ordine rapido per aggiungere più prodotti in base agli SKU che includono caratteri maiuscoli. In precedenza, veniva aggiunto solo il primo prodotto.
 
 #### Offerta negoziabile
 
-- <!--- MC-41232--> Gli acquirenti vengono ora reindirizzati alla pagina delle offerte negoziabili dopo aver incollato il collegamento a un&#39;offerta negoziabile nel campo URL e aver effettuato correttamente l&#39;accesso. In precedenza, gli acquirenti venivano reindirizzati alla pagina Il mio account.
+- &#x200B;<!--- MC-41232--> Gli acquirenti vengono ora reindirizzati alla pagina delle offerte negoziabili dopo aver incollato il collegamento a un&#39;offerta negoziabile nel campo URL e aver effettuato correttamente l&#39;accesso. In precedenza, gli acquirenti venivano reindirizzati alla pagina Il mio account.
 
-- <!--- MC-39317--> Il riordinamento ora funziona come previsto per gli ordini che contengono un prodotto con un&#39;opzione di personalizzazione data per un account cliente creato durante il pagamento. In precedenza, Adobe Commerce non elaborava il riordino e visualizzava questo errore: `The product has required options. Enter the options and try again`.
+- &#x200B;<!--- MC-39317--> Il riordinamento ora funziona come previsto per gli ordini che contengono un prodotto con un&#39;opzione di personalizzazione data per un account cliente creato durante il pagamento. In precedenza, Adobe Commerce non elaborava il riordino e visualizzava questo errore: `The product has required options. Enter the options and try again`.
 
-- <!--- MC-39063--> L&#39;indirizzo di spedizione per un preventivo negoziabile non è più modificabile durante il pagamento quando il modulo Ordine di acquisto è disabilitato. Questo comportamento è il risultato di una correzione precedente in cui `isQuoteAddressLocked` è stato rimosso dal renderer di estrazione preventivo negoziabile.
+- &#x200B;<!--- MC-39063--> L&#39;indirizzo di spedizione per un preventivo negoziabile non è più modificabile durante il pagamento quando il modulo Ordine di acquisto è disabilitato. Questo comportamento è il risultato di una correzione precedente in cui `isQuoteAddressLocked` è stato rimosso dal renderer di estrazione preventivo negoziabile.
 
-- <!--- MC-38967--> Gli esercenti possono ora aggiungere prodotti a un preventivo negoziabile dell’amministratore.
+- &#x200B;<!--- MC-38967--> Gli esercenti possono ora aggiungere prodotti a un preventivo negoziabile dell’amministratore.
 
 #### Ordini di acquisto
 
-- <!--- MC-39983--> Adobe Commerce visualizza ora un messaggio di errore informativo come previsto quando inserisci un ordine di acquisto utilizzando PayPal Express Checkout quando l&#39;attributo **[!UICONTROL Name Prefix]** è impostato su `required`. In precedenza, Adobe Commerce non effettuava l’ordine né visualizzava un messaggio di errore.
+- &#x200B;<!--- MC-39983--> Adobe Commerce visualizza ora un messaggio di errore informativo come previsto quando inserisci un ordine di acquisto utilizzando PayPal Express Checkout quando l&#39;attributo **[!UICONTROL Name Prefix]** è impostato su `required`. In precedenza, Adobe Commerce non effettuava l’ordine né visualizzava un messaggio di errore.
 
-- <!--- MC-39620--> Il componente dell’interfaccia utente per l’indirizzo di fatturazione nel modulo Ordine di acquisto ora utilizza correttamente l’indirizzo del preventivo quando Google Tag Manager è abilitato. In precedenza, si verificava un errore JavaScript nella pagina di pagamento.
+- &#x200B;<!--- MC-39620--> Il componente dell’interfaccia utente per l’indirizzo di fatturazione nel modulo Ordine di acquisto ora utilizza correttamente l’indirizzo del preventivo quando Google Tag Manager è abilitato. In precedenza, si verificava un errore JavaScript nella pagina di pagamento.
 
 #### Elenchi richieste
 
-- <!--- MC-40426--> Gli esercenti possono ora utilizzare l&#39;endpoint POST `rest/all/V1/requisition_lists` per creare un elenco di richieste per un cliente. In precedenza, Adobe Commerce generava questo errore 400 quando si tentava di creare un elenco di richieste di acquisto: `Could not save Requisition List`.
+- &#x200B;<!--- MC-40426--> Gli esercenti possono ora utilizzare l&#39;endpoint POST `rest/all/V1/requisition_lists` per creare un elenco di richieste per un cliente. In precedenza, Adobe Commerce generava questo errore 400 quando si tentava di creare un elenco di richieste di acquisto: `Could not save Requisition List`.
 
-- <!--- MC-41123--> Il pulsante **[!UICONTROL Add to Requisition List]** viene ora visualizzato per i prodotti in magazzino di un carrello acquisti quando il carrello contiene anche prodotti esauriti. In precedenza, se un carrello conteneva due prodotti, uno dei quali era esaurito, il pulsante _[!UICONTROL Add to Requisition List]_non veniva visualizzato per nessuno dei due prodotti.
+- &#x200B;<!--- MC-41123--> Il pulsante **[!UICONTROL Add to Requisition List]** viene ora visualizzato per i prodotti in magazzino di un carrello acquisti quando il carrello contiene anche prodotti esauriti. In precedenza, se un carrello conteneva due prodotti, uno dei quali era esaurito, il pulsante _[!UICONTROL Add to Requisition List]_&#x200B;non veniva visualizzato per nessuno dei due prodotti.
 
-- <!--- MC-40877--> È ora possibile utilizzare l’API REST per aggiungere un prodotto a un elenco di richieste di acquisto.
+- &#x200B;<!--- MC-40877--> È ora possibile utilizzare l’API REST per aggiungere un prodotto a un elenco di richieste di acquisto.
 
-- <!--- MC-40155--> I valori dell&#39;elenco richieste di acquisto **[!UICONTROL Latest Activity Date]** ora sono conformi al formato delle impostazioni internazionali.
+- &#x200B;<!--- MC-40155--> I valori dell&#39;elenco richieste di acquisto **[!UICONTROL Latest Activity Date]** ora sono conformi al formato delle impostazioni internazionali.
 
-- <!--- MC-39580--> Adobe Commerce non genera più un errore irreversibile quando si modifica un prodotto bundle da un elenco di richieste di acquisto.
+- &#x200B;<!--- MC-39580--> Adobe Commerce non genera più un errore irreversibile quando si modifica un prodotto bundle da un elenco di richieste di acquisto.
 
-- <!--- MC-40454--> Adobe Commerce visualizza ora il prezzo del prodotto corretto quando si aggiunge un prodotto con un&#39;opzione personalizzabile `(File)` a un elenco di desideri da un elenco di richieste. Anche il collegamento al file caricato è visibile come previsto. In precedenza, Adobe Commerce mostrava prezzi del prodotto errati e non mostrava il collegamento al file.
+- &#x200B;<!--- MC-40454--> Adobe Commerce visualizza ora il prezzo del prodotto corretto quando si aggiunge un prodotto con un&#39;opzione personalizzabile `(File)` a un elenco di desideri da un elenco di richieste. Anche il collegamento al file caricato è visibile come previsto. In precedenza, Adobe Commerce mostrava prezzi del prodotto errati e non mostrava il collegamento al file.
 
-- <!--- MC-36383--> I prodotti con un&#39;opzione personalizzabile `(File)` possono ora essere aggiunti a un carrello da un elenco di richieste di acquisto.
+- &#x200B;<!--- MC-36383--> I prodotti con un&#39;opzione personalizzabile `(File)` possono ora essere aggiunti a un carrello da un elenco di richieste di acquisto.
 
 
 #### Catalogo condiviso
 
-- <!--- MC-40497--> Ora un amministratore con un ruolo limitato a un sito web specifico può creare, visualizzare e modificare un catalogo condiviso. In precedenza, Adobe Commerce generava un errore irreversibile quando un amministratore con un ruolo limitato tentava di creare un catalogo condiviso.
+- &#x200B;<!--- MC-40497--> Ora un amministratore con un ruolo limitato a un sito web specifico può creare, visualizzare e modificare un catalogo condiviso. In precedenza, Adobe Commerce generava un errore irreversibile quando un amministratore con un ruolo limitato tentava di creare un catalogo condiviso.
 
-- <!--- MC-41337--> I risultati della navigazione a livelli ora includono un conteggio accurato dei prodotti con attributi filtrati e gli acquirenti possono applicare più filtri. In precedenza era possibile applicare un solo filtro e Adobe Commerce mostrava un conteggio di prodotti non accurato nella navigazione a più livelli.
+- &#x200B;<!--- MC-41337--> I risultati della navigazione a livelli ora includono un conteggio accurato dei prodotti con attributi filtrati e gli acquirenti possono applicare più filtri. In precedenza era possibile applicare un solo filtro e Adobe Commerce mostrava un conteggio di prodotti non accurato nella navigazione a più livelli.
 
-- <!--- MC-40779--> Adobe Commerce ora visualizza correttamente i conteggi dei prodotti nei filtri di navigazione a più livelli nei risultati della ricerca. In precedenza, un plug-in per la pagina Risultati ricerca non utilizzava Elasticsearch, ma inviava una nuova query al database.
+- &#x200B;<!--- MC-40779--> Adobe Commerce ora visualizza correttamente i conteggi dei prodotti nei filtri di navigazione a più livelli nei risultati della ricerca. In precedenza, un plug-in per la pagina Risultati ricerca non utilizzava Elasticsearch, ma inviava una nuova query al database.
 
-- <!--- MC-39978--> Adobe Commerce non elimina più i prezzi livello quando un commerciante elimina tutti i prodotti da un catalogo condiviso predefinito.
+- &#x200B;<!--- MC-39978--> Adobe Commerce non elimina più i prezzi livello quando un commerciante elimina tutti i prodotti da un catalogo condiviso predefinito.
 
-- <!--- MC-39802--> I filtri vengono ora filtrati in base alla categoria corrente e visualizzati correttamente in tutte le pagine quando sono abilitati i cataloghi condivisi. In precedenza, i filtri venivano calcolati in modo errato solo per la pagina corrente e non venivano filtrati per la categoria corrente.
+- &#x200B;<!--- MC-39802--> I filtri vengono ora filtrati in base alla categoria corrente e visualizzati correttamente in tutte le pagine quando sono abilitati i cataloghi condivisi. In precedenza, i filtri venivano calcolati in modo errato solo per la pagina corrente e non venivano filtrati per la categoria corrente.
 
-- <!--- MC-39522--> La query di GraphQL `products` non restituisce più l&#39;intervallo di prezzo e la categoria di un prodotto per i prodotti non assegnati a un catalogo condiviso quando è abilitato il catalogo condiviso. In precedenza, la query restituiva le aggregazioni del prodotto, anche se il prodotto stesso non veniva restituito nell&#39;array `items`.
+- &#x200B;<!--- MC-39522--> La query di GraphQL `products` non restituisce più l&#39;intervallo di prezzo e la categoria di un prodotto per i prodotti non assegnati a un catalogo condiviso quando è abilitato il catalogo condiviso. In precedenza, la query restituiva le aggregazioni del prodotto, anche se il prodotto stesso non veniva restituito nell&#39;array `items`.
 
 ### B2B v1.3.1
 
@@ -938,7 +938,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Ordinando i prodotti in base allo SKU mediante l&#39;opzione Ordinamento rapido non si otterranno più quantità di prodotti duplicate nel file CSV. <!--- MC-37427-->
 
-- Il pulsante **[!UICONTROL Add to Cart]** non è più bloccato se la sezione _[!UICONTROL Enter Multiple SKUs]_della pagina Ordine rapido contiene un valore vuoto. Al contrario, Adobe Commerce ora visualizza un messaggio che richiede di immettere SKU validi. <!--- MC-37387-->
+- Il pulsante **[!UICONTROL Add to Cart]** non è più bloccato se la sezione _[!UICONTROL Enter Multiple SKUs]_&#x200B;della pagina Ordine rapido contiene un valore vuoto. Al contrario, Adobe Commerce ora visualizza un messaggio che richiede di immettere SKU validi. <!--- MC-37387-->
 
 - Adobe Commerce visualizza ora questo messaggio nella pagina del prodotto quando si invia una revisione del prodotto da un elenco di richieste: `You submitted your review for moderation`. La revisione viene visualizzata anche nella pagina Revisioni in sospeso (Amministratore **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). In precedenza, anche se Adobe Commerce aggiungeva la revisione all’elenco delle revisioni in sospeso, generava un errore 404 nella pagina del prodotto. <!--- MC-37119-->
 
@@ -1034,7 +1034,7 @@ Questa versione include miglioramenti alle approvazioni degli ordini, ai metodi 
 
 - È ora possibile implementare correttamente il multishipping per gli ordini che contengono prodotti sia fisici che virtuali. <!--- MC-33818-->
 
-- Gli esercenti possono ora creare utenti aziendali dalla sezione _[!UICONTROL Company Users]_delle pagine Il mio account e la struttura della società quando **[!UICONTROL Access Restriction]**è abilitato e **[!UICONTROL Restriction Mode]**è impostato su `Sales: Login Only`. In precedenza, Adobe Commerce generava questo errore quando un commerciante tentava di creare un utente: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+- Gli esercenti possono ora creare utenti aziendali dalla sezione _[!UICONTROL Company Users]_&#x200B;delle pagine Il mio account e la struttura della società quando **[!UICONTROL Access Restriction]**&#x200B;è abilitato e **[!UICONTROL Restriction Mode]**&#x200B;è impostato su `Sales: Login Only`. In precedenza, Adobe Commerce generava questo errore quando un commerciante tentava di creare un utente: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 - Adobe Commerce non ripristina più il gruppo di clienti predefinito di un cliente quando quest’ultimo salva le informazioni sul proprio account. <!--- MC-33554-->
 
