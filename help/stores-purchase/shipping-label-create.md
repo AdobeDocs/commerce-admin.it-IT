@@ -3,9 +3,9 @@ title: Creare etichette e pacchetti di spedizione
 description: Scopri come imballare gli articoli in un ordine e creare etichette di spedizione.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Contatta ogni vettore che utilizzi per attivare le etichette di spedizione per i
 Segui le istruzioni fornite da ciascun vettore per aggiungere il supporto per le etichette di spedizione al tuo account.
 
 - **FedEx** - Contatta [FedEx Web Integration Services](https://www.fedex.com/en-us/api/get-support.html) per informazioni sui requisiti di stampa delle etichette per il tuo account.
-- **USPS** - Per informazioni su come impostare le credenziali per la stampa delle etichette, consulta il [portale API per gli strumenti Web](https://www.usps.com/business/web-tools-apis/#ssc) nel Centro Supporto Tecnico Spedizioniere.
+- **USPS** - Per informazioni su come impostare le credenziali per la stampa delle etichette, consulta il [portale USPS](https://developers.usps.com/).
 - **UPS**- Contatta [UPS](https://www.ups.com/us/en/support/contact-us.page) per verificare che il tuo account supporti le etichette di spedizione. Per generare le etichette di spedizione, è necessario utilizzare l&#39;opzione XML UPS.
 - **DHL** - Contatta [DHL eCommerce Solutions](https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html) per informazioni sui requisiti di stampa delle etichette per il tuo account.
 
@@ -45,7 +45,7 @@ Segui le istruzioni fornite da ciascun vettore per aggiungere il supporto per le
 
 La United Parcel Service è un servizio di spedizione pacchi sia a livello nazionale che internazionale. Tuttavia, le etichette di spedizione possono essere generate solo per le spedizioni provenienti dagli Stati Uniti.
 
-1. Nella sezione _[!UICONTROL Sales]_&#x200B;nel pannello a sinistra, scegli **[!UICONTROL Delivery Methods]**.
+1. Nella sezione _[!UICONTROL Sales]_nel pannello a sinistra, scegli **[!UICONTROL Delivery Methods]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL UPS]**.
 
@@ -65,14 +65,14 @@ La United Parcel Service è un servizio di spedizione pacchi sia a livello nazio
 
 1. Selezionare **[!UICONTROL USPS Type]** come `USPS Rest APIs` o `USPS Web Tools API`.
 
+   >[!NOTE]
+   >
+   >USPS non supporta più l&#39;API degli strumenti Web USPS.
+
 1. Verificare che **[!UICONTROL Secure Gateway URL]** sia corretto.
 
 1. Verificare che la seguente configurazione sia completa in base a **[!UICONTROL USPS Type]** selezionato:
 
-   Se utilizzi l’API degli strumenti web USPS:
-   - ID utente
-   - Password
-
    Se utilizzi le API REST USPS:
    - Chiave consumer
    - Segreto consumer
@@ -84,22 +84,9 @@ La United Parcel Service è un servizio di spedizione pacchi sia a livello nazio
    - MID manifesto
    - AES/ITN
 
-1. Verificare che la seguente configurazione sia completa in base a **[!UICONTROL USPS Type]** selezionato:
-
    Se utilizzi l’API degli strumenti web USPS:
    - ID utente
    - Password
-
-   Se utilizzi le API REST USPS:
-   - Chiave consumer
-   - Segreto consumer
-   - Opzioni di determinazione prezzi
-   - Tipo di account
-   - Numero account
-   - ID registrazione cliente (CRID)
-   - Identificatore Mailer (MID)
-   - MID manifesto
-   - AES/ITN
 
 1. Impostare **[!UICONTROL Size]** su `Large` e immettere i valori per le dimensioni seguenti:
 
@@ -162,7 +149,7 @@ DHL fornisce servizi di spedizione internazionali.
 
 1. Aggiungi o aggiorna prodotti nel pacchetto:
 
-   - Per aggiungere prodotti dall&#39;ordine al pacchetto, fare clic su **[!UICONTROL Add Products]**. La colonna _[!UICONTROL Quantity]_&#x200B;mostra il numero massimo di prodotti disponibili per il pacchetto.
+   - Per aggiungere prodotti dall&#39;ordine al pacchetto, fare clic su **[!UICONTROL Add Products]**. La colonna _[!UICONTROL Quantity]_mostra il numero massimo di prodotti disponibili per il pacchetto.
 
    - Selezionare la casella di controllo di ciascun prodotto da aggiungere al pacchetto e immettere il **[!UICONTROL Quantity]** di ciascun prodotto. Quindi fare clic su **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -170,7 +157,7 @@ DHL fornisce servizi di spedizione internazionali.
 
    - Per eliminare un pacchetto, scegliere **[!UICONTROL Delete Package]**.
 
-   - Per annullare un ordine, fare clic su **[!UICONTROL Cancel]**. L&#39;etichetta di spedizione non è stata creata e la casella di controllo _[!UICONTROL Create Shipping Label]_&#x200B;è deselezionata.
+   - Per annullare un ordine, fare clic su **[!UICONTROL Cancel]**. L&#39;etichetta di spedizione non è stata creata e la casella di controllo _[!UICONTROL Create Shipping Label]_è deselezionata.
 
    >[!NOTE]
    >
@@ -208,11 +195,11 @@ Le etichette di spedizione vengono generate in formato PDF e possono essere stam
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Trova la spedizione nella griglia e apri il record.
 
-1. Per scaricare il file PDF, passare alla sezione _[!UICONTROL Shipping and Tracking]_&#x200B;del modulo e fare clic su **[!UICONTROL Print Shipping Label]**.
+1. Per scaricare il file PDF, passare alla sezione _[!UICONTROL Shipping and Tracking]_del modulo e fare clic su **[!UICONTROL Print Shipping Label]**.
 
    A seconda delle impostazioni del browser, le etichette di spedizione possono essere visualizzate e stampate direttamente dal file PDF.
 
-   Il pulsante _[!UICONTROL Print Shipping Label]_&#x200B;viene visualizzato solo dopo che il vettore ha generato le etichette per la spedizione. Se manca il pulsante, fare clic su **[!UICONTROL Create Shipping Label]**. Il pulsante viene visualizzato dopo che Commerce ha ricevuto l&#39;etichetta dal gestore.
+   Il pulsante _[!UICONTROL Print Shipping Label]_viene visualizzato solo dopo che il vettore ha generato le etichette per la spedizione. Se manca il pulsante, fare clic su **[!UICONTROL Create Shipping Label]**. Il pulsante viene visualizzato dopo che Commerce ha ricevuto l&#39;etichetta dal gestore.
 
 ### Metodo 2: Stampa etichette per più ordini
 
@@ -241,7 +228,7 @@ Viene stampato un set completo di etichette di spedizione per ogni spedizione co
 
 ## Creare pacchetti
 
-La finestra _[!UICONTROL Create Packages]_&#x200B;viene visualizzata quando si sceglie di creare un&#39;etichetta di spedizione. Puoi iniziare immediatamente a configurare il primo pacchetto.
+La finestra _[!UICONTROL Create Packages]_viene visualizzata quando si sceglie di creare un&#39;etichetta di spedizione. Puoi iniziare immediatamente a configurare il primo pacchetto.
 
 ### Configurare un pacchetto
 
@@ -253,7 +240,7 @@ La finestra _[!UICONTROL Create Packages]_&#x200B;viene visualizzata quando si s
 
    - Specifica i prodotti e le quantità.
 
-     La colonna _[!UICONTROL Qty]_&#x200B;mostra la quantità massima disponibile da aggiungere. Per il primo imballaggio, il numero corrisponde alla quantità totale del prodotto da spedire.
+     La colonna _[!UICONTROL Qty]_mostra la quantità massima disponibile da aggiungere. Per il primo imballaggio, il numero corrisponde alla quantità totale del prodotto da spedire.
 
    - Per aggiungere i prodotti al pacchetto, fare clic su **[!UICONTROL Add Selected Product(s) to Package]**.
 

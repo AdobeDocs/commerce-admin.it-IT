@@ -3,9 +3,9 @@ title: Impostazione vettore di spedizione
 description: Scopri il supporto per gli account di spedizione commerciali disponibile per il tuo negozio.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ Le opzioni di configurazione variano a seconda del gestore. Tuttavia, tutti rich
 
 Le versioni 2.4.6, 2.4.7 e 2.4.8 di Adobe Commerce utilizzano le API legacy degli strumenti web per l’integrazione preconfigurata delle soluzioni di spedizione con USPS. USPS ha introdotto le API USPS, una piattaforma basata su REST che sostituisce le API legacy degli strumenti web.
 
-Il 25 gennaio 2026, USPS ritirerà le API degli strumenti web legacy. Dopo questa data, tutte le richieste alle API degli strumenti web avranno esito negativo.
+A partire dal 25 gennaio 2026, USPS ha ritirato le API legacy degli strumenti web. Dopo questa data, tutte le richieste alle API degli strumenti web avranno esito negativo.
 
-Per evitare interruzioni dei servizi di spedizione USPS, effettua le seguenti azioni prima del 25 gennaio 2026:
+Per evitare interruzioni dei servizi di spedizione USPS, effettua l&#39;aggiornamento all&#39;ultima versione di Adobe Commerce oppure effettua le seguenti operazioni:
 
-- Applica la patch di qualità per la migrazione di [API REST USPS](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) per aggiungere il supporto per l&#39;integrazione con le API REST USPS.
+- Applica la patch di qualità per la migrazione di [API REST USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) per aggiungere il supporto per l&#39;integrazione con le API REST USPS.
 
 - Aggiorna la configurazione USPS di Commerce per utilizzare le API REST:
 
