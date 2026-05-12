@@ -3,9 +3,9 @@ title: Creare etichette e pacchetti di spedizione
 description: Scopri come imballare gli articoli in un ordine e creare etichette di spedizione.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Segui le istruzioni fornite da ciascun vettore per aggiungere il supporto per le
 
 La United Parcel Service è un servizio di spedizione pacchi sia a livello nazionale che internazionale. Tuttavia, le etichette di spedizione possono essere generate solo per le spedizioni provenienti dagli Stati Uniti.
 
-1. Nella sezione _[!UICONTROL Sales]_&#x200B;nel pannello a sinistra, scegli **[!UICONTROL Delivery Methods]**.
+1. Nella sezione _[!UICONTROL Sales]_nel pannello a sinistra, scegli **[!UICONTROL Delivery Methods]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL UPS]**.
 
@@ -67,7 +67,22 @@ La United Parcel Service è un servizio di spedizione pacchi sia a livello nazio
 
 1. Verificare che **[!UICONTROL Secure Gateway URL]** sia corretto.
 
-1. Immettere il **[!UICONTROL Password]** fornito da USPS.
+1. Verificare che la seguente configurazione sia completa in base a **[!UICONTROL USPS Type]** selezionato:
+
+   Se utilizzi l’API degli strumenti web USPS:
+   - ID utente
+   - Password
+
+   Se utilizzi le API REST USPS:
+   - Chiave consumer
+   - Segreto consumer
+   - Opzioni di determinazione prezzi
+   - Tipo di account
+   - Numero account
+   - ID registrazione cliente (CRID)
+   - Identificatore Mailer (MID)
+   - MID manifesto
+   - AES/ITN
 
 1. Verificare che la seguente configurazione sia completa in base a **[!UICONTROL USPS Type]** selezionato:
 
@@ -115,13 +130,15 @@ DHL fornisce servizi di spedizione internazionali.
 
 1. Continuando nella configurazione **[!UICONTROL Delivery Methods]**, espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL DHL]**.
 
-1. Verificare che **[!UICONTROL Gateway URL]** sia corretto.
+1. Selezionare **[!UICONTROL DHL Type]** come `DHL REST` o `DHL XML`.
 
-1. Verifica che le seguenti credenziali siano complete:
+1. Verificare che le credenziali seguenti siano complete in base alla selezione di **[!UICONTROL DHL Type]**:
 
    - ID accesso
    - Password
    - Numero account
+   - Chiave API
+   - Segreto API
 
 1. Fare clic su **[!UICONTROL Save Config]**.
 
@@ -145,7 +162,7 @@ DHL fornisce servizi di spedizione internazionali.
 
 1. Aggiungi o aggiorna prodotti nel pacchetto:
 
-   - Per aggiungere prodotti dall&#39;ordine al pacchetto, fare clic su **[!UICONTROL Add Products]**. La colonna _[!UICONTROL Quantity]_&#x200B;mostra il numero massimo di prodotti disponibili per il pacchetto.
+   - Per aggiungere prodotti dall&#39;ordine al pacchetto, fare clic su **[!UICONTROL Add Products]**. La colonna _[!UICONTROL Quantity]_mostra il numero massimo di prodotti disponibili per il pacchetto.
 
    - Selezionare la casella di controllo di ciascun prodotto da aggiungere al pacchetto e immettere il **[!UICONTROL Quantity]** di ciascun prodotto. Quindi fare clic su **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -153,7 +170,7 @@ DHL fornisce servizi di spedizione internazionali.
 
    - Per eliminare un pacchetto, scegliere **[!UICONTROL Delete Package]**.
 
-   - Per annullare un ordine, fare clic su **[!UICONTROL Cancel]**. L&#39;etichetta di spedizione non è stata creata e la casella di controllo _[!UICONTROL Create Shipping Label]_&#x200B;è deselezionata.
+   - Per annullare un ordine, fare clic su **[!UICONTROL Cancel]**. L&#39;etichetta di spedizione non è stata creata e la casella di controllo _[!UICONTROL Create Shipping Label]_è deselezionata.
 
    >[!NOTE]
    >
@@ -191,11 +208,11 @@ Le etichette di spedizione vengono generate in formato PDF e possono essere stam
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Trova la spedizione nella griglia e apri il record.
 
-1. Per scaricare il file PDF, passare alla sezione _[!UICONTROL Shipping and Tracking]_&#x200B;del modulo e fare clic su **[!UICONTROL Print Shipping Label]**.
+1. Per scaricare il file PDF, passare alla sezione _[!UICONTROL Shipping and Tracking]_del modulo e fare clic su **[!UICONTROL Print Shipping Label]**.
 
    A seconda delle impostazioni del browser, le etichette di spedizione possono essere visualizzate e stampate direttamente dal file PDF.
 
-   Il pulsante _[!UICONTROL Print Shipping Label]_&#x200B;viene visualizzato solo dopo che il vettore ha generato le etichette per la spedizione. Se manca il pulsante, fare clic su **[!UICONTROL Create Shipping Label]**. Il pulsante viene visualizzato dopo che Commerce ha ricevuto l&#39;etichetta dal gestore.
+   Il pulsante _[!UICONTROL Print Shipping Label]_viene visualizzato solo dopo che il vettore ha generato le etichette per la spedizione. Se manca il pulsante, fare clic su **[!UICONTROL Create Shipping Label]**. Il pulsante viene visualizzato dopo che Commerce ha ricevuto l&#39;etichetta dal gestore.
 
 ### Metodo 2: Stampa etichette per più ordini
 
@@ -218,13 +235,13 @@ Viene stampato un set completo di etichette di spedizione per ogni spedizione co
 | [!UICONTROL Type] | I tipi di pacchetti variano in base al vettore e al metodo. Inizialmente viene selezionato il tipo di pacchetto predefinito per ogni gestore. USPS non richiede il tipo di imballaggio per le spedizioni nazionali. |
 | [!UICONTROL Customs Value] | (Solo spedizioni internazionali) Valore o prezzo di vendita dichiarato del contenuto di una spedizione internazionale. |
 | [!UICONTROL Total Weight] | Il peso totale di tutti i prodotti aggiunti alla confezione viene calcolato automaticamente. Il valore può anche essere modificato manualmente e immesso come libbre o chilogrammi. |
-| [!UICONTROL Length, Width, Height] | (Facoltativo) Le dimensioni del pacchetto vengono utilizzate solo per i pacchetti personalizzati. È possibile specificare le unità di misura in pollici o centimetri.<br/><br/>**[!UICONTROL Not Required]**: nessuna conferma di consegna inviata al negozio dal vettore.<br/><br/>**[!UICONTROL No Signature]**: una conferma di consegna senza la firma del destinatario viene inviata allo store dal vettore di spedizione.<br/><br/>**[!UICONTROL Signature Required]**: il corriere ottiene la firma del destinatario e fornisce al negozio una copia stampata.<br/><br/>**[!UICONTROL Direct]**: (solo FedEx) FedEx ottiene una firma da qualcuno all&#39;indirizzo di consegna. Se nessuno è disponibile per firmare il pacchetto, il vettore tenta di consegnarlo in un altro momento.<br/><br/>**[!UICONTROL Indirect]**: (solo consegne residenziali FedEx) FedEx ottiene la firma di un utente (possibilmente un vicino o un responsabile dell&#39;edificio) all&#39;indirizzo di consegna. Il destinatario può lasciare un cartellino FedEx firmato per autorizzare il pacchetto a rimanere senza nessuno presente per firmarlo.<br/><br/>**[!UICONTROL Contents]**: (Solo USPS) Selezionare una delle seguenti descrizioni del pacchetto:<br/>- Regalo<br/>- Documenti<br/>- Campione commerciale<br/>- Merci restituite<br/>- Merce<br/>- Altro <br/><br/>**[!UICONTROL Explanation]**: (solo USPS) Una descrizione dettagliata del contenuto del pacchetto.<br/><br/>**[!UICONTROL Adult Required]**: il corriere ottiene la firma di un destinatario adulto e fornisce al negozio una copia stampata. |
+| [!UICONTROL Length, Width, Height] | (Facoltativo) Le dimensioni del pacchetto vengono utilizzate solo per i pacchetti personalizzati. È possibile specificare le unità di misura in pollici o centimetri.<br/><br/>**[!UICONTROL Not Required]**: Nessuna conferma di consegna inviata al negozio dal vettore di spedizione.<br/><br/>**[!UICONTROL No Signature]**: una conferma di consegna senza la firma del destinatario viene inviata al negozio dal vettore di spedizione.<br/><br/>**[!UICONTROL Signature Required]**: il vettore di spedizione ottiene la firma del destinatario e fornisce al negozio una copia stampata.<br/><br/>**[!UICONTROL Direct]**: (solo FedEx) FedEx ottiene una firma da qualcuno all&#39;indirizzo di consegna. Se nessuno è disponibile per firmare il pacchetto, il vettore tenta di consegnarlo in un altro momento.<br/><br/>**[!UICONTROL Indirect]**: (solo consegne residenziali FedEx) FedEx ottiene la firma di un utente (possibilmente un vicino o un responsabile dell&#39;edificio) all&#39;indirizzo di consegna. Il destinatario può lasciare un tag di porta FedEx firmato per autorizzare che il pacchetto venga lasciato senza la firma di nessuno presente.<br/><br/>**[!UICONTROL Contents]**: (Solo USPS) Seleziona una delle seguenti descrizioni del pacchetto:<br/>- Regalo<br/>- Documenti<br/>- Campione commerciale<br/>- Merci restituite<br/>- Merce<br/>- Altro <br/><br/>**[!UICONTROL Explanation]**: (Solo USPS) Una descrizione dettagliata del contenuto del pacchetto.<br/><br/>**[!UICONTROL Adult Required]**: il corriere ottiene la firma di un destinatario adulto e fornisce allo store una copia stampata. |
 
 {style="table-layout:auto"}
 
 ## Creare pacchetti
 
-La finestra _[!UICONTROL Create Packages]_&#x200B;viene visualizzata quando si sceglie di creare un&#39;etichetta di spedizione. Puoi iniziare immediatamente a configurare il primo pacchetto.
+La finestra _[!UICONTROL Create Packages]_viene visualizzata quando si sceglie di creare un&#39;etichetta di spedizione. Puoi iniziare immediatamente a configurare il primo pacchetto.
 
 ### Configurare un pacchetto
 
@@ -236,7 +253,7 @@ La finestra _[!UICONTROL Create Packages]_&#x200B;viene visualizzata quando si s
 
    - Specifica i prodotti e le quantità.
 
-     La colonna _[!UICONTROL Qty]_&#x200B;mostra la quantità massima disponibile da aggiungere. Per il primo imballaggio, il numero corrisponde alla quantità totale del prodotto da spedire.
+     La colonna _[!UICONTROL Qty]_mostra la quantità massima disponibile da aggiungere. Per il primo imballaggio, il numero corrisponde alla quantità totale del prodotto da spedire.
 
    - Per aggiungere i prodotti al pacchetto, fare clic su **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -281,7 +298,7 @@ Se necessario, puoi fare clic su **[!UICONTROL Cancel]** per interrompere il pro
 | [!UICONTROL Length] | Lunghezza di un pacchetto, numeri interi e numeri a virgola mobile. Il campo è abilitato se si utilizza il tipo di pacchetto personalizzato. L&#39;unità di misura può essere impostata su pollici o centimetri. |
 | [!UICONTROL Width] | Larghezza di un pacchetto, numeri interi e numeri a virgola mobile. Il campo è abilitato se si utilizza il tipo di pacchetto personalizzato. Le unità di misura possono essere specificate utilizzando il menu a discesa accanto al campo Altezza; selezionare tra pollici e centimetri. |
 | [!UICONTROL Height] | Altezza di un pacchetto, numeri interi e numeri a virgola mobile. Il campo è abilitato se si utilizza il tipo di pacchetto personalizzato. Le unità di misura possono essere specificate utilizzando il menu a discesa accanto al campo Altezza; selezionare tra pollici e centimetri. |
-| [!UICONTROL Signature] | Definisce la conferma della consegna. Opzioni:<br/><br/>**[!UICONTROL Not Required]**: nessuna lettera di conferma della consegna inviata all&#39;utente.<br/><br/>**[!UICONTROL No Signature]**: viene inviata una lettera di conferma della consegna senza la firma di un destinatario.<br/><br/>**[!UICONTROL Signature Required]**: il corriere ottiene la firma del destinatario e ti fornisce la copia stampata.<br/><br/>**[!UICONTROL Adult Required]**: il corriere ottiene la firma del destinatario adulto e ti fornisce la copia stampata.<br/><br/>**[!UICONTROL Direct (FedEx only)]**: FedEx ottiene una firma da qualcuno all&#39;indirizzo di consegna e ritenta la consegna se non è disponibile nessuno per firmare il pacchetto.<br/><br/>**[!UICONTROL Indirect (FedEx only)]**: FedEx ottiene una firma in uno dei tre modi seguenti:<br/>(1) da qualcuno all&#39;indirizzo di consegna; <br/>(2) da un vicino, un manager di edificio o un&#39;altra persona all&#39;indirizzo; oppure <br/>(3) il destinatario può lasciare un FedEx Door Tag firmato che autorizza il rilascio del pacchetto senza nessuno presente. Disponibile solo per consegne residenziali. Le opzioni possono variare leggermente in base ai diversi metodi di spedizione. Per informazioni più recenti, consulta le risorse del vettore di spedizione. |
+| [!UICONTROL Signature] | Definisce la conferma della consegna. Opzioni:<br/><br/>**[!UICONTROL Not Required]**: nessuna lettera di conferma della consegna inviata all&#39;utente.<br/><br/>**[!UICONTROL No Signature]**: una lettera di conferma della consegna senza la firma di un destinatario viene inviata all&#39;utente.<br/><br/>**[!UICONTROL Signature Required]**: il vettore di spedizione ottiene la firma del destinatario e ne fornisce la copia stampata.<br/><br/>**[!UICONTROL Adult Required]**: il vettore di spedizione ottiene la firma del destinatario adulto e fornisce la copia stampata.<br/><br/>**[!UICONTROL Direct (FedEx only)]**: FedEx ottiene una firma da qualcuno all&#39;indirizzo di consegna e ritenta la consegna se non è disponibile nessuno per firmare il pacchetto.<br/><br/>**[!UICONTROL Indirect (FedEx only)]**: FedEx ottiene una firma in uno dei tre modi seguenti:<br/>(1) da qualcuno all&#39;indirizzo di consegna; <br/>(2) un vicino, un responsabile dell&#39;edificio o un&#39;altra persona all&#39;indirizzo; oppure <br/>(3) il destinatario può lasciare un FedEx Door Tag firmato che autorizza il rilascio del pacchetto senza nessuno presente. Disponibile solo per consegne residenziali. Le opzioni possono variare leggermente in base ai diversi metodi di spedizione. Per informazioni più recenti, consulta le risorse del vettore di spedizione. |
 | [!UICONTROL Contents] | (Disponibile solo per spedizioni USPS) Descrizione del contenuto del pacchetto. Opzioni: `Gift` / `Documents` / `Commercial Sample` / `Returned Goods` / `Merchandise` / `Other` |
 | [!UICONTROL Explanation] | (Solo spedizioni USPS) Descrizione dettagliata del contenuto della confezione. |
 

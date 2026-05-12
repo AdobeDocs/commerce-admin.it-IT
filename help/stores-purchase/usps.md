@@ -3,9 +3,9 @@ title: Servizio postale degli Stati Uniti (USPS)
 description: Scopri come impostare USPS come vettore di spedizione per il tuo negozio.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,15 @@ Apri un account [Strumenti Web USPS](https://secure.shippingapis.com/registratio
 
 1. Imposta **[!UICONTROL Enabled for Checkout]** su `Yes`.
 
-1. Impostare **[!UICONTROL USPS Type]** su `USPS Rest APIs` se si utilizza l&#39;API REST USPS.
+1. Imposta il tipo di API USPS.
 
-   Se si utilizza l&#39;API degli strumenti Web USPS, impostare **[!UICONTROL USPS Type]** su `USPS Web Tools API`.
+   - Se si utilizza l&#39;API REST USPS, impostare **[!UICONTROL USPS Type]** su `USPS REST API`.
+
+   - Se si utilizza l&#39;API degli strumenti Web USPS, impostare **[!UICONTROL USPS Type]** su `USPS Web Tools API`.
+
+   >[!NOTE]
+   >
+   >Le API Rest di USPS sono il metodo preferito per l’integrazione con USPS. L’API degli strumenti web USPS è obsoleta e potrebbe essere rimossa nelle versioni future.
 
 1. Se necessario, immettere **[!UICONTROL Gateway URL]** per accedere alle tariffe di spedizione USPS.
 
@@ -48,16 +54,17 @@ Apri un account [Strumenti Web USPS](https://secure.shippingapis.com/registratio
 
 1. Utilizza le credenziali fornite da USPS per completare i campi seguenti:
 
-   Se utilizzi le API REST USPS, devi fornire le seguenti credenziali:
+   Se utilizzi le API REST USPS, fornisci le seguenti credenziali:
 
    - **[!UICONTROL Consumer Key]**
    - **[!UICONTROL Consumer Secret]**
    - **[!UICONTROL Pricing Options]**
 
-   Se si utilizza l&#39;API degli strumenti Web USPS, è necessario fornire le credenziali seguenti:
+   Se utilizzi l’API degli strumenti web USPS, fornisci le seguenti credenziali:
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
+
 
 1. Imposta **[!UICONTROL Mode]** su uno dei seguenti:
 
@@ -100,7 +107,7 @@ La tariffa di movimentazione è facoltativa e viene visualizzata come un supplem
 
 1. Immettere l&#39;importo di **[!UICONTROL Handling Fee]** da addebitare.
 
-   Per immettere una percentuale, utilizzare il formato decimale. Ad esempio, immettere `0.25` per il 25%.
+   Per immettere una percentuale, utilizzare il formato decimale. Ad esempio, immettere `25` per il 25%.
 
    ![Spese di gestione USPS](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 

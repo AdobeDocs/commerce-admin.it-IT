@@ -3,9 +3,9 @@ title: '[!UICONTROL My Requisition Lists]'
 description: Scopri l’esperienza del cliente per gli elenchi delle richieste di acquisto, disponibili nel dashboard del suo account.
 exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 feature: B2B, Companies
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 537207b0e72127abaca2e39b27c24c5a0aadf801
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -141,3 +141,21 @@ Un prodotto nell&#39;elenco delle richieste di acquisto può essere modificato q
 | [!UICONTROL Delete Requisition List] | Elimina l&#39;elenco delle richieste di acquisto dall&#39;account dell&#39;utente della società. |
 
 {style="table-layout:auto"}
+
+## Controlli di impaginazione
+
+I controlli di impaginazione vengono visualizzati nella parte inferiore dell&#39;elenco quando il numero totale di elementi dell&#39;elenco delle richieste di acquisto supera gli elementi selezionati per pagina.
+
+![Elenco richieste di acquisto con impaginazione](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
+
+>[!NOTE]
+>
+> I prodotti che richiedono la tua attenzione (ad esempio, quelli esauriti) vengono visualizzati nella parte superiore dell’elenco se rientrano nella pagina corrente della paginazione. Il numero di prodotti che richiedono attenzione è indicato sopra l’elenco.
+> ![Elementi che richiedono attenzione](./assets/requisition-list-product-requiring-attention.png){width="500"}
+
+### Controlli di paginazione della vetrina
+
+| Controllo | Descrizione |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Mostra per pagina](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Determina quanti elementi dell&#39;elenco richieste di acquisto vengono visualizzati per pagina. È possibile scegliere 20, 50, 100, 500 o 1000 elementi dell&#39;elenco delle richieste da visualizzare nella pagina. |
+| ![Collegamenti di paginazione](./assets/control-pagination.png) | [!UICONTROL Pagination links] - Fornisce collegamenti di navigazione ad altre pagine. |

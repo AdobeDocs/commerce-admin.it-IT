@@ -4,9 +4,9 @@ description: Scopri come creare account utente amministratore e assegnare ruoli 
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
+source-git-commit: e2644f16f8e8adb77d070ddb66c724c00a15a525
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Se altri membri del team o fornitori di servizi hanno bisogno di accedere, puoi 
 
 >[!NOTE]
 >
->I commercianti di Adobe Commerce che dispongono di un Adobe ID e desiderano un accesso semplificato ai prodotti aziendali Adobe Commerce e Adobe possono integrare l’autenticazione Commerce con il flusso di lavoro di autenticazione IMS di Adobe. Una volta abilitata l’integrazione per il tuo archivio Commerce, per accedere ogni utente amministratore deve utilizzare le credenziali Adobe, non le credenziali Commerce. Consulta [Panoramica dell&#39;integrazione del servizio Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=it).
+>I commercianti di Adobe Commerce che dispongono di un Adobe ID e desiderano un accesso semplificato ai prodotti aziendali Adobe Commerce e Adobe possono integrare l’autenticazione Commerce con il flusso di lavoro di autenticazione IMS di Adobe. Una volta abilitata l’integrazione per il tuo archivio Commerce, per accedere ogni utente amministratore deve utilizzare le credenziali Adobe, non le credenziali Commerce. Consulta [Panoramica dell&#39;integrazione del servizio Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza per l’account utente.
 
@@ -31,9 +31,9 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New User]**.
 
-   Per modificare un utente esistente, fare clic sul nome di un utente nella griglia. È possibile modificare le sezioni _[!UICONTROL User Info]_&#x200B;e&#x200B;_[!UICONTROL User Role]_ in base alle esigenze.
+   Per modificare un utente esistente, fare clic sul nome di un utente nella griglia. È possibile modificare le sezioni _[!UICONTROL User Info]_e_[!UICONTROL User Role]_ in base alle esigenze.
 
-1. Nella sezione _[!UICONTROL Account Information]_&#x200B;eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Account Information]_eseguire le operazioni seguenti:
 
    ![Informazioni account utente](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
@@ -53,7 +53,7 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
      >[!NOTE]
      >
-     >Una password amministratore deve avere una lunghezza di sette o più caratteri e includere sia lettere che numeri. Per ulteriori opzioni relative alla password, vedere [Configurazione della sicurezza amministratore](security-admin.md).
+     >La password amministratore deve contenere almeno sette caratteri (per impostazione predefinita) e includere sia lettere che numeri. La lunghezza minima della password può essere configurata nelle impostazioni di sicurezza dell’amministratore. Per ulteriori opzioni relative alla password, vedere [Configurazione della sicurezza amministratore](security-admin.md).
 
    - Per **[!UICONTROL Password Confirmation]**, immettere nuovamente la password per verificare che sia stata immessa correttamente.
 
@@ -65,21 +65,21 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
    La definizione di una data di scadenza è utile quando un utente o un ruolo è temporaneo. Dopo la data di scadenza, lo stato dell&#39;account utente cambia in `Inactive` e può essere aggiornato, se necessario.
 
-1. In _[!UICONTROL Current User Identity Verification]_&#x200B;immettere la password dell&#39;account utente.
+1. In _[!UICONTROL Current User Identity Verification]_immettere la password dell&#39;account utente.
 
 >[!IMPORTANT]
 >
->Dopo aver completato la sezione _[!UICONTROL Account Information]_, puoi salvare l&#39;utente. Il nuovo utente viene visualizzato nella griglia&#x200B;_[!UICONTROL Users]_, ma il nome utente non può accedere finché non viene assegnato un ruolo.
+>Dopo aver completato la sezione _[!UICONTROL Account Information]_, puoi salvare l&#39;utente. Il nuovo utente viene visualizzato nella griglia_[!UICONTROL Users]_, ma il nome utente non può accedere finché non viene assegnato un ruolo.
 
 ## Assegna un ruolo utente
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL User Role]**.
 
-   Nella griglia sono elencati tutti i ruoli utente esistenti. Per un nuovo archivio, _[!UICONTROL Administrators]_&#x200B;è l&#39;unico ruolo disponibile.
+   Nella griglia sono elencati tutti i ruoli utente esistenti. Per un nuovo archivio, _[!UICONTROL Administrators]_è l&#39;unico ruolo disponibile.
 
    ![Amministratore - Aggiungi nuovo ruolo utente](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. Nella colonna _[!UICONTROL Assigned]_&#x200B;selezionare un ruolo utente.
+1. Nella colonna _[!UICONTROL Assigned]_selezionare un ruolo utente.
 
    Puoi [visualizzare ruoli utente esistenti o definire ruoli utente aggiuntivi](permissions-user-roles.md). Dopo aver definito un ruolo, è necessario modificare l&#39;account utente per assegnare il nuovo ruolo.
 
@@ -105,7 +105,7 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
 1. Quando richiesto, immettere la password per confermare l&#39;identità e fare di nuovo clic su **[!UICONTROL Save User]**.
 
-   La griglia _[!UICONTROL Users]_&#x200B;si apre ed elenca tutti gli utenti.
+   La griglia _[!UICONTROL Users]_si apre ed elenca tutti gli utenti.
 
 ## Eliminare un utente amministratore
 
@@ -123,7 +123,7 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
 La configurazione del modello e-mail amministratore determina le e-mail inviate quando gli utenti dimenticano e reimpostano le password. Questa configurazione specifica il contatto dell&#39;archivio che viene visualizzato come mittente del messaggio e per quanto tempo il collegamento di recupero password rimane valido.
 
-**_Per configurare i modelli e-mail dell&#39;amministratore:_**
+**_Per configurare i modelli e-mail per amministratori:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Setting]_>**[!UICONTROL Configuration]**.
 

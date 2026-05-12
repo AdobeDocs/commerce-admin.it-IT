@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
-description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] dell'amministratore di Commerce.
+title: '[!UICONTROL Catalog] > [!UICONTROL XML Sitemap]'
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Catalog] > [!UICONTROL XML Sitemap] dell'amministratore di Commerce.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![Opzioni Categorie](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-<!-- [Categories Options](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ![Opzioni prodotti](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
-<!-- [Products Options](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ![Opzioni pagine CMS](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-<!-- [CMS Pages Options](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -67,11 +67,12 @@ ht-degree: 2%
 
 ![Impostazioni generazione](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-<!-- [Generation Settings](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Visualizzazione store | Determina se una mappa del sito XML è disponibile per l&#39;archivio. Opzioni: `Yes` / `No` |
+| [!UICONTROL Generation Method] | Visualizzazione store | Determina la modalità di generazione della mappa del sito XML. `Standard` utilizza il tradizionale processo di generazione sincrona ed elabora tutti i dati in memoria, mentre `Batch` utilizza una modalità batch asincrona con ottimizzazione per la memoria per una maggiore flessibilità e scalabilità. Questa opzione è disponibile a partire dalla versione 2.4.9 di. Opzioni: `Standard` / `Batch` |
 | [!UICONTROL Start Time] | Visualizzazione store | Specifica l’ora, il minuto e il secondo del giorno in cui viene aggiornata la mappa del sito. |
 | [!UICONTROL Frequency] | Visualizzazione store | Determina la frequenza con cui viene aggiornata la mappa del sito. Opzioni: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Error Email Recipient] | Visualizzazione store | L’indirizzo e-mail della persona che riceve la notifica se si verifica un errore durante il processo di aggiornamento di sitemap. Per più indirizzi, separali con una virgola. |
@@ -84,7 +85,7 @@ ht-degree: 2%
 
 ![Limiti file Sitemap](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-<!-- [Sitemap File Limits](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -97,7 +98,7 @@ ht-degree: 2%
 
 ![Impostazioni invio motore di ricerca](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
-<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

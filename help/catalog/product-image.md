@@ -3,9 +3,9 @@ title: Gestire immagini e video dei prodotti
 description: Scopri come gestire le risorse immagine e video per gli elenchi dei prodotti.
 exl-id: 3cb4ab8a-8966-400f-be94-a517634d1334
 feature: Catalog Management, Products, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 37eb42859700670420d4628d9a90d8d8d7b6c53b
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Per caricare un&#39;immagine, effettuare una delle seguenti operazioni:
 
 ### Ridisponi immagini
 
-Per modificare l&#39;ordine delle immagini nella raccolta, fare clic sull&#39;icona _[!UICONTROL Sort]_( ![Icona ordinamento](./assets/inventory-icon-sort.png) ) nella parte inferiore del riquadro immagine e trascinare l&#39;immagine in una posizione diversa nella casella&#x200B;_[!UICONTROL Images And Videos]_.
+Per modificare l&#39;ordine delle immagini nella raccolta, fare clic sull&#39;icona _[!UICONTROL Sort]_( ![Icona ordinamento](./assets/inventory-icon-sort.png) ) nella parte inferiore del riquadro immagine e trascinare l&#39;immagine in una posizione diversa nella casella_[!UICONTROL Images And Videos]_.
 
 ![Cambia ordine](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -66,13 +66,13 @@ Al termine, fare clic su **[!UICONTROL Save]**.
 
 Per migliorare l’accessibilità web, gli assistenti vocali fanno riferimento al testo Image Alt e i motori di ricerca durante l’indicizzazione del sito fanno riferimento a tale testo. Alcuni browser visualizzano il testo Alt al passaggio del mouse. Il testo alternativo può contenere diverse parole e includere parole chiave selezionate con attenzione.
 
-Nella casella _[!UICONTROL Alt Text]_&#x200B;immettere una breve descrizione dell&#39;immagine.
+Nella casella _[!UICONTROL Alt Text]_immettere una breve descrizione dell&#39;immagine.
 
 #### Assegna ruoli
 
 Per impostazione predefinita, tutti i ruoli vengono assegnati alla prima immagine caricata sul prodotto. Per riassegnare un ruolo a un&#39;altra immagine, effettuare le seguenti operazioni:
 
-Nella casella _[!UICONTROL Role]_&#x200B;scegliere il ruolo che si desidera assegnare all&#39;immagine.
+Nella casella _[!UICONTROL Role]_scegliere il ruolo che si desidera assegnare all&#39;immagine.
 
 Quando ritorni alla sezione _Immagini e video_, i ruoli attualmente assegnati vengono visualizzati sotto ogni immagine.
 
@@ -83,6 +83,22 @@ Quando ritorni alla sezione _Immagini e video_, i ruoli attualmente assegnati ve
 Per escludere un&#39;immagine dalla raccolta miniature, selezionare la casella di controllo **[!UICONTROL Hidden]** e fare clic su **[!UICONTROL Save]**.
 
 ![Immagini nascoste](./assets/product-images-and-videos-hidden.png){width="600" zoomable="yes"}
+
+## Gestione di immagini e video a livello di visualizzazione store
+
+Quando si passa il selettore **[!UICONTROL Store View]** a una visualizzazione archivio specifica (non **[!UICONTROL All Store Views]**), la sezione _[!UICONTROL Images and Videos]_fornisce ulteriori controlli per gestire la modalità di visualizzazione delle immagini per tale visualizzazione archivio senza influire sull&#39;ambito predefinito.
+
+### Riordinare le immagini per una visualizzazione store
+
+Quando si lavora in un ambito di visualizzazione archivio, viene visualizzata una casella di controllo **[!UICONTROL Use Default Order]** sotto la casella _[!UICONTROL Images and Videos]_. Selezionare questa casella di controllo per ripristinare l&#39;ordine di visualizzazione dell&#39;immagine alla sequenza definita nell&#39;ambito predefinito.
+
+![Immagini E Video - Visualizzazione Archivio](./assets/product-images-and-videos-rearrange-store-scope.png){width="600" zoomable="yes"}
+
+### Impostare i dettagli immagine per una visualizzazione store
+
+Quando apri la visualizzazione Dettagli immagine nell&#39;ambito della visualizzazione archivio, ogni campo, incluso **[!UICONTROL Alt Text]**, l&#39;immagine **[!UICONTROL Role]** assegnazioni (base, piccola, miniatura, campione) e **[!UICONTROL Hide from Product Page]**, visualizza una casella di controllo **[!UICONTROL Use Default Value]**. Selezionare questa casella di controllo per ereditare il valore configurato nell&#39;ambito predefinito per il campo.
+
+![Visualizzazione dettagli immagine - Visualizzazione archivio](./assets/product-image-detail-store-scope.png){width="600" zoomable="yes"}
 
 ## Ruoli immagine
 
@@ -97,7 +113,7 @@ Per escludere un&#39;immagine dalla raccolta miniature, selezionare la casella d
 
 ## Filigrane
 
-Se si va a scapito di creare le proprie immagini di prodotto originali, non c&#39;è molto si può fare per evitare che concorrenti senza scrupoli di rubare loro con il clic di un mouse. Tuttavia, puoi renderli un target meno attraente inserendo una filigrana su ogni immagine per identificarli come proprietà. Un file di filigrana può essere un’immagine JPG JPEG, GIF o PNG. Entrambi i tipi di file GIF e PNG supportano livelli trasparenti, che possono essere utilizzati per conferire alla filigrana uno sfondo trasparente.
+Se si va a scapito di creare le proprie immagini di prodotto originali, non c&#39;è molto si può fare per evitare che concorrenti senza scrupoli di rubare loro con il clic di un mouse. Tuttavia, puoi renderli un target meno attraente inserendo una filigrana su ogni immagine per identificarli come proprietà. Un file di filigrana può essere un&#39;immagine JPG (JPEG), GIF o PNG. Entrambi i tipi di file GIF e PNG supportano livelli trasparenti, che possono essere utilizzati per conferire alla filigrana uno sfondo trasparente.
 
 La filigrana utilizzata per l&#39;immagine _small_ nell&#39;esempio seguente è un logo nero con sfondo trasparente e salvato come file PNG con le impostazioni seguenti:
 

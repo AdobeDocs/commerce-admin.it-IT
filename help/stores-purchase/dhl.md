@@ -3,9 +3,9 @@ title: DHL
 description: Scopri come impostare DHL come vettore di spedizione per il tuo negozio.
 exl-id: 765e5f90-3e93-43cf-a5bc-6132e00b506c
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 616b47e0e760a5f4f8c91b35dd002992a7ae30c0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,26 @@ DHL offre servizi internazionali integrati e soluzioni personalizzate per la ges
 
 1. Imposta **[!UICONTROL Enabled for Checkout]** su `Yes`.
 
-1. In genere è possibile accettare **[!UICONTROL Gateway URL]** predefinito.
+1. Impostare **[!UICONTROL DHL Type]** su `DHL REST` se si utilizza l&#39;API REST DHL.
 
-   Se DHL ha fornito un URL alternativo, immettere tale valore in questo campo.
+   Se si utilizza l&#39;API XML DHL, impostare **[!UICONTROL DHL Type]** su `DHL XML`.
+
+   >[!NOTE]
+   >
+   >L&#39;API REST di DHL è il metodo preferito per l&#39;integrazione con DHL. L’API XML è obsoleta e potrebbe essere rimossa nelle versioni future.
 
 1. Utilizzare le credenziali fornite da DHL per completare i campi seguenti:
 
-   - **[!UICONTROL Access ID]**
-   - **[!UICONTROL Password]**
-   - **[!UICONTROL Account Number]**
+Se si utilizza l&#39;API REST DHL, è necessario fornire le seguenti credenziali:
+
+    - **[!UICONTROL API KEY]**
+    - **[!UICONTROL API SECRET]**
+
+Se si utilizza l&#39;API XML DHL, è necessario fornire le seguenti credenziali:
+
+    - **[!UICONTROL Access ID]**
+    - **[!UICONTROL Password]**
+    - **[!UICONTROL Account Number]**
 
 ![Impostazioni account DHL](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png){width="600" zoomable="yes"}
 
@@ -63,7 +74,7 @@ DHL offre servizi internazionali integrati e soluzioni personalizzate per la ges
 
    - Per **[!UICONTROL Handling Fee]**, immettere l&#39;importo da addebitare, in base al metodo scelto per calcolare l&#39;importo.
 
-     Ad esempio, se l&#39;addebito è basato su una tariffa fissa, immettere l&#39;importo come decimale, ad esempio `4.90`. Tuttavia, se la commissione di gestione si basa su una percentuale dell&#39;ordine, immettere l&#39;importo come percentuale. Ad esempio, se si sta addebitando il 6% dell&#39;ordine, immettere il valore come `.06`.
+     Ad esempio, se l&#39;addebito è basato su una tariffa fissa, immettere l&#39;importo come decimale, ad esempio `4.90`. Tuttavia, se la commissione di gestione si basa su una percentuale dell&#39;ordine, immettere l&#39;importo come percentuale. Ad esempio, se si sta addebitando il 6% dell&#39;ordine, immettere il valore come `6`.
 
    - Per consentire il frazionamento del peso totale dell&#39;ordine per garantire un calcolo accurato delle spese di spedizione, impostare **[!UICONTROL Divide Order Weight]** su `Yes`.
 
@@ -78,6 +89,10 @@ DHL offre servizi internazionali integrati e soluzioni personalizzate per la ges
       - `Specific`
 
      Se si sceglie `Specific`, immettere **[!UICONTROL Height]**, **[!UICONTROL Depth]** e **[!UICONTROL Width]** del pacchetto in centimetri.
+
+   >[!NOTE]
+   >
+   >Se non viene specificata alcuna dimensione, ciascuna assumerà come valore predefinito un valore minimo di 3.
 
    ![Impostazioni pacchetto DHL](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
 
@@ -127,6 +142,13 @@ DHL offre servizi internazionali integrati e soluzioni personalizzate per la ges
    `No` - Mostra DHL come metodo di spedizione durante il pagamento solo se applicabile.
 
 1. Per creare un file di registro con i dettagli delle spedizioni DHL effettuate dal tuo archivio, imposta **[!UICONTROL Debug]** su `Yes`.
+
+1. DHL fornisce un&#39;opzione **[!UICONTROL sandbox mode]**. Se si utilizza la modalità sandbox, impostare **[!UICONTROL sandbox mode]** su `Yes`.
+Se si utilizza la modalità Live, impostare **[!UICONTROL sandbox mode]** su `No`.
+
+   >[!NOTE]
+   >
+   >La modalità sandbox viene utilizzata solo a scopo di test. Ti consente di testare la tua integrazione con DHL senza influire sul tuo negozio live.
 
 1. Per **[!UICONTROL Sort Order]**, immettere un numero per determinare la sequenza in cui DHL viene visualizzato quando viene elencato con altri metodi di consegna durante l&#39;estrazione.
 

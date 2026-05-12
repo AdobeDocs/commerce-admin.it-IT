@@ -3,10 +3,10 @@ title: URL Dynamic Media
 description: Scopri come utilizzare un URL di elementi multimediali dinamici come riferimento relativo a un’immagine o a un’altra risorsa multimediale.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: e2b1250c346f4eea68e08e616bf43671cb62794e
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,11 @@ Per impostazione predefinita, le immagini inserite nel catalogo dall’editor di
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL WYSIWYG Options]**.
 
-   ![Opzioni WYSIWYG](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+   ![Opzioni WYSIWYG](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>TinyMCE è stato sostituito con Hugerte come editor WYSIWYG predefinito in Magento 2.4.6 e versioni successive.
 
 1. Imposta **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** su uno dei seguenti:
 

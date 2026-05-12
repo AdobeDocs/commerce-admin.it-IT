@@ -3,9 +3,9 @@ title: Account utente amministratore
 description: Scopri il tuo account amministratore e come utilizzare l’autenticazione a due fattori per accedere all’amministratore.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Non è consentito riutilizzare le ultime quattro password assegnate all’accoun
 
    >[!NOTE]
    >
-   >La password di _Admin_ deve contenere almeno sette caratteri e includere sia lettere che numeri. Per informazioni sulle opzioni relative alle password, vedere [Configurazione della protezione _Amministratore_](../systems/security-admin.md).
+   >La password di _Admin_ deve contenere almeno sette caratteri (per impostazione predefinita) e includere sia lettere che numeri. La lunghezza minima della password può essere configurata nelle impostazioni di sicurezza dell’amministratore. Per informazioni sulle opzioni relative alle password, vedere [Configurazione della protezione _Amministratore_](../systems/security-admin.md).
 
 ## Esci dall’amministratore
 
@@ -110,7 +110,7 @@ Non è consentito riutilizzare le ultime quattro password assegnate all’accoun
 
    ![Disconnetti](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-Nella pagina _[!UICONTROL Sign In]_&#x200B;viene visualizzato un messaggio di disconnessione. Esci da_ Amministratore _ogni volta che esci dal computer senza supervisione.
+Nella pagina _[!UICONTROL Sign In]_viene visualizzato un messaggio di disconnessione. Esci da_ Amministratore _ogni volta che esci dal computer senza supervisione.
 
 ## Modifica informazioni account
 
@@ -161,7 +161,7 @@ L’amministratore consente di gestire gli ordini, i clienti, i prodotti, le fun
 
 Per garantire la sicurezza dell’amministratore, esegui controlli regolari su utenti e ruoli con accesso come amministratore.
 
-Inoltre, è consigliabile [aggiornare la configurazione dell&#39;URL di base dell&#39;amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/config/advanced/admin#admin-base-url) per cambiare l&#39;endpoint predefinito `/admin` in un percorso personalizzato. La configurazione di un percorso personalizzato offre i seguenti vantaggi in termini di sicurezza:
+Inoltre, è consigliabile [aggiornare la configurazione dell&#39;URL di base dell&#39;amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) per cambiare l&#39;endpoint predefinito `/admin` in un percorso personalizzato. La configurazione di un percorso personalizzato offre i seguenti vantaggi in termini di sicurezza:
 
 **Sicurezza avanzata**: il percorso predefinito &quot;admin&quot; è ampiamente noto e spesso è indirizzato a utenti malintenzionati che tentano attacchi di forza bruta. Modificandolo in un valore univoco personalizzato, si riduce in modo significativo il rischio di tentativi di accesso non autorizzati.
 
@@ -173,4 +173,4 @@ Inoltre, è consigliabile [aggiornare la configurazione dell&#39;URL di base del
 
 >[!NOTE]
 >
->Se si sospetta una violazione, assicurarsi di rimuovere tutti gli utenti Admin sconosciuti e reimpostare tutte le password Admin e rivedere il [piano di azione per la sicurezza](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security) per ulteriori passaggi.
+>Se si sospetta una violazione, assicurarsi di rimuovere tutti gli utenti Admin sconosciuti e reimpostare tutte le password Admin e rivedere il [piano di azione per la sicurezza](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) per ulteriori passaggi.

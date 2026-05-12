@@ -3,10 +3,10 @@ title: PayPal Payflow Pro
 description: Scopri come impostare PayPal Payflow Pro come soluzione di pagamento online sul tuo store.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2304'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Questo metodo di impostazione presuppone che sia presente un conto PayPal.
 
 1. Se nell&#39;installazione di Commerce sono presenti più siti Web, store o visualizzazioni, impostare **[!UICONTROL Store View]** sulla visualizzazione dello store in cui si desidera applicare questa configurazione.
 
-1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**&#x200B;in cui si trova la tua azienda.
+1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**in cui si trova la tua azienda.
 
    Questa impostazione determina la selezione delle soluzioni PayPal visualizzate nella configurazione.
 
@@ -159,6 +159,10 @@ Questo metodo di impostazione presuppone che sia presente un conto PayPal.
 1. Se vuoi offrire [il credito PayPal](paypal.md#paypal-credit-and-pay-later) ai tuoi clienti, imposta **[!UICONTROL Enable PayPal Credit]** su `Yes`.
 
 1. Se si desidera memorizzare in modo sicuro i dettagli relativi al pagamento o alla carta di credito del cliente, in modo che i clienti non debbano immettere nuovamente le informazioni sul pagamento ogni volta, impostare **[!UICONTROL Vault Enabled]** su `Yes`.
+
+>[!NOTE]
+>
+>Gli ID transazione PayFlow Pro (PNREF) di PayPal sono ora validi per l&#39;utilizzo nelle transazioni di riferimento per un periodo fisso di 12 mesi. Una volta scaduta, la scheda salvata non viene più visualizzata e deve essere aggiunta di nuovo.
 
 ### Passaggio 3: Impostare Advertise PayPal Credit / Advertise PayPal PayLater (facoltativo)
 
@@ -449,7 +453,7 @@ Utilizza le impostazioni di esperienza front-end per scegliere quali logo PayPal
    - `Authorization` - Approva l&#39;acquisto e blocca i fondi. L&#39;importo non viene prelevato finché non viene _acquisito_ dal commerciante.
    - `Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente.
 
-1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_&#x200B;nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**&#x200B;su `Yes`.
+1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**su `Yes`.
 
 ### Passo 7: Completare le impostazioni avanzate per PayPal Express Checkout
 

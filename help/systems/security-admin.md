@@ -4,22 +4,23 @@ description: Scopri come configurare la sicurezza per l’amministratore del tuo
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: ad01f8aaa40f6bda0fe329a0e906915f6034972f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # Configurare la sicurezza dell’amministratore
 
-È consigliabile adottare un approccio multidimensionale per proteggere la sicurezza del negozio. Puoi iniziare utilizzando un [URL amministratore personalizzato](../stores-purchase/store-urls.md#use-a-custom-admin-url) non facile da indovinare, anziché l&#39;ovvio &quot;Amministratore&quot; o &quot;Back-end&quot;. Per impostazione predefinita, le password utilizzate per [accedere](../getting-started/admin-signin.md) all&#39;amministratore devono essere composte da sette o più caratteri e includere sia lettere che numeri. Come [best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=it), utilizza solo password amministratore complesse che includono una combinazione di lettere, numeri e simboli. Adobe Commerce e Magento Open Source non consentono il riutilizzo delle ultime quattro password assegnate all’account.
+È consigliabile adottare un approccio multidimensionale per proteggere la sicurezza del negozio. Puoi iniziare utilizzando un [URL amministratore personalizzato](../stores-purchase/store-urls.md#use-a-custom-admin-url) non facile da indovinare, anziché l&#39;ovvio &quot;Amministratore&quot; o &quot;Back-end&quot;. Per impostazione predefinita, le password utilizzate per [accedere](../getting-started/admin-signin.md) all&#39;amministratore devono essere composte da sette o più caratteri e includere sia lettere che numeri. Puoi configurare il requisito della lunghezza minima della password per migliorare la sicurezza in base alle esigenze della tua organizzazione. Come [best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), utilizza solo password amministratore complesse che includono una combinazione di lettere, numeri e simboli. Adobe Commerce e Magento Open Source non consentono il riutilizzo delle ultime quattro password assegnate all’account.
 
 La configurazione della sicurezza Admin consente di:
 
 - Aggiungere una chiave segreta agli URL
 - Richiedi distinzione tra maiuscole e minuscole per le password
+- Configura il requisito della lunghezza minima della password
 - Limitare la durata delle sessioni di amministrazione
 - Limita la durata delle password
 - Limita il numero di tentativi di accesso che possono essere effettuati prima che l&#39;account utente amministratore sia [bloccato](permissions-users-all.md#locked-users).
@@ -73,6 +74,12 @@ Per informazioni tecniche, consulta [Panoramica sulla sicurezza](https://develop
 
 1. Impostare le opzioni della password:
 
+   - Per **[!UICONTROL Minimum Admin Password Length]**, immettere il numero minimo di caratteri richiesti per le password amministratore. Il valore predefinito è 7 e il valore minimo consentito è 7.
+
+     >[!WARNING]
+     >
+     >La modifica di questo valore dal valore predefinito può introdurre problemi di compatibilità con le versioni precedenti dei servizi esistenti. Questa impostazione influisce sulle modifiche della password amministratore, sulla creazione di nuovi utenti amministratore sia dall’interfaccia amministratore che dalla CLI e sulle operazioni di reimpostazione della password da parte dell’amministratore.
+
    - Per limitare la durata delle password amministratore, immettere il numero di giorni di validità di una password per **[!UICONTROL Password Lifetime (days)]**. Per una durata illimitata, lascia vuoto il campo.
 
    - Imposta **[!UICONTROL Password Change]** su uno dei seguenti:
@@ -84,4 +91,4 @@ Per informazioni tecniche, consulta [Panoramica sulla sicurezza](https://develop
 
 ## Requisiti della password amministratore
 
-Per impostazione predefinita, una password amministratore deve avere una lunghezza di sette o più caratteri e includere sia lettere che numeri.
+Per impostazione predefinita, una password amministratore deve avere una lunghezza di sette o più caratteri e includere sia lettere che numeri. È possibile utilizzare l&#39;impostazione **[!UICONTROL Minimum Admin Password Length]** per configurare il requisito della lunghezza minima della password per soddisfare gli standard di sicurezza dell&#39;organizzazione. Tuttavia, l’aumento di questo valore può influire sulla compatibilità con i servizi e le integrazioni esistenti.

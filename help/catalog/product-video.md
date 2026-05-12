@@ -3,9 +3,9 @@ title: Aggiungi video di prodotto
 description: Scopri come configurare i video dei prodotti per il tuo store, che richiede una chiave API dati di YouTube da un account Google, e aggiungere un collegamento video per un prodotto.
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: d9d964d36a7debebaed327111b5c4d76d0a1a005
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Per aggiungere un video di prodotto, devi prima ottenere una chiave API dal tuo 
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Product Video]_&#x200B;e incolla **[!UICONTROL YouTube API key]**.
+1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Product Video]_e incolla **[!UICONTROL YouTube API key]**.
 
    ![Configurazione video prodotto](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -56,7 +56,7 @@ Per aggiungere un video di prodotto, devi prima ottenere una chiave API dal tuo 
 
 1. Apri un prodotto in modalità di modifica.
 
-1. Scorri fino alla sezione _[!UICONTROL Images and Videos]_&#x200B;ed espandila.
+1. Scorri fino alla sezione _[!UICONTROL Images and Videos]_ed espandila.
 
    ![Immagini e video](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,13 @@ Per aggiungere un video di prodotto, devi prima ottenere una chiave API dal tuo 
 
    >[!NOTE]
    >
-   >Se l&#39;opzione di configurazione _[!UICONTROL Autostart base video]_&#x200B;è impostata su `Yes` ma il video non inizia a essere riprodotto automaticamente, ciò potrebbe essere dovuto ai criteri di riproduzione automatica applicati dal browser e non controllabili da Adobe Commerce. Ogni browser supportato dispone di criteri di riproduzione automatica che possono cambiare nel tempo e il video potrebbe non essere riprodotto automaticamente in futuro. Come best practice consigliata, non affidarti alla riproduzione automatica per le funzionalità business critical e verifica il comportamento di riproduzione automatica del video nel tuo store con ogni browser supportato.
+   >Se l&#39;opzione di configurazione _[!UICONTROL Autostart base video]_è impostata su `Yes` ma il video non inizia a essere riprodotto automaticamente, ciò potrebbe essere dovuto ai criteri di riproduzione automatica applicati dal browser e non controllabili da Adobe Commerce. Ogni browser supportato dispone di criteri di riproduzione automatica che possono cambiare nel tempo e il video potrebbe non essere riprodotto automaticamente in futuro. Come best practice consigliata, non affidarti alla riproduzione automatica per le funzionalità business critical e verifica il comportamento di riproduzione automatica del video nel tuo store con ogni browser supportato.
+
+## Gestisci i ruoli video a livello di visualizzazione punto vendita
+
+Quando aggiungi o modifichi un video mentre lavori in un ambito di visualizzazione specifico (non **[!UICONTROL All Store Views]**), ogni opzione **[!UICONTROL Role]** nella finestra di dialogo video mostra un pulsante **[!UICONTROL Use Default Value]**. Fare clic su questo pulsante per ereditare l&#39;assegnazione del ruolo dall&#39;ambito predefinito per il ruolo.
+
+![Nuovo video - Visualizzazione archivio](./assets/product-video-add-store-scope.png){width="600" zoomable="yes"}
 
 ## Gestisci accesso API
 

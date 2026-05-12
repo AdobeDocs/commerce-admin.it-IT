@@ -3,10 +3,10 @@ title: Mappe del sito
 description: Scopri come configurare una mappa del sito per indicizzare tutte le pagine e le immagini dei siti Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Per Adobe Commerce as a Cloud Service, consulta le [linee guida SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=it) nella documentazione di Commerce Storefront
+>Per Adobe Commerce as a Cloud Service, consulta le [linee guida SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) nella documentazione di Commerce Storefront
 
 Una mappa del sito migliora il modo in cui il tuo archivio viene indicizzato dai motori di ricerca ed è progettata per trovare pagine che potrebbero essere trascurate dai crawler web. È possibile configurare una mappa del sito per indicizzare tutte le pagine e le immagini.
 
@@ -23,7 +23,7 @@ Quando è abilitato, Commerce crea un file denominato `sitemap.xml` che viene sa
 
 Mentre il sito è in fase di sviluppo, è possibile includere istruzioni nel file `robots.txt` per i crawler Web per evitare di indicizzare il sito. Quindi, prima del lancio, puoi modificare le istruzioni per consentire l’indicizzazione del sito.
 
-Per informazioni tecniche, consulta [Aggiungere sitemap e robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=it) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+Per informazioni tecniche, consulta [Aggiungere sitemap e robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
 ![Griglia mappa del sito](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Per creare sitemap per un&#39;istanza multistore, effettuare le seguenti operazi
 1. Creare una cartella denominata `sitemaps` nella directory principale del sito Web, quindi creare sottocartelle per ciascun dominio:
 
        /sitemaps/domain_1/
-       /sitemaps/domain_2/
+     /sitemaps/domain_2/
    
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**.
 
@@ -96,13 +96,13 @@ Per creare sitemap per un&#39;istanza multistore, effettuare le seguenti operazi
 
    Per fare in modo che i spider del motore di ricerca siano correttamente indirizzati alle nuove sitemap, puoi aggiornare o creare il file robots.txt. Aggiungi le seguenti righe in alto.
 
-       Mappa sito Web
-       Mappa del sito: https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
-       Mappa del sito: https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
+       Mappa del sito Web
+     Mappa del sito: https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
+     Mappa del sito: https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
    
 >[!NOTE]
 >
->Se il sito utilizza il motore del server Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=it), è necessario aggiornare il file [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) nella directory principale del sito Web per indirizzare eventuali altre richieste di sitemap nella posizione corretta.
+>Se il sito utilizza il motore del server Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), è necessario aggiornare il file [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) nella directory principale del sito Web per indirizzare eventuali altre richieste di sitemap nella posizione corretta.
 
 ## Descrizioni delle colonne
 
@@ -110,7 +110,7 @@ Per creare sitemap per un&#39;istanza multistore, effettuare le seguenti operazi
 |------|-----------|
 | [!UICONTROL ID] | Numero di record sequenziale della mappa del sito corrente. |
 | [!UICONTROL Filename] | Nome file della mappa del sito. |
-| [!UICONTROL Path] | Posizione in cui risiede la mappa del sito sul server. Ad esempio: <br/>`/sitemap/` - Inserisce il file di mappa del sito in una directory denominata _sitemap_, un livello sotto la radice dell&#39;installazione di Commerce. <br/>`/` - Inserisce il file di mappa del sito nel percorso di base o nella directory principale dell&#39;installazione di Commerce. |
+| [!UICONTROL Path] | Posizione in cui risiede la mappa del sito sul server. Ad esempio: <br/>`/sitemap/` - Inserisce il file di mappa del sito in una directory denominata _sitemap_, un livello sotto la radice dell&#39;installazione di Commerce. <br/>`/` - Posiziona il file di mappa del sito nel percorso di base o nella directory principale dell&#39;installazione di Commerce. |
 | [!UICONTROL Link for Google] | URL della mappa del sito da inviare a Google e ad altri motori di ricerca. |
 | [!UICONTROL Last Generated] | Indica la data e l&#39;ora dell&#39;ultima generazione della mappa del sito. |
 | [!UICONTROL Store View] | Visualizzazione del punto vendita in cui si applica la mappa del sito. |
@@ -188,6 +188,11 @@ La mappa del sito deve essere aggiornata con la stessa frequenza con cui cambia 
 
 1. Per generare una mappa del sito, impostare **[!UICONTROL Enabled]** su `Yes` ed effettuare le seguenti operazioni:
 
+   - Imposta **[!UICONTROL Generation Method]** su uno dei seguenti:
+
+      - `Standard` - Elabora tutti i dati in memoria.
+      - `Batch` - Utilizza l&#39;elaborazione con ottimizzazione per la memoria per i cataloghi di grandi dimensioni. Questa opzione è disponibile a partire dalla versione 2.4.9 di.
+
    - Impostare **[!UICONTROL Start Time]** sull&#39;ora, il minuto e il secondo per l&#39;aggiornamento della mappa del sito.
 
    - Imposta **[!UICONTROL Frequency]** su uno dei seguenti:
@@ -227,3 +232,33 @@ La mappa del sito deve essere aggiornata con la stessa frequenza con cui cambia 
 1. Se si utilizza un file `robots.txt` per fornire istruzioni ai motori di ricerca che scansionano il sito, impostare **[!UICONTROL Enable Submission to Robots.txt]** su `Yes`.
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
+
+## Processo cronologico alternativo per cataloghi di grandi dimensioni
+
+>[!NOTE]
+>
+>Per gli archivi con cataloghi di grandi dimensioni, puoi utilizzare un processo cronologico alternativo per garantire che tutti i dati vengano generati. In `app/code/Magento/Sitemap/etc/config.xml`, sostituisci:
+>
+>```xml
+><jobs>
+>   <sitemap_generate>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate>
+></jobs>
+>```
+>
+>con:
+>
+>```xml
+><jobs>
+>   <sitemap_generate_batch>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate_batch>
+></jobs>
+>```
+>
+>Questa modifica abilita la generazione di sitemap in batch, consigliata per i cataloghi di grandi dimensioni.
