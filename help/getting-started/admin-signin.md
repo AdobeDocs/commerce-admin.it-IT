@@ -110,7 +110,7 @@ Non è consentito riutilizzare le ultime quattro password assegnate all’accoun
 
    ![Disconnetti](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-Nella pagina _[!UICONTROL Sign In]_viene visualizzato un messaggio di disconnessione. Esci da_ Amministratore _ogni volta che esci dal computer senza supervisione.
+Nella pagina _[!UICONTROL Sign In]_&#x200B;viene visualizzato un messaggio di disconnessione. Esci da_ Amministratore _ogni volta che esci dal computer senza supervisione.
 
 ## Modifica informazioni account
 
