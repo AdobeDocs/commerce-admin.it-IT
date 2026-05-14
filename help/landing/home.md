@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![Documentazione dell&#39;amministratore](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![Documentazione dell&#39;amministratore](./assets/banner-user-home.png) {#documentation}
 
 Benvenuti nella nuova generazione della piattaforma di commercio digitale leader a livello mondiale. Adobe Commerce offre ai commercianti online flessibilità e controllo senza precedenti sull’aspetto, i contenuti e le funzionalità dei loro negozi online. L’amministratore dispone di potenti strumenti di marketing, ottimizzazione dei motori di ricerca e gestione dei prodotti che ti offrono la possibilità di creare siti personalizzati in base alle tue esigenze aziendali specifiche.
 
