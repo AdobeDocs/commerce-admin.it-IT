@@ -2,7 +2,7 @@
 title: Modifiche Adobe Commerce B2B non compatibili con le versioni precedenti
 description: Scopri le modifiche nelle versioni B2B di Adobe Commerce che potrebbero richiedere l’aggiornamento del codice personalizzato.
 exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
-source-git-commit: 81722ba7575123554f34998745221d536b8926d1
+source-git-commit: ca9114db6ab79e7edee6d9be4ce0c8f79b8c793d
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%
@@ -31,4 +31,4 @@ Rivedi le informazioni di riferimento di alto livello per tutte le modifiche non
 
 {{$include /help/_includes/backward-incompatible-changes/1-3-3-to-1-3-4.md}}
 
-<!-- Last updated from includes: 2026-03-06 20:14:18 -->
+<!-- Last updated from includes: 2026-05-11 21:09:15 -->
