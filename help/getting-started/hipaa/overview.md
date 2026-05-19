@@ -4,9 +4,9 @@ description: Scopri come aggiungere l’estensione compatibile con HIPAA di Adob
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 04c8676c4fe1e055d5b6e89db6fe1b38c1a5d2cf
+source-git-commit: ce54e0bdb361f51e7d6218692178bfb18f9aba3c
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2619'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**Dichiarazione di non responsabilità**<br/>
+>**Dichiarazione di non responsabilità legale**<br/>
 >Queste informazioni hanno lo scopo di aiutare i clienti di Adobe a rispondere alle loro domande sui servizi compatibili con HIPAA di Adobe. Non si tratta di una consulenza legale. Gli esercenti devono consultare il proprio consulente legale per comprendere i propri obblighi in base all’HIPAA e l’uso e la configurazione appropriati dei prodotti Adobe.
 
 >[!BEGINSHADEBOX]
@@ -46,10 +46,11 @@ La tabella seguente mostra la compatibilità tra le versioni di Adobe Commerce e
 
 | Adobe Commerce | Supportato | Note |
 |----------------|-----------|-------|
-| 2.4.7-p4 e versioni successive -p | 1.2.0. | Il supporto per 2.4.7-p4 richiede un [hotfix](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27147) |
-| 2,4,6-p9 - 2,4,6-p10 | 1.2.0. | |
-| 2.4.6-p8 | 1.1.0. | Il supporto per [servizi dati](#adobe-commerce-services) è stato introdotto in 1.1.0 |
-| 2,4,6-p3 - 2,4,6-p7 | 1,0,0 | |
+| 2,4,8-p5 | 1.3.0 | Il supporto di 2.4.8-p5 richiede una [patch di compatibilità](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-30555) |
+| 2.4.7-p4 e versioni successive -p | 1.2.0 | Il supporto per 2.4.7-p4 richiede una [patch di compatibilità](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2,4,6-p9 - 2,4,6-p10 | 1.2.0 | |
+| 2.4.6-p8 | 1.1.0 | Il supporto per [servizi dati](#adobe-commerce-services) è stato introdotto in 1.1.0 |
+| 2,4,6-p3 - 2,4,6-p7 | 1.0.0 | |
 
 >[!IMPORTANT]
 >
@@ -69,7 +70,7 @@ La tabella seguente mostra la compatibilità tra le versioni di Adobe Commerce e
 
 >[!ENDSHADEBOX]
 
-Installare la versione più recente dell&#39;estensione dei servizi pronti per HIPAA di Adobe (`magento/hipaa-ee`) in un&#39;istanza che esegue Adobe Commerce versione 2.4.7-p5 o 2.4.6-p3 fino a 2.4.6-p8. L&#39;estensione viene distribuita come metapacchetto del compositore dall&#39;archivio [repo.magento.com](https://repo.magento.com). Il metapackage include la raccolta di moduli che abilitano le funzionalità HIPAA per un’istanza Adobe Commerce.
+Installare la versione più recente dell&#39;estensione dei servizi compatibili con HIPAA (`magento/hipaa-ee`) di Adobe in un&#39;istanza che esegue una versione supportata di Adobe Commerce (vedere [Requisiti di sistema](#system-requirements)). L&#39;estensione viene distribuita come metapacchetto del compositore dall&#39;archivio [repo.magento.com](https://repo.magento.com). Il metapackage include la raccolta di moduli che abilitano le funzionalità HIPAA per un’istanza Adobe Commerce.
 
 >[!NOTE]
 >
@@ -296,7 +297,7 @@ Lo strumento [Analisi sicurezza](../../systems/security-scan.md) per Adobe Comme
 - I moduli di controllo non sono disabilitati
 - L&#39;autenticazione a due fattori (2FA) non è disabilitata
 - Le funzioni di marketing sono disabilitate
-- Tutte le estensioni installate corrispondono a un inserisco nell&#39;elenco Consentiti predefinito per la
+- Tutte le estensioni installate corrispondono a un inserisco nell&#39;elenco Consentiti predefinito di
 - Nessun servizio Adobe non supportato installato
 
 È possibile [configurare lo strumento](../../systems/security-scan.md#run-a-security-scan) per inviare notifiche e-mail con i dettagli delle analisi pianificate o [visualizzare manualmente i report](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/launch/overview).
