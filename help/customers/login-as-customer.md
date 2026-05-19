@@ -3,9 +3,9 @@ title: Fornire assistenza agli acquirenti
 description: Quando utilizzi la funzione Login as a Customer (Accesso come cliente), puoi vedere cosa vedono i clienti e apportare aggiornamenti per loro conto.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-source-git-commit: 29f3a8bb019d464e6d7646e0ebc7a4fa2ed0dd74
+source-git-commit: 5afc6801ccc55488ce6c209a71ec2ee67958ef5c
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -159,13 +159,13 @@ Per impostare questa autorizzazione con GraphQL per un account cliente esistente
 
 1. Passare a **[!UICONTROL Customers]** e selezionare un cliente per aprire la pagina di modifica.
 
-1. Nella pagina Modifica cliente fare clic su **[!UICONTROL Get Customer Login OTC]**.
+1. Nella pagina Modifica cliente fare clic su **[!UICONTROL Generate Login Code]**.
 
-   ![Pulsante Ottieni OTC accesso cliente nella pagina Modifica cliente](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   ![Pulsante Ottieni OTC accesso cliente nella pagina Modifica cliente](assets/get-customer-login-otc-button-new.png){width="600" zoomable="yes"}
 
 1. Immettere un **[!UICONTROL Reason]** (obbligatorio) e fare clic su **[!UICONTROL Request]**.
 
-   ![Richiesta OTC modale con campo Motivo](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+   ![Richiesta OTC modale con campo Motivo](assets/otc-reason-modal-new.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -173,11 +173,11 @@ Per impostare questa autorizzazione con GraphQL per un account cliente esistente
 
 1. L’OTC generato viene visualizzato nel modale. Usa questo codice con la mutazione GraphQL `generateCustomerToken` o `exchangeOtpForCustomerToken` per l&#39;autorizzazione del cliente.
 
-   ![OTC generato visualizzato nel modale](assets/otc-generated-code.png){width="300" zoomable="yes"}
+   ![OTC generato visualizzato nel modale](assets/otc-generated-code-new.png){width="300" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->L’OTC del codice monouso generato è valido per 30 secondi per impostazione predefinita e viene invalidato dopo un singolo utilizzo. Il TTL può essere configurato inviando un [ticket di supporto](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
+>L’OTC del codice monouso generato è valido per 60 secondi per impostazione predefinita e viene invalidato dopo un singolo utilizzo. Il TTL può essere configurato inviando un [ticket di supporto](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
 
 Dopo aver generato il codice una tantum, puoi utilizzarlo accedendo alla vetrina e accedendo utilizzando le seguenti credenziali:
 
@@ -194,7 +194,7 @@ Dopo aver generato il codice una tantum, puoi utilizzarlo accedendo alla vetrina
 
 _Accedi come cliente_ ti consente di visualizzare il sito esattamente come il cliente, nonché di risolvere i problemi e intraprendere altre azioni per il cliente. Se ti è stato assegnato un ruolo utente con le autorizzazioni necessarie:
 
-1. È possibile fare clic su **[!UICONTROL Login as Customer]** nelle pagine elencate nella sezione precedente.
+1. È possibile fare clic su **[!UICONTROL Login as Customer]** o **[!UICONTROL Generate Login Code]** nelle pagine elencate nella sezione precedente.
 1. Le azioni Accedi come cliente sono disponibili nel rapporto Azioni.
 
 >[!WARNING]
