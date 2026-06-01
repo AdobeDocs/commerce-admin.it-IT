@@ -3,20 +3,20 @@ title: Configurazione della valuta
 description: Scopri come impostare l’ambito della valuta di base e come specificare le valute accettate e la valuta da utilizzare per la visualizzazione del prezzo.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # Configurazione della valuta
 
-Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambito della [valuta di base](../configuration-reference/general/currency-setup.md). Per impostazione predefinita, è impostata su globale. L&#39;impostazione della valuta di base viene applicata all&#39;intera [gerarchia archivio](../getting-started/websites-stores-views.md). Se si dispone di un&#39;installazione Adobe Commerce multisito o di Magento Open Source, è possibile gestire più valute di base impostando l&#39;ambito a livello di sito Web.
+Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambito della [valuta di base](../configuration-reference/general/currency-setup.md). Per impostazione predefinita, è impostata su globale. L&#39;impostazione della valuta di base viene applicata all&#39;intera [gerarchia archivio](../getting-started/websites-stores-views.md). Se disponi di un’installazione multisito di Adobe Commerce o Magento Open Source, puoi gestire più valute di base impostando l’ambito a livello di sito web.
 
 È inoltre possibile specificare le valute accettate e la valuta da utilizzare per la visualizzazione di [prezzi](../catalog/catalog-price-scope.md) nel punto vendita. Nel diagramma seguente, l&#39;ambito della valuta di base viene impostato a livello di sito Web, in modo che ogni sito Web possa avere una valuta di base diversa.
 
-![Diagramma ambito valuta](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
+![Diagramma ambito valuta](./assets/scope-currency-config.png){width="600" zoomable="yes"}
 
 ## Passaggio 1: scegliere le divise accettate
 
@@ -150,7 +150,7 @@ La gestione dei simboli di valuta consente di personalizzare il simbolo associat
 
    - Immettere un simbolo personalizzato per ogni valuta che si desidera utilizzare oppure selezionare la casella di controllo **[!UICONTROL Use Standard]** per ogni valuta.
 
-   - Per ignorare il simbolo predefinito, deselezionare la casella di controllo _[!UICONTROL Use Standard]_&#x200B;e immettere il simbolo che si desidera utilizzare.
+   - Per ignorare il simbolo predefinito, deselezionare la casella di controllo _[!UICONTROL Use Standard]_e immettere il simbolo che si desidera utilizzare.
 
    >[!NOTE]
    >
