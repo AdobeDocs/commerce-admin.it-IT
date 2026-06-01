@@ -3,9 +3,9 @@ title: Offerte negoziabili
 description: Scopri i flussi di lavoro delle offerte e come fornire questo servizio agli account aziendali.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -22,38 +22,38 @@ Dopo la creazione del preventivo, il processo di negoziazione inizia quando il b
 
 - Nell&#39;amministratore, i rappresentanti possono creare preventivi per conto dell&#39;acquirente della società. Durante la creazione del preventivo, il venditore può salvare il preventivo come bozza o inviarlo direttamente al buyer per avviare il processo di negoziazione.
 
-During the negotiation process, the quote can only be updated by the person reviewing and proposing terms for further negotiation.
+Durante il processo di negoziazione, il preventivo può essere aggiornato solo dalla persona che rivede e propone le condizioni per ulteriori negoziazioni.
 
 ## Prerequisiti
 
-Negotiable quotes are available only if Adobe Commerce has the following configuration settings:
+I preventivi negoziabili sono disponibili solo se Adobe Commerce dispone delle seguenti impostazioni di configurazione:
 
-- [The Adobe Commerce B2B extension is installed](install.md)
-- [Configured B2B features](enable-basic-features.md)
-   - Enable company accounts
-   - Enable B2B quote
+- [L’estensione Adobe Commerce B2B è installata](install.md)
+- [Funzioni B2B configurate](enable-basic-features.md)
+   - Abilita account società
+   - Abilita offerta B2B
 
-## Quote workflow
+## Flusso di lavoro preventivo
 
-Quotes can be initiated by the buyer or the seller.
+Le offerte possono essere ordinate dall&#39;acquirente o dal venditore.
 
-This diagram shows the quote statuses for a buyer and seller (Admin) in the different steps when you initiate a quote.
+Questo diagramma mostra gli stati dei preventivi per un acquirente e un venditore (amministratore) nei diversi passaggi quando si avvia un preventivo.
 
-![](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+![Flusso di lavoro di stato delle virgolette](./assets/quote-status-workflow.png){width="700" zoomable="yes"}
 
-**&#x200B;**
+**Passaggio 1: creazione preventivo (nuovo)**
 
-- **&#x200B;**&#x200B;[&#128279;](quote-request.md) __ __`New` A request for a quote can be modified by the buyer until it is opened by the seller.
+- **Offerta di richieste dell&#39;acquirente** - L&#39;acquirente [richiede un preventivo](quote-request.md) dal carrello. La richiesta viene visualizzata nell&#39;elenco _Offerte personali_ nel dashboard account dell&#39;acquirente e la notifica e-mail viene inviata al rappresentante commerciale assegnato all&#39;account aziendale. Nell&#39;amministratore, la richiesta viene visualizzata nella griglia _Quotes_, con stato `New`. Una richiesta di preventivo può essere modificata dall&#39;acquirente fino a quando non viene aperta dal venditore.
 
-  ![](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
+  ![Virgolette](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
 
-- **&#x200B;**&#x200B;[&#128279;](sales-rep-initiates-quote.md) The Sales Representative must update the quote to add products and other information like discounts and notes to the buyer. `draft` In draft state, the quote is visible only to the seller. `Submitted` It cannot be modified by the seller until the buyer sends it back.
+- **Rappresentante commerciale** — Un rappresentante commerciale può [creare un preventivo](sales-rep-initiates-quote.md) dall&#39;amministratore per conto di un acquirente aziendale specifico. Il rappresentante commerciale deve aggiornare il preventivo per aggiungere prodotti e altre informazioni, ad esempio sconti e note, all&#39;acquirente. Il rappresentante commerciale può salvare il preventivo come `draft` o inviarlo all&#39;acquirente per avviare la negoziazione. In stato di bozza, il preventivo è visibile solo al venditore. Dopo l&#39;invio del preventivo, lo stato è `Submitted`. Non può essere modificato dal venditore finché l&#39;acquirente non lo rispedisce indietro.
 
-  ![](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+  ![Venditore che avvia un preventivo dell&#39;acquirente dalla griglia Preventivi nell&#39;Amministratore](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
-**&#x200B;**
+**Passaggio 2: revisione e negoziazione preventivo (revisione)**
 
-Reviewing or negotiating a quote can include changing quantities, removing items, adding line item comments, applying line item or quote discounts (seller), and adding a shipping address (buyer).
+La revisione o la negoziazione di un preventivo può includere la modifica delle quantità, la rimozione di articoli, l&#39;aggiunta di commenti alle voci, l&#39;applicazione di sconti alle voci o ai preventivi (venditore) e l&#39;aggiunta di un indirizzo di spedizione (buyer).
 
 - **Il venditore visualizza la richiesta e invia la risposta**. L&#39;amministratore visualizza la richiesta di preventivo. Nella vetrina, lo stato del preventivo cambia in `Pending` e l&#39;acquirente non può apportare alcuna modifica. Il [venditore risponde](quote-price-negotiation.md) offrendo sconti sui prezzi e adeguando le quantità e gli articoli in base alle esigenze, immette un commento e invia nuovamente il preventivo all&#39;acquirente. L&#39;acquirente e il rappresentante commerciale ricevono una notifica via e-mail che informa che il venditore ha risposto.
 
@@ -61,7 +61,7 @@ Reviewing or negotiating a quote can include changing quantities, removing items
 
 L&#39;acquirente e il venditore possono continuare il processo di negoziazione fino a quando non viene raggiunto un accordo o il venditore rifiuta il preventivo. Se l&#39;acquirente apporta modifiche al preventivo, ovvero aggiungendo o rimuovendo prodotti o modificando quantità di prodotti, il preventivo deve essere restituito al venditore per la revisione.
 
-- **&#x200B;**&#x200B;After the buyer adds the address, the seller can provide shipping and delivery options. I metodi di spedizione visualizzati dipendono dalla configurazione Storefront.
+- **L&#39;acquirente aggiunge un indirizzo di spedizione**. L&#39;acquirente può aggiungere un indirizzo di spedizione al preventivo. Dopo che l&#39;acquirente ha aggiunto l&#39;indirizzo, il venditore può fornire le opzioni di spedizione e consegna. I metodi di spedizione visualizzati dipendono dalla configurazione Storefront.
 
 Se l&#39;acquirente aggiunge un indirizzo di spedizione, l&#39;accordo di negoziazione deve essere rivisto e il venditore può continuare il processo di negoziazione fino a quando non viene raggiunto un accordo o il venditore rifiuta il preventivo.
 
@@ -75,7 +75,7 @@ Le opzioni di spedizione sono bloccate al momento del pagamento.
 
 Lo stato del preventivo fornisce informazioni sullo stato corrente del preventivo nel flusso di lavoro del preventivo. Lo stato di un preventivo cambia solo quando un acquirente o un venditore esegue un&#39;azione sul preventivo. Ad esempio, lo stato cambia in ordine se un acquirente seleziona [!UICONTROL Proceed to Checkout] in un preventivo attivo.
 
-- *[!UICONTROL New]* The request can be updated by the buyer until it is opened by the seller.
+- *[!UICONTROL New]** - L&#39;acquirente ha inviato una richiesta di preventivo, ma non è stata visualizzata dal venditore. La richiesta può essere aggiornata dall&#39;acquirente fino a quando non viene aperta dal venditore.
 
 - **[!UICONTROL Draft]** - Il venditore crea un preventivo provvisorio per un acquirente. Il preventivo non è visibile all&#39;acquirente finché il venditore non aggiunge i dettagli dell&#39;offerta (articoli, quantità, sconto e così via) e non invia il preventivo all&#39;acquirente.
 
@@ -85,13 +85,13 @@ Lo stato del preventivo fornisce informazioni sullo stato corrente del preventiv
 
 - **[!UICONTROL Client Reviewed]** - L&#39;acquirente ha visualizzato la risposta del venditore e sta preparando una risposta.
 
-- **[!UICONTROL Updated]**
+- **[!UICONTROL Updated]** - L&#39;acquirente ha inviato una risposta, ma non è stata visualizzata dal venditore.
 
-- **[!UICONTROL Ordered]**
+- **[!UICONTROL Ordered]** - L&#39;acquirente ha inviato l&#39;ordine in base al preventivo negoziato.
 
-- **[!UICONTROL Closed]**
+- **[!UICONTROL Closed]** - L&#39;acquirente ha annullato la richiesta di preventivo.
 
-- **[!UICONTROL Declined]** - Il venditore ha rifiutato la richiesta di offerta. Any custom pricing is removed from the quote and the record is locked from further edits.
+- **[!UICONTROL Declined]** - Il venditore ha rifiutato la richiesta di offerta. Eventuali prezzi personalizzati vengono rimossi dal preventivo e il record è bloccato da ulteriori modifiche.
 
 - **[!UICONTROL Expired]** - L&#39;acquirente non ha risposto alla risposta del venditore entro il periodo di tempo indicato e il preventivo non è più valido.
 
@@ -103,7 +103,7 @@ Per concedere l&#39;accesso alle funzioni di preventivo nell&#39;amministratore,
 
 ![Quotazioni, ruoli e autorizzazioni](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
 
-## Apply an action
+## Applicare un’azione
 
 In Amministrazione, gli amministratori e i venditori B2B possono gestire le offerte dalla griglia delle offerte utilizzando il menu [!UICONTROL Actions].
 
@@ -117,33 +117,33 @@ In Amministrazione, gli amministratori e i venditori B2B possono gestire le offe
 
 ### Visualizza un preventivo
 
-1. **[!UICONTROL Actions]**&#x200B;**[!UICONTROL View]**
+1. Nella colonna **[!UICONTROL Actions]** per un record, fare clic su **[!UICONTROL View]**.
 
-1. [&#128279;](quote-price-negotiation.md)
+1. Per rispondere alla richiesta del cliente, seguire le istruzioni e avviare il processo [negoziazione prezzi](quote-price-negotiation.md).
 
-### View quote activity
+### Visualizza attività offerta
 
-[!UICONTROL Comments]&#x200B;[!UICONTROL History Log]
+Visualizzare la sequenza temporale della negoziazione, la comunicazione e altre attività del preventivo da [!UICONTROL Comments] e [!UICONTROL History Log]. Le informazioni includono le modifiche di stato, gli aggiornamenti alle informazioni sul cliente e sulla spedizione, gli aggiornamenti su articolo e prezzo e altre informazioni importanti.
 
-1. Open a quote.
+1. Apri un preventivo.
 
-1. **[!UICONTROL Negotiation]**&#x200B;**[!UICONTROL Comments]**&#x200B;**[!UICONTROL History Log]**
+1. Visualizzare i commenti e la cronologia delle negoziazioni dei preventivi scorrendo fino a **[!UICONTROL Negotiation]** e selezionando **[!UICONTROL Comments]** e **[!UICONTROL History Log]**.
 
-   ![](./assets/quote-view-history.png){width="400"}
+   ![Visualizza cronologia](./assets/quote-view-history.png){width="400"}
 
-1. History is also tracked at the line item level.
+1. La cronologia viene anche tracciata a livello di elemento riga.
 
-   ![](./assets/quote-view-line-item-history.png){width="400"}
+   ![Visualizza cronologia elemento riga](./assets/quote-view-line-item-history.png){width="400"}
 
 
-### Decline a request for a quote
+### Rifiuta una richiesta di offerta
 
-`Open`
+È possibile rifiutare solo le richieste di preventivo con stato `Open`.
 
-1. Select each open quote request that you want to decline.
+1. Selezionare ogni richiesta di offerta aperta che si desidera rifiutare.
 
-1. _[!UICONTROL Actions]_`Declined`
+1. Impostare il controllo _[!UICONTROL Actions]_&#x200B;su `Declined`.
 
-1. **[!UICONTROL Confirm]**
+1. Quando richiesto, immettere il motivo del rifiuto e fare clic su **[!UICONTROL Confirm]**.
 
-   ![](./assets/quote-decline-confirm.png){width="400"}
+   ![Rifiuto preventivo?](./assets/quote-decline-confirm.png){width="400"}
