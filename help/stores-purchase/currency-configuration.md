@@ -150,7 +150,7 @@ La gestione dei simboli di valuta consente di personalizzare il simbolo associat
 
    - Immettere un simbolo personalizzato per ogni valuta che si desidera utilizzare oppure selezionare la casella di controllo **[!UICONTROL Use Standard]** per ogni valuta.
 
-   - Per ignorare il simbolo predefinito, deselezionare la casella di controllo _[!UICONTROL Use Standard]_e immettere il simbolo che si desidera utilizzare.
+   - Per ignorare il simbolo predefinito, deselezionare la casella di controllo _[!UICONTROL Use Standard]_&#x200B;e immettere il simbolo che si desidera utilizzare.
 
    >[!NOTE]
    >

@@ -142,7 +142,7 @@ Visualizzare la sequenza temporale della negoziazione, la comunicazione e altre 
 
 1. Selezionare ogni richiesta di offerta aperta che si desidera rifiutare.
 
-1. Impostare il controllo _[!UICONTROL Actions]_su `Declined`.
+1. Impostare il controllo _[!UICONTROL Actions]_&#x200B;su `Declined`.
 
 1. Quando richiesto, immettere il motivo del rifiuto e fare clic su **[!UICONTROL Confirm]**.
 
