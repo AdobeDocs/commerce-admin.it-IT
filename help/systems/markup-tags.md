@@ -3,9 +3,9 @@ title: Tag di markup
 description: Scopri i tag di markup che contengono snippet di codice per fare riferimento a un oggetto nell’archivio.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
+source-git-commit: 29e8d3eddc335f6d0027d0b2a146430fbfc03fde
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -22,35 +22,35 @@ I tag di markup sono racchiusi tra parentesi graffe e doppie e possono essere ge
 
 Il tag di markup Variable può essere utilizzato per inserire una [variabile personalizzata](variables-custom.md) in un modello e-mail, blocchi, newsletter e pagine di contenuto.
 
-\{\{CustomVar code= &quot;variabile_personalizzata&quot;\}\}
+`{{CustomVar code= "my_custom_variable"}}`
 
 ## URL store
 
 Il tag di markup URL store rappresenta l’URL di base del sito web e viene utilizzato come sostituto della prima parte di un URL completo, incluso il nome di dominio. Esistono due versioni di questo tag di markup: una che viene indirizzata direttamente all&#39;archivio e l&#39;altra con una barra (`/`) alla fine utilizzata quando viene aggiunto un percorso.
 
-\{\{store url=&#39;apparel/shoes/womens&#39;\}\}
+`{{store url='apparel/shoes/womens'}}`
 
 ## URL contenuto multimediale
 
 Il tag di markup URL per elementi multimediali dinamici rappresenta la posizione e il nome file di un&#39;immagine memorizzata in una rete CDN (Content Delivery Network). Il tag può essere utilizzato per inserire un’immagine in una pagina, un blocco, un banner o un modello e-mail.
 
-\{\{media url=&#39;shoe-sale.jpg&#39;\}\}
+`{{media url='shoe-sale.jpg'}}`
 
 ## ID blocco
 
 Il tag di markup Block ID (ID blocco) è uno dei più semplici da utilizzare e può essere utilizzato per inserire un blocco direttamente in una pagina CMS o anche nidificato all’interno di un altro blocco. Puoi utilizzare questa tecnica per modificare un blocco per diverse promozioni o lingue. Il tag di markup ID blocco fa riferimento a un blocco tramite il relativo identificatore.
 
-\{\{block id=&#39;block-id&#39;\}\}
+`{{block id='block-id'}}`
 
 ## Tag modello
 
 Un tag modello fa riferimento a un file modello PHTML e può essere utilizzato per visualizzare il blocco in una pagina CMS o in un blocco statico. Il codice nell&#39;esempio seguente può essere aggiunto a una pagina o a un blocco per visualizzare il modulo Contattaci.
 
-\{\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;\}\}
+`{{block class="Magento\Contact\Block\ContactForm" name="contactForm" template="Magento_Contact::form.phtml"}}`
 
 Il codice riportato nell’esempio successivo può essere aggiunto a una pagina o a un blocco per visualizzare un elenco di prodotti in una categoria specifica, in base all’ID categoria.
 
-\{\{block type=&quot;catalog/product_list&quot; category_id=&quot;22&quot; template=&quot;catalog/product/list.phtml&quot;\}\}
+`{{block type="catalog/product_list" category_id="22" template="catalog/product/list.phtml"}}`
 
 ## Codice widget
 
@@ -58,11 +58,11 @@ Lo strumento Widget può essere utilizzato per visualizzare elenchi di prodotti 
 
 Il codice nell’esempio seguente può essere aggiunto a una pagina o a un blocco per visualizzare l’elenco dei nuovi prodotti.
 
-\{\{widget type=&quot;catalog/product_widget_new&quot; display_type=&quot;new_products&quot; products_count=&quot;10&quot; template=&quot;catalog/product/widget/new/content/new_grid.phtml&quot;\}\}
+`{{widget type="catalog/product_widget_new" display_type="new_products" products_count="10" template="catalog/product/widget/new/content/new_grid.phtml"}}`
 
 Il codice nell’esempio successivo può essere aggiunto a una pagina o a un blocco per visualizzare un collegamento a un prodotto specifico, per ID prodotto.
 
-\{\{widget type=&quot;catalog/product_widget_link&quot; anchor_text=&quot;My Product Link&quot; title=&quot;My Product Link&quot; template=&quot;catalog/product/widgetlink/link_block.phtml&quot; id_path=&quot;product/31&quot;\}\}
+`{{widget type="catalog/product_widget_link" anchor_text="My Product Link" title="My Product Link" template="catalog/product/widgetlink/link_block.phtml" id_path="product/31"}}`
 
 ## Utilizzare i tag di markup nei collegamenti
 
@@ -120,12 +120,12 @@ Racchiudi il tag di markup completato all’interno di un tag di ancoraggio, uti
 
 #### Markup nel tag di ancoraggio
 
-\&lt;a href=&quot;\{\{tag di markup qui\}\}&quot;>Testo collegamento\&lt;/a>
+`<a href="{{markup tag goes here}}">Link Text\</a>`
 
 Incolla il tag di ancoraggio completato nel codice di qualsiasi pagina, blocco, banner o modello e-mail di CMS in cui desideri visualizzare il collegamento.
 
 ### Collegamento completo con markup
 
-\&lt;a href=&quot;\{\{store url=&#39;vestel/shoes&#39;\}\}&quot;>Vendita calzature\&lt;/a>
+`<a href="{{store url='apparel/shoes'}}">Shoe Sale\</a>`
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
