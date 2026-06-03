@@ -3,9 +3,9 @@ title: Codici coupon
 description: Scopri come utilizzare i codici coupon con le regole del prezzo del carrello per applicare uno sconto quando viene soddisfatta una serie di condizioni.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
+source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ La lunghezza e il formato dei codici coupon generati automaticamente sono contro
 
 >[!NOTE]
 >
->[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Prima di creare coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it#run-cron-from-the-command-line) nella _Guida alla configurazione_.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Prima di creare coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) nella _Guida alla configurazione_.
 
 ### Metodo 1: creazione di un coupon specifico
 
@@ -181,6 +181,69 @@ La generazione di buoni sconto è un’operazione asincrona, che viene eseguita 
 
 Per eliminare i codici coupon, selezionare uno o più codici dall&#39;elenco. Selezionare `Delete` dal selettore **[!UICONTROL Actions]**, quindi fare clic su **[!UICONTROL Submit]**.
 
+### Metodo 3: Codici coupon personalizzati
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+
+Dopo aver creato una [regola prezzo carrello](price-rules-cart.md), puoi aggiungere manualmente codici coupon personalizzati alla regola.
+
+1. Nella barra laterale _Amministratore_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**e seleziona la regola a cui desideri aggiungere codici coupon personalizzati.
+
+1. Espandere la sezione **[!UICONTROL Manage Coupon Codes]** e fare clic su **[!UICONTROL Add Coupon Code]**.
+
+   ![codici coupon personalizzati](./assets/custom-coupon-codes.png){width="600" zoomable="yes"}
+
+1. Nella finestra di dialogo **[!UICONTROL Add Custom Coupon]** immettere il codice coupon che si desidera utilizzare per la regola del prezzo del carrello e fare clic su **[!UICONTROL Save]**.
+
+   ![aggiungi codici coupon](./assets/add-custom-coupon.png){width="600" zoomable="yes"}
+
+1. Fai clic su **[!UICONTROL Save]** per aggiornare la regola del prezzo del carrello.
+
+Per eliminare i codici coupon personalizzati, selezionare i codici da eliminare nella griglia, quindi selezionare **[!UICONTROL Delete]** dal selettore **[!UICONTROL Actions]**.
+
+Per modificare i codici coupon personalizzati o visualizzare i dettagli di utilizzo, fare clic su **[!UICONTROL Edit]** nella colonna **[!UICONTROL Actions]**.
+
+<InlineAlert variant="info" slots="text"/>
+
+Impossibile modificare o eliminare il codice del coupon principale che appartiene alla regola di prezzo del carrello.
+
+![modifica codici coupon](./assets/edit-coupon-code.png){width="600" zoomable="yes"}
+
+#### Codici coupon personalizzati per importazione in blocco
+
+Se disponi di un elenco di codici coupon predefiniti, puoi allegarli alla regola del prezzo del carrello da un file CSV invece di aggiungere ogni codice singolarmente. Il file CSV deve essere costituito da una singola colonna con i codici coupon.
+
+1. Nella barra laterale _Amministratore_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**e seleziona la regola in cui desideri importare i codici coupon personalizzati.
+
+1. Espandere la sezione **[!UICONTROL Manage Coupon Codes]** e fare clic su **[!UICONTROL Import]**.
+
+   >[!NOTE]
+   >
+   >Il pulsante **[!UICONTROL Import]** è disponibile nelle regole di prezzo del carrello salvato con **[!UICONTROL Coupon]** impostato su `Specific Coupon` e **[!UICONTROL Use Auto Generation]** disattivato.
+
+1. Nella finestra di dialogo **[!UICONTROL Import Coupons]**, fai clic su **[!UICONTROL Choose File]** e seleziona il file CSV che contiene i codici coupon da importare.
+
+   Il file CSV deve soddisfare i seguenti requisiti:
+
+   | Requisito | Valore |
+   | ------------- | ------- |
+   | Numero massimo di codici per file | 1,000 |
+   | Dimensione massima file | 512 KB |
+   | Lunghezza massima del codice | 255 caratteri per codice |
+   | Codici duplicati | Non consentito nello stesso file |
+
+   {style="table-layout:auto"}
+
+   Dopo aver selezionato il file, la finestra di dialogo visualizza un **[!UICONTROL Preview]** che mostra il numero di codici pronti per l&#39;importazione e un esempio dei primi codici dal file.
+
+   ![Finestra di dialogo Importa coupon](./assets/import-custom-coupons.png){width="600" zoomable="yes"}
+
+1. Fare clic su **[!UICONTROL Import]**. La finestra di dialogo visualizza un riepilogo con il numero di codici in coda per l’importazione e un elenco di eventuali codici esistenti saltati.
+
+   ![Risultato importazione coupon](./assets/import-coupons-result.png){width="600" zoomable="yes"}
+
+Per monitorare l&#39;avanzamento e i risultati dettagliati dell&#39;importazione, fare clic su **[!UICONTROL View progress in Bulk Actions Log]** o passare a **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Ogni importazione viene visualizzata come una singola voce in **[!UICONTROL Bulk Actions]**e selezionare una voce.
+
 ## Rapporto Coupon
 
 Il rapporto _Coupon_ aggrega i dati di ogni coupon utilizzato durante un intervallo di date specifico. Poiché i coupon vengono applicati dal carrello, il rapporto include i dati di tutti i coupon riscattati, indipendentemente dallo [stato ordine](../stores-purchase/order-status.md). Di conseguenza, il rapporto potrebbe includere sia i totali previsti che quelli effettivi. Il rapporto può essere filtrato per una specifica vista negozio, periodo di tempo, stato dell’ordine e regola del prezzo del carrello.
@@ -243,7 +306,7 @@ Nell&#39;esempio seguente, il codice coupon &quot;H20&quot; è stato utilizzato 
 | [!UICONTROL To] | Indica l&#39;ultima data dell&#39;intervallo di dati dell&#39;ordine incluso nel rapporto. |
 | [!UICONTROL Order Status] | Filtra il report in base allo stato dell&#39;ordine. Il rapporto può essere generato per tutti gli ordini o limitato a uno stato specifico dell’ordine. Opzioni: <br/>**[!UICONTROL Any]**: include tutti gli ordini indipendentemente dallo stato.<br/>**[!UICONTROL Specified]**: include solo gli ordini con lo stato specificato. Gli ordini annullati non sono inclusi nel rapporto. |
 | [!UICONTROL Empty Rows] | Determina se il report include righe di dati vuoti che possono essere recuperate. Opzioni: `Yes` / `No` |
-| [!UICONTROL Cart Price Rules] | Determina quali promozioni coupon includere nel rapporto. Opzioni:<br/>**[!UICONTROL Any]**: include informazioni sull&#39;ordine per qualsiasi promozione coupon utilizzata durante l&#39;intervallo di date specificato.<br/>**[!UICONTROL Specified]**: include solo le informazioni sull&#39;ordine per la promozione del coupon selezionata durante l&#39;intervallo di date specificato. |
+| [!UICONTROL Cart Price Rules] | Determina quali promozioni coupon includere nel rapporto. Opzioni:<br/>**[!UICONTROL Any]**: include informazioni sull&#39;ordine per qualsiasi promozione coupon utilizzata durante l&#39;intervallo di date specificato.<br/>**[!UICONTROL Specified]**: include solo informazioni sull&#39;ordine per la promozione coupon selezionata durante l&#39;intervallo di date specificato. |
 
 {style="table-layout:auto"}
 
