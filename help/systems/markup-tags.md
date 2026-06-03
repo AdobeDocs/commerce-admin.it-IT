@@ -3,7 +3,7 @@ title: Tag di markup
 description: Scopri i tag di markup che contengono snippet di codice per fare riferimento a un oggetto nell’archivio.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 29e8d3eddc335f6d0027d0b2a146430fbfc03fde
+source-git-commit: 4a4333fcc8425123fd6a4d17bbccf54534017a7d
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -120,12 +120,12 @@ Racchiudi il tag di markup completato all’interno di un tag di ancoraggio, uti
 
 #### Markup nel tag di ancoraggio
 
-`<a href="{{markup tag goes here}}">Link Text\</a>`
+`<a href="{{markup tag goes here}}">Link Text</a>`
 
 Incolla il tag di ancoraggio completato nel codice di qualsiasi pagina, blocco, banner o modello e-mail di CMS in cui desideri visualizzare il collegamento.
 
 ### Collegamento completo con markup
 
-`<a href="{{store url='apparel/shoes'}}">Shoe Sale\</a>`
+`<a href="{{store url='apparel/shoes'}}">Shoe Sale</a>`
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
