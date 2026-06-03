@@ -3,9 +3,9 @@ title: Algoritmi e prenotazioni di Source
 description: Scopri l’Algoritmo di selezione Source e i sistemi di prenotazione eseguiti in background per mantenere aggiornate le quantità vendibili.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: a8e9389ee2b94f816915de3e61516004d2b32e9d
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Il cuore di [!DNL Inventory Management] tiene traccia di tutti i prodotti dispon
 
 >[!NOTE]
 >
->Per informazioni sull&#39;utilizzo del sistema [&#x200B; a livello di programmazione, consultare la &#x200B;](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)documentazione per gli sviluppatori[!DNL Inventory Management].
+>Per informazioni sull&#39;utilizzo del sistema [!DNL Inventory Management] a livello di programmazione, vedere la [documentazione per sviluppatori](https://developer.adobe.com/commerce/php/development/framework/inventory-management/).
 
 ## Algoritmo di selezione Source
 
@@ -24,14 +24,18 @@ L&#39;algoritmo di selezione Source (SSA) analizza e determina la migliore corri
 
 Con più sedi di origine, clienti globali e vettori con varie opzioni di spedizione e spese, conoscere l&#39;inventario effettivamente disponibile e trovare la migliore opzione di spedizione può essere difficile. SSA consente di tenere traccia delle quantità vendibili in magazzino da tutte le origini al calcolo e alla creazione di consigli per le spedizioni.
 
-**Tieni traccia dell&#39;inventario** - Utilizzando le scorte e le origini, l&#39;SSA controlla il canale di vendita delle richieste di prodotti in arrivo e determina l&#39;inventario disponibile:
+### Tracciare l’inventario
+
+Utilizzando le scorte e le origini, l&#39;SSA controlla il canale di vendita delle richieste di prodotti in arrivo e determina le scorte disponibili:
 
 - Calcola la quantità vendibile virtuale aggregata di tutte le origini assegnate per stock: aggrega Quantità - Soglia esaurita per origine
 - Sottrae l&#39;importo della soglia esaurita dalla quantità vendibile per proteggerlo dalle vendite in eccesso
 - Riserva le quantità di magazzino all&#39;invio dell&#39;ordine, detraendo dalle scorte in magazzino all&#39;elaborazione e alla spedizione dell&#39;ordine
 - Supporta gli ordini inevasi con opzioni avanzate per soglie negative
 
-**Gestione spedizioni** - L&#39;algoritmo consente di elaborare e spedire gli ordini. Puoi eseguire l’algoritmo per ottenere consigli sulle origini migliori per la spedizione del prodotto o per ignorare le selezioni su:
+### Gestisci spedizioni
+
+L&#39;algoritmo consente di elaborare e spedire gli ordini. Puoi eseguire l’algoritmo per ottenere consigli sulle origini migliori per la spedizione del prodotto o per ignorare le selezioni su:
 
 - Spedire spedizioni parziali, inviando solo alcuni prodotti da posizioni specifiche e completando l&#39;ordine completo in un secondo momento
 - Spedire l&#39;intero ordine da un&#39;unica origine
@@ -54,7 +58,7 @@ Quando viene eseguito, l’algoritmo:
 - Continua verso il basso nell&#39;elenco fino al completamento della spedizione dell&#39;ordine
 - Ignora le origini disabilitate se presenti nell&#39;elenco
 
-Per configurare, assegnare e ordinare origini a un magazzino personalizzato. Vedi [Assegnazione di priorità alle origini per un Stock](stocks-prioritize-sources.md).
+Per configurare, assegnare e ordinare origini per un magazzino personalizzato, vedere [Assegnazione di priorità alle origini per un magazzino](stocks-prioritize-sources.md).
 
 Nell&#39;esempio seguente vengono descritte in dettaglio le origini mappate in ordine, quantità disponibile e origine e importo consigliati da dedurre e spedire. La fonte principale è un corriere espresso nel Regno Unito con una quantità disponibile di 240.
 
@@ -62,13 +66,13 @@ Nell&#39;esempio seguente vengono descritte in dettaglio le origini mappate in o
 
 ### Algoritmo di priorità della distanza
 
-L&#39;algoritmo Distance Priority confronta l&#39;ubicazione dell&#39;indirizzo di destinazione della spedizione con le ubicazioni di origine per determinare l&#39;origine più vicina per evadere le spedizioni. La distanza può essere determinata in base alla distanza fisica o al tempo impiegato per spostarsi da un luogo all&#39;altro, utilizzando le posizioni di database importate o le indicazioni Google (guida, camminata o bicicletta).
+L&#39;algoritmo di priorità della distanza confronta l&#39;ubicazione dell&#39;indirizzo di destinazione della spedizione con le ubicazioni di origine per determinare l&#39;origine più vicina per evadere le spedizioni. La distanza può essere determinata in base alla distanza fisica o al tempo impiegato per spostarsi da un luogo all&#39;altro, utilizzando le posizioni di database importate o le indicazioni Google (guida, camminata o bicicletta).
 
 Sono disponibili due opzioni per calcolare la distanza e il tempo necessari per trovare l&#39;origine più vicina per l&#39;evasione della spedizione:
 
-- **Google MAP** - Utilizza i servizi [Google Maps Platform](https://cloud.google.com/maps-platform/) per calcolare la distanza e l&#39;ora tra l&#39;indirizzo di destinazione e le posizioni di origine (indirizzo e coordinate GPS). Questa opzione utilizza i valori di latitudine e longitudine della sorgente. È necessaria una chiave API Google con [API di geocodifica](https://developers.google.com/maps/documentation/geocoding/start) e [API della matrice di distanza](https://developers.google.com/maps/documentation/distance-matrix/start) abilitate. Questa opzione richiede un piano di fatturazione Google e può comportare costi attraverso Google.
+- [!UICONTROL Google MAP] - Utilizza i servizi [Google Maps Platform](https://cloud.google.com/maps-platform/) per calcolare la distanza e l&#39;ora tra l&#39;indirizzo di destinazione e le posizioni di origine (indirizzo e coordinate GPS). Questa opzione utilizza i valori di latitudine e longitudine della sorgente. È necessaria una chiave API Google con [API di geocodifica](https://developers.google.com/maps/documentation/geocoding/start) e [API della matrice di distanza](https://developers.google.com/maps/documentation/distance-matrix/start) abilitate. Questa opzione richiede un piano di fatturazione Google e può comportare costi attraverso Google.
 
-- **Calcolo offline** - Calcola la distanza utilizzando i dati del codice geografico scaricati e importati per determinare l&#39;origine più vicina all&#39;indirizzo di destinazione della spedizione. Questa opzione utilizza i codici paese dell&#39;indirizzo di spedizione e dell&#39;origine. Per configurare questa opzione, potrebbe essere necessaria l&#39;assistenza dello sviluppatore per scaricare e importare inizialmente i geocodici tramite riga di comando.
+- [!UICONTROL Offline Calculation] — Calcola la distanza utilizzando i dati del codice geografico scaricati e importati per determinare l&#39;origine più vicina all&#39;indirizzo di destinazione della spedizione. Questa opzione utilizza i codici paese dell&#39;indirizzo di spedizione e dell&#39;origine. Per configurare questa opzione, potrebbe essere necessaria l&#39;assistenza dello sviluppatore per scaricare e importare inizialmente i geocodici tramite riga di comando.
 
 Per configurare, seleziona le configurazioni e completa i passaggi aggiuntivi, ad esempio la chiave API di Google o il download dei dati di spedizione. Vedere [Configurare l&#39;algoritmo di priorità della distanza](distance-priority-algorithm.md).
 
@@ -112,7 +116,7 @@ Prima che il sistema possa emettere una prenotazione in risposta a un nuovo ordi
 
 - **Quantità StockItem**. La quantità StockItem è la quantità aggregata di scorte provenienti da tutte le origini fisiche per il canale di vendita corrente. Si consideri un esempio in cui la sorgente di Baltimora ha 20 unità di un prodotto, la sorgente di Austin ha 25 unità dello stesso prodotto, e la sorgente di Reno ne ha 10. Quando tutte queste origini sono collegate al magazzino A, il conteggio StockItem per questo prodotto è 55 (20 + 25 + 10). Quando gli articoli vengono spediti, l&#39;indicizzatore magazzino aggiorna le quantità disponibili per ogni origine.
 
-- **Prenotazioni in sospeso**. Il sistema totalizza tutte le prenotazioni iniziali che non sono state compensate. Questo numero è sempre negativo. Se il cliente A ha una prenotazione per dieci articoli e il cliente B ha una prenotazione 5 per articoli, allora prenotazioni in sospeso per il totale del prodotto -15.
+- **Prenotazioni in sospeso**. Il sistema totalizza tutte le prenotazioni iniziali che non sono state compensate. Questo numero è sempre negativo. Se il cliente A ha una prenotazione per dieci articoli e il cliente B ha una prenotazione per cinque articoli, allora prenotazioni in sospeso per il totale del prodotto -15.
 
 Pertanto, il commerciante può evadere un ordine in entrata se il cliente ordina meno di 40 (55 + -15) unità.
 
@@ -140,13 +144,12 @@ I metadati `event_type` possono avere i seguenti valori:
 
 - `order_placed`
 - `order_canceled`
+- `order_place_failed`
 - `shipment_created`
 - `creditmemo_created`
 - `invoice_created`
 
-Attualmente, il tipo di oggetto metadati deve essere `order` e l&#39;ID oggetto è l&#39;ID ordine.
-
-Nelle versioni future, potrebbe essere possibile creare una prenotazione quando un cliente aggiunge un articolo al carrello. Ogni articolo può essere prenotato per un periodo di tempo fisso, ad esempio 15 minuti, consentendo al cliente di prenotare gli articoli mentre continua a fare acquisti. Quando questo tipo di prenotazione è abilitato, i metadati potrebbero contenere ulteriori tipi di informazioni.
+I metadati `object_type` devono essere `order` e `object_id` è l&#39;ID ordine.
 
 ## Ciclo di vita prenotazione
 
@@ -162,7 +165,7 @@ L&#39;esempio seguente mostra la sequenza di prenotazioni generate per un ordine
    event_type = order_placed
    ```
 
-1. Il cliente invia una fattura per 20 articoli, essenzialmente annullando 5 delle unità ordinate.
+1. Il cliente invia una fattura per 20 articoli, essenzialmente annullando cinque delle unità ordinate.
 
    ```text
    reservation_id = 2
@@ -188,7 +191,7 @@ I tre valori `quantity` sommano fino a 0 (-25 + 5 + 20). Il sistema non modifica
 
 Il processo cron `inventory_cleanup_reservations` esegue query SQL per cancellare la tabella del database delle prenotazioni. Per impostazione predefinita viene eseguito ogni giorno a mezzanotte, ma puoi configurare l’ora e la frequenza. Il processo cron esegue uno script che esegue query sul database per trovare sequenze di prenotazione complete in cui la somma dei valori di quantità è 0. Quando tutte le prenotazioni per un determinato prodotto che hanno avuto origine nello stesso giorno (o in un’altra ora configurata) sono state compensate, il processo cron elimina tutte le prenotazioni contemporaneamente.
 
-Il processo cron `inventory_reservations_cleanup` non corrisponde al consumer della coda di messaggi `inventory.reservations.cleanup`. Il consumatore elimina in modo asincrono le prenotazioni per SKU prodotto dopo la rimozione di un prodotto, mentre il processo cron cancella l’intera tabella delle prenotazioni. Il consumer è obbligatorio quando si abilita l&#39;opzione di magazzino [**Sincronizza con catalogo**](../configuration-reference/catalog/inventory.md) nella configurazione dell&#39;archivio. Vedi [Gestione delle code di messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=it) nella _Guida alla configurazione_.
+Il processo cron `inventory_reservations_cleanup` non corrisponde al consumer della coda di messaggi `inventory.reservations.cleanup`. Il consumatore elimina in modo asincrono le prenotazioni per SKU prodotto dopo la rimozione di un prodotto, mentre il processo cron cancella l’intera tabella delle prenotazioni. Il consumer è obbligatorio quando si abilita l&#39;opzione di magazzino [**Sincronizza con catalogo**](../configuration-reference/catalog/inventory.md) nella configurazione dell&#39;archivio. Vedi [Gestione delle code di messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=it){target="_blank"} nella _Guida alla configurazione_.
 
 Spesso, tutte le prenotazioni iniziali prodotte in un singolo giorno non possono essere compensate quello stesso giorno. Questa situazione può verificarsi quando un cliente effettua un ordine poco prima dell’inizio del processo cron o effettua l’acquisto con un metodo di pagamento offline, ad esempio un bonifico bancario. Le sequenze di prenotazione compensate rimangono nel database fino a quando non vengono compensate tutte. Questa procedura non interferisce con i calcoli della prenotazione, poiché il totale di ogni prenotazione è 0.
 
@@ -202,11 +205,11 @@ Quando le modifiche vengono completate negli ordini e negli importi dei prodotti
 
 Ecco come funzionano:
 
-- **Ordine inviato** - Quando un ordine viene inviato per più prodotti, viene inserita una prenotazione per tale importo. Ad esempio, l&#39;ordine di cinque zaini da un sito Web degli Stati Uniti immette una prenotazione di `-5` per tale SKU e azione. La quantità vendibile viene ridotta di 5.
+- *Ordine inviato* - Quando un ordine viene inviato per più prodotti, viene inserita una prenotazione per tale importo. Ad esempio, l&#39;ordine di cinque zaini da un sito Web degli Stati Uniti immette una prenotazione di `-5` per tale SKU e azione. La quantità vendibile viene ridotta di 5.
 
-- **Ordine annullato** - Quando un ordine viene annullato (in tutto o in parte), viene inserita una prenotazione di retribuzione per cancellare tale importo. Ad esempio, l’annullamento di tre zaini comporta l’inserimento di una prenotazione +3 per lo SKU e il magazzino in questione, cancellando il blocco. La quantità vendibile viene aumentata di 3.
+- *Ordine annullato* - Quando un ordine viene annullato (in tutto o in parte), viene inserito un impegno di retribuzione per cancellare tale importo. Ad esempio, l’annullamento di tre zaini comporta l’inserimento di una prenotazione +3 per lo SKU e il magazzino in questione, cancellando il blocco. La quantità vendibile viene aumentata di 3.
 
-- **Ordine spedito** - Quando un ordine viene spedito (in tutto o in parte), viene inserita una prenotazione di retribuzione per cancellare tale importo. Ad esempio, la spedizione di due zaini immette una prenotazione +2 per lo SKU e il magazzino, cancellando il blocco. La quantità di prodotto viene direttamente ridotta di 2 per la spedizione. Anche la quantità vendibile calcolata viene aggiornata per l’importo delle scorte ridotto, ma non è più interessata dalla prenotazione.
+- *Ordine spedito* - Quando un ordine viene spedito (in tutto o in parte), viene inserita una prenotazione di retribuzione per cancellare tale importo. Ad esempio, la spedizione di due zaini immette una prenotazione +2 per lo SKU e il magazzino, cancellando il blocco. La quantità di prodotto viene direttamente ridotta di 2 per la spedizione. Anche la quantità vendibile calcolata viene aggiornata per l’importo delle scorte ridotto, ma non è più interessata dalla prenotazione.
 
 ![Aggiornamenti prenotazione](assets/diagram-reservation.png){width="600" zoomable="yes"}
 
@@ -219,6 +222,5 @@ Tutte le prenotazioni devono essere liquidate tramite compensazioni quando gli o
 Se si rimuovono tutte le origini da un prodotto per un magazzino con ordini in sospeso, è possibile che vi siano impegni bloccati.
 
 {{$include /help/_includes/unassign-source.md}}
-
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
