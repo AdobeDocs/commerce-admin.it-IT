@@ -3,7 +3,7 @@ title: Codici coupon
 description: Scopri come utilizzare i codici coupon con le regole del prezzo del carrello per applicare uno sconto quando viene soddisfatta una serie di condizioni.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Se disponi di un elenco di codici coupon predefiniti, puoi allegarli alla regola
    Il file CSV deve soddisfare i seguenti requisiti:
 
    | Requisito | Valore |
-   | ------------- | ------- |
+   |-------------|-------|
    | Numero massimo di codici per file | 1,000 |
    | Dimensione massima file | 512 KB |
    | Lunghezza massima del codice | 255 caratteri per codice |
