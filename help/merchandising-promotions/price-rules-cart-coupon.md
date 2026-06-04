@@ -3,7 +3,7 @@ title: Codici coupon
 description: Scopri come utilizzare i codici coupon con le regole del prezzo del carrello per applicare uno sconto quando viene soddisfatta una serie di condizioni.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -73,7 +73,7 @@ La lunghezza e il formato dei codici coupon generati automaticamente sono contro
 
 >[!NOTE]
 >
->[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Prima di creare coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it#run-cron-from-the-command-line) nella _Guida alla configurazione_.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Prima di creare coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) nella _Guida alla configurazione_.
 
 ### Metodo 1: creazione di un coupon specifico
 
@@ -183,11 +183,11 @@ Per eliminare i codici coupon, selezionare uno o più codici dall&#39;elenco. Se
 
 ### Metodo 3: Codici coupon personalizzati
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
 
 Dopo aver creato una [regola prezzo carrello](price-rules-cart.md), puoi aggiungere manualmente codici coupon personalizzati alla regola.
 
-1. Nella barra laterale _Amministratore_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;e seleziona la regola a cui desideri aggiungere codici coupon personalizzati.
+1. Nella barra laterale _Amministratore_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**e seleziona la regola a cui desideri aggiungere codici coupon personalizzati.
 
 1. Espandere la sezione **[!UICONTROL Manage Coupon Codes]** e fare clic su **[!UICONTROL Add Coupon Code]**.
 
@@ -203,7 +203,7 @@ Per eliminare i codici coupon personalizzati, selezionare i codici da eliminare 
 
 Per modificare i codici coupon personalizzati o visualizzare i dettagli di utilizzo, fare clic su **[!UICONTROL Edit]** nella colonna **[!UICONTROL Actions]**.
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 Impossibile modificare o eliminare il codice del coupon principale che appartiene alla regola di prezzo del carrello.
 
@@ -213,7 +213,7 @@ Impossibile modificare o eliminare il codice del coupon principale che appartien
 
 Se disponi di un elenco di codici coupon predefiniti, puoi allegarli alla regola del prezzo del carrello da un file CSV invece di aggiungere ogni codice singolarmente. Il file CSV deve essere costituito da una singola colonna con i codici coupon.
 
-1. Nella barra laterale _Amministratore_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;e seleziona la regola in cui desideri importare i codici coupon personalizzati.
+1. Nella barra laterale _Amministratore_, vai a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**e seleziona la regola in cui desideri importare i codici coupon personalizzati.
 
 1. Espandere la sezione **[!UICONTROL Manage Coupon Codes]** e fare clic su **[!UICONTROL Import]**.
 
@@ -226,7 +226,7 @@ Se disponi di un elenco di codici coupon predefiniti, puoi allegarli alla regola
    Il file CSV deve soddisfare i seguenti requisiti:
 
    | Requisito | Valore |
-   | ------------- | ------- |
+   |-------------|-------|
    | Numero massimo di codici per file | 1,000 |
    | Dimensione massima file | 512 KB |
    | Lunghezza massima del codice | 255 caratteri per codice |
@@ -242,7 +242,7 @@ Se disponi di un elenco di codici coupon predefiniti, puoi allegarli alla regola
 
    ![Risultato importazione coupon](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-Per monitorare l&#39;avanzamento e i risultati dettagliati dell&#39;importazione, fare clic su **[!UICONTROL View progress in Bulk Actions Log]** o passare a **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Ogni importazione viene visualizzata come una singola voce in **[!UICONTROL Bulk Actions]**&#x200B;e selezionare una voce.
+Per monitorare l&#39;avanzamento e i risultati dettagliati dell&#39;importazione, fare clic su **[!UICONTROL View progress in Bulk Actions Log]** o passare a **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Ogni importazione viene visualizzata come una singola voce in **[!UICONTROL Bulk Actions]**e selezionare una voce.
 
 ## Rapporto Coupon
 
