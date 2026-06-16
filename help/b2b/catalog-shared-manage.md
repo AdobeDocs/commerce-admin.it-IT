@@ -3,9 +3,29 @@ title: Gestire i cataloghi condivisi
 description: Scopri le informazioni e gli strumenti disponibili nella pagina Cataloghi condivisi.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: 969
 ht-degree: 0%
 
 ---
@@ -53,7 +73,7 @@ I prezzi personalizzati dei prodotti in qualsiasi catalogo condiviso possono ess
 
 >[!NOTE]
 >
->**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione di categoria](../catalog/category-permissions.md) per il catalogo è impostata su `Allow` per _[!UICONTROL Display Product Prices]_&#x200B;e&#x200B;_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
+>**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione di categoria](../catalog/category-permissions.md) per il catalogo è impostata su `Allow` per _[!UICONTROL Display Product Prices]_&#x200B;e_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
 
 >[!IMPORTANT]
 >
@@ -120,7 +140,7 @@ Le informazioni dettagliate di qualsiasi catalogo condiviso possono essere facil
 | Campo | Descrizione |
 |--- |--- |
 | [!UICONTROL Name] | Identifica il catalogo condiviso in Admin (Amministrazione) e negli account cliente in cui è disponibile. Il nome del catalogo deve essere descrittivo e non deve superare i 32 caratteri. Non è possibile avere due cataloghi condivisi con lo stesso nome. Massimo caratteri: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifica un catalogo con prezzi personalizzati che è disponibile solo per le società specifiche a cui è assegnato.<br/>**[!UICONTROL Public]**- Identifica il catalogo condiviso disponibile per tutti i visitatori ospiti e per i clienti connessi che non sono associati a un&#39;azienda. Al momento dell’installazione di Adobe Commerce B2B viene creato un catalogo condiviso pubblico &quot;predefinito&quot;, che deve tuttavia essere configurato dall’amministratore. Può esistere un solo catalogo condiviso pubblico alla volta. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifica un catalogo con prezzi personalizzati che è disponibile solo per le società specifiche a cui è assegnato.<br/>**[!UICONTROL Public]**: identifica il catalogo condiviso disponibile per tutti i visitatori ospiti e per i clienti connessi che non sono associati a un’azienda. Al momento dell’installazione di Adobe Commerce B2B viene creato un catalogo condiviso pubblico &quot;predefinito&quot;, che deve tuttavia essere configurato dall’amministratore. Può esistere un solo catalogo condiviso pubblico alla volta. |
 | [!UICONTROL Customer Tax Class] | Determina la classe di imposta utilizzata per gli acquisti effettuati dal catalogo. Le opzioni includono tutte le classi di imposta disponibili. |
 | [!UICONTROL Description] | Breve spiegazione di come utilizzare il catalogo. |
 

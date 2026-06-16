@@ -4,9 +4,27 @@ description: Scopri come utilizzare gli strumenti di gestione della cache, che o
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+TQID: https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: 1975
 ht-degree: 0%
 
 ---
@@ -203,7 +221,7 @@ Per informazioni tecniche, vedere [Configurare e utilizzare Vernice](https://exp
 
 1. Per impostare il timeout per la cache delle pagine, immettere **[!UICONTROL TTL for public content]**. Il valore predefinito è `86400`
 
-1. Per specificare il numero massimo di [handle di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare sull&#39;endpoint HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=it), immettere **[!UICONTROL Handles param size]**. La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Il valore predefinito è `100`
+1. Per specificare il numero massimo di [handle di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare sull&#39;endpoint HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html), immettere **[!UICONTROL Handles param size]**. La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Il valore predefinito è `100`
 
 1. Se si utilizza Vernice, completare la sezione **[!UICONTROL Varnish Configuration]** come segue:
 
@@ -213,7 +231,7 @@ Per informazioni tecniche, vedere [Configurare e utilizzare Vernice](https://exp
 
    - **[!UICONTROL Backend port]** - Identificare la porta back-end utilizzata per generare i file di configurazione. Valore predefinito: `8080`.
 
-   - **[!UICONTROL Grace period]** - Specificare il numero di secondi da utilizzare come periodo di tolleranza per generare i file di configurazione. Vedere [Configurazione avanzata vernice](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=it) nella _Guida alla configurazione_.
+   - **[!UICONTROL Grace period]** - Specificare il numero di secondi da utilizzare come periodo di tolleranza per generare i file di configurazione. Vedere [Configurazione avanzata vernice](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) nella _Guida alla configurazione_.
 
    - Per esportare la configurazione come file `varnish.vcl`, fare clic sul pulsante della versione di vernice utilizzata.
 

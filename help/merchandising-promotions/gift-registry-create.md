@@ -3,9 +3,26 @@ title: Impostazione registro regali
 description: Scopri come impostare i tipi di registro regali per i clienti del tuo negozio.
 exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -131,8 +148,8 @@ Selezionare il tipo di dati e il controllo di input associati all&#39;attributo.
 
 | Campo | Descrizione |
 |--- |--- |
-| [!UICONTROL Event Date] | Determina la modalità di utilizzo dell&#39;attributo date nell&#39;archivio. Opzioni: <br/>**[!UICONTROL Searchable]**- Determina se l&#39;attributo è disponibile per la ricerca avanzata. Opzioni: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se l&#39;evento è incluso nell&#39;elenco degli eventi disponibili nell&#39;archivio. Opzioni: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Determina il formato della data evento. Opzioni: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Event Country] | Visualizza l&#39;attributo come elenco di paesi. Opzioni: <br/>**[!UICONTROL Searchable]**- Determina se l&#39;attributo è disponibile per la ricerca avanzata. Opzioni: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se l&#39;evento è incluso nell&#39;elenco degli eventi disponibili nell&#39;archivio. Opzioni: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**- Determina la regione dell&#39;evento. |
+| [!UICONTROL Event Date] | Determina la modalità di utilizzo dell&#39;attributo date nell&#39;archivio. Opzioni: <br/>**[!UICONTROL Searchable]**- Determina se l&#39;attributo è disponibile per la ricerca avanzata. Opzioni: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se l’evento è incluso nell’elenco degli eventi disponibili nell’archivio. Opzioni: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Determina il formato della data evento. Opzioni: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
+| [!UICONTROL Event Country] | Visualizza l&#39;attributo come elenco di paesi. Opzioni: <br/>**[!UICONTROL Searchable]**- Determina se l&#39;attributo è disponibile per la ricerca avanzata. Opzioni: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se l’evento è incluso nell’elenco degli eventi disponibili nell’archivio. Opzioni: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**- Determina la regione dell&#39;evento. |
 | [!UICONTROL Event Location] | La posizione dell&#39;evento correlato al registro dei doni. <br/>Imposta **[!UICONTROL Is Searcheable]** su: `Yes` / `No` <br/>Imposta **[!UICONTROL Is Listed]** su: `Yes` / `No` |
 | [!UICONTROL Role] | Ruolo che identifica il destinatario del regalo. Ad esempio, `Bride`, `Groom` o `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Imposta su `Yes`/ `No`<br/>**&#x200B;È elencato &#x200B;**- Imposta su `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Fai clic per aggiungere altre condizioni al menu a discesa:<br/>**Codice** - Nome univoco per identificare l&#39;attributo internamente.<br/>**[!UICONTROL Label]**- Nome che identifica l&#39;attributo nel dashboard account del cliente.<br/>**[!UICONTROL Is Default]** - Impostare questa opzione per selezionare la condizione predefinita.<br/>**[!UICONTROL Delete Option]**- Fare clic per eliminare l&#39;opzione. |
 

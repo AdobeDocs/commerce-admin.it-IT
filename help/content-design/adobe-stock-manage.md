@@ -4,9 +4,21 @@ description: Migliora le pagine del tuo store con le immagini di Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+TQID: https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: 1051
 ht-degree: 0%
 
 ---
@@ -21,7 +33,7 @@ Puoi utilizzare le immagini [Adobe Stock](https://stock.adobe.com) invece di car
 
 Il pannello di ricerca di Adobe Stock è accessibile quando [aggiungi o modifichi una pagina](page-add.md), quando [crei o modifichi una categoria](../catalog/category-create.md) o quando [inserisci immagini tramite l&#39;editor di contenuti](editor-insert-image.md).
 
-**_Per cercare risorse Adobe Stock e aggiungere un&#39;immagine di archivio a una pagina:_**
+**_Per cercare risorse Adobe Stock e aggiungere un&#39;immagine Stock a una pagina:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
@@ -39,7 +51,7 @@ Il pannello di ricerca di Adobe Stock è accessibile quando [aggiungi o modifich
 
 1. Fare clic su **[!UICONTROL Search Adobe Stock]**.
 
-**_Per cercare risorse Adobe Stock e aggiungere un&#39;immagine di archivio a una categoria:_**
+**_Per cercare le risorse Adobe Stock e aggiungere un&#39;immagine Stock a una categoria:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
@@ -179,7 +191,7 @@ Le risorse Adobe Stock che desideri utilizzare per gli store [!DNL Commerce] di 
 
      >[!NOTE]
      >
-     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/it/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
+     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
 
    Questa azione richiede di specificare un nome di file utilizzato per salvare l&#39;immagine nell&#39;[archivio multimediale](media-storage.md). Viene fornito un nome di file predefinito, ma puoi personalizzarlo in base alle tue preferenze.
 

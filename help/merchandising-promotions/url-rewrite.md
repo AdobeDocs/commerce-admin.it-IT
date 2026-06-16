@@ -4,9 +4,28 @@ description: Scopri come riscrivere gli URL e come utilizzare lo strumento di ri
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 2f2db4926ff92adfa27692eeca872c1765fd31d6
+TQID: https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: 940
 ht-degree: 0%
 
 ---
@@ -152,9 +171,9 @@ L’esempio seguente mostra come vengono visualizzati gli URL con e senza le ris
 
 Ai fini SEO, ogni pagina web deve avere un solo URL distinto.
 
-Se disponi di una singola pagina accessibile da più URL o da pagine diverse con contenuto simile, Google le considera come versioni duplicate della stessa pagina. Google sceglie un URL come versione canonica e esegue la ricerca per indicizzazione di tale URL e di tutti gli altri URL, considerati duplicati, vengono eseguiti con minore frequenza.
+Se disponi di una singola pagina accessibile da più URL o da pagine diverse con contenuto simile, Google le considera come versioni duplicate della stessa pagina. Google sceglie un URL come versione canonica e scansiona che, e tutti gli altri URL, sono considerati URL duplicati e vengono scansionati meno spesso.
 
-Se non dici esplicitamente a Google quale URL è canonico, effettua la scelta o potrebbe considerarli entrambi di peso uguale. Ciò potrebbe causare un comportamento indesiderato, con il rischio di un budget di ricerca per indicizzazione inefficace e di collegamenti retroversi distribuiti ridotti.
+Se non dici esplicitamente a Google quale URL è canonico, effettua la scelta o potrebbe considerarli entrambi di peso uguale. Questo potrebbe portare a comportamenti indesiderati e rischia di compromettere l’efficacia del budget di scansiono e la presenza di collegamenti di backlink distribuiti.
 
 A seconda di come configuri il sito web, nell’indice possono essere presenti più versioni del sito, ad esempio:
 

@@ -1,11 +1,31 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
-description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] dell'amministratore di Commerce.
+title: '[!UICONTROL Catalog] > [!UICONTROL Catalog]'
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Catalog] > [!UICONTROL Catalog] dell'amministratore di Commerce.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: f8849b9cf570b2bc3a9d141ddde320ae36a9294a
+TQID: https://experienceleague.adobe.com/YbozeuP9oPvSfHp1zSajemcBuqgkfrkxbfiJmuD625U
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: 3350
 ht-degree: 0%
 
 ---
@@ -196,8 +216,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable] | Globale | Attiva le restrizioni per le categorie. Per impostazione predefinita, l’utilizzo di questa funzione limita tutte le categorie. Opzioni: `Yes` / `No` |
 | [!UICONTROL Allow Browsing Category] | Sito Web | Determina chi può sfogliare le categorie. Opzioni: <br/>`Yes, for Everyone` - Consente a tutti i visitatori e clienti di sfogliare la categoria. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri dei gruppi di clienti selezionati di esplorare la categoria. <br/>`No, Redirect to Landing Page` - Nega l&#39;accesso alla categoria e reindirizza alla pagina selezionata. |
-| [!UICONTROL Display Product Prices] | Sito Web | Controlla la visualizzazione dei prezzi dei prodotti per la categoria. Opzioni: <br/>`Yes, for Everyone` - Consente a tutti di visualizzare il prezzo dei prodotti della categoria. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri dei gruppi di clienti selezionati di visualizzare il prezzo dei prodotti della categoria. <br/>`No` - Disattiva la visualizzazione dei prezzi dei prodotti per la categoria. |
-| [!UICONTROL Allow Adding to Cart] | Sito Web | Determina chi può acquistare prodotti dalla categoria. Opzioni: <br/>`Yes, for Everyone` - Consente a tutti di inserire i prodotti della categoria nel carrello. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri di gruppi di clienti selezionati di inserire prodotti della categoria nei loro carrelli. <br/>`No` - Non consente a nessuno di inserire i prodotti della categoria nel carrello. |
+| [!UICONTROL Display Product Prices] | Sito Web | Controlla la visualizzazione dei prezzi dei prodotti per la categoria. Opzioni: <br/>`Yes, for Everyone` - Consente a tutti di visualizzare il prezzo dei prodotti della categoria. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri di gruppi di clienti selezionati di visualizzare il prezzo dei prodotti della categoria. <br/>`No` - Disattiva la visualizzazione dei prezzi dei prodotti per la categoria. |
+| [!UICONTROL Allow Adding to Cart] | Sito Web | Determina chi può acquistare prodotti dalla categoria. Opzioni: <br/>`Yes, for Everyone` - Consente a tutti di inserire i prodotti della categoria nel carrello. <br/>`Yes, for Specified Customer Groups` - Consente solo ai membri di gruppi di clienti selezionati di inserire i prodotti della categoria nei loro carrelli. <br/>`No` - Non consente a nessuno di inserire i prodotti della categoria nel carrello. |
 | [!UICONTROL Disallow Catalog Search by] | Sito Web | Identifica i gruppi di clienti che non possono cercare prodotti nella categoria. |
 
 {style="table-layout:auto"}

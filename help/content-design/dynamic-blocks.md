@@ -3,9 +3,20 @@ title: Blocchi dinamici
 description: Utilizza i blocchi dinamici per creare contenuti avanzati e interattivi basati su una logica basata sulle regole di prezzo e sui segmenti di clienti.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+TQID: https://experienceleague.adobe.com/Xbv5IqrZPF2xDERIGOFilHgiXKAyy8yxyXISRj17s0A
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: 674
 ht-degree: 0%
 
 ---
@@ -97,7 +108,7 @@ Utilizza l&#39;[!DNL Page Builder] [area di lavoro](../page-builder/workspace.md
 | [!UICONTROL Store View] | Specifica le visualizzazioni dello store in cui il blocco dinamico deve essere disponibile. |
 | [!UICONTROL Enable Dynamic Block] | Attiva o disattiva il blocco dinamico. Opzioni: Sì / No |
 | [!UICONTROL Dynamic Block Name] | Nome descrittivo che identifica il blocco dinamico nell’amministratore. |
-| [!UICONTROL Dynamic Block Type] | Identifica il punto nel [layout di pagina standard](layout-updates.md) in cui viene inserito il blocco dinamico. Opzioni: <br/>**[!UICONTROL Content Area]**- Posiziona il blocco dinamico nella [area contenuto](layout-updates.md) principale della pagina.<br/>**[!UICONTROL Footer]** - Posiziona il blocco dinamico nella pagina [piè di pagina](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Posiziona il blocco dinamico nella pagina [intestazione](page-setup.md#header).<br/>**[!UICONTROL Left Column]** - Inserisce il blocco dinamico nella [barra laterale a sinistra](page-layout.md#standard-page-layouts) di un layout a due o tre colonne. <br/>**[!UICONTROL Right Column]**- Inserisce il blocco dinamico nella [barra laterale destra](page-layout.md#standard-page-layouts) di un layout a due o tre colonne. |
+| [!UICONTROL Dynamic Block Type] | Identifica il punto nel [layout di pagina standard](layout-updates.md) in cui viene inserito il blocco dinamico. Opzioni: <br/>**[!UICONTROL Content Area]**- Posiziona il blocco dinamico nella [area contenuto](layout-updates.md) principale della pagina.<br/>**[!UICONTROL Footer]** - Inserisce il blocco dinamico nella pagina [piè di pagina](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Inserisce il blocco dinamico nella pagina [intestazione](page-setup.md#header).<br/>**[!UICONTROL Left Column]** - Inserisce il blocco dinamico nella [barra laterale sinistra](page-layout.md#standard-page-layouts) di un layout a due o tre colonne. <br/>**[!UICONTROL Right Column]**- Inserisce il blocco dinamico nella [barra laterale destra](page-layout.md#standard-page-layouts) di un layout a due o tre colonne. |
 | Segmento cliente | Associa un segmento di un cliente al blocco dinamico per determinare quali clienti possono visualizzarlo. |
 | Pubblico Real-Time CDP | Associa un pubblico di [Real-Time CDP](../customers/audience-activation.md) al blocco dinamico per determinare quali clienti possono visualizzarlo. |
 

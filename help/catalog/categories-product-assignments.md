@@ -3,9 +3,25 @@ title: Assegnazioni prodotti categoria
 description: Informazioni sull'utilizzo delle impostazioni [!UICONTROL Products in Category] per controllare quali prodotti sono attualmente assegnati alla categoria.
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-source-git-commit: 5aea3aa13ab0eb74866fc0cbcbfe08b5099abe95
+TQID: https://experienceleague.adobe.com/jP75K4-JqaEJUbu733h6crHkX80w8idR9KHbVQF12ag
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: 791
 ht-degree: 0%
 
 ---
@@ -76,7 +92,7 @@ Per una categoria, utilizzare la sezione _[!UICONTROL Products in Category]_&#x2
 
 | Opzione | Descrizione |
 |--- |--- |
-| [!UICONTROL Attribute] | Determina l&#39;attributo utilizzato come base della condizione. Opzioni: <br/>**[!UICONTROL Clone Category ID(s)]**- Duplica in modo dinamico i prodotti, senza il relativo ordinamento e ordine, da più categorie in base all&#39;ID categoria.<br/>**[!UICONTROL Color]** - Include prodotti in base al colore. <br/>**[!UICONTROL Date Created (days ago)]**- Include i prodotti in base al numero di giorni dall&#39;aggiunta dei prodotti al catalogo.<br/>**[!UICONTROL Date Modified (days ago)]** - Include i prodotti in base al numero di giorni dall&#39;ultima modifica dei prodotti. <br/>**[!UICONTROL Name]**- Include prodotti basati sul nome del prodotto.<br/>**[!UICONTROL Price]** - Include i prodotti in base al prezzo. <br/>**[!UICONTROL Quantity]**- Include i prodotti in base alla quantità in magazzino.<br/>**&#x200B; SKU &#x200B;**- Include prodotti basati su SKU. |
+| [!UICONTROL Attribute] | Determina l&#39;attributo utilizzato come base della condizione. Opzioni: <br/>**[!UICONTROL Clone Category ID(s)]**- Clona dinamicamente i prodotti, senza ordinamento e ordine, da più categorie in base all&#39;ID categoria.<br/>**[!UICONTROL Color]** - Include i prodotti in base al colore. <br/>**[!UICONTROL Date Created (days ago)]**- Include i prodotti in base al numero di giorni dall&#39;aggiunta dei prodotti al catalogo.<br/>**[!UICONTROL Date Modified (days ago)]** - Include i prodotti in base al numero di giorni dall&#39;ultima modifica dei prodotti. <br/>**[!UICONTROL Name]**- Include prodotti basati sul nome del prodotto.<br/>**[!UICONTROL Price]** - Include i prodotti in base al prezzo. <br/>**[!UICONTROL Quantity]**- Include i prodotti in base alla quantità in magazzino.<br/>**&#x200B; SKU &#x200B;**- Include prodotti basati su SKU. |
 | [!UICONTROL Operator] | Specifica l&#39;operatore applicato al valore dell&#39;attributo per soddisfare la condizione. A meno che non sia specificato un operatore, viene utilizzato `Equal` come valore predefinito. Opzioni: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Specifica il valore che l&#39;attributo deve soddisfare la condizione. |
 | [!UICONTROL Logic] | Utilizzato per definire più condizioni e viene visualizzato solo quando viene aggiunta un’altra condizione. Opzioni: `OR` / `AND` |

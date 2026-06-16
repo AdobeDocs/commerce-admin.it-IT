@@ -3,9 +3,26 @@ title: 'Condividi un account  [!DNL Commerce] '
 description: Scopri come concedere un accesso limitato al tuo account [!DNL Commerce] per altri [!DNL Commerce] titolari di account.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 593bad9ca83e96a145beeceb0265e0080e5f7930
+TQID: https://experienceleague.adobe.com/A98obp-6T8JgE0yCm0TmxpRslEq2Cb-5m53rBfxzfhg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: 1078
 ht-degree: 0%
 
 ---
@@ -21,23 +38,23 @@ Solo il titolare dell’account principale con le autorizzazioni appropriate pu�
 
 ![Impostazioni di accesso condiviso](./assets/shared-access.png){width="600" zoomable="yes"}
 
-La sezione Cronologia fatturazione mostra solo le fatture precedenti create prima di una modifica al nostro sistema di fatturazione. If you don’t see any newer invoices listed, those invoices have been transitioned to the new system and are not accessible from this view.
+La sezione Cronologia fatturazione mostra solo le fatture precedenti create prima di una modifica al nostro sistema di fatturazione. Se nell&#39;elenco non sono presenti fatture più recenti, tali fatture sono state trasferite al nuovo sistema e non sono accessibili da questa visualizzazione.
 
 >[!IMPORTANT]
 >
->All actions taken by users with shared access are the sole responsibility of the primary account holder. Adobe is not responsible for any actions taken by users who have shared access to your account.
+>Tutte le azioni intraprese dagli utenti con accesso condiviso sono di esclusiva responsabilità del titolare del conto principale. Adobe non è responsabile per eventuali azioni intraprese dagli utenti che hanno accesso condiviso al tuo account.
 
-## Set up a shared account
+## Configurare un account condiviso
 
 1. Prima di iniziare, ottenere le seguenti informazioni dall&#39;account [!DNL Commerce] del **nuovo beneficiario dell&#39;accesso condiviso**:
 
    - L&#39;utente deve essersi già registrato per un account all&#39;indirizzo account.adobe.com e aver effettuato l&#39;accesso tramite account.magento.com. Per ulteriori dettagli, vedere [Creare un account Commerce](https://experienceleague.adobe.com/it/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account).
-   - The `MAGE ID/Account ID (MAG00XXXXXXX)` is displayed in the upper-left corner of the _[!UICONTROL Magento]_&#x200B;tab, just above the **Log Out**&#x200B;link.
-   - The `Email` address that is associated with the account.
+   - `MAGE ID/Account ID (MAG00XXXXXXX)` è visualizzato nell&#39;angolo superiore sinistro della scheda _[!UICONTROL Magento]_, appena sopra il collegamento **Disconnetti**.
+   - Indirizzo `Email` associato all&#39;account.
 
-1. Log in to your [[!DNL Commerce] account](commerce-account-create.md).
+1. Accedi al tuo [[!DNL Commerce] account](commerce-account-create.md).
 
-1. In the left navigation panel, click **[!UICONTROL Shared Access]**.
+1. Nel pannello di navigazione a sinistra, fare clic su **[!UICONTROL Shared Access]**.
 
 1. Fare clic su **[!UICONTROL Add New User]**.
 
@@ -59,19 +76,19 @@ La sezione Cronologia fatturazione mostra solo le fatture precedenti create prim
 
 1. In _[!UICONTROL Grant Account Permissions]_&#x200B;selezionare la casella di controllo di ogni prodotto e servizio [!DNL Commerce] che si desidera condividere.
 
-   ![Grant the account permissions](./assets/shared-permissions.png){width="600"}
+   ![Concedi le autorizzazioni dell&#39;account](./assets/shared-permissions.png){width="600"}
 
 1. Fare clic su **[!UICONTROL Create Shared Access]**.
 
-   The new user information appears in the _[!UICONTROL Manage Permissions]_&#x200B;section of the Shared Access page, and an email invitation with instructions to access the shared account is sent to the new user.
+   Le informazioni sul nuovo utente vengono visualizzate nella sezione _[!UICONTROL Manage Permissions]_&#x200B;della pagina Accesso condiviso e al nuovo utente viene inviato un invito e-mail con le istruzioni per l&#39;accesso all&#39;account condiviso.
 
-   ![Manage permissions for shared access](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+   ![Gestione delle autorizzazioni per l&#39;accesso condiviso](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
 >Non è necessario condividere l&#39;accesso a _[!UICONTROL Security Tool]_. Qualsiasi utente con un ID MAGE può impostare lo strumento Security Scan con il proprio account. Hanno solo bisogno dei privilegi necessari per apportare modifiche al sito e verificare la proprietà del dominio utilizzando uno dei [metodi richiesti](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security-scan)).
 
-## Access a shared account
+## Accedere a un account condiviso
 
 Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso che riceve un invito a un account condiviso.
 
@@ -94,30 +111,30 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 
 1. Per connettere l&#39;account condiviso all&#39;Help Center, fare clic su **[!UICONTROL Support]** nel pannello di navigazione a sinistra dell&#39;account condiviso.
 
-   ![Support](./assets/shared-support.png){width="600" zoomable="yes"}
+   ![Supporto](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   You can use the [Adobe Commerce Help Center](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/overview) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
+   È possibile utilizzare il [Centro assistenza Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/overview) dell&#39;account condiviso per cercare articoli e informazioni sulla risoluzione dei problemi, trovare patch per i problemi noti e creare ticket di supporto.
 
    >[!NOTE]
    >
-   >After receiving shared access, to [submit a Support case](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) on Experience League, make sure that you first select the Organization name that ends in &quot;([!DNL Commerce])&quot; in the left column.
+   >Dopo aver ricevuto l&#39;accesso condiviso, per [inviare un caso di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) su Experience League, assicurarsi di selezionare prima il nome dell&#39;organizzazione che termina in &quot;([!DNL Commerce])&quot; nella colonna sinistra.
 
-1. To return to your own account, click **Back** in your browser controls and set **[!UICONTROL Switch Accounts]** to `My Account`.
+1. Per tornare al tuo account, fai clic su **Indietro** nei controlli del browser e imposta **[!UICONTROL Switch Accounts]** su `My Account`.
 
-## Revoke shared access
+## Revoca dell&#39;accesso condiviso
 
 1. Accedi al tuo account Commerce.
 
-1. In the left navigation panel, click **[!UICONTROL Shared Access]**.
+1. Nel pannello di navigazione a sinistra, fare clic su **[!UICONTROL Shared Access]**.
 
-1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_&#x200B;and click **[!UICONTROL Delete]**.
+1. Trovare l&#39;account da revocare in _[!UICONTROL Managing Users & Permissions]_&#x200B;e fare clic su **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
-   > If  **[!UICONTROL Delete]** is not displayed, check whether the **[!UICONTROL Share Name]** contains the naming pattern  `Cloud Shared Access from MAG0XYZ`. If the account has that [naming pattern and cannot be deleted](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), this is because the Shared Access was created by an API, and not directly from the [Commerce account](https://account.magento.com/).
+   > Se **[!UICONTROL Delete]** non è visualizzato, verificare se **[!UICONTROL Share Name]** contiene il modello di denominazione `Cloud Shared Access from MAG0XYZ`. Se l&#39;account ha questo [modello di denominazione e non può essere eliminato](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), ciò si verifica perché l&#39;accesso condiviso è stato creato da un&#39;API e non direttamente dall&#39;[account Commerce](https://account.magento.com/).
    > 
-   > If it cannot be deleted, simply have the Account Owner modify the Shared Access account and under Grant Account Permissions, uncheck every item. After that update, the user will no longer be able to access any account resources.
-   > ![immagine](https://git.corp.adobe.com/AdobeDocs/commerce-admin.it-IT/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > Se non può essere eliminato, è sufficiente che il proprietario dell’account modifichi l’account di accesso condiviso e in Concedi autorizzazioni account deselezioni ogni elemento. Dopo tale aggiornamento, l’utente non sarà più in grado di accedere alle risorse dell’account.
+   > ![immagine](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > Inoltre, assicurati che gli utenti vengano rimossi dal progetto in modo che non ricevano più le notifiche e-mail: [Gli ex membri del team ricevono le e-mail di notifica cloud di Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
@@ -130,5 +147,5 @@ Le seguenti istruzioni sono scritte dal punto di vista di un utente condiviso ch
 
 ## Lettura correlata
 
-[Risoluzione dei problemi di accesso condiviso](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[Risoluzione dei problemi di Accesso condiviso](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 

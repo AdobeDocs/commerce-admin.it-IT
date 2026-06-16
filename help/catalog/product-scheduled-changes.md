@@ -3,9 +3,23 @@ title: Aggiornamenti pianificati dei prodotti
 description: Scopri come pianificare le modifiche agli elenchi dei prodotti per supportare campagne e programmi promozionali.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 2cdf3452f1648dc1ed607d6dfb5ade4be5ed5ce9
+TQID: https://experienceleague.adobe.com/eG4RXNCToWJxbPB6GQC9htRnh4z4ktPTb4FPrefJVtk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: 715
 ht-degree: 0%
 
 ---
@@ -116,6 +130,6 @@ La sezione _[!UICONTROL Schedule Design Update]_&#x200B;consente di apportare mo
 |--- |--- |
 | [!UICONTROL Schedule Update From/To] | Determina l’intervallo di date in cui viene applicato un layout personalizzato al prodotto. |
 | [!UICONTROL New Theme] | Applica un tema personalizzato al prodotto. |
-| [!UICONTROL New Layout] | Applica un layout diverso alla pagina di prodotto. Opzioni: <br/>**[!UICONTROL No layout updates]**- Per impostazione predefinita, gli aggiornamenti del layout non sono disponibili per la pagina prodotto.<br/>**[!UICONTROL Empty]** - Consente di definire un layout personalizzato, ad esempio una pagina a 4 colonne. (richiede una comprensione di XML). <br/>**[!UICONTROL 1 column]**- Applica un layout a una colonna alla pagina del prodotto.<br/>**[!UICONTROL 2 columns with left bar]** - Applica un layout a due colonne con barra laterale a sinistra alla pagina del prodotto. <br/>**[!UICONTROL 2 columns with right bar]**- Applica un layout a due colonne con barra laterale a destra alla pagina del prodotto.<br/>**[!UICONTROL 3 columns]** - Applica un layout a tre colonne alla pagina del prodotto. |
+| [!UICONTROL New Layout] | Applica un layout diverso alla pagina di prodotto. Opzioni: <br/>**[!UICONTROL No layout updates]**- Per impostazione predefinita, gli aggiornamenti del layout non sono disponibili per la pagina prodotto.<br/>**[!UICONTROL Empty]** - Consente di definire un layout personalizzato, ad esempio una pagina a 4 colonne. (Richiede la comprensione di XML) <br/>**[!UICONTROL 1 column]**- Applica un layout a una colonna alla pagina del prodotto.<br/>**[!UICONTROL 2 columns with left bar]** - Applica un layout a due colonne con barra laterale a sinistra alla pagina del prodotto. <br/>**[!UICONTROL 2 columns with right bar]**- Applica un layout a due colonne con barra laterale a destra alla pagina del prodotto.<br/>**[!UICONTROL 3 columns]** - Applica un layout a tre colonne alla pagina del prodotto. |
 
 {style="table-layout:auto"}

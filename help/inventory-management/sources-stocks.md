@@ -2,9 +2,24 @@
 title: Scorte e fonti
 description: Scopri le relazioni tra prodotti, origini e stock.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 809
 ht-degree: 0%
 
 ---
@@ -29,7 +44,7 @@ In questo esempio, il commerciante ha una mountain bike disponibile per la spedi
 
 [Le scorte](stocks-manage.md) rappresentano un inventario virtuale e aggregato dei prodotti disponibili per la vendita ai canali di vendita (siti Web). Ogni azione mappa i canali di vendita con le origini delle scorte disponibili e delle quantità vendibili. A seconda della configurazione del sito, le scorte possono essere assegnate a uno o più canali e fonti di vendita.
 
-I Sales Channel rappresentano le entità che vendono il proprio inventario, inclusi i siti web, le visualizzazioni dei negozi, i gruppi di clienti B2B e così via. I canali di vendita possono essere associati a un solo magazzino. A ciascun canale di vendita può essere assegnato un solo magazzino e un singolo magazzino può essere assegnato a più siti web. Attraverso le scorte, puoi modificare la priorità delle origini utilizzate per la spedizione degli ordini e dall&#39;[Algoritmo di selezione Source](selection-reservations.md).
+I canali di vendita rappresentano le entità che vendono il tuo inventario, inclusi i siti web, le visualizzazioni dei negozi, i gruppi di clienti B2B e così via. I canali di vendita possono essere associati a un solo magazzino. A ciascun canale di vendita può essere assegnato un solo magazzino e un singolo magazzino può essere assegnato a più siti web. Attraverso le scorte, puoi modificare la priorità delle origini utilizzate per la spedizione degli ordini e dall&#39;[Algoritmo di selezione Source](selection-reservations.md).
 
 Inizia con un Titolo predefinito assegnato con il Source predefinito e il tuo sito web, meglio utilizzato dai commercianti single-source. Solo il Source di default può essere assegnato a questo stock. Se necessario, i commercianti multi-sorgente creano scorte personalizzate per origini e siti web personalizzati.
 
@@ -65,4 +80,4 @@ Di seguito sono riportate alcune opzioni importanti da comprendere per [!DNL Inv
 
 Guarda questo video per scoprire le origini e le scorte di Inventory management:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410197?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3410197?captions=ita&quality=12&learn=on)

@@ -6,9 +6,25 @@ feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 4654bb24e0982c62d71bbc3f771f8a40ee1e83e3
+TQID: https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1904
 ht-degree: 1%
 
 ---
@@ -29,7 +45,7 @@ Questa sezione contiene informazioni sugli aggiornamenti dell&#39;estensione Aud
 
 Per informazioni sulle pianificazioni e sul supporto, consulta le [prossime versioni](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=it).
 
-Per informazioni sulla compatibilità dei prodotti, consulta la documentazione per gli sviluppatori[.](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=it)
+Per informazioni sulla compatibilità dei prodotti, consulta la documentazione per gli sviluppatori[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=it).
 
 ## Aggiornamenti dei servizi supportati
 
@@ -59,7 +75,7 @@ _24 marzo 2025_
 
 ![Nuovo](../assets/new.svg) - Aggiunto supporto PHP 8.4.
 
-### 2.3.1.
+### 2.3.1
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -67,7 +83,7 @@ _12 novembre 2024_
 
 ![Correzione](../assets/fix.svg) - È stato risolto un problema che si verificava quando si filtravano i tipi di pubblico di Real-Time CDP disponibili tra cui scegliere.
 
-### 2.3.0.
+### 2.3.0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -75,7 +91,7 @@ _29 luglio 2024_
 
 ![Nuovo](../assets/new.svg) - È stata aggiunta la sintassi della riga di comando in modo da poter [verificare le credenziali](#validate-the-connection) per determinare se devono essere aggiornate per estrarre i dati del pubblico da Adobe Experience Platform.
 
-### 2.2.0.
+### 2.2.0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -83,7 +99,7 @@ _12 giugno 2024_
 
 ![Nuovo](../assets/new.svg) - Versione GA per [regole prodotto correlate](../merchandising-promotions/product-related-rule-create.md) informata dal pubblico.
 
-### 2.1.1.
+### 2.1.1
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -100,7 +116,7 @@ _16 febbraio 2024_
 ![Nuovo](../assets/new.svg) - Se partecipi alla versione beta, assicurati che il tuo file `composer.json` abbia le seguenti caratteristiche a livello di radice: ` "minimum-stability": "beta"`.
 ![Nuovo](../assets/new.svg) - (**Beta**) Aggiunta la possibilità di creare [regole di prodotto correlate](../merchandising-promotions/product-related-rule-create.md) informate dai tipi di pubblico.
 
-### 2.1.0.
+### 2.1.0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -108,7 +124,7 @@ _24 gennaio 2024_
 
 ![Nuovo](../assets/new.svg) - È stato aggiornato il [dashboard Tipi di pubblico di Real-Time CDP](#real-time-cdp-audiences-dashboard) per includere i siti Web che contengono i tipi di pubblico e specificare quali blocchi dinamici e regole di prezzo del carrello sono configurati per utilizzare tali tipi di pubblico.
 
-### 2.0.1.
+### 2.0.1
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -116,7 +132,7 @@ _16 novembre 2023_
 
 ![Correzione](../assets/fix.svg) - Stabilità migliorata.
 
-### 2,0,0
+### 2.0.0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -125,7 +141,7 @@ _10 ottobre 2023_
 ![Nuovo](../assets/new.svg) - È stato aggiunto il supporto per OAuth 2.0 quando [configuri](#configure-the-extension) l&#39;estensione Audience Activation.
 ![Correzione](../assets/fix.svg) - Stabilità migliorata.
 
-### 1.2.0.
+### 1.2.0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -133,7 +149,7 @@ _15 agosto 2023_
 
 ![Correzione](../assets/fix.svg) - È stata aggiornata la versione dei componenti dell&#39;interfaccia utente.
 
-### 1.1.0.
+### 1.1.0
 
 _30 maggio 2023_
 
@@ -141,16 +157,16 @@ _30 maggio 2023_
 
 ![Nuovo](../assets/new.svg) - Aggiunta del supporto per [blocchi dinamici](#headless-support) in una vetrina headless.
 
-### 1.0.1.
+### 1.0.1
 
 _11 maggio 2023_
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
 ![Correzione](../assets/fix.svg) - È stato risolto un problema che impediva l&#39;applicazione di una regola di prezzo blocco dinamico o carrello alla vetrina.
-![Correzione](../assets/fix.svg) - È stato risolto un problema che causava un errore durante un&#39;installazione non configurata dell&#39;estensione Audience Activation quando un commerciante tentava di creare o aggiornare un blocco dinamico.
+![Correzione](../assets/fix.svg) - È stato risolto un problema che causava un errore in seguito a un&#39;installazione non configurata dell&#39;estensione Audience Activation quando un commerciante tentava di creare o aggiornare un blocco dinamico.
 
-### 1,0,0
+### 1.0.0
 
 _31 marzo 2023_
 

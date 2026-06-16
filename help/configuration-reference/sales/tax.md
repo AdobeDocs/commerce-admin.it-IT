@@ -1,11 +1,26 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
-description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Sales] &gt; [!UICONTROL Tax] dell'amministratore di Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Tax]'
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Sales] > [!UICONTROL Tax] dell'amministratore di Commerce.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: f95e6d22f83b518c64b254f0d98147e3c6ebaf42
+TQID: https://experienceleague.adobe.com/HbW4SJ4D2ktIp2wPFx5Bd1flvKdU6fqayMqjwzWorXE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: 1231
 ht-degree: 0%
 
 ---
@@ -14,9 +29,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includono l&#39;estensione sviluppata dal fornitore Vertex utilizzata per l&#39;integrazione con [!UICONTROL Vertex Cloud]. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata dalla versione Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
-><br><br>
->Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento ed estensioni](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=it) nella _Guida all&#39;aggiornamento_.
+>Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includono l&#39;estensione sviluppata dal fornitore Vertex utilizzata per l&#39;integrazione con [!UICONTROL Vertex Cloud]. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata da Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
+><br><br>>Se hai abilitato e configurato l&#39;estensione nel pacchetto, devi aggiornare il file compositore.json come parte del processo di aggiornamento di 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento ed estensioni](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=it) nella _Guida all&#39;aggiornamento_.
 
 {{config}}
 
@@ -48,7 +62,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Classi
 | [!UICONTROL Apply Customer Tax] | Sito Web | Determina se l&#39;imposta viene applicata prima o dopo uno sconto. Opzioni: `Before Discount` / `After Discount` |
 | [!UICONTROL Apply Discount on Prices] | Sito Web | Determina se i prezzi scontati includono o escludono le imposte. Opzioni: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Tax On] | Sito Web | Determina se l&#39;imposta viene applicata al prezzo originale o a un prezzo personalizzato, se disponibile. Opzioni: `Custom price if available` / `Original price only` |
-| [!UICONTROL Enable Cross Border Trade] | Sito Web | Quando questa opzione è abilitata, applica prezzi coerenti oltre i confini delle aree con aliquote diverse. Opzioni: `Yes` / `No` <br/><br/>**_Nota:_**&#x200B;L&#39;utilizzo del commercio transfrontaliero consente di adeguare il margine di profitto in base all&#39;aliquota fiscale. |
+| [!UICONTROL Enable Cross Border Trade] | Sito Web | Quando questa opzione è abilitata, applica prezzi coerenti oltre i confini delle aree con aliquote diverse. Opzioni: `Yes` / `No` <br/><br/>**_Note:_** L&#39;utilizzo del commercio transfrontaliero consente di adeguare il margine di profitto in base all&#39;aliquota fiscale. |
 
 {style="table-layout:auto"}
 
@@ -72,7 +86,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Config
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Display Product Prices in Catalog] | Visualizzazione store | Determina se i prezzi dei prodotti pubblicati nel catalogo includono o escludono le imposte o visualizzano due versioni del prezzo, una con e l&#39;altra senza imposte. Opzioni: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Nota:_**&#x200B;Se si imposta il campo Visualizza prezzi prodotto su `Including Tax`, l&#39;imposta viene visualizzata solo se esiste una regola fiscale che corrisponde all&#39;origine dell&#39;imposta o se esiste un indirizzo cliente che corrisponde alla regola fiscale. Gli eventi che possono attivare una corrispondenza includono la creazione di un account cliente, l’accesso o l’utilizzo dello strumento di stima delle imposte e della spedizione nel carrello. |
+| [!UICONTROL Display Product Prices in Catalog] | Visualizzazione store | Determina se i prezzi dei prodotti pubblicati nel catalogo includono o escludono le imposte o visualizzano due versioni del prezzo, una con e l&#39;altra senza imposte. Opzioni: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Nota:_** Se si imposta il campo Visualizza prezzi prodotto su `Including Tax`, l&#39;imposta viene visualizzata solo se esiste una regola fiscale che corrisponde all&#39;origine dell&#39;imposta o se esiste un indirizzo cliente che corrisponde alla regola fiscale. Gli eventi che possono attivare una corrispondenza includono la creazione di un account cliente, l’accesso o l’utilizzo dello strumento di stima delle imposte e della spedizione nel carrello. |
 | [!UICONTROL Display Shipping Prices] | Visualizzazione store | Determina se i prezzi di spedizione includono o escludono l&#39;imposta oppure se visualizzano due versioni del prezzo di spedizione, una con e l&#39;altra senza imposta. Opzioni: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}

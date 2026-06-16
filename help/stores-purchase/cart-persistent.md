@@ -3,9 +3,22 @@ title: Persistenza carrello
 description: Scopri in che modo un carrello permanente tiene traccia degli articoli del carrello non acquistati e salva le informazioni per la visita successiva del cliente.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/CZFFzI8KEfpQQAEHB46wW6Bk4BK-4zbdkvZ9h9nROr0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: 1050
 ht-degree: 0%
 
 ---
@@ -28,7 +41,7 @@ Per gestire l&#39;utilizzo della persistenza del carrello per il sito o all&#39;
 
 Quando il carrello acquisti permanente è [abilitato](#configure-a-persistent-cart), il flusso di lavoro dipende da:
 
-- I valori delle impostazioni _[!UICONTROL Enable Remember Me]_&#x200B;e&#x200B;_[!UICONTROL Clear Persistence on Log Out]_
+- I valori delle impostazioni _[!UICONTROL Enable Remember Me]_&#x200B;e_[!UICONTROL Clear Persistence on Log Out]_
 - La decisione del cliente di selezionare o deselezionare la casella di controllo _[!UICONTROL Remember Me]_
 - Quando il cookie persistente viene cancellato
 
@@ -58,8 +71,8 @@ I clienti possono selezionare la casella di controllo _[!UICONTROL Remember Me]_
 {style="table-layout:auto"}
 
 ![Ricordami l&#39;accesso del cliente](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
-![Popup Memorizza autenticazione](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
-![Ricordami: estrai accessi](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
+![Popup Ricorda autenticazione](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![Ricorda di aver estratto gli accessi](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### Comportamento Cancella persistenza alla disconnessione
 

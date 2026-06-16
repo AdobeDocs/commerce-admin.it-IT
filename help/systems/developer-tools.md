@@ -4,16 +4,34 @@ description: Scopri gli strumenti per sviluppatori avanzati disponibili per supp
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1709
 ht-degree: 0%
 
 ---
 
 # Strumenti per sviluppatori
 
-Utilizza gli strumenti per sviluppatori avanzati per determinare la modalità di compilazione durante lo sviluppo front-end, creare un inserisco nell&#39;elenco Consentiti di indirizzi IP e visualizzare gli hint per i percorsi dei modelli. Sono inoltre disponibili strumenti per apportare facilmente modifiche al testo nell’interfaccia della vetrina e dell’amministratore.
+Utilizza gli strumenti avanzati per gli sviluppatori per determinare la modalità di compilazione durante lo sviluppo front-end, creare un inserisco nell&#39;elenco Consentiti di indirizzi IP di tipo e visualizzare gli hint di percorso dei modelli. Sono inoltre disponibili strumenti per apportare facilmente modifiche al testo nell’interfaccia della vetrina e dell’amministratore.
 
 - [Registri azioni](action-log.md) ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
 - [Flusso di lavoro di sviluppo front-end](#frontend-development-workflow)
@@ -105,7 +123,7 @@ Per ulteriori informazioni, consulta [Best practice per le prestazioni](https://
 
 {style="table-layout:auto"}
 
-**_Per ottimizzare i file di risorse:_**
+**_Ottimizzare i file di risorse:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -118,7 +136,7 @@ Per ulteriori informazioni, consulta [Best practice per le prestazioni](https://
 
    ![Configurazione avanzata - Impostazioni CSS](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
-[Impostazioni _CSS_](../configuration-reference/advanced/developer.md)
+   [_Impostazioni CSS_](../configuration-reference/advanced/developer.md)
 
 1. Per ottimizzare i file JavaScript, espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL JavaScript Settings]** ed effettuare le seguenti operazioni:
 
@@ -135,7 +153,7 @@ Per ulteriori informazioni, consulta [Best practice per le prestazioni](https://
 
 ## Limitazioni per i client
 
-Prima di utilizzare uno strumento come [suggerimenti percorso modello](#template-path-hints), assicurati di aggiungere il tuo indirizzo IP al inserisco nell&#39;elenco Consentiti Developer Client Restrictions (Limitazioni client sviluppatore) per evitare di interrompere l&#39;esperienza di acquisto dei clienti nel negozio. Se non conosci il tuo indirizzo IP, puoi cercarlo online.
+Prima di utilizzare uno strumento come [template path hints](#template-path-hints), assicurati di aggiungere il tuo indirizzo IP al inserisce nell&#39;elenco Consentiti Developer Client Restrictions per evitare di interrompere l&#39;esperienza di acquisto dei clienti nel negozio. Se non conosci il tuo indirizzo IP, puoi cercarlo online.
 
 >[!NOTE]
 >
@@ -175,7 +193,7 @@ Consulta [Individuare modelli, layout e stili](https://developer.adobe.com/comme
 
 ### Passaggio 1: aggiungi l’indirizzo IP al inserisco nell&#39;elenco Consentiti di
 
-Prima di utilizzare i suggerimenti del percorso del modello, aggiungi il tuo indirizzo IP al [inserisco nell&#39;elenco Consentiti di](#client-restrictions) per evitare interferenze con i clienti che fanno acquisti nel negozio. Al termine, assicurati di cancellare la cache di Commerce per rimuovere tutti gli hint dall’archivio.
+Prima di utilizzare i suggerimenti del percorso del modello, aggiungi l&#39;indirizzo IP al inserisco nell&#39;elenco Consentiti [&#128279;](#client-restrictions) per evitare interferenze con i clienti che fanno acquisti nel negozio. Al termine, assicurati di cancellare la cache di Commerce per rimuovere tutti gli hint dall’archivio.
 
 ![Configurazione avanzata - restrizioni client sviluppatore](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 

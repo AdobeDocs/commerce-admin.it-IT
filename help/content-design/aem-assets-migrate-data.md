@@ -2,9 +2,25 @@
 title: Migrazione di file multimediali ad AEM
 description: Migra i file multimediali da Adobe Commerce o da un’origine esterna a AEM Assets DAM.
 feature: CMS, Media, Integration
-source-git-commit: 094c585b335e5751a1387989d5ba33332c351c57
+exl-id: fead5732-b014-4cd3-a776-98a055a696ab
+TQID: https://experienceleague.adobe.com/2eqYvVrxPO-yFYKtRPUExzxPPxXUy1v9KhR4LYjIBZY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: 892
 ht-degree: 0%
 
 ---
@@ -56,10 +72,10 @@ Per ogni file multimediale di cui si prevede la migrazione, fornire i valori per
 | assetPath | Percorso completo in cui la risorsa verrà memorizzata nell’archivio AEM Assets.<br><br>Utilizzare il percorso per creare sottocartelle per organizzare le risorse di Commerce, ad esempio `content/dam/commerce/<brand>/<type>`. | `/content/dam/commerce/<sub-folder>/..<filename>` |
 | dc:title | Titolo visualizzato della risorsa in AEM Assets | Valore stringa (ad esempio, `Sample 1`) |
 | dam:status | Stato di approvazione della risorsa in AEM Assets | `approved` |
-| commerce:posizioni | Posizione/ordine della risorsa nelle gallerie di prodotti | Valore numerico (ad esempio, &quot;1&quot;) |
+| commerce:positions | Posizione/ordine della risorsa nelle gallerie di prodotti | Valore numerico (ad esempio, &quot;1&quot;) |
 | commerce:isCommerce | Flag che indica se la risorsa è utilizzata in Commerce | `Yes` |
 | commerce:skus | SKU di prodotto associati a questa risorsa | Valore stringa (ad esempio, `sample1`) |
-| commerce:ruoli | I ruoli o i tipi di immagini per la risorsa (ad esempio, `thumbnail`, `main image`, `swatch`) | Più valori separati da punto e virgola (ad esempio, &quot;miniatura; immagine; swatch_image; small_image&quot;) |
+| commerce:roles | I ruoli o i tipi di immagini per la risorsa (ad esempio, `thumbnail`, `main image`, `swatch`) | Più valori separati da punto e virgola (ad esempio, &quot;miniatura; immagine; swatch_image; small_image&quot;) |
 
 +++Codice CSV
 
@@ -105,7 +121,6 @@ Di seguito è riportata una panoramica generale sull&#39;utilizzo dello strument
 
 >[!MORELIKETHIS]
 >
->[Demo video strumento di importazione in blocco](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
+>[Demo video strumento di importazione in blocco](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
 >[Suggerimenti, best practice e limitazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
 >[Carica o acquisisci risorse tramite API](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
-

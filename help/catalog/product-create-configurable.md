@@ -3,9 +3,26 @@ title: Prodotto configurabile
 description: Scopri come creare un prodotto configurabile che fornisca agli acquirenti varianti per la selezione.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 6fcbcd3b7cace10f0841a46b3cd27343862b3f3b
+TQID: https://experienceleague.adobe.com/-T3-DNO39JLnWyhjbXzzSbA0NJ3QeGtnQgyjJBOQn-I
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: 1994
 ht-degree: 0%
 
 ---
@@ -14,7 +31,7 @@ ht-degree: 0%
 
 Un prodotto configurabile viene visualizzato come un singolo prodotto con opzioni a discesa per le varianti (come colore o dimensione). Ogni variante è un prodotto semplice separato con la propria SKU, che consente il tracciamento delle singole scorte, a differenza dei prodotti semplici con opzioni personalizzate.
 
-**Ideale per:** prodotti con più opzioni (colore, dimensioni, materiale, ecc.) in cui è necessario tenere traccia dell&#39;inventario per ogni variante. La configurazione iniziale richiede più tempo, ma offre una migliore scalabilità.
+**Ideale per:** prodotti con più opzioni (colore, dimensione, materiale, ecc.) dove è necessario tenere traccia dell’inventario per ogni variante. La configurazione iniziale richiede più tempo, ma offre una migliore scalabilità.
 
 ![Prodotto configurabile](./assets/product-configurable.png){width="700" zoomable="yes"}
 
@@ -48,7 +65,7 @@ Per istruzioni sulla creazione degli attributi, vedere [Attributi del prodotto](
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Configurable Product]**) nell&#39;angolo superiore destro.
+1. Scegliere **[!UICONTROL Configurable Product]** dal menu _[!UICONTROL Add Product]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto configurabile](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -346,7 +363,7 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 
    **Metodo 2: Salva e chiudi**
 
-   Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
+   Scegliere **[!UICONTROL Save & Close]** dal menu _[!UICONTROL Save]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Configurare lo stato delle scorte
 

@@ -3,9 +3,24 @@ title: Linee guida fiscali per paese
 description: Rivedi le impostazioni fiscali consigliate in base al paese.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+TQID: https://experienceleague.adobe.com/hs8-0P0zSc-du-ubuYHiw7Yg9ps7SMPudBxcJgh-VCc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: 1337
 ht-degree: 0%
 
 ---
@@ -132,7 +147,7 @@ Queste impostazioni consigliate possono essere utilizzate per la maggior parte d
 | Calcolo delle imposte | Su elemento |
 | Spedizione fiscale? | Sì |
 | Applica sconto | Al lordo delle imposte, sconto sui prezzi, incluse le imposte. |
-| Commento | Affinché gli esercenti B2B forniscano considerazioni più semplici sulla catena di approvvigionamento dell’IVA. Il calcolo dell&#39;imposta sulla riga è valido; tuttavia, verificare con la propria giurisdizione fiscale. L&#39;impostazione presuppone che un commerciante si trovi nella catena di fornitura e che le merci vendute siano utilizzate da altri fornitori per sconti IVA e così via. Questa definizione consente di individuare facilmente le imposte per articolo per generare più rapidamente gli sconti. <br/><br/>**_Nota:_**&#x200B;alcune giurisdizioni richiedono strategie di arrotondamento diverse non supportate da Commerce e non tutte le giurisdizioni consentono l&#39;imposta a livello di articolo o di riga. |
+| Commento | Affinché gli esercenti B2B forniscano considerazioni più semplici in materia di IVA per il supply chain. Il calcolo dell&#39;imposta sulla riga è valido; tuttavia, verificare con la propria giurisdizione fiscale. Il programma di installazione presuppone che un commerciante si trovi nel supply chain e che le merci vendute siano utilizzate da altri fornitori per sconti IVA e così via. Questa definizione consente di individuare facilmente le imposte per articolo per generare più rapidamente gli sconti. <br/><br/>**_Note:_** Alcune giurisdizioni richiedono strategie di arrotondamento diverse non attualmente supportate da Commerce e non tutte consentono l&#39;imposta a livello di articolo o di riga. |
 
 {style="table-layout:auto"}
 

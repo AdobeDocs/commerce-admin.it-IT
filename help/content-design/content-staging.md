@@ -4,9 +4,21 @@ description: La gestione temporanea dei contenuti offre al team aziendale la pos
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -80,12 +92,12 @@ Il [!UICONTROL Content Staging] [dashboard](content-staging-dashboard.md) fornis
 
 Per informazioni sulla gestione temporanea dei contenuti, guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410855?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3410855?captions=ita&quality=12&learn=on)
 
 ## Risorse per la risoluzione dei problemi
 
 Per informazioni sulla risoluzione dei problemi relativi alla gestione temporanea dei contenuti, vedere i seguenti articoli della Knowledge Base di supporto di [!DNL Commerce]:
 
-- [Errore 404 in tutte le pagine a causa di un problema di gestione temporanea del contenuto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=it)
+- [Errore 404 su tutte le pagine a causa di un problema di staging del contenuto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=it)
 - [Gli aggiornamenti pianificati per la gestione temporanea dei contenuti non vengono visualizzati con la cache Fastly non aggiornata](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=it)
 - [Posso pianificare gli aggiornamenti di Gestione temporanea dei contenuti per i prezzi in un catalogo condiviso?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=it)

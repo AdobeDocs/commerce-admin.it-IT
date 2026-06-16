@@ -1,11 +1,28 @@
 ---
 title: Processo di pagamento e opzioni
-description: Scopri in che modo Adobe Commerce e il processo di pagamento del Magento Open Source raccolgono le informazioni necessarie per completare la transazione e la pagina Pagamento guida il cliente attraverso ogni fase del processo.
+description: Scopri in che modo il processo di pagamento di Adobe Commerce e Magento Open Source raccoglie le informazioni necessarie per completare la transazione e la pagina Pagamento guida il cliente attraverso ogni fase del processo.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/pBCZkoYfSX-cqBu-wsS8eFynW3NUfT56MOWwuxpCGrc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---

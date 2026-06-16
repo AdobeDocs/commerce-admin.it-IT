@@ -3,9 +3,24 @@ title: Branding vetrina
 description: Scopri come modificare gli elementi che definiscono l’identità del brand del tuo negozio.
 exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+TQID: https://experienceleague.adobe.com/2IjLVK33ITjn-eFJ0VpmDmlp8SNy-vZ0365An0lm1cA
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: 1313
 ht-degree: 0%
 
 ---
@@ -18,7 +33,7 @@ Una delle prime cose da fare è [cambiare il logo](#upload-your-logo) nell&#39;i
 
 ## Carica il logo
 
-Le dimensioni e la posizione del logo nell&#39;intestazione sono determinate dal tema del negozio. Il logo può essere salvato come file GIF, PNG o JPG JPEG e caricato dall&#39;amministratore del negozio.
+Le dimensioni e la posizione del logo nell&#39;intestazione sono determinate dal tema del negozio. Il logo può essere salvato come file GIF, PNG o JPG (JPEG) e caricato dall&#39;amministratore del negozio.
 
 ![Logo nell&#39;intestazione](./assets/storefront-header-logo.png){width="600"}
 
@@ -32,7 +47,7 @@ Se non conosci le dimensioni del logo o di altre immagini utilizzate nel tema, a
 
 >[!NOTE]
 >
->Oltre al logo nell&#39;intestazione, il logo verrà visualizzato anche nei [modelli di posta elettronica](../systems/email-templates.md#prepare-your-email-logo) e nelle [fatture PDF](../stores-purchase/sales-documents.md) e in altri documenti di vendita. I logo utilizzati per i modelli e le fatture e-mail hanno requisiti di dimensione diversi e devono essere caricati separatamente.
+>Oltre al logo nell&#39;intestazione, il logo verrà visualizzato anche nei [modelli e-mail](../systems/email-templates.md#prepare-your-email-logo) e nelle [fatture PDF](../stores-purchase/sales-documents.md) e in altri documenti di vendita. I logo utilizzati per i modelli e le fatture e-mail hanno requisiti di dimensione diversi e devono essere caricati separatamente.
 
 Formati di file logo supportati:
 
@@ -40,7 +55,7 @@ Formati di file logo supportati:
 |--- |--- |
 | PNG | (Portable Network Graphics) Questa nuova alternativa al formato GIF supporta fino a 16 milioni di colori (24 bit). Il formato di compressione senza perdita di dati produce un&#39;immagine bitmap di alta qualità con testo nitido, ma con dimensioni di file maggiori rispetto ad alcuni formati. Il formato PNG supporta livelli trasparenti ed è progettato per la visualizzazione e lo streaming online. |
 | GIF | (Graphics Interchange Format) Formato bitmap ampiamente supportato e meno recente, limitato a 256 colori (8 bit). Il formato GIF supporta l&#39;animazione semplice e i livelli trasparenti. |
-| JPG-JPEG | (Joint Photographic Expert Group) Formato bitmap compresso utilizzato dalla maggior parte delle fotocamere digitali. La compressione con perdita di dati causa una perdita di dati, che a volte può essere rilevata come punti sfocati nel testo. |
+| JPG (JPEG) | (Joint Photographic Expert Group) Formato bitmap compresso utilizzato dalla maggior parte delle fotocamere digitali. La compressione con perdita di dati causa una perdita di dati, che a volte può essere rilevata come punti sfocati nel testo. |
 
 {style="table-layout:auto"}
 
@@ -66,7 +81,7 @@ Formati di file logo supportati:
 
 _Favicon_ è l&#39;abbreviazione di _icona preferita_ e fa riferimento all&#39;icona piccola nella scheda di ogni pagina del browser. A seconda del browser, il favicon viene visualizzato anche nella barra degli indirizzi, immediatamente prima dell’URL.
 
-Un favicon è generalmente di dimensioni pari a 16 x 16 pixel o 32 x 32 pixel. [!DNL Commerce] accetta i tipi di file ICO, PNG, APNG, GIF e JPG JPEG, anche se non tutti i browser supportano questi formati. Il formato di file più ampiamente supportato da utilizzare per un favicon è ICO. È possibile utilizzare altri tipi di file immagine, ma il formato potrebbe non essere supportato da tutti i browser. Ci sono molti strumenti gratuiti disponibili online che è possibile utilizzare per generare un&#39;immagine ICO o convertire un&#39;immagine in quel formato.
+Un favicon è generalmente di dimensioni pari a 16 x 16 pixel o 32 x 32 pixel. [!DNL Commerce] accetta i tipi di file ICO, PNG, APNG, GIF e JPG (JPEG), anche se non tutti i browser supportano questi formati. Il formato di file più ampiamente supportato da utilizzare per un favicon è ICO. È possibile utilizzare altri tipi di file immagine, ma il formato potrebbe non essere supportato da tutti i browser. Ci sono molti strumenti gratuiti disponibili online che è possibile utilizzare per generare un&#39;immagine ICO o convertire un&#39;immagine in quel formato.
 
 ![Favicon nella scheda del browser](./assets/storefront-favicon.png){width="600"}
 
@@ -78,7 +93,7 @@ Un favicon è generalmente di dimensioni pari a 16 x 16 pixel o 32 x 32 pixel. [
 | PNG | (Portable Network Graphics) Questa nuova alternativa al formato GIF supporta fino a 16 milioni di colori (24 bit). Il formato di compressione senza perdita di dati produce un&#39;immagine bitmap di alta qualità con testo nitido, ma con dimensioni di file maggiori rispetto ad alcuni formati. Il formato PNG supporta livelli trasparenti ed è progettato per la visualizzazione e lo streaming online. |
 | APNG | (Animated Portable Network Graphics) Formato di file simile a PNG che supporta l&#39;animazione semplice. |
 | GIF | (Graphics Interchange Format) Formato bitmap ampiamente supportato e meno recente, limitato a 256 colori (8 bit). Il formato GIF supporta l&#39;animazione semplice e i livelli trasparenti. |
-| JPG-JPEG | (Joint Photographic Expert Group) Formato bitmap compresso utilizzato dalla maggior parte delle fotocamere digitali. La compressione con perdita di dati causa una perdita di dati, che a volte può essere rilevata come punti sfocati nel testo. |
+| JPG (JPEG) | (Joint Photographic Expert Group) Formato bitmap compresso utilizzato dalla maggior parte delle fotocamere digitali. La compressione con perdita di dati causa una perdita di dati, che a volte può essere rilevata come punti sfocati nel testo. |
 
 {style="table-layout:auto"}
 

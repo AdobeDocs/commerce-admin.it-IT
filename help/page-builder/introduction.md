@@ -2,9 +2,19 @@
 title: Introduzione a  [!DNL Page Builder]
 description: Scopri gli  [!DNL Page Builder]  strumenti per facilitare la creazione di contenuti in Adobe Commerce e Magento Open Source.
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/9TbyhDXBbSOfTp4umY9jDqMPo5-6RRFC1F7nywAzATo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: 249
 ht-degree: 0%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 0%
 - Ampia gamma di tipi di contenuto
 - Tipi di input di attributi di prodotto personalizzati
 
-Gli strumenti di contenuto avanzato [!DNL Page Builder] sono stati introdotti nella versione 2.3.1 di Adobe Commerce. A partire dalla versione 2.4.3, la funzionalità di base di [!DNL Page Builder] è disponibile anche in Magento Open Source. Tuttavia, [!DNL Page Builder] in Adobe Commerce dispone di funzionalità avanzate per utilizzare il resto degli strumenti _Gestione esperienza_. Questi strumenti consentono ai commercianti di fornire esperienze e campagne coinvolgenti e personalizzate: staging e anteprima, contenuti personalizzati, Product Recommendations e future funzionalità aggiuntive.
+Gli strumenti di contenuto avanzato [!DNL Page Builder] sono stati introdotti nella versione 2.3.1 di Adobe Commerce. A partire dalla versione 2.4.3, la funzionalità di base di [!DNL Page Builder] è disponibile anche in Magento Open Source. Tuttavia, [!DNL Page Builder] in Adobe Commerce dispone di funzionalità avanzate per utilizzare il resto degli strumenti _Gestione esperienza_. Questi strumenti consentono ai commercianti di fornire esperienze e campagne coinvolgenti e personalizzate: staging e anteprima, contenuti personalizzati, consigli di prodotto, con funzionalità aggiuntive a venire.
 
 ## Scopri [!DNL Page Builder]
 
@@ -38,4 +48,4 @@ Che tu sia un nuovo utente di [!DNL Commerce] o un utente esperto, completa i se
 
 Guarda questo video per scoprire le funzionalità di Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/3447902?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3447902?captions=ita&quality=12&learn=on)

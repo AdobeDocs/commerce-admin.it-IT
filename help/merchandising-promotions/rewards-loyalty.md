@@ -3,9 +3,26 @@ title: Programmi di fidelizzazione e ricompensa
 description: Scopri il sistema di punti premio che puoi utilizzare per stimolare il coinvolgimento dei clienti e promuovere la loro fedeltà.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
+TQID: https://experienceleague.adobe.com/JESAxbyi9FqEIfr053Mz9Z7PcHt7tmdSwdDlxmhiVQQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: 1402
 ht-degree: 0%
 
 ---
@@ -180,7 +197,7 @@ Tutte le azioni relative ai punti premio vengono visualizzate nel blocco _[!UICO
 | [!UICONTROL Amount] | Somma di denaro aggiunto o sottratto |
 | [!UICONTROL Rate] | Il [tasso di cambio premio](reward-exchange-rates.md) |
 | [!UICONTROL Website] | Sito Web a cui è assegnata la cronologia dei punti premio |
-| [!UICONTROL Reason] | Motivi per l&#39;assegnazione dei punti:<br>**[!UICONTROL Making purchases]**— Ogni volta che il cliente effettua un acquisto, può guadagnare punti.<br>**[!UICONTROL Registering on the site]** - Accantonato al momento della registrazione (una volta).<br>**[!UICONTROL Subscribing to a newsletter]**- Accantonata per la prima sottoscrizione (una volta).<br>**[!UICONTROL Sending Invitations]** - Guadagna punti invitando i propri amici a partecipare al sito.<br>**[!UICONTROL Converting Invitations to Customer]**— Guadagna punti per ogni invito inviato, amici principali che si registrano sul sito.<br>**[!UICONTROL Converting Invitations to Order]** — Guadagna punti per ogni vendita derivante da un invito inviato.<br>**[!UICONTROL Review Submission]**— Guadagna punti per l&#39;invio di recensioni di prodotti. |
+| [!UICONTROL Reason] | Motivi per l&#39;assegnazione dei punti:<br>**[!UICONTROL Making purchases]**— Ogni volta che il cliente effettua un acquisto, può guadagnare punti.<br>**[!UICONTROL Registering on the site]** - Accumulato al momento della registrazione (una volta).<br>**[!UICONTROL Subscribing to a newsletter]**- Accantonamento per la prima sottoscrizione (una volta).<br>**[!UICONTROL Sending Invitations]** — Guadagna punti invitando i propri amici a partecipare al sito.<br>**[!UICONTROL Converting Invitations to Customer]**— Guadagna punti per ogni invito inviato, amici principali che si registrano sul sito.<br>**[!UICONTROL Converting Invitations to Order]** — Guadagna punti per ogni vendita in seguito a un invito inviato.<br>**[!UICONTROL Review Submission]**— Guadagna punti per l&#39;invio di recensioni di prodotti. |
 | [!UICONTROL Created] | Data e ora dell&#39;aggiornamento dei punti premio |
 | [!UICONTROL Expired] | Numero di punti premio scaduti |
 | [!UICONTROL Comment] | Commenti durante l&#39;aggiunta o la sottrazione di punti |

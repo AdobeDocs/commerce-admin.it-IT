@@ -3,9 +3,25 @@ title: Importazione ed esportazione pianificate
 description: Scopri come gestire le operazioni pianificate di importazione ed esportazione dei dati.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: 2462
 ht-degree: 0%
 
 ---
@@ -159,7 +175,7 @@ Dopo ogni processo di importazione pianificato, viene eseguita automaticamente u
 | [!UICONTROL Name] | Nome dell’importazione. Consente di distinguere se vengono create molte importazioni pianificate diverse. |
 | [!UICONTROL Description] | (Facoltativo) È possibile immettere una descrizione. |
 | [!UICONTROL Entity Type] | Definisce i dati da importare. |
-| [!UICONTROL Import Behavior] | Definisce la complessità dei dati gestiti se le entità importate esistono nel database. I dati complessi per i prodotti includono categorie, siti web, opzioni personalizzate, prezzi di livello, prodotti correlati, up-sell, cross-selling e dati sui prodotti associati. I dati complessi per i clienti includono gli indirizzi. Opzioni:<br>**[!UICONTROL Add/Update Complex Data]**- I nuovi dati complessi vengono aggiunti o aggiornati ai dati complessi esistenti per le voci esistenti nel database. Questo è il valore predefinito.<br>**[!UICONTROL Add/Update]** - Nuovi dati aggiunti alle voci esistenti nel database. Tutti i campi eccetto `sku` possono essere aggiornati per i prodotti. Eventuali valori di campo multipli non elencati nel file CSV, ad esempio categorie o siti Web, rimangono nel database dopo l’importazione.<br>**[!UICONTROL Replace]**- I dati complessi esistenti per le entità esistenti vengono sostituiti.<br>**[!UICONTROL Delete Entities]** - Se le entità importate esistono nel database, vengono eliminate dal database.<br>**[!UICONTROL Custom Action]**- Le entità complesse esistenti vengono personalizzate durante il processo di importazione. |
+| [!UICONTROL Import Behavior] | Definisce la complessità dei dati gestiti se le entità importate esistono nel database. I dati complessi per i prodotti includono categorie, siti web, opzioni personalizzate, prezzi di livello, prodotti correlati, up-sell, cross-selling e dati sui prodotti associati. I dati complessi per i clienti includono gli indirizzi. Opzioni:<br>**[!UICONTROL Add/Update Complex Data]**- I nuovi dati complessi vengono aggiunti o aggiornati ai dati complessi esistenti per le voci esistenti nel database. Questo è il valore predefinito.<br>**[!UICONTROL Add/Update]** - Vengono aggiunti nuovi dati alle voci esistenti nel database. Tutti i campi eccetto `sku` possono essere aggiornati per i prodotti. Eventuali valori di campo multipli non elencati nel file CSV, ad esempio categorie o siti Web, rimangono nel database dopo l&#39;importazione.<br>**[!UICONTROL Replace]**- I dati complessi esistenti per le entità esistenti vengono sostituiti.<br>**[!UICONTROL Delete Entities]** - Se nel database sono presenti entità importate, queste verranno eliminate dal database.<br>**[!UICONTROL Custom Action]**- Le entità complesse esistenti vengono personalizzate durante il processo di importazione. |
 | [!UICONTROL Start Time] | Imposta l’ora di inizio, i minuti e i secondi dell’importazione. |
 | [!UICONTROL Frequency] | Definisci la frequenza di esecuzione dell’importazione. Opzioni: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL On Error] | Definire il comportamento del sistema in caso di errori durante la convalida del file. Opzioni:<br>**Interrompi importazione** — Il file non viene importato se vengono rilevati errori durante la convalida. Questo è il valore predefinito.<br>**Continua elaborazione** - Se durante la convalida vengono rilevati errori, ma è possibile eseguire l&#39;importazione, il file viene importato. |
@@ -318,7 +334,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
 
 | Campo | Descrizione |
 | ----- | ----------- |
-| [!UICONTROL Server Type] | Determina la posizione del file di esportazione. Opzioni:<br>**Server locale** - Posiziona il file di esportazione nello stesso server in cui è distribuito Commerce. Se il modulo di archiviazione remota è abilitato, `Local Server` viene cambiato in `Remote Storage`.<br>**FTP remoto** - inserisce il file di esportazione in un server remoto. Vengono visualizzate opzioni aggiuntive per le credenziali e le impostazioni di trasferimento dei file. |
+| [!UICONTROL Server Type] | Determina la posizione del file di esportazione. Opzioni:<br>**Server locale** - Posiziona il file di esportazione nello stesso server in cui è distribuito Commerce. Se il modulo di archiviazione remota è abilitato, `Local Server` è passato a `Remote Storage`.<br>**FTP remoto** — inserisce il file di esportazione in un server remoto. Vengono visualizzate opzioni aggiuntive per le credenziali e le impostazioni di trasferimento dei file. |
 | [!UICONTROL File Directory] | Specificare la directory in cui si trova il file di esportazione. Se _[!UICONTROL Server Type]_&#x200B;è impostato su `Local Server`, specificare il percorso relativo al percorso di installazione di Commerce. Ad esempio, `var/export` o `import_export/export` per l&#39;archiviazione remota. |
 
 {style="table-layout:auto"}

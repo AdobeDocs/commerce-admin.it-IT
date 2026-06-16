@@ -3,9 +3,29 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Scopri di più su  [!DNL Commerce Marketplace], che offre ai commercianti una selezione curata di soluzioni e fornisce agli sviluppatori qualificati gli strumenti, la piattaforma e la posizione principale per creare un business prospero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 9441c181a4272607d91bbaf5d410d8e433cb144f
+TQID: https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2:
+  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: 1432
 ht-degree: 0%
 
 ---
@@ -27,14 +47,14 @@ Le risorse seguenti forniscono un punto di partenza per consentire ai nuovi uten
 ### Risorse Commerce
 
 - [Configurazione di eventi di I/O per Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
-- [Configurazione degli eventi per Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
-- [Configurazione dell&#39;interfaccia utente di amministrazione di SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
-- [Conversione di un&#39;estensione in un&#39;app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
+- [Configurazione di eventi per Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
+- [Configurazione del SDK dell’interfaccia di amministrazione](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+- [Conversione di un’estensione in un’app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### Risorse di App Builder
 
 - [Panoramica di Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Configurazione di Mesh API per Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+- [Configurazione di API Mesh per Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [Distribuzione di app App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD per le app App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - Guida introduttiva di App Builder/Developer Console

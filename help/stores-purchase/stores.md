@@ -3,16 +3,31 @@ title: Struttura dello store e del sito
 description: Scopri la gerarchia di visualizzazione del sito web, dello store e dello store.
 exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: 1199
 ht-degree: 0%
 
 ---
 
 # Struttura dello store e del sito
 
-Quando si installa Adobe Commerce o Magento Open Source, viene creata una gerarchia che include una visualizzazione principale per il sito Web, lo store e lo store. Se necessario, puoi creare siti web, store e visualizzazioni dello store aggiuntivi. Ad esempio, oltre al sito web principale, potresti avere altri siti web con un dominio diverso. All&#39;interno di ogni sito web, puoi avere più store e, all&#39;interno di ogni store, visualizzazioni store separate. Molte installazioni hanno un sito web e uno store, ma con più visualizzazioni per supportare lingue diverse.
+Quando si installa Adobe Commerce o Magento Open Source, viene creata una gerarchia che include una visualizzazione principale per siti web, store e store. Se necessario, puoi creare siti web, store e visualizzazioni dello store aggiuntivi. Ad esempio, oltre al sito web principale, potresti avere altri siti web con un dominio diverso. All&#39;interno di ogni sito web, puoi avere più store e, all&#39;interno di ogni store, visualizzazioni store separate. Molte installazioni hanno un sito web e uno store, ma con più visualizzazioni per supportare lingue diverse.
 
 Prima di iniziare, pianifica in anticipo la gerarchia del catalogo del negozio perché vi si fa riferimento durante l’intera configurazione. Ogni archivio può avere una [categoria principale](../catalog/category-root.md) separata, il che rende possibile avere un set completamente diverso di opzioni del menu principale per ogni archivio.
 
@@ -20,7 +35,7 @@ Prima di iniziare, pianifica in anticipo la gerarchia del catalogo del negozio p
 
 ## Aggiungi store
 
-Una singola installazione di Adobe Commerce o di un Magento Open Source può avere più archivi che condividono un amministratore. Gli archivi che si trovano nello stesso sito web hanno lo stesso indirizzo IP e lo stesso dominio, utilizzano lo stesso certificato di sicurezza e condividono un unico processo di pagamento.
+Una singola installazione di Adobe Commerce o Magento Open Source può avere più store che condividono un amministratore. Gli archivi che si trovano nello stesso sito web hanno lo stesso indirizzo IP e lo stesso dominio, utilizzano lo stesso certificato di sicurezza e condividono un unico processo di pagamento.
 
 La cosa importante da capire è che gli store utilizzano lo stesso codice e condividono un amministratore. Ogni negozio può avere un catalogo separato, oppure può condividere un catalogo. Ogni archivio può avere una [categoria principale](../catalog/category-root.md) separata, il che rende possibile avere un menu principale diverso per ogni archivio. Gli store possono inoltre disporre di branding, presentazione e contenuto diversi. Pianifica la gerarchia dei punti vendita tenendo conto della crescita futura prima di iniziare, in quanto viene utilizzata durante la configurazione.
 
@@ -109,14 +124,14 @@ Per configurare il server per il supporto di più siti Web, vedere [Più siti We
 
 Per assistenza nella configurazione del server web, consulta le risorse seguenti:
 
-- [Configura più siti Web con NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=it)
-- [Configura più siti Web con Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=it)
+- [Configurare più siti Web con NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=it)
+- [Configurare più siti web con Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=it)
 
 Per Adobe Commerce sull&#39;infrastruttura cloud, vedere [Configurazione di più siti Web o store](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=it).
 
 ## Aggiungi siti Web
 
-È possibile configurare più siti web da una singola installazione Adobe Commerce o di Magento Open Source con lo stesso dominio o domini diversi. Per impostazione predefinita, gli archivi che si trovano nello stesso sito web hanno lo stesso indirizzo IP e dominio, utilizzano lo stesso certificato di sicurezza e condividono un singolo processo di pagamento. Se desideri che ogni archivio abbia un processo di pagamento dedicato nel proprio dominio, ogni archivio deve avere un indirizzo IP e un certificato di sicurezza separati.
+È possibile configurare più siti web da una singola installazione di Adobe Commerce o Magento Open Source con lo stesso dominio o domini diversi. Per impostazione predefinita, gli archivi che si trovano nello stesso sito web hanno lo stesso indirizzo IP e dominio, utilizzano lo stesso certificato di sicurezza e condividono un singolo processo di pagamento. Se desideri che ogni archivio abbia un processo di pagamento dedicato nel proprio dominio, ogni archivio deve avere un indirizzo IP e un certificato di sicurezza separati.
 
 Le installazioni multisito di Adobe Commerce o Magento Open Source devono essere configurate dall’amministratore e anche dalla riga di comando del server. La [Guida alla configurazione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=it) di Commerce fornisce istruzioni dettagliate per la configurazione dell&#39;ambiente server.
 
@@ -156,7 +171,7 @@ Per configurare il server per il supporto di più siti Web, vedere [Più siti We
 
 Per assistenza nella configurazione del server web, consulta le seguenti esercitazioni:
 
-- [Configura più siti Web con NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=it)
-- [Configura più siti Web con Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=it)
+- [Configurare più siti Web con NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=it)
+- [Configurare più siti web con Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=it)
 
 Per Adobe Commerce sull&#39;infrastruttura cloud, vedere [Configurazione di più siti Web o store](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=it).

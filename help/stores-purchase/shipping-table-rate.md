@@ -3,9 +3,23 @@ title: Tariffa tabella spedizione
 description: Scopri come impostare un’opzione di spedizione con tariffa di tavolo per il tuo negozio.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1044
 ht-degree: 3%
 
 ---
@@ -14,9 +28,9 @@ ht-degree: 3%
 
 Il metodo di spedizione _tariffa tabella_ fa riferimento a una tabella di dati per calcolare le tariffe di spedizione in base a una combinazione di condizioni, tra cui:
 
-- Peso rispetto alla destinazione
-- Prezzo v. destinazione
-- Numero di elementi rispetto alla destinazione
+- Peso v. Destinazione
+- Prezzo v. Destinazione
+- Numero di elementi v. Destinazione
 
 Ad esempio, se il tuo magazzino è a Los Angeles, spedire a San Diego costa meno che in Vermont. Puoi utilizzare le tariffe di spedizione per trasferire i risparmi ai tuoi clienti.
 
@@ -62,7 +76,7 @@ Il primo passo è quello di completare le impostazioni predefinite per le tariff
 
    >[!NOTE]
    >
-   >Poiché i prodotti virtuali, ad esempio i servizi, non hanno peso, non possono modificare il risultato di un calcolo basato sulla condizione Peso rispetto alla destinazione. Tuttavia, i prodotti virtuali possono modificare il risultato di un calcolo basato sulla condizione Prezzo v. Destinazione o Numero di articoli vs. Destinazione.
+   >Poiché i prodotti virtuali, ad esempio i servizi, non hanno peso, non possono modificare il risultato di un calcolo basato sul valore Peso. Condizione di destinazione. Tuttavia, i prodotti virtuali possono modificare il risultato di un calcolo basato sul valore Prezzo. Destinazione o numero di elementi rispetto alla condizione di destinazione.
 
 1. Configura le opzioni relative alle commissioni di gestione in base alle tue esigenze.
 
@@ -142,7 +156,7 @@ Per verificare che i dati della tariffa della tabella siano corretti, eseguire i
 
 ### Esempio 1: prezzo e destinazione
 
-In questo esempio viene utilizzata la condizione Prezzo v. Destinazione per creare una serie di tre diverse tariffe di spedizione in base all&#39;importo del subtotale dell&#39;ordine per gli Stati Uniti continentali, l&#39;Alaska e le Hawaii. L&#39;asterisco (*) è un carattere jolly che rappresenta tutti i valori.
+In questo esempio viene utilizzato il valore Prezzo v. Condizione di destinazione per creare una serie di tre diverse tariffe di spedizione in base all’importo del subtotale dell’ordine per gli Stati Uniti continentali, l’Alaska e le Hawaii. L&#39;asterisco (*) è un carattere jolly che rappresenta tutti i valori.
 
 | PAESE | REGIONE/STATO | CAP | SUBTOTALE ORDINE (e versioni successive) | PREZZO DI SPEDIZIONE |
 |--- |--- |--- |--- |--- |
@@ -160,7 +174,7 @@ In questo esempio viene utilizzata la condizione Prezzo v. Destinazione per crea
 
 ### Esempio 2: peso e destinazione
 
-In questo esempio viene utilizzata la condizione Peso rispetto alla destinazione per creare tariffe di spedizione diverse in base al peso dell&#39;ordine.
+In questo esempio viene utilizzato il parametro Peso v. Condizione di destinazione per creare tariffe di spedizione diverse in base al peso dell’ordine.
 
 | PAESE | REGIONE/STATO | CAP | PESO (e superiore) | PREZZO DI SPEDIZIONE |
 |--- |--- |--- |--- |--- |

@@ -3,9 +3,25 @@ title: Creare ed eliminare attributi di prodotto
 description: Scopri come creare e rimuovere gli attributi del prodotto, utilizzati per descrivere caratteristiche specifiche dei prodotti nel catalogo.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
+TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: 1273
 ht-degree: 0%
 
 ---
@@ -31,7 +47,7 @@ ht-degree: 0%
    | `Text Field` | Campo di input a riga singola per il testo. |
    | `Text Area` | Campo di input a più righe per l&#39;immissione di paragrafi di testo, ad esempio la descrizione di un prodotto. È possibile utilizzare WYSIWYG Editor per formattare il testo con i tag di HTML o immettere i tag direttamente nel testo. |
    | `Text Editor` | Un editor di testo perfettamente funzionante nella posizione dell’attributo. |
-   | Data | Visualizza un valore di data nel [formato preferito](attributes-input-types.md#date-and-time-options) e nel [fuso orario](../getting-started/store-details.md#locale-options). I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_** A seconda della configurazione del sistema, gli utenti _Amministratore_ possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](attributes-input-types.md#date-and-time-options). |
+   | Data | Visualizza un valore di data nel [formato preferito](attributes-input-types.md#date-and-time-options) e nel [fuso orario](../getting-started/store-details.md#locale-options). I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_**&#x200B;A seconda della configurazione del sistema, gli utenti_ Amministratore_ possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Visualizza un elenco a discesa con opzioni predefinite di `Yes` e `No`. |
    | `Dropdown` | Visualizza un elenco a discesa di valori che accetta una sola selezione. Il tipo di input a discesa è un componente chiave di [prodotti configurabili](product-create-configurable.md). |
    | `Multiple Select` | Visualizza un elenco a discesa di valori che accetta selezioni multiple. |

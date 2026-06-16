@@ -3,9 +3,28 @@ title: Prodotto scaricabile
 description: Scopri come creare un prodotto scaricabile da distribuire come file digitale.
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/vGS-R3Ns1D1Y2jL1TTmbH-DAOurBoFMRA9-RrthoR-8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: 1638
 ht-degree: 0%
 
 ---
@@ -88,7 +107,7 @@ Le istruzioni seguenti illustrano il processo di creazione di un prodotto scaric
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu`Downloadable Product` ) nell&#39;angolo superiore destro.
+1. Scegliere `Downloadable Product` dal menu _[!UICONTROL Add Product]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto scaricabile](./assets/product-add-downloadable.png){width="700" zoomable="yes"}
 
@@ -137,7 +156,7 @@ Il modulo viene aggiornato per riflettere la modifica.
 
    - Per impostazione predefinita, **[!UICONTROL Stock Status]** è impostato su `Out of Stock`.
 
-   - Poiché i prodotti scaricabili non sono spediti, il campo **[!UICONTROL Weight]** non viene utilizzato. Se abiliti questa funzione, diventerà un [prodotto semplice](product-create-simple.md) e il _prodotto scaricabile?Impossibile utilizzare la scheda_.
+   - Poiché i prodotti scaricabili non sono spediti, il campo **[!UICONTROL Weight]** non viene utilizzato. Se abiliti questa funzione, diventa un [prodotto semplice](product-create-simple.md) e il _prodotto scaricabile?_ non può essere utilizzata.
 
    >[!NOTE]
    >
@@ -270,7 +289,7 @@ Se si è pronti a pubblicare il prodotto nel catalogo, impostare **[!UICONTROL E
 
 **Metodo 2:** Salva e chiudi
 
-Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
+Scegliere **[!UICONTROL Save & Close]** dal menu _[!UICONTROL Save]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Esperienza vetrina
 

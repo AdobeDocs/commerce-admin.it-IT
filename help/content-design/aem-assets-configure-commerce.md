@@ -4,9 +4,24 @@ description: Scopri come installare l'estensione  [!DNL AEM Assets Integration f
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+TQID: https://experienceleague.adobe.com/pV03hqwc27n12BZzTVw-TvidSSXIKC95CNfy-PAXTE4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: 1703
 ht-degree: 0%
 
 ---
@@ -148,19 +163,19 @@ Immetti i seguenti valori nella configurazione
 - Nome dello spazio dati (identificatore SaaS) per l’archiviazione cloud sicura
 - ID organizzazione IMS in cui viene eseguito il provisioning degli ambienti Commerce e AEM Assets
 
-Per istruzioni dettagliate, guarda il [video sulla configurazione di Commerce Services Connector](https://experienceleague.adobe.com/it/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) e la documentazione di [Commerce Services Connector](https://experienceleague.adobe.com/it/docs/commerce/user-guides/integration-services/saas#organizationid).
+Per istruzioni dettagliate, guarda il [video sulla configurazione di Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) e la documentazione di [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid).
 
 Quando salvi la configurazione, il sistema genera gli ID del progetto SaaS e del database per il tuo ambiente. Questi valori sono necessari per abilitare la sincronizzazione delle risorse tra Adobe Commerce e AEM Assets.
 
 ## Configurare Adobe I/O Events per Commerce
 
-L’integrazione di AEM Assets utilizza il servizio Adobe I/O Events per inviare dati evento personalizzati tra l’istanza di Commerce e Experience Cloud. I dati dell’evento vengono utilizzati per coordinare i flussi di lavoro per l’integrazione AEM Assets.
+L’integrazione di AEM Assets utilizza il servizio Adobe I/O Events per inviare dati evento personalizzati tra l’istanza di Commerce ed Experience Cloud. I dati dell’evento vengono utilizzati per coordinare i flussi di lavoro per l’integrazione AEM Assets.
 
 Prima di configurare Adobe I/O Events, verifica la configurazione del processo RabbitMQ e cron per il progetto Commerce:
 
 - Verificare che RabbitMQ sia abilitato e in ascolto degli eventi.
-   - [Configurazione di RabbitMQ per Adobe Commerce locale](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - [Configurazione di RabbitMQ per Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [Configurazione di RabbitMQ per Adobe Commerce on-premise](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [Configurazione di RabbitMQ per Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - Verificare che [processi cron siano abilitati](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Sono necessari processi Cron per la comunicazione e i flussi di lavoro per l’integrazione AEM Assets.
 
 >[!NOTE]
@@ -242,7 +257,7 @@ Per generare le credenziali, aggiungi l’integrazione all’istanza di Commerce
 
 1. Verificare l&#39;identità facendo clic su **Conferma identità**.
 
-   Il sistema verifica la tua identità autenticandosi su Experience Cloud con il tuo Adobe Id.
+   Il sistema verifica la tua identità autenticandosi in Experience Cloud con il tuo Adobe Id.
 
 1. Configurare le risorse API.
 

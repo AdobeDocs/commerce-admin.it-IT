@@ -3,10 +3,28 @@ title: Navigazione a livelli
 description: Scopri come la navigazione a livelli consente agli acquirenti di trovare facilmente i prodotti in base alla categoria, alla fascia di prezzo o a qualsiasi altro attributo disponibile.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
+TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 0%
+source-wordcount: 1409
+ht-degree: 2%
 
 ---
 
@@ -26,7 +44,7 @@ La navigazione a livelli consente di trovare facilmente i prodotti in base alla 
 >
 >I requisiti degli attributi filtrabili descritti in questo argomento sono diversi per [Live Search](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview). Per ulteriori informazioni, consulta [Facet](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-admin/facets/facets).
 
-La navigazione a livelli può essere utilizzata per cercare i prodotti per categoria o per attributo. Ad esempio, quando un acquirente sceglie la categoria Mens/Short dalla navigazione superiore, i risultati iniziali includono tutti i prodotti della categoria. L’elenco può essere filtrato ulteriormente scegliendo uno stile, un clima, un colore, un materiale, un motivo o un prezzo specifico (o una combinazione di valori). Gli attributi filtrabili vengono visualizzati in una sezione espansa che elenca ogni valore di attributo. Come opzione, l’elenco dei prodotti con risultati corrispondenti può essere configurato per includere prodotti con o senza corrispondenza.
+La navigazione a livelli può essere utilizzata per cercare i prodotti per categoria o per attributo. Ad esempio, quando un acquirente sceglie la categoria Mens/Shorts dalla navigazione superiore, i risultati iniziali includono tutti i prodotti della categoria. L’elenco può essere filtrato ulteriormente scegliendo uno stile, un clima, un colore, un materiale, un motivo o un prezzo specifico (o una combinazione di valori). Gli attributi filtrabili vengono visualizzati in una sezione espansa che elenca ogni valore di attributo. Come opzione, l’elenco dei prodotti con risultati corrispondenti può essere configurato per includere prodotti con o senza corrispondenza.
 
 Le proprietà dell’attributo, combinate con il tipo di input del prodotto, determinano gli attributi che possono essere utilizzati per la navigazione su più livelli. La navigazione a livelli è disponibile solo per le categorie [_ancoraggio_](categories-display-settings.md), ma può essere aggiunta anche alle pagine dei risultati di ricerca. La proprietà **Catalog Input Type per il proprietario dell&#39;archivio** di ciascun attributo deve essere impostata su `Yes/No`, `Dropdown`, `Multiple Select` o `Price`. Per rendere gli attributi filtrabili, la proprietà **Use in Layered Navigation** di ciascuno deve essere impostata su `Filterable (with results)` o `Filterable (no results)`.
 
@@ -132,15 +150,15 @@ La suddivisione iterativa fornisce la migliore distribuzione dei prodotti tra le
 
 | Prezzo Incrementato di 10 | Prezzo Incrementato di 100 |
 |----------|--------|
-| 20,00 - 29,99 $ (1) | 0,00 - 99,99 $ (4) |
-| $ 30,00 - $ 39,99 (2) | $100 - $199,99 (5) |
-| $ 70,00 - $ 79,99 (1) | $400,00 - $499,99 (2) |
-| $100,00 - $109,99 (1) | $700,00 e versioni successive (1) |
-| $120,00 - $129,99 (2) |   |
-| $150,00 - $159,99 (1) |   |
-| $180,00 - $189,99 (1) |   |
-| $420,00 - $429,99 (1) |   |
-| $440,00 - $449,99 (1) |   |
+| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
+| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
+| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
+| $100.00 - $109.99 (1) | $700,00 e versioni successive (1) |
+| $120.00 - $129.99 (2) |   |
+| $150.00 - $159.99 (1) |   |
+| $180.00 - $189.99 (1) |   |
+| $420.00 - $429.99 (1) |   |
+| $440.00 - $449.99 (1) |   |
 | $710,00 e versioni successive (1) |   |
 
 {style="table-layout:auto"}

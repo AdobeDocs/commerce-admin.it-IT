@@ -3,9 +3,27 @@ title: Opzioni per nome e indirizzo cliente
 description: Le opzioni relative al nome e all'indirizzo del cliente determinano i campi inclusi nei moduli per il nome e l'indirizzo.
 exl-id: 28949cfc-2c96-4d0a-a35b-b37b3aa2d1e9
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+TQID: https://experienceleague.adobe.com/qMXVcVWZJCrCNywOJF3psuO5vLWkNt9LoNtgFfFBzT8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: 809
 ht-degree: 0%
 
 ---
@@ -75,7 +93,7 @@ Puoi configurare le opzioni di nome e indirizzo che vengono presentate ai client
 
 1. Nel messaggio nella parte superiore della pagina, fai clic su **[!UICONTROL Cache Management]** e [aggiorna](../systems/cache-management.md) ogni cache non valida.
 
-## Configurare le opzioni di nome e indirizzo per il Magento Open Source
+## Configurare le opzioni di nome e indirizzo per Magento Open Source
 
 Configura le opzioni di nome e indirizzo presentate ai clienti nella vetrina quando creano il proprio account.
 
@@ -120,7 +138,7 @@ Configura le opzioni di nome e indirizzo presentate ai clienti nella vetrina qua
    >
    >Per impostazione predefinita, l&#39;indirizzo stradale è composto da tre righe.
 
-1. Per includere nel nome un prefisso, ad esempio Sig o Sig.ra, impostare **Mostra prefisso** su `Yes`.
+1. Per includere un prefisso (ad esempio Sig o Sig.ra) come parte del nome, imposta **Mostra prefisso** su `Yes`.
 
    ![Prefisso nel modulo di iscrizione del cliente](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
 
@@ -130,7 +148,7 @@ Configura le opzioni di nome e indirizzo presentate ai clienti nella vetrina qua
 
 1. Per includere un campo facoltativo per il secondo nome o l&#39;iniziale del cliente, impostare **[!UICONTROL Show Middle Name (initial)]** su `Yes`.
 
-1. Per includere un suffisso, ad esempio Jr. o Sr.) dopo il nome del cliente, impostare **[!UICONTROL Show Suffix]** su uno dei seguenti valori:
+1. Per includere un suffisso, ad esempio Jr. o Sr.) dopo il nome del cliente, impostare **[!UICONTROL Show Suffix]** su uno dei seguenti:
 
    - `Optional`
    - `Required`

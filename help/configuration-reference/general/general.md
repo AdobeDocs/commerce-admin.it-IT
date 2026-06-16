@@ -1,11 +1,28 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL General]'
-description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] &gt; [!UICONTROL General] dell'amministratore di Commerce.
+title: '[!UICONTROL General] > [!UICONTROL General]'
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] > [!UICONTROL General] dell'amministratore di Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: 1028
 ht-degree: 0%
 
 ---
@@ -69,9 +86,9 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Limita
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Access Restriction] | Sito Web | Determina se il sito Web funziona in modalità con restrizioni.<br /> <br />**`Yes`**- L&#39;accesso al sito Web è limitato nel modo impostato nei campi seguenti.<br />**`No`** - Le restrizioni sono disabilitate e le seguenti impostazioni non hanno alcun effetto. |
+| [!UICONTROL Access Restriction] | Sito Web | Determina se il sito Web funziona in modalità con restrizioni.<br /> <br />**`Yes`**- L&#39;accesso al sito Web è limitato nel modo impostato nei campi seguenti.<br />**`No`** - Le restrizioni sono disattivate e le seguenti impostazioni non hanno alcun effetto. |
 | [!UICONTROL Restriction Mode] | Sito Web | Determina il tipo di restrizione di accesso applicabile al sito Web.<br /> <br />**`Website Closed`**- Tutti gli accessi alla vetrina sono limitati e gli URL della vetrina vengono temporaneamente reindirizzati alla pagina di destinazione. Questa impostazione può essere utile durante la manutenzione del sito o prima del lancio.<br />**`Private Sales: Login Only`** - Solo i clienti registrati possono effettuare l&#39;accesso per accedere alla vetrina. Tutti gli URL della vetrina vengono temporaneamente reindirizzati alla pagina di destinazione o al modulo di accesso specificato. Gli utenti non possono creare un account in questa modalità.<br />**`Private Sales: Login and Register`**- Gli utenti devono accedere per accedere alla vetrina. Tutti gli URL della vetrina vengono temporaneamente reindirizzati al modulo di accesso fino a quando l’utente non effettua l’accesso. Gli utenti possono registrarsi per un account mentre il sito è in questa modalità. |
-| [!UICONTROL Startup Page] | Visualizzazione store | Quando il sito Web è in modalità Vendite private, questa impostazione determina la pagina visualizzata fino a quando il cliente non effettua l&#39;accesso.<br />  <br />**`To login form`**- Gli utenti vengono reindirizzati al modulo di accesso fino al momento dell&#39;accesso.<br />**`To landing page`** - Gli utenti vengono reindirizzati alla pagina statica specificata di seguito fino al loro accesso.<br /> <br />**_Importante!_**&#x200B;Assicurarsi di includere un collegamento alla pagina di accesso dalla pagina di destinazione specificata in modo che i clienti possano accedere all&#39;intero sito. |
+| [!UICONTROL Startup Page] | Visualizzazione store | Quando il sito Web è in modalità Vendite private, questa impostazione determina la pagina visualizzata fino a quando il cliente non effettua l&#39;accesso.<br />  <br />**`To login form`**- Gli utenti vengono reindirizzati al modulo di accesso fino al momento dell&#39;accesso.<br />**`To landing page`** - Gli utenti vengono reindirizzati alla pagina statica specificata di seguito fino al loro accesso.<br /> <br />**_Importante!_**&#x200B;Assicurati di includere un collegamento alla pagina di accesso dalla pagina di destinazione specificata, in modo che i clienti possano effettuare l’accesso per accedere al sito completo. |
 | [!UICONTROL Landing Page] | Visualizzazione store | Determina la prima pagina visualizzata quando il sito Web è in modalità Vendite private. |
 | [!UICONTROL HTTP Response] | Sito Web | Determina la risposta HTTP inviata quando il sito Web viene chiuso e viene tentata una connessione da un bot, un crawler o un spider.<br /> <br />**`503 Service unavailable`**- La pagina non è disponibile, ma il spider non deve aggiornare l&#39;indice.<br />**`200 OK`** - La pagina di destinazione è corretta e deve essere trattata dal ragno come unica pagina del sito. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Sito Web | Determina se i campi nei moduli _Accesso_ e _Password dimenticata_ vengono compilati automaticamente dalle voci precedenti. Opzioni: `Yes` / `No` |
@@ -107,7 +124,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Modali
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | Globale | Quando è abilitata per le installazioni di un singolo archivio, nasconde la casella Ambito configurazione e le etichette dei campi correlate Opzioni: `Yes` / `No` <br/>**_Nota:_**&#x200B;La modalità Archivio singolo viene ignorata per gli archivi con più di una visualizzazione.<br/> L&#39;abilitazione della modalità di archivio singolo copierà tutti i dati specifici dell&#39;archivio di prodotti e catalogo dalla vista archivio predefinita a tutto l&#39;ambito della vista archivio. Se l&#39;archivio dispone di una sola visualizzazione archivio, i dati di catalogo e di prodotto verranno copiati. Se l&#39;archivio dispone di una visualizzazione archivio disabilitata e di una visualizzazione archivio abilitata, non verranno copiati i dati di catalogo e di prodotto.<br/> L&#39;abilitazione della modalità di archiviazione singola ignora le impostazioni di configurazione specifiche per la visualizzazione dello store per i dati specifici del contenuto. Al contrario, utilizza le impostazioni di configurazione definite nell’ambito a livello globale per garantire la coerenza tra l’interfaccia utente di amministrazione e la vetrina. |
+| [!UICONTROL Enable Single-Store Mode] | Globale | Quando è abilitata per le installazioni di un singolo archivio, nasconde la casella Ambito configurazione e le etichette dei campi correlate Opzioni: `Yes` / `No` <br/>**_Note:_** La modalità Archivio singolo viene ignorata per gli archivi con più di una visualizzazione.<br/> L’abilitazione della modalità archivio singolo copierà tutti i dati specifici dell’archivio di prodotti e cataloghi dalla vista archivio predefinita a tutto l’ambito della vista archivio. Se l&#39;archivio dispone di una sola visualizzazione archivio, i dati di catalogo e di prodotto verranno copiati. Se nell&#39;archivio sono presenti una visualizzazione archivio disabilitata e una visualizzazione archivio abilitata, non verranno copiati i dati di catalogo e di prodotto.<br/> L’abilitazione della modalità archivio singolo ignora le impostazioni di configurazione specifiche per la visualizzazione archivio per i dati specifici del contenuto. Al contrario, utilizza le impostazioni di configurazione definite nell’ambito a livello globale per garantire la coerenza tra l’interfaccia utente di amministrazione e la vetrina. |
 
 {style="table-layout:auto"}
 

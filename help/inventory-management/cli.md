@@ -5,9 +5,21 @@ exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+TQID: https://experienceleague.adobe.com/jdlLgwIe50ExZ2giXBiGf5cG8L4DQDZe4psbB16F5JE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: 858
 ht-degree: 0%
 
 ---
@@ -27,7 +39,7 @@ Nelle prenotazioni viene applicata una sospensione per quantità vendibile per S
 
 [!DNL Inventory Management] fornisce due comandi per verificare e risolvere le incoerenze nelle prenotazioni:
 
-- [&quot;inventory:reservation:list-incoerencies&quot;](#list-inconsistencies-command)
+- [`inventory:reservation:list-inconsistencies`](#list-inconsistencies-command)
 - [`inventory:reservation:create-compensations`](#create-compensations-command)
 
 ### Cause delle incongruenze nelle prenotazioni
@@ -49,7 +61,7 @@ Nelle prenotazioni viene applicata una sospensione per quantità vendibile per S
 Le configurazioni e gli eventi seguenti possono causare incongruenze nelle prenotazioni:
 
 - **Eseguire l&#39;aggiornamento alla versione 2.3.x con ordini non in stato finale (Completato, Annullato o Chiuso).** [!DNL Inventory Management] crea prenotazioni compensative per questi ordini, ma non inserisce o non dispone della prenotazione iniziale che deduce dalla quantità vendibile. Si consiglia di utilizzare questi comandi dopo l’aggiornamento ad Adobe Commerce o Magento Open Source v2.3.x da 2.1.x o 2.2.x. Se sono presenti ordini in sospeso, i comandi aggiornano correttamente la quantità e gli impegni di vendita per l&#39;evasione degli ordini e delle vendite.
-- **Non si gestiscono le scorte e successivamente si modifica questa configurazione.** È possibile iniziare a utilizzare 2.3.x con **[!UICONTROL Manage Stock]** impostato su `No` nella configurazione. [!DNL Commerce] non effettua prenotazioni agli eventi di invio e di spedizione dell&#39;ordine. Se in seguito si abilita la configurazione di **[!UICONTROL Manage Stock]** e vengono creati alcuni ordini, la Qtà vendibile verrà danneggiata con la prenotazione della retribuzione quando si gestisce e si esegue l&#39;ordine.
+- **Non è possibile gestire le scorte e successivamente modificare questa configurazione.** È possibile iniziare a utilizzare 2.3.x con **[!UICONTROL Manage Stock]** impostato su `No` nella configurazione. [!DNL Commerce] non effettua prenotazioni agli eventi di invio e di spedizione dell&#39;ordine. Se in seguito si abilita la configurazione di **[!UICONTROL Manage Stock]** e vengono creati alcuni ordini, la Qtà vendibile verrà danneggiata con la prenotazione della retribuzione quando si gestisce e si esegue l&#39;ordine.
 - **È possibile riassegnare le azioni per un sito Web mentre gli ordini vengono inviati a tale sito Web**. La prenotazione iniziale viene inserita per lo stock iniziale e tutte le prenotazioni di retribuzione vengono inserite nel nuovo stock.
 - **Il totale di tutte le prenotazioni potrebbe non essere risolto in `0`.** Tutte le prenotazioni nell&#39;ambito di un ordine in uno stato finale (Completato, Annullato, Chiuso) devono essere risolte in `0`, cancellando tutti i blocchi di quantità vendibili.
 

@@ -4,9 +4,26 @@ description: Scopri come un venditore può creare un preventivo per un acquirent
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
+TQID: https://experienceleague.adobe.com/CbwUuAqkrVxLcqdbz-gV-x1i-mRHM6y62KPaBeA3sds
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -27,7 +44,7 @@ Un rappresentante commerciale può creare un preventivo dalla tabella Preventivi
 
 >[!NOTE]
 >
->Per una demo video di un venditore durante la creazione di un preventivo per un acquirente, vedere [Il rappresentante commerciale avvia il preventivo](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=it) in _Video e Tutorials di Commerce_.
+>Per una demo video di un venditore durante la creazione di un preventivo per un acquirente, vedere [Il rappresentante commerciale avvia il preventivo](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=it) in _Video e tutorial Commerce_.
 
 ### Creare un preventivo dalla griglia Preventivo
 
@@ -79,7 +96,7 @@ Dopo aver creato l&#39;offerta provvisoria, aggiungere elementi di prodotto, app
 
    >[!NOTE]
    >
-   >Per una demo video sul funzionamento degli sconti per l&#39;elemento riga, vedere [Il rappresentante commerciale applica lo sconto a un elemento riga preventivo](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=it) in _Video e Tutorials di Commerce_.
+   >Per una demo video sul funzionamento degli sconti per l&#39;elemento riga, vedere [Il rappresentante commerciale applica lo sconto a un elemento riga preventivo](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=it) in _Video e tutorial Commerce_.
 
 1. Applicare uno sconto a livello di preventivo in base alle esigenze:
 

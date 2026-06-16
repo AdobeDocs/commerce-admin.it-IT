@@ -4,10 +4,27 @@ description: Segui questa procedura opzionale per integrare gli accessi dell’a
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: e1518775bf43f5493b61d21951a0b1126dfc49aa
+TQID: https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 0%
+source-wordcount: 919
+ht-degree: 1%
 
 ---
 
@@ -34,7 +51,7 @@ Questa integrazione supporta i rivenditori Commerce con utenti amministratori ch
 
 Durante l’abilitazione del modulo, l’amministratore che configura questa integrazione deve disporre delle seguenti credenziali:
 
-* ID organizzazione (ottenuto da [Adobe Admin Console](https://adminconsole.adobe.com/)), che deve contenere almeno 24 caratteri. L’utente autenticato deve appartenere a questa organizzazione IMS. Per informazioni su come trovare l&#39;ID organizzazione, vedi [Organizzazioni in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
+* ID organizzazione (ottenuto da [Adobe Admin Console](https://adminconsole.adobe.com/)), che deve contenere almeno 24 caratteri. L’utente autenticato deve appartenere a questa organizzazione IMS. Per informazioni su come trovare l&#39;ID organizzazione, consulta [Organizzazioni in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
 * 2FA deve essere applicato a livello di organizzazione in Adobe Admin Console per abilitare il modulo. Controlla [Impostazioni autenticazione](https://helpx.adobe.com/it/enterprise/using/authentication-settings.html#two-step-verification).
 * ID client
 * Segreto client
@@ -111,7 +128,7 @@ Immettere `bin/magento admin:adobe-ims:enable`. Viene chiesto di immettere i seg
 
 Adobe Commerce visualizza un messaggio che indica se l’abilitazione è riuscita o meno.
 
-Dopo aver abilitato correttamente questa funzione, puoi effettuare la transizione da altri account utente di Adobe Commerce ad account Adobe IMS. Per accedere tramite Adobe Commerce, gli utenti devono appartenere all’organizzazione Adobe Adobe ID configurata.
+Dopo aver abilitato correttamente questa funzione, puoi effettuare la transizione da altri account utente di Adobe Commerce ad account Adobe IMS. Per accedere tramite Adobe Commerce, gli utenti devono appartenere all’organizzazione Adobe configurata.
 
 ## Identità e Single Sign-On
 

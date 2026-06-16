@@ -3,9 +3,25 @@ title: Configura [!DNL Inventory Management]
 description: Scopri la configurazione di  [!DNL Inventory Management]  opzioni che determinano la disponibilità dell'origine, i prodotti di vetrina e la spedizione dell'ordine.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
+TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -34,12 +50,12 @@ Gli archivi e i prodotti di [!DNL Commerce] supportano le seguenti configurazion
 |--|--|
 | [!UICONTROL Manage Stock] | Consente a [!DNL Commerce] di gestire tutto l&#39;inventario. Imposta se il controllo dell&#39;inventario è utilizzato per questo prodotto o per tutti i prodotti in [!DNL Commerce]. Visualizza altre opzioni se impostato su `Yes`. |
 | [!UICONTROL Only X left Threshold] | Imposta una quantità da notificare quando un importo specifico viene lasciato disponibile per l&#39;acquisto. Questo importo viene registrato a livello di stock. |
-| [!UICONTROL Out-of-Stock Threshold] | Scorte di sicurezza, quantità per attivare una notifica di esaurimento scorte e per ridurre il rischio di esaurimento scorte. Questo valore influisce sugli ordini inevasi. Opzioni:<br />**[!UICONTROL No Backorders]**: non accetta ordini inevasi quando il prodotto è esaurito.<br />**[!UICONTROL Allow Qty Below 0]**: accetta ordini inevasi quando la quantità scende al di sotto di zero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: accetta ordini inevasi quando la quantità scende al di sotto di zero, ma notifica ai clienti che è ancora possibile effettuare ordini.<br /><br />**[!UICONTROL Backorders disabled]**: si consiglia di immettere un valore positivo superiore a 0, ad esempio 5 o 25. <br/>**[!UICONTROL Backorders enabled]**: immettere una soglia negativa per la quantità massima di ordini inevasi consentiti, ad esempio -5 o -25. Un valore pari a 0 funge da scorta infinita. Un valore positivo viene ignorato e trattato come 0. |
+| [!UICONTROL Out-of-Stock Threshold] | Scorte di sicurezza, quantità per attivare una notifica di esaurimento scorte e per ridurre il rischio di esaurimento scorte. Questo valore influisce sugli ordini inevasi. Opzioni:<br />**[!UICONTROL No Backorders]**: non accetta ordini inevasi quando il prodotto è esaurito.<br />**[!UICONTROL Allow Qty Below 0]**: Accetta ordini inevasi quando la quantità scende sotto zero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: Accetta ordini inevasi quando la quantità scende sotto zero, ma notifica ai clienti che è ancora possibile effettuare ordini.<br /><br />**[!UICONTROL Backorders disabled]**: si consiglia di immettere un valore positivo superiore a 0, ad esempio 5 o 25. <br/>**[!UICONTROL Backorders enabled]**: immettere una soglia negativa per la quantità massima di ordini inevasi consentiti, ad esempio -5 o -25. Un valore pari a 0 funge da scorta infinita. Un valore positivo viene ignorato e trattato come 0. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Imposta la quantità minima del prodotto che può essere acquistato in un singolo ordine. |
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | Imposta la quantità massima del prodotto che può essere acquistato in un singolo ordine. |
 | [!UICONTROL Qty Uses Decimals] | Consente gli importi decimali, invece dei numeri interi, per la quantità di un prodotto. Questa impostazione è utile per i prodotti venduti in base a peso, volume o lunghezza. Specificato a livello di Source, calcolato a livello di Stock in base alle origini assegnate. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Determina se le parti di un prodotto possono essere spedite separatamente. Questa opzione è visibile quando **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
-| [!UICONTROL Backorders] | Indica se gli ordini inevasi sono consentiti. Specificato a livello di Source, calcolato a livello di Stock in base alle origini assegnate. Se abilitato per consentire ordini inevasi, si consiglia di impostare un valore negativo per la soglia esaurita (vedere [Configurazione degli ordini inevasi](backorders.md)). Opzioni:<br />**[!UICONTROL No Backorders]**: non accetta ordini inevasi quando il prodotto è esaurito.<br />**[!UICONTROL Allow Qty Below 0]**: accetta ordini inevasi quando la quantità scende al di sotto di zero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: accetta ordini inevasi quando la quantità scende al di sotto di zero, ma notifica ai clienti che è ancora possibile effettuare ordini. |
+| [!UICONTROL Backorders] | Indica se gli ordini inevasi sono consentiti. Specificato a livello di Source, calcolato a livello di Stock in base alle origini assegnate. Se abilitato per consentire ordini inevasi, si consiglia di impostare un valore negativo per la soglia esaurita (vedere [Configurazione degli ordini inevasi](backorders.md)). Opzioni:<br />**[!UICONTROL No Backorders]**: non accetta ordini inevasi quando il prodotto è esaurito.<br />**[!UICONTROL Allow Qty Below 0]**: Accetta ordini inevasi quando la quantità scende sotto zero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: Accetta ordini inevasi quando la quantità scende sotto zero, ma notifica ai clienti che è ancora possibile effettuare ordini. |
 | [!UICONTROL Notify for Quantity Below] | Imposta la quantità che attiva una notifica Quantità inferiore, avvertenza di scorte in esaurimento. Questo importo viene detratto dalla quantità di vendita e non dalla quantità di magazzino. |
 | [!UICONTROL Enable Qty Increments] | Determina se il prodotto può essere venduto in incrementi di quantità. Se questa opzione è abilitata, immettere la quantità di prodotti che devono essere acquistati in un passo incrementale. Gli incrementi impostano il numero di articoli da acquistare come singolo prodotto e come figlio di prodotti configurabili, raggruppati e in bundle. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] non utilizza questo valore. Quando si completa una restituzione o una nota di accredito, la quantità del prodotto viene automaticamente restituita alla quantità di origine interessata. Vedere [Configurazione delle opzioni di prodotto](product-options.md). |
@@ -58,6 +74,6 @@ Quando [!DNL Commerce] controlla l&#39;applicazione delle impostazioni personali
 
 Ad esempio, puoi configurare gli ordini inevasi in modo diverso nel tuo negozio con una configurazione simile alla seguente:
 
-- _Globalmente:_ Abilita gli ordini inevasi per l&#39;archivio. Imposta la soglia esaurita su `-50`
+- _Globalmente :_Abilita gli ordini inevasi per l&#39;archivio. Imposta la soglia esaurita su `-50`
 
-- _Prodotto:_ Disabilita gli ordini inevasi per un prodotto specifico. Impostare la soglia esaurita su `10`
+- _Product :_Disattiva gli ordini inevasi per un prodotto specifico. Impostare la soglia esaurita su `10`
