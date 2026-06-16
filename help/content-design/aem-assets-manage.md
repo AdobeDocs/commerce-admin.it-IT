@@ -32,9 +32,9 @@ Dopo aver modificato una risorsa in AEM Assets, invia gli aggiornamenti a Commer
 
 Per informazioni dettagliate, consulta la seguente documentazione di AEM Assets.
 
-- [Rielaborazione di risorse digitali](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [Rielaborazione di risorse digitali](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [Approvare una risorsa](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [Approvare una risorsa](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## Aggiungere risorse al contenuto delle categorie
 

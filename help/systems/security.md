@@ -40,11 +40,11 @@ Esistono diversi modi per proteggere il tuo archivio e mantenere la sicurezza de
 >
 >Gli archivi che hanno abilitato l&#39;autenticazione [!DNL Adobe Identity Management Services] (IMS) hanno Adobe Commerce nativo e Magento Open Source 2FA disabilitati. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza di Commerce con le credenziali Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Vedi Panoramica sull&#39;integrazione di [[!DNL Adobe Identity Management Service] (IMS)](../getting-started/adobe-ims-integration-overview.md).
 
-Visita il [Centro sicurezza PC](https://helpx.adobe.com/security.html){:target="_blank"} per ottenere le ultime notizie sulle potenziali vulnerabilità, registrati per ricevere le notifiche di Adobe Security e accedi al Centro protezione di Adobe.
+Visita il [Centro sicurezza PC](https://helpx.adobe.com/it/security.html){:target="_blank"} per ottenere le ultime notizie sulle potenziali vulnerabilità, registrati per ricevere le notifiche di Adobe Security e accedi al Centro protezione di Adobe.
 
 ![Centro sicurezza PC](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-Per informazioni sulle best practice per la sicurezza, consulta [Proteggere il sito e l&#39;infrastruttura di Commerce](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) nella _playbook di implementazione_.
+Per informazioni sulle best practice per la sicurezza, consulta [Proteggere il sito e l&#39;infrastruttura di Commerce](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=it) nella _playbook di implementazione_.
 
 ## Piano d&#39;azione sulla sicurezza
 
@@ -58,4 +58,4 @@ Se pensi che il tuo sito Adobe Commerce o Magento Open Source sia compromesso, s
 
 1. **Report**: se pensi di aver trovato una vulnerabilità specifica in Commerce, [apri un problema con Adobe](https://hackerone.com/adobe?type=team) e includi i dettagli tecnici.
 
-1. **Aggiornamento**: per una maggiore tranquillità derivante dal supporto 24 ore su 24, 7 giorni su 7, pianifica ora l&#39;aggiornamento a [Adobe Commerce sulla nostra architettura cloud](https://business.adobe.com/products/magento/cloud-delivery.html).
+1. **Aggiornamento**: per una maggiore tranquillità derivante dal supporto 24 ore su 24, 7 giorni su 7, pianifica ora l&#39;aggiornamento a [Adobe Commerce sulla nostra architettura cloud](https://business.adobe.com/it/products/magento/cloud-delivery.html).

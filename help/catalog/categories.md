@@ -51,5 +51,5 @@ Prima di aggiungere prodotti al catalogo, è necessario stabilire la struttura d
 
 Per informazioni sulla risoluzione dei problemi relativi alle categorie, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
-- [Le modifiche alle categorie non vengono salvate](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [Menu principale (Categorie) non visualizzato nelle pagine secondarie con Fastly abilitato](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [Le modifiche alle categorie non vengono salvate](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=it)
+- [Menu principale (Categorie) non visualizzato nelle pagine secondarie con Fastly abilitato](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=it)

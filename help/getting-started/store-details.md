@@ -191,7 +191,7 @@ Per informazioni sulla risoluzione dei problemi di configurazione del paese, ved
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 L&#39;impostazione dell&#39;ubicazione esercente viene utilizzata per configurare [metodi di pagamento](../stores-purchase/payments.md). Se non è presente alcun valore per questa impostazione, verrà utilizzata l&#39;impostazione [Paese predefinito](#uicontrol-country-options).
 
@@ -233,7 +233,7 @@ Prima di poter configurare gli indirizzi e-mail per lo store, ciascuno di essi d
 
 ### Passaggio 2: impostare l’URL di base per i collegamenti generati
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Alcune e-mail rivolte ai clienti includono collegamenti allo store, ad esempio quelle che aiutano i clienti a reimpostare le password. Per garantire il funzionamento dei collegamenti alla vetrina, è necessario definire l&#39;URL di base della vetrina.
 
@@ -247,7 +247,7 @@ Alcune e-mail rivolte ai clienti includono collegamenti allo store, ad esempio q
 
 ### Passaggio 3: configurare gli indirizzi e-mail per il negozio
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} Gli indirizzi e-mail del mittente sono configurati quando viene eseguito il provisioning della tua istanza. Se devi modificare questi indirizzi, crea un ticket di supporto.
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} Gli indirizzi e-mail del mittente sono configurati quando viene eseguito il provisioning della tua istanza. Se devi modificare questi indirizzi, crea un ticket di supporto.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

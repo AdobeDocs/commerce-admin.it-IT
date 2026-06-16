@@ -32,7 +32,7 @@ Il nuovo [[!DNL Media Gallery]](media-gallery.md) offre un&#39;integrazione dire
 
 **Prerequisiti**
 
-La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è installata e configurata l&#39;[integrazione Adobe Stock](./adobe-stock.md). Per concedere in licenza [immagini Adobe Stock](https://stock.adobe.com) è necessario un piano Adobe Stock a pagamento e un account [Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è installata e configurata l&#39;[integrazione Adobe Stock](./adobe-stock.md). Per concedere in licenza [immagini Adobe Stock](https://stock.adobe.com) è necessario un piano Adobe Stock a pagamento e un account [Adobe](https://helpx.adobe.com/it/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX]
 
@@ -58,7 +58,7 @@ La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è in
 
    >[!NOTE]
    >
-   >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
+   >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/it/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
 
 ## Ottenere la licenza di un&#39;immagine dal supporto di archiviazione standard
 
@@ -74,7 +74,7 @@ La funzionalità di gestione licenze di Adobe Stock è disponibile solo se è in
 
      >[!NOTE]
      >
-     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
+     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/it/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
 
    Questa azione richiede di specificare un nome di file utilizzato per salvare l&#39;immagine nell&#39;[archivio multimediale](./media-storage.md). Viene fornito un nome di file predefinito, ma puoi personalizzarlo in base alle tue preferenze.
 

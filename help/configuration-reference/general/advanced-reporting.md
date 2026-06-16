@@ -3,7 +3,7 @@ title: '[!UICONTROL General] > [!UICONTROL Advanced Reporting]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] > [!UICONTROL Advanced Reporting] dell'amministratore di Commerce.
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/6As8e-RnZECeC2-Pt5dtjTA0N66WPTuRHzeBn8cMqyo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -33,11 +33,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_&#x200B;è un servizio basato su cloud basato su [Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html){:target="_blank"}. Per ulteriori informazioni, vedere [Reporting avanzato](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting){:target="_blank"} nella_ Guida introduttiva _.
+_[!DNL Advanced Reporting]_&#x200B;è un servizio basato su cloud basato su [Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=it){:target="_blank"}. Per ulteriori informazioni, vedere [Reporting avanzato](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=it#advanced-reporting){:target="_blank"} nella_ Guida introduttiva _.
 
 ![Generazione avanzata di rapporti](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/it/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

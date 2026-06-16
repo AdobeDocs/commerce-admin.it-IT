@@ -2,7 +2,7 @@
 title: Impostazione pagina
 description: Scopri come configurare le impostazioni predefinite per le parti principali di una pagina del negozio.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/EmzCKKd7dZaBu0LECyK-BcnpaS7lu-8YvAJWSfviFXM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -2,7 +2,7 @@
 title: Pianifica modifiche alla progettazione
 description: Scopri come pianificare in anticipo le modifiche alla progettazione del tema
 exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/Pf9Yp54AoZbC86HdHlN76zrE6qzjV2R0hoJWs8u-BEA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

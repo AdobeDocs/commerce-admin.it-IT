@@ -3,7 +3,7 @@ title: Installare un nuovo tema
 description: Scopri come installare un nuovo tema per il tuo store Adobe Commerce o Magento Open Source.
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -28,7 +28,7 @@ Quando si installa [!DNL Commerce] per la prima volta, gli elementi di progettaz
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Prima di iniziare, verificare di disporre di un set valido di [[!DNL Commerce] chiavi di accesso](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+Prima di iniziare, verificare di disporre di un set valido di [[!DNL Commerce] chiavi di accesso](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=it).
 
 Per aggiungere un tema all&#39;archivio [!DNL Commerce], seguire le istruzioni disponibili in [!DNL Commerce Marketplace]:
 
