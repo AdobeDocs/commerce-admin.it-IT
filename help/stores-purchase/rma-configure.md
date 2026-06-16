@@ -4,11 +4,20 @@ description: Scopri come abilitare le restituzioni per il tuo archivio e configu
 exl-id: a1b508fc-7e42-4d37-bf7e-dea17a40d39b
 feature: Returns, Configuration
 TQID: https://experienceleague.adobe.com/TgVsqEceM-mTY91OCl7XRL0Uwk8VJAHatv0kHiOM00g
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 353
@@ -20,7 +29,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Quando questa opzione è abilitata, le richieste RMA possono essere inviate dai clienti dalla vetrina. Un RMA può essere generato solo se nell&#39;ordine è presente un articolo disponibile per la restituzione. Le richieste di restituzione di singoli elementi sono gestite dall&#39;attributo _Abilita RMA_ in ogni record di prodotto. Per impostazione predefinita, le impostazioni di configurazione vengono applicate al prodotto (_[!UICONTROL Use Config Settings]_è selezionato). Se_[!UICONTROL Enable RMA]_ è impostato su `No`, il prodotto non viene visualizzato nell&#39;elenco degli elementi disponibili per la restituzione. Se si modifica l&#39;impostazione _Abilita RMA_, questa verrà applicata sia agli ordini nuovi che a quelli esistenti.
+Quando questa opzione è abilitata, le richieste RMA possono essere inviate dai clienti dalla vetrina. Un RMA può essere generato solo se nell&#39;ordine è presente un articolo disponibile per la restituzione. Le richieste di restituzione di singoli elementi sono gestite dall&#39;attributo _Abilita RMA_ in ogni record di prodotto. Per impostazione predefinita, le impostazioni di configurazione vengono applicate al prodotto (_[!UICONTROL Use Config Settings]_&#x200B;è selezionato). Se&#x200B;_[!UICONTROL Enable RMA]_ è impostato su `No`, il prodotto non viene visualizzato nell&#39;elenco degli elementi disponibili per la restituzione. Se si modifica l&#39;impostazione _Abilita RMA_, questa verrà applicata sia agli ordini nuovi che a quelli esistenti.
 
 ## Abilita RMA per lo store
 
@@ -40,7 +49,7 @@ Quando questa opzione è abilitata, le richieste RMA possono essere inviate dai 
 
    Questa impostazione determina il comportamento dell&#39;attributo _Abilita RMA_ per i singoli prodotti nella vetrina:
 
-   - Quando [!UICONTROL Enable RMA on Product Level] è impostato su `Yes`, i clienti della vetrina possono restituire tutti i singoli prodotti. Include sia _[!UICONTROL Enable RMA]_= `Yes` che_[!UICONTROL Enable RMA]_ = `No` valori di attributo del prodotto.
+   - Quando [!UICONTROL Enable RMA on Product Level] è impostato su `Yes`, i clienti della vetrina possono restituire tutti i singoli prodotti. Include sia _[!UICONTROL Enable RMA]_= `Yes` che&#x200B;_[!UICONTROL Enable RMA]_ = `No` valori di attributo del prodotto.
    - Quando [!UICONTROL Enable RMA on Product Level] è impostato su `No`, i clienti della vetrina possono restituire solo i prodotti con un valore di attributo di prodotto _[!UICONTROL Enable RMA]_= `Yes`.
 
 1. Imposta **[!UICONTROL Use Store Address]** su uno dei seguenti valori:

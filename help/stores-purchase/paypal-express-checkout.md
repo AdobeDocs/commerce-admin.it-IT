@@ -5,11 +5,22 @@ exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3148
@@ -100,13 +111,13 @@ Puoi avere due soluzioni PayPal attive contemporaneamente: PayPal Express Checko
 
 1. Se nell&#39;installazione sono presenti più siti Web, store o visualizzazioni, impostare **[!UICONTROL Store View]** sulla visualizzazione dello store in cui si desidera applicare questa configurazione.
 
-1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**in cui si trova la tua azienda.
+1. Nella sezione _[!UICONTROL Merchant Location]_, seleziona **[!UICONTROL Merchant Country]**&#x200B;in cui si trova la tua azienda.
 
    Questa impostazione determina la selezione delle soluzioni PayPal visualizzate nella configurazione.
 
    ![Paese esercente](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL Recommended Solutions]_, fare clic su **[!UICONTROL Configure]**per **[!UICONTROL PayPal Express Checkout]**.
+1. In _[!UICONTROL Recommended Solutions]_, fare clic su **[!UICONTROL Configure]**&#x200B;per **[!UICONTROL PayPal Express Checkout]**.
 
    ![Configura pagamento PayPal Express](./assets/paypal-express-checkout.png){width="600"}
 
@@ -318,7 +329,7 @@ Imposta **[!UICONTROL Enable PayPal PayLater Experience]** su uno dei seguenti:
    - `Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente.
    - `Order` - L&#39;importo dell&#39;ordine non viene acquisito o autorizzato nel saldo cliente, nel conto bancario o nella carta di credito di PayPal. L&#39;azione di pagamento dell&#39;ordine rappresenta un accordo tra il sistema di pagamento PayPal e l&#39;esercente. Consente al commerciante di acquisire uno o più importi fino al totale ordinato dal conto dell’acquirente del cliente, in un periodo massimo di 29 giorni. Una volta ordinati i fondi, il commerciante può catturarli in qualsiasi momento durante il successivo periodo di 29 giorni. L&#39;acquisizione dell&#39;importo dell&#39;ordine può essere eseguita solo dall&#39;amministratore di Commerce creando una o più fatture.
 
-1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**su `Yes`.
+1. Per visualizzare il pulsante _[!UICONTROL Check out with PayPal]_&#x200B;nella pagina del prodotto, impostare **[!UICONTROL Display on Product Details Page]**&#x200B;su `Yes`.
 
 1. Se l&#39;azione di pagamento è impostata su `Order`, completare le operazioni seguenti
 

@@ -4,11 +4,22 @@ description: Consulta le note sulla versione per informazioni su tutte le  [!DNL
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
 TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3533
@@ -133,11 +144,11 @@ Inventory management 1.2.4 (versione modulo: `magento/inventory-metapackage = 1.
 
 ![Problema risolto](../assets/fix.svg) È stata migliorata la gestione delle scorte di magazzino che superano i 10.000 elementi. In precedenza, a volte i problemi di prestazioni impedivano ai commercianti di modificare le risorse in Admin prima di avviare il sito web. <!--- MC-42643-->
 
-![Problema risolto](../assets/fix.svg) La pagina **[!UICONTROL User Roles]** nell&#39;amministratore è stata aggiornata per fornire agli amministratori autorizzazioni limitate di accesso alla configurazione dei metodi di consegna. La sezione _Metodi di spedizione_ è stata rinominata in _[!UICONTROL Delivery methods]_e_[!UICONTROL In-Store Pickup]_ è stata spostata nella sezione _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![Problema risolto](../assets/fix.svg) La pagina **[!UICONTROL User Roles]** nell&#39;amministratore è stata aggiornata per fornire agli amministratori autorizzazioni limitate di accesso alla configurazione dei metodi di consegna. La sezione _Metodi di spedizione_ è stata rinominata in _[!UICONTROL Delivery methods]_&#x200B;e_[!UICONTROL In-Store Pickup]_ è stata spostata nella sezione _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![Problema risolto](../assets/fix.svg) Adobe Commerce non crea più una prenotazione di prodotto duplicata dopo che una nota di credito è stata aggiornata dall&#39;API. <!--- MC-41757-->
 
-![È stato risolto il problema](../assets/fix.svg) Il passaggio dalla scheda _[!UICONTROL Pick up in Store]_alla scheda_[!UICONTROL Shipping]_ nel flusso di lavoro di estrazione non attiva più un errore JavaScript quando è disponibile solo la consegna di ritiro nello store. <!--- MC-42808-->
+![È stato risolto il problema](../assets/fix.svg) Il passaggio dalla scheda _[!UICONTROL Pick up in Store]_&#x200B;alla scheda&#x200B;_[!UICONTROL Shipping]_ nel flusso di lavoro di estrazione non attiva più un errore JavaScript quando è disponibile solo la consegna di ritiro nello store. <!--- MC-42808-->
 
 ![Problema risolto](../assets/fix.svg) La quantità di prodotto vendibile e la quantità di prodotto in magazzino ora sono sincronizzate correttamente. In precedenza, per gli ordini annullati non veniva ricreato il compenso per l&#39;impegno di magazzino. <!--- MC-42485-->
 
@@ -226,9 +237,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.4 (versione modulo: `inventory-composer-metapackage = 1.1.4`) è supportato con la versione 2.3.4 e compatibile con le versioni 2.3.3, 2.3.2, 2.3.1 e 2.3.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e la base di codice Magento Open Source.
 
-![È stato risolto il problema ](../assets/fix.svg)**Sono state migliorate le prestazioni.** È stata introdotta una logica di bunching per il comando CLI delle prenotazioni di inventario per ridurre l’utilizzo della memoria ed evitare casi in cui il processo si blocca senza alcuna risposta.
+![È stato risolto il problema &#x200B;](../assets/fix.svg)**Sono state migliorate le prestazioni.** È stata introdotta una logica di bunching per il comando CLI delle prenotazioni di inventario per ridurre l’utilizzo della memoria ed evitare casi in cui il processo si blocca senza alcuna risposta.
 
-![Nuovo ](../assets/new.svg)**Maggiore copertura dei test.** Sono stati introdotti molti nuovi test funzionali. Quasi tutti gli scenari di magazzino manuali sono coperti da test automatizzati.
+![Nuovo &#x200B;](../assets/new.svg)**Maggiore copertura dei test.** Sono stati introdotti molti nuovi test funzionali. Quasi tutti gli scenari di magazzino manuali sono coperti da test automatizzati.
 
 ![Problema noto](../assets/bug.svg) Numerose correzioni mirate a risolvere problemi relativi a note di credito, prodotti raggruppati e azioni di massa per scorte e origini.
 
@@ -236,15 +247,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.3 (versione modulo: `inventory-composer-metapackage = 1.1.3`) è supportato con la versione 2.3.3 e compatibile con le versioni 2.3.2, 2.3.1 e 2.3.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e la base di codice Magento Open Source.
 
-![È stato risolto il problema ](../assets/fix.svg)**Migliore integrazione con le funzionalità di Adobe Commerce e B2B.** [!DNL Inventory Management] ora funziona correttamente con le seguenti funzionalità per i siti Web che utilizzano origini e scorte di magazzino non predefinite:
+![È stato risolto il problema &#x200B;](../assets/fix.svg)**Migliore integrazione con le funzionalità di Adobe Commerce e B2B.** [!DNL Inventory Management] ora funziona correttamente con le seguenti funzionalità per i siti Web che utilizzano origini e scorte di magazzino non predefinite:
 
 - Ordina per SKU (Adobe Commerce)
 - Ordine rapido (B2B)
 - Elenchi richieste di acquisto (B2B)
 
-![Nuovo ](../assets/new.svg)**Prestazioni migliorate.** Le prestazioni di esplorazione del catalogo Storefront sono migliorate per i siti Web che eseguono le scorte di magazzino e l&#39;origine predefinite.
+![Nuovo &#x200B;](../assets/new.svg)**Prestazioni migliorate.** Le prestazioni di esplorazione del catalogo Storefront sono migliorate per i siti Web che eseguono le scorte di magazzino e l&#39;origine predefinite.
 
-![Nuovo ](../assets/new.svg)**Maggiore copertura dei test.** La copertura automatizzata dei test funzionali e di integrazione è aumentata in modo significativo.
+![Nuovo &#x200B;](../assets/new.svg)**Maggiore copertura dei test.** La copertura automatizzata dei test funzionali e di integrazione è aumentata in modo significativo.
 
 ## 1.1.2
 

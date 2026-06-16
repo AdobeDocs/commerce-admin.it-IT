@@ -5,11 +5,22 @@ exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
 TQID: https://experienceleague.adobe.com/htuqRHD-ZLrN42IPAdZrEzbea8UirA0xS9eMcksZNQs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1203
@@ -81,7 +92,7 @@ Per impostare e configurare lo strumento Security Scan per il tuo sito Adobe Com
 
    1. Al termine, fare clic su **[!UICONTROL Save Configuration]**.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
 
 >[!TAB vetrina PWA]
 
@@ -123,7 +134,7 @@ Per impostare e configurare lo strumento Security Scan per il tuo sito Adobe Com
 
       Al termine del processo di generazione, le modifiche verranno distribuite nella vetrina PWA.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
 
 >[!TAB AEM Storefront]
 
@@ -156,7 +167,7 @@ Per impostare e configurare lo strumento Security Scan per il tuo sito Adobe Com
 
    Al termine del processo di generazione, le modifiche verranno distribuite nella parte anteriore dello store di AEM.
 
-1. Torna alla pagina _[!UICONTROL Security Scan]_nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**per stabilire la proprietà del dominio.
+1. Torna alla pagina _[!UICONTROL Security Scan]_&#x200B;nel tuo account Commerce e fai clic su **[!UICONTROL Verify Confirmation Code]**&#x200B;per stabilire la proprietà del dominio.
 
 >[!ENDTABS]
 
@@ -215,7 +226,7 @@ Di seguito sono riportati alcuni scenari comuni in cui è possibile contrassegna
 
 Per gestire gli errori di scansione identificati come falsi positivi, effettua le seguenti operazioni:
 
-1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**per il sito che si desidera gestire.
+1. Dalla pagina _[!UICONTROL Monitored Websites]_, fare clic su **[!UICONTROL View Report]**&#x200B;per il sito che si desidera gestire.
 
 1. Nella visualizzazione report, individuare la scansione non riuscita che si desidera contrassegnare come falso positivo.
 
@@ -225,7 +236,7 @@ Per gestire gli errori di scansione identificati come falsi positivi, effettua l
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_ed è escluso dal punteggio di rischio.
+L&#39;errore di scansione ignorato viene spostato nella sezione _[!UICONTROL Ignored Results]_&#x200B;ed è escluso dal punteggio di rischio.
 
 ### Interrompi ignoramento errori di scansione
 
@@ -239,7 +250,7 @@ Se è necessario ripristinare un errore di scansione precedentemente ignorato ne
 
 1. Fai clic su **[!UICONTROL Apply Changes]** per salvare la selezione.
 
-L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_ed è incluso nel punteggio di rischio.
+L&#39;errore di scansione torna alla sezione _[!UICONTROL Failed Scans]_&#x200B;ed è incluso nel punteggio di rischio.
 
 ### Visualizza errori di scansione ignorati
 

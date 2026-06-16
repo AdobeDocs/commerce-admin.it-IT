@@ -5,11 +5,20 @@ exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 943
@@ -23,7 +32,7 @@ Il contenuto può essere visualizzato in termini di durata, come qualsiasi prodo
 
 I contenuti con una lunga durata di conservazione sono talvolta denominati _contenuti sempreverdi_. Esempi di contenuti fissi includono storie di successo dei clienti, _istruzioni su_ e domande frequenti (FAQ). Al contrario, i contenuti che per loro natura sono deperibili includono eventi, notizie del settore e comunicati stampa.
 
-![Pagina Informazioni su di noi inclusa nell&#39;archivio Luma di esempio ](./assets/storefront-about-us.png){width="700" zoomable="yes"}
+![Pagina Informazioni su di noi inclusa nell&#39;archivio Luma di esempio &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}
 
 ## Pagine contenuto core
 
@@ -94,7 +103,7 @@ La configurazione di _Pagine predefinite_ determina la pagina di destinazione as
 
    >[!NOTE]
    >
-   >Per una visualizzazione archivio specifica, deselezionare la casella di controllo **[!UICONTROL Use Default]** accanto a _[!UICONTROL Default Web URL]_ed eventuali altre impostazioni predefinite da modificare.
+   >Per una visualizzazione archivio specifica, deselezionare la casella di controllo **[!UICONTROL Use Default]** accanto a _[!UICONTROL Default Web URL]_&#x200B;ed eventuali altre impostazioni predefinite da modificare.
 
 1. Impostare **[!UICONTROL CMS Home Page]** sulla pagina CMS da utilizzare come home page. Altre pagine create possono essere utilizzate come home page, ad esempio:
 

@@ -4,11 +4,19 @@ description: I clienti possono visualizzare le informazioni sul rimborso associa
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
 TQID: https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 978
@@ -24,13 +32,13 @@ La creazione di un segmento cliente è simile alla creazione di una [regola prez
 
 ![Elenco segmenti clienti](assets/customer-segments.png){width="700" zoomable="yes"}
 
-Griglia _**[!UICONTROL Customer Segments]**_
+Griglia _&#x200B;**[!UICONTROL Customer Segments]**&#x200B;_
 
 | Colonna | Descrizione |
 |--- |--- |
 | **[!UICONTROL ID]** | ID univoco del segmento del cliente. |
 | **[!UICONTROL Segment]** | Il nome del segmento del cliente. |
-| **[!UICONTROL Status]** | Indica se il segmento del cliente è _[!UICONTROL Active]_o_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indica se il segmento del cliente è _[!UICONTROL Active]_&#x200B;o_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indica il sito web a cui appartiene il segmento di clienti. |
 
 {style="table-layout:auto"}
@@ -121,7 +129,7 @@ Le condizioni possibili sono organizzate nei seguenti gruppi:
 
 1. Nel riquadro sinistro fare clic su **[!UICONTROL Conditions]**.
 
-   La condizione predefinita inizia con _[!UICONTROL If ALL of these conditions are TRUE:]_sulla pagina.
+   La condizione predefinita inizia con _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;sulla pagina.
 
    ![Condizioni](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -167,7 +175,7 @@ Le condizioni possibili sono organizzate nei seguenti gruppi:
 
 1. Il segmento cliente ora può essere utilizzato per il targeting di promozioni, contenuti e comunicazioni.
 
-Griglia _**[!UICONTROL Matched Customers]**_
+Griglia _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
 
 | Colonna | Descrizione |
 |--- |--- |
@@ -197,7 +205,7 @@ Griglia _**[!UICONTROL Matched Customers]**_
 
 | Pulsante | Descrizione |
 |--- |--- |
-| **[!UICONTROL Back]** | Torna alla pagina _[!UICONTROL Customer Segments]_senza salvare le modifiche. |
+| **[!UICONTROL Back]** | Torna alla pagina _[!UICONTROL Customer Segments]_&#x200B;senza salvare le modifiche. |
 | **[!UICONTROL Delete]** | Elimina il segmento cliente corrente. I clienti o gli ordini completati associati al cliente nel segmento non vengono rimossi. |
 | **[!UICONTROL Reset]** | Ripristina i valori precedenti delle modifiche non salvate nel modulo del segmento cliente. |
 | **[!UICONTROL Refresh Segment Data]** | Aggiorna i dati del segmento ai valori salvati più di recente. Rilevante se i dati di un segmento non sono disponibili o sono obsoleti. |

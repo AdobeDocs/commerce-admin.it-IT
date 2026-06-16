@@ -4,12 +4,26 @@ description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL C
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
 TQID: https://experienceleague.adobe.com/eZF-dmYG4p8BwVNA5SWtj-3y2flfLP1H9CRcPsd1tFI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1908
@@ -64,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | Visualizzazione store | Identifica il modello di e-mail utilizzato per l&#39;e-mail predefinita di _Benvenuto_. |
 | [!UICONTROL Default Welcome Email Without Password] | Visualizzazione store | Modello e-mail di benvenuto alternativo utilizzato per i nuovi account cliente creati dall&#39;amministratore a cui non è ancora stata assegnata una password. |
 | [!UICONTROL Email Sender] | Visualizzazione store | Identifica il contatto del negozio che viene visualizzato come mittente dell&#39;e-mail di benvenuto. |
-| [!UICONTROL Require Emails Confirmation] | Sito Web | Determina se una richiesta di creazione di un account richiede la conferma del cliente. Opzioni: `Yes` / `No`. <br/><br/> _**Nota:**_ a partire dalla versione 2.4.7, i clienti devono reimmettere l&#39;e-mail e la password per accedere al proprio account dopo la conferma dell&#39;e-mail, indipendentemente dal browser. |
+| [!UICONTROL Require Emails Confirmation] | Sito Web | Determina se una richiesta di creazione di un account richiede la conferma del cliente. Opzioni: `Yes` / `No`. <br/><br/> _&#x200B;**Nota:**&#x200B;_ a partire dalla versione 2.4.7, i clienti devono reimmettere l&#39;e-mail e la password per accedere al proprio account dopo la conferma dell&#39;e-mail, indipendentemente dal browser. |
 | [!UICONTROL Confirmation Link Email] | Visualizzazione store | Identifica il modello e-mail utilizzato per l’e-mail di conferma. Modello predefinito: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | Visualizzazione store | Identifica il modello di e-mail utilizzato per il messaggio di benvenuto inviato dopo la conferma dell’account. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Globale | Determina se il campo utilizzato per immettere e memorizzare il numero di partita IVA è visibile dalla vetrina. Opzioni: `Yes` / `No` |
@@ -125,7 +139,7 @@ ht-degree: 0%
 | [!UICONTROL Show Suffix] | Sito Web | Determina se il nome del cliente include un suffisso alla fine, ad esempio Jr., Sr. e III. Opzioni: `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | Sito Web | Definisce l&#39;elenco delle opzioni di suffisso. Separare i valori con un punto e virgola. Inserire un punto e virgola prima del primo valore per visualizzare un valore vuoto nella parte superiore dell&#39;elenco. |
 | [!UICONTROL Show Date of Birth] | Sito Web | Determina se la data di nascita del cliente è inclusa nel modulo del nome e dell&#39;indirizzo. Opzioni: `No` / `Optional` / `Required` <br><br>**_Importante:_** In linea con le attuali best practice per la sicurezza e la privacy, tieni presente eventuali rischi legali e di sicurezza associati all&#39;archiviazione della data di nascita completa (mese, giorno, anno) dei clienti con altri identificatori personali. Si consiglia di limitare la memorizzazione delle date di nascita complete dei clienti e, in alternativa, di utilizzare l’anno di nascita del cliente. |
-| [!UICONTROL Show Tax/VAT Number] | Sito Web | Determina se il codice fiscale o il numero di partita IVA [1} è incluso nel modulo del nome e dell&#39;indirizzo. ](../../stores-purchase/vat.md)Opzioni: `No` / `Optional` / `Required` |
+| [!UICONTROL Show Tax/VAT Number] | Sito Web | Determina se il codice fiscale o il numero di partita IVA [1&rbrace; è incluso nel modulo del nome e dell&#39;indirizzo. &#x200B;](../../stores-purchase/vat.md)Opzioni: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | Sito Web | Determina se il genere è incluso nel modulo del nome e dell&#39;indirizzo. Opzioni: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | Sito Web | Determina se il numero di telefono del cliente è incluso nel modulo del nome e dell&#39;indirizzo. Opzioni: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Company] | Sito Web | Determina se la società del cliente è inclusa nel modulo del nome e dell&#39;indirizzo. Opzioni: `No` / `Optional` / `Required` |
@@ -221,8 +235,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | Sito Web | Abilita il CAPTCHA negli store associati al sito Web Commerce. Opzioni: `Yes` / `No` |
 | [!UICONTROL Font] | Sito Web | Determina il font utilizzato per visualizzare il CAPTCHA. Per aggiungere un carattere personalizzato, inserire il file del carattere nella stessa directory dell&#39;installazione di Commerce e aggiungere la dichiarazione al file `config.xml` in `app/code/Magento/Captcha/etc`. |
-| [!UICONTROL Forms] | Sito Web | Determina i moduli in cui viene utilizzato CAPTCHA. Opzioni: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (vedi [patch di sicurezza](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**Nota:**_ I moduli Crea utente, Password dimenticata e Payflow Pro sono sempre abilitati se selezionati. |
-| [!UICONTROL Displaying Mode] | Sito Web | Determina quando viene visualizzato il CAPTCHA. Opzioni: <br/>**`Always`**- CAPTCHA è sempre richiesto per accedere.<br/>**`After number of attempts to login`** - Questa opzione è valida solo per il modulo di accesso amministratore. Se selezionata, viene visualizzato il campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_. Immetti il numero di tentativi di accesso che desideri consentire. Un valore di `0` (zero) è simile all&#39;impostazione di [!UICONTROL Displaying Mode] su `Always`.<br/>_**Nota:**_Per tenere traccia del numero di tentativi di accesso non riusciti, viene conteggiato ogni tentativo di accesso con un solo indirizzo e-mail e da un solo indirizzo IP. Il numero massimo di tentativi di accesso consentiti dallo stesso indirizzo IP è 1.000. Questa limitazione si applica solo quando CAPTCHA è abilitato. |
+| [!UICONTROL Forms] | Sito Web | Determina i moduli in cui viene utilizzato CAPTCHA. Opzioni: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (vedi [patch di sicurezza](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**Nota:**&#x200B;_ I moduli Crea utente, Password dimenticata e Payflow Pro sono sempre abilitati se selezionati. |
+| [!UICONTROL Displaying Mode] | Sito Web | Determina quando viene visualizzato il CAPTCHA. Opzioni: <br/>**`Always`**- CAPTCHA è sempre richiesto per accedere.<br/>**`After number of attempts to login`** - Questa opzione è valida solo per il modulo di accesso amministratore. Se selezionata, viene visualizzato il campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_. Immetti il numero di tentativi di accesso che desideri consentire. Un valore di `0` (zero) è simile all&#39;impostazione di [!UICONTROL Displaying Mode] su `Always`.<br/>_&#x200B;**Nota:**&#x200B;_Per tenere traccia del numero di tentativi di accesso non riusciti, viene conteggiato ogni tentativo di accesso con un solo indirizzo e-mail e da un solo indirizzo IP. Il numero massimo di tentativi di accesso consentiti dallo stesso indirizzo IP è 1.000. Questa limitazione si applica solo quando CAPTCHA è abilitato. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Sito Web | Specifica quante volte un cliente può tentare di accedere prima che l&#39;account venga bloccato. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Sito Web | Determina la durata del CAPTCHA corrente. Alla scadenza del CAPTCHA, l’utente deve ricaricare la pagina. |
 | [!UICONTROL Number of Symbols] | Sito Web | Determina il numero di simboli visualizzati nel CAPTCHA, con un massimo di 8. È inoltre possibile specificare un intervallo, ad esempio 5-8. |

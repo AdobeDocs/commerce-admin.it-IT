@@ -4,11 +4,20 @@ description: Scopri come aggiungere e rimuovere le pagine di contenuto utilizzat
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/NUP56gvdWU0EMfq9HSMD9GG1YcZhFgYaEIXVQqtxl4U
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1216
@@ -162,7 +171,7 @@ A seconda della [configurazione avanzata degli strumenti di contenuto](../config
 
 ### Passaggio 8: pubblicare la pagina
 
-1. Selezionare **[!UICONTROL Edit]** nella colonna _[!UICONTROL Action]_della griglia.
+1. Selezionare **[!UICONTROL Edit]** nella colonna _[!UICONTROL Action]_&#x200B;della griglia.
 
 1. Imposta **[!UICONTROL Enable Page]** su `Yes`.
 
@@ -217,7 +226,7 @@ Qualsiasi pagina di contenuto può essere utilizzata come modello e salvata come
 
 ## Eliminare una pagina
 
-Esistono due modi per rimuovere una pagina creata. È possibile rimuoverlo dalla griglia _[!UICONTROL Pages]_o dalla pagina_[!UICONTROL Edit]_.
+Esistono due modi per rimuovere una pagina creata. È possibile rimuoverlo dalla griglia _[!UICONTROL Pages]_&#x200B;o dalla pagina&#x200B;_[!UICONTROL Edit]_.
 
 ### Metodo 1: rimuovere una pagina dalla griglia Pagine
 
@@ -235,7 +244,7 @@ Esistono due modi per rimuovere una pagina creata. È possibile rimuoverlo dalla
 
 1. Trova la pagina da eliminare.
 
-1. Nella colonna _[!UICONTROL Actions]_dell&#39;entità pagina fare clic su **[!UICONTROL Select]**e scegliere **[!UICONTROL Edit]**.
+1. Nella colonna _[!UICONTROL Actions]_&#x200B;dell&#39;entità pagina fare clic su **[!UICONTROL Select]**&#x200B;e scegliere **[!UICONTROL Edit]**.
 
 1. Nella barra dei pulsanti fare clic su **[!UICONTROL Delete Page]**.
 

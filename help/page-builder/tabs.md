@@ -4,11 +4,19 @@ description: Scopri il tipo di contenuto Schede, utilizzato per aggiungere un se
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/p8-6Q5JB1-j0TcS9MCp6VDDM--GG3Rd-dUMYguPbngw
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2041
@@ -62,7 +70,7 @@ Quando si utilizza il tipo di contenuto _Schede_, è possibile aggiungere e modi
 
 ## Aggiungi una singola scheda
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina il segnaposto **[!UICONTROL Tabs]**direttamente nell&#39;area di visualizzazione oppure in una riga o colonna nell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina il segnaposto **[!UICONTROL Tabs]**&#x200B;direttamente nell&#39;area di visualizzazione oppure in una riga o colonna nell&#39;area di visualizzazione.
 
    ![Trascinamento delle schede in una riga](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

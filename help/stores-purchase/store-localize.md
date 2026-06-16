@@ -4,11 +4,18 @@ description: Scopri come localizzare una visualizzazione store o store.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 744
@@ -94,7 +101,7 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Manage Labels]**.
 
-1. Nella sezione _[!UICONTROL Manage Titles]_immettere un&#39;etichetta tradotta per ogni visualizzazione dello store.
+1. Nella sezione _[!UICONTROL Manage Titles]_&#x200B;immettere un&#39;etichetta tradotta per ogni visualizzazione dello store.
 
    ![Immetti etichette tradotte](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -110,7 +117,7 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
 
 1. Per _Informazioni di base_, traduci **[!UICONTROL Category Name]**.
 
-1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Content]_e traduci **[!UICONTROL Description]**.
+1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Content]_&#x200B;e traduci **[!UICONTROL Description]**.
 
 1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization Settings]** e traduci i campi seguenti:
 

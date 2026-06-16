@@ -4,11 +4,25 @@ description: Scopri quali funzionalità di Adobe [!DNL Commerce] ti consentono d
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
 TQID: https://experienceleague.adobe.com/-0DU5NwX3wJZO91Z4jDmIGAXGZGCbtOqy1xJPpIom88
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2334
@@ -112,7 +126,7 @@ I clienti di Adobe [!DNL Commerce] utilizzano funzionalità predefinite e condiv
 
 | Caso d’uso | Soluzione |
 |---|---|
-| **Contenuto del sito personalizzato** - Personalizza i banner del sito e altri contenuti della pagina in base alle azioni dell&#39;acquirente, ad esempio la navigazione del prodotto e le affinità tra categorie. Distribuisci contenuti ottimali in base ai risultati dei test A/B o agli obiettivi aziendali. | **Solo per Adobe [!DNL Commerce]**:<br>Distribuisci [blocchi di contenuto dinamici specifici del segmento](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] con Real-Time CDP **:<br>Utilizza [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) per distribuire blocchi di contenuto dinamici specifici per il pubblico che rispondono alle azioni in tempo reale e ai dati unificati del profilo cliente, gestendo al tempo stesso in modo centralizzato profili e tipi di pubblico in Real-Time CDP.<br>**[!DNL Commerce] con[!DNL Target]**:<br>Personalizza ogni parte dell&#39;esperienza del sito, inclusi il contenuto, gli elementi di navigazione, i layout a pagina intera e altro ancora utilizzando i dati di Adobe [!DNL Commerce] in Adobe [!DNL Target]. Contenuto test A/B, seleziona e distribuisci automaticamente il contenuto vincente per ogni cliente.<br>**[!DNL Commerce] con AEM Assets **:<br>Archivia tutti i contenuti in Adobe Experience Manager Assets. Accedi in modo nativo a tale contenuto da Adobe Commerce. Utilizza l’intelligenza artificiale generativa per creare varianti di contenuto da personalizzare per diversi segmenti o tipi di pubblico. |
+| **Contenuto del sito personalizzato** - Personalizza i banner del sito e altri contenuti della pagina in base alle azioni dell&#39;acquirente, ad esempio la navigazione del prodotto e le affinità tra categorie. Distribuisci contenuti ottimali in base ai risultati dei test A/B o agli obiettivi aziendali. | **Solo per Adobe [!DNL Commerce]**:<br>Distribuisci [blocchi di contenuto dinamici specifici del segmento](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] con Real-Time CDP &#x200B;**:<br>Utilizza [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) per distribuire blocchi di contenuto dinamici specifici per il pubblico che rispondono alle azioni in tempo reale e ai dati unificati del profilo cliente, gestendo al tempo stesso in modo centralizzato profili e tipi di pubblico in Real-Time CDP.<br>**[!DNL Commerce] con[!DNL Target]**:<br>Personalizza ogni parte dell&#39;esperienza del sito, inclusi il contenuto, gli elementi di navigazione, i layout a pagina intera e altro ancora utilizzando i dati di Adobe [!DNL Commerce] in Adobe [!DNL Target]. Contenuto test A/B, seleziona e distribuisci automaticamente il contenuto vincente per ogni cliente.<br>**[!DNL Commerce] con AEM Assets &#x200B;**:<br>Archivia tutti i contenuti in Adobe Experience Manager Assets. Accedi in modo nativo a tale contenuto da Adobe Commerce. Utilizza l’intelligenza artificiale generativa per creare varianti di contenuto da personalizzare per diversi segmenti o tipi di pubblico. |
 | **Offerta personalizzata nel sito in base al comportamento**: personalizza le promozioni in base alle azioni dell&#39;acquirente, ad esempio la navigazione dei prodotti e le affinità tra categorie. Distribuisci la migliore offerta successiva in base ai risultati dei test A/B o agli obiettivi aziendali. | **Solo per Adobe [!DNL Commerce]**:<br>Distribuisci catalogo specifico per segmento e [regole prezzo carrello](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] con Real-Time CDP**:<br>Utilizza [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) per distribuire offerte specifiche per il pubblico e gestire al contempo in modo centralizzato profili/tipi di pubblico in Real-Time CDP.<br>**Commerce con[!DNL Target]**: utilizza Offer Decisioning per determinare quale offerta distribuire, test A/B o imposta obiettivi aziendali per guidare le offerte distribuite in Adobe Commerce. |
 
 ### Analytics e approfondimenti

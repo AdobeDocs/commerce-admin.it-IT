@@ -4,11 +4,19 @@ description: Scopri la differenza tra blocchi semplici e blocchi dinamici quando
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/ZCD-tDNnFO-wtivK5wOjriexmRs8h10ZzvedjmqOIds
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2071
@@ -70,7 +78,7 @@ In questo esercizio di procedura dettagliata verrà creato un blocco semplice co
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ (![Chiudi icona schermo intero](./assets/pb-icon-reduce.png)).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per il blocco con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per il blocco con l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo superiore destro fare clic sulla freccia **[!UICONTROL Save]** e scegliere **[!UICONTROL Save & Close]**.
 
@@ -108,11 +116,11 @@ Se [!DNL Google Maps] è già configurato per il tuo archivio, puoi saltare ques
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Nella griglia, trovare _[!UICONTROL Simple Page]_creato nel primo tutorial e selezionare **[!UICONTROL Edit]**nella colonna_[!UICONTROL Action]_.
+1. Nella griglia, trovare _[!UICONTROL Simple Page]_&#x200B;creato nel primo tutorial e selezionare **[!UICONTROL Edit]**&#x200B;nella colonna&#x200B;_[!UICONTROL Action]_.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Content]** e fare clic su **[!UICONTROL Edit with Page Builder]** o all&#39;interno dell&#39;area di anteprima del contenuto.
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**nella parte superiore dell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**&#x200B;nella parte superiore dell&#39;area di visualizzazione.
 
    ![Aggiunta della riga all&#39;inizio della fase](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -136,7 +144,7 @@ Se [!DNL Google Maps] è già configurato per il tuo archivio, puoi saltare ques
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ (![Chiudi icona schermo intero](./assets/pb-icon-reduce.png)).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per la pagina con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per la pagina con l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo superiore destro fare clic sulla freccia **[!UICONTROL Save]** e scegliere **[!UICONTROL Save & Close]**.
 
@@ -184,11 +192,11 @@ Scorri verso il basso fino alla sezione _[!UICONTROL Content]_, che visualizza u
 
 1. Passa il puntatore del mouse sul contenitore righe per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ (![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. In _[!UICONTROL Appearance]_scegliere **[!UICONTROL Full Bleed]**.
+1. In _[!UICONTROL Appearance]_&#x200B;scegliere **[!UICONTROL Full Bleed]**.
 
 1. Per **[!UICONTROL Minimum Height]**, immettere `400px`.
 
-1. Scorri fino alla sezione _[!UICONTROL Background]_e imposta **[!UICONTROL Background Image]**facendo clic su **[!UICONTROL Select from Gallery]**e scegliendo l&#39;immagine `wide-banner-background.png` caricata nella prima esercitazione.
+1. Scorri fino alla sezione _[!UICONTROL Background]_&#x200B;e imposta **[!UICONTROL Background Image]**&#x200B;facendo clic su **[!UICONTROL Select from Gallery]**&#x200B;e scegliendo l&#39;immagine `wide-banner-background.png` caricata nella prima esercitazione.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]** per applicare le impostazioni e tornare all&#39;area di lavoro [!DNL Page Builder].
 
@@ -196,7 +204,7 @@ Scorri verso il basso fino alla sezione _[!UICONTROL Content]_, che visualizza u
 
 **Attività 2:** Aggiungi colonne
 
-Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Column]**nella riga.
+Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Column]**&#x200B;nella riga.
 
 ![Trascinamento del tipo di colonna nella riga](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -270,7 +278,7 @@ Nel primo esercizio hai imparato a utilizzare il tipo di contenuto [Button](butt
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ (![Chiudi icona schermo intero](./assets/pb-icon-reduce.png)).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per il blocco dinamico con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per il blocco dinamico con l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]**.
 
@@ -304,7 +312,7 @@ Nel primo esercizio hai imparato a utilizzare il tipo di contenuto [Button](butt
 
    Per confermare la rimozione della riga dalla pagina, fare clic su **[!UICONTROL OK]**.
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un nuovo segnaposto **[!UICONTROL Row]**nella parte superiore dell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un nuovo segnaposto **[!UICONTROL Row]**&#x200B;nella parte superiore dell&#39;area di visualizzazione.
 
 1. Nel pannello [!DNL Page Builder], espandi **[!UICONTROL Add Content]** e trascina un segnaposto **[!UICONTROL Dynamic Block]** nella nuova riga.
 
@@ -318,7 +326,7 @@ Nel primo esercizio hai imparato a utilizzare il tipo di contenuto [Button](butt
 
    ![Seleziona blocco dinamico](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. Trovare il blocco dinamico _[!DNL Tee Shirt Promo]_creato e fare clic su **[!UICONTROL Select]**.
+1. Trovare il blocco dinamico _[!DNL Tee Shirt Promo]_&#x200B;creato e fare clic su **[!UICONTROL Select]**.
 
    Di seguito viene visualizzato un riepilogo delle informazioni sul blocco dinamico.
 
@@ -332,7 +340,7 @@ Nel primo esercizio hai imparato a utilizzare il tipo di contenuto [Button](butt
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ (![Chiudi icona schermo intero](./assets/pb-icon-reduce.png)).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per la pagina con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per la pagina con l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo superiore destro fare clic sulla freccia **[!UICONTROL Save]** e scegliere **[!UICONTROL Save & Close]**.
 
@@ -348,7 +356,7 @@ In questa parte finale dell’esercizio modificherai un blocco dinamico mentre l
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-1. Trova il blocco dinamico _[!DNL Tee Shirt Promo]_nella griglia e aprilo in modalità di modifica.
+1. Trova il blocco dinamico _[!DNL Tee Shirt Promo]_&#x200B;nella griglia e aprilo in modalità di modifica.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Content]** e fare clic su **[!UICONTROL Edit with Page Builder]**.
 
@@ -374,7 +382,7 @@ In questa parte finale dell’esercizio modificherai un blocco dinamico mentre l
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ (![Chiudi icona schermo intero](./assets/pb-icon-reduce.png)).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per il blocco dinamico con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per il blocco dinamico con l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]**.
 

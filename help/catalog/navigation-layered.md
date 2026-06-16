@@ -4,12 +4,23 @@ description: Scopri come la navigazione a livelli consente agli acquirenti di tr
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
 TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1409
@@ -69,7 +80,7 @@ Le istruzioni seguenti mostrano come impostare una navigazione a livelli di base
 
 >[!NOTE]
 >
->- Se l&#39;impostazione _[!UICONTROL Use in Search]_è impostata su `No`, l&#39;impostazione_[!UICONTROL Use in Search Results Layered Navigation]_ non viene visualizzata In questo caso, l&#39;attributo product non viene utilizzato nella ricerca, indipendentemente dall&#39;impostazione [!UICONTROL Use in Layered Navigation].
+>- Se l&#39;impostazione _[!UICONTROL Use in Search]_&#x200B;è impostata su `No`, l&#39;impostazione&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ non viene visualizzata In questo caso, l&#39;attributo product non viene utilizzato nella ricerca, indipendentemente dall&#39;impostazione [!UICONTROL Use in Layered Navigation].
 >
 >- Il campo [!UICONTROL Position] è oscurato per impostazione predefinita. È necessario salvare l&#39;attributo prima di poter modificare questa impostazione.
 
@@ -105,7 +116,7 @@ Per rimuovere i valori degli attributi filtrabili con 0 prodotti dalla navigazio
 
 1. Sfoglia o utilizza la ricerca filtrata per trovare un attributo nell’elenco e aprirlo in modalità di modifica.
 
-1. In _[!UICONTROL Attribute Information]_fare clic su **[!UICONTROL Storefront Properties]**.
+1. In _[!UICONTROL Attribute Information]_&#x200B;fare clic su **[!UICONTROL Storefront Properties]**.
 
 1. Per **[!UICONTROL Layered Navigation]**, scegliere `Filterable (with results)`.
 
@@ -156,7 +167,7 @@ La suddivisione iterativa fornisce la migliore distribuzione dei prodotti tra le
 
 >[!IMPORTANT]
 >
->Per visualizzare correttamente i prodotti e i relativi prezzi in base a _filtri di prezzo_ nella navigazione a livelli, assicurarsi che le impostazioni per la visualizzazione del prezzo nella [configurazione IVA](../configuration-reference/sales/tax.md) abbiano lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla il valore **[!UICONTROL Catalog Prices]**. E per_[!UICONTROL Price Display Settings]_, controlla il valore **[!UICONTROL Display Product Prices in Catalog]**. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
+>Per visualizzare correttamente i prodotti e i relativi prezzi in base a _filtri di prezzo_ nella navigazione a livelli, assicurarsi che le impostazioni per la visualizzazione del prezzo nella [configurazione IVA](../configuration-reference/sales/tax.md) abbiano lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla il valore **[!UICONTROL Catalog Prices]**. E per&#x200B;_[!UICONTROL Price Display Settings]_, controlla il valore **[!UICONTROL Display Product Prices in Catalog]**. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -218,7 +229,7 @@ La configurazione della navigazione a livelli determina se un conteggio dei prod
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Nel pannello a sinistra, espandi la sezione _[!UICONTROL Catalog]_e scegli **[!UICONTROL Catalog]**sotto.
+1. Nel pannello a sinistra, espandi la sezione _[!UICONTROL Catalog]_&#x200B;e scegli **[!UICONTROL Catalog]**&#x200B;sotto.
 
 1. Espandere la sezione _[!UICONTROL Layered Navigation]_.
 

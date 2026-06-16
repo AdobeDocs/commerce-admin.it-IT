@@ -4,11 +4,21 @@ description: Scopri come gestire le risorse immagine e video per gli elenchi dei
 exl-id: 3cb4ab8a-8966-400f-be94-a517634d1334
 feature: Catalog Management, Products, Media
 TQID: https://experienceleague.adobe.com/gbvXNkkQXUwyp7oE-xZGLEDNmsJIW4ezKHoOojdmGgA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1164
@@ -50,7 +60,7 @@ Per caricare un&#39;immagine, effettuare una delle seguenti operazioni:
 
 ### Ridisponi immagini
 
-Per modificare l&#39;ordine delle immagini nella raccolta, fare clic sull&#39;icona _[!UICONTROL Sort]_( ![Icona ordinamento](./assets/inventory-icon-sort.png) ) nella parte inferiore del riquadro immagine e trascinare l&#39;immagine in una posizione diversa nella casella_[!UICONTROL Images And Videos]_.
+Per modificare l&#39;ordine delle immagini nella raccolta, fare clic sull&#39;icona _[!UICONTROL Sort]_( ![Icona ordinamento](./assets/inventory-icon-sort.png) ) nella parte inferiore del riquadro immagine e trascinare l&#39;immagine in una posizione diversa nella casella&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Cambia ordine](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -72,13 +82,13 @@ Al termine, fare clic su **[!UICONTROL Save]**.
 
 Per migliorare l’accessibilità web, gli assistenti vocali fanno riferimento al testo Image Alt e i motori di ricerca durante l’indicizzazione del sito fanno riferimento a tale testo. Alcuni browser visualizzano il testo Alt al passaggio del mouse. Il testo alternativo può contenere diverse parole e includere parole chiave selezionate con attenzione.
 
-Nella casella _[!UICONTROL Alt Text]_immettere una breve descrizione dell&#39;immagine.
+Nella casella _[!UICONTROL Alt Text]_&#x200B;immettere una breve descrizione dell&#39;immagine.
 
 #### Assegna ruoli
 
 Per impostazione predefinita, tutti i ruoli vengono assegnati alla prima immagine caricata sul prodotto. Per riassegnare un ruolo a un&#39;altra immagine, effettuare le seguenti operazioni:
 
-Nella casella _[!UICONTROL Role]_scegliere il ruolo che si desidera assegnare all&#39;immagine.
+Nella casella _[!UICONTROL Role]_&#x200B;scegliere il ruolo che si desidera assegnare all&#39;immagine.
 
 Quando ritorni alla sezione _Immagini e video_, i ruoli attualmente assegnati vengono visualizzati sotto ogni immagine.
 
@@ -92,7 +102,7 @@ Per escludere un&#39;immagine dalla raccolta miniature, selezionare la casella d
 
 ## Gestione di immagini e video a livello di visualizzazione store
 
-Quando si passa il selettore **[!UICONTROL Store View]** a una visualizzazione archivio specifica (non **[!UICONTROL All Store Views]**), la sezione _[!UICONTROL Images and Videos]_fornisce ulteriori controlli per gestire la modalità di visualizzazione delle immagini per tale visualizzazione archivio senza influire sull&#39;ambito predefinito.
+Quando si passa il selettore **[!UICONTROL Store View]** a una visualizzazione archivio specifica (non **[!UICONTROL All Store Views]**), la sezione _[!UICONTROL Images and Videos]_&#x200B;fornisce ulteriori controlli per gestire la modalità di visualizzazione delle immagini per tale visualizzazione archivio senza influire sull&#39;ambito predefinito.
 
 ### Riordinare le immagini per una visualizzazione store
 

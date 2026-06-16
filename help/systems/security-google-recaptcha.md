@@ -5,12 +5,23 @@ exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
 TQID: https://experienceleague.adobe.com/5gL6LIi-okCkQAu--QI4aLcyHlCiNZChc5KtA7t99pA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1095
@@ -93,7 +104,7 @@ Google reCAPTCHA richiede una coppia di chiavi API per abilitare. Puoi ottenere 
    >
    >Deselezionare la casella di controllo **[!UICONTROL Use system value]** per ogni campo che si desidera configurare.
 
-1. Per utilizzare _[!DNL reCAPTCHA v2 ("I am not a robot")]_, espandere la sezione **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**ed eseguire le operazioni seguenti:
+1. Per utilizzare _[!DNL reCAPTCHA v2 ("I am not a robot")]_, espandere la sezione **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;ed eseguire le operazioni seguenti:
 
    - Per **[!UICONTROL Google API Website Key]**, immettere la chiave del sito Web creata per questo tipo reCAPTCHA al momento della registrazione dell&#39;account Google reCAPTCHA.
 
@@ -103,11 +114,11 @@ Google reCAPTCHA richiede una coppia di chiavi API per abilitare. Puoi ottenere 
 
    - Per **[!UICONTROL Theme]**, scegliere il tema da utilizzare per assegnare uno stile alla casella reCAPTCHA di Google. Opzioni: `Light Theme (default)` / `Dark Theme`
 
-   - Per **[!UICONTROL Language Code]**, immettere il codice a due caratteri per specificare il linguaggio [ utilizzato per il testo e la messaggistica Google reCAPTCHA](https://developers.google.com/recaptcha/docs/language).
+   - Per **[!UICONTROL Language Code]**, immettere il codice a due caratteri per specificare il linguaggio [&#x200B; utilizzato per il testo e la messaggistica Google reCAPTCHA](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v2 - &quot;Non sono un robot&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Per utilizzare _[!DNL reCAPTCHA v2 Invisible]_, espandere la sezione **[!UICONTROL reCAPTCHA v2 Invisible]**ed eseguire le operazioni seguenti:
+1. Per utilizzare _[!DNL reCAPTCHA v2 Invisible]_, espandere la sezione **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;ed eseguire le operazioni seguenti:
 
    - Per **[!UICONTROL Google API Website Key]**, immettere la chiave del sito Web creata per questo tipo reCAPTCHA al momento della registrazione dell&#39;account Google reCAPTCHA.
 
@@ -117,11 +128,11 @@ Google reCAPTCHA richiede una coppia di chiavi API per abilitare. Puoi ottenere 
 
    - Per **[!UICONTROL Theme]**, scegliere il tema da utilizzare per assegnare uno stile alla casella Google reCAPTCHA. Opzioni: `Light Theme (default)` / `Dark Theme`
 
-   - Per **[!UICONTROL Language Code]**, immettere un codice a due caratteri che specifica il linguaggio [ utilizzato per il testo e i messaggi reCAPTCHA di Google](https://developers.google.com/recaptcha/docs/language).
+   - Per **[!UICONTROL Language Code]**, immettere un codice a due caratteri che specifica il linguaggio [&#x200B; utilizzato per il testo e i messaggi reCAPTCHA di Google](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v2 invisibile](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Per utilizzare _[!DNL reCAPTCHA v3 Invisible]_, espandere la sezione **[!UICONTROL reCAPTCHA v3 Invisible]**ed eseguire le operazioni seguenti:
+1. Per utilizzare _[!DNL reCAPTCHA v3 Invisible]_, espandere la sezione **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;ed eseguire le operazioni seguenti:
 
    - Per **[!UICONTROL Google API Website Key]**, immettere la chiave del sito Web creata per questo tipo reCAPTCHA al momento della registrazione dell&#39;account Google reCAPTCHA.
 
@@ -133,7 +144,7 @@ Google reCAPTCHA richiede una coppia di chiavi API per abilitare. Puoi ottenere 
 
    - Per **[!UICONTROL Theme]**, scegliere il tema da utilizzare per assegnare uno stile alla casella Google reCAPTCHA. Opzioni: `Light Theme (default)` / `Dark Theme`
 
-   - Per **[!UICONTROL Language Code]**, immettere un codice a due caratteri che specifica il linguaggio [ utilizzato per il testo e i messaggi reCAPTCHA di Google](https://developers.google.com/recaptcha/docs/language).
+   - Per **[!UICONTROL Language Code]**, immettere un codice a due caratteri che specifica il linguaggio [&#x200B; utilizzato per il testo e i messaggi reCAPTCHA di Google](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v3 invisibile](../configuration-reference/security/assets/recaptcha-admin-v3-invisible.png){width="600" zoomable="yes"}
 

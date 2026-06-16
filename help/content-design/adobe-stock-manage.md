@@ -5,10 +5,17 @@ exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1051
@@ -32,7 +39,7 @@ Il pannello di ricerca di Adobe Stock è accessibile quando [aggiungi o modifich
 
 1. Fare clic su **[!UICONTROL Add a New Page]**.
 
-   Per modificare una pagina esistente, è possibile utilizzare la colonna _[!UICONTROL Action]_per fare clic su **[!UICONTROL Select]**e scegliere **[!UICONTROL Edit]**.
+   Per modificare una pagina esistente, è possibile utilizzare la colonna _[!UICONTROL Action]_&#x200B;per fare clic su **[!UICONTROL Select]**&#x200B;e scegliere **[!UICONTROL Edit]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Content]** ed effettuare le seguenti operazioni:
 
@@ -52,7 +59,7 @@ Il pannello di ricerca di Adobe Stock è accessibile quando [aggiungi o modifich
 
    Per aggiungere l&#39;immagine a una categoria esistente, fare clic sul nome della categoria nell&#39;elenco a sinistra.
 
-1. Espandere la sezione **[!UICONTROL Content]** e in _[!UICONTROL Category Image]_fare clic su **[!UICONTROL Select from Gallery]**.
+1. Espandere la sezione **[!UICONTROL Content]** e in _[!UICONTROL Category Image]_&#x200B;fare clic su **[!UICONTROL Select from Gallery]**.
 
 1. Fare clic su **[!UICONTROL Search Adobe Stock]**.
 

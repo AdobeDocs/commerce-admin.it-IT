@@ -3,11 +3,21 @@ title: Ambito di configurazione
 description: Scopri come impostare l’ambito per le impostazioni di configurazione in Amministrazione Commerce.
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
 TQID: https://experienceleague.adobe.com/dOH8zNrJuH26wVQDh3aQP6P8xJ5qM7lEcLphkoxLnn4
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1033
@@ -33,7 +43,7 @@ Il selettore della visualizzazione archivio nell’angolo in alto a sinistra di 
 
 ## [!UICONTROL Use system value]
 
-La casella di controllo _[!UICONTROL Use System Value]_a destra di molte impostazioni di configurazione viene utilizzata per applicare o sostituire il valore del campo predefinito nell&#39;ambito di configurazione corrente. Il valore del campo predefinito non può essere modificato quando la casella di controllo è selezionata. Per modificare il valore, deselezionare la casella di controllo e immettere il nuovo valore. Viene richiesto di confermare ogni volta che si modifica il valore di sistema.
+La casella di controllo _[!UICONTROL Use System Value]_&#x200B;a destra di molte impostazioni di configurazione viene utilizzata per applicare o sostituire il valore del campo predefinito nell&#39;ambito di configurazione corrente. Il valore del campo predefinito non può essere modificato quando la casella di controllo è selezionata. Per modificare il valore, deselezionare la casella di controllo e immettere il nuovo valore. Viene richiesto di confermare ogni volta che si modifica il valore di sistema.
 
 L&#39;etichetta della casella di controllo cambia in base all&#39;ambito corrente e fa sempre riferimento al livello padre che è un passo avanti nella gerarchia dell&#39;ambito. Poiché il livello padre è un contenitore per tutti gli elementi al di sotto di tale livello, l&#39;impostazione dell&#39;ambito dal livello padre viene ereditata a meno che non venga sostituita.
 

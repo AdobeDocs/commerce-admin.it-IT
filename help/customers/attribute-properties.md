@@ -4,11 +4,23 @@ description: Scopri come configurare le proprietà degli attributi del cliente.
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
 TQID: https://experienceleague.adobe.com/87E8bc4M62TbP-gRdn-LoRzpZY7sd1o9SbMswZW0ueY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1820
@@ -42,7 +54,7 @@ Gli attributi del cliente forniscono le informazioni necessarie per supportare i
 
    >[!TIP]
    >
-   >**Collegamento:** Per completare solo i campi obbligatori, scorri verso il basso fino a _[!UICONTROL Storefront Properties]_, immetti_[!UICONTROL Sort Order]_ e salva.
+   >**Collegamento:** Per completare solo i campi obbligatori, scorri verso il basso fino a _[!UICONTROL Storefront Properties]_, immetti&#x200B;_[!UICONTROL Sort Order]_ e salva.
 
 1. Completare le proprietà di immissione dati:
 
@@ -53,7 +65,7 @@ Gli attributi del cliente forniscono le informazioni necessarie per supportare i
      | `Text Field` | Campo di testo a riga singola. |
      | `Text Area` | Campo di input a più righe per l&#39;immissione di paragrafi di testo, ad esempio la descrizione di un prodotto. È possibile utilizzare l’editor di WYSIWYG per formattare il testo con i tag di HTML oppure immettere i tag direttamente nel testo. |
      | `Multiple Line` | Crea più righe di testo per l&#39;attributo, in modo simile a un indirizzo stradale con più righe. Il numero di righe di immissione dati separate può essere compreso tra due e 20. Utilizzare `Default Value` per specificare il valore iniziale del campo. |
-     | `Date` | Visualizza un valore di data nel formato di data e fuso orario preferiti. I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_**A seconda della configurazione del sistema, gli utenti_ Amministratore_ possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Visualizza un valore di data nel formato di data e fuso orario preferiti. I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_**&#x200B;A seconda della configurazione del sistema, gli utenti_ Amministratore_ possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Visualizza un elenco a discesa con opzioni predefinite di `Yes` e `No`. |
      | `Dropdown` | Visualizza un elenco a discesa di valori che accetta una sola selezione. Il tipo di input a discesa è un componente chiave di [prodotti configurabili](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Elenco a discesa che accetta più valori da selezionare. |

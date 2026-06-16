@@ -4,11 +4,17 @@ description: Scopri il tipo di contenuto Codice HTML, utilizzato per aggiungere 
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/ik99YngYtSz14nSTu5-aXkKyJlm20oixkNIVn-O1UyM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 985
@@ -90,7 +96,7 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
 
 ### Passaggio 3: visualizzare l’anteprima della pagina
 
-1. Nella sezione _[!UICONTROL Currently Active]_, impostare **[!UICONTROL Enable Page]**su `Yes`.
+1. Nella sezione _[!UICONTROL Currently Active]_, impostare **[!UICONTROL Enable Page]**&#x200B;su `Yes`.
 
    ![Abilitazione della pagina](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -116,7 +122,7 @@ Nell&#39;esempio seguente viene illustrato come incorporare il codice [Google Fo
    | Inserisci immagine... | Fare clic per inserire un&#39;immagine caricata o un&#39;immagine dalla raccolta nella posizione del cursore nella casella di testo di HTML. |
    | Inserisci variabile... | Fare clic per inserire una variabile in corrispondenza della posizione del cursore nella casella di testo di HTML. |
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
 
    - Per controllare il posizionamento del codice all&#39;interno del contenitore padre, scegliere un **[!UICONTROL Alignment]**:
 

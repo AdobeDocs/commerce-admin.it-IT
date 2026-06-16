@@ -5,11 +5,21 @@ exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
 TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1682
@@ -159,8 +169,8 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Backup
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Globale | Determina se l’istanza di Commerce consente i backup. Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Globale | (visualizzato quando _[!UICONTROL Enable Backup]_è impostato su `Yes`.) Determina se il backup dell&#39;istanza di Commerce viene eseguito automaticamente secondo una pianificazione regolare. Opzioni: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Globale | (visualizzato quando _[!UICONTROL Enable Scheduled Backup]_è impostato su `Yes`.) Determina gli elementi dell&#39;istanza Commerce inclusi nel backup. Opzioni: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Globale | (visualizzato quando _[!UICONTROL Enable Backup]_&#x200B;è impostato su `Yes`.) Determina se il backup dell&#39;istanza di Commerce viene eseguito automaticamente secondo una pianificazione regolare. Opzioni: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Globale | (visualizzato quando _[!UICONTROL Enable Scheduled Backup]_&#x200B;è impostato su `Yes`.) Determina gli elementi dell&#39;istanza Commerce inclusi nel backup. Opzioni: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Globale | (visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Specifica l&#39;ora, il minuto e il secondo di inizio del backup pianificato. |
 | [!UICONTROL Frequency] | Globale | (visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Determina la frequenza con cui viene eseguito il backup pianificato. Opzioni: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Globale | (visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Determina se l&#39;archivio viene messo in modalità di manutenzione durante il backup pianificato. Opzioni: `Yes` / `No` |

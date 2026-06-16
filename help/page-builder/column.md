@@ -4,11 +4,21 @@ description: Scopri il tipo di contenuto Colonna, utilizzato per dividere una pa
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/C1KAlwqUH08pZeWxYIK5US61woaInIrLn0PGdSuIaBQ
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1576
@@ -26,7 +36,7 @@ Utilizza il tipo di contenuto _Colonna_ per dividere una pagina in più colonne 
 
 ## Aggiornamenti nella versione 2.4.5
 
-Le funzionalità di Page Builder sono state aggiornate nella versione 2.4.5 in modo che gli utenti ora utilizzino _[!DNL Columns]_come contenitore principale per le singole colonne. Questo nuovo contenitore supporta anche le proprietà per lo sfondo ed elimina la necessità di racchiudere le colonne in una riga. Riduce i markup superflui e offre un controllo più preciso sullo schermo e sull&#39;esperienza della vetrina.
+Le funzionalità di Page Builder sono state aggiornate nella versione 2.4.5 in modo che gli utenti ora utilizzino _[!DNL Columns]_&#x200B;come contenitore principale per le singole colonne. Questo nuovo contenitore supporta anche le proprietà per lo sfondo ed elimina la necessità di racchiudere le colonne in una riga. Riduce i markup superflui e offre un controllo più preciso sullo schermo e sull&#39;esperienza della vetrina.
 
 È possibile modificare il layout del contenitore [!DNL Columns] trascinando una colonna al di sopra o al di sotto di altre colonne nel gruppo e sovrapponendole. Si apre una nuova varietà di possibili combinazioni di layout che possono essere ottenute senza la necessità di personalizzazione da parte degli sviluppatori.
 
@@ -60,7 +70,7 @@ Nell&#39;esempio di due colonne riportato di seguito, i numeri tra parentesi (6/
 
 ## Aggiungi una colonna
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un **[!UICONTROL Column]**nell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un **[!UICONTROL Column]**&#x200B;nell&#39;area di visualizzazione.
 
    ![Trascinamento di una colonna nell&#39;area di visualizzazione](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -106,7 +116,7 @@ Nell&#39;esempio di due colonne riportato di seguito, i numeri tra parentesi (6/
 
    - Passa il puntatore del mouse sulla colonna per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-   - Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_e imposta tutti e quattro i valori **[!UICONTROL Padding]**su `0`.
+   - Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_&#x200B;e imposta tutti e quattro i valori **[!UICONTROL Padding]**&#x200B;su `0`.
 
      ![Utilizzo della spaziatura interna pari a zero](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -176,7 +186,7 @@ Nell&#39;esempio di due colonne riportato di seguito, i numeri tra parentesi (6/
 
    - **[!UICONTROL Background Repeat]** - Se si desidera ripetere l&#39;immagine di sfondo per riempire lo spazio, modificare questa impostazione `Yes`.
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
 
    - Per controllare il posizionamento orizzontale dei contenitori di contenuto aggiunti alla colonna, scegliere un **[!UICONTROL Alignment]**:
 

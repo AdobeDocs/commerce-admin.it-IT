@@ -4,11 +4,20 @@ description: Scopri gli attributi dell’indirizzo del cliente e come configurar
 exl-id: 637a0f81-4d8f-40cb-a1b6-537229b2ce5b
 feature: Customers, Configuration
 TQID: https://experienceleague.adobe.com/3u6Rg6pbR1cexQ4gokhMnafNKKR9aL2PAWj9PfP-ZSg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1615
@@ -20,7 +29,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Il set di attributi Indirizzo cliente determina le proprietà degli indirizzi stradali immessi nella [rubrica](account-dashboard-address-book.md) dall&#39;account del cliente o durante l&#39;estrazione](../stores-purchase/checkout-process.md).[
+Il set di attributi Indirizzo cliente determina le proprietà degli indirizzi stradali immessi nella [rubrica](account-dashboard-address-book.md) dall&#39;account del cliente o durante l&#39;estrazione[&#128279;](../stores-purchase/checkout-process.md).
 
 Gli attributi di indirizzo personalizzati possono essere impostati per fornire informazioni aggiuntive, ad esempio un indirizzo e-mail facoltativo, un account Skype, un numero di telefono alternativo, un edificio o una provincia. L&#39;attributo personalizzato può quindi essere incorporato nel [modello di indirizzo](address-templates.md) utilizzato per produrre documenti di vendita. Il processo per creare un attributo di indirizzo personalizzato è quasi lo stesso della creazione di un [attributo cliente](attribute-properties.md).
 
@@ -67,7 +76,7 @@ Gli attributi dell’indirizzo del cliente vengono utilizzati nei seguenti modul
 
 1. Per assegnare un valore iniziale al campo, immettere **[!UICONTROL Default Value]**.
 
-1. Per verificare la precisione dei dati immessi nel campo prima del salvataggio del record, impostare **[!UICONTROL Input Validation]** sul tipo di dati consentito nel campo. I valori disponibili dipendono da _[!UICONTROL Input Type]_specificato.
+1. Per verificare la precisione dei dati immessi nel campo prima del salvataggio del record, impostare **[!UICONTROL Input Validation]** sul tipo di dati consentito nel campo. I valori disponibili dipendono da _[!UICONTROL Input Type]_&#x200B;specificato.
 
    - `None` - Nessuna convalida di input per il campo durante l&#39;immissione dei dati.
    - `Alphanumeric` - Accetta qualsiasi combinazione di numeri (0-9) e caratteri alfabetici (a-z, A-Z) durante l&#39;immissione dei dati. Per includere caratteri speciali, vedere [!UICONTROL Escape HTML Entities] nel passaggio successivo.
@@ -138,11 +147,11 @@ Gli attributi dell’indirizzo del cliente vengono utilizzati nei seguenti modul
 | [!UICONTROL Input Type] | Determina il [controllo di input](../catalog/attributes-input-types.md) utilizzato per l&#39;immissione dei dati. Opzioni: <br/>**`Text Field`**- Campo di testo a riga singola.<br/>**`Text Area`** - Area di testo su più righe. <br/>**`Multiple Line`**- Crea più righe di testo per l&#39;attributo, in modo simile a un indirizzo stradale con più righe. Il numero di righe di immissione dati separate può essere compreso tra 2 e 20.<br/>**`Date`** - Visualizza un campo data con un calendario popup.<br/>**`Dropdown`**- Elenco a discesa che accetta un solo valore da selezionare.<br/>**`Multiple Select`** - Elenco a discesa che accetta la selezione di più valori. <br/>**`Yes/No`**- Campo che offre solo una scelta di `Yes` o `No` valori.<br/>**`File (attachment)`** - Campo che consente di caricare un file e associarlo all&#39;attributo cliente come allegato. <br/>**`Image File`**- Campo che consente di caricare un&#39;immagine nella raccolta e associarla all&#39;attributo del cliente. |
 | [!UICONTROL Values Required] | Determina se un valore deve essere immesso nel campo. Opzioni: `Yes` / `No` |
 | [!UICONTROL Default Value] | Specifica il valore iniziale dell&#39;attributo. |
-| [!UICONTROL Input Validation] | La selezione delle opzioni è determinata dal tipo di input. Opzioni: <br/>**`None`**- Nessuna convalida di input per il campo durante l&#39;immissione dei dati.<br/>**`Alphanumeric`** - Accetta qualsiasi combinazione di numeri (0-9) e caratteri alfabetici (a-z, A-Z) durante l&#39;immissione dei dati. <br/>**`Alphanumeric with Space`**- Consente agli spazi nell&#39;indirizzo stradale di soddisfare i requisiti di lunghezza massima del vettore. Durante il pagamento, i clienti possono immettere lettere (a-z, A-Z), numeri (0-9) e spazi. Gli spazi aggiuntivi vengono tagliati al salvataggio dell&#39;indirizzo.<br/>**`Numeric Only`** - Accetta solo numeri (0-9) durante l&#39;immissione dei dati. <br/>**`Alpha Only`**- Accetta solo caratteri alfabetici (a-z, A-Z) durante l&#39;immissione dei dati.<br/>** URL **- Accetta solo un URL durante l&#39;immissione dei dati.<br/>**`Email`** - Accetta solo un indirizzo e-mail durante l&#39;immissione dei dati. <br/>**`Length Only`**- Convalida l&#39;input in base alla lunghezza dei dati immessi nel campo.<br/><br/>** Nota:**per gli attributi definiti dal sistema come _Telephone_, _City_ e _Street_, la convalida integrata lato server viene sempre applicata in aggiunta alle impostazioni **[!UICONTROL Input Validation]**. Queste regole predefinite limitano i caratteri consentiti per ciascun campo e non possono essere ignorate. L&#39;impostazione **[!UICONTROL Input Validation]**aggiunge solo ulteriori vincoli. |
+| [!UICONTROL Input Validation] | La selezione delle opzioni è determinata dal tipo di input. Opzioni: <br/>**`None`**- Nessuna convalida di input per il campo durante l&#39;immissione dei dati.<br/>**`Alphanumeric`** - Accetta qualsiasi combinazione di numeri (0-9) e caratteri alfabetici (a-z, A-Z) durante l&#39;immissione dei dati. <br/>**`Alphanumeric with Space`**- Consente agli spazi nell&#39;indirizzo stradale di soddisfare i requisiti di lunghezza massima del vettore. Durante il pagamento, i clienti possono immettere lettere (a-z, A-Z), numeri (0-9) e spazi. Gli spazi aggiuntivi vengono tagliati al salvataggio dell&#39;indirizzo.<br/>**`Numeric Only`** - Accetta solo numeri (0-9) durante l&#39;immissione dei dati. <br/>**`Alpha Only`**- Accetta solo caratteri alfabetici (a-z, A-Z) durante l&#39;immissione dei dati.<br/>**&#x200B; URL &#x200B;**- Accetta solo un URL durante l&#39;immissione dei dati.<br/>**`Email`** - Accetta solo un indirizzo e-mail durante l&#39;immissione dei dati. <br/>**`Length Only`**- Convalida l&#39;input in base alla lunghezza dei dati immessi nel campo.<br/><br/>**&#x200B; Nota:**&#x200B;per gli attributi definiti dal sistema come _Telephone_, _City_ e _Street_, la convalida integrata lato server viene sempre applicata in aggiunta alle impostazioni **[!UICONTROL Input Validation]**. Queste regole predefinite limitano i caratteri consentiti per ciascun campo e non possono essere ignorate. L&#39;impostazione **[!UICONTROL Input Validation]**&#x200B;aggiunge solo ulteriori vincoli. |
 | [!UICONTROL Input/Output Filter] | Applica un filtro di pre-elaborazione ai valori immessi in un campo di testo, un&#39;area di testo o un tipo di input a più righe prima che il record venga salvato. Opzioni: <br/>**`None`**- Non applica un filtro al testo immesso nel campo.<br/>**`Strip HTML Tags`** - Rimuove i tag HTML dal testo. Questo filtro può facilitare la pulizia dei dati incollati in un campo da un’altra origine che include i tag di HTML. <br/>**`Escape HTML Entities`**- Converte i caratteri speciali trovati nel testo in una sequenza di escape HTML valida, ad esempio `amp;`. Le sequenze di escape sono racchiuse tra una e commerciale e un punto e virgola e vengono spesso utilizzate per le citazioni intelligenti, i simboli di copyright e i simboli di marchio tipografico. Le sequenze di escape vengono inoltre utilizzate per identificare caratteri quali i simboli minore di (`<`) e maggiore di (`>`) e il carattere e commerciale utilizzato anche nel codice. Questo filtro può aiutare a ripulire i caratteri speciali che a volte vengono incollati nei campi del database dagli elaboratori di testi. |
 | [!UICONTROL Add to Column Options] | Specifica se l&#39;attributo è incluso come colonna nella griglia [Clienti](./customers-all.md). Opzioni: `Yes` / `No` |
 | Usa nelle opzioni filtro | Specifica se l&#39;attributo può essere utilizzato come filtro per le operazioni di ricerca dalla griglia. Opzioni: `Yes` / `No` |
-| [!UICONTROL Grid Filter Condition Type] | Specifica le condizioni di corrispondenza dei filtri per gli attributi nelle operazioni di ricerca dalla griglia. Non influisce sul campo _[!UICONTROL Search by keyword]_della griglia. Opzioni: `Partial Match` / `Prefix Match` / `Full Match` |
+| [!UICONTROL Grid Filter Condition Type] | Specifica le condizioni di corrispondenza dei filtri per gli attributi nelle operazioni di ricerca dalla griglia. Non influisce sul campo _[!UICONTROL Search by keyword]_&#x200B;della griglia. Opzioni: `Partial Match` / `Prefix Match` / `Full Match` |
 | [!UICONTROL Use in Search Options] | Specifica se il valore dell&#39;attributo può essere utilizzato come parola chiave nelle operazioni di ricerca. Opzioni: `Yes` / `No` |
 | [!UICONTROL Use in Customer Segment] | Determina se l&#39;attributo è incluso nelle condizioni del [segmento cliente](./customer-segments.md). Opzioni: `Yes` / `No` |
 

@@ -5,10 +5,17 @@ exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1015
@@ -32,7 +39,7 @@ I campi relativi alla data di inizio e alla data di fine sono stati rimossi da A
 
 Tutti gli aggiornamenti pianificati vengono applicati consecutivamente, il che significa che qualsiasi entità può avere un solo aggiornamento pianificato alla volta. Qualsiasi aggiornamento pianificato viene applicato a tutte le visualizzazioni dello store entro il relativo intervallo di tempo. Di conseguenza, un’entità non può avere un aggiornamento pianificato diverso per diverse visualizzazioni dello store contemporaneamente. Tutti i valori degli attributi di entità all’interno di tutte le visualizzazioni archivio, che non sono influenzati dall’aggiornamento pianificato corrente, vengono presi dai valori predefiniti e non dal precedente aggiornamento pianificato.
 
-Quando viene creato un nuovo aggiornamento pianificato per uno dei seguenti oggetti, viene creata una campagna corrispondente come segnaposto e la casella _[!UICONTROL Scheduled Changes]_viene visualizzata nella parte superiore della pagina. La campagna segnaposto ha una data di inizio, ma non una data di fine. Puoi pianificare gli aggiornamenti ai contenuti come parte di una campagna, quindi visualizzare in anteprima e condividere le modifiche per data, ora o visualizzazione archivio. Dopo aver creato una nuova campagna per un oggetto, puoi assegnarla come aggiornamento pianificato per altri oggetti.
+Quando viene creato un nuovo aggiornamento pianificato per uno dei seguenti oggetti, viene creata una campagna corrispondente come segnaposto e la casella _[!UICONTROL Scheduled Changes]_&#x200B;viene visualizzata nella parte superiore della pagina. La campagna segnaposto ha una data di inizio, ma non una data di fine. Puoi pianificare gli aggiornamenti ai contenuti come parte di una campagna, quindi visualizzare in anteprima e condividere le modifiche per data, ora o visualizzazione archivio. Dopo aver creato una nuova campagna per un oggetto, puoi assegnarla come aggiornamento pianificato per altri oggetti.
 
 - [Prodotti](../catalog/product-scheduled-changes.md)
 - [Categorie](../catalog/category-scheduled-changes.md)
@@ -45,7 +52,7 @@ Quando viene creato un nuovo aggiornamento pianificato per uno dei seguenti ogge
 
 1. **Crea il contenuto della linea di base**
 
-   La baseline è il contenuto di una risorsa senza una campagna e include tutto ciò che si trova sotto la sezione _[!UICONTROL Scheduled Changes]_nella parte superiore della pagina. Il contenuto della linea di base viene sempre utilizzato, a meno che non sia presente una campagna attiva con le modifiche pianificate per tale posizione nella timeline.
+   La baseline è il contenuto di una risorsa senza una campagna e include tutto ciò che si trova sotto la sezione _[!UICONTROL Scheduled Changes]_&#x200B;nella parte superiore della pagina. Il contenuto della linea di base viene sempre utilizzato, a meno che non sia presente una campagna attiva con le modifiche pianificate per tale posizione nella timeline.
 
 1. **Crea la prima campagna**
 

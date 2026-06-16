@@ -4,12 +4,22 @@ description: Scopri come utilizzare le categorie per controllare la visualizzazi
 exl-id: d80a0545-918e-4c08-9f37-4aa3cd7771f4
 feature: Catalog Management, Categories, Customers, Configuration
 TQID: https://experienceleague.adobe.com/dtRyq4TsN2ruBV9iQvyFAhv6RUqBFVpzRiqPVqSxJEA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 780
@@ -31,7 +41,7 @@ Ad esempio, se vendi solo a clienti all&#39;ingrosso, puoi consentire a chiunque
 
 ![Gli utenti connessi visualizzano la categoria &quot;Raccolte&quot;](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-Quando è attivata, nella pagina Categoria viene visualizzata una nuova sezione _[!UICONTROL Category Permissions]_che consente di applicare l&#39;accesso necessario per ogni categoria. Puoi aggiungere più regole di autorizzazione a ogni categoria per diversi siti web e gruppi di clienti.
+Quando è attivata, nella pagina Categoria viene visualizzata una nuova sezione _[!UICONTROL Category Permissions]_&#x200B;che consente di applicare l&#39;accesso necessario per ogni categoria. Puoi aggiungere più regole di autorizzazione a ogni categoria per diversi siti web e gruppi di clienti.
 
 ## Passaggio 1: configurare le autorizzazioni per le categorie
 
@@ -81,7 +91,7 @@ Per **_limitare l&#39;accesso e reindirizzare a una pagina di destinazione_**, e
 
    >[!NOTE]
    >
-   >Sebbene l&#39;impostazione _[!UICONTROL Allow Browsing Category]_si applichi a tutte le categorie del sito Web, è possibile configurare una pagina di destinazione diversa per ogni visualizzazione Store.
+   >Sebbene l&#39;impostazione _[!UICONTROL Allow Browsing Category]_&#x200B;si applichi a tutte le categorie del sito Web, è possibile configurare una pagina di destinazione diversa per ogni visualizzazione Store.
 
 ### [!UICONTROL Display Product Prices]
 

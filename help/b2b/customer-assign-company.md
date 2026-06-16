@@ -5,12 +5,22 @@ exl-id: ee2f9c27-37d6-4997-8285-1c4c84f8d04c
 feature: B2B, Companies, Customers
 role: Admin, User
 TQID: https://experienceleague.adobe.com/vJaqCSxWxU67fRTwBDDHPGkzpwVma0mhpohWiCLonhM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 577
@@ -66,13 +76,13 @@ Quando aggiungi un utente della società, la prima società associata all’acco
 
 [!UICONTROL Customers grid] mostra una riga separata per ogni società a cui l&#39;utente è assegnato. Le seguenti colonne vengono aggiornate.
 
-- La colonna _[!UICONTROL Customer Type]_viene aggiornata per mostrare il ruolo assegnato all&#39;utente.
+- La colonna _[!UICONTROL Customer Type]_&#x200B;viene aggiornata per mostrare il ruolo assegnato all&#39;utente.
 
-  Se è la prima volta che il cliente viene assegnato a una società, la colonna _[!UICONTROL Customer Type]_viene aggiornata da_[!UICONTROL Individual user]_ a _[!UICONTROL Company User]_.
+  Se è la prima volta che il cliente viene assegnato a una società, la colonna _[!UICONTROL Customer Type]_&#x200B;viene aggiornata da&#x200B;_[!UICONTROL Individual user]_ a _[!UICONTROL Company User]_.
 
-- La colonna _[!UICONTROL Group]_cambia al nome del gruppo di clienti (o del catalogo condiviso) assegnato alla società.
+- La colonna _[!UICONTROL Group]_&#x200B;cambia al nome del gruppo di clienti (o del catalogo condiviso) assegnato alla società.
 
-- Nella colonna _[!UICONTROL Company]_viene visualizzato il nome della società a cui è ora associato il profilo cliente.
+- Nella colonna _[!UICONTROL Company]_&#x200B;viene visualizzato il nome della società a cui è ora associato il profilo cliente.
 
 ## Assegnare un utente a uno o più account società
 
@@ -90,7 +100,7 @@ Quando si assegna un nuovo utente, la prima società associata all&#39;account u
 
 ## Rimuovere l&#39;assegnazione della società da un account utente
 
-Se si rimuove un’azienda da un profilo utente, viene revocato l’accesso dell’utente a tale azienda. I dati utente rimangono accessibili nell’amministratore. Se si rimuovono tutte le assegnazioni della società, _[!UICONTROL Customer Type]_diventa *[!UICONTROL Individual user]*e le funzionalità B2B vengono disabilitate per l&#39;account.
+Se si rimuove un’azienda da un profilo utente, viene revocato l’accesso dell’utente a tale azienda. I dati utente rimangono accessibili nell’amministratore. Se si rimuovono tutte le assegnazioni della società, _[!UICONTROL Customer Type]_&#x200B;diventa *[!UICONTROL Individual user]*&#x200B;e le funzionalità B2B vengono disabilitate per l&#39;account.
 
 1. Dalla griglia Cliente nell’amministratore, modifica il profilo cliente da aggiornare.
 

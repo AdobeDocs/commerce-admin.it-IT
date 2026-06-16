@@ -4,11 +4,19 @@ description: Scopri come creare record di spedizione per le fatture e annullare 
 exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
 TQID: https://experienceleague.adobe.com/hj6CijsLLJo7GRzfWCsUY1N1qPDyYcz7t5yOSWKUpho
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 937
@@ -18,7 +26,7 @@ ht-degree: 0%
 
 # Spedizioni
 
-Nella griglia _[!UICONTROL Shipments]_sono elencati i record di spedizione di tutte le fatture preparate per la spedizione. È possibile generare un record di spedizione quando un ordine è [fatturato](invoices.md) o successivo.
+Nella griglia _[!UICONTROL Shipments]_&#x200B;sono elencati i record di spedizione di tutte le fatture preparate per la spedizione. È possibile generare un record di spedizione quando un ordine è [fatturato](invoices.md) o successivo.
 
 Adobe Commerce e Magento Open Source supportano la spedizione parziale e completa degli ordini, con opzioni aggiuntive disponibili da [Inventory management](../inventory-management/introduction.md) ed estensioni di terze parti.
 
@@ -83,7 +91,7 @@ Per ogni riga nell&#39;ordine, modificare **[!UICONTROL Qty to Ship]** in base a
 
 1. Fare clic su **[!UICONTROL Ship]**.
 
-1. Scorri verso il basso fino al blocco _[!UICONTROL Payment & Shipping Method]_e fai clic su **[!UICONTROL Add Tracking Number]**.
+1. Scorri verso il basso fino al blocco _[!UICONTROL Payment & Shipping Method]_&#x200B;e fai clic su **[!UICONTROL Add Tracking Number]**.
 
 1. Imposta **[!UICONTROL Carrier]**:
 
@@ -172,7 +180,7 @@ Prima che una spedizione venga inviata a un vettore, è possibile annullarla apr
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Shipments]**.
 
-   Se la spedizione può essere annullata, _[!UICONTROL Cancel Shipment]_viene visualizzato come opzione nella barra dei pulsanti superiore.
+   Se la spedizione può essere annullata, _[!UICONTROL Cancel Shipment]_&#x200B;viene visualizzato come opzione nella barra dei pulsanti superiore.
 
 1. Fare clic su **[!UICONTROL Cancel Shipment]**.
 

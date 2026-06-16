@@ -3,11 +3,20 @@ title: Scorte e fonti
 description: Scopri le relazioni tra prodotti, origini e stock.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 809
@@ -45,8 +54,8 @@ Inizia con un Titolo predefinito assegnato con il Source predefinito e il tuo si
 
 Quantità è il numero di prodotti nel magazzino attivo disponibili per l&#39;acquisto. La quantità di prodotti aumenta e diminuisce quando si completano le spedizioni o si adegua il magazzino. L’aggiunta di prodotti a un carrello non influisce su questa quantità. La Quantità vendibile tiene traccia della disponibilità del prodotto per un canale di vendita e utilizza questo valore anche per determinare le scorte disponibili per l&#39;acquisto. A seconda del numero di origini, è possibile visualizzare e gestire la quantità di prodotto per uno dei seguenti elementi:
 
-- **Quantità** - Per i commercianti con una sola origine, la colonna e il valore _[!UICONTROL Quantity]_tengono traccia della quantità di scorte disponibili.
-- **Quantità per Source** - Per i commercianti con più origini, la colonna e i valori _[!UICONTROL Quantity per Source]_tengono traccia delle scorte disponibili in base all&#39;ubicazione. Se si aggiungono più origini, questo valore sostituisce la Quantità ed elenca tutte le origini e le quantità assegnate.
+- **Quantità** - Per i commercianti con una sola origine, la colonna e il valore _[!UICONTROL Quantity]_&#x200B;tengono traccia della quantità di scorte disponibili.
+- **Quantità per Source** - Per i commercianti con più origini, la colonna e i valori _[!UICONTROL Quantity per Source]_&#x200B;tengono traccia delle scorte disponibili in base all&#39;ubicazione. Se si aggiungono più origini, questo valore sostituisce la Quantità ed elenca tutte le origini e le quantità assegnate.
 
 Le prenotazioni tengono traccia delle richieste di scorte per l&#39;intero processo di acquisto, aggiungendo prodotti al carrello, completando il pagamento e gestendo i rimborsi. Per le scorte e le scorte disponibili, gli impegni riservano gli importi delle scorte per ordine tramite il processo di pagamento, sottratti dalla quantità vendibile. Gli impegni vengono convertiti in detrazioni quantità durante la fatturazione e la spedizione dei prodotti.
 

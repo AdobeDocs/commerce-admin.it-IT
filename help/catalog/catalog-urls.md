@@ -4,12 +4,24 @@ description: Scopri i tipi di formato URL per i prodotti del catalogo e come con
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
 TQID: https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 918
@@ -44,7 +56,7 @@ Il codice URL è la parte di un URL statico che descrive il prodotto o la catego
 
 >[!NOTE]
 >
->Per impostazione predefinita, i caratteri speciali accentati vengono sostituiti automaticamente dalle normali versioni non accentate nella chiave URL. Ad esempio, `ñ` viene sostituito automaticamente da `n`. È possibile disabilitare questo comportamento impostando l&#39;opzione di configurazione _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_su `No`. Vedi [Configurare gli URL del catalogo](#configure-catalog-urls).
+>Per impostazione predefinita, i caratteri speciali accentati vengono sostituiti automaticamente dalle normali versioni non accentate nella chiave URL. Ad esempio, `ñ` viene sostituito automaticamente da `n`. È possibile disabilitare questo comportamento impostando l&#39;opzione di configurazione _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;su `No`. Vedi [Configurare gli URL del catalogo](#configure-catalog-urls).
 
 La chiave URL deve essere costituita da caratteri minuscoli con trattini non finali tra questi caratteri per separare le parole. I trattini non sono consentiti all’inizio o alla fine della chiave URL. Una chiave URL ben progettata e &quot;compatibile con i motori di ricerca&quot; potrebbe includere il nome del prodotto e le parole chiave per migliorarne l’indicizzazione da parte dei motori di ricerca. La chiave URL può essere configurata per creare un reindirizzamento automatico se cambia la chiave URL.
 
@@ -120,7 +132,7 @@ Per evitare che i motori di ricerca indicizzino più URL che conducono allo stes
 | Campo | [Ambito](../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Globale | Se sono abilitate le riscritture del server web, l’abilitazione di questa impostazione inserisce nell’URL il codice store della vista corrente. Opzioni: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Globale | (Per le impostazioni per un singolo archivio) Se sul sito è presente un collegamento interrotto, il traffico viene reindirizzato all’URL di base anziché a una pagina con il messaggio &quot;404 Page Not Found&quot; (Pagina 404 non trovata). Opzioni: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**Non utilizzare il reindirizzamento automatico all&#39;URL di base per le impostazioni in più store. |
+| [!UICONTROL Auto-redirect to Base URL] | Globale | (Per le impostazioni per un singolo archivio) Se sul sito è presente un collegamento interrotto, il traffico viene reindirizzato all’URL di base anziché a una pagina con il messaggio &quot;404 Page Not Found&quot; (Pagina 404 non trovata). Opzioni: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**&#x200B;Non utilizzare il reindirizzamento automatico all&#39;URL di base per le impostazioni in più store. |
 | [!UICONTROL Catalog media URL format] | Globale | Definisce il formato URL assegnato a prodotti e categorie. Opzioni: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Definisce il nome file convertito come valore hash univoco.<br />**[!UICONTROL Image optimization based on query parameters]** - Definisce il processo di [ottimizzazione immagine](../content-design/media-gallery-image-optimization.md) in base ai parametri di query. |
 
 {style="table-layout:auto"}

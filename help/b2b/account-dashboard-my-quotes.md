@@ -4,11 +4,20 @@ description: Scopri l’esperienza del cliente per le offerte, disponibile nel d
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
 TQID: https://experienceleague.adobe.com/GaasaCrnKreiLSyt2QJp8rffloiC0LJ0-bvdZZ8F5aQ
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1221
@@ -18,7 +27,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quotes]
 
-Se i preventivi sono abilitati, nella sezione _[!UICONTROL My Quotes]_del dashboard dei conti cliente sono elencati tutti i preventivi inviati dal cliente. A seconda delle loro autorizzazioni, solo gli acquirenti che effettuano acquisti per conto di una società possono inviare richieste per negoziare il prezzo di un acquisto.
+Se i preventivi sono abilitati, nella sezione _[!UICONTROL My Quotes]_&#x200B;del dashboard dei conti cliente sono elencati tutti i preventivi inviati dal cliente. A seconda delle loro autorizzazioni, solo gli acquirenti che effettuano acquisti per conto di una società possono inviare richieste per negoziare il prezzo di un acquisto.
 
 ![Le mie citazioni](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 
@@ -163,13 +172,13 @@ Quando l&#39;acquirente aggiunge l&#39;indirizzo, il venditore fornisce le opzio
 
 1. Nella virgoletta aperta immediatamente sopra la sezione Elementi citati fare clic su **[!UICONTROL Close quote]**.
 
-   La richiesta è stata annullata e lo stato del preventivo cambia in `Closed`. Le virgolette chiuse rimangono nell&#39;elenco delle virgolette e rimangono elencate nella griglia _[!UICONTROL Quotes]_dell&#39;amministratore.
+   La richiesta è stata annullata e lo stato del preventivo cambia in `Closed`. Le virgolette chiuse rimangono nell&#39;elenco delle virgolette e rimangono elencate nella griglia _[!UICONTROL Quotes]_&#x200B;dell&#39;amministratore.
 
 1. Per rimuovere le virgolette annullate dall&#39;elenco, fare clic su **[!UICONTROL Delete]**.
 
 1. Quando viene richiesto di confermare, fa clic su **[!UICONTROL OK]**.
 
-   Le virgolette chiuse vengono rimosse dall&#39;elenco delle virgolette. Tuttavia, rimane elencato nella griglia _[!UICONTROL Quotes]_in Admin, con lo stato `Closed`.
+   Le virgolette chiuse vengono rimosse dall&#39;elenco delle virgolette. Tuttavia, rimane elencato nella griglia _[!UICONTROL Quotes]_&#x200B;in Admin, con lo stato `Closed`.
 
 ## Azioni preventivo
 
@@ -189,6 +198,6 @@ Quando l&#39;acquirente aggiunge l&#39;indirizzo, il venditore fornisce le opzio
 | [!UICONTROL Quote Name] | Nome assegnato alla richiesta di preventivo dall&#39;acquirente. |
 | [!UICONTROL Created] | Data in cui è stata inviata la prima richiesta di preventivo. |
 | [!UICONTROL Created By] | Il nome e il cognome dell&#39;acquirente che ha inviato la richiesta di preventivo. |
-| [!UICONTROL Status] | Indica lo stato dell&#39;offerta. Lo stato di un preventivo può essere modificato solo da un&#39;azione dell&#39;acquirente o del venditore. <br/>**[!UICONTROL Submitted]**- La richiesta di offerta dell&#39;acquirente non è ancora stata aperta dal venditore. In questo stato, l&#39;acquirente può comunque modificare la richiesta di preventivo. Azioni disponibili: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - Il venditore ha aperto la richiesta e sta per esaminarla e preparare una risposta. Azioni disponibili: `View` / `Close` <br/>**[!UICONTROL Updated]**- Il venditore ha inviato una risposta all&#39;acquirente e il pulsante _[!UICONTROL Proceed to Checkout]_è abilitato. In questo stato, il buyer può continuare a modificare il preventivo. Azioni disponibili: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- L&#39;acquirente sta ancora aggiornando il preventivo e il pulsante_[!UICONTROL Proceed to Checkout]_ è disabilitato. Azioni disponibili: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- L&#39;acquirente ha inviato un ordine basato sul preventivo negoziato. Il preventivo è bloccato e non può essere modificato. Azione disponibile: visualizzazione<br/>**[!UICONTROL Closed]** - Il buyer ha terminato la negoziazione e annulla il preventivo. Il preventivo è bloccato e non può essere modificato né dall&#39;acquirente né dal venditore. Azioni disponibili: `View` / `Delete` <br/>**[!UICONTROL Declined]**- Il venditore ha rifiutato la richiesta di preventivo o di modifica proposta durante il processo di negoziazione. Un preventivo può essere rifiutato in qualsiasi fase del flusso di lavoro. Qualsiasi prezzo personalizzato viene rimosso dal preventivo. L&#39;acquirente può continuare a modificare il preventivo e inviarlo nuovamente oppure effettuare l&#39;acquisto con prezzi di catalogo standard. Azioni disponibili: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - La durata del preventivo è scaduta. Tutti i prezzi proposti vengono azzerati. L&#39;acquirente può completare l&#39;acquisto in base ai prezzi di catalogo standard o avviare un&#39;altra serie di negoziazioni. Azioni disponibili: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | Indica lo stato dell&#39;offerta. Lo stato di un preventivo può essere modificato solo da un&#39;azione dell&#39;acquirente o del venditore. <br/>**[!UICONTROL Submitted]**- La richiesta di offerta dell&#39;acquirente non è ancora stata aperta dal venditore. In questo stato, l&#39;acquirente può comunque modificare la richiesta di preventivo. Azioni disponibili: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - Il venditore ha aperto la richiesta e sta per esaminarla e preparare una risposta. Azioni disponibili: `View` / `Close` <br/>**[!UICONTROL Updated]**- Il venditore ha inviato una risposta all&#39;acquirente e il pulsante _[!UICONTROL Proceed to Checkout]_&#x200B;è abilitato. In questo stato, il buyer può continuare a modificare il preventivo. Azioni disponibili: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- L&#39;acquirente sta ancora aggiornando il preventivo e il pulsante&#x200B;_[!UICONTROL Proceed to Checkout]_ è disabilitato. Azioni disponibili: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- L&#39;acquirente ha inviato un ordine basato sul preventivo negoziato. Il preventivo è bloccato e non può essere modificato. Azione disponibile: visualizzazione<br/>**[!UICONTROL Closed]** - Il buyer ha terminato la negoziazione e annulla il preventivo. Il preventivo è bloccato e non può essere modificato né dall&#39;acquirente né dal venditore. Azioni disponibili: `View` / `Delete` <br/>**[!UICONTROL Declined]**- Il venditore ha rifiutato la richiesta di preventivo o di modifica proposta durante il processo di negoziazione. Un preventivo può essere rifiutato in qualsiasi fase del flusso di lavoro. Qualsiasi prezzo personalizzato viene rimosso dal preventivo. L&#39;acquirente può continuare a modificare il preventivo e inviarlo nuovamente oppure effettuare l&#39;acquisto con prezzi di catalogo standard. Azioni disponibili: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - La durata del preventivo è scaduta. Tutti i prezzi proposti vengono azzerati. L&#39;acquirente può completare l&#39;acquisto in base ai prezzi di catalogo standard o avviare un&#39;altra serie di negoziazioni. Azioni disponibili: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

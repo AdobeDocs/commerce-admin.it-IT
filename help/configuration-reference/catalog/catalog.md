@@ -4,11 +4,25 @@ description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL C
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 TQID: https://experienceleague.adobe.com/YbozeuP9oPvSfHp1zSajemcBuqgkfrkxbfiJmuD625U
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3350
@@ -289,7 +303,7 @@ Adobe Commerce supporta OpenSearch e Elasticsearch. Le versioni di Adobe Commerc
 | [!UICONTROL OpenSearch HTTP Password] | Globale | Quando _Abilita autenticazione HTTP Elasticsearch_ è impostato su `Yes`, specifica la password per l&#39;autenticazione HTTP OpenSearch o Elasticsearch. |
 | [!UICONTROL OpenSearch Server Timeout] | Globale | Determina il numero di secondi prima del timeout di una richiesta al server OpenSearch o Elasticsearch. Valore predefinito: `15` |
 | [!UICONTROL Test Connection] |  | Convalida la connessione OpenSearch o Elasticsearch. |
-| [!UICONTROL Enable Search Recommendations] | Visualizzazione store | Determina se i consigli di ricerca vengono offerti quando una ricerca non restituisce alcun risultato e vengono visualizzati nella sezione `Related search terms` della pagina dei risultati di ricerca. Opzioni: `Yes` / `No` <br/>Se è impostato su Sì, vengono visualizzate opzioni aggiuntive per _[!UICONTROL Search Recommendations Count]_e_[!UICONTROL Shows Results Count for Each Recommendation]_. |
+| [!UICONTROL Enable Search Recommendations] | Visualizzazione store | Determina se i consigli di ricerca vengono offerti quando una ricerca non restituisce alcun risultato e vengono visualizzati nella sezione `Related search terms` della pagina dei risultati di ricerca. Opzioni: `Yes` / `No` <br/>Se è impostato su Sì, vengono visualizzate opzioni aggiuntive per _[!UICONTROL Search Recommendations Count]_&#x200B;e_[!UICONTROL Shows Results Count for Each Recommendation]_. |
 | [!UICONTROL Search Recommendations Count] | Visualizzazione store | Specifica il numero di termini di ricerca offerti come consigli. Per impostazione predefinita, non ne vengono mostrati più di cinque. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Visualizzazione store | Se è impostato su `Yes`, il numero di prodotti trovati per il consiglio di ricerca proposto è indicato tra parentesi. Opzioni: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | Visualizzazione store | Determina se i suggerimenti di ricerca vengono visualizzati per gli errori ortografici più comuni. Quando questa opzione è attivata, vengono offerti suggerimenti di ricerca per qualsiasi richiesta che non restituisce alcun risultato e viene visualizzata nella sezione `Did you mean` della pagina **Risultati ricerca**. I suggerimenti di ricerca possono influire sulle prestazioni della ricerca. Se è impostato su `Yes`, vengono visualizzate opzioni aggiuntive per Abilita consigli di ricerca e campi associati. Opzioni: `Yes` / `No` |
@@ -312,7 +326,7 @@ Adobe Commerce supporta OpenSearch e Elasticsearch. Le versioni di Adobe Commerc
 | [!UICONTROL Default Link Title] | Visualizzazione store | Il collegamento predefinito per tutti i titoli scaricabili. |
 | [!UICONTROL Opens Links in New Window] | Sito Web | Determina se il collegamento per il download si apre in una nuova finestra del browser. Opzioni: `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | Visualizzazione store | Determina come viene distribuito il collegamento al contenuto scaricabile, come allegato e-mail o come collegamento in linea in una finestra del browser. Opzioni: <br/>**`Attachment`**- Il collegamento di download viene consegnato come allegato e-mail.<br/>**`Inline`** - Il collegamento di download viene distribuito come collegamento in linea in una pagina Web. |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Sito Web | Determina se gli ospiti che acquistano prodotti scaricabili devono registrarsi per un account e accedere per completare il processo di pagamento. Opzioni: <br/>**`Yes`**- Se il carrello contiene prodotti scaricabili, l&#39;ospite deve registrarsi per un account o accedere a un account esistente per completare l&#39;acquisto.<br/>**`No`** - Il collegamento di download viene recapitato come collegamento in linea nel corpo del messaggio e-mail.  <br/> _**Nota:**_ l&#39;estrazione guest è disponibile per il download di prodotti solo se Sharable è impostato su `Yes`. |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Sito Web | Determina se gli ospiti che acquistano prodotti scaricabili devono registrarsi per un account e accedere per completare il processo di pagamento. Opzioni: <br/>**`Yes`**- Se il carrello contiene prodotti scaricabili, l&#39;ospite deve registrarsi per un account o accedere a un account esistente per completare l&#39;acquisto.<br/>**`No`** - Il collegamento di download viene recapitato come collegamento in linea nel corpo del messaggio e-mail.  <br/> _&#x200B;**Nota:**&#x200B;_ l&#39;estrazione guest è disponibile per il download di prodotti solo se Sharable è impostato su `Yes`. |
 
 {style="table-layout:auto"}
 

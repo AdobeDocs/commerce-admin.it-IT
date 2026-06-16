@@ -3,11 +3,19 @@ title: Casella in entrata messaggio amministratore
 description: Scopri la casella in entrata dei messaggi dell'amministratore, che fornisce messaggi importanti e utili da Adobe e dal sistema  [!DNL Commerce] .
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
 TQID: https://experienceleague.adobe.com/3RgVAR8efVGsjazQsH8-3Ohfw1h8SDuqLyCDzMYAAng
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 393
@@ -21,7 +29,7 @@ Lo store riceve regolarmente messaggi da Adobe. I messaggi sono classificati in 
 
 ![Amministratore - messaggi in arrivo](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-Nella pagina _[!UICONTROL Notifications]_sono elencati tutti i messaggi classificati per data. I comandi_[!UICONTROL Action]_ possono essere utilizzati per contrassegnare singoli messaggi come letti, visualizzare informazioni più dettagliate o rimuovere il messaggio dalla posta in arrivo.
+Nella pagina _[!UICONTROL Notifications]_&#x200B;sono elencati tutti i messaggi classificati per data. I comandi&#x200B;_[!UICONTROL Action]_ possono essere utilizzati per contrassegnare singoli messaggi come letti, visualizzare informazioni più dettagliate o rimuovere il messaggio dalla posta in arrivo.
 
 La configurazione determina la frequenza di aggiornamento della casella in entrata e la modalità di consegna dei messaggi. Se l&#39;amministratore del tuo archivio dispone di un URL sicuro, le notifiche devono essere inviate tramite HTTPS.
 

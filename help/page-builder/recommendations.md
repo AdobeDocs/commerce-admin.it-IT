@@ -4,11 +4,19 @@ description: Scopri il tipo di contenuto Consigli di prodotto, utilizzato per ag
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
 TQID: https://experienceleague.adobe.com/-k8EyTQjwCcPq4hrMG425GkOD9oYcVSCRhRwUgxFWsY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 962
@@ -51,11 +59,11 @@ Utilizza il tipo di contenuto _Consigli di prodotto_ per aggiungere una [unità 
 
 1. Apri la pagina, il blocco o il blocco dinamico in modalità di modifica.
 
-1. Espandere la sezione _[!UICONTROL Content]_e fare clic su **[!UICONTROL Edit with Page Builder]**o nell&#39;area di anteprima del contenuto per aprire l&#39;area di lavoro [!DNL Page Builder].
+1. Espandere la sezione _[!UICONTROL Content]_&#x200B;e fare clic su **[!UICONTROL Edit with Page Builder]**&#x200B;o nell&#39;area di anteprima del contenuto per aprire l&#39;area di lavoro [!DNL Page Builder].
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**nell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**&#x200B;nell&#39;area di visualizzazione.
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Add Content]_, trascina un segnaposto **[!UICONTROL Product Recommendation]**nella riga.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Add Content]_, trascina un segnaposto **[!UICONTROL Product Recommendation]**&#x200B;nella riga.
 
    ![Aggiunta del tipo di contenuto Consiglio di prodotto](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -74,7 +82,7 @@ Utilizza il tipo di contenuto _Consigli di prodotto_ per aggiungere una [unità 
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Selected]**.
 
-   Il nome del consiglio di prodotto selezionato viene visualizzato nella sezione _[!UICONTROL Selection]_della pagina_[!UICONTROL Edit Product Recommendation]_.
+   Il nome del consiglio di prodotto selezionato viene visualizzato nella sezione _[!UICONTROL Selection]_&#x200B;della pagina&#x200B;_[!UICONTROL Edit Product Recommendation]_.
 
 1. Apporta le modifiche necessarie alle [Impostazioni avanzate](#advanced-settings).
 

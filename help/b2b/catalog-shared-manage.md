@@ -4,12 +4,25 @@ description: Scopri le informazioni e gli strumenti disponibili nella pagina Cat
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
 TQID: https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 969
@@ -19,11 +32,11 @@ ht-degree: 0%
 
 # Gestire i cataloghi condivisi
 
-La pagina _[!UICONTROL Shared Catalogs]_fornisce l&#39;accesso agli strumenti necessari per la gestione dei cataloghi condivisi. La pagina è simile all’area di lavoro Amministratore standard, con filtri e controlli delle azioni. Nella griglia sono elencati tutti i cataloghi condivisi, incluso il catalogo condiviso pubblico predefinito e tutti i cataloghi personalizzati impostati.
+La pagina _[!UICONTROL Shared Catalogs]_&#x200B;fornisce l&#39;accesso agli strumenti necessari per la gestione dei cataloghi condivisi. La pagina è simile all’area di lavoro Amministratore standard, con filtri e controlli delle azioni. Nella griglia sono elencati tutti i cataloghi condivisi, incluso il catalogo condiviso pubblico predefinito e tutti i cataloghi personalizzati impostati.
 
 ## Aggiornare la selezione del prodotto
 
-La selezione dei prodotti in qualsiasi catalogo condiviso può essere facilmente aggiornata dalla colonna _[!UICONTROL Action]_della griglia dei cataloghi condivisi. Le modifiche apportate sono visibili ai membri di qualsiasi account aziendale associato. Il processo è essenzialmente uguale alla scelta dei prodotti per una nuova [struttura catalogo](catalog-shared-pricing-structure.md), con la differenza che l&#39;ambito della configurazione non può essere modificato.
+La selezione dei prodotti in qualsiasi catalogo condiviso può essere facilmente aggiornata dalla colonna _[!UICONTROL Action]_&#x200B;della griglia dei cataloghi condivisi. Le modifiche apportate sono visibili ai membri di qualsiasi account aziendale associato. Il processo è essenzialmente uguale alla scelta dei prodotti per una nuova [struttura catalogo](catalog-shared-pricing-structure.md), con la differenza che l&#39;ambito della configurazione non può essere modificato.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -35,7 +48,7 @@ La selezione dei prodotti in qualsiasi catalogo condiviso può essere facilmente
 
    È possibile ignorare il primo elemento perché l&#39;ambito di un catalogo condiviso non può essere modificato dopo il primo salvataggio.
 
-Se si utilizza un prodotto specifico, nella sezione _[!UICONTROL Products In Shared Catalog]_sono elencati tutti i cataloghi condivisi in cui il prodotto è disponibile. Per ulteriori informazioni, consulta [Aggiungere prodotti a un catalogo condiviso](catalog-shared-product-add.md).
+Se si utilizza un prodotto specifico, nella sezione _[!UICONTROL Products In Shared Catalog]_&#x200B;sono elencati tutti i cataloghi condivisi in cui il prodotto è disponibile. Per ulteriori informazioni, consulta [Aggiungere prodotti a un catalogo condiviso](catalog-shared-product-add.md).
 
 ![Prodotto in cataloghi condivisi](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -47,7 +60,7 @@ I prezzi personalizzati dei prodotti in qualsiasi catalogo condiviso possono ess
 
 1. Per il catalogo condiviso nella griglia da aggiornare, passare alla colonna **[!UICONTROL Action]** e selezionare **[!UICONTROL Set Pricing and Structure]**.
 
-1. Nella pagina _[!UICONTROL Catalog Structure]_, fare clic su **[!UICONTROL Configure]**ed eseguire una delle operazioni seguenti:
+1. Nella pagina _[!UICONTROL Catalog Structure]_, fare clic su **[!UICONTROL Configure]**&#x200B;ed eseguire una delle operazioni seguenti:
 
    - Nell&#39;indicatore di avanzamento nella parte superiore della pagina fare clic su **[!UICONTROL Pricing]**.
    - Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Next]**.
@@ -60,7 +73,7 @@ I prezzi personalizzati dei prodotti in qualsiasi catalogo condiviso possono ess
 
 >[!NOTE]
 >
->**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione di categoria](../catalog/category-permissions.md) per il catalogo è impostata su `Allow` per _[!UICONTROL Display Product Prices]_e_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
+>**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione di categoria](../catalog/category-permissions.md) per il catalogo è impostata su `Allow` per _[!UICONTROL Display Product Prices]_&#x200B;e_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
 
 >[!IMPORTANT]
 >
