@@ -112,7 +112,7 @@ Le opzioni per ogni tipo di widget variano leggermente, ma il processo è sostan
 
 Per informazioni sulla creazione di widget, guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411057?captions=ita&quality=12&learn=on)
 
 ## Modificare un widget
 

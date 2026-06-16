@@ -55,4 +55,4 @@ Se disponi di un account commerciale con uno o più [vettori supportati](carrier
 
 Guarda questo video per scoprire i metodi di spedizione e consegna:
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410207/?captions=ita&quality=12&learn=on)

@@ -128,7 +128,7 @@ Dopo aver creato un nuovo catalogo condiviso, è necessario configurarlo con la 
 
 Per vedere una dimostrazione della gestione del catalogo condiviso, guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410754?captions=ita&quality=12&learn=on)
 
 ## Riferimento pagina di catalogo condiviso
 

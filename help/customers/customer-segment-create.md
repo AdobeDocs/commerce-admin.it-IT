@@ -218,4 +218,4 @@ Griglia _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
 
 Guarda questo video per una dimostrazione della creazione di segmenti di clienti:
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410190/?captions=ita&quality=12&learn=on)

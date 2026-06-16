@@ -87,7 +87,7 @@ Questo tipo di trasferimento richiede un Adobe ID collegato all’account Commer
 
 1. Fare clic su **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447667/?captions=ita&learn=on)
 
 ## Modifica e-mail
 
