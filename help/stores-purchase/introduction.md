@@ -2,9 +2,16 @@
 title: Introduzione ai negozi ed esperienza di acquisto
 description: Scopri le funzioni utilizzate per creare e gestire i negozi online e l’esperienza di acquisto per i clienti.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/wP31dNMG9kiajirB5WTj-lEhTtHqKnl4FfqPsa3tFxs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: 680
 ht-degree: 0%
 
 ---
@@ -21,11 +28,11 @@ Una volta definita la [gerarchia](stores.md), è possibile applicare le impostaz
 
 ## Punto vendita
 
-Adobe Commerce e Magento Open Source riducono gli errori di ordinazione verificando automaticamente lo SKU e la disponibilità di tutti gli articoli prima dell&#39;invio di un ordine. Puoi configurare le [opzioni carrello](cart.md) e [opzioni di pagamento](checkout-process.md) per fornire un&#39;esperienza di acquisto ottimale, dalla transazione alla consegna. I clienti che hanno effettuato l&#39;accesso ai loro account possono completare rapidamente l&#39;estrazione, poiché molte delle informazioni sono già presenti nei loro account. La pagina _Pagamento_ guida il cliente attraverso ogni passaggio del processo per il completamento della transazione dell&#39;ordine. Se attivi [Acquisto immediato](checkout-instant-purchase.md), i clienti possono eseguire rapidamente il processo di pagamento utilizzando le informazioni salvate nel loro account.
+Adobe Commerce e Magento Open Source riducono gli errori di ordinazione verificando automaticamente lo SKU e la disponibilità di tutti gli articoli prima dell’invio di un ordine. Puoi configurare le [opzioni carrello](cart.md) e [opzioni di pagamento](checkout-process.md) per fornire un&#39;esperienza di acquisto ottimale, dalla transazione alla consegna. I clienti che hanno effettuato l&#39;accesso ai loro account possono completare rapidamente l&#39;estrazione, poiché molte delle informazioni sono già presenti nei loro account. La pagina _Pagamento_ guida il cliente attraverso ogni passaggio del processo per il completamento della transazione dell&#39;ordine. Se attivi [Acquisto immediato](checkout-instant-purchase.md), i clienti possono eseguire rapidamente il processo di pagamento utilizzando le informazioni salvate nel loro account.
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Con l&#39;installazione e l&#39;abilitazione di Adobe Commerce B2B, puoi configurare _Quick Order_ per i clienti associati a un account aziendale. Questa funzione riduce il processo di ordinazione a diversi clic quando conoscono il nome o lo SKU dei prodotti che desiderano ordinare. È inoltre possibile configurare il supporto per i preventivi negoziabili per gli account aziendali. Per ulteriori informazioni sulle funzionalità B2B, consulta la [Guida utente di Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=it).
+>![Adobe Commerce B2B](../assets/b2b.svg) Con l&#39;installazione e l&#39;abilitazione di Adobe Commerce B2B, puoi configurare _Quick Order_ per i clienti associati a un account aziendale. Questa funzione riduce il processo di ordinazione a diversi clic quando conoscono il nome o lo SKU dei prodotti che desiderano ordinare. È inoltre possibile configurare il supporto per i preventivi negoziabili per gli account aziendali. Per ulteriori informazioni sulle funzionalità B2B, consulta la [Guida utente di Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## Assistenza agli acquisti
 
@@ -39,7 +46,7 @@ I clienti a volte hanno bisogno di assistenza per completare un acquisto. Ad alc
 
 Guarda questo video per scoprire cosa sono gli acquisti assistiti dal venditore:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410202/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## Gestione degli ordini e operazioni
 

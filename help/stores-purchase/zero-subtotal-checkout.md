@@ -3,9 +3,15 @@ title: Estrazione subtotale pari a zero
 description: Scopri come impostare un subtotale pari a zero come metodo di pagamento offline nel tuo Negozio.
 exl-id: c14ce289-8292-41d9-a448-f493c784f35c
 feature: Checkout, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/WCWo0jvFkqHnwLX7QnAcJ1vDs66sdrtpba5hoxd-JKc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: 347
 ht-degree: 0%
 
 ---
@@ -24,7 +30,7 @@ _È possibile utilizzare un totale parziale pari a zero_ per gli ordini con un t
 
 Per risparmiare tempo, è possibile impostare zero ordini di subtotale su fatturazione automatica.
 
-**_Per configurare l&#39;estrazione del subtotale zero:_**
+**_Per configurare l&#39;estrazione del subtotale pari a zero:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -52,7 +58,7 @@ Per risparmiare tempo, è possibile impostare zero ordini di subtotale su fattur
 
    >[!NOTE]
    >
-   >Se _[!UICONTROL New Order Status]_&#x200B;è impostato su `Processing` e&#x200B;_[!UICONTROL Automatically Invoice All Items]_ è impostato su `No`, è necessario assegnare anche **[!UICONTROL Order Status]** = `Processing` per il mapping **[!UICONTROL Order State]** = `Pending` e **[!UICONTROL Default Status]** = `No` nella pagina [Stato ordine](order-status.md#custom-order-status).
+   >Se _[!UICONTROL New Order Status]_è impostato su `Processing` e_[!UICONTROL Automatically Invoice All Items]_ è impostato su `No`, è necessario assegnare anche **[!UICONTROL Order Status]** = `Processing` per il mapping **[!UICONTROL Order State]** = `Pending` e **[!UICONTROL Default Status]** = `No` nella pagina [Stato ordine](order-status.md#custom-order-status).
 
 1. Imposta **[!UICONTROL Payment from Applicable Countries]** su uno dei seguenti:
 

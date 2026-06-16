@@ -3,10 +3,16 @@ title: Configura [!DNL Inventory Management] opzioni globali
 description: Scopri come configurare le opzioni di configurazione  [!DNL Inventory Management]  predefinite per prodotto e stock per i siti web.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 0%
+source-wordcount: 648
+ht-degree: 1%
 
 ---
 
@@ -86,7 +92,7 @@ Configura le opzioni di configurazione predefinite per prodotto e magazzino per 
 
      >[!NOTE]
      >
-     >Per configurare e supportare i _gestori di code asincrone_, è necessario eseguire un comando tramite la riga di comando. Questo passaggio potrebbe richiedere l’assistenza degli sviluppatori. Vedere [Avvia consumer della coda messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=it) nella _Guida alla configurazione_.
+     >Per configurare e supportare i _gestori di code asincrone_, è necessario eseguire un comando tramite la riga di comando. Questo passaggio potrebbe richiedere l’assistenza degli sviluppatori. Vedere [Avvia consumer della coda messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) nella _Guida alla configurazione_.
 
    - Se abilitato, impostare **[!UICONTROL Asynchronous batch size]**. La dimensione predefinita del batch è 100. Quando i processi in blocco raggiungono questa quantità, il sistema la attiva.
 

@@ -3,9 +3,15 @@ title: Creazione di spedizioni multi-source
 description: Scopri in che modo i commercianti multi-source possono creare e inviare spedizioni.
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -43,7 +49,7 @@ Quando si inseriscono le spedizioni, le quantità di scorte disponibili detraggo
 
      >[!IMPORTANT]
      >
-     >Quando si utilizza l&#39;algoritmo Distance Priority (Priorità distanza) per la spedizione e le route e i dati non vengono restituiti per la [modalità di calcolo](distance-priority-algorithm.md) selezionata (guida, bicicletta o deambulazione) per una spedizione, il valore predefinito di SSA è Source Priority. È inoltre consigliabile impostare la priorità [&#x200B; per le origini per magazzino](stocks-prioritize-sources.md).
+     >Quando si utilizza l&#39;algoritmo Distance Priority (Priorità distanza) per la spedizione e le route e i dati non vengono restituiti per la [modalità di calcolo](distance-priority-algorithm.md) selezionata (guida, bicicletta o deambulazione) per una spedizione, il valore predefinito di SSA è Source Priority. È inoltre consigliabile impostare la priorità [ per le origini per magazzino](stocks-prioritize-sources.md).
 
 
    - Per **[!UICONTROL Select a Source to Ship from]**, selezionare un&#39;origine per l&#39;invio di una spedizione.
@@ -54,9 +60,9 @@ Quando si inseriscono le spedizioni, le quantità di scorte disponibili detraggo
 
      ![Selezionare un Source e immettere una quantità](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Esaminare la pagina _[!UICONTROL New Shipment]_&#x200B;e immettere eventuali modifiche aggiuntive.
+1. Esaminare la pagina _[!UICONTROL New Shipment]_e immettere eventuali modifiche aggiuntive.
 
-   Nella sezione _[!UICONTROL Inventory]_&#x200B;vengono visualizzati l&#39;origine, la spedizione dei prodotti, la quantità ordinata totale e la quantità da spedire.
+   Nella sezione _[!UICONTROL Inventory]_vengono visualizzati l&#39;origine, la spedizione dei prodotti, la quantità ordinata totale e la quantità da spedire.
 
    ![Dettagli di magazzino per la spedizione, esempio spedizione parziale](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

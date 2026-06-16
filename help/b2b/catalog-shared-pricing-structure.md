@@ -4,9 +4,15 @@ description: Con Adobe Commerce B2B, scopri come impostare i prezzi e la struttu
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/j5p-DXCuqzrs-s8XRHeh8o6rc6S-Z-XsETu5Tso9WOw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: 1307
 ht-degree: 0%
 
 ---
@@ -23,7 +29,7 @@ Nell&#39;albero delle categorie standard, la categoria principale è il contenit
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**
 
-1. Per il catalogo condiviso nella griglia, passare alla colonna _[!UICONTROL Action]_&#x200B;e fare clic su **[!UICONTROL Set Pricing and Structure]**.
+1. Per il catalogo condiviso nella griglia, passare alla colonna _[!UICONTROL Action]_e fare clic su **[!UICONTROL Set Pricing and Structure]**.
 
    ![Imposta prezzi e struttura per il catalogo condiviso](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -69,7 +75,7 @@ Solo le categorie con i prodotti selezionati vengono visualizzate nella [navigaz
 
 ## Passaggio 3: impostare i prezzi personalizzati
 
-È possibile impostare prezzi personalizzati per ogni singolo prodotto oppure utilizzare il controllo _[!UICONTROL Action]_&#x200B;per impostare i prezzi personalizzati come quantità o percentuale fissa per più record di prodotto.
+È possibile impostare prezzi personalizzati per ogni singolo prodotto oppure utilizzare il controllo _[!UICONTROL Action]_per impostare i prezzi personalizzati come quantità o percentuale fissa per più record di prodotto.
 
 - **[!UICONTROL Fixed]**: specifica il prezzo del prodotto finale. Ad esempio, se si immette un prezzo fisso di $10,00, il prezzo nella vetrina della società corrispondente è $10,00.
 
@@ -83,7 +89,7 @@ Solo le categorie con i prodotti selezionati vengono visualizzate nella [navigaz
 
 - **[!UICONTROL Percentage]**: determina il prezzo personalizzato in base alla percentuale di sconto. Ad esempio, per offrire uno sconto del 10%, impostare il tipo di prezzo personalizzato su `Percentage` e immettere `10`. Il prezzo personalizzato scontato è il 90% del prezzo del prodotto originale.
 
-Per impostare lo sconto su un importo fisso o su una percentuale per i seguenti tipi di prodotto, utilizzare la colonna _[!UICONTROL Custom Price]_&#x200B;nella griglia:
+Per impostare lo sconto su un importo fisso o su una percentuale per i seguenti tipi di prodotto, utilizzare la colonna _[!UICONTROL Custom Price]_nella griglia:
 
 - [Semplice](../catalog/product-create-simple.md) (incluse varianti di prodotto configurabili)
 - [Bundle](../catalog/product-create-bundle.md)
@@ -105,7 +111,7 @@ Impossibile modificare la selezione dei prodotti nella griglia dalla pagina _Pre
 1. Utilizza uno dei seguenti metodi per selezionare i prodotti a cui applicare il prezzo personalizzato.
 
    - Utilizzare l&#39;albero delle categorie per selezionare tutti i prodotti di una categoria specifica.
-   - Impostare il controllo _[!UICONTROL Mass Actions]_&#x200B;nell&#39;intestazione su `Select All`.
+   - Impostare il controllo _[!UICONTROL Mass Actions]_nell&#39;intestazione su `Select All`.
    - Seleziona la casella di controllo dei singoli prodotti.
 
    Nella griglia vengono visualizzati i prodotti nelle categorie attualmente selezionate ed è possibile utilizzare i controlli standard per trovare i prodotti e filtrare l&#39;elenco.
@@ -163,4 +169,4 @@ Le istruzioni seguenti mostrano come applicare i prezzi dei livelli a un singolo
 
 Al termine della determinazione dei prezzi personalizzata, fare clic su **[!UICONTROL Generate Catalog]** e quindi su **[!UICONTROL Save]**.
 
-Il catalogo condiviso viene ora salvato nel database. Il nome viene visualizzato nella colonna _[!UICONTROL Shared Catalog]_&#x200B;della griglia&#x200B;_[!UICONTROL Products]_. Il passaggio successivo è [assegnare il catalogo condiviso a una società](./catalog-shared-assign-companies.md).
+Il catalogo condiviso viene ora salvato nel database. Il nome viene visualizzato nella colonna _[!UICONTROL Shared Catalog]_della griglia_[!UICONTROL Products]_. Il passaggio successivo è [assegnare il catalogo condiviso a una società](./catalog-shared-assign-companies.md).

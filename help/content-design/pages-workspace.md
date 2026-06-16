@@ -3,10 +3,15 @@ title: Controlli dell’area di lavoro pagina
 description: Scopri gli strumenti di Workspace utilizzati per individuare e aggiornare le pagine di contenuto.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: 1385
 ht-degree: 0%
 
 ---
@@ -61,7 +66,7 @@ L&#39;area di lavoro della pagina include strumenti che consentono di trovare ra
 | [!UICONTROL Status] | Indica se la pagina è online o offline. Opzioni: `Enabled` / `Disabled` |
 | [!UICONTROL Created] | Data di creazione della pagina. |
 | [!UICONTROL Modified] | Data dell’ultima modifica apportata alla pagina. |
-| [!UICONTROL Action] | Le azioni applicabili a un singolo record includono:<br/>**[!UICONTROL Edit]**- Apre la pagina in modalità di modifica.<br/>**[!UICONTROL Delete]** - Elimina la pagina.<br/>**[!UICONTROL View]**- Visualizza la pagina in modalità anteprima. |
+| [!UICONTROL Action] | Le azioni che possono essere applicate a un singolo record includono:<br/>**[!UICONTROL Edit]**- Apre la pagina in modalità di modifica.<br/>**[!UICONTROL Delete]** - Elimina la pagina.<br/>**[!UICONTROL View]**- Visualizza la pagina in modalità anteprima. |
 
 {style="table-layout:auto"}
 
@@ -72,7 +77,7 @@ L&#39;area di lavoro della pagina include strumenti che consentono di trovare ra
 | [!UICONTROL Custom design from/to] | Specifica la data di inizio e di fine in cui la struttura selezionata viene applicata alla pagina. ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source). |
 | [!UICONTROL Custom Theme] | Applica un tema personalizzato alla pagina |
 | [!UICONTROL Custom Layout] | Determina il layout personalizzato della pagina |
-| [!UICONTROL Meta Title] | Titolo metadati per la pagina |
+| [!UICONTROL Meta Title] | Titolo Meta per la pagina |
 | [!UICONTROL Meta Keywords] | Parole chiave meta per la pagina |
 | [!UICONTROL Meta Description] | La metadescrizione della pagina |
 
@@ -80,7 +85,7 @@ L&#39;area di lavoro della pagina include strumenti che consentono di trovare ra
 
 ## Ricerca pagina
 
-È possibile utilizzare la casella di ricerca nella parte superiore sinistra della griglia _[!UICONTROL Pages]_&#x200B;per trovare pagine specifiche per parola chiave. Per una ricerca più avanzata, puoi [filtrare](../getting-started/admin-grid-controls.md) la ricerca per più parametri.
+È possibile utilizzare la casella di ricerca nella parte superiore sinistra della griglia _[!UICONTROL Pages]_per trovare pagine specifiche per parola chiave. Per una ricerca più avanzata, puoi [filtrare](../getting-started/admin-grid-controls.md) la ricerca per più parametri.
 
 ### Ricerca per parola chiave
 
@@ -94,7 +99,7 @@ L&#39;area di lavoro della pagina include strumenti che consentono di trovare ra
 
 1. Se necessario, fare clic su **[!UICONTROL Clear All]** per cancellare i criteri di ricerca precedenti.
 
-1. Per visualizzare la selezione dei filtri di ricerca, fare clic su **[!UICONTROL Filters]** !Scheda ([Icona funnel](../assets/icon-filter-search.png)).
+1. Per visualizzare la selezione dei filtri di ricerca, fare clic sulla scheda **[!UICONTROL Filters]** !([icona Funnel](../assets/icon-filter-search.png)).
 
 1. Completa tutti i filtri necessari per descrivere le pagine che desideri trovare.
 
@@ -140,7 +145,7 @@ Le pagine possono essere modificate, disattivate, attivate ed eliminate. Per app
 
 ### Azione singola
 
-Utilizza la colonna _[!UICONTROL Action]_&#x200B;all&#39;estrema destra per applicare una delle seguenti azioni alla singola pagina:
+Utilizza la colonna _[!UICONTROL Action]_all&#39;estrema destra per applicare una delle seguenti azioni alla singola pagina:
 
 - [!UICONTROL Edit] - apre la pagina in modalità di modifica
 - [!UICONTROL Delete] - elimina la pagina (richiede conferma)
@@ -150,7 +155,7 @@ Utilizza la colonna _[!UICONTROL Action]_&#x200B;all&#39;estrema destra per appl
 
 ### Azioni di massa
 
-Applica una delle azioni seguenti a più pagine selezionate contemporaneamente utilizzando il selettore _[!UICONTROL Action]_&#x200B;in alto a sinistra:
+Applica una delle azioni seguenti a più pagine selezionate contemporaneamente utilizzando il selettore _[!UICONTROL Action]_in alto a sinistra:
 
 - [!UICONTROL Delete] - elimina le pagine (richiede conferma)
 - [!UICONTROL Disable] - disabilita le pagine nella vetrina

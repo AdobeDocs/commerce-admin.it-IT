@@ -3,9 +3,16 @@ title: Creare categorie
 description: Puoi creare tutte le sottocategorie aggiuntive necessarie, in base alla profondità massima del menu impostata nella configurazione.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/BZwvDT-VCy2JS9RpQT-IdG9s22genACydrfHcyWmCls
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: 1165
 ht-degree: 0%
 
 ---
@@ -114,9 +121,9 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Se si desidera che la pagina delle categorie includa la sezione _`Filter by Attribute`_della navigazione a livelli, impostare **[!UICONTROL Anchor]**&#x200B;su `Yes`.
+1. Se si desidera che la pagina delle categorie includa la sezione _`Filter by Attribute`_della navigazione a livelli, impostare **[!UICONTROL Anchor]**su `Yes`.
 
-1. Per le opzioni **[!UICONTROL Available Product Listing Sort By]**, selezionare uno o più valori disponibili per consentire ai clienti di ordinare l&#39;elenco. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Per le opzioni **[!UICONTROL Available Product Listing Sort By]**, selezionare uno o più valori disponibili per consentire ai clienti di ordinare l&#39;elenco. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Per impostazione predefinita, sono inclusi tutti i valori disponibili. Deselezionare la casella di controllo **[!UICONTROL Use All]** per modificare le selezioni. Ad esempio, i valori possono includere:
 
@@ -124,7 +131,7 @@ Definisci anche le parole chiave e gli attributi associati, ad esempio:
    - `Product Name`
    - `Price`
 
-1. Per impostare l&#39;ordinamento predefinito per la categoria, scegliere il valore **[!UICONTROL Default Product Listing Sort By]**. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Per impostare l&#39;ordinamento predefinito per la categoria, scegliere il valore **[!UICONTROL Default Product Listing Sort By]**. Questa impostazione non è applicabile al [!DNL Live Search] [widget pagina elenco prodotti](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Per modificare l&#39;impostazione predefinita per la navigazione a livelli [passaggio di prezzo](navigation-layered.md#configure-price-navigation), eseguire le operazioni seguenti:
 

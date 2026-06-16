@@ -3,10 +3,16 @@ title: '[!UICONTROL General] > [!UICONTROL Content Management]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL General] > [!UICONTROL Content Management] dell'amministratore di Commerce.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 297dc7bac426a32617df6715ec1590a23f9bc011
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: https://experienceleague.adobe.com/0xOspXoBYVeEE3ZvTlwkKNewR9YMAdbmch8RlRcE7S8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: 646
 ht-degree: 0%
 
 ---
@@ -21,12 +27,12 @@ ht-degree: 0%
 
 ![Opzioni WYSIWYG](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable WYSIWYG Editor] | Visualizzazione store | Determina se l&#39;editor è abilitato per l&#39;archivio. Opzioni: Attivato completamente per impostazione predefinita/Disattivato per impostazione predefinita/Disattivato |
-| [!UICONTROL WYSIWYG Editor] | Sito Web | Determina la versione dell&#39;editor TinyMCE utilizzata per l&#39;editor WYSIWYG. Opzioni: <br/>**`TinyMCE 6`**- (Predefinito) Utilizza la versione 6 di TinyMCE come editor predefinito di WYSIWYG.<br><br>_ **&#x200B; Nota:**&#x200B;_un aggiornamento alla libreria TinyMCE 5.10 in Adobe Commerce e Magento Open Source 2.4.5 risolve una vulnerabilità che consentiva l&#39;esecuzione arbitraria di JavaScript durante l&#39;aggiornamento di un&#39;immagine o di un collegamento utilizzando alcuni tipi di URL. TinyMCE 3 è stato dichiarato obsoleto nella versione 2.4.0 e rimosso nella versione 2.4.3. TinyMCE 4 è stato rimosso nella versione 2.4.4. |
+| [!UICONTROL WYSIWYG Editor] | Sito Web | Determina la versione dell&#39;editor TinyMCE utilizzata per l&#39;editor WYSIWYG. Opzioni: <br/>**`TinyMCE 6`**- (Predefinito) Utilizza la versione 6 di TinyMCE come editor predefinito di WYSIWYG.<br><br>_** Nota:**_un aggiornamento alla libreria TinyMCE 5.10 in Adobe Commerce e Magento Open Source 2.4.5 risolve una vulnerabilità che consentiva l&#39;esecuzione arbitraria di JavaScript durante l&#39;aggiornamento di un&#39;immagine o di un collegamento utilizzando alcuni tipi di URL. TinyMCE 3 è stato dichiarato obsoleto nella versione 2.4.0 e rimosso nella versione 2.4.3. TinyMCE 4 è stato rimosso nella versione 2.4.4. |
 | [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Globale | Determina se [URL statici](../../content-design/catalog-urls-dynamic-media.md) vengono utilizzati per i contenuti multimediali a cui si fa riferimento dall&#39;editor di WYSIWYG. L’impostazione si applica a tutte le posizioni in cui è disponibile l’editor di WYSIWYG, inclusi prodotti, categorie, pagine e blocchi. Opzioni: <br/>**`Yes`**- Utilizza URL statici per i contenuti multimediali inseriti con l&#39;editor WYSIWYG. Gli URL statici sono assoluti e si interrompono se l&#39;[URL di base](../../stores-purchase/store-urls.md) dell&#39;archivio cambia.<br/>**`No`** Impostazione predefinita: utilizza URL dinamici per i contenuti multimediali inseriti con l&#39;editor di WYSIWYG, in base alla direttiva `{{media url="..."}}`. Gli URL dinamici sono relativi e non si interrompono se l’URL di base dell’archivio cambia. |
 
 {style="table-layout:auto"}
@@ -39,7 +45,7 @@ ht-degree: 0%
 
 ![Opzioni WYSIWYG](./assets/content-management-wysiwyg-options-hugerte.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -55,7 +61,7 @@ ht-degree: 0%
 
 ![Gerarchia pagine CMS](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -69,11 +75,11 @@ ht-degree: 0%
 
 ![Strumenti di contenuto avanzati](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://experienceleague.adobe.com/it/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Enable Page Builder] | Globale | Determina se sono disponibili gli strumenti di contenuto avanzato [!DNL Page Builder]. Opzioni: <br/>**`Yes`**- L&#39;area di lavoro [!DNL Page Builder] viene visualizzata nella sezione Contenuto di pagine, blocchi, prodotti e categorie.<br/>**`No`** - Gli strumenti di modifica standard di CMS vengono visualizzati nella sezione _[!UICONTROL Content]_&#x200B;di pagine, blocchi, prodotti e categorie. |
+| [!UICONTROL Enable Page Builder] | Globale | Determina se sono disponibili gli strumenti di contenuto avanzato [!DNL Page Builder]. Opzioni: <br/>**`Yes`**- L&#39;area di lavoro [!DNL Page Builder] viene visualizzata nella sezione Contenuto di pagine, blocchi, prodotti e categorie.<br/>**`No`** - Gli strumenti di modifica standard di CMS vengono visualizzati nella sezione _[!UICONTROL Content]_di pagine, blocchi, prodotti e categorie. |
 | [!UICONTROL Enable Page Builder Content Preview] | Globale | Determina se le anteprime di contenuto [!DNL Page Builder] sono abilitate per prodotti e categorie. Opzioni: `Yes` / `No` <br/>**_Note:_** Questa opzione è impostata su `Yes` per impostazione predefinita, ma la disattivazione dell&#39;anteprima può evitare problemi di prestazioni derivanti dal caricamento delle anteprime all&#39;interno di un modulo di prodotto o categoria. |
 | [!UICONTROL Google Maps API Key] | Globale | La chiave API [!DNL Google Maps] dal tuo account Google. |
 | [!UICONTROL Test Key] |  | Convalida la chiave API [!DNL Google Maps]. |

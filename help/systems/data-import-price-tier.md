@@ -3,9 +3,15 @@ title: Importa prezzi livello
 description: Scopri come esportare i dati dei prezzi a livello e importare i dati aggiornati.
 exl-id: b19d0208-68b3-45ba-9896-318e12ff4131
 feature: Products, Data Import/Export
-source-git-commit: 55b0672984ce8cdb853daf024299919beaf7ce0b
+TQID: https://experienceleague.adobe.com/8eyWhVu-RtuzEYG81xOyqsEFdbz0s7evB-UGepUGCNw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: 346
 ht-degree: 0%
 
 ---
@@ -24,7 +30,7 @@ Nell&#39;esempio seguente vengono esportati i dati relativi ai prezzi dei livell
 
 1. Nella barra laterale _Admin_, vai a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-1. In _[!UICONTROL Export Settings]_, impostare **[!UICONTROL Entity Type]**&#x200B;su `Advanced Pricing`.
+1. In _[!UICONTROL Export Settings]_, impostare **[!UICONTROL Entity Type]**su `Advanced Pricing`.
 
 1. Nella griglia **[!UICONTROL Entity Attributes]**, scorrere verso il basso fino agli attributi SKU ed effettuare le seguenti operazioni:
 

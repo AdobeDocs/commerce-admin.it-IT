@@ -3,9 +3,15 @@ title: Elementi - Intestazione
 description: Scopri il tipo di contenuto Titolo, utilizzato per aggiungere allo stadio  [!DNL Page Builder]  un contenitore di testo con un livello di intestazione da H1 a H6.
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/5oFGY5Vemq0aLKOaCQ5DTIvfj0Zzvd1qVKkuDjS-kgM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: 940
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 I livelli di intestazione stabiliscono una gerarchia che organizza il contenuto e aiuta i motori di ricerca a indicizzare ogni pagina. Utilizzare il tipo di contenuto _Intestazione_ nella [[!DNL Page Builder] fase](workspace.md#stage) per aggiungere all&#39;area di visualizzazione un contenitore di testo con un livello di intestazione da H1 a H6. Le intestazioni vengono formattate in base al foglio di stile associato al tema corrente.
 
-Il campo [Intestazione contenuto](workspace.md) nella sezione _[!UICONTROL Content]_&#x200B;può essere utilizzato per aggiungere un&#39;intestazione H1 nella parte superiore della pagina. Tuttavia, il campo è legacy rispetto alle versioni precedenti di [!DNL Commerce] ed è fornito per supportare contenuti meno recenti. Questo campo non sfrutta le funzionalità avanzate di [!DNL Page Builder]. È consigliabile lasciare vuoto il campo Intestazione contenuto e utilizzare il tipo di contenuto Intestazione [!DNL Page Builder] per aggiungere alla pagina titoli di qualsiasi livello.
+Il campo [Intestazione contenuto](workspace.md) nella sezione _[!UICONTROL Content]_può essere utilizzato per aggiungere un&#39;intestazione H1 nella parte superiore della pagina. Tuttavia, il campo è legacy rispetto alle versioni precedenti di [!DNL Commerce] ed è fornito per supportare contenuti meno recenti. Questo campo non sfrutta le funzionalità avanzate di [!DNL Page Builder]. È consigliabile lasciare vuoto il campo Intestazione contenuto e utilizzare il tipo di contenuto Intestazione [!DNL Page Builder] per aggiungere alla pagina titoli di qualsiasi livello.
 
 L’esempio seguente mostra come vengono visualizzati l’intestazione di contenuto e il tipo di contenuto Intestazione quando vengono formattati dal tema Luma.
 
@@ -74,7 +80,7 @@ Come per tutti i contenitori di contenuto, la casella degli strumenti viene visu
 
    Puoi anche aggiornare questo contenuto nell’editor delle intestazioni.
 
-1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_&#x200B;in base alle esigenze.
+1. Aggiornare le impostazioni di _[!UICONTROL Advanced]_in base alle esigenze.
 
    - Per controllare il posizionamento dell&#39;intestazione all&#39;interno del contenitore padre, scegliere un **[!UICONTROL Alignment]**:
 

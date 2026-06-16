@@ -7,9 +7,16 @@ feature-set: Commerce
 role: Admin
 level: Intermediate
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
-source-git-commit: d3c5f0da47bfd951431213050546e865c6ab35ec
+TQID: https://experienceleague.adobe.com/H-dTFXAVolrnH6j72tou-NCEcv38NyZdtwhnk0xxX-0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: 1196
 ht-degree: 0%
 
 ---
@@ -32,7 +39,7 @@ Il sistema dispone di un ruolo utente predefinito predefinito, che puoi utilizza
 
 Gestisci i ruoli aziendali dall&#39;account vetrina dell&#39;amministratore della società.
 
-**To open Roles and Permissions:**
+**Per aprire ruoli e autorizzazioni:**
 
 1. Accedi alla vetrina come amministratore della società.
 
@@ -124,7 +131,7 @@ Le autorizzazioni del ruolo sono organizzate in una struttura ad albero, con opz
 
 ### Autorizzazioni per le virgolette
 
-Parent node in the company permission tree: **Quotes**.
+Nodo padre nella struttura di autorizzazioni della società: **Virgolette**.
 
 | Etichetta di autorizzazione | Descrizione |
 | --- | --- |
@@ -171,8 +178,8 @@ Nodo padre: **Approvazioni ordini**. Le autorizzazioni dell’ordine di acquisto
 | Etichetta di autorizzazione | Descrizione |
 | --- | --- |
 | Approva ordini di acquisto senza altre approvazioni | Approvare gli ordini di acquisto anche quando normalmente sarebbero necessarie altre approvazioni (in base alle regole di approvazione). |
-| Visualizza regole di approvazione | View purchase order approval rules. |
-| Create, Edit and Delete | Create, edit, and delete approval rules. |
+| Visualizza regole di approvazione | Visualizza regole di approvazione ordine fornitore. |
+| Creare, modificare ed eliminare | Crea, modifica ed elimina regole di approvazione. |
 
 ### Profilo aziendale e contatti
 
@@ -184,9 +191,9 @@ Autorizzazioni di Storefront per le sezioni del profilo aziendale. Le voci **Mod
 | Informazioni account (visualizzazione) | Visualizza informazioni account società. |
 | Modifica | Modificare le informazioni sull&#39;account della società (in Informazioni account). |
 | Indirizzo legale (visualizzazione) | Visualizza l&#39;indirizzo legale della società. |
-| Modifica | Edit the company legal address (under Legal Address). |
-| Contacts (View) | View company contacts. |
-| Payment Information (View) | Visualizza le informazioni sul pagamento nel profilo società. |
+| Modifica | Modificare l&#39;indirizzo legale della società (sotto Indirizzo legale). |
+| Contatti (visualizzazione) | Visualizza contatti società. |
+| Informazioni sul pagamento (visualizzazione) | Visualizza le informazioni sul pagamento nel profilo società. |
 | Informazioni sulla spedizione (Visualizza) | Visualizza le informazioni sulla spedizione nel profilo della società. |
 
 ## Gestione degli utenti aziendali

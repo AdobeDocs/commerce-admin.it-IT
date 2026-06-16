@@ -4,9 +4,16 @@ description: Scopri come creare un account aziendale nell’amministratore di Ad
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 2e119bcb8278432bde1c12f3f44a112cde59fb18
+TQID: https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2444'
+source-wordcount: 2455
 ht-degree: 0%
 
 ---
@@ -144,7 +151,7 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 
    * Se applicabile, scegliere l&#39;account amministratore di **[!UICONTROL Sales Representative]** che deve gestire l&#39;account.
 
-1. Nella sezione _[!UICONTROL Account Information]_&#x200B;eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Account Information]_eseguire le operazioni seguenti:
 
    * Compila i campi seguenti, a seconda dei casi:
 
@@ -158,7 +165,7 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 
    ![Informazioni account](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. Quando si crea inizialmente una società, la griglia _[!UICONTROL Company Hierarchy]_&#x200B;appare vuota quando si espande. Dopo aver salvato la società, è possibile includerla in una gerarchia di società. Consulta [Gestione società](manage-companies.md).
+1. Quando si crea inizialmente una società, la griglia _[!UICONTROL Company Hierarchy]_appare vuota quando si espande. Dopo aver salvato la società, è possibile includerla in una gerarchia di società. Consulta [Gestione società](manage-companies.md).
 
 1. Nella sezione _[!UICONTROL Legal Address]_, completa i seguenti campi obbligatori:
 
@@ -168,7 +175,7 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
    * **[!UICONTROL ZIP/Postal Code]**
    * **[!UICONTROL Phone Number]**
 
-1. Nella sezione _[!UICONTROL Company Admin]_&#x200B;eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Company Admin]_eseguire le operazioni seguenti:
 
    * Completa i campi obbligatori seguenti:
 
@@ -201,7 +208,7 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 
    ![Credito società](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Advanced Settings]_&#x200B;eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Advanced Settings]_eseguire le operazioni seguenti:
 
    >[!NOTE]
    >
@@ -338,7 +345,7 @@ Durante la creazione e la gestione degli account aziendali:
 | Campo | Descrizione |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | Il nome della società viene immesso al momento della creazione dell&#39;account della società e può essere una versione ridotta della ragione sociale completa. |
-| [!UICONTROL Status] | (Solo amministratore) indica lo stato corrente dell’account aziendale. Opzioni: <br/>**[!UICONTROL Active]**- L&#39;account società è approvato dall&#39;amministratore dello store. L’amministratore della società e i membri associati possono accedere all’account dalla vetrina e effettuare acquisti.<br/>**[!UICONTROL Pending Approval]** - Una richiesta di apertura di un account società è stata inviata, ma non è ancora stata approvata dall&#39;amministratore dello store. <br/>**[!UICONTROL Rejected]**- Richiesta di apertura di un account società inviata, ma non approvata dall&#39;amministratore dello store. Le credenziali di accesso iniziali utilizzate per inviare la richiesta sono bloccate.<br/>**&#x200B; Bloccato &#x200B;**- I membri della società possono accedere al catalogo e accedervi, ma non possono effettuare acquisti. L’amministratore dello store potrebbe bloccare un account aziendale che non è in buono stato. Il blocco sull’account può essere rimosso dall’amministratore dello store in qualsiasi momento. |
+| [!UICONTROL Status] | (Solo amministratore) indica lo stato corrente dell’account aziendale. Opzioni: <br/>**[!UICONTROL Active]**- L&#39;account società è approvato dall&#39;amministratore dello store. L’amministratore della società e i membri associati possono accedere all’account dalla vetrina e effettuare acquisti.<br/>**[!UICONTROL Pending Approval]** - Una richiesta di apertura di un account società è stata inviata, ma non è ancora stata approvata dall&#39;amministratore dello store. <br/>**[!UICONTROL Rejected]**- Richiesta di apertura di un account aziendale inviata, ma non approvata dall&#39;amministratore dello store. Le credenziali di accesso iniziali utilizzate per inviare la richiesta sono bloccate.<br/>** Bloccato **- I membri della società possono accedere al catalogo e accedervi, ma non possono effettuare acquisti. L’amministratore dello store potrebbe bloccare un account aziendale che non è in buono stato. Il blocco sull’account può essere rimosso dall’amministratore dello store in qualsiasi momento. |
 | [!UICONTROL Company Email] | L’indirizzo e-mail associato all’account aziendale. |
 | [!UICONTROL Sales Representative] | (Solo amministratore) L’utente amministratore che è il contatto principale per l’account aziendale. |
 

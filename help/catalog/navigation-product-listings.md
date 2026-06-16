@@ -3,9 +3,16 @@ title: Elenco prodotti
 description: Scopri come modificare la configurazione dell’elenco dei prodotti, che determina quanti prodotti vengono visualizzati per pagina e quale attributo viene utilizzato per ordinare l’elenco.
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+TQID: https://experienceleague.adobe.com/XC4xwHkJyLCiHNNCAz6huVbN3j-WwCvKumJtjf0uj-I
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 792
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ Gli elenchi di prodotti possono essere impostati in modo da essere visualizzati 
 
 >[!NOTE]
 >
->Quando si ordina una categoria in base a un attributo di prodotto, anche i prodotti con gli stessi valori di attributo vengono ordinati in base al rispettivo _[!UICONTROL Product ID]_&#x200B;in ordine crescente.
+>Quando si ordina una categoria in base a un attributo di prodotto, anche i prodotti con gli stessi valori di attributo vengono ordinati in base al rispettivo _[!UICONTROL Product ID]_in ordine crescente.
 
 ![Prodotti visualizzati come griglia](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +41,7 @@ Gli elenchi di prodotti possono essere impostati in modo da essere visualizzati 
 
    >[!NOTE]
    >
-   >Per visualizzare correttamente i prodotti e i relativi prezzi in base a _ordinamento dei prodotti in base al prezzo_, assicurarsi che le impostazioni per la visualizzazione del prezzo nella [configurazione IVA](../configuration-reference/sales/tax.md) abbiano lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla il valore **[!UICONTROL Catalog Prices]**. E per&#x200B;_[!UICONTROL Price Display Settings]_, controlla il valore **[!UICONTROL Display Product Prices in Catalog]**. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
+   >Per visualizzare correttamente i prodotti e i relativi prezzi in base a _ordinamento dei prodotti in base al prezzo_, assicurarsi che le impostazioni per la visualizzazione del prezzo nella [configurazione IVA](../configuration-reference/sales/tax.md) abbiano lo stesso valore (`Excluding Tax` **o** `Including Tax`). Per _[!UICONTROL Calculation Settings]_, controlla il valore **[!UICONTROL Catalog Prices]**. E per_[!UICONTROL Price Display Settings]_, controlla il valore **[!UICONTROL Display Product Prices in Catalog]**. Se questi hanno valori diversi, i filtri dei prezzi nella navigazione a livelli potrebbero non filtrare e ordinare correttamente i prodotti in base al prezzo.
 
 1. Impostare **[!UICONTROL List Mode]** predefinito su uno dei seguenti valori:
 
@@ -95,7 +102,7 @@ Le impostazioni di impaginazione vengono visualizzate nella parte superiore e in
 | Controllo | Descrizione |
 |--- |--- |
 | ![Visualizza griglia](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Visualizza l&#39;elenco in formato Griglia o Elenco. |
-| ![Ordina per](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Modifica l&#39;ordinamento dell&#39;elenco. La proprietà vetrina _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;determina quali [attributi di prodotto](../catalog/product-attributes.md) possono essere utilizzati per ordinare l&#39;elenco. |
+| ![Ordina per](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Modifica l&#39;ordinamento dell&#39;elenco. La proprietà vetrina _[!UICONTROL Used for Sorting in Product Listing]_determina quali [attributi di prodotto](../catalog/product-attributes.md) possono essere utilizzati per ordinare l&#39;elenco. |
 | ![Mostra per pagina](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Determina quanti prodotti vengono visualizzati per pagina. |
 | ![Collegamenti di paginazione](./assets/control-pagination.png) | Collegamenti di impaginazione - Collegamenti di navigazione ad altre pagine. |
 

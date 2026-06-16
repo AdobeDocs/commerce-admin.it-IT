@@ -3,9 +3,15 @@ title: Prodotto virtuale
 description: Scopri come creare un prodotto virtuale che rappresenti un elemento non tangibile, ad esempio un’iscrizione, un servizio, una garanzia o un abbonamento.
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/L981f0c-abmRqbEf3A-8CxTgVyzAuN-u1WDuMZAKSP4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: 653
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ A parte l&#39;assenza del campo _[!UICONTROL Weight]_, il processo di creazione 
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Scegliere _[!UICONTROL Add Product]_&#x200B;dal menu ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Virtual Product]**) nell&#39;angolo superiore destro.
+1. Scegliere **[!UICONTROL Virtual Product]** dal menu _[!UICONTROL Add Product]_( ![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ) nell&#39;angolo superiore destro.
 
    ![Aggiungi prodotto virtuale](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
@@ -116,7 +122,7 @@ Compila le informazioni nelle sezioni seguenti secondo necessità:
 
 >[!NOTE]
 >
->L&#39;opzione _[!UICONTROL Is this downloadable product?]_&#x200B;è disabilitata per impostazione predefinita. L&#39;attivazione di questa funzionalità per un prodotto virtuale rende il prodotto [scaricabile](product-create-downloadable.md#downloadable-product).
+>L&#39;opzione _[!UICONTROL Is this downloadable product?]_è disabilitata per impostazione predefinita. L&#39;attivazione di questa funzionalità per un prodotto virtuale rende il prodotto [scaricabile](product-create-downloadable.md#downloadable-product).
 
 ## Passaggio 6: pubblicare il prodotto
 
@@ -136,7 +142,7 @@ Compila le informazioni nelle sezioni seguenti secondo necessità:
 
    - **Metodo 2:** Salvare e chiudere
 
-     Scegliere _[!UICONTROL Save]_&#x200B;dal menu ![&#x200B; (](../assets/icon-menu-down-arrow-red.png){width="25"}Freccia menu **[!UICONTROL Save & Close]**).
+     Scegliere **[!UICONTROL Save & Close]** dal menu _[!UICONTROL Save]_(![Freccia menu](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Aspetti da ricordare
 

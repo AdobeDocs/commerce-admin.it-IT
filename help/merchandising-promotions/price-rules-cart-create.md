@@ -3,9 +3,15 @@ title: Creare una regola di prezzo del carrello
 description: Scopri come creare una regola di prezzo del carrello basata sugli attributi del carrello o del prodotto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: d981a0365cc7768394ca03f4352be45caef87a73
+TQID: https://experienceleague.adobe.com/wCXMFRIybcV59Hj3WwLoseT-IzxdfVCiS96rZv0enTY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3382'
+source-wordcount: 3399
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ Completa i passaggi seguenti per aggiungere una regola, descrivere le condizioni
 
 1. Fare clic su **[!UICONTROL Add New Rule]** ed effettuare le seguenti operazioni:
 
-   - In _[!UICONTROL Rule Information]_, completare **[!UICONTROL Rule Name]**&#x200B;e **[!UICONTROL Description]**.
+   - In _[!UICONTROL Rule Information]_, completare **[!UICONTROL Rule Name]**e **[!UICONTROL Description]**.
 
    - Se non si desidera che la regola venga applicata immediatamente, impostare **[!UICONTROL Active]** su `No`.
 
@@ -79,7 +85,7 @@ Completa i passaggi seguenti per aggiungere una regola, descrivere le condizioni
 
 In questa fase vengono descritte le condizioni che devono essere soddisfatte affinché un ordine possa beneficiare della promozione. Le condizioni influiscono sulle regole del prezzo del carrello nei seguenti modi:
 
-- La regola del prezzo del carrello viene applicata a **_ogni_** prodotto nel carrello ogni volta che viene soddisfatta la serie di condizioni nella scheda _[!UICONTROL Conditions]_. Per limitare il numero di prodotti interessati dalla regola prezzo carrello, aggiungere condizioni nella scheda&#x200B;_[!UICONTROL Actions]_ per limitare il numero di prodotti interessati dalla regola prezzo carrello.
+- La regola del prezzo del carrello viene applicata a **_ogni_** prodotto nel carrello ogni volta che viene soddisfatta la serie di condizioni nella scheda _[!UICONTROL Conditions]_. Per limitare il numero di prodotti interessati dalla regola prezzo carrello, aggiungere condizioni nella scheda_[!UICONTROL Actions]_ per limitare il numero di prodotti interessati dalla regola prezzo carrello.
 
 - Se almeno un attributo di prodotto condizionale ha un valore vuoto, la regola del prezzo del carrello non viene applicata al prodotto.
 
@@ -115,7 +121,7 @@ In questa fase vengono descritte le condizioni che devono essere soddisfatte aff
 
 1. Quando viene visualizzata la parte successiva della condizione, fai clic sugli elementi dell’istruzione in modo da visualizzare dove si trova ogni collegamento con i valori delle variabili.
 
-1. Fai clic sul collegamento &quot;Altro&quot; (...) e immetti `100`.
+1. Fai clic su &quot;Altro&quot; (...) e immetti `100`.
 
    Questa condizione richiede che la quantità totale del carrello sia `101` o superiore.
 
@@ -125,7 +131,7 @@ In questa fase vengono descritte le condizioni che devono essere soddisfatte aff
 
    ![Condizione regola prezzo carrello - categoria attributo prodotto](./assets/condition-products-subselection4.png){width="600" zoomable="yes"}
 
-1. Nella parte successiva della condizione, fai clic sul collegamento _altro_ (**...**) per visualizzare il campo di input, quindi apri _Selettore_ (![icona Elenco](../assets/icon-list-chooser.png)) per visualizzare la struttura delle categorie.
+1. Nella parte successiva della condizione, fai clic su _altro_ (**...**) collegamento per visualizzare il campo di input, quindi aprire _Selettore_ (![Icona elenco](../assets/icon-list-chooser.png)) per visualizzare la struttura delle categorie.
 
 1. Selezionare la casella di controllo della categoria che si desidera utilizzare come condizione per la regola prezzi e fare clic sull&#39;icona ![Aggiungi](../assets/icon-checkmark-green-circle.png) per accettare le selezioni della categoria.
 
@@ -156,7 +162,7 @@ In questa fase vengono descritte le condizioni che devono essere soddisfatte aff
 
 >[!NOTE]
 >
->In caso di più promozioni parallele, la condizione _Subtotale_ viene applicata al subtotale del carrello **_base _prima_**&#x200B;di eventuali sconti._
+>In caso di più promozioni parallele, la condizione _Subtotale_ viene applicata al subtotale del carrello **_base _prima_**di eventuali sconti._
 
 >[!IMPORTANT]
 >
@@ -164,7 +170,7 @@ In questa fase vengono descritte le condizioni che devono essere soddisfatte aff
 
 ### Aggiungi un attributo di prodotto alle regole di prezzo del carrello
 
-1. Vai a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;e apri l&#39;attributo del prodotto.
+1. Vai a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**e apri l&#39;attributo del prodotto.
 
 1. Nel pannello a sinistra, seleziona **[!UICONTROL Storefront Properties]**.
 
@@ -198,7 +204,7 @@ Puoi impostare una condizione per una regola del prezzo del carrello basata su u
 
    ![Seleziona condizione pubblico Real-Time CDP](./assets/rtcdp-conditions.png){width="300"}
 
-1. Seleziona l&#39;icona _Altro_ (**...**), fai clic su **[!UICONTROL Open Chooser]** e visualizza tutti i tipi di pubblico di Real-Time CDP disponibili.
+1. Seleziona _Altro_ (**...**) , fare clic su **[!UICONTROL Open Chooser]** e visualizzare tutti i tipi di pubblico di Real-Time CDP disponibili.
 
    ![Visualizza tipi di pubblico di Real-Time CDP](./assets/rtcdp-conditions-chooser.png){width="600" zoomable="yes"}
 
@@ -211,7 +217,7 @@ Puoi impostare una condizione per una regola del prezzo del carrello basata su u
    | `Name` | Nome del pubblico, ad esempio `Orders over $50` |
    | `Description` | Descrizione del pubblico, ad esempio `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica da dove proviene il pubblico, ad esempio `Experience Platform`. |
-   | `Website` | Indica quale sito web hai collegato allo stream di dati che contiene i tipi di pubblico. Questo collegamento viene creato quando si connette l&#39;istanza di Commerce all&#39;Experience Platform tramite l&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=it). |
+   | `Website` | Indica quale sito web hai collegato allo stream di dati che contiene i tipi di pubblico. Questo collegamento viene creato quando si connette l&#39;istanza di Commerce all&#39;Experience Platform tramite l&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
 
    {style="table-layout:auto"}
 
@@ -223,7 +229,7 @@ Le azioni della regola prezzo del carrello descrivono il modo in cui i prezzi ve
 
 1. Scorri verso il basso fino a **[!UICONTROL Actions]** ed espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione.
 
-   ![Regola prezzo carrello - azioni &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![Regola prezzo carrello - azioni ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. Impostare **[!UICONTROL Apply]** su una delle seguenti opzioni di sconto:
 
@@ -232,7 +238,7 @@ Le azioni della regola prezzo del carrello descrivono il modo in cui i prezzi ve
    | `Percent of product price discount` | Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale dal prezzo originale. Lo sconto si applica a ogni articolo idoneo nel carrello. Ad esempio: immettere `10` in [!UICONTROL Discount Amount] per un prezzo aggiornato inferiore del 10% rispetto al prezzo originale. |
    | `Fixed amount discount` | Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo originale di ciascun articolo idoneo nel carrello. Ad esempio: immetti `10` in [!UICONTROL Discount Amount] per un prezzo aggiornato inferiore di 10 dollari al prezzo originale. |
    | Sconto importo fisso per carrello intero | Sconta l&#39;intero carrello sottraendo un importo fisso dal totale del carrello. Ad esempio: immetti 10 in [!UICONTROL Discount Amount] per sottrarre $ 10 dal totale del carrello. Per impostazione predefinita, lo sconto si applica solo al subtotale del carrello. Per applicare lo sconto al subtotale e alla spedizione separatamente, utilizzare l&#39;opzione _[!UICONTROL Apply to Shipping Amount]_. |
-   | `Buy X get Y free` | Definisce una quantità X che il cliente deve acquistare per ricevere gratuitamente una quantità Y **dello stesso prodotto/variante**. (Il [!UICONTROL Discount Amount] è Y.) Una quantità totale di X+Y dello stesso articolo deve essere presente/aggiunta al carrello per applicare lo sconto. |
+   | `Buy X get Y free` | Definisce una quantità X che il cliente deve acquistare per ricevere gratuitamente una quantità Y **dello stesso prodotto/variante**. [!UICONTROL Discount Amount] è Y. Una quantità totale X+Y dello stesso articolo deve essere presente nel carrello o aggiunta al carrello per applicare lo sconto. |
 
    {style="table-layout:auto"}
 
@@ -328,7 +334,7 @@ L&#39;etichetta viene visualizzata nella sezione dei totali dell&#39;ordine per 
 
 Guarda questo video per scoprire come creare le regole di prezzo del carrello:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410805?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## Descrizioni dei campi
 
@@ -341,11 +347,11 @@ Guarda questo video per scoprire come creare le regole di prezzo del carrello:
 | [!UICONTROL Active] | (Obbligatorio) Determina se la regola è attiva nell&#39;archivio. Opzioni: `Yes` / `No` |
 | [!UICONTROL Websites] | (Obbligatorio) Identifica i siti web in cui è possibile utilizzare la regola. |
 | [!UICONTROL Customer Groups] | (Obbligatorio) Identifica i gruppi di clienti a cui si applica la regola. |
-| [!UICONTROL Coupon] | (Obbligatorio) Indica se alla regola è associato un buono sconto. Opzioni: <br/>**[!UICONTROL No Coupon]**- Nessun coupon associato alla regola.<br/>**[!UICONTROL Specific Coupon]** - Un coupon specifico è associato alla regola. <br/>**[!UICONTROL Coupon Code]**- Quando richiesto, immettere il codice coupon che il cliente deve inserire per usufruire della promozione.<br/>**[!UICONTROL Use Auto Generation]** - Selezionare la casella di controllo per generare automaticamente più codici coupon da utilizzare con la promozione. <br/>**[!UICONTROL Auto]**- Visualizza la sezione _[!UICONTROL Manage Coupon Codes]_&#x200B;per definire il formato dei codici coupon da generare. |
+| [!UICONTROL Coupon] | (Obbligatorio) Indica se alla regola è associato un buono sconto. Opzioni: <br/>**[!UICONTROL No Coupon]**- Nessun coupon associato alla regola.<br/>**[!UICONTROL Specific Coupon]** - Un coupon specifico è associato alla regola. <br/>**[!UICONTROL Coupon Code]**- Quando richiesto, inserisci il codice coupon che il cliente deve inserire per usufruire della promozione.<br/>**[!UICONTROL Use Auto Generation]** - Selezionare la casella di controllo per generare automaticamente più codici coupon da utilizzare con la promozione. <br/>**[!UICONTROL Auto]**- Visualizza la sezione _[!UICONTROL Manage Coupon Codes]_per definire il formato dei codici coupon da generare. |
 | [!UICONTROL Uses per Coupon] | Determina quante volte è possibile utilizzare il codice coupon. Se non è previsto alcun limite, lasciare vuoto il campo. |
 | [!UICONTROL Uses per Customer] | Determina quante volte la regola del prezzo del carrello può essere utilizzata dallo stesso cliente registrato che appartiene a qualsiasi gruppo di clienti selezionato. Non si applica agli acquirenti ospiti che sono membri del gruppo di clienti NOT LOGGED IN o ai clienti che effettuano acquisti senza effettuare l’accesso ai propri account. Per nessun limite, lascia vuoto il campo. |
 | [!UICONTROL Priority] | Numero che indica la priorità di questa regola rispetto ad altre. Le priorità dal più alto al più basso sono `0,1,2,3...` |
-| [!UICONTROL Public in RSS Feed] | Determina se la promozione è inclusa nel feed RSS pubblico del negozio. Opzioni:  `Yes` / `No` |
+| [!UICONTROL Public in RSS Feed] | Determina se la promozione è inclusa nel feed RSS pubblico del negozio. Opzioni: `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) La prima data in cui è possibile utilizzare il coupon. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) L&#39;ultima data in cui è possibile utilizzare il coupon. |
 
@@ -384,7 +390,7 @@ Specifica le condizioni che devono essere soddisfatte prima che la regola del pr
 
 | Campo | Descrizione |
 |--- |--- |
-| [!UICONTROL Apply] | Determina il tipo di calcolo applicato all’acquisto. Opzioni: <br/>**[!UICONTROL Percent of product price discount]**- Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale dal prezzo originale. Ad esempio: immettere `10` in _[!UICONTROL Discount Amount]_&#x200B;per un prezzo aggiornato inferiore del 10% rispetto al prezzo originale.<br/>**[!UICONTROL Fixed amount discount]**- Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo originale di ciascun articolo idoneo nel carrello. Ad esempio: immetti `10` in&#x200B;_[!UICONTROL Discount Amount]_ per un prezzo aggiornato inferiore di 10 dollari al prezzo originale. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Sconta l&#39;intero carrello sottraendo un importo fisso dal subtotale del carrello. Ad esempio: immetti `10` in _[!UICONTROL Discount Amount]_&#x200B;per sottrarre $ 10 dal subtotale del carrello. Per impostazione predefinita, lo sconto si applica solo al subtotale del carrello. Per applicare lo sconto al subtotale e alla spedizione separatamente, vedere_Applica all&#39;importo spedizione _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definisce una quantità che il cliente deve acquistare per ricevere gratuitamente una quantità._[!UICONTROL Discount Amount]_ è Y. |
+| [!UICONTROL Apply] | Determina il tipo di calcolo applicato all’acquisto. Opzioni: <br/>**[!UICONTROL Percent of product price discount]**- Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale dal prezzo originale. Ad esempio: immettere `10` in _[!UICONTROL Discount Amount]_per un prezzo aggiornato inferiore del 10% rispetto al prezzo originale.<br/>**[!UICONTROL Fixed amount discount]**- Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo originale di ciascun articolo idoneo nel carrello. Ad esempio: immetti `10` in_[!UICONTROL Discount Amount]_ per un prezzo aggiornato inferiore di 10 dollari al prezzo originale. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Sconta l&#39;intero carrello sottraendo un importo fisso dal subtotale del carrello. Ad esempio: immetti `10` in _[!UICONTROL Discount Amount]_per sottrarre $ 10 dal subtotale del carrello. Per impostazione predefinita, lo sconto si applica solo al subtotale del carrello. Per applicare lo sconto al subtotale e alla spedizione separatamente, vedere_Applica all&#39;importo di spedizione _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definisce una quantità che il cliente deve acquistare per ricevere una quantità gratuita._[!UICONTROL Discount Amount]_ è Y. |
 | [!UICONTROL Discount Amount] | (Obbligatorio) L’importo dello sconto offerto. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Imposta il numero massimo di prodotti a cui può essere applicato lo sconto nello stesso acquisto. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Imposta il numero di prodotti rappresentati da `X` in una promozione `Buy X Get Y Free`. Definisce inoltre quanti prodotti devono essere aggiunti al carrello insieme in batch per applicare `Fixed amount discount` e `Percent of product price discount` promozioni. |

@@ -3,9 +3,15 @@ title: Gestione ordini vetrina
 description: Scopri come i clienti possono visualizzare e gestire la cronologia degli ordini sullo storefront Commerce.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
+TQID: https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: 753
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ I clienti hanno accesso a tutti i loro ordini dal loro account. Gli ordini posso
 
 {{b2b-feature}}
 
-I risultati iniziali di _[!UICONTROL My Orders]_&#x200B;contengono anche ordini corrispondenti di utenti subordinati da tutti i siti Web all&#39;interno dell&#39;istanza di Commerce. Un cliente associato a un account società può filtrare l&#39;elenco degli ordini per trovare rapidamente i record all&#39;interno dei risultati. Per visualizzare le opzioni di filtro, il cliente fa clic su **[!UICONTROL Filter]**&#x200B;e fa clic su **[!UICONTROL Close]**&#x200B;per nascondere i filtri.
+I risultati iniziali di _[!UICONTROL My Orders]_contengono anche ordini corrispondenti di utenti subordinati da tutti i siti Web all&#39;interno dell&#39;istanza di Commerce. Un cliente associato a un account società può filtrare l&#39;elenco degli ordini per trovare rapidamente i record all&#39;interno dei risultati. Per visualizzare le opzioni di filtro, il cliente fa clic su **[!UICONTROL Filter]**e fa clic su **[!UICONTROL Close]**per nascondere i filtri.
 
 ![I miei ordini](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +48,7 @@ Un cliente trova l&#39;ordine nell&#39;elenco e fa clic su **[!UICONTROL View Or
 
 Il blocco **[!UICONTROL Recent Orders]** viene visualizzato nella barra laterale e nella pagina **[!UICONTROL My Account]** per i clienti che hanno effettuato l&#39;accesso dopo aver effettuato un ordine. Vengono visualizzati cinque prodotti dell’ultimo acquisto.
 
-Il cliente può leggere i prodotti nel carrello selezionando i prodotti e facendo clic su **[!UICONTROL Add to Cart]**. È inoltre possibile visualizzare l&#39;ultimo ordine facendo clic su **[!UICONTROL View all]**, che reindirizza alla pagina _[!UICONTROL My Account]_&#x200B;e al blocco **[!UICONTROL Recent Orders]**.
+Il cliente può leggere i prodotti nel carrello selezionando i prodotti e facendo clic su **[!UICONTROL Add to Cart]**. È inoltre possibile visualizzare l&#39;ultimo ordine facendo clic su **[!UICONTROL View all]**, che reindirizza alla pagina _[!UICONTROL My Account]_e al blocco **[!UICONTROL Recent Orders]**.
 
 ### Ordine di stampa
 
@@ -103,7 +109,7 @@ Un cliente può avviare la funzionalità di riordino per un ordine specifico da 
 
 ## Riordini
 
-Il collegamento _[!UICONTROL Reorder]_&#x200B;viene visualizzato nell&#39;elenco con gli ordini vicini al collegamento&#x200B;_[!UICONTROL View]_.
+Il collegamento _[!UICONTROL Reorder]_viene visualizzato nell&#39;elenco con gli ordini vicini al collegamento_[!UICONTROL View]_.
 
 ![Riordina collegamento nella pagina Il mio ordine](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -117,7 +123,7 @@ Il cliente viene reindirizzato al carrello e tutti i prodotti vengono aggiunti a
 >
 >È possibile riordinare `Not Visible Individually` prodotti.
 
-Il collegamento _[!UICONTROL Reorder]_&#x200B;non viene visualizzato nelle pagine&#x200B;_[!UICONTROL My Orders]_ e _[!UICONTROL View Order]_.
+Il collegamento _[!UICONTROL Reorder]_non viene visualizzato nelle pagine_[!UICONTROL My Orders]_ e _[!UICONTROL View Order]_.
 
 ![Pagina ordine](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +141,7 @@ Il cliente può avviare la funzionalità di annullamento per un ordine specifico
 - Pagina Vista ordine
 - Pagina Il mio account
 
-Il collegamento _[!UICONTROL Cancel Order]_&#x200B;viene visualizzato accanto al collegamento&#x200B;_[!UICONTROL Reorder]_. Se non è possibile annullare l’ordine, il collegamento non viene visualizzato.
+Il collegamento _[!UICONTROL Cancel Order]_viene visualizzato accanto al collegamento_[!UICONTROL Reorder]_. Se non è possibile annullare l’ordine, il collegamento non viene visualizzato.
 
 ![Collegamento Annulla nella pagina Il mio ordine](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +159,7 @@ Per eseguire l’annullamento, il cliente:
 
    ![Annulla nella pagina Il mio ordine](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Dopo l&#39;annullamento, verranno elaborati gli ordini con stato _[!UICONTROL Pending]_, lo stato&#x200B;_[!UICONTROL Canceled]_, gli ordini con stato _[!UICONTROL Processing]_, lo stato&#x200B;_[!UICONTROL Closed]_ e un rimborso.
+   Dopo l&#39;annullamento, verranno elaborati gli ordini con stato _[!UICONTROL Pending]_, lo stato_[!UICONTROL Canceled]_, gli ordini con stato _[!UICONTROL Processing]_, lo stato_[!UICONTROL Closed]_ e un rimborso.
 
    Al termine dell’annullamento, viene inviata un’e-mail al cliente.
 

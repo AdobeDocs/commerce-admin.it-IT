@@ -2,9 +2,15 @@
 title: Elenco clienti
 description: Nella griglia Clienti sono elencati tutti i clienti che si sono registrati per un account con il tuo store o che sono stati aggiunti dall’amministratore.
 exl-id: a7d9b098-4892-492c-b937-61cc33b836d8
-source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
+TQID: https://experienceleague.adobe.com/h3KHVcnOa1LqrynEuml6XgDB5-t5fJJa0yhgRF7RATE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 589
 ht-degree: 0%
 
 ---
@@ -59,7 +65,7 @@ Nella griglia di amministrazione di [!UICONTROL Customers] sono elencati tutti i
 | **[!UICONTROL Web Site]** | Sito Web nella gerarchia del punto vendita a cui è associato l&#39;account del cliente. |
 | **[!UICONTROL Confirmed Email]** | Indica se è necessario un messaggio e-mail di conferma. |
 | **[!UICONTROL Account Created In]** | Indica la visualizzazione del punto vendita da cui è stato creato l&#39;account cliente. |
-| **[!UICONTROL Date of Birth]** | La data di nascita del cliente. <br><br>**_Importante:_**&#x200B;In linea con le attuali best practice in materia di sicurezza e privacy, tieni presente i potenziali rischi legali e di sicurezza associati all&#39;archiviazione della data di nascita completa (mese, giorno, anno) dei clienti con altri identificatori personali. Si consiglia di limitare la memorizzazione delle date di nascita complete dei clienti e di utilizzare l’anno di nascita del cliente come alternativa. |
+| **[!UICONTROL Date of Birth]** | La data di nascita del cliente. <br><br>**_Importante:_** In linea con le attuali best practice per la sicurezza e la privacy, tieni presente eventuali rischi legali e di sicurezza associati all&#39;archiviazione della data di nascita completa (mese, giorno, anno) dei clienti con altri identificatori personali. Si consiglia di limitare la memorizzazione delle date di nascita complete dei clienti e di utilizzare l’anno di nascita del cliente come alternativa. |
 | **[!UICONTROL Tax / VAT Number]** | Se applicabile, il codice fiscale o il numero [dell&#39;imposta sul valore aggiunto](../stores-purchase/vat.md) assegnato al cliente. <br/><br/>Questo campo non corrisponde alla partita IVA. |
 | **[!UICONTROL Gender]** | Il genere del cliente. |
 | **[!UICONTROL Action]** | Modifica: apre l’account società in modalità di modifica. |

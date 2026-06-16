@@ -2,9 +2,15 @@
 title: Aggiungi un'attività di magazzino
 description: Scopri come aggiungere scorte e mappare le origini ai canali di vendita (siti web), fornendo un collegamento diretto alle quantità vendibili e agli inventari dei prodotti.
 exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/oP-H4hvUmNunTl-hThx4ytzC6qOXa1PhK4P1omwFBUg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: 409
 ht-degree: 0%
 
 ---
@@ -35,9 +41,9 @@ Dopo aver aggiunto le origini, devi assegnare la priorità all’ordine delle or
 
    >[!NOTE]
    >
-   >Se si seleziona un sito Web o un canale di vendita assegnato a un altro titolo, l&#39;assegnazione verrà annullata. Tutti i Sales Channel non assegnati a un magazzino personalizzato vengono assegnati al magazzino predefinito.
+   >Se si seleziona un sito Web o un canale di vendita assegnato a un altro titolo, l&#39;assegnazione verrà annullata. Tutti i canali di vendita non assegnati a un titolo personalizzato vengono assegnati al titolo predefinito.
 
-   Opzioni ![Sales Channel per le scorte](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
+   ![Opzioni canali di vendita per scorte](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Sources]** ed eseguire le operazioni seguenti per qualsiasi azione diversa da quella predefinita:
 
@@ -75,4 +81,4 @@ Dopo aver aggiunto le origini, devi assegnare la priorità all’ordine delle or
 | [!UICONTROL Websites] | Definisce l&#39;[ambito](../getting-started/websites-stores-views.md#scope-settings) del titolo assegnando il titolo a siti Web specifici come _canali di vendita_. Selezionare uno o più siti Web per azione. Ogni sito web può essere assegnato a un solo stock. |
 | **[!UICONTROL Sources]** | |
 | [!UICONTROL Assign Sources] | Assegna le origini magazzino a questo magazzino. Le origini personalizzate non possono essere assegnate al magazzino predefinito. |
-| [!UICONTROL Assigned Sources] | Elenco delle origini assegnate. Trascina e rilascia le origini utilizzando ![Icona di ordinamento](assets/icon-sort.png) in un ordine prioritario per l&#39;evasione e la spedizione degli ordini.<br/><br/>**[!UICONTROL Code]**- ID di codice univoco per l&#39;origine.<br/>**[!UICONTROL Name]** - Descrizione del nome per l&#39;origine.<br/>**[!UICONTROL Unassign]**- Rimuovi l&#39;origine assegnata dal titolo utilizzando ![Icona cestino](../assets/icon-delete-trashcan-solid.png). |
+| [!UICONTROL Assigned Sources] | Elenco delle origini assegnate. Trascina e rilascia le origini utilizzando ![Icona di ordinamento](assets/icon-sort.png) in un ordine prioritario per l&#39;evasione e la spedizione degli ordini.<br/><br/>**[!UICONTROL Code]**- ID di codice univoco per l&#39;origine.<br/>**[!UICONTROL Name]** - Descrizione del nome per l&#39;origine.<br/>**[!UICONTROL Unassign]**- Rimuovere l&#39;origine assegnata dal magazzino utilizzando ![Icona cestino](../assets/icon-delete-trashcan-solid.png). |

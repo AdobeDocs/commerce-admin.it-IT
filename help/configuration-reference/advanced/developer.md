@@ -1,12 +1,18 @@
 ---
-title: '[!UICONTROL Advanced] &gt; [!UICONTROL Developer]'
-description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Advanced] &gt; [!UICONTROL Developer] dell'amministratore di Commerce.
+title: '[!UICONTROL Advanced] > [!UICONTROL Developer]'
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Advanced] > [!UICONTROL Developer] dell'amministratore di Commerce.
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
+TQID: https://experienceleague.adobe.com/Cl6rp-pqD6LBM-50gDiPC-7Ox2MDzy-szQDesLTecdQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: 803
 ht-degree: 1%
 
 ---
@@ -27,7 +33,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Flusso
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Workflow Type] | Globale | Determina se la compilazione Less viene eseguita sul lato client o server durante lo sviluppo. Opzioni: <br/>**`Client side less compilation`**- La compilazione viene eseguita nel browser utilizzando la libreria nativa less.js.<br/>**`Server side less compilation`** - Compilazione eseguita sul server utilizzando la libreria meno PHP. Questa è la modalità predefinita per la produzione. |
+| [!UICONTROL Workflow Type] | Globale | Determina se la compilazione Less viene eseguita sul lato client o server durante lo sviluppo. Opzioni: <br/>**`Client side less compilation`**- La compilazione viene eseguita nel browser utilizzando la libreria nativa less.js.<br/>**`Server side less compilation`** - La compilazione avviene sul server utilizzando la libreria meno PHP. Questa è la modalità predefinita per la produzione. |
 
 {style="table-layout:auto"}
 
@@ -39,7 +45,7 @@ Per ulteriori informazioni sulla modifica di questa impostazione, vedere [Restri
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Allow IPs (comma separated)] | Visualizzazione store | Crea una inserisce nell&#39;elenco Consentiti di indirizzi IP che possono essere utilizzati dagli sviluppatori su un sito live, senza interferire con i clienti nel negozio. Eventuali modifiche apportate al sito quando si utilizza uno strumento per sviluppatori, ad esempio _Traduzione in linea_, sono visibili solo dagli indirizzi IP nel inserisco nell&#39;elenco Consentiti di. |
+| [!UICONTROL Allow IPs (comma separated)] | Visualizzazione store | Crea un elenco Consentiti di indirizzi IP che possono essere utilizzati dagli sviluppatori su un sito live, senza interferire con i clienti nel negozio. Eventuali modifiche apportate al sito quando si utilizza uno strumento per sviluppatori, ad esempio _Traduzione in linea_, sono visibili solo dagli indirizzi IP nel inserisco nell&#39;elenco Consentiti di. |
 
 {style="table-layout:auto"}
 
@@ -78,7 +84,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Traduc
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
-| [!UICONTROL Enable for Storefront] | Visualizzazione store | Attiva il traduttore in linea per la vetrina. Il testo dell’interfaccia può essere modificato per ogni visualizzazione store. Per utilizzare il traduttore in linea senza interferire con il live store, aggiungi il tuo indirizzo IP al inserisco nell&#39;elenco Consentiti Developer Client Restrictions (Limitazioni client sviluppatore). |
+| [!UICONTROL Enable for Storefront] | Visualizzazione store | Attiva il traduttore in linea per la vetrina. Il testo dell’interfaccia può essere modificato per ogni visualizzazione store. Per utilizzare il traduttore in linea senza interferire con il live store, aggiungi il tuo indirizzo IP all’elenco Consentiti Developer Client Restrictions (Limitazioni client sviluppatore). |
 | [!UICONTROL Enable for Admin] | Globale | Attiva il traduttore in linea per l’amministratore. A differenza della vetrina, l’amministratore non può essere tradotto in più lingue. Tuttavia, le etichette dei campi e altro testo nell’interfaccia possono essere modificati. |
 
 {style="table-layout:auto"}

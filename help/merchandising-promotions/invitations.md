@@ -3,10 +3,17 @@ title: Inviti evento
 description: Scopri come i clienti possono inviare e visualizzare gli inviti a eventi e vendite private dal dashboard dei loro account cliente.
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: https://experienceleague.adobe.com/3UEoAOAfcoM6obqizRsQkgBv-C3hi98rMjO6rPGHuL0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: bd0aa680-a881-4f35-9dcf-843b0574bc5f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: 664
 ht-degree: 0%
 
 ---
@@ -19,7 +26,7 @@ Quando gli inviti sono abilitati, i clienti possono inviare e visualizzare gli i
 
 ## Inviti personali
 
-Nella sezione _[!UICONTROL My Invitations]_&#x200B;dell&#39;account cliente sono elencati tutti gli inviti inviati dal cliente. I clienti possono inviare inviti ad amici e familiari per eventi del negozio, registri di regali, elenchi di desideri e così via.
+Nella sezione _[!UICONTROL My Invitations]_dell&#39;account cliente sono elencati tutti gli inviti inviati dal cliente. I clienti possono inviare inviti ad amici e familiari per eventi del negozio, registri di regali, elenchi di desideri e così via.
 
 ![Inviti personali](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 

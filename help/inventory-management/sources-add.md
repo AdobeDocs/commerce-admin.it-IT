@@ -3,9 +3,15 @@ title: Aggiungi un'origine inventario
 description: Scopri come creare un’origine per un’ubicazione, ad esempio un magazzino, un magazzino, un centro di distribuzione o uno spedizioniere.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: 865
 ht-degree: 0%
 
 ---
@@ -96,7 +102,7 @@ Se si modifica il Source predefinito, è possibile modificare tutte le configura
 |--|--|
 | [!UICONTROL Back] | Torna alla pagina Gestisci origini. |
 | [!UICONTROL Reset] | Ripristina i valori di tutti i campi del modulo al momento dell&#39;ultimo salvataggio. |
-| [!UICONTROL Save & Continue] | Salva tutte le modifiche e mantiene il modulo aperto per ulteriori modifiche. Fare clic sulla freccia rivolta verso il basso per ulteriori opzioni:<br/>**[!UICONTROL Save & Close]**- Salva le modifiche al record corrente, chiude la maschera e torna alla pagina Gestisci origini.<br/>**[!UICONTROL Save & New]** - Salva le modifiche, chiude il record corrente e apre un nuovo modulo vuoto. |
+| [!UICONTROL Save & Continue] | Salva tutte le modifiche e mantiene il modulo aperto per ulteriori modifiche. Fare clic sulla freccia giù per ulteriori opzioni:<br/>**[!UICONTROL Save & Close]**- Salva le modifiche al record corrente, chiude la maschera e torna alla pagina Gestisci origini.<br/>**[!UICONTROL Save & New]** - Salva le modifiche, chiude il record corrente e apre un nuovo modulo vuoto. |
 
 ## Descrizioni dei campi
 

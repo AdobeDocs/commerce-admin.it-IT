@@ -3,16 +3,23 @@ title: Categorie - Impostazioni contenuto
 description: Informazioni sull'utilizzo delle impostazioni [!UICONTROL Content] per definire eventuali contenuti aggiuntivi visualizzati nella pagina della categoria.
 exl-id: 988083e1-0993-4e08-b5e6-8b0855e56467
 feature: Catalog Management, Categories, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/PKCKw4i-EDB10X3AU-daMiyVMT96naqRLF8vrVBp24s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: 450
 ht-degree: 0%
 
 ---
 
 # Categorie - Impostazioni contenuto
 
-Le impostazioni di _[!UICONTROL Content]_&#x200B;determinano la visualizzazione di eventuali contenuti aggiuntivi nella pagina della categoria. Oltre all’elenco dei prodotti della categoria, la pagina può includere un’immagine, una descrizione e un blocco CMS. È possibile utilizzare gli strumenti di contenuto [[!DNL Page Builder]](../page-builder/introduction.md) per definire la descrizione della categoria.
+Le impostazioni di _[!UICONTROL Content]_determinano la visualizzazione di eventuali contenuti aggiuntivi nella pagina della categoria. Oltre all’elenco dei prodotti della categoria, la pagina può includere un’immagine, una descrizione e un blocco CMS. È possibile utilizzare gli strumenti di contenuto [[!DNL Page Builder]](../page-builder/introduction.md) per definire la descrizione della categoria.
 
 ## Aggiungi la descrizione della categoria in [!DNL Page Builder]
 
@@ -74,7 +81,7 @@ Per ulteriori informazioni, vedere [Editor WYSIWYG](../content-design/editor.md)
 | Impostazione | [Ambito](../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Category Image] | Visualizzazione store | Specifica un&#39;immagine per la parte superiore della pagina della categoria. Metodi: <br/><br/>**[!UICONTROL Upload]**- Carica un file di immagine dal computer locale alla raccolta e lo utilizza come immagine della categoria.<br/><br/>**[!UICONTROL Select from Gallery]** - Richiede di scegliere un&#39;immagine esistente dalla raccolta. <br/><br/>![Icona fotocamera Page Builder](../assets/icon-camera.png) - Trascinare un file di immagine nel riquadro della fotocamera o cercare l&#39;immagine e selezionarla dal file system locale. |
-| [!UICONTROL Description] | Visualizzazione store | Specifica una descrizione visualizzata nella pagina della categoria. <br/><br/>**[!UICONTROL Edit with Page Builder]**- Apre l&#39;[[!DNL Page Builder] area di lavoro](../page-builder/workspace.md), in cui è possibile modificare la descrizione.<br/><br/>**[!UICONTROL Show / Hide Editor]** - Attiva/disattiva la visualizzazione tra le modalità WYSIWYG Editor e HTML. |
-| [!UICONTROL Add CMS Block] | Visualizzazione store | Aggiunge un blocco [CMS](../content-design/blocks.md) esistente alla pagina della categoria. |
+| [!UICONTROL Description] | Visualizzazione store | Specifica una descrizione visualizzata nella pagina della categoria. <br/><br/>**[!UICONTROL Edit with Page Builder]**- Apre l&#39;[[!DNL Page Builder] area di lavoro](../page-builder/workspace.md), in cui è possibile modificare la descrizione.<br/><br/>**[!UICONTROL Show / Hide Editor]** - Attiva o disattiva la visualizzazione tra le modalità editor di WYSIWYG e HTML. |
+| [!UICONTROL Add CMS Block] | Visualizzazione store | Aggiunge un [blocco CMS](../content-design/blocks.md) esistente alla pagina della categoria. |
 
 {style="table-layout:auto"}

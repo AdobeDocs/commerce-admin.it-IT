@@ -1,24 +1,30 @@
 ---
 title: 'Crea e accedi al tuo account  [!DNL Commerce] '
 description: Scopri  [!DNL Commerce]  account, che gestiscono i prodotti e i servizi acquistati.
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: 96acaff3e614a5758fdc51bc5de70ce0507a970a
+TQID: https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2: id: d41d3a54-9721-475c-abd6-295bebfba9e4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: 1154
 ht-degree: 0%
 
 ---
-
 
 # Accedi al tuo account [!DNL Commerce]
 
 Un account [!DNL Commerce] è il punto di accesso centrale per la gestione dei servizi Adobe Commerce per i progetti Adobe Commerce implementati nell&#39;infrastruttura cloud o on-premise. Dalla dashboard dell’account puoi visualizzare gli abbonamenti, gestire le chiavi API dei servizi Commerce, esaminare le informazioni sulla fatturazione cronologiche e collaborare con altri utenti dell’organizzazione.
 
-Se devi [inviare il tuo primo ticket](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) o gestire la tua relazione con Adobe Commerce, invece di lavorare in una vetrina specifica, inizia creando o accedendo al tuo account [!DNL Commerce].
+Se devi [inviare il tuo primo ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) o gestire la tua relazione con Adobe Commerce, invece di lavorare in una vetrina specifica, inizia creando o accedendo al tuo account [!DNL Commerce].
 
-Puoi accedere al tuo account [!DNL Commerce] dal sito Web [!DNL Commerce]. Dal dashboard account, puoi visualizzare le informazioni relative ai prodotti e ai servizi acquistati e fornire [Accesso condiviso](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) ad altri utenti. Alcune informazioni, come le chiavi API dei servizi Commerce, sono visibili solo ai proprietari delle licenze.
+Puoi accedere al tuo account [!DNL Commerce] dal sito Web [!DNL Commerce]. Dal dashboard account, puoi visualizzare le informazioni relative ai prodotti e ai servizi acquistati e fornire [Accesso condiviso](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) ad altri utenti. Alcune informazioni, come le chiavi API dei servizi Commerce, sono visibili solo ai proprietari delle licenze.
 
 >[!NOTE]
 >
@@ -30,7 +36,7 @@ Puoi accedere al tuo account [!DNL Commerce] dal sito Web [!DNL Commerce]. Dal d
 
 L&#39;account di accesso [!DNL Commerce] è separato dall&#39;account di accesso amministratore dello store. In genere si utilizzano credenziali diverse per ogni sistema e l&#39;accesso a ogni sistema viene gestito in modo indipendente.
 
-Tuttavia, un utente che desidera semplificare l&#39;accesso ad Adobe Commerce e ai prodotti Adobe Business può configurare il proprio Adobe ID per l&#39;accesso all&#39;amministratore dello store: [Configurare l&#39;integrazione dell&#39;amministratore Commerce con Adobe ID](https://experienceleague.adobe.com/it/docs/commerce-admin/start/admin/ims/adobe-ims-config) nella *Guida all&#39;integrazione IMS per Commerce*.
+Tuttavia, un utente che desidera semplificare l&#39;accesso ad Adobe Commerce e ai prodotti Adobe Business può configurare il proprio Adobe ID per l&#39;accesso all&#39;amministratore dello store: [Configurare l&#39;integrazione dell&#39;amministratore Commerce con Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) nella *Guida all&#39;integrazione IMS per Commerce*.
 
 >[!NOTE]
 >
@@ -42,7 +48,7 @@ Per accedere all&#39;account [!DNL Commerce] è necessario un Adobe ID. Se dispo
 
 >[!WARNING]
 >
->Se non riesci a trovare l&#39;organizzazione Commerce quando invii un [caso di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) di Adobe Commerce, in genere significa che il proprietario dell&#39;account non ha creato un Adobe ID o che esiste un Adobe ID ma non è collegato all&#39;account Commerce.
+>Se non riesci a trovare l&#39;organizzazione Commerce quando invii un [caso di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) di Adobe Commerce, in genere significa che il proprietario dell&#39;account non ha creato un Adobe ID o che esiste un Adobe ID ma non è collegato all&#39;account Commerce.
 
 1. Passare al sito [[!DNL Commerce]](https://account.magento.com/customer/account/login/).
 
@@ -108,9 +114,9 @@ Chiunque può creare un account [!DNL Commerce] gratuito. L’indirizzo e-mail u
 
 L’accesso condiviso ti consente di concedere a utenti affidabili, come colleghi, partner o amministratori, l’autorizzazione per gestire la tua relazione Adobe Commerce per tuo conto senza dover utilizzare l’accesso personale. Ciò include la possibilità per gli altri utenti di aprire e tenere traccia dei casi di supporto.
 
-Consulta la sezione [Condividere un account Commerce](https://experienceleague.adobe.com/it/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) della Guida introduttiva di Adobe Commerce per i passaggi dettagliati sulla configurazione di un account condiviso.
+Consulta la sezione [Condividere un account Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) della Guida introduttiva di Adobe Commerce per i passaggi dettagliati sulla configurazione di un account condiviso.
 
-Per istruzioni dettagliate sull&#39;invio di un caso di supporto di Commerce, vedere la [Guida utente di Adobe Commerce Help Center](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+Per istruzioni dettagliate sull&#39;invio di un caso di supporto di Commerce, vedere la [Guida utente di Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 
 ## Riepilogo
 

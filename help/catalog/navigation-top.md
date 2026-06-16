@@ -3,9 +3,16 @@ title: Navigazione superiore
 description: Scopri come definire il menu principale di un negozio, che funziona come una directory per i diversi reparti.
 exl-id: 8b71fe73-2716-4820-9e57-4cb1e6888132
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/REad4AtBdJeK2eVNRo1XiTrrjJqmTs6oJfum260IfOk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: 581
 ht-degree: 0%
 
 ---
@@ -68,7 +75,7 @@ Per un&#39;installazione multistore, è possibile assegnare un menu principale d
 
    ![Navigazione superiore categoria](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   Poiché la profondità della navigazione superiore ha un ambito di configurazione [globale](../getting-started/websites-stores-views.md#scope-settings), l&#39;impostazione si applica a tutti i siti Web, gli archivi e le visualizzazioni degli archivi nell&#39;installazione di Commerce. La sezione di configurazione _[!UICONTROL Category Top Navigation]_&#x200B;è disponibile solo quando&#x200B;_[!UICONTROL Store View]_ nell&#39;angolo superiore sinistro è impostato su `Default Config`.
+   Poiché la profondità della navigazione superiore ha un ambito di configurazione [globale](../getting-started/websites-stores-views.md#scope-settings), l&#39;impostazione si applica a tutti i siti Web, gli archivi e le visualizzazioni degli archivi nell&#39;installazione di Commerce. La sezione di configurazione _[!UICONTROL Category Top Navigation]_è disponibile solo quando_[!UICONTROL Store View]_ nell&#39;angolo superiore sinistro è impostato su `Default Config`.
 
    Per un elenco dettagliato di queste opzioni, vedere [Navigazione superiore categoria](../configuration-reference/catalog/catalog.md#layered-navigation) nella _Guida di riferimento configurazione_.
 

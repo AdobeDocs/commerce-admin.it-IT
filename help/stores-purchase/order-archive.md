@@ -3,9 +3,15 @@ title: Archivia ordini
 description: Scopri come configurare l’archivio ordini per migliorare le prestazioni e semplificare Commerce per la tua organizzazione.
 exl-id: 12025591-bfe2-4f44-9358-a38ea4493b5c
 feature: Orders, Configuration
-source-git-commit: 47f170f1a1dd1c236b99c2e7139bb119368abf47
+TQID: https://experienceleague.adobe.com/Zl8qJPnr8JcSSyIHewPH-GFKBkweyAmh7So9u7vHDSk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: 750
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ L&#39;archiviazione degli ordini migliora regolarmente le prestazioni e consente
 
 >[!NOTE]
 >
->L&#39;opzione _[!UICONTROL Archive]_&#x200B;viene visualizzata nel menu [[!UICONTROL Sales]](sales-menu.md) solo quando l&#39;archiviazione è [abilitata](../configuration-reference/sales/sales.md).
+>L&#39;opzione _[!UICONTROL Archive]_viene visualizzata nel menu [[!UICONTROL Sales]](sales-menu.md) solo quando l&#39;archiviazione è [abilitata](../configuration-reference/sales/sales.md).
 
 ## Configurare l’archivio degli ordini
 
@@ -52,7 +58,7 @@ L&#39;archiviazione degli ordini migliora regolarmente le prestazioni e consente
 
 ## Visualizza documenti archiviati
 
-1. Nel menu _[!UICONTROL Sales]_&#x200B;in&#x200B;_[!UICONTROL Archive]_, scegliere una delle opzioni seguenti:
+1. Nel menu _[!UICONTROL Sales]_in_[!UICONTROL Archive]_, scegliere una delle opzioni seguenti:
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -111,7 +117,7 @@ Selezionare ogni documento come destinazione dell&#39;azione e scegliere uno dei
 
 1. Fare clic su **[!UICONTROL Export]**.
 
-È possibile configurare lo store per archiviare ordini, fatture, spedizioni e note di credito dopo un determinato numero di giorni. È possibile spostare gli ordini e i documenti associati nell&#39;archivio o ripristinarli allo stato precedente. Gli ordini archiviati non vengono eliminati e rimangono disponibili dall’amministratore. I dati archiviati possono essere esportati in un file CSV e aperti in un foglio di calcolo. Se attivato, il comando _[!UICONTROL Archive]_&#x200B;viene visualizzato nella parte superiore dell&#39;area di lavoro.
+È possibile configurare lo store per archiviare ordini, fatture, spedizioni e note di credito dopo un determinato numero di giorni. È possibile spostare gli ordini e i documenti associati nell&#39;archivio o ripristinarli allo stato precedente. Gli ordini archiviati non vengono eliminati e rimangono disponibili dall’amministratore. I dati archiviati possono essere esportati in un file CSV e aperti in un foglio di calcolo. Se attivato, il comando _[!UICONTROL Archive]_viene visualizzato nella parte superiore dell&#39;area di lavoro.
 
 ## Archivia manualmente gli ordini
 
@@ -121,7 +127,7 @@ Selezionare ogni documento come destinazione dell&#39;azione e scegliere uno dei
 
 1. Impostare il controllo **[!UICONTROL Actions]** su `Move to Archive` e cercare il messaggio che l&#39;ordine è stato archiviato.
 
-   ![Spostamento degli ordini selezionati nell&#39;archivio &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![Spostamento degli ordini selezionati nell&#39;archivio ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
@@ -137,7 +143,7 @@ Selezionare ogni documento come destinazione dell&#39;azione e scegliere uno dei
 
    >[!NOTE]
    >
-   >Come la pagina Ordini, il titolo della pagina ordini archiviata è _[!UICONTROL Orders]_. L&#39;unica differenza evidente è l&#39;opzione nella barra dei pulsanti per&#x200B;_[!UICONTROL Return to Orders Management]_. L’URL della pagina indica anche che ti trovi nell’archivio dell’ordine.
+   >Come la pagina Ordini, il titolo della pagina ordini archiviata è _[!UICONTROL Orders]_. L&#39;unica differenza evidente è l&#39;opzione nella barra dei pulsanti per_[!UICONTROL Return to Orders Management]_. L’URL della pagina indica anche che ti trovi nell’archivio dell’ordine.
 
 1. Nella colonna _Azione_ fare clic su **[!UICONTROL View]**.
 

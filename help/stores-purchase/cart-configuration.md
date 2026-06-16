@@ -3,9 +3,15 @@ title: Configurazione del carrello
 description: Scopri le funzioni del carrello che puoi configurare per supportare l’esperienza di acquisto nel tuo negozio.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: 2417
 ht-degree: 0%
 
 ---
@@ -92,7 +98,7 @@ Il collegamento può essere configurato in modo da visualizzare il numero di pro
 
 La pagina del carrello può essere configurata in modo da essere visualizzata ogni volta che un articolo viene aggiunto al carrello oppure solo quando i clienti scelgono di passare alla pagina. Le informazioni di base sugli elementi presenti nel carrello sono sempre disponibili nel [mini carrello](#mini-cart). La decisione è una questione di bilanciamento dei vantaggi di lasciare che i clienti continuano a fare acquisti, con i vantaggi di incoraggiare i clienti a procedere al pagamento. Potrebbe essere una semplice questione di preferenze personali. Tuttavia, se desideri eseguirne il backup con i numeri, puoi eseguire un test A/B per vedere quale approccio produce un tasso di conversione più elevato.
 
-**_Da configurare quando viene visualizzato il carrello:_**
+**_Per configurare quando viene visualizzato il carrello:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -119,7 +125,7 @@ Con l&#39;installazione e l&#39;abilitazione di Adobe Commerce B2B, puoi aggiung
 
 Puoi determinare per quanto tempo un prezzo è valido impostando la durata dell’offerta del carrello nella configurazione. Ad esempio, se un acquirente lascia un carrello incustodito dopo diversi giorni, il prezzo di offerta per alcuni articoli potrebbe non essere più lo stesso. Per impostazione predefinita, la durata dell&#39;offerta è impostata su 30 giorni.
 
-**_Per configurare la durata del preventivo:_**
+**_Per configurare la durata dell&#39;offerta:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -143,7 +149,7 @@ La configurazione consente di specificare un importo minimo, dopo l’applicazio
 
 ![Nel carrello viene visualizzato un messaggio di ordine minimo](./assets/storefront-cart-minimum-order-amount.png){width="700" zoomable="yes"}
 
-**_Per configurare un importo minimo per l&#39;ordine:_**
+**_Per configurare un importo ordine minimo:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -225,7 +231,7 @@ L’immagine di anteprima sia per i prodotti raggruppati che per quelli configur
 
 ![Nel carrello vengono visualizzate le miniature di ogni prodotto](./assets/storefront-cart.png){width="700" zoomable="yes"}
 
-**_Per configurare le miniature del carrello:_**
+**_Configurare le miniature del carrello:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -321,7 +327,7 @@ L&#39;immagine a capo regalo deve essere un campione che mostra il motivo ripetu
 
 1. Per caricare una miniatura **[!UICONTROL Image]** della confezione regalo, fai clic su **[!UICONTROL Choose File]** e seleziona il file da caricare dalla directory.
 
-   Una miniatura dell&#39;immagine viene visualizzata in _[!UICONTROL Gift Wrapping Information]_&#x200B;dopo il salvataggio del record.
+   Una miniatura dell&#39;immagine viene visualizzata in _[!UICONTROL Gift Wrapping Information]_dopo il salvataggio del record.
 
 1. Fare clic su **[!UICONTROL Save]**.
 
@@ -365,7 +371,7 @@ Con la griglia _Ritorno a capo automatico_ aperta, utilizzare uno di questi meto
 
 I prezzi della confezione regalo e della gift card stampata possono essere configurati in modo da includere o escludere l&#39;imposta o da visualizzare entrambe le opzioni. È inoltre possibile specificare una classe fiscale per questi articoli, a livello globale o a livello di sito Web.
 
-**_Per configurare le imposte sulle opzioni regalo:_**
+**_Configurare le imposte sulle opzioni regalo:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

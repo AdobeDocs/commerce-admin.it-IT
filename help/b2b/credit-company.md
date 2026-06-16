@@ -4,9 +4,16 @@ description: Scopri le linee di credito della società, l’impostazione dei par
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-source-git-commit: 1fc1e07f20e2c22ac430f384e9e2b278edae405c
+TQID: https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: 1228
 ht-degree: 0%
 
 ---
@@ -43,7 +50,7 @@ Il credito aziendale è ideale per:
 * **Clienti aziendali di grandi dimensioni**—Aziende che effettuano acquisti significativi e regolari che richiedono termini di pagamento estesi
 * **Aziende stagionali**—Aziende con un flusso di cassa ciclico che necessitano di tempi di pagamento flessibili
 * **Approvvigionamento aziendale**: organizzazioni con centralizzazione degli acquisti ma elaborazione dei pagamenti distribuiti
-* **Partner della catena di fornitura**—Distributori, rivenditori e partner di canale che richiedono linee di credito
+* **Partner Supply chain**: distributori, rivenditori e partner di canale che richiedono agevolazioni di credito
 
 ## Informazioni sulle impostazioni relative al credito della società
 
@@ -71,10 +78,10 @@ Nella griglia vengono visualizzate le informazioni riportate di seguito per ogni
 | Colonna | Descrizione |
 |--- |--- |
 | [!UICONTROL Date] | Data della transazione. Per visualizzare la data e l’ora, passa il cursore del mouse sulla data. |
-| [!UICONTROL Operation] | Tipo di attività associata alla transazione. Valori: <br/>**[!UICONTROL Allocated]**- Credito assegnato alla società.<br/>**[!UICONTROL Updated]** - Modifica applicata a uno dei campi seguenti: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- È stato effettuato un ordine.<br/>**[!UICONTROL Reimbursed]** - Il saldo in sospeso è stato rimborsato. <br/>**[!UICONTROL Refunded]**- Rimborso di un importo della nota di accredito.<br/>**[!UICONTROL Reverted]** - L&#39;ordine è stato annullato e l&#39;importo è stato restituito al saldo a credito. |
+| [!UICONTROL Operation] | Tipo di attività associata alla transazione. Valori: <br/>**[!UICONTROL Allocated]**- Credito assegnato alla società.<br/>**[!UICONTROL Updated]** - Modifica applicata a uno dei campi seguenti: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- È stato effettuato un ordine.<br/>**[!UICONTROL Reimbursed]** - Il saldo restante è stato rimborsato. <br/>**[!UICONTROL Refunded]**- Rimborso di un importo della nota di accredito.<br/>**[!UICONTROL Reverted]** - L&#39;ordine è stato annullato e l&#39;importo è stato restituito al saldo a credito. |
 | [!UICONTROL Amount] | Importo della transazione associata ai seguenti tipi di transazione: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Per gli importi di acquisto, l&#39;importo viene visualizzato nella valuta di visualizzazione del punto vendita e nel formato dell&#39;impostazione della valuta di credito, seguito dal tasso di conversione corrente (se applicabile). Ad esempio: <br/>EUR 20.000,00 ($22.400,00) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | Importo rimborsato, meno il totale dovuto per tutti gli ordini effettuati utilizzando il metodo di pagamento in conto. L’importo può apparire come un valore positivo o negativo. <br/>**[!UICONTROL Positive value]**- Un pagamento anticipato è rappresentato come valore positivo.<br/>**[!UICONTROL Negative value]** - Un importo dovuto è rappresentato come valore negativo. |
-| [!UICONTROL Available Credit] | La somma di _[!UICONTROL Credit Limit]_&#x200B;e&#x200B;_[!UICONTROL Outstanding Balance]_. Se l&#39;azienda ha superato il limite di credito, l&#39;importo viene visualizzato come valore negativo. |
+| [!UICONTROL Available Credit] | La somma di _[!UICONTROL Credit Limit]_e_[!UICONTROL Outstanding Balance]_. Se l&#39;azienda ha superato il limite di credito, l&#39;importo viene visualizzato come valore negativo. |
 | [!UICONTROL Credit Limit] | Importo del credito concesso alla società. |
 | [!UICONTROL Updated By] | Nome della persona che ha avviato l&#39;operazione. |
 | [!UICONTROL Custom Reference Number] | Numero di riferimento personalizzato associato alla transazione. |
@@ -153,7 +160,7 @@ Gli amministratori della società possono visualizzare le informazioni sul credi
 
 Scopri come gestire il credito aziendale guardando questo video dimostrativo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410760?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
 
 ## Considerazioni sulla sicurezza
 
@@ -167,7 +174,7 @@ Durante la gestione del credito aziendale, implementa solide misure di sicurezza
 
 ## Best practice
 
-* &#x200B;
+* 
    * **Gestione delle politiche creditizie**: durante la gestione del credito aziendale, definire criteri chiari per l&#39;impostazione dei limiti di credito in base alla cronologia dei pagamenti del cliente e alle relazioni commerciali. Esamina regolarmente i saldi in essere e i modelli di pagamento per valutare il rischio e documenta sempre le modifiche alle impostazioni del credito con motivi dettagliati a scopo di audit.
 
 Elaborare i pagamenti in modo rapido per mantenere saldi accurati e garantire l&#39;allineamento delle impostazioni della valuta di credito con le operazioni aziendali principali di ciascuna società.

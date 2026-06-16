@@ -2,10 +2,16 @@
 title: Aggiornamenti del layout
 description: Scopri come utilizzare gli aggiornamenti del layout per personalizzare il layout di una pagina.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: https://experienceleague.adobe.com/PjeNmdtN39seTDCdzbt8K7DhoRZgFB3PksoKTJaFLsk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: 1044
 ht-degree: 0%
 
 ---
@@ -31,7 +37,7 @@ Nel diagramma seguente, i nomi che fanno riferimento ai contenitori sono neri e 
 | `page/html_wrapper` | Anche se incluso nel layout predefinito, questo blocco è obsoleto ed è incluso solo per garantire la compatibilità con le versioni precedenti. Non utilizzare blocchi di questo tipo. |
 | `page/html_breadcrumbs` | Il nome di questo blocco è `breadcrumbs` ed è un elemento figlio del blocco intestazione. Questo blocco visualizza le breadcrumb per la pagina corrente. Può esistere un solo blocco di questo tipo per pagina. |
 | `page/html_footer` | Il nome del blocco è `footer` ed è un elemento figlio del blocco radice. Il blocco piè di pagina corrisponde al piè di pagina visivo nella parte inferiore della pagina e contiene diversi blocchi standard. Può esistere un solo blocco di questo tipo per pagina e non deve essere rimosso. |
-| `page/template_links` | Nel layout standard sono presenti due blocchi di questo tipo. Il blocco `top.links` è un elemento figlio del blocco intestazione e corrisponde al menu di navigazione superiore. Il blocco `footer_links` è un elemento figlio del blocco piè di pagina e corrisponde al menu di navigazione inferiore. <br/><br/>**_Nota:_**&#x200B;è possibile modificare i collegamenti dei modelli, come illustrato negli esempi. |
+| `page/template_links` | Nel layout standard sono presenti due blocchi di questo tipo. Il blocco `top.links` è un elemento figlio del blocco intestazione e corrisponde al menu di navigazione superiore. Il blocco `footer_links` è un elemento figlio del blocco piè di pagina e corrisponde al menu di navigazione inferiore. <br/><br/>**_Note:_** È possibile modificare i collegamenti dei modelli, come illustrato negli esempi. |
 | `page/switch` | Esistono due blocchi di questo tipo in un layout standard. Il blocco `store_language` è un elemento figlio del blocco di intestazione e corrisponde al commutatore della lingua superiore. Il blocco `store_switcher` è un elemento figlio del blocco piè di pagina e corrisponde al commutatore dell&#39;archivio inferiore. |
 | core/messages | Esistono due blocchi di questo tipo in un layout standard. Il blocco `global_messages` visualizza messaggi globali. Il blocco `messages` viene utilizzato per visualizzare tutti gli altri messaggi. Se rimuovi questi blocchi, il cliente non visualizza alcun messaggio. |
 | `core/text_list` | Questo tipo di blocco è ampiamente utilizzato in [!DNL Commerce] come segnaposto per il rendering dei blocchi figlio. |

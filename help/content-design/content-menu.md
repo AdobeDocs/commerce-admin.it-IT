@@ -2,10 +2,16 @@
 title: Menu [!UICONTROL Content]
 description: Utilizza il menu [!UICONTROL Content] per accedere a più funzionalità per la gestione del contenuto nel tuo archivio.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: https://experienceleague.adobe.com/UTh5IKGTXZUcSXGQvP7rHtja8EnEELc75EPpvPvSD3E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -14,19 +20,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Quando il nuovo [[!DNL Media Gallery]](media-gallery.md) è abilitato, la sezione _[!UICONTROL Media]_&#x200B;viene visualizzata con una singola opzione per accedere a [!DNL Media Gallery]. È possibile impostare l&#39;opzione **[!UICONTROL Enable Old Media Gallery]**&#x200B;su `No` scegliendo **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** e scegliendo **[!UICONTROL Advanced]** > **[!UICONTROL System]** nel pannello a sinistra.
+>Quando il nuovo [[!DNL Media Gallery]](media-gallery.md) è abilitato, la sezione _[!UICONTROL Media]_viene visualizzata con una singola opzione per accedere a [!DNL Media Gallery]. È possibile impostare l&#39;opzione **[!UICONTROL Enable Old Media Gallery]**su `No` scegliendo **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** e scegliendo **[!UICONTROL Advanced]** > **[!UICONTROL System]** nel pannello a sinistra.
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 ![Il menu [!UICONTROL Content] visualizzato nell&#39;amministratore](./assets/admin-menu-content.png){width="400" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
 
 ![Il menu [!UICONTROL Content] visualizzato nell&#39;amministratore](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
 
@@ -47,7 +53,7 @@ Nella barra laterale _Admin_, scegli **[!UICONTROL Content]**.
 
 >[!NOTE]
 >
->L&#39;opzione _[!UICONTROL Banners]_&#x200B;in questo menu è stata rimossa nella versione 2.3.1. La sua funzionalità è sostituita da Blocchi dinamici.
+>L&#39;opzione _[!UICONTROL Banners]_in questo menu è stata rimossa nella versione 2.3.1. La sua funzionalità è sostituita da Blocchi dinamici.
 
 ## [!UICONTROL Design] {#design-features}
 

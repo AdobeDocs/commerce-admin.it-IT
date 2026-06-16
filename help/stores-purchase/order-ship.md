@@ -3,9 +3,15 @@ title: Spedisci un ordine
 description: Scopri come completare le informazioni di spedizione per un ordine di elaborazione e visualizzare le informazioni di spedizione e tracciamento.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
+TQID: https://experienceleague.adobe.com/w1MPvqsRVfsRwEcRB5uClGM3vnwAda3sOtkZzuLBKAA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ Un ordine che è stato pagato, ma è in attesa di spedizione ha lo stato `Proces
 
 1. Nella barra laterale _Admin_, selezionare **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. Nell&#39;elenco _[!UICONTROL Orders]_&#x200B;trovare l&#39;ordine da spedire e fare clic per aprirlo.
+1. Nell&#39;elenco _[!UICONTROL Orders]_trovare l&#39;ordine da spedire e fare clic per aprirlo.
 
 1. Nell&#39;angolo superiore destro fare clic sul pulsante **[!UICONTROL Ship]**.
 
@@ -26,7 +32,7 @@ Un ordine che è stato pagato, ma è in attesa di spedizione ha lo stato `Proces
 
 1. Per fare in modo che il vettore generi un&#39;etichetta di spedizione, selezionare la casella di controllo **[!UICONTROL Create Shipping Label]** e impostare le opzioni:
 
-   - Per aggiungere un numero di tracciamento, scorrere verso il basso fino alla sezione _[!UICONTROL Shipping Information]_&#x200B;e fare clic su **[!UICONTROL Add Tracking Number]**.
+   - Per aggiungere un numero di tracciamento, scorrere verso il basso fino alla sezione _[!UICONTROL Shipping Information]_e fare clic su **[!UICONTROL Add Tracking Number]**.
 
    - Effettuare una delle seguenti operazioni:
 
@@ -62,7 +68,7 @@ Un ordine che è stato pagato, ma è in attesa di spedizione ha lo stato `Proces
 
 1. Individuare la spedizione nell&#39;elenco e fare clic per aprire il record.
 
-1. Se si desidera aggiungere un commento all&#39;ordine, scorrere verso il basso fino alla sezione _[!UICONTROL Comments History]_&#x200B;e immettere il commento nella casella.
+1. Se si desidera aggiungere un commento all&#39;ordine, scorrere verso il basso fino alla sezione _[!UICONTROL Comments History]_e immettere il commento nella casella.
 
    - Per inviare il commento al cliente tramite e-mail, selezionare la casella di controllo **[!UICONTROL Notify Customer by Email]**.
 
@@ -78,7 +84,7 @@ Un ordine che è stato pagato, ma è in attesa di spedizione ha lo stato `Proces
 
 1. Trovare l&#39;ordine di spedizione nella griglia e fare clic su **[!UICONTROL View]**.
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Shipping & Handling Information]_&#x200B;e fai clic su **[!UICONTROL Track Order]**.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Shipping & Handling Information]_e fai clic su **[!UICONTROL Track Order]**.
 
    Tutte le informazioni di tracciamento disponibili vengono visualizzate in una finestra popup.
 

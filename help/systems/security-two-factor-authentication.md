@@ -4,10 +4,17 @@ description: Scopri il supporto per l’autenticazione a due fattori per garanti
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: https://experienceleague.adobe.com/-201IPkmoP1dmQL3kk4zb3XdTgrYtiUovj4-hkaNrnc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: 848
 ht-degree: 0%
 
 ---
@@ -18,7 +25,7 @@ L&#39;_Amministratore_ di Commerce per l&#39;installazione di Adobe Commerce o M
 
 >[!NOTE]
 >
->Questa implementazione dell&#39;autenticazione a due fattori (2FA) si applica solo all&#39;amministratore _1&rbrace; e non è disponibile per gli account cliente._ L’autenticazione a due fattori che protegge l’account Commerce dispone di una configurazione separata. Per ulteriori informazioni, vai a [Proteggi il tuo account Commerce](../getting-started/commerce-account-secure.md).
+>Questa implementazione dell&#39;autenticazione a due fattori (2FA) si applica solo all&#39;amministratore _1} e non è disponibile per gli account cliente._ L’autenticazione a due fattori che protegge l’account Commerce dispone di una configurazione separata. Per ulteriori informazioni, vai a [Proteggi il tuo account Commerce](../getting-started/commerce-account-secure.md).
 
 L’autenticazione a due fattori è ampiamente utilizzata ed è comune generare codici di accesso per siti web diversi sulla stessa app. Questa autenticazione aggiuntiva garantisce che solo l’utente sia in grado di accedere al proprio account utente. Se si perde la password o se un bot la indovina, l&#39;autenticazione a due fattori aggiunge un livello di protezione. Ad esempio, puoi utilizzare Google Authenticator per generare codici per l’amministratore del negozio, l’account Commerce e l’account Google.
 
@@ -30,7 +37,7 @@ La prima volta che un utente accede all&#39;account _Admin_, deve configurare og
 
 >[!NOTE]
 >
->Per gli archivi che hanno abilitato l’autenticazione Adobe Identity Management Services (IMS), Adobe Commerce nativo e Magento Open Source 2FA sono disabilitati. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza di Commerce con le credenziali Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Consulta [Panoramica dell&#39;integrazione del servizio Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=it).
+>Per gli archivi che hanno abilitato l’autenticazione Adobe Identity Management Services (IMS), Adobe Commerce nativo e Magento Open Source 2FA sono disabilitati. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza di Commerce con le credenziali Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Consulta [Panoramica dell&#39;integrazione del servizio Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Guarda questa [demo video](https://video.tv.adobe.com/v/339104?quality=12&learn=on) per una panoramica dell&#39;autenticazione a due fattori in Admin.
 
@@ -40,7 +47,7 @@ Guarda questa [demo video](https://video.tv.adobe.com/v/339104?quality=12&learn=
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Security]** e scegli **[!UICONTROL 2FA]**.
 
-1. Nella sezione _[!UICONTROL General]_&#x200B;selezionare i provider da utilizzare.
+1. Nella sezione _[!UICONTROL General]_selezionare i provider da utilizzare.
 
    | Provider | Funzione |
    |--- |--- |
@@ -71,7 +78,7 @@ Per modificare la durata della disponibilità della password monouso (OTP) duran
 
 >[!NOTE]
 >
->In Adobe Commerce 2.4.7 e versioni successive, l’impostazione di configurazione della finestra OTP controlla per quanto tempo (in secondi) il sistema accetta la password monouso (OTP) di un amministratore dopo la scadenza. Questo valore deve essere inferiore a 30 secondi. L&#39;impostazione predefinita del sistema è `29`.<br><br> Nella versione 2.4.6, l&#39;impostazione della finestra OTP determina il numero di codici OTP passati e futuri che rimangono validi. Il valore `1` indica che il codice OTP corrente più un codice nel passato e un codice nel futuro rimangono validi in un determinato momento.
+>In Adobe Commerce 2.4.7 e versioni successive, l’impostazione di configurazione della finestra OTP controlla per quanto tempo (in secondi) il sistema accetta la password monouso (OTP) di un amministratore dopo la scadenza. Questo valore deve essere inferiore a 30 secondi. L&#39;impostazione predefinita del sistema è `29`.<br><br> Nella versione 2.4.6, l’impostazione della finestra OTP determina il numero di codici OTP passati e futuri che rimangono validi. Il valore `1` indica che il codice OTP corrente più un codice nel passato e un codice nel futuro rimangono validi in un determinato momento.
 
 ### [!DNL Duo Security]
 

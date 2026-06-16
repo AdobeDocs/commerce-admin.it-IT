@@ -3,17 +3,23 @@ title: Strumenti per sviluppatori
 description: Scopri gli strumenti per sviluppatori avanzati disponibili per supportare gli sviluppatori che lavorano su progetti di personalizzazione.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1709
 ht-degree: 0%
 
 ---
 
 # Strumenti per sviluppatori
 
-Utilizza gli strumenti per sviluppatori avanzati per determinare la modalità di compilazione durante lo sviluppo front-end, creare un inserisco nell&#39;elenco Consentiti di indirizzi IP e visualizzare gli hint per i percorsi dei modelli. Sono inoltre disponibili strumenti per apportare facilmente modifiche al testo nell’interfaccia della vetrina e dell’amministratore.
+Utilizza gli strumenti avanzati per gli sviluppatori per determinare la modalità di compilazione durante lo sviluppo front-end, creare un inserisco nell&#39;elenco Consentiti di indirizzi IP di tipo e visualizzare gli hint di percorso dei modelli. Sono inoltre disponibili strumenti per apportare facilmente modifiche al testo nell’interfaccia della vetrina e dell’amministratore.
 
 - [Registri azioni](action-log.md) ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
 - [Flusso di lavoro di sviluppo front-end](#frontend-development-workflow)
@@ -27,7 +33,7 @@ Utilizza gli strumenti per sviluppatori avanzati per determinare la modalità di
 
 È possibile distribuire l&#39;istanza Adobe Commerce o Magento Open Source per l&#39;esecuzione in _produzione_ o in _modalità sviluppatore_. È possibile accedere agli strumenti e alle impostazioni di configurazione specifici per gli sviluppatori solo quando l&#39;archivio è in esecuzione in _modalità sviluppatore_.
 
-La modalità operativa può essere modificata solo dalla riga di comando del server da un utente con le autorizzazioni appropriate. Per ulteriori informazioni, vedere [Impostare la modalità operativa](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=it) nella _Guida alla configurazione_.
+La modalità operativa può essere modificata solo dalla riga di comando del server da un utente con le autorizzazioni appropriate. Per ulteriori informazioni, vedere [Impostare la modalità operativa](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) nella _Guida alla configurazione_.
 
 La maggior parte degli argomenti nella documentazione per esercenti si applica a un’istanza di Commerce in esecuzione in modalità di produzione. Tuttavia, le impostazioni di configurazione e gli strumenti seguenti possono essere utilizzati solo quando l&#39;installazione è in esecuzione in modalità sviluppatore.
 
@@ -59,7 +65,7 @@ Vedi [Compilazione LESS lato client rispetto a lato server](https://developer.ad
 
 L&#39;aggiunta di una firma digitale all&#39;URL di file statici consente ai browser di rilevare quando è disponibile una versione più recente del file. I file statici che possono essere tracciati con le firme digitali includono JavaScript, CSS, immagini e font. La firma viene aggiunta al percorso direttamente dopo l’URL di base. Se la firma di un file è diversa da quella memorizzata nella cache del browser, viene utilizzata la versione più recente del file.
 
-Consulta [Firma di contenuti statici](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=it){:target="_blank"} nella documentazione per gli sviluppatori di Commerce.
+Consulta [Firma di contenuti statici](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} nella documentazione per gli sviluppatori di Commerce.
 
 >[!NOTE]
 >
@@ -91,7 +97,7 @@ Il tempo necessario per caricare i file di risorse può essere ridotto unendo e 
 
 Per impostazione predefinita, Adobe Commerce e Magento Open Source non uniscono, raggruppano o riducono a icona i file e lo sviluppatore del progetto deve determinare quali metodi di ottimizzazione file utilizzare.
 
-Per ulteriori informazioni, consulta [Best practice per le prestazioni](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=it).
+Per ulteriori informazioni, consulta [Best practice per le prestazioni](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html).
 
 >[!NOTE]
 >
@@ -105,7 +111,7 @@ Per ulteriori informazioni, consulta [Best practice per le prestazioni](https://
 
 {style="table-layout:auto"}
 
-**_Per ottimizzare i file di risorse:_**
+**_Ottimizzare i file di risorse:_**
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -118,7 +124,7 @@ Per ulteriori informazioni, consulta [Best practice per le prestazioni](https://
 
    ![Configurazione avanzata - Impostazioni CSS](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
-[Impostazioni _CSS_](../configuration-reference/advanced/developer.md)
+   [_Impostazioni CSS_](../configuration-reference/advanced/developer.md)
 
 1. Per ottimizzare i file JavaScript, espandere ![Selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL JavaScript Settings]** ed effettuare le seguenti operazioni:
 
@@ -135,13 +141,13 @@ Per ulteriori informazioni, consulta [Best practice per le prestazioni](https://
 
 ## Limitazioni per i client
 
-Prima di utilizzare uno strumento come [suggerimenti percorso modello](#template-path-hints), assicurati di aggiungere il tuo indirizzo IP al inserisco nell&#39;elenco Consentiti Developer Client Restrictions (Limitazioni client sviluppatore) per evitare di interrompere l&#39;esperienza di acquisto dei clienti nel negozio. Se non conosci il tuo indirizzo IP, puoi cercarlo online.
+Prima di utilizzare uno strumento come [template path hints](#template-path-hints), assicurati di aggiungere il tuo indirizzo IP al inserisce nell&#39;elenco Consentiti Developer Client Restrictions per evitare di interrompere l&#39;esperienza di acquisto dei clienti nel negozio. Se non conosci il tuo indirizzo IP, puoi cercarlo online.
 
 >[!NOTE]
 >
 >Le restrizioni per i client di sviluppo possono essere impostate solo in [Modalità sviluppatore](../systems/developer-tools.md#operation-modes).
 
-Per informazioni tecniche, consulta [VCL personalizzato per consentire le richieste](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=it) nella _Guida di Commerce on Cloud Infrastructure_.
+Per informazioni tecniche, consulta [VCL personalizzato per consentire le richieste](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) nella _Guida di Commerce on Cloud Infrastructure_.
 
 **_Per aggiungere il tuo indirizzo IP al inserisco nell&#39;elenco Consentiti di:_**
 
@@ -175,7 +181,7 @@ Consulta [Individuare modelli, layout e stili](https://developer.adobe.com/comme
 
 ### Passaggio 1: aggiungi l’indirizzo IP al inserisco nell&#39;elenco Consentiti di
 
-Prima di utilizzare i suggerimenti del percorso del modello, aggiungi il tuo indirizzo IP al [inserisco nell&#39;elenco Consentiti di](#client-restrictions) per evitare interferenze con i clienti che fanno acquisti nel negozio. Al termine, assicurati di cancellare la cache di Commerce per rimuovere tutti gli hint dall’archivio.
+Prima di utilizzare i suggerimenti del percorso del modello, aggiungi l&#39;indirizzo IP al inserisco nell&#39;elenco Consentiti [](#client-restrictions) per evitare interferenze con i clienti che fanno acquisti nel negozio. Al termine, assicurati di cancellare la cache di Commerce per rimuovere tutti gli hint dall’archivio.
 
 ![Configurazione avanzata - restrizioni client sviluppatore](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 
@@ -247,7 +253,7 @@ Se il punto vendita è disponibile in più lingue, è possibile apportare regola
 
    Deselezionare la casella di controllo **[!UICONTROL Use Website]** per modificare le impostazioni.
 
-   L&#39;opzione _[!UICONTROL Enabled for Admin]_&#x200B;non è disponibile quando si modifica una visualizzazione archivio specifica.
+   L&#39;opzione _[!UICONTROL Enabled for Admin]_non è disponibile quando si modifica una visualizzazione archivio specifica.
 
    ![Configurazione avanzata - traduzione in linea](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

@@ -1,11 +1,18 @@
 ---
 title: Processo di pagamento e opzioni
-description: Scopri in che modo Adobe Commerce e il processo di pagamento del Magento Open Source raccolgono le informazioni necessarie per completare la transazione e la pagina Pagamento guida il cliente attraverso ogni fase del processo.
+description: Scopri in che modo il processo di pagamento di Adobe Commerce e Magento Open Source raccoglie le informazioni necessarie per completare la transazione e la pagina Pagamento guida il cliente attraverso ogni fase del processo.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/pBCZkoYfSX-cqBu-wsS8eFynW3NUfT56MOWwuxpCGrc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -148,7 +155,7 @@ Per una descrizione dettagliata di ciascuna di queste impostazioni di configuraz
 | [!UICONTROL Enable Terms and Conditions] | Visualizzazione store | Determina se i clienti devono accettare i [Termini e condizioni](terms-and-conditions.md) della vendita prima di effettuare un acquisto. Opzioni: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Visualizzazione store | Determina la posizione dell&#39;indirizzo di fatturazione durante l&#39;estrazione. Opzioni: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Visualizzazione store | Determina il numero massimo di elementi che possono essere visualizzati nel Riepilogo ordini durante l&#39;estrazione. Il valore predefinito è `10`. |
-| [!UICONTROL Enable Address Search] | Sito Web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) determina se i clienti possono utilizzare la funzionalità [ricerca indirizzi](checkout-address-search.md) per _Spedizione_ e i passaggi _Verifica e pagamenti_. Quando questa funzione è abilitata, utilizzare _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;per impostare il numero di indirizzi salvati necessari per attivare questa funzionalità durante l&#39;estrazione. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Sito Web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) determina se i clienti possono utilizzare la funzionalità [ricerca indirizzi](checkout-address-search.md) per _Spedizione_ e i passaggi _Verifica e pagamenti_. Quando questa funzione è abilitata, utilizzare _[!UICONTROL Number of Customer Addresses Limit]_per impostare il numero di indirizzi salvati necessari per attivare questa funzionalità durante l&#39;estrazione. Opzioni: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Sito Web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Quando la ricerca degli indirizzi è **[!UICONTROL Enabled]**, determina il numero di indirizzi salvati necessari per attivare questa funzionalità durante l&#39;estrazione. Quando il numero di indirizzi salvati del cliente raggiunge o supera questo numero, viene eseguito il rendering solo dell&#39;indirizzo predefinito nei passaggi _Spedizione_ e _Verifica e pagamenti_. Il cliente può utilizzare una funzione di ricerca per modificare l’indirizzo selezionato. Il valore predefinito è 10. |
 
 {style="table-layout:auto"}

@@ -2,9 +2,15 @@
 title: Gestisci scorte
 description: Scopri come le scorte vengono utilizzate per rappresentare un inventario virtuale e aggregato dei prodotti per le origini dei canali di vendita.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -15,13 +21,13 @@ Le scorte rappresentano un inventario virtuale e aggregato dei prodotti per le o
 
 Si inizia con un Stock predefinito che non può essere rimosso o disabilitato. È possibile aggiungere ulteriori canali di vendita solo alle scorte. L&#39;unica origine assegnata è Default Source. Questo stock viene utilizzato da commercianti single-source, integrazioni di terze parti e prodotti importati.
 
-I Sales Channel rappresentano le entità che vendono il proprio inventario. Per impostazione predefinita, [!DNL Commerce] fornisce i siti Web dei tuoi negozi come canali di vendita. I canali di vendita possono essere estesi per supportare canali aggiuntivi, come gruppi di clienti B2B e visualizzazioni dei punti vendita. Ogni canale di vendita può essere associato a un solo Stock.
+I canali di vendita rappresentano entità che vendono il proprio inventario. Per impostazione predefinita, [!DNL Commerce] fornisce i siti Web dei tuoi negozi come canali di vendita. I canali di vendita possono essere estesi per supportare canali aggiuntivi, come gruppi di clienti B2B e visualizzazioni dei punti vendita. Ogni canale di vendita può essere associato a un solo Stock.
 
 - **Supporto Sales Channel** - I canali di vendita includono attualmente siti Web preconfigurati. Puoi estendere i canali di vendita per includere opzioni personalizzate, come gruppi di clienti B2B e visualizzazioni del negozio. A ciascun canale di vendita può essere assegnato un solo stock. Un singolo stock può essere assegnato a più canali di vendita.
 - **Mappa su origini** - A ogni stock possono essere assegnate una o più origini abilitate o disabilitate, calcolando l&#39;inventario aggregato virtuale per prodotto.
 - **Evasione ordine prioritario** - L&#39;algoritmo di priorità predefinito per l&#39;algoritmo di selezione Source utilizza l&#39;elenco di origine delle scorte dall&#39;alto verso il basso per l&#39;esecuzione degli ordini.
 
-Il diagramma seguente consente di definire il funzionamento di un magazzino in relazione a origini e Sales Channel per un commerciante di un negozio di biciclette.
+Il diagramma seguente consente di definire il funzionamento di un magazzino in relazione alle origini e ai canali di vendita per un commerciante di un negozio di biciclette.
 
 ![Diagramma ad esempio scorte per uno store](assets/diagram-stock.png){width="600" zoomable="yes"}
 
@@ -43,7 +49,7 @@ Per un&#39;installazione in più store, il magazzino predefinito viene inizialme
 
 | Pulsante | Descrizione |
 |--|--|
-| [!UICONTROL Add New Stock] | Apre il modulo _[!UICONTROL New Stock]_&#x200B;utilizzato per immettere una nuova scorta di magazzino per la mappatura del magazzino al canale di vendita. |
+| [!UICONTROL Add New Stock] | Apre il modulo _[!UICONTROL New Stock]_utilizzato per immettere una nuova scorta di magazzino per la mappatura del magazzino al canale di vendita. |
 
 ## Descrizioni delle colonne Gestisci scorte
 

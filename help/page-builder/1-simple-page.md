@@ -3,9 +3,15 @@ title: '[!DNL Page Builder] Procedura dettagliata parte 1: pagina semplice'
 description: Utilizza i file di esempio e segui i passaggi per creare una pagina semplice nell'interfaccia  [!DNL Page Builder] .
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/i6y4j2MrN59vbxZXYOqTmUyjMURsaK-WOYChOFVW2Bc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3314'
+source-wordcount: 3341
 ht-degree: 0%
 
 ---
@@ -70,7 +76,7 @@ In questa parte dell&#39;esercizio Pagina semplice viene creata una pagina con u
 
 1. Se i dati di esempio sono disponibili, impostare **[!UICONTROL New Theme]** su `Magento Luma`. In caso contrario, è possibile scegliere un altro tema disponibile o lasciarlo vuoto per utilizzare il tema predefinito.
 
-   L&#39;impostazione _[!UICONTROL New Theme]_&#x200B;può essere utilizzata per sostituire il tema predefinito e per applicare un tema diverso alla pagina.
+   L&#39;impostazione _[!UICONTROL New Theme]_può essere utilizzata per sostituire il tema predefinito e per applicare un tema diverso alla pagina.
 
    >[!NOTE]
    >
@@ -106,13 +112,13 @@ In questa parte dell&#39;esercizio Pagina semplice viene creata una pagina con u
 
 1. Nella casella degli strumenti Riga, scegliere l&#39;icona _Impostazioni_ (![Impostazioni](./assets/pb-icon-settings.png){width="20"}.
 
-1. In _[!UICONTROL Appearance]_&#x200B;scegliere **Smarginatura completa**.
+1. In _[!UICONTROL Appearance]_scegliere **Smarginatura completa**.
 
    L&#39;impostazione dell&#39;aspetto a pagina intera estende i bordi sinistro e destro dell&#39;area contenuto della riga e dello sfondo fino alla larghezza completa della pagina.
 
    ![Impostazioni riga - pagina al vivo completa](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_&#x200B;e imposta tutte le impostazioni **[!UICONTROL Margins and Padding]**&#x200B;su `0`.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_e imposta tutte le impostazioni **[!UICONTROL Margins and Padding]**su `0`.
 
    Questa impostazione assicura che il banner estenda l&#39;intera larghezza della riga.
 
@@ -141,13 +147,13 @@ In questa parte dell&#39;esercizio Pagina semplice viene creata una pagina con u
 
 1. Nella casella degli strumenti del banner, scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. In _[!UICONTROL Appearance]_&#x200B;scegliere **[!UICONTROL Collage Right]**.
+1. In _[!UICONTROL Appearance]_scegliere **[!UICONTROL Collage Right]**.
 
    L&#39;impostazione Collage Right posiziona il contenuto sul lato destro del banner.
 
    ![Aspetto banner - diritto collage](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Background]_&#x200B;e imposta l&#39;immagine di sfondo per il banner:
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Background]_e imposta l&#39;immagine di sfondo per il banner:
 
    - Per **[!UICONTROL Background Image]**, fare clic su **Carica**.
 
@@ -200,7 +206,7 @@ __
 
 1. Passa il puntatore del mouse per visualizzare la casella degli strumenti del banner, scegli nuovamente l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ), quindi scorri fino alla sezione _[!UICONTROL Content]_.
 
-   Il testo verrà visualizzato nella casella _Testo messaggio_. Il testo può essere immesso e modificato dalla fase o dalla sezione _[!UICONTROL Content]_&#x200B;delle impostazioni del banner.
+   Il testo verrà visualizzato nella casella _Testo messaggio_. Il testo può essere immesso e modificato dalla fase o dalla sezione _[!UICONTROL Content]_delle impostazioni del banner.
 
    ![Impostazioni banner - testo messaggio](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
@@ -243,7 +249,7 @@ __
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ (![Chiudi icona schermo intero](./assets/pb-icon-reduce.png)).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per la pagina con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per la pagina con l&#39;anteprima visualizzata.
 
    È possibile passare da una modalità all&#39;altra in qualsiasi momento.
 
@@ -265,7 +271,7 @@ In questa parte dell&#39;esercizio aggiungerete una riga alla pagina e la divide
 
 1. Fare clic su **[!UICONTROL Edit with Page Builder]** o all&#39;interno dell&#39;area di anteprima del contenuto.
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**&#x200B;nell&#39;area di visualizzazione e posizionalo sopra il banner.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**nell&#39;area di visualizzazione e posizionalo sopra il banner.
 
    La linea guida rossa segna il limite tra le due righe.
 
@@ -285,7 +291,7 @@ In questa parte dell&#39;esercizio aggiungerete una riga alla pagina e la divide
 
 ### Passaggio 2: aggiungere una colonna
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Column]**&#x200B;nella nuova riga.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Column]**nella nuova riga.
 
    ![Trascinamento di un tipo di contenuto colonna nell&#39;area di visualizzazione](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
@@ -345,7 +351,7 @@ In questo passaggio imparerai a caricare un’immagine nel banner.
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ (![Chiudi icona schermo intero](./assets/pb-icon-reduce.png)).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per la pagina con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per la pagina con l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo superiore destro fare clic sulla freccia **[!UICONTROL Save]** e scegliere **[!UICONTROL Save & Close]**.
 
@@ -365,7 +371,7 @@ L’ultima riga di questa pagina presenta il contenuto di una recensione di prod
 
 1. Fare clic su **[!UICONTROL Edit with Page Builder]** o all&#39;interno dell&#39;area di anteprima del contenuto.
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**&#x200B;nell&#39;area di visualizzazione e posizionalo sopra la riga creata nella seconda parte di questo esercizio.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Row]**nell&#39;area di visualizzazione e posizionalo sopra la riga creata nella seconda parte di questo esercizio.
 
    Una linea guida rossa segna il limite tra le due righe.
 
@@ -381,11 +387,11 @@ L’ultima riga di questa pagina presenta il contenuto di una recensione di prod
 
    ![Selezione dell&#39;aspetto Larghezza intera](./assets/pb-tutorial1-row-settings-appearance-full-width.png){width="600" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Background]_&#x200B;immettere `#f1f1f1` come **[!UICONTROL Background Color]**.
+1. Nella sezione _[!UICONTROL Background]_immettere `#f1f1f1` come **[!UICONTROL Background Color]**.
 
    ![Impostazione del colore di sfondo](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_&#x200B;e imposta tutti i valori **Margini e spaziatura interna**&#x200B;su `0`.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_e imposta tutti i valori **Margini e spaziatura interna**su `0`.
 
    ![Impostazione di margini e spaziatura interna](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -397,7 +403,7 @@ L’ultima riga di questa pagina presenta il contenuto di una recensione di prod
 
 ### Passaggio 2: aggiungere colonne di larghezza diversa
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Column]**&#x200B;nella riga superiore dell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un segnaposto **[!UICONTROL Column]**nella riga superiore dell&#39;area di visualizzazione.
 
    ![Trascinamento di una colonna nell&#39;area di visualizzazione](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
@@ -409,7 +415,7 @@ L’ultima riga di questa pagina presenta il contenuto di una recensione di prod
 
 1. Passa il puntatore del mouse sul primo contenitore di colonne per visualizzare la casella degli strumenti e scegli l&#39;icona _Impostazioni_ ( ![Icona Impostazioni](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_&#x200B;e imposta tutti i valori **Margini e spaziatura interna**&#x200B;su `0`.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_e imposta tutti i valori **Margini e spaziatura interna**su `0`.
 
    ![Impostazione di margini e spaziatura interna](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -445,7 +451,7 @@ La seconda colonna della riga deve contenere il contenuto di una recensione del 
 
    ![Inserimento di un&#39;immagine nel testo](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - Nella finestra di dialogo _[!UICONTROL Insert/edit image]_, fai clic sull&#39;icona_ Trova _( ![Icona Trova](./assets/editor-btn-find-source.png) ) accanto al campo&#x200B;_[!UICONTROL Source]_.
+   - Nella finestra di dialogo _[!UICONTROL Insert/edit image]_, fai clic sull&#39;icona_ Trova _( ![Icona Trova](./assets/editor-btn-find-source.png) ) accanto al campo_[!UICONTROL Source]_.
 
      ![Finestra di dialogo Inserisci/modifica immagine](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
@@ -507,7 +513,7 @@ La seconda colonna della riga deve contenere il contenuto di una recensione del 
 
    ![Impostazione dell&#39;altezza minima e dell&#39;allineamento verticale](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_&#x200B;e imposta tutti i valori **[!UICONTROL Margins and Padding]**&#x200B;su zero ( `0` ).
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Advanced]_e imposta tutti i valori **[!UICONTROL Margins and Padding]**su zero ( `0` ).
 
    ![Impostazione di margini e spaziatura interna](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -541,7 +547,7 @@ La seconda colonna della riga deve contenere il contenuto di una recensione del 
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ (![Chiudi icona schermo intero](./assets/pb-icon-reduce.png)).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per la pagina con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per la pagina con l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]**.
 
@@ -571,7 +577,7 @@ Quando tutte e tre le righe sono state completate, il passaggio finale consiste 
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ (![Chiudi icona schermo intero](./assets/pb-icon-reduce.png)).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per la pagina con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per la pagina con l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo superiore destro fare clic sulla freccia **[!UICONTROL Save]** e scegliere **[!UICONTROL Save & Close]**.
 

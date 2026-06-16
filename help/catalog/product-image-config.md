@@ -3,9 +3,15 @@ title: Configurazione dell’immagine del prodotto
 description: Scopri come impostare una dimensione massima in pixel (larghezza e altezza) e ridimensionare automaticamente i file immagine del prodotto durante il caricamento.
 exl-id: d8fce5f8-eddf-4335-9a72-24036db077db
 feature: Catalog Management, Products, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/uzQtOoAoycyE31-ttim6LGwFldrn-5TDq-u5JDlAxNM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: 711
 ht-degree: 0%
 
 ---
@@ -22,9 +28,9 @@ Durante il caricamento delle immagini di prodotto, è possibile aggiungere immag
 >
 >Per una migliore compatibilità, si consiglia di caricare tutte le immagini del prodotto con il profilo colore `sRGB`. Tutti gli altri profili colore vengono automaticamente convertiti nel profilo colore `sRGB` durante il caricamento dell&#39;immagine del prodotto, il che potrebbe causare incoerenza di colore nell&#39;immagine caricata.
 
-Impostando la larghezza e l&#39;altezza massime in pixel, l&#39;immagine viene ridimensionata in pixel in base alle dimensioni fisiche. Commerce ridimensiona l’immagine in base alla maggiore quantità di larghezza o altezza mantenendo le proporzioni. La riduzione della quantità di qualità per le immagini JPG-riduce le dimensioni del file.
+Impostando la larghezza e l&#39;altezza massime in pixel, l&#39;immagine viene ridimensionata in pixel in base alle dimensioni fisiche. Commerce ridimensiona l’immagine in base alla maggiore quantità di larghezza o altezza mantenendo le proporzioni. La riduzione della quantità di qualità per le immagini JPG riduce le dimensioni del file.
 
-Ad esempio, un JPG-3000 x 2100 pixel al 100% potrebbe essere un file di immagine di dimensioni pari o superiori a 5 MB. Il ridimensionamento di questa immagine ridurrebbe la larghezza a 1920 pixel, mantenendo proporzioni e qualità all&#39;80% per fornire dimensioni di file molto più piccole con alta qualità.
+Ad esempio, un JPG 3000 x 2100 pixel al 100% potrebbe essere un file di immagine di dimensioni pari o superiori a 5 MB. Il ridimensionamento di questa immagine ridurrebbe la larghezza a 1920 pixel, mantenendo proporzioni e qualità all&#39;80% per fornire dimensioni di file molto più piccole con alta qualità.
 
 ### Abilita ridimensionamento immagine
 
@@ -69,7 +75,7 @@ Ad esempio, un JPG-3000 x 2100 pixel al 100% potrebbe essere un file di immagine
 
 ## Segnaposto immagine
 
-Adobe Commerce e il Magento Open Source utilizzano immagini temporanee come segnaposto fino a quando non saranno disponibili le immagini permanenti del prodotto. È possibile caricare un segnaposto diverso per ogni ruolo. L&#39;immagine segnaposto iniziale è un logo di esempio che è possibile sostituire con l&#39;immagine desiderata.
+Adobe Commerce e Magento Open Source utilizzano immagini temporanee come segnaposto fino a quando non saranno disponibili le immagini permanenti del prodotto. È possibile caricare un segnaposto diverso per ogni ruolo. L&#39;immagine segnaposto iniziale è un logo di esempio che è possibile sostituire con l&#39;immagine desiderata.
 
 ![Segnaposto immagine](./assets/storefront-image-placeholder.png){width="600" zoomable="yes"}
 

@@ -5,10 +5,15 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 4654bb24e0982c62d71bbc3f771f8a40ee1e83e3
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1904
 ht-degree: 1%
 
 ---
@@ -27,9 +32,9 @@ Questa sezione contiene informazioni sugli aggiornamenti dell&#39;estensione Aud
 ![Correzione](../assets/fix.svg) - Correzioni e miglioramenti
 ![Bug](../assets/bug.svg) - Problemi noti
 
-Per informazioni sulle pianificazioni e sul supporto, consulta le [prossime versioni](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=it).
+Per informazioni sulle pianificazioni e sul supporto, consulta le [prossime versioni](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html).
 
-Per informazioni sulla compatibilità dei prodotti, consulta la documentazione per gli sviluppatori[.](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=it)
+Per informazioni sulla compatibilità dei prodotti, consulta la documentazione per gli sviluppatori](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).[
 
 ## Aggiornamenti dei servizi supportati
 
@@ -59,7 +64,7 @@ _24 marzo 2025_
 
 ![Nuovo](../assets/new.svg) - Aggiunto supporto PHP 8.4.
 
-### 2.3.1.
+### 2.3.1
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -67,7 +72,7 @@ _12 novembre 2024_
 
 ![Correzione](../assets/fix.svg) - È stato risolto un problema che si verificava quando si filtravano i tipi di pubblico di Real-Time CDP disponibili tra cui scegliere.
 
-### 2.3.0.
+### 2.3.0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -75,7 +80,7 @@ _29 luglio 2024_
 
 ![Nuovo](../assets/new.svg) - È stata aggiunta la sintassi della riga di comando in modo da poter [verificare le credenziali](#validate-the-connection) per determinare se devono essere aggiornate per estrarre i dati del pubblico da Adobe Experience Platform.
 
-### 2.2.0.
+### 2.2.0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -83,7 +88,7 @@ _12 giugno 2024_
 
 ![Nuovo](../assets/new.svg) - Versione GA per [regole prodotto correlate](../merchandising-promotions/product-related-rule-create.md) informata dal pubblico.
 
-### 2.1.1.
+### 2.1.1
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -100,7 +105,7 @@ _16 febbraio 2024_
 ![Nuovo](../assets/new.svg) - Se partecipi alla versione beta, assicurati che il tuo file `composer.json` abbia le seguenti caratteristiche a livello di radice: ` "minimum-stability": "beta"`.
 ![Nuovo](../assets/new.svg) - (**Beta**) Aggiunta la possibilità di creare [regole di prodotto correlate](../merchandising-promotions/product-related-rule-create.md) informate dai tipi di pubblico.
 
-### 2.1.0.
+### 2.1.0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -108,7 +113,7 @@ _24 gennaio 2024_
 
 ![Nuovo](../assets/new.svg) - È stato aggiornato il [dashboard Tipi di pubblico di Real-Time CDP](#real-time-cdp-audiences-dashboard) per includere i siti Web che contengono i tipi di pubblico e specificare quali blocchi dinamici e regole di prezzo del carrello sono configurati per utilizzare tali tipi di pubblico.
 
-### 2.0.1.
+### 2.0.1
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -116,7 +121,7 @@ _16 novembre 2023_
 
 ![Correzione](../assets/fix.svg) - Stabilità migliorata.
 
-### 2,0,0
+### 2.0.0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -125,7 +130,7 @@ _10 ottobre 2023_
 ![Nuovo](../assets/new.svg) - È stato aggiunto il supporto per OAuth 2.0 quando [configuri](#configure-the-extension) l&#39;estensione Audience Activation.
 ![Correzione](../assets/fix.svg) - Stabilità migliorata.
 
-### 1.2.0.
+### 1.2.0
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
@@ -133,7 +138,7 @@ _15 agosto 2023_
 
 ![Correzione](../assets/fix.svg) - È stata aggiornata la versione dei componenti dell&#39;interfaccia utente.
 
-### 1.1.0.
+### 1.1.0
 
 _30 maggio 2023_
 
@@ -141,16 +146,16 @@ _30 maggio 2023_
 
 ![Nuovo](../assets/new.svg) - Aggiunta del supporto per [blocchi dinamici](#headless-support) in una vetrina headless.
 
-### 1.0.1.
+### 1.0.1
 
 _11 maggio 2023_
 
 [!BADGE Compatibilità]{type=Informative tooltip="Compatibilità"} Adobe Commerce versioni 2.4.4 e successive
 
 ![Correzione](../assets/fix.svg) - È stato risolto un problema che impediva l&#39;applicazione di una regola di prezzo blocco dinamico o carrello alla vetrina.
-![Correzione](../assets/fix.svg) - È stato risolto un problema che causava un errore durante un&#39;installazione non configurata dell&#39;estensione Audience Activation quando un commerciante tentava di creare o aggiornare un blocco dinamico.
+![Correzione](../assets/fix.svg) - È stato risolto un problema che causava un errore in seguito a un&#39;installazione non configurata dell&#39;estensione Audience Activation quando un commerciante tentava di creare o aggiornare un blocco dinamico.
 
-### 1,0,0
+### 1.0.0
 
 _31 marzo 2023_
 
@@ -163,7 +168,7 @@ _31 marzo 2023_
 Le seguenti attività si applicano sia alle implementazioni Luma che alla vetrina headless. Per attivare i tipi di pubblico in Adobe Commerce, devi:
 
 - Installare Adobe Commerce versione 2.4.4 o successiva
-- [Attiva](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=it) Adobe Commerce come destinazione in Real-Time CDP
+- [Attiva](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce come destinazione in Real-Time CDP
 - [Installa](#install-the-extension) l&#39;estensione [!DNL Audience Activation] in Admin
 - [Configura](#configure-the-extension) l&#39;estensione [!DNL Audience Activation] in Admin
 
@@ -181,23 +186,23 @@ Dopo aver installato l&#39;estensione [!DNL Audience Activation], è necessario 
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
-1. [Accedi](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=it#organizationid) al tuo account Adobe e seleziona il tuo ID organizzazione.
+1. [Accedi](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid) al tuo account Adobe e seleziona il tuo ID organizzazione.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
 
-1. Nel campo **[!UICONTROL Datastream ID]**, incolla l&#39;ID dello stream di dati creato quando [hai attivato](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=it#parameters) Adobe Commerce come destinazione in Real-Time CDP.
+1. Nel campo **[!UICONTROL Datastream ID]**, incolla l&#39;ID dello stream di dati creato quando [hai attivato](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce come destinazione in Real-Time CDP.
 
-   Questo flusso di dati invia i dati dal sito web Commerce a Real-Time CDP per determinare se un acquirente appartiene a un pubblico. Se non hai ancora creato uno stream di dati, [creane](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it#create) uno in Experience Platform, [aggiungilo](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=it) alla destinazione Commerce in Real-Time CDP e all&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=it#data-collection) in Admin.
+   Questo flusso di dati invia i dati dal sito web Commerce a Real-Time CDP per determinare se un acquirente appartiene a un pubblico. Se non hai ancora creato uno stream di dati, [creane](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) uno in Experience Platform, [aggiungilo](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) alla destinazione Commerce in Real-Time CDP e all&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) in Admin.
 
    >[!NOTE]
    >
-   >Quando specifichi un ID dello stream di dati, [associalo a un sito Web specifico](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=it#data-collection) nell&#39;estensione [!DNL Data Connection]. Se il tuo archivio Commerce dispone di più siti Web, [crea una destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=it) per ciascun sito Web in Real-Time CDP e utilizza un ID dello stream di dati diverso per ciascuno di essi.
+   >Quando specifichi un ID dello stream di dati, [associalo a un sito Web specifico](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) nell&#39;estensione [!DNL Data Connection]. Se il tuo archivio Commerce dispone di più siti Web, [crea una destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) per ciascun sito Web in Real-Time CDP e utilizza un ID dello stream di dati diverso per ciascuno di essi.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Espandere **[!UICONTROL Services]** e selezionare **[!UICONTROL [!DNL Data Connection]]**.
 
-1. [Aggiungi](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=it#add-service-account-and-credential-details) dettagli account del servizio e credenziali.
+1. [Aggiungi](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) dettagli account del servizio e credenziali.
 
 ## Dove utilizzare i tipi di pubblico di Real-Time CDP in Commerce
 
@@ -209,11 +214,11 @@ Con l&#39;estensione [!DNL Audience Activation] abilitata, è possibile:
 
 >[!TIP]
 >
->Per un caso d&#39;uso end-to-end completo su come esportare i dati di [!DNL Commerce] in Real-Time CDP, creare un pubblico e quindi attivarlo in [!DNL Commerce], vedi [Creare un pubblico in Real-Time CDP utilizzando i dati di  [!DNL Commerce] evento](https://experienceleague.adobe.com/it/docs/commerce/data-connection/use-cases/create-audience).
+>Per un caso d&#39;uso end-to-end completo su come esportare i dati di [!DNL Commerce] in Real-Time CDP, creare un pubblico e quindi attivarlo in [!DNL Commerce], vedi [Creare un pubblico in Real-Time CDP utilizzando i dati di  [!DNL Commerce] evento](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience).
 
 ## Dashboard dei tipi di pubblico di Real-Time CDP
 
-Puoi visualizzare tutti i [tipi di pubblico attivi](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=it) disponibili per la personalizzazione nell&#39;istanza di Adobe Commerce utilizzando la dashboard **Tipi di pubblico di Real-Time CDP**.
+Puoi visualizzare tutti i [tipi di pubblico attivi](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) disponibili per la personalizzazione nell&#39;istanza di Adobe Commerce utilizzando la dashboard **Tipi di pubblico di Real-Time CDP**.
 
 Per accedere al dashboard **Tipi di pubblico di Real-Time CDP**, passa alla barra laterale _Amministratore_, quindi passa a **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
 
@@ -243,7 +248,7 @@ Puoi attivare i tipi di pubblico in un’istanza di Adobe Commerce headless, ad 
 
 ### Regole di prezzo del carrello e regole di prodotto correlate
 
-Per le regole di prezzo del carrello e le regole di prodotto correlate, una vetrina headless comunica con Experience Platform tramite [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html?lang=it). Il framework fornisce un’API lato server che viene implementata utilizzando GraphQL. Le informazioni sul pubblico, ad esempio il segmento di un acquirente, passano a Commerce tramite un parametro di intestazione GraphQL denominato: `aep-segments-membership`.
+Per le regole di prezzo del carrello e le regole di prodotto correlate, una vetrina headless comunica con Experience Platform tramite [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Il framework fornisce un’API lato server che viene implementata utilizzando GraphQL. Le informazioni sul pubblico, ad esempio il segmento di un acquirente, passano a Commerce tramite un parametro di intestazione GraphQL denominato: `aep-segments-membership`.
 
 L’architettura generale è la seguente:
 
@@ -251,7 +256,7 @@ L’architettura generale è la seguente:
 
 Dopo aver [installato](#install-the-extension) e [configurato](#configure-the-extension) l&#39;estensione, Experience Platform Web SDK contiene le informazioni sul pubblico sotto forma di appartenenza al segmento.
 
-Per acquisire tali appartenenze al segmento da SDK, vedi questo [frammento di codice](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=it#example-response-for-custom-personalization-with-attributes).
+Per acquisire tali appartenenze al segmento da SDK, vedi questo [frammento di codice](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
 Una volta recuperato, puoi passare tali segmenti a Commerce all’interno dell’intestazione di GraphQL. Ad esempio:
 
@@ -344,7 +349,7 @@ Ulteriori informazioni sulla query GraphQL `dynamicBlocks` nella [documentazione
 Puoi recuperare i tipi di pubblico di Real-Time CDP utilizzando Adobe Experience Platform Mobile SDK.
 
 1. [Installa](#install-the-extension) l&#39;estensione Audience Activation.
-1. [installa e configura SDK per il tuo sito Commerce per dispositivi mobili](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html?lang=it).
+1. [installa e configura SDK per il tuo sito Commerce per dispositivi mobili](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -418,7 +423,7 @@ Ad esempio:
 1. Apri l’istanza di Commerce.
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 1. Espandere **[!UICONTROL Services]** e selezionare **[!UICONTROL [!DNL Data Connection]]**.
-1. Verificare che il metodo di autorizzazione server-to-server specificato nel campo **[!UICONTROL Authentication Type]** sia corretto. Adobe consiglia di utilizzare **OAuth**. [JWT è stato dichiarato obsoleto](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), con tutti i certificati correnti in scadenza entro il 1 marzo 2026.
+1. Verificare che il metodo di autorizzazione server-to-server specificato nel campo **[!UICONTROL Authentication Type]** sia corretto. Adobe consiglia di utilizzare **OAuth**. [JWT è stato dichiarato obsoleto](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), con tutti i certificati correnti in scadenza entro il 1 marzo 2026.
 
 ### Privilegi insufficienti sul token generato
 
@@ -432,5 +437,5 @@ Questo problema può essere causato da privilegi API insufficienti per il token 
 1. Apri le credenziali, quindi seleziona **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
 1. Aggiungere il ruolo che contiene l&#39;autorizzazione **[!UICONTROL Manage destinations]**.
 1. Fare clic su **[!UICONTROL Save]**.
-1. [Rigenera](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=it#generate-access-token) il token di accesso nella console.
+1. [Rigenera](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) il token di accesso nella console.
 1. Verificare che il token fornisca una risposta valida utilizzando l&#39;API [Target Connections](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).

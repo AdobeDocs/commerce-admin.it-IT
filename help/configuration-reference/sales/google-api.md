@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
-description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Sales] &gt; [!UICONTROL Google API] dell'amministratore di Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Google API]'
+description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Sales] > [!UICONTROL Google API] dell'amministratore di Commerce.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
+TQID: https://experienceleague.adobe.com/KscchSWeGd3TwpcCQaGxuVXa6-7wZJinSpyA0NvTSAc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: 927
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 | ----- | ------------------------------------------ | ----------- |
@@ -53,14 +59,14 @@ Quando **[!UICONTROL Account Type]** è impostato su `Google Tag Manager`, sono 
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 | ----- | ------------------------------------------ | ----------- |
 | [!UICONTROL Enable] | Visualizzazione store | Abilita Google AdWords per lo store. Opzioni: `Yes` / `No` |
 | [!UICONTROL Conversion ID] | Visualizzazione store | L’ID dall’account Google AdWords. |
 | [!UICONTROL Conversion Language] | Visualizzazione store | Linguaggio utilizzato per le conversioni AdWords. Opzioni: `All available languages` |
-| [!UICONTROL Conversion Format] | Visualizzazione store | Determina il formato della notifica [!DNL Google Site Stats] visualizzata nella pagina di conversione. La notifica è collegata a una pagina che informa i visitatori in merito ai cookie utilizzati per tenere traccia delle loro visite. Questo valore numerico è assegnato alla variabile `google_conversion_format` nello script AdWords. Per ulteriori informazioni, consulta [Informazioni sul monitoraggio delle conversioni](https://support.google.com/google-ads/answer/1722022?hl=en) sul sito Web Google. Opzioni: <br/>**`1`**- Visualizza una notifica su una riga.<br/>**`2`** - (Predefinito) Visualizza una notifica su due righe. <br/>**`3`**- Nessuna notifica del cliente. |
+| [!UICONTROL Conversion Format] | Visualizzazione store | Determina il formato della notifica [!DNL Google Site Stats] visualizzata nella pagina di conversione. La notifica è collegata a una pagina che informa i visitatori in merito ai cookie utilizzati per tenere traccia delle loro visite. Questo valore numerico è assegnato alla variabile `google_conversion_format` nello script AdWords. Per ulteriori informazioni, consulta [Informazioni sul monitoraggio delle conversioni](https://support.google.com/google-ads/answer/1722022?hl=en) sul sito Web Google. Opzioni: <br/>**`1`**- Visualizza una notifica su una riga.<br/>**`2`** - (Predefinito) Visualizza una notifica su due righe. <br/>**`3`**- Nessuna notifica al cliente. |
 | [!UICONTROL Conversion Color] | Visualizzazione store | Determina il colore dell&#39;etichetta di conversione. Utilizza un selettore [colori](https://www.w3schools.com/colors/colors_picker.asp) per scegliere il valore esadecimale. Questo valore esadecimale è assegnato alla variabile `google_conversion_color` nello script AdWords. Esempio: ffffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | Visualizzazione store | Etichetta di testo visualizzata con la notifica [!DNL Google Site Stats]. Questa stringa di testo è assegnata alla variabile `~` nello script AdWords. Ad esempio: &quot;Grazie per lo shopping!&quot; |
 | [!UICONTROL Conversion Value Type] | Visualizzazione store | Specifica il tipo di valore utilizzato per determinare quando si verifica una conversione. Opzioni: <br/>**`Dynamic`**- Determina che si è verificata una conversione in base all&#39;importo dell&#39;ordine dinamico.<br/>**`Constant`** - Determina che si è verificata una conversione in base al valore immesso. |
@@ -77,7 +83,7 @@ Quando **[!UICONTROL Account Type]** è impostato su `Google Tag Manager`, sono 
 
 ![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 | ----- | ------------------------------------------ | ----------- |
@@ -112,14 +118,14 @@ Quando **[!UICONTROL Account Type]** è impostato su `Google Tag Manager`, sono 
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 | ----- | ------------------------------------------ | ----------- |
 | [!UICONTROL Enable] | Visualizzazione store | Abilita Google AdWords per lo store. Opzioni: `Yes` / `No` |
 | [!UICONTROL Conversion ID] | Visualizzazione store | L’ID dall’account Google AdWords. |
 | [!UICONTROL Conversion Language] | Visualizzazione store | Linguaggio utilizzato per le conversioni AdWords. Opzioni: tutte le lingue disponibili |
-| [!UICONTROL Conversion Format] | Visualizzazione store | Determina il formato della notifica Google Site Stats visualizzata nella pagina di conversione. La notifica è collegata a una pagina che informa i visitatori in merito ai cookie utilizzati per tenere traccia delle loro visite. Questo valore numerico è assegnato alla variabile `google_conversion_format` nello script AdWords. Per ulteriori informazioni, consulta [Informazioni sul monitoraggio delle conversioni](https://support.google.com/google-ads/answer/1722022?hl=en) sul sito Web Google. Opzioni: <br/>**`1`**- Visualizza una notifica su una riga.<br/>**`2`** - (Predefinito) Visualizza una notifica su due righe. <br/>**`3`**- Nessuna notifica del cliente. |
+| [!UICONTROL Conversion Format] | Visualizzazione store | Determina il formato della notifica Google Site Stats visualizzata nella pagina di conversione. La notifica è collegata a una pagina che informa i visitatori in merito ai cookie utilizzati per tenere traccia delle loro visite. Questo valore numerico è assegnato alla variabile `google_conversion_format` nello script AdWords. Per ulteriori informazioni, consulta [Informazioni sul monitoraggio delle conversioni](https://support.google.com/google-ads/answer/1722022?hl=en) sul sito Web Google. Opzioni: <br/>**`1`**- Visualizza una notifica su una riga.<br/>**`2`** - (Predefinito) Visualizza una notifica su due righe. <br/>**`3`**- Nessuna notifica al cliente. |
 | [!UICONTROL Conversion Color] | Visualizzazione store | Determina il colore dell&#39;etichetta di conversione. Utilizza un selettore [colori](https://www.w3schools.com/colors/colors_picker.asp) per scegliere il valore esadecimale. Questo valore esadecimale è assegnato alla variabile `google_conversion_color` nello script AdWords. Esempio: ffffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | Visualizzazione store | Etichetta di testo visualizzata con la notifica Statistiche sito Google. Questa stringa di testo è assegnata alla variabile `~` nello script AdWords. Ad esempio: &quot;Grazie per lo shopping!&quot; |
 | [!UICONTROL Conversion Value Type] | Visualizzazione store | Specifica il tipo di valore utilizzato per determinare quando si verifica una conversione. Opzioni: <br/>**`Dynamic`**- Determina che si è verificata una conversione in base all&#39;importo dell&#39;ordine dinamico.<br/>**`Constant`** - Determina che si è verificata una conversione in base al valore immesso. |

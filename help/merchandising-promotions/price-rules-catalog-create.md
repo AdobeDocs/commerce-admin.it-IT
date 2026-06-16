@@ -3,9 +3,15 @@ title: Creare una regola del prezzo di catalogo
 description: Scopri come creare una regola del prezzo di catalogo che applica uno sconto a prodotti specifici ogni volta che viene soddisfatta una serie di condizioni.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 5e21259c196419f9a337795f9bec29f0737e84ca
+TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: 1730
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volt
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Rule]**.
 
-   La sezione _[!UICONTROL Rule Information]_&#x200B;include sezioni espandibili per **[!UICONTROL Conditions]**&#x200B;e **[!UICONTROL Actions]**.
+   La sezione _[!UICONTROL Rule Information]_include sezioni espandibili per **[!UICONTROL Conditions]**e **[!UICONTROL Actions]**.
 
    ![Regola prezzo catalogo - informazioni](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -51,7 +57,7 @@ Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volt
 
 1. Immettere un numero per stabilire **[!UICONTROL Priority]** di questa regola in relazione ad altre regole.
 
-   L&#39;impostazione **[!UICONTROL Priority]** determina quale regola viene applicata quando un prodotto soddisfa le condizioni per più regole di prezzo. Viene applicata la regola con la priorità più alta (numero più basso, ad esempio 0, 1, 2, 3...).
+   L&#39;impostazione **[!UICONTROL Priority]** determina quale regola viene applicata quando un prodotto soddisfa le condizioni per più regole di prezzo. La regola con la priorità più alta (numero più basso, ad esempio 0, 1, 2, 3...) ha effetto.
 
 ## Passaggio 2: definire le condizioni
 
@@ -219,7 +225,7 @@ La maggior parte delle condizioni disponibili si basa sui valori di attributo es
 
 Guarda questo video per scoprire come creare le regole del prezzo di catalogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410849?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Descrizioni dei campi
 

@@ -3,9 +3,15 @@ title: Prodotto bundle
 description: Scopri come creare un pacchetto di prodotti che consenta agli acquirenti di creare un prodotto personalizzato nel tuo negozio.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+TQID: https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: 1616
 ht-degree: 0%
 
 ---
@@ -115,7 +121,7 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 1. Accettare l&#39;impostazione **[!UICONTROL Visibility]** predefinita di `Catalog, Search`.
 
-1. Per assegnare _[!UICONTROL Categories]_&#x200B;al prodotto, fare clic sulla casella **[!UICONTROL Select…]**&#x200B;ed eseguire una delle operazioni seguenti:
+1. Per assegnare _[!UICONTROL Categories]_al prodotto, fare clic sulla casella **[!UICONTROL Select…]**ed eseguire una delle operazioni seguenti:
 
    **Scegli una categoria esistente:**
 
@@ -139,7 +145,7 @@ Il modulo viene aggiornato per riflettere la modifica.
 
 ## Passaggio 5: aggiungere gli elementi del bundle
 
-La sezione _[!UICONTROL Bundle Items]_&#x200B;viene utilizzata per aggiungere elementi a un tipo di prodotto Bundle e per modificare la selezione corrente di elementi.
+La sezione _[!UICONTROL Bundle Items]_viene utilizzata per aggiungere elementi a un tipo di prodotto Bundle e per modificare la selezione corrente di elementi.
 
 ![Elementi bundle definiti per un prodotto](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -180,7 +186,7 @@ La sezione _[!UICONTROL Bundle Items]_&#x200B;viene utilizzata per aggiungere el
 
      >[!NOTE]
      >
-     >La quantità può essere un valore predefinito o definito dall&#39;utente. Tuttavia, non assegnare la proprietà _[!UICONTROL User Defined]_&#x200B;a tipi di input a selezione multipla o casella di controllo.
+     >La quantità può essere un valore predefinito o definito dall&#39;utente. Tuttavia, non assegnare la proprietà _[!UICONTROL User Defined]_a tipi di input a selezione multipla o casella di controllo.
 
      Per impostazione predefinita, la quantità predefinita inclusa in un articolo del bundle non può essere modificata dal cliente. Tuttavia, il cliente può inserire la quantità dell&#39;articolo da includere nel bundle.
 
@@ -215,7 +221,7 @@ Scorri verso il basso e completa le informazioni nelle sezioni seguenti, in base
 - [Progettazione](settings-advanced-design.md)
 - [Opzioni regalo](product-gift-options.md)
 
-## Passaggio 7: Publish del prodotto
+## Passaggio 7: pubblicare il prodotto
 
 1. Se si è pronti a pubblicare il prodotto nel catalogo, impostare **[!UICONTROL Enable Product]** su `Yes` ( ![Attiva/disattiva yes](../assets/toggle-yes.png) ).
 
@@ -283,7 +289,7 @@ Lo stato delle scorte dei prodotti del bundle è **_non modificato automaticamen
 
 ![Lo SKU e il peso della casella di controllo](../assets/checkbox.png) possono essere `Fixed` o `Dynamic`.
 
-![Casella di controllo](../assets/checkbox.png) La quantità può essere un valore predefinito o definito dall&#39;utente. Tuttavia, non assegnare la proprietà _[!UICONTROL User Defined]_&#x200B;a tipi di input a selezione multipla o casella di controllo.
+![Casella di controllo](../assets/checkbox.png) La quantità può essere un valore predefinito o definito dall&#39;utente. Tuttavia, non assegnare la proprietà _[!UICONTROL User Defined]_a tipi di input a selezione multipla o casella di controllo.
 
 ![Casella di controllo](../assets/checkbox.png) Gli elementi del bundle possono essere spediti insieme o separatamente.
 

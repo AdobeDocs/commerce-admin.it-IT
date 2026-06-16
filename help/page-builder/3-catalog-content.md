@@ -3,9 +3,15 @@ title: '[!DNL Page Builder] Procedura dettagliata parte 3: contenuto del catalog
 description: Scopri come aggiungere un elenco di prodotti a una pagina  [!DNL Page Builder] .
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/aJlgMXqFCj0Fu-BbZ2e8YcfAKYppBedwfNHaGxvlgT0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -30,7 +36,7 @@ Questo esercizio presuppone che tu abbia completato [Parte 1: Pagina semplice](1
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Content]** e fare clic su **[!UICONTROL Edit with Page Builder]** o all&#39;interno dell&#39;area di anteprima del contenuto.
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un **[!UICONTROL Row]**&#x200B;nella parte superiore dell&#39;area di visualizzazione.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un **[!UICONTROL Row]**nella parte superiore dell&#39;area di visualizzazione.
 
 1. Nel pannello [!DNL Page Builder], espandi **[!UICONTROL Add Content]** e trascina un segnaposto **[!UICONTROL Products]** nella nuova riga.
 
@@ -48,11 +54,11 @@ Questo esercizio presuppone che tu abbia completato [Parte 1: Pagina semplice](1
 
    - Fai clic sull&#39;icona _Aggiungi_ (![Aggiungi icona](../assets/icon-add-green-circle.png)).
 
-   - In _[!UICONTROL Product Attribute]_&#x200B;scegliere **[!UICONTROL Category]**.
+   - In _[!UICONTROL Product Attribute]_scegliere **[!UICONTROL Category]**.
 
      ![Scelta dell&#39;attributo di categoria per la condizione](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
-   - Completare la parte _[!UICONTROL Category is]..._ della condizione facendo clic sull&#39;icona Altro (...), quindi fare clic sull&#39;icona _Selettore_ (![Icona Selettore](../assets/icon-list-chooser.png)).
+   - Completare la parte _[!UICONTROL Category is]..._ della condizione facendo clic sul pulsante Altro (...) e quindi fare clic sull&#39;icona _Selettore_ (![Icona Selettore](../assets/icon-list-chooser.png)).
 
      ![Definizione della condizione](./assets/pb-add-content-products-settings-condition-category-is.png){width="600" zoomable="yes"}
 
@@ -80,7 +86,7 @@ Questo esercizio presuppone che tu abbia completato [Parte 1: Pagina semplice](1
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ ( ![Chiudi icona schermo intero](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per la pagina con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per la pagina con l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo superiore destro fare clic sulla freccia **[!UICONTROL Save]** e scegliere **[!UICONTROL Save & Close]**.
 
@@ -88,7 +94,7 @@ Questo esercizio presuppone che tu abbia completato [Parte 1: Pagina semplice](1
 
 >[!NOTE]
 >
->Per visualizzare i pulsanti [!UICONTROL Content] e utilizzare Page Builder, un utente amministratore deve disporre delle autorizzazioni [&#x200B; per il proprio ambito &#x200B;](../systems/permissions-user-roles.md)ruolo[!UICONTROL Edit with Page Builder].
+>Per visualizzare i pulsanti [!UICONTROL Edit with Page Builder] e utilizzare Page Builder, un utente amministratore deve disporre delle autorizzazioni [!UICONTROL Content] per il proprio ambito [ruolo](../systems/permissions-user-roles.md).
 
 In questa parte dell’esercizio imparerai quanto sia facile personalizzare una pagina di prodotto inserendo un video sotto il set di schede nella pagina di prodotto. Il processo per aggiornare il contenuto della [pagina categoria](../catalog/categories-content-settings.md) è sostanzialmente lo stesso.
 
@@ -104,7 +110,7 @@ In questa parte dell’esercizio imparerai quanto sia facile personalizzare una 
 
    Se la descrizione del prodotto è stata immessa in precedenza senza [!DNL Page Builder], la descrizione corrente verrà visualizzata come HTML in un contenitore [Codice HTML](html-code.md). Con il tema Luma, la descrizione del prodotto viene visualizzata nella scheda Dettaglio.
 
-1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un **[!UICONTROL Row]**&#x200B;nell&#39;area di visualizzazione, posizionandolo sotto il contenitore di codice HTML.
+1. Nel pannello [!DNL Page Builder] sotto _[!UICONTROL Layout]_, trascina un **[!UICONTROL Row]**nell&#39;area di visualizzazione, posizionandolo sotto il contenitore di codice HTML.
 
    Cercate la linea guida rossa da visualizzare quando la riga si trova nella posizione corretta.
 
@@ -136,7 +142,7 @@ In questa parte dell’esercizio imparerai quanto sia facile personalizzare una 
 
 1. Nell&#39;angolo superiore destro dell&#39;area di visualizzazione fare clic sull&#39;icona _Chiudi schermo intero_ ( ![Chiudi icona schermo intero](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_&#x200B;per la pagina con l&#39;anteprima visualizzata.
+   Facendo clic su questa icona si ritorna alla sezione _[!UICONTROL Content]_per la pagina con l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo superiore destro fare clic sulla freccia **[!UICONTROL Save]** e scegliere **[!UICONTROL Save & Close]**.
 
@@ -144,7 +150,7 @@ Nella vetrina, il video viene visualizzato sotto il set di schede. Per visualizz
 
 ![Video visualizzato nella pagina del prodotto](./assets/pb-tutorial3-product-video-storefront.png){width="600" zoomable="yes"}
 
-**Congratulazioni!** Hai completato la seconda parte dell&#39;esercitazione sul contenuto del catalogo. Conserva il lavoro creato, in modo da poterci fare riferimento in un secondo momento.
+**Congratulazioni!** Hai completato la seconda parte dell’esercitazione Contenuto catalogo. Conserva il lavoro creato, in modo da poterci fare riferimento in un secondo momento.
 
 ## Parte 3: Aggiungere attributi personalizzati
 
@@ -160,17 +166,17 @@ Per evitare modifiche al tuo archivio live, crea un prodotto utilizzando le prop
 
 1. Crea il prodotto con le seguenti proprietà:
 
-   - &#x200B;
+   - 
      [!UICONTROL Attributo Set]: Default
    - [!UICONTROL Product Name]: Il mio prodotto
-   - &#x200B;
+   - 
      [!UICONTROL SKU]: Tutorial
-   - &#x200B;
+   - 
      [!UICONTROL Price]: 75.00
-   - &#x200B;
+   - 
      [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status]: In magazzino
-   - &#x200B;
+   - 
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories]: Donne > Superiori > Tees
 
@@ -199,20 +205,20 @@ In questo passaggio verranno creati due nuovi attributi personalizzati per mostr
    - [!UICONTROL Attribute Code]: immettere un codice attributo in caratteri minuscoli, utilizzando i trattini invece degli spazi. Per questo esempio, utilizzare `my_page_builder_attribute`.
    - [!UICONTROL Scope]: accettare il valore predefinito, `Store View`.
    - [!UICONTROL Default Value]: immettere un valore predefinito per l&#39;attributo.
-   - &#x200B;
+   - 
      [!UICONTROL Unique Value]: `No`
-   - &#x200B;
+   - 
      [!UICONTROL Add to Column Options]: `No`
-   - &#x200B;
+   - 
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. Nel pannello _[!UICONTROL Attribute Information]_&#x200B;a sinistra, scegli **[!UICONTROL Storefront Properties]**&#x200B;e apporta le seguenti impostazioni:
+1. Nel pannello _[!UICONTROL Attribute Information]_a sinistra, scegli **[!UICONTROL Storefront Properties]**e apporta le seguenti impostazioni:
 
-   - &#x200B;
+   - 
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
-   - &#x200B;
+   - 
      [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
-   - &#x200B;
+   - 
      [!UICONTROL Used in Product Listing]: `Yes`
 
 1. Al termine, fare clic su **[!UICONTROL Save Attribute]**.
@@ -221,7 +227,7 @@ In questo passaggio verranno creati due nuovi attributi personalizzati per mostr
 
    - [!UICONTROL Default Label]: attributo Editor di testo personale
    - [!UICONTROL Catalog Input Type for Store Owner]: Editor di testo
-   - &#x200B;
+   - 
      [!UICONTROL Attributo Code]: `my_text_editor_attribute`
 
 ### Passaggio 3: aggiornare la serie di attributi del prodotto
@@ -234,7 +240,7 @@ In questo passaggio verranno creati due nuovi attributi personalizzati per mostr
    >
    >Se non desideri modificare il tuo archivio live, puoi procedere senza aggiornare il set di attributi.
 
-1. Trovare l&#39;attributo _[!UICONTROL Default]_&#x200B;impostato nell&#39;elenco e fare doppio clic per aprirlo in modalità di modifica.
+1. Trovare l&#39;attributo _[!UICONTROL Default]_impostato nell&#39;elenco e fare doppio clic per aprirlo in modalità di modifica.
 
 1. Nell&#39;elenco _Attributi non assegnati_, individuare i nuovi attributi creati e trascinarli nella colonna _[!UICONTROL Groups]_, in **[!UICONTROL Content]**.
 
