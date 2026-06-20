@@ -163,7 +163,7 @@ Immetti i seguenti valori nella configurazione
 - Nome dello spazio dati (identificatore SaaS) per l’archiviazione cloud sicura
 - ID organizzazione IMS in cui viene eseguito il provisioning degli ambienti Commerce e AEM Assets
 
-Per istruzioni dettagliate, guarda il [video sulla configurazione di Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) e la documentazione di [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid).
+Per istruzioni dettagliate, guarda il [video sulla configurazione di Commerce Services Connector](https://experienceleague.adobe.com/it/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) e la documentazione di [Commerce Services Connector](https://experienceleague.adobe.com/it/docs/commerce/user-guides/integration-services/saas#organizationid).
 
 Quando salvi la configurazione, il sistema genera gli ID del progetto SaaS e del database per il tuo ambiente. Questi valori sono necessari per abilitare la sincronizzazione delle risorse tra Adobe Commerce e AEM Assets.
 

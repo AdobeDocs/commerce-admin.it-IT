@@ -39,7 +39,7 @@ Per accedere alle impostazioni di configurazione per Payment Services, nella bar
 
 >[!NOTE]
 >
->Per utilizzare la configurazione precedente invece di [Impostazioni](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=it), vedere [Configurazione precedente](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html).
+>Per utilizzare la configurazione precedente invece di [Impostazioni](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=it), vedere [Configurazione precedente](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=it).
 
 ## [!UICONTROL General]
 
