@@ -68,7 +68,7 @@ Per utilizzare questo progetto AEM per aggiornare la configurazione dell’ambie
 
 1. Apporta le modifiche e invia il ramo di sviluppo locale all’archivio Git di Cloud Manager.
 
-1. Da Cloud Manager, [distribuisci il codice per aggiornare l&#39;ambiente AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
+1. Da Cloud Manager, [distribuisci il codice per aggiornare l&#39;ambiente AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
 
 ## Configurare un profilo di metadati
 

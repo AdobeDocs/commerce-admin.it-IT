@@ -191,7 +191,7 @@ Le risorse Adobe Stock che desideri utilizzare per gli store [!DNL Commerce] di 
 
      >[!NOTE]
      >
-     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
+     >Devi disporre di [crediti Adobe Stock](https://helpx.adobe.com/it/stock/help/credit-packs.html) nel tuo account per concedere in licenza l&#39;immagine.
 
    Questa azione richiede di specificare un nome di file utilizzato per salvare l&#39;immagine nell&#39;[archivio multimediale](media-storage.md). Viene fornito un nome di file predefinito, ma puoi personalizzarlo in base alle tue preferenze.
 

@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![Posizione commerciante](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/it/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

@@ -52,7 +52,7 @@ Sono disponibili due varianti della configurazione di Ricerca nel catalogo. Il p
 
    Il valore predefinito è `100`. Se si immette un valore di `0`, vengono memorizzati nella cache tutti i termini e i risultati di ricerca una seconda volta.
 
-1. Per modificare il numero massimo di righe disponibili per i risultati restituiti nello [storefront pop sopra](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html), immettere un valore **[!UICONTROL Autocomplete Limit]** diverso.
+1. Per modificare il numero massimo di righe disponibili per i risultati restituiti nello [storefront pop sopra](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=it), immettere un valore **[!UICONTROL Autocomplete Limit]** diverso.
 
    La limitazione del numero di righe migliora le prestazioni delle ricerche e riduce le dimensioni dell’elenco restituito. Il valore predefinito è `8` righe.
 

@@ -3,7 +3,7 @@ title: Ottenere la licenza di un’immagine Adobe Stock
 description: Per assicurarti di avere accesso legale e per eliminare la filigrana di Adobe Stock, acquisisci licenza per le immagini Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

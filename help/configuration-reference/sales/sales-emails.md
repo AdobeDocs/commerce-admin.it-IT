@@ -263,7 +263,7 @@ Questa opzione richiede l&#39;attivazione di [Inventory management](../../invent
 
 ![Autorizzazione RMA](./assets/sales-emails-rma-auth.png)<!-- zoom -->
 
-<!-- [RMA Authorization](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
+<!-- [RMA Authorization](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

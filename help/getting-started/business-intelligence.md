@@ -68,7 +68,7 @@ Per informazioni tecniche, vedere l&#39;argomento [[!DNL Advanced Reporting]](ht
 
 * Nella configurazione [!DNL Commerce] per gli URL dell&#39;archivio, **[!UICONTROL Use Secure URLs on Storefront]** e **[!UICONTROL Use Secure URLs in Admin]** devono essere impostati su `Yes`.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) è stato creato e i processi cron sono in esecuzione sul server installato.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it) è stato creato e i processi cron sono in esecuzione sul server installato.
 
 >[!NOTE]
 >
