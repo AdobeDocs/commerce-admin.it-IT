@@ -70,7 +70,7 @@ Magento Open Source è la base di codice a cui Adobe contribuisce ufficialmente 
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
     <div><em>Questo set di funzioni è progettato per soddisfare le esigenze dei venditori (commercianti) i cui clienti sono principalmente aziende, possibilmente con strutture organizzative complesse e più membri del personale con vari ruoli e livelli di autorizzazione all'acquisto.</em>
     <br></div>
   </td>
@@ -107,7 +107,7 @@ Magento Open Source è la base di codice a cui Adobe contribuisce ufficialmente 
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
     <div><em>[!DNL Page Builder] semplifica la creazione di pagine ricche di contenuti con layout personalizzati. Queste funzionalità sono progettate per migliorare la qualità e ridurre i tempi e i costi di produzione delle pagine personalizzate.</em></div>
   </td>
 </tr>
