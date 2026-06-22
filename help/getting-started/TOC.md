@@ -5,9 +5,10 @@ breadcrumb-title: Guida introduttiva
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -70,4 +71,4 @@ ht-degree: 0%
    + [Ecosistema](resources.md)
    + [Estensioni](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it)
++ [Torna a Guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

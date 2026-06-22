@@ -6,38 +6,21 @@ seo-description: Documentation and resources for Adobe Commerce and Magento Open
 breadcrumb-title: Guide utente amministratore
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 TQID: https://experienceleague.adobe.com/zoHXvfhkWovXcAk0S9hTpQOTIHbLYhfjyFqc-cCjLLE
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cbid: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 0%
 
 ---
 
-# &#x200B;<!-- use banner as heading -->![Documentazione dell&#39;amministratore](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![Documentazione dell&#39;amministratore](./assets/banner-user-home.png) {#documentation}
 
 Benvenuti nella nuova generazione della piattaforma di commercio digitale leader a livello mondiale. Adobe Commerce offre ai commercianti online flessibilità e controllo senza precedenti sull’aspetto, i contenuti e le funzionalità dei loro negozi online. L’amministratore dispone di potenti strumenti di marketing, ottimizzazione dei motori di ricerca e gestione dei prodotti che ti offrono la possibilità di creare siti personalizzati in base alle tue esigenze aziendali specifiche.
 
@@ -47,7 +30,7 @@ Le informazioni contenute nelle Guide utente per amministratori sono progettate 
 
 Adobe Commerce è una piattaforma di e-commerce agile B2B e B2C che consente a commercianti e marchi di accelerare i ricavi attraverso esperienze di e-commerce digitale incentrate sul cliente in spazi online e fisici. È la scelta migliore per le organizzazioni di medie e grandi dimensioni, in quanto offre i modelli di distribuzione più flessibili, dal cloud on-premise al cloud gestito con SLA garantiti. Adobe Commerce consente integrazioni API-first, estensioni completamente personalizzabili e il set più completo di funzionalità di esperienza di e-commerce di livello Enterprise, dal marketing alla commercializzazione e all’evasione. Adobe Commerce è basato su una base di codice open-source per fornire flessibilità ed estensibilità come nessun’altra piattaforma commerce.
 
-Per un elenco delle funzionalità avanzate incluse in Adobe Commerce, vedi [Funzionalità di Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=it) nelle _Informazioni sulla versione_.
+Per un elenco delle funzionalità avanzate incluse in Adobe Commerce, vedi [Funzionalità di Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html) nelle _Informazioni sulla versione_.
 
 ## Base di codice Magento Open Source
 
@@ -69,7 +52,7 @@ Magento Open Source è la base di codice a cui Adobe contribuisce ufficialmente 
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
     <div><em>Questo set di funzioni è progettato per soddisfare le esigenze dei venditori (commercianti) i cui clienti sono principalmente aziende, possibilmente con strutture organizzative complesse e più membri del personale con vari ruoli e livelli di autorizzazione all'acquisto.</em>
     <br></div>
   </td>
@@ -106,7 +89,7 @@ Magento Open Source è la base di codice a cui Adobe contribuisce ufficialmente 
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
     <div><em>[!DNL Page Builder] semplifica la creazione di pagine ricche di contenuti con layout personalizzati. Queste funzionalità sono progettate per migliorare la qualità e ridurre i tempi e i costi di produzione delle pagine personalizzate.</em></div>
   </td>
 </tr>
