@@ -4,10 +4,11 @@ user-guide-description: Questa guida fornisce informazioni dettagliate sulla sic
 breadcrumb-title: Guida ai sistemi di amministrazione
 role: Admin, Leader
 feature: System
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+nudge: true
+source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 3%
+source-wordcount: '203'
+ht-degree: 2%
 
 ---
 
@@ -79,4 +80,4 @@ ht-degree: 3%
    - [Gestione delle sessioni](security-session-management.md)
    - [Rilevamento funzionalità browser](security-browser-capabilities-detection.md)
    - [Segnalazione dei problemi di sicurezza](security-issue-reporting.md)
-- [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it)
+- [Torna a Guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
