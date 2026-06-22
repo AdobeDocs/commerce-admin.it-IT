@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 259
 ht-degree: 0%
@@ -57,3 +57,4 @@ Nella sezione _[!UICONTROL Sources]_&#x200B;delle impostazioni del prodotto sono
 | [!UICONTROL Actions] | Per un&#39;origine assegnata, fare clic su **[!UICONTROL Unassign]** per rendere l&#39;origine non disponibile per il prodotto. Per un&#39;origine non assegnata, fare clic su **[!UICONTROL Assign Sources]** per rendere disponibile un&#39;origine per il prodotto. Per ulteriori informazioni sulle opzioni [!UICONTROL Assign Sources], vedere [Assegnazione di origini per prodotto](../inventory-management/sources-assign-per-product.md). |
 
 {style="table-layout:auto"}
+

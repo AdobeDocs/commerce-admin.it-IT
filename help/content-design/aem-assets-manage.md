@@ -15,7 +15,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 182
 ht-degree: 0%
@@ -51,3 +51,4 @@ Dopo aver abilitato e configurato l’integrazione di AEM Assets, puoi aggiunger
 1. Fare clic su **[!UICONTROL Save]** e continuare.
 
    Per ulteriori informazioni sulla creazione di una categoria, vedere [Completare il contenuto della categoria](../catalog/category-create.md#step-3-complete-the-category-content).
+

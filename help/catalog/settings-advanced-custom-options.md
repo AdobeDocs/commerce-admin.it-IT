@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 0%
@@ -109,3 +109,4 @@ Se una regola del prezzo del carrello viene attivata dall’acquisto, il calcolo
 | [!UICONTROL Date] | Consente al cliente di inserire una data o un&#39;ora o di scegliere il valore da un calendario. Opzioni: <br />**[!UICONTROL Date]**- Campo di input per un valore di data. La data può essere digitata direttamente nel campo o selezionata da un elenco o calendario. Il formato e il metodo di input sono determinati dalla configurazione delle [opzioni data e ora](attributes-input-types.md#date-and-time-options).<br />**[!UICONTROL Date & Time]** - Campo di input per un valore di data e ora.<br />**[!UICONTROL Time]**: campo di input per un valore di tempo. |
 
 {style="table-layout:auto"}
+
