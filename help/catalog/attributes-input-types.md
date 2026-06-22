@@ -4,22 +4,12 @@ description: Scopri i tipi di input disponibili per gli attributi del prodotto, 
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 780
 ht-degree: 0%
@@ -37,15 +27,15 @@ Quando vengono visualizzati dall’amministratore, gli attributi sono i campi ch
 | [!UICONTROL Text Field] | Campo di input a riga singola per il testo. |
 | [!UICONTROL Text Area] | Campo di input a più righe per l&#39;immissione di paragrafi di testo, ad esempio la descrizione di un prodotto. È possibile utilizzare WYSIWYG Editor per formattare il testo con i tag di HTML o immettere i tag direttamente nel testo. |
 | [!UICONTROL Text Editor] | Un editor di testo perfettamente funzionante nella posizione dell’attributo. |
-| [!UICONTROL Date] | Visualizza un valore di data nel [formato preferito](#date-and-time-options) e nel [fuso orario](../getting-started/store-details.md#locale-options). I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_**&#x200B;A seconda della configurazione del sistema, gli utenti_ Amministratore_ possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](#date-and-time-options). |
+| [!UICONTROL Date] | Visualizza un valore di data nel [formato preferito](#date-and-time-options) e nel [fuso orario](../getting-started/store-details.md#locale-options). I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_**A seconda della configurazione del sistema, gli utenti_ Amministratore_ possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](#date-and-time-options). |
 | [!UICONTROL Date and Time] | Visualizza un valore di data e ora nel [formato preferito](#date-and-time-options) e nel [fuso orario](../getting-started/store-details.md#locale-options). La data e l’ora possono essere immesse manualmente o selezionate da un calendario. Esempio di formato: MM/GG/AAAA HH:MM |
 | [!UICONTROL Yes/No] | Visualizza un elenco a discesa con opzioni predefinite di `Yes` e `No`. |
 | A discesa | Visualizza un elenco a discesa di valori che accetta una sola selezione. Il tipo di input a discesa è un componente chiave di [prodotti configurabili](../catalog/product-create-configurable.md). |
 | [!UICONTROL Multiple Select] | Visualizza un elenco a discesa di valori che accetta selezioni multiple. |
-| [!UICONTROL Number] [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} | Campo di input numerico che memorizza i valori decimali. A differenza del tipo di input **Prezzo**, non applica la formattazione della valuta e accetta valori negativi. Utilizzare questo tipo di input per le misurazioni, le dimensioni o le specifiche tecniche, ad esempio gli intervalli di temperatura. |
+| [!UICONTROL Number] [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} | Campo di input numerico che memorizza i valori decimali. A differenza del tipo di input **Prezzo**, non applica la formattazione della valuta e accetta valori negativi. Utilizzare questo tipo di input per le misurazioni, le dimensioni o le specifiche tecniche, ad esempio gli intervalli di temperatura. |
 | [!UICONTROL Price] | Questo tipo di input viene utilizzato per creare campi prezzo in aggiunta agli attributi predefiniti: `Price`, `Special Price`, `Tier Price` e `Cost`. La valuta utilizzata è determinata dalla configurazione del sistema. |
 | [!UICONTROL Media Image] | Associa un&#39;immagine aggiuntiva a un prodotto, ad esempio il logo di un prodotto, le istruzioni per la cura o gli ingredienti di un&#39;etichetta di cibo. Quando aggiungi un attributo di immagine multimediale al set di attributi di un prodotto, questo diventa un tipo di immagine aggiuntivo, insieme a Base, Piccola e Miniatura. L&#39;attributo immagine multimediale può essere escluso dal [browser multimediale storefront](catalog-images-video.md#storefront-media-browser). |
-| [!UICONTROL File] [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} | Consente di caricare un file e associarlo a un attributo di prodotto. I tipi di file supportati e la dimensione massima del file sono configurati in [Attributi del file di prodotto](../configuration-reference/catalog/product-file-attributes.md). Utilizzare questo tipo di input per documenti quali manuali del prodotto, specifiche o certificati. |
+| [!UICONTROL File] [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."} | Consente di caricare un file e associarlo a un attributo di prodotto. I tipi di file supportati e la dimensione massima del file sono configurati in [Attributi del file di prodotto](../configuration-reference/catalog/product-file-attributes.md). Utilizzare questo tipo di input per documenti quali manuali del prodotto, specifiche o certificati. |
 | [!UICONTROL Fixed Product Tax] | Consente di definire [tariffe FPT](../stores-purchase/fixed-product-tax.md) in base ai requisiti delle impostazioni internazionali. |
 | [!UICONTROL Visual Swatch] | Visualizza un campione che rappresenta il colore, la trama o il motivo di un prodotto configurabile. Un [campione visivo](swatches.md) può essere riempito con un valore di colore esadecimale o visualizzare un&#39;immagine caricata che rappresenta il colore, il materiale, la trama o il modello dell&#39;opzione. |
 | [!UICONTROL Text Swatch] | Rappresentazione testuale di un’opzione di prodotto configurabile utilizzata di frequente per le dimensioni. [I campioni di testo](swatches.md) possono includere anche valori di colore esadecimali. |
@@ -89,3 +79,4 @@ Quando vengono visualizzati dall’amministratore, gli attributi sono i campi ch
    Se questo campo viene lasciato vuoto, verrà utilizzato automaticamente l&#39;anno corrente.
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
+

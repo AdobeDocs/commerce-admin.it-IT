@@ -4,21 +4,12 @@ description: Per un prodotto, le impostazioni [!UICONTROL Product Reviews] conse
 exl-id: 9328c9f5-dcd4-4837-8902-39dc48cb8151
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/GdeAB8bT8WjR9vSGjuD-h5I3O6vYNxyaaUQYAjjy8ME
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 212
 ht-degree: 0%
@@ -27,7 +18,7 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Product Reviews]
 
-Nella sezione _[!UICONTROL Product Reviews]_&#x200B;sono elencate tutte le recensioni inviate dai clienti sul prodotto. Questa sezione viene visualizzata con le altre informazioni sul prodotto solo dopo il primo salvataggio di un nuovo prodotto. Per ulteriori informazioni, consulta [Recensioni prodotti](../merchandising-promotions/product-reviews.md).
+Nella sezione _[!UICONTROL Product Reviews]_sono elencate tutte le recensioni inviate dai clienti sul prodotto. Questa sezione viene visualizzata con le altre informazioni sul prodotto solo dopo il primo salvataggio di un nuovo prodotto. Per ulteriori informazioni, consulta [Recensioni prodotti](../merchandising-promotions/product-reviews.md).
 
 ![Recensioni prodotti](./assets/product-review.png){width="600" zoomable="yes"}
 
@@ -68,3 +59,4 @@ Nella sezione _[!UICONTROL Product Reviews]_&#x200B;sono elencate tutte le recen
 1. Al termine, fare clic su **[!UICONTROL Save Review]**.
 
 Le recensioni con gli stati `Pending` e `Not Approved` non vengono visualizzate nella vetrina.
+

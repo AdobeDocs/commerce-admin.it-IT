@@ -3,20 +3,12 @@ title: '[!DNL AR Viewer] per la configurazione di Adobe Commerce'
 description: Scopri come gestire le risorse dei modelli 3D utilizzando l’estensione  [!DNL AR Viewer]  per gli elenchi dei prodotti.
 exl-id: e3f081ff-b994-4842-a1f3-613012d33a9c
 TQID: https://experienceleague.adobe.com/6OlcZ4Psm3INgVm7f-Y9JvqfUdmR6Rg48tcigLAHiaE
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 313
 ht-degree: 0%
@@ -33,7 +25,7 @@ Per ogni prodotto, puoi caricare un file `.USDZ` che consente l&#39;utilizzo di 
 
 [!DNL AR Viewer] è installato come estensione da [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank}.
 
-Per ulteriori informazioni sul processo di installazione dell&#39;estensione, vedere la [_Guida all&#39;installazione_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=it).
+Per ulteriori informazioni sul processo di installazione dell&#39;estensione, vedere la [_Guida all&#39;installazione_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 Dopo l&#39;installazione e la configurazione dell&#39;estensione [!DNL AR Viewer], gli utenti amministratori possono impostare, personalizzare e gestire gli elenchi di prodotti per includere modelli 3D.
 
@@ -75,4 +67,5 @@ Quando i dettagli del prodotto vengono aggiornati con il modello 3D:
 
 >[!NOTE]
 >
-> Per una serie di video dimostrativi di un utente che aggiunge un modello 3d a un prodotto, vedere la pagina [AR Viewer per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=it) in _Video e tutorial Commerce_.
+> Per una serie di video dimostrativi di un utente che aggiunge un modello 3d a un prodotto, vedere la pagina [AR Viewer per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html) in _Video e tutorial Commerce_.
+

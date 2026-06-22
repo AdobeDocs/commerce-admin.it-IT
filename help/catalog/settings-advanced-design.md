@@ -4,22 +4,12 @@ description: Per un prodotto, le impostazioni [!UICONTROL Design] consentono di 
 exl-id: 8606ddc7-ca81-4503-94e5-a8276506c0a1
 feature: Catalog Management, Products, Page Content
 TQID: https://experienceleague.adobe.com/u6VzZ9TiovuSopBcBjmpQTKl3pzh3DoXXzpr8akWp-8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 284
 ht-degree: 0%
@@ -28,13 +18,13 @@ ht-degree: 0%
 
 # Impostazioni prodotto - [!UICONTROL Design]
 
-Le impostazioni di _[!UICONTROL Design]_&#x200B;consentono di applicare un tema diverso alla pagina del prodotto, modificare il layout delle colonne, determinare la posizione in cui vengono visualizzate le opzioni del prodotto e immettere un codice XML personalizzato.
+Le impostazioni di _[!UICONTROL Design]_consentono di applicare un tema diverso alla pagina del prodotto, modificare il layout delle colonne, determinare la posizione in cui vengono visualizzate le opzioni del prodotto e immettere un codice XML personalizzato.
 
 ![Progettazione](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Quando lo stesso prodotto viene assegnato a più categorie con impostazioni di progettazione diverse per ogni categoria, si consiglia di impostare **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` nelle [opzioni di configurazione Ottimizzazione motore di ricerca](../configuration-reference/catalog/catalog.md#search-engine-optimization). Per accedere a questa impostazione, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, espandi **[!UICONTROL Catalog]**&#x200B;e scegli **[!UICONTROL Catalog]**&#x200B;nel pannello a sinistra, quindi espandi la sezione **[!UICONTROL Search Engine Optimization]**&#x200B;nella pagina.
+>Quando lo stesso prodotto viene assegnato a più categorie con impostazioni di progettazione diverse per ogni categoria, si consiglia di impostare **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` nelle [opzioni di configurazione Ottimizzazione motore di ricerca](../configuration-reference/catalog/catalog.md#search-engine-optimization). Per accedere a questa impostazione, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, espandi **[!UICONTROL Catalog]**e scegli **[!UICONTROL Catalog]**nel pannello a sinistra, quindi espandi la sezione **[!UICONTROL Search Engine Optimization]**nella pagina.
 
 | Campo | [Ambito](../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |---|---|----|
@@ -44,3 +34,4 @@ Le impostazioni di _[!UICONTROL Design]_&#x200B;consentono di applicare un tema 
 | [!UICONTROL Custom Layout Update] | Visualizzazione store | Consente di accedere alle opzioni per aggiornare un layout personalizzato nella pagina del prodotto. |
 
 {style="table-layout:auto"}
+
