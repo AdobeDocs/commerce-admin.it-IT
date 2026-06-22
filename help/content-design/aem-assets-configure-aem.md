@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 42029ed6d13cd4203c4a5d8300297315aac1abf5
 workflow-type: tm+mt
 source-wordcount: 866
 ht-degree: 1%
@@ -46,6 +46,7 @@ Il modello aggiunge le seguenti risorse all’ambiente di authoring AEM Assets.
 - [Esempio di risorsa con tag e approvata da Commerce](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` per supportare la sincronizzazione iniziale delle risorse. Solo le risorse Commerce approvate possono essere sincronizzate da AEM Assets ad Adobe Commerce.
 
 >[!NOTE]
+>
 >Per ulteriori informazioni sul modello di progetto AEM `commerce-assets`, vedere il file Leggimi [2&rbrace;.](https://github.com/ankumalh/assets-commerce)
 
 Per utilizzare questo progetto AEM per aggiornare la configurazione dell’ambiente sono necessarie le risorse e le autorizzazioni seguenti:
@@ -132,9 +133,7 @@ Il componente Interfaccia utente dati prodotto viene aggiunto automaticamente in
 #### Applicare il profilo di metadati alla cartella di origine delle risorse di Commerce
 
 1. Dalla pagina [!UICONTROL &#x200B; Metadata Profiles], seleziona il profilo di integrazione di Commerce.
-
 1. Dal menu Azioni, selezionare **[!UICONTROL Apply Metadata Profiles to Folders]**.
-
 1. Seleziona la cartella contenente le risorse Commerce.
 
    Crea una cartella Commerce se non esiste.

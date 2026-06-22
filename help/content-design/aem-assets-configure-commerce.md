@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 42029ed6d13cd4203c4a5d8300297315aac1abf5
 workflow-type: tm+mt
 source-wordcount: 1703
 ht-degree: 0%
@@ -290,3 +290,4 @@ Nella pagina Integrazioni, genera le credenziali di autenticazione OAuth facendo
 ## Passaggio successivo
 
 [Connetti gli ambienti di progetto Adobe Commerce e AEM Assets e seleziona la strategia di corrispondenza per la sincronizzazione delle risorse](aem-assets-setup-synchronization.md)
+
