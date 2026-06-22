@@ -3,22 +3,14 @@ title: Installare il pacchetto AEM Assets per Commerce
 description: Aggiungi i metadati della risorsa necessari per consentire all’integrazione di AEM Assets per Commerce di sincronizzare le risorse tra i progetti Adobe Commerce e Experience Manager Assets.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/RguUlTxT3--5brwirzffVVyKzOK4umst7-M1L8qWlj4
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 42029ed6d13cd4203c4a5d8300297315aac1abf5
 workflow-type: tm+mt
 source-wordcount: 866
 ht-degree: 1%
@@ -46,13 +38,14 @@ Il modello aggiunge le seguenti risorse all’ambiente di authoring AEM Assets.
 - [Esempio di risorsa con tag e approvata da Commerce](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` per supportare la sincronizzazione iniziale delle risorse. Solo le risorse Commerce approvate possono essere sincronizzate da AEM Assets ad Adobe Commerce.
 
 >[!NOTE]
->Per ulteriori informazioni sul modello di progetto AEM `commerce-assets`, vedere il file Leggimi [2&rbrace;.](https://github.com/ankumalh/assets-commerce)
+>
+>Per ulteriori informazioni sul modello di progetto AEM `commerce-assets`, vedere il file Leggimi [2}.](https://github.com/ankumalh/assets-commerce)
 
 Per utilizzare questo progetto AEM per aggiornare la configurazione dell’ambiente sono necessarie le risorse e le autorizzazioni seguenti:
 
-- [Accesso al programma e agli ambienti AEM Assets Cloud Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) con i ruoli Responsabile del programma e Responsabile della distribuzione.
+- [Accesso al programma e agli ambienti AEM Assets Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) con i ruoli Responsabile del programma e Responsabile della distribuzione.
 
-- [ambiente di sviluppo AEM locale](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) e familiarità con il processo di sviluppo locale AEM.
+- [ambiente di sviluppo AEM locale](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) e familiarità con il processo di sviluppo locale AEM.
 
 - Comprendere la struttura del progetto [AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) e come distribuire pacchetti di contenuti personalizzati con Cloud Manager.
 
@@ -64,11 +57,11 @@ Per utilizzare questo progetto AEM per aggiornare la configurazione dell’ambie
 
 1. Da GitHub, scarica il codice standard dal [progetto Commerce-Assets AEM](https://github.com/ankumalh/assets-commerce).
 
-1. Dal [ambiente di sviluppo AEM locale](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), installa il codice personalizzato nella configurazione dell&#39;ambiente AEM Assets come pacchetto Maven oppure copiando manualmente il codice nella configurazione del progetto esistente.
+1. Dal [ambiente di sviluppo AEM locale](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), installa il codice personalizzato nella configurazione dell&#39;ambiente AEM Assets come pacchetto Maven oppure copiando manualmente il codice nella configurazione del progetto esistente.
 
 1. Apporta le modifiche e invia il ramo di sviluppo locale all’archivio Git di Cloud Manager.
 
-1. Da Cloud Manager, [distribuisci il codice per aggiornare l&#39;ambiente AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
+1. Da Cloud Manager, [distribuisci il codice per aggiornare l&#39;ambiente AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
 
 ## Configurare un profilo di metadati
 
@@ -97,7 +90,7 @@ Il componente Interfaccia utente dati prodotto viene aggiunto automaticamente in
 
 1. **[!UICONTROL Create]** un profilo di metadati per l&#39;integrazione Commerce.
 
-   ![Amministrazione autori AEM aggiungi profili metadati &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![Amministrazione autori AEM aggiungi profili metadati ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Aggiungi una scheda per i metadati di Commerce.
 
@@ -125,16 +118,14 @@ Il componente Interfaccia utente dati prodotto viene aggiunto automaticamente in
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. Facoltativo. Per sincronizzare automaticamente le risorse Commerce approvate durante il caricamento nell&#39;ambiente AEM Assets, impostare su `approved` il valore predefinito per il campo _[!UICONTROL Review Status]_&#x200B;nella scheda `Basic`.
+1. Facoltativo. Per sincronizzare automaticamente le risorse Commerce approvate durante il caricamento nell&#39;ambiente AEM Assets, impostare su `approved` il valore predefinito per il campo _[!UICONTROL Review Status]_nella scheda `Basic`.
 
 1. Salva l’aggiornamento.
 
 #### Applicare il profilo di metadati alla cartella di origine delle risorse di Commerce
 
-1. Dalla pagina [!UICONTROL &#x200B; Metadata Profiles], seleziona il profilo di integrazione di Commerce.
-
+1. Dalla pagina [!UICONTROL  Metadata Profiles], seleziona il profilo di integrazione di Commerce.
 1. Dal menu Azioni, selezionare **[!UICONTROL Apply Metadata Profiles to Folders]**.
-
 1. Seleziona la cartella contenente le risorse Commerce.
 
    Crea una cartella Commerce se non esiste.
