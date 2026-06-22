@@ -5,11 +5,19 @@ feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/RguUlTxT3--5brwirzffVVyKzOK4umst7-M1L8qWlj4
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 866
@@ -39,7 +47,7 @@ Il modello aggiunge le seguenti risorse all’ambiente di authoring AEM Assets.
 
 >[!NOTE]
 >
->Per ulteriori informazioni sul modello di progetto AEM `commerce-assets`, vedere il file Leggimi [2}.](https://github.com/ankumalh/assets-commerce)
+>Per ulteriori informazioni sul modello di progetto AEM `commerce-assets`, vedere il file Leggimi [2&rbrace;.](https://github.com/ankumalh/assets-commerce)
 
 Per utilizzare questo progetto AEM per aggiornare la configurazione dell’ambiente sono necessarie le risorse e le autorizzazioni seguenti:
 
@@ -90,7 +98,7 @@ Il componente Interfaccia utente dati prodotto viene aggiunto automaticamente in
 
 1. **[!UICONTROL Create]** un profilo di metadati per l&#39;integrazione Commerce.
 
-   ![Amministrazione autori AEM aggiungi profili metadati ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![Amministrazione autori AEM aggiungi profili metadati &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Aggiungi una scheda per i metadati di Commerce.
 
@@ -118,13 +126,13 @@ Il componente Interfaccia utente dati prodotto viene aggiunto automaticamente in
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. Facoltativo. Per sincronizzare automaticamente le risorse Commerce approvate durante il caricamento nell&#39;ambiente AEM Assets, impostare su `approved` il valore predefinito per il campo _[!UICONTROL Review Status]_nella scheda `Basic`.
+1. Facoltativo. Per sincronizzare automaticamente le risorse Commerce approvate durante il caricamento nell&#39;ambiente AEM Assets, impostare su `approved` il valore predefinito per il campo _[!UICONTROL Review Status]_&#x200B;nella scheda `Basic`.
 
 1. Salva l’aggiornamento.
 
 #### Applicare il profilo di metadati alla cartella di origine delle risorse di Commerce
 
-1. Dalla pagina [!UICONTROL  Metadata Profiles], seleziona il profilo di integrazione di Commerce.
+1. Dalla pagina [!UICONTROL &#x200B; Metadata Profiles], seleziona il profilo di integrazione di Commerce.
 1. Dal menu Azioni, selezionare **[!UICONTROL Apply Metadata Profiles to Folders]**.
 1. Seleziona la cartella contenente le risorse Commerce.
 

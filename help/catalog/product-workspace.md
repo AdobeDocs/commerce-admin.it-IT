@@ -4,11 +4,20 @@ description: Scopri le impostazioni e i controlli disponibili nell’area di lav
 exl-id: 8258b117-56d2-4d5f-9413-80d51fd5eae6
 feature: Catalog Management, Products, Admin Workspace
 TQID: https://experienceleague.adobe.com/O9e0Z-bHxbokLZd4RbT1puWWAGWnF7SDqvGcc4Bteco
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 467
@@ -18,7 +27,7 @@ ht-degree: 0%
 
 # Area di lavoro prodotto
 
-L’area di lavoro del prodotto è sostanzialmente la stessa per tutti i tipi di prodotto, anche se la selezione dei campi cambia a seconda del set di attributi utilizzato. Gli attributi del prodotto si trovano nella parte superiore del modulo, seguiti da sezioni espandibili di informazioni sul prodotto. Quando si salva un nuovo prodotto per la prima volta, il selettore _[!UICONTROL Store View]_viene visualizzato in alto a sinistra nel modulo.
+L’area di lavoro del prodotto è sostanzialmente la stessa per tutti i tipi di prodotto, anche se la selezione dei campi cambia a seconda del set di attributi utilizzato. Gli attributi del prodotto si trovano nella parte superiore del modulo, seguiti da sezioni espandibili di informazioni sul prodotto. Quando si salva un nuovo prodotto per la prima volta, il selettore _[!UICONTROL Store View]_&#x200B;viene visualizzato in alto a sinistra nel modulo.
 
 ![Area di lavoro prodotto](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
@@ -29,7 +38,7 @@ Lo stato online del prodotto è indicato dal pulsante nella parte superiore del 
 | Controllo | Descrizione |
 |-------- | ----------- |
 | ![Attiva/Disattiva Sì](../assets/toggle-yes.png) | Indica che il prodotto è online. |
-| ![Attiva/Disattiva ](../assets/toggle-no.png) | Indica che il prodotto è offline. |
+| ![Attiva/Disattiva &#x200B;](../assets/toggle-no.png) | Indica che il prodotto è offline. |
 
 {style="table-layout:auto"}
 
@@ -45,7 +54,7 @@ Per espandere o comprimere una sezione, fare clic sull&#39;icona Espandi ![Selet
 
 ## Menu [!UICONTROL Save]
 
-Il menu _[!UICONTROL Save]_include diverse opzioni che consentono di salvare e continuare, salvare e creare un prodotto, salvare e duplicare il prodotto o salvare e chiudere.
+Il menu _[!UICONTROL Save]_&#x200B;include diverse opzioni che consentono di salvare e continuare, salvare e creare un prodotto, salvare e duplicare il prodotto o salvare e chiudere.
 
 ![Salva menu](./assets/product-save-menu.png){width="600" zoomable="yes"}
 

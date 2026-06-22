@@ -4,11 +4,20 @@ description: Per un prodotto, le impostazioni di [!UICONTROL Customizable Option
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 821
@@ -63,7 +72,7 @@ Se una regola del prezzo del carrello viene attivata dall’acquisto, il calcolo
 
    - (Facoltativo) Immetti **[!UICONTROL SKU]** per l&#39;opzione. L’opzione SKU è un suffisso che viene aggiunto allo SKU del prodotto.
 
-   - Se _[!UICONTROL Option Type]_è `File`, impostare i parametri per il file. Per **[!UICONTROL Compatible File Extensions]**, immettere le estensioni valide come valori separati da virgole (ad esempio `png, jpg, gif`). Per **[!UICONTROL Maximum Image Size]**, immettere la dimensione immagine massima in pixel. Se è una voce di testo, immettere il valore massimo per **[!UICONTROL Maximum Characters]**.
+   - Se _[!UICONTROL Option Type]_&#x200B;è `File`, impostare i parametri per il file. Per **[!UICONTROL Compatible File Extensions]**, immettere le estensioni valide come valori separati da virgole (ad esempio `png, jpg, gif`). Per **[!UICONTROL Maximum Image Size]**, immettere la dimensione immagine massima in pixel. Se è una voce di testo, immettere il valore massimo per **[!UICONTROL Maximum Characters]**.
 
    ![Aggiungi valori per opzione di personalizzazione](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 
