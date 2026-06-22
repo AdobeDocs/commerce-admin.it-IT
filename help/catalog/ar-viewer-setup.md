@@ -33,7 +33,7 @@ Per ogni prodotto, puoi caricare un file `.USDZ` che consente l&#39;utilizzo di 
 
 [!DNL AR Viewer] è installato come estensione da [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank}.
 
-Per ulteriori informazioni sul processo di installazione dell&#39;estensione, vedere la [_Guida all&#39;installazione_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+Per ulteriori informazioni sul processo di installazione dell&#39;estensione, vedere la [_Guida all&#39;installazione_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=it).
 
 Dopo l&#39;installazione e la configurazione dell&#39;estensione [!DNL AR Viewer], gli utenti amministratori possono impostare, personalizzare e gestire gli elenchi di prodotti per includere modelli 3D.
 
@@ -75,5 +75,5 @@ Quando i dettagli del prodotto vengono aggiornati con il modello 3D:
 
 >[!NOTE]
 >
-> Per una serie di video dimostrativi di un utente che aggiunge un modello 3d a un prodotto, vedere la pagina [AR Viewer per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html) in _Video e tutorial Commerce_.
+> Per una serie di video dimostrativi di un utente che aggiunge un modello 3d a un prodotto, vedere la pagina [AR Viewer per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=it) in _Video e tutorial Commerce_.
 
