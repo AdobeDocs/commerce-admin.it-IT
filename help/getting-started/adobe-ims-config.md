@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: e819869f53e1a349be081510b8ab69a260072de1
 workflow-type: tm+mt
-source-wordcount: 919
+source-wordcount: 938
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-Questa integrazione supporta i rivenditori Commerce con utenti amministratori che dispongono di un Adobe ID e desiderano accedere in modo più semplice ai prodotti aziendali Adobe Commerce e Adobe. È facoltativo ed è abilitato per singole istanze. Solo i flussi di lavoro degli utenti amministratori sono interessati quando sono abilitati. 
+Questa integrazione supporta i rivenditori Commerce con utenti amministratori che dispongono di un Adobe ID e desiderano accedere in modo più semplice ai prodotti aziendali Adobe Commerce e Adobe. È facoltativo ed è abilitato per singole istanze. Solo i flussi di lavoro degli utenti amministratori sono interessati quando sono abilitati.
 
 >[!IMPORTANT]
 >
@@ -85,8 +85,8 @@ Per creare progetti per un’organizzazione, l’account amministratore di Adobe
 1. Fare clic su **[!UICONTROL Add API]** nella pagina Progetto appena creata.
 1. Selezionare **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Selezionare **[!UICONTROL Oauth 2.0 Web]**.
-1. Specificare **[!UICONTROL Redirect URI]**: `https://<commerce_base_url>/`
-1. Specificare **[!UICONTROL Redirect URI pattern]**: `https://<commerce_base_url>/.*`
+1. Specificare **[!UICONTROL Redirect URI]**: `https://<admin_base_url>/adobe_ims_auth/oauth/imscallback`
+1. Specificare **[!UICONTROL Redirect URI pattern]**: `https://mcstaging\.example\.com/<admin_path>/adobe_ims_auth/oauth/imscallback.*`
 
    Esci da qualsiasi punto nel nome host precedendo i punti con `\\`. L’aggiunta di un carattere jolly alla fine dell’URL supporta la chiave segreta di amministrazione di Adobe Commerce.
 
