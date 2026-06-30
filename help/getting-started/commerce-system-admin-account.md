@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Solo un amministratore di sistema può assegnare, modificare o rimuovere il ruolo di amministratore di sistema in Adobe Admin Console per prodotti e servizi Adobe diversi da Adobe Commerce.
 
-Per assegnare un nuovo amministratore di sistema o modificare un ruolo di amministratore esistente per altri prodotti e servizi Adobe, incluso App Builder, un amministratore esistente deve accedere a Adobe Admin Console e aggiornare i ruoli amministrativi dell’organizzazione. Consulta [Ruoli di amministratore](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles).
+Per assegnare un nuovo amministratore di sistema o modificare un ruolo di amministratore esistente per altri prodotti e servizi Adobe, incluso App Builder, un amministratore esistente deve accedere a Adobe Admin Console e aggiornare i ruoli amministrativi dell’organizzazione. Consulta [Ruoli di amministratore](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles).
 
 ## Assegna un nuovo amministratore di sistema
 
