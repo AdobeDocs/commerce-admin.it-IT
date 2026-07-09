@@ -16,16 +16,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 8a65689c36ccc2e7cced2b13d0cddbfdf5046a02
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: 241
 ht-degree: 0%
 
 ---
 
 # Menu [!UICONTROL Catalog]
 
-Il menu [!UICONTROL Catalog] consente di accedere facilmente agli strumenti di creazione di prodotti, categoria e gestione dell&#39;inventario e ai cataloghi condivisi per la determinazione dei prezzi personalizzati in [store B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=it).
+Il menu [!UICONTROL Catalog] consente di accedere facilmente agli strumenti di creazione di prodotti, categoria e gestione dell&#39;inventario, ai cataloghi condivisi per la determinazione dei prezzi personalizzati negli [store B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=it) e all&#39;arricchimento dei cataloghi per l&#39;individuazione assistita da IA.
 
 >[!BEGINTABS]
 
@@ -62,3 +62,11 @@ Crea la struttura [categoria](categories.md) che è alla base della navigazione 
 Per i negozi in cui è installato e abilitato Adobe Commerce B2B, [i cataloghi condivisi](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=it) consentono di rendere disponibili prezzi personalizzati per diverse società.
 
 ![Prodotti del catalogo condiviso](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
+
+## [!UICONTROL Catalog enrichment]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+
+Utilizza [arricchimento catalogo](catalog-enrichment.md) per rivedere e applicare i miglioramenti suggeriti dall&#39;intelligenza artificiale ai nomi dei prodotti e alle descrizioni lunghe in modo che il catalogo sia rappresentato con precisione in LLM e nell&#39;individuazione assistita dall&#39;intelligenza artificiale.
+
+![Arricchimento catalogo](./assets/agentic-opportunities.png)

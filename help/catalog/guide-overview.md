@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: 329
 ht-degree: 5%
 
 ---
@@ -44,6 +44,7 @@ Questa guida tratta i seguenti argomenti:
 | [Ricerca nel catalogo](search.md) | Esamina gli strumenti che i clienti possono utilizzare per individuare i prodotti nella vetrina e configurare l’esperienza di ricerca in base al catalogo dei prodotti. |
 | [Categorie](categories.md) | Stabilisci la struttura di base delle categorie del catalogo in modo da ottimizzare l’esperienza dell’acquirente nel negozio. |
 | [Prodotti](products-list.md) | Crea prodotti da semplici a complessi con più opzioni, campioni e bundle personalizzabili. Creare prodotti scaricabili e prodotti virtuali per servizi e altri elementi non tangibili. |
+| [Arricchimento del catalogo](catalog-enrichment.md) | Rivedi e applica i miglioramenti suggeriti dall’intelligenza artificiale ai nomi e alle descrizioni dei prodotti in modo che il catalogo sia rappresentato con precisione in LLM e nell’individuazione basata sull’intelligenza artificiale. |
 | [Attributi del prodotto](product-attributes.md) | Crea attributi con controlli di input per le opzioni di prodotto e per fornire informazioni aggiuntive sulle pagine dei prodotti. |
 
 {style="table-layout:auto"}

@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ _L&#39;ottimizzazione per i motori di ricerca_ (SEO) consiste nel perfezionare i
 Le impostazioni _[!UICONTROL Search Engine Optimization]_&#x200B;per un prodotto specificano i campi [Chiave URL](catalog-urls.md) e [Metadati](../merchandising-promotions/meta-data.md) utilizzati dai motori di ricerca per indicizzare il prodotto. Anche se alcuni motori di ricerca ignorano le parole chiave meta, altri motori di ricerca continuano a utilizzarle. La [best practice SEO](../merchandising-promotions/seo-overview.md) corrente consiste nell&#39;incorporare parole chiave di valore elevato sia nel titolo meta che nella descrizione meta.
 
 Il valore predefinito per ogni campo di metadati può essere generato automaticamente in base ai valori specificati nella configurazione. Ogni campo contiene un segnaposto sostituito da un valore effettivo. Per ulteriori informazioni, vedere [Generazione automatica campi prodotto](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
+
+>[!NOTE]
+>
+>L’arricchimento del catalogo consente di migliorare i nomi e le descrizioni dei prodotti per l’individuazione basata su LLM e IA. Non sostituisce i campi meta SEO (Search Engine Optimization). Per ulteriori informazioni, vedere [Arricchimento del catalogo](catalog-enrichment.md).
 
 ## Completare i campi SEO (Search Engine Optimization)
 
