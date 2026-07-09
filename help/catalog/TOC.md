@@ -4,9 +4,9 @@ user-guide-description: Informazioni complete sulle funzioni di gestione dei cat
 breadcrumb-title: Gestione catalogo
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: 9f782ec5412555c9a2cdfaa92c3fd4c05620fc0d
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -89,6 +89,7 @@ ht-degree: 1%
       + [Progettazione](settings-advanced-design.md)
       + [Impostazioni automatiche](product-autosettings.md)
       + [Opzioni regalo](product-gift-options.md)
+   + {hide-from-toc}[Arricchimento del catalogo](catalog-enrichment.md)
 + Attributi del prodotto {#product-attributes}
    + [Panoramica sugli attributi](product-attributes.md)
    + [Tipo di input attributo](attributes-input-types.md)
@@ -98,4 +99,4 @@ ht-degree: 1%
       + [Creare ed eliminare attributi](attribute-product-create.md)
       + [Aggiornamenti in blocco](bulk-product-attribute-update.md)
       + [Set di attributi](attribute-sets.md)
-+ [Torna alle guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it)
++ [Torna a Guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
