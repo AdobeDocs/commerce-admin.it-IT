@@ -1,7 +1,7 @@
 ---
-source-git-commit: b824e3f0d3c14b75910af9a2def17ce21b599d9b
+source-git-commit: cb1485f26f63f12c825258706c68080c30f15b75
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '247'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,50 @@ ht-degree: 2%
 ## Novità
 
 Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo elenco sono esclusi tutti gli aggiornamenti minori, ad esempio la modifica della copia.
+
+### 9 luglio 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>È stato aggiunto <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/products/catalog-enrichment">Arricchimento del catalogo</a> con istruzioni per la revisione e l'applicazione degli aggiornamenti dei nomi e delle descrizioni dei prodotti suggeriti dall'intelligenza artificiale nell'amministratore. L'argomento è stato collegato al <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/catalog-menu">menu del catalogo</a>, alla <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/guide-overview">panoramica della guida</a> e agli argomenti relativi alle impostazioni dei prodotti correlati.</p>
+</td>
+      <td>
+        Nuovo argomento
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 30 giugno 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Aggiunta di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aggiorna accesso amministratore di sistema</a> con istruzioni per la gestione delle assegnazioni dell'amministratore di sistema in Adobe Admin Console.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">commit</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 3 giugno 2026
 
@@ -51,36 +95,6 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
         Feedback tecnico
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 12 maggio 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrizione</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Sono state aggiornate <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> e le relative pagine del corriere per indicare che l'API USPS Web Tools è stata ritirata il 25 gennaio 2026 e che le API REST USPS sono ora l'unico metodo di integrazione supportato.</p>
-</td>
-      <td>
-        Aggiornamento principale, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">commit</a></td>
-    </tr>
-    <tr>
-      <td><p>Sono state pubblicate le <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/release-notes#b2b-v153">note sulla versione di Adobe Commerce B2B v1.5.3</a> relative alla nuova importazione ed esportazione di clienti aziendali B2B, alle correzioni tra preventivi negoziabili, ordini di acquisto, elenchi di richieste di acquisto, cataloghi condivisi, gestione società, carrello e pagamento, framework e GraphQL, oltre alla modifica del percorso di esportazione dell'elenco richieste di acquisto in <code>var/export/requisition_lists/</code>.</p>
-</td>
-      <td>
-        Aggiornamento principale
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d87900bf27745154d5a643dc828d5c1abc0130df">commit</a></td>
     </tr>
   </tbody>
 </table>
