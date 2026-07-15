@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
+source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
 workflow-type: tm+mt
-source-wordcount: 1649
+source-wordcount: 1697
 ht-degree: 0%
 
 ---
@@ -65,8 +65,11 @@ I seguenti prerequisiti si applicano quando si ha accesso all’arricchimento de
 - I servizi Commerce richiesti e la connettività al catalogo sono abilitati e integri. Per ulteriori informazioni, consulta [Abilita arricchimento catalogo](#enable-catalog-enrichment).
 - [IMS è configurato](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/organizations).
 - Hai accesso a [Adobe Admin Console](https://helpx.adobe.com/it/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- La tua organizzazione ha firmato il rider GenAI, o ha esplicitamente rinunciato, per i servizi di intelligenza artificiale sottostanti.
 
-> Se non disponi di un’organizzazione IMS, contatta il team del tuo account Adobe per effettuare il provisioning di un’organizzazione.
+>[!NOTE]
+>
+>Come parte della configurazione, Commerce controlla se l’organizzazione ha firmato il gestore GenAI che copre i servizi di intelligenza artificiale dietro l’arricchimento del catalogo. Se non hai ancora firmato il gestore o rinunciato, ti viene richiesto di firmare o aggiornare il gestore prima di poter utilizzare l’arricchimento del catalogo.
 
 ## Abilita arricchimento catalogo {#enable-catalog-enrichment}
 
