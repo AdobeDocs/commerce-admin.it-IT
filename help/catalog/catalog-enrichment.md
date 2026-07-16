@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
+source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -112,11 +112,7 @@ Configura l&#39;arricchimento del catalogo nella scheda **[!UICONTROL Settings]*
    - **[!UICONTROL Store View URL]**: URL corrispondente alla visualizzazione archivio, ad esempio `https://brand.example.com/fr/`.
    - **[!UICONTROL Environment ID]**: identificatore univoco per l&#39;ambiente [!DNL Adobe Commerce] a cui la connessione accede.
    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]** e **[!UICONTROL Store View Code]**: codici di visualizzazione sito Web, archivio e archivio per il sito Web Commerce. Questi valori devono corrispondere ai codici presenti nell’amministratore Commerce.
-
-1. Facoltativo: immettere **[!UICONTROL Host Name]** e **[!UICONTROL API Key]** se l&#39;ambiente ne ha bisogno.
-
    - **[!UICONTROL Host Name]**: nome host dell&#39;istanza [!DNL Adobe Commerce].
-   - **[!UICONTROL API Key]**: chiave di autenticazione utilizzata per accedere in modo sicuro alle API [!DNL Adobe Commerce]. Fai clic su **[!UICONTROL Copy]** accanto al campo se devi copiare la chiave altrove.
 
 1. Fare clic su **[!UICONTROL Save]**.
 
@@ -135,8 +131,7 @@ I campi obbligatori sono contrassegnati con un asterisco (*) nel modulo **[!UICO
 | Codice sito Web | Sì | Codice del sito web Commerce. |
 | Codice store | Sì | Codice store del sito Web Commerce. |
 | Codice visualizzazione store | Sì | Archivia la visualizzazione del sito Web Commerce. |
-| Nome host | No | Nome host dell&#39;istanza [!DNL Adobe Commerce]. |
-| Chiave API | No | Chiave di autenticazione utilizzata per accedere in modo sicuro alle API [!DNL Adobe Commerce]. Considerala come qualsiasi credenziale di produzione. |
+| Nome host | Sì | Nome host dell&#39;istanza [!DNL Adobe Commerce]. |
 
 ### Rivedere e applicare l’arricchimento del catalogo {#review-and-apply}
 
