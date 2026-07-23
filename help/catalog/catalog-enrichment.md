@@ -3,25 +3,15 @@ title: Arricchimento del catalogo
 description: Utilizza la funzionalità di arricchimento nativo del catalogo in Adobe Commerce per rivedere e applicare i miglioramenti suggeriti dall’intelligenza artificiale ai nomi dei prodotti e alle descrizioni lunghe per l’individuazione basata su LLM e sull’intelligenza artificiale.
 role: Admin, User, Leader
 recommendations: noCatalog
-hide: true
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 1653
+source-wordcount: 2182
 ht-degree: 0%
 
 ---
@@ -32,7 +22,7 @@ L&#39;arricchimento del catalogo è una funzionalità nativa di [!DNL Adobe Comm
 
 >[!NOTE]
 >
->L&#39;arricchimento del catalogo è alimentato da [!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer] dietro le quinte. Utilizza l’arricchimento come parte del flusso di lavoro del catalogo Commerce. Non puoi gestire un’integrazione LLM Optimizer separata per applicare gli aggiornamenti approvati di nome e descrizione. Per un monitoraggio e un&#39;ottimizzazione LLM più ampi al di fuori di Commerce, consulta la [documentazione del prodotto LLM Optimizer](https://experienceleague.adobe.com/it/docs/llm-optimizer/using/home).
+>L&#39;arricchimento del catalogo è alimentato da [!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer] dietro le quinte. Utilizza l’arricchimento come parte del flusso di lavoro del catalogo Commerce. Non puoi gestire un’integrazione LLM Optimizer separata per applicare gli aggiornamenti approvati di nome e descrizione. Per un monitoraggio e un&#39;ottimizzazione LLM più ampi al di fuori di Commerce, consulta la [documentazione del prodotto LLM Optimizer](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home).
 
 ## Come funziona {#how-it-works}
 
@@ -63,8 +53,8 @@ I seguenti prerequisiti si applicano quando si ha accesso all’arricchimento de
 
 - La vetrina può essere scansionata da bot agentici e orientati verso LLM in cui è necessaria la copertura della scansiona per i suggerimenti in base al catalogo.
 - I servizi Commerce richiesti e la connettività al catalogo sono abilitati e integri. Per ulteriori informazioni, consulta [Abilita arricchimento catalogo](#enable-catalog-enrichment).
-- [IMS è configurato](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/organizations).
-- Hai accesso a [Adobe Admin Console](https://helpx.adobe.com/it/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- [IMS è configurato](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
+- Hai accesso a [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - La tua organizzazione ha firmato il rider GenAI, o ha esplicitamente rinunciato, per i servizi di intelligenza artificiale sottostanti.
 
 >[!NOTE]
@@ -84,7 +74,7 @@ Prima di rivedere o applicare suggerimenti, rivolgiti al tuo amministratore Comm
    composer update magento/module-catalog-enrichment
    ```
 
-1. Se non hai già installato Catalog Services, [procedi](https://experienceleague.adobe.com/it/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Se non hai già installato Catalog Services, [procedi](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** è ora disponibile nella tua istanza di Commerce.
 
@@ -240,4 +230,37 @@ Queste regole ti aiutano a capire se l’arricchimento del catalogo, i feed di a
 - Coordina con i team SEO e brand prima di applicare titoli o descrizioni in blocco.
 - Risincronizza o analizza dopo le principali importazioni del catalogo in modo che i suggerimenti riflettano lo stato corrente del catalogo.
 
-<!--## Examples This section will provide examples of what enrichment before/after looks like:-->
+## Esempi
+
+Gli esempi seguenti mostrano come l’arricchimento del catalogo trasforma gli attributi tecnici grezzi in copie di prodotto narrative incentrate sull’acquirente che i moduli LLM possono utilizzare per rispondere alle domande di acquisto.
+
+### Esempio: prodotto a base di caffè con attributi tecnici
+
+Un catalogo di Coffee retailer memorizza solo le specifiche tecniche per un prodotto di chicchi di caffè arrosto medio: varietà di chicchi, regione di origine, metodo di elaborazione, livello di arrosto e gamma di altitudine. Questi campi descrivono il prodotto ma non ne comunicano il valore a un acquirente, quindi un assistente AI ha poco da lavorare quando risponde a una domanda come &quot;quale caffè ha un sapore liscio e a basso contenuto acido?&quot;
+
+L’arricchimento del catalogo legge gli attributi tecnici e i motivi attraverso il modo in cui interagiscono per dedurre le caratteristiche rilevanti per l’acquirente:
+
+| Attributo tecnico | Caratteristica dedotta | Ragionamento |
+| --- | --- | --- |
+| Miele processo, Medium arrosto | Bassa acidità | La mucillagine di frutta lasciata sul fagiolo durante la lavorazione del miele sopprime l&#39;acidità, e la torrefazione media scompone i composti acidi residui. |
+| processo del miele, Arabica, arrosto Medium | Aroma di nocciola | Gli zuccheri di frutta della mucillagine si combinano con le note naturali di Arabica, amplificate a media arrostimento. |
+| processo del miele, Arabica | Bocca ricca e cremosa | Gli oli assorbiti dalla mucillagine durante l&#39;essiccazione aggiungono viscosità e corpo. |
+| Processo del miele, altitudine 900-1200m | Sottotoni in caramello | I fagioli più densi e ad alta quota sviluppano zuccheri più complessi, resi più profondi dalla lavorazione del miele. |
+
+L’arricchimento del catalogo applica le seguenti caratteristiche dedotte alla copia del prodotto:
+
+- **Prima**: &quot;Medium chicchi di caffè arrosto - Arabica, Brasile Minas Gerais, processo del miele, 900-1200m&quot;
+- **Dopo**: &quot;I fagioli Arabica coltivati a 900-1200m nel Minas Gerais brasiliano, miele lavorato e medio torrefatto, sviluppano un sapore dolce naturale, cremoso con un carattere di nocciola distinto, sottotoni di caramello, e bassa acidità. Un caffè speciale coerente e avvicinabile, meglio sperimentato attraverso versare sopra.&quot;
+
+Il nome e la descrizione aggiornati vengono salvati direttamente nel catalogo Commerce, pertanto la vetrina, i feed LLM e altri canali che leggono tali campi riflettono tutti la stessa copia arricchita.
+
+### Esempio: configurazione di mobili modulari
+
+Un retailer per mobili vende un divano modulare in cui la descrizione del prodotto elenca solo i codici di configurazione e il nome del fabric, ad esempio `6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`. Questa scorciatoia è comprensibile per un cliente di ritorno, ma offre all’assistente di intelligenza artificiale un piccolo contesto sul funzionamento del prodotto o su cosa lo rende resistente o confortevole.
+
+L’arricchimento del catalogo espande gli attributi di configurazione e struttura in una descrizione narrativa che spiega cosa fa ogni componente e perché è importante per l’acquirente:
+
+- **Prima**: &quot;6 Posti Standard + 6 Lati Standard in Velluto Cordato Sapphire Navy&quot;
+- **Dopo**: &quot;Questa configurazione include 6 set di inserimento posti standard e 6 inserti laterali standard che funzionano in modo intercambiabile come braccia o schienali, formando gli elementi modulari del layout. Ogni sedile è dotato di Schiuma standard con tre strati ad alta densità progettati per preservare l&#39;sollevamento e resistere alle cadute. La copertina Sapphire Navy Corded Velvet è durevole come è lussuosa, con corde testurizzate che creano un sottile lucentezza e una sensazione morbida e peluche. Le coperture sono cucite a mano per un aspetto preciso e personalizzato e sono lavabili in lavatrice e modificabili, in modo che la sezione possa evolvere con il tuo spazio.&quot;
+
+Poiché la descrizione arricchita viene scritta nuovamente nel catalogo Commerce, è disponibile per i bot AI che scansionano la pagina dei dettagli del prodotto e per qualsiasi canale o feed a valle che consuma i dati del catalogo del prodotto, senza modificare il layout o la progettazione visualizzati dagli acquirenti sulla pagina.
