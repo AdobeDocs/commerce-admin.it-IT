@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 2567
+source-wordcount: 2612
 ht-degree: 1%
 
 ---
@@ -185,23 +185,23 @@ La griglia del report _Registri azioni_ (**[!UICONTROL System]** > Registri azio
 
 1. Sono state aggiunte due colonne:
    - ***Source***: visualizza la posizione in cui è stata eseguita l&#39;azione.
-Valori: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
+     Valori: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Tipo client***: visualizza il tipo di client.
-Valori: Cliente | Amministratore | Integrazione
+     Valori: Cliente | Amministratore | Integrazione
 
 2. La colonna ***Nome utente*** è stata rinominata ***Identificatore client***
    - ***Identificatore client***: visualizza l&#39;ID di accesso per l&#39;utente che ha eseguito l&#39;azione.
-Valori:
-      - un messaggio e-mail se il tipo di client è Cliente
-      - un nome utente se il tipo di client è Admin
-      - un nome se il tipo di client è Integrazione
+     Valori:
+     - un messaggio e-mail se il tipo di client è Cliente
+     - un nome utente se il tipo di client è Admin
+     - un nome se il tipo di client è Integrazione
 
 3. La colonna ***Nome azione completo*** è stata rinominata ***Destinazione***
    - ***Destinazione***: visualizza il nome dell&#39;azione.
-Valori:
-      - un endpoint se Source è un’API REST o un’API SOAP
-      - un nome di query o mutazione se un’API GraphQL
-      - un nome di azione se si tratta di un’interfaccia utente amministratore o cliente.
+     Valori:
+     - un endpoint se Source è un’API REST o un’API SOAP
+     - un nome di query o mutazione se un’API GraphQL
+     - un nome di azione se si tratta di un’interfaccia utente amministratore o cliente.
 
 #### Configurare le azioni amministratore per la registrazione
 
@@ -337,3 +337,5 @@ Le seguenti funzioni sono disattivate per impostazione predefinita nel modulo HI
 - **[Funzione newsletter](../../merchandising-promotions/newsletters.md)** - Questa funzione è disabilitata per impedire l&#39;utilizzo di PHI in un contesto di marketing.
 
 - **[Impostazione avanzata del servizio Reporting](../../getting-started/business-intelligence.md)**. Questa impostazione di configurazione è disabilitata per impedire l&#39;utilizzo di PHI per l&#39;analisi e il reporting.
+
+- **[Arricchimento del catalogo](../../catalog/catalog-enrichment.md)** - Questa funzionalità è disabilitata perché si basa su servizi di IA non conformi HIPAA ([!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer]) che analizzano i segnali della vetrina e del catalogo al di fuori del limite compatibile con HIPAA. L’abilitazione di questa funzione potrebbe esporre PHI a sistemi che non sono coperti dai servizi conformi HIPAA di Adobe.

@@ -3,7 +3,6 @@ title: Arricchimento del catalogo
 description: Utilizza la funzionalità di arricchimento nativo del catalogo in Adobe Commerce per rivedere e applicare i miglioramenti suggeriti dall’intelligenza artificiale ai nomi dei prodotti e alle descrizioni lunghe per l’individuazione basata su LLM e sull’intelligenza artificiale.
 role: Admin, User, Leader
 recommendations: noCatalog
-hide: true
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
@@ -19,9 +18,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 1653
+source-wordcount: 2182
 ht-degree: 0%
 
 ---
@@ -240,4 +239,37 @@ Queste regole ti aiutano a capire se l’arricchimento del catalogo, i feed di a
 - Coordina con i team SEO e brand prima di applicare titoli o descrizioni in blocco.
 - Risincronizza o analizza dopo le principali importazioni del catalogo in modo che i suggerimenti riflettano lo stato corrente del catalogo.
 
-<!--## Examples This section will provide examples of what enrichment before/after looks like:-->
+## Esempi
+
+Gli esempi seguenti mostrano come l’arricchimento del catalogo trasforma gli attributi tecnici grezzi in copie di prodotto narrative incentrate sull’acquirente che i moduli LLM possono utilizzare per rispondere alle domande di acquisto.
+
+### Esempio: prodotto a base di caffè con attributi tecnici
+
+Un catalogo di Coffee retailer memorizza solo le specifiche tecniche per un prodotto di chicchi di caffè arrosto medio: varietà di chicchi, regione di origine, metodo di elaborazione, livello di arrosto e gamma di altitudine. Questi campi descrivono il prodotto ma non ne comunicano il valore a un acquirente, quindi un assistente AI ha poco da lavorare quando risponde a una domanda come &quot;quale caffè ha un sapore liscio e a basso contenuto acido?&quot;
+
+L’arricchimento del catalogo legge gli attributi tecnici e i motivi attraverso il modo in cui interagiscono per dedurre le caratteristiche rilevanti per l’acquirente:
+
+| Attributo tecnico | Caratteristica dedotta | Ragionamento |
+| --- | --- | --- |
+| Miele processo, Medium arrosto | Bassa acidità | La mucillagine di frutta lasciata sul fagiolo durante la lavorazione del miele sopprime l&#39;acidità, e la torrefazione media scompone i composti acidi residui. |
+| processo del miele, Arabica, arrosto Medium | Aroma di nocciola | Gli zuccheri di frutta della mucillagine si combinano con le note naturali di Arabica, amplificate a media arrostimento. |
+| processo del miele, Arabica | Bocca ricca e cremosa | Gli oli assorbiti dalla mucillagine durante l&#39;essiccazione aggiungono viscosità e corpo. |
+| Processo del miele, altitudine 900-1200m | Sottotoni in caramello | I fagioli più densi e ad alta quota sviluppano zuccheri più complessi, resi più profondi dalla lavorazione del miele. |
+
+L’arricchimento del catalogo applica le seguenti caratteristiche dedotte alla copia del prodotto:
+
+- **Prima**: &quot;Medium chicchi di caffè arrosto - Arabica, Brasile Minas Gerais, processo del miele, 900-1200m&quot;
+- **Dopo**: &quot;I fagioli Arabica coltivati a 900-1200m nel Minas Gerais brasiliano, miele lavorato e medio torrefatto, sviluppano un sapore dolce naturale, cremoso con un carattere di nocciola distinto, sottotoni di caramello, e bassa acidità. Un caffè speciale coerente e avvicinabile, meglio sperimentato attraverso versare sopra.&quot;
+
+Il nome e la descrizione aggiornati vengono salvati direttamente nel catalogo Commerce, pertanto la vetrina, i feed LLM e altri canali che leggono tali campi riflettono tutti la stessa copia arricchita.
+
+### Esempio: configurazione di mobili modulari
+
+Un retailer per mobili vende un divano modulare in cui la descrizione del prodotto elenca solo i codici di configurazione e il nome del fabric, ad esempio `6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`. Questa scorciatoia è comprensibile per un cliente di ritorno, ma offre all’assistente di intelligenza artificiale un piccolo contesto sul funzionamento del prodotto o su cosa lo rende resistente o confortevole.
+
+L’arricchimento del catalogo espande gli attributi di configurazione e struttura in una descrizione narrativa che spiega cosa fa ogni componente e perché è importante per l’acquirente:
+
+- **Prima**: &quot;6 Posti Standard + 6 Lati Standard in Velluto Cordato Sapphire Navy&quot;
+- **Dopo**: &quot;Questa configurazione include 6 set di inserimento posti standard e 6 inserti laterali standard che funzionano in modo intercambiabile come braccia o schienali, formando gli elementi modulari del layout. Ogni sedile è dotato di Schiuma standard con tre strati ad alta densità progettati per preservare l&#39;sollevamento e resistere alle cadute. La copertina Sapphire Navy Corded Velvet è durevole come è lussuosa, con corde testurizzate che creano un sottile lucentezza e una sensazione morbida e peluche. Le coperture sono cucite a mano per un aspetto preciso e personalizzato e sono lavabili in lavatrice e modificabili, in modo che la sezione possa evolvere con il tuo spazio.&quot;
+
+Poiché la descrizione arricchita viene scritta nuovamente nel catalogo Commerce, è disponibile per i bot AI che scansionano la pagina dei dettagli del prodotto e per qualsiasi canale o feed a valle che consuma i dati del catalogo del prodotto, senza modificare il layout o la progettazione visualizzati dagli acquirenti sulla pagina.
