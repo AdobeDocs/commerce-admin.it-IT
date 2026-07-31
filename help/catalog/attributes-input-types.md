@@ -19,16 +19,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: 804
 ht-degree: 0%
 
 ---
 
 # Tipi di input degli attributi
 
-Quando vengono visualizzati dall’amministratore, gli attributi sono i campi che completi quando crei un prodotto. Il tipo di input assegnato a un attributo determina il tipo di dati che è possibile immettere e il formato del campo o del controllo di input. Dal punto di vista del cliente, gli attributi forniscono informazioni sul prodotto e sono le opzioni e i campi di immissione dati che devono essere completati per acquistare un prodotto.
+Quando vengono visualizzati dall’amministratore, gli attributi sono i campi che completi quando crei un prodotto. Il tipo di input assegnato a un attributo determina il tipo di dati che è possibile immettere e il formato del campo o del controllo di input. Per il cliente, gli attributi forniscono informazioni sul prodotto e sono le opzioni e i campi di immissione dati che devono essere completati per acquistare un prodotto.
 
 ## Tipi di input
 
@@ -49,13 +49,13 @@ Quando vengono visualizzati dall’amministratore, gli attributi sono i campi ch
 | [!UICONTROL Fixed Product Tax] | Consente di definire [tariffe FPT](../stores-purchase/fixed-product-tax.md) in base ai requisiti delle impostazioni internazionali. |
 | [!UICONTROL Visual Swatch] | Visualizza un campione che rappresenta il colore, la trama o il motivo di un prodotto configurabile. Un [campione visivo](swatches.md) può essere riempito con un valore di colore esadecimale o visualizzare un&#39;immagine caricata che rappresenta il colore, il materiale, la trama o il modello dell&#39;opzione. |
 | [!UICONTROL Text Swatch] | Rappresentazione testuale di un’opzione di prodotto configurabile utilizzata di frequente per le dimensioni. [I campioni di testo](swatches.md) possono includere anche valori di colore esadecimali. |
-| [!UICONTROL Page Builder] | Area di lavoro [[!DNL Page Builder]](../page-builder/workspace.md) nella posizione dell&#39;attributo che consente di aggiungere facilmente contenuto coinvolgente alla pagina del prodotto. |
+| [!UICONTROL Page Builder] [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} | Area di lavoro [[!DNL Page Builder]](../page-builder/workspace.md) nella posizione dell&#39;attributo che consente di aggiungere facilmente contenuto coinvolgente alla pagina del prodotto. |
 
 {style="table-layout:auto"}
 
 ## Opzioni data e ora
 
-È possibile personalizzare il formato dei campi di data e ora e selezionare il controllo di input utilizzato per l&#39;immissione dei dati. I valori delle date possono essere selezionati da un elenco a discesa o da un calendario popup.
+È possibile personalizzare il formato dei campi di data e ora e selezionare il controllo di input utilizzato per l&#39;immissione dei dati. I valori di data possono essere selezionati da un elenco a discesa o da un calendario popup.
 
 ![Esempio - calendario popup storefront](./assets/storefront-popup-calendar.png){width="700" zoomable="yes"}
 
