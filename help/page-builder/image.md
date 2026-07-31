@@ -4,22 +4,13 @@ description: Scopri il tipo di contenuto Immagine, utilizzato per aggiungere un'
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/qU9r1m9lM6jjA7VGreeThc9NilLdfWjWdqNfu7mShBc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1540
 ht-degree: 0%
@@ -74,37 +65,37 @@ La casella degli strumenti Immagine viene visualizzata quando passi il cursore d
    >
    >La dimensione massima del file è di 4 MB. I tipi di file supportati sono JPG, GIF e PNG.
 
-   - _&#x200B;**Carica una nuova immagine**&#x200B;_: utilizzare questo metodo per caricare un nuovo file di immagine dal sistema.
+   - _**Carica una nuova immagine**_: utilizzare questo metodo per caricare un nuovo file di immagine dal sistema.
 
-      - Fare clic su **[!UICONTROL Upload Image]**.
+     - Fare clic su **[!UICONTROL Upload Image]**.
 
-      - Individua e scegli l’immagine da aggiungere alla galleria e al contenitore di destinazione.
+     - Individua e scegli l’immagine da aggiungere alla galleria e al contenitore di destinazione.
 
      In alternativa, puoi anche trascinare un file di immagine dal sistema e rilasciarlo sull&#39;icona _Fotocamera_ ( ![Icona fotocamera](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _&#x200B;**Seleziona una risorsa esistente**&#x200B;_: utilizza questo metodo per selezionare una risorsa immagine esistente dall&#39;archivio multimediale o dalla raccolta.
+   - _**Seleziona una risorsa esistente**_: utilizza questo metodo per selezionare una risorsa immagine esistente dall&#39;archivio multimediale o dalla raccolta.
 
-      - Fare clic su **[!UICONTROL Select from Gallery]**.
+     - Fare clic su **[!UICONTROL Select from Gallery]**.
 
-      - Utilizza la struttura ad albero per passare all’immagine.
+     - Utilizza la struttura ad albero per passare all’immagine.
 
-      - Fare clic sulla miniatura e fare clic su **[!UICONTROL Add Selected]**.
+     - Fare clic sulla miniatura e fare clic su **[!UICONTROL Add Selected]**.
 
-        ![Aggiunta di un&#39;immagine selezionata](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![Aggiunta di un&#39;immagine selezionata](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Cerca e seleziona un&#39;immagine Adobe Stock**&#x200B;_: utilizza questo metodo per trovare un&#39;immagine da Adobe Stock.
+   - _**Cerca e seleziona un&#39;immagine Adobe Stock**_: utilizza questo metodo per trovare un&#39;immagine da Adobe Stock.
 
      >[!NOTE]
      >
      >Questo metodo richiede un&#39;integrazione di [Adobe Stock](../content-design/adobe-stock.md) configurata per l&#39;amministratore.
 
-      - Fare clic su **[!UICONTROL Search Adobe Stock]** e cercare un&#39;immagine.
+     - Fare clic su **[!UICONTROL Search Adobe Stock]** e cercare un&#39;immagine.
 
-      - Salvare l&#39;anteprima o l&#39;immagine con licenza nella raccolta.
+     - Salvare l&#39;anteprima o l&#39;immagine con licenza nella raccolta.
 
-        Consulta [Utilizzo di immagini Adobe Stock](../content-design/adobe-stock-manage.md) per ulteriori informazioni sull&#39;utilizzo delle risorse Adobe Stock.
+       Consulta [Utilizzo di immagini Adobe Stock](../content-design/adobe-stock-manage.md) per ulteriori informazioni sull&#39;utilizzo delle risorse Adobe Stock.
 
-      - Selezionare la miniatura della risorsa nella raccolta e fare clic su **[!UICONTROL Add Selected]**.
+     - Selezionare la miniatura della risorsa nella raccolta e fare clic su **[!UICONTROL Add Selected]**.
 
    L’immagine viene visualizzata nel contenitore di destinazione nella posizione del segnaposto. A differenza di un’immagine di sfondo, puoi spostare l’immagine in una posizione diversa all’interno del contenitore corrente o in un contenitore diverso.
 
@@ -123,21 +114,21 @@ Il nome del file, le dimensioni e le dimensioni vengono visualizzati sotto l&#39
 
 1. Per modificare **[!UICONTROL Image]** corrente, eseguire una delle operazioni seguenti:
 
-   - _&#x200B;**Carica una nuova immagine**&#x200B;_: utilizzare questo metodo per caricare un nuovo file di immagine dal sistema.
+   - _**Carica una nuova immagine**_: utilizzare questo metodo per caricare un nuovo file di immagine dal sistema.
 
-      - Fare clic su **[!UICONTROL Upload Image]**.
+     - Fare clic su **[!UICONTROL Upload Image]**.
 
-      - Individua e scegli l’immagine da aggiungere alla galleria e al contenitore di destinazione.
+     - Individua e scegli l’immagine da aggiungere alla galleria e al contenitore di destinazione.
 
-   - _&#x200B;**Seleziona una risorsa esistente**&#x200B;_: utilizza questo metodo per selezionare una risorsa immagine esistente dall&#39;archivio multimediale o dalla raccolta.
+   - _**Seleziona una risorsa esistente**_: utilizza questo metodo per selezionare una risorsa immagine esistente dall&#39;archivio multimediale o dalla raccolta.
 
-      - Fare clic su **[!UICONTROL Select from Gallery]**.
+     - Fare clic su **[!UICONTROL Select from Gallery]**.
 
-      - Utilizza la struttura ad albero per passare all’immagine.
+     - Utilizza la struttura ad albero per passare all’immagine.
 
-      - Fare clic sulla miniatura e fare clic su **[!UICONTROL Add Selected]**.
+     - Fare clic sulla miniatura e fare clic su **[!UICONTROL Add Selected]**.
 
-        ![Aggiunta di un&#39;immagine selezionata](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![Aggiunta di un&#39;immagine selezionata](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **Cerca e seleziona un&#39;immagine Adobe Stock**: utilizza questo metodo per trovare un&#39;immagine da Adobe Stock.
 
@@ -145,13 +136,13 @@ Il nome del file, le dimensioni e le dimensioni vengono visualizzati sotto l&#39
      >
      >Questo metodo richiede un&#39;integrazione di [Adobe Stock](../content-design/adobe-stock.md) configurata per l&#39;amministratore.
 
-      - Fare clic su **[!UICONTROL Search Adobe Stock]** e cercare un&#39;immagine.
+     - Fare clic su **[!UICONTROL Search Adobe Stock]** e cercare un&#39;immagine.
 
-      - Salvare l&#39;anteprima o l&#39;immagine con licenza nella raccolta.
+     - Salvare l&#39;anteprima o l&#39;immagine con licenza nella raccolta.
 
-        Consulta [Utilizzo di immagini Adobe Stock](../content-design/adobe-stock-manage.md) per ulteriori informazioni sull&#39;utilizzo delle risorse Adobe Stock.
+       Consulta [Utilizzo di immagini Adobe Stock](../content-design/adobe-stock-manage.md) per ulteriori informazioni sull&#39;utilizzo delle risorse Adobe Stock.
 
-      - Selezionare la miniatura della risorsa nella raccolta e fare clic su **[!UICONTROL Add Selected]**.
+     - Selezionare la miniatura della risorsa nella raccolta e fare clic su **[!UICONTROL Add Selected]**.
 
 1. Per aggiungere un **[!UICONTROL Mobile Image]**, utilizzare gli stessi metodi descritti nel passaggio precedente per selezionare un&#39;immagine da utilizzare per la visualizzazione su dispositivi mobili.
 
