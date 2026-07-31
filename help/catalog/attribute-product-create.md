@@ -4,31 +4,21 @@ description: Scopri come creare e rimuovere gli attributi del prodotto, utilizza
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 922
 ht-degree: 0%
 
 ---
 
 # Creare ed eliminare attributi di prodotto
 
-È possibile creare attributi mentre si lavora su un prodotto o dalla pagina _[!UICONTROL Product Attributes]_. Nei passaggi seguenti viene illustrato come creare attributi dal menu&#x200B;_[!UICONTROL Stores]_.
+È possibile creare attributi mentre si lavora su un prodotto o dalla pagina _[!UICONTROL Product Attributes]_. Nei passaggi seguenti viene illustrato come creare attributi dal menu_[!UICONTROL Stores]_.
 
 ## Passaggio 1: descrivere le proprietà dell’attributo di base
 
@@ -40,25 +30,9 @@ ht-degree: 0%
 
 1. Per **[!UICONTROL Default Label]**, immettere un&#39;etichetta che identifichi l&#39;attributo.
 
-1. Per determinare il tipo di controllo di input utilizzato per l&#39;immissione dei dati, impostare **[!UICONTROL Catalog Input Type for Store Owner]** su uno dei seguenti valori:
+1. Impostare **[!UICONTROL Catalog Input Type for Store Owner]** sul tipo di [controllo di input](attributes-input-types.md) da utilizzare per l&#39;immissione dei dati.
 
-   | Proprietà | Descrizione |
-   |--- |--- |
-   | `Text Field` | Campo di input a riga singola per il testo. |
-   | `Text Area` | Campo di input a più righe per l&#39;immissione di paragrafi di testo, ad esempio la descrizione di un prodotto. È possibile utilizzare WYSIWYG Editor per formattare il testo con i tag di HTML o immettere i tag direttamente nel testo. |
-   | `Text Editor` | Un editor di testo perfettamente funzionante nella posizione dell’attributo. |
-   | Data | Visualizza un valore di data nel [formato preferito](attributes-input-types.md#date-and-time-options) e nel [fuso orario](../getting-started/store-details.md#locale-options). I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_**&#x200B;A seconda della configurazione del sistema, gli utenti_ Amministratore_ possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](attributes-input-types.md#date-and-time-options). |
-   | `Yes/No` | Visualizza un elenco a discesa con opzioni predefinite di `Yes` e `No`. |
-   | `Dropdown` | Visualizza un elenco a discesa di valori che accetta una sola selezione. Il tipo di input a discesa è un componente chiave di [prodotti configurabili](product-create-configurable.md). |
-   | `Multiple Select` | Visualizza un elenco a discesa di valori che accetta selezioni multiple. |
-   | `Price` | Questo tipo di input viene utilizzato per creare campi prezzo in aggiunta agli attributi predefiniti: Prezzo, Prezzo speciale, Prezzo livello e Costo. La valuta utilizzata è determinata dalla configurazione del sistema. |
-   | `Media Image` | Associa un&#39;immagine aggiuntiva a un prodotto, ad esempio il logo di un prodotto, le istruzioni per la cura o gli ingredienti di un&#39;etichetta di cibo. Quando aggiungi un attributo di immagine multimediale al set di attributi di un prodotto, questo diventa un tipo di immagine aggiuntivo, insieme a Base, Piccola e Miniatura. L&#39;attributo immagine multimediale può essere escluso dal [browser multimediale storefront](catalog-images-video.md#storefront-media-browser). |
-   | `Fixed Product Tax` | Consente di definire [tariffe FPT](../stores-purchase/fixed-product-tax.md) in base ai requisiti delle impostazioni internazionali. |
-   | `Visual Swatch` | Visualizza un campione che rappresenta il colore, la trama o il motivo di un prodotto configurabile. Un [campione visivo](swatches.md) può essere riempito con un valore di colore esadecimale o visualizzare un&#39;immagine caricata che rappresenta il colore, il materiale, la trama o il modello dell&#39;opzione. |
-   | `Text Swatch` | Rappresentazione testuale di un’opzione di prodotto configurabile utilizzata di frequente per le dimensioni. [I campioni di testo](swatches.md#text-based-swatches) possono includere anche valori di colore esadecimali. |
-   | `Page Builder` | Un&#39;area di lavoro [Page Builder](../page-builder/introduction.md) perfettamente funzionante nella posizione dell&#39;attributo che consente di aggiungere facilmente contenuto coinvolgente alla pagina del prodotto. |
-
-   {style="table-layout:auto"}
+   Se l&#39;attributo viene utilizzato per un [prodotto configurabile](product-create-configurable.md), scegliere `Dropdown`. Quindi, impostare **[!UICONTROL Required]** su `Yes`.
 
 1. Se si desidera richiedere la selezione di un&#39;opzione prima che il cliente possa acquistare il prodotto, impostare **[!UICONTROL Values Required]** su `Yes`.
 
@@ -88,7 +62,7 @@ ht-degree: 0%
 
    Le opzioni disponibili dipendono dall&#39;impostazione _[!UICONTROL Catalog Input Type for Store Owner]_.
 
-1. Impostare **[!UICONTROL Scope]** per indicare la posizione nella gerarchia [store](../getting-started/websites-stores-views.md) in cui è possibile utilizzare l&#39;attributo.
+1. Per indicare la posizione nella [gerarchia archivio](../getting-started/websites-stores-views.md) in cui è possibile utilizzare l&#39;attributo, impostare **[!UICONTROL Scope]**.
 
 1. Se si desidera impedire l&#39;immissione di valori duplicati, impostare **[!UICONTROL Unique Value]** su `Yes`.
 
@@ -122,7 +96,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > Se prevedi di utilizzare questo attributo come facet in Live Search, devi specificare un’etichetta specifica per lo store. In caso contrario, il nome dell&#39;attributo potrebbe non essere visualizzato correttamente nella pagina di configurazione del facet. Per aggiornare la configurazione, modifica manualmente l&#39;etichetta utilizzando l&#39;opzione [modifica nell&#39;elenco dei facet di Live Search](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) nella _Guida a Live Search_.
+   > Se prevedi di utilizzare questo attributo come facet in Live Search, devi specificare un’etichetta specifica per lo store. In caso contrario, il nome dell&#39;attributo potrebbe non essere visualizzato correttamente nella pagina di configurazione del facet. Per aggiornare la configurazione, modifica manualmente l&#39;etichetta utilizzando l&#39;opzione [modifica nell&#39;elenco dei facet di Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) nella _Guida a Live Search_.
 
 ## Passaggio 4: descrivere le proprietà della vetrina
 
@@ -134,7 +108,7 @@ ht-degree: 0%
 
 1. Se l&#39;attributo deve essere disponibile per la ricerca, impostare **[!UICONTROL Use in Search]** su `Yes`.
 
-   - Imposta il valore **[!UICONTROL Search Weight]** per controllare la posizione in cui viene visualizzato l&#39;elemento nei risultati di ricerca: da 1 (peso minimo) a 10 (peso massimo).
+   - Per controllare la posizione di visualizzazione dell&#39;elemento nei risultati di ricerca, impostare il valore **[!UICONTROL Search Weight]**: 1 (peso minimo) su 10 (peso massimo).
 
    - Imposta **[!UICONTROL Visible in Advanced Search]** come necessario. Ulteriori informazioni in [Ricerca avanzata](search.md#advanced-search).
 
@@ -191,7 +165,7 @@ Qualsiasi attributo utilizzato come elenco a discesa di opzioni per un [prodotto
 
 Quando un attributo viene eliminato, viene rimosso da tutti i prodotti e i set di attributi correlati. Gli attributi di sistema fanno parte delle funzionalità di base del tuo archivio e non possono essere eliminati.
 
-Prima di eliminare un attributo, accertati che non sia attualmente utilizzato da alcun prodotto nel catalogo. Un modo semplice per determinare se un attributo è in uso consiste nell&#39;utilizzare lo strumento [Esporta](../systems/data-export.md) per controllare l&#39;elenco degli attributi di entità del prodotto. Se l’attributo non è incluso nell’elenco, non viene utilizzato da alcun prodotto nel catalogo.
+Prima di eliminare un attributo, accertati che nessun prodotto nel catalogo lo utilizzi al momento. Un modo semplice per determinare se un attributo è in uso consiste nell&#39;utilizzare lo strumento [Esporta](../systems/data-export.md) per controllare l&#39;elenco degli attributi di entità del prodotto. Se l’elenco non include l’attributo, nessun prodotto nel catalogo lo utilizza.
 
 **_Per eliminare un attributo:_**
 
