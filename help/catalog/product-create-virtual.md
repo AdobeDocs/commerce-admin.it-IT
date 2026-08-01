@@ -19,7 +19,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 653
 ht-degree: 0%
@@ -142,9 +143,9 @@ Compila le informazioni nelle sezioni seguenti secondo necessità:
 
    - **Metodo 1:** Salvataggio e anteprima
 
-      - Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]**.
+     - Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Save]**.
 
-      - Per visualizzare il prodotto nell&#39;archivio, scegli **[!UICONTROL Customer View]** nel menu _Amministratore_ ( ![Freccia menu](../assets/icon-menu-down-arrow-black.png) ).
+     - Per visualizzare il prodotto nell&#39;archivio, scegli **[!UICONTROL Customer View]** nel menu _Amministratore_ ( ![Freccia menu](../assets/icon-menu-down-arrow-black.png) ).
 
      L’archivio si apre in una nuova scheda del browser.
 

@@ -22,7 +22,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1638
 ht-degree: 0%
@@ -215,8 +216,8 @@ Se abilitata, la sezione _[!UICONTROL Downloadable Information]_&#x200B;è compo
 
    - Per entrambi i file **[!UICONTROL File]** e **[!UICONTROL Sample]**, scegliere uno dei seguenti metodi di distribuzione per i download:
 
-      - `Upload File` - Scegliere questo metodo per caricare il file di distribuzione sul server. Individua il file e selezionalo per il caricamento.
-      - `URL` - Scegliere questo metodo per accedere al file di distribuzione da un URL. Immettere l&#39;URL completo del file di download.
+     - `Upload File` - Scegliere questo metodo per caricare il file di distribuzione sul server. Individua il file e selezionalo per il caricamento.
+     - `URL` - Scegliere questo metodo per accedere al file di distribuzione da un URL. Immettere l&#39;URL completo del file di download.
 
    >[!NOTE]
    >
@@ -224,16 +225,16 @@ Se abilitata, la sezione _[!UICONTROL Downloadable Information]_&#x200B;è compo
 
    - Imposta **[!UICONTROL Shareable]** su uno dei seguenti:
 
-      - `No` - Richiede ai clienti di accedere ai propri account per accedere al collegamento di download.
+     - `No` - Richiede ai clienti di accedere ai propri account per accedere al collegamento di download.
 
-      - `Yes` - Invia il collegamento per e-mail, che i clienti possono condividere con altri.
+     - `Yes` - Invia il collegamento per e-mail, che i clienti possono condividere con altri.
 
-      - `Use Config` - Utilizza il metodo specificato nella configurazione di [Opzioni prodotto scaricabili](../configuration-reference/catalog/catalog.md).
+     - `Use Config` - Utilizza il metodo specificato nella configurazione di [Opzioni prodotto scaricabili](../configuration-reference/catalog/catalog.md).
 
    - Effettuare una delle seguenti operazioni:
 
-      - Per limitare i download per cliente, immettere il numero massimo per **[!UICONTROL Max. Downloads]**.
-      - Per consentire download illimitati, selezionare la casella di controllo **[!UICONTROL Unlimited]**.
+     - Per limitare i download per cliente, immettere il numero massimo per **[!UICONTROL Max. Downloads]**.
+     - Per consentire download illimitati, selezionare la casella di controllo **[!UICONTROL Unlimited]**.
 
    ![Dettagli collegamento](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
 
@@ -253,8 +254,8 @@ Se abilitata, la sezione _[!UICONTROL Downloadable Information]_&#x200B;è compo
 
    - Scegliere uno dei seguenti metodi di distribuzione:
 
-      - `Upload File` - Scegliere questo metodo per caricare il file di distribuzione sul server. Individua il file e selezionalo per il caricamento.
-      - `URL` - Scegliere questo metodo per accedere al file di distribuzione da un URL. Immettere l&#39;URL completo del file di download.
+     - `Upload File` - Scegliere questo metodo per caricare il file di distribuzione sul server. Individua il file e selezionalo per il caricamento.
+     - `URL` - Scegliere questo metodo per accedere al file di distribuzione da un URL. Immettere l&#39;URL completo del file di download.
 
    - Per aggiungere un altro esempio, fare clic su **[!UICONTROL Add Link]** e ripetere i passaggi seguenti.
 

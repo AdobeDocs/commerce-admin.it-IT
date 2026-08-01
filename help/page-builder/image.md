@@ -19,7 +19,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1540
 ht-degree: 0%
@@ -76,21 +77,21 @@ La casella degli strumenti Immagine viene visualizzata quando passi il cursore d
 
    - _&#x200B;**Carica una nuova immagine**&#x200B;_: utilizzare questo metodo per caricare un nuovo file di immagine dal sistema.
 
-      - Fare clic su **[!UICONTROL Upload Image]**.
+     - Fare clic su **[!UICONTROL Upload Image]**.
 
-      - Individua e scegli l’immagine da aggiungere alla galleria e al contenitore di destinazione.
+     - Individua e scegli l’immagine da aggiungere alla galleria e al contenitore di destinazione.
 
      In alternativa, puoi anche trascinare un file di immagine dal sistema e rilasciarlo sull&#39;icona _Fotocamera_ ( ![Icona fotocamera](./assets/pb-icon-camera.png){width="20"} ).
 
    - _&#x200B;**Seleziona una risorsa esistente**&#x200B;_: utilizza questo metodo per selezionare una risorsa immagine esistente dall&#39;archivio multimediale o dalla raccolta.
 
-      - Fare clic su **[!UICONTROL Select from Gallery]**.
+     - Fare clic su **[!UICONTROL Select from Gallery]**.
 
-      - Utilizza la struttura ad albero per passare all’immagine.
+     - Utilizza la struttura ad albero per passare all’immagine.
 
-      - Fare clic sulla miniatura e fare clic su **[!UICONTROL Add Selected]**.
+     - Fare clic sulla miniatura e fare clic su **[!UICONTROL Add Selected]**.
 
-        ![Aggiunta di un&#39;immagine selezionata](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![Aggiunta di un&#39;immagine selezionata](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - _&#x200B;**Cerca e seleziona un&#39;immagine Adobe Stock**&#x200B;_: utilizza questo metodo per trovare un&#39;immagine da Adobe Stock.
 
@@ -98,13 +99,13 @@ La casella degli strumenti Immagine viene visualizzata quando passi il cursore d
      >
      >Questo metodo richiede un&#39;integrazione di [Adobe Stock](../content-design/adobe-stock.md) configurata per l&#39;amministratore.
 
-      - Fare clic su **[!UICONTROL Search Adobe Stock]** e cercare un&#39;immagine.
+     - Fare clic su **[!UICONTROL Search Adobe Stock]** e cercare un&#39;immagine.
 
-      - Salvare l&#39;anteprima o l&#39;immagine con licenza nella raccolta.
+     - Salvare l&#39;anteprima o l&#39;immagine con licenza nella raccolta.
 
-        Consulta [Utilizzo di immagini Adobe Stock](../content-design/adobe-stock-manage.md) per ulteriori informazioni sull&#39;utilizzo delle risorse Adobe Stock.
+       Consulta [Utilizzo di immagini Adobe Stock](../content-design/adobe-stock-manage.md) per ulteriori informazioni sull&#39;utilizzo delle risorse Adobe Stock.
 
-      - Selezionare la miniatura della risorsa nella raccolta e fare clic su **[!UICONTROL Add Selected]**.
+     - Selezionare la miniatura della risorsa nella raccolta e fare clic su **[!UICONTROL Add Selected]**.
 
    L’immagine viene visualizzata nel contenitore di destinazione nella posizione del segnaposto. A differenza di un’immagine di sfondo, puoi spostare l’immagine in una posizione diversa all’interno del contenitore corrente o in un contenitore diverso.
 
@@ -125,19 +126,19 @@ Il nome del file, le dimensioni e le dimensioni vengono visualizzati sotto l&#39
 
    - _&#x200B;**Carica una nuova immagine**&#x200B;_: utilizzare questo metodo per caricare un nuovo file di immagine dal sistema.
 
-      - Fare clic su **[!UICONTROL Upload Image]**.
+     - Fare clic su **[!UICONTROL Upload Image]**.
 
-      - Individua e scegli l’immagine da aggiungere alla galleria e al contenitore di destinazione.
+     - Individua e scegli l’immagine da aggiungere alla galleria e al contenitore di destinazione.
 
    - _&#x200B;**Seleziona una risorsa esistente**&#x200B;_: utilizza questo metodo per selezionare una risorsa immagine esistente dall&#39;archivio multimediale o dalla raccolta.
 
-      - Fare clic su **[!UICONTROL Select from Gallery]**.
+     - Fare clic su **[!UICONTROL Select from Gallery]**.
 
-      - Utilizza la struttura ad albero per passare all’immagine.
+     - Utilizza la struttura ad albero per passare all’immagine.
 
-      - Fare clic sulla miniatura e fare clic su **[!UICONTROL Add Selected]**.
+     - Fare clic sulla miniatura e fare clic su **[!UICONTROL Add Selected]**.
 
-        ![Aggiunta di un&#39;immagine selezionata](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![Aggiunta di un&#39;immagine selezionata](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **Cerca e seleziona un&#39;immagine Adobe Stock**: utilizza questo metodo per trovare un&#39;immagine da Adobe Stock.
 
@@ -145,13 +146,13 @@ Il nome del file, le dimensioni e le dimensioni vengono visualizzati sotto l&#39
      >
      >Questo metodo richiede un&#39;integrazione di [Adobe Stock](../content-design/adobe-stock.md) configurata per l&#39;amministratore.
 
-      - Fare clic su **[!UICONTROL Search Adobe Stock]** e cercare un&#39;immagine.
+     - Fare clic su **[!UICONTROL Search Adobe Stock]** e cercare un&#39;immagine.
 
-      - Salvare l&#39;anteprima o l&#39;immagine con licenza nella raccolta.
+     - Salvare l&#39;anteprima o l&#39;immagine con licenza nella raccolta.
 
-        Consulta [Utilizzo di immagini Adobe Stock](../content-design/adobe-stock-manage.md) per ulteriori informazioni sull&#39;utilizzo delle risorse Adobe Stock.
+       Consulta [Utilizzo di immagini Adobe Stock](../content-design/adobe-stock-manage.md) per ulteriori informazioni sull&#39;utilizzo delle risorse Adobe Stock.
 
-      - Selezionare la miniatura della risorsa nella raccolta e fare clic su **[!UICONTROL Add Selected]**.
+     - Selezionare la miniatura della risorsa nella raccolta e fare clic su **[!UICONTROL Add Selected]**.
 
 1. Per aggiungere un **[!UICONTROL Mobile Image]**, utilizzare gli stessi metodi descritti nel passaggio precedente per selezionare un&#39;immagine da utilizzare per la visualizzazione su dispositivi mobili.
 
