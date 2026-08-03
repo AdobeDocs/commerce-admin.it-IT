@@ -23,7 +23,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Scopri come eliminare categorie specifiche di e-mail di sistema automatizzato, ad esempio notifiche di ordine o marketing, direttamente dall’amministratore in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">Eliminazione e-mail</a>.</p>
+      <td><p>Scopri come eliminare categorie specifiche di e-mail di sistema automatizzato, ad esempio notifiche di ordine o marketing, direttamente dall’amministratore in <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/config/services/email-suppression">Eliminazione e-mail</a>.</p>
 </td>
       <td>
         Aggiornamento principale, nuovo argomento
@@ -45,7 +45,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stato aggiunto <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Arricchimento del catalogo</a> con istruzioni per la revisione e l'applicazione degli aggiornamenti dei nomi e delle descrizioni dei prodotti suggeriti dall'intelligenza artificiale nell'amministratore. L'argomento è stato collegato al <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">menu del catalogo</a>, alla <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">panoramica della guida</a> e agli argomenti relativi alle impostazioni dei prodotti correlati.</p>
+      <td><p>È stato aggiunto <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/products/catalog-enrichment">Arricchimento del catalogo</a> con istruzioni per la revisione e l'applicazione degli aggiornamenti dei nomi e delle descrizioni dei prodotti suggeriti dall'intelligenza artificiale nell'amministratore. L'argomento è stato collegato al <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/catalog-menu">menu del catalogo</a>, alla <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/guide-overview">panoramica della guida</a> e agli argomenti relativi alle impostazioni dei prodotti correlati.</p>
 </td>
       <td>
         Nuovo argomento
@@ -67,7 +67,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Aggiunta di <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aggiorna accesso amministratore di sistema</a> con istruzioni per la gestione delle assegnazioni dell'amministratore di sistema in Adobe Admin Console.</p>
+      <td><p>Aggiunta di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aggiorna accesso amministratore di sistema</a> con istruzioni per la gestione delle assegnazioni dell'amministratore di sistema in Adobe Admin Console.</p>
 </td>
       <td>
         Feedback
@@ -89,7 +89,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Aggiunta la possibilità di <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">creare codici coupon personalizzati</a> in Adobe Commerce as a Cloud Service.</p>
+      <td><p>Aggiunta la possibilità di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">creare codici coupon personalizzati</a> in Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -111,7 +111,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stata aggiornata la documentazione di <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import">importazione dati</a> di Commerce con istruzioni su come evitare la generazione di riscritture URL non necessarie durante le operazioni di importazione.</p>
+      <td><p>È stata aggiornata la documentazione di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/import/data-import">importazione dati</a> di Commerce con istruzioni su come evitare la generazione di riscritture URL non necessarie durante le operazioni di importazione.</p>
 </td>
       <td>
         Feedback tecnico
