@@ -1,7 +1,7 @@
 ---
-source-git-commit: cb1485f26f63f12c825258706c68080c30f15b75
+source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## Novità
 
 Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo elenco sono esclusi tutti gli aggiornamenti minori, ad esempio la modifica della copia.
+
+### 29 luglio 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Scopri come eliminare categorie specifiche di e-mail di sistema automatizzato, ad esempio notifiche di ordine o marketing, direttamente dall’amministratore in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">Eliminazione e-mail</a>.</p>
+</td>
+      <td>
+        Aggiornamento principale, nuovo argomento
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">commit</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 9 luglio 2026
 
@@ -23,7 +45,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stato aggiunto <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/products/catalog-enrichment">Arricchimento del catalogo</a> con istruzioni per la revisione e l'applicazione degli aggiornamenti dei nomi e delle descrizioni dei prodotti suggeriti dall'intelligenza artificiale nell'amministratore. L'argomento è stato collegato al <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/catalog-menu">menu del catalogo</a>, alla <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/guide-overview">panoramica della guida</a> e agli argomenti relativi alle impostazioni dei prodotti correlati.</p>
+      <td><p>È stato aggiunto <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Arricchimento del catalogo</a> con istruzioni per la revisione e l'applicazione degli aggiornamenti dei nomi e delle descrizioni dei prodotti suggeriti dall'intelligenza artificiale nell'amministratore. L'argomento è stato collegato al <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">menu del catalogo</a>, alla <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">panoramica della guida</a> e agli argomenti relativi alle impostazioni dei prodotti correlati.</p>
 </td>
       <td>
         Nuovo argomento
@@ -45,7 +67,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Aggiunta di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aggiorna accesso amministratore di sistema</a> con istruzioni per la gestione delle assegnazioni dell'amministratore di sistema in Adobe Admin Console.</p>
+      <td><p>Aggiunta di <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aggiorna accesso amministratore di sistema</a> con istruzioni per la gestione delle assegnazioni dell'amministratore di sistema in Adobe Admin Console.</p>
 </td>
       <td>
         Feedback
@@ -67,7 +89,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Aggiunta la possibilità di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">creare codici coupon personalizzati</a> in Adobe Commerce as a Cloud Service.</p>
+      <td><p>Aggiunta la possibilità di <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">creare codici coupon personalizzati</a> in Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -89,7 +111,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>È stata aggiornata la documentazione di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/import/data-import">importazione dati</a> di Commerce con istruzioni su come evitare la generazione di riscritture URL non necessarie durante le operazioni di importazione.</p>
+      <td><p>È stata aggiornata la documentazione di <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import">importazione dati</a> di Commerce con istruzioni su come evitare la generazione di riscritture URL non necessarie durante le operazioni di importazione.</p>
 </td>
       <td>
         Feedback tecnico
