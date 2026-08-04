@@ -1,7 +1,7 @@
 ---
-source-git-commit: cb1485f26f63f12c825258706c68080c30f15b75
+source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## Novità
 
 Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo elenco sono esclusi tutti gli aggiornamenti minori, ad esempio la modifica della copia.
+
+### 29 luglio 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Scopri come eliminare categorie specifiche di e-mail di sistema automatizzato, ad esempio notifiche di ordine o marketing, direttamente dall’amministratore in <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/config/services/email-suppression">Eliminazione e-mail</a>.</p>
+</td>
+      <td>
+        Aggiornamento principale, nuovo argomento
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">commit</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 9 luglio 2026
 
