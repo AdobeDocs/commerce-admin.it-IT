@@ -1,8 +1,9 @@
 ---
-title: Monitoraggio dello stato di sincronizzazione dei feed di dati
-description: Monitora la sincronizzazione dell'esportazione dei dati e identifica eventuali problemi o ritardi nell'elaborazione dei feed per  [!DNL Catalog Service], [!DNL Live Search] e [!DNL Product Recommendations].
+title: Monitorare lo stato di sincronizzazione dei feed dati in Commerce
+description: Tracciare le esportazioni. Diagnosticare i problemi di sincronizzazione per  [!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations] e [!DNL Adobe Commerce Optimizer Connector].
 feature: Products, Customers, Data Import/Export
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+role: Admin
+level: Beginner
 exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
 product_v2:
@@ -21,76 +22,183 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 424b379815ffbf818c2490d0195bf0bf7dd51ab7
 workflow-type: tm+mt
-source-wordcount: 1689
+source-wordcount: 1664
 ht-degree: 0%
 
 ---
 
+
 # Monitoraggio dello stato di sincronizzazione dei feed di dati
 
-Gli amministratori di Adobe Commerce possono monitorare lo stato di sincronizzazione dei dati esportati da Adobe Commerce ai servizi Commerce connessi utilizzando la pagina Stato sincronizzazione feed dati in Amministratore Commerce.
+La pagina [!UICONTROL Data Feed Sync Status] consente agli amministratori di Commerce di monitorare l&#39;integrità delle esportazioni per i feed di dati di prodotti e categorie nell&#39;area di amministrazione.
 
-![Pagina dei dettagli sullo stato di sincronizzazione dei feed di dati con il reporting sullo stato degli elementi del feed](assets/data-feed-sync-status.png)
+## Pubblico e disponibilità {#audience}
 
-Questa pagina fornisce informazioni in tempo reale sullo stato e sulle prestazioni dei feed di esportazione dei dati che trasferiscono i dati di prodotti e categorie da Commerce a servizi esterni quali [!DNL Product Recommendations], [!DNL Live Search] e [!DNL Catalog Service].
+La pagina Stato di sincronizzazione feed dati è disponibile senza costi aggiuntivi per gli esercenti Commerce con una licenza attiva per uno dei seguenti servizi:
 
-La pagina Stato di sincronizzazione mostra solo lo stato di esportazione. Uno stato di operazione riuscita indica che i dati sono stati esportati correttamente e saranno infine disponibili nei servizi Commerce connessi.
+- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/it/docs/commerce/product-recommendations/guide-overview)
+- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview)
+- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/it/docs/commerce/catalog-service/guide-overview)
+- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/it/docs/commerce/aco-optimizer-connector/overview)
 
-Il monitoraggio dello stato dei feed consente di garantire la coerenza dei dati e di risolvere rapidamente eventuali problemi che si verificano durante il processo di esportazione. Gli amministratori possono:
+La pagina Stato di sincronizzazione feed dati è disponibile automaticamente nelle configurazioni dei servizi Commerce supportate. Per le distribuzioni on-premise e con Adobe Commerce su infrastruttura cloud, se la pagina risulta mancante dopo l’abilitazione di un servizio o connettore idoneo, segui le istruzioni di installazione manuali riportate di seguito. Non utilizzare la procedura di installazione del Compositore per le esperienze SaaS gestite dal prodotto.
 
-* **Visualizza lo stato di sincronizzazione** per tutti i feed di dati
-* **Identificare e risolvere gli errori** nell&#39;elaborazione dei feed
-* **Accedi a informazioni dettagliate sullo stato** per singoli elementi del feed
+## Accedere alla pagina dello stato di sincronizzazione {#access-data-feed-sync-status-page}
 
-Lo stato viene tracciato per i seguenti feed:
+Dall&#39;area di amministrazione, passare a **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Feed Sync Status]**.
 
-* Feed prodotti
-* Feed attributi prodotto
-* Feed categorie
-* Feed sostituzioni prodotto
-* Feed prezzi prodotto
-* Feed varianti prodotto
-
-## Verifica dei dati sincronizzati con i servizi Commerce
-
-Utilizzare i metodi seguenti per verificare che i dati siano stati sincronizzati con i servizi Commerce connessi:
-
-* Per le distribuzioni di Adobe Commerce nel cloud o on-premise o di Adobe Commerce as a Cloud Service, controlla il [dashboard di gestione dati](data-dashboard.md).
-* Per le distribuzioni Adobe Commerce nel cloud o locali configurate con il [connettore Adobe Commerce Optimizer](https://experienceleague.adobe.com/it/docs/commerce/aco-optimizer-connector/overview), controlla la [pagina di sincronizzazione dati](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio.
-
->[!TIP]
->
->Per ulteriori informazioni sul processo di sincronizzazione dei dati, vedere [Sincronizzare i dati con l&#39;esportazione dei dati SaaS](https://experienceleague.adobe.com/it/docs/commerce/saas-data-export/data-synchronization)nella *Guida all&#39;esportazione dei dati SaaS*.
-
-## Installare l’estensione
-
-La pagina Stato feed dati è disponibile per tutti i commercianti Commerce con licenze attive per i seguenti servizi Commerce:
-
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/it/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/it/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/it/docs/commerce/catalog-service/guide-overview) con una licenza attiva
+![Pagina Stato sincronizzazione feed dati che riepiloga l&#39;attività di esportazione del feed dati](assets/data-feed-sync-status.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Non è necessario installare l&#39;estensione Stato feed dati nelle istanze [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/it/docs/commerce/cloud-service/overview).
->L&#39;estensione è disponibile per impostazione predefinita se almeno uno dei seguenti servizi è abilitato nella distribuzione di Commerce: Product Recommendations v6+, Live Search v4.1+ o Catalog Service v1.17+.
+> Questa pagina riporta solo lo stato di esportazione. Uno stato di operazione riuscita indica che i dati sono stati esportati correttamente e non conferma che i dati siano disponibili nei servizi connessi. Per ulteriori informazioni, vedere [Conferma dati nei servizi connessi](#confirm-data-in-connected-services).
 
-**Requisiti**
+## Feed di esportazione disponibili
 
-* PHP 8.1, 8.2, 8.3 o 8.4
-* Adobe Commerce 2.4.4+
-* [Estensione Adobe Commerce Data Export](https://experienceleague.adobe.com/it/docs/commerce/saas-data-export/manage-extension), versione 103.4.15 o successiva
-* Accedi a [repo.magento.com](https://repo.magento.com)
+L’elenco dei feed di esportazione disponibili che è possibile gestire dalla pagina Stato di sincronizzazione dati dipende dai servizi Commerce connessi.
 
-  Per generare le chiavi e ottenere i diritti necessari, vedere [Ottenere le chiavi di autenticazione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Per le installazioni cloud, consulta la [Guida di Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+- **Per [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service] con servizi Commerce configurati:** Vedere [Feed supportati](https://experienceleague.adobe.com/it/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds) nella _Guida all&#39;esportazione dei dati SaaS_.
 
-* Accedere alla riga di comando del server applicazioni Adobe Commerce.
+- **Per le distribuzioni Adobe Commerce on-premise o sul cloud configurate con [!DNL Adobe Commerce Optimizer Connector]:** Consulta [Feed supportati](https://experienceleague.adobe.com/it/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds) nella _Guida al connettore Adobe Commerce Optimizer_.
+
+
+## Riepilogo stato sincronizzazione feed dati {#data-feed-sync-status-summary}
+
+La griglia di riepilogo elenca ogni feed e i relativi conteggi di esportazione.
+
+| Campo | Descrizione |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nome feed** | Indicizzatore feed per un’entità o parte di un’entità (prodotto, prezzo del prodotto). |
+| **Record Source** | Numero di record Commerce che richiedono la sincronizzazione. Può superare il conteggio della griglia di amministrazione perché gli elementi del feed hanno un ambito (ad esempio, codice Visualizzazione archivio). |
+| **Record inviati correttamente** | Numero di elementi di feed inviati correttamente da Commerce all’endpoint del servizio configurato. Questo non conferma l’acquisizione a valle o la disponibilità del catalogo. Se si verificano errori di sincronizzazione, questo numero potrebbe essere inferiore al numero di record di origine. |
+| **Record non riusciti** | Numero di record che non è stato possibile inviare ai servizi Commerce connessi. |
+| **Azione** | Selezionare **[!UICONTROL Details]** per visualizzare l&#39;attività di sincronizzazione per un feed. |
+
+## Dettagli sullo stato di sincronizzazione del feed dati {#data-feed-sync-status-details}
+
+Dalla pagina di riepilogo, selezionare un nome di feed o selezionare **[!UICONTROL Details]** per visualizzare lo stato di esportazione per ogni elemento di feed:
+
+![Pagina dei dettagli sullo stato di sincronizzazione dei feed di dati con report sullo stato degli elementi del feed](assets/data-feed-sync-status-details.png){width="600" zoomable="yes"}
+
+| Campo | Descrizione |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID elemento feed** | Identificatore generato automaticamente utilizzato a scopo di sistema |
+| **ID entità** | L’identificatore univoco dell’entità di origine (ID prodotto, ID categoria e così via) |
+| **Identificatori feed** | Identificatori univoci per l’elemento del feed. Ad esempio, SKU e codice della vista store per il feed dei prodotti. I valori variano in base al feed. |
+| **Stato esportazione** | [stato di sincronizzazione](#export-status-types) dell&#39;elemento di feed, con indicatori codificati a colori |
+| **Data ultima sincronizzazione** | Data e ora dell’ultimo tentativo di esportazione o invio da Commerce. Questo timestamp non conferma la disponibilità a valle. |
+| **L&#39;entità è stata eliminata?** | Indica se l’entità è stata eliminata in Adobe Commerce. Gli elementi eliminati vengono visualizzati solo se la sincronizzazione non è riuscita. |
+| **ID richiesta** | ID univoco della richiesta di sincronizzazione. Forniscilo al Supporto tecnico quando si risolvono i problemi relativi agli aggiornamenti delle entità. |
+| **Errore** | Informazioni dettagliate sugli errori di sincronizzazione |
+
+Potete gestire la vista utilizzando i seguenti controlli:
+
+- [!UICONTROL Mass Action] per pianificare la risincronizzazione per gli elementi feed selezionati
+- [!UICONTROL Filters] e [!UICONTROL Columns]
+- [!UICONTROL Default View] per creare e salvare una visualizzazione filtrata e passare da una visualizzazione all&#39;altra
+
+### Indicatori di salute dei mangimi {#feed-health-indicators}
+
+| **Indicatore** | **Descrizione** |
+| ------------- | --------------- |
+| Stato indicizzatore | <ul><li>**Pronto**: indicizzatore aggiornato. Non è richiesta alcuna reindicizzazione.</li><li>**Reindicizzazione richiesta**: dati Source modificati. Esegui una reindicizzazione per acquisire le modifiche recenti.</li><li>**Elaborazione**: indicizzazione in corso.</li></ul> |
+| Backlog di Changelog | <ul><li>**Tutti sincronizzati**: nessuna modifica in sospeso da elaborare.</li><li>**Elementi nel backlog**: numero di modifiche in sospeso in attesa di elaborazione. Un backlog di più di 1.000 elementi può indicare problemi di prestazioni.</li></ul> |
+| Modalità indicizzatore | <ul><li>**Modalità pianificazione** (consigliata): l&#39;indicizzatore viene eseguito secondo la pianificazione, riducendo il rischio di perdita di dati.</li><li>**Aggiornamento al salvataggio** (in tempo reale): viene visualizzato come avviso nella pagina. La modalità in tempo reale non è prevista e aumenta il rischio di perdita di dati sotto carico.</li></ul> |
+
+>[!TIP]
+>
+> Per ulteriori informazioni sull&#39;elaborazione dell&#39;indice, vedere l&#39;argomento [Gestione indice](index-management.md).
+
+### Esporta tipi di stato {#export-status-types}
+
+| **Stato** | **Descrizione** | **Azione richiesta** |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------ |
+| **Inviato al servizio** | L&#39;elemento di feed è stato inviato correttamente da Commerce per l&#39;elaborazione a valle. | Nessuno |
+| **Operazione non riuscita, verrà eseguito un nuovo tentativo** | Impossibile inviare, ma il sistema tenterà di inviare di nuovo. | Monitor per la risoluzione |
+| **Operazione non riuscita, richiede attenzione** | Non riuscito a causa di un errore di applicazione o dati. | Esaminare e risolvere il problema nella colonna [!UICONTROL Error] |
+| **In attesa dell&#39;invio** | Modifiche rilevate nel registro modifiche ma non ancora elaborate. | Stato di elaborazione normale |
+
+## Monitorare lo stato del feed dati
+
+Quando si aggiornano entità relative a prodotti e categorie nel database di Commerce, i dati vengono trasferiti ai servizi di Commerce in base alla configurazione del feed. È possibile monitorare l&#39;attività di esportazione e il relativo stato corrente dalla pagina di riepilogo [!UICONTROL Data Feed Sync Status].
+
+>[!IMPORTANT]
+>
+> Il tempo necessario per completare la sincronizzazione dei dati varia in base alle dimensioni del catalogo, al volume di dati aggiornati e alle prestazioni del servizio esterno.
+
+Quando il conteggio inviato correttamente corrisponde al conteggio dell’origine per un feed e nessun elemento rimane in attesa di invio o non è riuscito, Commerce ha completato l’esportazione per quel feed. Utilizza il dashboard appropriato per [confermare la disponibilità downstream](#confirm-data-in-connected-services).
+
+>[!NOTE]
+>
+> Adobe fornisce inoltre strumenti di interfaccia della riga di comando e registri di sistema che gli sviluppatori e gli integratori di sistemi possono utilizzare per gestire e tenere traccia delle operazioni di sincronizzazione. Per informazioni dettagliate, vedere la [Guida all&#39;esportazione dei dati SaaS](https://experienceleague.adobe.com/it/docs/commerce/saas-data-export/overview).
+
+### Gestione esportazioni non riuscite {#manage-failed-exports}
+
+Per esaminare le esportazioni non riuscite e pianificare una risincronizzazione:
+
+1. Dalla pagina di riepilogo, individua il feed con record non riusciti.
+1. Selezionare **[!UICONTROL Details]**.
+1. Esaminare i messaggi di errore nella colonna [!UICONTROL Error].
+1. Selezionare i record da risincronizzare utilizzando le caselle di controllo.
+1. Dal menu [!UICONTROL Mass Action], selezionare **[!UICONTROL Schedule Resync]**, selezionare **[!UICONTROL Submit]** e confermare l&#39;operazione.
+1. Monitora le modifiche di stato nella pagina dei dettagli.
+
+Il sistema esegue automaticamente nuovi tentativi per alcuni errori.
+
+#### Quando risincronizzare manualmente {#resync-feed-items}
+
+Risincronizzazione manuale in questi casi:
+
+- Persistenza degli errori di autenticazione o autorizzazione (codici di stato 401 o 403)
+- Sono stati risolti i problemi di formato dei dati che causavano errori di payload
+- Configurazione di un servizio esterno o endpoint modificati
+- Sono state distribuite personalizzazioni che influiscono sull’esportazione dei dati
+
+### Conferma dati in servizi connessi {#confirm-data-in-connected-services}
+
+Per verificare la sincronizzazione end-to-end al termine dell&#39;esportazione, utilizzare uno dei metodi seguenti. Per informazioni sui limiti dello stato di esportazione di questa pagina, vedi la [nota precedente](#export-status-scope).
+
+- **[!DNL Adobe Commerce as a Cloud Service]con i servizi Commerce:** Controlla il [Dashboard di gestione dati](data-dashboard.md) applicabile per confermare la disponibilità a valle.
+- **Adobe Commerce su Cloud o On-Premises con Adobe Commerce Optimizer Connector**: controlla prima lo stato di esportazione dell&#39;amministratore di Commerce, quindi controlla la [pagina di sincronizzazione dati](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio]
+- **[!DNL Adobe Commerce Optimizer] (autonomo):** Dati non esportati dal backend Commerce. Utilizzare la [pagina di sincronizzazione dati](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio] per confermare la disponibilità dei dati.
+
+>[!TIP]
+>
+> Per ulteriori informazioni sul processo di sincronizzazione dei dati, vedere [Sincronizzare i dati con l&#39;esportazione dei dati SaaS](https://experienceleague.adobe.com/it/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process) nella *Guida all&#39;esportazione dei dati SaaS*.
+
+## Best practice {#best-practices}
+
+- Rivedi la pagina di riepilogo ogni giorno per i feed con tassi di errore elevati.
+- Esaminare i dettagli settimanalmente per i feed critici, come prodotti e prezzi.
+- Tieni traccia delle tendenze di successo delle esportazioni mensilmente per identificare i problemi ricorrenti.
+
+## Risolvere i problemi comuni {#troubleshoot-common-issues}
+
+| Problema | Sintomi | Cosa fare |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Elevate percentuali di errori | Molti record mostrano *Non riuscito, richiede attenzione* stato | <ul><li>Verifica lo stato e la configurazione del servizio esterno</li><li>Rivedi i messaggi di errore per i pattern nella colonna [!UICONTROL Error]</li><li>Dopo aver risolto il problema sottostante, vedere [Gestire e risincronizzare le esportazioni non riuscite](#manage-failed-exports)</li><li>Se necessario, contatta il supporto di servizi esterni</li></ul> |
+| Prestazioni di esportazione lente | Backlog del changelog elevato o aggiornamenti dello stato lenti | <ul><li>Controlla [indicatori di integrità del feed](#feed-health-indicators) per lo stato dell&#39;indicizzatore e del backlog</li><li>Esegui nuovamente l&#39;indicizzazione se **è richiesta la reindicizzazione**</li><li>Monitorare i tempi di risposta del servizio esterno</li><li>Se possibile, pianifica le esportazioni nelle ore non di punta</li><li>Esaminare le risorse e le prestazioni del sistema</li></ul> |
+| Errori di autenticazione | Codici di stato 401 o 403 nella colonna [!UICONTROL Error] | <ul><li>Verifica credenziali API e token</li><li>Verifica le autorizzazioni dell’account del servizio esterno</li><li>Rinnovare i token scaduti o contattare il provider di servizi</li><li>Dopo il ripristino delle credenziali, [risincronizza record interessati](#manage-failed-exports)</li></ul> |
+| Pagina Stato di sincronizzazione feed dati mancante | **[!UICONTROL Data Feed Sync Status]** non è elencato in **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** dopo l&#39;attivazione di un servizio connesso | <ul><li>Per Commerce as a Cloud Service, verificare che un servizio idoneo sia abilitato (vedere [Pubblico e disponibilità](#audience))</li><li>Solo per Commerce su cloud o locale, [Installa l&#39;estensione manualmente](#install-the-extension)</li></ul> |
+
+Adobe Commerce su infrastruttura cloud o on-premise: verifica che sia abilitato un servizio idoneo o il connettore Adobe Commerce Optimizer; se la pagina risulta ancora mancante, segui le istruzioni di installazione manuali.
+ACCS o Adobe Commerce Optimizer: non installare il modulo manualmente; utilizza l’esperienza di sincronizzazione gestita dal prodotto o contatta il team di supporto del servizio appropriato.
+
+## Installare l’estensione {#install-the-extension}
+
+L&#39;installazione manuale è necessaria per le distribuzioni Adobe Commerce on Cloud o on-premise solo se la pagina [!UICONTROL Data Feed Sync Status] non è presente nell&#39;area di amministrazione dopo l&#39;abilitazione di un servizio idoneo. Consulta [Pubblico e disponibilità](#audience).
+
+### Prerequisiti
+
+- Adobe Commerce 2.4.4+. Per i requisiti dettagliati, vedere [Requisiti di sistema](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/system-requirements).
+- [Estensione Adobe Commerce Data Export](https://experienceleague.adobe.com/it/docs/commerce/saas-data-export/reference/manage-extension), versione 103.4.15 o successiva
+- Chiavi di autenticazione con autorizzazione per scaricare il pacchetto richiesto dall’archivio Adobe Commerce. Per creare le chiavi di autenticazione e ottenere l&#39;accesso al pacchetto necessario, vedere [Ottenere le chiavi di autenticazione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Per le installazioni cloud, consulta la [Guida di Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+- Accedere alla riga di comando del server applicazioni Adobe Commerce.
 
 ### Passaggi per l’installazione
 
@@ -102,201 +210,10 @@ composer require magento/module-data-exporter-status
 
 Per i passaggi dettagliati dell’installazione, consulta le seguenti guide:
 
-* [Installare l’estensione su Adobe Commerce su infrastruttura cloud](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-
-* [Installare l’estensione Adobe Commerce on-premise](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/extensions)
-
-## Accedere alla pagina Stato feed dati
-
-Dall&#39;amministratore di Commerce, accedere alla pagina Stato feed dati dall&#39;amministratore di Commerce in **[!DNL System]** > Trasferimento dati > **[!DNL Data Feed Sync Status]**.
-
-![Pagina Stato sincronizzazione feed dati che riepiloga l&#39;attività di esportazione del feed dati](assets/data-feed-sync-status.png)
-
-Il monitoraggio dello stato dei feed dati fornisce due interfacce:
-
-* [Pagina di riepilogo dello stato di sincronizzazione dei feed dati](#data-feed-sync-status-summary) in cui sono elencati i feed disponibili e lo stato corrente
-* [Stato sincronizzazione feed dati - Pagina dettagli](#data-feed-sync-status-details) che mostra informazioni dettagliate su un feed selezionato.
-
-## Riepilogo stato sincronizzazione feed dati
-
-La pagina di riepilogo dello stato di sincronizzazione dei feed fornisce informazioni sull’attività di esportazione dei feed di dati, tra cui le seguenti:
-
-| Campo | Descrizione |
-|-------|-------------|
-| **Nome feed** | Il nome dell’indicizzatore del feed responsabile della sincronizzazione di un’entità specifica o di una sua parte, ad esempio il prezzo del prodotto o del prodotto. |
-| **Record Source** | Numero di record disponibili per l&#39;esportazione dal database di Commerce. Questo numero può essere maggiore del numero di record visualizzati nell’amministratore di Commerce, in quanto ogni elemento di feed appartiene a un ambito specifico, ad esempio il codice della visualizzazione archivio. |
-| **Record inviati correttamente** | Numero di record trasmessi correttamente a SaaS Commerce per ulteriore elaborazione. Se si sono verificati errori durante la trasmissione, il numero di record trasmessi correttamente ai servizi esterni. |
-| **Record non riusciti** | Numero di record che non è stato possibile esportare e che richiedono attenzione. |
-| **Azione** | Selezionare **[!UICONTROL Details]** per visualizzare l&#39;attività di sincronizzazione per un feed. |
-
-## Dettagli sullo stato di sincronizzazione del feed dati
-
-Dalla pagina di riepilogo dello stato dei feed dati, fare clic su un nome di feed o utilizzare l&#39;azione [!DNL View Details] per accedere a informazioni dettagliate sui singoli record all&#39;interno di un feed.
-
-![[!UICONTROL Data Feed Sync Status - Details] pagina con report sullo stato degli elementi di feed](assets/data-feed-sync-status-details.png)
-
-La vista Dettaglio fornisce le seguenti informazioni per ciascun elemento del feed:
-
-| Campo | Descrizione |
-|-------|-------------|
-| **ID elemento feed** | Identificatore interno del record del feed |
-| **ID entità** | L’ID dell’entità sorgente (ID prodotto, ID categoria e così via) |
-| **Stato esportazione** | [stato di sincronizzazione](#export-status-types) dell&#39;elemento del feed. Stato corrente del tentativo di esportazione con indicatori codificati a colori |
-| **Data ultima sincronizzazione** | Timestamp dell&#39;ultimo invio del record a Commerce Services |
-| **L&#39;entità è stata eliminata?** | Indica se l’entità o la sua parte (ad esempio, prezzo del prodotto o del prodotto) è stata eliminata in Adobe Commerce. Gli elementi vengono visualizzati solo se si è verificato un errore durante la sincronizzazione. |
-| **ID richiesta** | Identificatore univoco della richiesta di sincronizzazione. Fornisci questo ID per il supporto durante la risoluzione dei problemi relativi agli aggiornamenti di entità specifiche. |
-| **Errore** | Informazioni dettagliate sull’errore in caso di mancata sincronizzazione dell’elemento del feed. |
-
-Potete gestire la vista utilizzando i seguenti controlli:
-
-* [!DNL Mass Action] per pianificare la risincronizzazione per gli elementi feed selezionati
-* [!DNL Filters]
-* [!DNL Default View] per creare e salvare una visualizzazione filtrata e passare da una visualizzazione all&#39;altra
-* [!DNL Columns] per mostrare e nascondere le colonne nella tabella.
-
-### Indicatori di salute dei mangimi
-
-Nella parte superiore di ogni pagina dei dettagli dei feed, gli indicatori di integrità critici forniscono lo stato del sistema per ciascun feed:
-
-#### Stato indicizzatore
-
-* **Valido**: dati sincronizzati. Non è richiesta alcuna reindicizzazione.
-* **Non valido**: i dati originali sono stati modificati. L&#39;indice deve essere aggiornato.
-* **Elaborazione**: indicizzazione in corso.
-
->[!TIP]
->
->Per ulteriori informazioni sull&#39;elaborazione dell&#39;indice, vedere l&#39;argomento [Gestione indice](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/tools/index-management).
-
-#### Backlog di Changelog
-
-* **Tutti sincronizzati**: nessuna modifica in sospeso da elaborare
-* **Elementi nel backlog**: numero di modifiche in sospeso in attesa di elaborazione
-
-### Esporta tipi di stato
-
-Il sistema fornisce indicatori di stato che consentono di identificare rapidamente i problemi:
-
-#### Categorie di stato
-
-| **Stato** | **Descrizione** | **Azione richiesta** |
-|--------|-----------|-------------|
-| **Inviato al servizio** | Elemento feed esportato correttamente nel servizio Commerce. | Nessuno |
-| **Operazione non riuscita, verrà eseguito un nuovo tentativo** | Errore temporaneo. Il sistema riproverà automaticamente. | Monitor per la risoluzione |
-| **Operazione non riuscita, richiede attenzione** | Non riuscito a causa di un errore di applicazione o dati. | Esaminare e risolvere il problema nella colonna [!DNL Error] |
-| **In attesa dell&#39;invio** | Accodato per l’esportazione ma non ancora elaborato. | Stato di elaborazione normale |
-
-## Monitorare lo stato del feed dati
-
-Quando si aggiornano entità relative a prodotti e categorie nel database di Commerce, i dati vengono trasferiti ai servizi di Commerce in base alla configurazione del feed. Puoi monitorare questo processo in tempo reale dalla pagina di riepilogo dello stato di sincronizzazione dei feed di dati.
-
->[!IMPORTANT]
->
->Il tempo necessario per completare la sincronizzazione dei dati varia in base alle dimensioni del catalogo, al volume di dati aggiornati e alle prestazioni del servizio esterno.
-
-Quando il numero di record inviati correttamente corrisponde al numero di record di origine, indica che la sincronizzazione è stata completata e che tutti i dati sono stati trasmessi correttamente.
-
->[!NOTE]
->
->Adobe fornisce inoltre strumenti di interfaccia della riga di comando e registri di sistema che gli sviluppatori e gli integratori di sistemi possono utilizzare per gestire e tenere traccia delle operazioni di sincronizzazione. Per informazioni dettagliate, vedere la [Guida all&#39;esportazione dei dati SaaS](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/saas-data-export/overview).
-
-### Gestione delle esportazioni non riuscite
-
-Per visualizzare i dettagli delle esportazioni non riuscite e intraprendere azioni correttive:
-
-1. Nella pagina Stato sincronizzazione feed, individua il feed con record non riusciti.
-1. Fare clic su **[!DNL Details]**.
-
-1. Esaminare i messaggi di errore per motivi specifici.
-
-1. Utilizzare le azioni di massa per pianificare le operazioni di risincronizzazione per gli elementi non riusciti.
-
-### Risincronizzazione dei dati non riuscita
-
-È possibile risincronizzare manualmente i feed di dati con errori o problemi utilizzando il menu [!DNL Actions] nella pagina [!DNL Data Feed Sync Status - Details].
-
-Mentre il sistema esegue automaticamente nuovi tipi di guasti, può essere necessario un intervento manuale nei seguenti scenari:
-
-* Si verificano errori di autenticazione o autorizzazione (codici di stato 401, 403).
-* Dopo aver risolto i problemi di formato dei dati che causavano errori di payload.
-* I seguenti aggiornamenti alle configurazioni di servizio o agli endpoint esterni.
-* Stai distribuendo personalizzazioni che influiscono sui processi di esportazione dei dati.
-
-Monitorando in modo proattivo lo stato dei feed e risolvendo tempestivamente gli errori, puoi mantenere la coerenza e l’affidabilità dei dati nell’ecosistema Commerce.
-
-#### Risincronizza manualmente elementi feed
-
-Se è necessario risincronizzare elementi di feed specifici:
-
-1. **Seleziona record**: utilizzare le caselle di controllo per selezionare i record non riusciti che richiedono attenzione.
-2. **Scegli azione**: seleziona **[!DNL Schedule Resync]** dal menu a discesa Azione di massa.
-3. **Conferma**: fare clic su **[!DNL Submit]** e confermare l&#39;operazione di risincronizzazione.
-4. **Monitora risultati**: controlla il messaggio di operazione riuscita e monitora le modifiche di stato.
-
-## Best practice
-
-### Monitoraggio regolare
-
-1. **Controlli giornalieri**: controlla la pagina della panoramica ogni giorno per eventuali feed che mostrano tassi di errore elevati
-1. **Approfondimento settimanale**: esamina lo stato dettagliato dei feed critici (prodotti, prezzi)
-1. **Analisi mensile**: tieni traccia delle tendenze nelle percentuali di successo e nelle prestazioni delle esportazioni
-
-### Risoluzione dei problemi del flusso di lavoro
-
-1. **Identifica problemi**: cerca errori e conteggi di errori elevati
-1. **Verifica stato indicizzatore**: verificare che gli indicizzatori siano validi e che il backlog sia gestibile
-1. **Rivedi dettagli errore**: fai clic sui record con errori per visualizzare messaggi di errore specifici
-1. **Pianifica risincronizzazione**: utilizza azioni di massa per ritentare le esportazioni non riuscite
-1. **Risoluzione monitor**: verificare che gli elementi risincronizzati mostrino uno stato corretto
-
-### Correggi i problemi comuni
-
-#### Elevate percentuali di errori
-
-**Sintomi**: un numero elevato di record indica lo stato &quot;Non riuscito, richiede attenzione&quot;
-
-**Possibili cause**:
-
-* Modifiche alla configurazione del servizio esterno
-* Incompatibilità del formato dei dati
-* Problemi di autenticazione o autorizzazione
-
-**Passaggi di risoluzione**:
-
-1. Verifica lo stato e la configurazione del servizio esterno
-1. Revisione dei messaggi di errore per i modelli
-1. Verifica credenziali di autenticazione
-1. Se necessario, contatta il supporto di servizi esterni
-
-#### Prestazioni di esportazione lente
-
-**Sintomi**: backlog del registro modifiche elevato, aggiornamenti dello stato lenti
-
-**Possibili cause**:
-
-* Problemi di prestazioni dell’indicizzatore
-* Volume di dati elevato
-* Limitazione della frequenza dei servizi esterni
-
-**Passaggi risoluzione**:
-
-1. Controlla lo stato dell’indicizzatore ed esegui di nuovo se non valido
-2. Monitorare i tempi di risposta del servizio esterno
-3. Pianificazione delle esportazioni durante le ore di minore utilizzo
-4. Esaminare le risorse e le prestazioni del sistema
-
-#### Errori di autenticazione
-
-**Sintomi**: codici di stato 401 o 403
-
-**Passaggi risoluzione**:
-
-1. Verifica credenziali API e token
-1. Verifica le autorizzazioni dell’account del servizio esterno
-1. Rinnovare token di autenticazione scaduti
-1. Contattare il provider di servizi per problemi di accesso
+- [Installazione dell’estensione per Adobe Commerce su infrastruttura cloud](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+- [Installare l’estensione su Adobe Commerce on-premise](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 >[!MORELIKETHIS]
 >
->* [Dashboard di gestione dati](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
->* [Guida all&#39;esportazione dei dati SaaS](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/saas-data-export/overview)
+> - [Dashboard di gestione dati](data-dashboard.md)
+> - [Guida all&#39;esportazione dei dati SaaS](https://experienceleague.adobe.com/it/docs/commerce/saas-data-export/overview)
