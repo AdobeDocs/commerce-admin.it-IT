@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1425
 ht-degree: 0%
 
 ---
@@ -58,8 +58,8 @@ Le risorse seguenti forniscono un punto di partenza per consentire ai nuovi uten
 - [Distribuzione di app App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD per le app App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - Guida introduttiva di App Builder/Developer Console
-   - [Guida introduttiva ad App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
-   - [Informazioni su progetti e aree di lavoro](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [Guida introduttiva ad App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
+  - [Informazioni su progetti e aree di lavoro](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
 ## [!DNL Marketplace] credenziali
 
@@ -129,7 +129,7 @@ I problemi di accesso sono in genere correlati a una mancata corrispondenza tra 
 
 ### Domande open source
 
-Il team di supporto per il Marketplace risolve i problemi relativi solo ai siti [commerce.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Domande su Magento Open Source possono essere indirizzate al [Forum della community](https://community.magento.com/) o a [un partner](https://business.adobe.com/it/products/magento/partners.html) che possa fornire assistenza con Magento Open Source.
+Il team di supporto per il Marketplace risolve i problemi relativi solo ai siti [commerce.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Rivolgi le domande su Magento Open Source a un [partner](https://business.adobe.com/it/products/magento/partners.html) che può fornire assistenza con Magento Open Source.
 
 ### Richieste di rimborso
 

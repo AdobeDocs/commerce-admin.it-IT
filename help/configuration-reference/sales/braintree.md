@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 2710
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -34,8 +34,10 @@ ht-degree: 0%
 >
 >**Migrazione di Commerce 2.4:**<br/>
 >Per le versioni di Adobe Commerce e Magento Open Source precedenti alla 2.4.0, si è consigliato agli esercenti di installare e configurare l&#39;estensione ufficiale per l&#39;integrazione dei pagamenti Braintree da [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) per sostituire l&#39;integrazione di base. A partire dalla versione 2.4.0, l’estensione è ora inclusa nella versione core.
-><br/><br/>>Durante la migrazione a Commerce 2.4, i commercianti devono disinstallare l&#39;estensione distribuita nel Marketplace (`paypal/module-braintree` o `gene/module-braintree`) e aggiornare eventuali personalizzazioni del codice per utilizzare lo spazio dei nomi `PayPal_Braintree` invece di `Magento_Braintree`. Le impostazioni di configurazione dell’estensione inclusa nel bundle per Commerce e dell’estensione distribuita su Commerce Marketplace vengono mantenute. I pagamenti inseriti con tali versioni dell&#39;estensione vengono acquisiti, annullati o rimborsati come di consueto.
-><br/><br/>>Se si sta eseguendo l&#39;aggiornamento a Commerce 2.4.0 e non si utilizza l&#39;estensione Commerce Marketplace consigliata nella versione 2.3.x precedente, la funzionalità con più indirizzi non funziona con la versione 2.4.0 di Braintree. Quando un acquirente seleziona _consegna a più indirizzi_ , il metodo di pagamento Braintree non viene visualizzato. L’estensione Commerce Marketplace precedentemente consigliata per 2.3.x presenta questo problema relativo a più indirizzi.
+><br/><br/>
+>Durante la migrazione a Commerce 2.4, i commercianti devono disinstallare l&#39;estensione distribuita nel Marketplace (`paypal/module-braintree` o `gene/module-braintree`) e aggiornare eventuali personalizzazioni del codice per utilizzare lo spazio dei nomi `PayPal_Braintree` invece di `Magento_Braintree`. Le impostazioni di configurazione dell’estensione inclusa nel bundle per Commerce e dell’estensione distribuita su Commerce Marketplace vengono mantenute. I pagamenti inseriti con tali versioni dell&#39;estensione vengono acquisiti, annullati o rimborsati come di consueto.
+><br/><br/>
+>Se stai eseguendo l’aggiornamento a Commerce 2.4.0 e non utilizzi l’estensione Commerce Marketplace consigliata nella versione 2.3.x precedente, la funzione con più indirizzi non funziona con la versione 2.4.0 di Braintree. Quando un acquirente seleziona _consegna a più indirizzi_ , il metodo di pagamento Braintree non viene visualizzato. L’estensione Commerce Marketplace precedentemente consigliata per 2.3.x presenta questo problema relativo a più indirizzi.
 
 {{config}}
 
