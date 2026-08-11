@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Nell&#39;archivio delle [azioni](action-log.md) dell&#39;amministratore sono elencati i file di registro CSV archiviati nel server.
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Nella configurazione è possibile specificare la durata di archiviazione delle voci di registro e la frequenza di archiviazione. Per impostazione predefinita, il nome del file include la data corrente in formato ISO: `yyyyMMddHH`
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Nella configurazione è possibile specificare la durata di archiviazione delle voci di registro e la frequenza di archiviazione. Per impostazione predefinita, il nome del file include la data corrente in formato ISO: `yyyyMMddHH`
 
 >[!NOTE]
 >
