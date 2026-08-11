@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 207d5fac67567c7f83c88d5a430bf24cf3e97828
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 318
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ Visualizza il [Report log azioni](action-log-report.md) per esaminare le azioni 
 ![Configurazione avanzata - registrazione azioni amministratore](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
 Per un elenco dettagliato delle impostazioni di configurazione, vedere [Archiviazione log azioni amministratore](../configuration-reference/advanced/system.md) nel _Riferimento configurazione_.
+
+>[!NOTE]
+>
+>Sulla piattaforma [!DNL Adobe Commerce as a Cloud Service] non è possibile configurare il report del log delle azioni, l&#39;archivio del log delle azioni e il log delle azioni in blocco, ma è possibile esaminare l&#39;output del report dal menu **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;in Amministrazione.
 
 ## Configurare le azioni amministratore per la registrazione
 

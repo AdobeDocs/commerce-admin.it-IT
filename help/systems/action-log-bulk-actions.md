@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: adab8959a614dc1a714ce53f390f2c1f70c27402
 workflow-type: tm+mt
-source-wordcount: 130
+source-wordcount: 157
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Il registro delle azioni in blocco registra i dettagli delle operazioni di massa
 ![Registro azioni in blocco](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## Configurare azioni in blocco
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

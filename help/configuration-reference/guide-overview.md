@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
 workflow-type: tm+mt
-source-wordcount: 264
-ht-degree: 0%
+source-wordcount: 624
+ht-degree: 49%
 
 ---
 
@@ -45,7 +45,7 @@ Questa guida è organizzata in base alla navigazione a sinistra della configuraz
 | **[!UICONTROL Sales]** <br/><br/>Le impostazioni di configurazione di _[!UICONTROL Sales]_&#x200B;determinano le impostazioni di pagamento e imposte, le opzioni di pagamento e spedizione, le e-mail di vendita e i documenti stampati di PDF e le impostazioni API di Google. | - [[!UICONTROL Sales]](./sales/sales.md)<br>- [[!UICONTROL Sales Emails]](./sales/sales-emails.md)<br>- [[!UICONTROL Quotes]](./sales/quotes.md)<br>- [[!UICONTROL PDF Print-outs]](./sales/pdf-print-outs.md)<br>- [[!UICONTROL Tax]](./sales/tax.md)<br>- [[!UICONTROL Checkout]](./sales/checkout.md)<br>- [[!UICONTROL Shipping Settings]](./sales/shipping-settings.md)<br>- [[!UICONTROL Multishipping Settings]](./sales/multishipping-settings.md)<br>- [[!UICONTROL Delivery Methods]](./sales/delivery-methods.md)<br>- [[!UICONTROL Google API]](./sales/google-api.md)<br>- [[!UICONTROL 3D Secure]](./sales/3d-secure.md)<br>- [[!UICONTROL Gift Cards]](./sales/gift-cards.md)<br>- [[!UICONTROL Payment Methods]](./sales/payment-methods.md) |
 | **[!UICONTROL Sales Channels]** <br/><br/>Quando l&#39;estensione [!DNL Amazon Sales Channel] è installata, le impostazioni di _[!UICONTROL Sales Channels]_&#x200B;controllano le operazioni di integrazione automatizzata con l&#39;archivio Amazon. | - [[!UICONTROL Global Settings]](sales-channels.md) |
 | **[!UICONTROL Services]** <br/><br/>Le impostazioni di configurazione _[!UICONTROL Services]_&#x200B;determinano le impostazioni di integrazione API di Commerce, inclusi SOAP e OAuth. | - [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md) |
-| **[!UICONTROL Advanced]** <br/><br/>Le impostazioni di configurazione di _[!UICONTROL Advanced]_&#x200B;determinano le impostazioni di amministrazione predefinite, le varie impostazioni di configurazione del sistema, i controlli dei moduli avanzati e gli strumenti per sviluppatori. | - [[!UICONTROL Admin]](./advanced/admin.md)<br>- [[!UICONTROL System]](./advanced/system.md)<br>- [[!UICONTROL Developer]](./advanced/developer.md) |
+| **[!UICONTROL Advanced]** <br/><br/>Le impostazioni di configurazione di _[!UICONTROL Advanced]_&#x200B;determinano le impostazioni di amministrazione predefinite, le varie impostazioni di configurazione del sistema, i controlli dei moduli avanzati e gli strumenti per sviluppatori. | - [[!UICONTROL Admin]](./advanced/admin.md) [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}<br>- [[!UICONTROL System]](./advanced/system.md) [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}<br>- [[!UICONTROL Developer]](./advanced/developer.md) |
 
 {style="table-layout:auto"}
 

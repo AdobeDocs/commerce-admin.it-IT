@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 756e3b7f8c70e0b3fc6f30691a15bd7e20517655
 workflow-type: tm+mt
-source-wordcount: 160
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -29,13 +29,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Nell&#39;archivio delle [azioni](action-log.md) dell&#39;amministratore sono elencati i file di registro CSV archiviati nel server. Nella configurazione, è possibile specificare la durata di memorizzazione delle voci di registro e la frequenza di archiviazione. Per impostazione predefinita, il nome del file include la data corrente in formato ISO: `yyyyMMddHH`
+Nell&#39;archivio delle [azioni](action-log.md) dell&#39;amministratore sono elencati i file di registro CSV archiviati nel server.
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Nella configurazione è possibile specificare la durata di archiviazione delle voci di registro e la frequenza di archiviazione. Per impostazione predefinita, il nome del file include la data corrente in formato ISO: `yyyyMMddHH`
 
 >[!NOTE]
 >
 >L&#39;archiviazione dei registri richiede la configurazione di un [processo cron](cron.md).
 
 ## Configurare l’archivio dei registri
+
+badgePaas: label=&quot;Solo PaaS&quot; type=&quot;Informativo&quot; url=&quot;https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions&quot; tooltip=&quot;Si applica solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise.&quot;
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
