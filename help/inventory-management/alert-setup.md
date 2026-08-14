@@ -1,26 +1,17 @@
 ---
 title: Avvisi sui prodotti
-description: Scopri gli avvisi sui prodotti e come utilizzarli per informare i clienti sullo stato delle scorte e sulle modifiche dei prezzi dei prodotti.
+description: Imposta avvisi sui prodotti in magazzino e sul prezzo, modelli e-mail ed esegui le impostazioni nella configurazione del catalogo  [!DNL Inventory Management] .
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 653
+source-wordcount: 650
 ht-degree: 0%
 
 ---
@@ -35,7 +26,7 @@ I clienti possono abbonarsi a due tipi di avvisi tramite e-mail: avvisi di modif
 
 Quando gli avvisi di modifica del prezzo sono attivati, un collegamento _Notifica quando il prezzo scende_ viene visualizzato in ogni pagina di prodotto. I clienti possono fare clic sul collegamento per iscriversi agli avvisi relativi al prodotto. Agli ospiti viene richiesto di aprire un account con il tuo negozio. Ogni volta che il prezzo cambia o il prodotto diventa speciale, tutti coloro che si sono iscritti all’avviso ricevono un avviso e-mail.
 
-## Avvisi in-stock
+## Avvisi in magazzino
 
 L&#39;avviso di magazzino crea un collegamento denominato _Notifica quando il prodotto è disponibile_ per ogni prodotto esaurito. I clienti possono fare clic sul collegamento per iscriversi all’avviso. Quando il prodotto è di nuovo disponibile, i clienti ricevono una notifica via e-mail che indica che il prodotto è disponibile. I prodotti con avvisi dispongono di una scheda _Avvisi prodotto_ nel pannello Informazioni prodotto che elenca i clienti che si sono abbonati a un avviso.
 
@@ -47,7 +38,7 @@ L&#39;avviso di magazzino crea un collegamento denominato _Notifica quando il pr
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Catalog]** sotto.
 
-1. Fare clic per espandere la sezione _[!UICONTROL Product Alerts]_&#x200B;ed eseguire le operazioni seguenti:
+1. Fare clic per espandere la sezione _[!UICONTROL Product Alerts]_ed eseguire le operazioni seguenti:
 
    ![Avvisi prodotti](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
@@ -98,7 +89,7 @@ Per informazioni più dettagliate sull&#39;utilizzo dei messaggi di posta elettr
 
 1. Fare clic su **[!UICONTROL Save Template]**.
 
-## Impostazioni di esecuzione degli avvisi sui prodotti
+## Impostazioni di esecuzione degli avvisi sul prodotto
 
 Queste impostazioni consentono di selezionare la frequenza con cui [!DNL Commerce] controlla le modifiche che richiedono l&#39;invio di avvisi. Puoi anche selezionare il destinatario, il mittente e il modello per le e-mail inviate se l’invio degli avvisi non riesce.
 

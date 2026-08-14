@@ -1,28 +1,17 @@
 ---
 title: Abilita  [!DNL Inventory Management]
-description: Scopri come abilitare  [!DNL Inventory Management]  a livello di store globale o prodotto.
+description: Abilita o disabilita  [!DNL Inventory Management]  e gestisci le scorte a livello di magazzino o di prodotto per controllare la quantità vendibile e la registrazione evasione.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 309
 ht-degree: 0%
 
 ---
@@ -31,7 +20,12 @@ ht-degree: 0%
 
 Per gestire l&#39;inventario dei prodotti, abilitare [!DNL Inventory Management] a livello di store globale o di prodotto. Quando l&#39;opzione _Gestisci Stock_ è abilitata, [!DNL Inventory Management] tiene traccia automaticamente delle quantità di prodotti disponibili per il sito tramite scorte e origini configurate. Ogni funzione e opzione inizia il tracciamento e il reporting quando è abilitata, senza configurazioni aggiuntive.
 
-L&#39;azienda esegue e aggiorna l&#39;inventario alla velocità delle vendite. Quando i clienti fanno acquisti, ricevi informazioni esatte e aggiornate sulle scorte disponibili per canale di vendita e sorgente. Le quantità disponibili vendute vengono aggiornate per scorta quando i clienti aggiungono prodotti al carrello e completano gli acquisti e quando e gestisci gli ordini, crea spedizioni ed emetti rimborsi. Arrivi di scorte nuove o trasferite aggiornate alle tue fonti, immediatamente disponibili per le vendite online. Gli ordini inevasi vengono completati fino a soglie specificate senza ordini infiniti o configurazioni aggiuntive. È inoltre possibile inserire e completare le spedizioni parziali o complete in una o più origini con suggerimenti, garantendo così il controllo completo dell&#39;evasione degli ordini e delle scorte disponibili.
+Quando [!DNL Inventory Management] è abilitato, l&#39;inventario viene aggiornato con l&#39;attività di vendita:
+
+- Le quantità vendibili vengono aggiornate per scorta quando i clienti aggiungono prodotti ai carrelli, completano il pagamento e spediscono o rimborsano gli ordini.
+- Le scorte nuove o trasferite presso un&#39;origine diventano disponibili per le vendite online dopo l&#39;aggiornamento delle quantità.
+- I backorder rispettano le soglie configurate senza impostazioni aggiuntive.
+- È possibile creare spedizioni parziali o complete da una o più origini utilizzando le raccomandazioni dell&#39;algoritmo o la selezione manuale dell&#39;origine.
 
 >[!NOTE]
 >
