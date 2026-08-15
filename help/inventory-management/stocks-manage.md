@@ -1,6 +1,6 @@
 ---
-title: Gestisci scorte
-description: Scopri come le scorte vengono utilizzate per rappresentare un inventario virtuale e aggregato dei prodotti per le origini dei canali di vendita.
+title: Gestisci azioni
+description: Gestisci le scorte nell’amministratore per mappare le origini ai canali di vendita, assegnare priorità all’evasione e mantenere accurata la quantità vendibile.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
 product_v2:
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: 522
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Per un&#39;installazione in più store, il magazzino predefinito viene inizialme
 |--|--|
 | [!UICONTROL Add New Stock] | Apre il modulo _[!UICONTROL New Stock]_&#x200B;utilizzato per immettere una nuova scorta di magazzino per la mappatura del magazzino al canale di vendita. |
 
-## Descrizioni delle colonne Gestisci scorte
+## Gestire le descrizioni delle colonne delle scorte
 
 | Colonna | Descrizione |
 |--|--|

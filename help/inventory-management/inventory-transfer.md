@@ -1,6 +1,6 @@
 ---
 title: Trasferisci magazzino all'origine
-description: Scopri in che modo i commercianti multi-sorgente possono trasferire l’inventario dei prodotti da una posizione di origine a un’altra.
+description: Trasferisci quantità di prodotti esistenti tra  [!DNL Inventory Management]  origini quando si modificano le ubicazioni di evasione.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/HV6GQjHa88xgcSAi-LXhyqe7k2QW95VzQ8eG2mGlJ8I
@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-10-26
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 282
+source-wordcount: 278
 ht-degree: 0%
 
 ---

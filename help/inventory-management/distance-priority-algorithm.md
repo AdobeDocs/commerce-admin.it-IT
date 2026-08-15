@@ -1,6 +1,6 @@
 ---
 title: Configurare l'algoritmo di priorità della distanza
-description: Impostare la configurazione per confrontare l'ubicazione dell'indirizzo di destinazione di spedizione con le ubicazioni di origine per determinare l'origine più vicina per evadere le spedizioni.
+description: Configurate l'algoritmo di selezione della priorità di distanza di Source utilizzando Google Maps o i geocodici offline per consigliare l'origine più vicina.
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/hImn3RZ89qP2ysFEM8lx-plNpFzx9ogMuj92kKqC3Eg
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 876
 ht-degree: 0%
 
 ---

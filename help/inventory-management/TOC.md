@@ -1,14 +1,14 @@
 ---
 user-guide-title: Guida utente di [!DNL Inventory Management]
-user-guide-description: Scopri come utilizzare le  [!DNL Inventory Management] funzionalità per mantenere le quantità per le vendite e gestire le spedizioni per completare [!DNL Commerce] gli ordini.
+user-guide-description: Scopri come utilizzare  [!DNL Inventory Management] per gestire scorte, origini e quantità, configurare le impostazioni nell'interfaccia di amministrazione o della riga di comando e gestire ordini e spedizioni per il tuo [!DNL Commerce] archivio.
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
 nudge: true
-source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '154'
+ht-degree: 5%
 
 ---
 
@@ -19,44 +19,44 @@ ht-degree: 6%
 - [Introduzione a  [!DNL Inventory Management]](introduction.md)
 - [Note sulla versione](release-notes.md)
 - Nozioni di base sull’inventario {#basics}
-   - [Fonti e scorte](sources-stocks.md)
-   - [Selezione Source e prenotazioni](selection-reservations.md)
-   - [Stato ordine e prenotazione](order-status.md)
-   - [Tipi di prodotto](product-types.md)
+  - [Fonti e scorte](sources-stocks.md)
+  - [Selezione Source e prenotazioni](selection-reservations.md)
+  - [Stato ordine e prenotazione](order-status.md)
+  - [Tipi di prodotto](product-types.md)
 - Introduzione {#get-started}
-   - [Aggiornamenti Commerce](migrate.md)
-   - [Installare e aggiornare](install-update.md)
-   - [Acquisti per esercenti](merchant-sourcing.md)
-   - [Espandere e ristrutturare l&#39;inventario](expand-restructure.md)
+  - [Aggiornamenti Commerce](migrate.md)
+  - [Installare e aggiornare](install-update.md)
+  - [Acquisti per esercenti](merchant-sourcing.md)
+  - [Espandere e ristrutturare l&#39;inventario](expand-restructure.md)
 - Configurazione {#configuration}
-   - [Panoramica](configuration.md)
-   - [Abilita  [!DNL Inventory Management]](enable.md)
-   - [Configurare le opzioni globali](global-options.md)
-   - [Configurare le opzioni prodotto](product-options.md)
-   - [Configurare gli ordini arretrati](backorders.md)
-   - [Configurare la priorità dell’origine](source-priority-algorithm.md)
-   - [Configura priorità distanza](distance-priority-algorithm.md)
-   - Avvisi sui prodotti {#product-alerts}
-      - [Configurare gli avvisi sui prodotti](alert-setup.md)
-      - [Scenari di messaggi azionari](stock-messages.md)
+  - [Panoramica](configuration.md)
+  - [Abilita  [!DNL Inventory Management]](enable.md)
+  - [Configurare le opzioni globali](global-options.md)
+  - [Configurare le opzioni prodotto](product-options.md)
+  - [Configurare gli ordini arretrati](backorders.md)
+  - [Configurare la priorità dell’origine](source-priority-algorithm.md)
+  - [Configura priorità distanza](distance-priority-algorithm.md)
+  - Avvisi sui prodotti {#product-alerts}
+    - [Configurare gli avvisi sui prodotti](alert-setup.md)
+    - [Scenari di messaggi azionari](stock-messages.md)
 - Gestire le origini {#sources}
-   - [Panoramica](sources-manage.md)
-   - [Aggiungi origini](sources-add.md)
-   - [Disabilita origini](sources-disable.md)
+  - [Panoramica](sources-manage.md)
+  - [Aggiungi origini](sources-add.md)
+  - [Disabilita origini](sources-disable.md)
 - Gestisci scorte {#stocks}
-   - [Panoramica](stocks-manage.md)
-   - [Aggiungi scorte](stocks-add.md)
-   - [Assegna priorità alle origini per gli stock](stocks-prioritize-sources.md)
-   - [Elimina scorte](stocks-delete.md)
+  - [Panoramica](stocks-manage.md)
+  - [Aggiungi scorte](stocks-add.md)
+  - [Assegna priorità alle origini per gli stock](stocks-prioritize-sources.md)
+  - [Elimina scorte](stocks-delete.md)
 - Gestire le quantità di magazzino {#quantities}
-   - [Panoramica](quantities-manage.md)
-   - [Assegna origini per prodotto](sources-assign-per-product.md)
-   - [Assegna quantità per prodotto](quantities-assign-per-product.md)
-   - [Assegnazione in blocco e annullamento dell&#39;assegnazione](bulk-assignment.md)
-   - [Trasferisci magazzino all&#39;origine](inventory-transfer.md)
-   - [Importare ed esportare le scorte](inventory-import-export.md)
+  - [Panoramica](quantities-manage.md)
+  - [Assegna origini per prodotto](sources-assign-per-product.md)
+  - [Assegna quantità per prodotto](quantities-assign-per-product.md)
+  - [Assegnazione in blocco e annullamento dell&#39;assegnazione](bulk-assignment.md)
+  - [Trasferisci magazzino all&#39;origine](inventory-transfer.md)
+  - [Importare ed esportare le scorte](inventory-import-export.md)
 - Gestione di ordini e spedizioni {#orders}
-   - [Panoramica](shipments.md)
-   - [Crea spedizioni](shipments-create.md)
+  - [Panoramica](shipments.md)
+  - [Crea spedizioni](shipments-create.md)
 - [Riferimento CLI](cli.md)
 - [Torna a Guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it)

@@ -1,6 +1,6 @@
 ---
 title: Espandere e ristrutturare l'inventario
-description: Scopri come espanderlo a un commerciante multi-sorgente o ridurlo a un commerciante single-source.
+description: Espandere l'inventario da fonte singola a più origini o ristrutturarlo di nuovo in un'unica origine quando l'azienda cambia.
 exl-id: 880474e3-6533-4b2f-adf7-4312787ff736
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/w4TV-BQrg0RzlHn4DVSdHFPD2M5CF11wA7I5OyA7jsY
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 219
+source-wordcount: 221
 ht-degree: 0%
 
 ---

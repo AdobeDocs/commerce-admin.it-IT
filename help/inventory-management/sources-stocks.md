@@ -1,6 +1,6 @@
 ---
 title: Scorte e fonti
-description: Scopri le relazioni tra prodotti, origini e stock.
+description: Scopri come le scorte e le origini si relazionano in [!DNL Inventory Management] in modo che le quantità vendibili sul tuo [!DNL Commerce] magazzino corrispondano all'inventario fisico.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
 product_v2:
@@ -17,22 +17,22 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 788
 ht-degree: 0%
 
 ---
 
 # Scorte e fonti
 
-Gestione dell&#39;inventario indipendentemente dall&#39;ubicazione del magazzino, dal tipo di prodotto o servizio o dal canale di vendita. evadere ordini e spedire prodotti da più magazzini, magazzini fisici, centri di distribuzione e spedizione diretta per completare gli ordini con particolare attenzione a scorte equilibrate, costi di spedizione e altro ancora.
+Gestione dell&#39;inventario indipendentemente dall&#39;ubicazione del magazzino, dal tipo di prodotto o servizio o dal canale di vendita. Consente di evadere ordini e spedire prodotti da più ubicazioni per completare gli ordini, con particolare attenzione alle scorte bilanciate, ai costi di spedizione e altro ancora.
 
 Queste descrizioni includono prodotti, fonti e scorte per una società di biciclette con più sedi di spedizione e siti web negli Stati Uniti e in Europa.
 
 ## Sorgenti
 
-[Le origini](sources-manage.md) sono le ubicazioni fisiche in cui l&#39;inventario dei prodotti viene gestito e spedito per l&#39;evasione degli ordini o in cui sono disponibili i servizi. Queste sedi possono includere magazzini, negozi fisici, centri di distribuzione e corrieri diretti. [!DNL Commerce] utilizza le quantità e le quantità vendibili per magazzino e gestisce automaticamente le quantità di magazzino per i prodotti e gli ordini gestiti. Se hai una sola origine, sei considerato in modalità _single-source_. Se hai più sorgenti, sei considerato in modalità _multi-source_.
+Un&#39;origine [source](sources-manage.md) è un&#39;ubicazione fisica in cui l&#39;inventario dei prodotti viene gestito e spedito per l&#39;evasione degli ordini o in cui sono disponibili servizi. [!DNL Commerce] utilizza le quantità e le quantità vendibili per magazzino e gestisce automaticamente le quantità di magazzino per i prodotti e gli ordini gestiti. Se hai una sola origine, sei considerato in modalità _single-source_. Se hai più sorgenti, sei considerato in modalità _multi-source_.
 
 Un&#39;origine può avere la priorità nell&#39;ambito delle scorte in un magazzino, ma non necessariamente in tutti i magazzini, poiché l&#39;origine può essere riutilizzata in scorte diverse. Il numero di scorte e di origini aumenta la complessità per determinare il magazzino o il negozio migliore per evadere un ordine. È possibile, ad esempio, che un numero limitato di prodotti sia disponibile presso le sedi principali con un ampio inventario nei magazzini e nei servizi in sedi chiave con disponibilità limitata.
 
@@ -76,8 +76,8 @@ Di seguito sono riportate alcune opzioni importanti da comprendere per [!DNL Inv
 >
 >Il valore Soglia scorte esaurite supporta gli importi negativi e positivi. Se abiliti gli ordini in inevaso, imposta questo valore su un importo negativo per il numero massimo di prodotti che possono essere messi in inevaso prima che il prodotto sia considerato esaurito.
 
-## Demo di Inventory management
+## Demo
 
-Guarda questo video per scoprire le origini e le scorte di Inventory management:
+Guarda questo video per saperne di più sulle origini e le scorte di [!DNL Inventory Management]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410197?captions=ita&quality=12&learn=on)

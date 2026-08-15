@@ -1,6 +1,6 @@
 ---
 title: Avvisi sui prodotti
-description: Scopri gli avvisi sui prodotti e come utilizzarli per informare i clienti sullo stato delle scorte e sulle modifiche dei prezzi dei prodotti.
+description: Imposta avvisi sui prodotti in magazzino e sul prezzo, modelli e-mail ed esegui le impostazioni nella configurazione del catalogo  [!DNL Inventory Management] .
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 653
+source-wordcount: 650
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ I clienti possono abbonarsi a due tipi di avvisi tramite e-mail: avvisi di modif
 
 Quando gli avvisi di modifica del prezzo sono attivati, un collegamento _Notifica quando il prezzo scende_ viene visualizzato in ogni pagina di prodotto. I clienti possono fare clic sul collegamento per iscriversi agli avvisi relativi al prodotto. Agli ospiti viene richiesto di aprire un account con il tuo negozio. Ogni volta che il prezzo cambia o il prodotto diventa speciale, tutti coloro che si sono iscritti all’avviso ricevono un avviso e-mail.
 
-## Avvisi in-stock
+## Avvisi in magazzino
 
 L&#39;avviso di magazzino crea un collegamento denominato _Notifica quando il prodotto è disponibile_ per ogni prodotto esaurito. I clienti possono fare clic sul collegamento per iscriversi all’avviso. Quando il prodotto è di nuovo disponibile, i clienti ricevono una notifica via e-mail che indica che il prodotto è disponibile. I prodotti con avvisi dispongono di una scheda _Avvisi prodotto_ nel pannello Informazioni prodotto che elenca i clienti che si sono abbonati a un avviso.
 
@@ -98,7 +98,7 @@ Per informazioni più dettagliate sull&#39;utilizzo dei messaggi di posta elettr
 
 1. Fare clic su **[!UICONTROL Save Template]**.
 
-## Impostazioni di esecuzione degli avvisi sui prodotti
+## Impostazioni di esecuzione degli avvisi sul prodotto
 
 Queste impostazioni consentono di selezionare la frequenza con cui [!DNL Commerce] controlla le modifiche che richiedono l&#39;invio di avvisi. Puoi anche selezionare il destinatario, il mittente e il modello per le e-mail inviate se l’invio degli avvisi non riesce.
 

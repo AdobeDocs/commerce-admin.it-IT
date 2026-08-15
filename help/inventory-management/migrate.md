@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Commerce] aggiornamenti'
-description: Scopri in che modo gli aggiornamenti di Adobe Commerce e Magento Open Source influiscono sulle configurazioni del catalogo e  [!DNL Inventory Management] .
+description: Scopri in che modo l’aggiornamento a Adobe Commerce 2.4.x influisce sul comportamento dell’inventario dei cataloghi, delle scorte e dei  [!DNL Inventory Management]  moduli.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 TQID: https://experienceleague.adobe.com/rAnH5pJjtg4ujbQdHow-B6urN090iTTt19mv4sadVnc
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ee163e043412ee9719458f2660e116050afa0d1f
 workflow-type: tm+mt
-source-wordcount: 749
+source-wordcount: 754
 ht-degree: 0%
 
 ---
@@ -41,21 +41,21 @@ Quando installi Magento Open Source 2.4.x o Adobe Commerce 2.4.x, si verificano 
   >
   >L&#39;utilizzo delle azioni predefinite e del Source predefinito è sconsigliato perché fanno parte del modulo `CatalogInventory`, che è ora obsoleto. Al suo posto, si consiglia di creare e utilizzare scorte e origini personalizzate.
 
-   - Le scorte forniscono una quantità di vendita virtuale aggregata con prenotazioni per tenere traccia di carrelli e ordini, garantendo il pagamento simultaneo.
+  - Le scorte forniscono una quantità di vendita virtuale aggregata con prenotazioni per tenere traccia di carrelli e ordini, garantendo il pagamento simultaneo.
 
-   - Tutti i prodotti esistenti nel catalogo vengono assegnati al Source predefinito. Fino a quando non aggiungi nuove sorgenti, l’interfaccia del prodotto non cambia. Se i prodotti vengono spediti da una sola ubicazione, non vi sono altre differenze per le origini. È possibile creare [origini](sources-add.md) e [assegnare quantità](quantities-manage.md) personalizzate per ubicazione di spedizione.
+  - Tutti i prodotti esistenti nel catalogo vengono assegnati al Source predefinito. Fino a quando non aggiungi nuove sorgenti, l’interfaccia del prodotto non cambia. Se i prodotti vengono spediti da una sola ubicazione, non vi sono altre differenze per le origini. È possibile creare [origini](sources-add.md) e [assegnare quantità](quantities-manage.md) personalizzate per ubicazione di spedizione.
 
-   - È possibile configurare un&#39;origine come ubicazione di prelievo e [assegnare quantità](quantities-manage.md) per tale origine.
+  - È possibile configurare un&#39;origine come ubicazione di prelievo e [assegnare quantità](quantities-manage.md) per tale origine.
 
-   - Il tuo sito web assegna al titolo predefinito. Puoi creare [scorte](stocks-add.md) personalizzate per collegare i canali di vendita (siti Web) e le origini (località).
+  - Il tuo sito web assegna al titolo predefinito. Puoi creare [scorte](stocks-add.md) personalizzate per collegare i canali di vendita (siti Web) e le origini (località).
 
 - [opzioni di configurazione](configuration.md) aggiuntive aggiunte ai prodotti e all&#39;archivio globale. Alcune opzioni di configurazione esistenti ricevono opzioni e comportamenti aggiornati:
 
-   - Notify for Quantity Below invia notifiche e deduce dalla Quantità vendibile.
+  - Notify for Quantity Below invia notifiche e deduce dalla Quantità vendibile.
 
-   - La soglia esaurita supporta gli importi positivi, zero e negativi. Con gli ordini inevasi abilitati, gli importi positivi vengono ignorati, considerati zero (o infinito).
+  - La soglia esaurita supporta gli importi positivi, zero e negativi. Con gli ordini inevasi abilitati, gli importi positivi vengono ignorati, considerati zero (o infinito).
 
-   - Gli ordini in inevaso supportano gli importi zero (infinito) e negativi. Se l&#39;opzione è abilitata, la notifica per la quantità seguente non viene dedotta dalla quantità di vendita.
+  - Gli ordini in inevaso supportano gli importi zero (infinito) e negativi. Se l&#39;opzione è abilitata, la notifica per la quantità seguente non viene dedotta dalla quantità di vendita.
 
 - Le nuove prenotazioni tengono traccia delle vendite potenziali, convertendo in detrazioni di quantità quando l&#39;ordine viene spedito. Non puoi mai accedere o creare prenotazioni direttamente. [!DNL Commerce] crea e gestisce le prenotazioni dietro le quinte tramite ordini, spedizioni e note di credito.
 

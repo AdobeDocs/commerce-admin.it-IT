@@ -1,6 +1,6 @@
 ---
 title: Gestire le quantità di magazzino
-description: Scopri come assegnare origini e quantità per nuovi prodotti o modificare prodotti esistenti.
+description: Panoramica delle procedure di amministrazione per assegnare origini e quantità per origine per i prodotti nuovi ed esistenti in [!DNL Inventory Management].
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8
@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # Gestire le quantità di magazzino
 
-Le informazioni seguenti spiegano come assegnare le origini e le quantità per i nuovi prodotti o modificare quelli esistenti.
+Per assegnare le origini e le quantità per i prodotti nuovi o esistenti, attenersi alle linee guida riportate di seguito.
 
 Durante la creazione dei prodotti, assegna origini e quantità. Per istruzioni complete, consulta [Creare un prodotto](../catalog/product-create.md). Queste pagine includono informazioni provenienti da una o più origini per le origini e le quantità per origine.
 

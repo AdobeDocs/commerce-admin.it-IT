@@ -1,6 +1,6 @@
 ---
 title: Gestisci origini inventario
-description: Scopri le origini e come definiscono le ubicazioni fisiche in cui viene gestito e spedito l’inventario dei prodotti per l’evasione degli ordini o dove sono disponibili i servizi.
+description: Panoramica delle attività di amministrazione per aggiungere, modificare, abilitare e disabilitare  [!DNL Inventory Management]  origini che archiviano e spediscono l'inventario dei prodotti.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
 product_v2:
@@ -17,16 +17,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 623
 ht-degree: 0%
 
 ---
 
 # Gestire le origini
 
-Le origini sono le ubicazioni fisiche in cui l&#39;inventario dei prodotti viene gestito e spedito per l&#39;evasione degli ordini o in cui sono disponibili i servizi. Tali ubicazioni possono includere magazzini, magazzini fisici, centri di distribuzione, punti di prelievo e corrieri. Le quantità di magazzino vengono allocate a queste origini e [!DNL Commerce] aggrega automaticamente il totale dei prodotti vendibili per le scorte. Per le grandi aziende, aggiungi più origini per tutte le posizioni: in diverse posizioni geografiche per paese e continente, posizioni in una città, in base al tipo di inventario, anche in base ai servizi.
+Utilizzare questo argomento per aggiungere, modificare, abilitare e disabilitare le origini. Per informazioni sulla relazione tra le origini e le scorte e la quantità vendibile, vedere [Scorte e origini](sources-stocks.md).
 
 Durante la creazione di un’origine, si consiglia di fornire posizioni geografiche fisiche specifiche. Questo consente all&#39;algoritmo di priorità della distanza _1_ di confrontare l&#39;ubicazione dell&#39;indirizzo di destinazione della spedizione con le posizioni di origine disponibili per determinare l&#39;origine più vicina per evadere le spedizioni. È possibile utilizzare Mappe Google o calcoli offline, che utilizzano i geocodici. Per ulteriori informazioni su questo _algoritmo di priorità della distanza_, vedere [Configurare l&#39;algoritmo di priorità della distanza](distance-priority-algorithm.md).
 

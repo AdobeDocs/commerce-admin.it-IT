@@ -1,6 +1,6 @@
 ---
 title: Aggiungi un'origine inventario
-description: Scopri come creare un’origine per un’ubicazione, ad esempio un magazzino, un magazzino, un centro di distribuzione o uno spedizioniere.
+description: Aggiungi un'origine  [!DNL Inventory Management]  nell'amministratore per un magazzino, un archivio, un centro di distribuzione o un altro percorso di evasione.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: 858
 ht-degree: 0%
 
 ---
 
 # Aggiungi un&#39;origine
 
-Gestire l&#39;evasione di scorte e ordini da più ubicazioni con origini personalizzate. Creare un&#39;origine per ogni posizione, ad esempio magazzini, magazzini fisici, centri di distribuzione e corrieri diretti. Assegna origini e aggiorna quantità per prodotto
+Gestire l&#39;evasione di scorte e ordini da più ubicazioni con origini personalizzate. Creare un&#39;origine per ogni posizione, ad esempio magazzini, magazzini fisici, centri di distribuzione e corrieri diretti. Assegna origini e aggiorna quantità per prodotto.
 
 Se si modifica il Source predefinito, è possibile modificare tutte le configurazioni ad eccezione del nome e del codice. È consigliabile che i commercianti single-source aggiungano informazioni corrispondenti alla loro posizione.
 

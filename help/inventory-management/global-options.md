@@ -1,6 +1,6 @@
 ---
 title: Configura [!DNL Inventory Management] opzioni globali
-description: Scopri come configurare le opzioni di configurazione  [!DNL Inventory Management]  predefinite per prodotto e stock per i siti web.
+description: Configura le impostazioni del catalogo globale [!DNL Inventory Management] per le opzioni di magazzino dei prodotti, le soglie e la visualizzazione della vetrina in tutti i siti Web.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
@@ -18,14 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 657
 ht-degree: 1%
 
 ---
 
 # Configura [!DNL Inventory Management] opzioni globali
+
+Queste impostazioni globali si applicano all&#39;intero catalogo in **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**.
 
 Configura le opzioni di configurazione predefinite per prodotto e magazzino per i siti web. Alcune di queste impostazioni possono essere ignorate per prodotto tramite [Configurazione delle opzioni di prodotto](product-options.md). Per configurare le impostazioni di priorità della distanza, vedere [Configurazione dell&#39;algoritmo di priorità della distanza](distance-priority-algorithm.md).
 
