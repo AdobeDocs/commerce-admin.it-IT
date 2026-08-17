@@ -4,14 +4,14 @@ description: Utilizzare la griglia [!UICONTROL Customers] per trovare qualsiasi 
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
 
 # Gestire gli account cliente
 
-Utilizzare la griglia _[!UICONTROL Customers]_&#x200B;per trovare un account cliente. È possibile utilizzare i [controlli area di lavoro](../getting-started/admin-workspace.md) standard per filtrare l&#39;elenco, modificare il layout [colonna](../getting-started/admin-grid-controls.md), salvare le visualizzazioni ed esportare i dati. Il controllo [Actions](../getting-started/admin-actions-control.md) sopra la griglia può essere utilizzato per applicare un&#39;operazione a più record cliente.
+Utilizzare la griglia _[!UICONTROL Customers]_per trovare un account cliente. È possibile utilizzare i [controlli area di lavoro](../getting-started/admin-workspace.md) standard per filtrare l&#39;elenco, modificare il layout [colonna](../getting-started/admin-grid-controls.md), salvare le visualizzazioni ed esportare i dati. Il controllo [Actions](../getting-started/admin-actions-control.md) sopra la griglia può essere utilizzato per applicare un&#39;operazione a più record cliente.
 
 ![Tutti i clienti](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
@@ -108,7 +108,7 @@ L&#39;istruzione precedente esporta tutti gli account cliente. Se desideri espor
 | **[!UICONTROL Confirmed Email]** | Indica se è necessario un messaggio e-mail di conferma. |
 | **[!UICONTROL Account Created In]** | Indica la visualizzazione del punto vendita da cui è stato creato l&#39;account cliente. |
 | **[!UICONTROL Date of Birth]** | La data di nascita del cliente. In linea con le attuali best practice in materia di sicurezza e privacy, tieni presente eventuali rischi legali e di sicurezza associati all’archiviazione della data di nascita completa (mese, giorno, anno) dei clienti con altri identificatori personali. Si consiglia di limitare la memorizzazione delle date di nascita complete dei clienti e, in alternativa, di utilizzare l’anno di nascita del cliente. |
-| **[!UICONTROL Tax / VAT Number]** | Se applicabile, il codice fiscale o il numero [dell&#39;imposta sul valore aggiunto](../stores-purchase/vat.md) assegnato al cliente. <br/><br/> Questo campo non corrisponde al numero di partita IVA. |
+| **[!UICONTROL Tax / VAT Number]** | Se applicabile, il codice fiscale o il numero [dell&#39;imposta sul valore aggiunto](../stores-purchase/vat.md) assegnato al cliente. <br/><br/> Questo campo non corrisponde alla partita IVA. |
 | **[!UICONTROL Gender]** | Il genere del cliente. |
 | **[!UICONTROL Action]** | Modifica: apre l’account società in modalità di modifica. |
 
@@ -128,7 +128,7 @@ Queste colonne sono disponibili modificando il [layout colonna](../getting-start
 | **[!UICONTROL Billing Lastname]** | Cognome nell’indirizzo di fatturazione del cliente. |
 | **[!UICONTROL Billing Address]** | Indirizzo a cui devono essere inviate le informazioni di fatturazione. |
 | **[!UICONTROL Shipping Address]** | Indirizzo dove devono essere spediti gli ordini. |
-| **[!UICONTROL VAT Number]** | Numero di partita IVA associato all&#39;indirizzo del cliente. Per [beni digitali](../stores-purchase/taxes.md) venduti nell&#39;UE, l&#39;IVA si basa sull&#39;indirizzo di fatturazione del cliente. <br/><br/> Questo campo non corrisponde alla partita IVA. |
+| **[!UICONTROL VAT Number]** | Numero di partita IVA associato all&#39;indirizzo del cliente. Per [beni digitali](../stores-purchase/taxes.md) venduti nell&#39;UE, l&#39;IVA si basa sull&#39;indirizzo di fatturazione del cliente. <br/><br/> Questo campo non corrisponde alla partita IVA/imposta. |
 | **[!UICONTROL Account Lock]** | Indica lo stato dell’account. Come misura di sicurezza, gli account cliente possono essere [bloccati](../customers/password-options.md) dopo troppi tentativi di accesso. Valori: `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | Lo stato utente corrente. Opzioni: `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | Classificazione del cliente. Opzioni: `Individual user` / `Company admin` / `Company user` |
