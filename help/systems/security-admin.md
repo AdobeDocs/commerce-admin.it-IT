@@ -4,36 +4,24 @@ description: Scopri come configurare la sicurezza per l’amministratore del tuo
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 865
 ht-degree: 0%
 
 ---
 
 # Configurare la sicurezza dell’amministratore
 
-È consigliabile adottare un approccio multidimensionale per proteggere la sicurezza del negozio. Puoi iniziare utilizzando un [URL amministratore personalizzato](../stores-purchase/store-urls.md#use-a-custom-admin-url) non facile da indovinare, anziché l&#39;ovvio &quot;Amministratore&quot; o &quot;Back-end&quot;. Per impostazione predefinita, le password utilizzate per [accedere](../getting-started/admin-signin.md) all&#39;amministratore devono essere composte da sette o più caratteri e includere sia lettere che numeri. Puoi configurare il requisito della lunghezza minima della password per migliorare la sicurezza in base alle esigenze della tua organizzazione. Come [best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=it), utilizza solo password amministratore complesse che includono una combinazione di lettere, numeri e simboli. Adobe Commerce e Magento Open Source non consentono il riutilizzo delle ultime quattro password assegnate all’account.
+È consigliabile adottare un approccio multidimensionale per proteggere la sicurezza del negozio. Puoi iniziare utilizzando un [URL amministratore personalizzato](../stores-purchase/store-urls.md#use-a-custom-admin-url) non facile da indovinare, anziché l&#39;ovvio &quot;Amministratore&quot; o &quot;Back-end&quot;. Per impostazione predefinita, le password utilizzate per [accedere](../getting-started/admin-signin.md) all&#39;amministratore devono essere composte da sette o più caratteri e includere sia lettere che numeri. Puoi configurare il requisito della lunghezza minima della password per migliorare la sicurezza in base alle esigenze della tua organizzazione. Come [best practice](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), utilizza solo password amministratore complesse che includono una combinazione di lettere, numeri e simboli. Adobe Commerce e Magento Open Source non consentono il riutilizzo delle ultime quattro password assegnate all’account.
 
 La configurazione della sicurezza Admin consente di:
 
@@ -52,7 +40,7 @@ Oltre alle impostazioni di protezione in questa sezione, è necessaria l&#39;aut
 >
 >Gli archivi che hanno abilitato l&#39;autenticazione [!DNL Adobe Identity Management Services] (IMS) hanno Adobe Commerce nativo e Magento Open Source 2FA disabilitati. Gli utenti amministratori che hanno effettuato l’accesso alla propria istanza di Commerce con le credenziali Adobe non devono ripetere l’autenticazione per molte attività di amministrazione. L’autenticazione viene gestita da Adobe IMS quando l’utente amministratore accede alla sessione corrente. Vedi Panoramica sull&#39;integrazione di [[!DNL Adobe Identity Management Service] (IMS)](../getting-started/adobe-ims-integration-overview.md).
 
-Per informazioni tecniche, consulta [Panoramica sulla sicurezza](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} nella documentazione per gli sviluppatori.
+Per informazioni tecniche, consulta [Panoramica sulla sicurezza](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"} nella documentazione per gli sviluppatori.
 
 ![Sicurezza amministratore](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
@@ -103,8 +91,8 @@ Per informazioni tecniche, consulta [Panoramica sulla sicurezza](https://develop
 
    - Imposta **[!UICONTROL Password Change]** su uno dei seguenti:
 
-      - `Forced` - Richiede che gli utenti Admin modifichino le password dopo la configurazione dell&#39;account.
-      - `Recommended` — consiglia agli utenti amministratori di modificare le password dopo la configurazione dell&#39;account.
+     - `Forced` - Richiede che gli utenti Admin modifichino le password dopo la configurazione dell&#39;account.
+     - `Recommended` — consiglia agli utenti amministratori di modificare le password dopo la configurazione dell&#39;account.
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 

@@ -4,29 +4,13 @@ description: Scopri il California Consumer Privacy Act (CCPA), che estende i dir
 exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
 TQID: https://experienceleague.adobe.com/pqTJ5J1--DNbzAWJkZsc1mM9QTFr39kIJ7cxZrjD9eo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-subfeature_v2:
-  - id: ac9e9756-fd8b-40d8-b18a-f0b36d83b5ac
-  - id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0
+subfeature_v2: id: ac9e9756-fd8b-40d8-b18a-f0b36d83b5acid: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 2309
 ht-degree: 0%
@@ -85,7 +69,7 @@ Le aziende che si conformano al RGPD potrebbero avere obblighi aggiuntivi ai sen
 
 È necessario uno sforzo coordinato per sviluppare e attuare un piano volto a garantire la conformità. Utilizza questa roadmap come guida per mobilitare le risorse e assegnare priorità alle attività in modo da poter procedere su più fronti. Il processo è essenzialmente lo stesso per tutte le installazioni di [!DNL Commerce], con la seguente eccezione:
 
-- **Adobe Commerce sull&#39;infrastruttura cloud**: i commercianti con negozi ospitati nell&#39;infrastruttura cloud di Adobe [&#128279;](https://www.adobe.com/commerce/magento.html){:target="_blank"} possono richiedere al proprio Adobe Commerce Technical Account Manager o all&#39;Assistenza clienti assistenza per rispondere alle richieste dei consumatori.
+- **Adobe Commerce sull&#39;infrastruttura cloud**: i commercianti con negozi ospitati nell&#39;infrastruttura cloud di Adobe [](https://www.adobe.com/commerce/magento.html){:target="_blank"} possono richiedere al proprio Adobe Commerce Technical Account Manager o all&#39;Assistenza clienti assistenza per rispondere alle richieste dei consumatori.
 
 - **On-Premise**: i commercianti con installazioni on-premise di Adobe Commerce o Magento Open Source devono sviluppare processi e strumenti propri per rispondere e gestire le richieste dei consumatori relative alle normative sulla privacy.
 
@@ -134,8 +118,8 @@ Crea un inventario delle tue proprietà digitali, comprese tutte le integrazioni
 
 1. Per i diagrammi di flusso dei dati e i mapping di entità di database applicabili a ogni versione, vedere i seguenti argomenti:
 
-   - [Riferimento informazioni personali (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=it)
-   - [Riferimento alle informazioni personali (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=it)
+   - [Riferimento informazioni personali (2.x)](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [Riferimento alle informazioni personali (1.x)](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![diagramma](./assets/privacy-frontend-diagram.svg)
 
@@ -169,8 +153,8 @@ I commercianti sono responsabili di:
 
    - **Richieste da eliminare**
 
-      - I commercianti i cui negozi sono ospitati su Adobe Commerce Cloud devono contattare il supporto Adobe per assistenza nell’eliminazione di informazioni personali. Per ulteriori informazioni, contatta il tuo Adobe Technical Account Manager o l’Assistenza clienti.
-      - I commercianti che eseguono installazioni di Adobe Commerce o Magento Open Source on-premise devono implementare il proprio processo e script per eliminare informazioni personali su richiesta.
+     - I commercianti i cui negozi sono ospitati su Adobe Commerce Cloud devono contattare il supporto Adobe per assistenza nell’eliminazione di informazioni personali. Per ulteriori informazioni, contatta il tuo Adobe Technical Account Manager o l’Assistenza clienti.
+     - I commercianti che eseguono installazioni di Adobe Commerce o Magento Open Source on-premise devono implementare il proprio processo e script per eliminare informazioni personali su richiesta.
 
 #### Passaggio 5: scrivi il contenuto per le notifiche cliente richieste
 
@@ -186,12 +170,12 @@ I commercianti sono responsabili di:
 
    - **Come inviare una richiesta per la raccolta e l&#39;utilizzo di informazioni personali**: istruzioni per l&#39;invio di una richiesta di divulgazione delle informazioni personali raccolte sull&#39;utente, tra cui:
 
-      - Informazioni personali specifiche raccolte sul consumatore
-      - Categorie di informazioni personali raccolte sul consumatore
-      - Categorie di fonti da cui vengono raccolte le informazioni personali
-      - Categorie di informazioni personali sul consumatore che hai venduto o divulgato per uno scopo commerciale
-      - Categorie di terzi a cui le informazioni personali sono state vendute o divulgate per uno scopo aziendale
-      - I motivi per cui la tua azienda raccoglie e/o vende informazioni personali
+     - Informazioni personali specifiche raccolte sul consumatore
+     - Categorie di informazioni personali raccolte sul consumatore
+     - Categorie di fonti da cui vengono raccolte le informazioni personali
+     - Categorie di informazioni personali sul consumatore che hai venduto o divulgato per uno scopo commerciale
+     - Categorie di terzi a cui le informazioni personali sono state vendute o divulgate per uno scopo aziendale
+     - I motivi per cui la tua azienda raccoglie e/o vende informazioni personali
 
 1. Invia il contenuto al team e, se possibile, al tuo consulente legale per una revisione.
 
@@ -215,9 +199,9 @@ Rivedi la tua attuale politica sulla privacy e considera quali informazioni aggi
 
 - **Età del consenso**: se raccogli o utilizzi informazioni personali su minori, potresti essere soggetto ai seguenti requisiti:
 
-   - **Minori &lt; 13**: per i minori di età inferiore ai 13 anni è necessaria l&#39;autorizzazione per i genitori a partecipare alla vendita dei propri dati personali.
+  - **Minori &lt; 13**: per i minori di età inferiore ai 13 anni è necessaria l&#39;autorizzazione per i genitori a partecipare alla vendita dei propri dati personali.
 
-   - **Minori di età compresa tra 13 e &lt; 16**: i minori di età compresa tra almeno 13 e 16 anni possono acconsentire alla vendita delle loro informazioni personali, a condizione che l&#39;azienda stabilisca un processo ragionevole per documentare l&#39;azione. Il processo deve essere descritto nell&#39;[informativa sulla privacy](privacy-policy.md) dell&#39;azienda. Quando un’azienda riceve richieste da minori di questa fascia di età, deve informarli del loro diritto di rinuncia in un secondo momento e spiegare come farlo.
+  - **Minori di età compresa tra 13 e &lt; 16**: i minori di età compresa tra almeno 13 e 16 anni possono acconsentire alla vendita delle loro informazioni personali, a condizione che l&#39;azienda stabilisca un processo ragionevole per documentare l&#39;azione. Il processo deve essere descritto nell&#39;[informativa sulla privacy](privacy-policy.md) dell&#39;azienda. Quando un’azienda riceve richieste da minori di questa fascia di età, deve informarli del loro diritto di rinuncia in un secondo momento e spiegare come farlo.
 
   >[!IMPORTANT]
   >

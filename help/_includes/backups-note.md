@@ -1,9 +1,9 @@
 ---
 title: Nota backup
 description: Nota riutilizzata sui backup
-source-git-commit: 5ade2f23132e634db5e611a5ccfcbc4d6816cf92
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Funzionalità disabilitata:** Backup disabilitato per impostazione predefinita. L’abilitazione di questa funzione potrebbe richiedere l’assistenza degli sviluppatori. Per abilitare i backup, consulta il seguente argomento della _Guida all&#39;installazione_: [Eseguire il backup e il rollback del file system, del supporto e del database](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=it).
+>**Funzionalità disabilitata:** Backup disabilitato per impostazione predefinita. L’abilitazione di questa funzione potrebbe richiedere l’assistenza degli sviluppatori. Per abilitare i backup, consulta il seguente argomento della _Guida all&#39;installazione_: [Eseguire il backup e il rollback del file system, del supporto e del database](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup).
 
 >[!NOTE]
 >

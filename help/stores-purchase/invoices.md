@@ -4,21 +4,12 @@ description: Scopri come creare e stampare fatture per supportare l’elaborazio
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 TQID: https://experienceleague.adobe.com/EGRiNGxTpww0k17-XeVPyrR5h1WDSZnseov8L-Yej-w
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
 ht-degree: 0%
@@ -86,7 +77,7 @@ Quando lo stato dei nuovi ordini è impostato su `Processing`, l&#39;opzione _Fa
 
    >[!NOTE]
    >
-   >L&#39;opzione _[!UICONTROL Invoice]_&#x200B;non viene visualizzata quando l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) per il [metodo di pagamento](../configuration-reference/sales/payment-methods.md) specifico è impostato su `Authorize and Capture`, che genera automaticamente una fattura. Ciò si verifica anche se l&#39;ordine viene effettuato e l&#39;azione di pagamento per il metodo di pagamento è impostata su `Authorize` e l&#39;ordine viene fatturato.
+   >L&#39;opzione _[!UICONTROL Invoice]_non viene visualizzata quando l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) per il [metodo di pagamento](../configuration-reference/sales/payment-methods.md) specifico è impostato su `Authorize and Capture`, che genera automaticamente una fattura. Ciò si verifica anche se l&#39;ordine viene effettuato e l&#39;azione di pagamento per il metodo di pagamento è impostata su `Authorize` e l&#39;ordine viene fatturato.
 
    ![Ordine di vendita fattura](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -100,17 +91,17 @@ Quando lo stato dei nuovi ordini è impostato su `Processing`, l&#39;opzione _Fa
 
    - Includi un numero di tracciamento:
 
-      - Fare clic su **[!UICONTROL Add Tracking Number]**.
-      - Immettere le informazioni di tracciamento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ e _[!UICONTROL Number]_
+     - Fare clic su **[!UICONTROL Add Tracking Number]**.
+     - Immettere le informazioni di tracciamento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ e _[!UICONTROL Number]_
 
      ![Crea una spedizione Fedex](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - Facoltativamente, generare una fattura parziale:
 
-      - Nella sezione _Articoli da fatturare_, aggiornare la colonna **[!UICONTROL Qty to Invoice]** in modo da includere solo elementi specifici nella fattura.
-      - Quindi fare clic su **[!UICONTROL Update Qty's]**.
+     - Nella sezione _Articoli da fatturare_, aggiornare la colonna **[!UICONTROL Qty to Invoice]** in modo da includere solo elementi specifici nella fattura.
+     - Quindi fare clic su **[!UICONTROL Update Qty's]**.
 
-        ![Elementi da fatturare](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+       ![Elementi da fatturare](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. Se per l&#39;ordine è stato utilizzato un metodo di pagamento online, impostare **[!UICONTROL Amount]** sull&#39;opzione appropriata.
 
@@ -146,7 +137,7 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Nella griglia _[!UICONTROL Invoices]_, individuare la fattura e fare clic su **[!UICONTROL View]**&#x200B;nella colonna_ Azione _.
+1. Nella griglia _[!UICONTROL Invoices]_, individuare la fattura e fare clic su **[!UICONTROL View]**nella colonna_ Azione _.
 
 1. Nella parte superiore della fattura, fare clic su **[!UICONTROL Print]** per generare un PDF della fattura.
 
@@ -156,7 +147,7 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Nella griglia _[!UICONTROL Invoices]_&#x200B;selezionare la casella di controllo per ogni fattura da stampare.
+1. Nella griglia _[!UICONTROL Invoices]_selezionare la casella di controllo per ogni fattura da stampare.
 
 1. Impostare il controllo **[!UICONTROL Actions]** su `PDF Invoices`.
 
@@ -166,11 +157,11 @@ Le fatture vengono salvate in un unico file PDF che può essere inviato a una st
 
 ## Importi di acquisizione personalizzati
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Per offrire ai commercianti maggiore flessibilità per acquisizioni parziali e scenari di pagamento specializzati, l’API Fattura supporta importi di acquisizione personalizzati utilizzando gli attributi di estensione.
 
-È possibile effettuare chiamate REST per acquisire un importo personalizzato durante la creazione di una fattura.  Utilizzare l&#39;endpoint REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) e specificare l&#39;importo personalizzato nel campo `extension_attributes.custom_capture_amount` del payload.
+È possibile effettuare chiamate REST per acquisire un importo personalizzato durante la creazione di una fattura.  Utilizzare l&#39;endpoint REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) e specificare l&#39;importo personalizzato nel campo `extension_attributes.custom_capture_amount` del payload.
 
 >[!NOTE]
 >
