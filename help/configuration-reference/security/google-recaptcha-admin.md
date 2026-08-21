@@ -3,7 +3,7 @@ title: '[!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel] dell'amministratore di Commerce.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/hUSNxEvyF010uV6Rp4-osf4azLHtOxtTBSR-XW2m1fA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Prima di configurare Google reCAPTCHA, è necessario assicurarsi che il file `PHP.ini` includa l&#39;impostazione seguente: `allow_url_fopen = 1`. Questo potrebbe richiedere l’assistenza dello sviluppatore. Vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings) nella _Guida all&#39;installazione_.
+>Prima di configurare Google reCAPTCHA, è necessario assicurarsi che il file `PHP.ini` includa l&#39;impostazione seguente: `allow_url_fopen = 1`. Questo potrebbe richiedere l’assistenza dello sviluppatore. Vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/php-settings) nella _Guida all&#39;installazione_.
 
 {{config}}
 

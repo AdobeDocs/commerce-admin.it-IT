@@ -56,5 +56,5 @@ Esistono molte caselle di luce e cursori di terze parti che puoi utilizzare per 
 
 Per assistenza nella risoluzione dei problemi relativi a immagini e video, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
-- [Le immagini del prodotto non vengono visualizzate nonostante i ruoli immagine Modifica prodotto](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26859)
-- [Immagini di archivio non visualizzate dopo la distribuzione](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)
+- [Le immagini del prodotto non vengono visualizzate nonostante i ruoli immagine Modifica prodotto](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [Immagini di archivio non visualizzate dopo la distribuzione](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

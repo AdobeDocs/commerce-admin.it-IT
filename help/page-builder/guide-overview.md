@@ -66,4 +66,4 @@ Non include le funzionalità di base di Adobe Commerce e Magento Open Source.
 
 Per informazioni sulla risoluzione dei problemi relativi a [!DNL Page Builder], vedere i seguenti [!DNL Commerce] articoli della Knowledge Base di supporto:
 
-- [Pagina vuota al salvataggio del modulo DotDigital [!DNL Page Builder] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved)
+- [Pagina vuota al salvataggio del modulo DotDigital [!DNL Page Builder] &#x200B;](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved)

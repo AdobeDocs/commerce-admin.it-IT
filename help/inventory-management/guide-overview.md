@@ -70,5 +70,5 @@ Utilizza articoli di supporto e sistemi di ticket per risolvere rapidamente i pr
 
 Se hai bisogno di informazioni o hai domande che non sono trattate in questa guida, utilizza le risorse seguenti:
 
-- [Lo stato delle scorte non è corretto dopo l&#39;installazione del magazzino](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29910)
-- [Ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) - Invia un ticket per ricevere ulteriore assistenza.
+- [Lo stato delle scorte non è corretto dopo l&#39;installazione del magazzino](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [Ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) - Invia un ticket per ricevere ulteriore assistenza.

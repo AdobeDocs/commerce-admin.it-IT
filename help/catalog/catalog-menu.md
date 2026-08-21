@@ -31,13 +31,13 @@ Il menu [!UICONTROL Catalog] consente di accedere facilmente agli strumenti di c
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 ![Menu Catalogo](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
 
 ![Menu Catalogo](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
@@ -65,7 +65,7 @@ Per i negozi in cui è installato e abilitato Adobe Commerce B2B, [i cataloghi c
 
 ## [!UICONTROL Catalog enrichment]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Utilizza [arricchimento catalogo](catalog-enrichment.md) per rivedere e applicare i miglioramenti suggeriti dall&#39;intelligenza artificiale ai nomi dei prodotti e alle descrizioni lunghe in modo che il catalogo sia rappresentato con precisione in LLM e nell&#39;individuazione assistita dall&#39;intelligenza artificiale.
 

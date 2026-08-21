@@ -3,7 +3,7 @@ title: Disattivare l’integrazione dell’amministratore di Commerce con Adobe 
 description: Segui questa procedura facoltativa per disabilitare l’integrazione Amministratore Adobe Commerce con Adobe IMS.
 exl-id: 0cd02b23-873e-4e65-ae1f-dbe4f7d0a476
 feature: Identity Management
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/KL6Cx3ymElo7ROx5SUJtlqtKivnw7-heqPWGksGP-pg
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -65,5 +65,5 @@ Guarda questo video per scoprire come Adobe Commerce e AEM Assets collaborano pe
 
 ## Supporto
 
-Se hai bisogno di informazioni o se hai domande non trattate in questa guida, contatta il tuo rappresentante commerciale per l&#39;integrazione di AEM Assets o crea un [ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) per ricevere ulteriore assistenza.
+Se hai bisogno di informazioni o se hai domande non trattate in questa guida, contatta il tuo rappresentante commerciale per l&#39;integrazione di AEM Assets o crea un [ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) per ricevere ulteriore assistenza.
 

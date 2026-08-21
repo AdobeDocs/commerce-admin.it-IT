@@ -45,7 +45,7 @@ ht-degree: 5%
 
 ![Generale](./assets/requisition-lists-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
+<!-- [General](https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |

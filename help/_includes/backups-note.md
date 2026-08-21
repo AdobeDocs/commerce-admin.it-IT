@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Funzionalità disabilitata:** Backup disabilitato per impostazione predefinita. L’abilitazione di questa funzione potrebbe richiedere l’assistenza degli sviluppatori. Per abilitare i backup, consulta il seguente argomento della _Guida all&#39;installazione_: [Eseguire il backup e il rollback del file system, del supporto e del database](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup).
+>**Funzionalità disabilitata:** Backup disabilitato per impostazione predefinita. L’abilitazione di questa funzione potrebbe richiedere l’assistenza degli sviluppatori. Per abilitare i backup, consulta il seguente argomento della _Guida all&#39;installazione_: [Eseguire il backup e il rollback del file system, del supporto e del database](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/backup).
 
 >[!NOTE]
 >

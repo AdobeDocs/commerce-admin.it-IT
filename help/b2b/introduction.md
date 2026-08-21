@@ -58,9 +58,9 @@ Per ulteriori informazioni, vedere [Gestione società](manage-companies.md).
 
 I servizi per Adobe Commerce sono servizi in hosting che forniscono funzionalità estese ad Adobe Commerce e Magento Open Source. I servizi che supportano i flussi di lavoro B2B sono:
 
-* [Servizio catalogo](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-* [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-* [Consigli di prodotto](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [Servizio catalogo](https://experienceleague.adobe.com/it/docs/commerce/catalog-service/guide-overview)
+* [Live Search](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview)
+* [Consigli di prodotto](https://experienceleague.adobe.com/it/docs/commerce/product-recommendations/guide-overview)
 
 ## Cataloghi condivisi
 

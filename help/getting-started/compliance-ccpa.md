@@ -134,8 +134,8 @@ Crea un inventario delle tue proprietà digitali, comprese tutte le integrazioni
 
 1. Per i diagrammi di flusso dei dati e i mapping di entità di database applicabili a ogni versione, vedere i seguenti argomenti:
 
-   - [Riferimento informazioni personali (2.x)](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m2)
-   - [Riferimento alle informazioni personali (1.x)](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m1)
+   - [Riferimento informazioni personali (2.x)](https://experienceleague.adobe.com/it/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [Riferimento alle informazioni personali (1.x)](https://experienceleague.adobe.com/it/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![diagramma](./assets/privacy-frontend-diagram.svg)
 

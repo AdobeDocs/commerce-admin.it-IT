@@ -29,7 +29,7 @@ ht-degree: 3%
 
 {{config}}
 
-Queste impostazioni sono disponibili quando [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/en/docs/discontinued/using/commerce-channels) è installato.
+Queste impostazioni sono disponibili quando [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/it/docs/discontinued/using/commerce-channels) è installato.
 
 ![Impostazioni Sales Channel](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
 

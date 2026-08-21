@@ -71,7 +71,7 @@ Puoi utilizzare l’acquisto istantaneo con Braintree o Payment Services per Ado
 Scopri come configurare il metodo di pagamento e abilitare il vaulting per Braintree o Payment Services:
 
 - [Braintree](braintree.md)
-- [Documentazione di Payment Services](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
+- [Documentazione di Payment Services](https://experienceleague.adobe.com/it/docs/commerce/payment-services/guide-overview)
 
 ### Passaggio 3: abilitare l’acquisto immediato
 

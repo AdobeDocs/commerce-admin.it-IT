@@ -36,7 +36,7 @@ Adobe Commerce e Magento Open Source supportano un’ampia gamma di metodi e ser
 
 >[!TIP]
 >
->Payment Services per Adobe Commerce e Magento Open Source fornisce una soluzione self-service chiavi in mano, che include test sandbox e una configurazione semplice, per fornire un’elaborazione dei pagamenti solida e sicura. Per ulteriori informazioni su questo potente set di strumenti e su come può offrirti insight e il controllo di cui hai bisogno per creare la migliore esperienza per i tuoi acquirenti, consulta la [Guida utente per i servizi di pagamento](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview). Questa è la soluzione di pagamento predefinita in [Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview).
+>Payment Services per Adobe Commerce e Magento Open Source fornisce una soluzione self-service chiavi in mano, che include test sandbox e una configurazione semplice, per fornire un’elaborazione dei pagamenti solida e sicura. Per ulteriori informazioni su questo potente set di strumenti e su come può offrirti insight e il controllo di cui hai bisogno per creare la migliore esperienza per i tuoi acquirenti, consulta la [Guida utente per i servizi di pagamento](https://experienceleague.adobe.com/it/docs/commerce/payment-services/guide-overview). Questa è la soluzione di pagamento predefinita in [Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/it/docs/commerce/cloud-service/overview).
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Adobe Commerce e Magento Open Source supportano un’ampia gamma di metodi e ser
 
 ## Variazioni nella versione 2.4
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Alcune integrazioni di pagamenti ed estensioni in bundle sono state rimosse nelle versioni 2.4.x e spostate in Commerce Marketplace. Puoi trovare le ultime estensioni ufficiali di integrazione dei pagamenti in [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
 
 - **Amazon Pay** e **Klarna**: le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includono queste estensioni sviluppate dal fornitore. A partire dalla versione 2.4.4, queste estensioni non sono più in bundle con la versione di base e devono essere installate e aggiornate da Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
 
-  Se hai abilitato e configurato una di queste estensioni in bundle, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) nella _Guida all&#39;aggiornamento_.
+  Se hai abilitato e configurato una di queste estensioni in bundle, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/modules/upgrade) nella _Guida all&#39;aggiornamento_.
 
 ## Metodi di pagamento offline
 
@@ -69,19 +69,19 @@ Adobe Commerce e Magento Open Source supportano numerose soluzioni di pagamento 
 
 ### Soluzioni consigliate
 
-- [Servizi di pagamento](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
-- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} [Pagamento PayPal Express](paypal-express-checkout.md)
-- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} [Braintree](braintree.md)
+- [Servizi di pagamento](https://experienceleague.adobe.com/it/docs/commerce/payment-services/guide-overview)
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} [Pagamento PayPal Express](paypal-express-checkout.md)
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} [Braintree](braintree.md)
 
 ### Altre soluzioni di pagamento PayPal
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Consulta [Soluzioni di pagamento PayPal](paypal.md) per ulteriori informazioni sulle opzioni del metodo di pagamento PayPal.
 
 #### Soluzioni PayPal all-in-one
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 - [Pagamenti PayPal avanzati](paypal-payments-advanced.md)
 - [Pagamenti PayPal Pro](paypal-payments-pro.md)
@@ -89,14 +89,14 @@ Consulta [Soluzioni di pagamento PayPal](paypal.md) per ulteriori informazioni s
 
 #### Gateway di pagamento PayPal
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [Collegamento flusso di pagamento PayPal](paypal-payflow-link.md)
 
 ## Protezione dalle frodi
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 I servizi e i filtri antifrode esaminano gli ordini inviati prima che la transazione venga elaborata per rilevare gli ordini fraudolenti e proteggerti dalle spese di chargeback. Adobe Commerce e Magento Open Source supportano le seguenti soluzioni di protezione dalle frodi:
 
@@ -110,6 +110,6 @@ I servizi e i filtri antifrode esaminano gli ordini inviati prima che la transaz
 
 ## Risorse per la risoluzione dei problemi
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
-Per informazioni sulla risoluzione dei problemi relativi ai pagamenti, vedere la [Knowledge Base di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview).
+Per informazioni sulla risoluzione dei problemi relativi ai pagamenti, vedere la [Knowledge Base di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/overview).
