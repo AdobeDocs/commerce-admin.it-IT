@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 892
+source-wordcount: 887
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Commerce e Adobe Experience Manager (AEM) forniscono funzioni integrate pe
 | **Accesso e autorizzazioni richiesti** | <ul><li>Accesso amministratore ad AEM Assets as a Cloud Service</li><li>Accesso al sistema di origine in cui sono archiviati i file multimediali (Adobe Commerce o sistema esterno)</li><li>Autorizzazioni appropriate per accedere ai servizi di archiviazione cloud</li></ul> |
 | **Account archiviazione cloud** | <ul><li>Account di archiviazione AWS S3 o Azure Blob</li><li>Configurazione contenitore/bucket privato</li><li>Credenziali di autenticazione</li></ul> |
 | **Contenuto Source** | <ul><li>File multimediali organizzati pronti per la migrazione</li><li>File immagine e video nei formati <a href="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats"> supportati da AEM Assets</a>.</li><li>Risorse pulite e deduplicate</li></li> |
-| **Preparazione metadati** | <ul><li><a href="https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-configure-aem">Profilo metadati AEM Assets configurato per le risorse Commerce</a></li><li>Valori metadati mappati per ogni risorsa</li><li>Editor file CSV (ad esempio, Microsoft Excel)</li></ul> |
+| **Preparazione metadati** | <ul><li><a href="/help/content-design/aem-assets-configure-aem.md">Profilo metadati AEM Assets configurato per le risorse Commerce</a></li><li>Valori metadati mappati per ogni risorsa</li><li>Editor file CSV (ad esempio, Microsoft Excel)</li></ul> |
 
 ## Best practice per la migrazione
 
@@ -121,7 +121,7 @@ Di seguito è riportata una panoramica generale sull&#39;utilizzo dello strument
 
 >[!MORELIKETHIS]
 >
->[Demo video strumento di importazione in blocco](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
+>Demo video sullo strumento Importazione in blocco di [&#128279;](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
 >[Suggerimenti, best practice e limitazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
 >[Carica o acquisisci risorse tramite API](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
 

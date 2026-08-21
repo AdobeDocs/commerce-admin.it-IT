@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
 ht-degree: 0%
@@ -100,17 +100,17 @@ Quando lo stato dei nuovi ordini è impostato su `Processing`, l&#39;opzione _Fa
 
    - Includi un numero di tracciamento:
 
-      - Fare clic su **[!UICONTROL Add Tracking Number]**.
-      - Immettere le informazioni di tracciamento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ e _[!UICONTROL Number]_
+     - Fare clic su **[!UICONTROL Add Tracking Number]**.
+     - Immettere le informazioni di tracciamento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ e _[!UICONTROL Number]_
 
      ![Crea una spedizione Fedex](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - Facoltativamente, generare una fattura parziale:
 
-      - Nella sezione _Articoli da fatturare_, aggiornare la colonna **[!UICONTROL Qty to Invoice]** in modo da includere solo elementi specifici nella fattura.
-      - Quindi fare clic su **[!UICONTROL Update Qty's]**.
+     - Nella sezione _Articoli da fatturare_, aggiornare la colonna **[!UICONTROL Qty to Invoice]** in modo da includere solo elementi specifici nella fattura.
+     - Quindi fare clic su **[!UICONTROL Update Qty's]**.
 
-        ![Elementi da fatturare](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+       ![Elementi da fatturare](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. Se per l&#39;ordine è stato utilizzato un metodo di pagamento online, impostare **[!UICONTROL Amount]** sull&#39;opzione appropriata.
 
@@ -170,7 +170,7 @@ Le fatture vengono salvate in un unico file PDF che può essere inviato a una st
 
 Per offrire ai commercianti maggiore flessibilità per acquisizioni parziali e scenari di pagamento specializzati, l’API Fattura supporta importi di acquisizione personalizzati utilizzando gli attributi di estensione.
 
-È possibile effettuare chiamate REST per acquisire un importo personalizzato durante la creazione di una fattura.  Utilizzare l&#39;endpoint REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) e specificare l&#39;importo personalizzato nel campo `extension_attributes.custom_capture_amount` del payload.
+È possibile effettuare chiamate REST per acquisire un importo personalizzato durante la creazione di una fattura.  Utilizzare l&#39;endpoint REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) e specificare l&#39;importo personalizzato nel campo `extension_attributes.custom_capture_amount` del payload.
 
 >[!NOTE]
 >

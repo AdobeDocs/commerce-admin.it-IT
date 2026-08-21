@@ -16,9 +16,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1005
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ Per informazioni sulla gestione temporanea dei contenuti, guarda questo video:
 
 Per informazioni sulla risoluzione dei problemi relativi alla gestione temporanea dei contenuti, vedere i seguenti articoli della Knowledge Base di supporto di [!DNL Commerce]:
 
-- [Errore 404 su tutte le pagine a causa di un problema di staging del contenuto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=it)
-- [Gli aggiornamenti pianificati per la gestione temporanea dei contenuti non vengono visualizzati con la cache Fastly non aggiornata](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=it)
-- [Posso pianificare gli aggiornamenti di Gestione temporanea dei contenuti per i prezzi in un catalogo condiviso?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=it)
+- [Errore 404 su tutte le pagine a causa di un problema di staging del contenuto](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27785)
+- [Gli aggiornamenti pianificati per la gestione temporanea dei contenuti non vengono visualizzati con la cache Fastly non aggiornata](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
+- [Posso pianificare gli aggiornamenti di Gestione temporanea dei contenuti per i prezzi in un catalogo condiviso?](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)

@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1128
+source-wordcount: 1129
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Configura il tuo store per calcolare le tasse secondo i requisiti della tua ling
 >
 >Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includevano l’estensione sviluppata dal fornitore Vertex utilizzata per l’integrazione con Vertex Cloud al fine di fornire gestione fiscale e pulizia degli indirizzi. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione di base e deve essere installata e aggiornata dal Commerce Marketplace o direttamente dal fornitore. [Contattare il vertice](https://marketplace.magento.com/partner/vertex_inc) per informazioni sull&#39;estensione e sulla documentazione.<br><br>
 >
->Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Consulta [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=it) nella _Guida all&#39;aggiornamento_.
+>Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Consulta [Moduli di aggiornamento](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/modules/upgrade) nella _Guida all&#39;aggiornamento_.
 
 ## Riferimento rapido
 

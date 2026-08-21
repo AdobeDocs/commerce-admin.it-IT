@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 285
+source-wordcount: 286
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Come la maggior parte dei siti web e delle applicazioni su Internet, Adobe Comme
 - Se le impostazioni di privacy del browser non consentono i cookie, è possibile configurare il sistema per reindirizzarli automaticamente alla pagina [Abilita cookie](../content-design/pages.md#enable-cookies), che spiega come creare le impostazioni consigliate con la maggior parte dei browser.
 - Se le impostazioni di privacy del browser non consentono JavaScript, è possibile configurare il sistema in modo che visualizzi il seguente messaggio sopra l&#39;intestazione di ogni pagina.
 
-Per informazioni tecniche, consultare [Browser supportati](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=it#supported-browsers) nella _Guida all&#39;installazione_.
+Per informazioni tecniche, consultare [Browser supportati](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/system-requirements#supported-browsers) nella _Guida all&#39;installazione_.
 
 ## Configurare il rilevamento delle funzionalità del browser
 

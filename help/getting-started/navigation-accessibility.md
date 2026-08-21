@@ -16,10 +16,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 145
-ht-degree: 0%
+source-wordcount: 157
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Alcuni visitatori del sito utilizzano i controlli della tastiera per la navigazione, anziché il mouse, mentre altri possono utilizzare i comandi touch o vocali. Anche se i controlli di navigazione da tastiera variano in base al browser e alla piattaforma, il tasto TAB viene comunemente utilizzato per spostare lo stato attivo tra i campi, i collegamenti e i pulsanti di una pagina. Per ulteriori informazioni, consulta [Scelte rapide da tastiera](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}.
 
-Per ulteriori informazioni sull&#39;accessibilità, vedere [Linee guida per l&#39;accessibilità](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"} nella documentazione per gli sviluppatori.
+Per ulteriori informazioni sull&#39;accessibilità, vedere [Linee guida per l&#39;accessibilità](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines){:target="_blank"} nella documentazione per gli sviluppatori.
 
 ## Windows
 

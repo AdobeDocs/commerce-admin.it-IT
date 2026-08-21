@@ -17,16 +17,16 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: 437
 ht-degree: 0%
 
 ---
 
 # Utilizzare una rete per la distribuzione dei contenuti
 
-È possibile utilizzare una rete CDN (Content Delivery Network) per archiviare i file multimediali. Adobe Commerce su infrastruttura cloud include la rete CDN Fastly (vedi [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=it) nella _Guida di Commerce su infrastruttura cloud_). Un&#39;istanza di Commerce installata _on-premise_ non include un&#39;integrazione con alcun CDN specifico. È possibile utilizzare il CDN desiderato.
+È possibile utilizzare una rete CDN (Content Delivery Network) per archiviare i file multimediali. Adobe Commerce su infrastruttura cloud include la rete CDN Fastly (vedi [Fastly](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/cdn/fastly) nella _Guida di Commerce su infrastruttura cloud_). Un&#39;istanza di Commerce installata _on-premise_ non include un&#39;integrazione con alcun CDN specifico. È possibile utilizzare il CDN desiderato.
 
 Dopo aver configurato la rete CDN, devi completare la configurazione dall’amministratore. Le modifiche possono essere apportate a livello globale o a livello di sito web. Quando si utilizza una rete CDN per l’archiviazione dei contenuti multimediali, tutti i percorsi dei contenuti multimediali nelle pagine dello store di Commerce vengono modificati in percorsi CDN specificati nella configurazione.
 

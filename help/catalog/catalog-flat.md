@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 704
+source-wordcount: 705
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->L’utilizzo di un catalogo semplice non è più consigliato come best practice. L’utilizzo continuo di questa funzione può causare il deterioramento delle prestazioni e altri problemi di indicizzazione. Una descrizione dettagliata e una soluzione sono disponibili nel [Centro assistenza](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=it).<br/><br/>Le versioni interessate includono: <br/>- Adobe Commerce sull&#39;infrastruttura cloud, 2.3.x e versioni successive<br/>- Adobe Commerce (On-Premise), 2.3.x e versioni successive<br/>- Magento Open Source, 2.3.x e versioni successive <br/><br/>In qualsiasi versione, alcune estensioni funzionano solo con tabelle flat, creando in tal modo un rischio se si disabilitano le tabelle flat. Se si è certi di disporre di alcune estensioni che utilizzano gli indicizzatori Flat Catalog, è necessario tenere presente questo rischio quando si impostano tali valori su `No`.
+>L’utilizzo di un catalogo semplice non è più consigliato come best practice. L’utilizzo continuo di questa funzione può causare il deterioramento delle prestazioni e altri problemi di indicizzazione. Una descrizione dettagliata e una soluzione sono disponibili nel [Centro assistenza](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons).<br/><br/>Le versioni interessate includono: <br/>- Adobe Commerce sull&#39;infrastruttura cloud, 2.3.x e versioni successive<br/>- Adobe Commerce (On-Premise), 2.3.x e versioni successive<br/>- Magento Open Source, 2.3.x e versioni successive <br/><br/>In qualsiasi versione, alcune estensioni funzionano solo con tabelle flat, creando in tal modo un rischio se si disabilitano le tabelle flat. Se si è certi di disporre di alcune estensioni che utilizzano gli indicizzatori Flat Catalog, è necessario tenere presente questo rischio quando si impostano tali valori su `No`.
 
 In genere, Commerce memorizza i dati del catalogo in più tabelle, in base al modello Entity-Attribute-Value (EAV). Poiché gli attributi del prodotto sono memorizzati in molte tabelle, le query SQL a volte sono lunghe e complesse.
 

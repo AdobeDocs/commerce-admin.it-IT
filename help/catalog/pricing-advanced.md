@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 873
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Le impostazioni di _[!UICONTROL Advanced Pricing]_&#x200B;definiscono le condizi
 
 I dati di determinazione prezzi avanzata vengono sincronizzati con le pagine dei prodotti. Ad esempio, se si aggiorna una quantità di prezzo livello, il sistema aggiorna il valore nella pagina del prodotto.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (disponibile solo con [Adobe Commerce B2B](./b2b/../introduction.md)) Se si utilizzano cataloghi condivisi, i dati di determinazione prezzi avanzati vengono sincronizzati sia con le pagine dei prodotti che con i cataloghi condivisi. Ad esempio, se aggiorni una quantità di prezzo livello, il sistema aggiorna il valore nel catalogo condiviso e nella pagina del prodotto. Qualsiasi prezzo personalizzato indicato nel catalogo condiviso ha la priorità rispetto alla determinazione dei prezzi per gruppo di clienti. Consulta anche [Impostare i prezzi e la struttura del catalogo condiviso](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=it) nella _Guida B2B di Adobe Commerce_.
+![Adobe Commerce B2B](../assets/b2b.svg) (disponibile solo con [Adobe Commerce B2B](./b2b/../introduction.md)) Se si utilizzano cataloghi condivisi, i dati di determinazione prezzi avanzati vengono sincronizzati sia con le pagine dei prodotti che con i cataloghi condivisi. Ad esempio, se aggiorni una quantità di prezzo livello, il sistema aggiorna il valore nel catalogo condiviso e nella pagina del prodotto. Qualsiasi prezzo personalizzato indicato nel catalogo condiviso ha la priorità rispetto alla determinazione dei prezzi per gruppo di clienti. Consulta anche [Impostare i prezzi e la struttura del catalogo condiviso](/help/b2b/catalog-shared-pricing-structure.md) nella _Guida B2B di Adobe Commerce_.
 
 ![Determinazione prezzi avanzata](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

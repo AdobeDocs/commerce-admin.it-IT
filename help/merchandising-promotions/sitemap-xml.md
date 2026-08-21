@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1345
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Quando è abilitato, Commerce crea un file denominato `sitemap.xml` che viene sa
 
 Mentre il sito è in fase di sviluppo, è possibile includere istruzioni nel file `robots.txt` per i crawler Web per evitare di indicizzare il sito. Quindi, prima del lancio, puoi modificare le istruzioni per consentire l’indicizzazione del sito.
 
-Per informazioni tecniche, consulta [Aggiungere sitemap e robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=it) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+Per informazioni tecniche, consulta [Aggiungere sitemap e robots.txt](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
 ![Griglia mappa del sito](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Per creare sitemap per un&#39;istanza multistore, effettuare le seguenti operazi
    
 >[!NOTE]
 >
->Se il sito utilizza il motore del server Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=it), è necessario aggiornare il file [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) nella directory principale del sito Web per indirizzare eventuali altre richieste di sitemap nella posizione corretta.
+>Se il sito utilizza il motore del server Web [Apache](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/web-server/apache), è necessario aggiornare il file [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) nella directory principale del sito Web per indirizzare eventuali altre richieste di sitemap nella posizione corretta.
 
 ## Descrizioni delle colonne
 
@@ -152,13 +152,13 @@ La mappa del sito deve essere aggiornata con la stessa frequenza con cui cambia 
 
    - Imposta **[!UICONTROL Frequency]** su uno dei seguenti:
 
-      - `Always`
-      - `Hourly`
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
-      - `Yearly`
-      - `Never`
+     - `Always`
+     - `Hourly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
+     - `Yearly`
+     - `Never`
 
    - Per **[!UICONTROL Priority]**, immettere un valore compreso tra `0.0` e `1.0`. Zero ha la priorità più bassa.
 
@@ -206,16 +206,16 @@ La mappa del sito deve essere aggiornata con la stessa frequenza con cui cambia 
 
    - Imposta **[!UICONTROL Generation Method]** su uno dei seguenti:
 
-      - `Standard` - Elabora tutti i dati in memoria.
-      - `Batch` - Utilizza l&#39;elaborazione con ottimizzazione per la memoria per i cataloghi di grandi dimensioni. Questa opzione è disponibile a partire dalla versione 2.4.9 di.
+     - `Standard` - Elabora tutti i dati in memoria.
+     - `Batch` - Utilizza l&#39;elaborazione con ottimizzazione per la memoria per i cataloghi di grandi dimensioni. Questa opzione è disponibile a partire dalla versione 2.4.9 di.
 
    - Impostare **[!UICONTROL Start Time]** sull&#39;ora, il minuto e il secondo per l&#39;aggiornamento della mappa del sito.
 
    - Imposta **[!UICONTROL Frequency]** su uno dei seguenti:
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - Per **[!UICONTROL Error Email Recipient]**, immetti l&#39;indirizzo e-mail della persona che deve ricevere la notifica se si verifica un errore durante un aggiornamento della sitemap.
 

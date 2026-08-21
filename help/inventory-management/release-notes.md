@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 3540
+source-wordcount: 3542
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Queste note sulla versione descrivono le versioni di [!DNL Inventory Management]
 
 [!DNL Inventory Management] è un progetto speciale di progettazione della community Magento Open Source aperto ai collaboratori. Per partecipare e contribuire, consulta l&#39;archivio del progetto [GitHub](https://github.com/magento/inventory) e [wiki](https://github.com/magento/inventory/wiki) per iniziare. Per discutere il progetto, partecipa al canale [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) ([auto-abbonamento](https://opensource.magento.com/slack)).
 
-[Pianificazione del rilascio](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=it){target="_blank"} per le versioni supportate e compatibili.
+[Pianificazione del rilascio](https://experienceleague.adobe.com/it/docs/commerce-operations/release/planning/schedule){target="_blank"} per le versioni supportate e compatibili.
 
 ## v1.2.7
 
@@ -278,13 +278,13 @@ I nuovi moduli per [!DNL Inventory Management] 1.1.2 Beta includono:
         'Magento_InventoryExportStockApi' => 0,
 ```
 
-![Nuovo](../assets/new.svg) **Aggiunto un endpoint per il trasferimento di scorte parziali in blocco** - Gli endpoint per il trasferimento in blocco correnti spostano tutta la quantità assegnata da un&#39;origine a un&#39;origine di destinazione. Il nuovo endpoint `/rest/V1/inventory/bulk-partial-source-transfer` consente ai commercianti di trasferire le scorte parziali dall&#39;origine all&#39;origine come operazione in blocco. Per trasferire una quantità specifica, immettere una richiesta all&#39;endpoint con `sku`, `qty`, `origin_source_code` e `destination_source_code`. I trasferimenti verificano che l&#39;origine sia assegnata a `sku`, che esista una quantità sufficiente per il trasferimento e così via. Consulta [Azioni di massa inventario](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory/){target="_blank"} nella documentazione REST API. <!-- https://github.com/magento/inventory/pull/2117 -->
+![Nuovo](../assets/new.svg) **Aggiunto un endpoint per il trasferimento di scorte parziali in blocco** - Gli endpoint per il trasferimento in blocco correnti spostano tutta la quantità assegnata da un&#39;origine a un&#39;origine di destinazione. Il nuovo endpoint `/rest/V1/inventory/bulk-partial-source-transfer` consente ai commercianti di trasferire le scorte parziali dall&#39;origine all&#39;origine come operazione in blocco. Per trasferire una quantità specifica, immettere una richiesta all&#39;endpoint con `sku`, `qty`, `origin_source_code` e `destination_source_code`. I trasferimenti verificano che l&#39;origine sia assegnata a `sku`, che esista una quantità sufficiente per il trasferimento e così via. Consulta [Azioni di massa inventario](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory){target="_blank"} nella documentazione REST API. <!-- https://github.com/magento/inventory/pull/2117 -->
 
 ![Nuovo](../assets/new.svg) **CLI prenotazione aggiunta** - I nuovi comandi consentono di rilevare e risolvere le incoerenze delle prenotazioni. Quando gli ordini vengono inviati e cambiano stato, [!DNL Inventory Management] genera prenotazioni iniziali e aggiornamenti tramite prenotazioni retribuzione. Questi comandi restituiscono un elenco delle incoerenze rilevate in base all’ID ordine, allo SKU e all’ID stock e creano prenotazioni da risolvere. Per ulteriori informazioni, vedere [CLI reference](cli.md). <!-- https://github.com/magento/inventory/pull/2199 https://github.com/magento/inventory/pull/2184 https://github.com/magento/inventory/pull/2171 https://github.com/magento/inventory/pull/2148  -->
 
 ![Nuovo](../assets/new.svg) **Miglioramenti delle prestazioni per le origini e le opzioni SSA** - L&#39;ordinamento e la selezione delle origini durante la spedizione ha causato un peggioramento delle prestazioni per gli stock con un numero elevato di origini. Questa versione offre miglioramenti significativi delle prestazioni per elencare e ordinare le origini disponibili durante la revisione e la selezione delle opzioni SSA nelle spedizioni. <!-- https://github.com/magento/inventory/pull/2056 https://github.com/magento/inventory/pull/2090 -->
 
-![Nuovo](../assets/new.svg) **Aggiunto supporto GraphQL per Inventory management** - Questa versione installa un nuovo modulo `magento/module-inventory-graph-ql`. Gli attributi [ProductInterface](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes/){target="_blank"} di GraphQL ora includono gli attributi `only_x_left_in_stock` e `stock_status` per il supporto di [!DNL Inventory Management]. <!-- https://github.com/magento/inventory/pull/2124 -->
+![Nuovo](../assets/new.svg) **Aggiunto supporto GraphQL per Inventory management** - Questa versione installa un nuovo modulo `magento/module-inventory-graph-ql`. Gli attributi [ProductInterface](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes){target="_blank"} di GraphQL ora includono gli attributi `only_x_left_in_stock` e `stock_status` per il supporto di [!DNL Inventory Management]. <!-- https://github.com/magento/inventory/pull/2124 -->
 
 ![Nuovo](../assets/new.svg) **Interfaccia utente semplificata per le origini assegnate** - La tabella Origini assegnate nelle pagine dei prodotti presenta contenuti semplificati per semplificare gli aggiornamenti e migliorare le prestazioni durante la visualizzazione di più origini. Tutte le origini sono elencate per nome di origine (passaggio del mouse su `source_code`).
 
@@ -294,7 +294,7 @@ I nuovi moduli per [!DNL Inventory Management] 1.1.2 Beta includono:
 
 [!DNL Inventory Management] 1.1.0 (versione modulo: `inventory-composer-metapackage = 1.1.0`) è supportato e compatibile con la versione 2.3.0 di Adobe Commerce, Adobe Commerce sull&#39;infrastruttura cloud e la base di codice Magento Open Source. [!DNL Inventory Management] 1.1.1 viene rilasciato solo come aggiornamento del nome di un pacchetto, supportato per la versione 2.3.1 e compatibile con la versione 2.3.0 di Adobe Commerce, Adobe Commerce su infrastruttura cloud e con la base di codice Magento Open Source.
 
-![È stato risolto il problema](../assets/fix.svg) **È stato aggiunto il supporto di Elasticsearch per le modalità a origine singola e multipla**. È ora possibile configurare e utilizzare Elasticsearch con scorte personalizzate. Per informazioni sull&#39;installazione, vedere [Configurazione del servizio Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=it){target="_blank"}. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![È stato risolto il problema](../assets/fix.svg) **È stato aggiunto il supporto di Elasticsearch per le modalità a origine singola e multipla**. È ora possibile configurare e utilizzare Elasticsearch con scorte personalizzate. Per informazioni sull&#39;installazione, vedere [Configurazione del servizio Elasticsearch](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure/service/elasticsearch){target="_blank"}. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![È stato risolto il problema](../assets/fix.svg). Sono stati risolti i problemi di prestazioni con Stock predefinito per aumentare drasticamente le prestazioni con numerose operazioni. I miglioramenti consentono di migliorare le prestazioni per la modalità a origine singola, il trasferimento delle scorte in Source, le pagine delle categorie di vetrina e i calcoli della quantità di vendita.
 

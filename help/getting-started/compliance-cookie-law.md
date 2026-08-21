@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 2322
+source-wordcount: 2313
 ht-degree: 0%
 
 ---
@@ -162,4 +162,4 @@ I seguenti dati vengono salvati nell’archiviazione locale per i negozi che uti
 
 - `mg`: impostato da Snowplow JavaScript tracker. Ulteriori informazioni sono disponibili nella [documentazione Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: dato il nome host della pagina Web corrente, questo è il dominio più in alto che non è un &quot;suffisso pubblico&quot; come descritto in https://publicsuffix.org. In sostanza, questo è il dominio di primo livello che può accettare i cookie. Questo cookie fa parte di [Alloy Web SDK](https://github.com/adobe/alloy).
-- `aep-segments-membership`: contiene [informazioni sul pubblico](https://experienceleague.adobe.com/it/docs/commerce-admin/customers/audience-activation), ad esempio il segmento a cui appartiene un acquirente.
+- `aep-segments-membership`: contiene [informazioni sul pubblico](/help/customers/audience-activation.md), ad esempio il segmento a cui appartiene un acquirente.

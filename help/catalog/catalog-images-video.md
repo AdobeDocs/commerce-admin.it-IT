@@ -21,9 +21,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: 476
 ht-degree: 0%
 
 ---
@@ -56,5 +56,5 @@ Esistono molte caselle di luce e cursori di terze parti che puoi utilizzare per 
 
 Per assistenza nella risoluzione dei problemi relativi a immagini e video, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
-- [Le immagini del prodotto non vengono visualizzate nonostante i ruoli immagine Modifica prodotto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=it)
-- [Immagini di archivio non visualizzate dopo la distribuzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=it)
+- [Le immagini del prodotto non vengono visualizzate nonostante i ruoli immagine Modifica prodotto](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [Immagini di archivio non visualizzate dopo la distribuzione](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

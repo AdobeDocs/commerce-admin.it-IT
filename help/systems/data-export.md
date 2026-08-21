@@ -19,9 +19,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ La casella di controllo nella prima colonna viene utilizzata per escludere gli a
 
 1. Scorri verso il basso e fai clic su **[!UICONTROL Continue]** nell&#39;angolo inferiore destro della pagina.
 
-   Al termine dell’operazione, il file viene elaborato tramite una coda di messaggi (assicurati che il processo cron sia in esecuzione). Il file esportato è stato salvato in `var/export/ folder`. Per ulteriori informazioni sulla coda di messaggi, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=it) nella _Guida alla configurazione_.
+   Al termine dell’operazione, il file viene elaborato tramite una coda di messaggi (assicurati che il processo cron sia in esecuzione). Il file esportato è stato salvato in `var/export/ folder`. Per ulteriori informazioni sulla coda di messaggi, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) nella _Guida alla configurazione_.
 
    Puoi salvare o aprire il file CSV esportato come foglio di calcolo, quindi modificare i dati e importarli nuovamente nell’archivio.
 
@@ -108,4 +108,4 @@ La casella di controllo nella prima colonna viene utilizzata per escludere gli a
 
 Per assistenza nella risoluzione dei problemi relativi all&#39;esportazione dei dati, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
-- [Il file .csv dei prodotti esportati non viene visualizzato](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=it)
+- [Il file .csv dei prodotti esportati non viene visualizzato](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)

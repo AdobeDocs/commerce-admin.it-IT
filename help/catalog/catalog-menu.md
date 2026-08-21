@@ -16,16 +16,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a65689c36ccc2e7cced2b13d0cddbfdf5046a02
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 224
 ht-degree: 0%
 
 ---
 
 # Menu [!UICONTROL Catalog]
 
-Il menu [!UICONTROL Catalog] consente di accedere facilmente agli strumenti di creazione di prodotti, categoria e gestione dell&#39;inventario, ai cataloghi condivisi per la determinazione dei prezzi personalizzati negli [store B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=it) e all&#39;arricchimento dei cataloghi per l&#39;individuazione assistita da IA.
+Il menu [!UICONTROL Catalog] consente di accedere facilmente agli strumenti di creazione di prodotti, categoria e gestione dell&#39;inventario, ai cataloghi condivisi per la determinazione dei prezzi personalizzati negli [store B2B](/help/b2b/introduction.md) e all&#39;arricchimento dei cataloghi per l&#39;individuazione assistita da IA.
 
 >[!BEGINTABS]
 
@@ -59,7 +59,7 @@ Crea la struttura [categoria](categories.md) che è alla base della navigazione 
 
 ## [!UICONTROL Shared Catalogs]
 
-Per i negozi in cui è installato e abilitato Adobe Commerce B2B, [i cataloghi condivisi](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=it) consentono di rendere disponibili prezzi personalizzati per diverse società.
+Per i negozi in cui è installato e abilitato Adobe Commerce B2B, [i cataloghi condivisi](/help/b2b/catalog-shared.md) consentono di rendere disponibili prezzi personalizzati per diverse società.
 
 ![Prodotti del catalogo condiviso](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
 

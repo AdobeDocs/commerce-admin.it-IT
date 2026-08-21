@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 783
+source-wordcount: 848
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Le API dell’amministratore di Commerce sono interessate quando l’autenticazi
 
 Dopo l&#39;abilitazione dell&#39;integrazione Adobe IMS, gli utenti amministratori devono utilizzare [token Adobe IMS OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/) per gli endpoint API di Adobe Commerce che richiedono l&#39;autenticazione. Le soluzioni client ottengono i token in modo dinamico per l’utilizzo dell’API web. Questo meccanismo di autenticazione è abilitato per le aree REST e API web SOAP come parte della configurazione di questa integrazione.
 
-Consulta [Autenticazione basata su token](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) per una panoramica dell&#39;utilizzo dei token di accesso Commerce da parte delle API Web, inclusi i token di accesso IMS.
+Consulta [Autenticazione basata su token](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token) per una panoramica dell&#39;utilizzo dei token di accesso Commerce da parte delle API Web, inclusi i token di accesso IMS.
 
 ## Gestione delle sessioni Commerce e token di accesso Adobe IMS
 

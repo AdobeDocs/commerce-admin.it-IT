@@ -5,9 +5,9 @@ breadcrumb-title: Riferimento configurazione
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: 0ea210e1dbc100be876af254c8513506eb043729
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
@@ -85,4 +85,4 @@ ht-degree: 2%
   - [Amministratore](./advanced/admin.md)
   - [Sistema](./advanced/system.md)
   - [Sviluppatore](./advanced/developer.md)
-- [Torna a Guide utente amministratore](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it)
+- [Torna a Guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)

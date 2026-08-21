@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: 560
 ht-degree: 3%
 
 ---
@@ -45,7 +45,7 @@ Per la configurazione iniziale, utilizza la regola predefinita *Corrispondenza p
 
 - Crea un ticket di supporto per richiedere l’abilitazione per l’integrazione di AEM Assets for Commerce. Nel ticket, includi **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** e **[!UICONTROL IMS Org ID]** per l’ambiente di authoring AEM Assets che desideri connettere a Commerce.
 
-- Fornisci **[!UICONTROL Asset Selector IMS Client ID]**. Vedi [ImsAuthProps](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) nella *documentazione di AEM Assets Selector*.
+- Fornisci **[!UICONTROL Asset Selector IMS Client ID]**. Vedi [ImsAuthProps](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications) nella *documentazione di AEM Assets Selector*.
 
 ## Configurare la connessione
 
@@ -66,7 +66,7 @@ Per la configurazione iniziale, utilizza la regola predefinita *Corrispondenza p
 
 1. Immettere **[!UICONTROL Asset Selector IMS Client ID]**.
 
-   L&#39;ID client IMS [&#128279;](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) di Asset Selector è richiesto da [!UICONTROL Assets Selector], una funzionalità di AEM Assets che consente agli utenti di incorporare risorse visive direttamente nelle pagine dei prodotti Commerce.
+   L&#39;ID client IMS [&#128279;](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications) di Asset Selector è richiesto da [!UICONTROL Assets Selector], una funzionalità di AEM Assets che consente agli utenti di incorporare risorse visive direttamente nelle pagine dei prodotti Commerce.
 
 1. Selezionare [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) per autenticare le richieste tra Commerce e il servizio di corrispondenza risorse.
 

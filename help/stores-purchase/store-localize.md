@@ -1,6 +1,6 @@
 ---
 title: Localizzazione dello store
-description: Scopri come localizzare una visualizzazione store o store.
+description: Scopri come localizzare una visualizzazione store o store modificandone le impostazioni internazionali, in modo da scambiare la tabella di traduzione utilizzata per la navigazione, le etichette, i pulsanti e i collegamenti.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ I Language Pack si trovano in [Traduzioni e localizzazione](https://marketplace.
 
 ## Passaggio 1: installare un Language Pack
 
-Segui le istruzioni standard per l’installazione dell’estensione Language Pack. Per informazioni dettagliate sull&#39;installazione di un&#39;estensione, vedere [Installazione generale di CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=it) nella _Guida alle estensioni_.
+Segui le istruzioni standard per l’installazione dell’estensione Language Pack. Per informazioni dettagliate sull&#39;installazione di un&#39;estensione, vedere [Installazione generale di CLI](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/extensions) nella _Guida alle estensioni_.
 
 ## Passaggio 2: creare una visualizzazione Store per la lingua
 

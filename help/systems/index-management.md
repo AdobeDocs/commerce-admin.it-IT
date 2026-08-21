@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1350
+source-wordcount: 1344
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ La reindicizzazione e il caching hanno scopi diversi in Commerce. Gli indici ten
 
 >[!IMPORTANT]
 >
->Per gli archivi che utilizzano [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=it) e hanno impostato Elasticsearch come indicizzatore full-text (`catalogsearch_fulltext`): è necessario eseguire nuovamente l&#39;indice full-text dopo eventuali modifiche delle autorizzazioni in blocco o quando l&#39;indicizzatore &#39;permissions&#39; è in modalità &#39;Pianificato&#39;.
+>Per gli archivi che utilizzano [Adobe Commerce B2B](/help/b2b/introduction.md) e hanno impostato Elasticsearch come indicizzatore full-text (`catalogsearch_fulltext`): è necessario eseguire nuovamente l&#39;indice full-text dopo eventuali modifiche delle autorizzazioni in blocco o quando l&#39;indicizzatore &#39;permissions&#39; è in modalità &#39;Pianificato&#39;.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -97,7 +97,7 @@ La reindicizzazione e il caching hanno scopi diversi in Commerce. Gli indici ten
 
 ## Reindicizzare utilizzando la riga di comando
 
-Commerce fornisce opzioni di reindicizzazione aggiuntive utilizzando la riga di comando. Per informazioni dettagliate e opzioni di comando, vedere [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=it#reindex){:target="blank"} nella _Guida alla configurazione_.
+Commerce fornisce opzioni di reindicizzazione aggiuntive utilizzando la riga di comando. Per informazioni dettagliate e opzioni di comando, vedere [Reindex](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"} nella _Guida alla configurazione_.
 
 ## Indice eventi trigger
 

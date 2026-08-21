@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -34,7 +34,7 @@ I clienti in genere reimpostano le password dalla vetrina facendo clic su _[!UIC
 | Funzione | Descrizione |
 | --- | --- |
 | Reimposta password | Un messaggio e-mail di reimpostazione della password viene inviato direttamente all’account e-mail del cliente. L&#39;amministratore del negozio non può accedere alla password del cliente. |
-| Forza accesso | Revoca i token di accesso OAuth associati all’account cliente. Può essere utilizzato solo con account cliente a cui sono stati assegnati token OAuth, come parte di una [integrazione](../systems/integrations.md) API Web. Per ulteriori informazioni, consulta [Autenticazione basata su OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) nella documentazione per gli sviluppatori. <br/><br/>Gli account cliente standard creati dalla vetrina o dall&#39;amministratore non dispongono di token OAuth. |
+| Forza accesso | Revoca i token di accesso OAuth associati all’account cliente. Può essere utilizzato solo con account cliente a cui sono stati assegnati token OAuth, come parte di una [integrazione](../systems/integrations.md) API Web. Per ulteriori informazioni, consulta [Autenticazione basata su OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) nella documentazione per gli sviluppatori. <br/><br/>Gli account cliente standard creati dalla vetrina o dall&#39;amministratore non dispongono di token OAuth. |
 
 {style="table-layout:auto"}
 

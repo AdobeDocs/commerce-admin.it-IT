@@ -23,7 +23,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -41,7 +41,7 @@ In caso di problemi durante l&#39;accesso con 2FA, considerare quanto segue:
 - Può essere utile anche cancellare la cache web e i cookie per l’installazione di Adobe Commerce o Magento Open Source. Gli autenticatori, come Google, utilizzano i cookie generati per salvare l’accesso e la durata. Cancella i cookie per il tuo specifico browser e dominio di archiviazione.
 - Il blocco dei cookie impedisce ad alcuni autenticatori, ad esempio [!DNL Google Authenticator], di completare il processo di verifica. Aggiungi al browser una regola che consenta i cookie per l’installazione di Adobe Commerce.
 
-Per reimpostare gli autenticatori dalla riga di comando e per informazioni più avanzate sulla risoluzione dei problemi, vedere [Autenticazione a due fattori](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/) nella documentazione per gli sviluppatori.
+Per reimpostare gli autenticatori dalla riga di comando e per informazioni più avanzate sulla risoluzione dei problemi, vedere [Autenticazione a due fattori](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication) nella documentazione per gli sviluppatori.
 
 **_Reimpostare gli autenticatori per un account utente:_**
 

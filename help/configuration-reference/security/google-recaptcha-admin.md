@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 610
-ht-degree: 0%
+source-wordcount: 597
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Prima di configurare Google reCAPTCHA, è necessario assicurarsi che il file `PHP.ini` includa l&#39;impostazione seguente: `allow_url_fopen = 1`. Questo potrebbe richiedere l’assistenza dello sviluppatore. Vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=it) nella _Guida all&#39;installazione_.
+>Prima di configurare Google reCAPTCHA, è necessario assicurarsi che il file `PHP.ini` includa l&#39;impostazione seguente: `allow_url_fopen = 1`. Questo potrebbe richiedere l’assistenza dello sviluppatore. Vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/php-settings) nella _Guida all&#39;installazione_.
 
 {{config}}
 
@@ -105,7 +105,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Google
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--|--|--|
-| [!UICONTROL Enable for Login] | Globale | Determina il tipo di reCAPTCHA abilitato per il [accesso amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=it). Opzioni:<br/>**`No`**- (impostazione predefinita) non convalida l&#39;accesso amministratore.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Richiede che l&#39;utente selezioni la casella di controllo _Non sono un robot_.<br />**`Invisible reCAPTCHA v2`**- Convalida il comportamento dell&#39;utente in background senza richiedere interazioni in base al punteggio.<br/>**`Invisible reCAPTCHA v3`** - (Consigliato) Convalida il comportamento dell’utente in background in base al punteggio di interazione. |
-| [!UICONTROL Enable for Forgot Password] | Globale | Determina il tipo di reCAPTCHA abilitato per richiedere una [reimpostazione password amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=it#reset-your-password). Opzioni:<br/>**`No`**- (impostazione predefinita) non convalida la richiesta di reimpostazione della password.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Richiede che l&#39;utente selezioni la casella di controllo _Non sono un robot_.<br />**`Invisible reCAPTCHA v2`**- Convalida il comportamento dell&#39;utente in background senza richiedere interazioni in base al punteggio.<br/>**`Invisible reCaptcha v3`** - (Consigliato) Convalida il comportamento dell’utente in background in base al punteggio di interazione. |
+| [!UICONTROL Enable for Login] | Globale | Determina il tipo di reCAPTCHA abilitato per il [accesso amministratore](/help/getting-started/admin-signin.md). Opzioni:<br/>**`No`**- (impostazione predefinita) non convalida l&#39;accesso amministratore.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Richiede che l&#39;utente selezioni la casella di controllo _Non sono un robot_.<br />**`Invisible reCAPTCHA v2`**- Convalida il comportamento dell&#39;utente in background senza richiedere interazioni in base al punteggio.<br/>**`Invisible reCAPTCHA v3`** - (Consigliato) Convalida il comportamento dell’utente in background in base al punteggio di interazione. |
+| [!UICONTROL Enable for Forgot Password] | Globale | Determina il tipo di reCAPTCHA abilitato per richiedere una [reimpostazione password amministratore](/help/getting-started/admin-signin.md#reset-your-password). Opzioni:<br/>**`No`**- (impostazione predefinita) non convalida la richiesta di reimpostazione della password.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Richiede che l&#39;utente selezioni la casella di controllo _Non sono un robot_.<br />**`Invisible reCAPTCHA v2`**- Convalida il comportamento dell&#39;utente in background senza richiedere interazioni in base al punteggio.<br/>**`Invisible reCaptcha v3`** - (Consigliato) Convalida il comportamento dell’utente in background in base al punteggio di interazione. |
 
 {style="table-layout:auto"}

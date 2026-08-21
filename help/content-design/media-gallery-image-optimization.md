@@ -19,9 +19,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2024-01-31
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: 212
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Quando la funzionalità di ottimizzazione immagine di Raccolta multimediale è a
 
 Quando i valori _Larghezza massima_ e _Altezza massima_ vengono modificati nella configurazione, vengono aggiornate tutte le immagini ottimizzate esistenti precedentemente inserite.
 
-L&#39;ottimizzazione delle immagini di Media Gallery richiede che i consumer della coda `media.gallery.renditions.update` siano in esecuzione per la rigenerazione delle immagini ottimizzate quando la configurazione viene modificata. Per ulteriori dettagli, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=it) nella _Guida alla configurazione_.
+L&#39;ottimizzazione delle immagini di Media Gallery richiede che i consumer della coda `media.gallery.renditions.update` siano in esecuzione per la rigenerazione delle immagini ottimizzate quando la configurazione viene modificata. Per ulteriori dettagli, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) nella _Guida alla configurazione_.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 

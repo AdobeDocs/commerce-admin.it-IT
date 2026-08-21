@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: 2658
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**Dichiarazione di non responsabilità**<br/>
+>**Dichiarazione di non responsabilità legale**<br/>
 >Queste informazioni hanno lo scopo di aiutare i clienti di Adobe a rispondere alle loro domande sui servizi compatibili con HIPAA di Adobe. Non si tratta di una consulenza legale. Gli esercenti devono consultare il proprio consulente legale per comprendere i propri obblighi in base all’HIPAA e l’uso e la configurazione appropriati dei prodotti Adobe.
 
 >[!BEGINSHADEBOX]
@@ -310,7 +310,7 @@ La tabella seguente identifica i servizi Adobe Commerce disponibili per l’offe
 | [Servizi di pagamento](https://experienceleague.adobe.com/it/docs/commerce/payment-services/guide-overview) | No | No |
 | [Eventi back office connessione dati](https://experienceleague.adobe.com/it/docs/commerce/data-connection/event-forwarding/events-backoffice) | Sì | Sì |
 | [Eventi Storefront Connessione Dati](https://experienceleague.adobe.com/it/docs/commerce/data-connection/event-forwarding/events#storefront-events) | No | No |
-| [Audience Activation](https://experienceleague.adobe.com/it/docs/commerce-admin/customers/audience-activation) | No | No |
+| [Audience Activation](/help/customers/audience-activation.md) | No | No |
 
 ### Strumenti
 

@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 461
 ht-degree: 0%
 
 ---
@@ -40,14 +40,14 @@ Adobe Commerce e Magento Open Source eseguono periodicamente uno script per eseg
 
 >[!IMPORTANT]
 >
->I servizi Commerce devono essere installati in crontab per garantire che i componenti core e alcune estensioni di terze parti funzionino come previsto. Per informazioni dettagliate sull&#39;installazione dei servizi in crontab, vedere le [istruzioni nella _Guida all&#39;installazione_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=it).
+>I servizi Commerce devono essere installati in crontab per garantire che i componenti core e alcune estensioni di terze parti funzionino come previsto. Per informazioni dettagliate sull&#39;installazione dei servizi in crontab, vedere le [istruzioni nella _Guida all&#39;installazione_](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/next-steps/configuration).
 
 Inoltre, puoi configurare quanto segue in modo che venga eseguito in base a una pianificazione cron:
 
 - Aggiornamenti alla griglia di Order System e reindicizzazione
 - Durata pagamento in sospeso
 
-Verificare che gli [URL di base](../stores-purchase/store-urls.md) per l&#39;archivio siano impostati correttamente in modo che gli URL generati durante le operazioni cron siano corretti. Per Adobe Commerce su infrastruttura cloud, consulta [Configurare i processi cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=it) nella _Guida di Commerce su infrastruttura cloud_. Per informazioni on-premise, vedere [Configurare ed eseguire con](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it) nella _Guida alla configurazione_.
+Verificare che gli [URL di base](../stores-purchase/store-urls.md) per l&#39;archivio siano impostati correttamente in modo che gli URL generati durante le operazioni cron siano corretti. Per Adobe Commerce su infrastruttura cloud, consulta [Configurare i processi cron](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property) nella _Guida di Commerce su infrastruttura cloud_. Per informazioni on-premise, vedere [Configurare ed eseguire con](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) nella _Guida alla configurazione_.
 
 ## Configura cron
 

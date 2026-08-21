@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: 1189
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Un modo per migliorare l&#39;efficacia della [ricerca nel catalogo](search-confi
 
 Adobe Commerce supporta due diverse soluzioni per la gestione dei sinonimi:
 
-- La funzionalità [Sinonimi](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=it) di Live Search è disponibile per le installazioni di Adobe Commerce con Live Search installato.
+- La funzionalità [Sinonimi](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-admin/synonyms/synonyms) di Live Search è disponibile per le installazioni di Adobe Commerce con Live Search installato.
 - La funzione standard Sinonimi di ricerca (descritta in questa pagina) è disponibile come strumento predefinito per tutte le installazioni di Adobe Commerce.
 
 >[!NOTE]

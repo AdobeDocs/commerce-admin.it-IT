@@ -19,9 +19,9 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 649
 ht-degree: 0%
 
 ---
@@ -50,7 +50,8 @@ Ogni blocco è costituito da un elenco di prodotti che appartengono a un’opzio
 >[!TIP]
 >
 >![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) **Consigli di prodotto basati su Adobe AI** semplifica il processo di definizione delle relazioni tra i prodotti utilizzando algoritmi di intelligenza artificiale e machine learning per eseguire un&#39;analisi approfondita dei dati aggregati dei visitatori. Quando vengono combinati con il catalogo di Adobe Commerce, questi dati offrono esperienze altamente coinvolgenti, pertinenti e personalizzate per l’acquirente.
-><br/>>Per ulteriori informazioni sull&#39;utilizzo di questa estensione sviluppata da Adobe come alternativa alla configurazione manuale di prodotti consigliati e up-sell, consulta la _[Guida ai prodotti consigliati](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=it)_.
+><br/>
+>Per ulteriori informazioni sull&#39;utilizzo di questa estensione sviluppata da Adobe come alternativa alla configurazione manuale dei consigli di prodotto e agli up-sell, consulta la _[Guida ai consigli di prodotto](https://experienceleague.adobe.com/it/docs/commerce/product-recommendations/guide-overview)_.
 
 ## Prodotti correlati
 

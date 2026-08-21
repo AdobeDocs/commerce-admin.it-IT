@@ -1,6 +1,6 @@
 ---
 title: Esempi di layout della vetrina
-description: Esaminare gli esempi di opzioni di layout di pagina.
+description: Rivedi gli esempi di layout di pagina della vetrina che mostrano come cambiano la larghezza delle colonne, l’area del contenuto principale e il posizionamento della barra laterale tra i diversi temi di Adobe Commerce.
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/rYnP28GqKMyPGcZSkCWAJAjlA6tNv2Rr-l4DDegU-UQ
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: 314
 ht-degree: 0%
 
 ---

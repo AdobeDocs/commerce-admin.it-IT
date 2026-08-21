@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 0%
+source-wordcount: 454
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ Assicurati di aggiornare il modello [intestazione e-mail](../systems/email-templ
    - `Disable` - Invia e-mail di vendita quando attivato da un evento.
    - `Enable` - Invia e-mail di vendita a intervalli regolari predeterminati.
 
-   Il supporto Adobe Commerce consiglia di abilitare l’invio asincrono per migliorare le prestazioni di posizionamento dell’ordine. Consulta [Best practice di configurazione per l&#39;elaborazione degli ordini](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=it) nella Knowledge Base di supporto di Adobe Commerce.
+   Il supporto Adobe Commerce consiglia di abilitare l’invio asincrono per migliorare le prestazioni di posizionamento dell’ordine. Consulta [Best practice di configurazione per l&#39;elaborazione degli ordini](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) nella Knowledge Base di supporto di Adobe Commerce.
 
 ## Passaggio 3: Completa i dettagli di ogni messaggio e-mail di vendita
 

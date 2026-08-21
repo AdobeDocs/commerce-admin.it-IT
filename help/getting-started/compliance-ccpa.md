@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 2309
 ht-degree: 0%
@@ -134,8 +134,8 @@ Crea un inventario delle tue proprietà digitali, comprese tutte le integrazioni
 
 1. Per i diagrammi di flusso dei dati e i mapping di entità di database applicabili a ogni versione, vedere i seguenti argomenti:
 
-   - [Riferimento informazioni personali (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=it)
-   - [Riferimento alle informazioni personali (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=it)
+   - [Riferimento informazioni personali (2.x)](https://experienceleague.adobe.com/it/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [Riferimento alle informazioni personali (1.x)](https://experienceleague.adobe.com/it/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![diagramma](./assets/privacy-frontend-diagram.svg)
 
@@ -169,8 +169,8 @@ I commercianti sono responsabili di:
 
    - **Richieste da eliminare**
 
-      - I commercianti i cui negozi sono ospitati su Adobe Commerce Cloud devono contattare il supporto Adobe per assistenza nell’eliminazione di informazioni personali. Per ulteriori informazioni, contatta il tuo Adobe Technical Account Manager o l’Assistenza clienti.
-      - I commercianti che eseguono installazioni di Adobe Commerce o Magento Open Source on-premise devono implementare il proprio processo e script per eliminare informazioni personali su richiesta.
+     - I commercianti i cui negozi sono ospitati su Adobe Commerce Cloud devono contattare il supporto Adobe per assistenza nell’eliminazione di informazioni personali. Per ulteriori informazioni, contatta il tuo Adobe Technical Account Manager o l’Assistenza clienti.
+     - I commercianti che eseguono installazioni di Adobe Commerce o Magento Open Source on-premise devono implementare il proprio processo e script per eliminare informazioni personali su richiesta.
 
 #### Passaggio 5: scrivi il contenuto per le notifiche cliente richieste
 
@@ -186,12 +186,12 @@ I commercianti sono responsabili di:
 
    - **Come inviare una richiesta per la raccolta e l&#39;utilizzo di informazioni personali**: istruzioni per l&#39;invio di una richiesta di divulgazione delle informazioni personali raccolte sull&#39;utente, tra cui:
 
-      - Informazioni personali specifiche raccolte sul consumatore
-      - Categorie di informazioni personali raccolte sul consumatore
-      - Categorie di fonti da cui vengono raccolte le informazioni personali
-      - Categorie di informazioni personali sul consumatore che hai venduto o divulgato per uno scopo commerciale
-      - Categorie di terzi a cui le informazioni personali sono state vendute o divulgate per uno scopo aziendale
-      - I motivi per cui la tua azienda raccoglie e/o vende informazioni personali
+     - Informazioni personali specifiche raccolte sul consumatore
+     - Categorie di informazioni personali raccolte sul consumatore
+     - Categorie di fonti da cui vengono raccolte le informazioni personali
+     - Categorie di informazioni personali sul consumatore che hai venduto o divulgato per uno scopo commerciale
+     - Categorie di terzi a cui le informazioni personali sono state vendute o divulgate per uno scopo aziendale
+     - I motivi per cui la tua azienda raccoglie e/o vende informazioni personali
 
 1. Invia il contenuto al team e, se possibile, al tuo consulente legale per una revisione.
 
@@ -215,9 +215,9 @@ Rivedi la tua attuale politica sulla privacy e considera quali informazioni aggi
 
 - **Età del consenso**: se raccogli o utilizzi informazioni personali su minori, potresti essere soggetto ai seguenti requisiti:
 
-   - **Minori &lt; 13**: per i minori di età inferiore ai 13 anni è necessaria l&#39;autorizzazione per i genitori a partecipare alla vendita dei propri dati personali.
+  - **Minori &lt; 13**: per i minori di età inferiore ai 13 anni è necessaria l&#39;autorizzazione per i genitori a partecipare alla vendita dei propri dati personali.
 
-   - **Minori di età compresa tra 13 e &lt; 16**: i minori di età compresa tra almeno 13 e 16 anni possono acconsentire alla vendita delle loro informazioni personali, a condizione che l&#39;azienda stabilisca un processo ragionevole per documentare l&#39;azione. Il processo deve essere descritto nell&#39;[informativa sulla privacy](privacy-policy.md) dell&#39;azienda. Quando un’azienda riceve richieste da minori di questa fascia di età, deve informarli del loro diritto di rinuncia in un secondo momento e spiegare come farlo.
+  - **Minori di età compresa tra 13 e &lt; 16**: i minori di età compresa tra almeno 13 e 16 anni possono acconsentire alla vendita delle loro informazioni personali, a condizione che l&#39;azienda stabilisca un processo ragionevole per documentare l&#39;azione. Il processo deve essere descritto nell&#39;[informativa sulla privacy](privacy-policy.md) dell&#39;azienda. Quando un’azienda riceve richieste da minori di questa fascia di età, deve informarli del loro diritto di rinuncia in un secondo momento e spiegare come farlo.
 
   >[!IMPORTANT]
   >

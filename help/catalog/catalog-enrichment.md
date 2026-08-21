@@ -18,7 +18,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
 source-wordcount: 2182
 ht-degree: 0%
@@ -31,7 +31,7 @@ L&#39;arricchimento del catalogo è una funzionalità nativa di [!DNL Adobe Comm
 
 >[!NOTE]
 >
->L&#39;arricchimento del catalogo è alimentato da [!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer] dietro le quinte. Utilizza l’arricchimento come parte del flusso di lavoro del catalogo Commerce. Non puoi gestire un’integrazione LLM Optimizer separata per applicare gli aggiornamenti approvati di nome e descrizione. Per un monitoraggio e un&#39;ottimizzazione LLM più ampi al di fuori di Commerce, consulta la [documentazione del prodotto LLM Optimizer](https://experienceleague.adobe.com/it/docs/llm-optimizer/using/home).
+>L&#39;arricchimento del catalogo è alimentato da [!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer] dietro le quinte. Utilizza l’arricchimento come parte del flusso di lavoro del catalogo Commerce. Non puoi gestire un’integrazione LLM Optimizer separata per applicare gli aggiornamenti approvati di nome e descrizione. Per un monitoraggio e un&#39;ottimizzazione LLM più ampi al di fuori di Commerce, consulta la [documentazione del prodotto LLM Optimizer](https://experienceleague.adobe.com/it/docs/brand-visibility/using/home).
 
 ## Come funziona {#how-it-works}
 
@@ -63,7 +63,7 @@ I seguenti prerequisiti si applicano quando si ha accesso all’arricchimento de
 - La vetrina può essere scansionata da bot agentici e orientati verso LLM in cui è necessaria la copertura della scansiona per i suggerimenti in base al catalogo.
 - I servizi Commerce richiesti e la connettività al catalogo sono abilitati e integri. Per ulteriori informazioni, consulta [Abilita arricchimento catalogo](#enable-catalog-enrichment).
 - [IMS è configurato](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/organizations).
-- Hai accesso a [Adobe Admin Console](https://helpx.adobe.com/it/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Hai accesso a [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - La tua organizzazione ha firmato il rider GenAI, o ha esplicitamente rinunciato, per i servizi di intelligenza artificiale sottostanti.
 
 >[!NOTE]

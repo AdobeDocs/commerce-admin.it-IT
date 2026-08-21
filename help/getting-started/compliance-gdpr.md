@@ -22,7 +22,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 0%
@@ -68,4 +68,4 @@ Le aziende che si conformano al RGPD potrebbero avere obblighi aggiuntivi ai sen
 
 - Per scoprire come Adobe aiuta i commercianti a rispettare gli obblighi legali applicabili, visita il [sito Web](https://business.adobe.com/it/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Per i diagrammi di flusso dei dati e il mapping delle entità del database, vedere [Riferimento informazioni personali](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=it){: target="_blank"}.
+- Per i diagrammi di flusso dei dati e il mapping delle entità del database, vedere [Riferimento informazioni personali](https://experienceleague.adobe.com/it/docs/commerce-operations/security-and-compliance/reference/data-m2){: target="_blank"}.

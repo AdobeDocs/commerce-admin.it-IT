@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: 331
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ I commercianti che hanno integrato la loro istanza di Commerce con il flusso di 
 
 Dopo la disabilitazione dell’integrazione IMS, le distribuzioni di Commerce tornano al flusso di lavoro e ai criteri per le password di autenticazione di Commerce predefiniti. Solo i flussi di lavoro degli utenti amministratori sono interessati quando questa integrazione è abilitata o disabilitata.
 
-Per una panoramica dell&#39;accesso dell&#39;amministratore di Commerce, vedere [Account amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=it).
+Per una panoramica dell&#39;accesso dell&#39;amministratore di Commerce, vedere [Account amministratore](/help/getting-started/admin-signin.md).
 
 ## Passaggio 1: disabilitare l’integrazione
 
@@ -58,7 +58,7 @@ Dopo aver disabilitato l’integrazione, gli utenti amministratore devono utiliz
 
 * Gli utenti amministratore di Commerce che ricordano la propria password Commerce preesistente (ovvero una password Commerce creata prima dell’integrazione IMS) possono utilizzarla per accedere all’amministratore.
 
-* Gli utenti amministratori di Commerce che non hanno una password Commerce preesistente o l’hanno dimenticata devono creare una nuova password. Per creare una nuova password, gli utenti amministratori possono utilizzare la funzionalità [!UICONTROL Forgot your password?] nella pagina di accesso di Commerce per creare una nuova password. Consulta [Reimpostare le password dei clienti](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=it). Commerce non accetta un campo password vuoto.
+* Gli utenti amministratori di Commerce che non hanno una password Commerce preesistente o l’hanno dimenticata devono creare una nuova password. Per creare una nuova password, gli utenti amministratori possono utilizzare la funzionalità [!UICONTROL Forgot your password?] nella pagina di accesso di Commerce per creare una nuova password. Consulta [Reimpostare le password dei clienti](/help/customers/password-reset.md). Commerce non accetta un campo password vuoto.
 
 ## Dopo aver disabilitato l’integrazione
 

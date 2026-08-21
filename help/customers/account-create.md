@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1281
 ht-degree: 0%
@@ -192,7 +192,7 @@ Quando il profilo viene salvato per la prima volta, diventano disponibili pulsan
 | **[!UICONTROL Reset]** | Ripristina i valori precedenti delle modifiche non salvate nel modulo per il cliente. |
 | **[!UICONTROL Create Order]** | Crea un ordine per il cliente. |
 | **[!UICONTROL Reset Password]** | Invia al cliente un collegamento [reimposta password](../customers/password-reset.md) tramite e-mail. |
-| **[!UICONTROL Force Sign-in]** | Revoca i token di accesso OAuth associati all’account cliente. Questa funzione può essere utilizzata solo con account cliente a cui sono stati assegnati token OAuth come parte di un&#39;integrazione [API Web](../systems/integrations.md). Per ulteriori informazioni, consulta [Autenticazione basata su OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) nella documentazione per gli sviluppatori. |
+| **[!UICONTROL Force Sign-in]** | Revoca i token di accesso OAuth associati all’account cliente. Questa funzione può essere utilizzata solo con account cliente a cui sono stati assegnati token OAuth come parte di un&#39;integrazione [API Web](../systems/integrations.md). Per ulteriori informazioni, consulta [Autenticazione basata su OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) nella documentazione per gli sviluppatori. |
 | **[!UICONTROL Manage Shopping Cart]** | Consente all’amministratore di gestire il carrello per il cliente. |
 | **[!UICONTROL Save and Continue Edit]** | Salva le modifiche e mantiene aperto il profilo cliente. |
 | **[!UICONTROL Save Customer]** | Salva le modifiche e chiude il profilo cliente. |

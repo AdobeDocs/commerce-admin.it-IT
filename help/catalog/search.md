@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 541
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=it) offre un&#39;esperienza di ricerca rapida, super rilevante e intuitiva ed è disponibile gratuitamente per Adobe Commerce. Questa sezione descrive la funzionalità di ricerca standard che potrebbe essere diversa da [!DNL Live Search].
+>[[!DNL Live Search]](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview) offre un&#39;esperienza di ricerca rapida, super rilevante e intuitiva ed è disponibile gratuitamente per Adobe Commerce. Questa sezione descrive la funzionalità di ricerca standard che potrebbe essere diversa da [!DNL Live Search].
 
 Le ricerche mostrano che le persone che utilizzano la ricerca hanno più probabilità di effettuare un acquisto rispetto ai clienti che si affidano esclusivamente alla navigazione. Infatti, secondo alcuni studi, le persone che utilizzano la ricerca hanno quasi il doppio delle probabilità di effettuare un acquisto.
 
@@ -64,7 +64,7 @@ La casella di ricerca nell’intestazione del negozio aiuta i visitatori a trova
 
 >[!NOTE]
 >
->La funzionalità di ricerca avanzata dei moduli qui descritta non è applicabile a [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=it).
+>La funzionalità di ricerca avanzata dei moduli qui descritta non è applicabile a [[!DNL Live Search]](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview).
 
 La funzione Ricerca avanzata consente agli acquirenti di cercare il catalogo in base ai valori immessi in un modulo. Poiché il modulo contiene più campi, una singola ricerca può includere diversi parametri. Il risultato è un elenco di tutti i prodotti del catalogo che corrispondono ai criteri. Un collegamento a Ricerca avanzata si trova nel piè di pagina del negozio.
 

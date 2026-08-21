@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2024-04-09
-source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1713
+source-wordcount: 1715
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Memori
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Globale | Determina l&#39;applicazione utilizzata per gestire la cache di pagina intera. Opzioni: <br/>**`Built-in Application`**- Non consigliato per l&#39;ambiente di produzione.<br/>**`Varnish Caching`** - Consigliato per l&#39;ambiente di produzione. |
 | [!UICONTROL TTL for public content] | Globale | Determina la durata della cache del contenuto pubblico in secondi. Valore predefinito: `120` |
-| [!UICONTROL Handles param size] | globale | Specifica il numero massimo di [handle di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare sull&#39;endpoint HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Valore predefinito: `100` |
+| [!UICONTROL Handles param size] | globale | Specifica il numero massimo di [handle di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare sull&#39;endpoint HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi). La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Valore predefinito: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Globale | Specifica gli indirizzi IP che possono eliminare la configurazione Vernice per generare un file di configurazione. Separa più voci con una virgola. Valore predefinito: `localhost` |
 | [!UICONTROL Backend host] | Globale | Specifica l&#39;host backend che genera i file di configurazione. Valore predefinito: `localhost` |

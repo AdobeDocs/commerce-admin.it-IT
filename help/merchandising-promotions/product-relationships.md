@@ -19,9 +19,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 262
+source-wordcount: 263
 ht-degree: 0%
 
 ---
@@ -52,4 +52,4 @@ Quando crei o aggiorni un prodotto, le [impostazioni prodotto](../catalog/produc
 
 ## Consigli di prodotto basati su Adobe AI
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=it) basato su Adobe AI semplifica il processo di definizione delle relazioni tra i prodotti utilizzando algoritmi di intelligenza artificiale e machine learning per eseguire un&#39;analisi approfondita dei dati aggregati dei visitatori. Quando vengono combinati con il catalogo di Adobe Commerce, questi dati offrono esperienze altamente coinvolgenti, pertinenti e personalizzate per l’acquirente.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/it/docs/commerce/product-recommendations/overview) basato su Adobe AI semplifica il processo di definizione delle relazioni tra i prodotti utilizzando algoritmi di intelligenza artificiale e machine learning per eseguire un&#39;analisi approfondita dei dati aggregati dei visitatori. Quando vengono combinati con il catalogo di Adobe Commerce, questi dati offrono esperienze altamente coinvolgenti, pertinenti e personalizzate per l’acquirente.

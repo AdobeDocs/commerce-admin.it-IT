@@ -1,8 +1,6 @@
 ---
 title: Guide utente per l’amministrazione di Adobe Commerce
-description: Sfoglia la documentazione del prodotto Adobe Commerce
-seo-title: Services for Adobe Commerce
-seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
+description: Cerca articoli di supporto e tutorial su Adobe Commerce Admin. Ottieni supporto esperto per la configurazione, la gestione e la risoluzione dei problemi del tuo archivio Commerce.
 breadcrumb-title: Guide utente amministratore
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 TQID: https://experienceleague.adobe.com/zoHXvfhkWovXcAk0S9hTpQOTIHbLYhfjyFqc-cCjLLE
@@ -32,9 +30,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 nudge: true
 last-update: 2026-08-07
-source-git-commit: 6abaad747203dccb75d8344c20f5e7b657e374eb
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 769
 ht-degree: 0%
 
 ---
@@ -49,7 +47,7 @@ Le informazioni contenute nelle Guide utente per amministratori sono progettate 
 
 Adobe Commerce è una piattaforma di e-commerce agile B2B e B2C che consente a commercianti e marchi di accelerare i ricavi attraverso esperienze di e-commerce digitale incentrate sul cliente in spazi online e fisici. È la scelta migliore per le organizzazioni di medie e grandi dimensioni, in quanto offre i modelli di distribuzione più flessibili, dal cloud on-premise al cloud gestito con SLA garantiti. Adobe Commerce consente integrazioni API-first, estensioni completamente personalizzabili e il set più completo di funzionalità di esperienza di e-commerce di livello Enterprise, dal marketing alla commercializzazione e all’evasione. Adobe Commerce è basato su una base di codice open-source per fornire flessibilità ed estensibilità come nessun’altra piattaforma commerce.
 
-Per un elenco delle funzionalità avanzate incluse in Adobe Commerce, vedi [Funzionalità di Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=it) nelle _Informazioni sulla versione_.
+Per un elenco delle funzionalità avanzate incluse in Adobe Commerce, vedi [Funzionalità di Commerce](https://experienceleague.adobe.com/it/docs/commerce-operations/release/features) nelle _Informazioni sulla versione_.
 
 ## Base di codice Magento Open Source
 

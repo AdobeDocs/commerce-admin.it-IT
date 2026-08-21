@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 657
+source-wordcount: 658
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Configura le opzioni di configurazione predefinite per prodotto e magazzino per 
 
      >[!NOTE]
      >
-     >Per configurare e supportare i _gestori di code asincrone_, è necessario eseguire un comando tramite la riga di comando. Questo passaggio potrebbe richiedere l’assistenza degli sviluppatori. Vedere [Avvia consumer della coda messaggi](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=it) nella _Guida alla configurazione_.
+     >Per configurare e supportare i _gestori di code asincrone_, è necessario eseguire un comando tramite la riga di comando. Questo passaggio potrebbe richiedere l’assistenza degli sviluppatori. Vedere [Avvia consumer della coda messaggi](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/start-message-queues) nella _Guida alla configurazione_.
 
    - Se abilitato, impostare **[!UICONTROL Asynchronous batch size]**. La dimensione predefinita del batch è 100. Quando i processi in blocco raggiungono questa quantità, il sistema la attiva.
 

@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3399
+source-wordcount: 3400
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Completa i passaggi seguenti per aggiungere una regola, descrivere le condizioni
 
    - Per associare un coupon a una regola di prezzo, impostare **[!UICONTROL Coupon]** su `Specific Coupon` ed effettuare le seguenti operazioni:
 
-      - Immettere un testo libero **[!UICONTROL Coupon Code]** che il cliente deve immettere per ricevere lo sconto.
+     - Immettere un testo libero **[!UICONTROL Coupon Code]** che il cliente deve immettere per ricevere lo sconto.
 
-      - Per impostare un limite per il numero di volte in cui è possibile utilizzare il coupon, completare le seguenti opzioni:
+     - Per impostare un limite per il numero di volte in cui è possibile utilizzare il coupon, completare le seguenti opzioni:
 
      | Opzione | Descrizione |
      |------|-----------|
@@ -228,7 +228,7 @@ Puoi impostare una condizione per una regola del prezzo del carrello basata su u
    | `Name` | Nome del pubblico, ad esempio `Orders over $50` |
    | `Description` | Descrizione del pubblico, ad esempio `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica da dove proviene il pubblico, ad esempio `Experience Platform`. |
-   | `Website` | Indica quale sito web hai collegato allo stream di dati che contiene i tipi di pubblico. Questo collegamento viene creato quando si connette l&#39;istanza di Commerce all&#39;Experience Platform tramite l&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=it). |
+   | `Website` | Indica quale sito web hai collegato allo stream di dati che contiene i tipi di pubblico. Questo collegamento viene creato quando si connette l&#39;istanza di Commerce all&#39;Experience Platform tramite l&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/it/docs/commerce/data-connection/fundamentals/connect-data). |
 
    {style="table-layout:auto"}
 

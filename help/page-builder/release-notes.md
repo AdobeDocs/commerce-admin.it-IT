@@ -19,7 +19,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 2839
 ht-degree: 0%
@@ -197,9 +197,9 @@ Questa versione di [!DNL Page Builder] è solo un aggiornamento del numero di ve
 
 >[!IMPORTANT]
 >
->Se hai creato altre entità di database per l&#39;archiviazione del contenuto di [!DNL Page Builder], _devi_ aggiungerle al tuo `etc/di.xml`. In caso contrario, il contenuto di [!DNL Page Builder] archiviato nell&#39;entità non verrà aggiornato, causando la potenziale perdita di dati e problemi di visualizzazione. Ad esempio, se hai creato un&#39;entità blog che memorizza il contenuto [!DNL Page Builder], devi aggiungere l&#39;entità blog al file `etc/di.xml` come tipo `UpgradableEntitiesPool` in modo che la libreria di aggiornamento possa aggiornare i tipi di contenuto [!DNL Page Builder] utilizzati nel blog. Per ulteriori informazioni e istruzioni sull&#39;utilizzo della libreria di aggiornamento, vedere [Aggiornare i tipi di contenuto](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/) nella _Guida per gli sviluppatori di Page Builder_.
+>Se hai creato altre entità di database per l&#39;archiviazione del contenuto di [!DNL Page Builder], _devi_ aggiungerle al tuo `etc/di.xml`. In caso contrario, il contenuto di [!DNL Page Builder] archiviato nell&#39;entità non verrà aggiornato, causando la potenziale perdita di dati e problemi di visualizzazione. Ad esempio, se hai creato un&#39;entità blog che memorizza il contenuto [!DNL Page Builder], devi aggiungere l&#39;entità blog al file `etc/di.xml` come tipo `UpgradableEntitiesPool` in modo che la libreria di aggiornamento possa aggiornare i tipi di contenuto [!DNL Page Builder] utilizzati nel blog. Per ulteriori informazioni e istruzioni sull&#39;utilizzo della libreria di aggiornamento, vedere [Aggiornare i tipi di contenuto](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types) nella _Guida per gli sviluppatori di Page Builder_.
 
-![Nuovo](../assets/new.svg) **Documentazione per l&#39;aggiunta di nuovi aspetti** - Sono state pubblicate informazioni per gli sviluppatori relative a [aggiunta di aspetti](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/) per tipi di contenuto esistenti o personalizzati.
+![Nuovo](../assets/new.svg) **Documentazione per l&#39;aggiunta di nuovi aspetti** - Sono state pubblicate informazioni per gli sviluppatori relative a [aggiunta di aspetti](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances) per tipi di contenuto esistenti o personalizzati.
 
 ![Problema risolto](../assets/fix.svg) **Varie correzioni**
 

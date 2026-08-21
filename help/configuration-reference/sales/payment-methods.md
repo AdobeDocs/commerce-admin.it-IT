@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1850
+source-wordcount: 1852
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Payment Services per Adobe Commerce e Magento Open Source fornisce una soluzione self-service chiavi in mano, che include test sandbox e una configurazione semplice, per fornire un’elaborazione dei pagamenti solida e sicura. Per ulteriori informazioni su questo potente set di strumenti e su come può offrirti insight e il controllo di cui hai bisogno per creare la migliore esperienza per i tuoi acquirenti, consulta la [_Guida utente per i servizi di pagamento_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=it).
+>Payment Services per Adobe Commerce e Magento Open Source fornisce una soluzione self-service chiavi in mano, che include test sandbox e una configurazione semplice, per fornire un’elaborazione dei pagamenti solida e sicura. Per ulteriori informazioni su questo potente set di strumenti e su come può offrirti insight e il controllo di cui hai bisogno per creare la migliore esperienza per i tuoi acquirenti, consulta la [_Guida utente per i servizi di pagamento_](https://experienceleague.adobe.com/it/docs/commerce/payment-services/guide-overview).
 
 {{config}}
 
@@ -67,7 +67,7 @@ Le seguenti soluzioni di pagamento sono consigliate come un modo semplice per gl
 ><br/>
 >**Amazon Pay** e **Klarna**: le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includono queste estensioni sviluppate dal fornitore. A partire dalla versione 2.4.4, queste estensioni non sono più in bundle con la versione di base e devono essere installate e aggiornate da Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
 ><br/>
->Se una di queste estensioni in bundle è abilitata e configurata, devi aggiornare il file `composer.json` come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=it) nella _Guida all&#39;aggiornamento_.<br/>
+>Se una di queste estensioni in bundle è abilitata e configurata, devi aggiornare il file `composer.json` come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/modules/upgrade) nella _Guida all&#39;aggiornamento_.<br/>
 
 ## Altri metodi PayPal
 

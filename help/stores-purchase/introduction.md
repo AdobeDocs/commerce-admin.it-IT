@@ -20,9 +20,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 673
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Adobe Commerce e Magento Open Source riducono gli errori di ordinazione verifica
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Con l&#39;installazione e l&#39;abilitazione di Adobe Commerce B2B, puoi configurare _Quick Order_ per i clienti associati a un account aziendale. Questa funzione riduce il processo di ordinazione a diversi clic quando conoscono il nome o lo SKU dei prodotti che desiderano ordinare. È inoltre possibile configurare il supporto per i preventivi negoziabili per gli account aziendali. Per ulteriori informazioni sulle funzionalità B2B, consulta la [Guida utente di Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=it).
+>![Adobe Commerce B2B](../assets/b2b.svg) Con l&#39;installazione e l&#39;abilitazione di Adobe Commerce B2B, puoi configurare _Quick Order_ per i clienti associati a un account aziendale. Questa funzione riduce il processo di ordinazione a diversi clic quando conoscono il nome o lo SKU dei prodotti che desiderano ordinare. È inoltre possibile configurare il supporto per i preventivi negoziabili per gli account aziendali. Per ulteriori informazioni sulle funzionalità B2B, consulta la [Guida utente di Adobe Commerce B2B](/help/b2b/introduction.md).
 
 ## Assistenza agli acquisti
 

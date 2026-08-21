@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1500
+source-wordcount: 1504
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Consulta [Configurare la ricerca del sito](https://support.google.com/analytics/
 
 ## Passaggio 2: Configura l&#39;account [!DNL Google Tag Manager]
 
-Le istruzioni seguenti mostrano come configurare un nuovo contenitore con le impostazioni di base. Un esempio di file di configurazione [Composer](https://developer.adobe.com/commerce/php/development/composer/) (.json) viene utilizzato per semplificare il processo, importando per generare un tag in un nuovo contenitore. In questo esempio, si consiglia di creare un contenitore, anziché modificare un contenitore esistente.
+Le istruzioni seguenti mostrano come configurare un nuovo contenitore con le impostazioni di base. Un esempio di file di configurazione [Composer](https://developer.adobe.com/commerce/php/development/composer) (.json) viene utilizzato per semplificare il processo, importando per generare un tag in un nuovo contenitore. In questo esempio, si consiglia di creare un contenitore, anziché modificare un contenitore esistente.
 
 >[!NOTE]
 >

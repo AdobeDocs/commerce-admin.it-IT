@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ La lunghezza e il formato dei codici coupon generati automaticamente sono contro
 
 >[!NOTE]
 >
->[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Prima di creare coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=it#run-cron-from-the-command-line) nella _Guida alla configurazione_.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Prima di creare coupon, utilizzare il comando `bin/magento cron:run` per verificare che cron sia in esecuzione. Per ulteriori informazioni, vedere [Esegui cron dalla riga di comando](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line) nella _Guida alla configurazione_.
 
 ### Metodo 1: creazione di un coupon specifico
 
@@ -124,23 +124,23 @@ La lunghezza e il formato dei codici coupon generati automaticamente sono contro
 
      **Opzione 1:** Pianifica un nuovo aggiornamento
 
-      - Fare clic su **[!UICONTROL Schedule New Update]** nell&#39;angolo superiore destro della pagina.
+     - Fare clic su **[!UICONTROL Schedule New Update]** nell&#39;angolo superiore destro della pagina.
 
-        ![Pianifica aggiornamento](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![Pianifica aggiornamento](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - Immettere **[!UICONTROL Update Name]** e **[!UICONTROL Description]**.
+     - Immettere **[!UICONTROL Update Name]** e **[!UICONTROL Description]**.
 
-      - Scegli la **Data inizio** e la **[!UICONTROL End Date]** dal Calendario ( ![Icona Calendario](../assets/icon-calendar.png) ). Se lasci vuoto l’intervallo di date, la regola non scade.
+     - Scegli la **Data inizio** e la **[!UICONTROL End Date]** dal Calendario ( ![Icona Calendario](../assets/icon-calendar.png) ). Se lasci vuoto l’intervallo di date, la regola non scade.
 
-      - Al termine, fare clic su **[!UICONTROL Save]**.
+     - Al termine, fare clic su **[!UICONTROL Save]**.
 
-        ![Regola prezzo carrello - modifica pianificata](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![Regola prezzo carrello - modifica pianificata](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **Opzione 2:** Assegna a un aggiornamento esistente:
 
-      - Selezionare **[!UICONTROL Assign to Another Update]**.
+     - Selezionare **[!UICONTROL Assign to Another Update]**.
 
-      - Trovare l&#39;aggiornamento nell&#39;elenco e fare clic su **[!UICONTROL Select]**.
+     - Trovare l&#39;aggiornamento nell&#39;elenco e fare clic su **[!UICONTROL Select]**.
 
 1. Completa la [regola prezzo carrello](price-rules-cart.md) in base alle esigenze.
 
@@ -170,9 +170,9 @@ La generazione di buoni sconto è un’operazione asincrona, che viene eseguita 
 
    - Impostare **[!UICONTROL Code Format]** su uno dei seguenti valori:
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - (Facoltativo) Immettere **[!UICONTROL Code Prefix]** da aggiungere all&#39;inizio del codice.
 
@@ -221,7 +221,7 @@ Per eliminare i codici coupon personalizzati, selezionare i codici da eliminare 
 
 Per modificare i codici coupon personalizzati o visualizzare i dettagli di utilizzo, fare clic su **[!UICONTROL Edit]** nella colonna **[!UICONTROL Actions]**.
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 Impossibile modificare o eliminare il codice del coupon principale che appartiene alla regola di prezzo del carrello.
 
@@ -288,16 +288,16 @@ Nell&#39;esempio seguente, il codice coupon &quot;H20&quot; è stato utilizzato 
 
    - Imposta **[!UICONTROL Date Used]** su uno dei seguenti:
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      Il report _Ordine aggiornato_ viene creato in tempo reale e non richiede un aggiornamento.
 
    - Per definire il periodo di tempo coperto dal report, impostare **[!UICONTROL Period]** su uno dei seguenti valori:
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - Per definire l&#39;intervallo di date del report, immettere le date **Da** e **A** in formato M/G/AA.
 
@@ -307,8 +307,8 @@ Nell&#39;esempio seguente, il codice coupon &quot;H20&quot; è stato utilizzato 
 
    - Per definire l&#39;attività coupon inclusa nel rapporto, effettuare una delle seguenti operazioni:
 
-      - Per includere tutte le attività coupon da tutte le regole di prezzo, impostare **[!UICONTROL Cart Price Rule]** su `Any`.
-      - Per includere solo le attività correlate a una regola di prezzo specifica, impostare **[!UICONTROL Cart Price Rule]** su `Specified` e selezionare la regola di prezzo del carrello nell&#39;elenco.
+     - Per includere tutte le attività coupon da tutte le regole di prezzo, impostare **[!UICONTROL Cart Price Rule]** su `Any`.
+     - Per includere solo le attività correlate a una regola di prezzo specifica, impostare **[!UICONTROL Cart Price Rule]** su `Specified` e selezionare la regola di prezzo del carrello nell&#39;elenco.
 
 1. Al termine dell&#39;esecuzione del report, fare clic su **[!UICONTROL Show Report]**.
 

@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1231
+source-wordcount: 1316
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includono l&#39;estensione sviluppata dal fornitore Vertex utilizzata per l&#39;integrazione con [!UICONTROL Vertex Cloud]. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata da Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
-><br><br>>Se hai abilitato e configurato l&#39;estensione nel pacchetto, devi aggiornare il file compositore.json come parte del processo di aggiornamento di 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento ed estensioni](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=it) nella _Guida all&#39;aggiornamento_.
+><br><br>
+>Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento ed estensioni](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/modules/upgrade) nella _Guida all&#39;aggiornamento_.
 
 {{config}}
 
