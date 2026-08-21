@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## Impostazioni di configurazione {#config}
 
-Per accedere alle impostazioni di configurazione dell&#39;archivio, scegliere **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**dalla barra laterale_ Amministratore _.
+Per accedere alle impostazioni di configurazione dell&#39;archivio, scegliere **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;dalla barra laterale_ Amministratore _.
 
 ## API UPS obsoleta {#ups-api}
 
