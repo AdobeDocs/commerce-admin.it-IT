@@ -221,7 +221,7 @@ Se abilitata, la sezione _[!UICONTROL Downloadable Information]_&#x200B;è compo
 
    >[!NOTE]
    >
-   >Non è possibile utilizzare collegamenti a risorse esterne come prodotti scaricabili. I domini di collegamento validi sono predefiniti a livello di programmazione nel file `env.php` (vedi [riferimento env.php](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-envphp) nella _Guida alla configurazione_).
+   >Non è possibile utilizzare collegamenti a risorse esterne come prodotti scaricabili. I domini di collegamento validi sono predefiniti a livello di programmazione nel file `env.php` (vedi [riferimento env.php](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/files/config-reference-envphp) nella _Guida alla configurazione_).
 
    - Imposta **[!UICONTROL Shareable]** su uno dei seguenti:
 
