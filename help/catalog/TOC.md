@@ -99,4 +99,4 @@ ht-degree: 1%
     + [Creare ed eliminare attributi](attribute-product-create.md)
     + [Aggiornamenti in blocco](bulk-product-attribute-update.md)
     + [Set di attributi](attribute-sets.md)
-+ [Torna a Guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Torna a Guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
