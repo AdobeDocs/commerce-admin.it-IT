@@ -1,7 +1,7 @@
 ---
-source-git-commit: ddb16ac856b75e3a4fcc1bd620b6e5b1dab321d5
+source-git-commit: 5de2260c4c7324a509aa0f4154220b7ff8bedd73
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## Novità
 
 Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo elenco sono esclusi tutti gli aggiornamenti minori, ad esempio la modifica della copia.
+
+### 31 agosto 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce 2.4.8-p5 è stato rimosso dall'elenco delle versioni supportate per <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>. I clienti di 2.4.8 devono utilizzare la versione 1.5.3 di B2B.</p>
+</td>
+      <td>
+        Tecnico
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">commit</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 4 agosto 2026
 
@@ -73,28 +95,6 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
         Nuovo argomento
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 30 giugno 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrizione</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Aggiunta di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aggiorna accesso amministratore di sistema</a> con istruzioni per la gestione delle assegnazioni dell'amministratore di sistema in Adobe Admin Console.</p>
-</td>
-      <td>
-        Feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">commit</a></td>
     </tr>
   </tbody>
 </table>
