@@ -3,26 +3,16 @@ title: Regole di categoria per merchandising
 description: Scopri come creare una regola per modificare dinamicamente le selezioni dei prodotti in base a un set di condizioni.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: https://experienceleague.adobe.com/Be3PacClITSThEtPIbG7NcxdrmZj7hoCTxTDAqRYN1E
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: efbe6e4f07ff66b2deb91127b4f69eca5e4015f1
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -57,7 +47,7 @@ Le regole per prodotti di categoria possono accelerare il processo di assegnazio
 
    >[!NOTE]
    >
-   >Verificare che l&#39;attributo selezionato NON sia un elemento _[!UICONTROL Input Type]_&#x200B;a selezione multipla.
+   >Verificare che l&#39;attributo selezionato NON sia un elemento _[!UICONTROL Input Type]_a selezione multipla.
 
 1. Completare la [configurazione](smart-attributes-configure.md) per identificare ogni attributo _smart_ da utilizzare con Visual Merchandiser.
 
@@ -157,6 +147,10 @@ Le regole per prodotti di categoria possono accelerare il processo di assegnazio
   >La quantità di un prodotto configurabile con opzioni figlio viene calcolata combinando tutte le quantità di prodotti figlio vendibili. Prendi in considerazione un esempio in cui si dispone di un prodotto configurabile _Basic Fitness Tank_ con opzioni di colore viola, rosso e giallo e diverse quantità di ciascuno. In questo caso, la quantità del prodotto principale (Canotta fitness di base) è la quantità vendibile combinata dei prodotti secondari di colore viola, rosso e giallo.
 
 - **[!UICONTROL Operator]** - Specifica l&#39;operatore applicato al valore dell&#39;attributo per soddisfare la condizione. A meno che non sia specificato un operatore, viene utilizzato `Equal` come valore predefinito. Opzioni: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` e `Contains`
+
+  L&#39;operatore **[!UICONTROL Contains]** accetta più valori separati da virgole e rileva se il valore dell&#39;attributo contiene almeno uno di essi, in modo simile a un&#39;operazione OR logica. **[!UICONTROL Contains]**: `casual, party` corrisponde a qualsiasi valore contenente `casual` o `party`.
+
+  Utilizzare questo operatore per combinare più termini in una riga di regole anziché creare una riga separata per ogni termine.
 
 - **[!UICONTROL Value]** - Specifica il valore che l&#39;attributo deve soddisfare la condizione.
 
