@@ -20,12 +20,13 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6f1f13b75aa01c5142cc8ea03cef2df6d2d3aaf3
 workflow-type: tm+mt
-source-wordcount: 3400
+source-wordcount: 3608
 ht-degree: 0%
 
 ---
+
 
 # Creare una regola di prezzo del carrello
 
@@ -73,6 +74,7 @@ Completa i passaggi seguenti per aggiungere una regola, descrivere le condizioni
      ![Regola prezzo carrello - impostazioni coupon](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
    - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilizza il _Calendario_ (![Icona Calendario](../assets/icon-calendar.png)) per scegliere l&#39;intervallo di date **[!UICONTROL From]** e **[!UICONTROL To]** per la promozione.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce as a Cloud Service) Utilizza il _Calendario_ (![Icona Calendario](../assets/icon-calendar.png)) per scegliere l&#39;intervallo di date e ore **[!UICONTROL From]** e **[!UICONTROL To]** per la promozione.
 
 1. Immettere un numero per definire **[!UICONTROL Priority]** di questa regola prezzo in relazione alle impostazioni Azione di altre regole prezzo attive contemporaneamente.
 
@@ -250,6 +252,7 @@ Le azioni della regola prezzo del carrello descrivono il modo in cui i prezzi ve
    | `Fixed amount discount` | Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo originale di ciascun articolo idoneo nel carrello. Ad esempio: immetti `10` in [!UICONTROL Discount Amount] per un prezzo aggiornato inferiore di 10 dollari al prezzo originale. |
    | Sconto importo fisso per carrello intero | Sconta l&#39;intero carrello sottraendo un importo fisso dal totale del carrello. Ad esempio: immetti 10 in [!UICONTROL Discount Amount] per sottrarre $ 10 dal totale del carrello. Per impostazione predefinita, lo sconto si applica solo al subtotale del carrello. Per applicare lo sconto al subtotale e alla spedizione separatamente, utilizzare l&#39;opzione _[!UICONTROL Apply to Shipping Amount]_. |
    | `Buy X get Y free` | Definisce una quantità X che il cliente deve acquistare per ricevere gratuitamente una quantità Y **dello stesso prodotto/variante**. [!UICONTROL Discount Amount] è Y. Una quantità totale X+Y dello stesso articolo deve essere presente nel carrello o aggiunta al carrello per applicare lo sconto. |
+   | `Free Gift` | Aggiunge al carrello un regalo gratuito quando vengono soddisfatte le condizioni della regola. Selezionare il prodotto libero e la quantità da aggiungere al carrello. <br/><br/>**Nota:** ![Adobe Commerce](../assets/adobe-logo.svg) Questa è una funzionalità esclusiva disponibile solo in Adobe Commerce e non in Magento Open Source. ([Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home#product-editions)) <br/><br/>Questa funzionalità non è supportata nelle vetrine Luma. È accessibile tramite [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) ed è disponibile nelle vetrine di Edge Delivery Services (EDS). |
 
    {style="table-layout:auto"}
 
@@ -363,8 +366,8 @@ Guarda questo video per scoprire come creare le regole di prezzo del carrello:
 | [!UICONTROL Uses per Customer] | Determina quante volte la regola del prezzo del carrello può essere utilizzata dallo stesso cliente registrato che appartiene a qualsiasi gruppo di clienti selezionato. Non si applica agli acquirenti ospiti che sono membri del gruppo di clienti NOT LOGGED IN o ai clienti che effettuano acquisti senza effettuare l’accesso ai propri account. Per nessun limite, lascia vuoto il campo. |
 | [!UICONTROL Priority] | Numero che indica la priorità di questa regola rispetto ad altre. Le priorità dal più alto al più basso sono `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Determina se la promozione è inclusa nel feed RSS pubblico del negozio. Opzioni: `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) La prima data in cui è possibile utilizzare il coupon. |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) L&#39;ultima data in cui è possibile utilizzare il coupon. |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) La prima data in cui è possibile utilizzare il coupon.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] solo) La data e l&#39;ora in cui è possibile utilizzare il coupon. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) L&#39;ultima data in cui è possibile utilizzare il coupon.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] solo) L&#39;ultima data e ora in cui è possibile utilizzare il coupon. |
 
 {style="table-layout:auto"}
 
@@ -401,7 +404,7 @@ Specifica le condizioni che devono essere soddisfatte prima che la regola del pr
 
 | Campo | Descrizione |
 |--- |--- |
-| [!UICONTROL Apply] | Determina il tipo di calcolo applicato all’acquisto. Opzioni: <br/>**[!UICONTROL Percent of product price discount]**- Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale dal prezzo originale. Ad esempio: immettere `10` in _[!UICONTROL Discount Amount]_&#x200B;per un prezzo aggiornato inferiore del 10% rispetto al prezzo originale.<br/>**[!UICONTROL Fixed amount discount]**- Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo originale di ciascun articolo idoneo nel carrello. Ad esempio: immetti `10` in&#x200B;_[!UICONTROL Discount Amount]_ per un prezzo aggiornato inferiore di 10 dollari al prezzo originale. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Sconta l&#39;intero carrello sottraendo un importo fisso dal subtotale del carrello. Ad esempio: immetti `10` in _[!UICONTROL Discount Amount]_&#x200B;per sottrarre $ 10 dal subtotale del carrello. Per impostazione predefinita, lo sconto si applica solo al subtotale del carrello. Per applicare lo sconto al subtotale e alla spedizione separatamente, vedere_Applica all&#39;importo di spedizione _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definisce una quantità che il cliente deve acquistare per ricevere una quantità gratuita._[!UICONTROL Discount Amount]_ è Y. |
+| [!UICONTROL Apply] | Determina il tipo di calcolo applicato all’acquisto. Opzioni: <br/>**[!UICONTROL Percent of product price discount]**- Consente di applicare uno sconto all&#39;articolo sottraendo una percentuale dal prezzo originale. Ad esempio: immettere `10` in _[!UICONTROL Discount Amount]_&#x200B;per un prezzo aggiornato inferiore del 10% rispetto al prezzo originale.<br/>**[!UICONTROL Fixed amount discount]**- Consente di applicare uno sconto all&#39;articolo sottraendo un importo fisso dal prezzo originale di ciascun articolo idoneo nel carrello. Ad esempio: immetti `10` in&#x200B;_[!UICONTROL Discount Amount]_ per un prezzo aggiornato inferiore di 10 dollari al prezzo originale. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Sconta l&#39;intero carrello sottraendo un importo fisso dal subtotale del carrello. Ad esempio: immetti `10` in _[!UICONTROL Discount Amount]_&#x200B;per sottrarre $ 10 dal subtotale del carrello. Per impostazione predefinita, lo sconto si applica solo al subtotale del carrello. Per applicare lo sconto al subtotale e alla spedizione separatamente, vedere_Applica all&#39;importo di spedizione _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definisce una quantità che il cliente deve acquistare per ricevere una quantità gratuita. (Il&#x200B;_[!UICONTROL Discount Amount]_ è Y.) <br/>**[!UICONTROL Free Gift]**- Aggiunge un regalo gratuito al carrello quando vengono soddisfatte le condizioni della regola. Selezionare il prodotto libero e la quantità da aggiungere al carrello. ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce). Questa funzione non è supportata nelle vetrine Luma. È accessibile tramite [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) ed è disponibile nelle vetrine di Edge Delivery Services (EDS). |
 | [!UICONTROL Discount Amount] | (Obbligatorio) L’importo dello sconto offerto. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Imposta il numero massimo di prodotti a cui può essere applicato lo sconto nello stesso acquisto. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Imposta il numero di prodotti rappresentati da `X` in una promozione `Buy X Get Y Free`. Definisce inoltre quanti prodotti devono essere aggiunti al carrello insieme in batch per applicare `Fixed amount discount` e `Percent of product price discount` promozioni. |

@@ -5,9 +5,9 @@ breadcrumb-title: Merchandising e promozioni
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: ef07733f89af030f047576770655f6599b370351
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
     - [Panoramica sulle regole di prezzo del carrello](price-rules-cart.md)
     - [Creare una regola di prezzo del carrello](price-rules-cart-create.md)
     - [Codici coupon](price-rules-cart-coupon.md)
+    - [Promozioni omaggio](price-rules-cart-free-gift.md)
     - [Modifiche pianificate per le regole prezzo carrello](price-rule-cart-scheduled-changes.md)
     - [Esempio: promozione spedizione gratuita](price-rules-cart-free-shipping.md)
     - [Esempio: acquista questo e ottieni il gratis](price-rules-cart-buy-this-get-that.md)

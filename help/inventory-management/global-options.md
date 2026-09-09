@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 757
 ht-degree: 1%
 
 ---
@@ -92,6 +92,13 @@ Configura le opzioni di configurazione predefinite per prodotto e magazzino per 
      Ad esempio, un articolo venduto con incrementi di sei può essere acquistato in quantità di `6`, `12`, `18` e così via.
 
    - Per [!DNL Inventory Management], **[!UICONTROL Automatically Return Credit Memo Item to Stock]** è impostato su `No`. Quando si sottomette una nota di accredito, è necessario inserire e selezionare questa opzione per restituire le scorte alle origini.
+
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) della sezione **[!UICONTROL Per-Source Availability (Storefront)]** e impostare **[!UICONTROL Enable sourceAvailability GraphQL Query]** su `Yes` per consentire la query storefront per dati azionari di origine utilizzando la query GraphQL [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"}. Questa impostazione è definita dalla vista Store.
+
+   >[!NOTE]
+   >
+   >La query `sourceAvailability` è disabilitata per impostazione predefinita perché indica le origini in cui è disponibile uno SKU. Le quantità esatte rimangono nascoste finché la quantità di origine non raggiunge il **[!UICONTROL Only X left Threshold]** impostato nella sezione _[!UICONTROL Stock Options]_. Ogni origine inventario ha un flag **[!UICONTROL Visible on Storefront]**&#x200B;disattivato per impostazione predefinita. Le azioni di una sorgente non vengono mai restituite finché non vengono abilitate da un commerciante. Per impostarlo, passa a **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, modifica un&#39;origine e attiva **[!UICONTROL Visible on Storefront]**.
+
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Admin bulk operations]** e impostare le opzioni:
 

@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: efbe6e4f07ff66b2deb91127b4f69eca5e4015f1
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ Le regole per prodotti di categoria possono accelerare il processo di assegnazio
   >La quantità di un prodotto configurabile con opzioni figlio viene calcolata combinando tutte le quantità di prodotti figlio vendibili. Prendi in considerazione un esempio in cui si dispone di un prodotto configurabile _Basic Fitness Tank_ con opzioni di colore viola, rosso e giallo e diverse quantità di ciascuno. In questo caso, la quantità del prodotto principale (Canotta fitness di base) è la quantità vendibile combinata dei prodotti secondari di colore viola, rosso e giallo.
 
 - **[!UICONTROL Operator]** - Specifica l&#39;operatore applicato al valore dell&#39;attributo per soddisfare la condizione. A meno che non sia specificato un operatore, viene utilizzato `Equal` come valore predefinito. Opzioni: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` e `Contains`
+
+  L&#39;operatore **[!UICONTROL Contains]** accetta più valori separati da virgole e rileva se il valore dell&#39;attributo contiene almeno uno di essi, in modo simile a un&#39;operazione OR logica. **[!UICONTROL Contains]**: `casual, party` corrisponde a qualsiasi valore contenente `casual` o `party`.
+
+  Utilizzare questo operatore per combinare più termini in una riga di regole anziché creare una riga separata per ogni termine.
 
 - **[!UICONTROL Value]** - Specifica il valore che l&#39;attributo deve soddisfare la condizione.
 
