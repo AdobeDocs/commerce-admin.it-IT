@@ -23,7 +23,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce 2.4.8-p5 è stato rimosso dall'elenco delle versioni supportate per <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>. I clienti di 2.4.8 devono utilizzare la versione 1.5.3 di B2B.</p>
+      <td><p>Adobe Commerce 2.4.8-p5 è stato rimosso dall'elenco delle versioni supportate per <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>. I clienti di 2.4.8 devono utilizzare la versione 1.5.3 di B2B.</p>
 </td>
       <td>
         Tecnico
@@ -45,7 +45,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>L'argomento <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Stato sincronizzazione feed dati</a> è stato aggiornato per corrispondere all'esperienza di amministrazione corrente, è stato chiarito che la pagina riporta solo lo stato di esportazione e viene documentato quando la funzione è disponibile nelle licenze dei servizi Commerce.</p>
+      <td><p>L'argomento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Stato sincronizzazione feed dati</a> è stato aggiornato per corrispondere all'esperienza di amministrazione corrente, è stato chiarito che la pagina riporta solo lo stato di esportazione e viene documentato quando la funzione è disponibile nelle licenze dei servizi Commerce.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -67,7 +67,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Scopri come eliminare categorie specifiche di e-mail di sistema automatizzato, ad esempio notifiche di ordine o marketing, direttamente dall’amministratore in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">Eliminazione e-mail</a>.</p>
+      <td><p>Scopri come eliminare categorie specifiche di e-mail di sistema automatizzato, ad esempio notifiche di ordine o marketing, direttamente dall’amministratore in <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/config/services/email-suppression">Eliminazione e-mail</a>.</p>
 </td>
       <td>
         Aggiornamento principale, nuovo argomento
