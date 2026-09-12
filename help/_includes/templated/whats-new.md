@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5de2260c4c7324a509aa0f4154220b7ff8bedd73
+source-git-commit: 7023d4aafdb2e44da3b5b00a66f0bf6285ea8890
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -73,28 +73,6 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
         Aggiornamento principale, nuovo argomento
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 9 luglio 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrizione</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>È stato aggiunto <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/products/catalog-enrichment">Arricchimento del catalogo</a> con istruzioni per la revisione e l'applicazione degli aggiornamenti dei nomi e delle descrizioni dei prodotti suggeriti dall'intelligenza artificiale nell'amministratore. L'argomento è stato collegato al <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/catalog-menu">menu del catalogo</a>, alla <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/guide-overview">panoramica della guida</a> e agli argomenti relativi alle impostazioni dei prodotti correlati.</p>
-</td>
-      <td>
-        Nuovo argomento
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">commit</a></td>
     </tr>
   </tbody>
 </table>
