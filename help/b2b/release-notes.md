@@ -51,7 +51,7 @@ Queste note sulla versione dell’estensione B2B acquisiscono aggiunte e correzi
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce 2.4.9, 2.4.8.
 
-La versione 1.5.3 di B2B include miglioramenti della qualità, correzioni di bug e correzioni di sicurezza documentate in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+La versione 1.5.3 di B2B include miglioramenti della qualità, correzioni di bug e correzioni di sicurezza documentate in [Security Bulletin APSB26-05](https://helpx.adobe.com/it/security/products/magento/apsb26-05.html).
 
 ### Offerta negoziabile
 
@@ -192,7 +192,7 @@ Nessun problema noto in questa versione.
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.7-p10 e 2.4.6-p15.
 Compatibile con Adobe Commerce versioni da 2.4.7 a 2.4.7-p10, da 2.4.6 a 2.4.6-p15.
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB26-49](https://helpx.adobe.com/security/products/magento/apsb26-49.html).
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB26-49](https://helpx.adobe.com/it/security/products/magento/apsb26-49.html).
 
 ## B2B v1.5.2-p4
 
@@ -201,7 +201,7 @@ Compatibile con Adobe Commerce versioni da 2.4.7 a 2.4.7-p10, da 2.4.6 a 2.4.6-p
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.8-p4, 2.4.7-p9 e 2.4.6-p14.
 Compatibile con Adobe Commerce versioni da 2.4.7 a 2.4.7-p9, da 2.4.6 a 2.4.6-p14.
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB26-05](https://helpx.adobe.com/it/security/products/magento/apsb26-05.html).
 
 ## B2B v1.5.2-p3
 
@@ -210,7 +210,7 @@ Compatibile con Adobe Commerce versioni da 2.4.7 a 2.4.7-p9, da 2.4.6 a 2.4.6-p1
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.8-p3, 2.4.7-p8 e 2.4.6-p13.
 Compatibile con Adobe Commerce versioni da 2.4.7 a 2.4.7-p7, da 2.4.6 a 2.4.6-p12.
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html).
 
 ## B2B v1.5.2-p2
 
@@ -219,7 +219,7 @@ Compatibile con Adobe Commerce versioni da 2.4.7 a 2.4.7-p7, da 2.4.6 a 2.4.6-p1
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.8-p2, 2.4.7-p7 e 2.4.6-p12.
 Compatibile con Adobe Commerce versioni da 2.4.7 a 2.4.7-p6, da 2.4.6 a 2.4.6-p11.
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-71](https://helpx.adobe.com/it/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p1
 
@@ -228,7 +228,7 @@ Compatibile con Adobe Commerce versioni da 2.4.7 a 2.4.7-p6, da 2.4.6 a 2.4.6-p1
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.8-p1, 2.4.7-p6 e 2.4.6-p11.
 Compatibile con Adobe Commerce versioni da 2.4.7 a 2.4.7-p5, da 2.4.6 a 2.4.6-p10.
 
-![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
+![Problema risolto](../assets/fix.svg) Include le correzioni di sicurezza documentate in [Bollettino sulla sicurezza APSB25-50](https://helpx.adobe.com/it/security/products/magento/apsb25-50.html).
 
 ## B2B 1.5.2
 
@@ -391,7 +391,7 @@ I miglioramenti apportati alle funzionalità di quotazione consentono a buyer e 
 
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.7-p8+ e 2.4.6-p13+.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html).
 
 {{b2b-compatibility}}
 
@@ -401,7 +401,7 @@ I miglioramenti apportati alle funzionalità di quotazione consentono a buyer e 
 
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.7-p7+ e 2.4.6-p12+.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-71](https://helpx.adobe.com/it/security/products/magento/apsb25-71.html).
 
 {{b2b-compatibility}}
 
@@ -411,7 +411,7 @@ I miglioramenti apportati alle funzionalità di quotazione consentono a buyer e 
 
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.7-p6+ e 2.4.6-p11+.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-50](https://helpx.adobe.com/it/security/products/magento/apsb25-50.html).
 
 {{b2b-compatibility}}
 
@@ -423,7 +423,7 @@ I miglioramenti apportati alle funzionalità di quotazione consentono a buyer e 
 
 - È stata aggiunta la compatibilità con le versioni delle patch di sicurezza Adobe Commerce 2.4.7-p5+ e 2.4.6-p10+.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-26](https://helpx.adobe.com/it/security/products/magento/apsb25-26.html).
 
 {{b2b-compatibility}}
 
@@ -435,7 +435,7 @@ I miglioramenti apportati alle funzionalità di quotazione consentono a buyer e 
 
 - È stata aggiunta la compatibilità con le versioni delle patch di sicurezza Adobe Commerce 2.4.7-p4+ e 2.4.6-p9+.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-08](https://helpx.adobe.com/it/security/products/magento/apsb25-08.html).
 
 {{b2b-compatibility}}
 
@@ -447,7 +447,7 @@ I miglioramenti apportati alle funzionalità di quotazione consentono a buyer e 
 
 - È stata aggiunta la compatibilità con le versioni delle patch di sicurezza Adobe Commerce 2.4.7-p3+ e 2.4.6-p8+.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB24-73](https://helpx.adobe.com/it/security/products/magento/apsb24-73.html).
 
 {{b2b-compatibility}}
 
@@ -461,7 +461,7 @@ I miglioramenti apportati alle funzionalità di quotazione consentono a buyer e 
 
 - È stata aggiunta la compatibilità con le versioni delle patch di sicurezza Adobe Commerce 2.4.7-p2+ e 2.4.6-p7+.
 
-- Include le correzioni di sicurezza documentate nel Bollettino sulla sicurezza [APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+- Include le correzioni di sicurezza documentate nel Bollettino sulla sicurezza [APSB24-73](https://helpx.adobe.com/it/security/products/magento/apsb24-73.html).
 
 {{b2b-compatibility}}
 
@@ -557,7 +557,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.6-p13+.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html).
 
 ### B2B v1.3.5-p12
 
@@ -565,7 +565,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportate]{type=Informative tooltip="Supportato"} versioni delle patch di sicurezza Adobe Commerce 2.4.6-p12+.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-71](https://helpx.adobe.com/it/security/products/magento/apsb25-71.html).
 
 ### B2B v1.3.5-p10
 
@@ -575,7 +575,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Aggiunta compatibilità con le versioni delle patch di sicurezza Adobe Commerce 2.4.6-p10.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-26](https://helpx.adobe.com/it/security/products/magento/apsb25-26.html).
 
 ### B2B v1.3.5-p9
 
@@ -585,7 +585,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stata aggiunta la compatibilità con le versioni delle patch di sicurezza Adobe Commerce 2.4.6-p9.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-08](https://helpx.adobe.com/it/security/products/magento/apsb25-08.html).
 
 ### B2B v1.3.5-p8
 
@@ -595,7 +595,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stata aggiunta la compatibilità con le versioni delle patch di sicurezza Adobe Commerce 2.4.6-p8.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB24-73](https://helpx.adobe.com/it/security/products/magento/apsb24-73.html).
 
 ### B2B v1.3.5-p7
 
@@ -647,7 +647,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce 2.4.5-p16 (supporto esteso)
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB26-05](https://helpx.adobe.com/it/security/products/magento/apsb26-05.html).
 
 ### B2B v1.3.4-p15
 
@@ -655,7 +655,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce 2.4.0 e versioni successive
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html).
 
 ### B2B v1.3.4-p14
 
@@ -663,7 +663,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce 2.4.0 e versioni successive
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-71](https://helpx.adobe.com/it/security/products/magento/apsb25-71.html).
 
 ### B2B v1.3.4-p13
 
@@ -673,7 +673,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stato aggiunto il supporto per Adobe Commerce 2.4.5-p12.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-50](https://helpx.adobe.com/it/security/products/magento/apsb25-50.html).
 
 ### B2B v1.3.4-p12
 
@@ -683,7 +683,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stato aggiunto il supporto per Adobe Commerce 2.4.5-p12.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-26](https://helpx.adobe.com/it/security/products/magento/apsb25-26.html).
 
 ### B2B v1.3.4-p11
 
@@ -693,7 +693,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stato aggiunto il supporto per Adobe Commerce 2.4.5-p11.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-08](https://helpx.adobe.com/it/security/products/magento/apsb25-08.html).
 
 ### B2B v1.3.4-p10
 
@@ -703,7 +703,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stato aggiunto il supporto per Adobe Commerce 2.4.5-p10.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB24-73](https://helpx.adobe.com/it/security/products/magento/apsb24-73.html).
 
 ### B2B v1.3.4
 
@@ -745,7 +745,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce 2.4.4-p17 (supporto esteso)
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB26-05](https://helpx.adobe.com/it/security/products/magento/apsb26-05.html).
 
 ### B2B v1.3.3-p16
 
@@ -753,7 +753,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce 2.4.0 e versioni successive
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-94](https://helpx.adobe.com/it/security/products/magento/apsb25-94.html).
 
 ### B2B v1.3.3-p15
 
@@ -761,7 +761,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce 2.4.0 e versioni successive
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-71](https://helpx.adobe.com/it/security/products/magento/apsb25-71.html).
 
 ### B2B v1.3.3-p14
 
@@ -771,7 +771,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - È stato aggiunto il supporto per Adobe Commerce 2.4.5-p12.
 
-- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
+- Include le correzioni di sicurezza documentate nel [Bollettino sulla sicurezza APSB25-50](https://helpx.adobe.com/it/security/products/magento/apsb25-50.html).
 
 ### B2B v1.3.3
 
