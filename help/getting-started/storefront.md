@@ -6,29 +6,40 @@ feature: Storefront
 TQID: https://experienceleague.adobe.com/b8JEobTQ3fDladcIZj5Bt7eaYPN7-p7PsB-siKLITCw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Content reuse
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: '1347'
 ht-degree: 0%
-
 ---
-
 # Che cos&#39;è la vetrina?
 
 All’interno dell’implementazione di Adobe Commerce o Magento Open Source, la vetrina è la parte esterna dello store che si rivolge al pubblico. Fornisce i contenuti e i componenti funzionali utilizzati dai clienti per effettuare acquisti e acquisti.
@@ -108,6 +119,8 @@ Con [[!DNL Live Search]](https://experienceleague.adobe.com/it/docs/commerce/liv
 
 Con [ricerca catalogo standard](../catalog/search.md), lo store include una casella di ricerca nell&#39;angolo superiore destro e un collegamento a Ricerca avanzata nel piè di pagina. Tutti i termini di ricerca inviati dagli acquirenti vengono salvati, in modo da poter vedere esattamente ciò che stanno cercando. È possibile offrire suggerimenti e immettere sinonimi e errori ortografici comuni. Quindi, visualizza una pagina specifica quando viene inserito un termine di ricerca.
 
+Per informazioni sui reindirizzamenti dei termini di ricerca, le riscritture URL e il routing per [!DNL Live Search] o [!DNL Edge Delivery Services], vedere [Reindirizzamenti dei termini di ricerca e routing della vetrina](../merchandising-promotions/search-term-redirects.md).
+
 ![Esempio di risultati di ricerca catalogo standard](./assets/storefront-search-results-page-full.png){width="700"}
 
 ## Pagina prodotto
@@ -129,7 +142,7 @@ Il processo di pagamento è costituito da due passaggi:
 1. Informazioni spedizione
 
    La prima fase del processo di pagamento consiste nel completare le informazioni relative all&#39;indirizzo di spedizione e nel scegliere il metodo di spedizione. Se il cliente dispone di un account, l&#39;indirizzo di spedizione viene inserito automaticamente, ma può essere modificato se necessario.
-Se un cliente guest immette un indirizzo e-mail riconosciuto come registrato in precedenza, viene visualizzato il prompt di accesso se il campo [!UICONTROL Enable Guest Checkout Login] nella configurazione dell&#39;archivio è impostato su `Yes` (vedere [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) nella _Guida di riferimento alla configurazione_). Tuttavia, questa impostazione può esporre le informazioni del cliente a utenti non autenticati.
+   Se un cliente guest immette un indirizzo e-mail riconosciuto come registrato in precedenza, viene visualizzato il prompt di accesso se il campo [!UICONTROL Enable Guest Checkout Login] nella configurazione dell&#39;archivio è impostato su `Yes` (vedere [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) nella _Guida di riferimento alla configurazione_). Tuttavia, questa impostazione può esporre le informazioni del cliente a utenti non autenticati.
 
    ![Esempio di pagina di estrazione della vetrina](./assets/storefront-checkout-shipping-full.png){width="700"}
 
