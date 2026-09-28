@@ -22,7 +22,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Aggiornamento di <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-add">Aggiungi un'origine</a> per includere il nuovo interruttore Visibile su Storefront per Adobe Commerce as a Cloud Service. È ora possibile contrassegnare singolarmente ogni origine inventario per la visibilità in vetrina. Le origini sono nascoste per impostazione predefinita.</p>
+      <td><p>Aggiornamento di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/sources/sources-add">Aggiungi un'origine</a> per includere il nuovo interruttore Visibile su Storefront per Adobe Commerce as a Cloud Service. È ora possibile contrassegnare singolarmente ogni origine inventario per la visibilità in vetrina. Le origini sono nascoste per impostazione predefinita.</p>
 </td>
       <td>
         Aggiornamento principale
@@ -44,7 +44,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce 2.4.8-p5 è stato rimosso dall'elenco delle versioni supportate per <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>. I clienti di 2.4.8 devono utilizzare la versione 1.5.3 di B2B.</p>
+      <td><p>Adobe Commerce 2.4.8-p5 è stato rimosso dall'elenco delle versioni supportate per <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>. I clienti di 2.4.8 devono utilizzare la versione 1.5.3 di B2B.</p>
 </td>
       <td>
         Tecnico
@@ -66,7 +66,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo
   </thead>
   <tbody>
     <tr>
-      <td><p>L'argomento <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Stato sincronizzazione feed dati</a> è stato aggiornato per corrispondere all'esperienza di amministrazione corrente, è stato chiarito che la pagina riporta solo lo stato di esportazione e viene documentato quando la funzione è disponibile nelle licenze dei servizi Commerce.</p>
+      <td><p>L'argomento <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Stato sincronizzazione feed dati</a> è stato aggiornato per corrispondere all'esperienza di amministrazione corrente, è stato chiarito che la pagina riporta solo lo stato di esportazione e viene documentato quando la funzione è disponibile nelle licenze dei servizi Commerce.</p>
 </td>
       <td>
         Aggiornamento principale
