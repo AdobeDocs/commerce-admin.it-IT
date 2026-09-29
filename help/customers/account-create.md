@@ -6,28 +6,38 @@ feature: Customers, Storefront
 TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Privacy
+source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
 workflow-type: tm+mt
-source-wordcount: 1281
+source-wordcount: '1281'
 ht-degree: 0%
-
 ---
-
 # Creazione di un singolo account cliente
 
 I visitatori del tuo negozio possono aprire un account per gestire i loro acquisti e le loro attività. I clienti in genere creano i propri account dal tuo negozio. Tuttavia, puoi anche creare account cliente direttamente dall’amministratore, utile per aiutare i clienti telefonicamente.
@@ -134,7 +144,7 @@ In qualità di esercente, puoi creare un account cliente dall’Amministratore.
 
    >[!INFO]
    >
-   >Una volta salvato l’account del cliente, l’intero set di opzioni viene visualizzato nel pannello a sinistra e nel menu nella parte superiore della pagina. Nella scheda _[!UICONTROL Customer View]_&#x200B;viene visualizzato un riepilogo dell&#39;account.
+   >Una volta salvato l’account del cliente, l’intero set di opzioni viene visualizzato nel pannello a sinistra e nel menu nella parte superiore della pagina. Nella scheda _[!UICONTROL Customer View]_viene visualizzato un riepilogo dell&#39;account.
 
    ![Visualizzazione clienti](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -165,7 +175,7 @@ In qualità di esercente, puoi creare un account cliente dall’Amministratore.
 
    In caso contrario, fare clic su **[!UICONTROL Save and Continue Edit]** e ripetere i passaggi precedenti per aggiungere altri indirizzi.
 
-   Il nuovo indirizzo viene visualizzato nella pagina [!UICONTROL Addresses] con gli indirizzi selezionati _[!UICONTROL Default Billing]_&#x200B;e_[!UICONTROL Default Shipping]_ sopra l&#39;elenco completo.
+   Il nuovo indirizzo viene visualizzato nella pagina [!UICONTROL Addresses] con gli indirizzi selezionati _[!UICONTROL Default Billing]_e_[!UICONTROL Default Shipping]_ sopra l&#39;elenco completo.
 
    ![Visualizzazione indirizzi](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -187,7 +197,7 @@ Quando il profilo viene salvato per la prima volta, diventano disponibili pulsan
 
 | Pulsante | Descrizione |
 |--- |--- |
-| **[!UICONTROL Back]** | Torna alla pagina _[!UICONTROL Customers]_&#x200B;senza salvare le modifiche. |
+| **[!UICONTROL Back]** | Torna alla pagina _[!UICONTROL Customers]_senza salvare le modifiche. |
 | **[!UICONTROL Delete Customer]** | Elimina il cliente corrente. Gli ordini completati associati al cliente non vengono rimossi. |
 | **[!UICONTROL Reset]** | Ripristina i valori precedenti delle modifiche non salvate nel modulo per il cliente. |
 | **[!UICONTROL Create Order]** | Crea un ordine per il cliente. |
