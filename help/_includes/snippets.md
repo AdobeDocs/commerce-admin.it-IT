@@ -1,13 +1,11 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # Snippet
 
 ## Funzionalità solo EE {#ee-feature}
@@ -69,7 +67,6 @@ Per accedere alle impostazioni di configurazione dell&#39;archivio, scegliere **
 >A partire da giugno 2024, i commercianti di Adobe Commerce non potranno più negoziare con l’integrazione corrente del gruppo di continuità. Questo perché le API del servizio United Parcel Service (UPS) utilizzate dall’integrazione nativa di Adobe Commerce non supportano attualmente il modello di sicurezza OAuth 2.0 richiesto. Per abilitare l&#39;integrazione, [crea un&#39;applicazione sulla piattaforma di sviluppo UPS](https://developer.ups.com/get-started) per ottenere le credenziali richieste per OAuth 2.0. Utilizzare le nuove credenziali come `username` e `password` nella configurazione di Commerce UPS Shipping. Per ulteriori informazioni sulla modifica del modello di protezione, vedere [Guida alla migrazione della chiave di accesso al portale per sviluppatori_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
 >I commercianti devono [applicare un aggiornamento della patch di qualità](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27146) al proprio archivio per migrare dall&#39;API SOAP all&#39;API RESTful, che supporta i protocolli di autenticazione OAuth 2.0.
-
 
 ## Documentazione disponibile {#docs-links}
 

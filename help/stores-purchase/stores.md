@@ -6,25 +6,32 @@ feature: Site Management, System
 TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: 1209
+source-wordcount: '1295'
 ht-degree: 0%
-
 ---
-
 # Struttura dello store e del sito
 
 Quando si installa Adobe Commerce o Magento Open Source, viene creata una gerarchia che include una visualizzazione principale per siti web, store e store. Se necessario, puoi creare siti web, store e visualizzazioni dello store aggiuntivi. Ad esempio, oltre al sito web principale, potresti avere altri siti web con un dominio diverso. All&#39;interno di ogni sito web, puoi avere più store e, all&#39;interno di ogni store, visualizzazioni store separate. Molte installazioni hanno un sito web e uno store, ma con più visualizzazioni per supportare lingue diverse.
@@ -154,6 +161,12 @@ Le installazioni multisito di Adobe Commerce o Magento Open Source devono essere
      Il codice deve iniziare con una lettera minuscola (a-z) e può includere qualsiasi combinazione di lettere (a-z), numeri (0-9) e il simbolo di sottolineatura (_).
 
    - **[!UICONTROL Sort Order]** — _(Facoltativo)_ Immettere un numero per determinare la sequenza di elencazione del sito con altri siti. Per visualizzare il sito nella parte superiore dell&#39;elenco, immettere uno zero (`0`).
+
+   - **[!UICONTROL Sync prices and price books]** — _(Facoltativo)_ Se è installato [!DNL Adobe Commerce Optimizer Connector], selezionare questa opzione nella sezione **[!UICONTROL Adobe Commerce Optimizer exporter settings]** per sincronizzare i prezzi e i listini prezzi di questo sito Web a [!DNL Adobe Commerce Optimizer]. Se [!DNL Adobe Commerce Optimizer Connector for B2B] è installato, i dati vengono sincronizzati anche per i cataloghi condivisi B2B disponibili. Vedi [Gestire le visualizzazioni del catalogo](../b2b/catalog-views-manage.md).
+
+     ![Crea sito Web - Impostazioni esportazione Adobe Commerce Optimizer](./assets/website-optimizer-export-settings.png){width="600" zoomable="yes"}
+
+     La modifica di questa impostazione dopo la sincronizzazione iniziale attiva una reindicizzazione completa. Consulta [Personalizzare la configurazione di esportazione degli ambiti di Commerce](https://experienceleague.adobe.com/it/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) nella *Guida di Adobe Commerce Optimizer Connector*.
 
 1. Fare clic su **[!UICONTROL Save Web Site]**.
 

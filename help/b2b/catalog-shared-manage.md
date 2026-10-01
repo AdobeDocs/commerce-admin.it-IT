@@ -6,37 +6,50 @@ feature: B2B, Companies, Catalog Management
 TQID: https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
 workflow-type: tm+mt
-source-wordcount: 969
+source-wordcount: '1110'
 ht-degree: 0%
-
 ---
-
 # Gestire i cataloghi condivisi
 
-La pagina _[!UICONTROL Shared Catalogs]_&#x200B;fornisce l&#39;accesso agli strumenti necessari per la gestione dei cataloghi condivisi. La pagina è simile all’area di lavoro Amministratore standard, con filtri e controlli delle azioni. Nella griglia sono elencati tutti i cataloghi condivisi, incluso il catalogo condiviso pubblico predefinito e tutti i cataloghi personalizzati impostati.
+La pagina _[!UICONTROL Shared Catalogs]_&#x200B;consente di accedere agli strumenti necessari per la gestione dei cataloghi condivisi, inclusi la selezione dei prodotti, i prezzi personalizzati, le autorizzazioni per le categorie e i dettagli del catalogo. La pagina è simile all’area di lavoro Amministratore standard, con filtri e controlli delle azioni. Nella griglia sono elencati tutti i cataloghi condivisi, incluso il catalogo condiviso pubblico predefinito e tutti i cataloghi personalizzati impostati.
+
+Se è installata l&#39;estensione [!DNL Adobe Commerce Optimizer Connector for B2B], la pagina fornisce anche l&#39;accesso alle viste catalogo [!DNL Adobe Commerce Optimizer] create quando il connettore sincronizza i dati da ciascun catalogo condiviso a [!DNL Adobe Commerce Optimizer] e alle chiavi di accesso limitato che proteggono le viste catalogo per le esperienze vetrina B2B.
 
 ## Aggiornare la selezione del prodotto
 
-La selezione dei prodotti in qualsiasi catalogo condiviso può essere facilmente aggiornata dalla colonna _[!UICONTROL Action]_&#x200B;della griglia dei cataloghi condivisi. Le modifiche apportate sono visibili ai membri di qualsiasi account aziendale associato. Il processo è essenzialmente uguale alla scelta dei prodotti per una nuova [struttura catalogo](catalog-shared-pricing-structure.md), con la differenza che l&#39;ambito della configurazione non può essere modificato.
+La selezione dei prodotti in qualsiasi catalogo condiviso può essere facilmente aggiornata dalla colonna _[!UICONTROL Action]_&#x200B;della griglia dei cataloghi condivisi. Le modifiche apportate sono visibili ai membri di qualsiasi account aziendale associato. Il processo equivale alla scelta dei prodotti per una nuova [struttura catalogo](catalog-shared-pricing-structure.md), con la differenza che non è possibile modificare l&#39;ambito della configurazione.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -54,7 +67,7 @@ Se si utilizza un prodotto specifico, nella sezione _[!UICONTROL Products In Sha
 
 ## Aggiorna prezzi personalizzati
 
-I prezzi personalizzati dei prodotti in qualsiasi catalogo condiviso possono essere facilmente aggiornati dalla colonna Azione della griglia Cataloghi condivisi. Le modifiche apportate sono visibili nella vetrina ai membri della società o del gruppo di clienti associato. Il processo è essenzialmente identico all&#39;impostazione di prezzi personalizzati per un nuovo [catalogo condiviso](catalog-shared-pricing-structure.md), con la differenza che non è possibile modificare l&#39;ambito della configurazione.
+I prezzi personalizzati dei prodotti in qualsiasi catalogo condiviso possono essere facilmente aggiornati dalla colonna Azione della griglia Cataloghi condivisi. Le modifiche apportate sono visibili nella vetrina ai membri della società o del gruppo di clienti associato. Il processo equivale all&#39;impostazione di prezzi personalizzati per un nuovo [catalogo condiviso](catalog-shared-pricing-structure.md), con la differenza che non è possibile modificare l&#39;ambito della configurazione.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -73,11 +86,11 @@ I prezzi personalizzati dei prodotti in qualsiasi catalogo condiviso possono ess
 
 >[!NOTE]
 >
->**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione di categoria](../catalog/category-permissions.md) per il catalogo è impostata su `Allow` per _[!UICONTROL Display Product Prices]_&#x200B;e_[!UICONTROL Add to Cart]_ per i gruppi di clienti a cui viene assegnato questo accesso nelle impostazioni delle autorizzazioni del catalogo. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
+>**[Versione B2B 1.3.0](release-notes.md#b2b-v130) e successiva** — Quando si crea un catalogo condiviso, ogni [autorizzazione categoria](../catalog/category-permissions.md) è impostata su `Allow` per _[!UICONTROL Display Product Prices]_&#x200B;e_[!UICONTROL Add to Cart]_ per i gruppi di clienti assegnati. In precedenza, queste impostazioni venivano impostate automaticamente su `Deny` anche quando le autorizzazioni del catalogo erano impostate su `Allow`.
 
 >[!IMPORTANT]
 >
->Tutte le [impostazioni delle autorizzazioni di gruppo](../configuration-reference/catalog/catalog.md#category-permissions) esistenti vengono ignorate da **_tutte_** categorie nel catalogo quando la funzionalità **_[!UICONTROL Shared Catalog]_** è abilitata. [!UICONTROL Shared Catalog] controlla completamente tutte le autorizzazioni di categoria nel catalogo quando è abilitato.
+>**_[!UICONTROL Shared Catalog]_** sostituisce tutte le [impostazioni delle autorizzazioni del gruppo](../configuration-reference/catalog/catalog.md#category-permissions) esistenti per **_tutte_** categorie nel catalogo quando abilitate. [!UICONTROL Shared Catalog] controlla completamente tutte le autorizzazioni di categoria nel catalogo quando è abilitato.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
@@ -117,15 +130,28 @@ Le informazioni dettagliate di qualsiasi catalogo condiviso possono essere facil
 
    - La modifica del nome di un catalogo condiviso comporta anche la modifica del nome del gruppo di clienti corrispondente.
    - Se si modifica il tipo di catalogo da `Custom` a `Public`, il catalogo pubblico esistente verrà convertito in un catalogo personalizzato. Tutte le aziende associate al catalogo pubblico originale vengono riassegnate al sostituto. Impossibile convertire un catalogo pubblico in un catalogo personalizzato.
+   - Per identificare la classificazione fiscale applicata agli acquisti effettuati tramite il catalogo condiviso, selezionare [!UICONTROL Customer Tax Class].
 
 1. Al termine, fare clic su **[!UICONTROL Save]**.
+
+## Gestire la configurazione della vista catalogo
+
+Con l&#39;estensione [!DNL Adobe Commerce Optimizer Connector for B2B] installata, la sezione _[!UICONTROL Catalog Views]_&#x200B;di un catalogo condiviso elenca le visualizzazioni del catalogo [!DNL Adobe Commerce Optimizer] proiettate dal catalogo condiviso e consente di gestire le chiavi di accesso con restrizioni che le proteggono.
+
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
+
+1. Per il catalogo condiviso che si desidera esaminare, passare alla colonna **[!UICONTROL Action]** e selezionare **[!UICONTROL General Settings]**.
+
+1. Nel pannello _[!UICONTROL Shared Catalog Information]_, seleziona **[!UICONTROL Catalog Views]**.
+
+Per ulteriori informazioni sulle visualizzazioni catalogo e sulla modifica delle chiavi di accesso con restrizioni, vedere [Gestire la configurazione della visualizzazione catalogo](catalog-views-manage.md).
 
 ## Riferimento pagina di catalogo condiviso
 
 ### Barra dei pulsanti
 
 | Pulsante | Descrizione |
-|--- |--- |
+| --- | --- |
 | [!UICONTROL Back] | Torna alla pagina Cataloghi condivisi senza salvare il nuovo catalogo condiviso. |
 | [!UICONTROL Delete] | Elimina il catalogo e riassegna tutte le società associate e i relativi membri al catalogo condiviso pubblico. |
 | [!UICONTROL Reset] | Cancella la forma di eventuali modifiche non salvate e ripristina le informazioni di dettaglio del catalogo originale. |
@@ -138,10 +164,14 @@ Le informazioni dettagliate di qualsiasi catalogo condiviso possono essere facil
 ### Dettagli catalogo
 
 | Campo | Descrizione |
-|--- |--- |
+| --- | --- |
 | [!UICONTROL Name] | Identifica il catalogo condiviso in Admin (Amministrazione) e negli account cliente in cui è disponibile. Il nome del catalogo deve essere descrittivo e non deve superare i 32 caratteri. Non è possibile avere due cataloghi condivisi con lo stesso nome. Massimo caratteri: 32 |
 | [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifica un catalogo con prezzi personalizzati che è disponibile solo per le società specifiche a cui è assegnato.<br/>**[!UICONTROL Public]**: identifica il catalogo condiviso disponibile per tutti i visitatori ospiti e per i clienti connessi che non sono associati a un’azienda. Al momento dell’installazione di Adobe Commerce B2B viene creato un catalogo condiviso pubblico &quot;predefinito&quot;, che deve tuttavia essere configurato dall’amministratore. Può esistere un solo catalogo condiviso pubblico alla volta. |
-| [!UICONTROL Customer Tax Class] | Determina la classe di imposta utilizzata per gli acquisti effettuati dal catalogo. Le opzioni includono tutte le classi di imposta disponibili. |
+| [!UICONTROL Customer Tax Class] | Determina la classe di imposta utilizzata per gli acquisti effettuati dal catalogo. Le opzioni includono tutte le classi di imposta disponibili. La classe fiscale è associata al gruppo di clienti creato o utilizzato per il catalogo condiviso. Consulta [Classi di imposta](../stores-purchase/tax-class.md). |
 | [!UICONTROL Description] | Breve spiegazione di come utilizzare il catalogo. |
 
 {style="table-layout:auto"}
+
+### Visualizzazioni catalogo
+
+{{$include /help/_includes/catalog-views-reference-table.md}}
