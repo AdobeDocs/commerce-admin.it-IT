@@ -49,17 +49,17 @@ ht-degree: 0%
 ---
 # Gestire gli account aziendali
 
-Nella pagina _[!UICONTROL Companies]_sono elencati tutti gli account società correnti, indipendentemente dallo stato. Tutte le richieste di approvazione in sospeso vengono visualizzate nella parte superiore dell&#39;elenco.
+Nella pagina _[!UICONTROL Companies]_&#x200B;sono elencati tutti gli account società correnti, indipendentemente dallo stato. Tutte le richieste di approvazione in sospeso vengono visualizzate nella parte superiore dell&#39;elenco.
 
 ![Griglia Aziende](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Utilizzare il controllo *[!UICONTROL Columns]* per personalizzare le colonne visualizzate nella griglia. Personalizza le aziende visualizzate nella vista utilizzando le funzionalità di ricerca e filtro.
 
-- Trova aziende nella griglia **Aziende** utilizzando _[!UICONTROL Search]_. La ricerca indicizza le colonne **Nome società**e **Padre**.
+- Trova aziende nella griglia **Aziende** utilizzando _[!UICONTROL Search]_. La ricerca indicizza le colonne **Nome società**&#x200B;e **Padre**.
 
 - Personalizzare la visualizzazione per includere i record che soddisfano criteri specifici utilizzando [!UICONTROL Filter]. Ad esempio, se il sito B2B è configurato per gestire sia account di una singola società che [gerarchie di società](manage-companies.md), è possibile filtrare per `[!UICONTROL Company Type - Company]` in modo da visualizzare solo singole società o per `[!UICONTROL Company Type - Parent]` in modo da visualizzare solo la società padre per ogni gerarchia.
 
-Applicare un&#39;azione a più record aziendali utilizzando il controllo _[!UICONTROL Actions]_sopra la griglia. Ad esempio, invece di approvare ogni singola richiesta aziendale, puoi selezionare più richieste per attivare gli account in un’unica azione. Le azioni disponibili dipendono dalle [autorizzazioni](../systems/permissions.md) per il ruolo assegnato al tuo account utente amministratore.
+Applicare un&#39;azione a più record aziendali utilizzando il controllo _[!UICONTROL Actions]_&#x200B;sopra la griglia. Ad esempio, invece di approvare ogni singola richiesta aziendale, puoi selezionare più richieste per attivare gli account in un’unica azione. Le azioni disponibili dipendono dalle [autorizzazioni](../systems/permissions.md) per il ruolo assegnato al tuo account utente amministratore.
 
 ## Risorse per il ruolo della società
 
@@ -257,7 +257,7 @@ Per ulteriori informazioni, vedere [Gestione gerarchia società](manage-company-
 
 ## Gestire la configurazione della vista catalogo
 
-Con l&#39;estensione [!DNL Adobe Commerce Optimizer Connector for B2B] installata, la sezione _[!UICONTROL Catalog Views]_di un account società elenca le viste di catalogo [!DNL Adobe Commerce Optimizer] proiettate dal catalogo condiviso assegnato alla società e consente di gestire le chiavi di accesso con restrizioni che le proteggono.
+Con l&#39;estensione [!DNL Adobe Commerce Optimizer Connector for B2B] installata, la sezione _[!UICONTROL Catalog Views]_&#x200B;di un account società elenca le viste di catalogo [!DNL Adobe Commerce Optimizer] proiettate dal catalogo condiviso assegnato alla società e consente di gestire le chiavi di accesso con restrizioni che le proteggono.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 

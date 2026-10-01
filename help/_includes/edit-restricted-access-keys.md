@@ -8,11 +8,11 @@ ht-degree: 0%
 ---
 # Modifica chiavi di accesso con restrizioni
 
-Assegnare o annullare l&#39;assegnazione delle chiavi da una vista catalogo, non dalla griglia principale [!UICONTROL Restricted Access Keys]. È possibile apportare questa modifica dalla scheda _[!UICONTROL Catalog Views]_del catalogo condiviso o dalla sezione_[!UICONTROL Catalog Views]_ della società associata. Entrambi elencano le stesse visualizzazioni di catalogo e le assegnazioni di chiave correnti.
+Assegnare o annullare l&#39;assegnazione delle chiavi da una vista catalogo, non dalla griglia principale [!UICONTROL Restricted Access Keys]. È possibile apportare questa modifica dalla scheda _[!UICONTROL Catalog Views]_&#x200B;del catalogo condiviso o dalla sezione&#x200B;_[!UICONTROL Catalog Views]_ della società associata. Entrambi elencano le stesse visualizzazioni di catalogo e le assegnazioni di chiave correnti.
 
 Una vista catalogo deve avere almeno una chiave e può averne al massimo tre. Se tenti di assegnare una quarta chiave, il salvataggio non riesce e viene visualizzato un messaggio che ti dice di rimuoverne prima una.
 
-1. Aprire la griglia _[!UICONTROL Catalog Views]_per la visualizzazione catalogo che si desidera aggiornare, utilizzando uno dei percorsi seguenti:
+1. Aprire la griglia _[!UICONTROL Catalog Views]_&#x200B;per la visualizzazione catalogo che si desidera aggiornare, utilizzando uno dei percorsi seguenti:
 
    - _Dal catalogo condiviso_. Nella barra laterale _Amministratore_, vai a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**. Per il catalogo condiviso, selezionare **[!UICONTROL General Settings]** dalla colonna **[!UICONTROL Action]**. Nel pannello _[!UICONTROL Shared Catalog Information]_, seleziona **[!UICONTROL Catalog Views]**.
    - _Dalla società_ — Nella barra laterale _Amministratore_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**. Per l&#39;azienda, selezionare **[!UICONTROL Edit]** dalla colonna **[!UICONTROL Action]**. Quindi espandere la sezione **[!UICONTROL Catalog Views]**.
