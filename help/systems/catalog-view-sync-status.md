@@ -49,7 +49,7 @@ Utilizzare la pagina Stato di sincronizzazione della visualizzazione del catalog
 
 ## Pubblico e disponibilità {#audience}
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud Infrastructure e on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud Infrastructure e on-premise."}
 
 La pagina [!UICONTROL Catalog View Sync Status] è disponibile per i commercianti Adobe Commerce on Cloud Infrastructure e on-premise che utilizzano cataloghi condivisi B2B con l&#39;integrazione [!DNL Adobe Commerce Optimizer Connector for B2B]. La pagina viene installata e attivata automaticamente quando viene installata l’estensione del connettore.
 
@@ -191,5 +191,5 @@ Le righe in questa scheda vengono cancellate automaticamente dopo 90 giorni.
 > - [Servizi > Sincronizzazione visualizzazione catalogo ACO](../configuration-reference/services/aco-catalog-view-sync.md) — Configura i periodi di tolleranza per l&#39;eliminazione e la creazione e il riconciliatore delle deviazioni
 > - [Gestione chiavi di accesso con restrizioni](restricted-access-keys.md): consente di gestire le chiavi di cui viene visualizzata la scadenza della pagina
 > - [Monitorare la sincronizzazione della visualizzazione catalogo per i cataloghi condivisi B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) nella *Guida di Adobe Commerce Optimizer Connector*
-> - [Visualizzazioni catalogo privato](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
-> - [Chiavi di accesso limitate](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)
+> - [Visualizzazioni catalogo privato](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/private-catalog-view)
+> - [Chiavi di accesso limitate](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/restricted-access-keys)
