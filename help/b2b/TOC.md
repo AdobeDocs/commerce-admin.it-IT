@@ -1,18 +1,16 @@
 ---
 user-guide-title: Guida [!DNL Adobe Commerce B2B]
-user-guide-description: Scopri come utilizzare le funzioni B2B integrate disponibili per Adobe Commerce,
+user-guide-description: Scopri come utilizzare le funzioni B2B integrate per Adobe Commerce, ad esempio gli account aziendali e la gestione condivisa dei cataloghi.
 breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: c67474ee4b72744766421090e30c56c85d687495
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '182'
 ht-degree: 5%
-
 ---
-
 
 # Guida [!DNL Adobe Commerce B2B] {#b2b}
 
@@ -46,6 +44,7 @@ ht-degree: 5%
     + [Impostare la struttura e i prezzi del catalogo](catalog-shared-pricing-structure.md)
     + [Assegnare società a un catalogo](catalog-shared-assign-companies.md)
   + [Gestire i cataloghi condivisi](catalog-shared-manage.md)
+  + [Gestire la configurazione della vista catalogo](catalog-views-manage.md)
 + [Ordini rapidi](quick-order.md)
 + Ordini di acquisto {#purchase-orders}
   + [Ordini di acquisto per società](purchase-order-flow.md)
@@ -69,4 +68,4 @@ ht-degree: 5%
 + Riferimento {#reference}
   + [Modifiche non compatibili con le versioni precedenti](backward-incompatible-changes.md)
   + [Pacchetti](packages.md)
-+ [Torna a Guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
++ [Torna a Guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

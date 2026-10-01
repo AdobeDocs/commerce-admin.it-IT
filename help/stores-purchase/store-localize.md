@@ -6,23 +6,28 @@ topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
+    internal-label: Optimization
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 # Localizzazione dello store
 
 La maggior parte del testo che appare hardcoded sulle pagine in tutto il negozio può essere istantaneamente cambiato in una lingua diversa cambiando le impostazioni locali della visualizzazione. La modifica delle impostazioni locali non traduce il testo parola per parola, ma fa semplicemente riferimento a una tabella di traduzione diversa che fornisce il testo di interfaccia utilizzato in tutto l’archivio. Il testo che può essere modificato include titoli di navigazione, etichette, pulsanti e collegamenti quali _Carrello_ e _Account personale_. È inoltre possibile utilizzare lo strumento [Traduzione in linea](../configuration-reference/advanced/developer.md) per ritoccare il testo nell&#39;interfaccia.
@@ -31,7 +36,7 @@ I Language Pack si trovano in [Traduzioni e localizzazione](https://marketplace.
 
 ## Passaggio 1: installare un Language Pack
 
-Segui le istruzioni standard per l’installazione dell’estensione Language Pack. Per informazioni dettagliate sull&#39;installazione di un&#39;estensione, vedere [Installazione generale di CLI](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/extensions) nella _Guida alle estensioni_.
+Segui le istruzioni standard per l’installazione dell’estensione Language Pack. Per informazioni dettagliate sull&#39;installazione di un&#39;estensione, vedere [Installazione generale di CLI](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) nella _Guida alle estensioni_.
 
 ## Passaggio 2: creare una visualizzazione Store per la lingua
 
@@ -69,6 +74,8 @@ Segui le istruzioni standard per l’installazione dell’estensione Language Pa
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
+   Se [!DNL Adobe Commerce Optimizer Connector for B2B] è installato, il salvataggio di una modifica delle impostazioni locali di visualizzazione invalida l&#39;indicizzatore di sincronizzazione della visualizzazione del catalogo. L&#39;indicizzatore pianificato riproietta le visualizzazioni del catalogo interessate in [!DNL Adobe Commerce Optimizer] in un secondo momento. Il payload della visualizzazione del catalogo utilizza sempre il codice della visualizzazione archivio per `sources[].locale`, non le impostazioni locali di visualizzazione configurate in `general/locale/code`. Vedi [Gestire le visualizzazioni del catalogo](../b2b/catalog-views-manage.md).
+
    Dopo aver modificato la lingua delle impostazioni locali, il contenuto rimanente creato, inclusi i nomi e le descrizioni dei prodotti, le categorie, le [pagine CMS](../content-design/page-translate.md) e i blocchi, deve essere tradotto separatamente per ogni visualizzazione dello store.
 
 ## Localizzare i prodotti
@@ -101,7 +108,7 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Manage Labels]**.
 
-1. Nella sezione _[!UICONTROL Manage Titles]_&#x200B;immettere un&#39;etichetta tradotta per ogni visualizzazione dello store.
+1. Nella sezione _[!UICONTROL Manage Titles]_immettere un&#39;etichetta tradotta per ogni visualizzazione dello store.
 
    ![Immetti etichette tradotte](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -117,7 +124,7 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
 
 1. Per _Informazioni di base_, traduci **[!UICONTROL Category Name]**.
 
-1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Content]_&#x200B;e traduci **[!UICONTROL Description]**.
+1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Content]_e traduci **[!UICONTROL Description]**.
 
 1. Espandi ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization Settings]** e traduci i campi seguenti:
 

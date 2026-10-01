@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
+source-git-commit: 9bd9d0a3b3c991236b98b464f8e2be2df37272ac
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
@@ -144,7 +144,7 @@ In qualità di esercente, puoi creare un account cliente dall’Amministratore.
 
    >[!INFO]
    >
-   >Una volta salvato l’account del cliente, l’intero set di opzioni viene visualizzato nel pannello a sinistra e nel menu nella parte superiore della pagina. Nella scheda _[!UICONTROL Customer View]_&#x200B;viene visualizzato un riepilogo dell&#39;account.
+   >Una volta salvato l’account del cliente, l’intero set di opzioni viene visualizzato nel pannello a sinistra e nel menu nella parte superiore della pagina. Nella scheda _[!UICONTROL Customer View]_viene visualizzato un riepilogo dell&#39;account.
 
    ![Visualizzazione clienti](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ In qualità di esercente, puoi creare un account cliente dall’Amministratore.
 
    In caso contrario, fare clic su **[!UICONTROL Save and Continue Edit]** e ripetere i passaggi precedenti per aggiungere altri indirizzi.
 
-   Il nuovo indirizzo viene visualizzato nella pagina [!UICONTROL Addresses] con gli indirizzi selezionati _[!UICONTROL Default Billing]_&#x200B;e_[!UICONTROL Default Shipping]_ sopra l&#39;elenco completo.
+   Il nuovo indirizzo viene visualizzato nella pagina [!UICONTROL Addresses] con gli indirizzi selezionati _[!UICONTROL Default Billing]_e_[!UICONTROL Default Shipping]_ sopra l&#39;elenco completo.
 
    ![Visualizzazione indirizzi](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -197,7 +197,7 @@ Quando il profilo viene salvato per la prima volta, diventano disponibili pulsan
 
 | Pulsante | Descrizione |
 |--- |--- |
-| **[!UICONTROL Back]** | Torna alla pagina _[!UICONTROL Customers]_&#x200B;senza salvare le modifiche. |
+| **[!UICONTROL Back]** | Torna alla pagina _[!UICONTROL Customers]_senza salvare le modifiche. |
 | **[!UICONTROL Delete Customer]** | Elimina il cliente corrente. Gli ordini completati associati al cliente non vengono rimossi. |
 | **[!UICONTROL Reset]** | Ripristina i valori precedenti delle modifiche non salvate nel modulo per il cliente. |
 | **[!UICONTROL Create Order]** | Crea un ordine per il cliente. |

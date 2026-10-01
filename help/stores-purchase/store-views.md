@@ -6,26 +6,43 @@ feature: Site Management, System
 TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
+    internal-label: Administration
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '497'
 ht-degree: 0%
-
 ---
-
 # Visualizzazioni dello store
 
 Le visualizzazioni del Negozio vengono in genere utilizzate per rendere il negozio disponibile in diverse lingue. Gli acquirenti possono utilizzare il selettore della lingua nell’intestazione del negozio per modificare la visualizzazione del negozio.
 
 ![Ambito - più visualizzazioni dello store](./assets/scope-multiview.svg){width="550"}
+
+## Stato sincronizzazione [!DNL Adobe Commerce Optimizer] {#optimizer-sync-status}
+
+Se [!DNL Adobe Commerce Optimizer Connector] è installato e abilitato per la visualizzazione di un sito Web o di un archivio, nella griglia [!UICONTROL All Stores] viene visualizzato un indicatore di stato di sincronizzazione. Se [!DNL Adobe Commerce Optimizer Connector for B2B] è installato, i dati vengono sincronizzati anche per i cataloghi condivisi B2B disponibili. Vedi [Gestire le visualizzazioni del catalogo](../b2b/catalog-views-manage.md).
+
+| Colonna | Indicatore | Descrizione |
+| ----- | ----- | ----- |
+| [!UICONTROL Web Site] | [!UICONTROL Price sync enabled for Commerce Optimizer] | I prezzi e i listini prezzi di questo sito Web sono sincronizzati con [!DNL Adobe Commerce Optimizer]. |
+| [!UICONTROL Store View] | [!UICONTROL Product sync enabled for Commerce Optimizer] | I prodotti e gli attributi della visualizzazione archivio sono sincronizzati con [!DNL Adobe Commerce Optimizer]. |
+
+![Griglia di tutti gli archivi con indicatori di sincronizzazione Adobe Commerce Optimizer](./assets/stores-all-optimizer-sync.png){width="700" zoomable="yes"}
+
+Per abilitare o disabilitare la sincronizzazione, modificare **[!UICONTROL Adobe Commerce Optimizer exporter settings]** quando si [crea un sito Web](stores.md#step-1-create-a-website) o [aggiungi una visualizzazione dello store](#add-a-store-view) o quando si aggiorna un sito Web o una visualizzazione dello store esistente.
 
 ## Aggiungi una visualizzazione store
 
@@ -51,6 +68,12 @@ Le visualizzazioni del Negozio vengono in genere utilizzate per rendere il negoz
 
 1. (Facoltativo) Immettere un numero **[!UICONTROL Sort Order]** per determinare la sequenza in cui la visualizzazione è elencata con altre visualizzazioni.
 
+1. (Facoltativo) Se è installato [!DNL Adobe Commerce Optimizer Connector], selezionare **[!UICONTROL Sync products and attributes]** nella sezione **[!UICONTROL Adobe Commerce Optimizer exporter settings]** per sincronizzare i prodotti e gli attributi della visualizzazione archivio in [!DNL Adobe Commerce Optimizer]. Se è installato anche [!DNL Adobe Commerce Optimizer Connector for B2B], questa impostazione sincronizza anche i dati del catalogo condiviso B2B con [!DNL Adobe Commerce Optimizer]. Vedi [Gestire le visualizzazioni del catalogo](../b2b/catalog-views-manage.md).
+
+   ![Crea visualizzazione archivio - Impostazioni esportazione Adobe Commerce Optimizer](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
+
+   La modifica di questa impostazione dopo la sincronizzazione iniziale attiva una reindicizzazione completa. Consulta [Personalizzare la configurazione di esportazione degli ambiti di Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) nella *Guida di Adobe Commerce Optimizer Connector*.
+
 1. Fare clic su **[!UICONTROL Save Store View]**.
 
 ## Modificare una visualizzazione dello store
@@ -68,9 +91,9 @@ Se nell&#39;installazione di Adobe Commerce o Magento Open Source è presente un
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. Nella colonna _[!UICONTROL Store View]_&#x200B;della griglia fare clic sul nome della visualizzazione che si desidera modificare.
+1. Nella colonna _[!UICONTROL Store View]_della griglia fare clic sul nome della visualizzazione che si desidera modificare.
 
-   Durante la modifica della visualizzazione predefinita, i campi _[!UICONTROL Store]_&#x200B;e_[!UICONTROL Status]_ non sono disponibili.
+   Durante la modifica della visualizzazione predefinita, i campi _[!UICONTROL Store]_e_[!UICONTROL Status]_ non sono disponibili.
 
    ![Visualizzazione archivio - modifica visualizzazione predefinita](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 
@@ -81,5 +104,8 @@ Se nell&#39;installazione di Adobe Commerce o Magento Open Source è presente un
    - **[!UICONTROL Code]** (solo se non utilizzato in `index.php`)
    - **[!UICONTROL Status]** (solo visualizzazioni non predefinite)
    - **[!UICONTROL Sort Order]**
+   - **[!UICONTROL Sync products and attributes]** (solo se [!DNL Adobe Commerce Optimizer Connector] è installato)
+
+   ![Visualizzazione archivio - modifica visualizzazione predefinita con impostazioni di esportazione Adobe Commerce Optimizer](./assets/stores-optimizer-exporter-settings.png){width="600" zoomable="yes"}
 
 1. Fare clic su **[!UICONTROL Save Store View]**.
