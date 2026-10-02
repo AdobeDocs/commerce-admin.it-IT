@@ -54,7 +54,7 @@ Il connettore protegge le visualizzazioni del catalogo con tasti di accesso limi
 
 Per configurare la durata del token o disabilitare il rilascio del token, vedi [Servizi > Visualizzazione catalogo ACO](/help/configuration-reference/services/aco-catalog-view.md).
 
-È possibile esaminare queste visualizzazioni catalogo e gestire le chiavi assegnate dalla scheda _[!UICONTROL Catalog Views]_del catalogo condiviso o dalla sezione_[!UICONTROL Catalog Views]_ della società associata. Entrambi elencano le stesse visualizzazioni catalogo e le assegnazioni chiave correnti. Vedere [Modifica chiavi di accesso con restrizioni](#edit-restricted-access-keys) per l&#39;esatto percorso di navigazione da ogni posizione.
+È possibile esaminare queste visualizzazioni catalogo e gestire le chiavi assegnate dalla scheda _[!UICONTROL Catalog Views]_&#x200B;del catalogo condiviso o dalla sezione&#x200B;_[!UICONTROL Catalog Views]_ della società associata. Entrambi elencano le stesse visualizzazioni catalogo e le assegnazioni chiave correnti. Vedere [Modifica chiavi di accesso con restrizioni](#edit-restricted-access-keys) per l&#39;esatto percorso di navigazione da ogni posizione.
 
 Per monitorare la sincronizzazione dei dati del catalogo condiviso con [!DNL Adobe Commerce Optimizer], vedere [Monitoraggio dello stato di sincronizzazione della visualizzazione del catalogo](/help/systems/catalog-view-sync-status.md).
 
