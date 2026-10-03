@@ -190,6 +190,6 @@ Le righe in questa scheda vengono cancellate automaticamente dopo 90 giorni.
 > - [Stato sincronizzazione feed dati](data-feed-sync-status.md)
 > - [Servizi > Sincronizzazione visualizzazione catalogo ACO](../configuration-reference/services/aco-catalog-view-sync.md) — Configura i periodi di tolleranza per l&#39;eliminazione e la creazione e il riconciliatore delle deviazioni
 > - [Gestione chiavi di accesso con restrizioni](restricted-access-keys.md): consente di gestire le chiavi di cui viene visualizzata la scadenza della pagina
-> - [Monitorare la sincronizzazione della visualizzazione catalogo per i cataloghi condivisi B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) nella *Guida di Adobe Commerce Optimizer Connector*
+> - [Monitorare la sincronizzazione della visualizzazione catalogo per i cataloghi condivisi B2B](https://experienceleague.adobe.com/it/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) nella *Guida di Adobe Commerce Optimizer Connector*
 > - [Visualizzazioni catalogo privato](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/private-catalog-view)
 > - [Chiavi di accesso limitate](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/restricted-access-keys)
