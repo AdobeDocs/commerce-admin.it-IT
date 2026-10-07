@@ -8,23 +8,30 @@ autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: 5764bcc6545c1696353ac445716061b009a7c106
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: '2182'
 ht-degree: 0%
-
 ---
-
 # Arricchimento del catalogo
 
 L&#39;arricchimento del catalogo è una funzionalità nativa di [!DNL Adobe Commerce] che consente di migliorare i nomi dei prodotti e le descrizioni lunghe in modo che il catalogo venga rappresentato in modo più accurato quando gli acquirenti utilizzano LLM e assistenti AI per la ricerca e l&#39;individuazione dei prodotti.
@@ -91,7 +98,7 @@ Prima di rivedere o applicare suggerimenti, rivolgiti al tuo amministratore Comm
 
 Dopo aver installato le estensioni di Catalog Enrichment e Catalog Services, la funzionalità di arricchimento del catalogo è disponibile nell&#39;amministratore in **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 
-![Arricchimento catalogo](./assets/catalog-enrichment-menu.png)
+![Arricchimento catalogo](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### Configurare l’arricchimento del catalogo
 
@@ -104,7 +111,7 @@ Configura l&#39;arricchimento del catalogo nella scheda **[!UICONTROL Settings]*
 
    Fornisci i dettagli dell&#39;ambiente [!DNL Adobe Commerce] per abilitare il servizio Catalog LLM Optimizer e i flussi di lavoro di controllo.
 
-   ![Configurazione Commerce nella scheda Impostazioni di arricchimento del catalogo](./assets/catalog-enrichment-commerce-config.png)
+   ![Configurazione Commerce nella scheda Impostazioni di arricchimento del catalogo](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Immettere i dettagli di connessione richiesti per la visualizzazione archivio.
 
@@ -142,7 +149,7 @@ L’arricchimento del catalogo utilizza le seguenti visualizzazioni del flusso d
 - **[!UICONTROL Fixed Suggestions]**: elementi già applicati o risolti.
 - **[!UICONTROL Ignored Suggestions]**: elementi esclusi intenzionalmente dall&#39;azione.
 
-![Arricchimento catalogo](./assets/agentic-opportunities.png)
+![Arricchimento catalogo](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### Distribuire i suggerimenti approvati {#review-deploy-catalog}
 
@@ -176,7 +183,7 @@ Dopo aver applicato un aggiornamento, i suggerimenti passano a **[!UICONTROL Fix
 
    Il modulo del prodotto riporta il nome e/o la descrizione del prodotto arricchito.
 
-   ![Nome prodotto arricchito](./assets/enriched-product-name.png)
+   ![Nome prodotto arricchito](./assets/enriched-product-name.png){zoomable="yes"}
 
 1. Facoltativo: selezionare **[!UICONTROL Override Catalog Agent provided Product Name]** se si desidera mantenere un nome immesso manualmente.
 
@@ -186,7 +193,7 @@ Dopo aver applicato un aggiornamento, i suggerimenti passano a **[!UICONTROL Fix
 
    La descrizione arricchita viene visualizzata quando hai applicato le modifiche alla descrizione.
 
-   ![Arricchisci descrizione prodotto](./assets/enrich-product-description.png)
+   ![Arricchisci descrizione prodotto](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. Facoltativo: selezionare **[!UICONTROL Override Catalog Agent provided Description]** se si desidera conservare una descrizione immessa manualmente.
 
