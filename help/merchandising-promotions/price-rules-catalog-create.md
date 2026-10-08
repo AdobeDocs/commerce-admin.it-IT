@@ -6,27 +6,36 @@ feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
 workflow-type: tm+mt
-source-wordcount: 1730
+source-wordcount: '1807'
 ht-degree: 0%
-
 ---
-
 # Creare una regola del prezzo di catalogo
 
 Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volta che viene soddisfatta una serie di condizioni. Gli sconti della regola del prezzo di catalogo diventano effettivi prima che il prodotto venga inserito nel carrello.
@@ -37,7 +46,7 @@ Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volt
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Rule]**.
 
-   La sezione _[!UICONTROL Rule Information]_&#x200B;include sezioni espandibili per **[!UICONTROL Conditions]**&#x200B;e **[!UICONTROL Actions]**.
+   La sezione _[!UICONTROL Rule Information]_include sezioni espandibili per **[!UICONTROL Conditions]**e **[!UICONTROL Actions]**.
 
    ![Regola prezzo catalogo - informazioni](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -58,13 +67,17 @@ Segui queste istruzioni per applicare uno sconto su prodotti specifici ogni volt
    - Le opzioni disponibili dipendono dai gruppi di clienti creati e gestiti in _Clienti_ > _Gruppi di clienti_.
    - Per scegliere più gruppi, tenere premuto il tasto Ctrl (PC) o Comando (Mac) e fare clic su ciascuna opzione.
 
-1. ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Immettere le date **[!UICONTROL From]** e **[!UICONTROL To]** per determinare quando è in vigore la regola del prezzo.
+1. Impostare il programma per la regola prezzo:
 
-   È possibile immettere le date o utilizzare l&#39;icona **[!UICONTROL Calendar]** (![Calendario](../assets/icon-calendar.png)) per scegliere le date. Se si lasciano vuote le date, la regola viene attivata quando la regola del prezzo viene salvata.
+   - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Immettere le date **[!UICONTROL From]** e **[!UICONTROL To]** per determinare quando è in vigore la regola del prezzo.
+
+   - ![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] soltanto) Immettere le date e le ore **[!UICONTROL From]** e **[!UICONTROL To]** per determinare quando inizia e termina la regola prezzi.
+
+   È possibile immettere i valori o utilizzare l&#39;icona **[!UICONTROL Calendar]** (![Calendario](../assets/icon-calendar.png)) per sceglierli.
 
    >[!NOTE]
    >
-   >I campi `From` e `To` sono stati rimossi dalla pagina di configurazione della regola prezzo catalogo in Adobe Commerce e non possono essere modificati direttamente nella regola prezzo catalogo. È necessario creare un aggiornamento pianificato per impostare la programmazione per l&#39;attivazione della regola prezzi.
+   >Per i progetti Adobe Commerce on Cloud e on-premise, i campi `From` e `To` non sono disponibili nella pagina di configurazione della regola del prezzo di catalogo. Devi creare un [aggiornamento pianificato](#step-5-schedule-the-rule) per impostare la pianificazione per l&#39;attivazione della regola prezzo.
 
 1. Immettere un numero per stabilire **[!UICONTROL Priority]** di questa regola in relazione ad altre regole.
 
@@ -232,11 +245,13 @@ La maggior parte delle condizioni disponibili si basa sui valori di attributo es
 
    Le regole di prezzo vengono elaborate automaticamente ogni notte con altre regole di sistema. Quando crei una regola del prezzo, attendi abbastanza tempo affinché entri nel sistema prima di testarla per assicurarti che funzioni correttamente. Con l&#39;aggiunta di nuove regole, Commerce ricalcola di conseguenza i prezzi e le priorità.
 
+   In [!DNL Adobe Commerce as a Cloud Service], Commerce verifica ogni minuto la presenza di regole attive che hanno raggiunto l&#39;ora di inizio o di fine e aggiorna i prezzi dei prodotti interessati.
+
 ## Demo regola prezzo catalogo
 
 Guarda questo video per scoprire come creare le regole del prezzo di catalogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410849?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Descrizioni dei campi
 
@@ -250,8 +265,8 @@ Guarda questo video per scoprire come creare le regole del prezzo di catalogo:
 | [!UICONTROL Customer Groups] | (Obbligatorio) Identifica i gruppi di clienti a cui si applica la regola. |
 | [!UICONTROL Priority] | Numero che indica la priorità di questa regola rispetto ad altre. Le priorità dal più alto al più basso sono `0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) determina se la regola è attiva nell&#39;archivio. Opzioni: `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Specifica il primo giorno in cui è in vigore la regola del prezzo. Se non specificata, la regola del prezzo entra in vigore al momento del salvataggio. |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Specifica l&#39;ultimo giorno in cui è in vigore la regola del prezzo. Se non specificata, la regola del prezzo continua a tempo indefinito. |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Specifica il primo giorno in cui è in vigore la regola del prezzo. Se non specificata, la regola del prezzo entra in vigore al momento del salvataggio.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] only) Specifica la data e l&#39;ora di entrata in vigore della regola del prezzo. Se non specificata, la regola del prezzo entra in vigore al momento del salvataggio. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Specifica l&#39;ultimo giorno in cui è in vigore la regola del prezzo. Se non specificata, la regola del prezzo continua a tempo indefinito.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] only) Specifica la data e l&#39;ora di fine della regola del prezzo. Se non specificata, la regola del prezzo continua a tempo indefinito. |
 
 {style="table-layout:auto"}
 
