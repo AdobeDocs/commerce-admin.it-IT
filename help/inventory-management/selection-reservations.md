@@ -1,33 +1,46 @@
 ---
 title: Algoritmi e prenotazioni di Source
-description: Scopri in che modo l'algoritmo di selezione Source e le prenotazioni mantengono accurata la quantità vendibile durante il pagamento e la spedizione in [!DNL Inventory Management].
+description: Scopri in che modo l'algoritmo di selezione di Source e le prenotazioni mantengono accurata la quantità vendibile durante il pagamento e la spedizione in [!DNL Inventory Management].
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY
+last-update: 2026-08-20
+TQID: 'https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-08-20
-source-git-commit: b121ee17ac10cfc992f8797d161ec06764322ea1
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 2179
+source-wordcount: '2179'
 ht-degree: 0%
-
 ---
-
 # Algoritmi e prenotazioni di Source
 
 Il cuore di [!DNL Inventory Management] tiene traccia di tutti i prodotti disponibili virtualmente e disponibili nei tuoi magazzini e magazzini. I sistemi Algoritmo di selezione Source e Impegni vengono eseguiti in background, mantenendo aggiornate le quantità di vendita, evitando collisioni, e le opzioni di spedizione consigliate.
@@ -104,7 +117,7 @@ Anziché dedurre o aggiungere immediatamente le quantità di magazzino dei prodo
 
 >[!NOTE]
 >
->[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} La funzionalità di prenotazione richiede l&#39;esecuzione continua del consumer della coda di messaggi `inventory.reservations.updateSalabilityStatus`. Per verificare se è in esecuzione, utilizzare il comando `bin/magento queue:consumers:list`. Se il consumer della coda messaggi non è elencato, avviarlo: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} La funzionalità di prenotazione richiede l&#39;esecuzione continua del consumer della coda di messaggi `inventory.reservations.updateSalabilityStatus`. Per verificare se è in esecuzione, utilizzare il comando `bin/magento queue:consumers:list`. Se il consumer della coda messaggi non è elencato, avviarlo: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Prenotazione ordine
 
@@ -209,7 +222,7 @@ I tre valori `quantity` sommano fino a 0 (-25 + 5 + 20). Il sistema non modifica
 
 Il processo cron `inventory_cleanup_reservations` esegue query SQL per cancellare la tabella del database delle prenotazioni. Per impostazione predefinita viene eseguito ogni giorno a mezzanotte, ma puoi configurare l’ora e la frequenza. Il processo cron esegue uno script che esegue query sul database per trovare sequenze di prenotazione complete in cui la somma dei valori di quantità è 0. Quando tutte le prenotazioni per un determinato prodotto che hanno avuto origine nello stesso giorno (o in un’altra ora configurata) sono state compensate, il processo cron elimina tutte le prenotazioni contemporaneamente.
 
-Il processo cron `inventory_reservations_cleanup` non corrisponde al consumer della coda di messaggi `inventory.reservations.cleanup`. Il consumatore elimina in modo asincrono le prenotazioni per SKU prodotto dopo la rimozione di un prodotto, mentre il processo cron cancella l’intera tabella delle prenotazioni. Il consumer è obbligatorio quando si abilita l&#39;opzione di magazzino [**Sincronizza con catalogo**](../configuration-reference/catalog/inventory.md) nella configurazione dell&#39;archivio. Vedi [Gestione delle code di messaggi](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues){target="_blank"} nella _Guida alla configurazione_.
+Il processo cron `inventory_reservations_cleanup` non corrisponde al consumer della coda di messaggi `inventory.reservations.cleanup`. Il consumatore elimina in modo asincrono le prenotazioni per SKU prodotto dopo la rimozione di un prodotto, mentre il processo cron cancella l’intera tabella delle prenotazioni. Il consumer è obbligatorio quando si abilita l&#39;opzione di magazzino [**Sincronizza con catalogo**](../configuration-reference/catalog/inventory.md) nella configurazione dell&#39;archivio. Vedi [Gestione delle code di messaggi](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues){target="_blank"} nella _Guida alla configurazione_.
 
 Spesso, tutte le prenotazioni iniziali prodotte in un singolo giorno non possono essere compensate quello stesso giorno. Questa situazione può verificarsi quando un cliente effettua un ordine poco prima dell’inizio del processo cron o effettua l’acquisto con un metodo di pagamento offline, ad esempio un bonifico bancario. Le sequenze di prenotazione compensate rimangono nel database fino a quando non vengono compensate tutte. Questa procedura non interferisce con i calcoli della prenotazione, poiché il totale di ogni prenotazione è 0.
 

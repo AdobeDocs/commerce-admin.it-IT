@@ -3,30 +3,42 @@ title: Creare etichette e pacchetti di spedizione
 description: Scopri come imballare gli articoli in un ordine e creare etichette di spedizione.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-TQID: https://experienceleague.adobe.com/eKOA-A1xmw29l51ADFwl6X6Ctbdd6cBCZ0gnKOm1a8s
+last-update: 2026-05-12
+TQID: 'https://experienceleague.adobe.com/eKOA-A1xmw29l51ADFwl6X6Ctbdd6cBCZ0gnKOm1a8s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-05-12
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 1974
+source-wordcount: '1974'
 ht-degree: 0%
-
 ---
-
 # Crea etichette di spedizione
 
 Per creare le etichette di spedizione, devi prima impostare l&#39;account del vettore di spedizione per supportare le etichette. Quindi, seguire le istruzioni per immettere una descrizione del pacchetto e del relativo contenuto.
@@ -62,7 +74,7 @@ Segui le istruzioni fornite da ciascun vettore per aggiungere il supporto per le
 
 La United Parcel Service è un servizio di spedizione pacchi sia a livello nazionale che internazionale. Tuttavia, le etichette di spedizione possono essere generate solo per le spedizioni provenienti dagli Stati Uniti.
 
-1. Nella sezione _[!UICONTROL Sales]_&#x200B;nel pannello a sinistra, scegli **[!UICONTROL Delivery Methods]**.
+1. Nella sezione _[!UICONTROL Sales]_nel pannello a sinistra, scegli **[!UICONTROL Delivery Methods]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL UPS]**.
 
@@ -166,7 +178,7 @@ DHL fornisce servizi di spedizione internazionali.
 
 1. Aggiungi o aggiorna prodotti nel pacchetto:
 
-   - Per aggiungere prodotti dall&#39;ordine al pacchetto, fare clic su **[!UICONTROL Add Products]**. La colonna _[!UICONTROL Quantity]_&#x200B;mostra il numero massimo di prodotti disponibili per il pacchetto.
+   - Per aggiungere prodotti dall&#39;ordine al pacchetto, fare clic su **[!UICONTROL Add Products]**. La colonna _[!UICONTROL Quantity]_mostra il numero massimo di prodotti disponibili per il pacchetto.
 
    - Selezionare la casella di controllo di ciascun prodotto da aggiungere al pacchetto e immettere il **[!UICONTROL Quantity]** di ciascun prodotto. Quindi fare clic su **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -174,7 +186,7 @@ DHL fornisce servizi di spedizione internazionali.
 
    - Per eliminare un pacchetto, scegliere **[!UICONTROL Delete Package]**.
 
-   - Per annullare un ordine, fare clic su **[!UICONTROL Cancel]**. L&#39;etichetta di spedizione non è stata creata e la casella di controllo _[!UICONTROL Create Shipping Label]_&#x200B;è deselezionata.
+   - Per annullare un ordine, fare clic su **[!UICONTROL Cancel]**. L&#39;etichetta di spedizione non è stata creata e la casella di controllo _[!UICONTROL Create Shipping Label]_è deselezionata.
 
    >[!NOTE]
    >
@@ -212,11 +224,11 @@ Le etichette di spedizione vengono generate in formato PDF e possono essere stam
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Trova la spedizione nella griglia e apri il record.
 
-1. Per scaricare il file PDF, passare alla sezione _[!UICONTROL Shipping and Tracking]_&#x200B;del modulo e fare clic su **[!UICONTROL Print Shipping Label]**.
+1. Per scaricare il file PDF, passare alla sezione _[!UICONTROL Shipping and Tracking]_del modulo e fare clic su **[!UICONTROL Print Shipping Label]**.
 
    A seconda delle impostazioni del browser, le etichette di spedizione possono essere visualizzate e stampate direttamente dal file PDF.
 
-   Il pulsante _[!UICONTROL Print Shipping Label]_&#x200B;viene visualizzato solo dopo che il vettore ha generato le etichette per la spedizione. Se manca il pulsante, fare clic su **[!UICONTROL Create Shipping Label]**. Il pulsante viene visualizzato dopo che Commerce ha ricevuto l&#39;etichetta dal gestore.
+   Il pulsante _[!UICONTROL Print Shipping Label]_viene visualizzato solo dopo che il vettore ha generato le etichette per la spedizione. Se manca il pulsante, fare clic su **[!UICONTROL Create Shipping Label]**. Il pulsante viene visualizzato dopo che Commerce ha ricevuto l&#39;etichetta dal gestore.
 
 ### Metodo 2: Stampa etichette per più ordini
 
@@ -245,7 +257,7 @@ Viene stampato un set completo di etichette di spedizione per ogni spedizione co
 
 ## Creare pacchetti
 
-La finestra _[!UICONTROL Create Packages]_&#x200B;viene visualizzata quando si sceglie di creare un&#39;etichetta di spedizione. Puoi iniziare immediatamente a configurare il primo pacchetto.
+La finestra _[!UICONTROL Create Packages]_viene visualizzata quando si sceglie di creare un&#39;etichetta di spedizione. Puoi iniziare immediatamente a configurare il primo pacchetto.
 
 ### Configurare un pacchetto
 
@@ -257,7 +269,7 @@ La finestra _[!UICONTROL Create Packages]_&#x200B;viene visualizzata quando si s
 
    - Specifica i prodotti e le quantità.
 
-     La colonna _[!UICONTROL Qty]_&#x200B;mostra la quantità massima disponibile da aggiungere. Per il primo imballaggio, il numero corrisponde alla quantità totale del prodotto da spedire.
+     La colonna _[!UICONTROL Qty]_mostra la quantità massima disponibile da aggiungere. Per il primo imballaggio, il numero corrisponde alla quantità totale del prodotto da spedire.
 
    - Per aggiungere i prodotti al pacchetto, fare clic su **[!UICONTROL Add Selected Product(s) to Package]**.
 

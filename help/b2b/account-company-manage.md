@@ -3,7 +3,8 @@ title: Gestire gli account aziendali
 description: Scopri come gestire gli account aziendali per il tuo store di Adobe Commerce utilizzando la pagina Società e gli strumenti disponibili nella griglia.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
+last-update: 2026-10-01
+TQID: 'https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -20,6 +21,8 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
     internal-label: 2FA
@@ -42,25 +45,24 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2026-10-01
-source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '2804'
 ht-degree: 0%
 ---
 # Gestire gli account aziendali
 
-Nella pagina _[!UICONTROL Companies]_&#x200B;sono elencati tutti gli account società correnti, indipendentemente dallo stato. Tutte le richieste di approvazione in sospeso vengono visualizzate nella parte superiore dell&#39;elenco.
+Nella pagina _[!UICONTROL Companies]_sono elencati tutti gli account società correnti, indipendentemente dallo stato. Tutte le richieste di approvazione in sospeso vengono visualizzate nella parte superiore dell&#39;elenco.
 
 ![Griglia Aziende](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Utilizzare il controllo *[!UICONTROL Columns]* per personalizzare le colonne visualizzate nella griglia. Personalizza le aziende visualizzate nella vista utilizzando le funzionalità di ricerca e filtro.
 
-- Trova aziende nella griglia **Aziende** utilizzando _[!UICONTROL Search]_. La ricerca indicizza le colonne **Nome società**&#x200B;e **Padre**.
+- Trova aziende nella griglia **Aziende** utilizzando _[!UICONTROL Search]_. La ricerca indicizza le colonne **Nome società**e **Padre**.
 
 - Personalizzare la visualizzazione per includere i record che soddisfano criteri specifici utilizzando [!UICONTROL Filter]. Ad esempio, se il sito B2B è configurato per gestire sia account di una singola società che [gerarchie di società](manage-companies.md), è possibile filtrare per `[!UICONTROL Company Type - Company]` in modo da visualizzare solo singole società o per `[!UICONTROL Company Type - Parent]` in modo da visualizzare solo la società padre per ogni gerarchia.
 
-Applicare un&#39;azione a più record aziendali utilizzando il controllo _[!UICONTROL Actions]_&#x200B;sopra la griglia. Ad esempio, invece di approvare ogni singola richiesta aziendale, puoi selezionare più richieste per attivare gli account in un’unica azione. Le azioni disponibili dipendono dalle [autorizzazioni](../systems/permissions.md) per il ruolo assegnato al tuo account utente amministratore.
+Applicare un&#39;azione a più record aziendali utilizzando il controllo _[!UICONTROL Actions]_sopra la griglia. Ad esempio, invece di approvare ogni singola richiesta aziendale, puoi selezionare più richieste per attivare gli account in un’unica azione. Le azioni disponibili dipendono dalle [autorizzazioni](../systems/permissions.md) per il ruolo assegnato al tuo account utente amministratore.
 
 ## Risorse per il ruolo della società
 
@@ -246,7 +248,7 @@ Il profilo aziendale può essere gestito dalla vetrina dall’amministratore del
 
 Per scoprire come gestire gli account aziendali, guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410772?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Gestione società
 
@@ -258,7 +260,7 @@ Per ulteriori informazioni, vedere [Gestione gerarchia società](manage-company-
 
 ## Gestire la configurazione della vista catalogo
 
-Con l&#39;estensione [!DNL Adobe Commerce Optimizer Connector for B2B] installata, la sezione _[!UICONTROL Catalog Views]_&#x200B;di un account società elenca le viste di catalogo [!DNL Adobe Commerce Optimizer] proiettate dal catalogo condiviso assegnato alla società e consente di gestire le chiavi di accesso con restrizioni che le proteggono.
+Con l&#39;estensione [!DNL Adobe Commerce Optimizer Connector for B2B] installata, la sezione _[!UICONTROL Catalog Views]_di un account società elenca le viste di catalogo [!DNL Adobe Commerce Optimizer] proiettate dal catalogo condiviso assegnato alla società e consente di gestire le chiavi di accesso con restrizioni che le proteggono.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
