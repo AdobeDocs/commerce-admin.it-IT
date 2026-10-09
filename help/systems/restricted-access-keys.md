@@ -48,11 +48,11 @@ Utilizzare la pagina Chiavi di accesso limitate per gestire le chiavi di accesso
 
 >[!NOTE]
 >
->Per le chiavi create manualmente e utilizzate per gestire cataloghi privati in scenari non B2B, ad esempio portali partner, gestire le chiavi da [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
+>Per le chiavi create manualmente e utilizzate per gestire cataloghi privati in scenari non B2B, ad esempio portali partner, gestire le chiavi da [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
 
 ## Pubblico e disponibilità {#audience}
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud Infrastructure e on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud Infrastructure e on-premise."}
 
 La pagina [!UICONTROL Restricted Access Keys] è disponibile per i commercianti Adobe Commerce on Cloud Infrastructure e on-premise che utilizzano cataloghi condivisi B2B con [!DNL Adobe Commerce Optimizer Connector for B2B]. Il connettore installa e abilita automaticamente la pagina.
 
@@ -126,5 +126,5 @@ Per modificare il periodo di scadenza predefinito applicato alle chiavi appena c
 > - [Monitoraggio dello stato di sincronizzazione della visualizzazione del catalogo](catalog-view-sync-status.md) — Controlla e riconcilia le visualizzazioni del catalogo protette da queste chiavi
 > - [Servizi > Chiavi di accesso con restrizioni ACO](../configuration-reference/services/aco-restricted-access-keys.md) — Configura il periodo di scadenza della chiave predefinita
 > - [Servizi > Visualizzazione catalogo ACO](../configuration-reference/services/aco-catalog-view.md) — Configura la durata del token di accesso della vetrina e abilita o disabilita la pubblicazione
-> - [Gestire le chiavi di accesso con restrizioni](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} nella *Guida di Adobe Commerce Optimizer Connector*: scopri come queste chiavi si adattano alla sincronizzazione di cataloghi condivisi B2B
-> - [Chiavi di accesso limitate](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} nella *Guida di Adobe Commerce Optimizer*: il flusso di chiavi manuale basato su ACO Studio per i casi di utilizzo non B2B
+> - [Gestire le chiavi di accesso con restrizioni](https://experienceleague.adobe.com/it/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} nella *Guida di Adobe Commerce Optimizer Connector*: scopri come queste chiavi si adattano alla sincronizzazione di cataloghi condivisi B2B
+> - [Chiavi di accesso limitate](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} nella *Guida di Adobe Commerce Optimizer*: il flusso di chiavi manuale basato su ACO Studio per i casi di utilizzo non B2B
