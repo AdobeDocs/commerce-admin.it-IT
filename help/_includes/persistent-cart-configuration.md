@@ -5,9 +5,7 @@ source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
-
 ---
-
 
 # [!UICONTROL General Options]
 
