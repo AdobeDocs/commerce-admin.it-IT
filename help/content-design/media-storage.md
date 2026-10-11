@@ -3,7 +3,7 @@ title: Archiviazione di contenuti multimediali
 description: Scopri in che modo l’archiviazione multimediale consente di organizzare e accedere ai file multimediali Commerce memorizzati sul server.
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
