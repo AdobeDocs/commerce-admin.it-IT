@@ -3,14 +3,30 @@ title: Archiviazione di contenuti multimediali
 description: Scopri in che modo l’archiviazione multimediale consente di organizzare e accedere ai file multimediali Commerce memorizzati sul server.
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '488'
 ht-degree: 0%
-
 ---
-
 # Archiviazione di contenuti multimediali
 
 L&#39;archiviazione multimediale consente di organizzare e accedere ai file multimediali memorizzati sul server. Il percorso dei file è determinato dalla configurazione dell&#39;[URL di base](../stores-purchase/store-urls.md). I file nell’archiviazione multimediale sono accessibili dall’editor mentre si lavora su pagine e blocchi statici. In genere, l&#39;archiviazione multimediale risiede nel file system sullo stesso server dei file di programma [!DNL Commerce].
