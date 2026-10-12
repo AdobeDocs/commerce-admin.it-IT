@@ -4,26 +4,35 @@ description: Crea un’anteprima per qualsiasi giorno o periodo di tempo durante
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-TQID: https://experienceleague.adobe.com/oX0wqWTv3MiA6-nMLngP2di0o9JmC-WNkAOm4TOpv74
+TQID: 'https://experienceleague.adobe.com/oX0wqWTv3MiA6-nMLngP2di0o9JmC-WNkAOm4TOpv74'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 331
+source-wordcount: '331'
 ht-degree: 0%
-
 ---
-
 # Anteprima di una campagna
 
 {{ee-feature}}
@@ -34,13 +43,13 @@ Qualsiasi giorno o periodo di tempo durante una campagna può essere visualizzat
 
    - _Dal dashboard di gestione temporanea dei contenuti_
 
-      - Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
-      - Fare clic su un elemento qualsiasi nella pagina e quindi fare clic su **[!UICONTROL Preview]** nelle informazioni di riepilogo visualizzate per la campagna.
+     - Nella barra laterale _Admin_, passa a **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+     - Fare clic su un elemento qualsiasi nella pagina e quindi fare clic su **[!UICONTROL Preview]** nelle informazioni di riepilogo visualizzate per la campagna.
 
    - _Da qualsiasi pagina con modifiche pianificate_
 
-      - Apri qualsiasi pagina con una casella _[!UICONTROL Scheduled Changes]_&#x200B;nella parte superiore.
-      - Fare clic su **[!UICONTROL Preview]**.
+     - Apri qualsiasi pagina con una casella _[!UICONTROL Scheduled Changes]_&#x200B;nella parte superiore.
+     - Fare clic su **[!UICONTROL Preview]**.
 
    L’anteprima viene visualizzata in una nuova scheda del browser e mostra come appare il prodotto durante la campagna pianificata.
 

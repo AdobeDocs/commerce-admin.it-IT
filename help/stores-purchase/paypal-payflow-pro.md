@@ -4,29 +4,39 @@ description: Scopri come impostare PayPal Payflow Pro come soluzione di pagament
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-TQID: https://experienceleague.adobe.com/Ihjp0mA-r63ONIWgCpZFxi4rdt9cVowqPX1VyD4SRaQ
+TQID: 'https://experienceleague.adobe.com/Ihjp0mA-r63ONIWgCpZFxi4rdt9cVowqPX1VyD4SRaQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2264
+source-wordcount: '2328'
 ht-degree: 0%
-
 ---
-
 # PayPal Payflow Pro
 
 Il gateway PayPal Payflow Pro, precedentemente noto come _Verisign_, è disponibile per i clienti di Stati Uniti, Canada, Australia e Nuova Zelanda. A differenza di altri metodi di pagamento PayPal, agli esercenti viene addebitata una tariffa mensile fissa, più una tariffa fissa per ogni transazione, indipendentemente dal numero.
@@ -75,9 +85,9 @@ Il gateway PayPal Payflow Pro, precedentemente noto come _Verisign_, è disponib
 
    - In **[!UICONTROL Security Options]**, completare le impostazioni seguenti:
 
-      - **[!UICONTROL AVS]**: `No`
-      - **[!UICONTROL CSC]**: `No`
-      - **[!UICONTROL Enable Secure Token]**: `Yes`
+     - **[!UICONTROL AVS]**: `No`
+     - **[!UICONTROL CSC]**: `No`
+     - **[!UICONTROL Enable Secure Token]**: `Yes`
 
    - Scegliere **[!UICONTROL Customize]**, quindi **[!UICONTROL Layout C]**.
 
@@ -105,10 +115,10 @@ Il gateway PayPal Payflow Pro, precedentemente noto come _Verisign_, è disponib
 
    - Compila i campi obbligatori nelle sezioni seguenti del modulo _[!UICONTROL Add User]_:
 
-      - [!UICONTROL Admin Confirmation]
-      - [!UICONTROL User Information]
-      - [!UICONTROL User Login Information]
-      - [!UICONTROL Assign Privilege to User]
+     - [!UICONTROL Admin Confirmation]
+     - [!UICONTROL User Information]
+     - [!UICONTROL User Login Information]
+     - [!UICONTROL Assign Privilege to User]
 
    - Fare clic su **[!UICONTROL Update]**.
 
@@ -381,8 +391,8 @@ Per determinare quando una transazione deve essere rifiutata quando il sistema d
 
    - Se ti sei iscritto al server FTP protetto PayPal, immetti le seguenti credenziali di accesso SFTP:
 
-      - Login
-      - Password
+     - Login
+     - Password
 
    - Per eseguire i report di test prima della pubblicazione con il Checkout rapido sul sito, impostare **[!UICONTROL Sandbox Mode]** su `Yes`.
 
@@ -400,13 +410,13 @@ Per determinare quando una transazione deve essere rifiutata quando il sistema d
 
    - Imposta **[!UICONTROL Schedule]** su uno dei seguenti:
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal conserva ogni rapporto per 45 giorni.
 
@@ -434,9 +444,9 @@ Utilizza le impostazioni di esperienza front-end per scegliere quali logo PayPal
 
    - Immetti il nome di **[!UICONTROL Page Style]** che desideri applicare alle pagine dell&#39;esercente PayPal:
 
-      - `paypal` - Utilizza lo stile di pagina PayPal.
-      - `primary` - Utilizza lo stile di pagina identificato come _primario_ nel profilo dell&#39;account.
-      - `your_custom_value` - Utilizza uno stile di pagina di pagamento personalizzato, specificato nel profilo del tuo account.
+     - `paypal` - Utilizza lo stile di pagina PayPal.
+     - `primary` - Utilizza lo stile di pagina identificato come _primario_ nel profilo dell&#39;account.
+     - `your_custom_value` - Utilizza uno stile di pagina di pagamento personalizzato, specificato nel profilo del tuo account.
 
    - Per **[!UICONTROL Header Image URL]**, immettere l&#39;URL dell&#39;immagine che si desidera visualizzare nell&#39;angolo superiore sinistro della pagina di pagamento. La dimensione massima del file è di 750 pixel di larghezza per 90 pixel di altezza.
 
@@ -446,9 +456,9 @@ Utilizza le impostazioni di esperienza front-end per scegliere quali logo PayPal
 
    - Per impostare il colore delle pagine, immettere il codice esadecimale a sei caratteri, senza il simbolo `#`, per ognuno dei seguenti elementi:
 
-      - **[!UICONTROL Header Background Color]** - Colore di sfondo per l&#39;intestazione della pagina di pagamento.
-      - **[!UICONTROL Header Border Color]** - Colore per il bordo di due pixel attorno all&#39;intestazione.
-      - **[!UICONTROL Page Background Color]** - Colore di sfondo per la pagina di pagamento e attorno all&#39;intestazione e al modulo di pagamento.
+     - **[!UICONTROL Header Background Color]** - Colore di sfondo per l&#39;intestazione della pagina di pagamento.
+     - **[!UICONTROL Header Border Color]** - Colore per il bordo di due pixel attorno all&#39;intestazione.
+     - **[!UICONTROL Page Background Color]** - Colore di sfondo per la pagina di pagamento e attorno all&#39;intestazione e al modulo di pagamento.
 
 ### Passo 6: Completare le impostazioni di base per PayPal Express Checkout
 

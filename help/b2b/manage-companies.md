@@ -4,31 +4,44 @@ description: Amministrazione e gestione semplificate delle organizzazioni B2B co
 feature: B2B, Companies, Storefront
 role: Admin
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-TQID: https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI
+TQID: 'https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: '778'
 ht-degree: 0%
-
 ---
-
 # Gestione società
 
 La gestione aziendale in Adobe Commerce fornisce agli amministratori strumenti completi per organizzare, configurare e supervisionare le relazioni aziendali B2B. Questa funzione è essenziale per le aziende che lavorano con più clienti aziendali, filiali o strutture organizzative complesse.
@@ -75,18 +88,18 @@ La gerarchia aziendale struttura le relazioni commerciali organizzando più soci
 La colonna *[!UICONTROL Company Type]* nella griglia Aziende mostra il modo in cui ogni società si inserisce all&#39;interno dell&#39;organizzazione B2B:
 
 * **Principale** - Hub centrale con una o più società assegnate
-   * Controlla più società figlie ma non può essere assegnato a un altro padre
-   * **Caso d&#39;uso**: sede centrale, organizzazione principale di affiliazione o società holding
+  * Controlla più società figlie ma non può essere assegnato a un altro padre
+  * **Caso d&#39;uso**: sede centrale, organizzazione principale di affiliazione o società holding
 
 * **Figlio**—Società assegnata a un&#39;organizzazione padre
-   * Funziona secondo la governance principale e può ereditare le configurazioni
-   * Può appartenere a un solo elemento padre alla volta
-   * **Caso d&#39;uso**: filiali, sedi in franchising o divisioni regionali
+  * Funziona secondo la governance principale e può ereditare le configurazioni
+  * Può appartenere a un solo elemento padre alla volta
+  * **Caso d&#39;uso**: filiali, sedi in franchising o divisioni regionali
 
 * **Società**—Società singola indipendente
-   * Funziona indipendentemente senza relazioni gerarchiche
-   * Può essere convertito in padre (assegnando società) o figlio (assegnando a padre)
-   * **Caso d&#39;uso**: singoli clienti aziendali o client autonomi
+  * Funziona indipendentemente senza relazioni gerarchiche
+  * Può essere convertito in padre (assegnando società) o figlio (assegnando a padre)
+  * **Caso d&#39;uso**: singoli clienti aziendali o client autonomi
 
 ### Conversione di tipi di società
 
@@ -108,24 +121,24 @@ Per istruzioni dettagliate, consulta [Gestire la gerarchia aziendale](manage-com
 Durante la gestione delle società dalla griglia società, gli amministratori possono eseguire le attività seguenti dalla griglia *[!UICONTROL Company Hierarchy]*:
 
 * **Visualizza e gestisci relazioni aziendali**
-   * **Visualizza società associate**—Visualizza tutte le società collegate a un&#39;organizzazione padre in un&#39;unica vista centralizzata
-   * **Monitora stato società** - Tieni traccia delle società attive, in sospeso e inattive all&#39;interno della gerarchia
-   * **Accedi ai dettagli della società**—Passa direttamente alle singole pagine di configurazione della società
+  * **Visualizza società associate**—Visualizza tutte le società collegate a un&#39;organizzazione padre in un&#39;unica vista centralizzata
+  * **Monitora stato società** - Tieni traccia delle società attive, in sospeso e inattive all&#39;interno della gerarchia
+  * **Accedi ai dettagli della società**—Passa direttamente alle singole pagine di configurazione della società
 
 * **Creare e modificare gerarchie**
-   * **Assegna società** - Aggiungi società esistenti a un&#39;organizzazione padre dalla pagina dei dettagli della società
-   * **Creare relazioni padre-figlio**: strutturare le società in modo che riflettano le relazioni commerciali reali
-   * **Riorganizza strutture**—Sposta le aziende tra organizzazioni padre diverse in base alle esigenze aziendali.
+  * **Assegna società** - Aggiungi società esistenti a un&#39;organizzazione padre dalla pagina dei dettagli della società
+  * **Creare relazioni padre-figlio**: strutturare le società in modo che riflettano le relazioni commerciali reali
+  * **Riorganizza strutture**—Sposta le aziende tra organizzazioni padre diverse in base alle esigenze aziendali.
 
 * **Gestione della configurazione in blocco**
-   * **Applica impostazioni tra società**—Aggiorna impostazioni avanzate per più società contemporaneamente utilizzando il controllo [!UICONTROL Actions] nella griglia società
-   * **Standardizzare le configurazioni**: garantire la coerenza dei criteri tra le organizzazioni correlate
-   * **Sovrascrivi singole impostazioni** - Invia le configurazioni della società padre alle società figlio selezionate
+  * **Applica impostazioni tra società**—Aggiorna impostazioni avanzate per più società contemporaneamente utilizzando il controllo [!UICONTROL Actions] nella griglia società
+  * **Standardizzare le configurazioni**: garantire la coerenza dei criteri tra le organizzazioni correlate
+  * **Sovrascrivi singole impostazioni** - Invia le configurazioni della società padre alle società figlio selezionate
 
 * **Azioni amministrative**
-   * **Rimuovi relazioni aziendali**. Utilizzare l&#39;azione *[!UICONTROL Unassign from parent]* per sciogliere le relazioni organizzative
-   * **Gestisci l&#39;accesso alla società**: controlla quali amministratori possono visualizzare e modificare le relazioni aziendali
-   * **Monitorare le modifiche alla gerarchia**—Tenere traccia delle modifiche alle strutture organizzative
+  * **Rimuovi relazioni aziendali**. Utilizzare l&#39;azione *[!UICONTROL Unassign from parent]* per sciogliere le relazioni organizzative
+  * **Gestisci l&#39;accesso alla società**: controlla quali amministratori possono visualizzare e modificare le relazioni aziendali
+  * **Monitorare le modifiche alla gerarchia**—Tenere traccia delle modifiche alle strutture organizzative
 
 ## Best practice
 

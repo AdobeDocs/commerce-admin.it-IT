@@ -4,36 +4,52 @@ description: Scopri come creare un account aziendale nell’amministratore di Ad
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-TQID: https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw
+TQID: 'https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2455
+source-wordcount: '2455'
 ht-degree: 0%
-
 ---
-
 # Creare un account società
 
 Gli account aziendali consentono alle aziende B2B di gestire i loro acquisti, gli utenti e il credito in Adobe Commerce. Questo argomento descrive l’intero processo di creazione, configurazione e attivazione degli account aziendali.
@@ -52,19 +68,19 @@ Tutti gli account aziendali richiedono l’approvazione dell’amministratore pr
 Prima di creare gli account aziendali, verifica che siano soddisfatti i seguenti requisiti:
 
 * **Requisiti di sistema:**
-   * [Le funzionalità B2B sono abilitate](enable-basic-features.md) nell&#39;installazione di Adobe Commerce
-   * La registrazione della società è abilitata per la creazione della vetrina
-   * Le notifiche e-mail sono configurate per i flussi di lavoro di approvazione
+  * [Le funzionalità B2B sono abilitate](enable-basic-features.md) nell&#39;installazione di Adobe Commerce
+  * La registrazione della società è abilitata per la creazione della vetrina
+  * Le notifiche e-mail sono configurate per i flussi di lavoro di approvazione
 
 * **Requisiti aziendali:**
-   * I processi e i criteri di approvazione sono stabiliti
-   * I rappresentanti commerciali sono assegnati (per gli account creati dall’amministratore)
-   * I criteri di credito sono definiti (se si utilizza il credito aziendale)
-   * Gruppi di clienti e cataloghi condivisi configurati
+  * I processi e i criteri di approvazione sono stabiliti
+  * I rappresentanti commerciali sono assegnati (per gli account creati dall’amministratore)
+  * I criteri di credito sono definiti (se si utilizza il credito aziendale)
+  * Gruppi di clienti e cataloghi condivisi configurati
 
 * **Accesso amministrativo:**
-   * Autorizzazioni appropriate per la gestione aziendale
-   * Accedere alle sezioni di amministrazione di clienti e società
+  * Autorizzazioni appropriate per la gestione aziendale
+  * Accedere alle sezioni di amministrazione di clienti e società
 
 Il sistema assegna il ruolo di [amministratore società](account-company-admin.md) alla persona che imposta un account società dalla vetrina. Dopo che l’amministratore dello store ha approvato la richiesta di creazione dell’account aziendale nell’amministratore, può impostare una password per l’account e accedere a quest’ultimo.
 
@@ -93,14 +109,14 @@ Il sistema assegna il ruolo di [amministratore società](account-company-admin.m
 
    * Compila i campi obbligatori:
 
-      * **[!UICONTROL Company Name]**
-      * **[!UICONTROL Company Email]**
+     * **[!UICONTROL Company Name]**
+     * **[!UICONTROL Company Email]**
 
    * Compila i campi rimanenti, come applicabile:
 
-      * **[!UICONTROL Company Legal Name]**
-      * **[!UICONTROL VAT/TAX ID]**
-      * **[!UICONTROL Reseller ID]**
+     * **[!UICONTROL Company Legal Name]**
+     * **[!UICONTROL VAT/TAX ID]**
+     * **[!UICONTROL Reseller ID]**
 
    ![Informazioni sulla società](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
@@ -125,9 +141,9 @@ Il sistema assegna il ruolo di [amministratore società](account-company-admin.m
 
    * Facoltativamente, completa i campi seguenti:
 
-      * **[!UICONTROL Job Title]**
-      * **[!UICONTROL Work Phone Number]**
-      * **[!UICONTROL Gender]**
+     * **[!UICONTROL Job Title]**
+     * **[!UICONTROL Work Phone Number]**
+     * **[!UICONTROL Gender]**
 
    ![Amministratore società](./assets/company-administrator-account-storefront.png)
 
@@ -160,8 +176,8 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 
    * Completa i campi obbligatori seguenti:
 
-      * **[!UICONTROL Company Name]**
-      * **[!UICONTROL Company Email]**
+     * **[!UICONTROL Company Name]**
+     * **[!UICONTROL Company Email]**
 
    * Se non sei pronto per la pubblicazione dell&#39;account, imposta **[!UICONTROL Status]** su `Pending Approval`. (Imposta su `Active` per impostazione predefinita.)
 
@@ -171,9 +187,9 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 
    * Compila i campi seguenti, a seconda dei casi:
 
-      * **[!UICONTROL Company Legal Name]**
-      * **[!UICONTROL VAT/TAX ID]**
-      * **[!UICONTROL Reseller ID]**
+     * **[!UICONTROL Company Legal Name]**
+     * **[!UICONTROL VAT/TAX ID]**
+     * **[!UICONTROL Reseller ID]**
 
    * Per **[!UICONTROL Comment]**, immettere le informazioni aggiuntive sul cliente che potrebbero essere necessarie.
 
@@ -195,23 +211,23 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 
    * Completa i campi obbligatori seguenti:
 
-      * **[!UICONTROL Email]**
-      * **[!UICONTROL First Name]**
-      * **[!UICONTROL Last Name]**
+     * **[!UICONTROL Email]**
+     * **[!UICONTROL First Name]**
+     * **[!UICONTROL Last Name]**
 
    * Completa le seguenti parti facoltative del nome, che possono essere applicabili ad alcuni nomi di clienti più di altri e possono essere utilizzate a tua discrezione:
 
-      * **[!UICONTROL Prefix]**
-      * **[!UICONTROL Middle Name/Initial]**
-      * **[!UICONTROL Suffix]**
+     * **[!UICONTROL Prefix]**
+     * **[!UICONTROL Middle Name/Initial]**
+     * **[!UICONTROL Suffix]**
 
    * Se le informazioni sono disponibili, compila i campi rimanenti per descrivere l’amministratore della società:
 
-      * **[!UICONTROL Website]**
-      * **[!UICONTROL Job Title]**
-      * **[!UICONTROL Work Phone Number]**
-      * **[!UICONTROL Gender]**
-      * **[!UICONTROL Send Welcome Email From]**
+     * **[!UICONTROL Website]**
+     * **[!UICONTROL Job Title]**
+     * **[!UICONTROL Work Phone Number]**
+     * **[!UICONTROL Gender]**
+     * **[!UICONTROL Send Welcome Email From]**
 
    ![Amministratore società](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 

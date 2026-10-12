@@ -1,29 +1,41 @@
 ---
-title: Installa, aggiorna e rimuovi [!DNL Inventory Management]
-description: Installa, abilita, disabilita, rimuovi o aggiorna il metapackage  [!DNL Inventory Management] .
+title: Installare, aggiornare e rimuovere [!DNL Inventory Management]
+description: Installare, abilitare, disabilitare, rimuovere o aggiornare il metapackage [!DNL Inventory Management].
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
+TQID: 'https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 681
+source-wordcount: '682'
 ht-degree: 0%
-
 ---
-
 # Installare, aggiornare e rimuovere [!DNL Inventory Management]
 
 I moduli [!DNL Inventory Management] forniscono tutte le funzionalità e le opzioni di inventario per i commercianti di origini singole e multiple per gestire le quantità e le scorte dei prodotti per i canali di vendita. Queste funzioni sono disponibili nelle versioni 2.4.x di Adobe Commerce e Magento Open Source.

@@ -3,27 +3,37 @@ title: Ambito sito, archivio e visualizzazione
 description: Scopri la gerarchia di siti web, store e visualizzazioni dello store che puoi utilizzare per fornire esperienze di acquisto ai clienti.
 exl-id: 80fc1b73-c869-4f1c-b1a1-d61823b91d83
 feature: System, Site Management
-TQID: https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM
+TQID: 'https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '688'
 ht-degree: 0%
-
 ---
-
 # Ambito sito, archivio e visualizzazione
 
 Ogni installazione di Adobe Commerce e Magento Open Source dispone di una [gerarchia](../stores-purchase/stores.md) di siti Web, store e visualizzazioni dello store. Il termine _ambito_ determina la posizione nella gerarchia in cui viene applicata un&#39;entità di database, ad esempio un prodotto, un attributo o una categoria, un elemento di contenuto o un&#39;impostazione di configurazione. I siti Web, gli archivi e le visualizzazioni dello store hanno relazioni uno-a-molti padre/figlio. Una singola installazione può avere più siti Web e ogni sito Web può avere più store e visualizzazioni dello store.

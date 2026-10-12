@@ -3,29 +3,39 @@ title: Prezzi a livelli
 description: Scopri come utilizzare la determinazione prezzi a livello per offrire uno sconto sulla quantità da un elenco di prodotti o da una pagina di prodotti.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+TQID: 'https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 892
+source-wordcount: '892'
 ht-degree: 1%
-
 ---
-
 # Prezzi a livelli
 
 I prezzi a livelli consentono di offrire uno sconto sulla quantità da un elenco di prodotti o da una pagina di prodotti nel negozio. Lo sconto può essere applicato a una visualizzazione negozio specifica, a un gruppo di clienti o a un catalogo condiviso.
@@ -108,13 +118,13 @@ Per abilitare questa funzionalità:
 
 Per illustrare il funzionamento della determinazione dei prezzi per livello con le regole dei prezzi di catalogo durante l&#39;acquisto di un singolo prodotto, considerare l&#39;esempio seguente:
 
-- Il prezzo base standard di un prodotto è di 100 USD.
+- Il prezzo base standard di un prodotto è 100 USD.
 - È stato definito un prezzo di livello per il gruppo di clienti `Wholesale` con una quantità di `1` e un prezzo fisso di 90 USD.
 - Una regola del prezzo di catalogo fornisce uno sconto del 10% per il gruppo di clienti `Wholesale`.
 
 Quando è abilitata la determinazione prezzi per il livello per le regole dei prezzi di catalogo, il sistema utilizza il flusso seguente per calcolare il prezzo finale:
 
-1. Prima che il cliente effettui l’accesso, il prezzo del prodotto viene visualizzato come 100 USD (il prezzo base standard).
+1. Prima che il cliente effettui l’accesso, il prezzo del prodotto viene visualizzato come 100 USD (prezzo base standard).
 
 1. Dopo che il cliente ha effettuato l&#39;accesso come membro del gruppo `Wholesale`, il prezzo del prodotto viene adeguato a 90 USD (il prezzo di livello per il gruppo `Wholesale`).
 

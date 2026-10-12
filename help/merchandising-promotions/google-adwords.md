@@ -3,32 +3,47 @@ title: Google AdWords
 description: Scopri come configurare il tuo store di Commerce per il tracciamento delle conversioni di Google AdWords per misurare i clic sugli annunci che portano a una vendita o ad altre azioni di valore.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs
+TQID: 'https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: '659'
 ht-degree: 0%
-
 ---
-
 # Google AdWords
 
 [Google AdWords](https://www.google.com/adwords/) è un servizio che è possibile utilizzare per inserire annunci nei risultati di Google Search e nelle pagine delle aziende della Google Display Network. Il dashboard di AdWords include strumenti per gestire le campagne, tracciare le risposte e misurare i risultati.
@@ -53,8 +68,8 @@ Il tracciamento delle conversioni mostra il numero di clic dell’annuncio che h
 
    - Fare clic su **[!UICONTROL Value]** e, se applicabile, assegnare un valore alla conversione. Ad esempio:
 
-      - Se si effettuano $5 per ogni vendita, scegliere `Each time it happens` e assegnare un valore di `$5`.
-      - Se il valore di ciascuna vendita varia, lasciare vuoto il valore.
+     - Se si effettuano $5 per ogni vendita, scegliere `Each time it happens` e assegnare un valore di `$5`.
+     - Se il valore di ciascuna vendita varia, lasciare vuoto il valore.
 
      Per completare, fare clic su **[!UICONTROL Done]**.
 
@@ -105,9 +120,9 @@ Il tracciamento delle conversioni mostra il numero di clic dell’annuncio che h
 
    - Immettere **[!UICONTROL Conversion Format]** da utilizzare per la notifica di Google Sites Stat nella pagina di conversione.
 
-      - `1` - Visualizza una notifica su una riga con un collegamento a ulteriori informazioni sul tracciamento di Google.
-      - `2` - Visualizza una notifica su due righe con un collegamento a ulteriori informazioni sul tracciamento di Google.
-      - `3` - Nessuna notifica del cliente.
+     - `1` - Visualizza una notifica su una riga con un collegamento a ulteriori informazioni sul tracciamento di Google.
+     - `2` - Visualizza una notifica su due righe con un collegamento a ulteriori informazioni sul tracciamento di Google.
+     - `3` - Nessuna notifica del cliente.
 
    - Immettere il [codice esadecimale](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} per **[!UICONTROL Conversion Color]** che si desidera utilizzare per l&#39;etichetta di notifica Statistiche sito Google.
 

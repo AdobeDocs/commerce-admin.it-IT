@@ -3,30 +3,46 @@ title: Negoziazione di un preventivo
 description: Scopri i flussi di lavoro per la negoziazione dei preventivi e come lavorare con gli acquirenti per gli acquisti.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+TQID: 'https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2249
+source-wordcount: '2277'
 ht-degree: 0%
-
 ---
-
 # Negoziazione di un preventivo
 
 Se nella configurazione sono abilitati [preventivi B2B](configure-quotes.md), la negoziazione dei prezzi può essere avviata da un acquirente autorizzato da una società o da un rappresentante commerciale.
@@ -93,11 +109,11 @@ Se necessario, applicare le modifiche all&#39;elemento riga nella sezione _[!UIC
   L&#39;opzione [!UICONTROL Configure] è disponibile solo su un elemento di riga per un prodotto configurabile
 
 - Nel menu **[!UICONTROL Action]**, selezionare un&#39;azione per aggiornare l&#39;elemento:
-   - **Elemento sconto** per applicare uno sconto come percentuale, importo fisso o prezzo preferito.
-Se necessario, è possibile bloccare l&#39;importo dello sconto per evitare ulteriori sconti. Se lo sconto non è bloccato,
-sia lo sconto sulla voce che lo sconto a livello di preventivo vengono applicati al prezzo del prodotto.
-   - **Lascia una nota all&#39;acquirente** per fornirgli ulteriori informazioni su un oggetto
-   - **Rimuovi** per rimuovere un elemento dal preventivo.
+  - **Elemento sconto** per applicare uno sconto come percentuale, importo fisso o prezzo preferito.
+    Se necessario, è possibile bloccare l&#39;importo dello sconto per evitare ulteriori sconti. Se lo sconto non è bloccato,
+    sia lo sconto sulla voce che lo sconto a livello di preventivo vengono applicati al prezzo del prodotto.
+  - **Lascia una nota all&#39;acquirente** per fornirgli ulteriori informazioni su un oggetto
+  - **Rimuovi** per rimuovere un elemento dal preventivo.
 
 ### Applica modifiche e aggiorna
 
@@ -139,9 +155,9 @@ sia lo sconto sulla voce che lo sconto a livello di preventivo vengono applicati
 
    - In _[!UICONTROL Quote Totals]_&#x200B;nella sezione&#x200B;_[!UICONTROL Negotiated Price]_ scegliere uno dei tipi di sconto seguenti:
 
-      - `Percentage Discount`: uno sconto percentuale riduce il prezzo originale di una percentuale specifica.
-      - `Amount Discount`: uno sconto di importo applica una riduzione del prezzo fisso.
-      - `Proposed Price`: uno sconto prezzo proposto imposta il prezzo finale su un importo specifico, indipendentemente dal prezzo originale.
+     - `Percentage Discount`: uno sconto percentuale riduce il prezzo originale di una percentuale specifica.
+     - `Amount Discount`: uno sconto di importo applica una riduzione del prezzo fisso.
+     - `Proposed Price`: uno sconto prezzo proposto imposta il prezzo finale su un importo specifico, indipendentemente dal prezzo originale.
 
    - Inserire l&#39;importo come percentuale o prezzo fisso.
 
@@ -149,9 +165,9 @@ sia lo sconto sulla voce che lo sconto a livello di preventivo vengono applicati
 
    - È possibile applicare sconti a ogni voce o preventivo nel suo insieme:
 
-      - **Sconti articoli riga**: gli sconti articoli riga vengono applicati ai singoli articoli nel carrello. Lo sconto può essere un `percentage`, un `amount` specifico o un `proposed price`.
-      - **Sconti a livello di carrello**: gli sconti a livello di carrello vengono applicati all&#39;intero carrello. Lo sconto può essere un `percentage` o un `amount` specifico e viene applicato al valore totale del carrello.
-      - **Combinazione di sconti per carrello ed elemento riga**: in alcuni casi è possibile applicare sconti sia a livello di carrello che a livello di elemento riga. Lo sconto riga viene applicato per primo, seguito dallo sconto a livello di carrello sul totale rimanente.
+     - **Sconti articoli riga**: gli sconti articoli riga vengono applicati ai singoli articoli nel carrello. Lo sconto può essere un `percentage`, un `amount` specifico o un `proposed price`.
+     - **Sconti a livello di carrello**: gli sconti a livello di carrello vengono applicati all&#39;intero carrello. Lo sconto può essere un `percentage` o un `amount` specifico e viene applicato al valore totale del carrello.
+     - **Combinazione di sconti per carrello ed elemento riga**: in alcuni casi è possibile applicare sconti sia a livello di carrello che a livello di elemento riga. Lo sconto riga viene applicato per primo, seguito dallo sconto a livello di carrello sul totale rimanente.
 
 1. Invia o salva il preventivo:
 
