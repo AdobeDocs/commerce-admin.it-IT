@@ -4,30 +4,46 @@ description: Scopri come creare account utente amministratore e assegnare ruoli 
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-TQID: https://experienceleague.adobe.com/DLTxCkTvqUobFaP-0ccPFIrqbaObTto08EPLn1li3TA
+TQID: 'https://experienceleague.adobe.com/DLTxCkTvqUobFaP-0ccPFIrqbaObTto08EPLn1li3TA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 0%
-
 ---
-
 # Gestire gli account utente amministratore
 
 Quando il tuo archivio viene installato per la prima volta, viene creato un account Amministratore predefinito con credenziali di accesso che ti forniscono accesso amministrativo completo. Come best practice, è consigliabile creare un altro account utente con accesso completo come amministratore. In questo modo, puoi utilizzare un account per le attività amministrative quotidiane e riservare l’altro come account &quot;Super Admin&quot;. Può essere utile se si dimenticano le credenziali normali o se queste diventano in qualche modo inutilizzabili.
@@ -48,9 +64,9 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New User]**.
 
-   Per modificare un utente esistente, fare clic sul nome di un utente nella griglia. È possibile modificare le sezioni _[!UICONTROL User Info]_&#x200B;e_[!UICONTROL User Role]_ in base alle esigenze.
+   Per modificare un utente esistente, fare clic sul nome di un utente nella griglia. È possibile modificare le sezioni _[!UICONTROL User Info]_e_[!UICONTROL User Role]_ in base alle esigenze.
 
-1. Nella sezione _[!UICONTROL Account Information]_&#x200B;eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Account Information]_eseguire le operazioni seguenti:
 
    ![Informazioni account utente](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
@@ -82,21 +98,21 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
    La definizione di una data di scadenza è utile quando un utente o un ruolo è temporaneo. Dopo la data di scadenza, lo stato dell&#39;account utente cambia in `Inactive` e può essere aggiornato, se necessario.
 
-1. In _[!UICONTROL Current User Identity Verification]_&#x200B;immettere la password dell&#39;account utente.
+1. In _[!UICONTROL Current User Identity Verification]_immettere la password dell&#39;account utente.
 
 >[!IMPORTANT]
 >
->Dopo aver completato la sezione _[!UICONTROL Account Information]_, puoi salvare l&#39;utente. Il nuovo utente viene visualizzato nella griglia&#x200B;_[!UICONTROL Users]_, ma il nome utente non può accedere finché non viene assegnato un ruolo.
+>Dopo aver completato la sezione _[!UICONTROL Account Information]_, puoi salvare l&#39;utente. Il nuovo utente viene visualizzato nella griglia_[!UICONTROL Users]_, ma il nome utente non può accedere finché non viene assegnato un ruolo.
 
 ## Assegna un ruolo utente
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL User Role]**.
 
-   Nella griglia sono elencati tutti i ruoli utente esistenti. Per un nuovo archivio, _[!UICONTROL Administrators]_&#x200B;è l&#39;unico ruolo disponibile.
+   Nella griglia sono elencati tutti i ruoli utente esistenti. Per un nuovo archivio, _[!UICONTROL Administrators]_è l&#39;unico ruolo disponibile.
 
    ![Amministratore - Aggiungi nuovo ruolo utente](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. Nella colonna _[!UICONTROL Assigned]_&#x200B;selezionare un ruolo utente.
+1. Nella colonna _[!UICONTROL Assigned]_selezionare un ruolo utente.
 
    Puoi [visualizzare ruoli utente esistenti o definire ruoli utente aggiuntivi](permissions-user-roles.md). Dopo aver definito un ruolo, è necessario modificare l&#39;account utente per assegnare il nuovo ruolo.
 
@@ -122,7 +138,7 @@ Per gli utenti o i ruoli temporanei, puoi anche impostare una data di scadenza p
 
 1. Quando richiesto, immettere la password per confermare l&#39;identità e fare di nuovo clic su **[!UICONTROL Save User]**.
 
-   La griglia _[!UICONTROL Users]_&#x200B;si apre ed elenca tutti gli utenti.
+   La griglia _[!UICONTROL Users]_si apre ed elenca tutti gli utenti.
 
 ## Eliminare un utente amministratore
 

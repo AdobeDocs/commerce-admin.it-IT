@@ -3,26 +3,35 @@ title: Rubrica cliente
 description: La rubrica contiene gli indirizzi predefiniti di fatturazione e spedizione del cliente ed eventuali indirizzi aggiuntivi utilizzati di frequente.
 exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/LHQDgcdHs3-T0d-0yGdkrmP0l7z-noSm6sbIPuseBTY
+TQID: 'https://experienceleague.adobe.com/LHQDgcdHs3-T0d-0yGdkrmP0l7z-noSm6sbIPuseBTY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 0%
-
 ---
-
 # Rubrica cliente
 
 I clienti che mantengono aggiornate le rubriche possono accelerare il processo di pagamento. La rubrica contiene gli indirizzi predefiniti di fatturazione e spedizione del cliente ed eventuali indirizzi aggiuntivi utilizzati di frequente. Dalla griglia è possibile accedere e gestire facilmente altre voci di indirizzo. Ogni rubrica del cliente può gestire oltre 3.000 voci senza influire sulle prestazioni.
@@ -33,7 +42,7 @@ I clienti che mantengono aggiornate le rubriche possono accelerare il processo d
 
 1. Nella barra di navigazione a sinistra dell&#39;account cliente, il cliente sceglie **[!UICONTROL Address Book]**.
 
-1. Nella pagina _[!UICONTROL Address Book]_&#x200B;in_ Voci di indirizzo aggiuntive _, fa clic su **[!UICONTROL Add New Address]**.
+1. Nella pagina _[!UICONTROL Address Book]_in_ Voci di indirizzo aggiuntive _, fa clic su **[!UICONTROL Add New Address]**.
 
    ![Aggiungi nuovo indirizzo](assets/add-new-address.png){width="600" zoomable="yes"}
 

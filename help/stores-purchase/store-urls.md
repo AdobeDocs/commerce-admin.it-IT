@@ -3,32 +3,46 @@ title: URL store
 description: Scopri gli URL del negozio e come configurare l’URL di base e i codici del negozio.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-TQID: https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: 'https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1611
+source-wordcount: '1611'
 ht-degree: 1%
-
 ---
-
 # URL store
 
 Ogni sito web in un’installazione di Adobe Commerce o Magento Open Source ha un URL di base assegnato alla vetrina e un altro URL assegnato all’amministratore. Adobe utilizza le variabili per definire collegamenti interni in relazione all’URL di base, il che consente di spostare un intero archivio da una posizione all’altra senza aggiornare i collegamenti. Gli URL di base standard iniziano con `http` e gli URL di base sicuri iniziano con `https`.
@@ -130,7 +144,7 @@ Se il dominio dispone di un certificato di sicurezza valido, puoi configurare gl
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In _[!UICONTROL General]_&#x200B;nel pannello a sinistra, scegli **[!UICONTROL Web]**.
+1. In _[!UICONTROL General]_nel pannello a sinistra, scegli **[!UICONTROL Web]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL URL Options]**.
 
@@ -156,7 +170,7 @@ Se dopo aver seguito le istruzioni di configurazione, alcune pagine continuano a
 
 ## Utilizza un URL amministratore personalizzato
 
-Come [best practice per la sicurezza](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), Adobe consiglia di utilizzare un URL amministratore univoco invece del _admin_ predefinito o un termine comune come _backend_. Anche se non protegge direttamente il sito da un determinato attore non valido, può ridurre l&#39;esposizione a script che tentano di ottenere l&#39;accesso non autorizzato.
+Come [best practice per la sicurezza](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), Adobe consiglia di utilizzare un URL amministratore univoco invece del _admin_ predefinito o un termine comune come _backend_. Anche se non protegge direttamente il sito da un determinato attore non valido, può ridurre l&#39;esposizione a script che tentano di ottenere l&#39;accesso non autorizzato.
 
 >[!NOTE]
 >
@@ -172,7 +186,7 @@ Anche se è possibile modificare l’URL e il percorso dell’amministratore in 
 
 >[!NOTE]
 >
->Per precauzione, non provare a modificare l’URL amministratore personalmente, a meno che non si sappia come modificare i file di configurazione sul server. Per i progetti Adobe Commerce distribuiti nell&#39;infrastruttura cloud, modifica l&#39;URL amministratore seguendo le [istruzioni](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
+>Per precauzione, non provare a modificare l’URL amministratore personalmente, a meno che non si sappia come modificare i file di configurazione sul server. Per i progetti Adobe Commerce distribuiti nell&#39;infrastruttura cloud, modifica l&#39;URL amministratore seguendo le [istruzioni](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
 
 ### Metodo 1: Cambiare da Amministratore
 
@@ -218,7 +232,7 @@ Anche se è possibile modificare l’URL e il percorso dell’amministratore in 
 
    >[!TIP]
    >
-   >Per Adobe Commerce sull&#39;infrastruttura cloud, puoi impostare un percorso amministratore personalizzato utilizzando la variabile `ADMIN_URL` nell&#39;interfaccia utente di Cloud. Consulta l&#39;[argomento Variabili amministratore](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+   >Per Adobe Commerce sull&#39;infrastruttura cloud, puoi impostare un percorso amministratore personalizzato utilizzando la variabile `ADMIN_URL` nell&#39;interfaccia utente di Cloud. Consulta l&#39;[argomento Variabili amministratore](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
    - **Percorso amministratore predefinito**
 

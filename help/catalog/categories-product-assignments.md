@@ -3,32 +3,41 @@ title: Assegnazioni prodotti categoria
 description: Informazioni sull'utilizzo delle impostazioni [!UICONTROL Products in Category] per controllare quali prodotti sono attualmente assegnati alla categoria.
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-TQID: https://experienceleague.adobe.com/jP75K4-JqaEJUbu733h6crHkX80w8idR9KHbVQF12ag
+TQID: 'https://experienceleague.adobe.com/jP75K4-JqaEJUbu733h6crHkX80w8idR9KHbVQF12ag'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: '791'
 ht-degree: 0%
-
 ---
-
 # Assegnazioni prodotti categoria
 
-Per una categoria, utilizzare la sezione _[!UICONTROL Products in Category]_&#x200B;per esaminare i prodotti attualmente assegnati alla categoria. I filtri di ricerca nella parte superiore di ogni colonna vengono utilizzati per aggiungere e rimuovere prodotti dalla categoria. Puoi anche utilizzare [regole di categoria](../merchandising-promotions/category-product-rules.md) (![solo Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce) per modificare dinamicamente la selezione del prodotto quando viene soddisfatta una serie di condizioni. Per ulteriori informazioni, vedere [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
+Per una categoria, utilizzare la sezione _[!UICONTROL Products in Category]_per esaminare i prodotti attualmente assegnati alla categoria. I filtri di ricerca nella parte superiore di ogni colonna vengono utilizzati per aggiungere e rimuovere prodotti dalla categoria. Puoi anche utilizzare [regole di categoria](../merchandising-promotions/category-product-rules.md) (![solo Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce) per modificare dinamicamente la selezione del prodotto quando viene soddisfatta una serie di condizioni. Per ulteriori informazioni, vedere [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
@@ -38,7 +47,7 @@ Per una categoria, utilizzare la sezione _[!UICONTROL Products in Category]_&#x2
 
 >[!NOTE]
 >
->La colonna _Stock_ visualizza la quantità di prodotto disponibile solo per _&#x200B;**ambito categoria selezionato**&#x200B;_. Quando per i prodotti vengono gestite più scorte, è necessario passare dagli ambiti corrispondenti per visualizzare altri valori di colonna _Stock_ nella griglia _Prodotti categoria_.
+>La colonna _Stock_ visualizza la quantità di prodotto disponibile solo per _**ambito categoria selezionato**_. Quando per i prodotti vengono gestite più scorte, è necessario passare dagli ambiti corrispondenti per visualizzare altri valori di colonna _Stock_ nella griglia _Prodotti categoria_.
 
 ## Applicare una regola di categoria
 
@@ -92,7 +101,7 @@ Per una categoria, utilizzare la sezione _[!UICONTROL Products in Category]_&#x2
 
 | Opzione | Descrizione |
 |--- |--- |
-| [!UICONTROL Attribute] | Determina l&#39;attributo utilizzato come base della condizione. Opzioni: <br/>**[!UICONTROL Clone Category ID(s)]**- Clona dinamicamente i prodotti, senza ordinamento e ordine, da più categorie in base all&#39;ID categoria.<br/>**[!UICONTROL Color]** - Include i prodotti in base al colore. <br/>**[!UICONTROL Date Created (days ago)]**- Include i prodotti in base al numero di giorni dall&#39;aggiunta dei prodotti al catalogo.<br/>**[!UICONTROL Date Modified (days ago)]** - Include i prodotti in base al numero di giorni dall&#39;ultima modifica dei prodotti. <br/>**[!UICONTROL Name]**- Include prodotti basati sul nome del prodotto.<br/>**[!UICONTROL Price]** - Include i prodotti in base al prezzo. <br/>**[!UICONTROL Quantity]**- Include i prodotti in base alla quantità in magazzino.<br/>**&#x200B; SKU &#x200B;**- Include prodotti basati su SKU. |
+| [!UICONTROL Attribute] | Determina l&#39;attributo utilizzato come base della condizione. Opzioni: <br/>**[!UICONTROL Clone Category ID(s)]**- Clona dinamicamente i prodotti, senza ordinamento e ordine, da più categorie in base all&#39;ID categoria.<br/>**[!UICONTROL Color]** - Include i prodotti in base al colore. <br/>**[!UICONTROL Date Created (days ago)]**- Include i prodotti in base al numero di giorni dall&#39;aggiunta dei prodotti al catalogo.<br/>**[!UICONTROL Date Modified (days ago)]** - Include i prodotti in base al numero di giorni dall&#39;ultima modifica dei prodotti. <br/>**[!UICONTROL Name]**- Include prodotti basati sul nome del prodotto.<br/>**[!UICONTROL Price]** - Include i prodotti in base al prezzo. <br/>**[!UICONTROL Quantity]**- Include i prodotti in base alla quantità in magazzino.<br/>** SKU **- Include prodotti basati su SKU. |
 | [!UICONTROL Operator] | Specifica l&#39;operatore applicato al valore dell&#39;attributo per soddisfare la condizione. A meno che non sia specificato un operatore, viene utilizzato `Equal` come valore predefinito. Opzioni: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Specifica il valore che l&#39;attributo deve soddisfare la condizione. |
 | [!UICONTROL Logic] | Utilizzato per definire più condizioni e viene visualizzato solo quando viene aggiunta un’altra condizione. Opzioni: `OR` / `AND` |
@@ -114,7 +123,7 @@ Per una categoria, utilizzare la sezione _[!UICONTROL Products in Category]_&#x2
 |----------|--------------|
 | ![Visualizza come elenco](../assets/icon-view-list.png) | Visualizza come elenco |
 | ![Visualizza come sezioni](../assets/icon-view-tiles.png) | Visualizza come riquadri |
-| ![Attiva/Disattiva &#x200B;](../assets/toggle-no.png) | Corrispondenza per regola - No |
+| ![Attiva/Disattiva ](../assets/toggle-no.png) | Corrispondenza per regola - No |
 | ![Attiva/Disattiva Sì](../assets/toggle-yes.png) | Corrispondenza per regola - Sì |
 | ![Sposta controller](../assets/icon-move.png) | Il controllo di trascinamento consente di acquisire un prodotto e spostarlo in un&#39;altra posizione nella pagina corrente della griglia. Per ulteriori informazioni, vedere [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md). |
 | ![Controller posizione](../assets/control-position.png) | Determina la posizione del prodotto nell&#39;elenco. |

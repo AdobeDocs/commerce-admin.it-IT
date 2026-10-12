@@ -3,43 +3,67 @@ title: Estensioni da Adobe
 description: Rivedi le informazioni sulle estensioni per Adobe Commerce e Magento Open Source rilasciate da Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-TQID: https://experienceleague.adobe.com/-QGqm0VMRlCNuKqHGdGVKjs8ZgNcjYZjFaeIFsOLWCA
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: 'https://experienceleague.adobe.com/-QGqm0VMRlCNuKqHGdGVKjs8ZgNcjYZjFaeIFsOLWCA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Content reuse
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1430
+source-wordcount: '1430'
 ht-degree: 0%
-
 ---
-
 # Estensioni da Adobe
 
 Questo argomento fornisce informazioni sulle estensioni PHP per Adobe Commerce e Magento Open Source rilasciate da Adobe.
@@ -145,7 +169,7 @@ Per il provisioning, contatta il rappresentante del tuo account Adobe. Per infor
 
 Live Search è una funzione esclusiva di Adobe Commerce che fornisce una soluzione di ricerca basata sull’intelligenza artificiale con funzionalità di ricerca in tempo reale basata sulla tipologia di utente. Offre risultati rapidi e significativi grazie alle miniature dei prodotti mentre gli acquirenti digitano, insieme a faceting intelligente che regola automaticamente i filtri in base al comportamento di acquisto. La soluzione include funzionalità di merchandising per il potenziamento e la sottrazione dei prodotti, la gestione dei sinonimi e l’analisi delle ricerche. Incluso in Adobe Commerce senza costi aggiuntivi, [!DNL Live Search] sostituisce la funzionalità di ricerca predefinita con un&#39;esperienza di ricerca più sofisticata basata su SaaS. Per iniziare, è necessaria una configurazione minima.
 
-Per informazioni dettagliate sull&#39;implementazione e requisiti tecnici, consulta la [Guida utente di Live Search](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview).
+Per informazioni dettagliate sull&#39;implementazione e requisiti tecnici, consulta la [Guida utente di Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
 ### [!DNL Product Recommendations]
 
@@ -153,7 +177,7 @@ Per informazioni dettagliate sull&#39;implementazione e requisiti tecnici, consu
 
 [!DNL Product Recommendations] è una funzionalità esclusiva di Adobe Commerce basata sulla tecnologia Adobe AI che offre suggerimenti di prodotto personalizzati in tutto il percorso di acquisto del cliente. La soluzione analizza in tempo reale il comportamento degli acquirenti e le relazioni tra i prodotti per generare automaticamente consigli pertinenti, senza richiedere regole manuali per il merchandising. Questo approccio basato sull’intelligenza artificiale consente di aumentare i tassi di conversione e il potenziale di profitto, creando al contempo esperienze di rilevamento dei prodotti più coinvolgenti per gli acquirenti.
 
-Per i dettagli sull&#39;implementazione e le best practice, consulta la [[!DNL Product Recommendations] Guida utente](https://experienceleague.adobe.com/it/docs/commerce/product-recommendations/overview).
+Per i dettagli sull&#39;implementazione e le best practice, consulta la [[!DNL Product Recommendations] Guida utente](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview).
 
 ### [!DNL Catalog Service]
 
@@ -161,7 +185,7 @@ Per i dettagli sull&#39;implementazione e le best practice, consulta la [[!DNL P
 
 [!DNL Catalog Service] è una soluzione ad alte prestazioni per Adobe Commerce e Magento Open Source che fornisce accesso ottimizzato ai dati del catalogo tramite endpoint GraphQL. Gestisce un database separato sincronizzato per i dettagli dei prodotti e le informazioni correlate, evitando la comunicazione diretta tra le applicazioni per velocizzare i tempi di caricamento delle pagine. Il servizio è particolarmente utile per le pagine di dettaglio dei prodotti, gli elenchi di categorie e le pagine dei risultati di ricerca, rendendolo ideale sia per le implementazioni commerciali tradizionali che headless.
 
-Per istruzioni di installazione e dettagli tecnici, vedere la [[!DNL Catalog Service] Guida utente](https://experienceleague.adobe.com/it/docs/commerce/catalog-service/guide-overview).
+Per istruzioni di installazione e dettagli tecnici, vedere la [[!DNL Catalog Service] Guida utente](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview).
 
 >[!NOTE]
 >
@@ -173,4 +197,4 @@ Per istruzioni di installazione e dettagli tecnici, vedere la [[!DNL Catalog Ser
 
 [!DNL Payment Services] è una soluzione di pagamento chiavi in mano per i negozi Adobe Commerce e Magento Open Source che offre funzionalità complete di elaborazione dei pagamenti. Il servizio integra funzionalità di gateway di pagamento sicure con protezione antifrode integrata, offrendo al contempo più opzioni di pagamento tra cui carte di credito/debito, PayPal, Venmo (Stati Uniti) e piani PayLater. Offre funzioni di reporting unificato delle transazioni e gestione degli ordini tramite l&#39;interfaccia di amministrazione di Commerce, semplificando agli esercenti il tracciamento dei pagamenti, la gestione del flusso di cassa e la riconciliazione dei dati finanziari in un&#39;unica posizione.
 
-Per i passaggi di configurazione dettagliati e le opzioni di pagamento, consulta la [[!DNL Payment Services] Guida utente](https://experienceleague.adobe.com/it/docs/commerce/payment-services/introduction).
+Per i passaggi di configurazione dettagliati e le opzioni di pagamento, consulta la [[!DNL Payment Services] Guida utente](https://experienceleague.adobe.com/en/docs/commerce/payment-services/introduction).

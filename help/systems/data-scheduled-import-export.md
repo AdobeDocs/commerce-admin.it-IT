@@ -3,29 +3,43 @@ title: Importazione ed esportazione pianificate
 description: Scopri come gestire le operazioni pianificate di importazione ed esportazione dei dati.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+TQID: 'https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2462
+source-wordcount: '2462'
 ht-degree: 0%
-
 ---
-
 # Importazione ed esportazione pianificate
 
 {{ee-feature}}
@@ -49,7 +63,7 @@ Le importazioni e le esportazioni programmate possono essere eseguite su base gi
    >
    >Quando si crea o si aggiorna un&#39;importazione/esportazione pianificata, viene apportata una modifica alla configurazione del sistema. Dopo il salvataggio, assicurati di risolvere l’avviso di annullamento della validità della cache che viene visualizzato nella parte superiore della pagina Amministratore e di svuotare la cache per applicare la pianificazione nuova o aggiornata.
 
-1. [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni processo pianificato, una copia del file viene inserita nella directory `var/log/import_export` sul server locale di Adobe Commerce.
+1. [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni processo pianificato, una copia del file viene inserita nella directory `var/log/import_export` sul server locale di Adobe Commerce.
 
    I dettagli di ciascuna operazione non vengono scritti nel registro. Se si verifica un errore, viene inviata una notifica del processo di importazione/esportazione non riuscito, con una descrizione dell’errore.
 
@@ -64,7 +78,7 @@ Il vantaggio dell&#39;utilizzo dell&#39;importazione pianificata è che è possi
 
 I dettagli di ciascuna operazione di importazione non vengono scritti in un log, ma quando si verifica un errore si riceve un messaggio di posta elettronica di _Importazione non riuscita_ con una descrizione dell&#39;errore. Il risultato dell&#39;ultimo processo di importazione programmato viene visualizzato nella colonna Ultimo risultato della pagina Importazione/esportazione programmata.
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni operazione di importazione, una copia del file di importazione viene inserita nella directory `var/log/import_export` del server in cui è distribuito Adobe Commerce o Magento Open Source. Al nome del file di importazione vengono aggiunti la marca temporale, il marcatore dell’entità importata (prodotti o clienti) e il tipo di operazione (in questo caso, importazione).
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni operazione di importazione, una copia del file di importazione viene inserita nella directory `var/log/import_export` del server in cui è distribuito Adobe Commerce o Magento Open Source. Al nome del file di importazione vengono aggiunti la marca temporale, il marcatore dell’entità importata (prodotti o clienti) e il tipo di operazione (in questo caso, importazione).
 
 Dopo ogni processo di importazione pianificato, viene eseguita automaticamente un&#39;operazione di reindicizzazione. Nel front-end, le modifiche nelle descrizioni e in altre informazioni di testo vengono applicate dopo che i dati aggiornati vengono inviati al database e le modifiche nei prezzi vengono applicate solo dopo l&#39;operazione di reindicizzazione.
 
@@ -82,24 +96,24 @@ Dopo ogni processo di importazione pianificato, viene eseguita automaticamente u
 
    - **[!UICONTROL Entity Type]** — Impostato su uno dei seguenti:
 
-      - `Products`
-      - `Advanced Pricing`
-      - `Customers and Addresses (single file)`
-      - `Customer Addresses`
-      - `Customer Finances`
-      - `Customers Main File`
-      - `Stock Sources`
+     - `Products`
+     - `Advanced Pricing`
+     - `Customers and Addresses (single file)`
+     - `Customer Addresses`
+     - `Customer Finances`
+     - `Customers Main File`
+     - `Stock Sources`
 
    - **[!UICONTROL Import Behavior]** — Impostato su uno dei seguenti:
 
-      - `Add/Update Complex Data` - Aggiunge o aggiorna nuovi dati complessi ai dati complessi esistenti per le voci esistenti nel database. Questo è il valore predefinito.
-      - `Replace` - Scrive sul complesso esistente per le entità esistenti nel database.
-      - `Delete Entities` — Elimina le voci esistenti nel database.
-      - `Custom Action` - Personalizza le entità esistenti nel database.
+     - `Add/Update Complex Data` - Aggiunge o aggiorna nuovi dati complessi ai dati complessi esistenti per le voci esistenti nel database. Questo è il valore predefinito.
+     - `Replace` - Scrive sul complesso esistente per le entità esistenti nel database.
+     - `Delete Entities` — Elimina le voci esistenti nel database.
+     - `Custom Action` - Personalizza le entità esistenti nel database.
 
      >[!NOTE]
      >
-     >Per i tipi di entità _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;e_[!UICONTROL Stock Sources]_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update`, `Replace` e `Delete`. Per i tipi di entità _Finanze cliente_, _File principale clienti_ e _Clienti e indirizzi_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update Complex Data`, `Delete Entities` e `Custom Action`.
+     >Per i tipi di entità _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_e_[!UICONTROL Stock Sources]_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update`, `Replace` e `Delete`. Per i tipi di entità _Finanze cliente_, _File principale clienti_ e _Clienti e indirizzi_, vengono visualizzati i seguenti comportamenti di importazione: `Add/Update Complex Data`, `Delete Entities` e `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Impostare su ora, minuto e secondo per l&#39;inizio pianificato dell&#39;importazione.
 
@@ -219,7 +233,7 @@ Il vantaggio di utilizzare l&#39;esportazione pianificata è che è possibile es
 
 I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in caso di errore si riceve un messaggio e-mail Esportazione non riuscita, contenente la descrizione dell’errore. Il risultato dell&#39;ultimo processo di esportazione viene visualizzato nella colonna Ultimo risultato della pagina Importazione/esportazione pianificata.
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni esportazione, il file di esportazione viene inserito nel percorso definito dall&#39;utente e una copia nella directory `var/log/import_export` sul server in cui è distribuito Adobe Commerce o Magento Open Source. Al nome del file di esportazione vengono aggiunti la marca temporale e l’indicatore dell’entità esportata (prodotti o clienti) e il tipo di operazione (in questo caso, esportazione).
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."} Dopo ogni esportazione, il file di esportazione viene inserito nel percorso definito dall&#39;utente e una copia nella directory `var/log/import_export` sul server in cui è distribuito Adobe Commerce o Magento Open Source. Al nome del file di esportazione vengono aggiunti la marca temporale e l’indicatore dell’entità esportata (prodotti o clienti) e il tipo di operazione (in questo caso, esportazione).
 
 ### Passaggio 1: completare le impostazioni di esportazione
 
@@ -233,22 +247,22 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
 
    - Imposta **[!UICONTROL Entity Type]** su uno dei seguenti:
 
-      - `Advanced Pricing`
-      - `Products`
-      - `Customer Financing`
-      - `Customers Main File`
-      - `Customer Addresses`
-      - `Stock Sources`
+     - `Advanced Pricing`
+     - `Products`
+     - `Customer Financing`
+     - `Customers Main File`
+     - `Customer Addresses`
+     - `Stock Sources`
 
-     La sezione _[!UICONTROL Entity Attributes]_&#x200B;nella parte inferiore della pagina viene aggiornata per riflettere il tipo di entità selezionato.
+     La sezione _[!UICONTROL Entity Attributes]_nella parte inferiore della pagina viene aggiornata per riflettere il tipo di entità selezionato.
 
    - Impostare **[!UICONTROL Start Time]** sull&#39;ora, il minuto e il secondo per cui è pianificato l&#39;inizio dell&#39;esportazione.
 
    - Imposta **[!UICONTROL Frequency]** su uno dei seguenti:
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
 1. Per attivare l&#39;esportazione pianificata, impostare **[!UICONTROL Status]** su `Enabled`.
 
@@ -274,7 +288,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
    - Per **[!UICONTROL Local Server]**, immettere un percorso relativo nell&#39;installazione di Commerce, ad esempio `var/export`. Se il modulo di archiviazione remota è configurato, utilizzare `import_export/export`.
    - Per **[!UICONTROL Remote FTP server]**, immettere l&#39;URL completo e il percorso della cartella di destinazione sul server di destinazione.
 
-1. Se il server _[!UICONTROL Remote FTP]_&#x200B;è selezionato, immettere le credenziali di connessione al server e selezionare altre impostazioni:
+1. Se il server _[!UICONTROL Remote FTP]_è selezionato, immettere le credenziali di connessione al server e selezionare altre impostazioni:
 
    - Per **[!UICONTROL FTP Host[:Port]]**, immettere l&#39;indirizzo host FTP remoto.
    - Per **[!UICONTROL User Name]**, immettere il nome utente utilizzato per accedere al server remoto.
@@ -301,7 +315,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
 
 ### Passaggio 4: scegliere gli attributi di entità
 
-1. Nella sezione _[!UICONTROL Entity Attributes]_&#x200B;scegliere gli attributi che si desidera includere nei dati di esportazione.
+1. Nella sezione _[!UICONTROL Entity Attributes]_scegliere gli attributi che si desidera includere nei dati di esportazione.
 
    - Per filtrare i dati di esportazione in base al valore degli attributi, immettere il valore dell&#39;attributo nella colonna _[!UICONTROL Filter]_.
    - Per escludere prodotti o clienti con determinati valori di attributo, immettere i valori degli attributi che si desidera escludere e selezionare la casella di controllo nella colonna Ignora.
@@ -335,7 +349,7 @@ I dettagli di ciascuna esportazione non vengono scritti in un registro, ma in ca
 | Campo | Descrizione |
 | ----- | ----------- |
 | [!UICONTROL Server Type] | Determina la posizione del file di esportazione. Opzioni:<br>**Server locale** - Posiziona il file di esportazione nello stesso server in cui è distribuito Commerce. Se il modulo di archiviazione remota è abilitato, `Local Server` è passato a `Remote Storage`.<br>**FTP remoto** — inserisce il file di esportazione in un server remoto. Vengono visualizzate opzioni aggiuntive per le credenziali e le impostazioni di trasferimento dei file. |
-| [!UICONTROL File Directory] | Specificare la directory in cui si trova il file di esportazione. Se _[!UICONTROL Server Type]_&#x200B;è impostato su `Local Server`, specificare il percorso relativo al percorso di installazione di Commerce. Ad esempio, `var/export` o `import_export/export` per l&#39;archiviazione remota. |
+| [!UICONTROL File Directory] | Specificare la directory in cui si trova il file di esportazione. Se _[!UICONTROL Server Type]_è impostato su `Local Server`, specificare il percorso relativo al percorso di installazione di Commerce. Ad esempio, `var/export` o `import_export/export` per l&#39;archiviazione remota. |
 
 {style="table-layout:auto"}
 

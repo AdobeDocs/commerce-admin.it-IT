@@ -1,16 +1,32 @@
 ---
 title: Temi
-description: Scopri  [!DNL Commerce] i temi, tra cui file di layout, file modello, file di traduzione e interfacce che definiscono l'aspetto del tuo archivio.
+description: Scopri i temi [!DNL Commerce], tra cui file di layout, file modello, file di traduzione e interfacce che definiscono l'aspetto del tuo archivio.
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8b440f30-6794-5ed6-981f-391de4e9b0cc
+    internal-label: Themes
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '462'
 ht-degree: 0%
-
 ---
-
 # Temi
 
 Un tema è una raccolta di file che determina la presentazione visiva dell’archivio. Quando si installa [!DNL Commerce] per la prima volta, gli elementi di progettazione dell&#39;archivio sono basati sul tema _Default_. Oltre al tema predefinito iniziale fornito con l&#39;installazione di [!DNL Commerce], è possibile utilizzare _così com&#39;è_ o modificarlo in base alle proprie esigenze.
@@ -53,7 +69,7 @@ Il tema reattivo `Magento Blank` esegue il rendering della visualizzazione della
 
 1. Individuare la visualizzazione archivio da configurare e fare clic su **[!UICONTROL Edit]** nella colonna _[!UICONTROL Action]_.
 
-1. In _[!UICONTROL Default Theme]_, impostare **[!UICONTROL Applied Theme]**&#x200B;su quello che si desidera utilizzare per la visualizzazione corrente.
+1. In _[!UICONTROL Default Theme]_, impostare **[!UICONTROL Applied Theme]**su quello che si desidera utilizzare per la visualizzazione corrente.
 
    ![Tema applicato](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 

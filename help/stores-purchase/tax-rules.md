@@ -3,24 +3,33 @@ title: Regole fiscali
 description: Scopri come definire le regole fiscali utilizzando la classe di prodotto, la classe di cliente e l’aliquota.
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-TQID: https://experienceleague.adobe.com/ik-dbYrFRZQ9EvgjFCx6pv5WBnPtk6AHBe2oB4GPn8I
+TQID: 'https://experienceleague.adobe.com/ik-dbYrFRZQ9EvgjFCx6pv5WBnPtk6AHBe2oB4GPn8I'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 439
+source-wordcount: '439'
 ht-degree: 0%
-
 ---
-
 # Regole fiscali
 
 Le regole fiscali includono una combinazione di classe di prodotto, classe di cliente e aliquota. A ogni cliente viene assegnata una classe di clienti e a ogni prodotto viene assegnata una classe di prodotti. Commerce analizza il carrello di ciascun cliente e calcola l’imposta appropriata in base al cliente, alle classi di prodotti e all’area geografica. L&#39;area geografica si basa sull&#39;indirizzo di spedizione, sull&#39;indirizzo di fatturazione o sull&#39;origine di spedizione del cliente.
@@ -107,4 +116,4 @@ Le regole fiscali includono una combinazione di classe di prodotto, classe di cl
 
 Scopri come gestire la valuta e le regole fiscali guardando questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410212/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)

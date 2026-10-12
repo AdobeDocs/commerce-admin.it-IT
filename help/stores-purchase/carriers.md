@@ -3,27 +3,35 @@ title: Impostazione vettore di spedizione
 description: Scopri il supporto per gli account di spedizione commerciali disponibile per il tuo negozio.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg
+TQID: 'https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '496'
 ht-degree: 0%
-
 ---
-
 # Impostazione vettore di spedizione
 
 Se hai un account commerciale con un vettore supportato, puoi offrire ai tuoi clienti la comodità di scegliere tale vettore durante il pagamento. Le tariffe vengono scaricate automaticamente, pertanto non è necessario cercare le informazioni.
@@ -38,10 +46,10 @@ Prima di poter offrire ai clienti una selezione di vettori di spedizione, devi c
 
 - Configurare le impostazioni per ogni servizio vettore che si desidera offrire.
 
-   - [**UPS**](ups.md) - United Parcel Service (UPS) offre servizi di spedizione nazionali e internazionali via terra e via aerea a più di 220 paesi.
-   - [**USPS**](usps.md) - Il servizio postale degli Stati Uniti (USPS) è il servizio postale indipendente del governo degli Stati Uniti. USPS offre servizi di spedizione nazionali e internazionali via terra e per via aerea.
-   - [**FedEx**](fedex.md) - FedEx offre servizi di spedizione nazionali e internazionali via terra e via aria verso più di 220 paesi.
-   - [**DHL**](dhl.md) - DHL offre servizi internazionali integrati e soluzioni personalizzate incentrate sul cliente per la gestione e il trasporto di lettere, merci e informazioni.
+  - [**UPS**](ups.md) - United Parcel Service (UPS) offre servizi di spedizione nazionali e internazionali via terra e via aerea a più di 220 paesi.
+  - [**USPS**](usps.md) - Il servizio postale degli Stati Uniti (USPS) è il servizio postale indipendente del governo degli Stati Uniti. USPS offre servizi di spedizione nazionali e internazionali via terra e per via aerea.
+  - [**FedEx**](fedex.md) - FedEx offre servizi di spedizione nazionali e internazionali via terra e via aria verso più di 220 paesi.
+  - [**DHL**](dhl.md) - DHL offre servizi internazionali integrati e soluzioni personalizzate incentrate sul cliente per la gestione e il trasporto di lettere, merci e informazioni.
 
 ## Peso dimensionale
 
@@ -65,11 +73,11 @@ A partire dal 25 gennaio 2026, USPS ha ritirato le API legacy degli strumenti we
 
 Per evitare interruzioni dei servizi di spedizione USPS, effettua l&#39;aggiornamento all&#39;ultima versione di Adobe Commerce oppure effettua le seguenti operazioni:
 
-- Applica la patch di qualità per la migrazione di [API REST USPS](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) per aggiungere il supporto per l&#39;integrazione con le API REST USPS.
+- Applica la patch di qualità per la migrazione di [API REST USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) per aggiungere il supporto per l&#39;integrazione con le API REST USPS.
 
 - Aggiorna la configurazione USPS di Commerce per utilizzare le API REST:
 
-   - [Configurazione vettore di spedizione USPS](usps.md)
+  - [Configurazione vettore di spedizione USPS](usps.md)
 
-   - [Configurazione etichetta spedizione](shipping-label-create.md)
+  - [Configurazione etichetta spedizione](shipping-label-create.md)
 

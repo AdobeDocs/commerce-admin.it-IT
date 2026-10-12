@@ -3,29 +3,43 @@ title: Tassi di cambio premi
 description: Scopri come impostare i tassi di cambio dei premi che determinano il numero di punti premio guadagnati.
 exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 feature: Rewards, Promotions/Events, Customers
-TQID: https://experienceleague.adobe.com/Iwr92ju0R1z6DFP-5n4O4bqIBYnYWtdn18ImbHJhoHU
+TQID: 'https://experienceleague.adobe.com/Iwr92ju0R1z6DFP-5n4O4bqIBYnYWtdn18ImbHJhoHU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4069cee6-4dc8-5a83-81de-232af6a7c9e9
+    internal-label: Rewards
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: '571'
 ht-degree: 0%
-
 ---
-
 # Tassi di cambio premi
 
 {{ee-feature}}
@@ -62,8 +76,8 @@ Quando si converte una valuta in punti, il numero di punti non può essere divis
 
    - Imposta **[!UICONTROL Direction]** su uno dei seguenti:
 
-      - `Points to Currency`
-      - `Currency to Points`
+     - `Points to Currency`
+     - `Currency to Points`
 
    Per entrambe le impostazioni di direzione, l&#39;importo viene rappresentato nella valuta di base del sito Web.
 
@@ -71,8 +85,8 @@ Quando si converte una valuta in punti, il numero di punti non può essere divis
 
    | Direzione | Impostazioni della tariffa |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | Nel primo campo _[!UICONTROL Rate]_&#x200B;immettere il numero di punti. Nel secondo campo&#x200B;_[!UICONTROL Rate]_ immettere il valore monetario dei punti. |
-   | [!UICONTROL Currency to Points] | Nel primo campo _[!UICONTROL Rate]_&#x200B;immettere il valore monetario. Nel secondo campo&#x200B;_[!UICONTROL Rate]_ immettere il numero di punti rappresentato dal valore monetario. |
+   | [!UICONTROL Points to Currency] | Nel primo campo _[!UICONTROL Rate]_immettere il numero di punti. Nel secondo campo_[!UICONTROL Rate]_ immettere il valore monetario dei punti. |
+   | [!UICONTROL Currency to Points] | Nel primo campo _[!UICONTROL Rate]_immettere il valore monetario. Nel secondo campo_[!UICONTROL Rate]_ immettere il numero di punti rappresentato dal valore monetario. |
 
    Quando si convertono i punti in valuta, il numero di punti non può essere diviso. Ad esempio, se dieci punti vengono convertiti in $ 2,00, i punti devono essere riscattati in gruppi di dieci. Pertanto, 25 punti verrebbero rimborsati per $ 4,00, con 5 punti rimanenti nel saldo del cliente.
 
@@ -96,4 +110,4 @@ Quando si converte una valuta in punti, il numero di punti non può essere divis
 |--- |--- |
 | [!UICONTROL Website] | I siti web in cui si applicano i tassi di ricompensa. |
 | [!UICONTROL Customer Group] | I gruppi di clienti a cui si applicano i tassi di premio. |
-| [!UICONTROL Direction] | Determina il tipo di transazione definito dal tasso di cambio. Opzioni: <br/>**[!UICONTROL Points to Currency]**- Definisce il numero di punti che possono essere applicati come credito rispetto all&#39;importo di un ordine. Nel primo campo _[!UICONTROL Rate]_&#x200B;immettere il numero di punti. Nel secondo campo&#x200B;_[!UICONTROL Rate]_ immettere il valore monetario dei punti.<br/>**[!UICONTROL Currency to Points]** - Definisce l&#39;importo di un ordine che può guadagnare punti cliente. Nel primo campo _[!UICONTROL Rate]_&#x200B;immettere il valore monetario. Nel secondo campo&#x200B;_[!UICONTROL Rate]_ immettere il numero di punti rappresentato dal valore monetario. |
+| [!UICONTROL Direction] | Determina il tipo di transazione definito dal tasso di cambio. Opzioni: <br/>**[!UICONTROL Points to Currency]**- Definisce il numero di punti che possono essere applicati come credito rispetto all&#39;importo di un ordine. Nel primo campo _[!UICONTROL Rate]_immettere il numero di punti. Nel secondo campo_[!UICONTROL Rate]_ immettere il valore monetario dei punti.<br/>**[!UICONTROL Currency to Points]** - Definisce l&#39;importo di un ordine che può guadagnare punti cliente. Nel primo campo _[!UICONTROL Rate]_immettere il valore monetario. Nel secondo campo_[!UICONTROL Rate]_ immettere il numero di punti rappresentato dal valore monetario. |

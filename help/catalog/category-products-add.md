@@ -3,29 +3,38 @@ title: Aggiungere e rimuovere prodotti di categoria
 description: Scopri come aggiungere e rimuovere prodotti da una categoria.
 exl-id: 3b71028e-8679-425a-9ac7-77bf692d0194
 feature: Catalog Management, Categories, Products
-TQID: https://experienceleague.adobe.com/0WjaBF8dHDq8YSqE1gFt0-JKwbn9IFrRlFwl2Se7mkI
+TQID: 'https://experienceleague.adobe.com/0WjaBF8dHDq8YSqE1gFt0-JKwbn9IFrRlFwl2Se7mkI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 267
+source-wordcount: '267'
 ht-degree: 1%
-
 ---
-
 # Aggiungere e rimuovere prodotti di categoria
 
 Dalla sezione [Prodotti nella categoria](categories-product-assignments.md), un amministratore dello store può aggiungere prodotti alla categoria. In questa sezione vengono elencati tutti i prodotti assegnati alla categoria e viene visualizzato **[!UICONTROL Add Product]** quando **[!UICONTROL Match products by rule]** è impostato su `No`.
@@ -46,7 +55,7 @@ Dalla sezione [Prodotti nella categoria](categories-product-assignments.md), un 
 
    ![Cerca in tutti i prodotti](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. Nella colonna _[!UICONTROL Assign]_&#x200B;impostare l&#39;opzione su `Yes` per ogni prodotto che si desidera aggiungere.
+1. Nella colonna _[!UICONTROL Assign]_impostare l&#39;opzione su `Yes` per ogni prodotto che si desidera aggiungere.
 
    Se si desidera includere tutti i prodotti visualizzati, è possibile fare clic sulla freccia del menu nell&#39;intestazione di colonna e scegliere **[!UICONTROL Select All]**.
 
@@ -87,6 +96,6 @@ Dalla sezione [Prodotti nella categoria](categories-product-assignments.md), un 
 
 1. Trovare i prodotti da rimuovere.
 
-1. Nella colonna _[!UICONTROL Actions]_&#x200B;fare clic su **[!UICONTROL Unassign]**.
+1. Nella colonna _[!UICONTROL Actions]_fare clic su **[!UICONTROL Unassign]**.
 
 1. Per applicare le modifiche, fare clic su **[!UICONTROL Save]**.

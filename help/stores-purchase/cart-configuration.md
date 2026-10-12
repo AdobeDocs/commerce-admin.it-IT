@@ -3,28 +3,37 @@ title: Configurazione del carrello
 description: Scopri le funzioni del carrello che puoi configurare per supportare l’esperienza di acquisto nel tuo negozio.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+TQID: 'https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2417
+source-wordcount: '2460'
 ht-degree: 0%
-
 ---
-
 # Configurazione del carrello
 
 La configurazione del carrello determina il modo in cui il carrello funziona per i clienti del negozio, compreso il momento in cui il cliente viene reindirizzato alla pagina del carrello e quali immagini vengono utilizzate per le miniature dei prodotti. È inoltre possibile richiedere un ordine per raggiungere un importo minimo prima dell&#39;inizio del processo di pagamento, specificare il numero di giorni in cui i prezzi quotati rimangono validi e specificare l&#39;ordine degli elementi nella sezione _Totali ordine_.
@@ -176,13 +185,13 @@ La configurazione consente di specificare un importo minimo, dopo l’applicazio
 
    - Imposta **[!UICONTROL Include Discount Amount]** su uno dei seguenti:
 
-      - `Yes` - Richiede che il subtotale soddisfi l&#39;importo minimo con eventuali sconti inclusi. Utilizzando un esempio di un minimo di 50 $, se il carrello contiene un top di 60 $ con uno sconto del 25% applicato, il subtotale risultante è di 45 $ e il carrello non raggiungerebbe il minimo.
-      - `No` - Richiede che il subtotale soddisfi l&#39;importo minimo senza sconti.
+     - `Yes` - Richiede che il subtotale soddisfi l&#39;importo minimo con eventuali sconti inclusi. Utilizzando un esempio di un minimo di 50 $, se il carrello contiene un top di 60 $ con uno sconto del 25% applicato, il subtotale risultante è di 45 $ e il carrello non raggiungerebbe il minimo.
+     - `No` - Richiede che il subtotale soddisfi l&#39;importo minimo senza sconti.
 
    - Imposta **[!UICONTROL Include Tax to Amount]** su uno dei seguenti:
 
-      - `Yes` - Richiede che il subtotale soddisfi l&#39;importo minimo con l&#39;imposta inclusa.
-      - `No` - Richiede che il subtotale soddisfi l&#39;importo minimo senza imposte.
+     - `Yes` - Richiede che il subtotale soddisfi l&#39;importo minimo con l&#39;imposta inclusa.
+     - `No` - Richiede che il subtotale soddisfi l&#39;importo minimo senza imposte.
 
 1. È possibile personalizzare le impostazioni dei messaggi per l&#39;importo minimo dell&#39;ordine:
 
@@ -198,9 +207,9 @@ La configurazione consente di specificare un importo minimo, dopo l’applicazio
 
    - È possibile personalizzare le impostazioni dei messaggi per l&#39;importo minimo dell&#39;ordine:
 
-      - **[!UICONTROL Multi-address Description Message]** - Immettere il testo che si desidera utilizzare per personalizzare il messaggio visualizzato nella parte superiore del carrello per gli ordini con più indirizzi che non soddisfano il minimo consentito.
+     - **[!UICONTROL Multi-address Description Message]** - Immettere il testo che si desidera utilizzare per personalizzare il messaggio visualizzato nella parte superiore del carrello per gli ordini con più indirizzi che non soddisfano il minimo consentito.
 
-      - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** - Immettere il testo che si desidera utilizzare per personalizzare il messaggio di errore del carrello per gli ordini con più indirizzi che non soddisfano il minimo consentito, immettere il testo nella casella.
+     - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** - Immettere il testo che si desidera utilizzare per personalizzare il messaggio di errore del carrello per gli ordini con più indirizzi che non soddisfano il minimo consentito, immettere il testo nella casella.
 
      Lascia vuoti i campi di descrizione del messaggio per utilizzare i messaggi predefiniti.
 
@@ -336,7 +345,7 @@ L&#39;immagine a capo regalo deve essere un campione che mostra il motivo ripetu
 
 1. Per caricare una miniatura **[!UICONTROL Image]** della confezione regalo, fai clic su **[!UICONTROL Choose File]** e seleziona il file da caricare dalla directory.
 
-   Una miniatura dell&#39;immagine viene visualizzata in _[!UICONTROL Gift Wrapping Information]_&#x200B;dopo il salvataggio del record.
+   Una miniatura dell&#39;immagine viene visualizzata in _[!UICONTROL Gift Wrapping Information]_dopo il salvataggio del record.
 
 1. Fare clic su **[!UICONTROL Save]**.
 

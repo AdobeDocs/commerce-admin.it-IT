@@ -3,26 +3,35 @@ title: Configurazione della valuta
 description: Scopri come impostare l’ambito della valuta di base e come specificare le valute accettate e la valuta da utilizzare per la visualizzazione del prezzo.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+TQID: 'https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '826'
 ht-degree: 0%
-
 ---
-
 # Configurazione della valuta
 
 Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambito della [valuta di base](../configuration-reference/general/currency-setup.md). Per impostazione predefinita, è impostata su globale. L&#39;impostazione della valuta di base viene applicata all&#39;intera [gerarchia archivio](../getting-started/websites-stores-views.md). Se disponi di un’installazione multisito di Adobe Commerce o Magento Open Source, puoi gestire più valute di base impostando l’ambito a livello di sito web.
@@ -83,31 +92,31 @@ Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambi
 
    - _Per connettersi al servizio [fixer.io](https://fixer.io/):_
 
-      - Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Fixer.io]**.
+     - Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Fixer.io]**.
 
-      - Immettere fixer.io **[!UICONTROL API key]**.
+     - Immettere fixer.io **[!UICONTROL API key]**.
 
-      - Per **[!UICONTROL Connection Timeout in Seconds]**, immettere il numero di secondi di inattività consentiti prima del timeout della connessione.
+     - Per **[!UICONTROL Connection Timeout in Seconds]**, immettere il numero di secondi di inattività consentiti prima del timeout della connessione.
 
      ![Configurazione generale - Impostazione valuta - Opzioni Fixer.io](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
    - _Per connettersi al [[!DNL Fixer Api (APILayer)] servizio](https://apilayer.com/):_
 
-      - Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Fixer Api (APILayer)]**.
+     - Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Fixer Api (APILayer)]**.
 
-      - Immetti [!DNL APILayer] **[!UICONTROL API key]**.
+     - Immetti [!DNL APILayer] **[!UICONTROL API key]**.
 
-      - Per **[!UICONTROL Connection Timeout in Seconds]**, immettere il numero di secondi di inattività consentiti prima del timeout della connessione.
+     - Per **[!UICONTROL Connection Timeout in Seconds]**, immettere il numero di secondi di inattività consentiti prima del timeout della connessione.
 
      ![Configurazione generale - Impostazione valuta - Opzioni API Fixer (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
    - _Per connettersi al [[!DNL Currency Convertor API] servizio](https://free.currencyconverterapi.com/):_
 
-      - Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Currency Convertor API]**.
+     - Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Currency Convertor API]**.
 
-      - Immettere il convertitore di valuta **[!UICONTROL API key]**.
+     - Immettere il convertitore di valuta **[!UICONTROL API key]**.
 
-      - Per **[!UICONTROL Connection Timeout in Seconds]**, immettere il numero di secondi di inattività consentiti prima del timeout della connessione.
+     - Per **[!UICONTROL Connection Timeout in Seconds]**, immettere il numero di secondi di inattività consentiti prima del timeout della connessione.
 
      ![Configurazione generale - Impostazione valuta - Opzioni API di Convertitore valuta](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
@@ -127,9 +136,9 @@ Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambi
 
    - **[!UICONTROL Frequency]** — Per determinare la frequenza con cui vengono aggiornati i tassi, impostare una delle seguenti opzioni:
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - **[!UICONTROL Error Email Recipient]** — Immettere l&#39;indirizzo di posta elettronica della persona che deve ricevere la notifica e-mail se si verifica un errore durante il processo di importazione.
 
@@ -163,7 +172,7 @@ La gestione dei simboli di valuta consente di personalizzare il simbolo associat
 
    - Immettere un simbolo personalizzato per ogni valuta che si desidera utilizzare oppure selezionare la casella di controllo **[!UICONTROL Use Standard]** per ogni valuta.
 
-   - Per ignorare il simbolo predefinito, deselezionare la casella di controllo _[!UICONTROL Use Standard]_&#x200B;e immettere il simbolo che si desidera utilizzare.
+   - Per ignorare il simbolo predefinito, deselezionare la casella di controllo _[!UICONTROL Use Standard]_e immettere il simbolo che si desidera utilizzare.
 
    >[!NOTE]
    >

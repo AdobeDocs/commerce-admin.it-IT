@@ -1,30 +1,41 @@
 ---
-title: Configura  [!DNL Inventory Management]  ordini inevasi
-description: Configura ordini inevasi globali e per prodotto in [!DNL Inventory Management] per vendere e spedire prodotti quando la quantità disponibile è zero.
+title: Configura [!DNL Inventory Management] ordini arretrati
+description: Configurare gli ordini inevasi globali e per prodotto in [!DNL Inventory Management] per vendere e spedire prodotti quando la quantità disponibile è zero.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
-TQID: https://experienceleague.adobe.com/-lJVY97Onykamv--OTs7byd-lNcuNTdgRBs-59A-h1c
+TQID: 'https://experienceleague.adobe.com/-lJVY97Onykamv--OTs7byd-lNcuNTdgRBs-59A-h1c'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '756'
 ht-degree: 0%
-
 ---
-
 # Configura [!DNL Inventory Management] ordini arretrati
 
 Gli ordini in inevaso consentono al tuo negozio di continuare a vendere prodotti una volta che la quantità raggiunge lo zero o che è effettivamente esaurita. Quando un ordine cliente è un ordine inevaso, i fondi vengono autorizzati e acquisiti immediatamente, lo stato di elaborazione dell&#39;ordine non cambia e la spedizione rimane in sospeso fino a quando non sono disponibili scorte.
@@ -62,7 +73,7 @@ Quando i clienti acquistano i 25 prodotti disponibili, i nuovi ordini vengono in
 
 >[!NOTE]
 >
->Quando un cliente effettua un ordine utilizzando _[!UICONTROL backorder qty]_, [!DNL Inventory Management] sottrae automaticamente la quantità dalla quantità vendibile. Se un ordine non viene spedito e viene annullato, la quantità viene restituita alla quantità di vendita virtuale aggregata. La quantità dell&#39;ordine **_annullata non è assegnata ad alcuna origine_**, ma viene restituita al numero totale di prodotti disponibili per la vendita (colonna&#x200B;_[!UICONTROL Salable Quantity]_ nella griglia prodotti).
+>Quando un cliente effettua un ordine utilizzando _[!UICONTROL backorder qty]_, [!DNL Inventory Management] sottrae automaticamente la quantità dalla quantità vendibile. Se un ordine non viene spedito e viene annullato, la quantità viene restituita alla quantità di vendita virtuale aggregata. La quantità dell&#39;ordine **_annullata non è assegnata ad alcuna origine_**, ma viene restituita al numero totale di prodotti disponibili per la vendita (colonna_[!UICONTROL Salable Quantity]_ nella griglia prodotti).
 
 <!--
 ### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783

@@ -3,28 +3,39 @@ title: Importare prodotti configurabili
 description: Rivedi un esempio di importazione di dati di prodotto per un prodotto configurabile.
 exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
-TQID: https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34
+TQID: 'https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 950
-ht-degree: 0%
-
+source-wordcount: '964'
+ht-degree: 1%
 ---
-
 # Importare prodotti configurabili
 
 Il modo migliore per capire come sono strutturati i dati di prodotto configurabili è esportare un prodotto configurabile e le relative varianti ed esaminare i dati in un foglio di calcolo.
@@ -40,10 +51,10 @@ Nell’esempio seguente, aggiungi un set di varianti di prodotto per una nuova d
    - [**[!UICONTROL Scope]**](../getting-started/websites-stores-views.md#scope-settings) - `Global`
    - [**[!UICONTROL Catalog Input Type for Store Owner]**](data-attributes-product.md) - Il tipo di input di qualsiasi attributo utilizzato per una variante di prodotto deve essere uno dei seguenti:
 
-      - `Dropdown`
-      - `Visual Swatch`
-      - `Text Swatch`
-      - `Multi-Select`
+     - `Dropdown`
+     - `Visual Swatch`
+     - `Text Swatch`
+     - `Multi-Select`
 
    - **[!UICONTROL Values Required]** - `Yes`
 
@@ -83,7 +94,7 @@ Nell’esempio seguente, aggiungi un set di varianti di prodotto per una nuova d
 
    - Imposta **[!UICONTROL Export File Format]** su `CSV`.
 
-1. In _[!UICONTROL Entity Attributes]_, scorrere verso il basso o utilizzare il filtro delle etichette degli attributi per individuare l&#39;attributo **[!UICONTROL SKU]**&#x200B;ed effettuare le seguenti operazioni:
+1. In _[!UICONTROL Entity Attributes]_, scorrere verso il basso o utilizzare il filtro delle etichette degli attributi per individuare l&#39;attributo **[!UICONTROL SKU]**ed effettuare le seguenti operazioni:
 
    - Immettere lo SKU del prodotto configurabile che si è scelto di esportare e fare clic su **[!UICONTROL Continue]**.
 
@@ -97,8 +108,8 @@ Nell’esempio seguente, aggiungi un set di varianti di prodotto per una nuova d
 
    - Scorrere fino all&#39;estrema destra del foglio di lavoro per trovare le colonne seguenti.
 
-      - `configurable_variations` - Definisce la relazione uno-a-molti tra il record di prodotto configurabile e ogni variante.
-      - `configurable_variation_labels` - Definisce l&#39;etichetta che identifica ogni variante.
+     - `configurable_variations` - Definisce la relazione uno-a-molti tra il record di prodotto configurabile e ogni variante.
+     - `configurable_variation_labels` - Definisce l&#39;etichetta che identifica ogni variante.
 
      In questo esempio, i dati si trovano nelle colonne CG e CH. A seconda del numero di varianti, la stringa di dati nella colonna `configurable_variations` può essere lunga. I dati vengono utilizzati come indice delle varianti di prodotto associate e hanno la seguente struttura:
 
@@ -167,13 +178,13 @@ Nell&#39;esempio seguente, il set di dimensioni XL viene copiato e incollato nel
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. In _[!UICONTROL Import Settings]_, impostare **[!UICONTROL Entity Type]**&#x200B;su `Products`.
+1. In _[!UICONTROL Import Settings]_, impostare **[!UICONTROL Entity Type]**su `Products`.
 
-1. In _[!UICONTROL Import Behavior]_, impostare **[!UICONTROL Import Behavior]**&#x200B;su `Add/Update`.
+1. In _[!UICONTROL Import Behavior]_, impostare **[!UICONTROL Import Behavior]**su `Add/Update`.
 
    ![Comportamento importazione dati](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL File to Import]_, fare clic su **[!UICONTROL Choose File]**&#x200B;e passare al file CSV preparato per l&#39;importazione e scegliere il file.
+1. In _[!UICONTROL File to Import]_, fare clic su **[!UICONTROL Choose File]**e passare al file CSV preparato per l&#39;importazione e scegliere il file.
 
    ![File di importazione dati](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

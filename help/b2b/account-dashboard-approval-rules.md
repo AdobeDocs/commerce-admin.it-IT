@@ -4,26 +4,38 @@ description: Scopri le regole di approvazione degli ordini di acquisto e come gl
 exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 feature: B2B, Companies, Configuration
 role: Admin
-TQID: https://experienceleague.adobe.com/Mep8kjARPn7loGZozPrDurwWZ2312PNXOqqJNxEEpuE
+TQID: 'https://experienceleague.adobe.com/Mep8kjARPn7loGZozPrDurwWZ2312PNXOqqJNxEEpuE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: '658'
 ht-degree: 0%
-
 ---
-
 # Regole di approvazione ordini fornitore
 
 La maggior parte delle aziende richiede l&#39;approvazione degli ordini di acquisto. Aggiungendo regole di approvazione per il proprio account aziendale, è possibile controllare chi può creare ordini di acquisto e quanto può spendere. Ad esempio:
@@ -49,7 +61,7 @@ I flussi di approvazione degli ordini di acquisto supportano metodi di pagamento
 
 ## Impostazione regola di approvazione
 
-Con le autorizzazioni [&#x200B; richieste per il ruolo](account-company-roles-permissions.md), i clienti B2B possono impostare regole di approvazione per applicare i criteri aziendali facendo clic su **[!UICONTROL Approval Rules]** nel pannello a sinistra per il proprio account cliente.
+Con le autorizzazioni [ richieste per il ruolo](account-company-roles-permissions.md), i clienti B2B possono impostare regole di approvazione per applicare i criteri aziendali facendo clic su **[!UICONTROL Approval Rules]** nel pannello a sinistra per il proprio account cliente.
 
 ![Regole di approvazione società](./assets/approval-rules.png){width="700" zoomable="yes"}
 
@@ -163,4 +175,4 @@ Per rimuovere una regola di approvazione esistente, un cliente può completare i
 
 Guarda questo video per scoprire di più sulle approvazioni degli ordini d’acquisto:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410766?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)

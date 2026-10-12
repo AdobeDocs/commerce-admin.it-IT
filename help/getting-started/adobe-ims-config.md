@@ -3,31 +3,43 @@ title: Configurare l’integrazione amministratore di Commerce con ID
 description: Segui questa procedura opzionale per integrare gli accessi dell’account utente amministratore Adobe Commerce con Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-TQID: https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: 'https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
+  - id: 23bc8570-95c6-5ef5-a563-2e4a4e6b4853
+    internal-label: Identity Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a43dbb4a703f497e496c63f2886832d44e8c7cab
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 916
+source-wordcount: '935'
 ht-degree: 0%
-
 ---
-
 # Configurare l’integrazione dell’amministratore di Commerce con Adobe ID
 
 {{ee-feature}}
@@ -51,8 +63,8 @@ Questa integrazione supporta i rivenditori Commerce con utenti amministratori ch
 
 Durante l’abilitazione del modulo, l’amministratore che configura questa integrazione deve disporre delle seguenti credenziali:
 
-* ID organizzazione (ottenuto da [Adobe Admin Console](https://adminconsole.adobe.com/)), che deve contenere almeno 24 caratteri. L’utente autenticato deve appartenere a questa organizzazione IMS. Per informazioni su come trovare l&#39;ID organizzazione, consulta [Organizzazioni in Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/organizations).
-* 2FA deve essere applicato a livello di organizzazione in Adobe Admin Console per abilitare il modulo. Controlla [Impostazioni autenticazione](https://helpx.adobe.com/it/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification).
+* ID organizzazione (ottenuto da [Adobe Admin Console](https://adminconsole.adobe.com/)), che deve contenere almeno 24 caratteri. L’utente autenticato deve appartenere a questa organizzazione IMS. Per informazioni su come trovare l&#39;ID organizzazione, consulta [Organizzazioni in Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
+* 2FA deve essere applicato a livello di organizzazione in Adobe Admin Console per abilitare il modulo. Controlla [Impostazioni autenticazione](https://helpx.adobe.com/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification).
 * ID client
 * Segreto client
 * ID client e segreto client sono disponibili dopo il recupero delle chiavi API da [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials).
@@ -70,7 +82,7 @@ Per il successo dell’integrazione è necessario che tutti gli utenti di Adobe 
 
 ## Configurare l’integrazione
 
-Dopo che un amministratore o uno sviluppatore con accesso di sistema ha completato i passaggi seguenti, il pulsante _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;viene visualizzato nella pagina di accesso di Commerce Admin per tutti gli utenti amministratori.
+Dopo che un amministratore o uno sviluppatore con accesso di sistema ha completato i passaggi seguenti, il pulsante _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_viene visualizzato nella pagina di accesso di Commerce Admin per tutti gli utenti amministratori.
 
 ### Passaggio 1: ottieni ID organizzazione Adobe
 
@@ -99,9 +111,9 @@ Prima di abilitare l’integrazione, verifica che ogni account utente di Adobe C
 
 >[!TIP]
 >
->Puoi creare più account utente caricando le informazioni utente da un file CSV. Vedi [Gestione di più utenti](https://helpx.adobe.com/it/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html).
+>Puoi creare più account utente caricando le informazioni utente da un file CSV. Vedi [Gestione di più utenti](https://helpx.adobe.com/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html).
 
-1. In [Adobe Admin Console](https://helpx.adobe.com/it/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html), passa a **[!UICONTROL Users]** > **[!UICONTROL Users]**.
+1. In [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html), passa a **[!UICONTROL Users]** > **[!UICONTROL Users]**.
 
 1. Fare clic su **[!UICONTROL Add User]**.
 
@@ -132,4 +144,4 @@ Dopo aver abilitato correttamente questa funzione, puoi effettuare la transizion
 
 ## Identità e Single Sign-On
 
-Consulta [Configurare identità e Single Sign-On](https://helpx.adobe.com/it/business/enterprise/set-up-your-organization/set-up-identity.html) nella documentazione di *Enterprise Admin Console* per le istruzioni di configurazione dell&#39;identità e SSO.
+Consulta [Configurare identità e Single Sign-On](https://helpx.adobe.com/business/enterprise/set-up-your-organization/set-up-identity.html) nella documentazione di *Enterprise Admin Console* per le istruzioni di configurazione dell&#39;identità e SSO.

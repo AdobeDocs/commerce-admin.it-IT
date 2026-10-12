@@ -3,28 +3,37 @@ title: Prezzi speciali
 description: Scopri come offrire prezzi speciali per un determinato periodo di tempo.
 exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8
+TQID: 'https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '859'
 ht-degree: 0%
-
 ---
-
 # Prezzi speciali
 
 Un prezzo speciale può essere offerto per un determinato periodo di tempo. Durante il periodo di tempo specificato, il prezzo speciale viene visualizzato al posto del prezzo regolare, seguito da una notazione che mostra il prezzo regolare.
@@ -65,7 +74,7 @@ Adobe Commerce include il supporto per [aggiornamenti pianificati](../content-de
 
    Nella vetrina, il prezzo speciale dovrebbe essere visualizzato sia nell’elenco dei cataloghi che nella pagina del prodotto.
 
-   _[!UICONTROL Scheduled Change]_&#x200B;viene visualizzato nella parte superiore della pagina.
+   _[!UICONTROL Scheduled Change]_viene visualizzato nella parte superiore della pagina.
 
    ![Modifica pianificata](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -77,7 +86,7 @@ Magento Open Source include opzioni di data di inizio e di fine semplici nelle o
 
 1. Apri il prodotto in modalità di modifica.
 
-1. Scorri verso il basso fino al campo _[!UICONTROL Price]_, fai clic su **[!UICONTROL Advanced Pricing]**&#x200B;e immetti l&#39;importo **[!UICONTROL Special Price]**.
+1. Scorri verso il basso fino al campo _[!UICONTROL Price]_, fai clic su **[!UICONTROL Advanced Pricing]**e immetti l&#39;importo **[!UICONTROL Special Price]**.
 
 1. Utilizza l&#39;icona _Calendario_ ( ![Icona Calendario](../assets/icon-calendar.png) ) per scegliere **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** per la promozione prezzo speciale.
 
@@ -99,7 +108,7 @@ Magento Open Source include opzioni di data di inizio e di fine semplici nelle o
 
 L’esempio seguente mostra come assegnare lo stesso prezzo speciale a più varianti di prodotto di un prodotto configurabile in Adobe Commerce.
 
-1. Nella pagina _[!UICONTROL Products]_, fare clic su **[!UICONTROL Filters]**&#x200B;e immettere **[!UICONTROL Name]**&#x200B;del prodotto configurabile.
+1. Nella pagina _[!UICONTROL Products]_, fare clic su **[!UICONTROL Filters]**e immettere **[!UICONTROL Name]**del prodotto configurabile.
 
 1. Impostare **[!UICONTROL Type]** su `Configurable Product` e fare clic su **[!UICONTROL Apply Filters]**.
 
@@ -109,7 +118,7 @@ L’esempio seguente mostra come assegnare lo stesso prezzo speciale a più vari
 
 1. Impostare il controllo **[!UICONTROL Actions]** su `Update attributes`.
 
-1. Scorri verso il basso fino al campo _[!UICONTROL Special Price]_, seleziona la casella di controllo **[!UICONTROL Change]**&#x200B;sotto il campo&#x200B;_[!UICONTROL Special Price]_ e immetti il prezzo speciale che desideri offrire.
+1. Scorri verso il basso fino al campo _[!UICONTROL Special Price]_, seleziona la casella di controllo **[!UICONTROL Change]**sotto il campo_[!UICONTROL Special Price]_ e immetti il prezzo speciale che desideri offrire.
 
    ![Campi Prezzo speciale](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 

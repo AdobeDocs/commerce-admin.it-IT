@@ -3,28 +3,37 @@ title: Campioni di prodotto
 description: Scopri come definire i campioni per gli elenchi di prodotti configurabili.
 exl-id: 6163cec4-5d84-4e2c-ba5c-3c22ac4e3f28
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/RB77PDf2GytxFg3OXgYJB68pwKl4BfERcC5xn4bPSso
+TQID: 'https://experienceleague.adobe.com/RB77PDf2GytxFg3OXgYJB68pwKl4BfERcC5xn4bPSso'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: '1175'
 ht-degree: 0%
-
 ---
-
 # Campioni di prodotto
 
 I clienti hanno grandi aspettative sulla scelta di un colore ed è fondamentale che le descrizioni del prodotto rappresentino accuratamente ogni colore, motivo o texture disponibile. Ad esempio, i pantaloni nell’esempio seguente non sono disponibili in rosso, verde e blu. Piuttosto, sono disponibili solo in tonalità specifiche di rosso, verde e blu, che sono probabilmente uniche per questo prodotto.
@@ -35,7 +44,7 @@ Per [prodotti configurabili](product-create-configurable.md), il colore può ess
 
 >[!NOTE]
 >
->Gli attributi dei campioni possono essere configurati in modo da non visualizzare le immagini di prodotto semplici corrispondenti quando il campione viene selezionato impostando il valore dell&#39;opzione _[!UICONTROL Update Product Preview Image]_&#x200B;su `No` nella pagina [!UICONTROL Attribute Edit] dell&#39;amministratore.
+>Gli attributi dei campioni possono essere configurati in modo da non visualizzare le immagini di prodotto semplici corrispondenti quando il campione viene selezionato impostando il valore dell&#39;opzione _[!UICONTROL Update Product Preview Image]_su `No` nella pagina [!UICONTROL Attribute Edit] dell&#39;amministratore.
 
 ## Campioni basati su testo
 
@@ -45,7 +54,7 @@ Se un&#39;immagine non è disponibile per un campione, il valore dell&#39;attrib
 
 ## Campioni nella navigazione a livelli
 
-I campioni possono essere utilizzati anche nella navigazione a livelli, se la proprietà _[!UICONTROL Use in Layered Navigation]_&#x200B;dell&#39;attributo color è impostata su `Yes`. L&#39;esempio seguente mostra campioni di immagini a colori e basati su testo in una navigazione a più livelli.
+I campioni possono essere utilizzati anche nella navigazione a livelli, se la proprietà _[!UICONTROL Use in Layered Navigation]_dell&#39;attributo color è impostata su `Yes`. L&#39;esempio seguente mostra campioni di immagini a colori e basati su testo in una navigazione a più livelli.
 
 ![Campioni visualizzati in navigazione a livelli](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -73,7 +82,7 @@ Per creare campioni per i prodotti, utilizzate uno dei metodi descritti di segui
 
 1. Se preferisci non visualizzare le immagini di prodotto semplici corrispondenti quando il campione è selezionato nella pagina di visualizzazione del prodotto, imposta **[!UICONTROL Update Product Preview Image]** su `No`.
 
-1. In _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, fare clic su **[!UICONTROL Add Swatch]**&#x200B;ed eseguire le operazioni seguenti:
+1. In _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, fare clic su **[!UICONTROL Add Swatch]**ed eseguire le operazioni seguenti:
 
    ![Gestisci valori campione](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -121,9 +130,9 @@ Per creare campioni per i prodotti, utilizzate uno dei metodi descritti di segui
 
 1. Se preferisci non visualizzare le immagini di prodotto semplici corrispondenti quando il campione è selezionato nella pagina di visualizzazione del prodotto, imposta **[!UICONTROL Update Product Preview Image]** su `No`.
 
-1. In _[!UICONTROL Manage Swatch]_(valori dell&#39;attributo), fare clic su **[!UICONTROL Add Swatch]**&#x200B;ed eseguire le operazioni seguenti:
+1. In _[!UICONTROL Manage Swatch]_(valori dell&#39;attributo), fare clic su **[!UICONTROL Add Swatch]**ed eseguire le operazioni seguenti:
 
-   - Nella colonna _[!UICONTROL Swatch]_&#x200B;fare clic sul nuovo campione per visualizzare il menu e scegliere **[!UICONTROL Upload a file]**.
+   - Nella colonna _[!UICONTROL Swatch]_fare clic sul nuovo campione per visualizzare il menu e scegliere **[!UICONTROL Upload a file]**.
 
    - Individuate il file campione preparato e scegliete il file da caricare.
 

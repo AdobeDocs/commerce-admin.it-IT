@@ -3,30 +3,42 @@ title: Recensioni prodotto
 description: Scopri in che modo le recensioni dei prodotti possono migliorare il tuo negozio e portare più credibilità ai tuoi prodotti.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-TQID: https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # Recensioni prodotto
 
 Le recensioni dei prodotti aiutano a creare un senso di comunità, e sono considerate più credibili di qualsiasi altro denaro pubblicitario possa comprare. Infatti, alcuni motori di ricerca danno ai siti con recensioni di prodotti una classificazione più alta rispetto a quelli senza. Per coloro che trovano il tuo sito cercando un prodotto specifico, una recensione del prodotto è essenzialmente la pagina di destinazione del tuo negozio. Le recensioni dei prodotti aiutano le persone a trovare il tuo negozio, tenerli coinvolti e spesso portare alle vendite.
@@ -37,7 +49,7 @@ Commerce include una funzionalità nativa di valutazione del prodotto che puoi g
 >
 >Le versioni da 2.4.0 a 2.4.3 di Adobe Commerce e Magento Open Source includevano l’estensione sviluppata dal fornitore Yotpo. A partire dalla versione 2.4.4, questa estensione non è più inclusa nella versione core e deve essere installata e aggiornata da Commerce Marketplace. Il Marketplace fornisce anche accesso alla documentazione corrente fornita dallo sviluppatore dell’estensione.
 ><br><br>
->Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/modules/upgrade) nella _Guida all&#39;aggiornamento_.
+>Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) nella _Guida all&#39;aggiornamento_.
 
 ## Recensioni di prodotto sul vetrina
 
@@ -59,7 +71,7 @@ Il numero di stelle indica il livello di soddisfazione del prodotto. I visitator
 
 ### [!UICONTROL My Product Reviews]
 
-Nella sezione _[!UICONTROL My Product Reviews]_&#x200B;del dashboard account cliente sono elencate tutte le revisioni inviate dal cliente e approvate per la pubblicazione. Ogni riepilogo di revisione include la data di invio della revisione, i collegamenti alla pagina del prodotto e i dettagli della revisione.
+Nella sezione _[!UICONTROL My Product Reviews]_del dashboard account cliente sono elencate tutte le revisioni inviate dal cliente e approvate per la pubblicazione. Ogni riepilogo di revisione include la data di invio della revisione, i collegamenti alla pagina del prodotto e i dettagli della revisione.
 
 ![Recensioni dei miei prodotti](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -107,7 +119,7 @@ Con le Revisioni dei prodotti Commerce, i clienti possono assegnare valutazioni 
 
    ![Amministratore - Valutazioni](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Nella sezione _[!UICONTROL Rating Title]_, immetti **[!UICONTROL Default Value]**&#x200B;per la nuova valutazione.
+1. Nella sezione _[!UICONTROL Rating Title]_, immetti **[!UICONTROL Default Value]**per la nuova valutazione.
 
    Se applicabile, inserisci anche la traduzione per ogni visualizzazione store.
 

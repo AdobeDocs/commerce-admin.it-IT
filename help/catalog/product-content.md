@@ -3,31 +3,40 @@ title: Impostazioni prodotto - [!UICONTROL Content]
 description: Per un prodotto, le impostazioni [!UICONTROL Content] definiscono la descrizione principale del prodotto visualizzata nella pagina del prodotto.
 exl-id: d38aa828-8656-4935-948f-3188654a91a0
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/Q-zeffK2GElT0OyS3Lapa7XNHkT2sK30bKszPrGhW6k
+TQID: 'https://experienceleague.adobe.com/Q-zeffK2GElT0OyS3Lapa7XNHkT2sK30bKszPrGhW6k'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bd199ede56ca5a34da513beb305cdba02dfe80d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: '325'
 ht-degree: 0%
-
 ---
-
 # Impostazioni prodotto - [!UICONTROL Content]
 
-La sezione _[!UICONTROL Content]_&#x200B;viene utilizzata per immettere e modificare la descrizione principale del prodotto visualizzata nella pagina del prodotto. La breve descrizione può essere utilizzata nella maggior parte dei feed RSS e potrebbe essere visualizzata anche negli elenchi catalogo, a seconda del [tema](../content-design/themes.md).
+La sezione _[!UICONTROL Content]_viene utilizzata per immettere e modificare la descrizione principale del prodotto visualizzata nella pagina del prodotto. La breve descrizione può essere utilizzata nella maggior parte dei feed RSS e potrebbe essere visualizzata anche negli elenchi catalogo, a seconda del [tema](../content-design/themes.md).
 
 >[!NOTE]
 >
@@ -49,7 +58,7 @@ La sezione _[!UICONTROL Content]_&#x200B;viene utilizzata per immettere e modifi
 
 ## Anteprima [!DNL Page Builder]
 
-Quando espandi la sezione _[!UICONTROL Content]_&#x200B;per un prodotto esistente in cui è presente contenuto creato con [!DNL Page Builder], viene visualizzata un&#39;anteprima del contenuto di **[!UICONTROL Description]**&#x200B;come apparirebbe nella pagina del prodotto. Aprire l&#39;area di lavoro [!DNL Page Builder], in cui è possibile apportare gli aggiornamenti necessari, facendo clic su **[!UICONTROL Edit with Page Builder]**.
+Quando espandi la sezione _[!UICONTROL Content]_per un prodotto esistente in cui è presente contenuto creato con [!DNL Page Builder], viene visualizzata un&#39;anteprima del contenuto di **[!UICONTROL Description]**come apparirebbe nella pagina del prodotto. Aprire l&#39;area di lavoro [!DNL Page Builder], in cui è possibile apportare gli aggiornamenti necessari, facendo clic su **[!UICONTROL Edit with Page Builder]**.
 
 ![Anteprima descrizione](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

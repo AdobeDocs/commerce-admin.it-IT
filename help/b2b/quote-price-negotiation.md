@@ -3,30 +3,46 @@ title: Negoziazione di un preventivo
 description: Scopri i flussi di lavoro per la negoziazione dei preventivi e come lavorare con gli acquirenti per gli acquisti.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+TQID: 'https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2249
+source-wordcount: '2277'
 ht-degree: 0%
-
 ---
-
 # Negoziazione di un preventivo
 
 Se nella configurazione sono abilitati [preventivi B2B](configure-quotes.md), la negoziazione dei prezzi può essere avviata da un acquirente autorizzato da una società o da un rappresentante commerciale.
@@ -64,7 +80,7 @@ Gli acquirenti gestiscono il processo di negoziazione dei preventivi dalla vetri
 
 1. Scegliere un **[!UICONTROL Expiration Date]** per il preventivo.
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Quote Totals]_&#x200B;e aggiorna **[!UICONTROL Negotiated Price]**&#x200B;in base alle esigenze.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Quote Totals]_e aggiorna **[!UICONTROL Negotiated Price]**in base alle esigenze.
 
    ![Aggiorna prezzo negoziato](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -93,11 +109,11 @@ Se necessario, applicare le modifiche all&#39;elemento riga nella sezione _[!UIC
   L&#39;opzione [!UICONTROL Configure] è disponibile solo su un elemento di riga per un prodotto configurabile
 
 - Nel menu **[!UICONTROL Action]**, selezionare un&#39;azione per aggiornare l&#39;elemento:
-   - **Elemento sconto** per applicare uno sconto come percentuale, importo fisso o prezzo preferito.
-Se necessario, è possibile bloccare l&#39;importo dello sconto per evitare ulteriori sconti. Se lo sconto non è bloccato,
-sia lo sconto sulla voce che lo sconto a livello di preventivo vengono applicati al prezzo del prodotto.
-   - **Lascia una nota all&#39;acquirente** per fornirgli ulteriori informazioni su un oggetto
-   - **Rimuovi** per rimuovere un elemento dal preventivo.
+  - **Elemento sconto** per applicare uno sconto come percentuale, importo fisso o prezzo preferito.
+    Se necessario, è possibile bloccare l&#39;importo dello sconto per evitare ulteriori sconti. Se lo sconto non è bloccato,
+    sia lo sconto sulla voce che lo sconto a livello di preventivo vengono applicati al prezzo del prodotto.
+  - **Lascia una nota all&#39;acquirente** per fornirgli ulteriori informazioni su un oggetto
+  - **Rimuovi** per rimuovere un elemento dal preventivo.
 
 ### Applica modifiche e aggiorna
 
@@ -117,7 +133,7 @@ sia lo sconto sulla voce che lo sconto a livello di preventivo vengono applicati
 
 1. Immetti **[!UICONTROL Proposed Shipping Price]**.
 
-   I _[!UICONTROL Quote Totals]_&#x200B;sono stati aggiornati per riflettere il prezzo di spedizione proposto.
+   I _[!UICONTROL Quote Totals]_sono stati aggiornati per riflettere il prezzo di spedizione proposto.
 
 ### Allegare un documento di supporto
 
@@ -129,7 +145,7 @@ sia lo sconto sulla voce che lo sconto a livello di preventivo vengono applicati
 
 ## Passaggio 3: aggiornare le informazioni a livello di preventivo e inviare la risposta
 
-1. Nella sezione _[!UICONTROL Negotiation]_&#x200B;della scheda&#x200B;_[!UICONTROL Comments]_, immetti la tua risposta nella sezione **[!UICONTROL Add your comment]**.
+1. Nella sezione _[!UICONTROL Negotiation]_della scheda_[!UICONTROL Comments]_, immetti la tua risposta nella sezione **[!UICONTROL Add your comment]**.
 
 1. Per includere un documento di supporto, fare clic su **[!UICONTROL Attach file]** e selezionare il file dalla directory.
 
@@ -137,11 +153,11 @@ sia lo sconto sulla voce che lo sconto a livello di preventivo vengono applicati
 
 1. Per applicare uno sconto all&#39;offerta:
 
-   - In _[!UICONTROL Quote Totals]_&#x200B;nella sezione&#x200B;_[!UICONTROL Negotiated Price]_ scegliere uno dei tipi di sconto seguenti:
+   - In _[!UICONTROL Quote Totals]_nella sezione_[!UICONTROL Negotiated Price]_ scegliere uno dei tipi di sconto seguenti:
 
-      - `Percentage Discount`: uno sconto percentuale riduce il prezzo originale di una percentuale specifica.
-      - `Amount Discount`: uno sconto di importo applica una riduzione del prezzo fisso.
-      - `Proposed Price`: uno sconto prezzo proposto imposta il prezzo finale su un importo specifico, indipendentemente dal prezzo originale.
+     - `Percentage Discount`: uno sconto percentuale riduce il prezzo originale di una percentuale specifica.
+     - `Amount Discount`: uno sconto di importo applica una riduzione del prezzo fisso.
+     - `Proposed Price`: uno sconto prezzo proposto imposta il prezzo finale su un importo specifico, indipendentemente dal prezzo originale.
 
    - Inserire l&#39;importo come percentuale o prezzo fisso.
 
@@ -149,9 +165,9 @@ sia lo sconto sulla voce che lo sconto a livello di preventivo vengono applicati
 
    - È possibile applicare sconti a ogni voce o preventivo nel suo insieme:
 
-      - **Sconti articoli riga**: gli sconti articoli riga vengono applicati ai singoli articoli nel carrello. Lo sconto può essere un `percentage`, un `amount` specifico o un `proposed price`.
-      - **Sconti a livello di carrello**: gli sconti a livello di carrello vengono applicati all&#39;intero carrello. Lo sconto può essere un `percentage` o un `amount` specifico e viene applicato al valore totale del carrello.
-      - **Combinazione di sconti per carrello ed elemento riga**: in alcuni casi è possibile applicare sconti sia a livello di carrello che a livello di elemento riga. Lo sconto riga viene applicato per primo, seguito dallo sconto a livello di carrello sul totale rimanente.
+     - **Sconti articoli riga**: gli sconti articoli riga vengono applicati ai singoli articoli nel carrello. Lo sconto può essere un `percentage`, un `amount` specifico o un `proposed price`.
+     - **Sconti a livello di carrello**: gli sconti a livello di carrello vengono applicati all&#39;intero carrello. Lo sconto può essere un `percentage` o un `amount` specifico e viene applicato al valore totale del carrello.
+     - **Combinazione di sconti per carrello ed elemento riga**: in alcuni casi è possibile applicare sconti sia a livello di carrello che a livello di elemento riga. Lo sconto riga viene applicato per primo, seguito dallo sconto a livello di carrello sul totale rimanente.
 
 1. Invia o salva il preventivo:
 
@@ -177,7 +193,7 @@ Per monitorarne la posizione nel flusso di lavoro, controlla l’e-mail e lo sta
 
 | Pulsante | Descrizione |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Torna alla pagina _[!UICONTROL Quotes]_&#x200B;senza salvare le modifiche. |
+| [!UICONTROL Back] | Torna alla pagina _[!UICONTROL Quotes]_senza salvare le modifiche. |
 | [!UICONTROL Print] | Invia l&#39;offerta a una stampante o la salva come file PDF. |
 | [!UICONTROL Create Copy] | Crea e apre una copia del preventivo corrente con `(copy)` aggiunto al nome originale. Rinominare il nuovo preventivo modificando il campo [!UICONTROL Name]. Elabora il nuovo preventivo salvandolo come bozza o inviandolo al cliente. |
 | Crea modello | Crea un modello di preventivo basato sul preventivo corrente. I modelli di preventivo semplificano la negoziazione dei preventivi consentendo a buyer e venditori di concordare condizioni di contratto e di determinazione dei prezzi che possono essere applicate a più preventivi. . In base al contratto, il buyer può generare un preventivo collegato preapprovato dal modello per gli ordini successivi anziché riavviare il processo di richiesta di preventivo. |
@@ -196,7 +212,7 @@ Le informazioni sui preventivi e le funzioni dell&#39;amministratore sono organi
 | Campo | Descrizione |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | Il nome assegnato a una richiesta di preventivo da [buyer](account-company-roles-permissions.md). |
-| [!UICONTROL Status] | Indica lo stato corrente dell&#39;offerta. Lo stato di un preventivo può essere modificato solo da un&#39;azione dell&#39;acquirente o del venditore. Consulta anche le [Impostazioni stato](quotes.md) dell&#39;amministratore e dell&#39;account dell&#39;acquirente [&#128279;](account-dashboard-my-quotes.md). |
+| [!UICONTROL Status] | Indica lo stato corrente dell&#39;offerta. Lo stato di un preventivo può essere modificato solo da un&#39;azione dell&#39;acquirente o del venditore. Consulta anche le [Impostazioni stato](quotes.md) dell&#39;amministratore e dell&#39;account dell&#39;acquirente [](account-dashboard-my-quotes.md). |
 | [!UICONTROL Created] | La data e l&#39;ora in cui il buyer ha inviato per la prima volta la richiesta di preventivo. |
 | [!UICONTROL Created By] | Il nome e il cognome dell&#39;acquirente della società che ha inviato la richiesta di preventivo. |
 | [!UICONTROL Expiration Date] | Indica l&#39;ultimo giorno di validità dell&#39;offerta corrente. La data di scadenza predefinita viene impostata nella configurazione come 30 giorni dopo la sottomissione di una richiesta di preventivo da parte di un buyer. <br/><br/>Il venditore può sostituire la data di scadenza predefinita immettendo una data diversa (DD MMM YYYY ) o scegliendo la data dal calendario. Il preventivo non scade mai se il campo viene lasciato vuoto. <br/><br/>Per i preventivi aperti, il venditore riceve una [notifica e-mail](../systems/email-templates.md) 48 ore prima della scadenza pianificata del preventivo. Gli acquirenti vengono informati 24 ore prima della data di scadenza. <br/><br/>Lo stato del preventivo diventa _Scaduto_ e l&#39;acquirente non può apportare ulteriori modifiche al preventivo. I prezzi proposti nell&#39;offerta tornano ai valori originali del catalogo. <br/><br/>Se un preventivo è aperto per la revisione da parte del venditore quando il preventivo è impostato per la scadenza, la data di scadenza viene reimpostata in base all&#39;intervallo impostato nella configurazione. <br/><br/>La data di scadenza è l&#39;unico campo della sezione _Offerta e account_ che può essere modificato durante il processo di revisione. |

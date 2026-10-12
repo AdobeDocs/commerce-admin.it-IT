@@ -3,29 +3,43 @@ title: Esporta dati
 description: Scopri i filtri e gli attributi di esportazione dei dati e come esportare i dati dal tuo archivio.
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/492se11mto54gQuwodcRcALtCf7LJe3GGKQntW9kkWQ
+TQID: 'https://experienceleague.adobe.com/492se11mto54gQuwodcRcALtCf7LJe3GGKQntW9kkWQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '823'
 ht-degree: 0%
-
 ---
-
 # Esporta dati
 
 Il modo migliore per acquisire familiarità con la struttura del database consiste nell&#39;esportare i dati e aprirli in un foglio di calcolo. Una volta acquisita familiarità con il processo, è possibile utilizzarlo come metodo efficiente per gestire grandi quantità di informazioni.
@@ -96,7 +110,7 @@ La casella di controllo nella prima colonna viene utilizzata per escludere gli a
 
 1. Scorri verso il basso e fai clic su **[!UICONTROL Continue]** nell&#39;angolo inferiore destro della pagina.
 
-   Al termine dell’operazione, il file viene elaborato tramite una coda di messaggi (assicurati che il processo cron sia in esecuzione). Il file esportato è stato salvato in `var/export/ folder`. Per ulteriori informazioni sulla coda di messaggi, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) nella _Guida alla configurazione_.
+   Al termine dell’operazione, il file viene elaborato tramite una coda di messaggi (assicurati che il processo cron sia in esecuzione). Il file esportato è stato salvato in `var/export/ folder`. Per ulteriori informazioni sulla coda di messaggi, vedere [Gestione delle code di messaggi](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) nella _Guida alla configurazione_.
 
    Puoi salvare o aprire il file CSV esportato come foglio di calcolo, quindi modificare i dati e importarli nuovamente nell’archivio.
 
@@ -108,4 +122,4 @@ La casella di controllo nella prima colonna viene utilizzata per escludere gli a
 
 Per assistenza nella risoluzione dei problemi relativi all&#39;esportazione dei dati, vedere i seguenti articoli della Knowledge Base di supporto Commerce:
 
-- [Il file .csv dei prodotti esportati non viene visualizzato](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)
+- [Il file .csv dei prodotti esportati non viene visualizzato](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)

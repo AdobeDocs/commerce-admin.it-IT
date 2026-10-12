@@ -4,33 +4,48 @@ description: Scopri le linee di credito della società, l’impostazione dei par
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-TQID: https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc
+TQID: 'https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1228
+source-wordcount: '1228'
 ht-degree: 0%
-
 ---
-
 # Gestisci credito società
 
 Il credito aziendale consente alle aziende B2B di effettuare acquisti sulla base di una linea di credito preapprovata, invece di richiedere un pagamento immediato. Quando [Pagamento sul conto](../b2b/enable-basic-features.md#configure-payment-on-account) è abilitato, le aziende possono acquistare fino al limite di credito e visualizzare lo stato del credito dal dashboard del conto.
@@ -94,7 +109,7 @@ Nella griglia vengono visualizzate le informazioni riportate di seguito per ogni
 | [!UICONTROL Operation] | Tipo di attività associata alla transazione. Valori: <br/>**[!UICONTROL Allocated]**- Credito assegnato alla società.<br/>**[!UICONTROL Updated]** - Modifica applicata a uno dei campi seguenti: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- È stato effettuato un ordine.<br/>**[!UICONTROL Reimbursed]** - Il saldo restante è stato rimborsato. <br/>**[!UICONTROL Refunded]**- Rimborso di un importo della nota di accredito.<br/>**[!UICONTROL Reverted]** - L&#39;ordine è stato annullato e l&#39;importo è stato restituito al saldo a credito. |
 | [!UICONTROL Amount] | Importo della transazione associata ai seguenti tipi di transazione: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Per gli importi di acquisto, l&#39;importo viene visualizzato nella valuta di visualizzazione del punto vendita e nel formato dell&#39;impostazione della valuta di credito, seguito dal tasso di conversione corrente (se applicabile). Ad esempio: <br/>EUR 20.000,00 ($22.400,00) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | Importo rimborsato, meno il totale dovuto per tutti gli ordini effettuati utilizzando il metodo di pagamento in conto. L’importo può apparire come un valore positivo o negativo. <br/>**[!UICONTROL Positive value]**- Un pagamento anticipato è rappresentato come valore positivo.<br/>**[!UICONTROL Negative value]** - Un importo dovuto è rappresentato come valore negativo. |
-| [!UICONTROL Available Credit] | La somma di _[!UICONTROL Credit Limit]_&#x200B;e_[!UICONTROL Outstanding Balance]_. Se l&#39;azienda ha superato il limite di credito, l&#39;importo viene visualizzato come valore negativo. |
+| [!UICONTROL Available Credit] | La somma di _[!UICONTROL Credit Limit]_e_[!UICONTROL Outstanding Balance]_. Se l&#39;azienda ha superato il limite di credito, l&#39;importo viene visualizzato come valore negativo. |
 | [!UICONTROL Credit Limit] | Importo del credito concesso alla società. |
 | [!UICONTROL Updated By] | Nome della persona che ha avviato l&#39;operazione. |
 | [!UICONTROL Custom Reference Number] | Numero di riferimento personalizzato associato alla transazione. |
@@ -173,7 +188,7 @@ Gli amministratori della società possono visualizzare le informazioni sul credi
 
 Scopri come gestire il credito aziendale guardando questo video dimostrativo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410760?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
 
 ## Considerazioni sulla sicurezza
 
@@ -187,8 +202,8 @@ Durante la gestione del credito aziendale, implementa solide misure di sicurezza
 
 ## Best practice
 
-* &#x200B;
-   * **Gestione delle politiche creditizie**: durante la gestione del credito aziendale, definire criteri chiari per l&#39;impostazione dei limiti di credito in base alla cronologia dei pagamenti del cliente e alle relazioni commerciali. Esamina regolarmente i saldi in essere e i modelli di pagamento per valutare il rischio e documenta sempre le modifiche alle impostazioni del credito con motivi dettagliati a scopo di audit.
+* 
+  * **Gestione delle politiche creditizie**: durante la gestione del credito aziendale, definire criteri chiari per l&#39;impostazione dei limiti di credito in base alla cronologia dei pagamenti del cliente e alle relazioni commerciali. Esamina regolarmente i saldi in essere e i modelli di pagamento per valutare il rischio e documenta sempre le modifiche alle impostazioni del credito con motivi dettagliati a scopo di audit.
 
 Elaborare i pagamenti in modo rapido per mantenere saldi accurati e garantire l&#39;allineamento delle impostazioni della valuta di credito con le operazioni aziendali principali di ciascuna società.
 

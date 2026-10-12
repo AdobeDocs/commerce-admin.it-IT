@@ -3,31 +3,42 @@ title: Soluzioni di pagamento PayPal
 description: Scopri le integrazioni di soluzioni di pagamento PayPal disponibili per il tuo store.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-TQID: https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+TQID: 'https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1248
+source-wordcount: '1288'
 ht-degree: 0%
-
 ---
-
 # Soluzioni di pagamento PayPal
 
 PayPal è un leader globale nei pagamenti online e un modo veloce e sicuro per i tuoi clienti di pagare online. La selezione delle soluzioni PayPal disponibili varia in base alla posizione dell&#39;esercente. PayPal Express Checkout e PayPal Payments Standard possono essere utilizzati in tutte le parti del mondo. Per ulteriori informazioni, consulta [Soluzioni PayPal per paese](#paypal-solutions-by-country).
@@ -120,7 +131,7 @@ I filtri di gestione delle frodi PayPal semplificano l&#39;individuazione e la r
 | Azione | Risultato |
 | --- | --- |
 | [!UICONTROL Review] | L&#39;ordine sospetto riceve lo stato _Revisione pagamento_ quando l&#39;ordine viene effettuato. Puoi rivedere l&#39;ordine e approvare o annullare il pagamento nell&#39;Admin o sul lato PayPal. Quando si fa clic su **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, non vengono create nuove transazioni per l&#39;ordine. <br/><br/>Se modifichi lo stato della transazione sul sito PayPal, devi fare clic su **[!UICONTROL Get Payment Update]** nella pagina Ordine dell&#39;amministratore per applicare le modifiche. Se fai clic su **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, vengono applicate le modifiche apportate al sito PayPal. |
-| [!UICONTROL Deny] | L&#39;ordine sospetto non può essere effettuato dal cliente, perché la transazione corrispondente viene rifiutata da PayPal. <br/><br/>Per rifiutare il pagamento da parte dell&#39;amministratore, fare clic su **[!UICONTROL Deny Payment]** nell&#39;angolo superiore destro della pagina. Lo stato dell&#39;ordine cambia in `Canceled`, la transazione viene ripristinata e i fondi vengono rilasciati sul conto cliente. Le informazioni corrispondenti vengono aggiunte nella sezione _[!UICONTROL Comments History]_&#x200B;della visualizzazione ordine. |
+| [!UICONTROL Deny] | L&#39;ordine sospetto non può essere effettuato dal cliente, perché la transazione corrispondente viene rifiutata da PayPal. <br/><br/>Per rifiutare il pagamento da parte dell&#39;amministratore, fare clic su **[!UICONTROL Deny Payment]** nell&#39;angolo superiore destro della pagina. Lo stato dell&#39;ordine cambia in `Canceled`, la transazione viene ripristinata e i fondi vengono rilasciati sul conto cliente. Le informazioni corrispondenti vengono aggiunte nella sezione _[!UICONTROL Comments History]_della visualizzazione ordine. |
 | [!UICONTROL Flag] | L&#39;ordine sospetto ottiene lo stato `Processing` al momento dell&#39;inserimento. La transazione corrispondente è contrassegnata da un contrassegno nell&#39;elenco delle transazioni del conto esercente. |
 
 {style="table-layout:auto"}
