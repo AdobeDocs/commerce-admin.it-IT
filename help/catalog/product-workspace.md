@@ -41,7 +41,7 @@ ht-degree: 0%
 ---
 # Area di lavoro prodotto
 
-L’area di lavoro del prodotto è sostanzialmente la stessa per tutti i tipi di prodotto, anche se la selezione dei campi cambia a seconda del set di attributi utilizzato. Gli attributi del prodotto si trovano nella parte superiore del modulo, seguiti da sezioni espandibili di informazioni sul prodotto. Quando si salva un nuovo prodotto per la prima volta, il selettore _[!UICONTROL Store View]_viene visualizzato in alto a sinistra nel modulo.
+L’area di lavoro del prodotto è sostanzialmente la stessa per tutti i tipi di prodotto, anche se la selezione dei campi cambia a seconda del set di attributi utilizzato. Gli attributi del prodotto si trovano nella parte superiore del modulo, seguiti da sezioni espandibili di informazioni sul prodotto. Quando si salva un nuovo prodotto per la prima volta, il selettore _[!UICONTROL Store View]_&#x200B;viene visualizzato in alto a sinistra nel modulo.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Lo stato online del prodotto è indicato dal pulsante nella parte superiore del 
 | Controllo | Descrizione |
 |-------- | ----------- |
 | ![Attiva/Disattiva Sì](../assets/toggle-yes.png) | Indica che il prodotto è online. |
-| ![Attiva/Disattiva ](../assets/toggle-no.png) | Indica che il prodotto è offline. |
+| ![Attiva/Disattiva &#x200B;](../assets/toggle-no.png) | Indica che il prodotto è offline. |
 
 {style="table-layout:auto"}
 
@@ -72,7 +72,7 @@ Per espandere o comprimere una sezione, fare clic sull&#39;icona Espandi ![Selet
 
 ## Menu [!UICONTROL Save]
 
-Il menu _[!UICONTROL Save]_include diverse opzioni che consentono di salvare e continuare, salvare e creare un prodotto, salvare e duplicare il prodotto o salvare e chiudere.
+Il menu _[!UICONTROL Save]_&#x200B;include diverse opzioni che consentono di salvare e continuare, salvare e creare un prodotto, salvare e duplicare il prodotto o salvare e chiudere.
 
 ![Salva menu](./assets/product-save-menu.png){width="600" zoomable="yes"}
 

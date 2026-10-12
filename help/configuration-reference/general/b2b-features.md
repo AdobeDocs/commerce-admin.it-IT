@@ -66,7 +66,7 @@ Quando la funzione Società è abilitata, sono disponibili campi aggiuntivi per 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Sito Web | Se abilitata, consente di creare cataloghi curati con prezzi personalizzati disponibili a livello globale o limitati a specifiche aziende. Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | Sito Web | Quando il campo _[!UICONTROL Enable Shared Catalog]_è impostato su `Yes`, questa opzione è disponibile. Quando questa opzione è attivata, solo i prodotti assegnati a un catalogo condiviso vengono memorizzati nell&#39;indice dei prezzi. I prodotti non assegnati al catalogo condiviso non vengono visualizzati nella vetrina. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Sito Web | Quando il campo _[!UICONTROL Enable Shared Catalog]_&#x200B;è impostato su `Yes`, questa opzione è disponibile. Quando questa opzione è attivata, solo i prodotti assegnati a un catalogo condiviso vengono memorizzati nell&#39;indice dei prezzi. I prodotti non assegnati al catalogo condiviso non vengono visualizzati nella vetrina. Opzioni: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Sito Web | Quando questa opzione è attivata, consente agli acquirenti aziendali di inviare una richiesta di preventivo dal carrello. Opzioni: `Yes` / `No` |
 
 {style="table-layout:auto"}

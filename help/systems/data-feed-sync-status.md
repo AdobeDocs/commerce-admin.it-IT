@@ -183,7 +183,7 @@ Per verificare la sincronizzazione end-to-end al termine dell&#39;esportazione, 
 
 - **[!DNL Adobe Commerce as a Cloud Service]con i servizi Commerce:** Controlla il [Dashboard di gestione dati](data-dashboard.md) applicabile per confermare la disponibilità a valle.
 - **Adobe Commerce su Cloud o On-Premises con Adobe Commerce Optimizer Connector**: controlla prima lo stato di esportazione dell&#39;amministratore di Commerce, quindi controlla la [pagina di sincronizzazione dati](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio]
-- **[!DNL Adobe Commerce Optimizer](autonomo):** Dati non esportati dal backend Commerce. Utilizzare la [pagina di sincronizzazione dati](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio] per confermare la disponibilità dei dati.
+- **[!DNL Adobe Commerce Optimizer] (autonomo):** Dati non esportati dal backend Commerce. Utilizzare la [pagina di sincronizzazione dati](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio] per confermare la disponibilità dei dati.
 
 >[!TIP]
 >

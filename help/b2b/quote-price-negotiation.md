@@ -80,7 +80,7 @@ Gli acquirenti gestiscono il processo di negoziazione dei preventivi dalla vetri
 
 1. Scegliere un **[!UICONTROL Expiration Date]** per il preventivo.
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Quote Totals]_e aggiorna **[!UICONTROL Negotiated Price]**in base alle esigenze.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Quote Totals]_&#x200B;e aggiorna **[!UICONTROL Negotiated Price]**&#x200B;in base alle esigenze.
 
    ![Aggiorna prezzo negoziato](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -133,7 +133,7 @@ Se necessario, applicare le modifiche all&#39;elemento riga nella sezione _[!UIC
 
 1. Immetti **[!UICONTROL Proposed Shipping Price]**.
 
-   I _[!UICONTROL Quote Totals]_sono stati aggiornati per riflettere il prezzo di spedizione proposto.
+   I _[!UICONTROL Quote Totals]_&#x200B;sono stati aggiornati per riflettere il prezzo di spedizione proposto.
 
 ### Allegare un documento di supporto
 
@@ -145,7 +145,7 @@ Se necessario, applicare le modifiche all&#39;elemento riga nella sezione _[!UIC
 
 ## Passaggio 3: aggiornare le informazioni a livello di preventivo e inviare la risposta
 
-1. Nella sezione _[!UICONTROL Negotiation]_della scheda_[!UICONTROL Comments]_, immetti la tua risposta nella sezione **[!UICONTROL Add your comment]**.
+1. Nella sezione _[!UICONTROL Negotiation]_&#x200B;della scheda&#x200B;_[!UICONTROL Comments]_, immetti la tua risposta nella sezione **[!UICONTROL Add your comment]**.
 
 1. Per includere un documento di supporto, fare clic su **[!UICONTROL Attach file]** e selezionare il file dalla directory.
 
@@ -153,7 +153,7 @@ Se necessario, applicare le modifiche all&#39;elemento riga nella sezione _[!UIC
 
 1. Per applicare uno sconto all&#39;offerta:
 
-   - In _[!UICONTROL Quote Totals]_nella sezione_[!UICONTROL Negotiated Price]_ scegliere uno dei tipi di sconto seguenti:
+   - In _[!UICONTROL Quote Totals]_&#x200B;nella sezione&#x200B;_[!UICONTROL Negotiated Price]_ scegliere uno dei tipi di sconto seguenti:
 
      - `Percentage Discount`: uno sconto percentuale riduce il prezzo originale di una percentuale specifica.
      - `Amount Discount`: uno sconto di importo applica una riduzione del prezzo fisso.
@@ -193,7 +193,7 @@ Per monitorarne la posizione nel flusso di lavoro, controlla l’e-mail e lo sta
 
 | Pulsante | Descrizione |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Torna alla pagina _[!UICONTROL Quotes]_senza salvare le modifiche. |
+| [!UICONTROL Back] | Torna alla pagina _[!UICONTROL Quotes]_&#x200B;senza salvare le modifiche. |
 | [!UICONTROL Print] | Invia l&#39;offerta a una stampante o la salva come file PDF. |
 | [!UICONTROL Create Copy] | Crea e apre una copia del preventivo corrente con `(copy)` aggiunto al nome originale. Rinominare il nuovo preventivo modificando il campo [!UICONTROL Name]. Elabora il nuovo preventivo salvandolo come bozza o inviandolo al cliente. |
 | Crea modello | Crea un modello di preventivo basato sul preventivo corrente. I modelli di preventivo semplificano la negoziazione dei preventivi consentendo a buyer e venditori di concordare condizioni di contratto e di determinazione dei prezzi che possono essere applicate a più preventivi. . In base al contratto, il buyer può generare un preventivo collegato preapprovato dal modello per gli ordini successivi anziché riavviare il processo di richiesta di preventivo. |
@@ -212,7 +212,7 @@ Le informazioni sui preventivi e le funzioni dell&#39;amministratore sono organi
 | Campo | Descrizione |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | Il nome assegnato a una richiesta di preventivo da [buyer](account-company-roles-permissions.md). |
-| [!UICONTROL Status] | Indica lo stato corrente dell&#39;offerta. Lo stato di un preventivo può essere modificato solo da un&#39;azione dell&#39;acquirente o del venditore. Consulta anche le [Impostazioni stato](quotes.md) dell&#39;amministratore e dell&#39;account dell&#39;acquirente [](account-dashboard-my-quotes.md). |
+| [!UICONTROL Status] | Indica lo stato corrente dell&#39;offerta. Lo stato di un preventivo può essere modificato solo da un&#39;azione dell&#39;acquirente o del venditore. Consulta anche le [Impostazioni stato](quotes.md) dell&#39;amministratore e dell&#39;account dell&#39;acquirente [&#128279;](account-dashboard-my-quotes.md). |
 | [!UICONTROL Created] | La data e l&#39;ora in cui il buyer ha inviato per la prima volta la richiesta di preventivo. |
 | [!UICONTROL Created By] | Il nome e il cognome dell&#39;acquirente della società che ha inviato la richiesta di preventivo. |
 | [!UICONTROL Expiration Date] | Indica l&#39;ultimo giorno di validità dell&#39;offerta corrente. La data di scadenza predefinita viene impostata nella configurazione come 30 giorni dopo la sottomissione di una richiesta di preventivo da parte di un buyer. <br/><br/>Il venditore può sostituire la data di scadenza predefinita immettendo una data diversa (DD MMM YYYY ) o scegliendo la data dal calendario. Il preventivo non scade mai se il campo viene lasciato vuoto. <br/><br/>Per i preventivi aperti, il venditore riceve una [notifica e-mail](../systems/email-templates.md) 48 ore prima della scadenza pianificata del preventivo. Gli acquirenti vengono informati 24 ore prima della data di scadenza. <br/><br/>Lo stato del preventivo diventa _Scaduto_ e l&#39;acquirente non può apportare ulteriori modifiche al preventivo. I prezzi proposti nell&#39;offerta tornano ai valori originali del catalogo. <br/><br/>Se un preventivo è aperto per la revisione da parte del venditore quando il preventivo è impostato per la scadenza, la data di scadenza viene reimpostata in base all&#39;intervallo impostato nella configurazione. <br/><br/>La data di scadenza è l&#39;unico campo della sezione _Offerta e account_ che può essere modificato durante il processo di revisione. |

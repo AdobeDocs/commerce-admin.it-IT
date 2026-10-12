@@ -82,7 +82,7 @@ Per il successo dell’integrazione è necessario che tutti gli utenti di Adobe 
 
 ## Configurare l’integrazione
 
-Dopo che un amministratore o uno sviluppatore con accesso di sistema ha completato i passaggi seguenti, il pulsante _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_viene visualizzato nella pagina di accesso di Commerce Admin per tutti gli utenti amministratori.
+Dopo che un amministratore o uno sviluppatore con accesso di sistema ha completato i passaggi seguenti, il pulsante _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;viene visualizzato nella pagina di accesso di Commerce Admin per tutti gli utenti amministratori.
 
 ### Passaggio 1: ottieni ID organizzazione Adobe
 

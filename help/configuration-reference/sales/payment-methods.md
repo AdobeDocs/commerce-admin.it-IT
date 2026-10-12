@@ -232,7 +232,7 @@ Per un elenco completo delle singole opzioni di configurazione, consulta la sezi
 
 >[!NOTE]
 >
->Non selezionare l&#39;opzione _[!UICONTROL Not Capture]_a meno che non si sia certi che il pagamento verrà acquisito tramite Commerce in un secondo momento. Non è possibile creare una nota di accredito finché il pagamento non viene acquisito utilizzando il pulsante Acquisisci.
+>Non selezionare l&#39;opzione _[!UICONTROL Not Capture]_&#x200B;a meno che non si sia certi che il pagamento verrà acquisito tramite Commerce in un secondo momento. Non è possibile creare una nota di accredito finché il pagamento non viene acquisito utilizzando il pulsante Acquisisci.
 
 ## [!UICONTROL Purchase Order]
 

@@ -69,7 +69,7 @@ Quando si inseriscono le spedizioni, le quantità di scorte disponibili detraggo
 
      >[!IMPORTANT]
      >
-     >Quando si utilizza l&#39;algoritmo Distance Priority (Priorità distanza) per la spedizione e le route e i dati non vengono restituiti per la [modalità di calcolo](distance-priority-algorithm.md) selezionata (guida, bicicletta o deambulazione) per una spedizione, il valore predefinito di SSA è Source Priority. È inoltre consigliabile impostare la priorità [ per le origini per magazzino](stocks-prioritize-sources.md).
+     >Quando si utilizza l&#39;algoritmo Distance Priority (Priorità distanza) per la spedizione e le route e i dati non vengono restituiti per la [modalità di calcolo](distance-priority-algorithm.md) selezionata (guida, bicicletta o deambulazione) per una spedizione, il valore predefinito di SSA è Source Priority. È inoltre consigliabile impostare la priorità [&#x200B; per le origini per magazzino](stocks-prioritize-sources.md).
 
 
    - Per **[!UICONTROL Select a Source to Ship from]**, selezionare un&#39;origine per l&#39;invio di una spedizione.
@@ -80,9 +80,9 @@ Quando si inseriscono le spedizioni, le quantità di scorte disponibili detraggo
 
      ![Selezionare un Source e immettere una quantità](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Esaminare la pagina _[!UICONTROL New Shipment]_e immettere eventuali modifiche aggiuntive.
+1. Esaminare la pagina _[!UICONTROL New Shipment]_&#x200B;e immettere eventuali modifiche aggiuntive.
 
-   Nella sezione _[!UICONTROL Inventory]_vengono visualizzati l&#39;origine, la spedizione dei prodotti, la quantità ordinata totale e la quantità da spedire.
+   Nella sezione _[!UICONTROL Inventory]_&#x200B;vengono visualizzati l&#39;origine, la spedizione dei prodotti, la quantità ordinata totale e la quantità da spedire.
 
    ![Dettagli di magazzino per la spedizione, esempio spedizione parziale](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

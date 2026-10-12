@@ -55,7 +55,7 @@ Per un elenco dettagliato delle impostazioni di configurazione, vedere [Archivia
 
 >[!NOTE]
 >
->Sulla piattaforma [!DNL Adobe Commerce as a Cloud Service] non è possibile configurare il report del log delle azioni, l&#39;archivio del log delle azioni e il log delle azioni in blocco, ma è possibile esaminare l&#39;output del report dal menu **[!UICONTROL System]** > _[!UICONTROL Action Logs]_in Amministrazione.
+>Sulla piattaforma [!DNL Adobe Commerce as a Cloud Service] non è possibile configurare il report del log delle azioni, l&#39;archivio del log delle azioni e il log delle azioni in blocco, ma è possibile esaminare l&#39;output del report dal menu **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;in Amministrazione.
 
 ## Configurare le azioni amministratore per la registrazione
 

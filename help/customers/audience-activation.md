@@ -61,7 +61,7 @@ Questa sezione contiene informazioni sugli aggiornamenti dell&#39;estensione Aud
 
 Per informazioni sulle pianificazioni e sul supporto, consulta le [prossime versioni](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule).
 
-Per informazioni sulla compatibilità dei prodotti, consulta la documentazione per gli sviluppatori](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).[
+Per informazioni sulla compatibilità dei prodotti, consulta la documentazione per gli sviluppatori[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).
 
 ## Aggiornamenti dei servizi supportati
 

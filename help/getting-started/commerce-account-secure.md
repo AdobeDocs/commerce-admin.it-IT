@@ -127,7 +127,7 @@ Per usare TFA, devi avere un’applicazione TFA installata sul tuo dispositivo p
 
 ## Accedi utilizzando un codice di verifica
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [&#128279;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -139,7 +139,7 @@ Per usare TFA, devi avere un’applicazione TFA installata sul tuo dispositivo p
 
 ## Accedi utilizzando un codice di ripristino
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [&#128279;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -171,7 +171,7 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
 
 ## Visualizza i codici di ripristino
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [&#128279;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -199,7 +199,7 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
 
 ## Genera nuovi codici di ripristino
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [&#128279;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -221,7 +221,7 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
 
 ## Cambia l’e-mail di ripristino
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [&#128279;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -249,7 +249,7 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
 
 ## Modificare l&#39;applicazione di autenticazione a due fattori
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [&#128279;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 
@@ -301,7 +301,7 @@ Dopo aver utilizzato un codice di ripristino temporaneo per accedere all&#39;acc
 >
 >Se i criteri di sicurezza organizzativi richiedono l’autenticazione a più fattori sugli account Adobe Commerce, non è possibile disabilitare l’autenticazione a due fattori.
 
-1. Vai all&#39;account di accesso [!DNL Commerce] [](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Vai all&#39;account di accesso [!DNL Commerce] [&#128279;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Immettere le credenziali di nome utente e password, quindi selezionare **[!UICONTROL Login]**.
 

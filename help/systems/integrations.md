@@ -109,7 +109,7 @@ Per generare un nuovo token di accesso all’integrazione e un nuovo segreto per
 
 1. Trovare l&#39;integrazione con lo stato **[!UICONTROL Active]**.
 
-1. Nella colonna _[!UICONTROL Activate]_fare clic su **[!UICONTROL Reauthorize]**.
+1. Nella colonna _[!UICONTROL Activate]_&#x200B;fare clic su **[!UICONTROL Reauthorize]**.
 
 1. Fare clic su **[!UICONTROL Reauthorize]** per approvare l&#39;accesso alle risorse API.
 

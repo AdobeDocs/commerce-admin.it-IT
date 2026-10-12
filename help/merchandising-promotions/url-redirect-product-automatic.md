@@ -67,7 +67,7 @@ Il tuo archivio può essere configurato in modo da generare automaticamente un r
 
 >[!NOTE]
 >
-> Le riscritture URL possono essere generate per la vista store o l’ambito del sito web. Impostare l&#39;ambito di riscrittura URL dall&#39;amministratore in **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Selezionare l&#39;ambito nel campo_[!UICONTROL Product URL Rewrite Scope]_.
+> Le riscritture URL possono essere generate per la vista store o l’ambito del sito web. Impostare l&#39;ambito di riscrittura URL dall&#39;amministratore in **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Selezionare l&#39;ambito nel campo&#x200B;_[!UICONTROL Product URL Rewrite Scope]_.
 
 ## Reindirizzare automaticamente gli URL dei prodotti
 
@@ -75,7 +75,7 @@ Il tuo archivio può essere configurato in modo da generare automaticamente un r
 
 1. Individuare il prodotto nell&#39;elenco e fare clic per aprire il record.
 
-1. Espandere ![Il selettore di espansione ](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization]**.
+1. Espandere ![Il selettore di espansione &#x200B;](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Search Engine Optimization]**.
 
    ![Ottimizzazione motore di ricerca prodotti - reindirizzamento permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

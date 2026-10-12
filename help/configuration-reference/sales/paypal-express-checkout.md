@@ -66,7 +66,7 @@ ht-degree: 1%
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Sito Web | Specifica l&#39;indirizzo e-mail specificato al momento dell&#39;apertura del conto PayPal dell&#39;esercente. L&#39;indirizzo email fa distinzione tra maiuscole e minuscole e deve corrispondere esattamente al tuo indirizzo email nel sistema PayPal. |
-| [!UICONTROL API Authentication Methods] | Sito Web | Determina il metodo utilizzato per l’autenticazione API. Opzioni: <br/>**`API Signature`**- Visualizza il campo _[!UICONTROL API Signature]_nel modulo.<br/>**`API Certificate`**- Visualizza il campo_[!UICONTROL API Certificate]_ nel modulo. |
+| [!UICONTROL API Authentication Methods] | Sito Web | Determina il metodo utilizzato per l’autenticazione API. Opzioni: <br/>**`API Signature`**- Visualizza il campo _[!UICONTROL API Signature]_&#x200B;nel modulo.<br/>**`API Certificate`**- Visualizza il campo&#x200B;_[!UICONTROL API Certificate]_ nel modulo. |
 | [!UICONTROL API Username] | Sito Web | Il nome utente API associato al tuo account esercente PayPal. |
 | [!UICONTROL API Password] | Sito Web | La password API associata al tuo conto PayPal per esercenti. |
 | [!UICONTROL API Signature] | Sito Web | La firma API associata al tuo conto PayPal per esercenti. |

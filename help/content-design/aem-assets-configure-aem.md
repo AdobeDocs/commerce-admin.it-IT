@@ -59,7 +59,7 @@ Il modello aggiunge le seguenti risorse all’ambiente di authoring AEM Assets.
 
 >[!NOTE]
 >
->Per ulteriori informazioni sul modello di progetto AEM `commerce-assets`, vedere il file Leggimi [2}.](https://github.com/ankumalh/assets-commerce)
+>Per ulteriori informazioni sul modello di progetto AEM `commerce-assets`, vedere il file Leggimi [2&rbrace;.](https://github.com/ankumalh/assets-commerce)
 
 Per utilizzare questo progetto AEM per aggiornare la configurazione dell’ambiente sono necessarie le risorse e le autorizzazioni seguenti:
 
@@ -110,7 +110,7 @@ Il componente Interfaccia utente dati prodotto viene aggiunto automaticamente in
 
 1. **[!UICONTROL Create]** un profilo di metadati per l&#39;integrazione Commerce.
 
-   ![Amministrazione autori AEM aggiungi profili metadati ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![Amministrazione autori AEM aggiungi profili metadati &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Aggiungi una scheda per i metadati di Commerce.
 
@@ -138,13 +138,13 @@ Il componente Interfaccia utente dati prodotto viene aggiunto automaticamente in
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. Facoltativo. Per sincronizzare automaticamente le risorse Commerce approvate durante il caricamento nell&#39;ambiente AEM Assets, impostare su `approved` il valore predefinito per il campo _[!UICONTROL Review Status]_nella scheda `Basic`.
+1. Facoltativo. Per sincronizzare automaticamente le risorse Commerce approvate durante il caricamento nell&#39;ambiente AEM Assets, impostare su `approved` il valore predefinito per il campo _[!UICONTROL Review Status]_&#x200B;nella scheda `Basic`.
 
 1. Salva l’aggiornamento.
 
 #### Applicare il profilo di metadati alla cartella di origine delle risorse di Commerce
 
-1. Dalla pagina [!UICONTROL  Metadata Profiles], seleziona il profilo di integrazione di Commerce.
+1. Dalla pagina [!UICONTROL &#x200B; Metadata Profiles], seleziona il profilo di integrazione di Commerce.
 1. Dal menu Azioni, selezionare **[!UICONTROL Apply Metadata Profiles to Folders]**.
 1. Seleziona la cartella contenente le risorse Commerce.
 

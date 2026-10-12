@@ -106,7 +106,7 @@ Configura le opzioni di configurazione predefinite per prodotto e magazzino per 
 
    >[!NOTE]
    >
-   >La query `sourceAvailability` è disabilitata per impostazione predefinita perché indica le origini in cui è disponibile uno SKU. Le quantità esatte rimangono nascoste finché la quantità di origine non raggiunge il **[!UICONTROL Only X left Threshold]** impostato nella sezione _[!UICONTROL Stock Options]_. Ogni origine inventario ha un flag **[!UICONTROL Visible on Storefront]**disattivato per impostazione predefinita. Le azioni di una sorgente non vengono mai restituite finché non vengono abilitate da un commerciante. Per impostarlo, passa a **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, modifica un&#39;origine e attiva **[!UICONTROL Visible on Storefront]**.
+   >La query `sourceAvailability` è disabilitata per impostazione predefinita perché indica le origini in cui è disponibile uno SKU. Le quantità esatte rimangono nascoste finché la quantità di origine non raggiunge il **[!UICONTROL Only X left Threshold]** impostato nella sezione _[!UICONTROL Stock Options]_. Ogni origine inventario ha un flag **[!UICONTROL Visible on Storefront]**&#x200B;disattivato per impostazione predefinita. Le azioni di una sorgente non vengono mai restituite finché non vengono abilitate da un commerciante. Per impostarlo, passa a **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, modifica un&#39;origine e attiva **[!UICONTROL Visible on Storefront]**.
 
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Admin bulk operations]** e impostare le opzioni:
