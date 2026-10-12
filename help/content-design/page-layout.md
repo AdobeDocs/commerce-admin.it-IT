@@ -2,14 +2,25 @@
 title: Layout di pagina
 description: Scopri le sezioni di layout di pagina e come configurare i layout predefiniti.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '906'
 ht-degree: 0%
-
 ---
-
 # Layout di pagina
 
 Il layout di ogni pagina del punto vendita è costituito da sezioni o contenitori distinti che definiscono l&#39;intestazione, il piè di pagina e le aree di contenuto della pagina. A seconda del layout, ogni pagina può avere una, due, tre colonne o più. È possibile considerare il layout come la _piantina_ della pagina e assegnare un layout specifico da utilizzare come predefinito per le pagine CMS, prodotto e categoria.
@@ -87,13 +98,13 @@ Nella pagina, i blocchi di contenuto vengono spostati per riempire lo spazio dis
 
 ![Diagramma - layout a una colonna](./assets/layout-1-col-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL 1 Column]_&#x200B;può essere utilizzato per creare una home page di grandi dimensioni con un&#39;immagine di grandi dimensioni o un punto focale. È inoltre una buona scelta per una pagina di destinazione o qualsiasi altra pagina con una combinazione di testo, immagini e video.
+Il layout _[!UICONTROL 1 Column]_può essere utilizzato per creare una home page di grandi dimensioni con un&#39;immagine di grandi dimensioni o un punto focale. È inoltre una buona scelta per una pagina di destinazione o qualsiasi altra pagina con una combinazione di testo, immagini e video.
 
 ### Due colonne con barra a sinistra
 
 ![Diagramma - layout a due colonne con barra a sinistra](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL 2 Columns with Left Bar]_&#x200B;viene spesso utilizzato per le pagine con navigazione a sinistra, ad esempio un catalogo o pagine dei risultati di ricerca con navigazione a livelli. Si tratta inoltre di una scelta eccellente per le home page che richiedono una navigazione aggiuntiva o blocchi di contenuto di supporto a sinistra.
+Il layout _[!UICONTROL 2 Columns with Left Bar]_viene spesso utilizzato per le pagine con navigazione a sinistra, ad esempio un catalogo o pagine dei risultati di ricerca con navigazione a livelli. Si tratta inoltre di una scelta eccellente per le home page che richiedono una navigazione aggiuntiva o blocchi di contenuto di supporto a sinistra.
 
 ### Due colonne con barra a destra
 
@@ -105,10 +116,10 @@ Con un layout _[!UICONTROL 2 Columns with Right Bar]_, l&#39;area del contenuto 
 
 ![Diagramma - layout a tre colonne](./assets/layout-3-col-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL 3 Column]_&#x200B;ha una colonna centrale sufficientemente ampia per il testo principale della pagina, con spazio su ciascun lato per ulteriori elementi di navigazione e blocchi di contenuto di supporto.
+Il layout _[!UICONTROL 3 Column]_ha una colonna centrale sufficientemente ampia per il testo principale della pagina, con spazio su ciascun lato per ulteriori elementi di navigazione e blocchi di contenuto di supporto.
 
 ### Vuoto
 
 ![Diagramma - layout vuoto](./assets/layout-blank-th.png){zoomable="yes"}
 
-Il layout _[!UICONTROL Empty]_&#x200B;può essere utilizzato per definire layout di pagina personalizzati.
+Il layout _[!UICONTROL Empty]_può essere utilizzato per definire layout di pagina personalizzati.
