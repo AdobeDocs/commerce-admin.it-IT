@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ![Opzioni Stock](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![Opzioni Stock Di Prodotto](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ![Disponibilità Per Source (Storefront)](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
 
-<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ![Operazioni in blocco per amministratori](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >

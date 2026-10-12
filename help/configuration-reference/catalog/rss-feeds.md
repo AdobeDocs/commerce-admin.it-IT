@@ -56,7 +56,7 @@ Per informazioni dettagliate sull&#39;utilizzo dei feed RSS dopo l&#39;attivazio
 
 ![Elenco desideri](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
+<!-- [Wish List](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ Per informazioni dettagliate sull&#39;utilizzo dei feed RSS dopo l&#39;attivazio
 
 ![Catalogo](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
+<!-- [Catalog](https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/catalog-menu) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -83,7 +83,7 @@ Per informazioni dettagliate sull&#39;utilizzo dei feed RSS dopo l&#39;attivazio
 
 ![Ordine](./assets/rss-feeds-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
+<!-- [Order](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
