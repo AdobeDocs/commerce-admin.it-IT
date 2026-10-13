@@ -4,7 +4,7 @@ description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL A
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 last-update: 2026-08-20
 TQID: 'https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0'
 product_v2:
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 1%
@@ -181,8 +181,8 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Backup
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Globale | Determina se l’istanza di Commerce consente i backup. Opzioni: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Globale | (visualizzato quando _[!UICONTROL Enable Backup]_&#x200B;è impostato su `Yes`.) Determina se il backup dell&#39;istanza di Commerce viene eseguito automaticamente secondo una pianificazione regolare. Opzioni: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Globale | (visualizzato quando _[!UICONTROL Enable Scheduled Backup]_&#x200B;è impostato su `Yes`.) Determina gli elementi dell&#39;istanza Commerce inclusi nel backup. Opzioni: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Globale | (visualizzato quando _[!UICONTROL Enable Backup]_è impostato su `Yes`.) Determina se il backup dell&#39;istanza di Commerce viene eseguito automaticamente secondo una pianificazione regolare. Opzioni: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Globale | (visualizzato quando _[!UICONTROL Enable Scheduled Backup]_è impostato su `Yes`.) Determina gli elementi dell&#39;istanza Commerce inclusi nel backup. Opzioni: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Globale | (visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Specifica l&#39;ora, il minuto e il secondo di inizio del backup pianificato. |
 | [!UICONTROL Frequency] | Globale | (visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Determina la frequenza con cui viene eseguito il backup pianificato. Opzioni: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Globale | (visualizzato quando [!UICONTROL Enable Scheduled Backup] è impostato su `Yes`.) Determina se l&#39;archivio viene messo in modalità di manutenzione durante il backup pianificato. Opzioni: `Yes` / `No` |
@@ -216,7 +216,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Memori
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Globale | Determina l&#39;applicazione utilizzata per gestire la cache di pagina intera. Opzioni: <br/>**`Built-in Application`**- Non consigliato per l&#39;ambiente di produzione.<br/>**`Varnish Caching`** - Consigliato per l&#39;ambiente di produzione. |
 | [!UICONTROL TTL for public content] | Globale | Determina la durata della cache del contenuto pubblico in secondi. Valore predefinito: `120` |
-| [!UICONTROL Handles param size] | globale | Specifica il numero massimo di [handle di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare sull&#39;endpoint HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi). La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Valore predefinito: `100` |
+| [!UICONTROL Handles param size] | globale | Specifica il numero massimo di [handle di layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) da elaborare sull&#39;endpoint HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi). La limitazione delle dimensioni può migliorare la sicurezza e le prestazioni. Valore predefinito: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Globale | Specifica gli indirizzi IP che possono eliminare la configurazione Vernice per generare un file di configurazione. Separa più voci con una virgola. Valore predefinito: `localhost` |
 | [!UICONTROL Backend host] | Globale | Specifica l&#39;host backend che genera i file di configurazione. Valore predefinito: `localhost` |
@@ -296,7 +296,7 @@ Per ulteriori informazioni sulla modifica di queste impostazioni, vedere [Import
 
 ![Configurazione avanzata - Configurazione caricamento immagine](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
@@ -344,4 +344,4 @@ Per ulteriori informazioni sulla configurazione di queste impostazioni, vedere [
 
 {style="table-layout:auto"}
 
-<!-- Last updated from includes: 2023-02-22 09:59:54 -->
+<!-- Last updated from includes: 2026-08-20 14:27:46 -->
