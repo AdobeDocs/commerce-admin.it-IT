@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: bb5da9eea16601303b62ccc06327c6a832062c49
 workflow-type: tm+mt
 source-wordcount: '11211'
 ht-degree: 0%
@@ -60,6 +60,8 @@ Queste note sulla versione dell’estensione B2B acquisiscono aggiunte e correzi
 >[!NOTE]
 >
 >Consulta [Disponibilità del prodotto](https://experienceleague.adobe.com/it/docs/commerce-operations/release/product-availability) per informazioni sulle versioni dell&#39;estensione B2B Commerce supportate per le versioni disponibili di Adobe Commerce.
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
 ## B2B v1.5.3
 
@@ -1160,3 +1162,5 @@ Questa versione include miglioramenti alle approvazioni degli ordini, ai metodi 
 - Adobe Commerce genera un’eccezione durante l’aggiornamento a B2B 1.2.0 in una distribuzione multisito. Quando viene eseguito `setup:upgrade`, l&#39;errore si verifica nel modulo `PurchaseOrder`: `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **Soluzione**: installare l&#39;interfaccia `B2B-716 Add NonTransactionableInterface` nell&#39;hotfix della patch dati `InitPurchaseOrderSalesSequence`, ora disponibile nella sezione **Il mio account** > **Download** di `magento.com`.
 - Se un codice di sconto scade prima dell&#39;approvazione di un ordine di acquisto (OA), l&#39;OA continua a visualizzare l&#39;importo scontato, ma dopo l&#39;approvazione dell&#39;OA l&#39;ordine viene collocato al totale non scontato. **Soluzione**: installare l&#39;hotfix `B2B-709 Purchase Order Discount patch` per questo problema, ora disponibile nella sezione **Account personale** > **Download** di `magento.com`.
 - Se gli articoli di un ordine di acquisto sono esauriti o la quantità è insufficiente quando l&#39;ordine di acquisto viene convertito in un ordine effettivo, si verifica un errore. Se gli ordini inevasi sono abilitati, l&#39;ordine viene elaborato normalmente.
+
+<!-- Last updated from includes: 2026-10-09 17:06:14 -->
