@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: c855fa4ca30318b8b0256ce67649d3204b3de814
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '515'
 ht-degree: 0%
 ---
 # Regole prezzi carrello
@@ -77,8 +77,8 @@ Le regole di prezzo del carrello applicano sconti agli articoli nel carrello, in
 | [!UICONTROL Status] | Utilizzare questa opzione per filtrare l&#39;elenco in base allo stato della regola (`Active` o `Inactive`). |
 | [!UICONTROL Web Site] | Utilizza questa opzione per filtrare l’elenco in base ai siti web definiti per una regola. |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Fai clic su **[!UICONTROL Edit]** per visualizzare la pagina _[!UICONTROL Rule Information]_&#x200B;e aggiornare le impostazioni della regola (in modo analogo alla creazione di una regola). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilizza i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di inizio per la regola definita al momento della creazione della regola. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilizza i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di fine per la regola definita al momento della creazione della regola. |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source e Adobe Commerce as a Cloud Service) Utilizza i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di inizio per la regola definita al momento della creazione della regola. <br><br>![Adobe Commerce](../assets/adobe-logo.svg) (solo [!DNL Adobe Commerce as a Cloud Service]) Utilizza i campi del calendario dinamico (A: e Da:) per filtrare l&#39;elenco in base alla data e all&#39;ora di inizio della regola. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source e Adobe Commerce as a Cloud Service) Utilizza i campi del calendario dinamico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) per filtrare l&#39;elenco in base alla data di fine per la regola definita al momento della creazione della regola. <br><br>![Adobe Commerce](../assets/adobe-logo.svg) (solo [!DNL Adobe Commerce as a Cloud Service]) Utilizza i campi del calendario dinamico (A: e Da:) per filtrare l&#39;elenco in base alla data e all&#39;ora di fine della regola. |
 
 {style="table-layout:auto"}
 
