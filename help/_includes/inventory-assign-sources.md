@@ -3,11 +3,9 @@ title: Magazzino - Assegna origini e quantità
 description: Sezione riutilizzata sull’assegnazione di origini e quantità durante la creazione di prodotti catalogo.
 source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 # Magazzino - Assegna origini e quantità
 
 Per i commercianti con più origini che utilizzano [[!DNL Inventory Management]](../inventory-management/introduction.md), scorri verso il basso fino alla sezione **Origini** e assegna origini e quantità:
