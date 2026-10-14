@@ -127,7 +127,7 @@ Adobe Commerce e Magento Open Source forniscono una serie di strumenti per aiuta
 
 ## Ottimizzazione dei processi aziendali e della redditività
 
-- **[!DNL Advanced Reporting]** - Ottieni informazioni preziose con i report dinamici su prodotti, ordini e clienti basati su [Business Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started).
+- **[!DNL Advanced Reporting]** - Ottieni informazioni preziose con i report dinamici su prodotti, ordini e clienti basati su [Business Intelligence](https://experienceleague.adobe.com/it/docs/commerce-business-intelligence/mbi/getting-started).
 
 - **Snapshot del dashboard** - Per massimizzare il budget di marketing è fondamentale sapere cosa è di tuo interesse sul sito. Utilizza queste [informazioni sul tuo dashboard](admin-dashboard.md) per determinare cosa devi effettuare tra e vendere ai clienti fedeli o quali prodotti mettere in vendita.
 
