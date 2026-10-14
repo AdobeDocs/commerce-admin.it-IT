@@ -3,7 +3,7 @@ title: Pagine
 description: Scopri i dettagli sulle pagine di contenuto di base incluse nell'archivio demo di [!DNL Commerce] e modifica della configurazione Pagine predefinite.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: 'https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -41,7 +41,7 @@ Il contenuto può essere visualizzato in termini di durata, come qualsiasi prodo
 
 I contenuti con una lunga durata di conservazione sono talvolta denominati _contenuti sempreverdi_. Esempi di contenuti fissi includono storie di successo dei clienti, _istruzioni su_ e domande frequenti (FAQ). Al contrario, i contenuti che per loro natura sono deperibili includono eventi, notizie del settore e comunicati stampa.
 
-![Pagina Informazioni su di noi inclusa nell&#39;archivio Luma di esempio &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}
+![Pagina Informazioni su di noi inclusa nell&#39;archivio Luma di esempio ](./assets/storefront-about-us.png){width="700" zoomable="yes"}
 
 ## Pagine contenuto core
 
@@ -112,7 +112,7 @@ La configurazione di _Pagine predefinite_ determina la pagina di destinazione as
 
    >[!NOTE]
    >
-   >Per una visualizzazione archivio specifica, deselezionare la casella di controllo **[!UICONTROL Use Default]** accanto a _[!UICONTROL Default Web URL]_&#x200B;ed eventuali altre impostazioni predefinite da modificare.
+   >Per una visualizzazione archivio specifica, deselezionare la casella di controllo **[!UICONTROL Use Default]** accanto a _[!UICONTROL Default Web URL]_ed eventuali altre impostazioni predefinite da modificare.
 
 1. Impostare **[!UICONTROL CMS Home Page]** sulla pagina CMS da utilizzare come home page. Altre pagine create possono essere utilizzate come home page, ad esempio:
 
