@@ -178,7 +178,7 @@ I passaggi seguenti mostrano come aggiungere configurazioni per più varianti. L
 
 ### Passaggio 6: scegliere gli attributi di variante
 
-1. Scorri verso il basso fino alla sezione _[!UICONTROL Configurations]_&#x200B;e fai clic su **[!UICONTROL Create Configurations]**.
+1. Scorri verso il basso fino alla sezione _[!UICONTROL Configurations]_e fai clic su **[!UICONTROL Create Configurations]**.
 
    ![Configurazioni](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -282,7 +282,7 @@ _Singoli commercianti Source :_
 
 Immettere **[!UICONTROL Quantity]**.
 
-_Più commercianti Source che utilizzano [Inventory management &#x200B;](../inventory-management/introduction.md):_
+_Più commercianti Source che utilizzano [Inventory management ](../inventory-management/introduction.md):_
 
 Assegna origini e aggiungi quantità per tutte le varianti prodotto generate:
 
@@ -302,7 +302,7 @@ _Singoli commercianti Source :_
 
 Immettere **[!UICONTROL Quantity]** per ogni valore di attributo.
 
-_Più commercianti Source che utilizzano [Inventory management &#x200B;](../inventory-management/introduction.md):_
+_Più commercianti Source che utilizzano [Inventory management ](../inventory-management/introduction.md):_
 
 Assegna origini e aggiungi quantità per tutte le varianti prodotto generate:
 
