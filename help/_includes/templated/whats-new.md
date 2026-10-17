@@ -1,7 +1,7 @@
 ---
-source-git-commit: 104cd926fa6ec987613694d0960b66cfc30dfc1b
+source-git-commit: e114ec8857feefd8cd9db5a9b8ed7f0f39e135d1
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '549'
 ht-degree: 1%
 ---
 # Nuovo modello
@@ -9,6 +9,36 @@ ht-degree: 1%
 ## Novità
 
 Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Da questo elenco sono esclusi tutti gli aggiornamenti minori, ad esempio la modifica della copia.
+
+### 13 ottobre 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Sono stati aggiunti dettagli sul problema fisso Adobe Commerce B2B 1.5.4-alpha1 alle <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/release-notes">note sulla versione B2B</a>, raggruppate per componente con riferimenti GitHub disponibili.</p>
+</td>
+      <td>
+        Note sulla versione
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1e12f5ec4271d0f11872bfca56e73efa843aba82">commit</a></td>
+    </tr>
+    <tr>
+      <td><p>Aggiornamento di <a href="https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/products/catalog-enrichment">Arricchimento del catalogo</a> con istruzioni sull'accesso all'arricchimento del catalogo tramite Adobe IMS, chiarimento della distinzione tra l'organizzazione Commerce IMS e l'organizzazione titolare del diritto Adobe Brand Visibility e aggiornamento delle schermate.</p>
+</td>
+      <td>
+        Aggiornamento principale
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/071b39214ebbd52a656e2f9278dc6696455cb856">commit</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 8 ottobre 2026
 
