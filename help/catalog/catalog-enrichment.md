@@ -3,6 +3,7 @@ title: Arricchimento del catalogo
 description: Utilizza la funzionalità di arricchimento nativo del catalogo in Adobe Commerce per rivedere e applicare i miglioramenti suggeriti dall’intelligenza artificiale ai nomi dei prodotti e alle descrizioni lunghe per l’individuazione basata su LLM e sull’intelligenza artificiale.
 role: Admin, User, Leader
 recommendations: noCatalog
+touch: true
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
@@ -39,7 +40,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
+source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 0%
