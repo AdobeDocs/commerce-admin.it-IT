@@ -86,7 +86,7 @@ Quando lo stato dei nuovi ordini è impostato su `Processing`, l&#39;opzione _Fa
 >
 >Le fatture non vengono create automaticamente per gli ordini effettuati utilizzando `Gift Card`, `Store Credit`, `Reward Points` o altri metodi di pagamento offline.
 
-È necessario generare una fattura per l&#39;ordine prima di stamparlo. Per visualizzare o stampare il PDF, scaricare e installare un lettore PDF come [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Ottieni Adobe Reader").
+È necessario generare una fattura per l&#39;ordine prima di stamparlo. Per visualizzare o stampare il PDF, scaricare e installare un lettore PDF come [Adobe Acrobat Reader](https://www.adobe.com/it/acrobat/pdf-reader.html "Ottieni Adobe Reader").
 
 **_Fatturare un ordine:_**
 
@@ -154,7 +154,7 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 >[!NOTE]
 >
->Per visualizzare o stampare il PDF, è necessario disporre di un lettore PDF. Puoi scaricare [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Ottieni Adobe Reader") gratuitamente.
+>Per visualizzare o stampare il PDF, è necessario disporre di un lettore PDF. Puoi scaricare [Adobe Reader](https://www.adobe.com/it/acrobat/pdf-reader.html "Ottieni Adobe Reader") gratuitamente.
 
 ### Stampa una singola fattura
 
