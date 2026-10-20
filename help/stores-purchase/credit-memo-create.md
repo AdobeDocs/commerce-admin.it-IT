@@ -305,7 +305,7 @@ Il metodo di pagamento utilizzato per l&#39;ordine determina i pulsanti di rimbo
 
 ## Stampa una nota di credito
 
-Per stampare o visualizzare la nota di credito completata, è necessario che sia installato un lettore PDF. Puoi scaricare [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Ottieni Adobe Reader") gratuitamente.
+Per stampare o visualizzare la nota di credito completata, è necessario che sia installato un lettore PDF. Puoi scaricare [Adobe Reader](https://www.adobe.com/it/acrobat/pdf-reader.html "Ottieni Adobe Reader") gratuitamente.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 
