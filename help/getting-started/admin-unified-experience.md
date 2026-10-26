@@ -4,7 +4,7 @@ description: Scopri in che modo i clienti di Adobe Commerce as a Cloud Service p
 feature: Admin Workspace
 role: Admin, User
 level: Beginner
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -55,7 +55,7 @@ Dopo aver effettuato l&#39;accesso ad [Adobe Experience Cloud](https://experienc
 Il flusso di accesso consente di spostarsi tra le istanze di Commerce senza accedere separatamente a ciascuna istanza.
 Puoi passare dai prodotti Adobe alle istanze Commerce senza ulteriori richieste di accesso.
 
-Per la procedura di accesso, vedere [Accedere a un&#39;istanza](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"} nella _Guida di Adobe Commerce as a Cloud Service_.
+Per la procedura di accesso, vedere [Accedere a un&#39;istanza](https://experienceleague.adobe.com/it/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"} nella _Guida di Adobe Commerce as a Cloud Service_.
 
 >[!BEGINTABS]
 
@@ -172,7 +172,7 @@ Utilizza il commutatore prodotto (![Commutatore prodotto](./assets/admin-unified
 
 >[!ENDTABS]
 
-Per la gestione degli utenti e dei ruoli di Adobe Commerce as a Cloud Service, consulta [Gestione utenti](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management){target="_blank"}.
+Per la gestione degli utenti e dei ruoli di Adobe Commerce as a Cloud Service, consulta [Gestione utenti](https://experienceleague.adobe.com/it/docs/commerce/cloud-service/user-management){target="_blank"}.
 
 ### Cambia istanze Commerce
 
@@ -278,4 +278,4 @@ Le pagine dell’amministratore di Commerce hanno un aspetto aggiornato che corr
 
 >[!MORELIKETHIS]
 >
->[Guida all&#39;amministrazione e all&#39;interfaccia di Adobe CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
+>[Guida all&#39;amministrazione e all&#39;interfaccia di Adobe CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud)
