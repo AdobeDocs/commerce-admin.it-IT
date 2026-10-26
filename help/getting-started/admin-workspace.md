@@ -5,26 +5,35 @@ exl-id: 61cc53ab-e1c5-4349-b306-a15eb7c5ab57
 TQID: https://experienceleague.adobe.com/RGT21TI5joLEYx3fiOErU5ZoIrXsq0nqZpnI8c40hz4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # Strumenti di amministrazione e area di lavoro
+
+{{$include /help/_includes/admin-unified-experience-note.md}}
 
 L’area di lavoro di amministrazione consente di accedere a tutti gli strumenti, i dati e il contenuto utilizzati per eseguire lo store. La pagina di avvio predefinita può essere impostata nella configurazione. Molte pagine Amministratore dispongono di una griglia che elenca i dati della sezione, con un set di strumenti per cercare, ordinare, filtrare, selezionare e applicare azioni. Per impostazione predefinita, [Dashboard](admin-dashboard.md) è la pagina di avvio per l&#39;amministratore. Tuttavia, è possibile scegliere qualsiasi altra pagina da visualizzare come pagina di avvio al momento dell&#39;accesso. Puoi fare clic sul logo nella barra laterale Amministratore per tornare alla pagina di avvio dell’Amministratore.
 
@@ -63,7 +72,7 @@ Per trovare un record nel database, utilizzare l&#39;icona della lente di ingran
 
 ## Modificare la pagina di avvio dell&#39;amministratore
 
-Il [dashboard](admin-workspace.md#the-dashboard) è la pagina di avvio predefinita per l&#39;amministratore, anche se è possibile configurare una pagina di avvio diversa.
+La dashboard è la pagina di avvio predefinita per l’amministratore, anche se è possibile configurare una pagina di avvio diversa.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
