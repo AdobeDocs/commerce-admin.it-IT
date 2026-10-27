@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -225,7 +225,7 @@ Dopo aver installato l&#39;estensione [!DNL Audience Activation], è necessario 
    >
    >Quando specifichi un ID dello stream di dati, [associalo a un sito Web specifico](https://experienceleague.adobe.com/it/docs/commerce/data-connection/fundamentals/connect-data#data-collection) nell&#39;estensione [!DNL Data Connection]. Se il tuo archivio Commerce dispone di più siti Web, [crea una destinazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/connect-destination) per ciascun sito Web in Real-Time CDP e utilizza un ID dello stream di dati diverso per ciascuno di essi.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Espandere **[!UICONTROL Services]** e selezionare **[!UICONTROL [!DNL Data Connection]]**.
 
@@ -448,7 +448,7 @@ Ad esempio:
 ### Tipo di autenticazione non corretto selezionato nella configurazione
 
 1. Apri l’istanza di Commerce.
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. Espandere **[!UICONTROL Services]** e selezionare **[!UICONTROL [!DNL Data Connection]]**.
 1. Verificare che il metodo di autorizzazione server-to-server specificato nel campo **[!UICONTROL Authentication Type]** sia corretto. Adobe consiglia di utilizzare **OAuth**. [JWT è stato dichiarato obsoleto](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), con tutti i certificati correnti in scadenza entro il 1 marzo 2026.
 

@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Quando i clienti dimenticano le password, viene inviato un collegamento di reimp
 
 Puoi configurare il negozio in modo da reindirizzare i clienti al dashboard dell’account dopo che hanno effettuato l’accesso o da farli continuare a fare acquisti.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Customer Configuration]**.
 

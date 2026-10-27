@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # Fatture
 
 Una fattura è una registrazione del pagamento di un ordine. Più fatture possono essere [create](#create-an-invoice) per un singolo ordine e ciascuna può includere un numero pari o inferiore di prodotti acquistati specificati. È inoltre possibile creare [fatture PDF pronte per la stampa](#print-invoices) come documenti di vendita per i clienti.
 
-Nella barra laterale _Amministratore_, vai a **[!UICONTROL Sales]** > _Operazioni_ > **Fatture** per aprire la griglia _Fatture_ e accedere alle fatture create.
+Nella barra laterale _Amministratore_, vai a **[!UICONTROL Sales]** > **[!UICONTROL Invoices]** per aprire la griglia _Fatture_ e accedere alle fatture create.
 
 ![Griglia fatture](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Quando lo stato dei nuovi ordini è impostato su `Processing`, l&#39;opzione _Fa
 
 **_Fatturare un ordine:_**
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Trovare l&#39;ordine cliente con stato `Processing` nella griglia. Quindi, effettua le seguenti operazioni:
 
@@ -158,7 +158,7 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 ### Stampa una singola fattura
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. Nella griglia _[!UICONTROL Invoices]_, individuare la fattura e fare clic su **[!UICONTROL View]**&#x200B;nella colonna_ Azione _.
 
@@ -168,7 +168,7 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 ### Stampa più fatture
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. Nella griglia _[!UICONTROL Invoices]_&#x200B;selezionare la casella di controllo per ogni fattura da stampare.
 

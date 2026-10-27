@@ -1,19 +1,17 @@
 ---
 user-guide-title: Guida introduttiva per l’amministratore di Adobe Commerce
-user-guide-description: Se hai poca esperienza con l'amministratore di Adobe Commerce o Magento Open Source, scopri le risorse dell'ecosistema  [!DNL Commerce] , segui il percorso clienti per esplorare il tuo store e scopri le funzioni chiave dell'amministratore.
+user-guide-description: Se hai poca esperienza con l'amministratore di Adobe Commerce o Magento Open Source, scopri le risorse dell'ecosistema [!DNL Commerce], segui il percorso di clienti per esplorare il tuo store e scopri le funzioni chiave dell'amministratore.
 breadcrumb-title: Guida introduttiva
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
 color: red
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
-
 ---
-
 
 # Guida introduttiva per l’amministratore di Adobe Commerce {#start}
 
@@ -40,6 +38,7 @@ ht-degree: 0%
   + [Accessibilità](navigation-accessibility.md)
 + L’Amministratore {#admin}
   + [Che cos’è l’amministratore?](admin.md)
+  + [Amministratore esperienza unificato](admin-unified-experience.md)
   + [Account utente amministratore](admin-signin.md)
   + Integrazione con Adobe Identity Management Service (IMS) {#ims}
     + [Panoramica dell’integrazione IMS](adobe-ims-integration-overview.md)

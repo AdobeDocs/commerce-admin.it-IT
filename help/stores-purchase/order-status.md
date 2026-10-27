@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Oltre alle impostazioni predefinite per lo stato dell&#39;ordine, è possibile c
 
 ### Creare uno stato dell’ordine personalizzato
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Order Status]**.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Create New Status]**.
 
@@ -166,7 +166,7 @@ I clienti possono tenere traccia dello stato dei loro ordini in base a [feed RSS
 
 ### Abilita notifica stato ordine
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL RSS Feeds]** sotto.
 
@@ -180,7 +180,7 @@ I clienti possono tenere traccia dello stato dei loro ordini in base a [feed RSS
 
 ### Configurare le notifiche e-mail per i nuovi ordini
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Sales Emails]** sotto.
 

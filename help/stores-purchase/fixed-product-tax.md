@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Le seguenti istruzioni mostrano come impostare un&#39;imposta fissa sui prodotti
 
 ### Passaggio 1: abilitare l&#39;imposta sul prodotto fissa
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Tax]**.
 
@@ -101,7 +101,7 @@ Le seguenti istruzioni mostrano come impostare un&#39;imposta fissa sui prodotti
 
 ### Passaggio 2: creare un attributo FPT
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Attribute]** ed eseguire le operazioni seguenti:
 
@@ -131,7 +131,7 @@ Le seguenti istruzioni mostrano come impostare un&#39;imposta fissa sui prodotti
 
 ### Passaggio 3: aggiungere l&#39;attributo FPT a una serie di attributi
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Attribute Set]**.
 
 1. Nell&#39;elenco fare clic sul set di attributi per aprire il record in modalità di modifica.
 

@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Per impostazione predefinita, Adobe Commerce e Magento Open Source possono esser
 
 ## Configurare l’URL di base
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. In _Generale_ nel pannello a sinistra, scegli **[!UICONTROL Web]**.
 
@@ -142,7 +142,7 @@ Se il dominio dispone di un certificato di sicurezza valido, puoi configurare gl
 >
 >Quando l&#39;opzione _Aggiungi codice store agli URL_ è impostata su `Yes`, è necessario includere i codici store negli URL del browser. Questa impostazione assicura che le riscritture URL siano mappate correttamente e che tutte le pagine siano aperte correttamente, senza _&quot;404 Pagina non trovata&quot;_ errori.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. In _[!UICONTROL General]_&#x200B;nel pannello a sinistra, scegli **[!UICONTROL Web]**.
 
@@ -190,7 +190,7 @@ Anche se è possibile modificare l’URL e il percorso dell’amministratore in 
 
 ### Metodo 1: Cambiare da Amministratore
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Advanced]** e scegli **[!UICONTROL Admin]**.
 

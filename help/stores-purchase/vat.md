@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 0%
@@ -71,7 +71,7 @@ In talune operazioni tra imprese, l’IVA non viene calcolata. Commerce può con
 
 Il processo di creazione di una regola fiscale inizia con l&#39;aggiunta di un&#39;aliquota.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    ![Imposta classi imposta cliente](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ In base all&#39;aliquota fiscale sottomessa, è possibile creare regole fiscali 
 
 ### Passaggio 2: impostare le classi di imposta prodotto
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Fare clic su **[!UICONTROL Add New Tax Rule]**.
 
@@ -117,7 +117,7 @@ In base all&#39;aliquota fiscale sottomessa, è possibile creare regole fiscali 
 
 ### Passaggio 3: Impostare aree e aliquote fiscali
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    In questo esempio è possibile rimuovere le aliquote fiscali statunitensi o lasciarle invariate.
 
@@ -145,7 +145,7 @@ In base all&#39;aliquota fiscale sottomessa, è possibile creare regole fiscali 
 
 Una regola fiscale è una combinazione di una classe fiscale cliente, una classe fiscale prodotto e un&#39;aliquota.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Aggiungere nuove regole fiscali come segue:
 
@@ -167,7 +167,7 @@ Una regola fiscale è una combinazione di una classe fiscale cliente, una classe
 
 ### Passaggio 5: applicare le classi di imposta ai prodotti
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Apri un prodotto dal catalogo in modalità di modifica.
 
@@ -308,7 +308,7 @@ Crea le [regole fiscali](tax-rules.md) per utilizzare correttamente la convalida
 
 #### Passaggio 3: abilitare e configurare la convalida dell’ID IVA
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Se necessario, impostare **[!UICONTROL Store View]** per la configurazione.
 

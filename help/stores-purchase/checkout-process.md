@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Gli utenti amministratori possono modificare il numero massimo di elementi visua
 
 ![Numero di elementi visualizzati nel riepilogo ordini](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 
@@ -151,7 +151,7 @@ Per una descrizione dettagliata di ciascuna di queste impostazioni di configuraz
 
 ### Modificare le opzioni di pagamento
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 1. Impostate una delle seguenti opzioni necessarie.
 1. Fare clic su **[!UICONTROL Save Config]**.

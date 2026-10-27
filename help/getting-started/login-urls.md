@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # Credenziali di accesso e URL
@@ -53,6 +53,10 @@ L&#39;indirizzo per [storefront](storefront.md) è in genere il dominio assegnat
 Se non disponi ancora di un dominio, l&#39;URL dello store include una serie di quattro numeri, ciascuno separato da un punto nella notazione _dotted quad_.
 
 ## URL amministratore
+
+>[!NOTE]
+>
+>Per Adobe Commerce as a Cloud Service, scarica i collegamenti amministratore da Commerce Cloud Manager. Consulta [Scegliere un&#39;interfaccia amministratore](admin-unified-experience.md#classic-ui) per le opzioni di accesso e i formati URL. Gli esempi di URL basati sull’installazione riportati di seguito non si applicano ad Adobe Commerce as a Cloud Service.
 
 L&#39;indirizzo dell&#39;archivio [Admin](admin.md) è configurato durante l&#39;installazione. L&#39;indirizzo predefinito è lo stesso del tuo archivio, ma con `/admin` alla fine. Sebbene gli esempi in questa guida utilizzino la directory predefinita, è consigliabile eseguire l’amministratore da una posizione univoca dell’archivio.
 

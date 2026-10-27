@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Il primo passo è scegliere come posizionare il negozio. Gli archivi devono cond
 
 ### Passaggio 2: creare il negozio
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Fare clic su **[!UICONTROL Create Store]** e impostare le opzioni per il nuovo archivio:
 
@@ -109,7 +109,7 @@ Il primo passo è scegliere come posizionare il negozio. Gli archivi devono cond
 
 ### Passaggio 4: configurare l’URL dello store
 
-1. Nella barra laterale _Admin_, fare clic su **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, fai clic su **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. In _[!UICONTROL General]_&#x200B;nel pannello a sinistra, scegli **[!UICONTROL Web]**.
 
@@ -150,7 +150,7 @@ Le installazioni multisito di Adobe Commerce o Magento Open Source devono essere
 
 ### Passaggio 1: creare un sito Web
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Create Website]**.
 

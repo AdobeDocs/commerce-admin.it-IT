@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '233'
 ht-degree: 0%
 ---
 # Pagamento per gli ospiti
@@ -38,7 +38,7 @@ Il tuo negozio può essere configurato per richiedere agli acquirenti di aprire 
 
 **_Per disabilitare l&#39;estrazione guest:_**
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 
@@ -66,4 +66,4 @@ Una configurazione facoltativa a livello di negozio, disabilitata per impostazio
 
 Quando questa opzione è attivata, gli ordini di pagamento dei clienti inseriti con un messaggio e-mail registrato rimangono accessibili e vengono visualizzati anche nella cronologia degli ordini del cliente.
 
-Per abilitare questa funzione, passa a **Archivi** > Impostazioni > **Configurazione** > Vendite > **Vendite** > **Pagamento per gli ospiti** e imposta l&#39;impostazione **Consenti accesso agli ordini per gli ospiti per le e-mail registrate** su `Yes`.
+Per abilitare questa funzionalità, passare a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Guest Checkout]** e impostare l&#39;impostazione **[!UICONTROL Allow Guest Order Access for Registered Emails]** su `Yes`.

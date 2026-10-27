@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 ---
 # Applica credito negozio
@@ -56,7 +56,7 @@ Gli amministratori del Negozio possono visualizzare il saldo e la cronologia del
 
 ## Aggiorna saldo credito negozio
 
-1. Nella barra laterale _Admin_, vai a **[!UICONTROL Customers]** > _Operazioni_ > **[!UICONTROL All Customers]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Individuare il cliente nella griglia.
 

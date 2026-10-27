@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Prima di importare i tassi di valuta, completare l&#39;[impostazione dei tassi d
 
 ## Aggiornare manualmente un tasso di valuta
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Currency Rates]**.
 
 1. Fare clic sul tasso che si desidera modificare e immettere il nuovo valore per ogni valuta supportata.
 
@@ -50,7 +50,7 @@ Prima di importare i tassi di valuta, completare l&#39;[impostazione dei tassi d
 
 ## Importa tassi di valuta
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Currency Rates]**.
 
 1. Impostare **[!UICONTROL Import Service]** sul provider del tasso di valuta.
 

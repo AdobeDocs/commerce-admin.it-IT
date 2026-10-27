@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Nel server, la durata della sessione è controllata dal file `php.ini` e da dive
 
 ## Configurare la durata del cookie
 
-1. Nella barra laterale _Admin_, vai a [!UICONTROL **Archivi**] > _[!UICONTROL Settings]_>[!UICONTROL **Configurazione**].
+1. Nella barra laterale _Admin_, vai a [!UICONTROL **Archivi**] > [!UICONTROL **Configurazione**].
 
 1. Se sono presenti più archivi, impostare il selettore **[!UICONTROL Store View]** nell&#39;angolo superiore destro sull&#39;archivio in cui si applica la configurazione.
 
@@ -73,7 +73,7 @@ Nel server, la durata della sessione è controllata dal file `php.ini` e da dive
 
 Per semplificare l&#39;accesso, la funzione **[!UICONTROL Remember Me]** consente ai titolari di account utente di evitare di immettere le proprie credenziali ogni volta che accedono alla vetrina. Per motivi di sicurezza, la funzione di persistenza è disattivata per impostazione predefinita.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Persistent Shopping Cart]**.
 

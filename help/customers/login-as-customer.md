@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1188'
 ht-degree: 0%
 ---
 # Fornire assistenza agli acquirenti
@@ -81,7 +81,7 @@ Per abilitare _l&#39;accesso come cliente_ è necessario abilitare la funzionali
 
 ### Abilita la funzione
 
-1. Nella barra laterale di amministrazione, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale di amministrazione, vai a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Login as Customer]**.
 
@@ -101,7 +101,7 @@ Per abilitare _l&#39;accesso come cliente_ è necessario abilitare la funzionali
 
 ### Abilitare l’accesso per gli utenti amministratori
 
-1. Nella barra laterale _Admin_, vai a **[!UICONTROL System]** > _Autorizzazioni_ > **[!UICONTROL User Roles]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > **[!UICONTROL User Roles]**.
 
 1. Fare clic sul ruolo nell&#39;elenco.
 

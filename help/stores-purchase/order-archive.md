@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -48,7 +48,7 @@ L&#39;archiviazione degli ordini migliora regolarmente le prestazioni e consente
 
 È possibile configurare lo store per archiviare ordini, fatture, spedizioni e note di credito dopo un determinato numero di giorni. È possibile spostare gli ordini e i documenti associati nell&#39;archivio o ripristinarli allo stato precedente. Gli ordini archiviati non vengono eliminati e rimangono disponibili dall’amministratore. I dati archiviati possono essere esportati in un file CSV e aperti in un foglio di calcolo. Se abilitata, l&#39;azione _Archivio_ viene visualizzata nella parte superiore dell&#39;area di lavoro.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi la sezione **[!UICONTROL Sales]** e scegli **[!UICONTROL Sales]** sotto.
 
@@ -139,7 +139,7 @@ Selezionare ogni documento come destinazione dell&#39;azione e scegliere uno dei
 
 ## Archivia manualmente gli ordini
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Per selezionare l&#39;ordine nella griglia, selezionare la casella di controllo nella prima colonna.
 
@@ -157,7 +157,7 @@ Selezionare ogni documento come destinazione dell&#39;azione e scegliere uno dei
 
    - Nella barra del pulsante sopra la griglia _[!UICONTROL Orders]_, fare clic su **[!UICONTROL Go to Archive]**.
 
-   - Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**.
+   - Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ Selezionare ogni documento come destinazione dell&#39;azione e scegliere uno dei
 >
 >Un ordine ripristinato da un ordine archiviato viene archiviato nuovamente in base al numero di giorni configurati nell&#39;impostazione [!UICONTROL Archive Orders Purchased] (vedere [Configurare l&#39;archivio ordini](#configure-the-order-archive)). Il numero di giorni viene calcolato rispetto alla data [!UICONTROL Updated At] per l&#39;ordine, che viene modificata quando l&#39;ordine viene spostato dall&#39;archivio.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Nella barra dei pulsanti fare clic su **[!UICONTROL Go to Archive]**.
 
@@ -187,6 +187,6 @@ Cercare il messaggio che indica che l&#39;ordine archiviato è stato rimosso dal
 
 ## Esporta ordine archiviato
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Nel menu Azioni fare clic su **[!UICONTROL Export]** e selezionare il formato desiderato.

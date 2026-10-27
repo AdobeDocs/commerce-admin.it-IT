@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Segui le istruzioni standard per l’installazione dell’estensione Language Pa
 
 ## Passaggio 2: creare una visualizzazione Store per la lingua
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Fare clic su **[!UICONTROL Create Store View]**.
 
@@ -62,7 +62,7 @@ Segui le istruzioni standard per l’installazione dell’estensione Language Pa
 
 ## Passaggio 3: modificare le impostazioni locali della visualizzazione archivio
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel menu a discesa **[!UICONTROL Scope]**, selezionare la visualizzazione archivio da configurare e fare clic su **[!UICONTROL OK]** quando richiesto.
 
@@ -102,7 +102,7 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
 
 ### Passaggio 2: tradurre le etichette dei campi
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Nell’elenco, individua l’attributo da tradurre e apri in modalità di modifica.
 
@@ -148,7 +148,7 @@ Se il negozio dispone di più visualizzazioni in lingue diverse, gli stessi prod
 
 ### Passaggio 4: opzioni di traduzione attributi prodotto e attributi
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Seleziona l’attributo da tradurre.
 

@@ -48,12 +48,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1270'
 ht-degree: 0%
 ---
 # Account amministratore
+
+>[!NOTE]
+>
+>Per Adobe Commerce as a Cloud Service, accedi tramite Adobe Experience Cloud e apri un’istanza da Commerce Cloud Manager. Consulta [Amministratore Commerce in Adobe Unified Experience](admin-unified-experience.md#open-the-commerce-admin) per informazioni sull&#39;accesso e [Gestione utenti](https://experienceleague.adobe.com/it/docs/commerce/cloud-service/user-management) per la gestione di utenti e ruoli di Adobe Commerce as a Cloud Service. L’account basato sull’installazione e le istruzioni di accesso locali riportate di seguito non descrivono il flusso di accesso di Adobe Commerce as a Cloud Service.
 
 L&#39;account Admin primario è stato inizialmente configurato durante l&#39;installazione e potrebbe contenere informazioni iniziali sui segnaposto o dati di esempio. Il proprietario designato di questo account può personalizzare il nome utente e la password e aggiornare il nome, il cognome e l’indirizzo e-mail in qualsiasi momento. Questo account, un _utente privilegiato_ con tutte le autorizzazioni per impostazione predefinita, in genere crea gli account utente amministratore necessari per l&#39;azienda.
 

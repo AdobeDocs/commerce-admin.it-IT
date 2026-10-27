@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Il punto di origine viene utilizzato per calcolare l&#39;addebito per le spedizi
 
 ![Origine](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Shipping Settings]**.
 
@@ -64,7 +64,7 @@ La politica di spedizione deve spiegare le regole commerciali e le linee guida a
 
 Per visualizzare le regole di spedizione durante il pagamento, completare la sezione Parametri delle regole di spedizione nella configurazione. Il testo viene visualizzato quando i clienti fanno clic su _Consulta i nostri criteri di spedizione_ durante l&#39;estrazione.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Shipping Settings]**.
 
@@ -86,7 +86,7 @@ Per visualizzare le regole di spedizione durante il pagamento, completare la sez
 
 Le opzioni di spedizione con più indirizzi consentono ai clienti di spedire un ordine a più indirizzi durante il pagamento e di determinare il numero massimo di indirizzi a cui un ordine può essere spedito.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Multishipping Settings]**.
 
@@ -119,7 +119,7 @@ Sono supportati i seguenti vettori di spedizione:
 
 Per abilitare o modificare gli URL di tracciamento personalizzati:
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Shipping Settings]**.
 
