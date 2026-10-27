@@ -73,6 +73,7 @@ Per la procedura di accesso, vedere [Accedere a un&#39;istanza](https://experien
 >[!ENDTABS]
 
 -->
+
 ### Scegli un’interfaccia amministratore {#classic-ui}
 
 Per la versione iniziale dell’amministratore di Commerce in Unified Experience, Adobe Commerce as a Cloud Service supporta due esperienze amministratore di Commerce, Adobe Unified Experience e l’interfaccia classica.
