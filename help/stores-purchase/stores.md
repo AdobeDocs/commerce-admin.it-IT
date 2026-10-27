@@ -111,7 +111,7 @@ Il primo passo è scegliere come posizionare il negozio. Gli archivi devono cond
 
 1. Nella barra laterale _Admin_, fai clic su **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
-1. In _[!UICONTROL General]_nel pannello a sinistra, scegli **[!UICONTROL Web]**.
+1. In _[!UICONTROL General]_&#x200B;nel pannello a sinistra, scegli **[!UICONTROL Web]**.
 
 1. Nell&#39;angolo in alto a sinistra, impostare **[!UICONTROL Store View]** sulla visualizzazione creata per il nuovo archivio.
 
@@ -180,7 +180,7 @@ Le installazioni multisito di Adobe Commerce o Magento Open Source devono essere
 
 ### Passaggio 2: configurare l’URL dello store
 
-Per configurare gli URL dell&#39;archivio [](store-urls.md), seguire le istruzioni.
+Per configurare gli URL dell&#39;archivio [&#128279;](store-urls.md), seguire le istruzioni.
 
 ### Passaggio 3: configurare il server
 
