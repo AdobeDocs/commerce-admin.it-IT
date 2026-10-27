@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Oltre alle impostazioni predefinite per lo stato dell&#39;ordine, è possibile c
 
 ### Creare uno stato dell’ordine personalizzato
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Order Status]**.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Create New Status]**.
 
@@ -104,7 +104,7 @@ Oltre alle impostazioni predefinite per lo stato dell&#39;ordine, è possibile c
 
    - Per **[!UICONTROL Status Label]**, immettere un&#39;etichetta che identifichi l&#39;impostazione dello stato sia in Admin che in storefront.
 
-1. Nella sezione _[!UICONTROL Store View Specific Labels]_&#x200B;immettere le etichette necessarie per le diverse visualizzazioni dello store.
+1. Nella sezione _[!UICONTROL Store View Specific Labels]_immettere le etichette necessarie per le diverse visualizzazioni dello store.
 
 1. Fare clic su **[!UICONTROL Save Status]**.
 
@@ -152,13 +152,13 @@ Oltre alle impostazioni predefinite per lo stato dell&#39;ordine, è possibile c
 
 1. Nella griglia _[!UICONTROL Order Status]_, trovare il record dello stato dell&#39;ordine da annullare l&#39;assegnazione.
 
-1. Nella colonna _[!UICONTROL Action]_&#x200B;all&#39;estrema destra della riga, fare clic sul collegamento **[!UICONTROL Unassign]**.
+1. Nella colonna _[!UICONTROL Action]_all&#39;estrema destra della riga, fare clic sul collegamento **[!UICONTROL Unassign]**.
 
    Nella parte superiore dell’area di lavoro viene visualizzato un messaggio che informa che lo stato dell’ordine è stato revocato. Sebbene l&#39;etichetta dello stato dell&#39;ordine sia ancora visualizzata nell&#39;elenco, non è più assegnata a uno stato. Impossibile eliminare le impostazioni dello stato dell&#39;ordine.
 
 >[!NOTE]
 >
->Se lo stato predefinito dell&#39;ordine viene rimosso dallo stato dell&#39;ordine, _&#x200B;**un altro**&#x200B;_ stato dell&#39;ordine è _&#x200B;**impostato automaticamente**&#x200B;_ come predefinito per questo stato dell&#39;ordine.
+>Se lo stato predefinito dell&#39;ordine viene rimosso dallo stato dell&#39;ordine, _**un altro**_ stato dell&#39;ordine è _**impostato automaticamente**_ come predefinito per questo stato dell&#39;ordine.
 
 ## Notifica
 
@@ -166,7 +166,7 @@ I clienti possono tenere traccia dello stato dei loro ordini in base a [feed RSS
 
 ### Abilita notifica stato ordine
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL RSS Feeds]** sotto.
 
@@ -180,7 +180,7 @@ I clienti possono tenere traccia dello stato dei loro ordini in base a [feed RSS
 
 ### Configurare le notifiche e-mail per i nuovi ordini
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Sales Emails]** sotto.
 

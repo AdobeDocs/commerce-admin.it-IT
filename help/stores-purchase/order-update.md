@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -114,7 +114,7 @@ Il metodo di pagamento determina le azioni di pagamento disponibili. Per ulterio
 
 ## Modificare un ordine in sospeso
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Nella colonna **[!UICONTROL Action]** dell&#39;ordine da modificare fare clic su **[!UICONTROL View]**.
 
@@ -148,7 +148,7 @@ L&#39;annullamento di un ordine ne modifica lo stato da `Pending` a `Canceled`.
 
 1. Nella griglia _[!UICONTROL Orders]_, trovare l&#39;ordine in sospeso da annullare.
 
-1. Nella colonna _[!UICONTROL Action]_&#x200B;fare clic su **[!UICONTROL View]**.
+1. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL View]**.
 
 1. Fare clic su **[!UICONTROL Cancel]** per annullare l&#39;ordine.
 

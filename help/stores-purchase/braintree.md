@@ -3,7 +3,7 @@ title: Braintree
 description: Scopri come impostare Braintree come soluzione di pagamento online nel tuo negozio.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: 'https://experienceleague.adobe.com/UxFg1yY9mnWzuP5pI3N9j4EZ1v34FyED7UQIxVHN42A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2973'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Se hai bisogno di assistenza per le spese impreviste sulla tua carta, visita la pagina [annulla abbonamento](https://helpx.adobe.com/it/manage-account/using/cancel-subscription.html) per assistenza.
+>Se hai bisogno di assistenza per le spese impreviste sulla tua carta, visita la pagina [annulla abbonamento](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) per assistenza.
 
 Braintree offre un’esperienza di pagamento completamente personalizzabile con rilevamento delle frodi e integrazione PayPal. Supporta [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo e metodi di pagamento locali. Braintree riduce il carico di conformità PCI per gli esercenti perché la transazione avviene sul sistema Braintree. L&#39;integrazione di Braintree Payments è stata sviluppata da [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 
@@ -63,13 +63,13 @@ Vai a [Pagamenti Braintree](https://www.braintreepayments.com/) e registrati per
 
 ## Passaggio 2: completare le impostazioni di base
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Payment Methods]**.
 
    - Se nell&#39;installazione di Commerce sono presenti più siti Web, store o visualizzazioni, nell&#39;angolo superiore sinistro scegliere **[!UICONTROL Store View]** in cui applicare la configurazione.
 
-   - Nella sezione _[!UICONTROL Merchant Location]_&#x200B;verificare che **[!UICONTROL Merchant Country]**&#x200B;sia impostato sul percorso dell&#39;azienda.
+   - Nella sezione _[!UICONTROL Merchant Location]_verificare che **[!UICONTROL Merchant Country]**sia impostato sul percorso dell&#39;azienda.
 
 1. In _[!UICONTROL Recommended Solutions]_, nella sezione_[!UICONTROL Braintree Payments] (di [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Note sulla versione](https://support.gene.co.uk/support/solutions/articles/35000278668)_, fare clic su **[!UICONTROL Configure]**.
 
@@ -86,7 +86,7 @@ Vai a [Pagamenti Braintree](https://www.braintreepayments.com/) e registrati per
 1. Imposta **[!UICONTROL Payment Action]** su uno dei seguenti:
 
    - `Authorize Only` - Approva l&#39;acquisto e blocca i fondi. L&#39;importo non viene prelevato dal conto bancario del cliente fino a quando la vendita non viene _acquisita_ dall&#39;esercente.|
-   - `Intent Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente. **_Nota:_**&#x200B;Questo valore era_ Autorizza e acquisisci_ nelle versioni 2.3.x e precedenti.|
+   - `Intent Sale` - L&#39;importo dell&#39;acquisto è autorizzato e immediatamente ritirato dal conto del cliente. **_Nota:_**Questo valore era_ Autorizza e acquisisci_ nelle versioni 2.3.x e precedenti.|
 
 1. Immetti **[!UICONTROL Sandbox Merchant ID / Merchant ID]** dal tuo account Braintree.
 
@@ -285,7 +285,7 @@ Vai a [Pagamenti Braintree](https://www.braintreepayments.com/) e registrati per
 
      >[!NOTE]
      >
-     >PayPal Credit è disponibile solo negli Stati Uniti e nel Regno Unito. Il credito PayPal è disabilitato se il valore selezionato per il campo _[!UICONTROL Merchant Country]_&#x200B;non è `US` o `UK`.
+     >PayPal Credit è disponibile solo negli Stati Uniti e nel Regno Unito. Il credito PayPal è disabilitato se il valore selezionato per il campo _[!UICONTROL Merchant Country]_non è `US` o `UK`.
 
    - Per includere [!DNL PayPal PayLater] come opzione di pagamento con Braintree, impostare **[!UICONTROL Enable PayPal PayLater through Braintree]** su `Yes`.
 

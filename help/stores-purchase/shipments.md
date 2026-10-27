@@ -29,14 +29,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
 ---
 # Spedizioni
 
-Nella griglia _[!UICONTROL Shipments]_&#x200B;sono elencati i record di spedizione di tutte le fatture preparate per la spedizione. È possibile generare un record di spedizione quando un ordine è [fatturato](invoices.md) o successivo.
+Nella griglia _[!UICONTROL Shipments]_sono elencati i record di spedizione di tutte le fatture preparate per la spedizione. È possibile generare un record di spedizione quando un ordine è [fatturato](invoices.md) o successivo.
 
 Adobe Commerce e Magento Open Source supportano la spedizione parziale e completa degli ordini, con opzioni aggiuntive disponibili da [Inventory management](../inventory-management/introduction.md) ed estensioni di terze parti.
 
@@ -101,7 +101,7 @@ Per ogni riga nell&#39;ordine, modificare **[!UICONTROL Qty to Ship]** in base a
 
 1. Fare clic su **[!UICONTROL Ship]**.
 
-1. Scorri verso il basso fino al blocco _[!UICONTROL Payment & Shipping Method]_&#x200B;e fai clic su **[!UICONTROL Add Tracking Number]**.
+1. Scorri verso il basso fino al blocco _[!UICONTROL Payment & Shipping Method]_e fai clic su **[!UICONTROL Add Tracking Number]**.
 
 1. Imposta **[!UICONTROL Carrier]**:
 
@@ -156,7 +156,7 @@ Puoi modificare le informazioni di spedizione e di tracciamento in base alle esi
 
 ## Imposta commenti per le spedizioni
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. In _[!UICONTROL Sales]_, selezionare **[!UICONTROL Sales Email]**.
 
@@ -190,7 +190,7 @@ Prima che una spedizione venga inviata a un vettore, è possibile annullarla apr
 
 1. Nel pannello a sinistra, scegli **[!UICONTROL Shipments]**.
 
-   Se la spedizione può essere annullata, _[!UICONTROL Cancel Shipment]_&#x200B;viene visualizzato come opzione nella barra dei pulsanti superiore.
+   Se la spedizione può essere annullata, _[!UICONTROL Cancel Shipment]_viene visualizzato come opzione nella barra dei pulsanti superiore.
 
 1. Fare clic su **[!UICONTROL Cancel Shipment]**.
 

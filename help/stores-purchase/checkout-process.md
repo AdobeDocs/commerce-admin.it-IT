@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Gli utenti amministratori possono modificare il numero massimo di elementi visua
 
 ![Numero di elementi visualizzati nel riepilogo ordini](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 
@@ -151,7 +151,7 @@ Per una descrizione dettagliata di ciascuna di queste impostazioni di configuraz
 
 ### Modificare le opzioni di pagamento
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 1. Impostate una delle seguenti opzioni necessarie.
 1. Fare clic su **[!UICONTROL Save Config]**.
@@ -175,7 +175,7 @@ Per una descrizione dettagliata di ciascuna di queste impostazioni di configuraz
 | [!UICONTROL Enable Terms and Conditions] | Visualizzazione store | Determina se i clienti devono accettare i [Termini e condizioni](terms-and-conditions.md) della vendita prima di effettuare un acquisto. Opzioni: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Visualizzazione store | Determina la posizione dell&#39;indirizzo di fatturazione durante l&#39;estrazione. Opzioni: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Visualizzazione store | Determina il numero massimo di elementi che possono essere visualizzati nel Riepilogo ordini durante l&#39;estrazione. Il valore predefinito è `10`. |
-| [!UICONTROL Enable Address Search] | Sito Web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) determina se i clienti possono utilizzare la funzionalità [ricerca indirizzi](checkout-address-search.md) per _Spedizione_ e i passaggi _Verifica e pagamenti_. Quando questa funzione è abilitata, utilizzare _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;per impostare il numero di indirizzi salvati necessari per attivare questa funzionalità durante l&#39;estrazione. Opzioni: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Sito Web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) determina se i clienti possono utilizzare la funzionalità [ricerca indirizzi](checkout-address-search.md) per _Spedizione_ e i passaggi _Verifica e pagamenti_. Quando questa funzione è abilitata, utilizzare _[!UICONTROL Number of Customer Addresses Limit]_per impostare il numero di indirizzi salvati necessari per attivare questa funzionalità durante l&#39;estrazione. Opzioni: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Sito Web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Quando la ricerca degli indirizzi è **[!UICONTROL Enabled]**, determina il numero di indirizzi salvati necessari per attivare questa funzionalità durante l&#39;estrazione. Quando il numero di indirizzi salvati del cliente raggiunge o supera questo numero, viene eseguito il rendering solo dell&#39;indirizzo predefinito nei passaggi _Spedizione_ e _Verifica e pagamenti_. Il cliente può utilizzare una funzione di ricerca per modificare l’indirizzo selezionato. Il valore predefinito è 10. |
 
 {style="table-layout:auto"}

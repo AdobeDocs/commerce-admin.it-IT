@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 0%
 ---
 # Segmenti di clienti nelle regole di prezzo
@@ -40,9 +40,9 @@ Un segmento di clienti può essere utilizzato per promozioni mirate associandolo
 
 ![Regola prezzo carrello - segmento cliente di destinazione](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**Per associare un segmento a una regola prezzo carrello:**&#x200B;_
+_**Per associare un segmento a una regola prezzo carrello:**_
 
-1. Nella barra laterale _Amministratore_, passa a **[!UICONTROL Marketing]** > _Promozioni_ > **[!UICONTROL Cart Price Rules]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**.
 
 1. Apri una regola nuova o esistente:
 

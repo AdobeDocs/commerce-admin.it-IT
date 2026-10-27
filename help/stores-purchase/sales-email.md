@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 3%
@@ -48,7 +48,7 @@ Assicurati di aggiornare il modello [intestazione e-mail](../systems/email-templ
 
 ## Passaggio 2: Scegli il tipo di trasmissione
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Sales Emails]**.
 
@@ -61,7 +61,7 @@ Assicurati di aggiornare il modello [intestazione e-mail](../systems/email-templ
    - `Disable` - Invia e-mail di vendita quando attivato da un evento.
    - `Enable` - Invia e-mail di vendita a intervalli regolari predeterminati.
 
-   Il supporto Adobe Commerce consiglia di abilitare l’invio asincrono per migliorare le prestazioni di posizionamento dell’ordine. Consulta [Best practice di configurazione per l&#39;elaborazione degli ordini](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) nella Knowledge Base di supporto di Adobe Commerce.
+   Il supporto Adobe Commerce consiglia di abilitare l’invio asincrono per migliorare le prestazioni di posizionamento dell’ordine. Consulta [Best practice di configurazione per l&#39;elaborazione degli ordini](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) nella Knowledge Base di supporto di Adobe Commerce.
 
 ## Passaggio 3: Completa i dettagli di ogni messaggio e-mail di vendita
 

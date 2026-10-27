@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
@@ -51,11 +51,11 @@ La configurazione della gift card stabilisce le impostazioni predefinite per tut
 
 ### Passaggio 1: configurare le notifiche e-mail
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Gift Cards]**.
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Gift Card Email Settings]_&#x200B;ed effettuare le seguenti operazioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Gift Card Email Settings]_ed effettuare le seguenti operazioni:
 
    - Impostare **[!UICONTROL Gift Card Notification Email Sender]** sull&#39;identità dello store che viene visualizzata come mittente delle notifiche gift card.
 
@@ -63,7 +63,7 @@ La configurazione della gift card stabilisce le impostazioni predefinite per tut
 
    ![Impostazioni e-mail gift card](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;ed effettuare le seguenti operazioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Email Sent from Gift Card Account Management]_ed effettuare le seguenti operazioni:
 
    - Impostare **[!UICONTROL Gift Card Email Sender]** sull&#39;identità dello store per essere visualizzato come mittente delle gift card.
 
@@ -96,7 +96,7 @@ Consulta [Archivia indirizzi e-mail](../configuration-reference/general/store-em
 
 ### Passaggio 3: stabilire il pool di codici gift card
 
-1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Gift Card Account General Settings]_&#x200B;ed effettuare le seguenti operazioni:
+1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione _[!UICONTROL Gift Card Account General Settings]_ed effettuare le seguenti operazioni:
 
    ![Impostazioni generali account gift card](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -122,7 +122,7 @@ Consulta [Archivia indirizzi e-mail](../configuration-reference/general/store-em
 
 1. Per trovare il numero del conto gift card per un ordine corrente, eseguire le operazioni seguenti:
 
-   - Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+   - Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
    - Trovare l&#39;ordine nell&#39;elenco e fare clic su **[!UICONTROL View]** nella colonna _[!UICONTROL Action]_.
 
@@ -130,7 +130,7 @@ Consulta [Archivia indirizzi e-mail](../configuration-reference/general/store-em
 
    Il numero è nella colonna _[!UICONTROL Product]_, in **[!UICONTROL Gift Card Accounts]**.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Trova il conto gift card nella griglia e aprilo in modalità di modifica.
 
@@ -140,11 +140,11 @@ Consulta [Archivia indirizzi e-mail](../configuration-reference/general/store-em
 
 ## Creare un conto gift card
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Gift Card Account]**.
 
-1. Nella sezione _[!UICONTROL Information]_, impostare **[!UICONTROL Active]**&#x200B;su `Yes` ed eseguire le operazioni seguenti:
+1. Nella sezione _[!UICONTROL Information]_, impostare **[!UICONTROL Active]**su `Yes` ed eseguire le operazioni seguenti:
 
    - Per rendere il saldo della carta rimborsabile al momento del pagamento o trasferito al credito del negozio del cliente, impostare **[!UICONTROL Redeemable]** su `Yes`.
 
@@ -176,7 +176,7 @@ Consulta [Archivia indirizzi e-mail](../configuration-reference/general/store-em
 
 ## Visualizza cronologia account gift card
 
-1. Vai a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Vai a **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Apri la gift card in modalità di modifica.
 
@@ -197,7 +197,7 @@ Consulta [Archivia indirizzi e-mail](../configuration-reference/general/store-em
 
 ## Eliminare un conto gift card
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Selezionare l&#39;account gift card da eliminare e aprirlo in modalità di modifica.
 

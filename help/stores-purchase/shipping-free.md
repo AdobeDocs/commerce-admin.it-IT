@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -40,7 +40,7 @@ _La spedizione gratuita_ è una delle promozioni più efficaci che puoi offrire.
 
 ## Passaggio 1: configurare la spedizione gratuita
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Delivery Methods]**.
 
@@ -58,7 +58,7 @@ _La spedizione gratuita_ è una delle promozioni più efficaci che puoi offrire.
 
    >[!TIP]
    >
-   >Per utilizzare la spedizione gratuita con [tariffe di tabella](shipping-table-rate.md), impostare _[!UICONTROL Minimum Order Amount]_&#x200B;su un valore talmente alto da non essere mai raggiunto. L&#39;utilizzo di questo valore elevato impedisce l&#39;applicazione della spedizione gratuita, a meno che non venga attivata da una regola di prezzo.
+   >Per utilizzare la spedizione gratuita con [tariffe di tabella](shipping-table-rate.md), impostare _[!UICONTROL Minimum Order Amount]_su un valore talmente alto da non essere mai raggiunto. L&#39;utilizzo di questo valore elevato impedisce l&#39;applicazione della spedizione gratuita, a meno che non venga attivata da una regola di prezzo.
 
 1. Imposta **[!UICONTROL Include Tax to Amount]**:
 

@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Prima di impostare i singoli tassi di valuta, è necessario impostare l&#39;ambi
 
 ## Passaggio 1: scegliere le divise accettate
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nell&#39;angolo in alto a sinistra, impostare **[!UICONTROL Scope]** sulla visualizzazione archivio in cui si applica la configurazione.
 
@@ -164,7 +164,7 @@ La gestione dei simboli di valuta consente di personalizzare il simbolo associat
 
 ![Simboli di valuta](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Currency Symbols]**.
 
    Ogni valuta abilitata per l&#39;archivio viene visualizzata nell&#39;elenco _[!UICONTROL Currency]_.
 
@@ -172,7 +172,7 @@ La gestione dei simboli di valuta consente di personalizzare il simbolo associat
 
    - Immettere un simbolo personalizzato per ogni valuta che si desidera utilizzare oppure selezionare la casella di controllo **[!UICONTROL Use Standard]** per ogni valuta.
 
-   - Per ignorare il simbolo predefinito, deselezionare la casella di controllo _[!UICONTROL Use Standard]_&#x200B;e immettere il simbolo che si desidera utilizzare.
+   - Per ignorare il simbolo predefinito, deselezionare la casella di controllo _[!UICONTROL Use Standard]_e immettere il simbolo che si desidera utilizzare.
 
    >[!NOTE]
    >

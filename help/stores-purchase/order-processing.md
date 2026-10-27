@@ -38,7 +38,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1838'
 ht-degree: 0%
@@ -67,11 +67,11 @@ Quando un cliente effettua un ordine, viene creato un ordine di vendita come rec
 
 ## Visualizza un ordine
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Trovare l&#39;ordine nella griglia.
 
-1. Nella colonna _[!UICONTROL Action]_&#x200B;fare clic su **[!UICONTROL View]**.
+1. Nella colonna _[!UICONTROL Action]_fare clic su **[!UICONTROL View]**.
 
 1. Verifica stato ordine:
 
@@ -202,7 +202,7 @@ Solo gli ordini cliente non fatturati con stato `Processing` e impostazione di i
 
 ### Attributi ordine personalizzati
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Gli attributi personalizzati dell&#39;ordine consentono di associare all&#39;ordine ulteriori informazioni specifiche alle esigenze aziendali.
 
@@ -283,4 +283,4 @@ Nella sezione **[!UICONTROL Order Total]** eseguire le operazioni seguenti:
 
 Guarda questo video e scopri di più sull’elaborazione e lo stato degli ordini:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410798/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -40,7 +40,7 @@ L&#39;imposta del negozio viene calcolata in base all&#39;indirizzo del negozio.
 
 ## Definisci una nuova aliquota
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Tax Rate]**.
 
@@ -74,9 +74,9 @@ L&#39;imposta del negozio viene calcolata in base all&#39;indirizzo del negozio.
 
 ## Modifica un&#39;aliquota esistente
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
-1. Trovare l&#39;aliquota nella griglia _[!UICONTROL Tax Zones and Rates]_&#x200B;e aprire il record in modalità di modifica.
+1. Trovare l&#39;aliquota nella griglia _[!UICONTROL Tax Zones and Rates]_e aprire il record in modalità di modifica.
 
    Se nell&#39;elenco sono presenti molte tariffe, utilizzare i [controlli filtro](../getting-started/admin-grid-controls.md) per trovare la tariffa necessaria.
 
@@ -88,7 +88,7 @@ L&#39;imposta del negozio viene calcolata in base all&#39;indirizzo del negozio.
 
 ## Elimina aliquota
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Individuare l&#39;aliquota da eliminare e aprirla in modalità di modifica.
 

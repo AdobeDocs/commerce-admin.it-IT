@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Gli attributi return vengono utilizzati per memorizzare le informazioni necessar
 
 ## Creare un attributo returns
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Returns]**.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Attribute]**.
 

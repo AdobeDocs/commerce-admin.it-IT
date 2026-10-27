@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Puoi configurare le opzioni di nome e indirizzo che vengono presentate ai client
 
 ### Passaggio 1: impostare l’ambito della configurazione
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Customer Configuration]**.
 
@@ -71,7 +71,7 @@ Puoi configurare le opzioni di nome e indirizzo che vengono presentate ai client
 
    >[!INFO]
    >
-   >La sezione _[!UICONTROL Name and Address Options]_&#x200B;non viene visualizzata quando l&#39;ambito è impostato su `Default Store View`.
+   >La sezione _[!UICONTROL Name and Address Options]_non viene visualizzata quando l&#39;ambito è impostato su `Default Store View`.
 
    ![Ambito configurazione](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
@@ -113,7 +113,7 @@ Configura le opzioni di nome e indirizzo presentate ai clienti nella vetrina qua
 
 ### Passaggio 1: impostare l’ambito della configurazione
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Customer Configuration]**.
 

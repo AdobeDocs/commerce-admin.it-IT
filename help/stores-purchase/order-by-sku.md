@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -51,7 +51,7 @@ _Ordina per SKU_ è un [widget](../content-design/widgets.md) che può essere vi
 
 ## Configurare l’ordine per SKU
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi la sezione **[!UICONTROL Sales]** e scegli **[!UICONTROL Sales]** sotto.
 
@@ -67,9 +67,9 @@ _Ordina per SKU_ è un [widget](../content-design/widgets.md) che può essere vi
 
 1. Fare clic su **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (solo Adobe Commerce B2B) _&#x200B;**Per abilitare la funzione Ordina per SKU, disabilitare la funzione Ordine rapido:**&#x200B;_
+![Adobe Commerce B2B](../assets/b2b.svg) (solo Adobe Commerce B2B) _**Per abilitare la funzione Ordina per SKU, disabilitare la funzione Ordine rapido:**_
 
-1. Vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Vai a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra in _[!UICONTROL General]_, scegli **[!UICONTROL B2B Features]**
 
@@ -99,7 +99,7 @@ Quando la funzionalità è configurata per lo store, i clienti possono ordinare 
 
 1. Aggiunge singoli elementi in base alle preferenze:
 
-   _&#x200B;**Aggiunge ogni elemento per SKU:**&#x200B;_
+   _**Aggiunge ogni elemento per SKU:**_
 
    - Immette **[!UICONTROL SKU]** e **[!UICONTROL Qty]** dell&#39;elemento da ordinare.
 
@@ -107,9 +107,9 @@ Quando la funzionalità è configurata per lo store, i clienti possono ordinare 
 
    - Clic su **[!UICONTROL Add to Cart]**.
 
-   _&#x200B;**Carica un file CSV con più elementi:**&#x200B;_
+   _**Carica un file CSV con più elementi:**_
 
-   - Prepara un file CSV[&#128279;](../systems/data-csv.md) dei dati di importazione (valore separato da virgole) che include colonne per `SKU` e `Qty`.
+   - Prepara un file CSV](../systems/data-csv.md) dei dati di [importazione (valore separato da virgole) che include colonne per `SKU` e `Qty`.
 
    ![SKU da importare](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
 

@@ -3,7 +3,7 @@ title: URL store
 description: Scopri gli URL del negozio e come configurare l’URL di base e i codici del negozio.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: 'https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Per impostazione predefinita, Adobe Commerce e Magento Open Source possono esser
 
 ## Configurare l’URL di base
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. In _Generale_ nel pannello a sinistra, scegli **[!UICONTROL Web]**.
 
@@ -142,9 +142,9 @@ Se il dominio dispone di un certificato di sicurezza valido, puoi configurare gl
 >
 >Quando l&#39;opzione _Aggiungi codice store agli URL_ è impostata su `Yes`, è necessario includere i codici store negli URL del browser. Questa impostazione assicura che le riscritture URL siano mappate correttamente e che tutte le pagine siano aperte correttamente, senza _&quot;404 Pagina non trovata&quot;_ errori.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
-1. In _[!UICONTROL General]_&#x200B;nel pannello a sinistra, scegli **[!UICONTROL Web]**.
+1. In _[!UICONTROL General]_nel pannello a sinistra, scegli **[!UICONTROL Web]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL URL Options]**.
 
@@ -170,7 +170,7 @@ Se dopo aver seguito le istruzioni di configurazione, alcune pagine continuano a
 
 ## Utilizza un URL amministratore personalizzato
 
-Come [best practice per la sicurezza](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), Adobe consiglia di utilizzare un URL amministratore univoco invece del _admin_ predefinito o un termine comune come _backend_. Anche se non protegge direttamente il sito da un determinato attore non valido, può ridurre l&#39;esposizione a script che tentano di ottenere l&#39;accesso non autorizzato.
+Come [best practice per la sicurezza](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), Adobe consiglia di utilizzare un URL amministratore univoco invece del _admin_ predefinito o un termine comune come _backend_. Anche se non protegge direttamente il sito da un determinato attore non valido, può ridurre l&#39;esposizione a script che tentano di ottenere l&#39;accesso non autorizzato.
 
 >[!NOTE]
 >
@@ -186,11 +186,11 @@ Anche se è possibile modificare l’URL e il percorso dell’amministratore in 
 
 >[!NOTE]
 >
->Per precauzione, non provare a modificare l’URL amministratore personalmente, a meno che non si sappia come modificare i file di configurazione sul server. Per i progetti Adobe Commerce distribuiti nell&#39;infrastruttura cloud, modifica l&#39;URL amministratore seguendo le [istruzioni](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
+>Per precauzione, non provare a modificare l’URL amministratore personalmente, a meno che non si sappia come modificare i file di configurazione sul server. Per i progetti Adobe Commerce distribuiti nell&#39;infrastruttura cloud, modifica l&#39;URL amministratore seguendo le [istruzioni](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
 
 ### Metodo 1: Cambiare da Amministratore
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Advanced]** e scegli **[!UICONTROL Admin]**.
 
@@ -232,7 +232,7 @@ Anche se è possibile modificare l’URL e il percorso dell’amministratore in 
 
    >[!TIP]
    >
-   >Per Adobe Commerce sull&#39;infrastruttura cloud, puoi impostare un percorso amministratore personalizzato utilizzando la variabile `ADMIN_URL` nell&#39;interfaccia utente di Cloud. Consulta l&#39;[argomento Variabili amministratore](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
+   >Per Adobe Commerce sull&#39;infrastruttura cloud, puoi impostare un percorso amministratore personalizzato utilizzando la variabile `ADMIN_URL` nell&#39;interfaccia utente di Cloud. Consulta l&#39;[argomento Variabili amministratore](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) nella _Guida di Commerce sull&#39;infrastruttura cloud_.
 
    - **Percorso amministratore predefinito**
 

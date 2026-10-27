@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1188'
 ht-degree: 0%
 ---
 # Fornire assistenza agli acquirenti
@@ -49,9 +49,9 @@ Tutte le azioni intraprese durante l’accesso come cliente vengono applicate al
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
-Quando è abilitato per un utente _Admin_, il pulsante _[!UICONTROL Login as Customer]_&#x200B;viene visualizzato in più pagine:
+Quando è abilitato per un utente _Admin_, il pulsante _[!UICONTROL Login as Customer]_viene visualizzato in più pagine:
 
 * [Pagina Modifica cliente](../customers/update-account.md)
 * [Pagina Vista ordine](../stores-purchase/order-processing.md)
@@ -63,7 +63,7 @@ Quando è abilitato per un utente _Admin_, il pulsante _[!UICONTROL Login as Cus
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
 
 In Adobe Commerce as a Cloud Service, la funzione Accedi come cliente utilizza un flusso di lavoro **One-Time Code (OTC)** invece di un accesso diretto. Gli amministratori generano un codice monouso di breve durata per un cliente. Questo codice può quindi essere scambiato con un token di accesso del cliente tramite GraphQL, abilitando l’accesso senza password come flussi di lavoro del cliente per scenari di acquisto assistito dal venditore.
 
@@ -81,7 +81,7 @@ Per abilitare _l&#39;accesso come cliente_ è necessario abilitare la funzionali
 
 ### Abilita la funzione
 
-1. Nella barra laterale di amministrazione, vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale di amministrazione, vai a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Login as Customer]**.
 
@@ -101,7 +101,7 @@ Per abilitare _l&#39;accesso come cliente_ è necessario abilitare la funzionali
 
 ### Abilitare l’accesso per gli utenti amministratori
 
-1. Nella barra laterale _Admin_, vai a **[!UICONTROL System]** > _Autorizzazioni_ > **[!UICONTROL User Roles]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL System]** > **[!UICONTROL User Roles]**.
 
 1. Fare clic sul ruolo nell&#39;elenco.
 
@@ -130,7 +130,7 @@ Per abilitare l’accesso all’account per il personale di supporto al negozio 
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 1. Il cliente passa alla pagina **[!UICONTROL Account Information]**.
 
@@ -142,7 +142,7 @@ Per abilitare l’accesso all’account per il personale di supporto al negozio 
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
 
 L&#39;attributo dell&#39;estensione `login_as_customer_assistance_allowed` del cliente deve essere impostato su **2**. Questa può essere configurata nella pagina **Modifica cliente** dell&#39;amministratore o tramite GraphQL durante la creazione o la modifica di un cliente.
 
@@ -162,7 +162,7 @@ Per impostare questa autorizzazione con GraphQL per un account cliente esistente
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Customers]** > [!UICONTROL _Tutti i clienti_].
 
@@ -178,7 +178,7 @@ Per impostare questa autorizzazione con GraphQL per un account cliente esistente
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ Per impostare questa autorizzazione con GraphQL per un account cliente esistente
 
 >[!IMPORTANT]
 >
->L’OTC del codice monouso generato è valido per 60 secondi per impostazione predefinita e viene invalidato dopo un singolo utilizzo. Il TTL può essere configurato inviando un [ticket di supporto](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
+>L’OTC del codice monouso generato è valido per 60 secondi per impostazione predefinita e viene invalidato dopo un singolo utilizzo. Il TTL può essere configurato inviando un [ticket di supporto](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 Dopo aver generato il codice una tantum, puoi utilizzarlo accedendo alla vetrina e accedendo utilizzando le seguenti credenziali:
 

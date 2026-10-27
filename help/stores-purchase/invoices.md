@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # Fatture
 
 Una fattura è una registrazione del pagamento di un ordine. Più fatture possono essere [create](#create-an-invoice) per un singolo ordine e ciascuna può includere un numero pari o inferiore di prodotti acquistati specificati. È inoltre possibile creare [fatture PDF pronte per la stampa](#print-invoices) come documenti di vendita per i clienti.
 
-Nella barra laterale _Amministratore_, vai a **[!UICONTROL Sales]** > _Operazioni_ > **Fatture** per aprire la griglia _Fatture_ e accedere alle fatture create.
+Nella barra laterale _Amministratore_, vai a **[!UICONTROL Sales]** > **[!UICONTROL Invoices]** per aprire la griglia _Fatture_ e accedere alle fatture create.
 
 ![Griglia fatture](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -86,11 +86,11 @@ Quando lo stato dei nuovi ordini è impostato su `Processing`, l&#39;opzione _Fa
 >
 >Le fatture non vengono create automaticamente per gli ordini effettuati utilizzando `Gift Card`, `Store Credit`, `Reward Points` o altri metodi di pagamento offline.
 
-È necessario generare una fattura per l&#39;ordine prima di stamparlo. Per visualizzare o stampare il PDF, scaricare e installare un lettore PDF come [Adobe Acrobat Reader](https://www.adobe.com/it/acrobat/pdf-reader.html "Ottieni Adobe Reader").
+È necessario generare una fattura per l&#39;ordine prima di stamparlo. Per visualizzare o stampare il PDF, scaricare e installare un lettore PDF come [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Ottieni Adobe Reader").
 
 **_Fatturare un ordine:_**
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Trovare l&#39;ordine cliente con stato `Processing` nella griglia. Quindi, effettua le seguenti operazioni:
 
@@ -100,7 +100,7 @@ Quando lo stato dei nuovi ordini è impostato su `Processing`, l&#39;opzione _Fa
 
    >[!NOTE]
    >
-   >L&#39;opzione _[!UICONTROL Invoice]_&#x200B;non viene visualizzata quando l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) per il [metodo di pagamento](../configuration-reference/sales/payment-methods.md) specifico è impostato su `Authorize and Capture`, che genera automaticamente una fattura. Ciò si verifica anche se l&#39;ordine viene effettuato e l&#39;azione di pagamento per il metodo di pagamento è impostata su `Authorize` e l&#39;ordine viene fatturato.
+   >L&#39;opzione _[!UICONTROL Invoice]_non viene visualizzata quando l&#39;[azione di pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) per il [metodo di pagamento](../configuration-reference/sales/payment-methods.md) specifico è impostato su `Authorize and Capture`, che genera automaticamente una fattura. Ciò si verifica anche se l&#39;ordine viene effettuato e l&#39;azione di pagamento per il metodo di pagamento è impostata su `Authorize` e l&#39;ordine viene fatturato.
 
    ![Ordine di vendita fattura](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -154,13 +154,13 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 >[!NOTE]
 >
->Per visualizzare o stampare il PDF, è necessario disporre di un lettore PDF. Puoi scaricare [Adobe Reader](https://www.adobe.com/it/acrobat/pdf-reader.html "Ottieni Adobe Reader") gratuitamente.
+>Per visualizzare o stampare il PDF, è necessario disporre di un lettore PDF. Puoi scaricare [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Ottieni Adobe Reader") gratuitamente.
 
 ### Stampa una singola fattura
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
-1. Nella griglia _[!UICONTROL Invoices]_, individuare la fattura e fare clic su **[!UICONTROL View]**&#x200B;nella colonna_ Azione _.
+1. Nella griglia _[!UICONTROL Invoices]_, individuare la fattura e fare clic su **[!UICONTROL View]**nella colonna_ Azione _.
 
 1. Nella parte superiore della fattura, fare clic su **[!UICONTROL Print]** per generare un PDF della fattura.
 
@@ -168,9 +168,9 @@ Le fatture possono essere stampate singolarmente o come batch. Tuttavia, prima d
 
 ### Stampa più fatture
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
-1. Nella griglia _[!UICONTROL Invoices]_&#x200B;selezionare la casella di controllo per ogni fattura da stampare.
+1. Nella griglia _[!UICONTROL Invoices]_selezionare la casella di controllo per ogni fattura da stampare.
 
 1. Impostare il controllo **[!UICONTROL Actions]** su `PDF Invoices`.
 
@@ -180,7 +180,7 @@ Le fatture vengono salvate in un unico file PDF che può essere inviato a una st
 
 ## Importi di acquisizione personalizzati
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Per offrire ai commercianti maggiore flessibilità per acquisizioni parziali e scenari di pagamento specializzati, l’API Fattura supporta importi di acquisizione personalizzati utilizzando gli attributi di estensione.
 

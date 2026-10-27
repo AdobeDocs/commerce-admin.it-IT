@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -40,20 +40,20 @@ La creazione di un segmento cliente è simile alla creazione di una [regola prez
 
 ![Elenco segmenti clienti](assets/customer-segments.png){width="700" zoomable="yes"}
 
-Griglia _&#x200B;**[!UICONTROL Customer Segments]**&#x200B;_
+Griglia _**[!UICONTROL Customer Segments]**_
 
 | Colonna | Descrizione |
 |--- |--- |
 | **[!UICONTROL ID]** | ID univoco del segmento del cliente. |
 | **[!UICONTROL Segment]** | Il nome del segmento del cliente. |
-| **[!UICONTROL Status]** | Indica se il segmento del cliente è _[!UICONTROL Active]_&#x200B;o_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indica se il segmento del cliente è _[!UICONTROL Active]_o_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indica il sito web a cui appartiene il segmento di clienti. |
 
 {style="table-layout:auto"}
 
 ## Prerequisito: abilitare i segmenti dei clienti
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Customer Configuration]**.
 
@@ -137,7 +137,7 @@ Le condizioni possibili sono organizzate nei seguenti gruppi:
 
 1. Nel riquadro sinistro fare clic su **[!UICONTROL Conditions]**.
 
-   La condizione predefinita inizia con _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;sulla pagina.
+   La condizione predefinita inizia con _[!UICONTROL If ALL of these conditions are TRUE:]_sulla pagina.
 
    ![Condizioni](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -183,7 +183,7 @@ Le condizioni possibili sono organizzate nei seguenti gruppi:
 
 1. Il segmento cliente ora può essere utilizzato per il targeting di promozioni, contenuti e comunicazioni.
 
-Griglia _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
+Griglia _**[!UICONTROL Matched Customers]**_
 
 | Colonna | Descrizione |
 |--- |--- |
@@ -213,7 +213,7 @@ Griglia _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
 
 | Pulsante | Descrizione |
 |--- |--- |
-| **[!UICONTROL Back]** | Torna alla pagina _[!UICONTROL Customer Segments]_&#x200B;senza salvare le modifiche. |
+| **[!UICONTROL Back]** | Torna alla pagina _[!UICONTROL Customer Segments]_senza salvare le modifiche. |
 | **[!UICONTROL Delete]** | Elimina il segmento cliente corrente. I clienti o gli ordini completati associati al cliente nel segmento non vengono rimossi. |
 | **[!UICONTROL Reset]** | Ripristina i valori precedenti delle modifiche non salvate nel modulo del segmento cliente. |
 | **[!UICONTROL Refresh Segment Data]** | Aggiorna i dati del segmento ai valori salvati più di recente. Rilevante se i dati di un segmento non sono disponibili o sono obsoleti. |
@@ -226,4 +226,4 @@ Griglia _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
 
 Guarda questo video per una dimostrazione della creazione di segmenti di clienti:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410190/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

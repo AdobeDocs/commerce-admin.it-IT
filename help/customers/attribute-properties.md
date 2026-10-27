@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Gli attributi del cliente forniscono le informazioni necessarie per supportare i
 
 ## Passaggio 1: completare le proprietà dell’attributo
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Customer]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Customer]**.
 
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add New Attribute]**.
 
@@ -66,7 +66,7 @@ Gli attributi del cliente forniscono le informazioni necessarie per supportare i
 
    >[!TIP]
    >
-   >**Collegamento:** Per completare solo i campi obbligatori, scorri verso il basso fino a _[!UICONTROL Storefront Properties]_, immetti&#x200B;_[!UICONTROL Sort Order]_ e salva.
+   >**Collegamento:** Per completare solo i campi obbligatori, scorri verso il basso fino a _[!UICONTROL Storefront Properties]_, immetti_[!UICONTROL Sort Order]_ e salva.
 
 1. Completare le proprietà di immissione dati:
 
@@ -77,7 +77,7 @@ Gli attributi del cliente forniscono le informazioni necessarie per supportare i
      | `Text Field` | Campo di testo a riga singola. |
      | `Text Area` | Campo di input a più righe per l&#39;immissione di paragrafi di testo, ad esempio la descrizione di un prodotto. È possibile utilizzare l’editor di WYSIWYG per formattare il testo con i tag di HTML oppure immettere i tag direttamente nel testo. |
      | `Multiple Line` | Crea più righe di testo per l&#39;attributo, in modo simile a un indirizzo stradale con più righe. Il numero di righe di immissione dati separate può essere compreso tra due e 20. Utilizzare `Default Value` per specificare il valore iniziale del campo. |
-     | `Date` | Visualizza un valore di data nel formato di data e fuso orario preferiti. I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_**&#x200B;A seconda della configurazione del sistema, gli utenti_ Amministratore_ possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Visualizza un valore di data nel formato di data e fuso orario preferiti. I valori di data possono essere selezionati da un elenco o da un calendario ( ![icona Calendario](../assets/icon-calendar.png) ). <br/><br/>**_Nota:_**A seconda della configurazione del sistema, gli utenti_ Amministratore_ possono immettere le date direttamente in un campo o selezionare una data dal calendario o dall&#39;elenco. Per informazioni su come specificare i valori di data e ora, vedere [Opzioni data e ora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Visualizza un elenco a discesa con opzioni predefinite di `Yes` e `No`. |
      | `Dropdown` | Visualizza un elenco a discesa di valori che accetta una sola selezione. Il tipo di input a discesa è un componente chiave di [prodotti configurabili](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Elenco a discesa che accetta più valori da selezionare. |
@@ -201,4 +201,4 @@ Gli attributi del cliente forniscono le informazioni necessarie per supportare i
 
 Per una dimostrazione della creazione degli attributi del cliente, guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410185?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)

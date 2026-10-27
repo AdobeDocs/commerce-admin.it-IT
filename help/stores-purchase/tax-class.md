@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Le classi imposta possono essere assegnate a clienti, prodotti e spedizione. Com
 
 La classe fiscale utilizzata per la spedizione e le classi fiscali predefinite per [prodotti e clienti](#add-a-product-tax-class) sono impostate nella configurazione _[!UICONTROL Sales]_.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Tax]**.
 
@@ -65,7 +65,7 @@ La classe fiscale utilizzata per la spedizione e le classi fiscali predefinite p
 
 Le classi di imposta per clienti e prodotti possono essere facilmente aggiunte, quindi assegnate a singoli clienti e prodotti e utilizzate nelle regole fiscali.
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Fare clic su **[!UICONTROL Add New Tax Rule]**.
 
@@ -99,7 +99,7 @@ Le impostazioni di destinazione imposta predefinite determinano il paese, lo sta
 
 **_Per configurare la destinazione imposta predefinita per i calcoli:_**
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Tax]**.
 

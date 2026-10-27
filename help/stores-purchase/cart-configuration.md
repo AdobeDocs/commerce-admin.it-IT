@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Il collegamento può essere configurato in modo da visualizzare il numero di pro
 
 ### Configurare il mini carrello
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 
@@ -97,7 +97,7 @@ Il collegamento può essere configurato in modo da visualizzare il numero di pro
 
 ### Configurare il collegamento al carrello
 
-1. Nella barra laterale _Admin_, ha raggiunto **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, ha raggiunto **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 
@@ -118,7 +118,7 @@ La pagina del carrello può essere configurata in modo da essere visualizzata og
 
 **_Per configurare quando viene visualizzato il carrello:_**
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 
@@ -145,7 +145,7 @@ Puoi determinare per quanto tempo un prezzo è valido impostando la durata dell�
 
 **_Per configurare la durata dell&#39;offerta:_**
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 
@@ -169,7 +169,7 @@ La configurazione consente di specificare un importo minimo, dopo l’applicazio
 
 **_Per configurare un importo ordine minimo:_**
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Sales]** sotto.
 
@@ -219,7 +219,7 @@ La configurazione consente di specificare un importo minimo, dopo l’applicazio
 
 È possibile impostare la quantità minima consentita per un ordine. La quantità minima può anche essere configurata in base a ciascun gruppo di clienti.
 
-1. Vai a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Vai a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Catalog]** e scegli **[!UICONTROL Inventory]**.
 
@@ -251,7 +251,7 @@ L’immagine di anteprima sia per i prodotti raggruppati che per quelli configur
 
 **_Configurare le miniature del carrello:_**
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Checkout]**.
 
@@ -281,7 +281,7 @@ La configurazione Opzioni regalo si applica all’intero sito web, ma può esser
 
 ### Abilita opzioni regalo
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Sales]** sotto.
 
@@ -321,7 +321,7 @@ L&#39;immagine a capo regalo deve essere un campione che mostra il motivo ripetu
 
 #### Aggiungere un design a capo regalo
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
    ![Griglia per confezione regalo](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
@@ -345,13 +345,13 @@ L&#39;immagine a capo regalo deve essere un campione che mostra il motivo ripetu
 
 1. Per caricare una miniatura **[!UICONTROL Image]** della confezione regalo, fai clic su **[!UICONTROL Choose File]** e seleziona il file da caricare dalla directory.
 
-   Una miniatura dell&#39;immagine viene visualizzata in _[!UICONTROL Gift Wrapping Information]_&#x200B;dopo il salvataggio del record.
+   Una miniatura dell&#39;immagine viene visualizzata in _[!UICONTROL Gift Wrapping Information]_dopo il salvataggio del record.
 
 1. Fare clic su **[!UICONTROL Save]**.
 
 #### Modificare un design a capo regalo
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
 1. Trovare il record a capo regalo nell&#39;elenco.
 
@@ -391,7 +391,7 @@ I prezzi della confezione regalo e della gift card stampata possono essere confi
 
 **_Configurare le imposte sulle opzioni regalo:_**
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Sales]** e scegli **[!UICONTROL Tax]**.
 

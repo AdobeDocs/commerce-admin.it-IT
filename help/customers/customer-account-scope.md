@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -64,7 +64,7 @@ L’ambito degli account cliente può essere limitato al sito web in cui è stat
 >
 >Se il sito web viene escluso dal gruppo di clienti, al cliente non è consentito accedere al sito web quando l’ambito degli account del cliente è limitato al sito web o condiviso con tutti i siti web. Per ulteriori informazioni sull&#39;esclusione di siti Web dai gruppi, vedere [Creare un gruppo di clienti](customer-groups.md#create-a-customer-group).
 
-1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
+1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Nel pannello a sinistra, espandi **[!UICONTROL Customers]** e scegli **[!UICONTROL Customer Configuration]**.
 
