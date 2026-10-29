@@ -24,16 +24,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: be637291b09661637cdefefd79fd81157b6e76b2
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Aggiornare un profilo cliente
 
-Il pannello sinistro della pagina _[!UICONTROL Customer Information]_&#x200B;include informazioni sull&#39;attività del cliente, gli indirizzi, le statistiche degli ordini, gli ordini recenti, il contenuto del carrello, le recensioni dei prodotti e gli abbonamenti alle newsletter.
+Il pannello sinistro della pagina _[!UICONTROL Customer Information]_include informazioni sull&#39;attività del cliente, gli indirizzi, le statistiche degli ordini, gli ordini recenti, il contenuto del carrello, le recensioni dei prodotti e gli abbonamenti alle newsletter.
 
 ![Profilo cliente](assets/cust-profile.png){width="700" zoomable="yes"}
 
@@ -122,6 +120,8 @@ Nella sezione [Registro regali](../merchandising-promotions/gift-registry-storef
 {{ee-feature}}
 
 Nella scheda [Memorizza credito](../customers/store-credit.md) viene visualizzato un importo che viene ripristinato in un account cliente. L&#39;amministratore può gestire questo valore.
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."} Le schede [!UICONTROL Store Credit] e **[!UICONTROL Store Credit Balance]** nella scheda **[!UICONTROL Customer View]** vengono visualizzate solo quando il ruolo utente include la risorsa **[!UICONTROL Manage Store Credit Balances]**. Vedi [Archivia risorse ruolo di credito](../customers/store-credit-using.md#store-credit-role-resources).
 
 ### [!UICONTROL Newsletter]
 
