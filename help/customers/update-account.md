@@ -121,7 +121,7 @@ Nella sezione [Registro regali](../merchandising-promotions/gift-registry-storef
 
 Nella scheda [Memorizza credito](../customers/store-credit.md) viene visualizzato un importo che viene ripristinato in un account cliente. L&#39;amministratore può gestire questo valore.
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."} Le schede [!UICONTROL Store Credit] e **[!UICONTROL Store Credit Balance]** nella scheda **[!UICONTROL Customer View]** vengono visualizzate solo quando il ruolo utente include la risorsa **[!UICONTROL Manage Store Credit Balances]**. Vedi [Archivia risorse ruolo di credito](../customers/store-credit-using.md#store-credit-role-resources).
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."} Le schede [!UICONTROL Store Credit] e **[!UICONTROL Store Credit Balance]** nella scheda **[!UICONTROL Customer View]** vengono visualizzate solo quando il ruolo utente include la risorsa **[!UICONTROL Manage Store Credit Balances]**. Vedi [Archivia risorse ruolo di credito](../customers/store-credit-using.md#store-credit-role-resources).
 
 ### [!UICONTROL Newsletter]
 

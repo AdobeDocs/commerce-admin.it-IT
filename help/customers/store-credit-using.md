@@ -44,7 +44,7 @@ Gli amministratori del Negozio possono visualizzare il saldo e la cronologia del
 
 ## Memorizza risorse ruolo credito
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
 
 Le risorse seguenti determinano quali utenti amministratori possono modificare il saldo del credito del negozio di un cliente e quali utenti possono applicare il credito del negozio a un ordine. Per informazioni sull&#39;assegnazione di risorse a un ruolo utente, vedere [Risorse ruolo](../systems/permissions-user-roles.md#role-resources).
 
@@ -94,7 +94,7 @@ In qualità di amministratore del negozio, puoi eseguire varie operazioni per co
 
 ![Applica il saldo a credito dell&#39;archivio all&#39;ordine](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."} La casella di controllo **[!UICONTROL Use Store Credit]** viene visualizzata solo quando il ruolo utente include la risorsa **[!UICONTROL Can Spend Store Credit]**. Vedi [Archivia risorse ruolo di credito](#store-credit-role-resources).
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."} La casella di controllo **[!UICONTROL Use Store Credit]** viene visualizzata solo quando il ruolo utente include la risorsa **[!UICONTROL Can Spend Store Credit]**. Vedi [Archivia risorse ruolo di credito](#store-credit-role-resources).
 
 ## Applica credito del negozio durante l&#39;acquisto
 
