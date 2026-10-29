@@ -4,7 +4,7 @@ description: Utilizza la funzionalità di arricchimento nativo del catalogo in A
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # Arricchimento del catalogo
@@ -51,7 +51,7 @@ L&#39;arricchimento del catalogo è una funzionalità nativa di [!DNL Adobe Comm
 
 >[!NOTE]
 >
->L&#39;arricchimento del catalogo è alimentato da [!DNL Commerce Catalog Agent] e [!DNL Adobe Brand Visibility] dietro le quinte. Utilizza l’arricchimento come parte del flusso di lavoro del catalogo Commerce. Non puoi gestire un’integrazione Adobe Brand Visibility separata per applicare gli aggiornamenti approvati di nome e descrizione. Per un monitoraggio e un&#39;ottimizzazione LLM più ampi al di fuori di Commerce, consulta la [[!DNL Adobe Brand Visibility] documentazione del prodotto](https://experienceleague.adobe.com/it/docs/brand-visibility/using/home).
+>L&#39;arricchimento del catalogo è alimentato da [!DNL Commerce Catalog Agent] e [!DNL Adobe Brand Visibility] dietro le quinte. Utilizza l’arricchimento come parte del flusso di lavoro del catalogo Commerce. Non puoi gestire un’integrazione Adobe Brand Visibility separata per applicare gli aggiornamenti approvati di nome e descrizione. Per un monitoraggio e un&#39;ottimizzazione LLM più ampi al di fuori di Commerce, consulta la [[!DNL Adobe Brand Visibility] documentazione del prodotto](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
 
 ## Come funziona {#how-it-works}
 
@@ -83,7 +83,7 @@ I seguenti prerequisiti si applicano quando si ha accesso all’arricchimento de
 - La vetrina può essere scansionata da bot agentici e orientati verso LLM in cui è necessaria la copertura della scansiona per i suggerimenti in base al catalogo.
 - I servizi Commerce richiesti e la connettività al catalogo sono abilitati e integri. Per ulteriori informazioni, consulta [Abilita arricchimento catalogo](#enable-catalog-enrichment).
 - L’utente amministratore di Commerce che accede all’arricchimento del catalogo effettua l’accesso tramite Adobe IMS. Consulta [Requisiti di accesso e organizzazione IMS](#ims-sign-in-requirements).
-- Hai accesso a [Adobe Admin Console](https://helpx.adobe.com/it/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Hai accesso a [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - La tua organizzazione ha firmato il rider GenAI, o ha esplicitamente rinunciato, per i servizi di intelligenza artificiale sottostanti.
 
 >[!NOTE]
@@ -115,7 +115,7 @@ Prima di rivedere o applicare suggerimenti, rivolgiti al tuo amministratore Comm
    composer update magento/module-catalog-enrichment
    ```
 
-1. Se non hai già installato Catalog Services, [procedi](https://experienceleague.adobe.com/it/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Se non hai già installato Catalog Services, [procedi](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** è ora disponibile nella tua istanza di Commerce.
 
@@ -263,6 +263,7 @@ Queste regole ti aiutano a capire se l’arricchimento del catalogo, i feed di a
 
 ## Limiti e considerazioni {#limits}
 
+- Attualmente Enrichment supporta solo contenuti di prodotto in lingua inglese.
 - L’arricchimento si applica solo ai nomi dei prodotti e alle descrizioni lunghe. Non modifica il layout PDP, i widget o altri contenuti della vetrina a livello di pagina.
 - Cataloghi di grandi dimensioni e conteggi URL elevati possono influenzare la rapidità con cui viene completata l’analisi e il numero di suggerimenti visualizzati contemporaneamente.
 - Suggerimenti significativi presuppongono che i bot rilevanti per LLM possano accedere agli URL del prodotto a cui tieni. Regole robot, autenticazione, blocco geografico e personalizzazione intensiva possono ridurre la copertura.
