@@ -62,7 +62,7 @@ Gli utenti e le integrazioni amministratori che utilizzano l&#39;API REST necess
 
 1. Nella colonna _Azione_ fare clic su **[!UICONTROL Edit]**.
 
-1. Scorrere la pagina _[!UICONTROL Customer View]_e visualizzare **[!UICONTROL Store Credit Balance]**nella parte inferiore.
+1. Scorrere la pagina _[!UICONTROL Customer View]_&#x200B;e visualizzare **[!UICONTROL Store Credit Balance]**&#x200B;nella parte inferiore.
 
 ![Memorizza saldo credito](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
