@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
+source-git-commit: b2b09a49ecd0c585d6ea456f0c00e05d813e324d
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '521'
 ht-degree: 0%
 ---
 # Applica credito negozio
@@ -41,6 +41,18 @@ ht-degree: 0%
 Gli amministratori del Negozio possono visualizzare il saldo e la cronologia del credito dal conto cliente e applicare il credito del Negozio a un acquisto.
 
 ![Saldo credito cliente e cronologia](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
+
+## Memorizza risorse ruolo credito
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."}
+
+Le risorse seguenti determinano quali utenti amministratori possono modificare il saldo del credito del negozio di un cliente e quali utenti possono applicare il credito del negozio a un ordine. Per informazioni sull&#39;assegnazione di risorse a un ruolo utente, vedere [Risorse ruolo](../systems/permissions-user-roles.md#role-resources).
+
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]** consente agli utenti di visualizzare e aggiornare i saldi di credito dello store. Senza di essa, la scheda **[!UICONTROL Store Credit]** e la scheda **[!UICONTROL Store Credit Balance]** della scheda **[!UICONTROL Customer View]** non sono visibili. L’utente può comunque apportare altre modifiche agli account cliente.
+
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** consente agli utenti di applicare il credito dello store durante la [creazione di un ordine](../stores-purchase/customer-account-create-order.md). Senza di esso, la casella di controllo **[!UICONTROL Use Store Credit]** non è visibile.
+
+Gli utenti e le integrazioni amministratori che utilizzano l&#39;API REST necessitano della risorsa **[!UICONTROL Can Spend Store Credit]** per applicare il credito dello store a un carrello o per effettuare un ordine per un carrello a cui è già stato applicato il credito dello store. Per ulteriori informazioni, vedere [Memorizza credito](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/).
 
 ## Visualizza il saldo a credito
 
@@ -81,6 +93,8 @@ Il saldo aggiornato dovrebbe essere visualizzato in **[!UICONTROL Balance Histor
 In qualità di amministratore del negozio, puoi eseguire varie operazioni per conto di un cliente, incluso l’invio di ordini. Quando [crei un ordine](../stores-purchase/customer-account-create-order.md), puoi applicare un saldo a credito del negozio dovuto al cliente. Il saldo disponibile viene visualizzato nella sezione _Informazioni su pagamento e spedizione_. Selezionare la casella di controllo **[!UICONTROL Use Store Credit]** per applicare il saldo o una parte del saldo se il totale dell&#39;ordine è inferiore.
 
 ![Applica il saldo a credito dell&#39;archivio all&#39;ordine](assets/store-credit-apply.png){width="500" zoomable="yes"}
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service (infrastruttura SaaS gestita da Adobe)."} La casella di controllo **[!UICONTROL Use Store Credit]** viene visualizzata solo quando il ruolo utente include la risorsa **[!UICONTROL Can Spend Store Credit]**. Vedi [Archivia risorse ruolo di credito](#store-credit-role-resources).
 
 ## Applica credito del negozio durante l&#39;acquisto
 

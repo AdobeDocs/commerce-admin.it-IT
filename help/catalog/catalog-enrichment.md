@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # Arricchimento del catalogo
@@ -263,6 +263,7 @@ Queste regole ti aiutano a capire se l’arricchimento del catalogo, i feed di a
 
 ## Limiti e considerazioni {#limits}
 
+- Attualmente Enrichment supporta solo contenuti di prodotto in lingua inglese.
 - L’arricchimento si applica solo ai nomi dei prodotti e alle descrizioni lunghe. Non modifica il layout PDP, i widget o altri contenuti della vetrina a livello di pagina.
 - Cataloghi di grandi dimensioni e conteggi URL elevati possono influenzare la rapidità con cui viene completata l’analisi e il numero di suggerimenti visualizzati contemporaneamente.
 - Suggerimenti significativi presuppongono che i bot rilevanti per LLM possano accedere agli URL del prodotto a cui tieni. Regole robot, autenticazione, blocco geografico e personalizzazione intensiva possono ridurre la copertura.
