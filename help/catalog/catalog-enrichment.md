@@ -4,7 +4,7 @@ description: Utilizza la funzionalità di arricchimento nativo del catalogo in A
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c073327e16e3738b5c92f79e442489572046f739
+source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '3173'
 ht-degree: 0%
 ---
 # Arricchimento del catalogo
@@ -51,7 +51,7 @@ L&#39;arricchimento del catalogo è una funzionalità nativa di [!DNL Adobe Comm
 
 >[!NOTE]
 >
->L&#39;arricchimento del catalogo è alimentato da [!DNL Commerce Catalog Agent] e [!DNL Adobe Brand Visibility] dietro le quinte. Utilizza l’arricchimento come parte del flusso di lavoro del catalogo Commerce. Non puoi gestire un’integrazione Adobe Brand Visibility separata per applicare gli aggiornamenti approvati di nome e descrizione. Per un monitoraggio e un&#39;ottimizzazione LLM più ampi al di fuori di Commerce, consulta la [[!DNL Adobe Brand Visibility] documentazione del prodotto](https://experienceleague.adobe.com/it/docs/brand-visibility/using/home).
+>L&#39;arricchimento del catalogo è alimentato da [!DNL Commerce Catalog Agent] e [!DNL Adobe Brand Visibility] dietro le quinte. Utilizza l’arricchimento come parte del flusso di lavoro del catalogo Commerce. Non puoi gestire un’integrazione Adobe Brand Visibility separata per applicare gli aggiornamenti approvati di nome e descrizione. Per un monitoraggio e un&#39;ottimizzazione LLM più ampi al di fuori di Commerce, consulta la [[!DNL Adobe Brand Visibility] documentazione del prodotto](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
 
 ## Come funziona {#how-it-works}
 
@@ -83,7 +83,7 @@ I seguenti prerequisiti si applicano quando si ha accesso all’arricchimento de
 - La vetrina può essere scansionata da bot agentici e orientati verso LLM in cui è necessaria la copertura della scansiona per i suggerimenti in base al catalogo.
 - I servizi Commerce richiesti e la connettività al catalogo sono abilitati e integri. Per ulteriori informazioni, consulta [Abilita arricchimento catalogo](#enable-catalog-enrichment).
 - L’utente amministratore di Commerce che accede all’arricchimento del catalogo effettua l’accesso tramite Adobe IMS. Consulta [Requisiti di accesso e organizzazione IMS](#ims-sign-in-requirements).
-- Hai accesso a [Adobe Admin Console](https://helpx.adobe.com/it/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Hai accesso a [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - La tua organizzazione ha firmato il rider GenAI, o ha esplicitamente rinunciato, per i servizi di intelligenza artificiale sottostanti.
 
 >[!NOTE]
@@ -108,22 +108,33 @@ Prima di rivedere o applicare suggerimenti, rivolgiti al tuo amministratore Comm
 
 ### Installare le estensioni di Catalog Enrichment e Catalog Services
 
-1. Installa l’estensione di arricchimento del catalogo nell’istanza di Commerce eseguendo il seguente comando:
+1. Installa l’estensione di arricchimento del catalogo nell’istanza Commerce e applica le modifiche:
 
    ```bash
-   composer require magento/module-catalog-enrichment --no-update
-   composer update magento/module-catalog-enrichment
+   composer require magento/module-catalog-enrichment:^2.1
+   bin/magento setup:upgrade
+   bin/magento cache:flush
    ```
 
-1. Se non hai già installato Catalog Services, [procedi](https://experienceleague.adobe.com/it/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+   `setup:upgrade` abilita l&#39;estensione, crea la relativa tabella di database e concede le autorizzazioni di amministratore. Svuota successivamente la cache in modo che le autorizzazioni abbiano effetto. In modalità di produzione, eseguire anche `bin/magento setup:di:compile` e `bin/magento setup:static-content:deploy`.
+
+1. Se non hai già installato Catalog Services, [procedi](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** è ora disponibile nella tua istanza di Commerce.
 
+>[!IMPORTANT]
+>
+>L&#39;arricchimento del catalogo 2.1.2 e versioni successive richiede Adobe Commerce 2.4.7 o versioni successive su PHP 8.3 o versioni successive e non può essere installato insieme all&#39;estensione [!DNL Adobe Brand Visibility] (`magento/llm-optimizer`). Se è installato, rimuoverlo prima dell&#39;aggiornamento. Consulta [Aggiornamento da versioni precedenti](#upgrade-from-earlier-versions) nelle note sulla versione.
+
 ### Accedere all’arricchimento del catalogo
 
-Dopo aver installato le estensioni di Catalog Enrichment e Catalog Services, la funzionalità di arricchimento del catalogo è disponibile nell&#39;amministratore in **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
+Dopo aver installato le estensioni di Catalog Enrichment e Catalog Services, la funzionalità di arricchimento del catalogo è disponibile nell&#39;amministratore in **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
 
 ![Arricchimento catalogo](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Il menu **[!UICONTROL AI Product Discovery]** elenca anche **[!UICONTROL Product Details Page Enrichment (Beta)]**. L’arricchimento della pagina con i dettagli del prodotto è in versione beta e non è ancora disponibile a livello generale.
 
 ### Configurare l’arricchimento del catalogo {#configure-catalog-enrichment}
 
@@ -131,7 +142,7 @@ Configura l&#39;arricchimento del catalogo nella scheda **[!UICONTROL Settings]*
 
 I campi di questa scheda identificano l’ambiente Commerce e la visualizzazione archivio a cui si connette l’arricchimento del catalogo. Sono separati dall&#39;organizzazione Adobe IMS che detiene il tuo diritto a [!DNL Adobe Brand Visibility]. Consulta [Requisiti di accesso e organizzazione IMS](#ims-sign-in-requirements).
 
-1. In Amministrazione, passa a **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
+1. In Amministrazione, passa a **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
 1. Nell&#39;elenco **[!UICONTROL Scope]** nella parte superiore della pagina, selezionare la visualizzazione dello store che si desidera configurare oppure lasciare **[!UICONTROL All Store Views]** per gestire le impostazioni tra le visualizzazioni dello store.
 1. Apri la scheda **[!UICONTROL Settings]**.
 1. In **[!UICONTROL Commerce Configuration]**, espandere il pannello di visualizzazione archivio con l&#39;etichetta con il relativo URL.
@@ -308,3 +319,79 @@ L’arricchimento del catalogo espande gli attributi di configurazione e struttu
 - **Dopo**: &quot;Questa configurazione include 6 set di inserimento posti standard e 6 inserti laterali standard che funzionano in modo intercambiabile come braccia o schienali, formando gli elementi modulari del layout. Ogni sedile è dotato di Schiuma standard con tre strati ad alta densità progettati per preservare l&#39;sollevamento e resistere alle cadute. La copertina Sapphire Navy Corded Velvet è durevole come è lussuosa, con corde testurizzate che creano un sottile lucentezza e una sensazione morbida e peluche. Le coperture sono cucite a mano per un aspetto preciso e personalizzato e sono lavabili in lavatrice e modificabili, in modo che la sezione possa evolvere con il tuo spazio.&quot;
 
 Poiché la descrizione arricchita viene scritta nuovamente nel catalogo Commerce, è disponibile per i bot AI che scansionano la pagina dei dettagli del prodotto e per qualsiasi canale o feed a valle che consuma i dati del catalogo del prodotto, senza modificare il layout o la progettazione visualizzati dagli acquirenti sulla pagina.
+
+## Note sulla versione {#release-notes}
+
+Queste note sulla versione acquisiscono aggiunte e correzioni nell&#39;estensione di arricchimento del catalogo (`magento/module-catalog-enrichment`):
+
+![Nuove](../assets/new.svg) nuove funzionalità
+![Problema risolto](../assets/fix.svg) correzioni e miglioramenti
+![Problema noto](../assets/bug.svg) Problemi noti
+
+### v2.1.2
+
+*22 ottobre 2026*
+
+[!BADGE Supportato]{type=Informative tooltip="Supportato"} Adobe Commerce 2.4.9, 2.4.8, 2.4.7 su PHP da 8.3 a 8.5.
+
+La versione 2.1.2 rende l’arricchimento dei cataloghi un’estensione autonoma. Ora include tutto ciò che era stato fornito in precedenza dall&#39;estensione [!DNL Adobe Brand Visibility] separata (`magento/llm-optimizer`): l&#39;applicazione dei suggerimenti approvati al catalogo, il loro rollback e la protezione delle proprie modifiche dalla sovrascrittura.
+
+#### Aggiornamento da versioni precedenti {#upgrade-from-earlier-versions}
+
+>[!IMPORTANT]
+>
+>Impossibile installare la versione 2.1.2 insieme all&#39;estensione [!DNL Adobe Brand Visibility]. Se è installato, rimuoverlo come parte dell’aggiornamento.
+
+1. Rimuovere l&#39;estensione [!DNL Adobe Brand Visibility], se installata:
+
+   ```bash
+   composer remove magento/llm-optimizer
+   ```
+
+   Se l&#39;estensione è stata installata tramite copia o collegamento simbolico di `Magento/LlmoCatalog` in `app/code`, eliminare la directory. Non disabilitare solo il modulo: un modulo disabilitato che è ancora su disco può causare l&#39;eliminazione di `setup:upgrade` dalla tabella in cui sono memorizzati i valori originali dei prodotti arricchiti.
+
+1. Aggiorna l’arricchimento del catalogo e applica le modifiche:
+
+   ```bash
+   composer require magento/module-catalog-enrichment:^2.1
+   bin/magento setup:upgrade
+   bin/magento cache:flush
+   ```
+
+   Svuota la cache dopo l’aggiornamento. L’aggiornamento sposta le concessioni di accesso esistenti in nuove risorse di autorizzazione, che diventano effettive solo dopo che la cache sarà stata cancellata.
+
+#### Requisiti
+
+![Nuovo](../assets/new.svg) **PHP 8.3 e Adobe Commerce 2.4.7 o versione successiva**: PHP 8.1 è terminato e PHP 8.2 ha raggiunto la fine del ciclo di vita il 31 dicembre 2026, quindi nessuno dei due è supportato. Adobe Commerce 2.4.6 e versioni precedenti non sono supportati.
+
+#### Nuove funzioni
+
+![Nuovo](../assets/new.svg) **[!UICONTROL AI Product Discovery]menu**: le pagine di arricchimento del catalogo dispongono ora di una sezione specifica nella barra laterale di amministrazione. Vai a **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**. In precedenza, la pagina si trovava in **[!UICONTROL Catalog]**.
+
+![Nuovo](../assets/new.svg) [!BADGE Beta]{type=Informative tooltip="Non ancora generalmente disponibile"} **[!UICONTROL Product Details Page Enrichment (Beta)]**—Una nuova pagina in **[!UICONTROL AI Product Discovery]** per rivedere i suggerimenti di arricchimento per le pagine dei dettagli del prodotto. L’arricchimento della pagina con i dettagli del prodotto è in versione beta e non è ancora disponibile a livello generale.
+
+![Nuovo](../assets/new.svg) **Applica e ripristina i suggerimenti approvati**—Gli aggiornamenti di nome e descrizione approvati vengono scritti nel catalogo da questa estensione. Commerce registra il valore originale di ogni attributo arricchito la prima volta che viene modificato, pertanto un rollback ripristina sempre il valore esistente prima dell’arricchimento, anche dopo l’applicazione di diversi suggerimenti allo stesso attributo.
+
+![Nuovo](../assets/new.svg) **Le modifiche vengono rispettate**. Quando si modifica un nome o una descrizione arricchiti nel modulo del prodotto Admin, con **[!UICONTROL Update Attributes]**, o tramite un&#39;importazione, il valore viene mantenuto e il suggerimento correlato viene contrassegnato come *Obsoleto*. Una modifica apportata all&#39;ambito predefinito influisce solo sulle viste archivio che ereditano il valore.
+
+![Nuovo](../assets/new.svg) **Accesso al catalogo in sola lettura per i suggerimenti**—[!DNL Commerce Catalog Agent] consente di leggere i dati relativi a prodotti, categorie, set di attributi e tipi di prodotto per selezionare i prodotti da analizzare. La lettura restituisce solo gli attributi contrassegnati **[!UICONTROL Used in Product Listing]**, oltre agli attributi che possono essere arricchiti. Non può modificare i dati del catalogo.
+
+#### Correzioni e miglioramenti
+
+![È stato risolto il problema](../assets/fix.svg) **I report di applicazione sono stati ritentati correttamente**. Se una richiesta di applicazione viene ritentata dopo il suo completamento, il nuovo tentativo ora segnala le modifiche come applicate invece di segnalare nessuna modifica. Nulla è scritto due volte.
+
+![È stato risolto il problema](../assets/fix.svg) **Solo i servizi approvati possono modificare il catalogo**. Applica e ripristina accetta solo le richieste di [!DNL Commerce Catalog Agent]. In precedenza, venivano accettati tutti i token Adobe IMS validi. Lo stesso controllo ora si applica anche alle richieste SOAP.
+
+![È stato risolto il problema](../assets/fix.svg) **Errori più chiari**. Un&#39;interruzione Adobe IMS ora restituisce `401` invece di `500`, pertanto la richiesta non viene ritentata rispetto al catalogo e un ambiente Adobe IMS non riconosciuto viene rifiutato invece di essere trattato come gestione temporanea.
+
+![È stato risolto il problema](../assets/fix.svg) **Ambiente Adobe IMS**. L&#39;arricchimento del catalogo ora accede all&#39;ambiente Adobe IMS di produzione per impostazione predefinita, anche nelle istanze connesse a uno spazio dati [!DNL Commerce Services] non di produzione. In precedenza, tali istanze venivano inviate all’ambiente di staging.
+
+![È stato risolto il problema](../assets/fix.svg) **Accesso dopo la modifica del dominio [!DNL Adobe Brand Visibility]**. La pagina di arricchimento del catalogo ora viene caricata da `abv.adobe.com`, che corregge un loop di accesso dopo che il dominio precedente ha iniziato il reindirizzamento.
+
+#### Problemi noti
+
+![Problema noto](../assets/bug.svg) **Ruoli con accesso completo a [!UICONTROL Catalog]**—Un ruolo utente salvato prima di questa versione con tutti i **[!UICONTROL Catalog]** concessi mantiene l&#39;accesso alla risorsa **[!UICONTROL Catalog Enrichment Service API]**. Rivedi tali ruoli in **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]** e cancella la risorsa dove non è necessaria.
+
+### v1.0.2
+
+Versione iniziale della pagina di amministrazione dell’arricchimento del catalogo. Richiede l&#39;estensione [!DNL Adobe Brand Visibility] per applicare suggerimenti al catalogo.
