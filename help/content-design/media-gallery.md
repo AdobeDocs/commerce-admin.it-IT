@@ -28,14 +28,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 8d9a194292793ed0d4d350b4d2102f3bb9fdd4ea
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '335'
 ht-degree: 0%
 ---
 # [!DNL Media Gallery]
 
-Con Adobe Commerce o Magento Open Source 2.4, i commercianti possono utilizzare il nuovo _avanzato_ [!DNL Media Gallery] per organizzare e gestire i file multimediali sul server. Questo nuovo [!DNL Media Gallery] contiene le stesse funzionalità dell&#39;archiviazione multimediale esistente, ma include un&#39;interfaccia utente migliorata e un&#39;integrazione più stretta con [Adobe Stock](https://stock.adobe.com).
+I commercianti possono utilizzare [!DNL Media Gallery] per organizzare e gestire i propri file multimediali sul server.
 
 ![Immagini visualizzate nella griglia di Media Gallery](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
@@ -43,7 +43,7 @@ Con Adobe Commerce o Magento Open Source 2.4, i commercianti possono utilizzare 
 >
 >Le immagini del prodotto aggiunte alla sezione [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) non sono gestite da [!DNL Media Gallery]. Solo le immagini utilizzate nei campi della sezione prodotto&#x200B;_[!UICONTROL Content]_ vengono visualizzate e filtrate nel nuovo [!DNL Media Gallery].
 
-## Abilita il nuovo [!DNL Media Gallery]
+## Verifica la configurazione di [!DNL Media Gallery] {#enable-the-new-media-gallery}
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -53,7 +53,11 @@ Con Adobe Commerce o Magento Open Source 2.4, i commercianti possono utilizzare 
 
    ![Configurazione avanzata - [!DNL Media Gallery]](./assets/system-media-gallery.png){width="600" zoomable="yes"}
 
-1. Imposta **[!UICONTROL Enable Old Media Gallery]** su `No`.
+1. Verificare che **[!UICONTROL Enable Old Media Gallery]** sia impostato su `No`.
+
+   >[!IMPORTANT]
+   >
+   >L&#39;opzione per abilitare **[!UICONTROL Old Media Gallery]** è obsoleta. Assicurarsi che questa impostazione sia sempre impostata su `No`.
 
 1. Fare clic su **[!UICONTROL Save Config]**.
 
