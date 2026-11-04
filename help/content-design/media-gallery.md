@@ -41,7 +41,7 @@ I commercianti possono utilizzare [!DNL Media Gallery] per organizzare e gestire
 
 >[!NOTE]
 >
->Le immagini del prodotto aggiunte alla sezione [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) non sono gestite da [!DNL Media Gallery]. Solo le immagini utilizzate nei campi della sezione prodotto_[!UICONTROL Content]_ vengono visualizzate e filtrate nel nuovo [!DNL Media Gallery].
+>Le immagini del prodotto aggiunte alla sezione [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) non sono gestite da [!DNL Media Gallery]. Solo le immagini utilizzate nei campi della sezione prodotto&#x200B;_[!UICONTROL Content]_ vengono visualizzate e filtrate nel nuovo [!DNL Media Gallery].
 
 ## Verifica la configurazione di [!DNL Media Gallery] {#enable-the-new-media-gallery}
 
@@ -83,7 +83,7 @@ Per accedere alla nuova Raccolta multimediale durante l&#39;aggiunta o la modifi
 
 1. Fare clic su **[!UICONTROL Add a New Page]**.
 
-   Per modificare una pagina esistente, è possibile utilizzare la colonna _[!UICONTROL Action]_per fare clic su **[!UICONTROL Select]**e scegliere **[!UICONTROL Edit]**.
+   Per modificare una pagina esistente, è possibile utilizzare la colonna _[!UICONTROL Action]_&#x200B;per fare clic su **[!UICONTROL Select]**&#x200B;e scegliere **[!UICONTROL Edit]**.
 
 1. Espandere ![Il selettore di espansione](../assets/icon-display-expand.png) nella sezione **[!UICONTROL Content]** ed effettuare le seguenti operazioni:
 
