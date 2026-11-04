@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 55f9389c51fd4e1f9aa2475ad999c79f5f7f00df
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1677'
 ht-degree: 0%
 ---
 # Trasferire un account Adobe Commerce
@@ -44,7 +44,11 @@ Le informazioni seguenti descrivono il processo di trasferimento di un account A
 >
 >Se il nuovo proprietario dell&#39;account ha acquistato estensioni utilizzando Accesso condiviso, l&#39;accesso a tali estensioni viene perso non appena inizia il trasferimento dell&#39;account.
 >
+>Esamina le estensioni di Marketplace prima di avviare un trasferimento di account. Le estensioni e le chiavi di accesso sono associate agli ID MAGE. All&#39;avvio del trasferimento, l&#39;accesso alle estensioni acquistate in Accesso condiviso viene perso. Il processo standard di trasferimento dell’account non trasferisce gli acquisti di estensione a un altro account; potrebbe essere necessario richiedere un rimborso e riacquistare le estensioni nell’ambito del conto previsto. Se il trasferimento fa parte della ristrutturazione della licenza, contatta il supporto Adobe Commerce per confermare se è applicabile un processo di trasferimento separato.
+>
 >Prima di richiedere il trasferimento dell&#39;account, assicurati che il nuovo proprietario recuperi gli ID ordine per gli acquisti da [loro [!DNL Commerce Marketplace] account](https://commercemarketplace.adobe.com/sales/order/history/) e richieda un rimborso al [[!DNL Commerce Marketplace] team](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case). Gli acquisti di estensione non possono essere trasferiti a un account diverso.
+>
+>Inoltre, pianifica di generare nuove chiavi di accesso per l’ID immagine ricevente e di aggiornare le credenziali del Compositore utilizzate dalle distribuzioni. Completa l’estensione applicabile e i passaggi chiave prima di avviare il trasferimento dell’account.
 
 ## Identificare il tipo di trasferimento
 
@@ -193,6 +197,12 @@ Dopo che il nuovo proprietario ha configurato correttamente il proprio Adobe ID 
 1. Completa i [passaggi di verifica e-mail](#verify-an-adobe-id-email-change).
 
 Dopo che il nuovo proprietario avrà verificato l&#39;indirizzo e-mail, continuare con [Passaggi finali](#final-steps) in modo che il supporto Adobe Commerce possa aggiornare i record dell&#39;account, ad esempio il profilo [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/).
+
+## Hai bisogno di assistenza per il trasferimento del tuo account?**
+
+Se nessuno dei tipi di trasferimento di cui sopra corrisponde alla tua situazione, o se non riesci ad accedere all’indirizzo e-mail dell’attuale proprietario, invia un ticket di supporto Adobe Commerce.
+
+Nella richiesta, spiega quale tipo di trasferimento non si applica e se l’e-mail del proprietario corrente è accessibile. Includi i MAGEID del proprietario corrente e di quello nuovo, gli ID Adobe e gli indirizzi e-mail associati, se noti. Il supporto Adobe può esaminare la tua situazione e consigliarti sui passaggi successivi.
 
 ## Passaggi finali
 
