@@ -53,7 +53,7 @@ Le funzionalità di Page Builder sono state aggiornate nella versione 2.4.5 in m
 
 Guarda questo video per una dimostrazione di come il contenitore [!DNL Columns] può essere utilizzato per perfezionare i layout di pagina:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507535?captions=ita&quality=12&learn=on)
 
 ## Casella degli strumenti Colonna
 
