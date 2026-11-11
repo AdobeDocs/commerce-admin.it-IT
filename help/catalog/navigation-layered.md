@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # Navigazione a livelli
@@ -44,6 +44,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >La navigazione a livelli standard descritta in questa sezione è diversa dalla navigazione filtrata di Live Search con [facet](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-admin/facets/facets).
+>
+>Per le istanze con provisioning CCDM (Composable Catalog Data Model), vedi [Facet](/help/optimizer/merchandising/facets/overview.md) in Merchandising Services.
 
 La navigazione a livelli consente di trovare facilmente i prodotti in base alla categoria, alla fascia di prezzo o a qualsiasi altro attributo disponibile. La navigazione a livelli viene in genere visualizzata nella colonna sinistra dei risultati di ricerca e delle pagine delle categorie e talvolta nella home page. La navigazione standard include un elenco _Acquista per_ di categorie e fascia di prezzo. Puoi configurare la visualizzazione della navigazione su più livelli, compreso il conteggio dei prodotti e la gamma dei prezzi.
 

@@ -33,12 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '412'
 ht-degree: 0%
 ---
 # Gestire la configurazione della vista catalogo
+
+>[!NOTE]
+>
+>Questo argomento descrive l’implementazione della vista a catalogo per le distribuzioni Commerce utilizzando il connettore Adobe Commerce Optimizer per B2B. Se si utilizza Adobe Commerce as a Cloud Service con Merchandising Services e il modello dati del catalogo componibile (CCDM), vedere la sezione relativa alla configurazione di [Viste catalogo](../optimizer/setup/catalog-view.md) nella _Guida a Merchandising Services con CCDM_.
 
 Con l&#39;estensione [!DNL Adobe Commerce Optimizer Connector for B2B] installata, nella pagina Visualizzazioni catalogo sono elencate le [!DNL Adobe Commerce Optimizer] [proiezioni della visualizzazione catalogo](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"} create per il catalogo condiviso personalizzato.  Una _proiezione_ è la visualizzazione catalogo creata quando il connettore sincronizza i dati del catalogo condiviso con [!DNL Adobe Commerce Optimizer]. Il connettore crea una proiezione separata per ogni visualizzazione store nel catalogo condiviso, in modo che un catalogo condiviso possa avere più visualizzazioni catalogo. Nelle esperienze storefront, queste visualizzazioni catalogo sono accessibili solo alle aziende assegnate al catalogo condiviso associato.
 

@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 2b2cbba1005638bccfd8c4f14075cf98475f05f4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -175,7 +175,7 @@ Affinché un attributo sia visibile nella pagina di creazione del prodotto, aggi
 Qualsiasi attributo utilizzato come elenco a discesa di opzioni per un [prodotto configurabile](product-create-configurable.md) deve avere le seguenti proprietà:
 
 | Proprietà | Valore |
-|----------|------ |
+| ---------- | ------ |
 | Tipo di input del catalogo per il proprietario del negozio | A discesa |
 | Ambito | Globale |
 

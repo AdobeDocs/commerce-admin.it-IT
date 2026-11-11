@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '830'
 ht-degree: 0%
 ---
 
@@ -49,6 +49,8 @@ Utilizzare la pagina Chiavi di accesso limitate per gestire le chiavi di accesso
 >[!NOTE]
 >
 >Per le chiavi create manualmente e utilizzate per gestire cataloghi privati in scenari non B2B, ad esempio portali partner, gestire le chiavi da [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
+>
+>Per le istanze con provisioning CCDM (Composable Catalog Data Model), vedere [Chiavi di accesso limitate](/help/optimizer/setup/restricted-access-keys.md) in Merchandising Services.
 
 ## Pubblico e disponibilità {#audience}
 

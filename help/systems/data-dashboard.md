@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '797'
 ht-degree: 0%
 ---
 # Dashboard di gestione dati
@@ -51,6 +51,8 @@ Data Management Dashboard offre una panoramica dello stato di sincronizzazione d
 >[!NOTE]
 >
 >Se è stato installato il [Connettore Adobe Commerce Optimizer](https://experienceleague.adobe.com/it/docs/commerce/aco-optimizer-connector/overview) per esportare i dati del catalogo in Adobe Commerce Optimizer, utilizzare la [pagina Sincronizzazione dati](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio per verificare la corretta sincronizzazione dei dati, anziché il dashboard di gestione dati.
+>
+>Per le istanze fornite con Composable Catalog Data Model (CCDM), vedere [Sincronizzazione catalogo](/help/optimizer/setup/data-sync.md) in Merchandising Services.
 
 ## Pubblico
 

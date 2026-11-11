@@ -1,9 +1,9 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 ---
 # Snippet
@@ -85,6 +85,12 @@ Per accedere alle impostazioni di configurazione dell&#39;archivio, scegliere **
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B versione 1.4.2+ è compatibile con PHP 8.2. Se aggiorni l’istanza di Commerce alla versione 2.4.7+, assicurati che l’istanza utilizzi la versione PHP 8.2 per mantenere la compatibilità con la versione B2B di Adobe Commerce. Inoltre, la versione 1.4.2+ di B2B non supporta [GraphQL Application Server](https://experienceleague.adobe.com/it/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+## Nota su CCDM Merchandising Services {#ccdm-merchandising-note}
+
+>[!NOTE]
+>
+>Se per la tua istanza di Adobe Commerce as a Cloud Service è stato eseguito il provisioning con il modello dati del catalogo componibile (CCDM), in Merchandising Services puoi gestire le viste catalogo, i criteri, il merchandising e i rapporti. Consulta [Servizi di merchandising con CCDM](/help/optimizer/overview.md).
 
 ## Elenco moduli reCAPTCHA {#recaptcha-forms-list}
 

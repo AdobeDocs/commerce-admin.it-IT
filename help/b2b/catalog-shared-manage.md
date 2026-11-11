@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1132'
 ht-degree: 0%
 ---
 # Gestire i cataloghi condivisi
 
 La pagina _[!UICONTROL Shared Catalogs]_&#x200B;consente di accedere agli strumenti necessari per la gestione dei cataloghi condivisi, inclusi la selezione dei prodotti, i prezzi personalizzati, le autorizzazioni per le categorie e i dettagli del catalogo. La pagina è simile all’area di lavoro Amministratore standard, con filtri e controlli delle azioni. Nella griglia sono elencati tutti i cataloghi condivisi, incluso il catalogo condiviso pubblico predefinito e tutti i cataloghi personalizzati impostati.
 
-Se è installata l&#39;estensione [!DNL Adobe Commerce Optimizer Connector for B2B], la pagina fornisce anche l&#39;accesso alle viste catalogo [!DNL Adobe Commerce Optimizer] create quando il connettore sincronizza i dati da ciascun catalogo condiviso a [!DNL Adobe Commerce Optimizer] e alle chiavi di accesso limitato che proteggono le viste catalogo per le esperienze vetrina B2B.
+Se è installata l&#39;estensione [!DNL Adobe Commerce Optimizer Connector for B2B], la pagina fornisce anche l&#39;accesso alle viste catalogo [!DNL Adobe Commerce Optimizer] create quando il connettore sincronizza i dati da ciascun catalogo condiviso a [!DNL Adobe Commerce Optimizer] e alle chiavi di accesso limitato che proteggono le viste catalogo per le esperienze vetrina B2B. Per le istanze fornite con Composable Catalog Data Model (CCDM), la sincronizzazione nativa genera le visualizzazioni del catalogo da cataloghi condivisi. Vedi [Visualizzazioni catalogo B2B](/help/optimizer/setup/catalog-view.md#b2b-catalog-views).
 
 ## Aggiornare la selezione del prodotto
 

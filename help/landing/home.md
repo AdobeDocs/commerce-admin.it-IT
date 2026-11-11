@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-03
-source-git-commit: 007b6b960a2b17a082d3397c703f9f8375a23a9f
+source-git-commit: 837bdd15f7c690be65e72cce8b888d5c2b981fe6
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '801'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![Documentazione dell&#39;amministratore](./assets/banner-user-home.png) {#documentation}
@@ -85,7 +85,7 @@ Magento Open Source è la base di codice a cui Adobe contribuisce ufficialmente 
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo ai progetti Adobe Commerce su cloud (infrastruttura PaaS gestita da Adobe) e ai progetti locali."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a>
     <div><em>Questo set di funzioni è progettato per soddisfare le esigenze dei venditori (commercianti) i cui clienti sono principalmente aziende, possibilmente con strutture organizzative complesse e più membri del personale con vari ruoli e livelli di autorizzazione all'acquisto.</em>
     <br></div>
   </td>
@@ -103,6 +103,15 @@ Magento Open Source è la base di codice a cui Adobe contribuisce ufficialmente 
        <img alt="Inventory management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../inventory-management/guide-overview.md"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em>Le funzionalità di [!DNL Inventory Management] consentono ai commercianti con un singolo negozio di accedere a più magazzini, magazzini, località di ritiro, corrieri diretti e altro ancora. Utilizzare queste funzioni per gestire le quantità per le vendite e le spedizioni per completare gli ordini. </em></div>
+  </td>
+</tr>
+<tr>
+  <td valign="top">
+    <img alt="Servizi di merchandising" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
+  </td>
+  <td valign="top">
+    <a href="../optimizer/overview.md"><strong>Servizi di merchandising con Composable Catalog Data Model (CCDM)</strong></a> [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Si applica solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."}
+    <div><em>Configura le viste e i criteri del catalogo, gestisci le regole e i consigli per merchandising, controlla le prestazioni della vetrina e monitora la sincronizzazione del catalogo in Commerce Admin.</em></div>
   </td>
 </tr>
 <tr>
