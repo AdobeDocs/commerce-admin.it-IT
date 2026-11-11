@@ -1,7 +1,7 @@
 ---
 title: Creare e gestire i consigli
 description: Scopri come creare e gestire i consigli.
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 autotag-review: '2026-11-02T19:20:38.902Z'
 TQID: 'https://experienceleague.adobe.com/kbGOl78JRNYcqONXFHiwXfDjphi6rLmpD5oC6iFUH34'
 product_v2:

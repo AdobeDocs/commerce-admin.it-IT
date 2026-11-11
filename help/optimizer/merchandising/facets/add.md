@@ -1,7 +1,7 @@
 ---
 title: Creare e gestire i facet
 description: Scopri come aggiungere e gestire i facet in [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 autotag-review: '2026-11-02T19:18:42.471Z'
 TQID: 'https://experienceleague.adobe.com/AXIGruJgD-JFBGr4jDUscJ2vSBOBcu-TaskyIECQ-b8'
 product_v2:

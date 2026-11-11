@@ -1,7 +1,7 @@
 ---
 title: Prestazioni di ricerca
 description: La pagina Prestazioni di ricerca fornisce ad insight i termini di ricerca utilizzati dagli acquirenti.
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 autotag-review: '2026-11-02T19:16:39.256Z'
 TQID: 'https://experienceleague.adobe.com/qFCpLYVsDln6yO5zUB4LoumG0JuI1njkxt-cAYrTvxI'
 product_v2:

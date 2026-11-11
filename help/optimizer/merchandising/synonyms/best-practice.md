@@ -2,7 +2,7 @@
 title: Sinonimo Di Migliori Pratiche
 description: Scopri le best practice per l’implementazione di sinonimi nel tuo store.
 role: Admin, Developer
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 autotag-review: '2026-11-02T19:37:47.909Z'
 TQID: 'https://experienceleague.adobe.com/ZF4Ar2mPq77MFXu49V9E290QqL9-R--1MISvNm6NpOw'
 product_v2:

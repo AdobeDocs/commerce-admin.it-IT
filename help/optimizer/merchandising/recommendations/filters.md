@@ -1,7 +1,7 @@
 ---
 title: Filtri per consigli
 description: Scopri come utilizzare i filtri per controllare quali prodotti vengono visualizzati nei consigli di [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 autotag-review: '2026-11-02T19:20:49.757Z'
 TQID: 'https://experienceleague.adobe.com/zkshZLxDWzedszsUyNSh7XrFCjcYxLreERIHT9OVwoc'
 product_v2:

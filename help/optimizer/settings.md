@@ -1,7 +1,7 @@
 ---
 title: Impostazioni merchandising
 description: Configurare le impostazioni per [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 TQID: 'https://experienceleague.adobe.com/mkvRlke8kOz0hVD3dYwU24FXwtQrDP5fOWrm3OSJlZA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -2,7 +2,7 @@
 title: Panoramica dei servizi di merchandising
 description: Scopri gli strumenti di configurazione del catalogo, merchandising, reporting e monitoraggio per le istanze as a Cloud Service di Adobe Commerce fornite con CCDM.
 recommendations: noCatalog
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -60,7 +60,7 @@ Configura il modo in cui i clienti scoprono i prodotti e come questi vengono pro
 
 - **Opportunità**: verifica le prestazioni del prodotto, il comportamento dell&#39;acquirente e le tendenze di ricerca per identificare le aree in cui è possibile apportare miglioramenti al merchandising.
 - **Recommendations**—Crea e gestisci unità di consigli in Commerce Admin. I consigli utilizzano i dati del catalogo e il comportamento dell’acquirente aggregato per suggerire prodotti rilevanti, ad esempio &quot;hanno visualizzato anche i clienti che hanno visualizzato questo prodotto&quot;.
-- **Regole di merchandising**—Controlla il modo in cui i prodotti vengono promossi e classificati. Le regole possono essere applicate a tutte le visualizzazioni di catalogo o personalizzate per una visualizzazione specifica. Consulta [Creare una regola di merchandising](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#create-a-rule).
+- **Regole di merchandising**—Controlla il modo in cui i prodotti vengono promossi e classificati. Le regole possono essere applicate a tutte le visualizzazioni di catalogo o personalizzate per una visualizzazione specifica. Consulta [Creare una regola di merchandising](https://experienceleague.adobe.com/it/docs/commerce/optimizer/merchandising/rules/add#create-a-rule).
 - **Facet** - Configura i filtri utilizzati dagli acquirenti per limitare i risultati del prodotto in base ad attributi quali marchio, dimensione o prezzo.
 - **Sinonimi**: associa termini di ricerca equivalenti per aiutare gli acquirenti a trovare prodotti utilizzando parole diverse per lo stesso concetto.
 - **Impostazioni** - Configura le opzioni di ricerca e merchandising, inclusi i facet di prezzo, la lingua e la ricerca avanzata.

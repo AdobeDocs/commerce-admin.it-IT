@@ -61,6 +61,6 @@ ht-degree: 6%
  Use case {#use-case}
    - [Storefront and catalog admin end-to-end use case](./use-case/admin-use-case.md)
 -->
-- [Torna a Guide utente amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Torna a Guide utente amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
 
 

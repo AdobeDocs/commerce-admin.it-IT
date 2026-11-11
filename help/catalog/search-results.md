@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->In questa pagina sono descritte le funzionalità di ricerca standard che potrebbero essere diverse da [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>In questa pagina sono descritte le funzionalità di ricerca standard che potrebbero essere diverse da [Live Search](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview).
 >
 >Per le istanze con provisioning CCDM (Composable Catalog Data Model), vedere [Corrispondenza ricerca e classificazione](/help/optimizer/manage-results/search-relevance-matching.md) in Merchandising Services.
 
@@ -59,7 +59,7 @@ Con **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->A causa dell’annuncio sulla fine del supporto di Elasticsearch 7 relativo ad agosto 2023, si consiglia a tutti i clienti di Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante l&#39;aggiornamento del prodotto, vedere [Migrazione a OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) nella _Guida all&#39;aggiornamento_.
+>A causa dell’annuncio sulla fine del supporto di Elasticsearch 7 relativo ad agosto 2023, si consiglia a tutti i clienti di Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante l&#39;aggiornamento del prodotto, vedere [Migrazione a OpenSearch](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) nella _Guida all&#39;aggiornamento_.
 
 ## Mappatura delle parole chiave per estendere i risultati della ricerca
 

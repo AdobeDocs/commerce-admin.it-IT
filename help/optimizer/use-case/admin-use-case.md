@@ -4,7 +4,7 @@ description: Scopri come utilizzare le viste e i criteri del catalogo [!DNL Adob
 role: Admin, Developer
 feature: Personalization, Integration
 hide: true
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 autotag-review: '2026-11-02T19:39:05.356Z'
 TQID: 'https://experienceleague.adobe.com/5YIe-yCWxOcc56mi2p1QS9mIqaJxVsUvaN-AOF7Khi8'
 product_v2:

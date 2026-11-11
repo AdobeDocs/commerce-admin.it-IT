@@ -43,7 +43,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->La navigazione a livelli standard descritta in questa sezione è diversa dalla navigazione filtrata di Live Search con [facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
+>La navigazione a livelli standard descritta in questa sezione è diversa dalla navigazione filtrata di Live Search con [facet](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-admin/facets/facets).
 >
 >Per le istanze con provisioning CCDM (Composable Catalog Data Model), vedi [Facet](/help/optimizer/merchandising/facets/overview.md) in Merchandising Services.
 
@@ -55,7 +55,7 @@ La navigazione a livelli consente di trovare facilmente i prodotti in base alla 
 
 >[!NOTE]
 >
->I requisiti degli attributi filtrabili descritti in questo argomento sono diversi per [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). Per ulteriori informazioni, consulta [Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
+>I requisiti degli attributi filtrabili descritti in questo argomento sono diversi per [Live Search](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview). Per ulteriori informazioni, consulta [Facet](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-admin/facets/facets).
 
 La navigazione a livelli può essere utilizzata per cercare i prodotti per categoria o per attributo. Ad esempio, quando un acquirente sceglie la categoria Mens/Shorts dalla navigazione superiore, i risultati iniziali includono tutti i prodotti della categoria. L’elenco può essere filtrato ulteriormente scegliendo uno stile, un clima, un colore, un materiale, un motivo o un prezzo specifico (o una combinazione di valori). Gli attributi filtrabili vengono visualizzati in una sezione espansa che elenca ogni valore di attributo. Come opzione, l’elenco dei prodotti con risultati corrispondenti può essere configurato per includere prodotti con o senza corrispondenza.
 
@@ -141,7 +141,7 @@ Per rimuovere i valori degli attributi filtrabili con 0 prodotti dalla navigazio
 
 >[!NOTE]
 >
->La configurazione della navigazione del prezzo descritta in questa sezione è diversa dalla navigazione filtrata di Live Search con [facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
+>La configurazione della navigazione del prezzo descritta in questa sezione è diversa dalla navigazione filtrata di Live Search con [facet](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-admin/facets/facets).
 
 La navigazione dei prezzi può essere utilizzata per distribuire i prodotti in base alla fascia di prezzo in una navigazione a più livelli. È inoltre possibile suddividere ogni intervallo in intervalli. Esistono alcuni modi per calcolare la navigazione dei prezzi:
 
@@ -236,7 +236,7 @@ Lascia **[!UICONTROL Price Navigation Steps Calculation]** impostato su `Automat
 
 >[!NOTE]
 >
->La navigazione a livelli standard descritta in questa sezione è diversa dalla navigazione filtrata di Live Search con [facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
+>La navigazione a livelli standard descritta in questa sezione è diversa dalla navigazione filtrata di Live Search con [facet](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-admin/facets/facets).
 
 La configurazione della navigazione a livelli determina se un conteggio dei prodotti viene visualizzato tra parentesi dopo ogni attributo e la dimensione del calcolo del passaggio utilizzato nella navigazione dei prezzi.
 

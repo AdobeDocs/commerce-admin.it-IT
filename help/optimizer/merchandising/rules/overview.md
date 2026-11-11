@@ -1,7 +1,7 @@
 ---
 title: Regole di merchandising
 description: '[!DNL Adobe Commerce Optimizer] le regole di merchandising combinano la logica con le azioni per modellare i risultati della ricerca, gli elenchi di prodotti predefiniti e le pagine delle categorie.'
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 autotag-review: '2026-11-02T19:36:46.997Z'
 TQID: 'https://experienceleague.adobe.com/DT2YeKtqKMZcqGe-JDj63cKaS1DVK0R94FLTV--boEM'
 product_v2:
