@@ -89,7 +89,7 @@ Monitora la sincronizzazione del catalogo e la raccolta degli eventi storefront 
 <!--
 Watch the following video for a high-level overview of [!DNL Adobe Commerce Optimizer]:
 
->[!VIDEO](https://video.tv.adobe.com/v/3450226)
+>[!VIDEO](https://video.tv.adobe.com/v/3450471?captions=ita)
 -->
 
 ## Conferma che un’istanza utilizzi CCDM
