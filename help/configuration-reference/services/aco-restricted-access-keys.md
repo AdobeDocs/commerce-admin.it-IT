@@ -1,8 +1,8 @@
 ---
-title: '[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]'
+title: '[!UICONTROL Services] > Chiavi di accesso con restrizioni ACO'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys] dell'amministratore di Commerce.
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '215'
+ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
 
 Utilizzare questa impostazione per controllare il periodo di scadenza predefinito applicato da [!DNL Adobe Commerce Optimizer Connector for B2B] alle chiavi ad accesso limitato per le visualizzazioni di catalogo condivise B2B. Per creare, assegnare ed eliminare queste chiavi, vedere [Gestione chiavi di accesso con restrizioni](../../systems/restricted-access-keys.md).
+
+>[!NOTE]
+>
+>Questa pagina si applica al connettore. Le istanze fornite con il Composable Catalog Data Model (CCDM) sincronizzano i dati in modo nativo e non utilizzano il connettore. Consulta [Servizi di merchandising con CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

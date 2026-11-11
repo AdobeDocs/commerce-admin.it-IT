@@ -1,8 +1,8 @@
 ---
 title: '[!UICONTROL Services] > Visualizzazione catalogo ACO'
-description: Rivedi e aggiorna le impostazioni di configurazione di Adobe Commerce Optimizer nella pagina [!UICONTROL Services] > [!UICONTROL ACO Catalog View] dell'amministratore di Commerce.
+description: Rivedi e aggiorna le impostazioni di Adobe Commerce Optimizer nella pagina [!UICONTROL Services] > [!UICONTROL ACO Catalog View] dell'amministratore Commerce.
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
 Utilizzare queste impostazioni per controllare i token di accesso emessi da [!DNL Adobe Commerce Optimizer Connector for B2B]. Gli storefront utilizzano questi token per l’autenticazione nelle viste di catalogo privato di Commerce Optimizer compilate con dati sincronizzati da cataloghi condivisi personalizzati configurati nell’amministratore.
+
+>[!NOTE]
+>
+>Questa pagina si applica al connettore. Le istanze fornite con il Composable Catalog Data Model (CCDM) sincronizzano i dati in modo nativo e non utilizzano il connettore. Consulta [Servizi di merchandising con CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

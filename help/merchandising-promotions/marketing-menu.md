@@ -1,6 +1,6 @@
 ---
 title: Menu [!UICONTROL Marketing]
-description: L'amministratore di Commerce include il menu [!UICONTROL Marketing], che fornisce gli strumenti di accesso per la gestione di promozioni, comunicazioni, SEO e contenuti generati dagli utenti.
+description: L'amministratore di Commerce include il menu [!UICONTROL Marketing], che fornisce gli strumenti per la gestione di promozioni, comunicazioni, SEO (Search Engine Optimization) e contenuti generati dagli utenti.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
 TQID: https://experienceleague.adobe.com/UZFSZIsLZvPv50Cg8xmpJ0oW7WEfYvcHEiedDhO2qc0
 product_v2:
@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 # Menu [!UICONTROL Marketing]
 
 Il menu [!UICONTROL Marketing] fornisce strumenti di accesso per la gestione di promozioni, comunicazioni, SEO e contenuti generati dagli utenti.
@@ -41,17 +39,19 @@ Il menu [!UICONTROL Marketing] fornisce strumenti di accesso per la gestione di 
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 ![Amministratore Commerce - Menu Marketing](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
 
 ![Amministratore Commerce - Menu Marketing](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 ## Visualizza il menu [!UICONTROL Marketing]
 
@@ -67,7 +67,7 @@ Crea le regole di prezzo [catalogo](price-rules-catalog.md) e [carrello](price-r
 
 ### [!UICONTROL Private Sales]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 {{ee-feature}}
 
@@ -85,6 +85,6 @@ Analizza [termini di ricerca](../catalog/search-terms.md) e [sinonimi](../catalo
 
 ### [!UICONTROL User Content]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Incorpora [recensioni di prodotti](product-reviews.md) generate dall&#39;utente per creare un senso di comunità e aumentare le vendite.

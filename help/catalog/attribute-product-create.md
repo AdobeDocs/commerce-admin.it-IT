@@ -31,14 +31,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 2b2cbba1005638bccfd8c4f14075cf98475f05f4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
 ---
 # Creare ed eliminare attributi di prodotto
 
-È possibile creare attributi mentre si lavora su un prodotto o dalla pagina _[!UICONTROL Product Attributes]_. Nei passaggi seguenti viene illustrato come creare attributi dal menu&#x200B;_[!UICONTROL Stores]_.
+È possibile creare attributi mentre si lavora su un prodotto o dalla pagina _[!UICONTROL Product Attributes]_. Nei passaggi seguenti viene illustrato come creare attributi dal menu_[!UICONTROL Stores]_.
 
 ## Passaggio 1: descrivere le proprietà dell’attributo di base
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > Se prevedi di utilizzare questo attributo come facet in Live Search, devi specificare un’etichetta specifica per lo store. In caso contrario, il nome dell&#39;attributo potrebbe non essere visualizzato correttamente nella pagina di configurazione del facet. Per aggiornare la configurazione, modifica manualmente l&#39;etichetta utilizzando l&#39;opzione [modifica nell&#39;elenco dei facet di Live Search](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) nella _Guida a Live Search_.
+   > Se prevedi di utilizzare questo attributo come facet in Live Search, devi specificare un’etichetta specifica per lo store. In caso contrario, il nome dell&#39;attributo potrebbe non essere visualizzato correttamente nella pagina di configurazione del facet. Per aggiornare la configurazione, modifica manualmente l&#39;etichetta utilizzando l&#39;opzione [modifica nell&#39;elenco dei facet di Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) nella _Guida a Live Search_.
 
 ## Passaggio 4: descrivere le proprietà della vetrina
 
@@ -175,7 +175,7 @@ Affinché un attributo sia visibile nella pagina di creazione del prodotto, aggi
 Qualsiasi attributo utilizzato come elenco a discesa di opzioni per un [prodotto configurabile](product-create-configurable.md) deve avere le seguenti proprietà:
 
 | Proprietà | Valore |
-|----------|------ |
+| ---------- | ------ |
 | Tipo di input del catalogo per il proprietario del negozio | A discesa |
 | Ambito | Globale |
 

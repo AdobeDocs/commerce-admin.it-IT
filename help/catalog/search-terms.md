@@ -36,12 +36,14 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
 ---
 # Gestire i termini di ricerca
+
+{{ccdm-merchandising-note}}
 
 La [pagina di destinazione](../content-design/pages.md) per un termine di ricerca può essere una pagina di contenuto, una pagina di categoria, una pagina di dettagli del prodotto o anche una pagina in un sito diverso.
 
@@ -79,7 +81,7 @@ Man mano che si apprendono nuove parole utilizzate dagli utenti per eseguire ric
 
    ![Informazioni generali sui termini di ricerca](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. In _[!UICONTROL General Information]_&#x200B;nella casella **[!UICONTROL Search Query]**&#x200B;immettere la parola o la frase che si desidera aggiungere come nuovo termine di ricerca.
+1. In _[!UICONTROL General Information]_nella casella **[!UICONTROL Search Query]**immettere la parola o la frase che si desidera aggiungere come nuovo termine di ricerca.
 
 1. Se il tuo archivio è disponibile in più lingue, scegli la visualizzazione **[!UICONTROL Store]** applicabile.
 
@@ -91,7 +93,7 @@ Man mano che si apprendono nuove parole utilizzate dagli utenti per eseguire ric
 
 ## Modificare un termine di ricerca
 
-1. Nella griglia _[!UICONTROL Search Terms]_&#x200B;fare clic sulla riga di un record per aprire il termine di ricerca in modalità di modifica.
+1. Nella griglia _[!UICONTROL Search Terms]_fare clic sulla riga di un record per aprire il termine di ricerca in modalità di modifica.
 
 1. Apporta le modifiche necessarie.
 
@@ -155,7 +157,7 @@ Un modo per migliorare l&#39;efficacia della [ricerca nel catalogo](search-confi
 
 Adobe Commerce supporta due diverse soluzioni per la gestione dei sinonimi:
 
-- La funzionalità [Sinonimi](https://experienceleague.adobe.com/it/docs/commerce/live-search/live-search-admin/synonyms/synonyms) di Live Search è disponibile per le installazioni di Adobe Commerce con Live Search installato.
+- La funzionalità [Sinonimi](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms) di Live Search è disponibile per le installazioni di Adobe Commerce con Live Search installato.
 - La funzione standard Sinonimi di ricerca (descritta in questa pagina) è disponibile come strumento predefinito per tutte le installazioni di Adobe Commerce.
 
 >[!NOTE]
@@ -195,7 +197,7 @@ Adobe Commerce supporta due diverse soluzioni per la gestione dei sinonimi:
 
 ### Modificare un gruppo di sinonimi
 
-1. Nella griglia _[!UICONTROL Search Synonyms]_&#x200B;fare clic sulla riga di un record per aprire il gruppo di sinonimi in modalità di modifica.
+1. Nella griglia _[!UICONTROL Search Synonyms]_fare clic sulla riga di un record per aprire il gruppo di sinonimi in modalità di modifica.
 
 1. Apporta le modifiche necessarie.
 
@@ -207,7 +209,7 @@ Esistono due metodi per eliminare un gruppo di sinonimi: dalla griglia e nella p
 
 **Metodo 1:** nella griglia dei sinonimi di ricerca
 
-1. Nella griglia _[!UICONTROL Search Synonyms]_&#x200B;selezionare la casella di controllo del gruppo da eliminare.
+1. Nella griglia _[!UICONTROL Search Synonyms]_selezionare la casella di controllo del gruppo da eliminare.
 
 1. Nell&#39;angolo superiore sinistro dell&#39;elenco, impostare **[!UICONTROL Actions]** su `Delete`.
 

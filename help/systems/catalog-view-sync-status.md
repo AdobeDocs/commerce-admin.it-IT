@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1358'
 ht-degree: 0%
 ---
 
@@ -52,10 +52,12 @@ Utilizzare la pagina Stato di sincronizzazione della visualizzazione del catalog
 >[!NOTE]
 >
 >Per tenere traccia dello stato di sincronizzazione per i feed dati del catalogo, utilizzare la pagina [[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md).
+>
+>Questa pagina si applica alle viste catalogo create dal connettore. Per le istanze fornite con Composable Catalog Data Model (CCDM), vedere [Sincronizzazione catalogo](/help/optimizer/setup/data-sync.md) in Merchandising Services.
 
 ## Pubblico e disponibilità {#audience}
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud Infrastructure e on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud Infrastructure e on-premise."}
 
 La pagina [!UICONTROL Catalog View Sync Status] è disponibile per i commercianti Adobe Commerce on Cloud Infrastructure e on-premise che utilizzano cataloghi condivisi B2B con l&#39;integrazione [!DNL Adobe Commerce Optimizer Connector for B2B]. La pagina viene installata e attivata automaticamente quando viene installata l’estensione del connettore.
 
@@ -196,6 +198,6 @@ Le righe in questa scheda vengono cancellate automaticamente dopo 90 giorni.
 > - [Stato sincronizzazione feed dati](data-feed-sync-status.md)
 > - [Servizi > Sincronizzazione visualizzazione catalogo ACO](../configuration-reference/services/aco-catalog-view-sync.md) — Configura i periodi di tolleranza per l&#39;eliminazione e la creazione e il riconciliatore delle deviazioni
 > - [Gestione chiavi di accesso con restrizioni](restricted-access-keys.md): consente di gestire le chiavi di cui viene visualizzata la scadenza della pagina
-> - [Monitorare la sincronizzazione della visualizzazione catalogo per i cataloghi condivisi B2B](https://experienceleague.adobe.com/it/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) nella *Guida di Adobe Commerce Optimizer Connector*
-> - [Visualizzazioni catalogo privato](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/private-catalog-view)
-> - [Chiavi di accesso limitate](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/restricted-access-keys)
+> - [Monitorare la sincronizzazione della visualizzazione catalogo per i cataloghi condivisi B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) nella *Guida di Adobe Commerce Optimizer Connector*
+> - [Visualizzazioni catalogo privato](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
+> - [Chiavi di accesso limitate](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)

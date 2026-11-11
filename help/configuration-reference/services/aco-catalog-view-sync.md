@@ -2,7 +2,7 @@
 title: '[!UICONTROL Services] > Sincronizzazione visualizzazione catalogo ACO'
 description: Rivedi le impostazioni di configurazione nella pagina [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync] dell'amministratore di Commerce.
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '333'
 ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
 Utilizzare queste impostazioni per controllare il modo in cui [!DNL Adobe Commerce Optimizer Connector for B2B] sincronizza in [!DNL Adobe Commerce Optimizer] le configurazioni del catalogo condiviso B2B, ovvero la vista del catalogo, i criteri, il listino prezzi e la chiave, e come risolve le differenze di configurazione tra i due sistemi. Per controllare i risultati di queste impostazioni, vedere [Monitoraggio dello stato di sincronizzazione della visualizzazione del catalogo](../../systems/catalog-view-sync-status.md).
+
+>[!NOTE]
+>
+>Questa pagina si applica al connettore. Le istanze fornite con il Composable Catalog Data Model (CCDM) sincronizzano i dati in modo nativo e non utilizzano il connettore. Consulta [Servizi di merchandising con CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

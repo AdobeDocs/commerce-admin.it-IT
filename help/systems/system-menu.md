@@ -1,6 +1,6 @@
 ---
 title: Menu [!UICONTROL System]
-description: L'amministratore di Commerce include il menu [!UICONTROL System], che fornisce l'accesso agli strumenti per l'importazione e l'esportazione di dati, la gestione della cache di sistema e degli indici, la gestione degli accessi e delle autorizzazioni dell'amministratore, i backup, le notifiche di sistema e le variabili personalizzate.
+description: Il menu [!UICONTROL System] consente di accedere agli strumenti per l'importazione e l'esportazione dei dati, la gestione della cache e degli indici, le autorizzazioni, i backup e le notifiche.
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 TQID: https://experienceleague.adobe.com/fNQyGiTfJuHW-AuspIq122m0mqxzaLXP63AFHWIT2lo
 product_v2:
@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # Menu [!UICONTROL System]
 
 Il menu [!UICONTROL System] include strumenti per importare ed esportare dati, gestire cache e indici di sistema, gestire autorizzazioni, backup, notifiche di sistema e variabili personalizzate.
@@ -43,17 +41,19 @@ Il menu [!UICONTROL System] include strumenti per importare ed esportare dati, g
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 ![Menu di sistema](./assets/system-menu.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce as a Cloud Service e Adobe Commerce Optimizer (infrastruttura SaaS gestita da Adobe)."}
 
 ![Menu di sistema](./assets/system-menu-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 **_Per visualizzare il menu [!UICONTROL System]:_**
 
@@ -65,19 +65,19 @@ Questi [strumenti](data-transfer.md) consentono di gestire più record in una si
 
 ## [!UICONTROL Extensions]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Gestisci [integrazioni di terze parti](integrations.md) ed estensioni per il tuo archivio.
 
 ## [!UICONTROL Tools]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 Utilizza questa raccolta di strumenti per gestire le risorse di sistema, tra cui [cache](cache-management.md) e [index](index-management.md) di gestione, [backup](backups.md) e impostazioni di installazione.
 
 ## [!UICONTROL Support]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
 

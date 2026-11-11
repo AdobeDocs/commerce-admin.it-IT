@@ -32,16 +32,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # Risultati di ricerca
 
 >[!NOTE]
 >
->In questa pagina sono descritte le funzionalità di ricerca standard che potrebbero essere diverse da [Live Search](https://experienceleague.adobe.com/it/docs/commerce/live-search/overview).
+>In questa pagina sono descritte le funzionalità di ricerca standard che potrebbero essere diverse da [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>
+>Per le istanze con provisioning CCDM (Composable Catalog Data Model), vedere [Corrispondenza ricerca e classificazione](/help/optimizer/manage-results/search-relevance-matching.md) in Merchandising Services.
 
 L&#39;elenco _Risultati ricerca_ include tutti i prodotti che corrispondono ai criteri di ricerca specificati nella casella Ricerca rapida o nel modulo Ricerca avanzata. Ogni elenco di prodotti del catalogo ha essenzialmente gli stessi controlli. L&#39;unica differenza è che uno è il risultato di una query di ricerca e l&#39;altra è il risultato di [navigazione](navigation.md).
 
@@ -57,7 +59,7 @@ Con **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->A causa dell’annuncio sulla fine del supporto di Elasticsearch 7 relativo ad agosto 2023, si consiglia a tutti i clienti di Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante l&#39;aggiornamento del prodotto, vedere [Migrazione a OpenSearch](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) nella _Guida all&#39;aggiornamento_.
+>A causa dell’annuncio sulla fine del supporto di Elasticsearch 7 relativo ad agosto 2023, si consiglia a tutti i clienti di Adobe Commerce di migrare al motore di ricerca OpenSearch 2.x. Per informazioni sulla migrazione del motore di ricerca durante l&#39;aggiornamento del prodotto, vedere [Migrazione a OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) nella _Guida all&#39;aggiornamento_.
 
 ## Mappatura delle parole chiave per estendere i risultati della ricerca
 
@@ -72,7 +74,7 @@ Nell&#39;esempio seguente viene utilizzata la mappatura delle parole chiave basa
 
 ### Passaggio 1: creare un attributo
 
-1. Nell&#39;elenco _[!UICONTROL Products]_&#x200B;aprire `Montana Wind Jacket` (MJ03) in modalità di modifica.
+1. Nell&#39;elenco _[!UICONTROL Products]_aprire `Montana Wind Jacket` (MJ03) in modalità di modifica.
 1. Nell&#39;angolo superiore destro fare clic su **[!UICONTROL Add Attribute]**.
 1. Nella pagina _Seleziona attributo_ fare clic su **[!UICONTROL Create New Attribute]**.
 1. Completa le proprietà dell’attributo come segue:
@@ -107,15 +109,15 @@ Nell&#39;esempio seguente viene utilizzata la mappatura delle parole chiave basa
    ![Sezione Attributi con parola chiave di ricerca](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Al termine, fare clic su **[!UICONTROL Save]**.
-1. Vai a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;e aggiorna **[!UICONTROL Page Cache]**.
+1. Vai a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**e aggiorna **[!UICONTROL Page Cache]**.
 
 ### Passaggio 3: mappare il secondo prodotto
 
-1. Nell&#39;elenco _[!UICONTROL Products]_&#x200B;aprire `Chaz Kangaroo Hoodie` (MH01) in modalità di modifica.
+1. Nell&#39;elenco _[!UICONTROL Products]_aprire `Chaz Kangaroo Hoodie` (MH01) in modalità di modifica.
 1. Scorri verso il basso ed espandi la sezione **[!UICONTROL Attributes]**.
 1. Nel campo **[!UICONTROL Search Keywords]**, immettere lo SKU per l&#39;altro prodotto, `MJ03`.
 1. Fare clic su **[!UICONTROL Save]**.
-1. Vai a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;e aggiorna **[!UICONTROL Page Cache]**.
+1. Vai a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**e aggiorna **[!UICONTROL Page Cache]**.
 
 ### Passaggio 4: testarlo nella vetrina
 
