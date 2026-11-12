@@ -1,7 +1,7 @@
 ---
-source-git-commit: 293f07bf3a6a4de70ac8ababffa6334b5c319e97
+source-git-commit: 94c7929de24bee75e72927fb81692f4a2145c487
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1633'
 ht-degree: 0%
 ---
 # Chiavi di accesso con restrizioni
@@ -10,7 +10,7 @@ Le chiavi di accesso con restrizioni consentono alle applicazioni client autoriz
 
 Il provisioning delle chiavi di accesso con restrizioni può avvenire in uno dei due modi seguenti:
 
-- **Automaticamente, per cataloghi condivisi B2B**: il sistema esegue il provisioning e assegna la chiave iniziale per le visualizzazioni catalogo associate a un catalogo condiviso B2B. Quindi gestisci le chiavi e l’assegnazione delle chiavi dall’amministratore di Commerce. Vedi [Autenticazione della vista catalogo](https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage) nella *Guida dell&#39;amministratore di Commerce*. Il provisioning automatico è disponibile nelle seguenti distribuzioni:
+- **Automaticamente, per cataloghi condivisi B2B**: il sistema esegue il provisioning e assegna la chiave iniziale per le visualizzazioni catalogo associate a un catalogo condiviso B2B. Quindi gestisci le chiavi e l’assegnazione delle chiavi dall’amministratore di Commerce. Vedi [Autenticazione della vista catalogo](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage) nella *Guida dell&#39;amministratore di Commerce*. Il provisioning automatico è disponibile nelle seguenti distribuzioni:
 
   - **Adobe Commerce as a Cloud Service con CCDM** per Adobe Commerce B2B.
   - **Adobe Commerce su cloud o locale** integrato con Adobe Commerce Optimizer tramite [!DNL Adobe Commerce Optimizer Connector for B2B]. È necessaria l’estensione B2B per il connettore.
@@ -50,7 +50,7 @@ La modalità di apertura dell&#39;area di lavoro dei codici di accesso con restr
 
 >[!NOTE]
 >
->Questa sezione e le due che seguono descrivono il processo manuale per gestire le chiavi di accesso con restrizioni. Per i cataloghi condivisi B2B con provisioning automatico delle chiavi, gestisci le chiavi dall’amministratore di Commerce. Vedi [Chiavi di accesso limitate](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys).
+>Questa sezione e le due che seguono descrivono il processo manuale per gestire le chiavi di accesso con restrizioni. Per i cataloghi condivisi B2B con provisioning automatico delle chiavi, gestisci le chiavi dall’amministratore di Commerce. Vedi [Chiavi di accesso limitate](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys).
 
 ### Aggiungere una chiave di accesso con restrizioni
 
@@ -58,11 +58,11 @@ Seleziona la scheda per lo strumento utilizzato per gestire le chiavi: Commerce 
 
 >[!BEGINTABS]
 
->[!TAB &quot;Amministrazione Adobe Commerce&quot;]
+>[!TAB Amministratore Adobe Commerce]
 
-I clienti che utilizzano Adobe Commerce as a Cloud Service con CCDM o Adobe Commerce Optimizer connesso ad Adobe Commerce tramite il connettore possono generare coppie di chiavi RSA dall’amministratore Commerce. Vedi [Gestire le chiavi con restrizioni di accesso](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys).
+I clienti che utilizzano Adobe Commerce as a Cloud Service con CCDM o Adobe Commerce Optimizer connesso ad Adobe Commerce tramite il connettore possono generare coppie di chiavi RSA dall’amministratore Commerce. Vedi [Gestire le chiavi con restrizioni di accesso](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys).
 
->[!TAB &quot;Adobe Commerce Optimizer Studio (gestione manuale delle chiavi)&quot;]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 I clienti che utilizzano Adobe Commerce Optimizer Studio devono generare e gestire le proprie coppie di chiavi RSA e quindi aggiungere la chiave pubblica al sistema. Si tratta del flusso di lavoro richiesto per Adobe Commerce Optimizer con un back-end di terze parti. Anche i clienti che utilizzano il connettore possono utilizzare questo flusso di lavoro al posto dell’amministratore di Commerce.
 
@@ -113,7 +113,7 @@ Una chiave di accesso con restrizioni autentica l&#39;accesso solo dopo che è s
 
 Le chiavi di accesso con restrizioni vengono gestite in due modi, a seconda di come si utilizza la protezione del catalogo:
 
-- **Automaticamente, per i cataloghi condivisi B2B**: per le distribuzioni B2B di Adobe Commerce che utilizzano Merchandising Services con CCDM e per le distribuzioni Adobe Commerce Optimizer integrate tramite [!DNL Adobe Commerce Optimizer Connector for B2B] (che richiede l&#39;estensione B2B), il servizio genera e assegna automaticamente la prima chiave di accesso limitato al momento della creazione di una vista catalogo. Ogni vista catalogo ha la propria chiave. Successivamente, puoi gestire ogni chiave dalle pagine Catalogo condiviso o Account aziendale. Puoi anche visualizzare e gestire le chiavi dalla pagina Amministratore Commerce **Chiavi di accesso con restrizioni** (**Sistema** > **Trasferimento dati**). Consulta [Gestire la configurazione della visualizzazione del catalogo](https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage).
+- **Automaticamente, per i cataloghi condivisi B2B**: per le distribuzioni B2B di Adobe Commerce che utilizzano Merchandising Services con CCDM e per le distribuzioni Adobe Commerce Optimizer integrate tramite [!DNL Adobe Commerce Optimizer Connector for B2B] (che richiede l&#39;estensione B2B), il servizio genera e assegna automaticamente la prima chiave di accesso limitato al momento della creazione di una vista catalogo. Ogni vista catalogo ha la propria chiave. Successivamente, puoi gestire ogni chiave dalle pagine Catalogo condiviso o Account aziendale. Puoi anche visualizzare e gestire le chiavi dalla pagina Amministratore Commerce **Chiavi di accesso con restrizioni** (**Sistema** > **Trasferimento dati**). Consulta [Gestire la configurazione della visualizzazione del catalogo](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage).
 
   Ogni combinazione di un catalogo condiviso e di una visualizzazione archivio viene proiettata come una visualizzazione catalogo separata. Una proiezione è costituita dalla vista catalogo, dai criteri, dal riferimento al listino prezzi e dai dati chiave di configurazione ad accesso limitato esportati nel livello dati di Merchandising Services per tale combinazione. Pertanto, un catalogo condiviso assegnato a più visualizzazioni dello store produce più visualizzazioni del catalogo, ciascuna con la propria chiave. Modifica o ruota una chiave per una vista catalogo senza influire sulle altre.
 
@@ -132,11 +132,11 @@ Seleziona la scheda per lo strumento utilizzato per gestire le chiavi: Commerce 
 
 >[!BEGINTABS]
 
->[!TAB &quot;Amministrazione Adobe Commerce&quot;]
+>[!TAB Amministratore Adobe Commerce]
 
-Vedi [Selezione chiave e rotazione](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys#key-selection-and-rotation). Questo vale per Adobe Commerce as a Cloud Service con CCDM e per i progetti Adobe Commerce integrati con Adobe Commerce Optimizer tramite il connettore Adobe Commerce Optimizer.
+Vedi [Selezione chiave e rotazione](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys#key-selection-and-rotation). Questo vale per Adobe Commerce as a Cloud Service con CCDM e per i progetti Adobe Commerce integrati con Adobe Commerce Optimizer tramite il connettore Adobe Commerce Optimizer.
 
->[!TAB &quot;Adobe Commerce Optimizer Studio (gestione manuale delle chiavi)&quot;]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 Questa procedura è necessaria per Adobe Commerce Optimizer con un back-end di terze parti. I clienti che utilizzano il connettore possono anche utilizzarlo al posto dell’amministratore di Commerce.
 
@@ -149,7 +149,7 @@ Questa procedura è necessaria per Adobe Commerce Optimizer con un back-end di t
 
 ## Limiti
 
-Vedi [Visualizzazioni catalogo e limiti dei criteri](https://experienceleague.adobe.com/it/docs/commerce/optimizer/boundaries-limits).
+Vedi [Visualizzazioni catalogo e limiti dei criteri](https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits).
 
 ## Altri argomenti correlati
 
