@@ -1,7 +1,7 @@
 ---
 title: Tipi di consigli
 description: Scopri i consigli che puoi distribuire in varie pagine del sito.
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 autotag-review: '2026-11-02T19:21:36.761Z'
 TQID: 'https://experienceleague.adobe.com/i2T0qGlx6PVM-V6US9FjMGazmfz-x-zaW3ReN1ANE3E'
 product_v2:
