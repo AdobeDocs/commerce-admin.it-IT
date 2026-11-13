@@ -2,7 +2,7 @@
 title: Gestisci configurazione vista catalogo
 description: Scopri come rivedere le viste di catalogo Adobe Commerce Optimizer create per i cataloghi condivisi B2B e assegnare le chiavi di accesso con restrizioni che li proteggono.
 feature: B2B, Companies, Catalog Management
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Il connettore protegge le visualizzazioni del catalogo con tasti di accesso limi
 
 Per configurare la durata del token o disabilitare il rilascio del token, vedi [Servizi > Visualizzazione catalogo ACO](/help/configuration-reference/services/aco-catalog-view.md).
 
-È possibile esaminare queste visualizzazioni catalogo e gestire le chiavi assegnate dalla scheda _[!UICONTROL Catalog Views]_&#x200B;del catalogo condiviso o dalla sezione&#x200B;_[!UICONTROL Catalog Views]_ della società associata. Entrambi elencano le stesse visualizzazioni catalogo e le assegnazioni chiave correnti. Vedere [Modifica chiavi di accesso con restrizioni](#edit-restricted-access-keys) per l&#39;esatto percorso di navigazione da ogni posizione.
+È possibile esaminare queste visualizzazioni catalogo e gestire le chiavi assegnate dalla scheda _[!UICONTROL Catalog Views]_del catalogo condiviso o dalla sezione_[!UICONTROL Catalog Views]_ della società associata. Entrambi elencano le stesse visualizzazioni catalogo e le assegnazioni chiave correnti. Vedere [Modifica chiavi di accesso con restrizioni](#edit-restricted-access-keys) per l&#39;esatto percorso di navigazione da ogni posizione.
 
 Per monitorare la sincronizzazione dei dati del catalogo condiviso con [!DNL Adobe Commerce Optimizer], vedere [Monitoraggio dello stato di sincronizzazione della visualizzazione del catalogo](/help/systems/catalog-view-sync-status.md).
 

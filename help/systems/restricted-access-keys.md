@@ -4,7 +4,7 @@ description: Creare, assegnare ed eliminare le chiavi di accesso con restrizioni
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Intermediate
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%
@@ -48,13 +48,13 @@ Utilizzare la pagina Chiavi di accesso limitate per gestire le chiavi di accesso
 
 >[!NOTE]
 >
->Per le chiavi create manualmente e utilizzate per gestire cataloghi privati in scenari non B2B, ad esempio portali partner, gestire le chiavi da [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
+>Per le chiavi create manualmente e utilizzate per gestire cataloghi privati in scenari non B2B, ad esempio portali partner, gestire le chiavi da [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
 >
 >Per le istanze con provisioning CCDM (Composable Catalog Data Model), vedere [Chiavi di accesso limitate](/help/optimizer/setup/restricted-access-keys.md) in Merchandising Services.
 
 ## Pubblico e disponibilità {#audience}
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud Infrastructure e on-premise."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud Infrastructure e on-premise."}
 
 La pagina [!UICONTROL Restricted Access Keys] è disponibile per i commercianti Adobe Commerce on Cloud Infrastructure e on-premise che utilizzano cataloghi condivisi B2B con [!DNL Adobe Commerce Optimizer Connector for B2B]. Il connettore installa e abilita automaticamente la pagina.
 
@@ -128,7 +128,7 @@ Per modificare il periodo di scadenza predefinito applicato alle chiavi appena c
 > - [Monitoraggio dello stato di sincronizzazione della visualizzazione del catalogo](catalog-view-sync-status.md) — Controlla e riconcilia le visualizzazioni del catalogo protette da queste chiavi
 > - [Servizi > Chiavi di accesso con restrizioni ACO](../configuration-reference/services/aco-restricted-access-keys.md) — Configura il periodo di scadenza della chiave predefinita
 > - [Servizi > Visualizzazione catalogo ACO](../configuration-reference/services/aco-catalog-view.md) — Configura la durata del token di accesso della vetrina e abilita o disabilita la pubblicazione
-> - [Gestire le chiavi di accesso con restrizioni](https://experienceleague.adobe.com/it/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} nella *Guida di Adobe Commerce Optimizer Connector*: scopri come queste chiavi si adattano alla sincronizzazione di cataloghi condivisi B2B
-> - [Chiavi di accesso limitate](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} nella *Guida di Adobe Commerce Optimizer*: il flusso di chiavi manuale basato su ACO Studio per i casi di utilizzo non B2B
+> - [Gestire le chiavi di accesso con restrizioni](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} nella *Guida di Adobe Commerce Optimizer Connector*: scopri come queste chiavi si adattano alla sincronizzazione di cataloghi condivisi B2B
+> - [Chiavi di accesso limitate](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} nella *Guida di Adobe Commerce Optimizer*: il flusso di chiavi manuale basato su ACO Studio per i casi di utilizzo non B2B
 
 <!-- Last updated from includes: 2026-10-01 08:33:41 -->
