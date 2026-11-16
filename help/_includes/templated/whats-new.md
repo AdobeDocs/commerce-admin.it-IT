@@ -1,7 +1,7 @@
 ---
-source-git-commit: bc8f33290be7bdc71772b9659c1a6f40c1c77d64
+source-git-commit: 9ccd8f3d267875124a80509bb376ab27ffa9af90
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # Nuovo modello
@@ -12,6 +12,7 @@ Questa sezione contiene le modifiche apportate negli ultimi 60 giorni. Gli aggio
 
 | Descrizione | Tipo | Data/origine |
 | --- | --- | --- |
+| È stata aggiunta la documentazione per i servizi di merchandising con il modello dati del catalogo componibile (CCDM) per Adobe Commerce as a Cloud Service:<br/>- Aggiunta la [panoramica dei servizi di merchandising](https://experienceleague.adobe.com/it/docs/commerce-admin/merchandising-with-ccdm/overview) e le [attività dei servizi di merchandising per ruolo](https://experienceleague.adobe.com/it/docs/commerce-admin/merchandising-with-ccdm/get-started-merchandising-ccdm) di riferimento.<br/>- Aggiunte [visualizzazioni del catalogo](https://experienceleague.adobe.com/it/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view) e [libri prezzi](https://experienceleague.adobe.com/it/docs/commerce-admin/merchandising-with-ccdm/setup/pricebooks).<br/>- Aggiunte note a ricerche, consigli, sincronizzazione del catalogo e argomenti del connettore che indirizzano gli utenti CCDM a Servizi di merchandising. | Aggiornamento principale, nuovo argomento | [11 novembre 2026](https://github.com/AdobeDocs/commerce-admin.en/commit/f31ba4b981fb70f10cb0e1438dbd445550e6253b) |
 | Aggiornamento di [Arricchimento del catalogo](https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/products/catalog-enrichment) per includere le note sulla versione, la navigazione per i nuovi menu e i passaggi di installazione. | Note sulla versione | [2 novembre 2026](https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f) |
 | Aggiunta [risorse ruolo credito archivio](https://experienceleague.adobe.com/it/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources) per controllare quali utenti amministratori possono gestire il credito archivio. | Aggiornamento principale | [29 ottobre 2026](https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676) |
 | Sono state aggiornate le guide utente di Admin per l&#39;interfaccia Unified Shell:<br/>- Sono state riviste le istruzioni di navigazione e sono state aggiornate le schermate in tutte le guide, inclusa la [barra laterale di Admin](https://experienceleague.adobe.com/it/docs/commerce-admin/start/admin/tools/admin-menu) di riferimento con la voce Gestione app solo SaaS.<br/>- Sono state chiarite le [funzionalità di contenuto e progettazione](https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/guide-overview) per Adobe Commerce as a Cloud Service, incluse le filigrane delle immagini del prodotto e le e-mail transazionali. | Aggiornamento principale | [27 ottobre 2026](https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5) |
