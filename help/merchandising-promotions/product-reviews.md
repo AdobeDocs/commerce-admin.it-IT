@@ -3,7 +3,6 @@ title: Recensioni prodotto
 description: Scopri in che modo le recensioni dei prodotti possono migliorare il tuo negozio e portare più credibilità ai tuoi prodotti.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."
 TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 560b0b1584040e8d840645328cdea5e51bdca640
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '866'
 ht-degree: 0%
 ---
 # Recensioni prodotto
@@ -52,6 +51,12 @@ Commerce include una funzionalità nativa di valutazione del prodotto che puoi g
 >Se l’estensione in bundle è abilitata e configurata, devi aggiornare il file compositore.json come parte del processo di aggiornamento 2.4.4 e gestire gli aggiornamenti delle estensioni in futuro. Per ulteriori informazioni, vedere [Moduli di aggiornamento](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/modules/upgrade) nella _Guida all&#39;aggiornamento_.
 
 ## Recensioni di prodotto sul vetrina
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo ai progetti Adobe Commerce on Cloud (infrastruttura PaaS gestita da Adobe) e ai progetti on-premise."}
+
+>[!NOTE]
+>
+>Questa sezione descrive le recensioni dei prodotti per la vetrina Luma in Adobe Commerce su infrastrutture cloud e Adobe Commerce on-premise. Adobe Commerce as a Cloud Service non include la vetrina Luma, pertanto l’abilitazione delle revisioni dei prodotti in Admin non aggiunge funzioni di revisione alla vetrina. È invece necessario utilizzare la query GraphQL [`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) per recuperare le revisioni e la mutazione [`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review) per creare le revisioni.
 
 Quando la funzione nativa Revisioni prodotto è abilitata, i clienti possono scrivere recensioni per qualsiasi prodotto nel catalogo. Le recensioni possono essere scritte dalla pagina del prodotto facendo clic su:
 
@@ -83,11 +88,11 @@ Nella sezione _[!UICONTROL My Product Reviews]_&#x200B;del dashboard account cli
 
 ## Abilitare le funzioni di revisione del prodotto
 
-La funzione Revisioni prodotto di Commerce è attivata per impostazione predefinita.
+La funzione Revisioni prodotto di Commerce è abilitata per impostazione predefinita in Adobe Commerce sull’infrastruttura cloud e in Adobe Commerce on-premise. È disabilitato per impostazione predefinita in Adobe Commerce as a Cloud Service.
 
 >[!NOTE]
 >
->Per impostare questi campi su `No` e disabilitare le recensioni di prodotti Commerce, è necessario deselezionare le caselle di controllo **Usa valore di sistema**.
+>Per modificare questi campi dai valori predefiniti, è necessario prima deselezionare le caselle di controllo **[!UICONTROL Use system value]**.
 
 1. Nella barra laterale _Admin_, passa a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -99,11 +104,11 @@ La funzione Revisioni prodotto di Commerce è attivata per impostazione predefin
 
 1. Imposta **[!UICONTROL Enabled]** su `Yes`.
 
-   Questa è l’impostazione predefinita che abilita le revisioni dei prodotti.
+   Questa impostazione abilita le recensioni dei prodotti.
 
 1. Imposta **[!UICONTROL Allow Guests to Write Reviews]** su `Yes`.
 
-   Questa è l’impostazione predefinita che determina se i clienti devono aprire un account con il tuo negozio per poter scrivere recensioni di prodotti.
+   Questa impostazione determina se i clienti devono aprire un account con il tuo negozio per poter scrivere recensioni di prodotti.
 
 1. Al termine, fare clic su **[!UICONTROL Save Config]**.
 
