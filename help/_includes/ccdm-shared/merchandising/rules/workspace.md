@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 1%
+source-wordcount: '1154'
+ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.it-IT/blob/main/help/_includes/ccdm-shared/merchandising/rules/workspace.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Workspace delle regole di merchandising
 
 Nell&#39;area di lavoro *Regole di merchandising* sono elencati la selezione corrente delle regole e il relativo stato e sono disponibili gli strumenti necessari per creare e gestire le regole. È possibile definire l&#39;ambito delle regole per tutte le [visualizzazioni catalogo](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/catalog-view) (globale) o per una singola visualizzazione catalogo. Consulta [Selezionare la vista catalogo](#select-catalog-view) per informazioni su come filtrare per vista catalogo e creare regole per vista catalogo. Dall’area di lavoro puoi:
@@ -13,6 +23,8 @@ Nell&#39;area di lavoro *Regole di merchandising* sono elencati la selezione cor
 - Attiva/disattiva regole
 - Elimina regole
 - Accedere all’editor di regole
+
+L&#39;area di lavoro include anche **[regole di soppressione della ricerca](https://experienceleague.adobe.com/it/docs/commerce/optimizer/merchandising/rules/overview#search-suppression-rules)**. Utilizzare gli stessi controlli di gestione delle regole per modificare, pianificare, abilitare o disabilitare queste regole. Per configurare le condizioni di query e le modifiche di pubblicazione, vedere [Creare e gestire le regole di soppressione della ricerca](https://experienceleague.adobe.com/it/docs/commerce/optimizer/merchandising/rules/add#search-suppression-rules). Non viene visualizzata un’anteprima per le regole di soppressione della ricerca.
 
 ![Regole di merchandising Workspace](/help/assets/ccdm-shared/rules/rules-workspace.png)
 
@@ -50,6 +62,14 @@ Il pannello dei dettagli mostra il nome della regola, lo stato, le condizioni e 
    - Modifica regola
    - Elimina regola
    - Attiva/Disattiva regola
+
+## Attivare o disattivare una regola {#enable-disable-rule}
+
+1. Trova la regola nell&#39;area di lavoro *Regole di merchandising*.
+1. Apri **Altro** (...) e selezionare **Abilita regola** o **Disabilita regola**. È inoltre possibile utilizzare il controllo **Enabled** nel pannello dei dettagli.
+1. Conferma lo stato aggiornato. Una regola abilitata con una data di inizio futura rimane programmata fino a tale data.
+
+Per una **regola di soppressione della ricerca**, la disabilitazione della regola impedisce a tale regola di bloccare le query corrispondenti senza eliminarne le condizioni. Altre regole di soppressione attive possono ancora bloccare tali query. Per modificare le condizioni o le date della regola, selezionare **Modifica**, rivedere le modifiche e fare clic su **Salva e pubblica**.
 
 ## Descrizioni delle colonne
 
@@ -114,6 +134,6 @@ Per impostazione predefinita, i dati comportamentali che alimentano la [classifi
    La regola creata ha l&#39;ambito della vista catalogo selezionata.
 1. Genera la regola nell&#39;[editor regole](add.md).
 
-   Nell’editor, definisci condizioni, eventi e dettagli. La regola si applica solo ai risultati di ricerca nella vista catalogo.
+   Nell’editor, definisci le condizioni, gli eventi e i dettagli che si applicano al tipo di regola. Le regole di soppressione della ricerca utilizzano le condizioni di query per bloccare i risultati solo nella vista catalogo selezionata. Non modificano la visibilità dei prodotti tramite la navigazione per categorie, pagine di merchandising, consigli o URL diretti di prodotti.
 
 Non è possibile modificare la vista catalogo (ambito) di una regola dopo la sua creazione. Per applicare una logica simile a un’altra vista catalogo, crea una nuova regola e seleziona la vista catalogo prima di creare.

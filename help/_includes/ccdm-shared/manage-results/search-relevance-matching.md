@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '829'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.it-IT/blob/main/help/_includes/ccdm-shared/manage-results/search-relevance-matching.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Ricerca corrispondenza e classificazione
 
 >[!IMPORTANT]
@@ -59,7 +69,7 @@ La corrispondenza delle frasi da sola non determina la rilevanza. Diversi segnal
 - Incrementa da **esatta / vicino** corrispondenza frase
 - Incrementa quando **tutti i termini di query** vengono visualizzati nel campo **same**
 - **Classificazione intelligente** (se abilitata), che combina rilevanza testuale e segnali comportamentali. Vedere [Funzionamento del punteggio di classificazione intelligente](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)
-- **Peso della ricerca** per ogni attributo e altri fattori di rilevanza testuali (ad esempio, la frequenza con cui si verificano i termini nella lunghezza del nome o della descrizione). Per le distribuzioni Adobe Commerce, configura gli attributi ricercabili e i relativi pesi in [Proprietà storefront attributi](https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/catalog/search/search-results). Per le distribuzioni di Adobe Commerce Optimizer autonome, utilizzare l&#39;[API REST metadati](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata).
+- **[Peso della ricerca](https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/catalog/search/search-results)** per ogni attributo e altri fattori di rilevanza testuali (ad esempio, la frequenza con cui si verificano i termini nella lunghezza del nome o della descrizione). In *Impostazioni*, configura gli attributi che partecipano alla ricerca per parole chiave e i relativi **[pesi di ricerca per parole chiave](../settings.md)**.
 - **[Regole di merchandising](../merchandising/rules/overview.md)** come pin, boost e bury
 
 Poiché i segnali interagiscono, a volte una corrispondenza ampia viene posizionata al di sopra di una corrispondenza di frase più stretta quando **i pesi di ricerca** o la frequenza dei termini superano una corrispondenza di frase più debole.

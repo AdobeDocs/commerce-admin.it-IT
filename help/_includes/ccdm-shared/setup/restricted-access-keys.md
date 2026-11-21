@@ -1,9 +1,19 @@
 ---
-source-git-commit: 94c7929de24bee75e72927fb81692f4a2145c487
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.it-IT/blob/main/help/_includes/ccdm-shared/setup/restricted-access-keys.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Chiavi di accesso con restrizioni
 
 Le chiavi di accesso con restrizioni consentono alle applicazioni client autorizzate di accedere a una [vista di catalogo privata](private-catalog-view.md). Solo le richieste che contengono un token firmato valido da una chiave assegnata possono recuperare i dati del catalogo. Tutte le altre richieste vengono rifiutate, incluse quelle di acquirenti che non hanno accesso esplicito a questa vista catalogo e gli script che esaminano l’API di Adobe Commerce Merchandising Services.
