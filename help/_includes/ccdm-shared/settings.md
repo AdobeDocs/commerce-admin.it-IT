@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/settings.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Impostazioni merchandising
 
 Utilizza l&#39;area di lavoro *Impostazioni* per configurare la ricerca e l&#39;individuazione dei prodotti per la vetrina. Sono disponibili le seguenti schede:
@@ -118,7 +128,7 @@ Dopo aver abilitato la ricerca semantica, nella stessa scheda puoi regolare quan
 
 - **[!UICONTROL Semantic boost]** - Per assegnare la priorità ai risultati rilevanti dal punto di vista semantico nella classificazione, applica un incremento. Aumentare il valore quando le corrispondenze semantiche dovrebbero pesare di più nel set di risultati; abbassarlo quando i risultati si sentono troppo ampi.
 - **[!UICONTROL Similarity threshold]** - Imposta il punteggio di somiglianza minimo (come percentuale) per una corrispondenza semantica. I valori più bassi restituiscono più risultati (richiamo più elevato), ma possono includere corrispondenze più deboli. I valori più alti restituiscono un numero minore di corrispondenze più strette (maggiore precisione).
-- **[!UICONTROL Fuzzy search]** - Per trovare corrispondenze vicine per le query di ricerca e correggere errori di battitura e varianti minori, attivare **2&rbrace;.**
+- **[!UICONTROL Fuzzy search]** - Per trovare corrispondenze vicine per le query di ricerca e correggere errori di battitura e varianti minori, attivare **2}.**
 - **[!UICONTROL Fuzzy search similarity threshold]** - Imposta la somiglianza minima (come percentuale) necessaria per la visualizzazione delle corrispondenze fuzzy. Le soglie inferiori restituiscono corrispondenze più approssimative; aumenta la soglia se i risultati sfocati si sentono troppo ampi.
 
 >[!NOTE]

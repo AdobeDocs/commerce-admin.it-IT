@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/setup/catalog-layer.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Livelli del catalogo
 
 I livelli del catalogo consentono di modificare i dati del prodotto senza modificare i dati di origine originali. I livelli modificano gli attributi del prodotto, ad esempio nome, descrizione, immagini, collegamenti e metadati, creando un livello sopra il catalogo di base. I dati originali del prodotto rimangono intatti e consentono di personalizzare i prodotti in modo sicuro e ripristinare le modifiche in qualsiasi momento.
@@ -199,6 +209,6 @@ Segui questi consigli quando lavori con i livelli del catalogo:
 ## Altri argomenti correlati
 
 * [Visualizzazioni catalogo](catalog-view.md)—Configurare le visualizzazioni catalogo per diversi storefront
-* [Visualizzazioni prodotto](https://experienceleague.adobe.com/it/docs/commerce/optimizer/setup/product-visuals): utilizza AEM Assets per le immagini dei prodotti
+* [Visualizzazioni prodotto](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/product-visuals): utilizza AEM Assets per le immagini dei prodotti
 * [Opportunità](../manage-results/opportunities.md): informazioni sull&#39;ottimizzazione basata sull&#39;intelligenza artificiale tramite i livelli del catalogo
 * [Chiavi di accesso limitate](restricted-access-keys.md)—Proteggere una vista catalogo con autenticazione token firmato

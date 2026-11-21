@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/setup/data-sync.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Sincronizzazione catalogo
 
 Nella pagina **Sincronizzazione dati** viene visualizzata una panoramica dello stato di sincronizzazione dei dati dei prodotti trasferiti dall&#39;origine dati (il catalogo Commerce esistente, il sistema di gestione delle informazioni sui prodotti (PIM), il sistema ERP (Enterprise Resource Planning) e così via) nel livello dati dei servizi di merchandising.
@@ -51,4 +61,4 @@ Se non trovi prodotti specifici nella pagina **Sincronizzazione dati**, devi avv
 
 ## Verificare che la sincronizzazione dei dati funzioni
 
-Per i progetti che utilizzano Adobe Commerce come origine di dati a monte, puoi monitorare il processo di esportazione dei dati e avviare le operazioni di risincronizzazione dalla pagina Stato sincronizzazione feed dati. Per informazioni dettagliate, vedere [Monitoraggio dello stato di sincronizzazione dei feed di dati](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status).
+Per i progetti che utilizzano Adobe Commerce come origine di dati a monte, puoi monitorare il processo di esportazione dei dati e avviare le operazioni di risincronizzazione dalla pagina Stato sincronizzazione feed dati. Per informazioni dettagliate, vedere [Monitoraggio dello stato di sincronizzazione dei feed di dati](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status).

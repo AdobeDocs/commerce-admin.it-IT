@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/synonyms/add.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Crea sinonimi
 
 Aumenta il coinvolgimento dei clienti aggiungendo un elenco personalizzato di sinonimi. Puoi aggiungere fino a 200 sinonimi per origine di catalogo.
@@ -58,13 +68,13 @@ In questo esempio, la parola chiave da associare è &quot;pantaloni&quot; e l&#3
 
 | Campo | Descrizione |
 |--- |--- |
-| [Tipo](https://experienceleague.adobe.com/it/docs/commerce/optimizer/merchandising/synonyms/type) | Determina se i sinonimi hanno lo stesso significato della parola chiave o sono un sottoinsieme della parola chiave. Opzioni:<br />Bidirezionale (impostazione predefinita) - Termini che hanno lo stesso significato della parola chiave e restituiscono gli stessi risultati di ricerca<br />Unidirezionale - Termini che sono un sottoinsieme della parola chiave. I sinonimi unidirezionali restituiscono un elenco più ristretto di prodotti specifici. |
+| [Tipo](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/synonyms/type) | Determina se i sinonimi hanno lo stesso significato della parola chiave o sono un sottoinsieme della parola chiave. Opzioni:<br />Bidirezionale (impostazione predefinita) - Termini che hanno lo stesso significato della parola chiave e restituiscono gli stessi risultati di ricerca<br />Unidirezionale - Termini che sono un sottoinsieme della parola chiave. I sinonimi unidirezionali restituiscono un elenco più ristretto di prodotti specifici. |
 | Parola chiave | Parola comunemente associata a una selezione di prodotti nel catalogo. |
 | Espansione | Termini aggiuntivi che hanno lo stesso significato o un significato simile della parola chiave. |
 
 ## Gestire i sinonimi
 
-Segui queste istruzioni per gestire [sinonimi](https://experienceleague.adobe.com/it/docs/commerce/optimizer/merchandising/synonyms/overview) esistenti.
+Segui queste istruzioni per gestire [sinonimi](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/synonyms/overview) esistenti.
 
 ## Trova sinonimo
 

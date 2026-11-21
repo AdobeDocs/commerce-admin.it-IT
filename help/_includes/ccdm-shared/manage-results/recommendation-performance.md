@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '917'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/manage-results/recommendation-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Prestazioni consigli
 
 Nella pagina Prestazioni dei consigli viene visualizzato un elenco di consigli configurati e le relative metriche chiave, utili per valutarne l’efficacia. Puoi configurare la visualizzazione in modo da visualizzare le metriche relative all’ultimo giorno, settimana o mese. Queste informazioni mostrano la frequenza con cui ogni unità di consigli viene visualizzata o cliccata, consentendoti di valutare le prestazioni e identificare le opportunità di ottimizzazione.
@@ -102,5 +112,5 @@ La disponibilità del prodotto viene applicata per ogni visualizzazione di catal
 **Esempio: consiglio con filtri di inclusione nella selezione Tutte le visualizzazioni**
 
 - **Tutte le visualizzazioni** sono consigliati gli SKU: SKU_ABC, SKU_CDE, SKU_XYZ.
-- **Visualizzazione catalogo: Kingsbluff** non può vendere SKU_ABC o SKU_CDE. **Visualizzato:** Solo SKU_XYZ, purché soddisfi tutti gli altri filtri abilitati.
-- **Visualizzazione catalogo: Arkbridge** non può vendere gli SKU inclusi. **Visualizzato:** Nessuna unità di consigli, perché nessun SKU soddisfa sia il filtro di inclusione che la disponibilità della vista catalogo.
+- **Visualizzazione catalogo: Kingsbluff** non può vendere SKU_ABC o SKU_CDE. **Visualizzato:** SKU_XYZ più qualsiasi altro SKU valido per Kingsbluff.
+- **Visualizzazione catalogo: Arkbridge** non può vendere gli SKU inclusi. **Visualizzato:** Solo gli SKU consentiti da Arkbridge. Se non ne è disponibile alcuna, l’unità di consigli non viene visualizzata nella vetrina.
