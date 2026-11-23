@@ -2,7 +2,7 @@
 title: Best practice per le regole di merchandising
 description: Scopri le best practice per implementare le regole di merchandising per le pagine di ricerca, inserzioni predefinite e categorie.
 role: Admin, Developer
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applicabile solo alle istanze Adobe Commerce as a Cloud Service con provisioning CCDM (infrastruttura SaaS gestita da Adobe)."
 autotag-review: '2026-11-02T19:36:32.517Z'
 TQID: 'https://experienceleague.adobe.com/P8Zd1gS1pwK1tFO--Ghhb-x69L-PndxfSm-PIimEkyM'
 product_v2:
