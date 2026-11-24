@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
+source-git-commit: 43d0b6e49ef882ec365442c8f4f720af0080feea
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3172'
 ht-degree: 0%
 ---
 # Arricchimento del catalogo
@@ -130,7 +130,9 @@ Prima di rivedere o applicare suggerimenti, rivolgiti al tuo amministratore Comm
 
 Dopo aver installato le estensioni di Catalog Enrichment e Catalog Services, la funzionalità di arricchimento del catalogo è disponibile nell&#39;amministratore in **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
 
-![Arricchimento catalogo](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+>[!NOTE]
+>
+>Il menu **[!UICONTROL AI Product Discovery]** elenca anche **[!UICONTROL Product Details Page Enrichment (Beta)]**. L’arricchimento della pagina con i dettagli del prodotto è in versione beta e non è ancora disponibile a livello generale.
 
 >[!NOTE]
 >
@@ -148,8 +150,6 @@ I campi di questa scheda identificano l’ambiente Commerce e la visualizzazione
 1. In **[!UICONTROL Commerce Configuration]**, espandere il pannello di visualizzazione archivio con l&#39;etichetta con il relativo URL.
 
    Fornisci i dettagli dell&#39;ambiente [!DNL Adobe Commerce] per abilitare il servizio Catalog Adobe Brand Visibility e i flussi di lavoro di controllo.
-
-   ![Configurazione Commerce nella scheda Impostazioni di arricchimento del catalogo](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Immettere i dettagli di connessione richiesti per la visualizzazione archivio.
 
@@ -187,8 +187,6 @@ L’arricchimento del catalogo utilizza le seguenti visualizzazioni del flusso d
 - **[!UICONTROL Fixed Suggestions]**: elementi già applicati o risolti.
 - **[!UICONTROL Ignored Suggestions]**: elementi esclusi intenzionalmente dall&#39;azione.
 
-![Arricchimento catalogo](./assets/agentic-opportunities.png){zoomable="yes"}
-
 ### Distribuire i suggerimenti approvati {#review-deploy-catalog}
 
 Per distribuire i suggerimenti approvati:
@@ -221,8 +219,6 @@ Dopo aver applicato un aggiornamento, i suggerimenti passano a **[!UICONTROL Fix
 
    Il modulo del prodotto riporta il nome e/o la descrizione del prodotto arricchito.
 
-   ![Nome prodotto arricchito](./assets/enriched-product-name.png){zoomable="yes"}
-
 1. Facoltativo: selezionare **[!UICONTROL Override Catalog Agent provided Product Name]** se si desidera mantenere un nome immesso manualmente.
 
    Le sostituzioni manuali influiscono sul modo in cui i suggerimenti rimangono sincronizzati con il catalogo. Per ulteriori informazioni, vedere [Sostituzione manuale in Admin](#manual-override-in-the-admin).
@@ -230,8 +226,6 @@ Dopo aver applicato un aggiornamento, i suggerimenti passano a **[!UICONTROL Fix
 1. Espandere la sezione **[!UICONTROL Content]** e individuare il campo di descrizione.
 
    La descrizione arricchita viene visualizzata quando hai applicato le modifiche alla descrizione.
-
-   ![Arricchisci descrizione prodotto](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. Facoltativo: selezionare **[!UICONTROL Override Catalog Agent provided Description]** se si desidera conservare una descrizione immessa manualmente.
 

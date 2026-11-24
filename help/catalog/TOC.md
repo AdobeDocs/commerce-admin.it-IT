@@ -4,13 +4,11 @@ user-guide-description: Informazioni complete sulle funzioni di gestione dei cat
 breadcrumb-title: Gestione catalogo
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: c67474ee4b72744766421090e30c56c85d687495
+source-git-commit: 58face244f8963cdd5eb8da355f60c34e223b591
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
-
 ---
-
 
 # Guida alla gestione del catalogo {#catalog}
 
@@ -89,7 +87,7 @@ ht-degree: 1%
     + [Progettazione](settings-advanced-design.md)
     + [Impostazioni automatiche](product-autosettings.md)
     + [Opzioni regalo](product-gift-options.md)
-  + [Arricchimento del catalogo](catalog-enrichment.md)
+    + [Arricchimento del catalogo](catalog-enrichment.md)
 + Attributi del prodotto {#product-attributes}
   + [Panoramica sugli attributi](product-attributes.md)
   + [Tipo di input attributo](attributes-input-types.md)
