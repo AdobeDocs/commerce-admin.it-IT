@@ -4,7 +4,7 @@ description: Utilizza l'arricchimento della pagina dei dettagli del prodotto [!D
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
+badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/it/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -129,7 +129,7 @@ I suggerimenti sono organizzati in tre visualizzazioni: **Suggerimenti correnti*
 
 Dopo aver rivisto i suggerimenti e selezionato le pagine dei prodotti da ottimizzare, fai clic su **Distribuisci ottimizzazioni** per pubblicare l&#39;arricchimento utilizzando Ottimizza in Edge. Una finestra di dialogo di conferma della **Distribuzione ad Edge** mostra gli URL del prodotto selezionati, il tipo di ottimizzazione e l&#39;arricchimento applicati. Dopo la distribuzione, una schermata di conferma conferma conferma quali pagine di prodotto sono state ottimizzate correttamente.
 
-L&#39;ottimizzazione viene distribuita esclusivamente agli agenti utente di IA tramite [Ottimizza in Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). I visitatori continuano a vedere la tua esperienza nella vetrina esistente esattamente come prima, senza modifiche alla progettazione PDP, alle prestazioni della pagina o all&#39;esperienza del marchio.
+L&#39;ottimizzazione viene distribuita esclusivamente agli agenti utente di IA tramite [Ottimizza in Edge](https://experienceleague.adobe.com/it/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). I visitatori continuano a vedere la tua esperienza nella vetrina esistente esattamente come prima, senza modifiche alla progettazione PDP, alle prestazioni della pagina o all&#39;esperienza del marchio.
 
 ## Limiti e considerazioni {#limits}
 
@@ -137,7 +137,7 @@ L&#39;ottimizzazione viene distribuita esclusivamente agli agenti utente di IA t
 - L’arricchimento organizza i fatti già presenti nel catalogo e non aggiunge nuove informazioni sui prodotti.
 - Il flusso di lavoro di arricchimento PDP non modifica la vetrina.
 - I processi di arricchimento PDP e i processi di arricchimento catalogo hanno scopi e flussi di lavoro diversi.
-- L&#39;ottimizzazione PDP utilizza [Ottimizza in Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn).
+- L&#39;ottimizzazione PDP utilizza [Ottimizza in Edge](https://experienceleague.adobe.com/it/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn).
 
 ## Best practice {#best-practices}
 

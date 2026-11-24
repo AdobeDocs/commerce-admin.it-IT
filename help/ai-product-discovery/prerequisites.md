@@ -15,8 +15,8 @@ Prima di utilizzare l’arricchimento del catalogo o PDP, conferma i requisiti a
 
 | Requisito | Applicabile a | Dettagli |
 | --- | --- | --- |
-| Ottimizza in Edge | Arricchimento PDP | Obbligatorio. Ottimizza in Edge fornisce i dati di prodotto arricchiti agli agenti di intelligenza artificiale. Consulta la [Guida all&#39;ottimizzazione in Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). |
-| Inoltro registro | Entrambi i flussi di lavoro | Facoltativo. Abilita le raccomandazioni di arricchimento in base al traffico agente. In caso contrario, sarà comunque possibile selezionare manualmente prodotti o pagine di prodotti. Consulta la [Guida all&#39;inoltro dei registri](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview). |
+| Ottimizza in Edge | Arricchimento PDP | Obbligatorio. Ottimizza in Edge fornisce i dati di prodotto arricchiti agli agenti di intelligenza artificiale. Consulta la [Guida all&#39;ottimizzazione in Edge](https://experienceleague.adobe.com/it/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). |
+| Inoltro registro | Entrambi i flussi di lavoro | Facoltativo. Abilita le raccomandazioni di arricchimento in base al traffico agente. In caso contrario, sarà comunque possibile selezionare manualmente prodotti o pagine di prodotti. Consulta la [Guida all&#39;inoltro dei registri](https://experienceleague.adobe.com/it/docs/brand-visibility/using/log-forwarding/log-forwarding-overview). |
 | Vetrina indicizzabile | Arricchimento del catalogo | Obbligatorio per i consigli basati sul scansiono. I bot attivi e orientati verso LLM devono essere in grado di accedere alle pagine dei prodotti. |
 | Accesso a [!DNL Adobe Admin Console] | Arricchimento del catalogo | Obbligatorio. Durante l&#39;installazione, [!DNL Adobe Commerce] controlla se l&#39;organizzazione ha firmato il driver GenAI o ha rinunciato ai servizi di IA sottostanti. |
 
@@ -36,7 +36,7 @@ Per [!DNL Adobe Commerce] sull&#39;infrastruttura cloud o on-premise, installare
 **Prima di iniziare:**
 
 - [!DNL Adobe Commerce] 2.4.7 o versione successiva su PHP 8.3 o versione successiva. Consulta le [note sulla versione](release-notes.md).
-- Organizzazione [!DNL Adobe IMS]. Se la tua organizzazione non ne dispone, consulta la [Panoramica sull&#39;integrazione Adobe IMS](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview). L’arricchimento del catalogo utilizza il token di accesso IMS dell’utente amministratore connesso. L&#39;accesso con un solo nome utente e una sola password Commerce non fornisce questo token.
+- Organizzazione [!DNL Adobe IMS]. Se la tua organizzazione non ne dispone, consulta la [Panoramica sull&#39;integrazione Adobe IMS](https://experienceleague.adobe.com/it/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview). L’arricchimento del catalogo utilizza il token di accesso IMS dell’utente amministratore connesso. L&#39;accesso con un solo nome utente e una sola password Commerce non fornisce questo token.
 - Accesso alla riga di comando al server applicazioni di Commerce e autorizzazione per il download di pacchetti da `repo.magento.com`.
 
 **Installa e verifica:**
@@ -50,7 +50,7 @@ Per [!DNL Adobe Commerce] sull&#39;infrastruttura cloud o on-premise, installare
 
    [!DNL Catalog Service] è installato automaticamente con [!DNL Live Search] e [!DNL Product Recommendations], quindi ignora questo passaggio se uno dei servizi è abilitato.
 
-1. Se non è già configurato per un altro servizio Commerce, configurare [Connettore servizi Commerce](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas) con chiavi API e spazio dati SaaS.
+1. Se non è già configurato per un altro servizio Commerce, configurare [Connettore servizi Commerce](https://experienceleague.adobe.com/it/docs/commerce/user-guides/integration-services/saas) con chiavi API e spazio dati SaaS.
 
 1. Aggiungi l’estensione di arricchimento condivisa:
 
