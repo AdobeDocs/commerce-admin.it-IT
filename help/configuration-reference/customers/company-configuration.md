@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '878'
 ht-degree: 3%
 ---
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
@@ -60,6 +60,7 @@ Per ulteriori informazioni sulla configurazione di queste impostazioni, vedere [
 | Campo | [Ambito](../../getting-started/websites-stores-views.md#scope-settings) | Descrizione |
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Sito Web | Determina se i visitatori del tuo archivio possono scegliere di [registrarsi](../../customers/customer-sign-in.md) per un account aziendale o per un account individuale. Opzioni: `Yes` / `No` |
+| [!UICONTROL Allow Company Configuration on Storefront Registration] | Sito Web | Determina se la mutazione GraphQL `createCompany` accetta la configurazione della società durante la registrazione in vetrina, incluse le impostazioni della rubrica della società. Questa opzione è disponibile quando **[!UICONTROL Allow Company Registration from the Storefront]** è impostato su `Yes`. Non abilita la rubrica per ogni società. Opzioni: `Yes` / `No` (impostazione predefinita) |
 
 {style="table-layout:auto"}
 

@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '2455'
+source-wordcount: '2640'
 ht-degree: 0%
 ---
 # Creare un account società
@@ -96,6 +96,8 @@ Il sistema assegna il ruolo di [amministratore società](account-company-admin.m
 >[!IMPORTANT]
 >
 >Per supportare questo metodo (che consente ai clienti di registrare la propria società dalla vetrina), assicurati che le [funzionalità B2B](enable-basic-features.md) siano abilitate.
+
+Per gli storefront che utilizzano la mutazione GraphQL `createCompany`, le impostazioni della rubrica della società possono essere inviate durante la registrazione quando **[!UICONTROL Allow Company Configuration on Storefront Registration]** è abilitato nella [configurazione società](../configuration-reference/customers/company-configuration.md#general). Questa impostazione è disabilitata per impostazione predefinita e non abilita la rubrica di una società.
 
 1. Nell&#39;angolo superiore destro dell&#39;intestazione della vetrina, il cliente fa clic su **[!UICONTROL Create an Account]** e sceglie **[!UICONTROL Create New Company Account]**.
 
@@ -254,6 +256,10 @@ Il processo di creazione di una società dall’amministratore è essenzialmente
 
    * Se si desidera consentire ai dipendenti della società di creare e utilizzare ordini fornitore dal proprio account, impostare **[!UICONTROL Enable Purchase Orders]** su `Yes`.
 
+   * Per abilitare una rubrica condivisa, impostare **[!UICONTROL Enable Company Address Book]** su `Yes`. Questa impostazione è `No` per impostazione predefinita.
+
+   * Per consentire un indirizzo di spedizione temporaneo al momento dell&#39;estrazione quando la rubrica della società è abilitata, impostare **[!UICONTROL Allow Custom Shipping Address]** su `Yes`. Questa impostazione è `No` per impostazione predefinita.
+
    * Per modificare **[!UICONTROL Applicable Payment Methods]** disponibili per la società, deselezionare la casella di controllo **[!UICONTROL Use config settings]** e scegliere una delle opzioni seguenti:
 
      | Opzione | Descrizione |
@@ -304,6 +310,8 @@ Dopo l&#39;attivazione, gli amministratori della società devono:
 * **[Gestisci utenti società](account-company-users.md)**—Aggiungi dipendenti e assegna ruoli
 * **[Imposta ordini di acquisto](purchase-order-flow.md)**—Configura i flussi di lavoro di approvazione se necessario
 * **[Verifica impostazioni credito](credit-company.md)**—Comprendere e gestire il credito aziendale (se abilitato)
+
+Quando la rubrica della società è abilitata per una vetrina supportata, gli utenti della società possono utilizzare gli indirizzi della società al momento del pagamento anziché la rubrica personale. La fatturazione richiede un indirizzo della società esistente. La spedizione richiede un indirizzo aziendale a meno che non siano consentiti indirizzi di spedizione personalizzati; le ubicazioni di prelievo sono esenti. Ai ruoli aziendali possono essere concesse autorizzazioni separate per aggiungere, modificare, eliminare e impostare gli indirizzi aziendali predefiniti. Una società può avere indirizzi di fatturazione e spedizione predefiniti separati.
 
 ## Problemi comuni e risoluzione dei problemi
 
@@ -462,6 +470,8 @@ Puoi configurare le impostazioni avanzate per le singole società. Se crei una g
 | [!UICONTROL Customer Group] | (Solo amministratori) mostra il [gruppo clienti](../customers/customer-groups.md) o il [catalogo condiviso](catalog-shared.md) assegnato alla società. |
 | [!UICONTROL Allow Quotes] | (Solo amministratore) Determina se i membri della società possono preparare e inviare preventivi negoziabili per conto della società. |
 | [!UICONTROL Enable Purchase Orders] | (Solo amministratore) Determina se i membri della società possono inviare ordini come [ordini di acquisto](account-dashboard-my-purchase-orders.md) per conto della società. |
+| [!UICONTROL Enable Company Address Book] | (Solo amministratori) Abilita gli indirizzi aziendali per la società nei flussi di vetrina supportati. Opzioni: `Yes` / `No` (impostazione predefinita). |
+| [!UICONTROL Allow Custom Shipping Address] | (Solo amministratori) Consente indirizzi di spedizione temporanei al momento del pagamento quando la rubrica della società è abilitata. La fatturazione richiede ancora un indirizzo della società esistente. Opzioni: `Yes` / `No` (impostazione predefinita). |
 | Metodi di pagamento applicabili | (Solo amministratori) indica i metodi di pagamento disponibili per gli acquisti aziendali. Opzioni: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | (Solo amministratori) diventa attivo se attivi specifici metodi di pagamento. Per rendere disponibili più metodi di pagamento per l&#39;account aziendale, tenere premuto il tasto Ctrl (PC) o il tasto Comando (Mac) e selezionare ciascuna opzione. |
 | [!UICONTROL Applicable Shipping Methods] | (Solo amministratori) indica i metodi di spedizione disponibili per gli acquisti aziendali. Opzioni: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
